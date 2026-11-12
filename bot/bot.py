@@ -155,16 +155,18 @@ def poll():
     me = tg("getMe") or {}
     hook = tg("getWebhookInfo") or {}
     print(f"бот @{me.get('username')}: новых сообщений {len(upd)}, webhook={hook.get('url') or 'нет'}", flush=True)
-    if not upd and state.get("menu"):
+    if not upd and state.get("menu2"):
         return
     subs, events, changed = load_subs(), load_events(), False
-    if SITE != "/" and not state.get("menu"):
+    if SITE != "/" and not state.get("menu2"):
         # кнопка «Радар» слева от поля ввода — открывает мини-приложение
         if tg("setChatMenuButton", menu_button={"type": "web_app", "text": "Радар", "web_app": {"url": SITE + "?tg=1"}}):
-            state["menu"] = True
+            state["menu2"] = True
         tg("setMyCommands", commands=[{"command": "start", "description": "Открыть Радар"},
                                       {"command": "city", "description": "Город для дайджеста"},
                                       {"command": "week", "description": "Дайджест сейчас"},
+                                      {"command": "sources", "description": "Голосовать за новые источники"},
+                                      {"command": "suggest", "description": "Предложить событие или канал"},
                                       {"command": "stop", "description": "Отписаться"}])
     for u in upd:
         state["offset"] = u["update_id"] + 1
@@ -177,9 +179,13 @@ def poll():
                 tg("answerCallbackQuery", callback_query_id=q["id"], text="Добавлено" if data.startswith("src+:") else "Отклонено")
                 tg("editMessageReplyMarkup", chat_id=chat, message_id=q["message"]["message_id"], reply_markup={"inline_keyboard": []})
                 continue
+            if data.startswith(("vote+:", "vote-:")):
+                tg("answerCallbackQuery", callback_query_id=q["id"], text=handle_vote(chat, data[6:], data.startswith("vote+:")))
+                tg("editMessageReplyMarkup", chat_id=chat, message_id=q["message"]["message_id"], reply_markup={"inline_keyboard": []})
+                continue
             if data.startswith("city:"):
                 city = q["data"][5:]
-                subs[chat] = {"city": city}; changed = True
+                subs.setdefault(chat, {})["city"] = city; changed = True
                 tg("answerCallbackQuery", callback_query_id=q["id"], text="Готово!")
                 tg("sendMessage", chat_id=chat, parse_mode="HTML", disable_web_page_preview=True,
                    text=f"Подписка оформлена: <b>{html.escape(city)}</b>. Дайджест приходит по понедельникам.\n\n" + digest_text(events, city))
@@ -204,6 +210,13 @@ def poll():
         elif text.startswith("/week"):
             city = subs.get(chat, {}).get("city")
             tg("sendMessage", chat_id=chat, parse_mode="HTML", disable_web_page_preview=True, text=digest_text(events, city) if city else "Сначала выберите город: /city")
+        elif text.startswith("/sources"):
+            s_ = subs.setdefault(chat, {})
+            s_["scout"] = not s_.get("scout"); changed = True
+            tg("sendMessage", chat_id=chat, text=(
+                "Готово! Раз в неделю буду присылать каналы-кандидаты в источники «Радара». Голосуйте 👍/👎 — "
+                "каналы с вашими голосами редакция рассмотрит первыми. Выключить — снова /sources."
+                if s_["scout"] else "Больше не присылаю кандидатов. Включить снова — /sources."))
         elif text.startswith("/myid"):
             tg("sendMessage", chat_id=chat, text=f"Ваш chat id: {chat}\nВпишите его в секрет OWNER_CHAT_ID, чтобы получать кандидатов в новые источники.")
         elif text.startswith("/stop"):
@@ -211,16 +224,50 @@ def poll():
                 changed = True
             tg("sendMessage", chat_id=chat, text="Вы отписались. Вернуться — /start")
         else:
-            tg("sendMessage", chat_id=chat, text="Команды: /city — выбрать город, /week — дайджест сейчас, /stop — отписаться" + (f"\nСайт: {SITE}" if SITE != "/" else ""))
+            tg("sendMessage", chat_id=chat, text="Команды: /city — выбрать город, /week — дайджест сейчас, /sources — голосовать за новые источники, /suggest — предложить событие, /stop — отписаться" + (f"\nСайт: {SITE}" if SITE != "/" else ""))
     STATE.parent.mkdir(parents=True, exist_ok=True)
     STATE.write_text(json.dumps(state))
     if changed:
         save_subs(subs)
 
 
+VOTE_ALERT = 3   # столько 👍 — и владельцу сразу приходит канал на решение
+
+
+def voter_id(chat):
+    """Голоса храним в открытом state.json, поэтому вместо chat id — необратимый хэш."""
+    import hashlib
+    return hashlib.sha256((os.environ.get("BOT_STORE_KEY", "") + str(chat)).encode()).hexdigest()[:16]
+
+
+def owner_card(u, n, votes):
+    up, down = len(votes.get("up", [])), len(votes.get("down", []))
+    return dict(text=f"https://t.me/s/{u}\nупоминаний: {n} · 👍 {up} · 👎 {down}",
+                reply_markup={"inline_keyboard": [[{"text": "✅ Добавить", "callback_data": f"src+:{u}"[:64]},
+                                                   {"text": "✖ Нет", "callback_data": f"src-:{u}"[:64]}]]})
+
+
+def handle_vote(chat, u, up):
+    st = json.loads(STATE_ROBOT.read_text(encoding="utf-8")) if STATE_ROBOT.exists() else {}
+    if u not in st.get("candidates", {}):
+        return "Этот канал уже рассмотрен"
+    v = st.setdefault("votes", {}).setdefault(u, {"up": [], "down": []})
+    me = voter_id(chat)
+    for k in ("up", "down"):
+        if me in v[k]:
+            v[k].remove(me)
+    v["up" if up else "down"].append(me)
+    if up and len(v["up"]) >= VOTE_ALERT and not v.get("alerted") and OWNER:
+        v["alerted"] = True
+        tg("sendMessage", chat_id=OWNER, **owner_card(u, st["candidates"][u], v))
+    STATE_ROBOT.write_text(json.dumps(st, ensure_ascii=False, indent=1), encoding="utf-8")
+    return "Голос учтён — спасибо!"
+
+
 def handle_candidate(u, add):
     st = json.loads(STATE_ROBOT.read_text(encoding="utf-8")) if STATE_ROBOT.exists() else {}
     st.setdefault("candidates", {}).pop(u, None)
+    st.get("votes", {}).pop(u, None)
     if add:
         txt = SOURCES.read_text(encoding="utf-8")
         if f"u: {u}," not in txt:
@@ -232,23 +279,41 @@ def handle_candidate(u, add):
 
 
 def candidates():
-    """Раз в неделю: владельцу — каналы, которые чаще всего упоминают и репостят наши источники."""
-    if not OWNER or not STATE_ROBOT.exists():
+    """Раз в неделю: каналы, которые чаще всего упоминают и репостят наши источники.
+    Подписчики с /sources голосуют 👍/👎, владелец видит голоса и решает."""
+    if not STATE_ROBOT.exists():
         return
     st = json.loads(STATE_ROBOT.read_text(encoding="utf-8"))
-    top = sorted(((n, u) for u, n in st.get("candidates", {}).items() if n >= 2), reverse=True)[:10]
+    votes = st.get("votes", {})
+    score = lambda u: len(votes.get(u, {}).get("up", [])) - len(votes.get(u, {}).get("down", []))
+    top = sorted((u for u, n in st.get("candidates", {}).items() if n >= 2),
+                 key=lambda u: (score(u), st["candidates"][u]), reverse=True)[:10]
     if not top:
         return
-    tg("sendMessage", chat_id=OWNER, text="Кандидаты в новые источники за неделю (чаще всего упоминаются и репостятся):")
-    for n, u in top:
-        tg("sendMessage", chat_id=OWNER, text=f"https://t.me/s/{u}\nупоминаний: {n}",
-           reply_markup={"inline_keyboard": [[{"text": "✅ Добавить", "callback_data": f"src+:{u}"[:64]},
-                                              {"text": "✖ Нет", "callback_data": f"src-:{u}"[:64]}]]})
+    if OWNER:
+        tg("sendMessage", chat_id=OWNER, text="Кандидаты в новые источники за неделю (упоминания и голоса читателей):")
+        for u in top:
+            tg("sendMessage", chat_id=OWNER, **owner_card(u, st["candidates"][u], votes.get(u, {})))
+    subs = load_subs()
+    for chat, s in subs.items():
+        if not s.get("scout") or chat == OWNER:
+            continue
+        me = voter_id(chat)
+        fresh = [u for u in top if me not in votes.get(u, {}).get("up", []) + votes.get(u, {}).get("down", [])][:5]
+        if not fresh:
+            continue
+        tg("sendMessage", chat_id=chat, text="Кандидаты в источники «Радара» на этой неделе. Стоит ли читать эти каналы?")
+        for u in fresh:
+            tg("sendMessage", chat_id=chat, text=f"https://t.me/s/{u}",
+               reply_markup={"inline_keyboard": [[{"text": "👍 Да", "callback_data": f"vote+:{u}"[:64]},
+                                                  {"text": "👎 Нет", "callback_data": f"vote-:{u}"[:64]}]]})
 
 
 def digest():
     events, subs = load_events(), load_subs()
     for chat, s in subs.items():
+        if not s.get("city"):
+            continue
         res = tg("sendMessage", chat_id=chat, parse_mode="HTML", disable_web_page_preview=True,
                  text="<b>Дайджест недели</b>\n\n" + digest_text(events, s.get("city")))
         if res is None:
