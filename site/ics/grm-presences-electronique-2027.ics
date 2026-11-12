@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Фестиваль PRÉSENCES électronique 2027
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:grm-presences-electronique-2027@afisha-art
+DTSTAMP:20261112T223721Z
+DTSTART;VALUE=DATE:20270219
+DTEND;VALUE=DATE:20270222
+SUMMARY:Фестиваль PRÉSENCES électronique 2027
+LOCATION:Maison de la Radio et de la Musique\, Studio 104\, Париж\, 
+ Франция
+DESCRIPTION:Главный фестиваль GRM: три вечера э
+ кспериментальной электроакустики на ак
+ усмониуме из шестидесяти громкоговорит
+ елей.\nINA GRM\nhttps://parisjetaime.com/eng/event/presences-electron
+ ique-festival-maison-de-la-radio-e248
+URL:https://doublebasskakov.github.io/radar/#e=grm-presences-electronique
+ -2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Фестиваль PRÉSENCES électronique 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Carte blanche Cologne
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:carte-blanche-cologne-2026@afisha-art
+DTSTAMP:20261112T223721Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261207
+SUMMARY:Carte blanche Cologne
+LOCATION:разные площадки\, Кёльн\, Германия
+DESCRIPTION:Три дня электронной и электроаку
+ стической музыки от Кёльнского обществ
+ а новой музыки — города\, где родилась ele
+ ktronische Musik.\nKGNM\nhttps://electropresence.com/en/liens/evenement?e
+ poque=futur&page=1
+URL:https://doublebasskakov.github.io/radar/#e=carte-blanche-cologne-2026
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Carte blanche Cologne
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Electroacoustic Music Days 2026
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:helmca-ea-days-corfu-2026@afisha-art
+DTSTAMP:20261112T223721Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261123
+SUMMARY:Electroacoustic Music Days 2026
+LOCATION:Ионический университет\, Корфу\, Гр
+ еция
+DESCRIPTION:Фестиваль Ассоциации греческих к
+ омпозиторов-электроакустиков: концерты
+ \, акусматика и доклады.\nHELMCA\nhttps://electropresen
+ ce.com/en/liens/evenement?epoque=futur&page=1
+URL:https://doublebasskakov.github.io/radar/#e=helmca-ea-days-corfu-2026
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Electroacoustic Music Days 2026
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

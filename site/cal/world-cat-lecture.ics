@@ -1,0 +1,46 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Радар — Мир / World · cat-lecture
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:ircam-radigue-ecoute@afisha-art
+DTSTAMP:20261112T223721Z
+DTSTART:20261118T180000Z
+DTEND:20261118T200000Z
+SUMMARY:Les états de l'écoute: Элиана Радиг
+LOCATION:IRCAM\, зал Стравинского\, Париж\, Фран
+ ция
+DESCRIPTION:Встреча в IRCAM о слушании и музыке 
+ Элианы Радиг — пионерки электронного д
+ рона.\n\nhttps://www.ircam.fr/en/events/les-etats-de-lecoute-eliane-r
+ adigue
+URL:https://doublebasskakov.github.io/radar/#e=ircam-radigue-ecoute
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Les états de l'écoute: Элиана Радиг
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ircam-forum-workshops-2027@afisha-art
+DTSTAMP:20261112T223721Z
+DTSTART:20270324T090000Z
+DTEND:20270324T110000Z
+SUMMARY:IRCAM Forum Workshops 2027
+LOCATION:IRCAM\, Париж\, Франция
+DESCRIPTION:Ежегодная встреча разработчиков 
+ и композиторов: новые инструменты IRCAM дл
+ я звука\, пространства и ИИ.\n\nhttps://www.ircam.fr
+ /en/events/ircam-forum-workshops
+URL:https://doublebasskakov.github.io/radar/#e=ircam-forum-workshops-2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:IRCAM Forum Workshops 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

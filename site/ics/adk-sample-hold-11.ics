@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:sample&hold #11: Paul Purgas & Stefan Keller
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:adk-sample-hold-11@afisha-art
+DTSTAMP:20261112T223721Z
+DTSTART:20261125T190000Z
+DTEND:20261125T210000Z
+SUMMARY:sample&hold #11: Paul Purgas & Stefan Keller
+LOCATION:Akademie der Künste\, Pariser Platz\, Pariser Platz 4\, Бер
+ лин\, Германия
+DESCRIPTION:Серия Студии электроакустическо
+ й музыки Академии искусств: Пол Пургас п
+ оказывает заново открытую электронную 
+ музыку Индии начала 1970-х.\nPaul Purgas\, Stefan Kelle
+ r\, Andreas Fischer\nhttps://www.visitberlin.de/en/node/2293941
+URL:https://doublebasskakov.github.io/radar/#e=adk-sample-hold-11
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:sample&hold #11: Paul Purgas & Stefan Keller
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

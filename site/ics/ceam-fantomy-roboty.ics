@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:«Фантомы. Партитура для роботов»
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:ceam-fantomy-roboty@afisha-art
+DTSTAMP:20261112T223721Z
+DTSTART:20261113T130000Z
+DTEND:20261113T150000Z
+SUMMARY:«Фантомы. Партитура для роботов»
+LOCATION:Арт-пространство «Артемьев» (ЦЭАМ 
+ Московской консерватории)\, ул. Большая 
+ Никитская\, 13/6\, Москва
+DESCRIPTION:Выставка-партитура ЦЭАМ: два авто
+ матизированных рояля\, контрабас с трем
+ я роборуками и другие роботизированные 
+ объекты разыгрывают пространственное м
+ узыкальное произведение. Открыто пт–вс
+ \, 16:00–20:00.\nНиколай Попов\, Дмитрий Масаи
+ дов\, инженерная команда ЦЭАМ\nhttps://t.me/ceamm
+ c/3510
+URL:https://doublebasskakov.github.io/radar/#e=ceam-fantomy-roboty
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:«Фантомы. Партитура для роботов»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

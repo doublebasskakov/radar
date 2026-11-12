@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Résonances Électriques 2.0 / JNME
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:jnme-strasbourg-2026@afisha-art
+DTSTAMP:20261112T223721Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261117
+SUMMARY:Résonances Électriques 2.0 / JNME
+LOCATION:Cité de la musique et de la danse\, Страсбург\, Фра
+ нция
+DESCRIPTION:24-е Национальные дни электроакус
+ тической музыки: студенты французских к
+ лассов композиции играют на акусмониум
+ е и под 3D-куполом громкоговорителей.\n\nhtt
+ ps://aecme.org/2026/09/04/jnme-2026-strasbourg-2/
+URL:https://doublebasskakov.github.io/radar/#e=jnme-strasbourg-2026
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Résonances Électriques 2.0 / JNME
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

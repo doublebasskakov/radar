@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:INA GRM: Akousma & Live Electronics
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:grm-akousma-may-2027@afisha-art
+DTSTAMP:20261112T223721Z
+DTSTART;VALUE=DATE:20270507
+DTEND;VALUE=DATE:20270510
+SUMMARY:INA GRM: Akousma & Live Electronics
+LOCATION:Maison de la Radio et de la Musique\, Studio 104\, Париж\, 
+ Франция
+DESCRIPTION:Финал сезона GRM: три концерта прем
+ ьер — акусматика на носителе и смешанны
+ е сочинения с инструменталистами.\n\nhttps:/
+ /www.offi.fr/concerts/maison-de-radio-france-2674/ina-grm-akousma-3333095
+ .html
+URL:https://doublebasskakov.github.io/radar/#e=grm-akousma-may-2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:INA GRM: Akousma & Live Electronics
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

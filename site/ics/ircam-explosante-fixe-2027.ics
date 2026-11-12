@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Булез: «…explosante-fixe…»
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:ircam-explosante-fixe-2027@afisha-art
+DTSTAMP:20261112T223721Z
+DTSTART:20270113T190000Z
+DTEND:20270113T210000Z
+SUMMARY:Булез: «…explosante-fixe…»
+LOCATION:Филармония Парижа\, Большой зал\, Па
+ риж\, Франция
+DESCRIPTION:Классика live electronics: «…explosante-fixe…» 
+ Булеза с электроникой реального времен
+ и IRCAM.\nEnsemble intercontemporain\, IRCAM\nhttps://www.ircam.fr/en/ev
+ ents/explosante-fixe
+URL:https://doublebasskakov.github.io/radar/#e=ircam-explosante-fixe-2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Булез: «…explosante-fixe…»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

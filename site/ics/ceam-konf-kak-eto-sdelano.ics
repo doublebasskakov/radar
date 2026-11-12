@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Конференция ЦЭАМ «Как это сделан
+ о?»
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:ceam-konf-kak-eto-sdelano@afisha-art
+DTSTAMP:20261112T223721Z
+DTSTART:20261125T130000Z
+DTEND:20261125T150000Z
+SUMMARY:Конференция ЦЭАМ «Как это сделано?»
+LOCATION:Арт-пространство «Артемьев»\, ул. Б
+ ольшая Никитская\, 13/6\, Москва
+DESCRIPTION:Три дня о технологиях в новой муз
+ ыке: воркшоп с роботом-гуманоидом\, авто
+ рские разборы сочинений\, презентации э
+ лектромузыкальных инструментов и PureData-
+ библиотеки CEAMMC. Вход свободный.\nЦЭАМ\, Д
+ митрий Масаидов\, Владимир Горлинский\, 
+ НИУ ВШЭ\nhttps://t.me/ceammc/3510
+URL:https://doublebasskakov.github.io/radar/#e=ceam-konf-kak-eto-sdelano
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Конференция ЦЭАМ «Как это сделан
+ о?»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

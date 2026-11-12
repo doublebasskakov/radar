@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:«Звуковые пути»: CEAM Artists
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:zvukovye-puti-ceam-artists@afisha-art
+DTSTAMP:20261112T223721Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:«Звуковые пути»: CEAM Artists
+LOCATION:Александринский театр\, Новая сцен
+ а\, Чёрный зал\, Санкт-Петербург
+DESCRIPTION:На XXXIV фестивале новой музыки «Зв
+ уковые пути» (тема «Регенерация») ансам
+ бль ЦЭАМ играет электроакустическую пр
+ ограмму с видео — от Панайотиса Кокорас
+ а до Николая Попова.\nCEAM Artists (куратор Юли
+ я Мигунова)\; Кокорас\, Наджаров\, Мунтенд
+ орф\, Попов\, Ивичевич\nhttps://alexandrinsky.ru/afisha-i
+ -bilety/regeneratsiya-xxxiv-mezhdunarodnyy-festival-novoy-muzyki-zvukovye
+ -puti/
+URL:https://doublebasskakov.github.io/radar/#e=zvukovye-puti-ceam-artists
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:«Звуковые пути»: CEAM Artists
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

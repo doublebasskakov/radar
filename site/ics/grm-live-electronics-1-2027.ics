@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:INA GRM: Live Electronics #1
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:grm-live-electronics-1-2027@afisha-art
+DTSTAMP:20261112T223721Z
+DTSTART;VALUE=DATE:20270108
+DTEND;VALUE=DATE:20270109
+SUMMARY:INA GRM: Live Electronics #1
+LOCATION:Centquatre-Paris\, Париж\, Франция
+DESCRIPTION:Вечер живой электроники в сезоне 
+ Multiphonies 26–27 легендарной Группы музыкаль
+ ных исследований.\n\nhttps://inagrm.com/shift
+URL:https://doublebasskakov.github.io/radar/#e=grm-live-electronics-1-202
+ 7
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:INA GRM: Live Electronics #1
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

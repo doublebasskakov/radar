@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Радар — Мир / World · country-belgium
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:grm-bozar-acousmonium-2027@afisha-art
+DTSTAMP:20261112T223721Z
+DTSTART;VALUE=DATE:20270127
+DTEND;VALUE=DATE:20270131
+SUMMARY:INA GRM: Акусмониум в Bozar
+LOCATION:Bozar (Дворец изящных искусств)\, Брюс
+ сель\, Бельгия
+DESCRIPTION:GRM привозит акусмониум — оркестр 
+ из десятков громкоговорителей — на про
+ грамму Total Immersion в Брюсселе.\n\nhttps://www.bozar.be
+ /en/calendar/ina-grm-acousmonium
+URL:https://doublebasskakov.github.io/radar/#e=grm-bozar-acousmonium-2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:INA GRM: Акусмониум в Bozar
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

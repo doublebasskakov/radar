@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Les états de l'écoute: Элиана Радиг
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:ircam-radigue-ecoute@afisha-art
+DTSTAMP:20261112T223721Z
+DTSTART:20261118T180000Z
+DTEND:20261118T200000Z
+SUMMARY:Les états de l'écoute: Элиана Радиг
+LOCATION:IRCAM\, зал Стравинского\, Париж\, Фран
+ ция
+DESCRIPTION:Встреча в IRCAM о слушании и музыке 
+ Элианы Радиг — пионерки электронного д
+ рона.\n\nhttps://www.ircam.fr/en/events/les-etats-de-lecoute-eliane-r
+ adigue
+URL:https://doublebasskakov.github.io/radar/#e=ircam-radigue-ecoute
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Les états de l'écoute: Элиана Радиг
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR
