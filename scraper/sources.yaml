@@ -213,7 +213,38 @@ telegram:
   - {u: colta_ru, region: ru}
   - {u: syg_ma, region: ru}
 
+  # --- электроакустика, проверено через t.me (ноябрь 2026) ---
+  - {u: ceammc, region: ru, city: Москва}
+  - {u: ceam_artists, region: ru, city: Москва}
+  - {u: studionewmusic, region: ru, city: Москва}
+  - {u: opensoundorchestra, region: ru, city: Москва}
+  - {u: dkrassvet, region: ru, city: Москва}
+  - {u: gnesinweek, region: ru, city: Москва}
+  - {u: terminvox, region: ru}
+  - {u: nik_po_composer, region: ru, city: Москва}
+  - {u: a_khubeev, region: ru}
+  - {u: lym_lab, region: ru}
+  - {u: animalmath, region: ru}
+  - {u: sonicacts, region: world, city: Амстердам}
+
 pages:
+  # --- электроакустика: ЦЭАМ, IRCAM, INA GRM и др. ---
+  - {url: "https://www.mosconsv.ru/ru/concerts?group_id=120434", region: ru, city: Москва}
+  - {url: "https://ceammc.tilda.ws", region: ru, city: Москва}
+  - {url: "https://ceam.space/", region: ru, city: Москва}
+  - {url: "https://meloman.ru/performer/platforma-ceam-artists/", region: ru, city: Москва}
+  - {url: "https://ceammc.timepad.ru/events/future/", region: ru, city: Москва}
+  - {url: "https://m-c-m-e.ru/ru/", region: ru, city: Москва}
+  - {url: "https://www.ircam.fr/en/events", region: world, city: Париж}
+  - {url: "https://www.ircam.fr/en/events/on-tour", region: world}
+  - {url: "https://inagrm.com/shift", region: world, city: Париж}
+  - {url: "https://www.maisondelaradioetdelamusique.fr/?mid=402", region: world, city: Париж}
+  - {url: "https://electropresence.com/en/liens/evenement?epoque=futur&page=1", region: world}
+  - {url: "https://electropresence.com/en/liens/evenement?epoque=futur&page=2", region: world}
+  - {url: "https://adk.de/en/studio-for-electroacoustic-music", region: world, city: Берлин}
+  - {url: "https://zkm.de/en/events", region: world, city: Карлсруэ}
+  - {url: "https://www.mantisfestival.com/", region: world, city: Манчестер}
+  - {url: "https://www.bozar.be/en/calendar", region: world, city: Брюссель}
   # --- Россия: подборки и площадки ---
   - {url: "https://theblueprint.ru/culture/art", region: ru}
   - {url: "https://theblueprint.ru/culture/music", region: ru}

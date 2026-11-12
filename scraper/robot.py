@@ -180,7 +180,8 @@ def fetch_rss(src, seen):
 PROMPT = """Ты — редактор афиши современного искусства. Сегодня {today}.
 Ниже — фрагменты (посты Telegram-каналов, страницы сайтов). Найди в них КОНКРЕТНЫЕ будущие или идущие события,
 которые проходят не раньше {today}, по темам: новая/экспериментальная академическая музыка, саунд-арт,
-электроакустика; медиа- и цифровое искусство, видеоарт, AV-перформансы, иммерсивные выставки; выставки
+электроакустика (ОСОБЫЙ ПРИОРИТЕТ: акусматика, live electronics, мультимедийные концерты, концерты на акусмониуме,
+выставки электромузыкальных инструментов и звуковых объектов — ЦЭАМ, IRCAM, INA GRM, Термен-центр и т.п.); медиа- и цифровое искусство, видеоарт, AV-перформансы, иммерсивные выставки; выставки
 современного искусства в музеях, центрах и галереях; перформанс; ярмарки и фестивали искусства; биеннале;
 современный и экспериментальный театр и танец; КИНО: артхаус-премьеры, кинофестивали, ретроспективы,
 спецпоказы с обсуждением, пресс-показы, видеоарт и экспериментальное кино (массовый прокат — НЕТ);
@@ -210,42 +211,64 @@ PROMPT = """Ты — редактор афиши современного иск
 """
 
 
-GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-flash-latest")
+GEMINI_MODEL = os.environ.get("GEMINI_MODEL") or "gemini-flash-latest"
+_gemini_queue = None   # очередь запасных моделей, если у текущей нет квоты
 _gemini_dead = False
 
 
 def _gemini_models(key):
-    """Если указанная модель недоступна — берём самую свежую flash-модель из списка."""
+    """Список flash-моделей: сначала стабильные (не preview), свежие выше; lite — в конце."""
     r = requests.get("https://generativelanguage.googleapis.com/v1beta/models", params={"key": key, "pageSize": 200}, timeout=60)
     names = [m["name"].split("/")[-1] for m in r.json().get("models", [])
              if "generateContent" in m.get("supportedGenerationMethods", []) and "flash" in m["name"]
-             and not any(x in m["name"] for x in ("tts", "live", "image", "audio", "lite"))]
-    return sorted(names, key=lambda n: [int(x) if x.isdigit() else x for x in re.findall(r"\d+|\D+", n)], reverse=True)
+             and not any(x in m["name"] for x in ("tts", "live", "image", "audio", "omni", "thinking", "exp"))]
+    ver = lambda n: [int(x) if x.isdigit() else 0 for x in re.findall(r"\d+", n)]
+    rank = lambda n: (("lite" in n), ("preview" in n), [-v for v in ver(n)])
+    return sorted(set(names), key=rank)
+
+
+def _gemini_next(key, why):
+    """Переключиться на следующую модель из списка; False — моделей больше нет."""
+    global GEMINI_MODEL, _gemini_queue
+    if _gemini_queue is None:
+        _gemini_queue = [m for m in _gemini_models(key) if m != GEMINI_MODEL]
+    if not _gemini_queue:
+        return False
+    GEMINI_MODEL = _gemini_queue.pop(0)
+    log(f"  gemini: {why} → пробую {GEMINI_MODEL}")
+    return True
 
 
 def gemini(prompt):
-    global GEMINI_MODEL, _gemini_dead
+    global _gemini_dead
     key = os.environ.get("GEMINI_API_KEY")
     if not key or _gemini_dead:
         raise RuntimeError("gemini off")
-    for attempt in range(4):
+    waits = 0
+    for _ in range(12):
         r = requests.post(f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent",
                           params={"key": key}, timeout=240,
                           json={"contents": [{"role": "user", "parts": [{"text": prompt}]}],
                                 "generationConfig": {"responseMimeType": "application/json"}})
-        if r.status_code == 404 and attempt == 0:
-            models = _gemini_models(key)
-            if models:
-                GEMINI_MODEL = models[0]; log("  gemini: модель →", GEMINI_MODEL); continue
+        if r.status_code in (400, 403, 404):
+            if _gemini_next(key, f"{GEMINI_MODEL} → {r.status_code}"):
+                continue
+            _gemini_dead = True; raise RuntimeError(f"gemini {r.status_code}: {r.text[:200]}")
         if r.status_code == 429:
-            if attempt >= 2:
-                _gemini_dead = True  # дневной лимит исчерпан — до конца запуска идём в Claude
-                raise RuntimeError("gemini quota")
-            time.sleep(30 * (attempt + 1)); continue
+            body = r.text
+            per_minute = "PerMinute" in body or "per minute" in body.lower()
+            if per_minute and waits < 3:      # минутный лимит — подождать
+                waits += 1; time.sleep(35 * waits); continue
+            if _gemini_next(key, f"{GEMINI_MODEL}: нет квоты"):   # дневной лимит или 0 — другая модель
+                waits = 0; continue
+            _gemini_dead = True
+            raise RuntimeError("gemini quota: " + body[:200])
         if r.status_code >= 500:
             time.sleep(10); continue
         r.raise_for_status()
-        parts = r.json()["candidates"][0]["content"]["parts"]
+        cand = (r.json().get("candidates") or [{}])[0]
+        parts = (cand.get("content") or {}).get("parts") or []
+        time.sleep(4)   # бережём минутный лимит бесплатного тарифа
         return "".join(p.get("text", "") for p in parts)
     raise RuntimeError("gemini failed")
 
