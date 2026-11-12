@@ -45,6 +45,6 @@ jobs:
         run: |
           git config user.name "radar-bot"
           git config user.email "radar-bot@users.noreply.github.com"
-          git add data/bot_state.json data/subscribers.enc data/state.json scraper/sources.yaml 2>/dev/null || true
+          for f in data/bot_state.json data/subscribers.enc data/state.json scraper/sources.yaml; do [ -e "$f" ] && git add "$f"; done; true
           git diff --cached --quiet || git commit -m "bot state"
           for i in 1 2 3; do git push && break; git pull --rebase -X theirs || { git rebase --abort; git pull --no-rebase -X ours; }; done

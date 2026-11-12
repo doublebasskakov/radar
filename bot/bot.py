@@ -152,6 +152,9 @@ def city_keyboard(events):
 def poll():
     state = json.loads(STATE.read_text()) if STATE.exists() else {"offset": 0}
     upd = tg("getUpdates", offset=state["offset"], timeout=0, allowed_updates=["message", "callback_query"]) or []
+    me = tg("getMe") or {}
+    hook = tg("getWebhookInfo") or {}
+    print(f"бот @{me.get('username')}: новых сообщений {len(upd)}, webhook={hook.get('url') or 'нет'}", flush=True)
     if not upd and state.get("menu"):
         return
     subs, events, changed = load_subs(), load_events(), False
