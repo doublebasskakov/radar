@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Андрей Бартенев. «Песни эклера»
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:spb-kurekhin-bartenev-pesni-eklera@afisha-art
+DTSTAMP:20261112T165341Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:Открытие: Андрей Бартенев. «Песни э
+ клера»
+LOCATION:ЦСИ им. Сергея Курёхина\, Средний пр
+ . В.О.\, 93\, Санкт-Петербург
+DESCRIPTION:Ранний Бартенев 1980–90-х: более сор
+ ока коллажей и графики\, костюмы\, фотогр
+ афии и записи перформансов.\nАндрей Барт
+ енев\nhttps://www.sobaka.ru/entertainment/art/223067
+URL:https://doublebasskakov.github.io/radar/#e=spb-kurekhin-bartenev-pesn
+ i-eklera
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Андрей Бартенев. «Песни
+  эклера»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

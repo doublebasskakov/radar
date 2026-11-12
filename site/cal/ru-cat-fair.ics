@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:catalog-fair@afisha-art
-DTSTAMP:20261112T162055Z
+DTSTAMP:20261112T165341Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261123
 SUMMARY:|catalog| — ярмарка современного искус
@@ -30,7 +30,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:oberton-fair-2026@afisha-art
-DTSTAMP:20261112T162055Z
+DTSTAMP:20261112T165341Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261207
 SUMMARY:«Обертон» — ярмарка графики Cosmoscow
@@ -51,7 +51,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:signal-city-2026@afisha-art
-DTSTAMP:20261112T162055Z
+DTSTAMP:20261112T165341Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261123
 SUMMARY:Signal City
@@ -69,7 +69,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:kucha3-fair@afisha-art
-DTSTAMP:20261112T162055Z
+DTSTAMP:20261112T165341Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261221
 SUMMARY:«Куча³» — ярмарка независимого иск
@@ -89,7 +89,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:smena-winter-book-fest@afisha-art
-DTSTAMP:20261112T162055Z
+DTSTAMP:20261112T165341Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261207
 SUMMARY:Зимний книжный фестиваль «Смены»
@@ -103,6 +103,52 @@ URL:https://doublebasskakov.github.io/radar/#e=smena-winter-book-fest
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зимний книжный фестиваль «Смены»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:samara-osenniy-auktsion-2026@afisha-art
+DTSTAMP:20261112T165341Z
+DTSTART:20261126T150000Z
+DTEND:20261126T170000Z
+SUMMARY:VII Осенний аукцион современного иск
+ усства
+LOCATION:HolidayHall\, Самара
+DESCRIPTION:Вечерние торги: 15 работ художнико
+ в трёх поколений\, первый лот благотвори
+ тельный — в пользу независимого простр
+ анства KABINET.\nАрт-клуб «Худрук»\, Российс
+ кий аукционный дом\; куратор Сергей Бала
+ ндин\nhttps://www.sobaka.ru/smr/entertainment/art/223429
+URL:https://doublebasskakov.github.io/radar/#e=samara-osenniy-auktsion-20
+ 26
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:VII Осенний аукцион современного и
+ скусства
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:spb-diaghilev-ps-2026@afisha-art
+DTSTAMP:20261112T165341Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:Последний день: Фестиваль «Дягилев 
+ P.S.»
+LOCATION:БДТ\, Александринский театр\, «Балт
+ ийский дом»\, Дом радио\, Санкт-Петербург
+DESCRIPTION:XVII фестиваль: современный танец и
+ з Кубы и Испании\, работы российских хор
+ еографов\, выставки сценографов и масте
+ р-классы.\nКубинская компания OtroLado\, росс
+ ийские хореографы и др.\nhttps://www.sobaka.ru/enterta
+ inment/theatre/223061
+URL:https://doublebasskakov.github.io/radar/#e=spb-diaghilev-ps-2026
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Фестиваль «Дягил
+ ев P.S.»
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

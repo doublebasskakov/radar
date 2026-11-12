@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:«Рехаб»
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:spb-nevidimyy-teatr-rehab@afisha-art
+DTSTAMP:20261112T165341Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:«Рехаб»
+LOCATION:Невидимый театр\, Санкт-Петербург
+DESCRIPTION:Документальный спектакль о завис
+ имости: литературный текст переплетён с
+  реальными историями пациентов реабили
+ тационных центров.\nРежиссёр Алессандра
+  Джунтини\nhttps://www.sobaka.ru/entertainment/theatre/223061
+URL:https://doublebasskakov.github.io/radar/#e=spb-nevidimyy-teatr-rehab
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:«Рехаб»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

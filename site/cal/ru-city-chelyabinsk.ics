@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Радар — Россия · city-chelyabinsk
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:chel-masm-avangard@afisha-art
+DTSTAMP:20261112T165341Z
+DTSTART:20261128T130000Z
+DTEND:20261128T150000Z
+SUMMARY:МАСМ. «Путешествия русского аванга
+ рда»
+LOCATION:Зал органной и камерной музыки «Ро
+ дина»\, Челябинск
+DESCRIPTION:Завершение уральско-сибирского т
+ ура МАСМ — программа о музыке русского 
+ авангарда.\nМосковский ансамбль совреме
+ нной музыки\nhttps://m-c-m-e.ru/ru/events/2026/11/
+URL:https://doublebasskakov.github.io/radar/#e=chel-masm-avangard
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:МАСМ. «Путешествия русского аван
+ гарда»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:«Место для игр»
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:msk-netsten-mesto-dlya-igr@afisha-art
+DTSTAMP:20261112T165341Z
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+SUMMARY:Последний день: «Место для игр»
+LOCATION:НЕТСТЕН\, Винзавод\, Москва
+DESCRIPTION:Уличная выставка к десятому сезо
+ ну галереи НЕТСТЕН вдоль путей по дорог
+ е к Винзаводу и Артплею.\nГалерея улично
+ го искусства НЕТСТЕН\nhttps://winzavod.ru/calendar/exhi
+ bitions/
+URL:https://doublebasskakov.github.io/radar/#e=msk-netsten-mesto-dlya-igr
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: «Место для игр»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

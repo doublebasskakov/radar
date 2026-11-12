@@ -30,9 +30,11 @@ jobs:
         if: github.event_name != 'push'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
           AFISHA_MODEL: ${{ vars.AFISHA_MODEL }}
         run: |
-          if [ -z "$ANTHROPIC_API_KEY" ]; then echo "Ключ ANTHROPIC_API_KEY не задан — пропускаю сбор"; exit 0; fi
+          if [ -z "$GEMINI_API_KEY$ANTHROPIC_API_KEY" ]; then echo "Нет ключа модели (GEMINI_API_KEY) — пропускаю сбор"; exit 0; fi
           python scraper/robot.py collect
 
       - name: Собрать сайт и календари

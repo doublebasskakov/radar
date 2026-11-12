@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Российская международная выстав
+ ка искусства и дизайна
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:rnd-step-asian-vanguard@afisha-art
+DTSTAMP:20261112T165341Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261201
+SUMMARY:Российская международная выставка 
+ искусства и дизайна
+LOCATION:Центр современной культуры «Степь
+ »\, Ростов-на-Дону
+DESCRIPTION:Российский этап азиатского проек
+ та Asian Vanguard: молодые художники и дизайне
+ ры о цифровых технологиях\, памяти и эко
+ логии.\nКуратор Ли Шэн\; Союз дизайнеров\,
+  ДГТУ\nhttps://www.moasd.ru/2026/10/25/russian-international-exhibiti
+ on-rostov/
+URL:https://doublebasskakov.github.io/radar/#e=rnd-step-asian-vanguard
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Российская международная выстав
+ ка искусства и дизайна
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

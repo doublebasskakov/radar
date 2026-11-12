@@ -30,6 +30,10 @@ SITE = os.environ.get("SITE_URL", "").rstrip("/") + "/"
 API = f"https://api.telegram.org/bot{TOKEN}/"
 TODAY = dt.datetime.now(ZoneInfo("Europe/Moscow")).date()
 WORLD = "🌍 Только мир"
+ALL = "🇷🇺 Все города"
+OWNER = os.environ.get("OWNER_CHAT_ID", "")
+STATE_ROBOT = ROOT / "data" / "state.json"
+SOURCES = ROOT / "scraper" / "sources.yaml"
 
 
 def tg(method, **params):
@@ -107,7 +111,11 @@ def line(e, closing=False):
 
 def digest_text(events, city):
     parts = []
-    if city and city != WORLD:
+    if city == ALL:
+        rows = week_events(events, None, limit=12)
+        parts.append("<b>Неделя: вся Россия</b>")
+        parts += [line(e, c) + f" · {html.escape(e.get('city',''))}" for e, c in rows] or ["Пока пусто."]
+    elif city and city != WORLD:
         rows = week_events(events, city)
         parts.append(f"<b>Неделя в городе {html.escape(city)}</b>")
         parts += [line(e, c) for e, c in rows] or ["На этой неделе в афише пусто — загляните на сайт."]
@@ -131,7 +139,7 @@ def cities(events, n=12):
 
 def city_keyboard(events):
     rows, row = [], []
-    for c in cities(events) + [WORLD]:
+    for c in [ALL] + cities(events) + [WORLD]:
         row.append({"text": c, "callback_data": "city:" + c[:50]})
         if len(row) == 2:
             rows.append(row); row = []
@@ -151,7 +159,14 @@ def poll():
         state["offset"] = u["update_id"] + 1
         if "callback_query" in u:
             q = u["callback_query"]; chat = str(q["message"]["chat"]["id"])
-            if q.get("data", "").startswith("city:"):
+            data = q.get("data", "")
+            if data.startswith(("src+:", "src-:")) and OWNER and chat == OWNER:
+                u = data[5:]
+                handle_candidate(u, data.startswith("src+:"))
+                tg("answerCallbackQuery", callback_query_id=q["id"], text="Добавлено" if data.startswith("src+:") else "Отклонено")
+                tg("editMessageReplyMarkup", chat_id=chat, message_id=q["message"]["message_id"], reply_markup={"inline_keyboard": []})
+                continue
+            if data.startswith("city:"):
                 city = q["data"][5:]
                 subs[chat] = {"city": city}; changed = True
                 tg("answerCallbackQuery", callback_query_id=q["id"], text="Готово!")
@@ -163,10 +178,15 @@ def poll():
         if not chat:
             continue
         if text.startswith("/start") or text.startswith("/city"):
-            tg("sendMessage", chat_id=chat, text="Привет! Это «Радар» — афиша современного искусства: новая музыка, медиа-арт, выставки, перформанс и театр.\n\nВыберите город — каждый понедельник пришлю главное на неделю:", reply_markup=city_keyboard(events))
+            if SITE != "/":
+                tg("sendMessage", chat_id=chat, text="Привет! Это «Радар» — афиша современного искусства: новая музыка, медиа-арт, выставки, кино, перформанс и театр.\n\nОткройте приложение — выберите город и листайте события:",
+                   reply_markup={"inline_keyboard": [[{"text": "📍 Открыть Радар", "web_app": {"url": SITE + "?tg=1"}}]]})
+            tg("sendMessage", chat_id=chat, text="А ещё могу присылать дайджест по понедельникам. Выберите город:", reply_markup=city_keyboard(events))
         elif text.startswith("/week"):
             city = subs.get(chat, {}).get("city")
             tg("sendMessage", chat_id=chat, parse_mode="HTML", disable_web_page_preview=True, text=digest_text(events, city) if city else "Сначала выберите город: /city")
+        elif text.startswith("/myid"):
+            tg("sendMessage", chat_id=chat, text=f"Ваш chat id: {chat}\nВпишите его в секрет OWNER_CHAT_ID, чтобы получать кандидатов в новые источники.")
         elif text.startswith("/stop"):
             if subs.pop(chat, None) is not None:
                 changed = True
@@ -177,6 +197,34 @@ def poll():
     STATE.write_text(json.dumps(state))
     if changed:
         save_subs(subs)
+
+
+def handle_candidate(u, add):
+    st = json.loads(STATE_ROBOT.read_text(encoding="utf-8")) if STATE_ROBOT.exists() else {}
+    st.setdefault("candidates", {}).pop(u, None)
+    if add:
+        txt = SOURCES.read_text(encoding="utf-8")
+        if f"u: {u}," not in txt:
+            txt = txt.replace("\npages:", f"\n  - {{u: {u}, region: ru}}  # добавлен через бота\n\npages:", 1)
+            SOURCES.write_text(txt, encoding="utf-8")
+    else:
+        st.setdefault("rejected", []).append(u)
+    STATE_ROBOT.write_text(json.dumps(st, ensure_ascii=False, indent=1), encoding="utf-8")
+
+
+def candidates():
+    """Раз в неделю: владельцу — каналы, которые чаще всего упоминают и репостят наши источники."""
+    if not OWNER or not STATE_ROBOT.exists():
+        return
+    st = json.loads(STATE_ROBOT.read_text(encoding="utf-8"))
+    top = sorted(((n, u) for u, n in st.get("candidates", {}).items() if n >= 2), reverse=True)[:10]
+    if not top:
+        return
+    tg("sendMessage", chat_id=OWNER, text="Кандидаты в новые источники за неделю (чаще всего упоминаются и репостятся):")
+    for n, u in top:
+        tg("sendMessage", chat_id=OWNER, text=f"https://t.me/s/{u}\nупоминаний: {n}",
+           reply_markup={"inline_keyboard": [[{"text": "✅ Добавить", "callback_data": f"src+:{u}"[:64]},
+                                              {"text": "✖ Нет", "callback_data": f"src-:{u}"[:64]}]]})
 
 
 def digest():
@@ -213,3 +261,4 @@ if __name__ == "__main__":
         poll()
     elif cmd == "digest":
         digest()
+        candidates()

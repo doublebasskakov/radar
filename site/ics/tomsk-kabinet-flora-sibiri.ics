@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:«Флора Сибири: художественное ис
+ следование»
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:tomsk-kabinet-flora-sibiri@afisha-art
+DTSTAMP:20261112T165341Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:Последний день: «Флора Сибири: худо
+ жественное исследование»
+LOCATION:Кабинет Пушкинского музея в Научно
+ й библиотеке ТГУ\, Томск
+DESCRIPTION:Ботанические иллюстрации XVIII век
+ а из фондов ТГУ рядом с работами томской
+  художницы\, которая использует отпечат
+ ки растений и коры.\nЕлизавета Клеванцев
+ а\; Научная библиотека ТГУ\nhttps://pushkinmuseum.ar
+ t/news/archive/2026/10_/tomsk/index.php?lang=ru
+URL:https://doublebasskakov.github.io/radar/#e=tomsk-kabinet-flora-sibiri
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: «Флора Сибири: ху
+ дожественное исследование»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

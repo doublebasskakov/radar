@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:«УВБ-76»
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:spb-teatro-di-capua-uvb-76@afisha-art
+DTSTAMP:20261112T165341Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261120
+SUMMARY:«УВБ-76»
+LOCATION:Teatro di Capua\, Санкт-Петербург
+DESCRIPTION:Спектакль независимой петербург
+ ской труппы\, отмеченный в редакционном 
+ выборе ПТЖ на ноябрь.\nTeatro di Capua\, режиссё
+ р Джулиано ди Капуа\nhttps://ptj.spb.ru/rating/rating-202
+ 6-11/
+URL:https://doublebasskakov.github.io/radar/#e=spb-teatro-di-capua-uvb-76
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:«УВБ-76»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

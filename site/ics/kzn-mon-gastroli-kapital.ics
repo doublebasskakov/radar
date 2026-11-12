@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:«Гастроли: Капитал»
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:kzn-mon-gastroli-kapital@afisha-art
+DTSTAMP:20261112T165341Z
+DTSTART:20261129T150000Z
+DTEND:20261129T170000Z
+SUMMARY:«Гастроли: Капитал»
+LOCATION:MOÑ\, ул. Пушкина\, 86\, Казань
+DESCRIPTION:Сценический пересказ «Капитала» 
+ Маркса — экономическая теория как мате
+ риал для театра.\nТеатральная площадка MO
+ Ñ\nhttps://entermedia.io/weekend/kuda-pojti-v-kazani-v-noyabre-2026/
+URL:https://doublebasskakov.github.io/radar/#e=kzn-mon-gastroli-kapital
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:«Гастроли: Капитал»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

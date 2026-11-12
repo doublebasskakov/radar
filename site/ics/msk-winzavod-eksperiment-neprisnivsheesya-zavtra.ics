@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:«Неприснившееся завтра»
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:msk-winzavod-eksperiment-neprisnivsheesya-zavtra@afisha-art
+DTSTAMP:20261112T165341Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Последний день: «Неприснившееся за
+ втра»
+LOCATION:Винзавод\, Акцизный зал\, 4-й Сыромят
+ нический пер.\, 1/8\, Москва
+DESCRIPTION:Выставка экспериментальной прог
+ раммы Винзавода в Акцизном зале.\nВинзав
+ од.Эксперимент\nhttps://winzavod.ru/calendar/exhibitions/
+URL:https://doublebasskakov.github.io/radar/#e=msk-winzavod-eksperiment-n
+ eprisnivsheesya-zavtra
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: «Неприснившееся 
+ завтра»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

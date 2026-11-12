@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:«15 172». Пластический спектакль
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:kzn-mon-15172@afisha-art
+DTSTAMP:20261112T165341Z
+DTSTART:20261118T160000Z
+DTEND:20261118T180000Z
+SUMMARY:«15 172». Пластический спектакль
+LOCATION:MOÑ\, ул. Пушкина\, 86\, Казань
+DESCRIPTION:Пластический спектакль из реперт
+ уара MOÑ — независимой площадки\, где иду
+ т спектакли на стыке танца и театра.\nMOÑ\n
+ https://afisha.yandex.ru/kazan/theatre/places/mon-kazan
+URL:https://doublebasskakov.github.io/radar/#e=kzn-mon-15172
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:«15 172». Пластический спектакль
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

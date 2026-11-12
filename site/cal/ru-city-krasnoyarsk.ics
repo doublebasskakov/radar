@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:krasnoyarsk-schnittke-choir@afisha-art
-DTSTAMP:20261112T162055Z
+DTSTAMP:20261112T165341Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:Шнитке. Концерт для хора на стихи На
@@ -25,6 +25,29 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Шнитке. Концерт для хора на стихи 
  Нарекаци — премьера в Красноярске
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:krsk-ploshchad-mira-pozdeev-antologiya@afisha-art
+DTSTAMP:20261112T165341Z
+DTSTART;VALUE=DATE:20270216
+DTEND;VALUE=DATE:20270217
+SUMMARY:Последний день: «Антология». Андрей
+  Поздеев
+LOCATION:Музейный центр «Площадь Мира»\, Кра
+ сноярск
+DESCRIPTION:Большой обзор творчества красноя
+ рского живописца-нонконформиста\, одног
+ о из главных художников Сибири второй п
+ оловины XX века.\nАндрей Поздеев\nhttps://theblue
+ print.ru/culture/art/october-2026-exhibitions
+URL:https://doublebasskakov.github.io/radar/#e=krsk-ploshchad-mira-pozdee
+ v-antologiya
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: «Антология». Андр
+ ей Поздеев
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:«Марьино поле». Премьера
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:msk-electrotheatre-maryino-pole@afisha-art
+DTSTAMP:20261112T165341Z
+DTSTART:20261203T160000Z
+DTEND:20261203T180000Z
+SUMMARY:«Марьино поле». Премьера
+LOCATION:Электротеатр Станиславский\, Основ
+ ная сцена\, ул. Тверская\, 23\, Москва
+DESCRIPTION:Премьера на Основной сцене Элект
+ ротеатра.\nЭлектротеатр Станиславский\nh
+ ttps://electrotheatre.ru/playbill?month=2026-12
+URL:https://doublebasskakov.github.io/radar/#e=msk-electrotheatre-maryino
+ -pole
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:«Марьино поле». Премьера
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

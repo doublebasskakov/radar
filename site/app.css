@@ -112,3 +112,29 @@ input[type=search]{flex:1;min-width:180px;background:var(--panel);border:1px sol
 .picks .desc{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
 .picks .who{display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden}
 @media (max-width:760px){.picks{grid-auto-columns:82%}.logo-sub{display:none}}
+
+.pick-place{font-weight:600;border-color:#3a3a46}
+.picker{padding:22px 20px}
+.picker input{width:100%;margin:10px 0 12px}
+.plist{display:grid;gap:4px;max-height:60vh;overflow:auto}
+.pitem{display:flex;justify-content:space-between;align-items:center;background:var(--panel2);border:1px solid var(--line);border-radius:12px;padding:12px 14px;cursor:pointer;text-align:left;font-size:15px}
+.pitem b{color:var(--mute);font-weight:500}
+.pitem.on{border-color:var(--text)}
+
+:root{--cinema:#c9b6ff}
+.press{display:inline-block;margin-left:6px;padding:1px 7px;border-radius:999px;border:1px solid #c9b6ff;color:#c9b6ff;letter-spacing:.04em}
+
+.in-tg .top{padding-top:0}
+html,body{overflow-x:hidden;max-width:100%}
+.frow{min-width:0}
+.frow>.chips{flex:1 1 auto;min-width:0}
+.sheet{box-sizing:border-box}
+.picker input{box-sizing:border-box}
+@media (max-width:760px){
+  #fWhen{flex:1 1 100%}
+  #q{flex:1 1 auto;min-width:0}
+  .plist{max-height:55vh}
+}
+
+.filters{position:static}
+.picks-wrap h2{margin-top:8px}

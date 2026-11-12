@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Евгений Буравлёв. «Большой вспле
+ ск»
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:msk-futuro-buravlev-bolshoy-vsplesk@afisha-art
+DTSTAMP:20261112T165341Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:Последний день: Евгений Буравлёв. «
+ Большой всплеск»
+LOCATION:БУДУЩЕЕ/FUTURO\, Винзавод\, 4-й Сыромятн
+ ический пер.\, 1/8\, Москва
+DESCRIPTION:Персональная выставка художника 
+ в московском пространстве галереи БУДУ
+ ЩЕЕ/FUTURO на Винзаводе.\nЕвгений Буравлёв\n
+ https://winzavod.ru/calendar/exhibitions/
+URL:https://doublebasskakov.github.io/radar/#e=msk-futuro-buravlev-bolsho
+ y-vsplesk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Евгений Буравлёв.
+  «Большой всплеск»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

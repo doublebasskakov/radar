@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:VII Осенний аукцион современного 
+ искусства
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:samara-osenniy-auktsion-2026@afisha-art
+DTSTAMP:20261112T165341Z
+DTSTART:20261126T150000Z
+DTEND:20261126T170000Z
+SUMMARY:VII Осенний аукцион современного иск
+ усства
+LOCATION:HolidayHall\, Самара
+DESCRIPTION:Вечерние торги: 15 работ художнико
+ в трёх поколений\, первый лот благотвори
+ тельный — в пользу независимого простр
+ анства KABINET.\nАрт-клуб «Худрук»\, Российс
+ кий аукционный дом\; куратор Сергей Бала
+ ндин\nhttps://www.sobaka.ru/smr/entertainment/art/223429
+URL:https://doublebasskakov.github.io/radar/#e=samara-osenniy-auktsion-20
+ 26
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:VII Осенний аукцион современного и
+ скусства
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

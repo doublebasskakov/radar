@@ -34,7 +34,7 @@ UA = {"User-Agent": "Mozilla/5.0 (compatible; AfishaArtBot/1.0; +https://github.
 MODEL = os.environ.get("AFISHA_MODEL", "claude-haiku-5-5")
 TODAY = dt.date.fromisoformat(os.environ["AFISHA_TODAY"]) if os.environ.get("AFISHA_TODAY") else \
     dt.datetime.now(ZoneInfo("Europe/Moscow")).date()
-CATS = ["music", "media", "gallery", "performance", "fair", "theatre", "biennial"]
+CATS = ["music", "media", "gallery", "performance", "fair", "theatre", "biennial", "cinema"]
 LOOKBACK_DAYS = 21          # насколько старые посты ещё разбирать
 MAX_POSTS_PER_RUN = 400     # предохранитель расходов на модель
 
@@ -77,7 +77,28 @@ def log(*a):
 
 
 # ---------------------------------------------------------------- collect: telegram
-def fetch_telegram(username, seen):
+MENTION_RE = re.compile(r"(?:t\.me/|telegram\.me/|(?<![\w.])@)([A-Za-z][A-Za-z0-9_]{4,31})")
+NOT_CHANNELS = {"joinchat", "share", "addstickers", "proxy", "iv", "s", "c", "boost", "addlist"}
+
+
+def note_mentions(w, text, discovered):
+    """Собирает упоминания и репосты других каналов — кандидаты в новые источники."""
+    found = set(MENTION_RE.findall(text))
+    fw = w.select_one(".tgme_widget_message_forwarded_from_name")
+    if fw and fw.get("href"):
+        m = re.search(r"t\.me/([A-Za-z][A-Za-z0-9_]{4,31})", fw["href"])
+        if m:
+            found.add(m.group(1))
+    for a in w.select(".tgme_widget_message_text a[href]"):
+        m = re.search(r"t\.me/([A-Za-z][A-Za-z0-9_]{4,31})(?:$|[/?])", a["href"])
+        if m:
+            found.add(m.group(1))
+    for u in found:
+        if u.lower() not in NOT_CHANNELS and not u.lower().endswith("bot"):
+            discovered[u] = discovered.get(u, 0) + 1
+
+
+def fetch_telegram(username, seen, discovered=None):
     """Посты публичного канала с t.me/s/<username> (последние ~20)."""
     url = f"https://t.me/s/{username}"
     r = requests.get(url, headers=UA, timeout=30)
@@ -98,6 +119,8 @@ def fetch_telegram(username, seen):
             continue
         txt_el = w.select_one(".tgme_widget_message_text")
         text = txt_el.get_text("\n", strip=True) if txt_el else ""
+        if discovered is not None:
+            note_mentions(w, text, discovered)
         if len(text) < 60:
             continue
         photo = None
@@ -159,7 +182,8 @@ PROMPT = """Ты — редактор афиши современного иск
 которые проходят не раньше {today}, по темам: новая/экспериментальная академическая музыка, саунд-арт,
 электроакустика; медиа- и цифровое искусство, видеоарт, AV-перформансы, иммерсивные выставки; выставки
 современного искусства в музеях, центрах и галереях; перформанс; ярмарки и фестивали искусства; биеннале;
-современный и экспериментальный театр и танец.
+современный и экспериментальный театр и танец; КИНО: артхаус-премьеры, кинофестивали, ретроспективы,
+спецпоказы с обсуждением, пресс-показы, видеоарт и экспериментальное кино (массовый прокат — НЕТ).
 НЕ включай: курсы, open call, конкурсы, вакансии, распродажи, классику без современной составляющей,
 детские шоу, мюзиклы, поп-концерты, новости без даты, события в прошлом.
 Регион по умолчанию: {region_hint}.
@@ -169,11 +193,12 @@ PROMPT = """Ты — редактор афиши современного иск
   start "YYYY-MM" и "tba": true. Год определи по контексту (ближайшее будущее относительно {today}).
 - desc / desc_en — 1–2 предложения СВОИМИ словами (не копируй фразы источника).
 - importance: 1–5 (5 — событие, о котором будут говорить: крупная институция, важный автор, премьера, биеннале).
+- press: true, если это пресс-показ / показ для аккредитованных.
 - src_index — номер фрагмента, откуда событие. url — прямая ссылка на событие, если есть в тексте, иначе null.
 - Для событий за рубежом country — страна по-русски, city — город по-русски.
 
 Верни ТОЛЬКО JSON-массив (может быть пустым []), элементы:
-{{"title":"","title_en":"","who":"","cat":"music|media|gallery|performance|fair|theatre|biennial",
+{{"title":"","title_en":"","who":"","cat":"music|media|gallery|performance|fair|theatre|biennial|cinema","press":false,
 "country":"Россия","country_en":"Russia","city":"","city_en":"","venue":"","address":"",
 "start":"YYYY-MM-DD","end":"YYYY-MM-DD|null","time":"HH:MM|null","tz":"IANA, напр. Europe/Moscow",
 "tba":false,"desc":"","desc_en":"","importance":3,"src_index":0,"url":null}}
@@ -183,7 +208,47 @@ PROMPT = """Ты — редактор афиши современного иск
 """
 
 
-def call_llm(prompt):
+GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-flash-latest")
+_gemini_dead = False
+
+
+def _gemini_models(key):
+    """Если указанная модель недоступна — берём самую свежую flash-модель из списка."""
+    r = requests.get("https://generativelanguage.googleapis.com/v1beta/models", params={"key": key, "pageSize": 200}, timeout=60)
+    names = [m["name"].split("/")[-1] for m in r.json().get("models", [])
+             if "generateContent" in m.get("supportedGenerationMethods", []) and "flash" in m["name"]
+             and not any(x in m["name"] for x in ("tts", "live", "image", "audio", "lite"))]
+    return sorted(names, key=lambda n: [int(x) if x.isdigit() else x for x in re.findall(r"\d+|\D+", n)], reverse=True)
+
+
+def gemini(prompt):
+    global GEMINI_MODEL, _gemini_dead
+    key = os.environ.get("GEMINI_API_KEY")
+    if not key or _gemini_dead:
+        raise RuntimeError("gemini off")
+    for attempt in range(4):
+        r = requests.post(f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent",
+                          params={"key": key}, timeout=240,
+                          json={"contents": [{"role": "user", "parts": [{"text": prompt}]}],
+                                "generationConfig": {"responseMimeType": "application/json"}})
+        if r.status_code == 404 and attempt == 0:
+            models = _gemini_models(key)
+            if models:
+                GEMINI_MODEL = models[0]; log("  gemini: модель →", GEMINI_MODEL); continue
+        if r.status_code == 429:
+            if attempt >= 2:
+                _gemini_dead = True  # дневной лимит исчерпан — до конца запуска идём в Claude
+                raise RuntimeError("gemini quota")
+            time.sleep(30 * (attempt + 1)); continue
+        if r.status_code >= 500:
+            time.sleep(10); continue
+        r.raise_for_status()
+        parts = r.json()["candidates"][0]["content"]["parts"]
+        return "".join(p.get("text", "") for p in parts)
+    raise RuntimeError("gemini failed")
+
+
+def claude(prompt):
     key = os.environ.get("ANTHROPIC_API_KEY")
     if not key:
         raise RuntimeError("ANTHROPIC_API_KEY не задан")
@@ -194,13 +259,27 @@ def call_llm(prompt):
                           json={"model": MODEL, "max_tokens": 8000,
                                 "messages": [{"role": "user", "content": prompt}]})
         if r.status_code in (429, 500, 502, 503, 529):
-            time.sleep(10 * (attempt + 1))
-            continue
+            time.sleep(10 * (attempt + 1)); continue
         r.raise_for_status()
-        text = "".join(b.get("text", "") for b in r.json()["content"])
-        m = re.search(r"\[.*\]", text, re.S)
-        return json.loads(m.group(0)) if m else []
-    raise RuntimeError("модель недоступна")
+        return "".join(b.get("text", "") for b in r.json()["content"])
+    raise RuntimeError("claude недоступен")
+
+
+def llm_text(prompt):
+    """Основная модель — бесплатная Gemini, запасная — Claude."""
+    errors = []
+    for fn in (gemini, claude):
+        try:
+            return fn(prompt)
+        except Exception as e:
+            errors.append(f"{fn.__name__}: {e}")
+    raise RuntimeError("; ".join(errors))
+
+
+def call_llm(prompt):
+    text = llm_text(prompt)
+    m = re.search(r"\[.*\]", text, re.S)
+    return json.loads(m.group(0)) if m else []
 
 
 def extract(items, region):
@@ -287,9 +366,11 @@ def collect():
     seen = set(state["seen"])
     master = load_json(EVENTS_FILE, [])
     pool = {"ru": [], "world": []}
+    discovered = {}
+    known = {c["u"].lower() for c in cfg.get("telegram", [])}
     for ch in cfg.get("telegram", []):
         try:
-            posts = fetch_telegram(ch["u"], seen)
+            posts = fetch_telegram(ch["u"], seen, discovered)
             if ch.get("city"):
                 for p in posts:
                     p["text"] = f"(Площадка из города {ch['city']})\n" + p["text"]
@@ -324,6 +405,11 @@ def collect():
         for it in items:
             if not it.get("long"):
                 seen.add(it["key"])
+    cand = state.setdefault("candidates", {})
+    rejected = set(x.lower() for x in state.setdefault("rejected", []))
+    for u, n in discovered.items():
+        if u.lower() not in known and u.lower() not in rejected:
+            cand[u] = cand.get(u, 0) + n
     translate_missing(master)
     state["seen"] = sorted(seen)[-20000:]
     save_json(STATE_FILE, state)
@@ -465,13 +551,7 @@ def translate_missing(master, limit=120):
         items = json.dumps({e["id"]: {"title": e["title"], "desc": e.get("desc", ""), "city": e.get("city"),
                                       "country": e.get("country")} for e in chunk}, ensure_ascii=False)
         try:
-            key = os.environ["ANTHROPIC_API_KEY"]
-            r = requests.post("https://api.anthropic.com/v1/messages", timeout=180,
-                              headers={"x-api-key": key, "anthropic-version": "2023-06-01", "content-type": "application/json"},
-                              json={"model": MODEL, "max_tokens": 8000,
-                                    "messages": [{"role": "user", "content": TRANSLATE_PROMPT.format(items=items)}]})
-            r.raise_for_status()
-            text = "".join(b.get("text", "") for b in r.json()["content"])
+            text = llm_text(TRANSLATE_PROMPT.format(items=items))
             res = json.loads(re.search(r"\{.*\}", text, re.S).group(0))
             for e in chunk:
                 for k, v in (res.get(e["id"]) or {}).items():

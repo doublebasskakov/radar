@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:«Отстань от себя». Пластический 
+ спектакль
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:kzn-mon-otstan-ot-sebya@afisha-art
+DTSTAMP:20261112T165341Z
+DTSTART:20261125T160000Z
+DTEND:20261125T180000Z
+SUMMARY:«Отстань от себя». Пластический спе
+ ктакль
+LOCATION:MOÑ\, ул. Пушкина\, 86\, Казань
+DESCRIPTION:Пластический спектакль на площад
+ ке MOÑ.\nMOÑ\nhttps://afisha.yandex.ru/kazan/theatre/places/mon-kazan
+URL:https://doublebasskakov.github.io/radar/#e=kzn-mon-otstan-ot-sebya
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:«Отстань от себя». Пластический с
+ пектакль
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

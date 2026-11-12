@@ -12,16 +12,16 @@
   const T = {
     ru: {
       brand: "Радар", brandSub: "современное искусство", tabRu: "Россия", tabWorld: "Мир", tabFav: "Избранное", tabSubs: "Подписки",
-      heroRu: "Россия", heroRuSub: "Новая музыка, медиа-арт, выставки, перформанс и театр — во всех городах. Обновляется каждый день.",
+      heroRu: "Россия", heroRuSub: "Новая музыка, медиа-арт, выставки, кино, перформанс и театр — во всех городах. Обновляется каждый день.",
       heroWorld: "Мир", heroWorldSub: "Биеннале, фестивали медиаискусства и новой музыки, ярмарки и главные музейные выставки — на год вперёд.",
       heroFav: "Избранное", heroFavSub: "События, отмеченные звёздочкой. Хранятся на этом устройстве.",
       picks: "Выбор редакции", picksSub: "главное в ближайший месяц",
-      allPlaces: "Все города", allCountries: "Все страны", morePlaces: "Ещё…", all: "Всё",
+      allPlaces: "Все города", allCountries: "Все страны", pickCity: "Выберите город", pickCountry: "Выберите страну", placeSearch: "Найти город…", morePlaces: "Ещё…", all: "Всё",
       whenAll: "Всё время", whenToday: "Сегодня", whenWeekend: "Выходные", whenWeek: "7 дней", whenMonth: "Месяц",
       search: "Поиск: художник, площадка, композитор…",
       soon: "Ближайшие", live: "Уже идут", liveSub: "по дате закрытия", tba: "Дата уточняется", nothing: "Ничего не нашлось — попробуйте снять фильтры.",
       favEmpty: "Пока пусто. Нажмите ☆ на карточке, чтобы сохранить событие.",
-      apple: " Календарь", google: "Google", source: "Источник", share: "Поделиться", more: "Показать ещё",
+      addCal: "+ В календарь", findMore: "🔎 Найти больше", mineBadge: "моя находка", myTitle: "Личный поиск", myLead: "Робот ищет события в интернете по вашему городу — за счёт вашей бесплатной квоты Google Gemini. Находки видите только вы.", myKey: "Ключ Gemini API", myKeyHelp: "Получите бесплатный ключ на aistudio.google.com/apikey (войдите своим Google-аккаунтом, из России — с VPN) и вставьте сюда. Ключ хранится только на этом устройстве.", mySave: "Сохранить ключ", myTopic: "Что ищем (необязательно): например, «саунд-арт» или «выставки фотографии»", myRun: "Искать", myBusy: "Ищу… это займёт 20–60 секунд", myFound: "Найдено новых:", myNone: "Ничего нового не нашлось — попробуйте другой запрос.", myErr: "Ошибка поиска:", myForget: "Удалить ключ", myClear: "Очистить мои находки", myWhere: "Где ищем:", press: "пресс-показ · по аккредитации", pressChip: "Пресс-показы", source: "Источник", share: "Поделиться", more: "Показать ещё",
       liveBadge: "идёт", newBadge: "новое", until: "до", fromTg: "из Telegram",
       favIcs: "Всё избранное в календарь", copied: "Ссылка скопирована", saved: "Добавлено в избранное", removed: "Убрано из избранного",
       updated: "Обновлено", events: "событий",
@@ -33,23 +33,23 @@
       installAndroid: "Android: меню Chrome → «Установить приложение».", installBtn: "Установить",
       footNote: "Афиша собирается автоматически из Telegram-каналов площадок, сайтов и подборок. Перед походом проверяйте дату по ссылке «Источник». Изображения принадлежат правообладателям и ведут на первоисточник.",
       suggest: "Предложить событие или источник", region: "Россия", world: "Мир", imgFrom: "Изображение:",
-      cats: { music: "Новая музыка", media: "Медиа / диджитал", gallery: "Выставки", performance: "Перформанс", fair: "Ярмарки / фестивали", theatre: "Театр", biennial: "Биеннале" },
+      cats: { music: "Новая музыка", media: "Медиа / диджитал", gallery: "Выставки", performance: "Перформанс", fair: "Ярмарки / фестивали", theatre: "Театр", cinema: "Кино", biennial: "Биеннале" },
       mon: ["января","февраля","марта","апреля","мая","июня","июля","августа","сентября","октября","ноября","декабря"],
       mon1: ["Январь","Февраль","Март","Апрель","Май","Июнь","Июль","Август","Сентябрь","Октябрь","Ноябрь","Декабрь"],
       wd: ["вс","пн","вт","ср","чт","пт","сб"],
     },
     en: {
       brand: "Radar", brandSub: "contemporary art", tabRu: "Russia", tabWorld: "World", tabFav: "Saved", tabSubs: "Subscribe",
-      heroRu: "Russia", heroRuSub: "New music, media art, exhibitions, performance and theatre across the country. Updated daily.",
+      heroRu: "Russia", heroRuSub: "New music, media art, exhibitions, cinema, performance and theatre across the country. Updated daily.",
       heroWorld: "World", heroWorldSub: "Biennials, media-art and new-music festivals, fairs and major museum shows — a year ahead.",
       heroFav: "Saved", heroFavSub: "Events you starred. Stored on this device.",
       picks: "Editors' picks", picksSub: "the essentials for the coming month",
-      allPlaces: "All cities", allCountries: "All countries", morePlaces: "More…", all: "All",
+      allPlaces: "All cities", allCountries: "All countries", pickCity: "Choose a city", pickCountry: "Choose a country", placeSearch: "Find a city…", morePlaces: "More…", all: "All",
       whenAll: "Any time", whenToday: "Today", whenWeekend: "Weekend", whenWeek: "7 days", whenMonth: "Month",
       search: "Search: artist, venue, composer…",
       soon: "Coming up", live: "On now", liveSub: "by closing date", tba: "Date TBA", nothing: "Nothing found — try clearing filters.",
       favEmpty: "Nothing yet. Tap ☆ on a card to save an event.",
-      apple: " Calendar", google: "Google", source: "Source", share: "Share", more: "Show more",
+      addCal: "+ Add to calendar", findMore: "🔎 Find more", mineBadge: "my find", myTitle: "Personal search", myLead: "The robot searches the web for events in your city using your own free Google Gemini quota. Only you see the results.", myKey: "Gemini API key", myKeyHelp: "Get a free key at aistudio.google.com/apikey (sign in with your Google account) and paste it here. The key stays on this device only.", mySave: "Save key", myTopic: "What to look for (optional): e.g. “sound art” or “photography shows”", myRun: "Search", myBusy: "Searching… 20–60 seconds", myFound: "New events found:", myNone: "Nothing new — try another query.", myErr: "Search error:", myForget: "Delete key", myClear: "Clear my finds", myWhere: "Searching in:", press: "press screening · accreditation", pressChip: "Press screenings", source: "Source", share: "Share", more: "Show more",
       liveBadge: "on now", newBadge: "new", until: "until", fromTg: "via Telegram",
       favIcs: "Add all saved to calendar", copied: "Link copied", saved: "Saved", removed: "Removed",
       updated: "Updated", events: "events",
@@ -61,13 +61,13 @@
       installAndroid: "Android: Chrome menu → Install app.", installBtn: "Install",
       footNote: "Listings are collected automatically from venues' Telegram channels, websites and editorial round-ups. Check the date via “Source” before you go. Images belong to their owners and link to the original.",
       suggest: "Suggest an event or a source", region: "Russia", world: "World", imgFrom: "Image:",
-      cats: { music: "New music", media: "Media / digital", gallery: "Exhibitions", performance: "Performance", fair: "Fairs / festivals", theatre: "Theatre", biennial: "Biennials" },
+      cats: { music: "New music", media: "Media / digital", gallery: "Exhibitions", performance: "Performance", fair: "Fairs / festivals", theatre: "Theatre", cinema: "Cinema", biennial: "Biennials" },
       mon: ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
       mon1: ["January","February","March","April","May","June","July","August","September","October","November","December"],
       wd: ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],
     },
   };
-  const CAT_HEX = { music: "#7cf2c9", media: "#8f7bff", gallery: "#ffb15c", performance: "#ff6b8b", fair: "#5cc8ff", theatre: "#ff4d3d", biennial: "#e7ff5c" };
+  const CAT_HEX = { music: "#7cf2c9", media: "#8f7bff", gallery: "#ffb15c", performance: "#ff6b8b", fair: "#5cc8ff", theatre: "#ff4d3d", cinema: "#c9b6ff", biennial: "#e7ff5c" };
 
   // ------------------------------------------------------------ state
   const S = {
@@ -144,6 +144,12 @@
       g += `<rect width="${W}" height="26" fill="${c}" opacity=".9"/>`;
     } else if (e.cat === "fair") {
       for (let k = 0; k < 26; k++) { const w = 30 + r() * 140, h = 30 + r() * 110; g += `<rect x="${f(r() * W - w / 2)}" y="${f(r() * H - h / 2)}" width="${f(w)}" height="${f(h)}" fill="none" stroke="${r() > .8 ? "#fff" : c}" stroke-opacity="${(.2 + r() * .6).toFixed(2)}" stroke-width="2"/>`; }
+    } else if (e.cat === "cinema") {
+      const y0 = H * (.18 + .2 * r()), h = H * .5;
+      g += `<rect x="0" y="${f(y0)}" width="${W}" height="${f(h)}" fill="${c}" opacity=".16"/>`;
+      for (let x = 6; x < W; x += 22) { g += `<rect x="${x}" y="${f(y0 + 6)}" width="10" height="8" rx="2" fill="${c}" opacity=".7"/><rect x="${x}" y="${f(y0 + h - 14)}" width="10" height="8" rx="2" fill="${c}" opacity=".7"/>`; }
+      for (let x = 10, k = 0; x < W; x += 116, k++) { const o = (.25 + r() * .6).toFixed(2); g += `<rect x="${x}" y="${f(y0 + 22)}" width="100" height="${f(h - 44)}" fill="${k % 2 ? "#fff" : c}" opacity="${o}"/>`; }
+      g += `<circle cx="${f(W * (.2 + .6 * r()))}" cy="${f(H * .85)}" r="${f(40 + r() * 60)}" fill="${c}" opacity=".12"/>`;
     } else if (e.cat === "biennial") {
       for (let k = 0; k < 9; k++) { const R = 30 + k * 26; g += `<circle cx="${W / 2}" cy="${H / 2}" r="${R}" fill="none" stroke="${c}" stroke-opacity="${(.15 + r() * .6).toFixed(2)}" stroke-width="${(1 + r() * 6).toFixed(1)}" stroke-dasharray="${f(4 + r() * 40)} ${f(4 + r() * 30)}"/>`; }
     } else {
@@ -159,16 +165,21 @@
 
   // ------------------------------------------------------------ card
   function place(e) { return e.region === "world" ? `${L(e, "city")}, ${L(e, "country")}` : L(e, "city"); }
-  function calButtons(e, big) {
+  const UA = navigator.userAgent;
+  const APPLE = /iPhone|iPad|iPod|Macintosh/.test(UA) && !/Android/.test(UA);
+  function calButtons(e) {
     if (!e.ics) return `<span class="btn" aria-disabled="true">${t("tba")}</span>`;
-    return `<a class="btn primary" href="${esc(e.ics)}" title="${esc(e.calSummary || "")}">${big ? "" : ""}${t("apple")}</a><a class="btn" href="${esc(e.gcal)}" target="_blank" rel="noopener">${t("google")}</a>`;
+    // Одна кнопка: на iPhone/Mac — файл .ics (сразу открывается Календарь), на остальных — Google Календарь
+    const href = APPLE ? e.ics : e.gcal;
+    const ext = APPLE ? "" : ' target="_blank" rel="noopener"';
+    return `<a class="btn primary" href="${esc(href)}"${ext} title="${esc(e.calSummary || "")}" data-cal>${t("addCal")}</a>`;
   }
   function card(e) {
     const c = t("cats")[e.cat] || e.cat, fav = S.fav.has(e.id);
     return `<article class="card" data-id="${esc(e.id)}">
-      <div class="cover" data-open>${cover(e)}<span class="badge b-city">${esc(place(e))}</span>${isLive(e) ? `<span class="badge b-live">${t("liveBadge")}</span>` : ""}${e.isNew ? `<span class="badge b-new">${t("newBadge")}</span>` : ""}<span class="badge b-date">${esc(badge(e))}</span></div>
+      <div class="cover" data-open>${cover(e)}<span class="badge b-city">${esc(place(e))}</span>${isLive(e) ? `<span class="badge b-live">${t("liveBadge")}</span>` : ""}${e.mine ? `<span class="badge b-new">${t("mineBadge")}</span>` : e.isNew ? `<span class="badge b-new">${t("newBadge")}</span>` : ""}<span class="badge b-date">${esc(badge(e))}</span></div>
       <div class="body">
-        <span class="tag" style="color:${CAT_HEX[e.cat] || "#fff"}">${esc(c)}${e.tg ? ` <span class="muted">· ${t("fromTg")}</span>` : ""}</span>
+        <span class="tag" style="color:${CAT_HEX[e.cat] || "#fff"}">${esc(c)}${e.tg ? ` <span class="muted">· ${t("fromTg")}</span>` : ""}${e.press ? ` <span class="press">${t("press")}</span>` : ""}</span>
         <h3 class="title" data-open>${esc(L(e, "title"))}</h3>
         ${e.who ? `<div class="who">${esc(e.who)}</div>` : ""}
         <div class="when">${esc(whenText(e))}</div>
@@ -187,7 +198,7 @@
         <div class="when">${esc(whenText(e))}</div>
         <div class="venue">${esc(e.venue || "")}${e.address ? " · " + esc(e.address) : ""}</div>
         <p class="desc">${esc(L(e, "desc"))}</p>
-        <div class="actions">${calButtons(e, true)}<button class="btn star${fav ? " on" : ""}" data-fav>${fav ? "★" : "☆"} ${t("tabFav")}</button><button class="btn" data-share>${t("share")}</button><a class="btn" href="${esc(e.src)}" target="_blank" rel="noopener">${t("source")}: ${esc(e.srcName || "")} ↗</a></div>
+        <div class="actions">${calButtons(e)}<button class="btn star${fav ? " on" : ""}" data-fav>${fav ? "★" : "☆"} ${t("tabFav")}</button><button class="btn" data-share>${t("share")}</button><a class="btn" href="${esc(e.src)}" target="_blank" rel="noopener">${t("source")}: ${esc(e.srcName || "")} ↗</a></div>
         ${e.img && e.imgCredit ? `<div class="credit">${t("imgFrom")} ${esc(e.imgCredit)}</div>` : ""}
       </div>`;
   }
@@ -206,17 +217,38 @@
     let places = Object.entries(counts).sort((a, b) => b[1] - a[1]);
     if (S.tab === "ru") places.sort((a, b) => (a[0] === "Москва" ? -1 : b[0] === "Москва" ? 1 : b[1] - a[1]));
     const labelOf = (name) => { if (S.lang !== "en") return name; const e = evs.find((x) => x[key] === name); return (e && e[key + "_en"]) || name; };
-    const top = places.slice(0, 7), rest = places.slice(7);
     const cur = S.place[S.tab];
+    const top = places.slice(0, 5);
     const el = $("#fPlace");
-    el.innerHTML = [["all", S.tab === "world" ? t("allCountries") : t("allPlaces")]].concat(top.map(([n, c]) => [n, `${labelOf(n)} · ${c}`]))
-      .map(([v, l]) => `<button class="chip${cur === v ? " on" : ""}" data-v="${esc(v)}">${esc(l)}</button>`).join("") +
-      (rest.length ? `<select class="chip${rest.some(([n]) => n === cur) ? " on" : ""}" id="morePlaces"><option value="">${t("morePlaces")}</option>${rest.sort((a, b) => labelOf(a[0]).localeCompare(labelOf(b[0]))).map(([n, c]) => `<option value="${esc(n)}"${cur === n ? " selected" : ""}>${esc(labelOf(n))} · ${c}</option>`).join("")}</select>` : "");
-    el.onclick = (ev) => { const b = ev.target.closest("button.chip"); if (b) setPlace(b.dataset.v); };
-    const sel = $("#morePlaces"); if (sel) sel.onchange = () => sel.value && setPlace(sel.value);
+    const curLabel = cur === "all" ? (S.tab === "world" ? t("allCountries") : t("allPlaces")) : labelOf(cur);
+    el.innerHTML = `<button class="chip pick-place${cur !== "all" ? " on" : ""}" id="placeBtn">📍 ${esc(curLabel)} ▾</button>` +
+      (cur !== "all" ? `<button class="chip" data-v="all">✕</button>` : "") +
+      top.filter(([n]) => n !== cur).map(([n, c]) => `<button class="chip" data-v="${esc(n)}">${esc(labelOf(n))} · ${c}</button>`).join("");
+    el.onclick = (ev) => {
+      if (ev.target.closest("#placeBtn")) return openPlacePicker(places, labelOf);
+      const b = ev.target.closest("button.chip[data-v]"); if (b) setPlace(b.dataset.v);
+    };
     const cats = Object.keys(t("cats")).filter((k) => evs.some((e) => e.cat === k));
-    chips($("#fCat"), [["all", t("all")]].concat(cats.map((k) => [k, t("cats")[k], CAT_HEX[k]])), S.cat, (v) => { S.cat = v; S.shown = 48; render(); });
+    const catItems = [["all", t("all")]].concat(cats.map((k) => [k, t("cats")[k], CAT_HEX[k]]));
+    if (evs.some((e) => e.press)) catItems.push(["press", t("pressChip"), "#c9b6ff"]);
+    chips($("#fCat"), catItems, S.cat, (v) => { S.cat = v; S.shown = 48; render(); });
+    if (!$("#findMore")) { const b = document.createElement("button"); b.id = "findMore"; b.className = "chip pick-place"; $("#q").after(b); b.onclick = openMySearch; }
+    $("#findMore").textContent = t("findMore");
     chips($("#fWhen"), [["all", t("whenAll")], ["today", t("whenToday")], ["weekend", t("whenWeekend")], ["week", t("whenWeek")], ["month", t("whenMonth")]], S.when, (v) => { S.when = v; S.shown = 48; render(); });
+  }
+
+  function openPlacePicker(places, labelOf) {
+    const total = places.reduce((a, [, c]) => a + c, 0);
+    const title = S.tab === "world" ? t("pickCountry") : t("pickCity");
+    $("#modalBody").innerHTML = `<div class="body picker"><h3 class="title">${esc(title)}</h3>
+      <input type="search" id="placeQ" placeholder="${esc(t("placeSearch"))}" autocomplete="off">
+      <div class="plist" id="plist">${[["all", S.tab === "world" ? t("allCountries") : t("allPlaces"), total]].concat(places.map(([n, c]) => [n, labelOf(n), c]))
+        .map(([v, l, c]) => `<button class="pitem${S.place[S.tab] === v ? " on" : ""}" data-place="${esc(v)}" data-label="${esc(String(l).toLowerCase())}"><span>${esc(l)}</span><b>${c}</b></button>`).join("")}</div></div>`;
+    $("#modal").hidden = false; $("#modal").dataset.id = "";
+    const q = $("#placeQ");
+    q.oninput = () => { const v = q.value.trim().toLowerCase(); document.querySelectorAll("#plist .pitem").forEach((b) => { b.hidden = v && !b.dataset.label.includes(v); }); };
+    $("#plist").onclick = (ev) => { const b = ev.target.closest("[data-place]"); if (!b) return; $("#modal").hidden = true; setPlace(b.dataset.place); };
+    setTimeout(() => q.focus(), 50);
   }
   function setPlace(v) { S.place[S.tab] = v; store.set("place-" + S.tab, v); S.shown = 48; render(); }
 
@@ -254,7 +286,7 @@
     renderFilters(base);
     const cur = S.place[S.tab], key = S.tab === "world" ? "country" : "city";
     const q = S.q.trim().toLowerCase();
-    const list = base.filter((e) => (cur === "all" || e[key] === cur) && (S.cat === "all" || e.cat === S.cat) && inWhen(e) &&
+    const list = base.filter((e) => (cur === "all" || e[key] === cur) && (S.cat === "all" || e.cat === S.cat || (S.cat === "press" && e.press)) && inWhen(e) &&
       (!q || [e.title, e.title_en, e.who, e.venue, e.desc, e.city, e.city_en, e.country].join(" ").toLowerCase().includes(q)));
 
     // picks
@@ -273,6 +305,73 @@
       (shownLive.length ? `<h2>${t("live")} <small class="muted">${live.length} · ${t("liveSub")}</small></h2><div class="grid">${shownLive.map(card).join("")}</div>` : "") +
       (soon.length + live.length > shownSoon.length + shownLive.length ? `<button class="btn more" id="more">${t("more")}</button>` : "");
     const m = $("#more"); if (m) m.onclick = () => { S.shown += 48; render(); };
+  }
+
+
+  // ------------------------------------------------------------ личный поиск (ключ пользователя)
+  function openMySearch() {
+    const key = store.get("gemini", "");
+    const cur = S.place[S.tab];
+    const where = cur === "all" ? (S.tab === "world" ? t("allCountries") : t("allPlaces")) : cur;
+    $("#modalBody").innerHTML = `<div class="body picker"><h3 class="title">${t("myTitle")}</h3><p class="muted">${t("myLead")}</p>
+      ${key ? `<p><b>${t("myWhere")}</b> ${esc(where)}${S.tab === "world" ? "" : ", Россия"}</p>
+        <input type="search" id="myTopic" placeholder="${esc(t("myTopic"))}">
+        <div class="actions"><button class="btn primary" id="myRun">${t("myRun")}</button><button class="btn" id="myForget">${t("myForget")}</button><button class="btn" id="myClear">${t("myClear")}</button></div>
+        <div id="myOut" class="muted" style="margin-top:10px"></div>`
+      : `<label class="muted">${t("myKeyHelp")}</label><input type="password" id="myKey" placeholder="${esc(t("myKey"))}" autocomplete="off">
+        <div class="actions"><a class="btn" href="https://aistudio.google.com/apikey" target="_blank" rel="noopener">aistudio.google.com ↗</a><button class="btn primary" id="mySave">${t("mySave")}</button></div>`}
+      </div>`;
+    $("#modal").hidden = false; $("#modal").dataset.id = "";
+    if (!key) { $("#mySave").onclick = () => { const v = $("#myKey").value.trim(); if (v) { store.set("gemini", v); openMySearch(); } }; return; }
+    $("#myForget").onclick = () => { store.set("gemini", ""); openMySearch(); };
+    $("#myClear").onclick = () => { store.set("mine", []); S.data.events = S.data.events.filter((e) => !e.mine); render(); toast("OK"); };
+    $("#myRun").onclick = () => runMySearch(key, cur, $("#myTopic").value.trim());
+  }
+  async function geminiModel(key) {
+    const cached = store.get("geminiModel", ""); if (cached) return cached;
+    try {
+      const r = await fetch("https://generativelanguage.googleapis.com/v1beta/models?pageSize=200&key=" + encodeURIComponent(key)).then((x) => x.json());
+      const names = (r.models || []).filter((m) => (m.supportedGenerationMethods || []).includes("generateContent") && /flash/.test(m.name) && !/(tts|live|image|audio|lite)/.test(m.name)).map((m) => m.name.split("/").pop());
+      names.sort((a, b) => b.localeCompare(a, undefined, { numeric: true }));
+      const m = names[0] || "gemini-flash-latest"; store.set("geminiModel", m); return m;
+    } catch (_) { return "gemini-flash-latest"; }
+  }
+  async function runMySearch(key, place, topic) {
+    const out = $("#myOut"); out.textContent = t("myBusy"); $("#myRun").disabled = true;
+    const today = new Date(TODAY).toISOString().slice(0, 10);
+    const region = S.tab === "world" ? (place === "all" ? "в мире (вне России)" : `в стране/городе: ${place}`) : (place === "all" ? "в городах России" : `в городе ${place} (Россия)`);
+    const known = S.data.events.filter((e) => place === "all" || e.city === place || e.country === place).map((e) => e.title).slice(0, 150).join("; ");
+    const prompt = `Сегодня ${today}. Найди в интернете (сайты площадок, афиши, Telegram-каналы) будущие события современного искусства ${region} на ближайшие 2 месяца${topic ? `, тема: ${topic}` : ""}: новая и экспериментальная музыка, саунд-арт, медиа- и цифровое искусство, выставки современного искусства, перформанс, современный театр и танец, артхаус-кино и кинофестивали, ярмарки, биеннале. Не включай уже известные: ${known}.
+Верни ТОЛЬКО JSON-массив до 15 элементов: [{"title":"","who":"","cat":"music|media|gallery|performance|fair|theatre|cinema|biennial","city":"город по-русски","country":"страна по-русски","venue":"","address":"","start":"YYYY-MM-DD","end":"YYYY-MM-DD или null","time":"HH:MM или null","desc":"1–2 предложения своими словами","src":"URL источника"}]. Только события с подтверждённой датой и местом.`;
+    try {
+      const model = await geminiModel(key);
+      const r = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${encodeURIComponent(key)}`, {
+        method: "POST", headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ contents: [{ role: "user", parts: [{ text: prompt }] }], tools: [{ google_search: {} }] }),
+      });
+      const j = await r.json();
+      if (!r.ok) throw new Error((j.error && j.error.message) || r.status);
+      const text = (j.candidates?.[0]?.content?.parts || []).map((p) => p.text || "").join("");
+      const arr = JSON.parse((text.match(/\[[\s\S]*\]/) || ["[]"])[0]);
+      const have = new Set(S.data.events.map((e) => (e.title || "").toLowerCase().replace(/[^a-zа-я0-9]/g, "")));
+      const fresh = arr.filter((e) => e && e.title && e.start && /^\d{4}-\d{2}-\d{2}$/.test(e.start) && (D(e.end) || D(e.start)) >= TODAY && !have.has(e.title.toLowerCase().replace(/[^a-zа-я0-9]/g, "")))
+        .map((e, i) => ({ ...e, id: "mine-" + Date.now() + "-" + i, mine: true, region: S.tab === "world" ? "world" : "ru", cat: t("cats")[e.cat] ? e.cat : "gallery", srcName: (() => { try { return new URL(e.src).hostname.replace("www.", ""); } catch (_) { return ""; } })(),
+          gcal: "https://calendar.google.com/calendar/render?" + new URLSearchParams({ action: "TEMPLATE", text: e.title, dates: e.start.replace(/-/g, "") + "/" + (e.end || e.start).replace(/-/g, ""), details: (e.desc || "") + "\n" + (e.src || ""), location: [e.venue, e.city].filter(Boolean).join(", ") }).toString() }))
+        .map((e) => ({ ...e, ics: icsData(e) }));
+      store.set("mine", store.get("mine", []).concat(fresh));
+      S.data.events = S.data.events.concat(fresh);
+      out.textContent = fresh.length ? `${t("myFound")} ${fresh.length}` : t("myNone");
+      render();
+    } catch (err) { out.textContent = `${t("myErr")} ${err.message || err}`; }
+    $("#myRun").disabled = false;
+  }
+  function icsData(e) {
+    const d = (x) => x.replace(/-/g, "");
+    const endD = new Date(Date.parse((e.end || e.start) + "T00:00:00Z") + DAY).toISOString().slice(0, 10);
+    const escI = (x) => String(x || "").replace(/[\\;,]/g, (m) => "\\" + m).replace(/\n/g, "\\n");
+    const body = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Radar//RU", "BEGIN:VEVENT", "UID:" + e.id + "@radar", "DTSTAMP:" + new Date().toISOString().replace(/[-:]/g, "").slice(0, 15) + "Z",
+      "DTSTART;VALUE=DATE:" + d(e.start), "DTEND;VALUE=DATE:" + d(endD), "SUMMARY:" + escI(e.title), "LOCATION:" + escI([e.venue, e.city].filter(Boolean).join(", ")), "DESCRIPTION:" + escI((e.desc || "") + "\n" + (e.src || "")), "END:VEVENT", "END:VCALENDAR"].join("\r\n");
+    return "data:text/calendar;charset=utf-8," + encodeURIComponent(body);
   }
 
   // ------------------------------------------------------------ subscriptions
@@ -367,11 +466,33 @@
   }
   window.addEventListener("hashchange", route);
 
+  // Telegram Mini App (бот открывает сайт с ?tg=1)
+  let IN_TG = false;
+  function initTelegram() {
+    const TGW = window.Telegram && window.Telegram.WebApp;
+    if (!TGW || !TGW.initData) return;
+    IN_TG = true;
+    document.documentElement.classList.add("in-tg");
+    try { TGW.ready(); TGW.expand(); TGW.setHeaderColor && TGW.setHeaderColor("#0c0c0f"); TGW.setBackgroundColor && TGW.setBackgroundColor("#0c0c0f"); } catch (_) {}
+  }
+  const tgReady = new URLSearchParams(location.search).has("tg") ? new Promise((res) => {
+    const sc = document.createElement("script"); sc.src = "https://telegram.org/js/telegram-web-app.js";
+    sc.onload = () => { initTelegram(); res(); }; sc.onerror = () => res(); document.head.appendChild(sc);
+    setTimeout(res, 2500);
+  }) : Promise.resolve();
+  const firstVisit = !store.get("seen", false);
+
   render();
-  fetch("data/events.json", { cache: "no-cache" }).then((r) => r.json()).then((d) => {
+  Promise.all([fetch("data/events.json", { cache: "no-cache" }).then((r) => r.json()), tgReady]).then(([d]) => {
     S.data = d;
+    const mine = store.get("mine", []).filter((e) => (D(e.end) || D(e.start) || TODAY) >= TODAY);
+    store.set("mine", mine);
+    d.events = d.events.concat(mine);
     const ids = new Set(d.events.map((e) => e.id)); // чистим избранное от прошедших
     S.fav = new Set([...S.fav].filter((id) => ids.has(id))); store.set("fav", [...S.fav]);
     route();
+    // первый экран — выбор города (в Telegram и при первом визите)
+    if ((IN_TG || firstVisit) && !location.hash.startsWith("#e=") && S.tab === "ru" && S.place.ru === "all") { const b = $("#placeBtn"); if (b) b.click(); }
+    store.set("seen", true);
   }).catch(() => { $("#list").innerHTML = `<div class="empty">Не удалось загрузить данные. Проверьте подключение.</div>`; });
 })();

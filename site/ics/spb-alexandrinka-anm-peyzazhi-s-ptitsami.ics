@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:«Пейзажи с птицами». Ансамбль не
+ зависимых музыкантов
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:spb-alexandrinka-anm-peyzazhi-s-ptitsami@afisha-art
+DTSTAMP:20261112T165341Z
+DTSTART:20261112T163000Z
+DTEND:20261112T183000Z
+SUMMARY:«Пейзажи с птицами». Ансамбль незав
+ исимых музыкантов
+LOCATION:Новая сцена Александринского теат
+ ра\, фойе\, Санкт-Петербург
+DESCRIPTION:Камерный концерт петербургского 
+ ансамбля\, играющего музыку XX–XXI веков.\n
+ Ансамбль независимых музыкантов\nhttps://ale
+ xandrinsky.ru/afisha-i-bilety/
+URL:https://doublebasskakov.github.io/radar/#e=spb-alexandrinka-anm-peyza
+ zhi-s-ptitsami
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:«Пейзажи с птицами». Ансамбль нез
+ ависимых музыкантов
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

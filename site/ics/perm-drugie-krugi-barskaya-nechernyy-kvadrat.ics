@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Анна Барская. «Нечёрный квадрат»
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:perm-drugie-krugi-barskaya-nechernyy-kvadrat@afisha-art
+DTSTAMP:20261112T165341Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Последний день: Анна Барская. «Нечё
+ рный квадрат»
+LOCATION:Арт-пространство «Другие круги»\, П
+ ермь
+DESCRIPTION:Персональная выставка пермской х
+ удожницы: работы квадратного формата бе
+ з единого чёрного пятна — игривый диало
+ г с Малевичем о смелости художника.\nАнн
+ а Барская\nhttps://www.sobaka.ru/prm/entertainment/art/223057
+URL:https://doublebasskakov.github.io/radar/#e=perm-drugie-krugi-barskaya
+ -nechernyy-kvadrat
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Анна Барская. «Не
+ чёрный квадрат»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

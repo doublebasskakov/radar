@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:«Натюрморт. Портрет. Пейзаж. Посл
+ е жанра»
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:msk-ges2-posle-zhanra@afisha-art
+DTSTAMP:20261112T165341Z
+DTSTART;VALUE=DATE:20270425
+DTEND;VALUE=DATE:20270426
+SUMMARY:Последний день: «Натюрморт. Портрет
+ . Пейзаж. После жанра»
+LOCATION:Дом культуры «ГЭС-2»\, Болотная наб.\
+ , 15\, Москва
+DESCRIPTION:Большая выставка о том\, что проис
+ ходит с классическими жанрами в искусст
+ ве XX–XXI веков\, — от старых мастеров до к
+ онцептуалистов и молодых авторов.\nСней
+ дерс\, Малевич\, Монастырский\, Шабуров\, 
+ Алина Бровина и др.\nhttps://theblueprint.ru/culture/art/o
+ ctober-2026-exhibitions
+URL:https://doublebasskakov.github.io/radar/#e=msk-ges2-posle-zhanra
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: «Натюрморт. Портр
+ ет. Пейзаж. После жанра»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

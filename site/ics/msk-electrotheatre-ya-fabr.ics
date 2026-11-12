@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:«Я/Фабр»
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:msk-electrotheatre-ya-fabr@afisha-art
+DTSTAMP:20261112T165341Z
+DTSTART:20261117T170000Z
+DTEND:20261117T190000Z
+SUMMARY:«Я/Фабр»
+LOCATION:Электротеатр Станиславский\, Малая
+  сцена\, ул. Тверская\, 23\, Москва
+DESCRIPTION:Спектакль по текстам Яна Фабра.\nЭ
+ лектротеатр Станиславский\nhttps://electrotheatre
+ .ru/playbill/
+URL:https://doublebasskakov.github.io/radar/#e=msk-electrotheatre-ya-fabr
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:«Я/Фабр»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

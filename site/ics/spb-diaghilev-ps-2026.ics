@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Фестиваль «Дягилев P.S.»
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:spb-diaghilev-ps-2026@afisha-art
+DTSTAMP:20261112T165341Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:Последний день: Фестиваль «Дягилев 
+ P.S.»
+LOCATION:БДТ\, Александринский театр\, «Балт
+ ийский дом»\, Дом радио\, Санкт-Петербург
+DESCRIPTION:XVII фестиваль: современный танец и
+ з Кубы и Испании\, работы российских хор
+ еографов\, выставки сценографов и масте
+ р-классы.\nКубинская компания OtroLado\, росс
+ ийские хореографы и др.\nhttps://www.sobaka.ru/enterta
+ inment/theatre/223061
+URL:https://doublebasskakov.github.io/radar/#e=spb-diaghilev-ps-2026
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Фестиваль «Дягил
+ ев P.S.»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

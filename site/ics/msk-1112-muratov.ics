@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Дамир Муратов. «Неполное собрани
+ е сочинений»
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:msk-1112-muratov@afisha-art
+DTSTAMP:20261112T165341Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Последний день: Дамир Муратов. «Неп
+ олное собрание сочинений»
+LOCATION:11.12 GALLERY\, Винзавод\, 4-й Сыромятничес
+ кий пер.\, 1/8\, Москва
+DESCRIPTION:Обзор работ омского художника\, и
+ звестного ироничной переработкой совет
+ ских и поп-культурных символов.\nДамир М
+ уратов\nhttps://winzavod.ru/calendar/exhibitions/
+URL:https://doublebasskakov.github.io/radar/#e=msk-1112-muratov
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Дамир Муратов. «Н
+ еполное собрание сочинений»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

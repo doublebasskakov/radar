@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:«Затворник и Шестипалый»
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:kzn-mon-zatvornik-i-shestipalyy@afisha-art
+DTSTAMP:20261112T165341Z
+DTSTART:20261119T160000Z
+DTEND:20261119T180000Z
+SUMMARY:«Затворник и Шестипалый»
+LOCATION:MOÑ\, ул. Пушкина\, 86\, Казань
+DESCRIPTION:Антиутопия по повести Пелевина в 
+ постановке Кирилла Люкевича.\nРежиссёр 
+ Кирилл Люкевич\; по Виктору Пелевину\nhttps
+ ://afisha.yandex.ru/kazan/theatre/places/mon-kazan
+URL:https://doublebasskakov.github.io/radar/#e=kzn-mon-zatvornik-i-shesti
+ palyy
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:«Затворник и Шестипалый»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:«Belaqua\, или Скоро Сорок»
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:msk-electrotheatre-belaqua@afisha-art
+DTSTAMP:20261112T165341Z
+DTSTART:20261126T160000Z
+DTEND:20261126T180000Z
+SUMMARY:«Belaqua\, или Скоро Сорок»
+LOCATION:Электротеатр Станиславский\, Малая
+  сцена\, ул. Тверская\, 23\, Москва
+DESCRIPTION:Перформанс на Малой сцене Электр
+ отеатра.\nЭлектротеатр Станиславский\nhtt
+ ps://electrotheatre.ru/playbill/
+URL:https://doublebasskakov.github.io/radar/#e=msk-electrotheatre-belaqua
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:«Belaqua\, или Скоро Сорок»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

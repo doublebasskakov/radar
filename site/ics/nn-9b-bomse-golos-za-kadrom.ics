@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Эвсти Бомсе. «Голос за кадром»
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:nn-9b-bomse-golos-za-kadrom@afisha-art
+DTSTAMP:20261112T165341Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+SUMMARY:Последний день: Эвсти Бомсе. «Голос 
+ за кадром»
+LOCATION:Галерея 9Б\, Зеленский съезд\, 6\, Ниж
+ ний Новгород
+DESCRIPTION:Первая выставка в новом простран
+ стве галереи 9Б: около двадцати картин и 
+ графических листов\, где городская и теа
+ тральная образность превращается в сат
+ ирические аллегории о справедливости и 
+ социальных ролях.\nЭвсти Бомсе\nhttps://www.soba
+ ka.ru/nn/entertainment/art/222385
+URL:https://doublebasskakov.github.io/radar/#e=nn-9b-bomse-golos-za-kadro
+ m
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Эвсти Бомсе. «Гол
+ ос за кадром»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

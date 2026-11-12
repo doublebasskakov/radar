@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Сергей Сапожников. «10-26»
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:msk-iks-el-sapozhnikov-10-26@afisha-art
+DTSTAMP:20261112T165341Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Последний день: Сергей Сапожников. 
+ «10-26»
+LOCATION:Галерея Икс Эль\, Винзавод\, 4-й Сыро
+ мятнический пер.\, 1/8\, Москва
+DESCRIPTION:Новая выставка ростовского худож
+ ника\, работающего на стыке фотографии\, 
+ живописи и постановки.\nСергей Сапожник
+ ов\nhttps://winzavod.ru/calendar/exhibitions/
+URL:https://doublebasskakov.github.io/radar/#e=msk-iks-el-sapozhnikov-10-
+ 26
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Сергей Сапожнико
+ в. «10-26»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

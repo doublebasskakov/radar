@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Юрий Ярин. «Место\, где места нет»
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:msk-totibadze-yarin@afisha-art
+DTSTAMP:20261112T165341Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:Последний день: Юрий Ярин. «Место\, г
+ де места нет»
+LOCATION:Галерея Тотибадзе\, Винзавод\, 4-й Сы
+ ромятнический пер.\, 1/8\, Москва
+DESCRIPTION:Персональная выставка в галерее 
+ Тотибадзе.\nЮрий Ярин\nhttps://winzavod.ru/calendar/exhi
+ bitions/
+URL:https://doublebasskakov.github.io/radar/#e=msk-totibadze-yarin
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Юрий Ярин. «Место\
+ , где места нет»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:«Цемента III: Ноги в тазу»
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:spb-parazit-tsementa-3@afisha-art
+DTSTAMP:20261112T165341Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Последний день: «Цемента III: Ноги в т
+ азу»
+LOCATION:Галерея «Паразит»\, Санкт-Петербур
+ г
+DESCRIPTION:Третья часть проекта о бетоне: св
+ ойства материала и попытки их изменить.\
+ nАрт-группа «Паразит»\nhttps://www.sobaka.ru/entertainm
+ ent/art/220014
+URL:https://doublebasskakov.github.io/radar/#e=spb-parazit-tsementa-3
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: «Цемента III: Ноги 
+ в тазу»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

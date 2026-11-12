@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Новогодний арт-объект в атриуме 
+ Ельцин Центра
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:ekb-yeltsin-atrium-art-object-2026@afisha-art
+DTSTAMP:20261112T165341Z
+DTSTART;VALUE=DATE:20261226
+DTEND;VALUE=DATE:20261227
+SUMMARY:Новогодний арт-объект в атриуме Ель
+ цин Центра
+LOCATION:Ельцин Центр\, атриум\, Екатеринбур
+ г
+DESCRIPTION:Многочастная подвесная инсталля
+ ция\, созданная группой художников для н
+ овогодней программы «Открываем новое».\
+ nСемь художников (в т.ч. участники инклюз
+ ивной лаборатории) и куратор\nhttps://globalcity.
+ info/news/11/11/2026/73322
+URL:https://doublebasskakov.github.io/radar/#e=ekb-yeltsin-atrium-art-obj
+ ect-2026
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Новогодний арт-объект в атриуме Е
+ льцин Центра
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

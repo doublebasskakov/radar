@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:«Сказочные миры» с Сашей Фролово
+ й
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:msk-vmdpni-frolova-skazochnye-miry@afisha-art
+DTSTAMP:20261112T165341Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:«Сказочные миры» с Сашей Фроловой
+LOCATION:Всероссийский музей декоративного
+  искусства\, ул. Делегатская\, 3\, Москва
+DESCRIPTION:Музейная керамика\, эмаль и стекл
+ о в диалоге со скульптурами\, костюмами 
+ и видео Саши Фроловой.\nСаша Фролова\nhttps:
+ //msk1.ru/text/entertainment/2026/11/01/76735247/
+URL:https://doublebasskakov.github.io/radar/#e=msk-vmdpni-frolova-skazoch
+ nye-miry
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:«Сказочные миры» с Сашей Фролово
+ й
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

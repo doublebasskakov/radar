@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:МАСМ: Булез\, Шнитке\, Райх\, Найма
+ н
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:msk-masm-15-dec@afisha-art
+DTSTAMP:20261112T165341Z
+DTSTART:20261215T160000Z
+DTEND:20261215T180000Z
+SUMMARY:МАСМ: Булез\, Шнитке\, Райх\, Найман
+LOCATION:Камерный зал Московской филармони
+ и\, Москва
+DESCRIPTION:Программа от Domaines Булеза и «Посвя
+ щения Паганини» Шнитке до «Piano Phase» Райх
+ а и «Весны священной» в версии для двух 
+ роялей.\nМосковский ансамбль современно
+ й музыки\nhttps://meloman.ru/performer/masm-moskovskij-ansambl-sov
+ remennoj-muzyki/
+URL:https://doublebasskakov.github.io/radar/#e=msk-masm-15-dec
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:МАСМ: Булез\, Шнитке\, Райх\, Найман
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

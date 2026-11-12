@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:victoria-water@afisha-art
-DTSTAMP:20261112T162055Z
+DTSTAMP:20261112T165341Z
 DTSTART:20261112T150000Z
 DTEND:20261112T170000Z
 SUMMARY:Написано водой\, на воде\, для воды
@@ -22,6 +22,54 @@ URL:https://doublebasskakov.github.io/radar/#e=victoria-water
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Написано водой\, на воде\, для воды
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:samara-victoria-idite-po-moemu-sledu@afisha-art
+DTSTAMP:20261112T165341Z
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+SUMMARY:Последний день: «Идите по моему сле
+ ду»
+LOCATION:Галерея современного искусства «В
+ иктория»\, Самара
+DESCRIPTION:Групповой проект\, сталкивающий к
+ лассиков и современных авторов\, от Сере
+ бряковой до Синди Шерман\, вокруг темы с
+ леда и наследования.\nЗинаида Серебряко
+ ва\, Синди Шерман\, Иван Айвазовский\, Reena 
+ Spaulings и др.\nhttps://theblueprint.ru/culture/art/october-2026-exhi
+ bitions
+URL:https://doublebasskakov.github.io/radar/#e=samara-victoria-idite-po-m
+ oemu-sledu
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: «Идите по моему с
+ леду»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:samara-osenniy-auktsion-2026@afisha-art
+DTSTAMP:20261112T165341Z
+DTSTART:20261126T150000Z
+DTEND:20261126T170000Z
+SUMMARY:VII Осенний аукцион современного иск
+ усства
+LOCATION:HolidayHall\, Самара
+DESCRIPTION:Вечерние торги: 15 работ художнико
+ в трёх поколений\, первый лот благотвори
+ тельный — в пользу независимого простр
+ анства KABINET.\nАрт-клуб «Худрук»\, Российс
+ кий аукционный дом\; куратор Сергей Бала
+ ндин\nhttps://www.sobaka.ru/smr/entertainment/art/223429
+URL:https://doublebasskakov.github.io/radar/#e=samara-osenniy-auktsion-20
+ 26
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:VII Осенний аукцион современного и
+ скусства
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

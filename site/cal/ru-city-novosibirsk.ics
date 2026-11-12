@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Радар — Россия · city-novosibirsk
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:nsk-masm-tri-veka@afisha-art
+DTSTAMP:20261112T165341Z
+DTSTART:20261126T120000Z
+DTEND:20261126T140000Z
+SUMMARY:МАСМ. «Три века русской камерной му
+ зыки»
+LOCATION:Камерный зал Новосибирской филарм
+ онии\, Новосибирск
+DESCRIPTION:Сибирский тур МАСМ: программа\, св
+ язывающая русскую камерную музыку разн
+ ых эпох вплоть до сегодняшней.\nМосковск
+ ий ансамбль современной музыки\nhttps://m-c-m-
+ e.ru/ru/events/2026/11/
+URL:https://doublebasskakov.github.io/radar/#e=nsk-masm-tri-veka
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:МАСМ. «Три века русской камерной 
+ музыки»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

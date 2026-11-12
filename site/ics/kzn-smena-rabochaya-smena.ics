@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:«Рабочая смена»
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:kzn-smena-rabochaya-smena@afisha-art
+DTSTAMP:20261112T165341Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Открытие: «Рабочая смена»
+LOCATION:Центр современной культуры «Смена
+ »\, Казань
+DESCRIPTION:Групповая выставка о серийном пр
+ оизводстве и переосмыслении труда — от 
+ ручного до машинного\; участники из Каза
+ ни\, Москвы\, Петербурга\, Краснодара\, Са
+ мары и Иваново.\nКураторы Артур Голяков\,
+  Сергей Гуськов\; Егор Живе\, Ваня Венмер\
+ , Зухра Салахова\, ORDO\, PLAGUE и др.\nhttps://entermedi
+ a.io/news/v-smene-otkroetsya-gruppovaya-vystavka-rabochaya-smena/
+URL:https://doublebasskakov.github.io/radar/#e=kzn-smena-rabochaya-smena
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: «Рабочая смена»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

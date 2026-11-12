@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:«Ужин в ПомПеях». Премьера
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:msk-electrotheatre-uzhin-v-pompeyakh@afisha-art
+DTSTAMP:20261112T165341Z
+DTSTART:20261120T160000Z
+DTEND:20261120T180000Z
+SUMMARY:«Ужин в ПомПеях». Премьера
+LOCATION:Электротеатр Станиславский\, Малая
+  сцена\, ул. Тверская\, 23\, Москва
+DESCRIPTION:Премьера процессуального пласти
+ ческого полотна на Малой сцене.\nЭлектро
+ театр Станиславский\nhttps://electrotheatre.ru/playbill
+ /
+URL:https://doublebasskakov.github.io/radar/#e=msk-electrotheatre-uzhin-v
+ -pompeyakh
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:«Ужин в ПомПеях». Премьера
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

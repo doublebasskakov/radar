@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:«Антология». Андрей Поздеев
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:krsk-ploshchad-mira-pozdeev-antologiya@afisha-art
+DTSTAMP:20261112T165341Z
+DTSTART;VALUE=DATE:20270216
+DTEND;VALUE=DATE:20270217
+SUMMARY:Последний день: «Антология». Андрей
+  Поздеев
+LOCATION:Музейный центр «Площадь Мира»\, Кра
+ сноярск
+DESCRIPTION:Большой обзор творчества красноя
+ рского живописца-нонконформиста\, одног
+ о из главных художников Сибири второй п
+ оловины XX века.\nАндрей Поздеев\nhttps://theblue
+ print.ru/culture/art/october-2026-exhibitions
+URL:https://doublebasskakov.github.io/radar/#e=krsk-ploshchad-mira-pozdee
+ v-antologiya
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: «Антология». Андр
+ ей Поздеев
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

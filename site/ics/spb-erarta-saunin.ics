@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Денис Саунин. «Слон и прочие овощ
+ и»
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:spb-erarta-saunin@afisha-art
+DTSTAMP:20261112T165341Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:Последний день: Денис Саунин. «Слон 
+ и прочие овощи»
+LOCATION:Музей современного искусства Эрар
+ та\, 29-я линия В.О.\, 2\, Санкт-Петербург
+DESCRIPTION:Персональная выставка художника 
+ в Эрарте.\nДенис Саунин\nhttps://kuda-spb.ru/event/vyst
+ avka-denis-saunin-slon-i-prochie-ovoschi/
+URL:https://doublebasskakov.github.io/radar/#e=spb-erarta-saunin
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Денис Саунин. «Сл
+ он и прочие овощи»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

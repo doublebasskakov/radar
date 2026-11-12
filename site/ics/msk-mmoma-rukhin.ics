@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:«Рухин. Шаг в беспредметность»
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:msk-mmoma-rukhin@afisha-art
+DTSTAMP:20261112T165341Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Последний день: «Рухин. Шаг в беспре
+ дметность»
+LOCATION:ММОМА\, Москва
+DESCRIPTION:Ретроспективный взгляд на абстра
+ ктную живопись ленинградского нонконфо
+ рмиста Евгения Рухина.\nЕвгений Рухин\nhtt
+ ps://theblueprint.ru/culture/art/october-2026-exhibitions
+URL:https://doublebasskakov.github.io/radar/#e=msk-mmoma-rukhin
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: «Рухин. Шаг в бесп
+ редметность»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

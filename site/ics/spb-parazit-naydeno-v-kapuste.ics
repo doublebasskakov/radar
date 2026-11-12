@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:«Найдено в капусте»
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:spb-parazit-naydeno-v-kapuste@afisha-art
+DTSTAMP:20261112T165341Z
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
+SUMMARY:Последний день: «Найдено в капусте»
+LOCATION:Галерея «Паразит»\, Санкт-Петербур
+ г
+DESCRIPTION:Деревенский арт-коллектив из Под
+ московья приезжает к «Паразитам» с объе
+ ктами\, фото и следами перформансов.\nКап
+ устинский центр современного искусства
+  (Андрей Ишонин и др.)\nhttps://www.sobaka.ru/entertainmen
+ t/art/222821
+URL:https://doublebasskakov.github.io/radar/#e=spb-parazit-naydeno-v-kapu
+ ste
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: «Найдено в капуст
+ е»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

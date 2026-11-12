@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:«Женские страсти»
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:msk-maslovka-zhenskie-strasti@afisha-art
+DTSTAMP:20261112T165341Z
+DTSTART;VALUE=DATE:20270314
+DTEND;VALUE=DATE:20270315
+SUMMARY:Последний день: «Женские страсти»
+LOCATION:Городок художников на Масловке\, Мо
+ сква
+DESCRIPTION:Искусство женщин-художниц разных
+  поколений — от Мавриной до перформанси
+ стки Елены Ковылиной.\nМаврина\, Назарен
+ ко\, Нестерова\, Ковылина\, Подкорытова и 
+ др.\nhttps://theblueprint.ru/culture/art/october-2026-exhibitions
+URL:https://doublebasskakov.github.io/radar/#e=msk-maslovka-zhenskie-stra
+ sti
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: «Женские страсти
+ »
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

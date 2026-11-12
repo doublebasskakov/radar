@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:«Наивно. Супер». Премьера
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:msk-praktika-naivno-super@afisha-art
+DTSTAMP:20261112T165341Z
+DTSTART:20261120T160000Z
+DTEND:20261120T180000Z
+SUMMARY:«Наивно. Супер». Премьера
+LOCATION:Театр «Практика»\, Большой Козихин
+ ский пер.\, 30\, Москва
+DESCRIPTION:Танцевально-драматическая притч
+ а по роману Эрленда Лу.\nТеатр «Практика
+ »\nhttps://praktikatheatre.ru/
+URL:https://doublebasskakov.github.io/radar/#e=msk-praktika-naivno-super
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:«Наивно. Супер». Премьера
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

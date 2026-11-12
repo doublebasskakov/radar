@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Радар — Россия · city-kaliningrad
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:kgd-tretyakov-tochka-i-liniya@afisha-art
+DTSTAMP:20261112T165341Z
+DTSTART;VALUE=DATE:20270328
+DTEND;VALUE=DATE:20270329
+SUMMARY:Последний день: «Точка и линия»
+LOCATION:Третьяковская галерея в Калинингр
+ аде\, Калининград
+DESCRIPTION:Геометрическая абстракция в русс
+ ком искусстве XX–XXI веков.\nТретьяковска
+ я галерея\nhttps://kaliningrad.tretyakovgallery.ru/exhibitions/60
+ 9/
+URL:https://doublebasskakov.github.io/radar/#e=kgd-tretyakov-tochka-i-lin
+ iya
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: «Точка и линия»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR
