@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Весть 2.0
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:vest-2@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20270223
+DTEND;VALUE=DATE:20270224
+SUMMARY:Последний день: Весть 2.0
+LOCATION:Еврейский музей и центр толерантно
+ сти\, ул. Образцова\, 11\, стр. 1А\, Москва
+DESCRIPTION:Выставка об истории человеческой
+  коммуникации — более 150 работ из 50 собр
+ аний\, включая цифровое искусство о сигн
+ алах и знаках.\nОт Айвазовского и Шагала 
+ до Покраса Лампаса и цифровых художнико
+ в VS Gallery\nhttps://www.vokrugsveta.ru/company-news/v-evreiskom-muzee-
+ i-centre-tolerantnosti-otkryvaetsya-vystavka-vest-2-0-id76730111/
+URL:https://doublebasskakov.github.io/radar/#e=vest-2
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Весть 2.0
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

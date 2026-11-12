@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:След
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:vs-sled@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Последний день: След
+LOCATION:VS Gallery\, Малая Ордынка\, Москва
+DESCRIPTION:Выставка к трёхлетию первой в Рос
+ сии фиджитал-галереи — о цифровом следе
+  человека и технологий. Последние дни.\nР
+ езиденты VS Gallery: Rinatto L’bank\, Юлия Низамутд
+ инова\, Кирилл Рейв и др.\nhttps://t.me/vsgall
+URL:https://doublebasskakov.github.io/radar/#e=vs-sled
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: След
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

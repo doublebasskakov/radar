@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:18e Biennale de Lyon: Passer d'un rêve à l'autre
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:lyon-biennale-18@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:Последний день: 18e Biennale de Lyon: Passer d'un r
+ êve à l'autre
+LOCATION:Grandes Locos\, Musée des Tissus\, macLYON\, Лион\, Фра
+ нция
+DESCRIPTION:Лионская биеннале занимает бывше
+ е локомотивное депо Grandes Locos\, Музей ткан
+ ей и Музей современного искусства. Боле
+ е сотни художников и одиннадцать площад
+ ок.\nКуратор Кэтрин Николс\nhttps://www.labiennalede
+ lyon.com/en/18e-biennale-de-lyon
+URL:https://doublebasskakov.github.io/radar/#e=lyon-biennale-18
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: 18e Biennale de Lyon: Passer d'u
+ n rêve à l'autre
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

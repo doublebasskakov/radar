@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Радар — Мир / World · country-armenia
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:cafesjian-qarpet@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Последний день: Qarpet
+LOCATION:Cafesjian Center for the Arts\, галерея «Сасунци 
+ Давид»\, ул. Таманяна\, 10\, Ереван\, Ереван\
+ , Армения
+DESCRIPTION:Монументальные скульптуры\, соед
+ иняющие образ хачкара с орнаментом армя
+ нского ковра\, созданные художниками за 
+ годы жизни в Армении.\nАлександр Никитин
+ \, Дмитрий Бекетов\nhttps://cmf.am/en/exhibitions/qarpet
+URL:https://doublebasskakov.github.io/radar/#e=cafesjian-qarpet
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Qarpet
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

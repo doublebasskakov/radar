@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Дневная ДРЁМА — амбиент и дроун
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:drema-drone-spb@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART:20261129T110000Z
+DTEND:20261129T130000Z
+SUMMARY:Дневная ДРЁМА — амбиент и дроун
+LOCATION:Йога-зал на 16-й линии В.О.\, 16-я линия 
+ В.О.\, Санкт-Петербург
+DESCRIPTION:Семичасовое горизонтальное слуш
+ ание: терапевтический амбиент и дроун в 
+ пространстве покоя.\nМира Древо\, Юм-Юм\, 
+ Онейроглиф\, Микориза и др.\nhttps://t.me/whats_that
+ _noise
+URL:https://doublebasskakov.github.io/radar/#e=drema-drone-spb
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Дневная ДРЁМА — амбиент и дроун
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

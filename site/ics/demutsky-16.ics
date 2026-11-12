@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:16 фортепианных пьес
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:demutsky-16@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:16 фортепианных пьес
+LOCATION:Галерея «Коллектор» (бывший подзем
+ ный резервуар)\, м. «Пролетарская»\, Моск
+ ва
+DESCRIPTION:Музыкальный перформанс по мотива
+ м ренессансных гравюр I Modi: пианист игра
+ ет\, художник пишет красками прямо во вр
+ емя исполнения.\nИлья Демуцкий (музыка)\, 
+ Даниил Саямов\, Данила Поляков\, Павел Гл
+ ухов\nhttps://theblueprint.ru/news/42633
+URL:https://doublebasskakov.github.io/radar/#e=demutsky-16
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:16 фортепианных пьес
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

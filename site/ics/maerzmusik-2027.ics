@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:MaerzMusik 2027
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:maerzmusik-2027@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20270312
+DTEND;VALUE=DATE:20270313
+SUMMARY:Открытие: MaerzMusik 2027
+LOCATION:Haus der Berliner Festspiele\, Radialsystem\, silent green\, HKW
+ \, Schaperstraße 24\, 10719 Berlin\, Берлин\, Германия
+DESCRIPTION:Фестиваль современной музыки Berlin
+ er Festspiele\, исследующий отношения звука и 
+ времени.\nBerliner Festspiele\nhttps://www.visitberlin.de/de/event
+ /maerzmusik-2027
+URL:https://doublebasskakov.github.io/radar/#e=maerzmusik-2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: MaerzMusik 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

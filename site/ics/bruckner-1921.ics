@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:1881/1921
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:bruckner-1921@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART:20261126T170000Z
+DTEND:20261126T190000Z
+SUMMARY:1881/1921
+LOCATION:Дом культуры «ГЭС-2»\, Болотная наб.\
+ , 15\, Москва
+DESCRIPTION:Седьмая симфония Брукнера в каме
+ рной версии 1921 года\, которую сделали уч
+ еники Шёнберга\, — мост от романтизма к 
+ модерну.\n«Булез-ансамбль»\, дирижёр Фёд
+ ор Леднёв\nhttps://www.afisha.ru/concert/1881-1921-6055258/
+URL:https://doublebasskakov.github.io/radar/#e=bruckner-1921
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1881/1921
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

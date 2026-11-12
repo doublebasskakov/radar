@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:14. Berlin Biennale: Central Europe Eastern Time
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:berlin-biennale-14@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20270605
+DTEND;VALUE=DATE:20270606
+SUMMARY:Открытие: 14. Berlin Biennale: Central Europe Eastern Tim
+ e
+LOCATION:KW Institute for Contemporary Art\, Hamburger Bahnhof и гор
+ одские площадки\, Берлин\, Германия
+DESCRIPTION:14-я Берлинская биеннале под руков
+ одством украинского куратора Василя Че
+ репанина посвящена Центральной и Восто
+ чной Европе. Выставка займёт KW\, Гамбург
+ ский вокзал\, транспортные узлы и места 
+ памяти\; открытие 4 июня.\nКуратор Василь 
+ Черепанин\nhttps://www.e-flux.com/announcements/6788426/central-
+ europe-eastern-time
+URL:https://doublebasskakov.github.io/radar/#e=berlin-biennale-14
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: 14. Berlin Biennale: Central Europe Eastern
+  Time
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

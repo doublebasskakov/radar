@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Марина Алексеева. ¡ПЛЯШЕМ!
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:gisich-plyashem@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Марина Алексеева. ¡ПЛЯШЕМ!
+LOCATION:Marina Gisich Gallery\, наб. реки Фонтанки\, 121\
+ , Санкт-Петербург
+DESCRIPTION:Выставка в рамках фестиваля «Дяг
+ илев. Постскриптум»: галерея превратила
+  свою переговорную в выставочное простр
+ анство.\nМарина Алексеева\nhttps://t.me/marinagisich
+ gallery
+URL:https://doublebasskakov.github.io/radar/#e=gisich-plyashem
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Марина Алексеева. ¡ПЛЯШЕМ!
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

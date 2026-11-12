@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Что ты сделал для хип-хопа — саун
+ д-арт выставка
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:hse-hiphop-sound@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART:20261119T160000Z
+DTEND:20261119T180000Z
+SUMMARY:Что ты сделал для хип-хопа — саунд-а
+ рт выставка
+LOCATION:HSE ART GALLERY\, Малая Пионерская ул.\, 12\, 
+ Москва
+DESCRIPTION:Экскурсия по выставке\, где худож
+ ники и саунд-артисты превращают «ДНК» х
+ ип-хоп-лейблов в аудиовизуальные портре
+ ты.\nКураторы Илья Крончев-Иванов\, Ольга
+  Зубова\nhttps://t.me/hseartgallery
+URL:https://doublebasskakov.github.io/radar/#e=hse-hiphop-sound
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Что ты сделал для хип-хопа — саун
+ д-арт выставка
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:«Контрафорсы»: рассказ о партиту
+ ре
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:gorlinsky-ceam@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:«Контрафорсы»: рассказ о партитуре
+LOCATION:ЦЭАМ — Центр электроакустической 
+ музыки Московской консерватории\, Москв
+ а
+DESCRIPTION:Композитор разбирает партитуру д
+ ля акустического и электронного оркест
+ ра\; слушатели тоже могут стать спикерам
+ и.\nВладимир Горлинский\, модератор Ира С
+ евастьянова\nhttps://t.me/vologorlinsky
+URL:https://doublebasskakov.github.io/radar/#e=gorlinsky-ceam
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:«Контрафорсы»: рассказ о партиту
+ ре
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

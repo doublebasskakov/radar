@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Кирилл Гатаван. «вытащите язык н
+ аружу…»
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:shift-gatavan@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Последний день: Кирилл Гатаван. «вы
+ тащите язык наружу…»
+LOCATION:Галерея Shift\, Петровский бульвар\, 5с
+ 1\, Москва
+DESCRIPTION:Фантасмагорические миры художни
+ ка в персональной выставке\; вход свобод
+ ный по записи.\nКирилл Гатаван\, куратор 
+ Илья Крончев-Иванов\nhttps://t.me/art_shift
+URL:https://doublebasskakov.github.io/radar/#e=shift-gatavan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Кирилл Гатаван. «
+ вытащите язык наружу…»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

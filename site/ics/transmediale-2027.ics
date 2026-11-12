@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:transmediale 2027: groundstates
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:transmediale-2027@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20270128
+DTEND;VALUE=DATE:20270201
+SUMMARY:transmediale 2027: groundstates
+LOCATION:Akademie der Künste и др.\, Берлин\, Германия
+DESCRIPTION:40-летний юбилей фестиваля искусс
+ тва и цифровой культуры. Тема — множест
+ во интернетов вместо единого технологи
+ ческого будущего\; выставка Fragile Currents от
+ крыта до 7 марта.\nКуратор Барбара Куэто\;
+  выставка — Антонина Стебур\nhttps://www.ctm-fest
+ ival.de/news/transmediale-announces-2027-theme-and-dates
+URL:https://doublebasskakov.github.io/radar/#e=transmediale-2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:transmediale 2027: groundstates
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

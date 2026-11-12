@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:«Электричество»: открытие выста
+ вки и концерт экспериментальной музыки
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:dom-radio-electricity@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART:20261114T150000Z
+DTEND:20261114T170000Z
+SUMMARY:«Электричество»: открытие выставки
+  и концерт экспериментальной музыки
+LOCATION:Дом Радио\, ул. Итальянская\, 27\, Санк
+ т-Петербург
+DESCRIPTION:Выставка об электромагнетизме ка
+ к среде и источнике звука\; в первый вече
+ р — концерт экспериментальной музыки н
+ а преобразователях ЛЭЗ.\nНикита Алексее
+ нко\, Влад Добровольский\, Соня Скобелев
+ а\, Виктория Харкевич\nhttps://t.me/whats_that_noise
+URL:https://doublebasskakov.github.io/radar/#e=dom-radio-electricity
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:«Электричество»: открытие выстав
+ ки и концерт экспериментальной музыки
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

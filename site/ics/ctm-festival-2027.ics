@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:CTM Festival 2027
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:ctm-festival-2027@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+SUMMARY:Открытие: CTM Festival 2027
+LOCATION:Площадки Берлина (Berghain\, HAU\, silent green 
+ и др.)\, Берлин\, Германия
+DESCRIPTION:28-й CTM — берлинский фестиваль экс
+ периментальной музыки и звукового иску
+ сства: концерты\, клубные ночи\, выставки
+  и дискуссии.\n\nhttps://www.ctm-festival.de/news/ctm-2027-fest
+ ival-save-the-date
+URL:https://doublebasskakov.github.io/radar/#e=ctm-festival-2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: CTM Festival 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

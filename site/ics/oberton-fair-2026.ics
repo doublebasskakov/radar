@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:«Обертон» — ярмарка графики Cosmosc
+ ow
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:oberton-fair-2026@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261207
+SUMMARY:«Обертон» — ярмарка графики Cosmoscow
+LOCATION:ТОН-Центр\, Комсомольская пл.\, 3/30с1\,
+  Москва
+DESCRIPTION:Второй выпуск ярмарки графики от 
+ команды Cosmoscow\; участников отбирал экспе
+ ртный совет ярмарки.\n37 галерей из Москв
+ ы\, Петербурга\, Нижнего\, Воронежа\, Влад
+ ивостока\nhttps://t.me/sampleart
+URL:https://doublebasskakov.github.io/radar/#e=oberton-fair-2026
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:«Обертон» — ярмарка графики Cosmosco
+ w
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

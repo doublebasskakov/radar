@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Радар — современное искусство</title>
+<meta name="description" content="Новая музыка, медиа-арт, выставки, перформанс и театр — в России и мире. Каждый день обновляется сама.">
+<meta name="theme-color" content="#0c0c0f">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Радар">
+<meta property="og:title" content="Радар — современное искусство">
+<meta property="og:description" content="Новая музыка, медиа-арт, выставки, перформанс и театр — в России и мире.">
+<meta property="og:image" content="icons/og.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap top-in">
+    <a class="logo" href="#" data-go="ru"><span class="logo-mark">◐</span><span data-i18n="brand">Радар</span><small class="muted logo-sub" data-i18n="brandSub">современное искусство</small></a>
+    <nav class="tabs" id="tabs">
+      <button data-tab="ru" data-i18n="tabRu">Россия</button>
+      <button data-tab="world" data-i18n="tabWorld">Мир</button>
+      <button data-tab="fav"><span data-i18n="tabFav">Избранное</span> <b id="favCount"></b></button>
+      <button data-tab="subs" data-i18n="tabSubs">Подписки</button>
+    </nav>
+    <button class="lang" id="lang" aria-label="Language">EN</button>
+  </div>
+</header>
+
+<main class="wrap" id="main">
+  <section id="view-list">
+    <div class="hero">
+      <h1 id="heroTitle"></h1>
+      <p class="muted" id="heroSub"></p>
+    </div>
+    <div id="picksWrap" class="picks-wrap" hidden>
+      <h2><span data-i18n="picks">Выбор редакции</span> <small class="muted" data-i18n="picksSub">главное в ближайший месяц</small></h2>
+      <div class="picks" id="picks"></div>
+    </div>
+    <div class="filters" id="filters">
+      <div class="frow"><div class="chips" id="fPlace"></div></div>
+      <div class="frow"><div class="chips" id="fCat"></div></div>
+      <div class="frow"><div class="chips" id="fWhen"></div><input type="search" id="q" autocomplete="off"></div>
+    </div>
+    <div id="list"></div>
+  </section>
+
+  <section id="view-subs" hidden>
+    <h1 data-i18n="subsTitle">Подписки</h1>
+    <p class="muted" data-i18n="subsLead">Подпишитесь один раз — новые события сами появятся в вашем календаре (iPhone, Mac, Google, Outlook).</p>
+    <div class="subs-grid" id="subsGrid"></div>
+    <div class="card pad" id="botCard" hidden>
+      <h3 data-i18n="botTitle">Telegram-бот с дайджестом</h3>
+      <p class="muted" data-i18n="botLead">Каждый понедельник — главное на неделю в вашем городе и мире.</p>
+      <a class="btn primary" id="botLink" target="_blank" rel="noopener">Открыть бота</a>
+    </div>
+    <div class="card pad">
+      <h3 data-i18n="installTitle">Установить на телефон</h3>
+      <p class="muted" data-i18n="installIos">iPhone: откройте в Safari → «Поделиться» → «На экран „Домой“».</p>
+      <p class="muted" data-i18n="installAndroid">Android: меню Chrome → «Установить приложение».</p>
+      <button class="btn" id="installBtn" hidden data-i18n="installBtn">Установить</button>
+    </div>
+  </section>
+</main>
+
+<div class="modal" id="modal" hidden><div class="sheet" role="dialog" aria-modal="true"><button class="x" id="closeModal" aria-label="Закрыть">✕</button><div id="modalBody"></div></div></div>
+<div class="toast" id="toast" hidden></div>
+
+<nav class="bottom" id="bottomTabs">
+  <button data-tab="ru"><span>◉</span><em data-i18n="tabRu">Россия</em></button>
+  <button data-tab="world"><span>◍</span><em data-i18n="tabWorld">Мир</em></button>
+  <button data-tab="fav"><span>★</span><em data-i18n="tabFav">Избранное</em></button>
+  <button data-tab="subs"><span>⟳</span><em data-i18n="tabSubs">Подписки</em></button>
+</nav>
+
+<footer class="wrap foot muted">
+  <p id="updated"></p>
+  <p data-i18n="footNote">Афиша собирается автоматически из Telegram-каналов площадок, сайтов и подборок. Перед походом проверяйте дату по ссылке «Источник». Изображения принадлежат правообладателям и ведут на первоисточник.</p>
+  <p><a id="suggest" target="_blank" rel="noopener" data-i18n="suggest">Предложить событие или источник</a></p>
+</footer>
+
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:«Интервал. Звук и тишина в японск
+ ом искусстве»
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:zotov-snm-ma-interval@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART:20261204T163000Z
+DTEND:20261204T183000Z
+SUMMARY:«Интервал. Звук и тишина в японском 
+ искусстве»
+LOCATION:Центр «Зотов»\, Ходынская ул.\, 2\, ст
+ р. 1\, Москва
+DESCRIPTION:Концерт цикла «Взгляд нашего слу
+ ха» о японском понятии «Ма» — паузе меж
+ ду звуками\, из которой вырос послевоенн
+ ый японский авангард.\n«Студия новой муз
+ ыки»\, Александр Чанцев\nhttps://t.me/centrezotov
+URL:https://doublebasskakov.github.io/radar/#e=zotov-snm-ma-interval
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:«Интервал. Звук и тишина в японск
+ ом искусстве»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

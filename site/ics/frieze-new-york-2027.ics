@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Frieze New York 2027
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:frieze-new-york-2027@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20270512
+DTEND;VALUE=DATE:20270517
+SUMMARY:Frieze New York 2027
+LOCATION:The Shed\, Hudson Yards\, Нью-Йорк\, США
+DESCRIPTION:Нью-йоркская ярмарка Frieze в культу
+ рном центре The Shed.\n\nhttps://www.frieze.com/article/applica
+ tions-frieze-new-york-2027-now-open
+URL:https://doublebasskakov.github.io/radar/#e=frieze-new-york-2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Frieze New York 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

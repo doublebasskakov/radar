@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ART021 Shanghai
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:art021-shanghai-2026@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261115
+SUMMARY:ART021 Shanghai
+LOCATION:Shanghai Exhibition Center\, Шанхай\, Китай
+DESCRIPTION:Одна из главных ярмарок Азии\; рос
+ сийская PA Gallery показывает проект «Псевд
+ оморфозы».\n146 галерей\, в т. ч. PA Gallery (Моск
+ ва)\nhttps://t.me/pagallery_official
+URL:https://doublebasskakov.github.io/radar/#e=art021-shanghai-2026
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ART021 Shanghai
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

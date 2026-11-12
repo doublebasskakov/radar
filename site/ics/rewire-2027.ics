@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Rewire 2027
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:rewire-2027@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20270408
+DTEND;VALUE=DATE:20270412
+SUMMARY:Rewire 2027
+LOCATION:Koninklijke Schouwburg\, West Den Haag\, PAARD и др.\, Гаа
+ га\, Нидерланды
+DESCRIPTION:Гаагский фестиваль эксперимента
+ льной и электронной музыки\, звукового и
+ скусства и перформанса в центре города.\
+ nДиаманда Галас и др.\nhttps://www.rewirefestival.nl/info
+ 2027
+URL:https://doublebasskakov.github.io/radar/#e=rewire-2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Rewire 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

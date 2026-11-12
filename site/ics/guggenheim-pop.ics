@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Guggenheim Pop: 1960 to Now
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:guggenheim-pop@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:Последний день: Guggenheim Pop: 1960 to Now
+LOCATION:Solomon R. Guggenheim Museum\, 1071 5th Ave\, New York\, NY 1012
+ 8\, Нью-Йорк\, США
+DESCRIPTION:Поп-арт и его наследие из коллекц
+ ии Гуггенхайма — от 1960-х до наших дней.\n\
+ nhttps://www.guggenheim.org/wp-content/uploads/2025/10/press-release-srgm
+ -2026-schedule-of-exhibitions-10092025.pdf
+URL:https://doublebasskakov.github.io/radar/#e=guggenheim-pop
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Guggenheim Pop: 1960 to Now
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

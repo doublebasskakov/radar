@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Signal City
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:signal-city-2026@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261123
+SUMMARY:Signal City
+LOCATION:ДК завода «Серп и Молот»\, Москва
+DESCRIPTION:Городская версия фестиваля Signal: д
+ ва дня электронной музыки в лабиринтах 
+ исторического ДК.\nMonasterio\, Gescu и др.\nhttps://t.
+ me/signal_live
+URL:https://doublebasskakov.github.io/radar/#e=signal-city-2026
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Signal City
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

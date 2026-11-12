@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Рим — Петербург. О несходстве сх
+ одного
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:hermitage-sirotkin@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Открытие: Рим — Петербург. О несход
+ стве сходного
+LOCATION:Государственный Эрмитаж\, Дворцова
+ я пл.\, 2\, Санкт-Петербург
+DESCRIPTION:Проект памяти Аркадия Ипполитова
+ : его тексты о двух городах встречаются 
+ с фотографиями Сироткина.\nФотографии Д
+ митрия Сироткина\, тексты Аркадия Иппол
+ итова\nhttps://theblueprint.ru/culture/art/vystavki-november2026
+URL:https://doublebasskakov.github.io/radar/#e=hermitage-sirotkin
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Рим — Петербург. О несх
+ одстве сходного
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Ruth Asawa
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:beyeler-ruth-asawa@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:Последний день: Ruth Asawa
+LOCATION:Fondation Beyeler\, Baselstrasse 101\, 4125 Riehen\, Рихен 
+ (Базель)\, Швейцария
+DESCRIPTION:Подвесные проволочные скульптур
+ ы американской модернистки Рут Асавы.\nР
+ ут Асава\nhttps://www.fondationbeyeler.ch/en/exhibitions/
+URL:https://doublebasskakov.github.io/radar/#e=beyeler-ruth-asawa
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Ruth Asawa
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Радар — Россия · city-samara
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:victoria-water@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART:20261112T150000Z
+DTEND:20261112T170000Z
+SUMMARY:Написано водой\, на воде\, для воды
+LOCATION:Галерея «Виктория»\, Зал А\, Самара
+DESCRIPTION:Выставка-итог видеолаборатории «
+ Речные прописи» калининградского колле
+ ктива «Нежные бабы»: видеоарт и видеопе
+ рформанс. Открытие 12 ноября в 19:00.\nГалер
+ ея «Виктория»\nhttps://t.me/gallery_victoria
+URL:https://doublebasskakov.github.io/radar/#e=victoria-water
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Написано водой\, на воде\, для воды
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Christoph Schlingensief: Es ist nicht mehr mein Problem\, ma
+ cht eure Scheiße alleine
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:gropius-bau-schlingensief@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+SUMMARY:Последний день: Christoph Schlingensief: Es ist nich
+ t mehr mein Problem\, macht eure Scheiße alleine
+LOCATION:Gropius Bau\, Niederkirchnerstraße 7\, 10963 Berlin\, Берл
+ ин\, Германия
+DESCRIPTION:Выставка о режиссёре и художнике-
+ провокаторе Кристофе Шлингензифе — кин
+ о\, театр\, акции и инсталляции.\nКристоф 
+ Шлингензиф\nhttps://www.berlinerfestspiele.de/en/gropius-bau/pr
+ ogramm/2026/ausstellungen
+URL:https://doublebasskakov.github.io/radar/#e=gropius-bau-schlingensief
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Christoph Schlingensief: Es ist 
+ nicht mehr mein Problem\, macht eure Scheiße alleine
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Sound Up Resonance
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:soundup-resonance@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Sound Up Resonance
+LOCATION:Галерея fābula HQ\, Москва
+DESCRIPTION:Первый концерт новой серии Sound Up: 
+ восемь взглядов современных композитор
+ ов на виолончель.\nОльга Белоглазова\, ви
+ олончель\nhttps://theblueprint.ru/culture/music/music-november-20
+ 26
+URL:https://doublebasskakov.github.io/radar/#e=soundup-resonance
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sound Up Resonance
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

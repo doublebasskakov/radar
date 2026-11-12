@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Как звучит Ладога: презентация п
+ ластинки
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:ladoga-vinyl-sevcable@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Как звучит Ладога: презентация плас
+ тинки
+LOCATION:Севкабель Порт\, Кожевенная линия\, 
+ 40\, Санкт-Петербург
+DESCRIPTION:Полевые записи звуковой экспедиц
+ ии по Ладоге\, ставшие виниловой пластин
+ кой\, — истории и прослушивание.\n«В сосе
+ дней комнате всегда тихо»\, «Сила ветра»
+ \nhttps://t.me/whats_that_noise
+URL:https://doublebasskakov.github.io/radar/#e=ladoga-vinyl-sevcable
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Как звучит Ладога: презентация пл
+ астинки
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

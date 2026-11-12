@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Mariko Mori: All That Shines
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:mori-mariko-mori@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20270328
+DTEND;VALUE=DATE:20270329
+SUMMARY:Последний день: Mariko Mori: All That Shines
+LOCATION:Mori Art Museum\, 53F Roppongi Hills Mori Tower\, 6-10-1 Roppong
+ i\, Minato-ku\, Tokyo\, Токио\, Япония
+DESCRIPTION:Первая за 20 лет большая ретроспек
+ тива Марико Мори в Японии — 30 лет футури
+ стических видений.\nМарико Мори\nhttps://metrop
+ olisjapan.com/events/mariko-mori-all-that-shines/
+URL:https://doublebasskakov.github.io/radar/#e=mori-mariko-mori
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Mariko Mori: All That Shines
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

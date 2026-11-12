@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Taryn Simon
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:guggenheim-taryn-simon@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20270314
+DTEND;VALUE=DATE:20270315
+SUMMARY:Последний день: Taryn Simon
+LOCATION:Solomon R. Guggenheim Museum\, Rotunda\, 1071 5th Ave\, New York
+ \, NY 10128\, Нью-Йорк\, США
+DESCRIPTION:Новая инсталляция Тарин Саймон з
+ аполняет ротонду Райта: фотография\, тек
+ ст\, видео и скульптура.\nТарин Саймон\nhttp
+ s://www.guggenheim.org/wp-content/uploads/2025/10/press-release-srgm-2026
+ -schedule-of-exhibitions-10092025.pdf
+URL:https://doublebasskakov.github.io/radar/#e=guggenheim-taryn-simon
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Taryn Simon
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

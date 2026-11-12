@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Радар — Россия · city-nizhny-novgorod
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:arsenal-leger@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+SUMMARY:Последний день: Фернан Леже. Формул
+ а стиля
+LOCATION:Арсенал (Волго-Вятский филиал ГМИИ)
+ \, Кремль\, корп. 6\, Нижний Новгород
+DESCRIPTION:Живопись\, графика\, керамика и те
+ кстиль\, в том числе вещи\, сделанные по э
+ скизам Леже уже после его смерти.\nФерна
+ н Леже\nhttps://theblueprint.ru/culture/art/vystavki-november2026
+URL:https://doublebasskakov.github.io/radar/#e=arsenal-leger
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Фернан Леже. Форм
+ ула стиля
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

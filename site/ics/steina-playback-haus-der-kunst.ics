@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Steina: Playback
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:steina-playback-haus-der-kunst@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
+SUMMARY:Последний день: Steina: Playback
+LOCATION:Haus der Kunst\, Nordgalerie\, Prinzregentenstraße 1\, 80538 M
+ ünchen\, Мюнхен\, Германия
+DESCRIPTION:Первая большая ретроспектива в Г
+ ермании исландской пионерки видео- и ме
+ диаискусства Стейны Васулки.\nСтейна Ва
+ сулка\nhttps://www.hausderkunst.de/uploads/newsroom/Ausstellungen-un
+ d-Veranstaltungen/2026/2600_annual-preview/PDFs/HDK_Annual-Programme-2026
+ _EN_press.pdf
+URL:https://doublebasskakov.github.io/radar/#e=steina-playback-haus-der-k
+ unst
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Steina: Playback
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

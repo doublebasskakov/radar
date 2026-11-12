@@ -1,0 +1,48 @@
+name: Telegram-бот
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"   # отвечать на сообщения каждые 15 минут
+    - cron: "11 6 * * 1"     # дайджест — по понедельникам в 09:11 по Москве
+  workflow_dispatch:
+    inputs:
+      digest: {description: "Разослать дайджест сейчас", type: boolean, default: false}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bot
+  cancel-in-progress: false
+
+jobs:
+  bot:
+    runs-on: ubuntu-latest
+    if: ${{ vars.BOT_ENABLED == 'true' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12", cache: pip}
+      - run: pip install requests cryptography
+      - name: Ответить на сообщения
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          BOT_STORE_KEY: ${{ secrets.BOT_STORE_KEY }}
+          TELEGRAM_CHANNEL: ${{ vars.TELEGRAM_CHANNEL }}
+          SITE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
+        run: python bot/bot.py poll
+      - name: Дайджест
+        if: github.event.schedule == '11 6 * * 1' || inputs.digest
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          BOT_STORE_KEY: ${{ secrets.BOT_STORE_KEY }}
+          TELEGRAM_CHANNEL: ${{ vars.TELEGRAM_CHANNEL }}
+          SITE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
+        run: python bot/bot.py digest
+      - name: Сохранить состояние бота
+        run: |
+          git config user.name "radar-bot"
+          git config user.email "radar-bot@users.noreply.github.com"
+          git add data/bot_state.json data/subscribers.enc 2>/dev/null || true
+          git diff --cached --quiet || git commit -m "bot state"
+          git push || (git pull --rebase && git push)

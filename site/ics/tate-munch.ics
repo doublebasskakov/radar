@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Edvard Munch
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:tate-munch@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20271111
+DTEND;VALUE=DATE:20271112
+SUMMARY:Открытие: Edvard Munch
+LOCATION:Tate Modern\, Bankside\, London SE1 9TG\, Лондон\, Вел
+ икобритания
+DESCRIPTION:Масштабная выставка Эдварда Мунк
+ а в Тейт Модерн.\nЭдвард Мунк\nhttps://www.theartne
+ wspaper.com/2026/03/16/tate-announces-major-david-hockney-edvard-munch-an
+ d-sonia-boyce-exhibitions-for-2027
+URL:https://doublebasskakov.github.io/radar/#e=tate-munch
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Edvard Munch
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:СЕНС. Эволюция стихий
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:mars-sens@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20261230
+DTEND;VALUE=DATE:20261231
+SUMMARY:Последний день: СЕНС. Эволюция стих
+ ий
+LOCATION:Центр современного искусства М’АР
+ С\, Пушкарёв пер.\, 5\, Москва
+DESCRIPTION:Обновлённая иммерсивная экспози
+ ция о взаимодействии природных сил\, чел
+ овека и технологий. Билеты от 700 ₽.\nИмме
+ рсивный проект ЦСИ М’АРС\nhttps://www.kp.ru/afisha/
+ msk/vistavki/vystavka-sense-pochuvstvui-stihii-v-galeree-mars-v-moskve-20
+ 25-2026/
+URL:https://doublebasskakov.github.io/radar/#e=mars-sens
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: СЕНС. Эволюция ст
+ ихий
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

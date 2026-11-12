@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Ars Gallica. Сотворённая природа
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:snm-nature@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART:20261127T163000Z
+DTEND:20261127T183000Z
+SUMMARY:Ars Gallica. Сотворённая природа
+LOCATION:Пространство «Нико»\, Москва
+DESCRIPTION:Второй вечер цикла французской м
+ узыки о природе в исполнении одного из г
+ лавных ансамблей новой музыки.\nАнсамбл
+ ь «Студия новой музыки»\nhttps://afisha.yandex.ru/mos
+ cow/concert/ars-gallica-studiia-novoi-muzyki-sotvorennaia-priroda
+URL:https://doublebasskakov.github.io/radar/#e=snm-nature
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ars Gallica. Сотворённая природа
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

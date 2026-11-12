@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Виктор Пономаренко. Наблюдатели
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:erarta-ponomarenko@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Открытие: Виктор Пономаренко. Наблю
+ датели
+LOCATION:Музей современного искусства «Эра
+ рта»\, 29-я линия В.О.\, 2\, Санкт-Петербург
+DESCRIPTION:Персональная выставка художника 
+ с узнаваемой авторской манерой.\nВиктор 
+ Пономаренко\nhttps://www.kp.ru/afisha/spb/vistavki/vystavka-vi
+ ktora-ponomarenko-nablyudateli-v-sankt-peterburge-2026-2027/
+URL:https://doublebasskakov.github.io/radar/#e=erarta-ponomarenko
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Виктор Пономаренко. Наб
+ людатели
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

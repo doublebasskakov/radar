@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Ars Gallica. Естественные истории
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:masm-ncaged@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART:20261117T163000Z
+DTEND:20261117T183000Z
+SUMMARY:Ars Gallica. Естественные истории
+LOCATION:Пространство «Нико»\, Москва
+DESCRIPTION:Первый из двух вечеров французск
+ ой музыки о природе — от Жоскена Депре д
+ о послевоенного авангарда.\nN’Caged и Моск
+ овский ансамбль современной музыки (МАС
+ М)\nhttps://afisha.yandex.ru/moscow/concert/ars-gallica-ncaged-masm-este
+ stvennye-istorii
+URL:https://doublebasskakov.github.io/radar/#e=masm-ncaged
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ars Gallica. Естественные истории
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

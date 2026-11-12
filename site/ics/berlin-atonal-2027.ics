@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Berlin Atonal 2027
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:berlin-atonal-2027@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20270825
+DTEND;VALUE=DATE:20270830
+SUMMARY:Berlin Atonal 2027
+LOCATION:Kraftwerk Berlin\, Köpenicker Str. 70\, 10179 Berlin\, Берл
+ ин\, Германия
+DESCRIPTION:Фестиваль экспериментальной муз
+ ыки и аудиовизуальных перформансов в ги
+ гантском зале бывшей электростанции Kraft
+ werk.\n\nhttps://www.festivalfinder.eu/festivals/berlin-atonal-2027
+URL:https://doublebasskakov.github.io/radar/#e=berlin-atonal-2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Berlin Atonal 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

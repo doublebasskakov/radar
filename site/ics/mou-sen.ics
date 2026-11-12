@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Моу Сэнь. Божественная комедия
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:mou-sen@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+SUMMARY:Последний день: Моу Сэнь. Божествен
+ ная комедия
+LOCATION:Дом культуры «ГЭС-2»\, Болотная наб.\
+ , 15\, Москва
+DESCRIPTION:Масштабная инсталляция китайско
+ го художника — архитектурный макет мир
+ а\, из которого убран человек.\nМоу Сэнь\nh
+ ttps://rtvi.com/lifestyle/dom-kultury-ges-2-predstavil-vystavochnuyu-prog
+ rammu-na-2026-god/
+URL:https://doublebasskakov.github.io/radar/#e=mou-sen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Моу Сэнь. Божеств
+ енная комедия
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

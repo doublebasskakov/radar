@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:«Куча³» — ярмарка независимого 
+ искусства и книгоиздания
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:kucha3-fair@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261221
+SUMMARY:«Куча³» — ярмарка независимого иск
+ усства и книгоиздания
+LOCATION:ЦТИ «Фабрика»\, Переведеновский пе
+ р.\, 18\, Москва
+DESCRIPTION:Горизонтальная ярмарка художник
+ ов и самиздата\, которую сообщество соби
+ рает на взаимопомощи.\nСССХ\nhttps://t.me/Ccc_x124
+URL:https://doublebasskakov.github.io/radar/#e=kucha3-fair
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:«Куча³» — ярмарка независимого и
+ скусства и книгоиздания
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

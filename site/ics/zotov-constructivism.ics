@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Конструктивизм. Инструкция
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:zotov-constructivism@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20261216
+DTEND;VALUE=DATE:20261217
+SUMMARY:Конструктивизм. Инструкция
+LOCATION:Центр «Зотов»\, Ходынская ул.\, 2\, ст
+ р. 1\, Москва
+DESCRIPTION:Открытие первой в России постоян
+ ной экспозиции об истории конструктиви
+ зма — от экспериментов художников до ре
+ альной среды.\nОколо ста реконструкций и
+  оригиналы из крупных музеев\nhttps://t.me/centre
+ zotov
+URL:https://doublebasskakov.github.io/radar/#e=zotov-constructivism
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Конструктивизм. Инструкция
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

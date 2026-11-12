@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:|catalog| — ярмарка современного иск
+ усства
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:catalog-fair@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261123
+SUMMARY:|catalog| — ярмарка современного искус
+ ства
+LOCATION:ЖК «Золотой»\, Софийская набережна
+ я\, Софийская наб.\, Москва
+DESCRIPTION:Осенний выпуск ярмарки\, которую 
+ делают сами галеристы: стенды задуманы 
+ как маленькие выставки\, а не витрины пр
+ одаж.\nГалереи-участники Ассоциации гал
+ ерей\nhttps://theblueprint.ru/culture/art/vystavki-november2026
+URL:https://doublebasskakov.github.io/radar/#e=catalog-fair
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:|catalog| — ярмарка современного иск
+ усства
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

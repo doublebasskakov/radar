@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Marina Abramović: Element
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:abramovic-element-milan@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Открытие: Marina Abramović: Element
+LOCATION:Palazzo Citterio\, Милан\, Италия
+DESCRIPTION:Цифровые аватары и перформансы А
+ брамович на светодиодной стене Палаццо 
+ Читтерио.\nMNAD\, галерея TAEX\nhttps://t.me/vsgall
+URL:https://doublebasskakov.github.io/radar/#e=abramovic-element-milan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Marina Abramović: Element
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

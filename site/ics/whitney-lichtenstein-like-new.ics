@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Roy Lichtenstein: Like New
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:whitney-lichtenstein-like-new@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20270510
+DTEND;VALUE=DATE:20270511
+SUMMARY:Последний день: Roy Lichtenstein: Like New
+LOCATION:Whitney Museum of American Art\, 99 Gansevoort St\, New York\, N
+ Y 10014\, Нью-Йорк\, США
+DESCRIPTION:Первая большая нью-йоркская ретр
+ оспектива Лихтенштейна с 1993 года: 130 раб
+ от и реконструкция его первой выставки 1
+ 962 года у Лео Кастелли.\nКураторы Мег Онл
+ и и Алекс Да Корте\nhttps://www.6sqft.com/nycs-first-major-
+ roy-lichtenstein-retrospective-since-1993-now-on-view-at-the-whitney/
+URL:https://doublebasskakov.github.io/radar/#e=whitney-lichtenstein-like-
+ new
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Roy Lichtenstein: Like New
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Momento
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:momento-context@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261115
+SUMMARY:Momento
+LOCATION:Электротеатр Станиславский\, Тверс
+ кая ул.\, 23\, Москва
+DESCRIPTION:Танцевальный спектакль о напряже
+ нии между желанием быть частью коллекти
+ ва и необходимостью оставаться собой.\nХ
+ ореограф Чен Агрон\, фестиваль Context. Диан
+ а Вишнёва\nhttps://theblueprint.ru/culture/theatre/theatre-nov202
+ 6
+URL:https://doublebasskakov.github.io/radar/#e=momento-context
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Momento
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

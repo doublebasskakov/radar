@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Спектакль «Башня» с живым термен
+ воксом
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:zotov-bashnya@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261130
+SUMMARY:Спектакль «Башня» с живым терменво
+ ксом
+LOCATION:Центр «Зотов»\, Ходынская ул.\, 2\, ст
+ р. 1\, Москва
+DESCRIPTION:Актёр Фёдор Лавров вживую играет 
+ на терменвоксе в спектакле центра о кон
+ структивизме.\nФёдор Лавров\nhttps://t.me/centrezo
+ tov
+URL:https://doublebasskakov.github.io/radar/#e=zotov-bashnya
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спектакль «Башня» с живым термен
+ воксом
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

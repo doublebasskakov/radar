@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Радар — Мир / World · country-thailand
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:bangkok-art-biennale-2026@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:Последний день: Bangkok Art Biennale 2026: Angels & 
+ Mara
+LOCATION:Wat Arun\, Wat Pho\, BACC\, One Bangkok и др.\, Бангко
+ к\, Таиланд
+DESCRIPTION:Пятая Бангкокская биеннале на те
+ му «Ангелы и Мара» размещает современно
+ е искусство в храмах Ват Арун и Ват Пхо\, 
+ музеях и торговых центрах.\n\nhttps://www.tatnews.o
+ rg/2026/09/tat-spotlights-bangkok-art-biennale-2026-as-a-contemporary-cit
+ ywide-art-experience/
+URL:https://doublebasskakov.github.io/radar/#e=bangkok-art-biennale-2026
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Bangkok Art Biennale 2026: Angel
+ s & Mara
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

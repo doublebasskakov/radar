@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:9th Yokohama Triennale
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:yokohama-triennale-9@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20270423
+DTEND;VALUE=DATE:20270424
+SUMMARY:Открытие: 9th Yokohama Triennale
+LOCATION:Yokohama Museum of Art и др.\, Иокогама\, Япони
+ я
+DESCRIPTION:Девятая Иокогамская триеннале — 
+ крупнейший международный смотр совреме
+ нного искусства в Японии. Основная площ
+ адка — Художественный музей Иокогамы.\n
+ Арт-директора Космин Костинаш и Инти Ге
+ рреро\nhttps://www.yokohamatriennale.jp/english/news/yt9-0423-0912-2
+ 027/
+URL:https://doublebasskakov.github.io/radar/#e=yokohama-triennale-9
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: 9th Yokohama Triennale
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

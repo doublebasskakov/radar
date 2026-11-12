@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:OpensoundOrchestra: презентация альбома с
+ трунных квартетов
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:opensound-quartets-rassvet@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:OpensoundOrchestra: презентация альбома стр
+ унных квартетов
+LOCATION:ДК «Рассвет»\, Столярный пер.\, 3\, ко
+ рп. 15\, Москва
+DESCRIPTION:Живая презентация второго тома а
+ нтологии новых российских квартетов.\nШ
+ есть сочинений российских композиторов
+ \nhttps://t.me/classicalmusicnews
+URL:https://doublebasskakov.github.io/radar/#e=opensound-quartets-rassvet
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:OpensoundOrchestra: презентация альбома с
+ трунных квартетов
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

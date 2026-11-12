@@ -1,0 +1,149 @@
+# Источники для робота-сборщика.
+# telegram: публичные каналы (читаются через https://t.me/s/<username>, без входа в аккаунт)
+# pages:    страницы сайтов с афишами (HTML → текст → языковая модель)
+# rss:      RSS/Atom-ленты
+# region: ru — вкладка «Россия», world — вкладка «Мир». Можно смело добавлять и удалять строки.
+
+telegram:
+  # --- галереи и институции ---
+  - {u: artzip_gallery, region: ru}
+  - {u: pagallery_official, region: ru}
+  - {u: hseartgallery, region: ru}
+  - {u: gallery_victoria, region: ru, city: Самара}
+  - {u: sobogallery, region: ru}
+  - {u: pop_off_art, region: ru}
+  - {u: futuro_gallery, region: ru}
+  - {u: shilo_gallery, region: ru}
+  - {u: setprojects, region: ru}
+  - {u: didiartgallery, region: ru}
+  - {u: postrigay_gallery, region: ru}
+  - {u: sampleart, region: ru}
+  - {u: triumphgallery, region: ru}
+  - {u: krokingallery, region: ru}
+  - {u: Betoncvc, region: ru}
+  - {u: artobjectgallery, region: ru}
+  - {u: lumiere_gallery, region: ru}
+  - {u: gridchinhallgallery, region: ru}
+  - {u: piranesilab, region: ru}
+  - {u: GALLERY_ELEVEN_TWELVE, region: ru}
+  - {u: Ccc_x124, region: ru}
+  - {u: pennlab, region: ru}
+  - {u: mythgallery, region: ru}
+  - {u: nikolayevdokimovgallery, region: ru}
+  - {u: tomo_art, region: ru}
+  - {u: serenegallery, region: ru}
+  - {u: gallerymiras, region: ru, city: Уфа}
+  - {u: gallery_9b, region: ru}
+  - {u: art_shift, region: ru}
+  - {u: astraartgallery, region: ru}
+  - {u: uralvisionchannel, region: ru, city: Екатеринбург}
+  - {u: k35space, region: ru}
+  - {u: lobbymoscow, region: ru}
+  - {u: artsfera_org, region: ru}
+  - {u: marinagisichgallery, region: ru, city: Санкт-Петербург}
+  - {u: bizongallery, region: ru, city: Казань}
+  - {u: anna_nova_gallery, region: ru, city: Санкт-Петербург}
+  - {u: bezbozarta, region: ru}
+  - {u: artbookcafe, region: ru}
+  - {u: vsgall, region: ru}
+  - {u: badgalllery, region: ru}
+  - {u: fabula_gallery, region: ru}
+  - {u: substation_art, region: ru}
+  - {u: obdn_ru, region: ru}
+  - {u: centrezotov, region: ru}
+  - {u: ruartsfoundation, region: ru}
+  - {u: intervals_exhibition, region: ru}
+  - {u: tavrida_art, region: ru}
+  - {u: hsedesign, region: ru}
+  - {u: hse_art, region: ru}
+  - {u: mediatribeart, region: ru}
+  - {u: agencyartru, region: ru}
+  - {u: arttube_editions, region: ru}
+  - {u: maslalisse, region: ru}
+  # --- музыка, звук, театр ---
+  - {u: vologorlinsky, region: ru}
+  - {u: peter_aidu, region: ru}
+  - {u: new_soundwave, region: ru}
+  - {u: whats_that_noise, region: ru}
+  - {u: m_division, region: ru}
+  - {u: musteletype, region: ru}
+  - {u: classicalmusicnews, region: ru}
+  - {u: into_fucking_classics, region: ru}
+  - {u: Coltranespotting, region: ru}
+  - {u: jazzunioninfo, region: ru}
+  - {u: jazz100ru, region: ru}
+  - {u: juzzlerecords, region: ru}
+  - {u: technomotel, region: ru}
+  - {u: signal_live, region: ru}
+  - {u: sound_monopoly, region: ru}
+  - {u: dancingalone, region: ru}
+  - {u: kislotny_d, region: ru}
+  - {u: orpheusradio, region: ru}
+  - {u: baletmoskva, region: ru}
+  - {u: bolshoi_theatre, region: ru}
+  - {u: ct_pro, region: ru}
+  - {u: bnddottxt, region: ru}
+  # --- медиа о культуре ---
+  - {u: theblueprintru, region: ru}
+  - {u: afishadailynews, region: ru}
+  - {u: snobru, region: ru}
+  - {u: vmuzey, region: ru}
+  - {u: dvevmoskve, region: ru}
+  - {u: ulizabalabanova, region: ru}
+  - {u: kinoartru, region: ru}
+  - {u: malepeg, region: ru}
+  - {u: humanities666, region: ru}
+  - {u: deziiign_platform, region: ru}
+  - {u: bazaeducation, region: ru}
+  - {u: ooosmenaknigi, region: ru, city: Казань}
+  - {u: opencallRus, region: ru}
+
+pages:
+  # --- Россия: подборки и площадки ---
+  - {url: "https://theblueprint.ru/culture/art", region: ru}
+  - {url: "https://theblueprint.ru/culture/music", region: ru}
+  - {url: "https://theblueprint.ru/culture/theatre", region: ru}
+  - {url: "https://garagemca.org/events", region: ru, city: Москва}
+  - {url: "https://ges-2.org/events", region: ru, city: Москва}
+  - {url: "https://mmoma.ru/exhibitions/", region: ru, city: Москва}
+  - {url: "https://mamm-mdf.ru/exhibitions/", region: ru, city: Москва}
+  - {url: "https://www.winzavod.ru/calendar/", region: ru, city: Москва}
+  - {url: "https://centrezotov.ru/events/", region: ru, city: Москва}
+  - {url: "https://electrotheatre.ru/playbill", region: ru, city: Москва}
+  - {url: "https://praktikatheatre.ru/afisha", region: ru, city: Москва}
+  - {url: "https://www.erarta.com/ru/calendar/", region: ru, city: Санкт-Петербург}
+  - {url: "https://kuryokhin.center/events", region: ru, city: Санкт-Петербург}
+  - {url: "https://www.newhollandsp.ru/events/", region: ru, city: Санкт-Петербург}
+  - {url: "https://sevcableport.ru/ru/events", region: ru, city: Санкт-Петербург}
+  - {url: "https://arsenal-museum.ru/events/", region: ru, city: Нижний Новгород}
+  - {url: "https://yeltsin.ru/affair/", region: ru, city: Екатеринбург}
+  - {url: "https://sinaracenter.ru/events/", region: ru, city: Екатеринбург}
+  - {url: "https://s-m-e-n-a.org/events", region: ru, city: Казань}
+  - {url: "https://permm.ru/menu/vyistavki/", region: ru, city: Пермь}
+  - {url: "https://kudago.com/msk/exhibitions/", region: ru, city: Москва}
+  - {url: "https://kudago.com/spb/exhibitions/", region: ru, city: Санкт-Петербург}
+  - {url: "https://kudago.com/ekb/exhibitions/", region: ru, city: Екатеринбург}
+  - {url: "https://kudago.com/kzn/exhibitions/", region: ru, city: Казань}
+  - {url: "https://kudago.com/nnv/exhibitions/", region: ru, city: Нижний Новгород}
+  - {url: "https://kudago.com/nsk/exhibitions/", region: ru, city: Новосибирск}
+  - {url: "https://kudago.com/vlv/exhibitions/", region: ru, city: Владивосток}
+  # --- Мир ---
+  - {url: "https://www.e-flux.com/announcements/", region: world}
+  - {url: "https://www.biennialfoundation.org/biennial-map/", region: world}
+  - {url: "https://ars.electronica.art/news/en/", region: world}
+  - {url: "https://www.ctm-festival.de/", region: world}
+  - {url: "https://www.unsound.pl/en/", region: world}
+  - {url: "https://www.artbasel.com/", region: world}
+  - {url: "https://www.frieze.com/fairs", region: world}
+  - {url: "https://www.tate.org.uk/whats-on", region: world, city: Лондон}
+  - {url: "https://www.moma.org/calendar/exhibitions", region: world, city: Нью-Йорк}
+  - {url: "https://www.mori.art.museum/en/exhibitions/", region: world, city: Токио}
+  - {url: "https://www.mplus.org.hk/en/exhibitions/", region: world, city: Гонконг}
+  - {url: "https://www.smb.museum/en/museums-institutions/hamburger-bahnhof/exhibitions/", region: world, city: Берлин}
+  - {url: "https://www.fondationlouisvuitton.fr/en/events", region: world, city: Париж}
+  - {url: "https://www.sharjahart.org/", region: world, city: Шарджа}
+  - {url: "https://bienal.iksv.org/en", region: world, city: Стамбул}
+
+rss:
+  - {url: "https://www.e-flux.com/rss/announcements/", region: world}
+  - {url: "https://www.artforum.com/feed/", region: world}

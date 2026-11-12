@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Festival d'Automne à Paris 2026
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:festival-automne-paris-2026@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:Последний день: Festival d'Automne à Paris 2026
+LOCATION:Театры и площадки Парижа\, Париж\, Ф
+ ранция
+DESCRIPTION:Осенний фестиваль — многомесячн
+ ый смотр современного театра\, танца\, му
+ зыки и пластических искусств в Париже и 
+ пригородах.\n\nhttps://www.offi.fr/theatre/festival/festival-da
+ utomne-a-paris-9034.html
+URL:https://doublebasskakov.github.io/radar/#e=festival-automne-paris-202
+ 6
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Festival d'Automne à Paris 2026
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

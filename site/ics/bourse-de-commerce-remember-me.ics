@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Remember Me
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:bourse-de-commerce-remember-me@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20270118
+DTEND;VALUE=DATE:20270119
+SUMMARY:Последний день: Remember Me
+LOCATION:Bourse de Commerce — Pinault Collection\, 2 Rue de Viarmes\, 7
+ 5001 Paris\, Париж\, Франция
+DESCRIPTION:Более 700 шедевров фотографии из К
+ оллекции Пино\; блок Ирвинга Пенна откры
+ т до 10 января.\nИрвинг Пенн и др.\, Коллекц
+ ия Пино\nhttps://www.sortiraparis.com/en/what-to-visit-in-paris/exh
+ ibit-museum/articles/346413-remember-me-more-than-700-photographic-master
+ pieces-from-the-pinault-collection-on-display-at-the-bourse-de-commerce
+URL:https://doublebasskakov.github.io/radar/#e=bourse-de-commerce-remembe
+ r-me
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Remember Me
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

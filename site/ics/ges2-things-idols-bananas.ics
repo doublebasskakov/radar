@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Вещи\, идолы\, бананы
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:ges2-things-idols-bananas@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:Открытие: Вещи\, идолы\, бананы
+LOCATION:Дом культуры «ГЭС-2»\, Болотная наб.\
+ , 15\, Москва
+DESCRIPTION:Юбилейная выставка к пятилетию «
+ ГЭС-2»: от палеолитических Венер до знам
+ енитого банана Каттелана\, который впер
+ вые покажут в России. 4–6 декабря — праз
+ дничная программа.\n≈50 работ разных эпо
+ х\, включая «Комедианта» Маурицио Катте
+ лана\nhttps://t.me/afishadailynews
+URL:https://doublebasskakov.github.io/radar/#e=ges2-things-idols-bananas
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Вещи\, идолы\, бананы
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Габберы и диггеры: вечеринка-выс
+ тавка
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:fabula-gabber-diggers@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Габберы и диггеры: вечеринка-выстав
+ ка
+LOCATION:fābula HQ\, Самокатная ул.\, 4\, стр. 1\, Мос
+ ква
+DESCRIPTION:Выставка и рейв о двух подпольных
+  сообществах — габберах и диггерах — ка
+ к явлениях пост-индустриальной культур
+ ы.\n\nhttps://t.me/fabula_gallery
+URL:https://doublebasskakov.github.io/radar/#e=fabula-gabber-diggers
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Габберы и диггеры: вечеринка-выст
+ авка
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

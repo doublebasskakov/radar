@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Kreuzberg: Kunst und Migration seit 1960
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:gropius-bau-kreuzberg@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+SUMMARY:Последний день: Kreuzberg: Kunst und Migration seit 
+ 1960
+LOCATION:Gropius Bau\, Niederkirchnerstraße 7\, 10963 Berlin\, Берл
+ ин\, Германия
+DESCRIPTION:Выставка о том\, как мигранты сфор
+ мировали художественную жизнь берлинск
+ ого района Кройцберг с 1960-х.\n\nhttps://www.berline
+ rfestspiele.de/en/gropius-bau/programm/2026/ausstellungen
+URL:https://doublebasskakov.github.io/radar/#e=gropius-bau-kreuzberg
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Kreuzberg: Kunst und Migration s
+ eit 1960
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

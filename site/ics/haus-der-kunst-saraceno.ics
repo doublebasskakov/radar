@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Tomás Saraceno
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:haus-der-kunst-saraceno@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+SUMMARY:Последний день: Tomás Saraceno
+LOCATION:Haus der Kunst\, Ostgalerie & Mittelhalle\, Prinzregentenstraße
+  1\, 80538 München\, Мюнхен\, Германия
+DESCRIPTION:Паутины\, воздушные скульптуры и 
+ проект Aerocene\, а также новая работа\, созд
+ анная с коренными общинами Салинас-Гран
+ дес в Аргентине.\nТомас Сарацено\nhttps://www.h
+ ausderkunst.de/uploads/newsroom/Ausstellungen-und-Veranstaltungen/2026/26
+ 00_annual-preview/PDFs/HDK_Annual-Programme-2026_EN_press.pdf
+URL:https://doublebasskakov.github.io/radar/#e=haus-der-kunst-saraceno
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Tomás Saraceno
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

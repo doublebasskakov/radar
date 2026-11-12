@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Louise Bourgeois
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:beyeler-louise-bourgeois@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20270613
+DTEND;VALUE=DATE:20270614
+SUMMARY:Открытие: Louise Bourgeois
+LOCATION:Fondation Beyeler\, Baselstrasse 101\, 4125 Riehen\, Рихен 
+ (Базель)\, Швейцария
+DESCRIPTION:Выставка Луизы Буржуа\, совпадающ
+ ая по времени с Art Basel.\nЛуиза Буржуа\nhttps://
+ www.fondationbeyeler.ch/en/exhibitions/
+URL:https://doublebasskakov.github.io/radar/#e=beyeler-louise-bourgeois
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Louise Bourgeois
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

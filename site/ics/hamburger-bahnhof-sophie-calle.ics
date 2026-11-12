@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Sophie Calle: Is It Better?
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:hamburger-bahnhof-sophie-calle@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Открытие: Sophie Calle: Is It Better?
+LOCATION:Hamburger Bahnhof – Nationalgalerie der Gegenwart\, Invalidens
+ traße 50–51\, 10557 Berlin\, Берлин\, Германия
+DESCRIPTION:Большая выставка французской худ
+ ожницы\, соединяющей фотографию\, текст 
+ и личные истории.\nСофи Калль\nhttps://www.smb.mus
+ eum/en/exhibitions/preview/hamburger-bahnhof-nationalgalerie-der-gegenwar
+ t/
+URL:https://doublebasskakov.github.io/radar/#e=hamburger-bahnhof-sophie-c
+ alle
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Sophie Calle: Is It Better?
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

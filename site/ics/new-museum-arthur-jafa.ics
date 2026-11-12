@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Arthur Jafa: I Am Tony
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:new-museum-arthur-jafa@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+SUMMARY:Последний день: Arthur Jafa: I Am Tony
+LOCATION:New Museum\, 235 Bowery\, New York\, NY 10002\, Нью-Йорк\
+ , США
+DESCRIPTION:Первая обзорная музейная выставк
+ а в США режиссёра и видеохудожника Арту
+ ра Джафы.\nАртур Джафа\nhttps://www.theartnewspaper.com/
+ 2026/09/21/autumn-2026-exhibitions-new-york-city-moma-met-ps1-grey-art-mu
+ seum-new-museum
+URL:https://doublebasskakov.github.io/radar/#e=new-museum-arthur-jafa
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Arthur Jafa: I Am Tony
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

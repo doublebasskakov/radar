@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Holland Festival 2027
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:holland-festival-2027@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20270603
+DTEND;VALUE=DATE:20270604
+SUMMARY:Открытие: Holland Festival 2027
+LOCATION:Площадки Амстердама\, Амстердам\, Н
+ идерланды
+DESCRIPTION:80-й Голландский фестиваль — глав
+ ный международный фестиваль исполнител
+ ьских искусств Нидерландов: музыка\, теа
+ тр\, танец и мультимедиа.\n\nhttps://hollandfestival.n
+ l/en/holland-festival-concludes-with-world-class-performances-and-the-nex
+ t-generation-of-artists
+URL:https://doublebasskakov.github.io/radar/#e=holland-festival-2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Holland Festival 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Ромео и Джульетта (опера Гуно)
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:mamt-romeo@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261130
+SUMMARY:Ромео и Джульетта (опера Гуно)
+LOCATION:МАМТ им. Станиславского и Немирови
+ ча-Данченко\, Б. Дмитровка\, 17\, Москва
+DESCRIPTION:Современная Верона\, где трагедия
+  превратилась в туристический аттракци
+ он.\nРежиссёр Алексей Смирнов\, дирижёр Т
+ имур Зангиев\nhttps://theblueprint.ru/culture/theatre/theatre-
+ nov2026
+URL:https://doublebasskakov.github.io/radar/#e=mamt-romeo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ромео и Джульетта (опера Гуно)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

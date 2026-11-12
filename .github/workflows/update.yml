@@ -1,0 +1,55 @@
+name: Обновить афишу
+
+on:
+  schedule:
+    - cron: "17 3 * * *"     # каждый день в 06:17 по Москве
+  workflow_dispatch: {}       # кнопка «Run workflow» для ручного запуска
+  push:
+    branches: [main]
+    paths: ["site/**", "data/events.json", "scraper/**"]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: afisha
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12", cache: pip}
+      - run: pip install -r requirements.txt
+
+      - name: Собрать новые события (Telegram, сайты, RSS)
+        if: github.event_name != 'push'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          AFISHA_MODEL: ${{ vars.AFISHA_MODEL }}
+        run: |
+          if [ -z "$ANTHROPIC_API_KEY" ]; then echo "Ключ ANTHROPIC_API_KEY не задан — пропускаю сбор"; exit 0; fi
+          python scraper/robot.py collect
+
+      - name: Собрать сайт и календари
+        env:
+          SITE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
+        run: python scraper/robot.py build
+
+      - name: Сохранить изменения
+        run: |
+          git config user.name "afisha-robot"
+          git config user.email "afisha-robot@users.noreply.github.com"
+          git add -A data site
+          git diff --cached --quiet || git commit -m "Обновление афиши $(date -u +%F)"
+          git push || (git pull --rebase && git push)
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with: {path: site}
+      - id: deploy
+        uses: actions/deploy-pages@v4

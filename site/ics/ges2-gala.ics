@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ГЭС-2 Гала
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:ges2-gala@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20261216
+DTEND;VALUE=DATE:20261217
+SUMMARY:ГЭС-2 Гала
+LOCATION:Дом культуры «ГЭС-2»\, Болотная наб.\
+ , 15\, Москва
+DESCRIPTION:Финал юбилейного цикла в формате 
+ концерта-энигмы: программу зрители узна
+ ют только в самом конце.\nУчастники цикл
+ а «Гала. Пять лет музыки»\nhttps://theblueprint.ru/ne
+ ws/42766
+URL:https://doublebasskakov.github.io/radar/#e=ges2-gala
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ГЭС-2 Гала
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

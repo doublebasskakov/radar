@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Сквозь голубое свечение
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:des-esseintes-blue-glow@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20261230
+DTEND;VALUE=DATE:20261231
+SUMMARY:Последний день: Сквозь голубое свеч
+ ение
+LOCATION:Des Esseintes Library\, Москва
+DESCRIPTION:Сновидческая графика и объекты: с
+ комканные фигуры\, птицы\, волны\, застыв
+ шие во времени.\nНадя Захарова\, Егор Кор
+ ягин\nhttps://t.me/badgalllery
+URL:https://doublebasskakov.github.io/radar/#e=des-esseintes-blue-glow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Сквозь голубое св
+ ечение
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

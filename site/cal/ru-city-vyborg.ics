@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Радар — Россия · city-vyborg
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:bizon-silo@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART:20261113T120000Z
+DTEND:20261113T140000Z
+SUMMARY:Си Ло. Всегда время пить чай
+LOCATION:Выставочный центр «Эрмитаж-Выборг
+ »\, Выборг
+DESCRIPTION:Открытие выставки российско-кита
+ йского художника\, сделанной для казанс
+ кой галереи БИЗОN.\nГалерея БИЗОN (Казань)
+ \nhttps://t.me/bizongallery
+URL:https://doublebasskakov.github.io/radar/#e=bizon-silo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Си Ло. Всегда время пить чай
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

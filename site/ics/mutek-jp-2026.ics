@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:MUTEK.JP 2026
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:mutek-jp-2026@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261124
+SUMMARY:MUTEK.JP 2026
+LOCATION:MoN Takanawa: The Museum of Narratives\, Takanawa Gateway City\,
+  Токио\, Япония
+DESCRIPTION:Токийская редакция MUTEK — фестива
+ ля электронной музыки и цифрового искус
+ ства — впервые проходит в новом музее MoN
+  Takanawa и длится четыре дня.\n\nhttps://tokyo.mutek.org
+ /en/news/mutek-jp-2026-edition-11
+URL:https://doublebasskakov.github.io/radar/#e=mutek-jp-2026
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MUTEK.JP 2026
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

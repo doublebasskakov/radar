@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Yapım Aşamasında / Work in Progress
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:arter-work-in-progress@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20270314
+DTEND;VALUE=DATE:20270315
+SUMMARY:Последний день: Yapım Aşamasında / Work in Progre
+ ss
+LOCATION:ARTER\, Irmak Caddesi No: 13\, Dolapdere\, Beyoğlu\, İstanbul\
+ , Стамбул\, Турция
+DESCRIPTION:Групповая выставка 27 художников 
+ из коллекции Arter\, вторая глава которой о
+ ткрылась в октябре. Вход свободный.\nКур
+ атор Эмре Байкал\; Джевдет Эрек\, Айше Эр
+ кмен\, Саркис и др.\nhttps://www.e-flux.com/announcements/67
+ 86373/work-in-progress
+URL:https://doublebasskakov.github.io/radar/#e=arter-work-in-progress
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Yapım Aşamasında / Work in Pr
+ ogress
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

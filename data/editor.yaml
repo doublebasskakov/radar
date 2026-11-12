@@ -1,0 +1,26 @@
+# Ручная редактура «Радара».
+# id события виден в адресе карточки: …/radar/#e=<id>
+#
+# pin  — всегда показывать в «Выборе редакции»
+# hide — скрыть событие с сайта (если робот ошибся)
+# events — добавить событие вручную (формат как в data/events.json)
+
+pin:
+  - ges2-things-idols-bananas
+  - zotov-mr-west-musicaeterna
+  - oberton-fair-2026
+  - catalog-fair
+
+hide: []
+
+events: []
+#  - id: my-event-moscow
+#    title: Название
+#    cat: gallery          # music | media | gallery | performance | fair | theatre | biennial
+#    city: Москва
+#    venue: Площадка
+#    start: 2026-12-01
+#    end: 2026-12-31
+#    desc: Одно-два предложения.
+#    src: https://...
+#    srcName: Сайт площадки

@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Поколения новаторов. Русское иск
+ усство XX–XXI веков
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:ekb-generations-innovators@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Последний день: Поколения новаторо
+ в. Русское искусство XX–XXI веков
+LOCATION:Екатеринбургский музей изобразите
+ льных искусств\, ул. Воеводина\, 5\, Екатер
+ инбург
+DESCRIPTION:Большая выставка о линии новатор
+ ства в русском искусстве от авангарда д
+ о наших дней.\nВ т. ч. Matuish First\nhttps://t.me/mm_jess
+URL:https://doublebasskakov.github.io/radar/#e=ekb-generations-innovators
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Поколения новато
+ ров. Русское искусство XX–XXI веков
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

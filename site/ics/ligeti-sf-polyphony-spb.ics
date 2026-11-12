@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Российская премьера «Полифонии 
+ Сан-Франциско» Лигети
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:ligeti-sf-polyphony-spb@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Российская премьера «Полифонии Сан
+ -Франциско» Лигети
+LOCATION:Большой зал Петербургской филармо
+ нии\, Михайловская ул.\, 2\, Санкт-Петербур
+ г
+DESCRIPTION:Впервые в России прозвучит одно и
+ з ключевых оркестровых сочинений Дьёрд
+ я Лигети.\nКонцерт к 95-летию Геннадия Рож
+ дественского\nhttps://t.me/classicalmusicnews
+URL:https://doublebasskakov.github.io/radar/#e=ligeti-sf-polyphony-spb
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Российская премьера «Полифонии С
+ ан-Франциско» Лигети
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

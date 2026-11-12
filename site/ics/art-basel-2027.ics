@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Art Basel 2027
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:art-basel-2027@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20270617
+DTEND;VALUE=DATE:20270621
+SUMMARY:Art Basel 2027
+LOCATION:Messe Basel\, Messeplatz 10\, 4058 Basel\, Базель\, Шве
+ йцария
+DESCRIPTION:Главная арт-ярмарка мира: около 300
+  галерей\, секция Unlimited с монументальным
+ и работами и параллельные ярмарки Liste и D
+ esign Miami.\n\nhttps://www.artbasel.com/art-basel-shop
+URL:https://doublebasskakov.github.io/radar/#e=art-basel-2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Art Basel 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

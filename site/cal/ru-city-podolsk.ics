@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Радар — Россия · city-podolsk
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:podolsk-esayan@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART:20261121T140000Z
+DTEND:20261121T160000Z
+SUMMARY:Концерт: Есаян\, Палагина\, Чичилин
+LOCATION:Уточняйте у организаторов\, Подоль
+ ск
+DESCRIPTION:Программа\, где старинная музыка (
+ Жоскен Депре) переплетается с сочинения
+ ми современных композиторов.\nРачья Еса
+ ян (композитор)\, Катя Палагина (вокал)\, Л
+ ёша Чичилин (гитара)\nhttps://t.me/vologorlinsky
+URL:https://doublebasskakov.github.io/radar/#e=podolsk-esayan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт: Есаян\, Палагина\, Чичили
+ н
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

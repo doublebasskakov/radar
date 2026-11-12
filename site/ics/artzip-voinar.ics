@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Евгения Войнар. Иная природа
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:artzip-voinar@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:Последний день: Евгения Войнар. Ина
+ я природа
+LOCATION:Галерея АРТЗИП\, ул. Тимура Фрунзе\, 
+ 8/5\, Москва
+DESCRIPTION:Сказочная живопись Евгении Война
+ р в пространстве галереи с кофейней\; ра
+ боты можно приобрести.\nЕвгения Войнар\, 
+ куратор София Темникова\, «На свежую гол
+ ову»\nhttps://t.me/artzip_gallery
+URL:https://doublebasskakov.github.io/radar/#e=artzip-voinar
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Евгения Войнар. И
+ ная природа
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

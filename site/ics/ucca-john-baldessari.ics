@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:John Baldessari
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:ucca-john-baldessari@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+SUMMARY:Последний день: John Baldessari
+LOCATION:UCCA Beijing\, 798\, 798 Art District\, No. 4 Jiuxianqiao Lu\, B
+ eijing\, Пекин\, Китай
+DESCRIPTION:Выставка классика концептуально
+ го искусства Джона Балдессари в пекинск
+ ом районе 798.\nДжон Балдессари\nhttps://ucca.org.c
+ n/en/download/3/f/b/f68974-747779-18c780/2026%20Exhibition%20Programming%
+ 20PR_EN_FINAL.pdf
+URL:https://doublebasskakov.github.io/radar/#e=ucca-john-baldessari
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: John Baldessari
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

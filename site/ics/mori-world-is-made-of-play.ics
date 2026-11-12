@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:世界はあそびでできている：アート・子ども
+ ・社会
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:mori-world-is-made-of-play@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20270429
+DTEND;VALUE=DATE:20270430
+SUMMARY:Открытие: 世界はあそびでできている：アー
+ ト・子ども・社会
+LOCATION:Mori Art Museum\, 6-10-1 Roppongi\, Minato-ku\, Tokyo\, Токи
+ о\, Япония
+DESCRIPTION:Выставка об игре как источнике тв
+ орчества с интерактивными и иммерсивны
+ ми работами — последняя перед закрытие
+ м музея на реконструкцию.\nМонстр Четвин
+ д\, До Хо Со и др.\nhttps://www.tokyoartbeat.com/articles/-/mor
+ i-museum-2027-schedule-news-202609
+URL:https://doublebasskakov.github.io/radar/#e=mori-world-is-made-of-play
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: 世界はあそびでできている：ア
+ ート・子ども・社会
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

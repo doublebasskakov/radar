@@ -1,0 +1,109 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Радар — Россия · cat-fair
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:catalog-fair@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261123
+SUMMARY:|catalog| — ярмарка современного искус
+ ства
+LOCATION:ЖК «Золотой»\, Софийская набережна
+ я\, Софийская наб.\, Москва
+DESCRIPTION:Осенний выпуск ярмарки\, которую 
+ делают сами галеристы: стенды задуманы 
+ как маленькие выставки\, а не витрины пр
+ одаж.\nГалереи-участники Ассоциации гал
+ ерей\nhttps://theblueprint.ru/culture/art/vystavki-november2026
+URL:https://doublebasskakov.github.io/radar/#e=catalog-fair
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:|catalog| — ярмарка современного иск
+ усства
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:oberton-fair-2026@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261207
+SUMMARY:«Обертон» — ярмарка графики Cosmoscow
+LOCATION:ТОН-Центр\, Комсомольская пл.\, 3/30с1\,
+  Москва
+DESCRIPTION:Второй выпуск ярмарки графики от 
+ команды Cosmoscow\; участников отбирал экспе
+ ртный совет ярмарки.\n37 галерей из Москв
+ ы\, Петербурга\, Нижнего\, Воронежа\, Влад
+ ивостока\nhttps://t.me/sampleart
+URL:https://doublebasskakov.github.io/radar/#e=oberton-fair-2026
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:«Обертон» — ярмарка графики Cosmosco
+ w
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:signal-city-2026@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261123
+SUMMARY:Signal City
+LOCATION:ДК завода «Серп и Молот»\, Москва
+DESCRIPTION:Городская версия фестиваля Signal: д
+ ва дня электронной музыки в лабиринтах 
+ исторического ДК.\nMonasterio\, Gescu и др.\nhttps://t.
+ me/signal_live
+URL:https://doublebasskakov.github.io/radar/#e=signal-city-2026
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Signal City
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kucha3-fair@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261221
+SUMMARY:«Куча³» — ярмарка независимого иск
+ усства и книгоиздания
+LOCATION:ЦТИ «Фабрика»\, Переведеновский пе
+ р.\, 18\, Москва
+DESCRIPTION:Горизонтальная ярмарка художник
+ ов и самиздата\, которую сообщество соби
+ рает на взаимопомощи.\nСССХ\nhttps://t.me/Ccc_x124
+URL:https://doublebasskakov.github.io/radar/#e=kucha3-fair
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:«Куча³» — ярмарка независимого и
+ скусства и книгоиздания
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:smena-winter-book-fest@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261207
+SUMMARY:Зимний книжный фестиваль «Смены»
+LOCATION:Национальная библиотека Республик
+ и Татарстан\, Казань
+DESCRIPTION:Четырнадцатый фестиваль к 13-лети
+ ю «Смены»: книжная ярмарка и три паралле
+ льных лектория.\nЦентр современной куль
+ туры «Смена»\nhttps://t.me/ooosmenaknigi
+URL:https://doublebasskakov.github.io/radar/#e=smena-winter-book-fest
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Зимний книжный фестиваль «Смены»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

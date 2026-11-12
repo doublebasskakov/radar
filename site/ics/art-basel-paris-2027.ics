@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Art Basel Paris 2027
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:art-basel-paris-2027@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20271022
+DTEND;VALUE=DATE:20271025
+SUMMARY:Art Basel Paris 2027
+LOCATION:Grand Palais\, Париж\, Франция
+DESCRIPTION:Парижская ярмарка Art Basel под стекл
+ янным куполом Гран-Пале и программа в го
+ родских музеях.\n\nhttps://www.artbasel.com/paris/visitor-in
+ formation/partner-cultural-institutions
+URL:https://doublebasskakov.github.io/radar/#e=art-basel-paris-2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Art Basel Paris 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

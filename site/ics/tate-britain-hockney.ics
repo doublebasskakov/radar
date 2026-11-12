@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:David Hockney
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:tate-britain-hockney@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20271007
+DTEND;VALUE=DATE:20271008
+SUMMARY:Открытие: David Hockney
+LOCATION:Tate Britain\, Millbank\, London SW1P 4RG\, Лондон\, Ве
+ ликобритания
+DESCRIPTION:Ретроспектива всей карьеры Дэвид
+ а Хокни\; летом в Турбинном зале Тейт Мод
+ ерн также появится его инсталляция по м
+ отивам оперных декораций.\nДэвид Хокни\nh
+ ttps://www.theartnewspaper.com/2026/03/16/tate-announces-major-david-hock
+ ney-edvard-munch-and-sonia-boyce-exhibitions-for-2027
+URL:https://doublebasskakov.github.io/radar/#e=tate-britain-hockney
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: David Hockney
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

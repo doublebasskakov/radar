@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Ars Electronica Festival 2027
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:ars-electronica-2027@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20270908
+DTEND;VALUE=DATE:20270913
+SUMMARY:Ars Electronica Festival 2027
+LOCATION:POSTCITY и площадки Линца\, Линц\, Австр
+ ия
+DESCRIPTION:Главный мировой фестиваль медиаи
+ скусства\, технологий и общества с вруче
+ нием Prix Ars Electronica. Тема будет объявлена в
+ есной 2027 года.\n\nhttps://ars.electronica.art/festival/en/
+URL:https://doublebasskakov.github.io/radar/#e=ars-electronica-2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ars Electronica Festival 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

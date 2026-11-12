@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:documenta 16
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:documenta-16@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20270612
+DTEND;VALUE=DATE:20270613
+SUMMARY:Открытие: documenta 16
+LOCATION:Fridericianum и площадки по всему городу\,
+  Кассель\, Германия
+DESCRIPTION:Главная выставка современного ис
+ кусства раз в пять лет: 100 дней в Касселе.
+  Шестнадцатую documenta возглавляет Наоми Б
+ еквит из Музея Гуггенхайма с международ
+ ной кураторской командой.\nАрт-директор 
+ Наоми Беквит\nhttps://documenta.de/en/news/documenta-16-findet
+ -vom-12-juni-bis-zum-19-september-2027-statt
+URL:https://doublebasskakov.github.io/radar/#e=documenta-16
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: documenta 16
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

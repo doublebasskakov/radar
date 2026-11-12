@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Складки
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:pa-skladki@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:Последний день: Складки
+LOCATION:PA Gallery\, Москва
+DESCRIPTION:Коллективная выставка о барочной
+  «складке» сегодня — от реставрационны
+ х баннеров-тромплёев до чувственной пла
+ стики материи.\nКирилл Ермолин-Луговско
+ й и др.\nhttps://t.me/pagallery_official
+URL:https://doublebasskakov.github.io/radar/#e=pa-skladki
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Складки
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

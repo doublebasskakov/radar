@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Frieze Abu Dhabi 2026
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:frieze-abu-dhabi-2026@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261123
+SUMMARY:Frieze Abu Dhabi 2026
+LOCATION:Manarat Al Saadiyat\, Абу-Даби\, ОАЭ
+DESCRIPTION:Первая ярмарка Frieze на Ближнем Вос
+ токе\, пришедшая на смену Abu Dhabi Art\, в куль
+ турном квартале Саадият.\nБолее 80 галере
+ й\nhttps://www.frieze.com/article/frieze-abu-dhabi-reveals-global-line-s
+ haped-region-its-inaugural-edition
+URL:https://doublebasskakov.github.io/radar/#e=frieze-abu-dhabi-2026
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Frieze Abu Dhabi 2026
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

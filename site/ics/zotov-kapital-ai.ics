@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:«Сцены из „Капитала“» — ИИ-реко
+ нструкция Эйзенштейна
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:zotov-kapital-ai@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART:20261115T140000Z
+DTEND:20261115T160000Z
+SUMMARY:«Сцены из „Капитала“» — ИИ-реконс
+ трукция Эйзенштейна
+LOCATION:Зотов.Кино\, Ходынская ул.\, 2\, стр. 1\,
+  Москва
+DESCRIPTION:Спецпоказ гипотетической реконс
+ трукции неосуществлённого фильма Эйзен
+ штейна\, созданной с помощью искусствен
+ ного интеллекта\; представляет Наум Кле
+ йман.\nФёдор Максимишин\, Наум Клейман\nhtt
+ ps://t.me/centrezotov
+URL:https://doublebasskakov.github.io/radar/#e=zotov-kapital-ai
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:«Сцены из „Капитала“» — ИИ-реко
+ нструкция Эйзенштейна
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

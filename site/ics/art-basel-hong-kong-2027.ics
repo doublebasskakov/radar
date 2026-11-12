@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Art Basel Hong Kong 2027
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:art-basel-hong-kong-2027@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20270325
+DTEND;VALUE=DATE:20270328
+SUMMARY:Art Basel Hong Kong 2027
+LOCATION:Hong Kong Convention and Exhibition Centre\, Гонконг\, Г
+ онконг (Китай)
+DESCRIPTION:Крупнейшая арт-ярмарка Азии\; в эт
+ и дни Гонконг живёт неделей искусства с 
+ выставками в M+ и галереях.\n\nhttps://artbasel.com/h
+ ong-kong/at-the-show
+URL:https://doublebasskakov.github.io/radar/#e=art-basel-hong-kong-2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Art Basel Hong Kong 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

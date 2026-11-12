@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Три музыкальных мира: Мартынов\, 
+ Гинзбург\, Горлинский
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:gorlinsky-thelema@afisha-art
+DTSTAMP:20261112T162055Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Три музыкальных мира: Мартынов\, Гин
+ збург\, Горлинский
+LOCATION:Пространство Île Thélème\, Москва
+DESCRIPTION:Встреча трёх композиторов из ред
+ ко пересекающихся областей новой музык
+ и — разговор и музыка.\nВладимир Мартыно
+ в\, Юрий Гинзбург\, Владимир Горлинский\nh
+ ttps://t.me/vologorlinsky
+URL:https://doublebasskakov.github.io/radar/#e=gorlinsky-thelema
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Три музыкальных мира: Мартынов\, Г
+ инзбург\, Горлинский
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR
