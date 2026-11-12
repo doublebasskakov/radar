@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Михаил Майзульс. «Сумерки идолов
+ »
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:ruarts-maizuls-idols@afisha-art
+DTSTAMP:20261112T220308Z
+DTSTART:20261114T110000Z
+DTEND:20261114T130000Z
+SUMMARY:Михаил Майзульс. «Сумерки идолов»
+LOCATION:Фонд Ruarts\, 1-й Зачатьевский пер.\, 10\, 
+ Москва
+DESCRIPTION:Лекция о том\, как средневековые х
+ удожники изобрели визуальный язык прот
+ еста задолго до революций XX века.\nМихаи
+ л Майзульс\nhttps://t.me/ruartsfoundation
+URL:https://doublebasskakov.github.io/radar/#e=ruarts-maizuls-idols
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Михаил Майзульс. «Сумерки идолов
+ »
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

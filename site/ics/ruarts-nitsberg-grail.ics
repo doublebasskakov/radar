@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Александр Ницберг. «Тайна Грааля
+ »
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:ruarts-nitsberg-grail@afisha-art
+DTSTAMP:20261112T220308Z
+DTSTART:20261122T150000Z
+DTEND:20261122T170000Z
+SUMMARY:Александр Ницберг. «Тайна Грааля»
+LOCATION:Фонд Ruarts\, 1-й Зачатьевский пер.\, 10\, 
+ Москва
+DESCRIPTION:Лекция об одном из самых загадочн
+ ых символов европейской культуры и его 
+ прочтениях в искусстве.\nАлександр Ницб
+ ерг\nhttps://t.me/ruartsfoundation
+URL:https://doublebasskakov.github.io/radar/#e=ruarts-nitsberg-grail
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Александр Ницберг. «Тайна Грааля
+ »
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

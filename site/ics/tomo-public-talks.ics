@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Паблик-токи в TŌMO: керамика и совр
+ еменное искусство
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:tomo-public-talks@afisha-art
+DTSTAMP:20261112T220308Z
+DTSTART:20261115T160000Z
+DTEND:20261115T180000Z
+SUMMARY:Паблик-токи в TŌMO: керамика и соврем
+ енное искусство
+LOCATION:Галерея TŌMO\, 1-й Зачатьевский пер.\, 8
+ \, стр. 9\, Москва
+DESCRIPTION:Серия встреч с художниками выста
+ вки «Объекты и Состояния»\; вход свободн
+ ый по регистрации. Первая встреча — 15 но
+ ября.\nВика Утикалко (15.11)\, Елена Юдина и 
+ Александр Исаков (22.11)\, Ирина Успенская (
+ 29.11)\nhttps://t.me/tomo_art
+URL:https://doublebasskakov.github.io/radar/#e=tomo-public-talks
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Паблик-токи в TŌMO: керамика и совр
+ еменное искусство
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

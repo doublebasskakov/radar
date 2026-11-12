@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:victoria-water@afisha-art
-DTSTAMP:20261112T165606Z
+DTSTAMP:20261112T220308Z
 DTSTART:20261112T150000Z
 DTEND:20261112T170000Z
 SUMMARY:Написано водой\, на воде\, для воды
@@ -27,7 +27,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:samara-victoria-idite-po-moemu-sledu@afisha-art
-DTSTAMP:20261112T165606Z
+DTSTAMP:20261112T220308Z
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
 SUMMARY:Последний день: «Идите по моему сле
@@ -52,7 +52,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:samara-osenniy-auktsion-2026@afisha-art
-DTSTAMP:20261112T165606Z
+DTSTAMP:20261112T220308Z
 DTSTART:20261126T150000Z
 DTEND:20261126T170000Z
 SUMMARY:VII Осенний аукцион современного иск
@@ -70,6 +70,32 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:VII Осенний аукцион современного и
  скусства
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:victoria-medvedeva-modernism@afisha-art
+DTSTAMP:20261112T220308Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Екатерина Медведева. «Осколки и отр
+ ажения: жизнь модернистских идей в XX век
+ е»
+LOCATION:Галерея «Виктория»\, лекторий\, Сам
+ ара
+DESCRIPTION:Как в советском искусстве второй 
+ половины XX века менялось отношение к мо
+ дернистскому проекту — через неомодерн
+ изм 1960-х и дальше.\nЕкатерина Медведева (
+ отдел новейших течений Третьяковской г
+ алереи)\nhttps://t.me/gallery_victoria
+URL:https://doublebasskakov.github.io/radar/#e=victoria-medvedeva-moderni
+ sm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Екатерина Медведева. «Осколки и о
+ тражения: жизнь модернистских идей в XX в
+ еке»
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

@@ -34,7 +34,7 @@ UA = {"User-Agent": "Mozilla/5.0 (compatible; AfishaArtBot/1.0; +https://github.
 MODEL = os.environ.get("AFISHA_MODEL", "claude-haiku-5-5")
 TODAY = dt.date.fromisoformat(os.environ["AFISHA_TODAY"]) if os.environ.get("AFISHA_TODAY") else \
     dt.datetime.now(ZoneInfo("Europe/Moscow")).date()
-CATS = ["music", "media", "gallery", "performance", "fair", "theatre", "biennial", "cinema"]
+CATS = ["music", "media", "gallery", "performance", "fair", "theatre", "biennial", "cinema", "lecture"]
 LOOKBACK_DAYS = 21          # насколько старые посты ещё разбирать
 MAX_POSTS_PER_RUN = 400     # предохранитель расходов на модель
 
@@ -183,8 +183,9 @@ PROMPT = """Ты — редактор афиши современного иск
 электроакустика; медиа- и цифровое искусство, видеоарт, AV-перформансы, иммерсивные выставки; выставки
 современного искусства в музеях, центрах и галереях; перформанс; ярмарки и фестивали искусства; биеннале;
 современный и экспериментальный театр и танец; КИНО: артхаус-премьеры, кинофестивали, ретроспективы,
-спецпоказы с обсуждением, пресс-показы, видеоарт и экспериментальное кино (массовый прокат — НЕТ).
-НЕ включай: курсы, open call, конкурсы, вакансии, распродажи, классику без современной составляющей,
+спецпоказы с обсуждением, пресс-показы, видеоарт и экспериментальное кино (массовый прокат — НЕТ);
+ЛЕКЦИИ об искусстве, музыке, кино и культуре, кураторские и авторские экскурсии, артист-токи, дискуссии (cat "lecture").
+НЕ включай: многонедельные платные курсы, open call, конкурсы, вакансии, распродажи, классику без современной составляющей,
 детские шоу, мюзиклы, поп-концерты, новости без даты, события в прошлом.
 Регион по умолчанию: {region_hint}.
 
@@ -198,7 +199,7 @@ PROMPT = """Ты — редактор афиши современного иск
 - Для событий за рубежом country — страна по-русски, city — город по-русски.
 
 Верни ТОЛЬКО JSON-массив (может быть пустым []), элементы:
-{{"title":"","title_en":"","who":"","cat":"music|media|gallery|performance|fair|theatre|biennial|cinema","press":false,
+{{"title":"","title_en":"","who":"","cat":"music|media|gallery|performance|fair|theatre|biennial|cinema|lecture","press":false,
 "country":"Россия","country_en":"Russia","city":"","city_en":"","venue":"","address":"",
 "start":"YYYY-MM-DD","end":"YYYY-MM-DD|null","time":"HH:MM|null","tz":"IANA, напр. Europe/Moscow",
 "tba":false,"desc":"","desc_en":"","importance":3,"src_index":0,"url":null}}

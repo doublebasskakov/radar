@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Александр Мортаев: авторская экс
+ курсия по выставке «Дом у реки»
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:popoffart-mortaev-tour@afisha-art
+DTSTAMP:20261112T220308Z
+DTSTART:20261115T150000Z
+DTEND:20261115T170000Z
+SUMMARY:Александр Мортаев: авторская экску
+ рсия по выставке «Дом у реки»
+LOCATION:Галерея pop/off/art\, Винзавод\, 4-й Сыром
+ ятнический пер.\, 1/8\, Москва
+DESCRIPTION:Художник сам рассказывает о гипе
+ рреалистическом методе и работах выста
+ вки.\nАлександр Мортаев\nhttps://t.me/pop_off_art
+URL:https://doublebasskakov.github.io/radar/#e=popoffart-mortaev-tour
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Александр Мортаев: авторская экс
+ курсия по выставке «Дом у реки»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR
