@@ -138,3 +138,11 @@ html,body{overflow-x:hidden;max-width:100%}
 
 .filters{position:static}
 .picks-wrap h2{margin-top:8px}
+
+.sheet{position:fixed;inset:0;z-index:300;background:rgba(0,0,0,.6);display:flex;align-items:flex-end;justify-content:center}
+.sheet[hidden]{display:none}
+.sheet-in{width:100%;max-width:460px;background:var(--panel);border:1px solid var(--line);border-radius:18px 18px 0 0;padding:20px 18px calc(18px + env(safe-area-inset-bottom));display:grid;gap:10px}
+.sheet-in h3{margin:0 0 4px;font-size:17px}
+.sheet-in .pitem{width:100%;color:inherit;font-size:16px;padding:15px 14px}
+.hint{color:var(--mute);font-size:13px;margin:6px 0}
+#calPref{margin:0 0 14px}#calPref .btn{margin-left:8px;padding:4px 10px;font-size:13px}

@@ -21,7 +21,7 @@
       search: "Поиск: художник, площадка, композитор…",
       soon: "Ближайшие", live: "Уже идут", liveSub: "по дате закрытия", tba: "Дата уточняется", nothing: "Ничего не нашлось — попробуйте снять фильтры.",
       favEmpty: "Пока пусто. Нажмите ☆ на карточке, чтобы сохранить событие.",
-      addCal: "+ В календарь", findMore: "🔎 Найти больше", mineBadge: "моя находка", myTitle: "Личный поиск", myLead: "Робот ищет события в интернете по вашему городу — за счёт вашей бесплатной квоты Google Gemini. Находки видите только вы.", myKey: "Ключ Gemini API", myKeyHelp: "Получите бесплатный ключ на aistudio.google.com/apikey — войдите своим Google-аккаунтом (из России сервис открывается только с VPN, и поиск тоже работает только с VPN) — и вставьте сюда. Ключ хранится только на этом устройстве.", mySave: "Сохранить ключ", myTopic: "Что ищем (необязательно): например, «саунд-арт» или «выставки фотографии»", myRun: "Искать", myBusy: "Ищу… это займёт 20–60 секунд", myFound: "Найдено новых:", myNone: "Ничего нового не нашлось — попробуйте другой запрос.", myErr: "Ошибка поиска:", myForget: "Удалить ключ", myClear: "Очистить мои находки", myWhere: "Где ищем:", myYaHelp: "Для поиска через Яндекс нужен аккаунт Yandex Cloud с подключённым Search API и YandexGPT: создайте сервисный аккаунт с ролями search-api.webSearch.user и ai.languageModels.user, выпустите API-ключ и укажите ID каталога. Поиск оплачивается с вашего счёта Yandex Cloud (копейки за запрос). Ключ хранится только на этом устройстве.", press: "пресс-показ · по аккредитации", pressChip: "Пресс-показы", source: "Источник", share: "Поделиться", more: "Показать ещё",
+      addCal: "+ В календарь", calWhich: "В какой календарь добавлять?", calApple: "Apple Календарь (iPhone, Mac)", calGoogle: "Google Календарь", calHint: "Запомню выбор. Сменить можно во вкладке «Подписки».", calNow: "Кнопка «В календарь» добавляет в:", calChange: "Сменить", findMore: "🔎 Найти больше", mineBadge: "моя находка", myTitle: "Личный поиск", myLead: "Робот ищет события в интернете по вашему городу — за счёт вашей бесплатной квоты Google Gemini. Находки видите только вы.", myKey: "Ключ Gemini API", myKeyHelp: "Получите бесплатный ключ на aistudio.google.com/apikey — войдите своим Google-аккаунтом (из России сервис открывается только с VPN, и поиск тоже работает только с VPN) — и вставьте сюда. Ключ хранится только на этом устройстве.", mySave: "Сохранить ключ", myTopic: "Что ищем (необязательно): например, «саунд-арт» или «выставки фотографии»", myRun: "Искать", myBusy: "Ищу… это займёт 20–60 секунд", myFound: "Найдено новых:", myNone: "Ничего нового не нашлось — попробуйте другой запрос.", myErr: "Ошибка поиска:", myForget: "Удалить ключ", myClear: "Очистить мои находки", myWhere: "Где ищем:", myYaHelp: "Для поиска через Яндекс нужен аккаунт Yandex Cloud с подключённым Search API и YandexGPT: создайте сервисный аккаунт с ролями search-api.webSearch.user и ai.languageModels.user, выпустите API-ключ и укажите ID каталога. Поиск оплачивается с вашего счёта Yandex Cloud (копейки за запрос). Ключ хранится только на этом устройстве.", press: "пресс-показ · по аккредитации", pressChip: "Пресс-показы", source: "Источник", share: "Поделиться", more: "Показать ещё",
       liveBadge: "идёт", newBadge: "новое", until: "до", fromTg: "из Telegram",
       favIcs: "Всё избранное в календарь", copied: "Ссылка скопирована", saved: "Добавлено в избранное", removed: "Убрано из избранного",
       updated: "Обновлено", events: "событий",
@@ -49,7 +49,7 @@
       search: "Search: artist, venue, composer…",
       soon: "Coming up", live: "On now", liveSub: "by closing date", tba: "Date TBA", nothing: "Nothing found — try clearing filters.",
       favEmpty: "Nothing yet. Tap ☆ on a card to save an event.",
-      addCal: "+ Add to calendar", findMore: "🔎 Find more", mineBadge: "my find", myTitle: "Personal search", myLead: "The robot searches the web for events in your city using your own free Google Gemini quota. Only you see the results.", myKey: "Gemini API key", myKeyHelp: "Get a free key at aistudio.google.com/apikey (sign in with your Google account) and paste it here. The key stays on this device only.", mySave: "Save key", myTopic: "What to look for (optional): e.g. “sound art” or “photography shows”", myRun: "Search", myBusy: "Searching… 20–60 seconds", myFound: "New events found:", myNone: "Nothing new — try another query.", myErr: "Search error:", myForget: "Delete key", myClear: "Clear my finds", myWhere: "Searching in:", myYaHelp: "Yandex search needs a Yandex Cloud account with Search API and YandexGPT enabled: create a service account with roles search-api.webSearch.user and ai.languageModels.user, issue an API key and enter the folder ID. Billed to your Yandex Cloud account. The key stays on this device.", press: "press screening · accreditation", pressChip: "Press screenings", source: "Source", share: "Share", more: "Show more",
+      addCal: "+ Add to calendar", calWhich: "Which calendar do you use?", calApple: "Apple Calendar (iPhone, Mac)", calGoogle: "Google Calendar", calHint: "I'll remember your choice. Change it in the Subscriptions tab.", calNow: "“Add to calendar” goes to:", calChange: "Change", findMore: "🔎 Find more", mineBadge: "my find", myTitle: "Personal search", myLead: "The robot searches the web for events in your city using your own free Google Gemini quota. Only you see the results.", myKey: "Gemini API key", myKeyHelp: "Get a free key at aistudio.google.com/apikey (sign in with your Google account) and paste it here. The key stays on this device only.", mySave: "Save key", myTopic: "What to look for (optional): e.g. “sound art” or “photography shows”", myRun: "Search", myBusy: "Searching… 20–60 seconds", myFound: "New events found:", myNone: "Nothing new — try another query.", myErr: "Search error:", myForget: "Delete key", myClear: "Clear my finds", myWhere: "Searching in:", myYaHelp: "Yandex search needs a Yandex Cloud account with Search API and YandexGPT enabled: create a service account with roles search-api.webSearch.user and ai.languageModels.user, issue an API key and enter the folder ID. Billed to your Yandex Cloud account. The key stays on this device.", press: "press screening · accreditation", pressChip: "Press screenings", source: "Source", share: "Share", more: "Show more",
       liveBadge: "on now", newBadge: "new", until: "until", fromTg: "via Telegram",
       favIcs: "Add all saved to calendar", copied: "Link copied", saved: "Saved", removed: "Removed",
       updated: "Updated", events: "events",
@@ -173,9 +173,42 @@
   function calButtons(e) {
     if (!e.ics) return `<span class="btn" aria-disabled="true">${t("tba")}</span>`;
     // Одна кнопка: на iPhone/Mac — файл .ics (сразу открывается Календарь), на остальных — Google Календарь
-    const href = APPLE ? e.ics : e.gcal;
-    const ext = APPLE ? "" : ' target="_blank" rel="noopener"';
-    return `<a class="btn primary" href="${esc(href)}"${ext} title="${esc(e.calSummary || "")}" data-cal>${t("addCal")}</a>`;
+    return `<button class="btn primary" type="button" title="${esc(e.calSummary || "")}" data-cal>${t("addCal")}</button>`;
+  }
+  // Добавление в календарь: первый раз спрашиваем, какой календарь, дальше — в одно касание.
+  function openExternal(url) {
+    const TGW = window.Telegram && window.Telegram.WebApp;
+    if (IN_TG && TGW && TGW.openLink && /^https?:/.test(url)) { TGW.openLink(url); return; }   // из Telegram — во внешний браузер
+    const w = window.open(url, "_blank");
+    if (w) { try { w.opener = null; } catch (_) {} } else location.href = url;   // всплывающее окно заблокировано — открываем здесь
+  }
+  function addToCal(e, kind) {
+    if (kind === "google" || !e.ics) return openExternal(e.gcal);
+    if (/^data:/.test(e.ics)) {            // личная находка: файл собран в браузере
+      if (IN_TG) return openExternal(e.gcal);
+      const a = document.createElement("a"); a.href = e.ics; a.download = "event.ics"; document.body.appendChild(a); a.click(); a.remove(); return;
+    }
+    const abs = new URL(e.ics, location.href).href;
+    if (IN_TG) return openExternal(abs);   // Safari откроет файл и предложит «Добавить в Календарь»
+    location.href = abs;
+  }
+  function calChoice(e, force) {
+    const saved = store.get("cal", "");
+    if (saved && !force) return addToCal(e, saved);
+    let box = $("#calSheet");
+    if (!box) { box = document.createElement("div"); box.id = "calSheet"; box.className = "sheet"; document.body.appendChild(box); }
+    box.innerHTML = `<div class="sheet-in"><h3>${esc(t("calWhich"))}</h3>
+      <button class="pitem" data-k="apple"><span> ${esc(t("calApple"))}</span></button>
+      <button class="pitem" data-k="google"><span>${esc(t("calGoogle"))}</span></button>
+      <p class="hint">${esc(t("calHint"))}</p></div>`;
+    box.hidden = false;
+    box.onclick = (ev) => {
+      const b = ev.target.closest("[data-k]");
+      box.hidden = true;
+      if (!b) return;
+      store.set("cal", b.dataset.k); render();
+      if (e) addToCal(e, b.dataset.k);
+    };
   }
   function card(e) {
     const c = t("cats")[e.cat] || e.cat, fav = S.fav.has(e.id);
@@ -424,6 +457,10 @@
     };
     const order = (f) => (f.endsWith("-all") ? 0 : f.includes("-picks") ? 1 : f.includes("-cat-") ? 2 : 3);
     const list = feeds.slice().sort((a, b) => (a.startsWith("world") - b.startsWith("world")) || order(a) - order(b) || a.localeCompare(b));
+    let cp = $("#calPref");
+    if (!cp) { cp = document.createElement("p"); cp.id = "calPref"; cp.className = "hint"; $("#subsGrid").before(cp); cp.onclick = (ev) => { if (ev.target.closest("button")) calChoice(null, true); }; }
+    const ck = store.get("cal", "");
+    cp.innerHTML = `${esc(t("calNow"))} <b>${esc(ck === "apple" ? t("calApple") : ck === "google" ? t("calGoogle") : "—")}</b> <button class="btn" type="button">${esc(t("calChange"))}</button>`;
     $("#subsGrid").innerHTML = list.map((f) => {
       const [r, n] = nameFor(f); const https = feedUrl("cal/" + f + ".ics"); const webcal = https.replace(/^https?:/, "webcal:");
       return `<div class="sub"><span class="tag muted">${esc(r)}</span><b>${esc(n)}</b><div class="row">
@@ -474,6 +511,11 @@
     const root = ev.target.closest("[data-id]") || (ev.target.closest("#modal") && $("#modal"));
     const id = root && root.dataset.id;
     if (!id) return;
+    if (ev.target.closest("[data-cal]")) {
+      const e = S.data.events.find((x) => x.id === id);
+      if (e) calChoice(e);
+      return;
+    }
     if (ev.target.closest("[data-fav]")) return toggleFav(id);
     if (ev.target.closest("[data-share]")) return share(S.data.events.find((x) => x.id === id));
     if (ev.target.closest("[data-open]")) return openModal(id);
