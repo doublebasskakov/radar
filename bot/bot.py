@@ -152,9 +152,17 @@ def city_keyboard(events):
 def poll():
     state = json.loads(STATE.read_text()) if STATE.exists() else {"offset": 0}
     upd = tg("getUpdates", offset=state["offset"], timeout=0, allowed_updates=["message", "callback_query"]) or []
-    if not upd:
+    if not upd and state.get("menu"):
         return
     subs, events, changed = load_subs(), load_events(), False
+    if SITE != "/" and not state.get("menu"):
+        # кнопка «Радар» слева от поля ввода — открывает мини-приложение
+        if tg("setChatMenuButton", menu_button={"type": "web_app", "text": "Радар", "web_app": {"url": SITE + "?tg=1"}}):
+            state["menu"] = True
+        tg("setMyCommands", commands=[{"command": "start", "description": "Открыть Радар"},
+                                      {"command": "city", "description": "Город для дайджеста"},
+                                      {"command": "week", "description": "Дайджест сейчас"},
+                                      {"command": "stop", "description": "Отписаться"}])
     for u in upd:
         state["offset"] = u["update_id"] + 1
         if "callback_query" in u:
@@ -177,7 +185,15 @@ def poll():
         chat, text = str(m.get("chat", {}).get("id", "")), (m.get("text") or "").strip()
         if not chat:
             continue
-        if text.startswith("/start") or text.startswith("/city"):
+        if text.startswith("/start suggest") or text.startswith("/suggest"):
+            body = text.split(" ", 1)[1] if text.startswith("/suggest ") else ""
+            if body and OWNER:
+                who = m.get("from", {}).get("username") or m.get("from", {}).get("first_name", "")
+                tg("sendMessage", chat_id=OWNER, text=f"Предложение от {who}:\n{body}")
+                tg("sendMessage", chat_id=chat, text="Спасибо! Передал редакции.")
+            else:
+                tg("sendMessage", chat_id=chat, text="Пришлите одним сообщением: /suggest и ссылку на событие или канал (и пару слов о нём).")
+        elif text.startswith("/start") or text.startswith("/city"):
             if SITE != "/":
                 tg("sendMessage", chat_id=chat, text="Привет! Это «Радар» — афиша современного искусства: новая музыка, медиа-арт, выставки, кино, перформанс и театр.\n\nОткройте приложение — выберите город и листайте события:",
                    reply_markup={"inline_keyboard": [[{"text": "📍 Открыть Радар", "web_app": {"url": SITE + "?tg=1"}}]]})

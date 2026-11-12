@@ -21,7 +21,7 @@
       search: "Поиск: художник, площадка, композитор…",
       soon: "Ближайшие", live: "Уже идут", liveSub: "по дате закрытия", tba: "Дата уточняется", nothing: "Ничего не нашлось — попробуйте снять фильтры.",
       favEmpty: "Пока пусто. Нажмите ☆ на карточке, чтобы сохранить событие.",
-      addCal: "+ В календарь", findMore: "🔎 Найти больше", mineBadge: "моя находка", myTitle: "Личный поиск", myLead: "Робот ищет события в интернете по вашему городу — за счёт вашей бесплатной квоты Google Gemini. Находки видите только вы.", myKey: "Ключ Gemini API", myKeyHelp: "Получите бесплатный ключ на aistudio.google.com/apikey (войдите своим Google-аккаунтом, из России — с VPN) и вставьте сюда. Ключ хранится только на этом устройстве.", mySave: "Сохранить ключ", myTopic: "Что ищем (необязательно): например, «саунд-арт» или «выставки фотографии»", myRun: "Искать", myBusy: "Ищу… это займёт 20–60 секунд", myFound: "Найдено новых:", myNone: "Ничего нового не нашлось — попробуйте другой запрос.", myErr: "Ошибка поиска:", myForget: "Удалить ключ", myClear: "Очистить мои находки", myWhere: "Где ищем:", press: "пресс-показ · по аккредитации", pressChip: "Пресс-показы", source: "Источник", share: "Поделиться", more: "Показать ещё",
+      addCal: "+ В календарь", findMore: "🔎 Найти больше", mineBadge: "моя находка", myTitle: "Личный поиск", myLead: "Робот ищет события в интернете по вашему городу — за счёт вашей бесплатной квоты Google Gemini. Находки видите только вы.", myKey: "Ключ Gemini API", myKeyHelp: "Получите бесплатный ключ на aistudio.google.com/apikey — войдите своим Google-аккаунтом (из России сервис открывается только с VPN, и поиск тоже работает только с VPN) — и вставьте сюда. Ключ хранится только на этом устройстве.", mySave: "Сохранить ключ", myTopic: "Что ищем (необязательно): например, «саунд-арт» или «выставки фотографии»", myRun: "Искать", myBusy: "Ищу… это займёт 20–60 секунд", myFound: "Найдено новых:", myNone: "Ничего нового не нашлось — попробуйте другой запрос.", myErr: "Ошибка поиска:", myForget: "Удалить ключ", myClear: "Очистить мои находки", myWhere: "Где ищем:", myYaHelp: "Для поиска через Яндекс нужен аккаунт Yandex Cloud с подключённым Search API и YandexGPT: создайте сервисный аккаунт с ролями search-api.webSearch.user и ai.languageModels.user, выпустите API-ключ и укажите ID каталога. Поиск оплачивается с вашего счёта Yandex Cloud (копейки за запрос). Ключ хранится только на этом устройстве.", press: "пресс-показ · по аккредитации", pressChip: "Пресс-показы", source: "Источник", share: "Поделиться", more: "Показать ещё",
       liveBadge: "идёт", newBadge: "новое", until: "до", fromTg: "из Telegram",
       favIcs: "Всё избранное в календарь", copied: "Ссылка скопирована", saved: "Добавлено в избранное", removed: "Убрано из избранного",
       updated: "Обновлено", events: "событий",
@@ -49,7 +49,7 @@
       search: "Search: artist, venue, composer…",
       soon: "Coming up", live: "On now", liveSub: "by closing date", tba: "Date TBA", nothing: "Nothing found — try clearing filters.",
       favEmpty: "Nothing yet. Tap ☆ on a card to save an event.",
-      addCal: "+ Add to calendar", findMore: "🔎 Find more", mineBadge: "my find", myTitle: "Personal search", myLead: "The robot searches the web for events in your city using your own free Google Gemini quota. Only you see the results.", myKey: "Gemini API key", myKeyHelp: "Get a free key at aistudio.google.com/apikey (sign in with your Google account) and paste it here. The key stays on this device only.", mySave: "Save key", myTopic: "What to look for (optional): e.g. “sound art” or “photography shows”", myRun: "Search", myBusy: "Searching… 20–60 seconds", myFound: "New events found:", myNone: "Nothing new — try another query.", myErr: "Search error:", myForget: "Delete key", myClear: "Clear my finds", myWhere: "Searching in:", press: "press screening · accreditation", pressChip: "Press screenings", source: "Source", share: "Share", more: "Show more",
+      addCal: "+ Add to calendar", findMore: "🔎 Find more", mineBadge: "my find", myTitle: "Personal search", myLead: "The robot searches the web for events in your city using your own free Google Gemini quota. Only you see the results.", myKey: "Gemini API key", myKeyHelp: "Get a free key at aistudio.google.com/apikey (sign in with your Google account) and paste it here. The key stays on this device only.", mySave: "Save key", myTopic: "What to look for (optional): e.g. “sound art” or “photography shows”", myRun: "Search", myBusy: "Searching… 20–60 seconds", myFound: "New events found:", myNone: "Nothing new — try another query.", myErr: "Search error:", myForget: "Delete key", myClear: "Clear my finds", myWhere: "Searching in:", myYaHelp: "Yandex search needs a Yandex Cloud account with Search API and YandexGPT enabled: create a service account with roles search-api.webSearch.user and ai.languageModels.user, issue an API key and enter the folder ID. Billed to your Yandex Cloud account. The key stays on this device.", press: "press screening · accreditation", pressChip: "Press screenings", source: "Source", share: "Share", more: "Show more",
       liveBadge: "on now", newBadge: "new", until: "until", fromTg: "via Telegram",
       favIcs: "Add all saved to calendar", copied: "Link copied", saved: "Saved", removed: "Removed",
       updated: "Updated", events: "events",
@@ -309,23 +309,42 @@
 
 
   // ------------------------------------------------------------ личный поиск (ключ пользователя)
-  function openMySearch() {
-    const key = store.get("gemini", "");
+  function myCreds() { return store.get("myCreds", null) || (store.get("gemini", "") ? { prov: "gemini", key: store.get("gemini", "") } : null); }
+  function openMySearch(prov) {
+    const cr = myCreds();
     const cur = S.place[S.tab];
     const where = cur === "all" ? (S.tab === "world" ? t("allCountries") : t("allPlaces")) : cur;
-    $("#modalBody").innerHTML = `<div class="body picker"><h3 class="title">${t("myTitle")}</h3><p class="muted">${t("myLead")}</p>
-      ${key ? `<p><b>${t("myWhere")}</b> ${esc(where)}${S.tab === "world" ? "" : ", Россия"}</p>
+    const yandexOn = !!CFG.proxy;
+    prov = prov || "gemini";
+    let form;
+    if (cr) {
+      form = `<p><b>${t("myWhere")}</b> ${esc(where)}${S.tab === "world" ? "" : ", Россия"} · <span class="muted">${cr.prov === "yandex" ? "Яндекс" : "Gemini"}</span></p>
         <input type="search" id="myTopic" placeholder="${esc(t("myTopic"))}">
         <div class="actions"><button class="btn primary" id="myRun">${t("myRun")}</button><button class="btn" id="myForget">${t("myForget")}</button><button class="btn" id="myClear">${t("myClear")}</button></div>
-        <div id="myOut" class="muted" style="margin-top:10px"></div>`
-      : `<label class="muted">${t("myKeyHelp")}</label><input type="password" id="myKey" placeholder="${esc(t("myKey"))}" autocomplete="off">
-        <div class="actions"><a class="btn" href="https://aistudio.google.com/apikey" target="_blank" rel="noopener">aistudio.google.com ↗</a><button class="btn primary" id="mySave">${t("mySave")}</button></div>`}
-      </div>`;
+        <div id="myOut" class="muted" style="margin-top:10px"></div>`;
+    } else {
+      const tabs = yandexOn ? `<div class="chips" style="margin:6px 0 10px"><button class="chip${prov === "gemini" ? " on" : ""}" data-prov="gemini">Google Gemini</button><button class="chip${prov === "yandex" ? " on" : ""}" data-prov="yandex">Яндекс (без VPN)</button></div>` : "";
+      form = tabs + (prov === "yandex"
+        ? `<label class="muted">${t("myYaHelp")}</label><input type="password" id="myKey" placeholder="API-ключ Yandex Cloud" autocomplete="off"><input type="text" id="myFolder" placeholder="ID каталога (folder ID)" autocomplete="off">
+           <div class="actions"><a class="btn" href="https://yandex.cloud/ru/docs/search-api/quickstart/" target="_blank" rel="noopener">Инструкция ↗</a><button class="btn primary" id="mySave">${t("mySave")}</button></div>`
+        : `<label class="muted">${t("myKeyHelp")}</label><input type="password" id="myKey" placeholder="${esc(t("myKey"))}" autocomplete="off">
+           <div class="actions"><a class="btn" href="https://aistudio.google.com/apikey" target="_blank" rel="noopener">aistudio.google.com ↗</a><button class="btn primary" id="mySave">${t("mySave")}</button></div>`);
+    }
+    $("#modalBody").innerHTML = `<div class="body picker"><h3 class="title">${t("myTitle")}</h3><p class="muted">${t("myLead")}</p>${form}</div>`;
     $("#modal").hidden = false; $("#modal").dataset.id = "";
-    if (!key) { $("#mySave").onclick = () => { const v = $("#myKey").value.trim(); if (v) { store.set("gemini", v); openMySearch(); } }; return; }
-    $("#myForget").onclick = () => { store.set("gemini", ""); openMySearch(); };
+    if (!cr) {
+      document.querySelectorAll("[data-prov]").forEach((b) => (b.onclick = () => openMySearch(b.dataset.prov)));
+      $("#mySave").onclick = () => {
+        const key = $("#myKey").value.trim(); if (!key) return;
+        if (prov === "yandex") { const folder = $("#myFolder").value.trim(); if (!folder) return; store.set("myCreds", { prov, key, folder }); }
+        else store.set("myCreds", { prov: "gemini", key });
+        openMySearch();
+      };
+      return;
+    }
+    $("#myForget").onclick = () => { store.set("myCreds", null); store.set("gemini", ""); openMySearch(); };
     $("#myClear").onclick = () => { store.set("mine", []); S.data.events = S.data.events.filter((e) => !e.mine); render(); toast("OK"); };
-    $("#myRun").onclick = () => runMySearch(key, cur, $("#myTopic").value.trim());
+    $("#myRun").onclick = () => runMySearch(cr, cur, $("#myTopic").value.trim());
   }
   async function geminiModel(key) {
     const cached = store.get("geminiModel", ""); if (cached) return cached;
@@ -336,7 +355,7 @@
       const m = names[0] || "gemini-flash-latest"; store.set("geminiModel", m); return m;
     } catch (_) { return "gemini-flash-latest"; }
   }
-  async function runMySearch(key, place, topic) {
+  async function runMySearch(cr, place, topic) {
     const out = $("#myOut"); out.textContent = t("myBusy"); $("#myRun").disabled = true;
     const today = new Date(TODAY).toISOString().slice(0, 10);
     const region = S.tab === "world" ? (place === "all" ? "в мире (вне России)" : `в стране/городе: ${place}`) : (place === "all" ? "в городах России" : `в городе ${place} (Россия)`);
@@ -344,14 +363,25 @@
     const prompt = `Сегодня ${today}. Найди в интернете (сайты площадок, афиши, Telegram-каналы) будущие события современного искусства ${region} на ближайшие 2 месяца${topic ? `, тема: ${topic}` : ""}: новая и экспериментальная музыка, саунд-арт, медиа- и цифровое искусство, выставки современного искусства, перформанс, современный театр и танец, артхаус-кино и кинофестивали, ярмарки, биеннале. Не включай уже известные: ${known}.
 Верни ТОЛЬКО JSON-массив до 15 элементов: [{"title":"","who":"","cat":"music|media|gallery|performance|fair|theatre|cinema|biennial","city":"город по-русски","country":"страна по-русски","venue":"","address":"","start":"YYYY-MM-DD","end":"YYYY-MM-DD или null","time":"HH:MM или null","desc":"1–2 предложения своими словами","src":"URL источника"}]. Только события с подтверждённой датой и местом.`;
     try {
-      const model = await geminiModel(key);
-      const r = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${encodeURIComponent(key)}`, {
-        method: "POST", headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ contents: [{ role: "user", parts: [{ text: prompt }] }], tools: [{ google_search: {} }] }),
-      });
-      const j = await r.json();
-      if (!r.ok) throw new Error((j.error && j.error.message) || r.status);
-      const text = (j.candidates?.[0]?.content?.parts || []).map((p) => p.text || "").join("");
+      let text;
+      if (cr.prov === "yandex") {
+        const where = place === "all" ? (S.tab === "world" ? "" : "Россия") : place;
+        const theme = topic || "современное искусство";
+        const queries = [`${theme} ${where} выставка афиша`, `концерт новой музыки ${where}`, `${where} медиаискусство перформанс афиша`, `артхаус кинопоказ ${where}`];
+        const r = await fetch(CFG.proxy.replace(/\/$/, "") + "/search", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ apiKey: cr.key, folderId: cr.folder, queries, prompt }) });
+        const j = await r.json(); if (!r.ok || j.error) throw new Error(j.error || r.status);
+        text = j.text;
+      } else {
+        const key = cr.key;
+        const model = await geminiModel(key);
+        const r = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${encodeURIComponent(key)}`, {
+          method: "POST", headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ contents: [{ role: "user", parts: [{ text: prompt }] }], tools: [{ google_search: {} }] }),
+        });
+        const j = await r.json();
+        if (!r.ok) throw new Error((j.error && j.error.message) || r.status);
+        text = (j.candidates?.[0]?.content?.parts || []).map((p) => p.text || "").join("");
+      }
       const arr = JSON.parse((text.match(/\[[\s\S]*\]/) || ["[]"])[0]);
       const have = new Set(S.data.events.map((e) => (e.title || "").toLowerCase().replace(/[^a-zа-я0-9]/g, "")));
       const fresh = arr.filter((e) => e && e.title && e.start && /^\d{4}-\d{2}-\d{2}$/.test(e.start) && (D(e.end) || D(e.start)) >= TODAY && !have.has(e.title.toLowerCase().replace(/[^a-zа-я0-9]/g, "")))
