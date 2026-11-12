@@ -257,7 +257,7 @@ def gemini(prompt):
         if r.status_code == 429:
             body = r.text
             per_minute = "PerMinute" in body or "per minute" in body.lower()
-            if per_minute and waits < 3:      # минутный лимит — подождать
+            if per_minute and waits < 3 and time.time() < LLM_DEADLINE:      # минутный лимит — подождать
                 waits += 1; time.sleep(35 * waits); continue
             if _gemini_next(key, f"{GEMINI_MODEL}: нет квоты"):   # дневной лимит или 0 — другая модель
                 waits = 0; continue
@@ -307,18 +307,28 @@ def call_llm(prompt):
     return json.loads(m.group(0)) if m else []
 
 
-def extract(items, region):
+LLM_DEADLINE = time.time() + int(os.environ.get("AFISHA_LLM_MINUTES", "30")) * 60
+
+
+def extract(items, region, done=None):
+    """done — множество ключей фрагментов, которые модель действительно разобрала."""
     events = []
     batch, size = [], 0
     def flush():
         nonlocal batch, size
         if not batch:
             return
+        if time.time() > LLM_DEADLINE:
+            log("  ! лимит времени на модель — остаток разберу в следующий запуск")
+            batch, size = [], 0
+            return
         chunks = "\n\n".join(f"### [{i}] {it['srcName']} · {it.get('date') or ''} · {it['url']}\n{it['text']}"
                              for i, it in enumerate(batch))
         hint = "Россия" if region == "ru" else "весь мир (кроме России)"
         try:
             res = call_llm(PROMPT.format(today=TODAY.isoformat(), region_hint=hint, chunks=chunks))
+            if done is not None:
+                done.update(it["key"] for it in batch)
         except Exception as e:
             log("  ! LLM:", e)
             res = []
@@ -423,12 +433,13 @@ def collect():
     for region, items in pool.items():
         items = items[:MAX_POSTS_PER_RUN]
         log(f"→ {region}: {len(items)} фрагментов на разбор")
-        found = extract(items, region)
+        done = set()
+        found = extract(items, region, done)
         n = merge(master, found)
         total += n
-        log(f"→ {region}: найдено {len(found)}, новых {n}")
+        log(f"→ {region}: разобрано {len(done)} из {len(items)}, найдено {len(found)}, новых {n}")
         for it in items:
-            if not it.get("long"):
+            if it["key"] in done and not it.get("long"):
                 seen.add(it["key"])
     cand = state.setdefault("candidates", {})
     rejected = set(x.lower() for x in state.setdefault("rejected", []))
