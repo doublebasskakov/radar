@@ -218,7 +218,7 @@
     const counts = {};
     evs.forEach((e) => { const k = e[key]; if (k) counts[k] = (counts[k] || 0) + 1; });
     let places = Object.entries(counts).sort((a, b) => b[1] - a[1]);
-    if (S.tab === "ru") places.sort((a, b) => (a[0] === "Москва" ? -1 : b[0] === "Москва" ? 1 : b[1] - a[1]));
+    if (S.tab === "ru") places.sort((a, b) => (a[0] === "Москва" ? -1 : b[0] === "Москва" ? 1 : a[0] === "Онлайн" ? 1 : b[0] === "Онлайн" ? -1 : b[1] - a[1]));
     const labelOf = (name) => { if (S.lang !== "en") return name; const e = evs.find((x) => x[key] === name); return (e && e[key + "_en"]) || name; };
     const cur = S.place[S.tab];
     const top = places.slice(0, 5);
