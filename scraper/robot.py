@@ -31,7 +31,7 @@ SITE = ROOT / "site"
 EVENTS_FILE = DATA / "events.json"
 STATE_FILE = DATA / "state.json"
 UA = {"User-Agent": "Mozilla/5.0 (compatible; AfishaArtBot/1.0; +https://github.com)"}
-MODEL = os.environ.get("AFISHA_MODEL", "claude-haiku-5-5")
+MODEL = os.environ.get("AFISHA_MODEL") or "claude-haiku-5-5"   # пустая переменная — модель по умолчанию
 TODAY = dt.date.fromisoformat(os.environ["AFISHA_TODAY"]) if os.environ.get("AFISHA_TODAY") else \
     dt.datetime.now(ZoneInfo("Europe/Moscow")).date()
 CATS = ["music", "media", "gallery", "performance", "fair", "theatre", "biennial", "cinema", "lecture"]
