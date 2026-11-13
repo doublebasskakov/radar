@@ -1,0 +1,48 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Радар — Мир / World · cat-club
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:sonar-2027@afisha-art
+DTSTAMP:20261113T173810Z
+DTSTART;VALUE=DATE:20270617
+DTEND;VALUE=DATE:20270620
+SUMMARY:Sónar 2027
+LOCATION:Sónar by Day (набережная) и Sónar by Night (Fira Gr
+ an Via)\, Барселона\, Испания
+DESCRIPTION:Барселонский фестиваль продвину
+ той музыки и цифровой культуры возвраща
+ ется к формату «день/ночь»\; конференция
+  Sónar+D снова входит в дневную программу.\n
+ \nhttps://sonar.es/en/news/preventa-2027
+URL:https://sonar.es/en/news/preventa-2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sónar 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:berlin-atonal-2027@afisha-art
+DTSTAMP:20261113T173810Z
+DTSTART;VALUE=DATE:20270825
+DTEND;VALUE=DATE:20270830
+SUMMARY:Berlin Atonal 2027
+LOCATION:Kraftwerk Berlin\, Köpenicker Str. 70\, 10179 Berlin\, Берл
+ ин\, Германия
+DESCRIPTION:Фестиваль экспериментальной муз
+ ыки и аудиовизуальных перформансов в ги
+ гантском зале бывшей электростанции Kraft
+ werk.\n\nhttps://www.festivalfinder.eu/festivals/berlin-atonal-2027
+URL:https://www.festivalfinder.eu/festivals/berlin-atonal-2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Berlin Atonal 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

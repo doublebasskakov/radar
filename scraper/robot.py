@@ -70,7 +70,14 @@ _CLUB = re.compile(r"\b(dj|диджей|ди-джей|b2b|рейв|rave|техн
                    r"drum.?n.?bass|dnb|бас-музык|afterparty|афтепати|open air)", re.I)
 
 
+_CLUB_NAMES = re.compile(r"sónar|sonar 20|berlin atonal|dekmantel|awakenings|dimensions festival|"
+                         r"\brndm\b|зангези|\bритмы\b|monasterio|mutabor|мутабор|\bdex\b|powerhouse|gazgolder|"
+                         r"diskonoir|disko|дискотек|техно-|techno", re.I)
+
+
 def is_club(ev):
+    if _CLUB_NAMES.search(" ".join(str(ev.get(k) or "") for k in ("title", "venue", "who"))):
+        return True
     if re.search(r"ambient|эмбиент|festival|фестиваль|лаборатор|лекци|книжн", ev.get("title") or "", re.I):
         return False
     txt = " ".join(str(ev.get(k) or "") for k in ("title", "title_en", "who", "venue"))
@@ -295,7 +302,7 @@ PROMPT = """Ты — редактор афиши современного иск
 ЛЕКЦИИ об искусстве, музыке, кино и культуре, кураторские и авторские экскурсии, артист-токи, дискуссии (cat "lecture");
 ОНЛАЙН-лекции и трансляции тоже включай: city "Онлайн", city_en "Online", country "Онлайн", venue — платформа, tz "Europe/Moscow".
 НЕ включай: многонедельные платные курсы, open call, конкурсы, вакансии, распродажи, классику без современной составляющей,
-детские шоу, мюзиклы, поп-концерты, дискотеки с поп-музыкой и коммерческие вечеринки без DJ-лайнапа, новости без даты, события в прошлом.
+детские шоу, мюзиклы, поп-, рок-, джаз-, блюз- и эстрадные концерты, премии и церемонии награждения, дискотеки с поп-музыкой и коммерческие вечеринки без DJ-лайнапа, новости без даты, события в прошлом.
 Регион по умолчанию: {region_hint}.
 
 Правила:
