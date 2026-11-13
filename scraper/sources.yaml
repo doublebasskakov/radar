@@ -250,7 +250,32 @@ telegram:
   - {u: muzlifemagazine, region: ru}
   - {u: rbcstyle, region: ru}
 
+  # --- консерватории ---
+  - {u: mosconsv, region: ru, city: Москва}
+  - {u: gnesinacademy, region: ru, city: Москва}
+  - {u: gnesinafisha, region: ru, city: Москва}
+  - {u: altrocoro, region: ru, city: Москва}
+  - {u: kazancons, region: ru, city: Казань}
+  - {u: nsglinka, region: ru, city: Новосибирск}
+  - {u: rostcons, region: ru, city: Ростов-на-Дону}
+  - {u: saratovcons, region: ru, city: Саратов}
+  - {u: ufaart, region: ru, city: Уфа}
+
 pages:
+  # --- консерватории: модель отберёт новую музыку, электроакустику, премьеры ---
+  - {url: "https://www.conservatory.ru/concerts", region: ru, city: Санкт-Петербург}
+  - {url: "https://www.conservatory.ru/events", region: ru, city: Санкт-Петербург}
+  - {url: "https://gnesin-academy.ru/", region: ru, city: Москва}
+  - {url: "https://kazancons.ru/", region: ru, city: Казань}
+  - {url: "https://uralconsv.org/", region: ru, city: Екатеринбург}
+  - {url: "https://www.nsglinka.ru/", region: ru, city: Новосибирск}
+  - {url: "https://nnovcons.ru/", region: ru, city: Нижний Новгород}
+  - {url: "https://rostcons.ru/", region: ru, city: Ростов-на-Дону}
+  - {url: "https://sarcons.ru/", region: ru, city: Саратов}
+  - {url: "https://glazunovcons.ru/", region: ru, city: Петрозаводск}
+  - {url: "https://ufaart.ru/", region: ru, city: Уфа}
+  - {url: "https://dvgii.ru/", region: ru, city: Владивосток}
+  - {url: "https://kgii.ru/", region: ru, city: Красноярск}
   # --- РБК Стиль: раздел «Впечатления» (выставки, театр, концерты) ---
   - {url: "https://style.rbc.ru/impressions", region: ru}
   # --- Тон-центр ---
