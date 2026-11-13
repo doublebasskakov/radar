@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:preview-tour-of-the-catalog-art-fair-moscow@afisha-art
+DTSTAMP:20261113T172638Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Экскурсия-превью по ярмарке |catalog|
+LOCATION:ЖК «Золотой» (вход со стороны Болот
+ ной площади)\, Москва\, Софийская набереж
+ ная\, 10\, Москва
+DESCRIPTION:Закрытая экскурсия по шестому вы
+ пуску ярмарки |catalog| за день до открытия 
+ для широкой публики. Время в источнике н
+ е указано.\nКоммерсантъ Клуб\nhttps://club.kommers
+ ant.ru/events/19-11-2026-ekskursiya-prevyu-po-yarmarke-catalog/
+URL:https://doublebasskakov.github.io/radar/#e=preview-tour-of-the-catalo
+ g-art-fair-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Экскурсия-превью по ярмарке |catalog|
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

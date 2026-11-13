@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:ina-grm-pre-sences-electronic-1-paris@afisha-art
-DTSTAMP:20261113T154436Z
+DTSTAMP:20261113T172638Z
 DTSTART:20270219T193000Z
 DTEND:20270219T213000Z
 SUMMARY:INA grm / PRÉSENCES électronique #1
@@ -30,7 +30,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ina-grm-pre-sences-electronic-2-paris@afisha-art
-DTSTAMP:20261113T154436Z
+DTSTAMP:20261113T172638Z
 DTSTART:20270220T193000Z
 DTEND:20270220T213000Z
 SUMMARY:INA grm / PRÉSENCES électronique #2
@@ -52,7 +52,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ina-grm-pre-sences-electronic-3-paris@afisha-art
-DTSTAMP:20261113T154436Z
+DTSTAMP:20261113T172638Z
 DTSTART:20270221T170000Z
 DTEND:20270221T190000Z
 SUMMARY:INA grm / PRÉSENCES électronique #3
@@ -73,7 +73,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:burning-song-berlin@afisha-art
-DTSTAMP:20261113T154436Z
+DTSTAMP:20261113T172638Z
 DTSTART:20270125T190000Z
 DTEND:20270125T210000Z
 SUMMARY:Burning Song
@@ -90,7 +90,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:grm-bozar-acousmonium-2027@afisha-art
-DTSTAMP:20261113T154436Z
+DTSTAMP:20261113T172638Z
 DTSTART:20270127T183000Z
 DTEND:20270127T203000Z
 SUMMARY:INA GRM: Акусмониум в Bozar
@@ -109,7 +109,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ircam-klangforum-saint-eustache@afisha-art
-DTSTAMP:20261113T154436Z
+DTSTAMP:20261113T172638Z
 DTSTART:20261130T190000Z
 DTEND:20261130T210000Z
 SUMMARY:Klangforum Wien × IRCAM
@@ -128,7 +128,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ircam-explosante-fixe-2027@afisha-art
-DTSTAMP:20261113T154436Z
+DTSTAMP:20261113T172638Z
 DTSTART:20270113T190000Z
 DTEND:20270113T210000Z
 SUMMARY:Булез: «…explosante-fixe…»
@@ -147,7 +147,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:flor-do-ibo-today-s-special-berlin@afisha-art
-DTSTAMP:20261113T154436Z
+DTSTAMP:20261113T172638Z
 DTSTART:20270122T170000Z
 DTEND:20270122T190000Z
 SUMMARY:Flor Do Ibo / Today's Special
@@ -165,7 +165,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:polygonia-simon-popp-and-more-berlin@afisha-art
-DTSTAMP:20261113T154436Z
+DTSTAMP:20261113T172638Z
 DTSTART:20270122T190000Z
 DTEND:20270122T210000Z
 SUMMARY:Polygonia\, Simon Popp и другие
@@ -184,7 +184,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:the-dream-has-still-not-whispered-what-to-make-of-these-mort-berlin@a
  fisha-art
-DTSTAMP:20261113T154436Z
+DTSTAMP:20261113T172638Z
 DTSTART:20270123T190000Z
 DTEND:20270123T210000Z
 SUMMARY:The Dream Has Still Not Whispered / What To Make Of These Mortal 
@@ -204,7 +204,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cantadoras-iii-berlin@afisha-art
-DTSTAMP:20261113T154436Z
+DTSTAMP:20261113T172638Z
 DTSTART:20270123T190000Z
 DTEND:20270123T210000Z
 SUMMARY:Cantadoras III
@@ -221,8 +221,195 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:ina-grm-acousmonium-brussels@afisha-art
+DTSTAMP:20261113T172638Z
+DTSTART:20270127T183000Z
+DTEND:20270127T203000Z
+SUMMARY:Ina GRM – Acousmonium
+LOCATION:Bozar\, Hall M\, Rue Ravenstein 23\, 1000 Brussels\, Брюсс
+ ель\, Бельгия
+DESCRIPTION:Концерт на 80-динамиковом оркестр
+ е Acousmonium: произведения Парменджани\, Ксе
+ накиса и Варезе соседствуют с современн
+ ыми композициями. Перед концертом в 18:45 
+ в студии проходит вводная встреча с Klaas C
+ oulembier (на французском и нидерландском).\nI
+ na GRM\nhttps://www.bozar.be/en/calendar/ina-grm-acousmonium
+URL:https://doublebasskakov.github.io/radar/#e=ina-grm-acousmonium-brusse
+ ls
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ina GRM – Acousmonium
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ina-grm-akousma-5-paris@afisha-art
+DTSTAMP:20261113T172638Z
+DTSTART:20270508T183000Z
+DTEND:20270508T203000Z
+SUMMARY:INA grm Akousma #5
+LOCATION:Maison de la Radio et de la Musique - Studio 104\, 116 avenue du
+  Président Kennedy\, 75016 Paris\, Париж\, Франция
+DESCRIPTION:Концерт акузматической музыки INA 
+ GRM в Studio 104: одна программа на записанных 
+ носителях и две с смешанными произведен
+ иями\, совмещающими диффузию и живое исп
+ олнение.\nINA GRM\nhttps://www.maisondelaradioetdelamusique.fr/eve
+ nement/ina-grm-akousma-5-1
+URL:https://doublebasskakov.github.io/radar/#e=ina-grm-akousma-5-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:INA grm Akousma #5
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:grm-acousmonium-set-1-brussels@afisha-art
+DTSTAMP:20261113T172638Z
+DTSTART:20270130T191500Z
+DTEND:20270130T211500Z
+SUMMARY:GRM Acousmonium (сет 1)
+LOCATION:Bozar\, Hall M\, Rue Ravenstein 23\, 1000 Brussels\, Брюсс
+ ель\, Бельгия
+DESCRIPTION:Первая сессия Acousmonium с участием Jli
+ n\, Éliane Radigue и Aho Ssan (длительность 45 минут).
+  Сайт не указывает\, какой артист выступ
+ ает в каждом сете.\nJlin\, Éliane Radigue\, Aho Ssan\nhttp
+ s://www.bozar.be/en/calendar/grm-acousmonium
+URL:https://doublebasskakov.github.io/radar/#e=grm-acousmonium-set-1-brus
+ sels
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GRM Acousmonium (сет 1)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ina-grm-akousma-4-paris@afisha-art
+DTSTAMP:20261113T172638Z
+DTSTART:20270507T183000Z
+DTEND:20270507T203000Z
+SUMMARY:INA grm Akousma #4
+LOCATION:Maison de la Radio et de la Musique - Studio 104\, 116 avenue du
+  Président Kennedy\, 75016 Paris\, Париж\, Франция
+DESCRIPTION:Концерт акузматической музыки INA 
+ GRM в Studio 104 с использованием Акузмониума\
+ , около шестидесяти динамиков. Завершен
+ ие сезона Multiphonies 26-27.\nINA GRM\nhttps://www.offi.fr/conce
+ rts/maison-de-radio-france-2674/ina-grm-akousma-3333095.html
+URL:https://doublebasskakov.github.io/radar/#e=ina-grm-akousma-4-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:INA grm Akousma #4
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:grm-acousmonium-set-2-brussels@afisha-art
+DTSTAMP:20261113T172638Z
+DTSTART:20270130T202000Z
+DTEND:20270130T222000Z
+SUMMARY:GRM Acousmonium (сет 2)
+LOCATION:Bozar\, Hall M\, Rue Ravenstein 23\, 1000 Brussels\, Брюсс
+ ель\, Бельгия
+DESCRIPTION:Вторая сессия Acousmonium с участием Jli
+ n\, Éliane Radigue и Aho Ssan (30 минут). Сайт не указы
+ вает\, какой артист выступает в каждом с
+ ете.\nJlin\, Éliane Radigue\, Aho Ssan\nhttps://www.bozar.be/en/calen
+ dar/grm-acousmonium
+URL:https://doublebasskakov.github.io/radar/#e=grm-acousmonium-set-2-brus
+ sels
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GRM Acousmonium (сет 2)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:grm-acousmonium-set-3-brussels@afisha-art
+DTSTAMP:20261113T172638Z
+DTSTART:20270130T211500Z
+DTEND:20270130T231500Z
+SUMMARY:GRM Acousmonium (сет 3)
+LOCATION:Bozar\, Hall M\, Rue Ravenstein 23\, 1000 Brussels\, Брюсс
+ ель\, Бельгия
+DESCRIPTION:Третья сессия Acousmonium с участием Jli
+ n\, Éliane Radigue и Aho Ssan (30 минут). Сайт не указы
+ вает\, какой артист выступает в каждом с
+ ете.\nJlin\, Éliane Radigue\, Aho Ssan\nhttps://www.bozar.be/en/calen
+ dar/grm-acousmonium
+URL:https://doublebasskakov.github.io/radar/#e=grm-acousmonium-set-3-brus
+ sels
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GRM Acousmonium (сет 3)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ina-grm-akousma-6-paris@afisha-art
+DTSTAMP:20261113T172638Z
+DTSTART:20270509T160000Z
+DTEND:20270509T180000Z
+SUMMARY:INA grm Akousma #6
+LOCATION:Maison de la Radio et de la Musique - Studio 104\, 116 avenue du
+  Président Kennedy\, 75016 Paris\, Париж\, Франция
+DESCRIPTION:Концерт акузматической музыки INA 
+ GRM в Studio 104 с использованием Акузмониума\
+ , финальный вечер трёх концертов серии Ak
+ ousma.\nINA GRM\nhttps://www.maisondelaradioetdelamusique.fr/evenement/in
+ a-grm-akousma-6-0
+URL:https://doublebasskakov.github.io/radar/#e=ina-grm-akousma-6-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:INA grm Akousma #6
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ina-grm-acousmonium-xx-xxi-brussels@afisha-art
+DTSTAMP:20261113T172638Z
+DTSTART:20270129T190000Z
+DTEND:20270129T210000Z
+SUMMARY:Ina GRM – Acousmonium (XX-XXI)
+LOCATION:Bozar\, Rue Ravenstein 23\, 1000 Brussels\, Брюссель\, 
+ Бельгия
+DESCRIPTION:Концерт Acousmonium в рамках цикла XX-XXI:
+  электронные сочинения Варезе\, Парменд
+ жани и Радиге звучат через 80 динамиков.\n
+ Ina GRM\nhttps://www.bozar.be/en/calendar/xx-xxi-2
+URL:https://doublebasskakov.github.io/radar/#e=ina-grm-acousmonium-xx-xxi
+ -brussels
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ina GRM – Acousmonium (XX-XXI)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ina-grm-acousmonium-total-immersion-brussels@afisha-art
+DTSTAMP:20261113T172638Z
+DTSTART:20270128T193000Z
+DTEND:20270128T213000Z
+SUMMARY:Ina GRM – Acousmonium (Total Immersion)
+LOCATION:Bozar\, Rue Ravenstein 23\, 1000 Brussels\, Брюссель\, 
+ Бельгия
+DESCRIPTION:Выступление Acousmonium в рамках фести
+ валя Total Immersion\, посвящённого полному слу
+ ховому погружению.\nIna GRM\nhttps://www.bozar.be/en/cale
+ ndar/total-immersion
+URL:https://doublebasskakov.github.io/radar/#e=ina-grm-acousmonium-total-
+ immersion-brussels
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ina GRM – Acousmonium (Total Immersion)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:berlin-biennale-14@afisha-art
-DTSTAMP:20261113T154436Z
+DTSTAMP:20261113T172638Z
 DTSTART;VALUE=DATE:20270605
 DTEND;VALUE=DATE:20270606
 SUMMARY:Открытие: 14. Berlin Biennale: Central Europe Eastern Tim
@@ -247,7 +434,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sharjah-biennial-17@afisha-art
-DTSTAMP:20261113T154436Z
+DTSTAMP:20261113T172638Z
 DTSTART;VALUE=DATE:20270121
 DTEND;VALUE=DATE:20270122
 SUMMARY:Открытие: Sharjah Biennial 17: What remains\, sits restiv
@@ -272,7 +459,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:documenta-16@afisha-art
-DTSTAMP:20261113T154436Z
+DTSTAMP:20261113T172638Z
 DTSTART;VALUE=DATE:20270612
 DTEND;VALUE=DATE:20270613
 SUMMARY:Открытие: documenta 16
@@ -294,7 +481,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:bukhara-biennial-2027@afisha-art
-DTSTAMP:20261113T154436Z
+DTSTAMP:20261113T172638Z
 DTSTART;VALUE=DATE:20270903
 DTEND;VALUE=DATE:20270904
 SUMMARY:Открытие: Bukhara Biennial 2027
@@ -317,7 +504,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:transmediale-2027@afisha-art
-DTSTAMP:20261113T154436Z
+DTSTAMP:20261113T172638Z
 DTSTART;VALUE=DATE:20270128
 DTEND;VALUE=DATE:20270201
 SUMMARY:transmediale 2027: groundstates
@@ -338,7 +525,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lyon-biennale-18@afisha-art
-DTSTAMP:20261113T154436Z
+DTSTAMP:20261113T172638Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Последний день: 18e Biennale de Lyon: Passer d'un r
@@ -361,7 +548,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:guggenheim-abu-dhabi-opening@afisha-art
-DTSTAMP:20261113T154436Z
+DTSTAMP:20261113T172638Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:Открытие Guggenheim Abu Dhabi
@@ -383,7 +570,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ars-electronica-2027@afisha-art
-DTSTAMP:20261113T154436Z
+DTSTAMP:20261113T172638Z
 DTSTART;VALUE=DATE:20270908
 DTEND;VALUE=DATE:20270913
 SUMMARY:Ars Electronica Festival 2027
@@ -402,7 +589,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:art-basel-2027@afisha-art
-DTSTAMP:20261113T154436Z
+DTSTAMP:20261113T172638Z
 DTSTART;VALUE=DATE:20270617
 DTEND;VALUE=DATE:20270621
 SUMMARY:Art Basel 2027
@@ -421,7 +608,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ctm-festival-2027@afisha-art
-DTSTAMP:20261113T154436Z
+DTSTAMP:20261113T172638Z
 DTSTART;VALUE=DATE:20270122
 DTEND;VALUE=DATE:20270123
 SUMMARY:Открытие: CTM Festival 2027
@@ -441,7 +628,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:grm-akousma-may-2027@afisha-art
-DTSTAMP:20261113T154436Z
+DTSTAMP:20261113T172638Z
 DTSTART;VALUE=DATE:20270507
 DTEND;VALUE=DATE:20270510
 SUMMARY:INA GRM: Akousma & Live Electronics
@@ -461,7 +648,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:venice-biennale-arte-2026@afisha-art
-DTSTAMP:20261113T154436Z
+DTSTAMP:20261113T172638Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Последний день: Biennale Arte 2026: In Minor Keys
@@ -485,7 +672,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:istanbul-biennial-19@afisha-art
-DTSTAMP:20261113T154436Z
+DTSTAMP:20261113T172638Z
 DTSTART;VALUE=DATE:20270918
 DTEND;VALUE=DATE:20270919
 SUMMARY:Открытие: 19. İstanbul Bienali
@@ -508,7 +695,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:venice-biennale-architettura-2027@afisha-art
-DTSTAMP:20261113T154436Z
+DTSTAMP:20261113T172638Z
 DTSTART;VALUE=DATE:20270508
 DTEND;VALUE=DATE:20270509
 SUMMARY:Открытие: Biennale Architettura 2027: Do Architecture
@@ -530,7 +717,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:stedelijk-yayoi-kusama@afisha-art
-DTSTAMP:20261113T154436Z
+DTSTAMP:20261113T172638Z
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
 SUMMARY:Последний день: Yayoi Kusama
@@ -551,7 +738,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:moma-brancusi@afisha-art
-DTSTAMP:20261113T154436Z
+DTSTAMP:20261113T172638Z
 DTSTART;VALUE=DATE:20270227
 DTEND;VALUE=DATE:20270228
 SUMMARY:Последний день: Brancusi: The Artist and His Studio
@@ -573,7 +760,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:grm-presences-electronique-2027@afisha-art
-DTSTAMP:20261113T154436Z
+DTSTAMP:20261113T172638Z
 DTSTART;VALUE=DATE:20270219
 DTEND;VALUE=DATE:20270222
 SUMMARY:Фестиваль PRÉSENCES électronique 2027

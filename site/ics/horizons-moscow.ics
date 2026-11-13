@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:horizons-moscow@afisha-art
+DTSTAMP:20261113T172638Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Горизонты
+LOCATION:Лаунж-зона АГА\, ЖК «Золотой»\, Моск
+ ва\, Софийская набережная\, 10\, жилой квар
+ тал «Золотой» (вход со стороны Болотной 
+ площади)\, Москва
+DESCRIPTION:Выставка работ художников шести 
+ галерей\, присоединившихся к АГА в 2026 го
+ ду\, в лаунж-зоне АГА. Точные даты работы 
+ выставки и время в источнике не указаны\
+ ; дата — первый день ярмарки.\nАссоциаци
+ я галерей (АГА)\nhttps://news.rambler.ru/community/57411002-ya
+ rmarka-catalog-obyavila-programmu-shestogo-vypuska/
+URL:https://doublebasskakov.github.io/radar/#e=horizons-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Горизонты
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

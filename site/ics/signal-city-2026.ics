@@ -5,9 +5,9 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:signal-city-2026@afisha-art
-DTSTAMP:20261113T154436Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261123
+DTSTAMP:20261113T172638Z
+DTSTART:20261121T150000Z
+DTEND:20261121T170000Z
 SUMMARY:Signal City
 LOCATION:ДК завода «Серп и Молот»\, Москва
 DESCRIPTION:Городская версия фестиваля Signal: д
@@ -15,6 +15,24 @@ DESCRIPTION:Городская версия фестиваля Signal: д
  исторического ДК.\nMonasterio\, Gescu и др.\nhttps://t.
  me/signal_live
 URL:https://doublebasskakov.github.io/radar/#e=signal-city-2026
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Signal City
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:signal-city-2026-1@afisha-art
+DTSTAMP:20261113T172638Z
+DTSTART:20261122T150000Z
+DTEND:20261122T170000Z
+SUMMARY:Signal City
+LOCATION:ДК завода «Серп и Молот»\, Москва
+DESCRIPTION:Городская версия фестиваля Signal: д
+ ва дня электронной музыки в лабиринтах 
+ исторического ДК.\nMonasterio\, Gescu и др.\nhttps://t.
+ me/signal_live
+URL:https://doublebasskakov.github.io/radar/#e=signal-city-2026-1
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Signal City
