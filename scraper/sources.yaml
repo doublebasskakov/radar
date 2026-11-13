@@ -261,7 +261,38 @@ telegram:
   - {u: saratovcons, region: ru, city: Саратов}
   - {u: ufaart, region: ru, city: Уфа}
 
+  # --- электронная музыка, медиаинсталляции, фестивали ---
+  - {u: hauntology_dm, region: ru, city: Москва}
+  - {u: kartaskvazhin, region: ru}
+  - {u: f5noisegraph, region: ru}
+  - {u: kurs_radio, region: ru, city: Москва}
+  - {u: gudelnaya, region: ru}
+  - {u: lectoriumport, region: ru, city: Санкт-Петербург}
+  - {u: monasteriomoscow, region: ru, city: Москва}
+  - {u: lympro, region: ru}
+  - {u: dezignzavod, region: ru, city: Москва}
+  - {u: time_to_hear, region: ru}
+  - {u: domradio_online, region: ru, city: Санкт-Петербург}
+  - {u: musicaeternatc, region: ru}
+  - {u: tsvetsvetsvet, region: ru}
+  - {u: system108, region: ru}
+  - {u: techno_ru, region: ru}
+  - {u: kometa_fest, region: ru}
+
 pages:
+  # --- фестивали электронной музыки и медиаискусства (мир) ---
+  - {url: "https://berlin-atonal.com/", region: world, city: Берлин}
+  - {url: "https://www.rewirefestival.nl/", region: world, city: Гаага}
+  - {url: "https://www.dekmantelfestival.com/", region: world, city: Амстердам}
+  - {url: "https://sonicacts.com/", region: world, city: Амстердам}
+  - {url: "https://www.transmediale.de/", region: world, city: Берлин}
+  - {url: "https://www.lacasaencendida.es/", region: world, city: Мадрид}
+  - {url: "https://www.donaufestival.at/", region: world, city: Кремс}
+  - {url: "https://nyegenyege.com/", region: world, city: Джинджа}
+  - {url: "https://mutek.org/en/", region: world}
+  - {url: "https://www.lightfestival.amsterdam/", region: world, city: Амстердам}
+  - {url: "https://www.teamlab.art/e/", region: world}
+  - {url: "https://www.signal-fest.ru/", region: ru}
   # --- консерватории: модель отберёт новую музыку, электроакустику, премьеры ---
   - {url: "https://www.conservatory.ru/concerts", region: ru, city: Санкт-Петербург}
   - {url: "https://www.conservatory.ru/events", region: ru, city: Санкт-Петербург}
