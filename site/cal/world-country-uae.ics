@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:sharjah-biennial-17@afisha-art
-DTSTAMP:20261113T091905Z
+DTSTAMP:20261113T093415Z
 DTSTART;VALUE=DATE:20270121
 DTEND;VALUE=DATE:20270122
 SUMMARY:Открытие: Sharjah Biennial 17: What remains\, sits restiv
@@ -33,8 +33,45 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:frieze-abu-dhabi-2026@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261123
+SUMMARY:Frieze Abu Dhabi 2026
+LOCATION:Manarat Al Saadiyat\, Абу-Даби\, ОАЭ
+DESCRIPTION:Первая ярмарка Frieze на Ближнем Вос
+ токе\, пришедшая на смену Abu Dhabi Art\, в куль
+ турном квартале Саадият.\nБолее 80 галере
+ й\nhttps://www.frieze.com/article/frieze-abu-dhabi-reveals-global-line-s
+ haped-region-its-inaugural-edition
+URL:https://doublebasskakov.github.io/radar/#e=frieze-abu-dhabi-2026
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Frieze Abu Dhabi 2026
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:art-dubai-2027@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20270407
+DTEND;VALUE=DATE:20270412
+SUMMARY:Art Dubai 2027
+LOCATION:Madinat Jumeirah\, Дубай\, ОАЭ
+DESCRIPTION:Главная ярмарка Ближнего Востока
+  и Южной Азии с секциями современного\, м
+ одернистского и цифрового искусства.\n\nh
+ ttps://artdubai.ae/art-dubai-fair/
+URL:https://doublebasskakov.github.io/radar/#e=art-dubai-2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Art Dubai 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:guggenheim-abu-dhabi-opening@afisha-art
-DTSTAMP:20261113T091905Z
+DTSTAMP:20261113T093415Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:Открытие Guggenheim Abu Dhabi
@@ -56,7 +93,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:louvre-abu-dhabi-art-here-2026@afisha-art
-DTSTAMP:20261113T091905Z
+DTSTAMP:20261113T093415Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 SUMMARY:Последний день: Art Here 2026: Confluences

@@ -31,7 +31,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:istanbul-biennial-19@afisha-art
-DTSTAMP:20261113T091905Z
+DTSTAMP:20261113T093415Z
 DTSTART;VALUE=DATE:20270918
 DTEND;VALUE=DATE:20270919
 SUMMARY:Открытие: 19. İstanbul Bienali
@@ -50,6 +50,29 @@ URL:https://bienal.iksv.org/en/news/liu-ding-and-carol-yinghua-lu-to-cura
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Открытие: 19. İstanbul Bienali
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:arter-work-in-progress@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20270314
+DTEND;VALUE=DATE:20270315
+SUMMARY:Последний день: Yapım Aşamasında / Work in Progre
+ ss
+LOCATION:ARTER\, Irmak Caddesi No: 13\, Dolapdere\, Beyoğlu\, İstanbul\
+ , Стамбул\, Турция
+DESCRIPTION:Групповая выставка 27 художников 
+ из коллекции Arter\, вторая глава которой о
+ ткрылась в октябре. Вход свободный.\nКур
+ атор Эмре Байкал\; Джевдет Эрек\, Айше Эр
+ кмен\, Саркис и др.\nhttps://www.e-flux.com/announcements/67
+ 86373/work-in-progress
+URL:https://doublebasskakov.github.io/radar/#e=arter-work-in-progress
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Yapım Aşamasında / Work in Pr
+ ogress
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

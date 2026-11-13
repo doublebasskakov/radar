@@ -7,8 +7,108 @@ X-WR-CALNAME:Радар — Россия · cat-fair
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:catalog-fair@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261123
+SUMMARY:|catalog| — ярмарка современного искус
+ ства
+LOCATION:ЖК «Золотой»\, Софийская набережна
+ я\, Софийская наб.\, Москва
+DESCRIPTION:Осенний выпуск ярмарки\, которую 
+ делают сами галеристы: стенды задуманы 
+ как маленькие выставки\, а не витрины пр
+ одаж.\nГалереи-участники Ассоциации гал
+ ерей\nhttps://theblueprint.ru/culture/art/vystavki-november2026
+URL:https://doublebasskakov.github.io/radar/#e=catalog-fair
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:|catalog| — ярмарка современного иск
+ усства
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:oberton-fair-2026@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261207
+SUMMARY:«Обертон» — ярмарка графики Cosmoscow
+LOCATION:ТОН-Центр\, Комсомольская пл.\, 3/30с1\,
+  Москва
+DESCRIPTION:Второй выпуск ярмарки графики от 
+ команды Cosmoscow\; участников отбирал экспе
+ ртный совет ярмарки.\n37 галерей из Москв
+ ы\, Петербурга\, Нижнего\, Воронежа\, Влад
+ ивостока\nhttps://t.me/sampleart
+URL:https://doublebasskakov.github.io/radar/#e=oberton-fair-2026
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:«Обертон» — ярмарка графики Cosmosco
+ w
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:signal-city-2026@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261123
+SUMMARY:Signal City
+LOCATION:ДК завода «Серп и Молот»\, Москва
+DESCRIPTION:Городская версия фестиваля Signal: д
+ ва дня электронной музыки в лабиринтах 
+ исторического ДК.\nMonasterio\, Gescu и др.\nhttps://t.
+ me/signal_live
+URL:https://doublebasskakov.github.io/radar/#e=signal-city-2026
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Signal City
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kucha3-fair@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261221
+SUMMARY:«Куча³» — ярмарка независимого иск
+ усства и книгоиздания
+LOCATION:ЦТИ «Фабрика»\, Переведеновский пе
+ р.\, 18\, Москва
+DESCRIPTION:Горизонтальная ярмарка художник
+ ов и самиздата\, которую сообщество соби
+ рает на взаимопомощи.\nСССХ\nhttps://t.me/Ccc_x124
+URL:https://doublebasskakov.github.io/radar/#e=kucha3-fair
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:«Куча³» — ярмарка независимого и
+ скусства и книгоиздания
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:smena-winter-book-fest@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261207
+SUMMARY:Зимний книжный фестиваль «Смены»
+LOCATION:Национальная библиотека Республик
+ и Татарстан\, Казань
+DESCRIPTION:Четырнадцатый фестиваль к 13-лети
+ ю «Смены»: книжная ярмарка и три паралле
+ льных лектория.\nЦентр современной куль
+ туры «Смена»\nhttps://t.me/ooosmenaknigi
+URL:https://doublebasskakov.github.io/radar/#e=smena-winter-book-fest
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Зимний книжный фестиваль «Смены»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:samara-osenniy-auktsion-2026@afisha-art
-DTSTAMP:20261113T091905Z
+DTSTAMP:20261113T093415Z
 DTSTART:20261126T150000Z
 DTEND:20261126T170000Z
 SUMMARY:VII Осенний аукцион современного иск
@@ -30,7 +130,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:spb-diaghilev-ps-2026@afisha-art
-DTSTAMP:20261113T091905Z
+DTSTAMP:20261113T093415Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 SUMMARY:Последний день: Фестиваль «Дягилев 
@@ -120,7 +220,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:autumn-edition-of-the-catalog-contemporary-art-fair-moscow@afisha-art
-DTSTAMP:20261113T091905Z
+DTSTAMP:20261113T093415Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261123
 SUMMARY:Осенний выпуск ярмарки современног
@@ -168,7 +268,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:pa-gallery-pseudomorphoses-booth-at-art021-shanghai-shanghai@afisha-a
  rt
-DTSTAMP:20261113T091905Z
+DTSTAMP:20261113T093415Z
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261115
 SUMMARY:Стенд PA Gallery «Псевдоморфозы» на ярм
@@ -190,8 +290,73 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:pa-gallery-at-art021-shanghai-shanghai@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261115
+SUMMARY:PA Gallery на ART021 Shanghai
+LOCATION:Шанхайский выставочный центр\, Shangha
+ i Exhibition Center\, Шанхай
+DESCRIPTION:Стенд PA Gallery в секции Main Galleries ярма
+ рки ART021 с проектом «Псевдоморфозы»\, пре
+ дставляющим работы четырёх российских 
+ художников.\nАлиса Горелова\, Антон Коню
+ хов\, Андрей Сяйлев\, Олег Хвостов\nhttps://t.m
+ e/pagallery_official/1830
+URL:https://doublebasskakov.github.io/radar/#e=pa-gallery-at-art021-shang
+ hai-shanghai
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:PA Gallery на ART021 Shanghai
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:contemporary-art-fair-catalog-moscow@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261123
+SUMMARY:Ярмарка современного искусства |catal
+ og|
+LOCATION:ЖК «Золотой»\, Софийская набережна
+ я\, 10\, Москва
+DESCRIPTION:Осенний выпуск ярмарки современн
+ ого искусства\, организуемой Ассоциацие
+ й галерей с участием ведущих российских
+  арт-институций.\nАссоциация галерей\, Га
+ лерея pop/off/art\nhttps://t.me/pop_off_art/9189
+URL:https://doublebasskakov.github.io/radar/#e=contemporary-art-fair-cata
+ log-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ярмарка современного искусства |c
+ atalog|
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:catalog-art-fair-moscow@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261123
+SUMMARY:Ярмарка |catalog|
+LOCATION:Софийская набережная\, 10\, Софийска
+ я набережная\, 10\, Москва
+DESCRIPTION:Ярмарка современного искусства\, 
+ объединяющая выставочные стенды и спец
+ иальные проекты российских галерей.\nНа
+ дежда Прадес\, Олеся Рубеко\, Postrigay Gallery\nht
+ tps://t.me/postrigay_gallery/2891
+URL:https://doublebasskakov.github.io/radar/#e=catalog-art-fair-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ярмарка |catalog|
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:oberton-graphic-art-fair-moscow@afisha-art
-DTSTAMP:20261113T091905Z
+DTSTAMP:20261113T093415Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261207
 SUMMARY:Ярмарка графики «Обертон»
@@ -209,9 +374,76 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:catalog-art-fair-6th-edition-moscow@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261123
+SUMMARY:Ярмарка |catalog| (6-й выпуск)
+LOCATION:ЖК Золотой\, Софийская наб.\, 10\, Моск
+ ва
+DESCRIPTION:Шестой выпуск ярмарки современно
+ го искусства\, на котором Галерея 11.12 пок
+ ажет произведения молодых художниц\, ра
+ ботающих с живописью и фактурой.\nСоня К
+ обозева\, Виктория Вейсбрут\, Дарья Шаро
+ ва и др.\nhttps://t.me/GALLERY_ELEVEN_TWELVE/932
+URL:https://doublebasskakov.github.io/radar/#e=catalog-art-fair-6th-editi
+ on-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ярмарка |catalog| (6-й выпуск)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kucha3-fair-moscow@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261221
+SUMMARY:Ярмарка «Куча³»
+LOCATION:ЦТИ «Фабрика»\, Переведеновский пе
+ реулок\, 18\, Москва
+DESCRIPTION:Ярмарка независимого искусства и
+  книгоиздания\, объединяющая работы низ
+ овых и самобытных художников и авторов.\
+ nПаша Пошукай\, Ира Турченко и др.\nhttps://t.me
+ /Ccc_x124/1127
+URL:https://doublebasskakov.github.io/radar/#e=kucha3-fair-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ярмарка «Куча³»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:catalog-fair-anna-bat-s-project-habitus-at-gallery-9b-booth-moscow@af
+ isha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261123
+SUMMARY:Ярмарка |catalog|: проект Анны Бат «Габи
+ тус» на стенде Галереи 9Б
+LOCATION:ЖК «Золотой»\, Москва
+DESCRIPTION:В рамках ярмарки современная худ
+ ожница Анна Бат представит текстильную 
+ инсталляцию\, напоминающую орнитологич
+ ескую кунсткамеру. Объект исследует орн
+ итологические мифы и реальные научные д
+ анные о птицах через материалы и фактур
+ ы.\nАнна Бат\, Галерея 9Б\nhttps://t.me/gallery_9b/721
+URL:https://doublebasskakov.github.io/radar/#e=catalog-fair-anna-bat-s-pr
+ oject-habitus-at-gallery-9b-booth-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ярмарка |catalog|: проект Анны Бат «Га
+ битус» на стенде Галереи 9Б
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:fyodor-hiroshige-and-palto-gallery-at-catalog-art-fair-moscow@afisha-
  art
-DTSTAMP:20261113T091905Z
+DTSTAMP:20261113T093415Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261123
 SUMMARY:Участие Фёдора Хиросигэ и галереи «

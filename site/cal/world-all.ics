@@ -7,17 +7,17 @@ X-WR-CALNAME:Радар — Мир / World · all
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:ircam-klangforum-saint-eustache@afisha-art
-DTSTAMP:20261113T091905Z
-DTSTART:20261130T190000Z
-DTEND:20261130T210000Z
-SUMMARY:Klangforum Wien × IRCAM
-LOCATION:Церковь Сент-Эсташ\, Париж\, Франция
-DESCRIPTION:Концерт сезона IRCAM в готической ц
- еркви Сент-Эсташ: венский ансамбль ново
- й музыки и электроника.\nKlangforum Wien\nhttps://www.
- ircam.fr/en/events/klangforum-wien
-URL:https://www.ircam.fr/en/events/klangforum-wien
+UID:art021-shanghai-2026@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261115
+SUMMARY:ART021 Shanghai
+LOCATION:Shanghai Exhibition Center\, Шанхай\, Китай
+DESCRIPTION:Одна из главных ярмарок Азии\; рос
+ сийская PA Gallery показывает проект «Псевд
+ оморфозы».\n146 галерей\, в т. ч. PA Gallery (Моск
+ ва)\nhttps://t.me/pagallery_official
+URL:https://doublebasskakov.github.io/radar/#e=art021-shanghai-2026
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Klangforum Wien × IRCAM
@@ -25,18 +25,16 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ircam-explosante-fixe-2027@afisha-art
-DTSTAMP:20261113T091905Z
-DTSTART:20270113T190000Z
-DTEND:20270113T210000Z
-SUMMARY:Булез: «…explosante-fixe…»
-LOCATION:Филармония Парижа\, Большой зал\, Па
- риж\, Франция
-DESCRIPTION:Классика live electronics: «…explosante-fixe…» 
- Булеза с электроникой реального времен
- и IRCAM.\nEnsemble intercontemporain\, IRCAM\nhttps://www.ircam.fr/en/ev
- ents/explosante-fixe
-URL:https://www.ircam.fr/en/events/explosante-fixe
+UID:abramovic-element-milan@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Открытие: Marina Abramović: Element
+LOCATION:Palazzo Citterio\, Милан\, Италия
+DESCRIPTION:Цифровые аватары и перформансы А
+ брамович на светодиодной стене Палаццо 
+ Читтерио.\nMNAD\, галерея TAEX\nhttps://t.me/vsgall
+URL:https://doublebasskakov.github.io/radar/#e=abramovic-element-milan
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Булез: «…explosante-fixe…»
@@ -44,19 +42,22 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:adk-sample-hold-11@afisha-art
-DTSTAMP:20261113T091905Z
-DTSTART:20261125T190000Z
-DTEND:20261125T210000Z
-SUMMARY:sample&hold #11: Paul Purgas & Stefan Keller
-LOCATION:Akademie der Künste\, Pariser Platz\, Pariser Platz 4\, Бер
- лин\, Германия
-DESCRIPTION:Серия Студии электроакустическо
- й музыки Академии искусств: Пол Пургас п
- оказывает заново открытую электронную 
- музыку Индии начала 1970-х.\nPaul Purgas\, Stefan Kelle
- r\, Andreas Fischer\nhttps://www.visitberlin.de/en/node/2293941
-URL:https://www.visitberlin.de/en/node/2293941
+UID:venice-biennale-arte-2026@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Последний день: Biennale Arte 2026: In Minor Keys
+LOCATION:Giardini\, Arsenale\, Венеция\, Италия
+DESCRIPTION:61-я Венецианская биеннале соврем
+ енного искусства\, задуманная Койо Куох 
+ и доведённая до открытия её командой. По
+ следние дни\, чтобы увидеть основную выс
+ тавку и национальные павильоны\, включа
+ я павильоны Армении\, Казахстана и Узбек
+ истана.\nКуратор Койо Куох (реализовано 
+ её командой)\nhttps://www.labiennale.org/en/art/2026/61st-exhib
+ ition
+URL:https://doublebasskakov.github.io/radar/#e=venice-biennale-arte-2026
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:sample&hold #11: Paul Purgas & Stefan Keller
@@ -64,17 +65,21 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ircam-aho-ssan-studio-session@afisha-art
-DTSTAMP:20261113T091905Z
-DTSTART:20261209T180000Z
-DTEND:20261209T200000Z
-SUMMARY:Aho Ssan: Forum Studio Session #8
-LOCATION:IRCAM\, Studio 5 (и онлайн)\, Париж\, Франция
-DESCRIPTION:Французский электронщик Aho Ssan игр
- ает пространственный сет в студии IRCAM\; в
- ыступление транслируется онлайн.\nAho Ssan\n
- https://www.ircam.fr/en/events/aho-ssan-forum-studio-session-8
-URL:https://www.ircam.fr/en/events/aho-ssan-forum-studio-session-8
+UID:venice-biennale-architettura-2027@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20270508
+DTEND;VALUE=DATE:20270509
+SUMMARY:Открытие: Biennale Architettura 2027: Do Architecture
+LOCATION:Giardini\, Arsenale\, Венеция\, Италия
+DESCRIPTION:20-я Венецианская архитектурная б
+ иеннале впервые курируют архитекторы и
+ з Китая. Тема — практическая архитектур
+ а и возможность сосуществования в реаль
+ ном мире\; предпоказ 6–7 мая.\nКураторы Ва
+ н Шу и Лу Вэньюй (Amateur Architecture Studio)\nhttps://www.l
+ abiennale.org/en/architecture/2027
+URL:https://doublebasskakov.github.io/radar/#e=venice-biennale-architettu
+ ra-2027
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Aho Ssan: Forum Studio Session #8
@@ -82,17 +87,21 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ircam-forum-workshops-2027@afisha-art
-DTSTAMP:20261113T091905Z
-DTSTART:20270324T090000Z
-DTEND:20270324T110000Z
-SUMMARY:IRCAM Forum Workshops 2027
-LOCATION:IRCAM\, Париж\, Франция
-DESCRIPTION:Ежегодная встреча разработчиков 
- и композиторов: новые инструменты IRCAM дл
- я звука\, пространства и ИИ.\n\nhttps://www.ircam.fr
- /en/events/ircam-forum-workshops
-URL:https://www.ircam.fr/en/events/ircam-forum-workshops
+UID:documenta-16@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20270612
+DTEND;VALUE=DATE:20270613
+SUMMARY:Открытие: documenta 16
+LOCATION:Fridericianum и площадки по всему городу\,
+  Кассель\, Германия
+DESCRIPTION:Главная выставка современного ис
+ кусства раз в пять лет: 100 дней в Касселе.
+  Шестнадцатую documenta возглавляет Наоми Б
+ еквит из Музея Гуггенхайма с международ
+ ной кураторской командой.\nАрт-директор 
+ Наоми Беквит\nhttps://documenta.de/en/news/documenta-16-findet
+ -vom-12-juni-bis-zum-19-september-2027-statt
+URL:https://doublebasskakov.github.io/radar/#e=documenta-16
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:IRCAM Forum Workshops 2027
@@ -156,7 +165,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:berlin-biennale-14@afisha-art
-DTSTAMP:20261113T091905Z
+DTSTAMP:20261113T093415Z
 DTSTART;VALUE=DATE:20270605
 DTEND;VALUE=DATE:20270606
 SUMMARY:Открытие: 14. Berlin Biennale: Central Europe Eastern Tim
@@ -181,8 +190,31 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:istanbul-biennial-19@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20270918
+DTEND;VALUE=DATE:20270919
+SUMMARY:Открытие: 19. İstanbul Bienali
+LOCATION:Площадки по всему Стамбулу\, Стамбу
+ л\, Турция
+DESCRIPTION:Стамбульская биеннале возвращае
+ тся после досрочно завершённой 18-й реда
+ кции\; кураторы — китайский художник Лю 
+ Дин и историк искусства Кэрол Инхуа Лу. 
+ Профессиональный предпоказ 14–17 сентяб
+ ря.\nКураторы Лю Дин и Кэрол Инхуа Лу\nhttps:
+ //bienal.iksv.org/en/news/liu-ding-and-carol-yinghua-lu-to-curate-the-19t
+ h-istanbul-biennial
+URL:https://doublebasskakov.github.io/radar/#e=istanbul-biennial-19
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: 19. İstanbul Bienali
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:sharjah-biennial-17@afisha-art
-DTSTAMP:20261113T091905Z
+DTSTAMP:20261113T093415Z
 DTSTART;VALUE=DATE:20270121
 DTEND;VALUE=DATE:20270122
 SUMMARY:Открытие: Sharjah Biennial 17: What remains\, sits restiv
@@ -207,31 +239,53 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:documenta-16@afisha-art
-DTSTAMP:20261113T091905Z
-DTSTART;VALUE=DATE:20270612
-DTEND;VALUE=DATE:20270613
-SUMMARY:Открытие: documenta 16
-LOCATION:Fridericianum и площадки по всему городу\,
-  Кассель\, Германия
-DESCRIPTION:Главная выставка современного ис
- кусства раз в пять лет: 100 дней в Касселе.
-  Шестнадцатую documenta возглавляет Наоми Б
- еквит из Музея Гуггенхайма с международ
- ной кураторской командой.\nАрт-директор 
- Наоми Беквит\nhttps://documenta.de/en/news/documenta-16-findet
- -vom-12-juni-bis-zum-19-september-2027-statt
-URL:https://documenta.de/en/news/documenta-16-findet-vom-12-juni-bis-zum-
- 19-september-2027-statt
+UID:gwangju-biennale-16@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Последний день: 16th Gwangju Biennale: You Must Chan
+ ge Your Life
+LOCATION:Gwangju Biennale Exhibition Hall\, Кванджу\, Южная 
+ Корея
+DESCRIPTION:Старейшая биеннале Азии в этом го
+ ду под руководством сингапурского худо
+ жника Хо Цзы Няня. Последние дни работы 
+ выставки.\nАрт-директор Хо Цзы Нянь\nhttps://
+ www.e-flux.com/announcements/6787672/you-must-change-your-life
+URL:https://doublebasskakov.github.io/radar/#e=gwangju-biennale-16
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Открытие: documenta 16
+DESCRIPTION:Последний день: 16th Gwangju Biennale: You Must 
+ Change Your Life
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lyon-biennale-18@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:Последний день: 18e Biennale de Lyon: Passer d'un r
+ êve à l'autre
+LOCATION:Grandes Locos\, Musée des Tissus\, macLYON\, Лион\, Фра
+ нция
+DESCRIPTION:Лионская биеннале занимает бывше
+ е локомотивное депо Grandes Locos\, Музей ткан
+ ей и Музей современного искусства. Боле
+ е сотни художников и одиннадцать площад
+ ок.\nКуратор Кэтрин Николс\nhttps://www.labiennalede
+ lyon.com/en/18e-biennale-de-lyon
+URL:https://doublebasskakov.github.io/radar/#e=lyon-biennale-18
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: 18e Biennale de Lyon: Passer d'u
+ n rêve à l'autre
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:bukhara-biennial-2027@afisha-art
-DTSTAMP:20261113T091905Z
+DTSTAMP:20261113T093415Z
 DTSTART;VALUE=DATE:20270903
 DTEND;VALUE=DATE:20270904
 SUMMARY:Открытие: Bukhara Biennial 2027
@@ -254,8 +308,115 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:islamic-arts-biennale-2027@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20271101
+DTEND;VALUE=DATE:20271102
+SUMMARY:Открытие: Islamic Arts Biennale 2027
+LOCATION:Western Hajj Terminal\, King Abdulaziz International Airport\, 
+ Джидда\, Саудовская Аравия
+DESCRIPTION:Третья Биеннале исламских искусс
+ тв в знаменитом шатровом Хадж-терминале
+  аэропорта Джидды. Исторические артефак
+ ты соседствуют с работами современных х
+ удожников.\nDiriyah Biennale Foundation\nhttps://www.arabnews.pk
+ /node/2634227
+URL:https://doublebasskakov.github.io/radar/#e=islamic-arts-biennale-2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Islamic Arts Biennale 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bangkok-art-biennale-2026@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:Последний день: Bangkok Art Biennale 2026: Angels & 
+ Mara
+LOCATION:Wat Arun\, Wat Pho\, BACC\, One Bangkok и др.\, Бангко
+ к\, Таиланд
+DESCRIPTION:Пятая Бангкокская биеннале на те
+ му «Ангелы и Мара» размещает современно
+ е искусство в храмах Ват Арун и Ват Пхо\, 
+ музеях и торговых центрах.\n\nhttps://www.tatnews.o
+ rg/2026/09/tat-spotlights-bangkok-art-biennale-2026-as-a-contemporary-cit
+ ywide-art-experience/
+URL:https://doublebasskakov.github.io/radar/#e=bangkok-art-biennale-2026
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Bangkok Art Biennale 2026: Angel
+ s & Mara
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yokohama-triennale-9@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20270423
+DTEND;VALUE=DATE:20270424
+SUMMARY:Открытие: 9th Yokohama Triennale
+LOCATION:Yokohama Museum of Art и др.\, Иокогама\, Япони
+ я
+DESCRIPTION:Девятая Иокогамская триеннале — 
+ крупнейший международный смотр совреме
+ нного искусства в Японии. Основная площ
+ адка — Художественный музей Иокогамы.\n
+ Арт-директора Космин Костинаш и Инти Ге
+ рреро\nhttps://www.yokohamatriennale.jp/english/news/yt9-0423-0912-2
+ 027/
+URL:https://doublebasskakov.github.io/radar/#e=yokohama-triennale-9
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: 9th Yokohama Triennale
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:liverpool-biennial-2027@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20270605
+DTEND;VALUE=DATE:20270606
+SUMMARY:Открытие: Liverpool Biennial 2027
+LOCATION:Площадки по всему Ливерпулю\, Ливер
+ пуль\, Великобритания
+DESCRIPTION:14-я Ливерпульская биеннале\, круп
+ нейший фестиваль современного искусств
+ а Великобритании\, исследует опыт детст
+ ва и юности.\nКураторы Лусия Санроман и Э
+ йми Харрисон\nhttps://www.biennial.com/wp-content/uploads/2026
+ /02/Co-Curators-and-dates-announced-for-Liverpool-Biennial-2027.pdf
+URL:https://doublebasskakov.github.io/radar/#e=liverpool-biennial-2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Liverpool Biennial 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ctm-festival-2027@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+SUMMARY:Открытие: CTM Festival 2027
+LOCATION:Площадки Берлина (Berghain\, HAU\, silent green 
+ и др.)\, Берлин\, Германия
+DESCRIPTION:28-й CTM — берлинский фестиваль экс
+ периментальной музыки и звукового иску
+ сства: концерты\, клубные ночи\, выставки
+  и дискуссии.\n\nhttps://www.ctm-festival.de/news/ctm-2027-fest
+ ival-save-the-date
+URL:https://doublebasskakov.github.io/radar/#e=ctm-festival-2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: CTM Festival 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:transmediale-2027@afisha-art
-DTSTAMP:20261113T091905Z
+DTSTAMP:20261113T093415Z
 DTSTART;VALUE=DATE:20270128
 DTEND;VALUE=DATE:20270201
 SUMMARY:transmediale 2027: groundstates
@@ -322,7 +483,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ars-electronica-2027@afisha-art
-DTSTAMP:20261113T091905Z
+DTSTAMP:20261113T093415Z
 DTSTART;VALUE=DATE:20270908
 DTEND;VALUE=DATE:20270913
 SUMMARY:Ars Electronica Festival 2027
@@ -340,8 +501,48 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:art-basel-2027@afisha-art
-DTSTAMP:20261113T091905Z
+UID:mutek-jp-2026@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261124
+SUMMARY:MUTEK.JP 2026
+LOCATION:MoN Takanawa: The Museum of Narratives\, Takanawa Gateway City\,
+  Токио\, Япония
+DESCRIPTION:Токийская редакция MUTEK — фестива
+ ля электронной музыки и цифрового искус
+ ства — впервые проходит в новом музее MoN
+  Takanawa и длится четыре дня.\n\nhttps://tokyo.mutek.org
+ /en/news/mutek-jp-2026-edition-11
+URL:https://doublebasskakov.github.io/radar/#e=mutek-jp-2026
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MUTEK.JP 2026
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mutek-montreal-2027@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20270824
+DTEND;VALUE=DATE:20270830
+SUMMARY:MUTEK Montréal 2027: Sensitive Waves
+LOCATION:Quartier des spectacles и др.\, Монреаль\, Канад
+ а
+DESCRIPTION:28-й MUTEK в Монреале — родоначальни
+ к сети фестивалей аудиовизуального иск
+ усства. Тема «Чувствительные волны» — о
+  восприятии и связи между людьми.\n\nhttps://m
+ ontreal.mutek.org/en/news/mutek-montreal-edition-28-sensitive-waves
+URL:https://doublebasskakov.github.io/radar/#e=mutek-montreal-2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MUTEK Montréal 2027: Sensitive Waves
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sonar-2027@afisha-art
+DTSTAMP:20261113T093415Z
 DTSTART;VALUE=DATE:20270617
 DTEND;VALUE=DATE:20270621
 SUMMARY:Art Basel 2027
@@ -359,19 +560,18 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ctm-festival-2027@afisha-art
-DTSTAMP:20261113T091905Z
-DTSTART;VALUE=DATE:20270122
-DTEND;VALUE=DATE:20270123
-SUMMARY:Открытие: CTM Festival 2027
-LOCATION:Площадки Берлина (Berghain\, HAU\, silent green 
- и др.)\, Берлин\, Германия
-DESCRIPTION:28-й CTM — берлинский фестиваль экс
- периментальной музыки и звукового иску
- сства: концерты\, клубные ночи\, выставки
-  и дискуссии.\n\nhttps://www.ctm-festival.de/news/ctm-2027-fest
- ival-save-the-date
-URL:https://www.ctm-festival.de/news/ctm-2027-festival-save-the-date
+UID:berlin-atonal-2027@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20270825
+DTEND;VALUE=DATE:20270830
+SUMMARY:Berlin Atonal 2027
+LOCATION:Kraftwerk Berlin\, Köpenicker Str. 70\, 10179 Berlin\, Берл
+ ин\, Германия
+DESCRIPTION:Фестиваль экспериментальной муз
+ ыки и аудиовизуальных перформансов в ги
+ гантском зале бывшей электростанции Kraft
+ werk.\n\nhttps://www.festivalfinder.eu/festivals/berlin-atonal-2027
+URL:https://doublebasskakov.github.io/radar/#e=berlin-atonal-2027
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Открытие: CTM Festival 2027
@@ -379,20 +579,21 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:grm-akousma-may-2027@afisha-art
-DTSTAMP:20261113T091905Z
-DTSTART;VALUE=DATE:20270507
-DTEND;VALUE=DATE:20270510
-SUMMARY:INA GRM: Akousma & Live Electronics
-LOCATION:Maison de la Radio et de la Musique\, Studio 104\, Париж\, 
- Франция
-DESCRIPTION:Финал сезона GRM: три концерта прем
- ьер — акусматика на носителе и смешанны
- е сочинения с инструменталистами.\n\nhttps:/
- /www.offi.fr/concerts/maison-de-radio-france-2674/ina-grm-akousma-3333095
- .html
-URL:https://www.offi.fr/concerts/maison-de-radio-france-2674/ina-grm-akou
- sma-3333095.html
+UID:steina-playback-haus-der-kunst@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
+SUMMARY:Последний день: Steina: Playback
+LOCATION:Haus der Kunst\, Nordgalerie\, Prinzregentenstraße 1\, 80538 M
+ ünchen\, Мюнхен\, Германия
+DESCRIPTION:Первая большая ретроспектива в Г
+ ермании исландской пионерки видео- и ме
+ диаискусства Стейны Васулки.\nСтейна Ва
+ сулка\nhttps://www.hausderkunst.de/uploads/newsroom/Ausstellungen-un
+ d-Veranstaltungen/2026/2600_annual-preview/PDFs/HDK_Annual-Programme-2026
+ _EN_press.pdf
+URL:https://doublebasskakov.github.io/radar/#e=steina-playback-haus-der-k
+ unst
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:INA GRM: Akousma & Live Electronics
@@ -420,7 +621,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wien-modern-2026@afisha-art
-DTSTAMP:20261113T091905Z
+DTSTAMP:20261113T093415Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Последний день: Wien Modern 39: Ecosystems for Liste
@@ -486,7 +687,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:hcmf-2026@afisha-art
-DTSTAMP:20261113T091905Z
+DTSTAMP:20261113T093415Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:Открытие: hcmf// 2026 Huddersfield Contemporary Music Fes
@@ -508,20 +709,18 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:mutek-montreal-2027@afisha-art
-DTSTAMP:20261113T091905Z
-DTSTART;VALUE=DATE:20270824
-DTEND;VALUE=DATE:20270830
-SUMMARY:MUTEK Montréal 2027: Sensitive Waves
-LOCATION:Quartier des spectacles и др.\, Монреаль\, Канад
- а
-DESCRIPTION:28-й MUTEK в Монреале — родоначальни
- к сети фестивалей аудиовизуального иск
- усства. Тема «Чувствительные волны» — о
-  восприятии и связи между людьми.\n\nhttps://m
- ontreal.mutek.org/en/news/mutek-montreal-edition-28-sensitive-waves
-URL:https://montreal.mutek.org/en/news/mutek-montreal-edition-28-sensitiv
- e-waves
+UID:ultraschall-berlin-2027@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270125
+SUMMARY:Ultraschall Berlin 2027
+LOCATION:Haus des Rundfunks\, Heimathafen Neukölln\, Radialsystem\, Бе
+ рлин\, Германия
+DESCRIPTION:Пять вечеров новой академической
+  музыки — фестиваль Deutschlandfunk Kultur и rbb radio3
+ .\n\nhttps://www.berlin.de/en/events/6416655-2842498-ultraschall-berlin-f
+ estival-for-new-musi.en.html
+URL:https://doublebasskakov.github.io/radar/#e=ultraschall-berlin-2027
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:MUTEK Montréal 2027: Sensitive Waves
@@ -529,19 +728,18 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:mutek-jp-2026@afisha-art
-DTSTAMP:20261113T091905Z
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261124
-SUMMARY:MUTEK.JP 2026
-LOCATION:MoN Takanawa: The Museum of Narratives\, Takanawa Gateway City\,
-  Токио\, Япония
-DESCRIPTION:Токийская редакция MUTEK — фестива
- ля электронной музыки и цифрового искус
- ства — впервые проходит в новом музее MoN
-  Takanawa и длится четыре дня.\n\nhttps://tokyo.mutek.org
- /en/news/mutek-jp-2026-edition-11
-URL:https://tokyo.mutek.org/en/news/mutek-jp-2026-edition-11
+UID:maerzmusik-2027@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20270312
+DTEND;VALUE=DATE:20270313
+SUMMARY:Открытие: MaerzMusik 2027
+LOCATION:Haus der Berliner Festspiele\, Radialsystem\, silent green\, HKW
+ \, Schaperstraße 24\, 10719 Berlin\, Берлин\, Германия
+DESCRIPTION:Фестиваль современной музыки Berlin
+ er Festspiele\, исследующий отношения звука и 
+ времени.\nBerliner Festspiele\nhttps://www.visitberlin.de/de/event
+ /maerzmusik-2027
+URL:https://doublebasskakov.github.io/radar/#e=maerzmusik-2027
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:MUTEK.JP 2026
@@ -549,21 +747,19 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:whitney-lichtenstein-like-new@afisha-art
-DTSTAMP:20261113T091905Z
-DTSTART;VALUE=DATE:20270510
-DTEND;VALUE=DATE:20270511
-SUMMARY:Последний день: Roy Lichtenstein: Like New
-LOCATION:Whitney Museum of American Art\, 99 Gansevoort St\, New York\, N
- Y 10014\, Нью-Йорк\, США
-DESCRIPTION:Первая большая нью-йоркская ретр
- оспектива Лихтенштейна с 1993 года: 130 раб
- от и реконструкция его первой выставки 1
- 962 года у Лео Кастелли.\nКураторы Мег Онл
- и и Алекс Да Корте\nhttps://www.6sqft.com/nycs-first-major-
- roy-lichtenstein-retrospective-since-1993-now-on-view-at-the-whitney/
-URL:https://www.6sqft.com/nycs-first-major-roy-lichtenstein-retrospective
- -since-1993-now-on-view-at-the-whitney/
+UID:rewire-2027@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20270408
+DTEND;VALUE=DATE:20270412
+SUMMARY:Rewire 2027
+LOCATION:Koninklijke Schouwburg\, West Den Haag\, PAARD и др.\, Гаа
+ га\, Нидерланды
+DESCRIPTION:Гаагский фестиваль эксперимента
+ льной и электронной музыки\, звукового и
+ скусства и перформанса в центре города.\
+ nДиаманда Галас и др.\nhttps://www.rewirefestival.nl/info
+ 2027
+URL:https://doublebasskakov.github.io/radar/#e=rewire-2027
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Последний день: Roy Lichtenstein: Like New
@@ -571,32 +767,257 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:bangkok-art-biennale-2026@afisha-art
-DTSTAMP:20261113T091905Z
-DTSTART;VALUE=DATE:20270228
-DTEND;VALUE=DATE:20270301
-SUMMARY:Последний день: Bangkok Art Biennale 2026: Angels & 
- Mara
-LOCATION:Wat Arun\, Wat Pho\, BACC\, One Bangkok и др.\, Бангко
- к\, Таиланд
-DESCRIPTION:Пятая Бангкокская биеннале на те
- му «Ангелы и Мара» размещает современно
- е искусство в храмах Ват Арун и Ват Пхо\, 
- музеях и торговых центрах.\n\nhttps://www.tatnews.o
- rg/2026/09/tat-spotlights-bangkok-art-biennale-2026-as-a-contemporary-cit
- ywide-art-experience/
-URL:https://www.tatnews.org/2026/09/tat-spotlights-bangkok-art-biennale-2
- 026-as-a-contemporary-citywide-art-experience/
+UID:holland-festival-2027@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20270603
+DTEND;VALUE=DATE:20270604
+SUMMARY:Открытие: Holland Festival 2027
+LOCATION:Площадки Амстердама\, Амстердам\, Н
+ идерланды
+DESCRIPTION:80-й Голландский фестиваль — глав
+ ный международный фестиваль исполнител
+ ьских искусств Нидерландов: музыка\, теа
+ тр\, танец и мультимедиа.\n\nhttps://hollandfestival.n
+ l/en/holland-festival-concludes-with-world-class-performances-and-the-nex
+ t-generation-of-artists
+URL:https://doublebasskakov.github.io/radar/#e=holland-festival-2027
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Последний день: Bangkok Art Biennale 2026: Angel
- s & Mara
+DESCRIPTION:Открытие: Holland Festival 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:darmstadt-summer-course-2027@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20270710
+DTEND;VALUE=DATE:20270711
+SUMMARY:Открытие: Darmstädter Ferienkurse 2027
+LOCATION:Кампус Ferienkurse\, Дармштадт\, Германия
+DESCRIPTION:Легендарные Дармштадтские летни
+ е курсы новой музыки: фестиваль\, мастер-
+ классы и концерты. Программа будет объя
+ влена в конце апреля.\nInternationales Musikinstitut Dar
+ mstadt\nhttps://internationales-musikinstitut.de/en/ferienkurse/teilnehme
+ n/termine
+URL:https://doublebasskakov.github.io/radar/#e=darmstadt-summer-course-20
+ 27
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Darmstädter Ferienkurse 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:iscm-wnmd-2027@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20271009
+DTEND;VALUE=DATE:20271010
+SUMMARY:Открытие: ISCM World New Music Days 2027
+LOCATION:Вильнюс (основная программа)\, Каун
+ ас (пролог)\, Вильнюс\, Литва
+DESCRIPTION:Всемирные дни новой музыки ISCM про
+ йдут в Литве: пролог в Каунасе 9–10 октяб
+ ря\, основная программа в Вильнюсе.\nISCM\, 
+ Литовская секция\nhttps://iscm.org/wnmd/2027-lithuania/
+URL:https://doublebasskakov.github.io/radar/#e=iscm-wnmd-2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: ISCM World New Music Days 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:festival-automne-paris-2026@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:Последний день: Festival d'Automne à Paris 2026
+LOCATION:Театры и площадки Парижа\, Париж\, Ф
+ ранция
+DESCRIPTION:Осенний фестиваль — многомесячн
+ ый смотр современного театра\, танца\, му
+ зыки и пластических искусств в Париже и 
+ пригородах.\n\nhttps://www.offi.fr/theatre/festival/festival-da
+ utomne-a-paris-9034.html
+URL:https://doublebasskakov.github.io/radar/#e=festival-automne-paris-202
+ 6
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Festival d'Automne à Paris 2026
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:paris-photo-2026@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261116
+SUMMARY:Paris Photo 2026
+LOCATION:Grand Palais\, 3 Avenue du Général Eisenhower\, 75008 Paris\, 
+ Париж\, Франция
+DESCRIPTION:Крупнейшая в мире ярмарка фотогр
+ афии в Гран-Пале.\n\nhttps://www.sortiraparis.com/en/what-to
+ -do-in-paris/shows-and-fairs/articles/54626-paris-photo-2022-returns-to-t
+ he-grand-palais-ephemere
+URL:https://doublebasskakov.github.io/radar/#e=paris-photo-2026
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Paris Photo 2026
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:frieze-abu-dhabi-2026@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261123
+SUMMARY:Frieze Abu Dhabi 2026
+LOCATION:Manarat Al Saadiyat\, Абу-Даби\, ОАЭ
+DESCRIPTION:Первая ярмарка Frieze на Ближнем Вос
+ токе\, пришедшая на смену Abu Dhabi Art\, в куль
+ турном квартале Саадият.\nБолее 80 галере
+ й\nhttps://www.frieze.com/article/frieze-abu-dhabi-reveals-global-line-s
+ haped-region-its-inaugural-edition
+URL:https://doublebasskakov.github.io/radar/#e=frieze-abu-dhabi-2026
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Frieze Abu Dhabi 2026
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:art-basel-miami-beach-2026@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261207
+SUMMARY:Art Basel Miami Beach 2026
+LOCATION:Miami Beach Convention Center\, Майами-Бич\, США
+DESCRIPTION:Главная арт-ярмарка Америк\; VIP-дн
+ и 2–3 декабря\, вокруг — неделя ярмарок-с
+ путников и выставок.\n\nhttps://www.artbasel.com/miami-b
+ each/at-the-show
+URL:https://doublebasskakov.github.io/radar/#e=art-basel-miami-beach-2026
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Art Basel Miami Beach 2026
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:art-basel-qatar-2027@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20270128
+DTEND;VALUE=DATE:20270131
+SUMMARY:Art Basel Qatar 2027: Between
+LOCATION:Doha Design District\, Msheireb Downtown\, Доха\, Катар
+DESCRIPTION:Второй выпуск Art Basel в Дохе на тему
+  «Между»\; программа охватывает музеи\, г
+ алереи и общественные пространства Кат
+ ара.\nАрт-директор Вассан аль-Худаири\nhttp
+ s://qna.org.qa/en/News-Area/News/2026-10/27/chairperson-of-qatar-museums-
+ announces-details-of-art-basel-qatar-2027
+URL:https://doublebasskakov.github.io/radar/#e=art-basel-qatar-2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Art Basel Qatar 2027: Between
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:art-basel-hong-kong-2027@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20270325
+DTEND;VALUE=DATE:20270328
+SUMMARY:Art Basel Hong Kong 2027
+LOCATION:Hong Kong Convention and Exhibition Centre\, Гонконг\, Г
+ онконг (Китай)
+DESCRIPTION:Крупнейшая арт-ярмарка Азии\; в эт
+ и дни Гонконг живёт неделей искусства с 
+ выставками в M+ и галереях.\n\nhttps://artbasel.com/h
+ ong-kong/at-the-show
+URL:https://doublebasskakov.github.io/radar/#e=art-basel-hong-kong-2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Art Basel Hong Kong 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:art-dubai-2027@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20270407
+DTEND;VALUE=DATE:20270412
+SUMMARY:Art Dubai 2027
+LOCATION:Madinat Jumeirah\, Дубай\, ОАЭ
+DESCRIPTION:Главная ярмарка Ближнего Востока
+  и Южной Азии с секциями современного\, м
+ одернистского и цифрового искусства.\n\nh
+ ttps://artdubai.ae/art-dubai-fair/
+URL:https://doublebasskakov.github.io/radar/#e=art-dubai-2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Art Dubai 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:frieze-new-york-2027@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20270512
+DTEND;VALUE=DATE:20270517
+SUMMARY:Frieze New York 2027
+LOCATION:The Shed\, Hudson Yards\, Нью-Йорк\, США
+DESCRIPTION:Нью-йоркская ярмарка Frieze в культу
+ рном центре The Shed.\n\nhttps://www.frieze.com/article/applica
+ tions-frieze-new-york-2027-now-open
+URL:https://doublebasskakov.github.io/radar/#e=frieze-new-york-2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Frieze New York 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:art-basel-2027@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20270617
+DTEND;VALUE=DATE:20270621
+SUMMARY:Art Basel 2027
+LOCATION:Messe Basel\, Messeplatz 10\, 4058 Basel\, Базель\, Шве
+ йцария
+DESCRIPTION:Главная арт-ярмарка мира: около 300
+  галерей\, секция Unlimited с монументальным
+ и работами и параллельные ярмарки Liste и D
+ esign Miami.\n\nhttps://www.artbasel.com/art-basel-shop
+URL:https://doublebasskakov.github.io/radar/#e=art-basel-2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Art Basel 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:art-basel-paris-2027@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20271022
+DTEND;VALUE=DATE:20271025
+SUMMARY:Art Basel Paris 2027
+LOCATION:Grand Palais\, Париж\, Франция
+DESCRIPTION:Парижская ярмарка Art Basel под стекл
+ янным куполом Гран-Пале и программа в го
+ родских музеях.\n\nhttps://www.artbasel.com/paris/visitor-in
+ formation/partner-cultural-institutions
+URL:https://doublebasskakov.github.io/radar/#e=art-basel-paris-2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Art Basel Paris 2027
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tate-atoui-hold@afisha-art
-DTSTAMP:20261113T091905Z
+DTSTAMP:20261113T093415Z
 DTSTART;VALUE=DATE:20270411
 DTEND;VALUE=DATE:20270412
 SUMMARY:Последний день: Hyundai Commission: Tarek Atoui. Hol
@@ -619,8 +1040,110 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:tate-le-parc@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20270503
+DTEND;VALUE=DATE:20270504
+SUMMARY:Последний день: Julio Le Parc: Light. Colour. Action
+ .
+LOCATION:Tate Modern\, Bankside\, London SE1 9TG\, Лондон\, Вел
+ икобритания
+DESCRIPTION:Ретроспектива аргентинского пио
+ нера кинетического и оп-арта с интеракт
+ ивными световыми средами.\nХулио Ле Парк
+ \nhttps://tate.org.uk/press/press-releases/tate-announces-2026-exhibition
+ -highlights
+URL:https://doublebasskakov.github.io/radar/#e=tate-le-parc
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Julio Le Parc: Light. Colour. Ac
+ tion.
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:tate-frida@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+SUMMARY:Последний день: Frida: The Making of an Icon
+LOCATION:Tate Modern\, Bankside\, London SE1 9TG\, Лондон\, Вел
+ икобритания
+DESCRIPTION:Выставка о том\, как Фрида Кало пр
+ евратилась в глобальную икону\, и о её вл
+ иянии на художников последующих поколе
+ ний.\nФрида Кало\nhttps://tate.org.uk/press/press-releases/ta
+ te-announces-2026-exhibition-highlights
+URL:https://doublebasskakov.github.io/radar/#e=tate-frida
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Frida: The Making of an Icon
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:tate-mendieta@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:Последний день: Ana Mendieta
+LOCATION:Tate Modern\, Bankside\, London SE1 9TG\, Лондон\, Вел
+ икобритания
+DESCRIPTION:Большая выставка кубино-американ
+ ской художницы\, соединявшей перформанс
+ \, ленд-арт и фотографию.\nАна Мендьета\nhtt
+ ps://tate.org.uk/press/press-releases/tate-announces-2026-exhibition-high
+ lights
+URL:https://doublebasskakov.github.io/radar/#e=tate-mendieta
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Ana Mendieta
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:tate-monet-painting-time@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20270225
+DTEND;VALUE=DATE:20270226
+SUMMARY:Открытие: Monet: Painting Time
+LOCATION:Tate Modern\, Bankside\, London SE1 9TG\, Лондон\, Вел
+ икобритания
+DESCRIPTION:Первая выставка Моне в Тейт Модер
+ н — о времени\, серийности и изменчивом 
+ свете в его живописи.\nКлод Моне\nhttps://www.ti
+ meout.com/london/news/monet-painting-time-tate-modern-launch-date-2027-09
+ 1626
+URL:https://doublebasskakov.github.io/radar/#e=tate-monet-painting-time
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Monet: Painting Time
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:tate-nalini-malani@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20270701
+DTEND;VALUE=DATE:20270702
+SUMMARY:Открытие: Nalini Malani
+LOCATION:Tate Modern\, Bankside\, London SE1 9TG\, Лондон\, Вел
+ икобритания
+DESCRIPTION:Обзорная выставка индийской худо
+ жницы\, известной видеоинсталляциями и 
+ «теневыми» проекциями.\nНалини Малани\nht
+ tps://www.theartnewspaper.com/2026/03/16/tate-announces-major-david-hockn
+ ey-edvard-munch-and-sonia-boyce-exhibitions-for-2027
+URL:https://doublebasskakov.github.io/radar/#e=tate-nalini-malani
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Nalini Malani
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:tate-britain-hockney@afisha-art
-DTSTAMP:20261113T091905Z
+DTSTAMP:20261113T093415Z
 DTSTART;VALUE=DATE:20271007
 DTEND;VALUE=DATE:20271008
 SUMMARY:Открытие: David Hockney
@@ -641,8 +1164,503 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:tate-munch@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20271111
+DTEND;VALUE=DATE:20271112
+SUMMARY:Открытие: Edvard Munch
+LOCATION:Tate Modern\, Bankside\, London SE1 9TG\, Лондон\, Вел
+ икобритания
+DESCRIPTION:Масштабная выставка Эдварда Мунк
+ а в Тейт Модерн.\nЭдвард Мунк\nhttps://www.theartne
+ wspaper.com/2026/03/16/tate-announces-major-david-hockney-edvard-munch-an
+ d-sonia-boyce-exhibitions-for-2027
+URL:https://doublebasskakov.github.io/radar/#e=tate-munch
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Edvard Munch
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:flv-gustave-fayet@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20270308
+DTEND;VALUE=DATE:20270309
+SUMMARY:Последний день: Gustave Fayet. Collectionneur — Cr
+ éateur
+LOCATION:Fondation Louis Vuitton\, 8 Avenue du Mahatma Gandhi\, 75116 Par
+ is\, Париж\, Франция
+DESCRIPTION:Новая глава цикла «Иконы совреме
+ нного искусства»: коллекция Гюстава Фай
+ е с шедеврами Гогена\, Ван Гога и Редона.\
+ nВан Гог\, Гоген\, Редон и др.\nhttps://www.e-flux.com
+ /announcements/6788103/gustave-fayetcollector-artist-designer
+URL:https://doublebasskakov.github.io/radar/#e=flv-gustave-fayet
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Gustave Fayet. Collectionneur 
+ — Créateur
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bourse-de-commerce-remember-me@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20270118
+DTEND;VALUE=DATE:20270119
+SUMMARY:Последний день: Remember Me
+LOCATION:Bourse de Commerce — Pinault Collection\, 2 Rue de Viarmes\, 7
+ 5001 Paris\, Париж\, Франция
+DESCRIPTION:Более 700 шедевров фотографии из К
+ оллекции Пино\; блок Ирвинга Пенна откры
+ т до 10 января.\nИрвинг Пенн и др.\, Коллекц
+ ия Пино\nhttps://www.sortiraparis.com/en/what-to-visit-in-paris/exh
+ ibit-museum/articles/346413-remember-me-more-than-700-photographic-master
+ pieces-from-the-pinault-collection-on-display-at-the-bourse-de-commerce
+URL:https://doublebasskakov.github.io/radar/#e=bourse-de-commerce-remembe
+ r-me
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Remember Me
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hamburger-bahnhof-sophie-calle@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Открытие: Sophie Calle: Is It Better?
+LOCATION:Hamburger Bahnhof – Nationalgalerie der Gegenwart\, Invalidens
+ traße 50–51\, 10557 Berlin\, Берлин\, Германия
+DESCRIPTION:Большая выставка французской худ
+ ожницы\, соединяющей фотографию\, текст 
+ и личные истории.\nСофи Калль\nhttps://www.smb.mus
+ eum/en/exhibitions/preview/hamburger-bahnhof-nationalgalerie-der-gegenwar
+ t/
+URL:https://doublebasskakov.github.io/radar/#e=hamburger-bahnhof-sophie-c
+ alle
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Sophie Calle: Is It Better?
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:neue-nationalgalerie-cattelan@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
+SUMMARY:Последний день: Maurizio Cattelan. NIGHT
+LOCATION:Neue Nationalgalerie\, Potsdamer Straße 50\, 10785 Berlin\, Б
+ ерлин\, Германия
+DESCRIPTION:Выставка провокатора Маурицио Ка
+ ттелана в стеклянном павильоне Мис ван 
+ дер Роэ.\nМаурицио Каттелан\nhttps://www.smb.museum
+ /en/exhibitions/detail/maurizio-cattelan-night/
+URL:https://doublebasskakov.github.io/radar/#e=neue-nationalgalerie-catte
+ lan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Maurizio Cattelan. NIGHT
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:neue-nationalgalerie-ruin-and-rush@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+SUMMARY:Последний день: Ruin and Rush. Berlin 1910–1930
+LOCATION:Neue Nationalgalerie\, Potsdamer Straße 50\, 10785 Berlin\, Б
+ ерлин\, Германия
+DESCRIPTION:Около 35 работ классического моде
+ рна о Берлине эпохи Первой мировой и Вей
+ марской республики — от ночной жизни до
+  нищеты.\nОтто Дикс и др.\nhttps://www.smb.museum/en/exh
+ ibitions/detail/ruin-and-rush/
+URL:https://doublebasskakov.github.io/radar/#e=neue-nationalgalerie-ruin-
+ and-rush
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Ruin and Rush. Berlin 1910–193
+ 0
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gropius-bau-schlingensief@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+SUMMARY:Последний день: Christoph Schlingensief: Es ist nich
+ t mehr mein Problem\, macht eure Scheiße alleine
+LOCATION:Gropius Bau\, Niederkirchnerstraße 7\, 10963 Berlin\, Берл
+ ин\, Германия
+DESCRIPTION:Выставка о режиссёре и художнике-
+ провокаторе Кристофе Шлингензифе — кин
+ о\, театр\, акции и инсталляции.\nКристоф 
+ Шлингензиф\nhttps://www.berlinerfestspiele.de/en/gropius-bau/pr
+ ogramm/2026/ausstellungen
+URL:https://doublebasskakov.github.io/radar/#e=gropius-bau-schlingensief
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Christoph Schlingensief: Es ist 
+ nicht mehr mein Problem\, macht eure Scheiße alleine
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gropius-bau-kreuzberg@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+SUMMARY:Последний день: Kreuzberg: Kunst und Migration seit 
+ 1960
+LOCATION:Gropius Bau\, Niederkirchnerstraße 7\, 10963 Berlin\, Берл
+ ин\, Германия
+DESCRIPTION:Выставка о том\, как мигранты сфор
+ мировали художественную жизнь берлинск
+ ого района Кройцберг с 1960-х.\n\nhttps://www.berline
+ rfestspiele.de/en/gropius-bau/programm/2026/ausstellungen
+URL:https://doublebasskakov.github.io/radar/#e=gropius-bau-kreuzberg
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Kreuzberg: Kunst und Migration s
+ eit 1960
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:haus-der-kunst-saraceno@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+SUMMARY:Последний день: Tomás Saraceno
+LOCATION:Haus der Kunst\, Ostgalerie & Mittelhalle\, Prinzregentenstraße
+  1\, 80538 München\, Мюнхен\, Германия
+DESCRIPTION:Паутины\, воздушные скульптуры и 
+ проект Aerocene\, а также новая работа\, созд
+ анная с коренными общинами Салинас-Гран
+ дес в Аргентине.\nТомас Сарацено\nhttps://www.h
+ ausderkunst.de/uploads/newsroom/Ausstellungen-und-Veranstaltungen/2026/26
+ 00_annual-preview/PDFs/HDK_Annual-Programme-2026_EN_press.pdf
+URL:https://doublebasskakov.github.io/radar/#e=haus-der-kunst-saraceno
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Tomás Saraceno
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:haus-der-kunst-diane-severin-nguyen@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Открытие: Diane Severin Nguyen
+LOCATION:Haus der Kunst\, Südgalerie & Mittelhalle\, Prinzregentenstraß
+ e 1\, 80538 München\, Мюнхен\, Германия
+DESCRIPTION:Выставка американской художницы\
+ , работающей с фотографией и видео на ст
+ ыке поп-культуры и политики.\nДайан Севе
+ рин Нгуен\nhttps://www.hausderkunst.de/uploads/newsroom/Ausstellu
+ ngen-und-Veranstaltungen/2026/2600_annual-preview/PDFs/HDK_Annual-Program
+ me-2026_EN_press.pdf
+URL:https://doublebasskakov.github.io/radar/#e=haus-der-kunst-diane-sever
+ in-nguyen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Diane Severin Nguyen
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:stedelijk-yayoi-kusama@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+SUMMARY:Последний день: Yayoi Kusama
+LOCATION:Stedelijk Museum\, Museumplein 10\, 1071 DJ Amsterdam\, Амст
+ ердам\, Нидерланды
+DESCRIPTION:Ретроспектива Яёи Кусамы за семь 
+ десятилетий: живопись\, инсталляции\, мо
+ да и хеппенинги\, в том числе работы\, впе
+ рвые показанные в Европе.\nЯёи Кусама\; к
+ уратор Леонтин Куэлевей\nhttps://stedelijk.nl/en/exh
+ ibitions/yayoi-kusama-en
+URL:https://doublebasskakov.github.io/radar/#e=stedelijk-yayoi-kusama
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Yayoi Kusama
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:beyeler-ruth-asawa@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:Последний день: Ruth Asawa
+LOCATION:Fondation Beyeler\, Baselstrasse 101\, 4125 Riehen\, Рихен 
+ (Базель)\, Швейцария
+DESCRIPTION:Подвесные проволочные скульптур
+ ы американской модернистки Рут Асавы.\nР
+ ут Асава\nhttps://www.fondationbeyeler.ch/en/exhibitions/
+URL:https://doublebasskakov.github.io/radar/#e=beyeler-ruth-asawa
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Ruth Asawa
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:beyeler-frida-kahlo@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:Открытие: Frida Kahlo
+LOCATION:Fondation Beyeler\, Baselstrasse 101\, 4125 Riehen\, Рихен 
+ (Базель)\, Швейцария
+DESCRIPTION:Выставка Фриды Кало в Фонде Бейел
+ ер.\nФрида Кало\nhttps://www.fondationbeyeler.ch/en/exhibition
+ s/
+URL:https://doublebasskakov.github.io/radar/#e=beyeler-frida-kahlo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Frida Kahlo
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:beyeler-louise-bourgeois@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20270613
+DTEND;VALUE=DATE:20270614
+SUMMARY:Открытие: Louise Bourgeois
+LOCATION:Fondation Beyeler\, Baselstrasse 101\, 4125 Riehen\, Рихен 
+ (Базель)\, Швейцария
+DESCRIPTION:Выставка Луизы Буржуа\, совпадающ
+ ая по времени с Art Basel.\nЛуиза Буржуа\nhttps://
+ www.fondationbeyeler.ch/en/exhibitions/
+URL:https://doublebasskakov.github.io/radar/#e=beyeler-louise-bourgeois
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Louise Bourgeois
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:moma-brancusi@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20270227
+DTEND;VALUE=DATE:20270228
+SUMMARY:Последний день: Brancusi: The Artist and His Studio
+LOCATION:MoMA\, 6-й этаж\, 11 W 53rd St\, New York\, NY 10019\, Нь
+ ю-Йорк\, США
+DESCRIPTION:Весь шестой этаж MoMA занимает Бран
+ кузи: редкие скульптуры\, мебель\, фильмы
+  и предметы из его мастерской\, привезён
+ ные из Центра Помпиду.\nКонстантин Бранк
+ узи\nhttps://press.moma.org/exhibition/brancusi-the-artist-and-his-stu
+ dio/
+URL:https://doublebasskakov.github.io/radar/#e=moma-brancusi
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Brancusi: The Artist and His Stu
+ dio
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:whitney-lichtenstein-like-new@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20270510
+DTEND;VALUE=DATE:20270511
+SUMMARY:Последний день: Roy Lichtenstein: Like New
+LOCATION:Whitney Museum of American Art\, 99 Gansevoort St\, New York\, N
+ Y 10014\, Нью-Йорк\, США
+DESCRIPTION:Первая большая нью-йоркская ретр
+ оспектива Лихтенштейна с 1993 года: 130 раб
+ от и реконструкция его первой выставки 1
+ 962 года у Лео Кастелли.\nКураторы Мег Онл
+ и и Алекс Да Корте\nhttps://www.6sqft.com/nycs-first-major-
+ roy-lichtenstein-retrospective-since-1993-now-on-view-at-the-whitney/
+URL:https://doublebasskakov.github.io/radar/#e=whitney-lichtenstein-like-
+ new
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Roy Lichtenstein: Like New
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:guggenheim-taryn-simon@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20270314
+DTEND;VALUE=DATE:20270315
+SUMMARY:Последний день: Taryn Simon
+LOCATION:Solomon R. Guggenheim Museum\, Rotunda\, 1071 5th Ave\, New York
+ \, NY 10128\, Нью-Йорк\, США
+DESCRIPTION:Новая инсталляция Тарин Саймон з
+ аполняет ротонду Райта: фотография\, тек
+ ст\, видео и скульптура.\nТарин Саймон\nhttp
+ s://www.guggenheim.org/wp-content/uploads/2025/10/press-release-srgm-2026
+ -schedule-of-exhibitions-10092025.pdf
+URL:https://doublebasskakov.github.io/radar/#e=guggenheim-taryn-simon
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Taryn Simon
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:guggenheim-pop@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:Последний день: Guggenheim Pop: 1960 to Now
+LOCATION:Solomon R. Guggenheim Museum\, 1071 5th Ave\, New York\, NY 1012
+ 8\, Нью-Йорк\, США
+DESCRIPTION:Поп-арт и его наследие из коллекц
+ ии Гуггенхайма — от 1960-х до наших дней.\n\
+ nhttps://www.guggenheim.org/wp-content/uploads/2025/10/press-release-srgm
+ -2026-schedule-of-exhibitions-10092025.pdf
+URL:https://doublebasskakov.github.io/radar/#e=guggenheim-pop
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Guggenheim Pop: 1960 to Now
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:new-museum-arthur-jafa@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+SUMMARY:Последний день: Arthur Jafa: I Am Tony
+LOCATION:New Museum\, 235 Bowery\, New York\, NY 10002\, Нью-Йорк\
+ , США
+DESCRIPTION:Первая обзорная музейная выставк
+ а в США режиссёра и видеохудожника Арту
+ ра Джафы.\nАртур Джафа\nhttps://www.theartnewspaper.com/
+ 2026/09/21/autumn-2026-exhibitions-new-york-city-moma-met-ps1-grey-art-mu
+ seum-new-museum
+URL:https://doublebasskakov.github.io/radar/#e=new-museum-arthur-jafa
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Arthur Jafa: I Am Tony
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:guggenheim-abu-dhabi-opening@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:Открытие Guggenheim Abu Dhabi
+LOCATION:Guggenheim Abu Dhabi\, Saadiyat Cultural District\, Абу-Да
+ би\, ОАЭ
+DESCRIPTION:Открывается крупнейший музей сет
+ и Гуггенхайма по проекту Фрэнка Гери. Ко
+ ллекция современного искусства с 1960-х —
+  Поллок\, Ротко\, Уорхол\, Баския.\nАрхитек
+ тор Фрэнк Гери\nhttps://thenationalnews.com/arts-culture/2026
+ /07/28/guggenheim-abu-dhabi-opening-date/
+URL:https://doublebasskakov.github.io/radar/#e=guggenheim-abu-dhabi-openi
+ ng
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие Guggenheim Abu Dhabi
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:louvre-abu-dhabi-art-here-2026@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:Последний день: Art Here 2026: Confluences
+LOCATION:Louvre Abu Dhabi\, Абу-Даби\, ОАЭ
+DESCRIPTION:Шестая выставка современного иск
+ усства художников стран Персидского за
+ лива и Индии с вручением премии Richard Mille.\
+ nКуратор Камини Сони\; Richard Mille Art Prize\nhttps://
+ www.mediaoffice.abudhabi/en/arts-culture/louvre-abu-dhabi-announces-calen
+ dar-of-events-and-exhibitions-for-2026-2027-season/
+URL:https://doublebasskakov.github.io/radar/#e=louvre-abu-dhabi-art-here-
+ 2026
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Art Here 2026: Confluences
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:arter-work-in-progress@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20270314
+DTEND;VALUE=DATE:20270315
+SUMMARY:Последний день: Yapım Aşamasında / Work in Progre
+ ss
+LOCATION:ARTER\, Irmak Caddesi No: 13\, Dolapdere\, Beyoğlu\, İstanbul\
+ , Стамбул\, Турция
+DESCRIPTION:Групповая выставка 27 художников 
+ из коллекции Arter\, вторая глава которой о
+ ткрылась в октябре. Вход свободный.\nКур
+ атор Эмре Байкал\; Джевдет Эрек\, Айше Эр
+ кмен\, Саркис и др.\nhttps://www.e-flux.com/announcements/67
+ 86373/work-in-progress
+URL:https://doublebasskakov.github.io/radar/#e=arter-work-in-progress
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Yapım Aşamasında / Work in Pr
+ ogress
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mplus-myths-and-monsters@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20270404
+DTEND;VALUE=DATE:20270405
+SUMMARY:Последний день: Myths and Monsters: The Art of Fanta
+ sy in Asia
+LOCATION:M+\, Гонконг\, Гонконг (Китай)
+DESCRIPTION:Двести лет азиатской фантастики 
+ и мифологии — от гравюр до аниме и видео
+ игр.\n\nhttps://www.timeout.com/hong-kong/news/m-explores-200-years-of
+ -asian-fantasy-and-pre-modern-mythology-in-their-newest-exhibition-100626
+URL:https://doublebasskakov.github.io/radar/#e=mplus-myths-and-monsters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Myths and Monsters: The Art of F
+ antasy in Asia
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mori-mariko-mori@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20270328
+DTEND;VALUE=DATE:20270329
+SUMMARY:Последний день: Mariko Mori: All That Shines
+LOCATION:Mori Art Museum\, 53F Roppongi Hills Mori Tower\, 6-10-1 Roppong
+ i\, Minato-ku\, Tokyo\, Токио\, Япония
+DESCRIPTION:Первая за 20 лет большая ретроспек
+ тива Марико Мори в Японии — 30 лет футури
+ стических видений.\nМарико Мори\nhttps://metrop
+ olisjapan.com/events/mariko-mori-all-that-shines/
+URL:https://doublebasskakov.github.io/radar/#e=mori-mariko-mori
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Mariko Mori: All That Shines
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:mori-world-is-made-of-play@afisha-art
-DTSTAMP:20261113T091905Z
+DTSTAMP:20261113T093415Z
 DTSTART;VALUE=DATE:20270429
 DTEND;VALUE=DATE:20270430
 SUMMARY:Открытие: 世界はあそびでできている：アー
@@ -665,29 +1683,47 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:cafesjian-qarpet@afisha-art
-DTSTAMP:20261113T091905Z
-DTSTART;VALUE=DATE:20261212
-DTEND;VALUE=DATE:20261213
-SUMMARY:Последний день: Qarpet
-LOCATION:Cafesjian Center for the Arts\, галерея «Сасунци 
- Давид»\, ул. Таманяна\, 10\, Ереван\, Ереван\
- , Армения
-DESCRIPTION:Монументальные скульптуры\, соед
- иняющие образ хачкара с орнаментом армя
- нского ковра\, созданные художниками за 
- годы жизни в Армении.\nАлександр Никитин
- \, Дмитрий Бекетов\nhttps://cmf.am/en/exhibitions/qarpet
-URL:https://cmf.am/en/exhibitions/qarpet
+UID:ucca-john-baldessari@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+SUMMARY:Последний день: John Baldessari
+LOCATION:UCCA Beijing\, 798\, 798 Art District\, No. 4 Jiuxianqiao Lu\, B
+ eijing\, Пекин\, Китай
+DESCRIPTION:Выставка классика концептуально
+ го искусства Джона Балдессари в пекинск
+ ом районе 798.\nДжон Балдессари\nhttps://ucca.org.c
+ n/en/download/3/f/b/f68974-747779-18c780/2026%20Exhibition%20Programming%
+ 20PR_EN_FINAL.pdf
+URL:https://doublebasskakov.github.io/radar/#e=ucca-john-baldessari
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Последний день: Qarpet
+DESCRIPTION:Последний день: John Baldessari
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ucca-dune-katie-paterson@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20270411
+DTEND;VALUE=DATE:20270412
+SUMMARY:Последний день: Katie Paterson
+LOCATION:UCCA Dune\, Бэйдайхэ\, Китай
+DESCRIPTION:Шотландская художница\, работающ
+ ая с космосом и геологическим временем\,
+  в музее\, спрятанном в песчаных дюнах.\nК
+ эти Патерсон\nhttps://ucca.org.cn/en/download/3/f/b/f68974-747
+ 779-18c780/2026%20Exhibition%20Programming%20PR_EN_FINAL.pdf
+URL:https://doublebasskakov.github.io/radar/#e=ucca-dune-katie-paterson
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Katie Paterson
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tselinny-himoya@afisha-art
-DTSTAMP:20261113T091905Z
+DTSTAMP:20261113T093415Z
 DTSTART;VALUE=DATE:20270404
 DTEND;VALUE=DATE:20270405
 SUMMARY:Последний день: Himoya: Matrilineal Energies\, Oracu
@@ -710,21 +1746,20 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:gwangju-biennale-16@afisha-art
-DTSTAMP:20261113T091905Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:Последний день: 16th Gwangju Biennale: You Must Chan
- ge Your Life
-LOCATION:Gwangju Biennale Exhibition Hall\, Кванджу\, Южная 
- Корея
-DESCRIPTION:Старейшая биеннале Азии в этом го
- ду под руководством сингапурского худо
- жника Хо Цзы Няня. Последние дни работы 
- выставки.\nАрт-директор Хо Цзы Нянь\nhttps://
- www.e-flux.com/announcements/6787672/you-must-change-your-life
-URL:https://www.e-flux.com/announcements/6787672/you-must-change-your-lif
- e
+UID:cafesjian-qarpet@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Последний день: Qarpet
+LOCATION:Cafesjian Center for the Arts\, галерея «Сасунци 
+ Давид»\, ул. Таманяна\, 10\, Ереван\, Ереван\
+ , Армения
+DESCRIPTION:Монументальные скульптуры\, соед
+ иняющие образ хачкара с орнаментом армя
+ нского ковра\, созданные художниками за 
+ годы жизни в Армении.\nАлександр Никитин
+ \, Дмитрий Бекетов\nhttps://cmf.am/en/exhibitions/qarpet
+URL:https://doublebasskakov.github.io/radar/#e=cafesjian-qarpet
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Последний день: 16th Gwangju Biennale: You Must 
@@ -733,9 +1768,157 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:art-basel-qatar-2027@afisha-art
-DTSTAMP:20261113T091905Z
-DTSTART;VALUE=DATE:20270128
+UID:ircam-radigue-ecoute@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART:20261118T180000Z
+DTEND:20261118T200000Z
+SUMMARY:Les états de l'écoute: Элиана Радиг
+LOCATION:IRCAM\, зал Стравинского\, Париж\, Фран
+ ция
+DESCRIPTION:Встреча в IRCAM о слушании и музыке 
+ Элианы Радиг — пионерки электронного д
+ рона.\n\nhttps://www.ircam.fr/en/events/les-etats-de-lecoute-eliane-r
+ adigue
+URL:https://doublebasskakov.github.io/radar/#e=ircam-radigue-ecoute
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Les états de l'écoute: Элиана Радиг
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ircam-klangforum-saint-eustache@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART:20261130T190000Z
+DTEND:20261130T210000Z
+SUMMARY:Klangforum Wien × IRCAM
+LOCATION:Церковь Сент-Эсташ\, Париж\, Франция
+DESCRIPTION:Концерт сезона IRCAM в готической ц
+ еркви Сент-Эсташ: венский ансамбль ново
+ й музыки и электроника.\nKlangforum Wien\nhttps://www.
+ ircam.fr/en/events/klangforum-wien
+URL:https://doublebasskakov.github.io/radar/#e=ircam-klangforum-saint-eus
+ tache
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Klangforum Wien × IRCAM
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ircam-aho-ssan-studio-session@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART:20261209T180000Z
+DTEND:20261209T200000Z
+SUMMARY:Aho Ssan: Forum Studio Session #8
+LOCATION:IRCAM\, Studio 5 (и онлайн)\, Париж\, Франция
+DESCRIPTION:Французский электронщик Aho Ssan игр
+ ает пространственный сет в студии IRCAM\; в
+ ыступление транслируется онлайн.\nAho Ssan\n
+ https://www.ircam.fr/en/events/aho-ssan-forum-studio-session-8
+URL:https://doublebasskakov.github.io/radar/#e=ircam-aho-ssan-studio-sess
+ ion
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Aho Ssan: Forum Studio Session #8
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ircam-explosante-fixe-2027@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART:20270113T190000Z
+DTEND:20270113T210000Z
+SUMMARY:Булез: «…explosante-fixe…»
+LOCATION:Филармония Парижа\, Большой зал\, Па
+ риж\, Франция
+DESCRIPTION:Классика live electronics: «…explosante-fixe…» 
+ Булеза с электроникой реального времен
+ и IRCAM.\nEnsemble intercontemporain\, IRCAM\nhttps://www.ircam.fr/en/ev
+ ents/explosante-fixe
+URL:https://doublebasskakov.github.io/radar/#e=ircam-explosante-fixe-2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Булез: «…explosante-fixe…»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ircam-court-circuit-2027@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART:20270122T190000Z
+DTEND:20270122T210000Z
+SUMMARY:Ensemble Court-circuit в IRCAM
+LOCATION:IRCAM\, Espace de projection\, Париж\, Франция
+DESCRIPTION:Концерт с премьерами для ансамбл
+ я и электроники в легендарном зале с изм
+ еняемой акустикой.\nEnsemble Court-circuit\nhttps://www.i
+ rcam.fr/en/events/concert-court-circuit
+URL:https://doublebasskakov.github.io/radar/#e=ircam-court-circuit-2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ensemble Court-circuit в IRCAM
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ircam-action-man-ray@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART:20270130T190000Z
+DTEND:20270130T210000Z
+SUMMARY:Action! Man Ray
+LOCATION:Cité de la musique\, Salle des concerts\, Париж\, Фран
+ ция
+DESCRIPTION:Фильмы Ман Рэя с новой живой музы
+ кой и электроникой в программе IRCAM.\n\nhttps:
+ //www.ircam.fr/en/events/action-man-ray
+URL:https://doublebasskakov.github.io/radar/#e=ircam-action-man-ray
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Action! Man Ray
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ircam-forum-workshops-2027@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART:20270324T090000Z
+DTEND:20270324T110000Z
+SUMMARY:IRCAM Forum Workshops 2027
+LOCATION:IRCAM\, Париж\, Франция
+DESCRIPTION:Ежегодная встреча разработчиков 
+ и композиторов: новые инструменты IRCAM дл
+ я звука\, пространства и ИИ.\n\nhttps://www.ircam.fr
+ /en/events/ircam-forum-workshops
+URL:https://doublebasskakov.github.io/radar/#e=ircam-forum-workshops-2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:IRCAM Forum Workshops 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:grm-live-electronics-1-2027@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20270108
+DTEND;VALUE=DATE:20270109
+SUMMARY:INA GRM: Live Electronics #1
+LOCATION:Centquatre-Paris\, Париж\, Франция
+DESCRIPTION:Вечер живой электроники в сезоне 
+ Multiphonies 26–27 легендарной Группы музыкаль
+ ных исследований.\n\nhttps://inagrm.com/shift
+URL:https://doublebasskakov.github.io/radar/#e=grm-live-electronics-1-202
+ 7
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:INA GRM: Live Electronics #1
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:grm-bozar-acousmonium-2027@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20270127
 DTEND;VALUE=DATE:20270131
 SUMMARY:Art Basel Qatar 2027: Between
 LOCATION:Doha Design District\, Msheireb Downtown\, Доха\, Катар
@@ -1451,7 +2634,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:grm-presences-electronique-2027@afisha-art
-DTSTAMP:20261113T091905Z
+DTSTAMP:20261113T093415Z
 DTSTART;VALUE=DATE:20270219
 DTEND;VALUE=DATE:20270222
 SUMMARY:Фестиваль PRÉSENCES électronique 2027
@@ -1849,7 +3032,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:grm-focus-2027@afisha-art
-DTSTAMP:20261113T091905Z
+DTSTAMP:20261113T093415Z
 DTSTART;VALUE=DATE:20270416
 DTEND;VALUE=DATE:20270418
 SUMMARY:INA GRM: Focus
@@ -1864,8 +3047,48 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:grm-akousma-may-2027@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20270507
+DTEND;VALUE=DATE:20270510
+SUMMARY:INA GRM: Akousma & Live Electronics
+LOCATION:Maison de la Radio et de la Musique\, Studio 104\, Париж\, 
+ Франция
+DESCRIPTION:Финал сезона GRM: три концерта прем
+ ьер — акусматика на носителе и смешанны
+ е сочинения с инструменталистами.\n\nhttps:/
+ /www.offi.fr/concerts/maison-de-radio-france-2674/ina-grm-akousma-3333095
+ .html
+URL:https://doublebasskakov.github.io/radar/#e=grm-akousma-may-2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:INA GRM: Akousma & Live Electronics
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:adk-sample-hold-11@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART:20261125T190000Z
+DTEND:20261125T210000Z
+SUMMARY:sample&hold #11: Paul Purgas & Stefan Keller
+LOCATION:Akademie der Künste\, Pariser Platz\, Pariser Platz 4\, Бер
+ лин\, Германия
+DESCRIPTION:Серия Студии электроакустическо
+ й музыки Академии искусств: Пол Пургас п
+ оказывает заново открытую электронную 
+ музыку Индии начала 1970-х.\nPaul Purgas\, Stefan Kelle
+ r\, Andreas Fischer\nhttps://www.visitberlin.de/en/node/2293941
+URL:https://doublebasskakov.github.io/radar/#e=adk-sample-hold-11
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:sample&hold #11: Paul Purgas & Stefan Keller
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:jnme-strasbourg-2026@afisha-art
-DTSTAMP:20261113T091905Z
+DTSTAMP:20261113T093415Z
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261117
 SUMMARY:Résonances Électriques 2.0 / JNME
@@ -1884,8 +3107,27 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:helmca-ea-days-corfu-2026@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261123
+SUMMARY:Electroacoustic Music Days 2026
+LOCATION:Ионический университет\, Корфу\, Гр
+ еция
+DESCRIPTION:Фестиваль Ассоциации греческих к
+ омпозиторов-электроакустиков: концерты
+ \, акусматика и доклады.\nHELMCA\nhttps://electropresen
+ ce.com/en/liens/evenement?epoque=futur&page=1
+URL:https://doublebasskakov.github.io/radar/#e=helmca-ea-days-corfu-2026
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Electroacoustic Music Days 2026
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:carte-blanche-cologne-2026@afisha-art
-DTSTAMP:20261113T091905Z
+DTSTAMP:20261113T093415Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261207
 SUMMARY:Carte blanche Cologne

@@ -7,17 +7,22 @@ X-WR-CALNAME:Радар — Мир / World · picks
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:ircam-klangforum-saint-eustache@afisha-art
-DTSTAMP:20261113T091905Z
-DTSTART:20261130T190000Z
-DTEND:20261130T210000Z
-SUMMARY:Klangforum Wien × IRCAM
-LOCATION:Церковь Сент-Эсташ\, Париж\, Франция
-DESCRIPTION:Концерт сезона IRCAM в готической ц
- еркви Сент-Эсташ: венский ансамбль ново
- й музыки и электроника.\nKlangforum Wien\nhttps://www.
- ircam.fr/en/events/klangforum-wien
-URL:https://www.ircam.fr/en/events/klangforum-wien
+UID:venice-biennale-arte-2026@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Последний день: Biennale Arte 2026: In Minor Keys
+LOCATION:Giardini\, Arsenale\, Венеция\, Италия
+DESCRIPTION:61-я Венецианская биеннале соврем
+ енного искусства\, задуманная Койо Куох 
+ и доведённая до открытия её командой. По
+ следние дни\, чтобы увидеть основную выс
+ тавку и национальные павильоны\, включа
+ я павильоны Армении\, Казахстана и Узбек
+ истана.\nКуратор Койо Куох (реализовано 
+ её командой)\nhttps://www.labiennale.org/en/art/2026/61st-exhib
+ ition
+URL:https://doublebasskakov.github.io/radar/#e=venice-biennale-arte-2026
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Klangforum Wien × IRCAM
@@ -25,27 +30,52 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ircam-explosante-fixe-2027@afisha-art
-DTSTAMP:20261113T091905Z
-DTSTART:20270113T190000Z
-DTEND:20270113T210000Z
-SUMMARY:Булез: «…explosante-fixe…»
-LOCATION:Филармония Парижа\, Большой зал\, Па
- риж\, Франция
-DESCRIPTION:Классика live electronics: «…explosante-fixe…» 
- Булеза с электроникой реального времен
- и IRCAM.\nEnsemble intercontemporain\, IRCAM\nhttps://www.ircam.fr/en/ev
- ents/explosante-fixe
-URL:https://www.ircam.fr/en/events/explosante-fixe
+UID:venice-biennale-architettura-2027@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20270508
+DTEND;VALUE=DATE:20270509
+SUMMARY:Открытие: Biennale Architettura 2027: Do Architecture
+LOCATION:Giardini\, Arsenale\, Венеция\, Италия
+DESCRIPTION:20-я Венецианская архитектурная б
+ иеннале впервые курируют архитекторы и
+ з Китая. Тема — практическая архитектур
+ а и возможность сосуществования в реаль
+ ном мире\; предпоказ 6–7 мая.\nКураторы Ва
+ н Шу и Лу Вэньюй (Amateur Architecture Studio)\nhttps://www.l
+ abiennale.org/en/architecture/2027
+URL:https://doublebasskakov.github.io/radar/#e=venice-biennale-architettu
+ ra-2027
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Булез: «…explosante-fixe…»
+DESCRIPTION:Открытие: Biennale Architettura 2027: Do Architecture
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:documenta-16@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20270612
+DTEND;VALUE=DATE:20270613
+SUMMARY:Открытие: documenta 16
+LOCATION:Fridericianum и площадки по всему городу\,
+  Кассель\, Германия
+DESCRIPTION:Главная выставка современного ис
+ кусства раз в пять лет: 100 дней в Касселе.
+  Шестнадцатую documenta возглавляет Наоми Б
+ еквит из Музея Гуггенхайма с международ
+ ной кураторской командой.\nАрт-директор 
+ Наоми Беквит\nhttps://documenta.de/en/news/documenta-16-findet
+ -vom-12-juni-bis-zum-19-september-2027-statt
+URL:https://doublebasskakov.github.io/radar/#e=documenta-16
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: documenta 16
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:berlin-biennale-14@afisha-art
-DTSTAMP:20261113T091905Z
+DTSTAMP:20261113T093415Z
 DTSTART;VALUE=DATE:20270605
 DTEND;VALUE=DATE:20270606
 SUMMARY:Открытие: 14. Berlin Biennale: Central Europe Eastern Tim
@@ -70,8 +100,31 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:istanbul-biennial-19@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20270918
+DTEND;VALUE=DATE:20270919
+SUMMARY:Открытие: 19. İstanbul Bienali
+LOCATION:Площадки по всему Стамбулу\, Стамбу
+ л\, Турция
+DESCRIPTION:Стамбульская биеннале возвращае
+ тся после досрочно завершённой 18-й реда
+ кции\; кураторы — китайский художник Лю 
+ Дин и историк искусства Кэрол Инхуа Лу. 
+ Профессиональный предпоказ 14–17 сентяб
+ ря.\nКураторы Лю Дин и Кэрол Инхуа Лу\nhttps:
+ //bienal.iksv.org/en/news/liu-ding-and-carol-yinghua-lu-to-curate-the-19t
+ h-istanbul-biennial
+URL:https://doublebasskakov.github.io/radar/#e=istanbul-biennial-19
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: 19. İstanbul Bienali
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:sharjah-biennial-17@afisha-art
-DTSTAMP:20261113T091905Z
+DTSTAMP:20261113T093415Z
 DTSTART;VALUE=DATE:20270121
 DTEND;VALUE=DATE:20270122
 SUMMARY:Открытие: Sharjah Biennial 17: What remains\, sits restiv
@@ -96,22 +149,21 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:documenta-16@afisha-art
-DTSTAMP:20261113T091905Z
-DTSTART;VALUE=DATE:20270612
-DTEND;VALUE=DATE:20270613
-SUMMARY:Открытие: documenta 16
-LOCATION:Fridericianum и площадки по всему городу\,
-  Кассель\, Германия
-DESCRIPTION:Главная выставка современного ис
- кусства раз в пять лет: 100 дней в Касселе.
-  Шестнадцатую documenta возглавляет Наоми Б
- еквит из Музея Гуггенхайма с международ
- ной кураторской командой.\nАрт-директор 
- Наоми Беквит\nhttps://documenta.de/en/news/documenta-16-findet
- -vom-12-juni-bis-zum-19-september-2027-statt
-URL:https://documenta.de/en/news/documenta-16-findet-vom-12-juni-bis-zum-
- 19-september-2027-statt
+UID:lyon-biennale-18@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:Последний день: 18e Biennale de Lyon: Passer d'un r
+ êve à l'autre
+LOCATION:Grandes Locos\, Musée des Tissus\, macLYON\, Лион\, Фра
+ нция
+DESCRIPTION:Лионская биеннале занимает бывше
+ е локомотивное депо Grandes Locos\, Музей ткан
+ ей и Музей современного искусства. Боле
+ е сотни художников и одиннадцать площад
+ ок.\nКуратор Кэтрин Николс\nhttps://www.labiennalede
+ lyon.com/en/18e-biennale-de-lyon
+URL:https://doublebasskakov.github.io/radar/#e=lyon-biennale-18
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Открытие: documenta 16
@@ -120,7 +172,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:bukhara-biennial-2027@afisha-art
-DTSTAMP:20261113T091905Z
+DTSTAMP:20261113T093415Z
 DTSTART;VALUE=DATE:20270903
 DTEND;VALUE=DATE:20270904
 SUMMARY:Открытие: Bukhara Biennial 2027
@@ -143,8 +195,28 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:ctm-festival-2027@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+SUMMARY:Открытие: CTM Festival 2027
+LOCATION:Площадки Берлина (Berghain\, HAU\, silent green 
+ и др.)\, Берлин\, Германия
+DESCRIPTION:28-й CTM — берлинский фестиваль экс
+ периментальной музыки и звукового иску
+ сства: концерты\, клубные ночи\, выставки
+  и дискуссии.\n\nhttps://www.ctm-festival.de/news/ctm-2027-fest
+ ival-save-the-date
+URL:https://doublebasskakov.github.io/radar/#e=ctm-festival-2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: CTM Festival 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:transmediale-2027@afisha-art
-DTSTAMP:20261113T091905Z
+DTSTAMP:20261113T093415Z
 DTSTART;VALUE=DATE:20270128
 DTEND;VALUE=DATE:20270201
 SUMMARY:transmediale 2027: groundstates
@@ -165,31 +237,89 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:lyon-biennale-18@afisha-art
-DTSTAMP:20261113T091905Z
-DTSTART;VALUE=DATE:20261213
-DTEND;VALUE=DATE:20261214
-SUMMARY:Последний день: 18e Biennale de Lyon: Passer d'un r
- êve à l'autre
-LOCATION:Grandes Locos\, Musée des Tissus\, macLYON\, Лион\, Фра
- нция
-DESCRIPTION:Лионская биеннале занимает бывше
- е локомотивное депо Grandes Locos\, Музей ткан
- ей и Музей современного искусства. Боле
- е сотни художников и одиннадцать площад
- ок.\nКуратор Кэтрин Николс\nhttps://www.labiennalede
- lyon.com/en/18e-biennale-de-lyon
-URL:https://www.labiennaledelyon.com/en/18e-biennale-de-lyon
+UID:ars-electronica-2027@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20270908
+DTEND;VALUE=DATE:20270913
+SUMMARY:Ars Electronica Festival 2027
+LOCATION:POSTCITY и площадки Линца\, Линц\, Австр
+ ия
+DESCRIPTION:Главный мировой фестиваль медиаи
+ скусства\, технологий и общества с вруче
+ нием Prix Ars Electronica. Тема будет объявлена в
+ есной 2027 года.\n\nhttps://ars.electronica.art/festival/en/
+URL:https://doublebasskakov.github.io/radar/#e=ars-electronica-2027
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Последний день: 18e Biennale de Lyon: Passer d'u
- n rêve à l'autre
+DESCRIPTION:Ars Electronica Festival 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:art-basel-2027@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20270617
+DTEND;VALUE=DATE:20270621
+SUMMARY:Art Basel 2027
+LOCATION:Messe Basel\, Messeplatz 10\, 4058 Basel\, Базель\, Шве
+ йцария
+DESCRIPTION:Главная арт-ярмарка мира: около 300
+  галерей\, секция Unlimited с монументальным
+ и работами и параллельные ярмарки Liste и D
+ esign Miami.\n\nhttps://www.artbasel.com/art-basel-shop
+URL:https://doublebasskakov.github.io/radar/#e=art-basel-2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Art Basel 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:stedelijk-yayoi-kusama@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+SUMMARY:Последний день: Yayoi Kusama
+LOCATION:Stedelijk Museum\, Museumplein 10\, 1071 DJ Amsterdam\, Амст
+ ердам\, Нидерланды
+DESCRIPTION:Ретроспектива Яёи Кусамы за семь 
+ десятилетий: живопись\, инсталляции\, мо
+ да и хеппенинги\, в том числе работы\, впе
+ рвые показанные в Европе.\nЯёи Кусама\; к
+ уратор Леонтин Куэлевей\nhttps://stedelijk.nl/en/exh
+ ibitions/yayoi-kusama-en
+URL:https://doublebasskakov.github.io/radar/#e=stedelijk-yayoi-kusama
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Yayoi Kusama
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:moma-brancusi@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20270227
+DTEND;VALUE=DATE:20270228
+SUMMARY:Последний день: Brancusi: The Artist and His Studio
+LOCATION:MoMA\, 6-й этаж\, 11 W 53rd St\, New York\, NY 10019\, Нь
+ ю-Йорк\, США
+DESCRIPTION:Весь шестой этаж MoMA занимает Бран
+ кузи: редкие скульптуры\, мебель\, фильмы
+  и предметы из его мастерской\, привезён
+ ные из Центра Помпиду.\nКонстантин Бранк
+ узи\nhttps://press.moma.org/exhibition/brancusi-the-artist-and-his-stu
+ dio/
+URL:https://doublebasskakov.github.io/radar/#e=moma-brancusi
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Brancusi: The Artist and His Stu
+ dio
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:guggenheim-abu-dhabi-opening@afisha-art
-DTSTAMP:20261113T091905Z
+DTSTAMP:20261113T093415Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:Открытие Guggenheim Abu Dhabi
@@ -210,18 +340,18 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ars-electronica-2027@afisha-art
-DTSTAMP:20261113T091905Z
-DTSTART;VALUE=DATE:20270908
-DTEND;VALUE=DATE:20270913
-SUMMARY:Ars Electronica Festival 2027
-LOCATION:POSTCITY и площадки Линца\, Линц\, Австр
- ия
-DESCRIPTION:Главный мировой фестиваль медиаи
- скусства\, технологий и общества с вруче
- нием Prix Ars Electronica. Тема будет объявлена в
- есной 2027 года.\n\nhttps://ars.electronica.art/festival/en/
-URL:https://ars.electronica.art/festival/en/
+UID:ircam-klangforum-saint-eustache@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART:20261130T190000Z
+DTEND:20261130T210000Z
+SUMMARY:Klangforum Wien × IRCAM
+LOCATION:Церковь Сент-Эсташ\, Париж\, Франция
+DESCRIPTION:Концерт сезона IRCAM в готической ц
+ еркви Сент-Эсташ: венский ансамбль ново
+ й музыки и электроника.\nKlangforum Wien\nhttps://www.
+ ircam.fr/en/events/klangforum-wien
+URL:https://doublebasskakov.github.io/radar/#e=ircam-klangforum-saint-eus
+ tache
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Ars Electronica Festival 2027
@@ -229,18 +359,18 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:art-basel-2027@afisha-art
-DTSTAMP:20261113T091905Z
-DTSTART;VALUE=DATE:20270617
-DTEND;VALUE=DATE:20270621
-SUMMARY:Art Basel 2027
-LOCATION:Messe Basel\, Messeplatz 10\, 4058 Basel\, Базель\, Шве
- йцария
-DESCRIPTION:Главная арт-ярмарка мира: около 300
-  галерей\, секция Unlimited с монументальным
- и работами и параллельные ярмарки Liste и D
- esign Miami.\n\nhttps://www.artbasel.com/art-basel-shop
-URL:https://www.artbasel.com/art-basel-shop
+UID:ircam-explosante-fixe-2027@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART:20270113T190000Z
+DTEND:20270113T210000Z
+SUMMARY:Булез: «…explosante-fixe…»
+LOCATION:Филармония Парижа\, Большой зал\, Па
+ риж\, Франция
+DESCRIPTION:Классика live electronics: «…explosante-fixe…» 
+ Булеза с электроникой реального времен
+ и IRCAM.\nEnsemble intercontemporain\, IRCAM\nhttps://www.ircam.fr/en/ev
+ ents/explosante-fixe
+URL:https://doublebasskakov.github.io/radar/#e=ircam-explosante-fixe-2027
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Art Basel 2027
@@ -248,28 +378,48 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ctm-festival-2027@afisha-art
-DTSTAMP:20261113T091905Z
-DTSTART;VALUE=DATE:20270122
-DTEND;VALUE=DATE:20270123
-SUMMARY:Открытие: CTM Festival 2027
-LOCATION:Площадки Берлина (Berghain\, HAU\, silent green 
- и др.)\, Берлин\, Германия
-DESCRIPTION:28-й CTM — берлинский фестиваль экс
- периментальной музыки и звукового иску
- сства: концерты\, клубные ночи\, выставки
-  и дискуссии.\n\nhttps://www.ctm-festival.de/news/ctm-2027-fest
- ival-save-the-date
-URL:https://www.ctm-festival.de/news/ctm-2027-festival-save-the-date
+UID:grm-bozar-acousmonium-2027@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20270127
+DTEND;VALUE=DATE:20270131
+SUMMARY:INA GRM: Акусмониум в Bozar
+LOCATION:Bozar (Дворец изящных искусств)\, Брюс
+ сель\, Бельгия
+DESCRIPTION:GRM привозит акусмониум — оркестр 
+ из десятков громкоговорителей — на про
+ грамму Total Immersion в Брюсселе.\n\nhttps://www.bozar.be
+ /en/calendar/ina-grm-acousmonium
+URL:https://doublebasskakov.github.io/radar/#e=grm-bozar-acousmonium-2027
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Открытие: CTM Festival 2027
+DESCRIPTION:INA GRM: Акусмониум в Bozar
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:grm-presences-electronique-2027@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20270219
+DTEND;VALUE=DATE:20270222
+SUMMARY:Фестиваль PRÉSENCES électronique 2027
+LOCATION:Maison de la Radio et de la Musique\, Studio 104\, Париж\, 
+ Франция
+DESCRIPTION:Главный фестиваль GRM: три вечера э
+ кспериментальной электроакустики на ак
+ усмониуме из шестидесяти громкоговорит
+ елей.\nINA GRM\nhttps://parisjetaime.com/eng/event/presences-electron
+ ique-festival-maison-de-la-radio-e248
+URL:https://doublebasskakov.github.io/radar/#e=grm-presences-electronique
+ -2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Фестиваль PRÉSENCES électronique 2027
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:grm-akousma-may-2027@afisha-art
-DTSTAMP:20261113T091905Z
+DTSTAMP:20261113T093415Z
 DTSTART;VALUE=DATE:20270507
 DTEND;VALUE=DATE:20270510
 SUMMARY:INA GRM: Akousma & Live Electronics

@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:rewire-2027@afisha-art
-DTSTAMP:20261113T091905Z
+DTSTAMP:20261113T093415Z
 DTSTART;VALUE=DATE:20270408
 DTEND;VALUE=DATE:20270412
 SUMMARY:Rewire 2027
@@ -27,8 +27,29 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:holland-festival-2027@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20270603
+DTEND;VALUE=DATE:20270604
+SUMMARY:Открытие: Holland Festival 2027
+LOCATION:Площадки Амстердама\, Амстердам\, Н
+ идерланды
+DESCRIPTION:80-й Голландский фестиваль — глав
+ ный международный фестиваль исполнител
+ ьских искусств Нидерландов: музыка\, теа
+ тр\, танец и мультимедиа.\n\nhttps://hollandfestival.n
+ l/en/holland-festival-concludes-with-world-class-performances-and-the-nex
+ t-generation-of-artists
+URL:https://doublebasskakov.github.io/radar/#e=holland-festival-2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Holland Festival 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:stedelijk-yayoi-kusama@afisha-art
-DTSTAMP:20261113T091905Z
+DTSTAMP:20261113T093415Z
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
 SUMMARY:Последний день: Yayoi Kusama

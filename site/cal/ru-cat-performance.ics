@@ -122,7 +122,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:demutsky-16@afisha-art
-DTSTAMP:20261113T091905Z
+DTSTAMP:20261113T093415Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:16 фортепианных пьес
@@ -143,8 +143,50 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:ruarts-gong-sensonica@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART:20261121T100000Z
+DTEND:20261121T120000Z
+SUMMARY:Гонг-перформанс Юлии Гоголевой (SENSON
+ ICA)
+LOCATION:Фонд Ruarts\, 1-й Зачатьевский пер.\, 10\, 
+ Москва
+DESCRIPTION:Лекция о природе вибрации и звуко
+ вой перформанс в рамках выставки «Торже
+ ство меланхолии».\nЮлия Гоголева\nhttps://t.me
+ /ruartsfoundation
+URL:https://doublebasskakov.github.io/radar/#e=ruarts-gong-sensonica
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Гонг-перформанс Юлии Гоголевой (SE
+ NSONICA)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fabula-gabber-diggers@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Габберы и диггеры: вечеринка-выстав
+ ка
+LOCATION:fābula HQ\, Самокатная ул.\, 4\, стр. 1\, Мос
+ ква
+DESCRIPTION:Выставка и рейв о двух подпольных
+  сообществах — габберах и диггерах — ка
+ к явлениях пост-индустриальной культур
+ ы.\n\nhttps://t.me/fabula_gallery
+URL:https://doublebasskakov.github.io/radar/#e=fabula-gabber-diggers
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Габберы и диггеры: вечеринка-выст
+ авка
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:fabula-anemoia@afisha-art
-DTSTAMP:20261113T091905Z
+DTSTAMP:20261113T093415Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:Анемойя
@@ -164,8 +206,65 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:kzn-mon-15172@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART:20261118T160000Z
+DTEND:20261118T180000Z
+SUMMARY:«15 172». Пластический спектакль
+LOCATION:MOÑ\, ул. Пушкина\, 86\, Казань
+DESCRIPTION:Пластический спектакль из реперт
+ уара MOÑ — независимой площадки\, где иду
+ т спектакли на стыке танца и театра.\nMOÑ\n
+ https://afisha.yandex.ru/kazan/theatre/places/mon-kazan
+URL:https://doublebasskakov.github.io/radar/#e=kzn-mon-15172
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:«15 172». Пластический спектакль
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kzn-mon-otstan-ot-sebya@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART:20261125T160000Z
+DTEND:20261125T180000Z
+SUMMARY:«Отстань от себя». Пластический спе
+ ктакль
+LOCATION:MOÑ\, ул. Пушкина\, 86\, Казань
+DESCRIPTION:Пластический спектакль на площад
+ ке MOÑ.\nMOÑ\nhttps://afisha.yandex.ru/kazan/theatre/places/mon-kazan
+URL:https://doublebasskakov.github.io/radar/#e=kzn-mon-otstan-ot-sebya
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:«Отстань от себя». Пластический с
+ пектакль
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:spb-soobshchestvo-spisok-papernoy@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART:20261129T170000Z
+DTEND:20261129T190000Z
+SUMMARY:«Список Паперной»
+LOCATION:«Сообщество»\, Новая Голландия\, Са
+ нкт-Петербург
+DESCRIPTION:Спектакль-застолье по записям вс
+ треч обэриутов 1920-х: зрители ужинают вме
+ сте с актёрами.\nБорис Павлович\, Дмитрий
+  Крестьянкин и команда\nhttps://www.sobaka.ru/entertai
+ nment/theatre/223061
+URL:https://doublebasskakov.github.io/radar/#e=spb-soobshchestvo-spisok-p
+ apernoy
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:«Список Паперной»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:spb-kurekhin-istorii-bez-slov@afisha-art
-DTSTAMP:20261113T091905Z
+DTSTAMP:20261113T093415Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261129
 SUMMARY:«Истории без слов. Шесть премьер»
@@ -178,6 +277,44 @@ URL:https://ptj.spb.ru/rating/rating-2026-11/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:«Истории без слов. Шесть премьер»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:msk-electrotheatre-uzhin-v-pompeyakh@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART:20261120T160000Z
+DTEND:20261120T180000Z
+SUMMARY:«Ужин в ПомПеях». Премьера
+LOCATION:Электротеатр Станиславский\, Малая
+  сцена\, ул. Тверская\, 23\, Москва
+DESCRIPTION:Премьера процессуального пласти
+ ческого полотна на Малой сцене.\nЭлектро
+ театр Станиславский\nhttps://electrotheatre.ru/playbill
+ /
+URL:https://doublebasskakov.github.io/radar/#e=msk-electrotheatre-uzhin-v
+ -pompeyakh
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:«Ужин в ПомПеях». Премьера
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:msk-electrotheatre-belaqua@afisha-art
+DTSTAMP:20261113T093415Z
+DTSTART:20261126T160000Z
+DTEND:20261126T180000Z
+SUMMARY:«Belaqua\, или Скоро Сорок»
+LOCATION:Электротеатр Станиславский\, Малая
+  сцена\, ул. Тверская\, 23\, Москва
+DESCRIPTION:Перформанс на Малой сцене Электр
+ отеатра.\nЭлектротеатр Станиславский\nhtt
+ ps://electrotheatre.ru/playbill/
+URL:https://doublebasskakov.github.io/radar/#e=msk-electrotheatre-belaqua
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:«Belaqua\, или Скоро Сорок»
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
