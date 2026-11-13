@@ -530,7 +530,10 @@ def cal_plan(ev):
             h, m = map(int, ev["time"].split(":"))
             tz = ZoneInfo(ev.get("tz") or "Europe/Moscow")
             st = dt.datetime(s.year, s.month, s.day, h, m, tzinfo=tz).astimezone(dt.timezone.utc)
-            return ev["title"], st, st + dt.timedelta(hours=2), True
+            title = ev["title"]
+            if e and (e - s).days > 7:          # выставка с часами работы — в календарь идёт открытие
+                title = "Открытие: " + title
+            return title, st, st + dt.timedelta(hours=2), True
         except Exception:
             pass
     if not e or e == s:
@@ -556,10 +559,12 @@ def vevent(ev, p, stamp, base_url):
     return "\r\n".join(ics_fold(l) for l in lines)
 
 
-def calendar(name, vevents):
-    head = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Afisha Art//RU", "CALSCALE:GREGORIAN", "METHOD:PUBLISH",
-            f"X-WR-CALNAME:{ics_escape(name)}", "REFRESH-INTERVAL;VALUE=DURATION:PT12H",
-            "X-PUBLISHED-TTL:PT12H"]
+def calendar(name, vevents, feed=True):
+    """feed=False — файл одного события: без имени календаря и интервала обновления,
+    иначе iPhone предлагает «Подписаться» вместо «Добавить событие»."""
+    head = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Afisha Art//RU", "CALSCALE:GREGORIAN", "METHOD:PUBLISH"]
+    if feed:
+        head += [f"X-WR-CALNAME:{ics_escape(name)}", "REFRESH-INTERVAL;VALUE=DURATION:PT12H", "X-PUBLISHED-TTL:PT12H"]
     return "\r\n".join(ics_fold(l) for l in head) + "\r\n" + "\r\n".join(vevents) + \
         ("\r\n" if vevents else "") + "END:VCALENDAR\r\n"
 
@@ -631,7 +636,7 @@ def build():
         p = cal_plan(ev)
         if p:
             ve = vevent(ev, p, stamp, base_url)
-            (SITE / "ics" / f"{ev['id']}.ics").write_text(calendar(ev["title"], [ve]), encoding="utf-8", newline="")
+            (SITE / "ics" / f"{ev['id']}.ics").write_text(calendar(ev["title"], [ve], feed=False), encoding="utf-8", newline="")
             pub["ics"] = f"ics/{ev['id']}.ics"
             pub["calSummary"] = p[0]
             summary, st, en, timed = p

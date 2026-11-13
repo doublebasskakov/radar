@@ -3,26 +3,24 @@ VERSION:2.0
 PRODID:-//Afisha Art//RU
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Написано водой\, на воде\, для вод
- ы
-REFRESH-INTERVAL;VALUE=DURATION:PT12H
-X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:victoria-water@afisha-art
-DTSTAMP:20261113T000551Z
+DTSTAMP:20261113T000823Z
 DTSTART:20261112T150000Z
 DTEND:20261112T170000Z
-SUMMARY:Написано водой\, на воде\, для воды
+SUMMARY:Открытие: Написано водой\, на воде\, 
+ для воды
 LOCATION:Галерея «Виктория»\, Зал А\, Самара
 DESCRIPTION:Выставка-итог видеолаборатории «
  Речные прописи» калининградского колле
  ктива «Нежные бабы»: видеоарт и видеопе
  рформанс. Открытие 12 ноября в 19:00.\nГалер
  ея «Виктория»\nhttps://t.me/gallery_victoria
-URL:https://doublebasskakov.github.io/radar/#e=victoria-water
+URL:https://t.me/gallery_victoria
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Написано водой\, на воде\, для воды
+DESCRIPTION:Открытие: Написано водой\, на воде
+ \, для воды
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

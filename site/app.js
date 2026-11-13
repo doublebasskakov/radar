@@ -436,7 +436,8 @@
     const endD = new Date(Date.parse((e.end || e.start) + "T00:00:00Z") + DAY).toISOString().slice(0, 10);
     const escI = (x) => String(x || "").replace(/[\\;,]/g, (m) => "\\" + m).replace(/\n/g, "\\n");
     const body = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Radar//RU", "BEGIN:VEVENT", "UID:" + e.id + "@radar", "DTSTAMP:" + new Date().toISOString().replace(/[-:]/g, "").slice(0, 15) + "Z",
-      "DTSTART;VALUE=DATE:" + d(e.start), "DTEND;VALUE=DATE:" + d(endD), "SUMMARY:" + escI(e.title), "LOCATION:" + escI([e.venue, e.city].filter(Boolean).join(", ")), "DESCRIPTION:" + escI((e.desc || "") + "\n" + (e.src || "")), "END:VEVENT", "END:VCALENDAR"].join("\r\n");
+      ...(/^\d{1,2}:\d{2}$/.test(e.time || "") ? ["DTSTART:" + d(e.start) + "T" + e.time.replace(":", "").padStart(4, "0") + "00", "DTEND:" + d(e.start) + "T" + String((+e.time.split(":")[0] + 2) % 24).padStart(2, "0") + e.time.split(":")[1] + "00"]
+        : ["DTSTART;VALUE=DATE:" + d(e.start), "DTEND;VALUE=DATE:" + d(endD)]), "SUMMARY:" + escI(e.title), "LOCATION:" + escI([e.venue, e.city].filter(Boolean).join(", ")), "DESCRIPTION:" + escI((e.desc || "") + "\n" + (e.src || "")), "END:VEVENT", "END:VCALENDAR"].join("\r\n");
     return "data:text/calendar;charset=utf-8," + encodeURIComponent(body);
   }
 
