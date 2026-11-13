@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:kzn-mon-gastroli-kapital@afisha-art
-DTSTAMP:20261113T093446Z
+DTSTAMP:20261113T093531Z
 DTSTART:20261129T150000Z
 DTEND:20261129T170000Z
 SUMMARY:«Гастроли: Капитал»
@@ -26,7 +26,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:kzn-mon-15172@afisha-art
-DTSTAMP:20261113T093446Z
+DTSTAMP:20261113T093531Z
 DTSTART:20261118T160000Z
 DTEND:20261118T180000Z
 SUMMARY:«15 172». Пластический спектакль
@@ -44,7 +44,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:kzn-mon-zatvornik-i-shestipalyy@afisha-art
-DTSTAMP:20261113T093446Z
+DTSTAMP:20261113T093531Z
 DTSTART:20261119T160000Z
 DTEND:20261119T180000Z
 SUMMARY:«Затворник и Шестипалый»
@@ -63,7 +63,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:kzn-mon-otstan-ot-sebya@afisha-art
-DTSTAMP:20261113T093446Z
+DTSTAMP:20261113T093531Z
 DTSTART:20261125T160000Z
 DTEND:20261125T180000Z
 SUMMARY:«Отстань от себя». Пластический спе
@@ -81,7 +81,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:klimt-and-vrubel-two-geniuses-of-art-nouveau-kazan@afisha-art
-DTSTAMP:20261113T093446Z
+DTSTAMP:20261113T093531Z
 DTSTART:20261120T153000Z
 DTEND:20261120T173000Z
 SUMMARY:Климт и Врубель: два гения модерна
@@ -102,7 +102,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:kzn-smena-rabochaya-smena@afisha-art
-DTSTAMP:20261113T093446Z
+DTSTAMP:20261113T093531Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:Открытие: «Рабочая смена»
@@ -125,7 +125,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:smena-winter-book-fest@afisha-art
-DTSTAMP:20261113T093446Z
+DTSTAMP:20261113T093531Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261207
 SUMMARY:Зимний книжный фестиваль «Смены»
@@ -138,83 +138,7 @@ DESCRIPTION:Четырнадцатый фестиваль к 13-лети
 URL:https://doublebasskakov.github.io/radar/#e=smena-winter-book-fest
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:«Гастроли: Капитал»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:kzn-mon-15172@afisha-art
-DTSTAMP:20261113T093415Z
-DTSTART:20261118T160000Z
-DTEND:20261118T180000Z
-SUMMARY:«15 172». Пластический спектакль
-LOCATION:MOÑ\, ул. Пушкина\, 86\, Казань
-DESCRIPTION:Пластический спектакль из реперт
- уара MOÑ — независимой площадки\, где иду
- т спектакли на стыке танца и театра.\nMOÑ\n
- https://afisha.yandex.ru/kazan/theatre/places/mon-kazan
-URL:https://doublebasskakov.github.io/radar/#e=kzn-mon-15172
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:«15 172». Пластический спектакль
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:kzn-mon-zatvornik-i-shestipalyy@afisha-art
-DTSTAMP:20261113T093415Z
-DTSTART:20261119T160000Z
-DTEND:20261119T180000Z
-SUMMARY:«Затворник и Шестипалый»
-LOCATION:MOÑ\, ул. Пушкина\, 86\, Казань
-DESCRIPTION:Антиутопия по повести Пелевина в 
- постановке Кирилла Люкевича.\nРежиссёр 
- Кирилл Люкевич\; по Виктору Пелевину\nhttps
- ://afisha.yandex.ru/kazan/theatre/places/mon-kazan
-URL:https://doublebasskakov.github.io/radar/#e=kzn-mon-zatvornik-i-shesti
- palyy
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:«Затворник и Шестипалый»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:kzn-mon-otstan-ot-sebya@afisha-art
-DTSTAMP:20261113T093415Z
-DTSTART:20261125T160000Z
-DTEND:20261125T180000Z
-SUMMARY:«Отстань от себя». Пластический спе
- ктакль
-LOCATION:MOÑ\, ул. Пушкина\, 86\, Казань
-DESCRIPTION:Пластический спектакль на площад
- ке MOÑ.\nMOÑ\nhttps://afisha.yandex.ru/kazan/theatre/places/mon-kazan
-URL:https://doublebasskakov.github.io/radar/#e=kzn-mon-otstan-ot-sebya
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:«Отстань от себя». Пластический с
- пектакль
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:klimt-and-vrubel-two-geniuses-of-art-nouveau-kazan@afisha-art
-DTSTAMP:20261113T093415Z
-DTSTART:20261120T153000Z
-DTEND:20261120T173000Z
-SUMMARY:Климт и Врубель: два гения модерна
-LOCATION:Галерея современного искусства «Б
- ИЗON»\, Казань
-DESCRIPTION:Лекция об объединяющих мотиве и р
- азнице хужожественных методов Густава 
- Климта и Михаила Врубеля.\nВиктор Сидоро
- в\nhttps://t.me/bizongallery/5287
-URL:https://doublebasskakov.github.io/radar/#e=klimt-and-vrubel-two-geniu
- ses-of-art-nouveau-kazan
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Климт и Врубель: два гения модерн
- а
+DESCRIPTION:Зимний книжный фестиваль «Смены»
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

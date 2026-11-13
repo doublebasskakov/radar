@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:adk-sample-hold-11@afisha-art
-DTSTAMP:20261113T093446Z
+DTSTAMP:20261113T093531Z
 DTSTART:20261125T190000Z
 DTEND:20261125T210000Z
 SUMMARY:sample&hold #11: Paul Purgas & Stefan Keller
@@ -28,7 +28,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:berlin-biennale-14@afisha-art
-DTSTAMP:20261113T093446Z
+DTSTAMP:20261113T093531Z
 DTSTART;VALUE=DATE:20270605
 DTEND;VALUE=DATE:20270606
 SUMMARY:Открытие: 14. Berlin Biennale: Central Europe Eastern Tim
@@ -53,7 +53,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:documenta-16@afisha-art
-DTSTAMP:20261113T093446Z
+DTSTAMP:20261113T093531Z
 DTSTART;VALUE=DATE:20270612
 DTEND;VALUE=DATE:20270613
 SUMMARY:Открытие: documenta 16
@@ -75,7 +75,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:transmediale-2027@afisha-art
-DTSTAMP:20261113T093446Z
+DTSTAMP:20261113T093531Z
 DTSTART;VALUE=DATE:20270128
 DTEND;VALUE=DATE:20270201
 SUMMARY:transmediale 2027: groundstates
@@ -96,7 +96,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ctm-festival-2027@afisha-art
-DTSTAMP:20261113T093446Z
+DTSTAMP:20261113T093531Z
 DTSTART;VALUE=DATE:20270122
 DTEND;VALUE=DATE:20270123
 SUMMARY:Открытие: CTM Festival 2027
@@ -116,7 +116,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:berlin-atonal-2027@afisha-art
-DTSTAMP:20261113T093446Z
+DTSTAMP:20261113T093531Z
 DTSTART;VALUE=DATE:20270825
 DTEND;VALUE=DATE:20270830
 SUMMARY:Berlin Atonal 2027
@@ -134,152 +134,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:steina-playback-haus-der-kunst@afisha-art
-DTSTAMP:20261113T093415Z
-DTSTART;VALUE=DATE:20261207
-DTEND;VALUE=DATE:20261208
-SUMMARY:Последний день: Steina: Playback
-LOCATION:Haus der Kunst\, Nordgalerie\, Prinzregentenstraße 1\, 80538 M
- ünchen\, Мюнхен\, Германия
-DESCRIPTION:Первая большая ретроспектива в Г
- ермании исландской пионерки видео- и ме
- диаискусства Стейны Васулки.\nСтейна Ва
- сулка\nhttps://www.hausderkunst.de/uploads/newsroom/Ausstellungen-un
- d-Veranstaltungen/2026/2600_annual-preview/PDFs/HDK_Annual-Programme-2026
- _EN_press.pdf
-URL:https://doublebasskakov.github.io/radar/#e=steina-playback-haus-der-k
- unst
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Последний день: Steina: Playback
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:ultraschall-berlin-2027@afisha-art
-DTSTAMP:20261113T093415Z
-DTSTART;VALUE=DATE:20270120
-DTEND;VALUE=DATE:20270125
-SUMMARY:Ultraschall Berlin 2027
-LOCATION:Haus des Rundfunks\, Heimathafen Neukölln\, Radialsystem\, Бе
- рлин\, Германия
-DESCRIPTION:Пять вечеров новой академической
-  музыки — фестиваль Deutschlandfunk Kultur и rbb radio3
- .\n\nhttps://www.berlin.de/en/events/6416655-2842498-ultraschall-berlin-f
- estival-for-new-musi.en.html
-URL:https://doublebasskakov.github.io/radar/#e=ultraschall-berlin-2027
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Ultraschall Berlin 2027
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:maerzmusik-2027@afisha-art
-DTSTAMP:20261113T093415Z
-DTSTART;VALUE=DATE:20270312
-DTEND;VALUE=DATE:20270313
-SUMMARY:Открытие: MaerzMusik 2027
-LOCATION:Haus der Berliner Festspiele\, Radialsystem\, silent green\, HKW
- \, Schaperstraße 24\, 10719 Berlin\, Берлин\, Германия
-DESCRIPTION:Фестиваль современной музыки Berlin
- er Festspiele\, исследующий отношения звука и 
- времени.\nBerliner Festspiele\nhttps://www.visitberlin.de/de/event
- /maerzmusik-2027
-URL:https://doublebasskakov.github.io/radar/#e=maerzmusik-2027
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Открытие: MaerzMusik 2027
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:darmstadt-summer-course-2027@afisha-art
-DTSTAMP:20261113T093415Z
-DTSTART;VALUE=DATE:20270710
-DTEND;VALUE=DATE:20270711
-SUMMARY:Открытие: Darmstädter Ferienkurse 2027
-LOCATION:Кампус Ferienkurse\, Дармштадт\, Германия
-DESCRIPTION:Легендарные Дармштадтские летни
- е курсы новой музыки: фестиваль\, мастер-
- классы и концерты. Программа будет объя
- влена в конце апреля.\nInternationales Musikinstitut Dar
- mstadt\nhttps://internationales-musikinstitut.de/en/ferienkurse/teilnehme
- n/termine
-URL:https://doublebasskakov.github.io/radar/#e=darmstadt-summer-course-20
- 27
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Открытие: Darmstädter Ferienkurse 2027
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:hamburger-bahnhof-sophie-calle@afisha-art
-DTSTAMP:20261113T093415Z
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-SUMMARY:Открытие: Sophie Calle: Is It Better?
-LOCATION:Hamburger Bahnhof – Nationalgalerie der Gegenwart\, Invalidens
- traße 50–51\, 10557 Berlin\, Берлин\, Германия
-DESCRIPTION:Большая выставка французской худ
- ожницы\, соединяющей фотографию\, текст 
- и личные истории.\nСофи Калль\nhttps://www.smb.mus
- eum/en/exhibitions/preview/hamburger-bahnhof-nationalgalerie-der-gegenwar
- t/
-URL:https://doublebasskakov.github.io/radar/#e=hamburger-bahnhof-sophie-c
- alle
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Открытие: Sophie Calle: Is It Better?
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:neue-nationalgalerie-cattelan@afisha-art
-DTSTAMP:20261113T093415Z
-DTSTART;VALUE=DATE:20270307
-DTEND;VALUE=DATE:20270308
-SUMMARY:Последний день: Maurizio Cattelan. NIGHT
-LOCATION:Neue Nationalgalerie\, Potsdamer Straße 50\, 10785 Berlin\, Б
- ерлин\, Германия
-DESCRIPTION:Выставка провокатора Маурицио Ка
- ттелана в стеклянном павильоне Мис ван 
- дер Роэ.\nМаурицио Каттелан\nhttps://www.smb.museum
- /en/exhibitions/detail/maurizio-cattelan-night/
-URL:https://doublebasskakov.github.io/radar/#e=neue-nationalgalerie-catte
- lan
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Последний день: Maurizio Cattelan. NIGHT
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:neue-nationalgalerie-ruin-and-rush@afisha-art
-DTSTAMP:20261113T093415Z
-DTSTART;VALUE=DATE:20270103
-DTEND;VALUE=DATE:20270104
-SUMMARY:Последний день: Ruin and Rush. Berlin 1910–1930
-LOCATION:Neue Nationalgalerie\, Potsdamer Straße 50\, 10785 Berlin\, Б
- ерлин\, Германия
-DESCRIPTION:Около 35 работ классического моде
- рна о Берлине эпохи Первой мировой и Вей
- марской республики — от ночной жизни до
-  нищеты.\nОтто Дикс и др.\nhttps://www.smb.museum/en/exh
- ibitions/detail/ruin-and-rush/
-URL:https://doublebasskakov.github.io/radar/#e=neue-nationalgalerie-ruin-
- and-rush
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Последний день: Ruin and Rush. Berlin 1910–193
- 0
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:gropius-bau-schlingensief@afisha-art
-DTSTAMP:20261113T093446Z
+DTSTAMP:20261113T093531Z
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
 SUMMARY:Последний день: Christoph Schlingensief: Es ist nich
@@ -301,7 +157,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gropius-bau-kreuzberg@afisha-art
-DTSTAMP:20261113T093446Z
+DTSTAMP:20261113T093531Z
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
 SUMMARY:Последний день: Kreuzberg: Kunst und Migration seit 
@@ -322,7 +178,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ultraschall-berlin-2027@afisha-art
-DTSTAMP:20261113T093446Z
+DTSTAMP:20261113T093531Z
 DTSTART;VALUE=DATE:20270120
 DTEND;VALUE=DATE:20270125
 SUMMARY:Ultraschall Berlin 2027
@@ -341,7 +197,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:maerzmusik-2027@afisha-art
-DTSTAMP:20261113T093446Z
+DTSTAMP:20261113T093531Z
 DTSTART;VALUE=DATE:20270312
 DTEND;VALUE=DATE:20270313
 SUMMARY:Открытие: MaerzMusik 2027
@@ -360,7 +216,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:neue-nationalgalerie-cattelan@afisha-art
-DTSTAMP:20261113T093446Z
+DTSTAMP:20261113T093531Z
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270308
 SUMMARY:Последний день: Maurizio Cattelan. NIGHT
@@ -380,7 +236,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:darmstadt-summer-course-2027@afisha-art
-DTSTAMP:20261113T093446Z
+DTSTAMP:20261113T093531Z
 DTSTART;VALUE=DATE:20270710
 DTEND;VALUE=DATE:20270711
 SUMMARY:Открытие: Darmstädter Ferienkurse 2027
@@ -401,7 +257,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:haus-der-kunst-saraceno@afisha-art
-DTSTAMP:20261113T093446Z
+DTSTAMP:20261113T093531Z
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
 SUMMARY:Последний день: Tomás Saraceno
@@ -422,7 +278,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:neue-nationalgalerie-ruin-and-rush@afisha-art
-DTSTAMP:20261113T093446Z
+DTSTAMP:20261113T093531Z
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
 SUMMARY:Последний день: Ruin and Rush. Berlin 1910–1930
@@ -444,7 +300,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:steina-playback-haus-der-kunst@afisha-art
-DTSTAMP:20261113T093446Z
+DTSTAMP:20261113T093531Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 SUMMARY:Последний день: Steina: Playback
@@ -466,7 +322,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:haus-der-kunst-diane-severin-nguyen@afisha-art
-DTSTAMP:20261113T093446Z
+DTSTAMP:20261113T093531Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:Открытие: Diane Severin Nguyen
@@ -488,7 +344,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:hamburger-bahnhof-sophie-calle@afisha-art
-DTSTAMP:20261113T093446Z
+DTSTAMP:20261113T093531Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Открытие: Sophie Calle: Is It Better?
@@ -509,7 +365,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:carte-blanche-cologne-2026@afisha-art
-DTSTAMP:20261113T093446Z
+DTSTAMP:20261113T093531Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261207
 SUMMARY:Carte blanche Cologne
