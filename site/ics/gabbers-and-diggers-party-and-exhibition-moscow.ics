@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Вечеринка и выставка габберов и 
+ диггеров
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:gabbers-and-diggers-party-and-exhibition-moscow@afisha-art
+DTSTAMP:20261113T000022Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Вечеринка и выставка габберов и диг
+ геров
+LOCATION:fābula HQ\, Самокатная улица\, 4\, стр. 1\, 
+ Москва
+DESCRIPTION:Коллаборация двух представителе
+ й экстремальной пост-культуры: выставка
+  документальных диггер-фото и видео из т
+ руднодоступных локаций под музыку габб
+ ер-артистов.\ntba\nhttps://t.me/fabula_gallery/1994
+URL:https://doublebasskakov.github.io/radar/#e=gabbers-and-diggers-party-
+ and-exhibition-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Вечеринка и выставка габберов и д
+ иггеров
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

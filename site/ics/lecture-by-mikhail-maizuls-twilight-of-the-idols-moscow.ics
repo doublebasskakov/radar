@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Лекция Михаила Майзульса «Сумер
+ ки идолов»
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:lecture-by-mikhail-maizuls-twilight-of-the-idols-moscow@afisha-art
+DTSTAMP:20261113T000022Z
+DTSTART:20261114T110000Z
+DTEND:20261114T130000Z
+SUMMARY:Лекция Михаила Майзульса «Сумерки 
+ идолов»
+LOCATION:Фонд Ruarts\, Трубниковский переулок\, 
+ 6\, Москва
+DESCRIPTION:Историк-медиевист расскажет о ви
+ зуальном языке протеста в Средневековь
+ е и символике разрушенных идолов в иску
+ сстве.\nМихаил Майзульс\nhttps://t.me/ruartsfoundation
+ /1503
+URL:https://doublebasskakov.github.io/radar/#e=lecture-by-mikhail-maizuls
+ -twilight-of-the-idols-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекция Михаила Майзульса «Сумерк
+ и идолов»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

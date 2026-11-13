@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Спектакль «Башня»
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:the-tower-moscow@afisha-art
+DTSTAMP:20261113T000022Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261130
+SUMMARY:Спектакль «Башня»
+LOCATION:Центр Зотов\, Москва
+DESCRIPTION:Экспериментальная постановка\, в 
+ которой актер Федор Лавров вживую испол
+ няет музыку на терменвоксе.\nФёдор Лавро
+ в\nhttps://t.me/centrezotov/10334
+URL:https://doublebasskakov.github.io/radar/#e=the-tower-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спектакль «Башня»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

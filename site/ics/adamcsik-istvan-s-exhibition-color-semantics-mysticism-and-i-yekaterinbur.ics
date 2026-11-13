@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Выставка Адамчика Иштвана «Цвет
+ осемантика: мистика и образ»
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:adamcsik-istvan-s-exhibition-color-semantics-mysticism-and-i-yekateri
+ nbur@afisha-art
+DTSTAMP:20261113T000022Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Последний день: Выставка Адамчика И
+ штвана «Цветосемантика: мистика и образ
+ »
+LOCATION:Ural Vision Gallery\, Екатеринбург
+DESCRIPTION:Выставка венгерского художника и
+  исследователя цвета посвящена изучени
+ ю взаимодействия цвета и текста. Картин
+ ы построены на ассоциативной цветовой д
+ екодировке прозы Йокаи Мора и сказок Па
+ вла Бажова.\nАдамчик Иштван\nhttps://t.me/uralvisio
+ nchannel/1028
+URL:https://doublebasskakov.github.io/radar/#e=adamcsik-istvan-s-exhibiti
+ on-color-semantics-mysticism-and-i-yekaterinbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Выставка Адамчик
+ а Иштвана «Цветосемантика: мистика и об
+ раз»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

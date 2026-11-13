@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Выставка «Объекты и состояния»
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:objects-and-states-exhibition-moscow@afisha-art
+DTSTAMP:20261113T000022Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Открытие: Выставка «Объекты и состо
+ яния»
+LOCATION:Галерея TŌMO\, 1-й Зачатьевский переу
+ лок\, 8 ст. 9\, Москва
+DESCRIPTION:Групповая экспозиция современно
+ й керамики\, где материал рассматривает
+ ся как способ передачи актуальных худож
+ ественных смыслов и состояний.\nЭлина Ма
+ русова\, Дарья Кузнецова (куратор)\nhttps://t.
+ me/arttube_editions/1333
+URL:https://doublebasskakov.github.io/radar/#e=objects-and-states-exhibit
+ ion-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка «Объекты и сос
+ тояния»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

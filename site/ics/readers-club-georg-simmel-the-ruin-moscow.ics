@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Читательский клуб: Георг Зиммель
+  «Руина»
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:readers-club-georg-simmel-the-ruin-moscow@afisha-art
+DTSTAMP:20261113T000022Z
+DTSTART:20261115T110000Z
+DTEND:20261115T130000Z
+SUMMARY:Читательский клуб: Георг Зиммель «Р
+ уина»
+LOCATION:Фонд Ruarts\, Трубниковский переулок\, 
+ 6\, Москва
+DESCRIPTION:Коллективное обсуждение классич
+ еского эссе Георга Зиммеля о философии 
+ разрушения и эстетике руин.\nАлексей Бев
+ за\nhttps://t.me/ruartsfoundation/1502
+URL:https://doublebasskakov.github.io/radar/#e=readers-club-georg-simmel-
+ the-ruin-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Читательский клуб: Георг Зиммель 
+ «Руина»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

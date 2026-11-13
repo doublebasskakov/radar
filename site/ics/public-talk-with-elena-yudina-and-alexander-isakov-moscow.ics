@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Паблик-ток с Еленой Юдиной и Алек
+ сандром Исаковым
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:public-talk-with-elena-yudina-and-alexander-isakov-moscow@afisha-art
+DTSTAMP:20261113T000022Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Паблик-ток с Еленой Юдиной и Алекса
+ ндром Исаковым
+LOCATION:Галерея TŌMO\, 1-й Зачатьевский пер.\, 8
+ \, стр. 9\, Москва
+DESCRIPTION:Встреча с художниками-участникам
+ и экспозиции в рамках серии паблик-токо
+ в о современном искусстве и работе с мат
+ ериалом.\nЕлена Юдина\, Александр Исаков\
+ nhttps://t.me/tomo_art/2547
+URL:https://doublebasskakov.github.io/radar/#e=public-talk-with-elena-yud
+ ina-and-alexander-isakov-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Паблик-ток с Еленой Юдиной и Алек
+ сандром Исаковым
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

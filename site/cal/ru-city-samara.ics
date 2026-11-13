@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:victoria-water@afisha-art
-DTSTAMP:20261112T232755Z
+DTSTAMP:20261113T000022Z
 DTSTART:20261112T150000Z
 DTEND:20261112T170000Z
 SUMMARY:Написано водой\, на воде\, для воды
@@ -27,7 +27,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:samara-victoria-idite-po-moemu-sledu@afisha-art
-DTSTAMP:20261112T232755Z
+DTSTAMP:20261113T000022Z
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
 SUMMARY:Последний день: «Идите по моему сле
@@ -52,7 +52,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:samara-osenniy-auktsion-2026@afisha-art
-DTSTAMP:20261112T232755Z
+DTSTAMP:20261113T000022Z
 DTSTART:20261126T150000Z
 DTEND:20261126T170000Z
 SUMMARY:VII Осенний аукцион современного иск
@@ -75,7 +75,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:victoria-medvedeva-modernism@afisha-art
-DTSTAMP:20261112T232755Z
+DTSTAMP:20261113T000022Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Екатерина Медведева. «Осколки и отр
@@ -96,6 +96,147 @@ ACTION:DISPLAY
 DESCRIPTION:Екатерина Медведева. «Осколки и о
  тражения: жизнь модернистских идей в XX в
  еке»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:written-by-water-on-water-and-for-water-samara@afisha-art
+DTSTAMP:20261113T000022Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:Последний день: Написано водой\, на 
+ воде и для воды
+LOCATION:Галерея «Виктория»\, Зал А\, Некрасо
+ вская ул.\, 2\, Самара
+DESCRIPTION:Итоговая выставка лаборатории ви
+ деоарта и видеоперформанса «Речные про
+ писи»\, осмысляющая традиции пленэрной 
+ живописи и волжский ландшафт через экра
+ нные медиа.\nАнна Афанасьева\, Татьяна Во
+ лкова\, Саша Деяш\, Камила Дуйсебаева\, Да
+ рья Захарова\, Данил Куликов\, Екатерина 
+ Оленина\, Надежда Сотникова\, Артем Утро
+ в\, Евгения Ястребова\, Александра Артам
+ онова\, Евгения Лаптева\nhttps://t.me/gallery_victoria
+ /4214
+URL:https://doublebasskakov.github.io/radar/#e=written-by-water-on-water-
+ and-for-water-samara
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Написано водой\, н
+ а воде и для воды
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:shards-and-reflections-the-life-of-modernist-ideas-in-the-20-samara@a
+ fisha-art
+DTSTAMP:20261113T000022Z
+DTSTART:20261113T150000Z
+DTEND:20261113T170000Z
+SUMMARY:Осколки и отражения: жизнь модернис
+ тских идей в ХХ веке
+LOCATION:Галерея «Виктория»\, Лекторий\, Нек
+ расовская ул.\, 2\, Самара
+DESCRIPTION:Лекция искусствоведа Екатерины М
+ едведевой о том\, как в советском искусс
+ тве второй половины XX века переосмыслял
+ ось наследие авангарда и модернизма.\nЕк
+ атерина Медведева\nhttps://t.me/gallery_victoria/4225
+URL:https://doublebasskakov.github.io/radar/#e=shards-and-reflections-the
+ -life-of-modernist-ideas-in-the-20-samara
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Осколки и отражения: жизнь модерн
+ истских идей в ХХ веке
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:book-diving-samara@afisha-art
+DTSTAMP:20261113T000022Z
+DTSTART:20261114T130000Z
+DTEND:20261114T150000Z
+SUMMARY:Книжный дайвинг
+LOCATION:Галерея «Виктория»\, Библиотека\, Н
+ екрасовская ул.\, 2\, Самара
+DESCRIPTION:Музыкальный вечер в галерейной б
+ иблиотеке с живыми выступлениями эмбие
+ нт-артистов и диджей-сетами.\ntsyo\, d. towärds\,
+  Dmitry Krylov\, hasis\nhttps://t.me/gallery_victoria/4224
+URL:https://doublebasskakov.github.io/radar/#e=book-diving-samara
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Книжный дайвинг
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:exhibition-written-by-water-on-water-and-for-water-samara@afisha-art
+DTSTAMP:20261113T000022Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:Последний день: Выставка «Написано 
+ водой\, на воде и для воды»
+LOCATION:Галерея «Виктория»\, Зал А\, Самара
+DESCRIPTION:Итоговая экспозиция видеоарта и 
+ видеоперформанса по результатам трехме
+ сячной исследовательской арт-лаборатор
+ ии.\nУчастники лаборатории «Речные проп
+ иси»\nhttps://t.me/gallery_victoria/4231
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-written-by-wate
+ r-on-water-and-for-water-samara
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Выставка «Написа
+ но водой\, на воде и для воды»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hand-memory-volga-atlantis-samara@afisha-art
+DTSTAMP:20261113T000022Z
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261116
+SUMMARY:Ручная память. Волжская Атлантида
+LOCATION:Третьяковская галерея в Самаре\, ул
+ . Ново-Садовая\, 149\, Самара
+DESCRIPTION:Партисипаторный проект с инсталл
+ яциями из ручной вышивки\, кинетическим 
+ объектом и видеоинтервью\, посвященными
+  памяти затопленных территорий при стро
+ ительстве Жигулёвской ГЭС.\nКристина Сы
+ рчикова\nhttps://t.me/pennlab/2368
+URL:https://doublebasskakov.github.io/radar/#e=hand-memory-volga-atlantis
+ -samara
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ручная память. Волжская Атлантид
+ а
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:imaginary-cosmos-samara@afisha-art
+DTSTAMP:20261113T000022Z
+DTSTART;VALUE=DATE:20270328
+DTEND;VALUE=DATE:20270329
+SUMMARY:Последний день: Воображаемый космо
+ с
+LOCATION:Самарский филиал Государственной 
+ Третьяковской галереи\, ул. Ново-Садовая
+ \, 149\, Самара
+DESCRIPTION:Масштабная экспозиция трактует к
+ осмос как ментальное пространство и объ
+ единяет искусство разных эпох со специа
+ льно написанным музыкальным сопровожде
+ нием.\nАлександра Паперно\, Тимофей Радя\
+ , Казимир Малевич и др.\nhttps://t.me/artsfera_org/5319
+URL:https://doublebasskakov.github.io/radar/#e=imaginary-cosmos-samara
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Воображаемый кос
+ мос
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

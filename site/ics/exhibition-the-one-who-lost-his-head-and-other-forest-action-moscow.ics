@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Выставка «„Потерявший голову“ 
+ и другие лесные акции»
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:exhibition-the-one-who-lost-his-head-and-other-forest-action-moscow@a
+ fisha-art
+DTSTAMP:20261113T000022Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Последний день: Выставка «„Потеряв
+ ший голову“ и другие лесные акции»
+LOCATION:ЦТИ «Фабрика»\, Актовый зал\, Переве
+ деновский переулок\, 18\, Москва
+DESCRIPTION:Персональная выставка Андрея Куз
+ ькина\, центральным объектом которой ст
+ ала хлебная скульптура человека без гол
+ овы и архив из более чем 40 лесных акций.\n
+ Андрей Кузькин\nhttps://t.me/anna_nova_gallery/4790
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-the-one-who-los
+ t-his-head-and-other-forest-action-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Выставка «„Потер
+ явший голову“ и другие лесные акции»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

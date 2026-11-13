@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Выставка «Всегда время пить чай»
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:exhibition-always-time-to-drink-tea-vyborg@afisha-art
+DTSTAMP:20261113T000022Z
+DTSTART:20261113T120000Z
+DTEND:20261113T140000Z
+SUMMARY:Выставка «Всегда время пить чай»
+LOCATION:Выставочный центр «Эрмитаж-Выборг
+ »\, Выборг
+DESCRIPTION:Персональная выставка российско-
+ китайского художника Си Ло\, подготовле
+ нная совместно с галереей БИЗON.\nСи Ло\nhtt
+ ps://t.me/bizongallery/5301
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-always-time-to-
+ drink-tea-vyborg
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выставка «Всегда время пить чай»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

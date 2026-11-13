@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Дикие камни
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:wild-stones-moscow@afisha-art
+DTSTAMP:20261113T000022Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Последний день: Дикие камни
+LOCATION:Кабинет печатного искусства Пиран
+ езиLAB (ЦСИ Винзавод)\, 4-й Сыромятнический
+  переулок\, 1/8с21\, С1\, Москва
+DESCRIPTION:Экспозиция офортов и красочных п
+ алитр-выкрасов\, доработанных художнице
+ й вручную с использованием красок из ми
+ неральных пигментов.\nЕлена Самородова-
+ Сонина\nhttps://t.me/piranesilab/2364
+URL:https://doublebasskakov.github.io/radar/#e=wild-stones-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Дикие камни
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

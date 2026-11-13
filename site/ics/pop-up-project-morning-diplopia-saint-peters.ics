@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Pop-up проект «Утреннее раздвоение
+ »
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:pop-up-project-morning-diplopia-saint-peters@afisha-art
+DTSTAMP:20261113T000022Z
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+SUMMARY:Последний день: Pop-up проект «Утренне
+ е раздвоение»
+LOCATION:Свет Кафе\, Свечной переулок\, 5\, Сан
+ кт-Петербург
+DESCRIPTION:Выставочный проект в гастрономич
+ еском пространстве\, объединяющий объек
+ ты и инсталляции художника на тему двой
+ ственности восприятия реальности.\nФёдо
+ р Хиросигэ\nhttps://t.me/anna_nova_gallery/4808
+URL:https://doublebasskakov.github.io/radar/#e=pop-up-project-morning-dip
+ lopia-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Pop-up проект «Утрен
+ нее раздвоение»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

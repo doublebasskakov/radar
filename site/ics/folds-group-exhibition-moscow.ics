@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Коллективная выставка «Складки»
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:folds-group-exhibition-moscow@afisha-art
+DTSTAMP:20261113T000022Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:Последний день: Коллективная выста
+ вка «Складки»
+LOCATION:PA Gallery\, ул. Волхонка / ул. Тверская\, 
+ Москва
+DESCRIPTION:Выставочный проект исследует обр
+ аз складки\, драпировки и фальшфасада ка
+ к метафору барочной чувствительности и 
+ переосмысления истории искусства.\nАндр
+ ей Волков\, Алиса Горелова\, Кирилл Ермол
+ ин-Луговский\, Аня Жёлудь\, Антон Конюхов
+ \, Андрей Сяйлев\, Олег Устинов\, Олег Хво
+ стов\, Юлия Тихомирова\nhttps://t.me/pagallery_official
+ /1826
+URL:https://doublebasskakov.github.io/radar/#e=folds-group-exhibition-mos
+ cow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Коллективная выс
+ тавка «Складки»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

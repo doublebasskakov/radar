@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Ярмарка графики «Обертон»
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:oberton-graphic-art-fair-moscow@afisha-art
+DTSTAMP:20261113T000022Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261207
+SUMMARY:Ярмарка графики «Обертон»
+LOCATION:ТОН-ЦЕНТР\, Комсомольская площадь\, 
+ 3/30с1\, Москва
+DESCRIPTION:Второй выпуск ярмарки графическо
+ го искусства от команды Cosmoscow\, собирающ
+ ий десятки галерей из разналичных город
+ ов России.\nCosmoscow\, SAMPLE\nhttps://t.me/sampleart/10178
+URL:https://doublebasskakov.github.io/radar/#e=oberton-graphic-art-fair-m
+ oscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ярмарка графики «Обертон»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

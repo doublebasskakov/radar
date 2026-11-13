@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Смена координат
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:shift-of-coordinates-moscow@afisha-art
+DTSTAMP:20261113T000022Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261116
+SUMMARY:Смена координат
+LOCATION:ТОН-ЦЕНТР\, Комсомольская площадь\, 
+ 3/30\, стр. 1\, Москва
+DESCRIPTION:Выставка работ по итогам арт-рези
+ денции в Заполярье\, исследующая воспри
+ ятие северного пространства с помощью п
+ розрачной печати на акриле.\nАнастасия Ц
+ айдер\, Мария Инькова\, Никита Кроко\, Еле
+ на Филаретова\nhttps://t.me/pennlab/2373
+URL:https://doublebasskakov.github.io/radar/#e=shift-of-coordinates-mosco
+ w
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Смена координат
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

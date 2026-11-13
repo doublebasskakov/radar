@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Ярмарка «Куча³»
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:kucha3-fair-moscow@afisha-art
+DTSTAMP:20261113T000022Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261221
+SUMMARY:Ярмарка «Куча³»
+LOCATION:ЦТИ «Фабрика»\, Переведеновский пе
+ реулок\, 18\, Москва
+DESCRIPTION:Ярмарка независимого искусства и
+  книгоиздания\, объединяющая работы низ
+ овых и самобытных художников и авторов.\
+ nПаша Пошукай\, Ира Турченко и др.\nhttps://t.me
+ /Ccc_x124/1127
+URL:https://doublebasskakov.github.io/radar/#e=kucha3-fair-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ярмарка «Куча³»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

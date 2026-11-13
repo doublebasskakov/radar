@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Ярмарка |catalog|
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:catalog-art-fair-moscow@afisha-art
+DTSTAMP:20261113T000022Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261123
+SUMMARY:Ярмарка |catalog|
+LOCATION:Софийская набережная\, 10\, Софийска
+ я набережная\, 10\, Москва
+DESCRIPTION:Ярмарка современного искусства\, 
+ объединяющая выставочные стенды и спец
+ иальные проекты российских галерей.\nНа
+ дежда Прадес\, Олеся Рубеко\, Postrigay Gallery\nht
+ tps://t.me/postrigay_gallery/2891
+URL:https://doublebasskakov.github.io/radar/#e=catalog-art-fair-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ярмарка |catalog|
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

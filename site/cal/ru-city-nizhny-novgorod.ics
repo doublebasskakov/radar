@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:arsenal-leger@afisha-art
-DTSTAMP:20261112T232755Z
+DTSTAMP:20261113T000022Z
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
 SUMMARY:Последний день: Фернан Леже. Формул
@@ -29,7 +29,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nn-9b-bomse-golos-za-kadrom@afisha-art
-DTSTAMP:20261112T232755Z
+DTSTAMP:20261113T000022Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Последний день: Эвсти Бомсе. «Голос 
@@ -49,6 +49,52 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Последний день: Эвсти Бомсе. «Гол
  ос за кадром»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:model-range-nizhny-novgo@afisha-art
+DTSTAMP:20261113T000022Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Последний день: Модельный ряд
+LOCATION:Центр современного искусства «Тер
+ минал А»\, Нижний Новгород
+DESCRIPTION:Кураторский проект исследует тем
+ ы карт\, макетов и эскизов как способов к
+ онструирования и переосмысления реальн
+ ости.\nСергей Гуськов\, Слава Нестеров (к
+ ураторы)\, объединение «масла лисе / másla l
+ issé»\nhttps://t.me/artsfera_org/5312
+URL:https://doublebasskakov.github.io/radar/#e=model-range-nizhny-novgo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Модельный ряд
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:model-range-exhibition-nizhny-novgo@afisha-art
+DTSTAMP:20261113T000022Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Открытие: Выставка «Модельный ряд»
+LOCATION:Центр современного искусства «Тер
+ минал А»\, Красная Слобода\, 9\, Нижний Нов
+ город
+DESCRIPTION:Исследовательский проект о феном
+ ене копирования и моделирования\, предс
+ тавляющий объекты от архитектурных мак
+ етов до диорам и коллекционных фигурок.\
+ nАлексей Рюмин\, Зуля Алиева\, Слава Нест
+ еров (куратор)\, Сергей Гуськов (куратор)\
+ nhttps://t.me/arttube_editions/1333
+URL:https://doublebasskakov.github.io/radar/#e=model-range-exhibition-niz
+ hny-novgo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка «Модельный ря
+ д»
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

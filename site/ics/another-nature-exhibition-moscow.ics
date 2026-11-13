@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Выставка «Иная природа»
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:another-nature-exhibition-moscow@afisha-art
+DTSTAMP:20261113T000022Z
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:Последний день: Выставка «Иная прир
+ ода»
+LOCATION:Галерея АРТЗИП\, ул. Тимура Фрунзе\, 
+ 8/5\, Москва
+DESCRIPTION:Персональная выставка Евгении Во
+ йнар\, посвященная поискам внутренней о
+ поры через сказочные образы и воспомина
+ ния. Экспозиция создана совместно с объ
+ единением «НА СВЕЖУЮ ГОЛОВУ».\nЕвгения В
+ ойнар\, София Темникова\nhttps://t.me/artzip_gallery/9
+ 848
+URL:https://doublebasskakov.github.io/radar/#e=another-nature-exhibition-
+ moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Выставка «Иная пр
+ ирода»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

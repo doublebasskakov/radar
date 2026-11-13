@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Лекция Ивана Смирнова «Оживлени
+ е статуи»
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:lecture-by-ivan-smirnov-bringing-the-statue-to-life-moscow@afisha-art
+DTSTAMP:20261113T000022Z
+DTSTART:20261128T130000Z
+DTEND:20261128T150000Z
+SUMMARY:Лекция Ивана Смирнова «Оживление с
+ татуи»
+LOCATION:Фонд Ruarts\, Трубниковский переулок\, 
+ 6\, Москва
+DESCRIPTION:Искусствоведческая лекция\, посв
+ ященная восприятию скульптуры и теме ож
+ ивающих изваяний в культуре.\nИван Смирн
+ ов\nhttps://t.me/ruartsfoundation/1494
+URL:https://doublebasskakov.github.io/radar/#e=lecture-by-ivan-smirnov-br
+ inging-the-statue-to-life-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекция Ивана Смирнова «Оживление
+  статуи»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

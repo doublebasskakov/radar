@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Неполное собрание сочинений
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:incomplete-collected-works-moscow@afisha-art
+DTSTAMP:20261113T000022Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Последний день: Неполное собрание с
+ очинений
+LOCATION:Галерея 11.12\, Москва
+DESCRIPTION:Персональный проект Дамира Мурат
+ ова\, представляющий серию новых работ х
+ удожника.\nДамир Муратов\nhttps://t.me/GALLERY_ELEVEN
+ _TWELVE/926
+URL:https://doublebasskakov.github.io/radar/#e=incomplete-collected-works
+ -moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Неполное собрани
+ е сочинений
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

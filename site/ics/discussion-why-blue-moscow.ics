@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Дискуссия «Почему синий?»
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:discussion-why-blue-moscow@afisha-art
+DTSTAMP:20261113T000022Z
+DTSTART:20261117T153000Z
+DTEND:20261117T173000Z
+SUMMARY:Дискуссия «Почему синий?»
+LOCATION:Галерея pop/off/art\, ЦСИ Винзавод\, 4-й Сы
+ ромятнический пер.\, д. 1/8\, стр. 9\, Москва
+DESCRIPTION:Паблик-ток с участием художников 
+ и искусствоведов\, посвященный свойства
+ м и контекстам применения синего цвета 
+ в современном искусстве.\nАлександр Мор
+ таев\, Иван Новиков\, Евгения Буравлева\, 
+ Николай Алексеев\, Даниил Параничев\nhttps:
+ //t.me/pop_off_art/9192
+URL:https://doublebasskakov.github.io/radar/#e=discussion-why-blue-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Дискуссия «Почему синий?»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

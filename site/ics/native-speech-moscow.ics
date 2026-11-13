@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Родная речь
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:native-speech-moscow@afisha-art
+DTSTAMP:20261113T000022Z
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+SUMMARY:Последний день: Родная речь
+LOCATION:ПиранезиLAB в ЦТИ «Фабрика»\, Переве
+ деновский переулок\, 18\, стр. 4\, Цех Отдел
+ ки\, Москва
+DESCRIPTION:Персональная выставка Синего Кар
+ андаша\, в рамках которой выставочное пр
+ остранство превращено в учебный класс с
+  шелкографскими авторскими надписями п
+ оверх сюжетов классической живописи.\nС
+ иний Карандаш\nhttps://t.me/piranesilab/2355
+URL:https://doublebasskakov.github.io/radar/#e=native-speech-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Родная речь
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

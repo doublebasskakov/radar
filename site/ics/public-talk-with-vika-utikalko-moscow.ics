@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Паблик-ток с Викой Утикалко
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:public-talk-with-vika-utikalko-moscow@afisha-art
+DTSTAMP:20261113T000022Z
+DTSTART:20261115T160000Z
+DTEND:20261115T180000Z
+SUMMARY:Паблик-ток с Викой Утикалко
+LOCATION:Галерея TŌMO\, 1-й Зачатьевский пер.\, 8
+ \, стр. 9\, Москва
+DESCRIPTION:Встреча с художницей Викой Утика
+ лко в рамках параллельной программы к в
+ ыставке современного искусства и керам
+ ики.\nВика Утикалко\nhttps://t.me/tomo_art/2548
+URL:https://doublebasskakov.github.io/radar/#e=public-talk-with-vika-utik
+ alko-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Паблик-ток с Викой Утикалко
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

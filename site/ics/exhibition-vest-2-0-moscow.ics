@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Выставка «Весть 2.0»
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:exhibition-vest-2-0-moscow@afisha-art
+DTSTAMP:20261113T000022Z
+DTSTART;VALUE=DATE:20270223
+DTEND;VALUE=DATE:20270224
+SUMMARY:Последний день: Выставка «Весть 2.0»
+LOCATION:Еврейский музей и центр толерантно
+ сти\, ул. Образцова\, 11\, Москва
+DESCRIPTION:Масштабный проект о художественн
+ ом осмыслении способов передачи информ
+ ации — от ранних сигнальных систем и ав
+ ангарда до современных цифровых медиа.\n
+ Марк Шагал\, Михаил Ларионов\, Александр 
+ Родченко\, Владимир Маяковский\, Кузьма 
+ Петров-Водкин\, Александр Дейнека\, Катя 
+ Исаева\nhttps://t.me/mythgallery/4777
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-vest-2-0-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Выставка «Весть 2.
+ 0»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

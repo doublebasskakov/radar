@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Спецпоказ фильма «Сцены из "Капи
+ тала"»
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:special-screening-of-the-film-scenes-from-capital-moscow@afisha-art
+DTSTAMP:20261113T000022Z
+DTSTART:20261115T140000Z
+DTEND:20261115T160000Z
+SUMMARY:Спецпоказ фильма «Сцены из "Капитал
+ а"»
+LOCATION:Зотов.Кино\, Москва
+DESCRIPTION:Показ гипотетической реконструк
+ ции фрагмента неосуществленного фильма
+  Сергея Эйзенштейна\, созданной с помощь
+ ю искусственного интеллекта.\nФедор Мак
+ симишин\, Наум Клейман\, Дарья Суслова\, М
+ ихаил Ратгауз\nhttps://t.me/centrezotov/10320
+URL:https://doublebasskakov.github.io/radar/#e=special-screening-of-the-f
+ ilm-scenes-from-capital-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спецпоказ фильма «Сцены из "Капит
+ ала"»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

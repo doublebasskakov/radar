@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Модельный ряд
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:model-range-nizhny-novgo@afisha-art
+DTSTAMP:20261113T000022Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Последний день: Модельный ряд
+LOCATION:Центр современного искусства «Тер
+ минал А»\, Нижний Новгород
+DESCRIPTION:Кураторский проект исследует тем
+ ы карт\, макетов и эскизов как способов к
+ онструирования и переосмысления реальн
+ ости.\nСергей Гуськов\, Слава Нестеров (к
+ ураторы)\, объединение «масла лисе / másla l
+ issé»\nhttps://t.me/artsfera_org/5312
+URL:https://doublebasskakov.github.io/radar/#e=model-range-nizhny-novgo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Модельный ряд
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

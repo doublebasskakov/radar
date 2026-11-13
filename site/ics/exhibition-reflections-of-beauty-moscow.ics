@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Выставка «Отражения красоты»
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:exhibition-reflections-of-beauty-moscow@afisha-art
+DTSTAMP:20261113T000022Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Открытие: Выставка «Отражения крас
+ оты»
+LOCATION:3L Gallery\, ул. Льва Толстого\, 23\, к. 1\, Мо
+ сква
+DESCRIPTION:Совместная выставка скульптур Де
+ ниса Патракеева и фотографий Валерия Ка
+ цубы\, исследующая мотивы эстетики и воз
+ вышенного.\nДенис Патракеев\, Валерий Ка
+ цуба\nhttps://t.me/anna_nova_gallery/4814
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-reflections-of-
+ beauty-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка «Отражения кр
+ асоты»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Книжный дайвинг
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:book-diving-samara@afisha-art
+DTSTAMP:20261113T000022Z
+DTSTART:20261114T130000Z
+DTEND:20261114T150000Z
+SUMMARY:Книжный дайвинг
+LOCATION:Галерея «Виктория»\, Библиотека\, Н
+ екрасовская ул.\, 2\, Самара
+DESCRIPTION:Музыкальный вечер в галерейной б
+ иблиотеке с живыми выступлениями эмбие
+ нт-артистов и диджей-сетами.\ntsyo\, d. towärds\,
+  Dmitry Krylov\, hasis\nhttps://t.me/gallery_victoria/4224
+URL:https://doublebasskakov.github.io/radar/#e=book-diving-samara
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Книжный дайвинг
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

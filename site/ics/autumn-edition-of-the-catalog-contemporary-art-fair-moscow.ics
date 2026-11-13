@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Осенний выпуск ярмарки современ
+ ного искусства |catalog|
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:autumn-edition-of-the-catalog-contemporary-art-fair-moscow@afisha-art
+DTSTAMP:20261113T000022Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261123
+SUMMARY:Осенний выпуск ярмарки современног
+ о искусства |catalog|
+LOCATION:ЖК «ЗОЛОТОЙ»\, Софийская набережна
+ я\, 10\, стенд b46\, Москва
+DESCRIPTION:Осенний выпуск ярмарки современн
+ ого искусства\, на котором галерея АРТЗИ
+ П представит кураторский стенд «Инвари
+ анты» с живописью\, медиа-объектами и ск
+ ульптурой.\nАся Феоктистова\, Настя Миро\
+ , Виктор Пономаренко\, Евгения Войнар\, С
+ аян Байгалиев\, Платон Инфанте\, Сергей К
+ олосов\, София Темникова\nhttps://t.me/artzip_gallery
+ /9862
+URL:https://doublebasskakov.github.io/radar/#e=autumn-edition-of-the-cata
+ log-contemporary-art-fair-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Осенний выпуск ярмарки современн
+ ого искусства |catalog|
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

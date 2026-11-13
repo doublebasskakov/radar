@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Выставка «Написано водой\, на вод
+ е и для воды»
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:exhibition-written-by-water-on-water-and-for-water-samara@afisha-art
+DTSTAMP:20261113T000022Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:Последний день: Выставка «Написано 
+ водой\, на воде и для воды»
+LOCATION:Галерея «Виктория»\, Зал А\, Самара
+DESCRIPTION:Итоговая экспозиция видеоарта и 
+ видеоперформанса по результатам трехме
+ сячной исследовательской арт-лаборатор
+ ии.\nУчастники лаборатории «Речные проп
+ иси»\nhttps://t.me/gallery_victoria/4231
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-written-by-wate
+ r-on-water-and-for-water-samara
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Выставка «Написа
+ но водой\, на воде и для воды»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

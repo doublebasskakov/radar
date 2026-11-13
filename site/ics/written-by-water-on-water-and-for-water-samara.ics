@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Написано водой\, на воде и для вод
+ ы
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:written-by-water-on-water-and-for-water-samara@afisha-art
+DTSTAMP:20261113T000022Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:Последний день: Написано водой\, на 
+ воде и для воды
+LOCATION:Галерея «Виктория»\, Зал А\, Некрасо
+ вская ул.\, 2\, Самара
+DESCRIPTION:Итоговая выставка лаборатории ви
+ деоарта и видеоперформанса «Речные про
+ писи»\, осмысляющая традиции пленэрной 
+ живописи и волжский ландшафт через экра
+ нные медиа.\nАнна Афанасьева\, Татьяна Во
+ лкова\, Саша Деяш\, Камила Дуйсебаева\, Да
+ рья Захарова\, Данил Куликов\, Екатерина 
+ Оленина\, Надежда Сотникова\, Артем Утро
+ в\, Евгения Ястребова\, Александра Артам
+ онова\, Евгения Лаптева\nhttps://t.me/gallery_victoria
+ /4214
+URL:https://doublebasskakov.github.io/radar/#e=written-by-water-on-water-
+ and-for-water-samara
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Написано водой\, н
+ а воде и для воды
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

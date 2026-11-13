@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Good Luck\, Sweetheart
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:good-luck-sweetheart-moscow@afisha-art
+DTSTAMP:20261113T000022Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Последний день: Good Luck\, Sweetheart
+LOCATION:fabula HQ\, ул. Самокатная 4с1\, Москва
+DESCRIPTION:Персональная выставка рассматри
+ вает мир как систему ставок и рискованн
+ ую гонку\, где талисманы и ритуалы стано
+ вятся попыткой обрести контроль над нео
+ пределенностью.\nНурия Нургалиева\nhttps://t
+ .me/fabula_gallery/1981
+URL:https://doublebasskakov.github.io/radar/#e=good-luck-sweetheart-mosco
+ w
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Good Luck\, Sweetheart
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

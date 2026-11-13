@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Медиация по выставке Кати Весело
+ вской
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:mediation-tour-of-katya-veselovskaya-s-exhibition-st-petersbur@afisha
+ -art
+DTSTAMP:20261113T000022Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Медиация по выставке Кати Веселовс
+ кой
+LOCATION:Sobo Gallery\, Санкт-Петербург
+DESCRIPTION:Авторская прогулка-медиация по в
+ ыставке скульптурных объектов и нежных 
+ образов Кати Веселовской.\nКатя Веселов
+ ская\nhttps://t.me/sobogallery/2132
+URL:https://doublebasskakov.github.io/radar/#e=mediation-tour-of-katya-ve
+ selovskaya-s-exhibition-st-petersbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Медиация по выставке Кати Весело
+ вской
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

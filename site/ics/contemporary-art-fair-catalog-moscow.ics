@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Ярмарка современного искусства |
+ catalog|
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:contemporary-art-fair-catalog-moscow@afisha-art
+DTSTAMP:20261113T000022Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261123
+SUMMARY:Ярмарка современного искусства |catal
+ og|
+LOCATION:ЖК «Золотой»\, Софийская набережна
+ я\, 10\, Москва
+DESCRIPTION:Осенний выпуск ярмарки современн
+ ого искусства\, организуемой Ассоциацие
+ й галерей с участием ведущих российских
+  арт-институций.\nАссоциация галерей\, Га
+ лерея pop/off/art\nhttps://t.me/pop_off_art/9189
+URL:https://doublebasskakov.github.io/radar/#e=contemporary-art-fair-cata
+ log-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ярмарка современного искусства |c
+ atalog|
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

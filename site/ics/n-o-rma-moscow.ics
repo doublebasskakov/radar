@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Н.О.РМА
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:n-o-rma-moscow@afisha-art
+DTSTAMP:20261113T000022Z
+DTSTART;VALUE=DATE:20261229
+DTEND;VALUE=DATE:20261230
+SUMMARY:Последний день: Н.О.РМА
+LOCATION:LOBBY\, Москва
+DESCRIPTION:Групповой проект совмещает проти
+ воположные понятия нормы и романтизма\, 
+ сопоставляя мрамор\, эмаль и восковые эл
+ ементы.\nАлександр Шабаев\, Никита Ерохи
+ н\, Марк Есин\nhttps://t.me/lobbymoscow/3724
+URL:https://doublebasskakov.github.io/radar/#e=n-o-rma-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Н.О.РМА
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR
