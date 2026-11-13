@@ -773,10 +773,14 @@ def fill_times(master, limit=72):
                                       "src": e.get("src")}, ensure_ascii=False) for e in chunk)
         try:
             text = web_llm(TIMES_PROMPT.format(today=TODAY.isoformat(), items=items))
-            res = json.loads(re.search(r"\{.*\}", text, re.S).group(0))
         except Exception as ex:
             log("  ! время:", ex)
             break
+        m = re.search(r"\{.*\}", text, re.S)
+        try:
+            res = json.loads(m.group(0)) if m else {}
+        except ValueError:
+            res = {}
         for e in chunk:
             tried.add(e["id"])
             r = res.get(e["id"]) or {}
@@ -816,10 +820,14 @@ def expand_festivals(master, limit=8):
         item = json.dumps({k: parent.get(k) for k in ("title", "who", "city", "venue", "start", "end", "src")}, ensure_ascii=False)
         try:
             text = web_llm(FEST_PROMPT.format(today=TODAY.isoformat(), item=item))
-            subs = json.loads(re.search(r"\[.*\]", text, re.S).group(0))
         except Exception as ex:
             log("  ! программа:", ex)
             break
+        m = re.search(r"\[.*\]", text, re.S)
+        try:
+            subs = json.loads(m.group(0)) if m else []
+        except ValueError:
+            subs = []
         tried.add(parent["id"])
         kids = []
         for k in subs if isinstance(subs, list) else []:
