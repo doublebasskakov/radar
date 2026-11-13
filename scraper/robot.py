@@ -339,16 +339,22 @@ def gemini(prompt):
         raise RuntimeError("gemini off")
     waits = 0
     for _ in range(12):
-        r = requests.post(f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent",
-                          params={"key": key}, timeout=240,
-                          json={"contents": [{"role": "user", "parts": [{"text": prompt}]}],
-                                "generationConfig": {"responseMimeType": "application/json"}})
+        try:
+            r = requests.post(f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent",
+                              params={"key": key}, timeout=150,
+                              json={"contents": [{"role": "user", "parts": [{"text": prompt}]}],
+                                    "generationConfig": {"responseMimeType": "application/json"}})
+        except requests.exceptions.Timeout:
+            if _gemini_next(key, f"{GEMINI_MODEL}: не ответила за 150 с"):
+                continue
+            raise
         if r.status_code in (400, 403, 404):
             if _gemini_next(key, f"{GEMINI_MODEL} → {r.status_code}"):
                 continue
             _gemini_dead = True; raise RuntimeError(f"gemini {r.status_code}: {r.text[:200]}")
         if r.status_code == 429:
             body = r.text
+            log(f"  gemini 429 ({GEMINI_MODEL}): " + re.sub(r"\s+", " ", body)[:260])
             per_minute = "PerMinute" in body or "per minute" in body.lower()
             if per_minute and waits < 3 and time.time() < LLM_DEADLINE:      # минутный лимит — подождать
                 waits += 1; time.sleep(35 * waits); continue
