@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:exhibition-n-o-rma-moscow@afisha-art
+DTSTAMP:20261113T113942Z
+DTSTART;VALUE=DATE:20261229
+DTEND;VALUE=DATE:20261230
+SUMMARY:Последний день: Выставка «Н.О.РМА»
+LOCATION:Пространство LOBBY\, Москва
+DESCRIPTION:Групповой проект исследует дихот
+ омию установленных стандартов и личной 
+ свободы через мраморные гравировки\, те
+ кстильные эмали и восковые пластики.\nАл
+ ександр Шабаев\, Никита Ерохин\, Марк Еси
+ н\, Shilo Gallery\nhttps://t.me/shilo_gallery/124
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-n-o-rma-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Выставка «Н.О.РМА
+ »
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

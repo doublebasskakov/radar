@@ -9,7 +9,7 @@ X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:conference-how-it-s-made-vladimir-gorlinsky-on-contraforces--moscow@a
  fisha-art
-DTSTAMP:20261113T093928Z
+DTSTAMP:20261113T113942Z
 DTSTART:20261125T170000Z
 DTEND:20261125T190000Z
 SUMMARY:Конференция «Как это сделано?»: Вла
@@ -35,7 +35,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ceam-konf-kak-eto-sdelano@afisha-art
-DTSTAMP:20261113T093928Z
+DTSTAMP:20261113T113942Z
 DTSTART:20261125T130000Z
 DTEND:20261125T150000Z
 SUMMARY:Конференция ЦЭАМ «Как это сделано?»
@@ -59,7 +59,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:lecture-by-alexander-korotkov-exhibition-architecture-of-kon-saint-pe
  ters@afisha-art
-DTSTAMP:20261113T093928Z
+DTSTAMP:20261113T113942Z
 DTSTART:20261114T153000Z
 DTEND:20261114T173000Z
 SUMMARY:Лекция Александра Короткова «Выста
@@ -84,9 +84,34 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:artist-talk-setting-the-scene-dmitrovskoye@afisha-art
+DTSTAMP:20261113T113942Z
+DTSTART:20261114T130000Z
+DTEND:20261114T150000Z
+SUMMARY:Артист-ток «Место действия»
+LOCATION:Гридчинхолл\, Московская область\, 
+ село Дмитровское\, ул. Центральная\, 23\, с
+ ело Дмитровское
+DESCRIPTION:Пять художниц арт-резиденции и ку
+ ратор Мари Шубина обсудят\, как окружающ
+ ая среда\, пространство и внешние обстоя
+ тельства становятся частью художествен
+ ного процесса.\nЮлия Немова\, Катя Сергее
+ ва\, Лиза Ра\, Дарья Догаева\, Карина Батр
+ аченко\, Мари Шубина\nhttps://t.me/gridchinhallgallery/21
+ 91
+URL:https://doublebasskakov.github.io/radar/#e=artist-talk-setting-the-sc
+ ene-dmitrovskoye
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Артист-ток «Место действия»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:radio-broadcast-step-away-from-the-painting-phygital-art-online@afish
  a-art
-DTSTAMP:20261113T093928Z
+DTSTAMP:20261113T113942Z
 DTSTART:20261114T140000Z
 DTEND:20261114T160000Z
 SUMMARY:Эфир программы «Отойдите от картин
@@ -109,7 +134,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:shards-and-reflections-the-life-of-modernist-ideas-in-the-20-samara@a
  fisha-art
-DTSTAMP:20261113T093928Z
+DTSTAMP:20261113T113942Z
 DTSTART:20261113T150000Z
 DTEND:20261113T170000Z
 SUMMARY:Осколки и отражения: жизнь модернис
@@ -132,7 +157,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:round-table-contemporary-art-and-theatre-st-petersbur@afisha-art
-DTSTAMP:20261113T093928Z
+DTSTAMP:20261113T113942Z
 DTSTART:20261115T094500Z
 DTEND:20261115T114500Z
 SUMMARY:Круглый стол «Современное искусств
@@ -157,8 +182,33 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:guided-tour-of-the-exhibition-bigger-splash-moscow@afisha-art
+DTSTAMP:20261113T113942Z
+DTSTART:20261114T120000Z
+DTEND:20261114T140000Z
+SUMMARY:Авторская экскурсия по выставке «Б
+ ОЛЬШОЙ ВСПЛЕСК // BIGGER SPLASH»
+LOCATION:Галерея БУДУЩЕЕ/FUTURO\, ЦСИ Винзавод\,
+  4-й Сыромятнический пер.\, 1/8 с.9\, подъезд 
+ Н8\, Москва
+DESCRIPTION:Художница Евгения Буравлева пров
+ едет встречу в экспозиции и обсудит с по
+ сетителями концепцию современного пейз
+ ажа и нелинейного времени.\nЕвгения Бура
+ влева\, Илья Крончев-Иванов\nhttps://t.me/futuro_ga
+ llery/2839
+URL:https://doublebasskakov.github.io/radar/#e=guided-tour-of-the-exhibit
+ ion-bigger-splash-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Авторская экскурсия по выставке 
+ «БОЛЬШОЙ ВСПЛЕСК // BIGGER SPLASH»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:discussion-why-blue-moscow@afisha-art
-DTSTAMP:20261113T093928Z
+DTSTAMP:20261113T113942Z
 DTSTART:20261117T153000Z
 DTEND:20261117T173000Z
 SUMMARY:Дискуссия «Почему синий?»
@@ -181,7 +231,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:alexander-mortaev-s-guided-tour-of-the-exhibition-house-by-t-moscow@a
  fisha-art
-DTSTAMP:20261113T093928Z
+DTSTAMP:20261113T113942Z
 DTSTART:20261115T150000Z
 DTEND:20261115T170000Z
 SUMMARY:Экскурсия Александра Мортаева по в
@@ -204,7 +254,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:discussion-of-georg-simmel-s-essay-the-ruin-moscow@afisha-art
-DTSTAMP:20261113T093928Z
+DTSTAMP:20261113T113942Z
 DTSTART:20261115T110000Z
 DTEND:20261115T130000Z
 SUMMARY:Обсуждение эссе Георга Зиммеля «Ру
@@ -227,7 +277,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tomo-public-talks@afisha-art
-DTSTAMP:20261113T093928Z
+DTSTAMP:20261113T113942Z
 DTSTART:20261115T160000Z
 DTEND:20261115T180000Z
 SUMMARY:Паблик-токи в TŌMO: керамика и соврем
@@ -250,7 +300,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lecture-by-mikhail-maizuls-twilight-of-the-idols-moscow@afisha-art
-DTSTAMP:20261113T093928Z
+DTSTAMP:20261113T113942Z
 DTSTART:20261114T110000Z
 DTEND:20261114T130000Z
 SUMMARY:Лекция Михаила Майзульса «Сумерки 
@@ -273,7 +323,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:public-talk-with-vika-utikalko-moscow@afisha-art
-DTSTAMP:20261113T093928Z
+DTSTAMP:20261113T113942Z
 DTSTART:20261115T160000Z
 DTEND:20261115T180000Z
 SUMMARY:Паблик-ток с Викой Утикалко
@@ -293,17 +343,17 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:excursion-to-ivan-nikolaev-s-house-commune-moscow@afisha-art
-DTSTAMP:20261113T093928Z
+DTSTAMP:20261113T113942Z
 DTSTART:20261121T083000Z
 DTEND:20261121T103000Z
 SUMMARY:Экскурсия в дом-коммуну Ивана Никол
  аева
-LOCATION:Дом-коммуна Ивана Николаева\, Москв
- а
+LOCATION:Дом-коммуна Ивана Николаева\, 2-й До
+ нской пр.\, 9\, Москва
 DESCRIPTION:Архитектурная экскурсия по одном
  у из ключевых памятников эпохи конструк
  тивизма в рамках Дней конструктивизма.\n
- \nhttps://t.me/centrezotov/10315
+ Глеб Деренчук\nhttps://t.me/centrezotov/10315
 URL:https://doublebasskakov.github.io/radar/#e=excursion-to-ivan-nikolaev
  -s-house-commune-moscow
 BEGIN:VALARM
@@ -315,7 +365,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lecture-by-ivan-smirnov-bringing-the-statue-to-life-moscow@afisha-art
-DTSTAMP:20261113T093928Z
+DTSTAMP:20261113T113942Z
 DTSTART:20261128T130000Z
 DTEND:20261128T150000Z
 SUMMARY:Лекция Ивана Смирнова «Оживление с
@@ -337,7 +387,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ruarts-nitsberg-grail@afisha-art
-DTSTAMP:20261113T093928Z
+DTSTAMP:20261113T113942Z
 DTSTART:20261122T150000Z
 DTEND:20261122T170000Z
 SUMMARY:Александр Ницберг. «Тайна Грааля»
@@ -357,7 +407,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:6x15-constructivism-is-moscow@afisha-art
-DTSTAMP:20261113T093928Z
+DTSTAMP:20261113T113942Z
 DTSTART:20261121T110000Z
 DTEND:20261121T130000Z
 SUMMARY:6х15. «Конструктивизм — это…»
@@ -376,7 +426,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:lecture-russian-food-in-historical-essay-dictionary-and-sele-moscow@a
  fisha-art
-DTSTAMP:20261113T093928Z
+DTSTAMP:20261113T113942Z
 DTSTART:20261119T160000Z
 DTEND:20261119T180000Z
 SUMMARY:Лекция «Русская еда в историческом 
@@ -399,7 +449,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:readers-club-ksenia-guseva-on-hubert-robert-s-architectural--moscow@a
  fisha-art
-DTSTAMP:20261113T093928Z
+DTSTAMP:20261113T113942Z
 DTSTART:20261122T110000Z
 DTEND:20261122T130000Z
 SUMMARY:Читательский клуб: Ксения Гусева об
@@ -422,7 +472,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:readers-club-valery-zolotukhin-ruin-as-opportunity-moscow@afisha-art
-DTSTAMP:20261113T093928Z
+DTSTAMP:20261113T113942Z
 DTSTART:20261129T110000Z
 DTEND:20261129T130000Z
 SUMMARY:Читательский клуб: Валерий Золотух
@@ -444,7 +494,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:klimt-and-vrubel-two-geniuses-of-art-nouveau-kazan@afisha-art
-DTSTAMP:20261113T093928Z
+DTSTAMP:20261113T113942Z
 DTSTART:20261120T153000Z
 DTEND:20261120T173000Z
 SUMMARY:Климт и Врубель: два гения модерна
@@ -464,8 +514,30 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:presentation-of-nlo-journal-issue-200-moscow@afisha-art
+DTSTAMP:20261113T113942Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Презентация 200-го номера журнала «Н
+ ЛО»
+LOCATION:Центр «Зотов»\, Ходынская ул.\, 2\, Мо
+ сква
+DESCRIPTION:Встреча\, посвященная юбилейному 
+ выпуску журнала\, исследующему образы б
+ удущего и практики работы с исторически
+ м сознанием.\n\nhttps://t.me/centrezotov/10335
+URL:https://doublebasskakov.github.io/radar/#e=presentation-of-nlo-journa
+ l-issue-200-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Презентация 200-го номера журнала 
+ «НЛО»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:public-talk-with-elena-yudina-and-alexander-isakov-moscow@afisha-art
-DTSTAMP:20261113T093928Z
+DTSTAMP:20261113T113942Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Паблик-ток с Еленой Юдиной и Алекса
@@ -488,7 +560,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:public-talk-with-irina-uspenskaya-moscow@afisha-art
-DTSTAMP:20261113T093928Z
+DTSTAMP:20261113T113942Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Паблик-ток с Ириной Успенской
@@ -509,7 +581,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:mediation-tour-of-katya-veselovskaya-s-exhibition-st-petersbur@afisha
  -art
-DTSTAMP:20261113T093928Z
+DTSTAMP:20261113T113942Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Медиация по выставке Кати Веселовс

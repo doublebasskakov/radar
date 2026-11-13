@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Радар — Россия · city-dmitrovskoye
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:artist-talk-setting-the-scene-dmitrovskoye@afisha-art
+DTSTAMP:20261113T113942Z
+DTSTART:20261114T130000Z
+DTEND:20261114T150000Z
+SUMMARY:Артист-ток «Место действия»
+LOCATION:Гридчинхолл\, Московская область\, 
+ село Дмитровское\, ул. Центральная\, 23\, с
+ ело Дмитровское
+DESCRIPTION:Пять художниц арт-резиденции и ку
+ ратор Мари Шубина обсудят\, как окружающ
+ ая среда\, пространство и внешние обстоя
+ тельства становятся частью художествен
+ ного процесса.\nЮлия Немова\, Катя Сергее
+ ва\, Лиза Ра\, Дарья Догаева\, Карина Батр
+ аченко\, Мари Шубина\nhttps://t.me/gridchinhallgallery/21
+ 91
+URL:https://doublebasskakov.github.io/radar/#e=artist-talk-setting-the-sc
+ ene-dmitrovskoye
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Артист-ток «Место действия»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR
