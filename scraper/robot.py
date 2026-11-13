@@ -377,7 +377,7 @@ def gemini(prompt):
     raise RuntimeError("gemini failed")
 
 
-def claude(prompt):
+def claude(prompt, search=False):
     key = os.environ.get("ANTHROPIC_API_KEY")
     if not key:
         raise RuntimeError("ANTHROPIC_API_KEY не задан")
@@ -386,9 +386,13 @@ def claude(prompt):
                           headers={"x-api-key": key, "anthropic-version": "2023-06-01",
                                    "content-type": "application/json"},
                           json={"model": MODEL, "max_tokens": 8000,
-                                "messages": [{"role": "user", "content": prompt}]})
+                                "messages": [{"role": "user", "content": prompt}],
+                                **({"tools": [{"type": "web_search_20250305", "name": "web_search", "max_uses": 5}]}
+                                   if search else {})})
         if r.status_code in (429, 500, 502, 503, 529):
             time.sleep(10 * (attempt + 1)); continue
+        if r.status_code >= 400:
+            log(f"  claude {r.status_code}: " + re.sub(r"\s+", " ", r.text)[:260])
         r.raise_for_status()
         return "".join(b.get("text", "") for b in r.json()["content"])
     raise RuntimeError("claude недоступен")
@@ -739,6 +743,17 @@ def gemini_search(prompt):
     raise RuntimeError("gemini search failed")
 
 
+def web_llm(prompt):
+    """Модель с поиском в интернете: Gemini + Google, запасная — Claude + веб-поиск."""
+    try:
+        return gemini_search(prompt)
+    except Exception as e:
+        if not os.environ.get("ANTHROPIC_API_KEY"):
+            raise
+        log(f"  поиск: Gemini недоступна ({str(e)[:60]}) → Claude")
+        return claude(prompt, search=True)
+
+
 def fill_times(master, limit=72):
     """Концертам, спектаклям, лекциям без времени ищем точное время начала (раз на событие)."""
     st = load_json(STATE_FILE, {"seen": [], "pages": {}})
@@ -757,7 +772,7 @@ def fill_times(master, limit=72):
                                       "city": e.get("city"), "start": e.get("start"), "end": e.get("end"),
                                       "src": e.get("src")}, ensure_ascii=False) for e in chunk)
         try:
-            text = gemini_search(TIMES_PROMPT.format(today=TODAY.isoformat(), items=items))
+            text = web_llm(TIMES_PROMPT.format(today=TODAY.isoformat(), items=items))
             res = json.loads(re.search(r"\{.*\}", text, re.S).group(0))
         except Exception as ex:
             log("  ! время:", ex)
@@ -800,7 +815,7 @@ def expand_festivals(master, limit=8):
     for parent in todo[:limit]:
         item = json.dumps({k: parent.get(k) for k in ("title", "who", "city", "venue", "start", "end", "src")}, ensure_ascii=False)
         try:
-            text = gemini_search(FEST_PROMPT.format(today=TODAY.isoformat(), item=item))
+            text = web_llm(FEST_PROMPT.format(today=TODAY.isoformat(), item=item))
             subs = json.loads(re.search(r"\[.*\]", text, re.S).group(0))
         except Exception as ex:
             log("  ! программа:", ex)
