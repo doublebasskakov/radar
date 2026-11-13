@@ -188,9 +188,15 @@
       if (IN_TG) return openExternal(e.gcal);
       const a = document.createElement("a"); a.href = e.ics; a.download = "event.ics"; document.body.appendChild(a); a.click(); a.remove(); return;
     }
-    const abs = new URL(e.ics, location.href).href;
-    if (IN_TG) return openExternal(abs);   // Safari откроет файл и предложит «Добавить в Календарь»
-    location.href = abs;
+    if (IN_TG) {
+      // Из Telegram ссылка на .ics уходит прямо в Календарь как «подписка». Поэтому открываем
+      // в Safari промежуточную страницу — там файл открывается как одно событие «Добавить в Календарь».
+      const TGW = window.Telegram && window.Telegram.WebApp;
+      const page = new URL("add.html?k=apple&id=" + encodeURIComponent(e.id), location.href).href;
+      if (TGW && TGW.openLink) return TGW.openLink(page, { try_instant_view: false });
+      return openExternal(page);
+    }
+    location.href = new URL(e.ics, location.href).href;
   }
   function calChoice(e, force) {
     const saved = store.get("cal", "");

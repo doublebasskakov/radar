@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Добавить в календарь — Радар</title>
+<style>
+body{margin:0;background:#0c0c0f;color:#ecebf2;font:16px/1.45 -apple-system,system-ui,sans-serif;display:flex;min-height:100vh;align-items:center;justify-content:center}
+main{max-width:420px;padding:28px 22px;text-align:center}
+h1{font-size:20px;margin:0 0 6px}p{color:#8f8e9b;margin:8px 0 18px}
+a.b{display:block;background:#ecebf2;color:#0c0c0f;text-decoration:none;font-weight:600;border-radius:14px;padding:15px;margin:10px 0}
+a.g{background:#1b1b23;color:#ecebf2;border:1px solid #272731}
+small{color:#8f8e9b;display:block;margin-top:16px}
+</style></head><body><main>
+<h1 id="t">Добавить в календарь</h1>
+<p id="w"></p>
+<a class="b" id="apple" href="#">Добавить в Apple Календарь</a>
+<a class="b g" id="google" href="#">Добавить в Google Календарь</a>
+<small>Если вместо события открылась «подписка» — закройте её и откройте эту страницу в Safari (⋯ → «Открыть в Safari»).</small>
+</main>
+<script>
+(async () => {
+  const q = new URLSearchParams(location.search), id = q.get("id") || "";
+  const ics = "ics/" + encodeURIComponent(id) + ".ics";
+  document.getElementById("apple").href = ics;
+  try {
+    const d = await (await fetch("data/events.json", { cache: "no-cache" })).json();
+    const e = d.events.find((x) => x.id === id);
+    if (e) {
+      document.getElementById("t").textContent = e.title;
+      document.getElementById("w").textContent = [e.calSummary || "", e.venue, e.city].filter(Boolean).join(" · ");
+      if (e.gcal) document.getElementById("google").href = e.gcal;
+    }
+  } catch (_) {}
+  if (q.get("k") === "apple" && /iPhone|iPad|iPod|Macintosh/.test(navigator.userAgent)) location.href = ics;
+  if (q.get("k") === "google") { const g = document.getElementById("google").href; if (!g.endsWith("#")) location.href = g; }
+})();
+</script></body></html>
