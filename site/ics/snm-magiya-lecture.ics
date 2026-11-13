@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:snm-magiya-lecture@afisha-art
+DTSTAMP:20261113T172734Z
+DTSTART:20261119T140000Z
+DTEND:20261119T160000Z
+SUMMARY:Лекция перед концертом «Магия прис
+ утствия»
+LOCATION:Surf Coffee × Scene\, Малый Кисловский пер.\,
+  3\, Москва
+DESCRIPTION:Бесплатная лекция об идеях прогр
+ аммы «Студии новой музыки» перед концер
+ том в Рахманиновском зале\; 12 мест\, запи
+ сь в комментариях к посту\, слушателям —
+  скидка 20% на концерт.\nВарвара Федорова\n
+ https://t.me/studionewmusic/2345
+URL:https://t.me/studionewmusic/2345
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекция перед концертом «Магия пр
+ исутствия»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR
