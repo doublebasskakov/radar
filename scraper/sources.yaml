@@ -248,8 +248,11 @@ telegram:
   - {u: toncentermoscow, region: ru, city: Москва}
   - {u: mosfilarmonia, region: ru, city: Москва}
   - {u: muzlifemagazine, region: ru}
+  - {u: rbcstyle, region: ru}
 
 pages:
+  # --- РБК Стиль: раздел «Впечатления» (выставки, театр, концерты) ---
+  - {url: "https://style.rbc.ru/impressions", region: ru}
   # --- Тон-центр ---
   - {url: "https://ton-center.ru/program", region: ru, city: Москва}
   - {url: "https://ton-center.zapomni.ru/events", region: ru, city: Москва}
