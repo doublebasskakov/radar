@@ -5,9 +5,9 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:mdt-zoo@afisha-art
-DTSTAMP:20261113T132817Z
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261115
+DTSTAMP:20261113T140410Z
+DTSTART:20261113T163000Z
+DTEND:20261113T183000Z
 SUMMARY:Что случилось в зоопарке
 LOCATION:МДТ — Театр Европы\, ул. Рубинштейн
  а\, 18\, Санкт-Петербург
@@ -17,6 +17,26 @@ DESCRIPTION:Встреча на парковой скамейке\, ко
  емён Козлов\, пьеса Эдварда Олби\nhttps://thebl
  ueprint.ru/culture/theatre/theatre-nov2026
 URL:https://doublebasskakov.github.io/radar/#e=mdt-zoo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Что случилось в зоопарке
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mdt-zoo-1@afisha-art
+DTSTAMP:20261113T140410Z
+DTSTART:20261114T163000Z
+DTEND:20261114T183000Z
+SUMMARY:Что случилось в зоопарке
+LOCATION:МДТ — Театр Европы\, ул. Рубинштейн
+ а\, 18\, Санкт-Петербург
+DESCRIPTION:Встреча на парковой скамейке\, ко
+ торая из разговора двух незнакомцев пер
+ ерастает в опасный конфликт.\nРежиссёр С
+ емён Козлов\, пьеса Эдварда Олби\nhttps://thebl
+ ueprint.ru/culture/theatre/theatre-nov2026
+URL:https://doublebasskakov.github.io/radar/#e=mdt-zoo-1
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Что случилось в зоопарке

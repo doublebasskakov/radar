@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:samara-osenniy-auktsion-2026@afisha-art
-DTSTAMP:20261113T132817Z
+DTSTAMP:20261113T140410Z
 DTSTART:20261126T150000Z
 DTEND:20261126T170000Z
 SUMMARY:VII Осенний аукцион современного иск
@@ -30,8 +30,28 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:oberton-graphic-art-fair-moscow@afisha-art
+DTSTAMP:20261113T140410Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261207
+SUMMARY:Ярмарка графики «Обертон»
+LOCATION:ТОН-ЦЕНТР\, Комсомольская площадь\, 
+ 3/30с1\, Москва
+DESCRIPTION:Второй выпуск ярмарки графическо
+ го искусства от команды Cosmoscow\, собирающ
+ ий десятки галерей из разналичных город
+ ов России.\nCosmoscow\, SAMPLE\nhttps://t.me/sampleart/10178
+URL:https://doublebasskakov.github.io/radar/#e=oberton-graphic-art-fair-m
+ oscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ярмарка графики «Обертон»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:spb-diaghilev-ps-2026@afisha-art
-DTSTAMP:20261113T132817Z
+DTSTAMP:20261113T140410Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 SUMMARY:Последний день: Фестиваль «Дягилев 
@@ -54,7 +74,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:catalog-fair@afisha-art
-DTSTAMP:20261113T132817Z
+DTSTAMP:20261113T140410Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261123
 SUMMARY:|catalog| — ярмарка современного искус
@@ -76,7 +96,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:oberton-fair-2026@afisha-art
-DTSTAMP:20261113T132817Z
+DTSTAMP:20261113T140410Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261207
 SUMMARY:«Обертон» — ярмарка графики Cosmoscow
@@ -98,7 +118,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:catalog-fair-anna-bat-s-project-habitus-at-gallery-9b-booth-moscow@af
  isha-art
-DTSTAMP:20261113T132817Z
+DTSTAMP:20261113T140410Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261123
 SUMMARY:Ярмарка |catalog|: проект Анны Бат «Габи
@@ -122,7 +142,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:autumn-edition-of-the-catalog-contemporary-art-fair-moscow@afisha-art
-DTSTAMP:20261113T132817Z
+DTSTAMP:20261113T140410Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261123
 SUMMARY:Осенний выпуск ярмарки современног
@@ -149,7 +169,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:catalog-art-fair-6th-edition-moscow@afisha-art
-DTSTAMP:20261113T132817Z
+DTSTAMP:20261113T140410Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261123
 SUMMARY:Ярмарка |catalog| (6-й выпуск)
@@ -172,7 +192,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:pa-gallery-pseudomorphoses-booth-at-art021-shanghai-shanghai@afisha-a
  rt
-DTSTAMP:20261113T132817Z
+DTSTAMP:20261113T140410Z
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261115
 SUMMARY:Стенд PA Gallery «Псевдоморфозы» на ярм
@@ -196,7 +216,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:catalog-art-fair-moscow@afisha-art
-DTSTAMP:20261113T132817Z
+DTSTAMP:20261113T140410Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261123
 SUMMARY:Ярмарка современного искусства | cata
@@ -217,29 +237,9 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:oberton-graphic-art-fair-moscow@afisha-art
-DTSTAMP:20261113T132817Z
-DTSTART;VALUE=DATE:20261203
-DTEND;VALUE=DATE:20261207
-SUMMARY:Ярмарка графики «Обертон»
-LOCATION:ТОН-ЦЕНТР\, Комсомольская площадь\, 
- 3/30с1\, Москва
-DESCRIPTION:Второй выпуск ярмарки графическо
- го искусства от команды Cosmoscow\, собирающ
- ий десятки галерей из разналичных город
- ов России.\nCosmoscow\, SAMPLE\nhttps://t.me/sampleart/10178
-URL:https://doublebasskakov.github.io/radar/#e=oberton-graphic-art-fair-m
- oscow
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Ярмарка графики «Обертон»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:fyodor-hiroshige-and-palto-gallery-at-catalog-art-fair-moscow@afisha-
  art
-DTSTAMP:20261113T132817Z
+DTSTAMP:20261113T140410Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261123
 SUMMARY:Участие Фёдора Хиросигэ и галереи «
@@ -264,7 +264,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:kucha3-fair-moscow@afisha-art
-DTSTAMP:20261113T132817Z
+DTSTAMP:20261113T140410Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261221
 SUMMARY:Ярмарка «Куча³»
@@ -284,7 +284,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:signal-city-2026@afisha-art
-DTSTAMP:20261113T132817Z
+DTSTAMP:20261113T140410Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261123
 SUMMARY:Signal City
@@ -302,7 +302,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:smena-winter-book-fest@afisha-art
-DTSTAMP:20261113T132817Z
+DTSTAMP:20261113T140410Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261207
 SUMMARY:Зимний книжный фестиваль «Смены»

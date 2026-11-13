@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:adk-sample-hold-11@afisha-art
-DTSTAMP:20261113T132817Z
+DTSTAMP:20261113T140410Z
 DTSTART:20261125T190000Z
 DTEND:20261125T210000Z
 SUMMARY:sample&hold #11: Paul Purgas & Stefan Keller
@@ -27,8 +27,48 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:ultraschall-berlin-2027@afisha-art
+DTSTAMP:20261113T140410Z
+DTSTART:20270120T170000Z
+DTEND:20270120T190000Z
+SUMMARY:Ultraschall Berlin 2027
+LOCATION:Haus des Rundfunks\, Heimathafen Neukölln\, Radialsystem\, Бе
+ рлин\, Германия
+DESCRIPTION:Пять вечеров новой академической
+  музыки — фестиваль Deutschlandfunk Kultur и rbb radio3
+ .\n\nhttps://www.berlin.de/en/events/6416655-2842498-ultraschall-berlin-f
+ estival-for-new-musi.en.html
+URL:https://doublebasskakov.github.io/radar/#e=ultraschall-berlin-2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ultraschall Berlin 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hamburger-bahnhof-sophie-calle@afisha-art
+DTSTAMP:20261113T140410Z
+DTSTART:20261113T180000Z
+DTEND:20261113T200000Z
+SUMMARY:Открытие: Sophie Calle: Is It Better?
+LOCATION:Hamburger Bahnhof – Nationalgalerie der Gegenwart\, Invalidens
+ traße 50–51\, 10557 Berlin\, Берлин\, Германия
+DESCRIPTION:Большая выставка французской худ
+ ожницы\, соединяющей фотографию\, текст 
+ и личные истории.\nСофи Калль\nhttps://www.smb.mus
+ eum/en/exhibitions/preview/hamburger-bahnhof-nationalgalerie-der-gegenwar
+ t/
+URL:https://doublebasskakov.github.io/radar/#e=hamburger-bahnhof-sophie-c
+ alle
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Sophie Calle: Is It Better?
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:berlin-biennale-14@afisha-art
-DTSTAMP:20261113T132817Z
+DTSTAMP:20261113T140410Z
 DTSTART;VALUE=DATE:20270605
 DTEND;VALUE=DATE:20270606
 SUMMARY:Открытие: 14. Berlin Biennale: Central Europe Eastern Tim
@@ -53,7 +93,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:documenta-16@afisha-art
-DTSTAMP:20261113T132817Z
+DTSTAMP:20261113T140410Z
 DTSTART;VALUE=DATE:20270612
 DTEND;VALUE=DATE:20270613
 SUMMARY:Открытие: documenta 16
@@ -75,7 +115,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:transmediale-2027@afisha-art
-DTSTAMP:20261113T132817Z
+DTSTAMP:20261113T140410Z
 DTSTART;VALUE=DATE:20270128
 DTEND;VALUE=DATE:20270201
 SUMMARY:transmediale 2027: groundstates
@@ -96,7 +136,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ctm-festival-2027@afisha-art
-DTSTAMP:20261113T132817Z
+DTSTAMP:20261113T140410Z
 DTSTART;VALUE=DATE:20270122
 DTEND;VALUE=DATE:20270123
 SUMMARY:Открытие: CTM Festival 2027
@@ -116,7 +156,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:berlin-atonal-2027@afisha-art
-DTSTAMP:20261113T132817Z
+DTSTAMP:20261113T140410Z
 DTSTART;VALUE=DATE:20270825
 DTEND;VALUE=DATE:20270830
 SUMMARY:Berlin Atonal 2027
@@ -135,7 +175,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gropius-bau-schlingensief@afisha-art
-DTSTAMP:20261113T132817Z
+DTSTAMP:20261113T140410Z
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
 SUMMARY:Последний день: Christoph Schlingensief: Es ist nich
@@ -157,7 +197,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gropius-bau-kreuzberg@afisha-art
-DTSTAMP:20261113T132817Z
+DTSTAMP:20261113T140410Z
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
 SUMMARY:Последний день: Kreuzberg: Kunst und Migration seit 
@@ -177,27 +217,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ultraschall-berlin-2027@afisha-art
-DTSTAMP:20261113T132817Z
-DTSTART;VALUE=DATE:20270120
-DTEND;VALUE=DATE:20270125
-SUMMARY:Ultraschall Berlin 2027
-LOCATION:Haus des Rundfunks\, Heimathafen Neukölln\, Radialsystem\, Бе
- рлин\, Германия
-DESCRIPTION:Пять вечеров новой академической
-  музыки — фестиваль Deutschlandfunk Kultur и rbb radio3
- .\n\nhttps://www.berlin.de/en/events/6416655-2842498-ultraschall-berlin-f
- estival-for-new-musi.en.html
-URL:https://doublebasskakov.github.io/radar/#e=ultraschall-berlin-2027
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Ultraschall Berlin 2027
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:maerzmusik-2027@afisha-art
-DTSTAMP:20261113T132817Z
+DTSTAMP:20261113T140410Z
 DTSTART;VALUE=DATE:20270312
 DTEND;VALUE=DATE:20270313
 SUMMARY:Открытие: MaerzMusik 2027
@@ -216,7 +237,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:neue-nationalgalerie-cattelan@afisha-art
-DTSTAMP:20261113T132817Z
+DTSTAMP:20261113T140410Z
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270308
 SUMMARY:Последний день: Maurizio Cattelan. NIGHT
@@ -236,7 +257,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:darmstadt-summer-course-2027@afisha-art
-DTSTAMP:20261113T132817Z
+DTSTAMP:20261113T140410Z
 DTSTART;VALUE=DATE:20270710
 DTEND;VALUE=DATE:20270711
 SUMMARY:Открытие: Darmstädter Ferienkurse 2027
@@ -257,7 +278,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:haus-der-kunst-saraceno@afisha-art
-DTSTAMP:20261113T132817Z
+DTSTAMP:20261113T140410Z
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
 SUMMARY:Последний день: Tomás Saraceno
@@ -278,7 +299,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:neue-nationalgalerie-ruin-and-rush@afisha-art
-DTSTAMP:20261113T132817Z
+DTSTAMP:20261113T140410Z
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
 SUMMARY:Последний день: Ruin and Rush. Berlin 1910–1930
@@ -300,7 +321,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:steina-playback-haus-der-kunst@afisha-art
-DTSTAMP:20261113T132817Z
+DTSTAMP:20261113T140410Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 SUMMARY:Последний день: Steina: Playback
@@ -322,7 +343,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:haus-der-kunst-diane-severin-nguyen@afisha-art
-DTSTAMP:20261113T132817Z
+DTSTAMP:20261113T140410Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:Открытие: Diane Severin Nguyen
@@ -343,29 +364,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:hamburger-bahnhof-sophie-calle@afisha-art
-DTSTAMP:20261113T132817Z
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-SUMMARY:Открытие: Sophie Calle: Is It Better?
-LOCATION:Hamburger Bahnhof – Nationalgalerie der Gegenwart\, Invalidens
- traße 50–51\, 10557 Berlin\, Берлин\, Германия
-DESCRIPTION:Большая выставка французской худ
- ожницы\, соединяющей фотографию\, текст 
- и личные истории.\nСофи Калль\nhttps://www.smb.mus
- eum/en/exhibitions/preview/hamburger-bahnhof-nationalgalerie-der-gegenwar
- t/
-URL:https://doublebasskakov.github.io/radar/#e=hamburger-bahnhof-sophie-c
- alle
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Открытие: Sophie Calle: Is It Better?
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:carte-blanche-cologne-2026@afisha-art
-DTSTAMP:20261113T132817Z
+DTSTAMP:20261113T140410Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261207
 SUMMARY:Carte blanche Cologne

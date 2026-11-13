@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:vladimir-dmitriev-exhibition-saint-peters@afisha-art
+DTSTAMP:20261113T140410Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Владимир Дмитриев. Выставка
+LOCATION:Шереметевский дворец\, Полярный фл
+ игель\, Литейный проспект\, 53\, Санкт-Пете
+ рбург
+DESCRIPTION:Выставка театрального художника 
+ Владимира Дмитриева\, ученика Мейерхоль
+ да и Петрова-Водкина\; открывается в рам
+ ках фестиваля. Работает до 6 апреля.\nМуз
+ ей театра и музыки\nhttps://www.diaghilev-ps.ru/en/program
+ s/2026-main/
+URL:https://doublebasskakov.github.io/radar/#e=vladimir-dmitriev-exhibiti
+ on-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Владимир Дмитриев. Выставка
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

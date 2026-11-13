@@ -7,8 +7,27 @@ X-WR-CALNAME:Радар — Мир / World · cat-music
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:grm-bozar-acousmonium-2027@afisha-art
+DTSTAMP:20261113T140410Z
+DTSTART:20270127T183000Z
+DTEND:20270127T203000Z
+SUMMARY:INA GRM: Акусмониум в Bozar
+LOCATION:Bozar (Дворец изящных искусств)\, Брюс
+ сель\, Бельгия
+DESCRIPTION:GRM привозит акусмониум — оркестр 
+ из десятков громкоговорителей — на про
+ грамму Total Immersion в Брюсселе.\n\nhttps://www.bozar.be
+ /en/calendar/ina-grm-acousmonium
+URL:https://doublebasskakov.github.io/radar/#e=grm-bozar-acousmonium-2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:INA GRM: Акусмониум в Bozar
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:ircam-klangforum-saint-eustache@afisha-art
-DTSTAMP:20261113T132817Z
+DTSTAMP:20261113T140410Z
 DTSTART:20261130T190000Z
 DTEND:20261130T210000Z
 SUMMARY:Klangforum Wien × IRCAM
@@ -27,7 +46,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ircam-explosante-fixe-2027@afisha-art
-DTSTAMP:20261113T132817Z
+DTSTAMP:20261113T140410Z
 DTSTART:20270113T190000Z
 DTEND:20270113T210000Z
 SUMMARY:Булез: «…explosante-fixe…»
@@ -45,8 +64,31 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:hcmf-2026@afisha-art
+DTSTAMP:20261113T140410Z
+DTSTART:20261120T180000Z
+DTEND:20261120T200000Z
+SUMMARY:Открытие: hcmf// 2026 Huddersfield Contemporary Music Fes
+ tival
+LOCATION:Площадки Хаддерсфилда\, Хаддерсфил
+ д\, Великобритания
+DESCRIPTION:Крупнейший британский фестиваль 
+ новой и экспериментальной музыки: более
+  70 премьер\, концерты\, инсталляции и бес
+ платный марафон hcmf// shorts 23 ноября.\nРезид
+ ент Лаури Суппонен\; Ребекка Сондерс\, Дж
+ еймс Диллон\nhttps://hcmf.co.uk/hcmf-2026-now-on-sale/
+URL:https://doublebasskakov.github.io/radar/#e=hcmf-2026
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: hcmf// 2026 Huddersfield Contemporary Music
+  Festival
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:adk-sample-hold-11@afisha-art
-DTSTAMP:20261113T132817Z
+DTSTAMP:20261113T140410Z
 DTSTART:20261125T190000Z
 DTEND:20261125T210000Z
 SUMMARY:sample&hold #11: Paul Purgas & Stefan Keller
@@ -66,7 +108,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ircam-aho-ssan-studio-session@afisha-art
-DTSTAMP:20261113T132817Z
+DTSTAMP:20261113T140410Z
 DTSTART:20261209T180000Z
 DTEND:20261209T200000Z
 SUMMARY:Aho Ssan: Forum Studio Session #8
@@ -85,7 +127,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ircam-court-circuit-2027@afisha-art
-DTSTAMP:20261113T132817Z
+DTSTAMP:20261113T140410Z
 DTSTART:20270122T190000Z
 DTEND:20270122T210000Z
 SUMMARY:Ensemble Court-circuit в IRCAM
@@ -102,8 +144,45 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:ultraschall-berlin-2027@afisha-art
+DTSTAMP:20261113T140410Z
+DTSTART:20270120T170000Z
+DTEND:20270120T190000Z
+SUMMARY:Ultraschall Berlin 2027
+LOCATION:Haus des Rundfunks\, Heimathafen Neukölln\, Radialsystem\, Бе
+ рлин\, Германия
+DESCRIPTION:Пять вечеров новой академической
+  музыки — фестиваль Deutschlandfunk Kultur и rbb radio3
+ .\n\nhttps://www.berlin.de/en/events/6416655-2842498-ultraschall-berlin-f
+ estival-for-new-musi.en.html
+URL:https://doublebasskakov.github.io/radar/#e=ultraschall-berlin-2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ultraschall Berlin 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:grm-live-electronics-1-2027@afisha-art
+DTSTAMP:20261113T140410Z
+DTSTART:20270108T190000Z
+DTEND:20270108T210000Z
+SUMMARY:INA GRM: Live Electronics #1
+LOCATION:Centquatre-Paris\, Париж\, Франция
+DESCRIPTION:Вечер живой электроники в сезоне 
+ Multiphonies 26–27 легендарной Группы музыкаль
+ ных исследований.\n\nhttps://inagrm.com/shift
+URL:https://doublebasskakov.github.io/radar/#e=grm-live-electronics-1-202
+ 7
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:INA GRM: Live Electronics #1
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:ctm-festival-2027@afisha-art
-DTSTAMP:20261113T132817Z
+DTSTAMP:20261113T140410Z
 DTSTART;VALUE=DATE:20270122
 DTEND;VALUE=DATE:20270123
 SUMMARY:Открытие: CTM Festival 2027
@@ -123,7 +202,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:grm-akousma-may-2027@afisha-art
-DTSTAMP:20261113T132817Z
+DTSTAMP:20261113T140410Z
 DTSTART;VALUE=DATE:20270507
 DTEND;VALUE=DATE:20270510
 SUMMARY:INA GRM: Akousma & Live Electronics
@@ -142,27 +221,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:grm-bozar-acousmonium-2027@afisha-art
-DTSTAMP:20261113T132817Z
-DTSTART;VALUE=DATE:20270127
-DTEND;VALUE=DATE:20270131
-SUMMARY:INA GRM: Акусмониум в Bozar
-LOCATION:Bozar (Дворец изящных искусств)\, Брюс
- сель\, Бельгия
-DESCRIPTION:GRM привозит акусмониум — оркестр 
- из десятков громкоговорителей — на про
- грамму Total Immersion в Брюсселе.\n\nhttps://www.bozar.be
- /en/calendar/ina-grm-acousmonium
-URL:https://doublebasskakov.github.io/radar/#e=grm-bozar-acousmonium-2027
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:INA GRM: Акусмониум в Bozar
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:wien-modern-2026@afisha-art
-DTSTAMP:20261113T132817Z
+DTSTAMP:20261113T140410Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Последний день: Wien Modern 39: Ecosystems for Liste
@@ -186,7 +246,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sonar-2027@afisha-art
-DTSTAMP:20261113T132817Z
+DTSTAMP:20261113T140410Z
 DTSTART;VALUE=DATE:20270617
 DTEND;VALUE=DATE:20270620
 SUMMARY:Sónar 2027
@@ -205,31 +265,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:hcmf-2026@afisha-art
-DTSTAMP:20261113T132817Z
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261121
-SUMMARY:Открытие: hcmf// 2026 Huddersfield Contemporary Music Fes
- tival
-LOCATION:Площадки Хаддерсфилда\, Хаддерсфил
- д\, Великобритания
-DESCRIPTION:Крупнейший британский фестиваль 
- новой и экспериментальной музыки: более
-  70 премьер\, концерты\, инсталляции и бес
- платный марафон hcmf// shorts 23 ноября.\nРезид
- ент Лаури Суппонен\; Ребекка Сондерс\, Дж
- еймс Диллон\nhttps://hcmf.co.uk/hcmf-2026-now-on-sale/
-URL:https://doublebasskakov.github.io/radar/#e=hcmf-2026
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Открытие: hcmf// 2026 Huddersfield Contemporary Music
-  Festival
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:berlin-atonal-2027@afisha-art
-DTSTAMP:20261113T132817Z
+DTSTAMP:20261113T140410Z
 DTSTART;VALUE=DATE:20270825
 DTEND;VALUE=DATE:20270830
 SUMMARY:Berlin Atonal 2027
@@ -248,7 +285,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iscm-wnmd-2027@afisha-art
-DTSTAMP:20261113T132817Z
+DTSTAMP:20261113T140410Z
 DTSTART;VALUE=DATE:20271009
 DTEND;VALUE=DATE:20271010
 SUMMARY:Открытие: ISCM World New Music Days 2027
@@ -267,7 +304,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rewire-2027@afisha-art
-DTSTAMP:20261113T132817Z
+DTSTAMP:20261113T140410Z
 DTSTART;VALUE=DATE:20270408
 DTEND;VALUE=DATE:20270412
 SUMMARY:Rewire 2027
@@ -286,27 +323,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ultraschall-berlin-2027@afisha-art
-DTSTAMP:20261113T132817Z
-DTSTART;VALUE=DATE:20270120
-DTEND;VALUE=DATE:20270125
-SUMMARY:Ultraschall Berlin 2027
-LOCATION:Haus des Rundfunks\, Heimathafen Neukölln\, Radialsystem\, Бе
- рлин\, Германия
-DESCRIPTION:Пять вечеров новой академической
-  музыки — фестиваль Deutschlandfunk Kultur и rbb radio3
- .\n\nhttps://www.berlin.de/en/events/6416655-2842498-ultraschall-berlin-f
- estival-for-new-musi.en.html
-URL:https://doublebasskakov.github.io/radar/#e=ultraschall-berlin-2027
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Ultraschall Berlin 2027
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:maerzmusik-2027@afisha-art
-DTSTAMP:20261113T132817Z
+DTSTAMP:20261113T140410Z
 DTSTART;VALUE=DATE:20270312
 DTEND;VALUE=DATE:20270313
 SUMMARY:Открытие: MaerzMusik 2027
@@ -325,7 +343,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:grm-presences-electronique-2027@afisha-art
-DTSTAMP:20261113T132817Z
+DTSTAMP:20261113T140410Z
 DTSTART;VALUE=DATE:20270219
 DTEND;VALUE=DATE:20270222
 SUMMARY:Фестиваль PRÉSENCES électronique 2027
@@ -346,7 +364,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:darmstadt-summer-course-2027@afisha-art
-DTSTAMP:20261113T132817Z
+DTSTAMP:20261113T140410Z
 DTSTART;VALUE=DATE:20270710
 DTEND;VALUE=DATE:20270711
 SUMMARY:Открытие: Darmstädter Ferienkurse 2027
@@ -366,26 +384,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:grm-live-electronics-1-2027@afisha-art
-DTSTAMP:20261113T132817Z
-DTSTART;VALUE=DATE:20270108
-DTEND;VALUE=DATE:20270109
-SUMMARY:INA GRM: Live Electronics #1
-LOCATION:Centquatre-Paris\, Париж\, Франция
-DESCRIPTION:Вечер живой электроники в сезоне 
- Multiphonies 26–27 легендарной Группы музыкаль
- ных исследований.\n\nhttps://inagrm.com/shift
-URL:https://doublebasskakov.github.io/radar/#e=grm-live-electronics-1-202
- 7
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:INA GRM: Live Electronics #1
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:grm-focus-2027@afisha-art
-DTSTAMP:20261113T132817Z
+DTSTAMP:20261113T140410Z
 DTSTART;VALUE=DATE:20270416
 DTEND;VALUE=DATE:20270418
 SUMMARY:INA GRM: Focus
@@ -401,7 +401,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:jnme-strasbourg-2026@afisha-art
-DTSTAMP:20261113T132817Z
+DTSTAMP:20261113T140410Z
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261117
 SUMMARY:Résonances Électriques 2.0 / JNME
@@ -421,7 +421,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:carte-blanche-cologne-2026@afisha-art
-DTSTAMP:20261113T132817Z
+DTSTAMP:20261113T140410Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261207
 SUMMARY:Carte blanche Cologne
@@ -440,7 +440,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:helmca-ea-days-corfu-2026@afisha-art
-DTSTAMP:20261113T132817Z
+DTSTAMP:20261113T140410Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261123
 SUMMARY:Electroacoustic Music Days 2026
