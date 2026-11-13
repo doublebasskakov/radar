@@ -20,7 +20,8 @@ permissions:
   id-token: write
 
 concurrency:
-  group: afisha
+  # правки сайта (push) публикуются сразу и не ждут долгого сбора
+  group: afisha-${{ github.event_name == 'push' && 'publish' || 'collect' }}
   cancel-in-progress: false
 
 jobs:
