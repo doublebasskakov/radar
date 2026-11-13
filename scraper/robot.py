@@ -721,6 +721,7 @@ def gemini_search(prompt):
                           params={"key": key}, timeout=240,
                           json={"contents": [{"role": "user", "parts": [{"text": prompt}]}], "tools": [{"google_search": {}}]})
         if r.status_code in (400, 403, 404, 429):
+            log(f"  gemini {r.status_code} ({GEMINI_MODEL}, поиск): " + re.sub(r"\s+", " ", r.text)[:260])
             if _gemini_next(key, f"{GEMINI_MODEL} → {r.status_code} (поиск)"):
                 continue
             raise RuntimeError(f"gemini search {r.status_code}")
