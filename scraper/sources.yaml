@@ -244,7 +244,21 @@ telegram:
   - {u: prostranstvoprostranstv, region: ru, city: Москва}
   - {u: lumierehall, region: ru}
 
+  # --- Тон-центр и Московская филармония ---
+  - {u: toncentermoscow, region: ru, city: Москва}
+  - {u: mosfilarmonia, region: ru, city: Москва}
+
 pages:
+  # --- Тон-центр ---
+  - {url: "https://ton-center.ru/program", region: ru, city: Москва}
+  - {url: "https://ton-center.zapomni.ru/events", region: ru, city: Москва}
+  # --- Московская филармония (meloman.ru): модель отберёт современную музыку ---
+  - {url: "https://meloman.ru/calendar/", region: ru, city: Москва}
+  - {url: "https://meloman.ru/hall/kamernyj-zal-filarmonii/", region: ru, city: Москва}
+  - {url: "https://meloman.ru/hall/filarmoniya-2-koncertnyj-zal-imeni-svrahmaninova/", region: ru, city: Москва}
+  - {url: "https://meloman.ru/hall/filarmoniya-2-malyj-zal/", region: ru, city: Москва}
+  - {url: "https://meloman.ru/hall/kinozal/", region: ru, city: Москва}
+  - {url: "https://meloman.ru/subscription/~74sp/", region: ru, city: Москва}
   # --- электроакустика: ЦЭАМ, IRCAM, INA GRM и др. ---
   - {url: "https://www.mosconsv.ru/ru/concerts?group_id=120434", region: ru, city: Москва}
   - {url: "https://ceammc.tilda.ws", region: ru, city: Москва}
