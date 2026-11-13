@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:ceam-manuskript-khubeev@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20261118T163000Z
 DTEND:20261118T183000Z
 SUMMARY:«Манускрипт». Три пьесы Александра 
@@ -32,7 +32,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:zotov-mr-west-musicaeterna@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20261120T163000Z
 DTEND:20261120T183000Z
 SUMMARY:Фильм-концерт «Необычайные приключ
@@ -55,8 +55,58 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:concert-1881-1921-as-part-of-gala-five-years-of-music-moscow@afisha-a
+ rt
+DTSTAMP:20261113T184219Z
+DTSTART:20261126T170000Z
+DTEND:20261126T190000Z
+SUMMARY:Концерт «1881/1921» в рамках программы 
+ «Гала. Пять лет музыки»
+LOCATION:ГЭС-2\, Москва
+DESCRIPTION:В рамках юбилейной программы про
+ звучит камерная версия Седьмой симфони
+ и Антона Брукнера\, созданная по заказу 
+ Арнольда Шёнберга.\nАнтон Брукнер\, Арно
+ льд Шёнберг\nhttps://t.me/vacges2/8547
+URL:https://doublebasskakov.github.io/radar/#e=concert-1881-1921-as-part-
+ of-gala-five-years-of-music-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт «1881/1921» в рамках программ
+ ы «Гала. Пять лет музыки»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:vivacello-festival-closing-concert-tchaikovsky-symphony-orch-moscow@a
+ fisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261118T160000Z
+DTEND:20261118T180000Z
+SUMMARY:Концерт-закрытие фестиваля VIVACELLO: Б
+ ольшой симфонический оркестр имени Чай
+ ковского
+LOCATION:Концертный зал имени Чайковского\, 
+ Москва
+DESCRIPTION:Закрытие виолончельного фестива
+ ля с российской премьерой концерта Фазы
+ ла Сая Never Give Up и сочинением Ришара Дюбюн
+ ьона.\nБольшой симфонический оркестр им
+ ени Чайковского\, Арсентий Ткаченко\, Бо
+ рис Андрианов\nhttps://t.me/time_to_hear/190
+URL:https://doublebasskakov.github.io/radar/#e=vivacello-festival-closing
+ -concert-tchaikovsky-symphony-orch-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт-закрытие фестиваля VIVACELLO:
+  Большой симфонический оркестр имени Ча
+ йковского
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:intermezzo-saint-peters@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20261124T160000Z
 DTEND:20261124T180000Z
 SUMMARY:Интермеццо
@@ -75,8 +125,31 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:index-fest-2026-vladimir-martynov-index-iii-psaruman-moscow@afisha-ar
+ t
+DTSTAMP:20261113T184219Z
+DTSTART:20261125T160000Z
+DTEND:20261125T180000Z
+SUMMARY:INDEX FEST 2026: Владимир Мартынов × INDEX III 
+ × Psaruman
+LOCATION:КЦ ДОМ\, Москва
+DESCRIPTION:Концерт-открытие фестиваля с пре
+ мьерной программой композитора Владими
+ ра Мартынова и проекта Psaruman.\nВладимир М
+ артынов\, INDEX III\, Psaruman\nhttps://t.me/moscownoisemanufactor
+ y/1151
+URL:https://doublebasskakov.github.io/radar/#e=index-fest-2026-vladimir-m
+ artynov-index-iii-psaruman-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:INDEX FEST 2026: Владимир Мартынов × INDEX I
+ II × Psaruman
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:ligeti-sf-polyphony-spb@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20261113T170000Z
 DTEND:20261113T190000Z
 SUMMARY:Российская премьера «Полифонии Сан
@@ -97,300 +170,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:zotov-snm-ma-interval@afisha-art
-DTSTAMP:20261113T174826Z
-DTSTART:20261204T163000Z
-DTEND:20261204T183000Z
-SUMMARY:«Интервал. Звук и тишина в японском 
- искусстве»
-LOCATION:Центр «Зотов»\, Ходынская ул.\, 2\, ст
- р. 1\, Москва
-DESCRIPTION:Концерт цикла «Взгляд нашего слу
- ха» о японском понятии «Ма» — паузе меж
- ду звуками\, из которой вырос послевоенн
- ый японский авангард.\n«Студия новой муз
- ыки»\, Александр Чанцев\nhttps://t.me/centrezotov
-URL:https://doublebasskakov.github.io/radar/#e=zotov-snm-ma-interval
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:«Интервал. Звук и тишина в японск
- ом искусстве»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:biomechanika-6-electric-dreams@afisha-art
-DTSTAMP:20261113T174826Z
-DTSTART:20270203T160000Z
-DTEND:20270203T180000Z
-SUMMARY:«Биомеханика» VI: «Электрические сн
- ы»
-LOCATION:Концертный зал им. Чайковского\, Ка
- мерный зал\, Триумфальная пл.\, 4\, Москва
-DESCRIPTION:Концерт VI мультимедийного фестив
- аля ЦЭАМ «Биомеханика» — главного в Рос
- сии смотра электроакустической музыки 
- и мультимедиа.\nCEAM Artists\nhttps://meloman.ru/concert/kzf-
- 2027-03-09/
-URL:https://doublebasskakov.github.io/radar/#e=biomechanika-6-electric-dr
- eams
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:«Биомеханика» VI: «Электрические 
- сны»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:bruckner-1921@afisha-art
-DTSTAMP:20261113T174826Z
-DTSTART:20261126T170000Z
-DTEND:20261126T190000Z
-SUMMARY:1881/1921
-LOCATION:Дом культуры «ГЭС-2»\, Болотная наб.\
- , 15\, Москва
-DESCRIPTION:Седьмая симфония Брукнера в каме
- рной версии 1921 года\, которую сделали уч
- еники Шёнберга\, — мост от романтизма к 
- модерну.\n«Булез-ансамбль»\, дирижёр Фёд
- ор Леднёв\nhttps://www.afisha.ru/concert/1881-1921-6055258/
-URL:https://doublebasskakov.github.io/radar/#e=bruckner-1921
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:1881/1921
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:lincoln-in-the-bardo-online-stream-online@afisha-art
-DTSTAMP:20261113T174826Z
-DTSTART:20261114T170000Z
-DTEND:20261114T190000Z
-SUMMARY:Онлайн-показ оперы «Линкольн в бард
- о»
-LOCATION:YouTube\, Онлайн
-DESCRIPTION:Бесплатная трансляция современн
- ой оперы Мисси Маццоли\, созданной по эк
- спериментальному роману Джорджа Сондер
- са.\nMetropolitan Opera\, Missy Mazzoli\nhttps://t.me/classicalmusicnew
- s/39157
-URL:https://doublebasskakov.github.io/radar/#e=lincoln-in-the-bardo-onlin
- e-stream-online
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Онлайн-показ оперы «Линкольн в ба
- рдо»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:contemporary-and-ancient-music-concert-in-podolsk-podolsk@afisha-art
-DTSTAMP:20261113T174826Z
-DTSTART:20261121T140000Z
-DTEND:20261121T160000Z
-SUMMARY:Концерт современной и старинной му
- зыки в Подольске
-LOCATION:Подольск
-DESCRIPTION:Программа объединяет музыку Жоск
- ена Депре\, новые сочинения российских к
- омпозиторов и свободную импровизацию.\n
- Рачья Есаян\, Катя Палагина\, Алексей Чич
- илин\nhttps://vk.cc/d3wQS8
-URL:https://doublebasskakov.github.io/radar/#e=contemporary-and-ancient-m
- usic-concert-in-podolsk-podolsk
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Концерт современной и старинной 
- музыки в Подольске
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:voronezh-kamerata-ceam@afisha-art
-DTSTAMP:20261113T174826Z
-DTSTART:20261129T150000Z
-DTEND:20261129T170000Z
-SUMMARY:CEAM Artists на «Воронежской камерате»
-LOCATION:Воронежская филармония\, Воронеж
-DESCRIPTION:Концерт электроакустической и му
- льтимедийной музыки: пьесы для ударных 
- и электроники\, сочинения с видео и фоно
- граммой.\nПлатформа CEAM Artists ЦЭАМ Московс
- кой консерватории\nhttps://ladyvrn.ru/mezhdunarodnyj-fest
- ival-voronezhskaya-kamerata-projdet-s-27-noyabrya-po-1-dekabrya/
-URL:https://doublebasskakov.github.io/radar/#e=voronezh-kamerata-ceam
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:CEAM Artists на «Воронежской камерате»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:snm-nature@afisha-art
-DTSTAMP:20261113T174826Z
-DTSTART:20261127T163000Z
-DTEND:20261127T183000Z
-SUMMARY:Ars Gallica. Сотворённая природа
-LOCATION:Пространство «Нико»\, Москва
-DESCRIPTION:Второй вечер цикла французской м
- узыки о природе в исполнении одного из г
- лавных ансамблей новой музыки.\nАнсамбл
- ь «Студия новой музыки»\nhttps://afisha.yandex.ru/mos
- cow/concert/ars-gallica-studiia-novoi-muzyki-sotvorennaia-priroda
-URL:https://doublebasskakov.github.io/radar/#e=snm-nature
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Ars Gallica. Сотворённая природа
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:podolsk-esayan@afisha-art
-DTSTAMP:20261113T174826Z
-DTSTART:20261121T140000Z
-DTEND:20261121T160000Z
-SUMMARY:Концерт: Есаян\, Палагина\, Чичилин
-LOCATION:Уточняйте у организаторов\, Подоль
- ск
-DESCRIPTION:Программа\, где старинная музыка (
- Жоскен Депре) переплетается с сочинения
- ми современных композиторов.\nРачья Еса
- ян (композитор)\, Катя Палагина (вокал)\, Л
- ёша Чичилин (гитара)\nhttps://t.me/vologorlinsky
-URL:https://doublebasskakov.github.io/radar/#e=podolsk-esayan
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Концерт: Есаян\, Палагина\, Чичили
- н
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:masm-ncaged@afisha-art
-DTSTAMP:20261113T174826Z
-DTSTART:20261117T163000Z
-DTEND:20261117T183000Z
-SUMMARY:Ars Gallica. Естественные истории
-LOCATION:Пространство «Нико»\, Москва
-DESCRIPTION:Первый из двух вечеров французск
- ой музыки о природе — от Жоскена Депре д
- о послевоенного авангарда.\nN’Caged и Моск
- овский ансамбль современной музыки (МАС
- М)\nhttps://afisha.yandex.ru/moscow/concert/ars-gallica-ncaged-masm-este
- stvennye-istorii
-URL:https://doublebasskakov.github.io/radar/#e=masm-ncaged
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Ars Gallica. Естественные истории
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:hauntology@afisha-art
-DTSTAMP:20261113T174826Z
-DTSTART:20261113T163000Z
-DTEND:20261113T183000Z
-SUMMARY:Édition française: от Марена Маре до группы
-  Air
-LOCATION:ДК «Рассвет»\, Столярный пер.\, 3\, ко
- рп. 15\, Москва
-DESCRIPTION:Французская музыка через века и ж
- анры — от барокко до электроники в одно
- й программе.\nАнсамбль Hauntology\nhttps://theblueprint
- .ru/culture/music/music-november-2026
-URL:https://doublebasskakov.github.io/radar/#e=hauntology
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Édition française: от Марена Маре до груп
- пы Air
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:biomechanika-6-vacuum@afisha-art
-DTSTAMP:20261113T174826Z
-DTSTART:20270309T160000Z
-DTEND:20270309T180000Z
-SUMMARY:«Биомеханика» VI: CEAM Artists и Vacuum Quartet
-LOCATION:Концертный зал им. Чайковского\, Ка
- мерный зал\, Триумфальная пл.\, 4\, Москва
-DESCRIPTION:Струнный квартет и электроника: п
- рограмма VI фестиваля «Биомеханика» с пр
- емьерами.\nCEAM Artists\, струнный квартет Vacuum\
- nhttps://meloman.ru/concert/kzf-2027-03-09/
-URL:https://doublebasskakov.github.io/radar/#e=biomechanika-6-vacuum
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:«Биомеханика» VI: CEAM Artists и Vacuum Quartet
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:krasnoyarsk-schnittke-choir@afisha-art
-DTSTAMP:20261113T174826Z
-DTSTART:20261119T120000Z
-DTEND:20261119T140000Z
-SUMMARY:Шнитке. Концерт для хора на стихи На
- рекаци — премьера в Красноярске
-LOCATION:Красноярская филармония\, Краснояр
- ск
-DESCRIPTION:Первое исполнение в городе одног
- о из главных хоровых сочинений Альфреда
-  Шнитке.\nКрасноярский камерный хор\, Ека
- терина Баулина\nhttps://t.me/orpheusradio
-URL:https://doublebasskakov.github.io/radar/#e=krasnoyarsk-schnittke-choi
- r
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Шнитке. Концерт для хора на стихи 
- Нарекаци — премьера в Красноярске
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:opensound-quartets-rassvet@afisha-art
-DTSTAMP:20261113T174826Z
-DTSTART:20261126T163000Z
-DTEND:20261126T183000Z
-SUMMARY:OpensoundOrchestra: презентация альбома стр
- унных квартетов
-LOCATION:ДК «Рассвет»\, Столярный пер.\, 3\, ко
- рп. 15\, Москва
-DESCRIPTION:Живая презентация второго тома а
- нтологии новых российских квартетов.\nШ
- есть сочинений российских композиторов
- \nhttps://t.me/classicalmusicnews
-URL:https://doublebasskakov.github.io/radar/#e=opensound-quartets-rassvet
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:OpensoundOrchestra: презентация альбома с
- трунных квартетов
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:ekb-masm-kontrapunkt-epokh@afisha-art
-DTSTAMP:20261113T174826Z
-DTSTART:20261127T140000Z
-DTEND:20261127T160000Z
-SUMMARY:МАСМ. «Контрапункт эпох»
-LOCATION:Ельцин Центр\, Музей Бориса Ельцина
- \, Екатеринбург
-DESCRIPTION:Гастроль одного из главных ансам
- блей новой музыки: концерт и публичный р
- азговор после него.\nМосковский ансамбл
- ь современной музыки\nhttps://m-c-m-e.ru/ru/events/2026
- /11/
-URL:https://doublebasskakov.github.io/radar/#e=ekb-masm-kontrapunkt-epokh
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:МАСМ. «Контрапункт эпох»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:snm-magiya-prisutstviya@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20261119T160000Z
 DTEND:20261119T180000Z
 SUMMARY:«Магия присутствия»: Студия новой м
@@ -414,8 +195,2221 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:sound-up-resonance-cello-russian-premiere-of-john-luther-ada-moscow@a
+ fisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261127T160000Z
+DTEND:20261127T180000Z
+SUMMARY:SOUND UP resonance: cello — Российская премьер
+ а Three High Places Джона Лютера Адамса
+LOCATION:Галерея fābula HQ\, Самокатная ул.\, 4\, с
+ тр. 1\, Москва
+DESCRIPTION:Российская премьера произведени
+ я американского композитора Джона Люте
+ ра Адамса для виолончели в исполнении О
+ льги Белоглазовой в пространстве бывше
+ го заводского цеха.\nОльга Белоглазая\nhtt
+ ps://clck.ru/3Wu8fL
+URL:https://doublebasskakov.github.io/radar/#e=sound-up-resonance-cello-r
+ ussian-premiere-of-john-luther-ada-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SOUND UP resonance: cello — Российская премь
+ ера Three High Places Джона Лютера Адамса
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-grammy-awards-nominations-announcement-online@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261116T044500Z
+DTEND:20261116T064500Z
+SUMMARY:Объявление номинантов премии «Грэм
+ ми» 2027
+LOCATION:Официальный сайт Grammy\, Онлайн
+DESCRIPTION:Официальное оглашение номинанто
+ в музыкальной премии\, где в категориях 
+ глобальной музыки и аранжировки ожидае
+ тся упоминание этно-электронного проек
+ та AY YOLA.\nThe Recording Academy\, AY YOLA\nhttps://t.me/sound_monopo
+ ly/5321
+URL:https://doublebasskakov.github.io/radar/#e=2027-grammy-awards-nominat
+ ions-announcement-online
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Объявление номинантов премии «Гр
+ эмми» 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:concert-performance-vortex-temporum-saint-peters@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261115T160000Z
+DTEND:20261115T180000Z
+SUMMARY:Концерт-перформанс «Вихрь времени»
+LOCATION:Центр современного искусства им. С
+ ергея Курёхина\, Санкт-Петербург
+DESCRIPTION:Вечер современной академической 
+ музыки к 80-летию Жерара Гризе с исполнен
+ ием культового произведения Vortex temporum и 
+ хореографическим перформансом.\nАнсамб
+ ль современной музыки Центра им. Курехи
+ на\, «Танц-механика»\nhttps://t.me/kuryokhincenter/3374
+URL:https://doublebasskakov.github.io/radar/#e=concert-performance-vortex
+ -temporum-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт-перформанс «Вихрь времен
+ и»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:l-histoire-de-dyens-concert-program-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261120T163000Z
+DTEND:20261120T183000Z
+SUMMARY:Концертная программа «L'histoire de Dyens»
+LOCATION:ДК «Рассвет»\, Москва
+DESCRIPTION:Концерт к юбилею французского ко
+ мпозитора и гитариста Ролана Дьенса\, гд
+ е его сочинения прозвучат в сопровожден
+ ии сценических импровизаций.\nВладимир 
+ Волков\, Руст Позюмский\, Андрей Зеленск
+ ий\, Александр «Stradivaly» Островский\, Дмит
+ рий Илларионов\nhttps://t.me/dkrassvet/2362
+URL:https://doublebasskakov.github.io/radar/#e=l-histoire-de-dyens-concer
+ t-program-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концертная программа «L'histoire de Dyens
+ »
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:vivacello-international-festival-closing-concert-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261118T160000Z
+DTEND:20261118T180000Z
+SUMMARY:Международный фестиваль Vivacello: Закр
+ ытие фестиваля
+LOCATION:Концертный зал имени П. И. Чайковск
+ ого\, Москва
+DESCRIPTION:Финальный вечер фестиваля Vivacello о
+ бъединит четыре концертных жанра и вклю
+ чит мировую премьеру Феерической фанта
+ зии Ришара Дюбюньона.\nАнна Кошкина\, Нил
+ ь Коджамангиль\, Василий Степанов\, Бори
+ с Андрианов\, БСО им. П.И. Чайковского\, Ар
+ сентий Ткаченко\nhttps://t.me/mosfilarmonia/2229
+URL:https://doublebasskakov.github.io/radar/#e=vivacello-international-fe
+ stival-closing-concert-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Международный фестиваль Vivacello: За
+ крытие фестиваля
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-show-soundtrack-of-the-90s-michael-jackson-in-russia-yekaterin
+ bur@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261114T110000Z
+DTEND:20261114T130000Z
+SUMMARY:Музейное шоу «Саундтрек 90-х»: Майкл 
+ Джексон в России
+LOCATION:Ельцин Центр\, ул. Бориса Ельцина\, 3\
+ , Екатеринбург
+DESCRIPTION:Исследовательский проект о влиян
+ ии Майкла Джексона на российскую культу
+ ру 90-х\, включающий лекционный разбор и ж
+ ивое исполнение хитов.\nОлег Соболев\, Кс
+ ения Алавацкая\nhttps://t.me/yeltsincenter/10167
+URL:https://doublebasskakov.github.io/radar/#e=museum-show-soundtrack-of-
+ the-90s-michael-jackson-in-russia-yekaterinbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Музейное шоу «Саундтрек 90-х»: Май
+ кл Джексон в России
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:concert-musical-offering-to-dmitry-shostakovich-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261118T160000Z
+DTEND:20261118T180000Z
+SUMMARY:Концерт «Музыкальное приношение Дм
+ итрию Шостаковичу»
+LOCATION:Малый зал консерватории\, Б. Никитс
+ кая ул.\, 11\, Москва
+DESCRIPTION:Программа камерной музыки к 120-ле
+ тию со дня рождения Дмитрия Шостаковича
+  в исполнении известных академических м
+ узыкантов и ансамблей.\nАлександр Бонду
+ рянский\nhttps://t.me/mosconsv/1459
+URL:https://doublebasskakov.github.io/radar/#e=concert-musical-offering-t
+ o-dmitry-shostakovich-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт «Музыкальное приношение 
+ Дмитрию Шостаковичу»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:zotov-snm-ma-interval@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261204T163000Z
+DTEND:20261204T183000Z
+SUMMARY:«Интервал. Звук и тишина в японском 
+ искусстве»
+LOCATION:Центр «Зотов»\, Ходынская ул.\, 2\, ст
+ р. 1\, Москва
+DESCRIPTION:Концерт цикла «Взгляд нашего слу
+ ха» о японском понятии «Ма» — паузе меж
+ ду звуками\, из которой вырос послевоенн
+ ый японский авангард.\n«Студия новой муз
+ ыки»\, Александр Чанцев\nhttps://t.me/centrezotov
+URL:https://doublebasskakov.github.io/radar/#e=zotov-snm-ma-interval
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:«Интервал. Звук и тишина в японск
+ ом искусстве»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sound-up-resonance-cello-concert-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261127T160000Z
+DTEND:20261127T180000Z
+SUMMARY:Концерт SOUND UP resonance: cello
+LOCATION:Галерея fābula HQ\, Самокатная ул.\, 4\, с
+ тр. 1\, Москва
+DESCRIPTION:Музыкальное событие\, исследующе
+ е взаимодействие современной минималис
+ тичной музыки для виолончели с архитект
+ урным пространством.\nВосемь композитор
+ ов\nhttps://clck.ru/3WqsqZ
+URL:https://doublebasskakov.github.io/radar/#e=sound-up-resonance-cello-c
+ oncert-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт SOUND UP resonance: cello
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:autumn-gala-concert-at-novaya-opera-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261114T160000Z
+DTEND:20261114T180000Z
+SUMMARY:Осенний гала-концерт в Новой опере
+LOCATION:Новая опера\, Москва\, Москва
+DESCRIPTION:Специальная программа осеннего г
+ ала-концерта с участием ведущих солисто
+ в и оркестра под управлением дирижера А
+ ндрея Лебедева.\nАндрей Лебедев\, солист
+ ы театра «Новая опера»\nhttps://t.me/novayaopera/5887
+URL:https://doublebasskakov.github.io/radar/#e=autumn-gala-concert-at-nov
+ aya-opera-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Осенний гала-концерт в Новой опер
+ е
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:biomechanika-6-electric-dreams@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20270203T160000Z
+DTEND:20270203T180000Z
+SUMMARY:«Биомеханика» VI: «Электрические сн
+ ы»
+LOCATION:Концертный зал им. Чайковского\, Ка
+ мерный зал\, Триумфальная пл.\, 4\, Москва
+DESCRIPTION:Концерт VI мультимедийного фестив
+ аля ЦЭАМ «Биомеханика» — главного в Рос
+ сии смотра электроакустической музыки 
+ и мультимедиа.\nCEAM Artists\nhttps://meloman.ru/concert/kzf-
+ 2027-03-09/
+URL:https://doublebasskakov.github.io/radar/#e=biomechanika-6-electric-dr
+ eams
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:«Биомеханика» VI: «Электрические 
+ сны»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:piano-concert-natalia-trull-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261120T160000Z
+DTEND:20261120T180000Z
+SUMMARY:Концерт фортепианной музыки: Натал
+ ия Трулль
+LOCATION:Московская консерватория\, Малый з
+ ал\, Большая Никитская ул.\, 13\, Москва
+DESCRIPTION:Заслуженная артистка России Ната
+ лия Трулль исполнит произведения Бетхо
+ вена\, Листа и Шуберта в рамках юбилейно
+ го концерта.\nНаталия Трулль\nhttps://t.me/moscons
+ v/1453
+URL:https://doublebasskakov.github.io/radar/#e=piano-concert-natalia-trul
+ l-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт фортепианной музыки: Нат
+ алия Трулль
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bruckner-1921@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261126T170000Z
+DTEND:20261126T190000Z
+SUMMARY:1881/1921
+LOCATION:Дом культуры «ГЭС-2»\, Болотная наб.\
+ , 15\, Москва
+DESCRIPTION:Седьмая симфония Брукнера в каме
+ рной версии 1921 года\, которую сделали уч
+ еники Шёнберга\, — мост от романтизма к 
+ модерну.\n«Булез-ансамбль»\, дирижёр Фёд
+ ор Леднёв\nhttps://www.afisha.ru/concert/1881-1921-6055258/
+URL:https://doublebasskakov.github.io/radar/#e=bruckner-1921
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1881/1921
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ethno-mechanica-festival-toloka-pole-hodi-la-i-zba-bad-zu-as-saint-pe
+ ters@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261114T160000Z
+DTEND:20261114T180000Z
+SUMMARY:Фестиваль «Этно-механика»: концерт
+ ы проектов «Толока»\, POLE\, Hodíla ízba\, BAD ZU и 
+ «Ащэмэз»
+LOCATION:Центр современного искусства имен
+ и Сергея Курёхина\, Санкт-Петербург
+DESCRIPTION:Концертная программа фестиваля н
+ а двух сценах\, объединяющая аутентичны
+ й фольклор\, электронику и эксперимента
+ льный фьюжн.\nТолока\, POLE\, Hodíla ízba\, BAD ZU\, А
+ щэмэз\nhttps://t.me/kuryokhincenter/3375
+URL:https://doublebasskakov.github.io/radar/#e=ethno-mechanica-festival-t
+ oloka-pole-hodi-la-i-zba-bad-zu-as-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Фестиваль «Этно-механика»: конце
+ рты проектов «Толока»\, POLE\, Hodíla ízba\, BAD ZU 
+ и «Ащэмэз»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:vivacello-international-festival-baroque-circle-concert-moscow@afisha
+ -art
+DTSTAMP:20261113T184219Z
+DTSTART:20261114T160000Z
+DTEND:20261114T180000Z
+SUMMARY:Международный фестиваль Vivacello: Конц
+ ерт «Барочный круг»
+LOCATION:Концертный зал имени П. И. Чайковск
+ ого\, Москва
+DESCRIPTION:Концерт фестиваля виолончельной 
+ музыки Vivacello представляет программу «Ба
+ рочный круг» с элементами импровизации.
+ \nБорис Андрианов\, Мириам Пранди\, Стюар
+ т Пинкомб\, Алиса Тен\, Дмитрий Илларионо
+ в\, Questa Musica\nhttps://t.me/mosfilarmonia/2229
+URL:https://doublebasskakov.github.io/radar/#e=vivacello-international-fe
+ stival-baroque-circle-concert-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Международный фестиваль Vivacello: Ко
+ нцерт «Барочный круг»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sound-up-resonance-cello-second-session-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261127T180000Z
+DTEND:20261127T200000Z
+SUMMARY:SOUND UP resonance: cello — Второй сеанс
+LOCATION:Галерея fābula HQ\, Самокатная ул.\, 4\, с
+ тр. 1\, Москва
+DESCRIPTION:Повторный сеанс российской премь
+ еры сочинения Джона Лютера Адамса в исп
+ олнении виолончелистки Ольги Белоглазо
+ вой.\nОльга Белоглазая\nhttps://clck.ru/3Wu8fL
+URL:https://doublebasskakov.github.io/radar/#e=sound-up-resonance-cello-s
+ econd-session-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SOUND UP resonance: cello — Второй сеанс
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:concert-baroque-antiquity-music-of-rome-saint-peters@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261115T163000Z
+DTEND:20261115T183000Z
+SUMMARY:Концерт «Барочная античность: музы
+ ка Рима»
+LOCATION:Эрмитаж\, Фельдмаршальский зал\, Са
+ нкт-Петербург
+DESCRIPTION:Исполнение сочинений итальянски
+ х композиторов XVII-XVIII веков на историчес
+ ких инструментах в аутентичном строе.\nА
+ ртисты оркестра musicAeterna\nhttps://t.me/musicaeternaTC/4
+ 990
+URL:https://doublebasskakov.github.io/radar/#e=concert-baroque-antiquity-
+ music-of-rome-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт «Барочная античность: му
+ зыка Рима»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lincoln-in-the-bardo-online-stream-online@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261114T170000Z
+DTEND:20261114T190000Z
+SUMMARY:Онлайн-показ оперы «Линкольн в бард
+ о»
+LOCATION:YouTube\, Онлайн
+DESCRIPTION:Бесплатная трансляция современн
+ ой оперы Мисси Маццоли\, созданной по эк
+ спериментальному роману Джорджа Сондер
+ са.\nMetropolitan Opera\, Missy Mazzoli\nhttps://t.me/classicalmusicnew
+ s/39157
+URL:https://doublebasskakov.github.io/radar/#e=lincoln-in-the-bardo-onlin
+ e-stream-online
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Онлайн-показ оперы «Линкольн в ба
+ рдо»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:diana-sholk-and-dmitry-peich-performance-at-mmoma-sound-moscow@afisha
+ -art
+DTSTAMP:20261113T184219Z
+DTSTART:20261121T160000Z
+DTEND:20261121T180000Z
+SUMMARY:Выступление Дианы Шолк и Дмитрия Пе
+ йча в рамках программы «ММОМА. Звук»
+LOCATION:ММОМА на Ермолаевском\, Ермолаевск
+ ий пер.\, 17\, Москва
+DESCRIPTION:Концерт-саундскейп на стыке чело
+ веческого голоса и электронных экспери
+ ментов\, отсылающий к эстетике киберпан
+ ка.\nДиана Шолк\, Дмитрий Пейч\nhttps://t.me/mmoma/
+ 3882
+URL:https://doublebasskakov.github.io/radar/#e=diana-sholk-and-dmitry-pei
+ ch-performance-at-mmoma-sound-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выступление Дианы Шолк и Дмитрия 
+ Пейча в рамках программы «ММОМА. Звук»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:concert-of-the-gnesin-contemporary-choral-music-ensemble-alt-novosibi
+ rsk@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261113T120000Z
+DTEND:20261113T140000Z
+SUMMARY:Концерт Гнесинского ансамбля совре
+ менной хоровой музыки «Altro Coro»
+LOCATION:Большой зал Новосибирской государ
+ ственной консерватории имени М.И. Глинк
+ и\, Советская\, 31\, Новосибирск
+DESCRIPTION:Выступление известного коллекти
+ ва современной хоровой музыки в рамках 
+ масштабного фестиваля «Россия хоровая»
+ .\nАлександр Рыжинский\, Мария Власова\nhtt
+ ps://t.me/altrocoro/742
+URL:https://doublebasskakov.github.io/radar/#e=concert-of-the-gnesin-cont
+ emporary-choral-music-ensemble-alt-novosibirsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт Гнесинского ансамбля сов
+ ременной хоровой музыки «Altro Coro»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:contemporary-and-ancient-music-concert-in-podolsk-podolsk@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261121T140000Z
+DTEND:20261121T160000Z
+SUMMARY:Концерт современной и старинной му
+ зыки в Подольске
+LOCATION:Подольск
+DESCRIPTION:Программа объединяет музыку Жоск
+ ена Депре\, новые сочинения российских к
+ омпозиторов и свободную импровизацию.\n
+ Рачья Есаян\, Катя Палагина\, Алексей Чич
+ илин\nhttps://vk.cc/d3wQS8
+URL:https://doublebasskakov.github.io/radar/#e=contemporary-and-ancient-m
+ usic-concert-in-podolsk-podolsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт современной и старинной 
+ музыки в Подольске
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:index-fest-2026-rushana-anton-stolyarov-index-iii-dmitry-ero-moscow@a
+ fisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261126T170000Z
+DTEND:20261126T190000Z
+SUMMARY:INDEX FEST 2026: Рушана × Антон Столяров × I
+ NDEX III × Дмитрий Ерошин × Антон Спартаков
+LOCATION:КЦ ДОМ\, Москва
+DESCRIPTION:Экспериментальный перформанс на 
+ стыке академических и современных жанр
+ ов с участием приглашенных вокалистов.\n
+ Рушана Валиева\, Антон Столяров\, INDEX III\nht
+ tps://t.me/moscownoisemanufactory/1151
+URL:https://doublebasskakov.github.io/radar/#e=index-fest-2026-rushana-an
+ ton-stolyarov-index-iii-dmitry-ero-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:INDEX FEST 2026: Рушана × Антон Столяров 
+ × INDEX III × Дмитрий Ерошин × Антон Спартак
+ ов
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:index-fest-2026-index-iii-solo-concert-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261125T180000Z
+DTEND:20261125T200000Z
+SUMMARY:INDEX FEST 2026: INDEX III (Сольный концерт)
+LOCATION:КЦ ДОМ\, Москва
+DESCRIPTION:Сольное выступление пост-джазово
+ й группы INDEX III\, открывающее пространств
+ о для звуковых экспериментов.\nINDEX III\nhttps:
+ //t.me/moscownoisemanufactory/1151
+URL:https://doublebasskakov.github.io/radar/#e=index-fest-2026-index-iii-
+ solo-concert-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:INDEX FEST 2026: INDEX III (Сольный концерт)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ethno-mechanika-festival-at-the-kuryokhin-center-saint-peters@afisha-
+ art
+DTSTAMP:20261113T184219Z
+DTSTART:20261114T150000Z
+DTEND:20261114T170000Z
+SUMMARY:Фестиваль «Этно-механика» в Центре 
+ Курёхина
+LOCATION:Центр современного искусства им. С
+ ергея Курёхина\, Средний пр. В.О.\, 93\, Санк
+ т-Петербург
+DESCRIPTION:Ежегодный музыкальный фестиваль 
+ на стыке этники\, электроники и современ
+ ного аудиовизуального искусства.\nNone\nhttp
+ s://t.me/kuryokhincenter/3388
+URL:https://doublebasskakov.github.io/radar/#e=ethno-mechanika-festival-a
+ t-the-kuryokhin-center-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Фестиваль «Этно-механика» в Цент
+ ре Курёхина
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sound-up-resonance-cello-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261127T160000Z
+DTEND:20261127T180000Z
+SUMMARY:SOUND UP resonance: cello
+LOCATION:Галерея fābula HQ\, Самокатная ул.\, 4\, с
+ тр. 1\, Москва
+DESCRIPTION:Концерт современной академическ
+ ой музыки для виолончели в рамках конце
+ ртной программы SOUND UP.\nОльга Белоглазая\
+ nhttps://clck.ru/3WtZTY
+URL:https://doublebasskakov.github.io/radar/#e=sound-up-resonance-cello-m
+ oscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SOUND UP resonance: cello
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:soundup-resonance@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261127T160000Z
+DTEND:20261127T180000Z
+SUMMARY:Sound Up Resonance
+LOCATION:Галерея fābula HQ\, Самокатная ул.\, 4\, с
+ тр. 1\, Москва
+DESCRIPTION:Первый концерт новой серии Sound Up: 
+ восемь взглядов современных композитор
+ ов на виолончель.\nОльга Белоглазова\, ви
+ олончель\nhttps://theblueprint.ru/culture/music/music-november-20
+ 26
+URL:https://doublebasskakov.github.io/radar/#e=soundup-resonance
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sound Up Resonance
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:write-hear-see-pokras-lampas-x-new-electronic-music-saint-peters@afis
+ ha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261205T163000Z
+DTEND:20261205T183000Z
+SUMMARY:«ПИШУ — СЛЫШУ — ВИЖУ». Покрас Лампа
+ с x Новая электронная музыка
+LOCATION:Новая сцена Санкт-Петербургского т
+ еатра им. В.Ф. Комиссаржевской\, наб. реки
+  Фонтанки\, 41\, Санкт-Петербург
+DESCRIPTION:Совместный перформанс художника 
+ Покраса Лампаса и проекта современной э
+ лектронной музыки.\nПокрас Лампас\, Нова
+ я электронная музыка\nhttps://t.me/newstageprojects/317
+ 9
+URL:https://doublebasskakov.github.io/radar/#e=write-hear-see-pokras-lamp
+ as-x-new-electronic-music-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:«ПИШУ — СЛЫШУ — ВИЖУ». Покрас Лам
+ пас x Новая электронная музыка
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hauntology@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261113T163000Z
+DTEND:20261113T183000Z
+SUMMARY:Édition française: от Марена Маре до группы
+  Air
+LOCATION:ДК «Рассвет»\, Столярный пер.\, 3\, ко
+ рп. 15\, Москва
+DESCRIPTION:Французская музыка через века и ж
+ анры — от барокко до электроники в одно
+ й программе.\nАнсамбль Hauntology\nhttps://theblueprint
+ .ru/culture/music/music-november-2026
+URL:https://doublebasskakov.github.io/radar/#e=hauntology
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Édition française: от Марена Маре до груп
+ пы Air
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:antonio-di-cristofano-recital-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261125T160000Z
+DTEND:20261125T180000Z
+SUMMARY:Сольный концерт Антонио ди Кристоф
+ ано
+LOCATION:Музыкальное училище имени Гнесины
+ х\, Москва
+DESCRIPTION:Итальянский пианист исполнит соч
+ инения Моцарта\, Брамса\, Бетховена и Шоп
+ ена.\nАнтонио ди Кристофано\nhttps://t.me/gnesinafi
+ sha/326
+URL:https://doublebasskakov.github.io/radar/#e=antonio-di-cristofano-reci
+ tal-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Сольный концерт Антонио ди Крист
+ офано
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:index-fest-2026-oleg-nesterov-mire-le-anastasia-terelya-inde-moscow@a
+ fisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261127T160000Z
+DTEND:20261127T180000Z
+SUMMARY:INDEX FEST 2026: Олег Нестеров × Mirèle × Анас
+ тасия Тереля × INDEX III
+LOCATION:КЦ ДОМ\, Москва
+DESCRIPTION:Уникальный диалог инди-артистов 
+ и дарк-джаза/IDM звучания группы INDEX III.\nОл
+ ег Нестеров\, Mirèle\, Анастасия Тереля\, INDEX
+  III\nhttps://t.me/moscownoisemanufactory/1151
+URL:https://doublebasskakov.github.io/radar/#e=index-fest-2026-oleg-neste
+ rov-mire-le-anastasia-terelya-inde-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:INDEX FEST 2026: Олег Нестеров × Mirèle × Ан
+ астасия Тереля × INDEX III
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:index-fest-2026-xandr-vasiliev-arkadius-padre-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261128T180000Z
+DTEND:20261128T200000Z
+SUMMARY:INDEX FEST 2026: Xandr.Vasiliev & Arkadius\, Padre
+LOCATION:RNDM\, Москва
+DESCRIPTION:Электроакустический лайв на стык
+ е dark techno\, IDM\, эмбиента и минимализма.\nXandr
+ .Vasiliev\, Аркадий Пикунов\, Padre\nhttps://t.me/moscownoi
+ semanufactory/1151
+URL:https://doublebasskakov.github.io/radar/#e=index-fest-2026-xandr-vasi
+ liev-arkadius-padre-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:INDEX FEST 2026: Xandr.Vasiliev & Arkadius\, Padre
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:index-fest-2026-zerolines-index-iii-dmitry-eroshin-dmitry-re-moscow@a
+ fisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261127T180000Z
+DTEND:20261127T200000Z
+SUMMARY:INDEX FEST 2026: ZEROLINES × INDEX III × Дмитрий Еро
+ шин × Дмитрий Рессер
+LOCATION:КЦ ДОМ\, Москва
+DESCRIPTION:Премьерная коллаборация INDEX III с п
+ роектом Олега Нестерова ZEROLINES.\nZEROLINES\, INDE
+ X III\nhttps://t.me/moscownoisemanufactory/1151
+URL:https://doublebasskakov.github.io/radar/#e=index-fest-2026-zerolines-
+ index-iii-dmitry-eroshin-dmitry-re-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:INDEX FEST 2026: ZEROLINES × INDEX III × Дмитрий Е
+ рошин × Дмитрий Рессер
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:phases-and-psalms-tribute-to-steve-reich-saint-peters@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261206T160000Z
+DTEND:20261206T180000Z
+SUMMARY:«Фазы и псалмы». Посвящение Стиву Р
+ айху
+LOCATION:Новая сцена Санкт-Петербургского т
+ еатра им. В.Ф. Комиссаржевской\, наб. реки
+  Фонтанки\, 41\, Санкт-Петербург
+DESCRIPTION:Концерт-посвящение американском
+ у минималисту Стиву Райху.\n\nhttps://t.me/newstage
+ projects/3179
+URL:https://doublebasskakov.github.io/radar/#e=phases-and-psalms-tribute-
+ to-steve-reich-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:«Фазы и псалмы». Посвящение Стиву
+  Райху
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:av-performances-at-the-finissage-of-brain-the-art-of-conscio-moscow@a
+ fisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261115T160000Z
+DTEND:20261115T180000Z
+SUMMARY:Аудиовизуальные перформансы на фин
+ исаже выставки «Мозг. Искусство сознани
+ я»
+LOCATION:Галерея «Ходынка»\, ул. Ирины Левче
+ нко\, 2\, Москва
+DESCRIPTION:Концертная программа электроаку
+ стической и экспериментальной музыки: в
+ ыступления Асомнии с перформансом «Ожи
+ дание сигнала» и Александра Сенько с «М
+ етаморфозами нейрозвука».\nАсомния\, Але
+ ксандр Сенько\nhttps://t.me/kholmygallery/1925
+URL:https://doublebasskakov.github.io/radar/#e=av-performances-at-the-fin
+ issage-of-brain-the-art-of-conscio-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Аудиовизуальные перформансы на ф
+ инисаже выставки «Мозг. Искусство созна
+ ния»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:concert-clavier-and-voice-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261114T110000Z
+DTEND:20261114T130000Z
+SUMMARY:Концерт «Клавир и голос»
+LOCATION:Рахманиновский зал консерватории\,
+  Б. Никитская ул.\, 11\, Москва
+DESCRIPTION:Клавишица Мария Успенская предст
+ авит программу из произведений старинн
+ ой и академической музыки от Букстехуде
+  и Баха до современных отечественных ко
+ мпозиторов.\nМария Успенская\nhttps://t.me/moscon
+ sv/1458
+URL:https://doublebasskakov.github.io/radar/#e=concert-clavier-and-voice-
+ moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт «Клавир и голос»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:concert-island-music-iii-cuba-alexey-chichilin-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261118T170000Z
+DTEND:20261118T190000Z
+SUMMARY:Концерт «Island music III: Куба»: Алексей Ч
+ ичилин
+LOCATION:КЦ Дом\, Культурный центр «Дом»\, Мо
+ сква
+DESCRIPTION:Заключительный концерт гитарист
+ а Алексея Чичилина\, объединяющий кубин
+ ские джазовые темы\, классическую гитар
+ у и электроакустические эксперименты.\n
+ Алексей Чичилин\nhttps://t.me/gzsmsk/10006
+URL:https://doublebasskakov.github.io/radar/#e=concert-island-music-iii-c
+ uba-alexey-chichilin-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт «Island music III: Куба»: Алексей
+  Чичилин
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:autumn-jazz-concert-featuring-mila-dinerstein-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261122T160000Z
+DTEND:20261122T180000Z
+SUMMARY:Концерт «Осенний джаз» с участием М
+ илы Динерштейн
+LOCATION:Yauza Place\, Москва
+DESCRIPTION:Вечер джазовой классики\, соула и 
+ испанских баллад в исполнении Милы Дине
+ рштейн\, дополненный парфюмерным опытом
+  от брендов и незрячих парфюмеров.\nМила 
+ Динерштейн\, Pure Sense\nhttps://t.me/yauza_place/5540
+URL:https://doublebasskakov.github.io/radar/#e=autumn-jazz-concert-featur
+ ing-mila-dinerstein-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт «Осенний джаз» с участие
+ м Милы Динерштейн
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:farsh-band-concert-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261125T170000Z
+DTEND:20261125T190000Z
+SUMMARY:Концерт группы ФАРШ
+LOCATION:Yauza Place\, Yauza Place\, Москва
+DESCRIPTION:Финальный в этом году концерт кол
+ лектива ФАРШ\, исполняющего эклектичный
+  «симфонический панк» с неожиданными жа
+ нровыми сочетаниями.\nФАРШ\nhttps://t.me/yauza_plac
+ e/5538
+URL:https://doublebasskakov.github.io/radar/#e=farsh-band-concert-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт группы ФАРШ
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:concert-journey-movement-by-pavel-kupriyanov-samara@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261126T160000Z
+DTEND:20261126T180000Z
+SUMMARY:Концерт-путешествие «МУВМЕНТ» Павл
+ а Куприянова
+LOCATION:Станкозавод\, Бенке-холл\, ул. Куйбы
+ шева\, 128/1\, Самара
+DESCRIPTION:Иммерсивный музыкальный проект д
+ ля фортепиано\, представляющий собой ча
+ совое звуковое путешествие на основе ли
+ чной истории автора.\nПавел Куприянов\nhtt
+ ps://movement-project.ru
+URL:https://doublebasskakov.github.io/radar/#e=concert-journey-movement-b
+ y-pavel-kupriyanov-samara
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт-путешествие «МУВМЕНТ» Па
+ вла Куприянова
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:minimum-pop-showcase-sozhitel-and-others-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261129T140000Z
+DTEND:20261129T160000Z
+SUMMARY:Minimum Pop Showcase: концерт группы «Сожите
+ ль» и др.
+LOCATION:Склад N3 и Столярка\, Малая Семёновс
+ кая ул.\, 5\, стр. 1 и стр. 2\, Москва
+DESCRIPTION:Концертный шоукейс независимой м
+ узыки с участием группы «Сожитель»\, игр
+ ающей на стыке постпанка и даба\, а также
+  других артистов.\nMinimum Pop Showcase\nhttps://minimum-po
+ p-showcase.ticketscloud.org/
+URL:https://doublebasskakov.github.io/radar/#e=minimum-pop-showcase-sozhi
+ tel-and-others-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Minimum Pop Showcase: концерт группы «Сожи
+ тель» и др.
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:concert-the-art-of-musical-traditions-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261115T090000Z
+DTEND:20261115T110000Z
+SUMMARY:Концерт «Искусство музыкальных тра
+ диций»
+LOCATION:Музыкальная гостиная дома Шувалов
+ ой\, Москва
+DESCRIPTION:Концерт профессоров и преподават
+ елей РАМ им. Гнесиных с академическими т
+ ранскрипциями и переложениями известны
+ х произведений.\nВера Носина\, Ольга Дани
+ лова\, Анастасия Прудникова и др.\nhttps://t.me
+ /gnesinafisha/331
+URL:https://doublebasskakov.github.io/radar/#e=concert-the-art-of-musical
+ -traditions-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт «Искусство музыкальных т
+ радиций»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:concert-friday-the-13th-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261113T170000Z
+DTEND:20261113T190000Z
+SUMMARY:Концерт «Пятница 13»
+LOCATION:Люмьер Холл\, Берсеневский пер.\, 2с1\
+ , Москва
+DESCRIPTION:Мистический музыкальный вечер\, в
+  программу которого вошли узнаваемые и 
+ тревожные мелодии из культовых кинокар
+ тин и фэнтези.\nПространство Люмьер Холл
+  и GRANI MUSIC\nhttps://t.me/lumierehall/1067
+URL:https://doublebasskakov.github.io/radar/#e=concert-friday-the-13th-mo
+ scow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт «Пятница 13»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:local-gods-sessions-iii-showcase-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261127T160000Z
+DTEND:20261127T180000Z
+SUMMARY:Шоукейс Local Gods Sessions — III
+LOCATION:Stay Gold Pizza Spot\, Москва
+DESCRIPTION:Празднование дня рождения лейбла
+  и презентация кассетного релиза Local Gods S
+ essions — III при участии резидентов и госте
+ й.\nMan as Island\, Kopia\, tumani limana\, Paper Steph\, Kokokei\, Ande
+ rdog\nhttps://clck.ru/3We4uh
+URL:https://doublebasskakov.github.io/radar/#e=local-gods-sessions-iii-sh
+ owcase-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Шоукейс Local Gods Sessions — III
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ambient-tea-party-vol-6-saint-peters@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261114T150000Z
+DTEND:20261114T170000Z
+SUMMARY:AMBIENT Tea Party vol. 6
+LOCATION:Студия YESYOGA\, Студенческая 24 к.1\, Сан
+ кт-Петербург
+DESCRIPTION:Камерная вечеринка\, объединяюща
+ я выступления артистов в жанрах эмбиент
+  и дроун с видеоинсталляциями и чайными 
+ церемониями.\nSIERÅTTALA\, dr. SpaceKir\, М.О.У.Б.\, Tile
+  Shore\, Гриша Федосев\nhttps://t.me/QticketsBuyBot/buy?start
+ app=268737
+URL:https://doublebasskakov.github.io/radar/#e=ambient-tea-party-vol-6-sa
+ int-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AMBIENT Tea Party vol. 6
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ambient-tea-party-vol-6-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261114T150000Z
+DTEND:20261114T170000Z
+SUMMARY:Ambient Tea Party vol.6
+LOCATION:студия YESYOGA\, Студенческая 24 к.1\, Мос
+ ква
+DESCRIPTION:Чайный мини-фестиваль и вечеринк
+ а с выступлениями эмбиент\, дрон и саунд-
+ хилинг проектов в сопровождении видеои
+ нсталляций.\nSIERÅTTALA\, dr. SpaceKir\, М.О.У.Б.\, Tile S
+ hore\nhttps://t.me/QticketsBuyBot/buy?startapp=268737
+URL:https://doublebasskakov.github.io/radar/#e=ambient-tea-party-vol-6-mo
+ scow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ambient Tea Party vol.6
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dmitry-tykvin-anna-mikhailova-maxim-pozin-at-the-sound-museu-saint-pe
+ ters@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261113T173000Z
+DTEND:20261113T193000Z
+SUMMARY:Дмитрий Тыквин\, Анна Михайлова\, Ма
+ ксим Позин в Музее звука
+LOCATION:Музей звука\, Лиговский пр.\, 53\, флиг
+ ель D (арт-центр "Пушкинская-10")\, Санкт-Пе
+ тербург
+DESCRIPTION:Концерт экспериментальной музык
+ и с участием Дмитрия Тыквина (цинь)\, Анн
+ ы Михайловой (кото) и Максима Позина (дод
+ екахорд).\nДмитрий Тыквин\, Анна Михайлов
+ а\, Максим Позин\nhttps://soundmuseumspb.ru/events
+URL:https://doublebasskakov.github.io/radar/#e=dmitry-tykvin-anna-mikhail
+ ova-maxim-pozin-at-the-sound-museu-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Дмитрий Тыквин\, Анна Михайлова\, 
+ Максим Позин в Музее звука
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cosmic-jazz-concert-illo-trio-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261116T170000Z
+DTEND:20261116T190000Z
+SUMMARY:Концерт «Космический джаз»: illo.trio
+LOCATION:Yauza Place\, Москва\, Москва
+DESCRIPTION:Выступление московского коллект
+ ива illo.trio с программой современной инст
+ рументальной и джазовой музыки на стыке
+  стилей.\nillo.trio\nhttps://t.me/yauza_place/5539
+URL:https://doublebasskakov.github.io/radar/#e=cosmic-jazz-concert-illo-t
+ rio-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт «Космический джаз»: illo.trio
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:voronezh-kamerata-ceam@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261129T150000Z
+DTEND:20261129T170000Z
+SUMMARY:CEAM Artists на «Воронежской камерате»
+LOCATION:Воронежская филармония\, Воронеж
+DESCRIPTION:Концерт электроакустической и му
+ льтимедийной музыки: пьесы для ударных 
+ и электроники\, сочинения с видео и фоно
+ граммой.\nПлатформа CEAM Artists ЦЭАМ Московс
+ кой консерватории\nhttps://ladyvrn.ru/mezhdunarodnyj-fest
+ ival-voronezhskaya-kamerata-projdet-s-27-noyabrya-po-1-dekabrya/
+URL:https://doublebasskakov.github.io/radar/#e=voronezh-kamerata-ceam
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CEAM Artists на «Воронежской камерате»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:author-s-analysis-of-the-works-shimmering-structures-and-dis-moscow@a
+ fisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261127T170000Z
+DTEND:20261127T190000Z
+SUMMARY:Авторский разбор произведений «Мер
+ цающие структуры» и «Искажения»
+LOCATION:ЦЭАМ\, Москва
+DESCRIPTION:Обсуждение сочинений\, исследующ
+ их тему восприятия через взаимодействи
+ е оркестра\, электроники и визуальных об
+ разов.\nЛеонид Зволинский\nhttps://t.me/ceammc/3517
+URL:https://doublebasskakov.github.io/radar/#e=author-s-analysis-of-the-w
+ orks-shimmering-structures-and-dis-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Авторский разбор произведений «М
+ ерцающие структуры» и «Искажения»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:workshop-electronics-drone-synthesizer-saint-peters@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261128T110000Z
+DTEND:20261128T130000Z
+SUMMARY:Мастер-класс «Электроника: Дроун-си
+ нтезатор»
+LOCATION:Лаборатория экспериментального зв
+ ука\, Невский проспект\, 62\, Санкт-Петербу
+ рг
+DESCRIPTION:Практическое занятие по самостоя
+ тельной сборке портативного дроун-синт
+ езатора для исследования протяженного 
+ звука.\nСергей Суховик\nhttps://t.me/experimentallabora
+ tory/300
+URL:https://doublebasskakov.github.io/radar/#e=workshop-electronics-drone
+ -synthesizer-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Мастер-класс «Электроника: Дроун-
+ синтезатор»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:practical-workshop-on-working-with-tape-loops-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261115T120000Z
+DTEND:20261115T140000Z
+SUMMARY:Практическое занятие по работе с пл
+ ёночными петлями
+LOCATION:F5\, ул. Римского-Корсакова\, 39\, Москв
+ а
+DESCRIPTION:Практическое занятие и встреча\, 
+ посвященные технике нарезки и склейки м
+ агнитной пленки в экспериментальной му
+ зыке.\nDatura Metel\, Den Pat\, PTOS\nhttps://spb.qtickets.events/271
+ 910-1511-plenochnyy-perepolokh
+URL:https://doublebasskakov.github.io/radar/#e=practical-workshop-on-work
+ ing-with-tape-loops-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Практическое занятие по работе с 
+ плёночными петлями
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:children-s-concert-journey-into-the-world-of-music-with-inst-moscow@a
+ fisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261115T090000Z
+DTEND:20261115T110000Z
+SUMMARY:Детский концерт «Путешествие в мир 
+ музыки с Инструментариумом»
+LOCATION:Галерея «Ходынка»\, Москва
+DESCRIPTION:Иммерсивный концерт для детей от 
+ ведущих московских музыкантов с произв
+ едениями от барокко до раннего романтиз
+ ма.\nОбъединение «Инструментариум»\nhttps:/
+ /t.me/khodynkagallery/2634
+URL:https://doublebasskakov.github.io/radar/#e=children-s-concert-journey
+ -into-the-world-of-music-with-inst-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Детский концерт «Путешествие в м
+ ир музыки с Инструментариумом»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:oleg-matveev-classical-jazz-izhevsk@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261129T130000Z
+DTEND:20261129T150000Z
+SUMMARY:Олег Матвеев: «Классика−джаз»
+LOCATION:Удмуртская филармония\, Ижевск
+DESCRIPTION:Мультиинструментальный проект\, 
+ представляющий классические темы в джа
+ зовой обработке с участием вибрафона.\nО
+ лег Матвеев\nhttps://t.me/jazz100ru/1083
+URL:https://doublebasskakov.github.io/radar/#e=oleg-matveev-classical-jaz
+ z-izhevsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Олег Матвеев: «Классика−джаз»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:drema-sound-healing-practice-saint-peters@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261129T110000Z
+DTEND:20261129T130000Z
+SUMMARY:Саунд-хиллинг практика «Дрёма»
+LOCATION:16-я линия В.О.\, 16-я линия В.О.\, Санкт-
+ Петербург
+DESCRIPTION:Сеанс релаксирующего амбиент-дро
+ уна и глубокого погружения в звуковое п
+ ространство для ментального отдыха.\nАд
+ епты гудений\nhttps://t.me/gudelnaya/2380
+URL:https://doublebasskakov.github.io/radar/#e=drema-sound-healing-practi
+ ce-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Саунд-хиллинг практика «Дрёма»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:composition-improvisation-space-concert-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261114T160000Z
+DTEND:20261114T180000Z
+SUMMARY:Концерт «Композиция. Импровизация. 
+ Пространство»
+LOCATION:Усадьба Долгоруковых-Бобринских\, 
+ Малая Никитская ул.\, 12с1\, 2 этаж\, Москва
+DESCRIPTION:Концерт экспериментальной и импр
+ овизационной музыки для виолончели\, ба
+ яна\, клавишных\, перкуссии и голоса.\n\nhttp
+ s://t.me/shozhu_msk/26589
+URL:https://doublebasskakov.github.io/radar/#e=composition-improvisation-
+ space-concert-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт «Композиция. Импровизаци
+ я. Пространство»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:arsenal-band-and-stas-bekker-izhevsk@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261126T150000Z
+DTEND:20261126T170000Z
+SUMMARY:Arsenal Band и Стас Беккер
+LOCATION:Удмуртская филармония\, Ижевск
+DESCRIPTION:Открытие фестиваля выступлением 
+ духового оркестра в формате джазового с
+ остава с приглашенным вокалистом.\nArsenal B
+ and\, Стас Беккер\nhttps://t.me/jazz100ru/1083
+URL:https://doublebasskakov.github.io/radar/#e=arsenal-band-and-stas-bekk
+ er-izhevsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Arsenal Band и Стас Беккер
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:workshop-electronics-echo-processor-saint-peters@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261129T110000Z
+DTEND:20261129T130000Z
+SUMMARY:Мастер-класс «Электроника: Эхо-проц
+ ессор»
+LOCATION:Лаборатория экспериментального зв
+ ука\, Невский проспект\, 62\, Санкт-Петербу
+ рг
+DESCRIPTION:Воркшоп по созданию кастомного э
+ хо-процессора на чипе задержки с исполь
+ зованием методов сёркит-бендинга.\nСерг
+ ей Суховик\nhttps://t.me/experimentallaboratory/300
+URL:https://doublebasskakov.github.io/radar/#e=workshop-electronics-echo-
+ processor-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Мастер-класс «Электроника: Эхо-пр
+ оцессор»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:snm-nature@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261127T163000Z
+DTEND:20261127T183000Z
+SUMMARY:Ars Gallica. Сотворённая природа
+LOCATION:Пространство «Нико»\, Москва
+DESCRIPTION:Второй вечер цикла французской м
+ узыки о природе в исполнении одного из г
+ лавных ансамблей новой музыки.\nАнсамбл
+ ь «Студия новой музыки»\nhttps://afisha.yandex.ru/mos
+ cow/concert/ars-gallica-studiia-novoi-muzyki-sotvorennaia-priroda
+URL:https://doublebasskakov.github.io/radar/#e=snm-nature
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ars Gallica. Сотворённая природа
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ladoga-vinyl-sevcable@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261114T110000Z
+DTEND:20261114T130000Z
+SUMMARY:Как звучит Ладога: презентация плас
+ тинки
+LOCATION:Севкабель Порт\, Кожевенная линия\, 
+ 40\, Санкт-Петербург
+DESCRIPTION:Полевые записи звуковой экспедиц
+ ии по Ладоге\, ставшие виниловой пластин
+ кой\, — истории и прослушивание.\n«В сосе
+ дней комнате всегда тихо»\, «Сила ветра»
+ \nhttps://t.me/whats_that_noise
+URL:https://doublebasskakov.github.io/radar/#e=ladoga-vinyl-sevcable
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Как звучит Ладога: презентация пл
+ астинки
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:some-heavy-ocean-concert-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261115T160000Z
+DTEND:20261115T180000Z
+SUMMARY:Концерт Some Heavy Ocean
+LOCATION:Склад №3\, Малая Семеновская улица\,
+  д. 5\, стр. 2\, Москва
+DESCRIPTION:Концерт независимой и эксперимен
+ тальной сцены с участием проектов Echosalute
+ \, Рябь\, ATÅMA и Карнегия.\nEchosalute\, Рябь\, ATÅMA
+ \, Карнегия\nhttps://t.me/sklad_no3/3881
+URL:https://doublebasskakov.github.io/radar/#e=some-heavy-ocean-concert-m
+ oscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт Some Heavy Ocean
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:podolsk-esayan@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261121T140000Z
+DTEND:20261121T160000Z
+SUMMARY:Концерт: Есаян\, Палагина\, Чичилин
+LOCATION:Уточняйте у организаторов\, Подоль
+ ск
+DESCRIPTION:Программа\, где старинная музыка (
+ Жоскен Депре) переплетается с сочинения
+ ми современных композиторов.\nРачья Еса
+ ян (композитор)\, Катя Палагина (вокал)\, Л
+ ёша Чичилин (гитара)\nhttps://t.me/vologorlinsky
+URL:https://doublebasskakov.github.io/radar/#e=podolsk-esayan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт: Есаян\, Палагина\, Чичили
+ н
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:masm-ncaged@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261117T163000Z
+DTEND:20261117T183000Z
+SUMMARY:Ars Gallica. Естественные истории
+LOCATION:Пространство «Нико»\, Москва
+DESCRIPTION:Первый из двух вечеров французск
+ ой музыки о природе — от Жоскена Депре д
+ о послевоенного авангарда.\nN’Caged и Моск
+ овский ансамбль современной музыки (МАС
+ М)\nhttps://afisha.yandex.ru/moscow/concert/ars-gallica-ncaged-masm-este
+ stvennye-istorii
+URL:https://doublebasskakov.github.io/radar/#e=masm-ncaged
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ars Gallica. Естественные истории
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:book-diving-samara@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261114T130000Z
+DTEND:20261114T150000Z
+SUMMARY:Книжный дайвинг
+LOCATION:Галерея «Виктория»\, Библиотека\, Н
+ екрасовская ул.\, 2\, Самара
+DESCRIPTION:Музыкальный вечер в галерейной б
+ иблиотеке с живыми выступлениями эмбие
+ нт-артистов и диджей-сетами.\ntsyo\, d. towärds\,
+  Dmitry Krylov\, hasis\nhttps://t.me/gallery_victoria/4224
+URL:https://doublebasskakov.github.io/radar/#e=book-diving-samara
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Книжный дайвинг
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:blues-doctors-and-symphony-orchestra-izhevsk@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261130T150000Z
+DTEND:20261130T170000Z
+SUMMARY:Blues Doctors и симфонический оркестр
+LOCATION:Удмуртская филармония\, Ижевск
+DESCRIPTION:Финальный концерт фестиваля: кол
+ лаборация екатеринбургской блюз-группы
+  с академическим оркестром.\nBlues Doctors\nhttps:
+ //t.me/jazz100ru/1083
+URL:https://doublebasskakov.github.io/radar/#e=blues-doctors-and-symphony
+ -orchestra-izhevsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Blues Doctors и симфонический оркестр
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:diskonoir-2-years-anniversary-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261114T200000Z
+DTEND:20261114T220000Z
+SUMMARY:DiskoNoir 2 Years Anniversary
+LOCATION:Место Зангези\, Москва
+DESCRIPTION:Двухлетие команды в особняке на Т
+ аганке: два танцпола с Dark disco\, EBM\, Electroclash 
+ и New wave.\n\nhttps://t.me/dancingalone/36992
+URL:https://doublebasskakov.github.io/radar/#e=diskonoir-2-years-annivers
+ ary-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:DiskoNoir 2 Years Anniversary
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:audio-club-drone-ambient-static-forms-evening-saint-peters@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261120T160000Z
+DTEND:20261120T180000Z
+SUMMARY:Аудио Клуб: Вечер статичных форм drone
+ -ambient
+LOCATION:Аудио Клуб\, Санкт-Петербург
+DESCRIPTION:Сеанс гипнотического дроун-эмбие
+ нта и аддитивных звуковых текстур от ре
+ зидентов Гудельной артели.\nJaarvi + BioSonar\, At
+ omHerzog\, RehydRadio\nhttps://t.me/gudelnaya/2377
+URL:https://doublebasskakov.github.io/radar/#e=audio-club-drone-ambient-s
+ tatic-forms-evening-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Аудио Клуб: Вечер статичных форм d
+ rone-ambient
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:concert-by-ukhushukhu-temple-of-frogs-and-zer-yerevan@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261115T170000Z
+DTEND:20261115T190000Z
+SUMMARY:Концерт УХУШУХУ\, Temple of frogs и ZeRø
+LOCATION:Muha\, Ереван
+DESCRIPTION:Вечер эмбиента\, дроуна и полевых 
+ записей на стыке импровизационной и экс
+ периментальной музыки.\nУХУШУХУ\, Temple of fr
+ ogs\, ZeRø\nhttps://t.me/gudelnaya/2372
+URL:https://doublebasskakov.github.io/radar/#e=concert-by-ukhushukhu-temp
+ le-of-frogs-and-zer-yerevan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт УХУШУХУ\, Temple of frogs и ZeRø
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:anna-buturlina-concert-izhevsk@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261127T150000Z
+DTEND:20261127T170000Z
+SUMMARY:Концерт Анны Бутурлиной
+LOCATION:Удмуртская филармония\, Ижевск
+DESCRIPTION:Профессиональная джазовая прогр
+ амма известной вокалистки в рамках втор
+ ого вечера фестиваля.\nАнна Бутурлина\nhtt
+ ps://t.me/jazz100ru/1083
+URL:https://doublebasskakov.github.io/radar/#e=anna-buturlina-concert-izh
+ evsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт Анны Бутурлиной
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sklad-4th-anniversary-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261128T160000Z
+DTEND:20261128T180000Z
+SUMMARY:День рождения Склада: 4 года
+LOCATION:Склад №3\, Малая Семёновская улица\,
+  д. 5\, стр. 2\, Москва
+DESCRIPTION:Большой праздничный концерт неза
+ висимых музыкальных проектов в честь че
+ тырёхлетия площадки.\nУкухума + хор Цвет 
+ граната\, градирня\, Отваал\, Хадн дадн\nhtt
+ ps://t.me/sklad_no3/3862
+URL:https://doublebasskakov.github.io/radar/#e=sklad-4th-anniversary-mosc
+ ow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:День рождения Склада: 4 года
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:concert-of-the-program-night-saint-peters@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261115T160000Z
+DTEND:20261115T180000Z
+SUMMARY:Концерт программы «Ночь»
+LOCATION:Дом Радио\, Санкт-Петербург
+DESCRIPTION:Камерный концерт с романсами о но
+ чных переживаниях в исполнении артисто
+ в хора musicAeterna.\nХор musicAeterna\nhttps://t.me/musicaeterna
+ TC/4990
+URL:https://doublebasskakov.github.io/radar/#e=concert-of-the-program-nig
+ ht-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт программы «Ночь»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:eject-pavel-tundra-textures-and-texts-saint-peters@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261114T173000Z
+DTEND:20261114T193000Z
+SUMMARY:Eject & Pavel Tundra: Текстуры и тексты
+LOCATION:Музей звука\, Лиговский пр.\, 53\, флиг
+ ель D (арт-центр "Пушкинская-10")\, Санкт-Пе
+ тербург
+DESCRIPTION:Концерт проекта Eject и Павла Тундр
+ ы\, посвященный звуковым текстурам и ауд
+ ио-экспериментам.\nEject & Pavel Tundra\nhttps://soundmuse
+ umspb.ru/events
+URL:https://doublebasskakov.github.io/radar/#e=eject-pavel-tundra-texture
+ s-and-texts-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Eject & Pavel Tundra: Текстуры и тексты
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:drema-drone-spb@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261129T110000Z
+DTEND:20261129T130000Z
+SUMMARY:Дневная ДРЁМА — амбиент и дроун
+LOCATION:Йога-зал на 16-й линии В.О.\, 16-я линия 
+ В.О.\, Санкт-Петербург
+DESCRIPTION:Семичасовое горизонтальное слуш
+ ание: терапевтический амбиент и дроун в 
+ пространстве покоя.\nМира Древо\, Юм-Юм\, 
+ Онейроглиф\, Микориза и др.\nhttps://t.me/whats_that
+ _noise
+URL:https://doublebasskakov.github.io/radar/#e=drema-drone-spb
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Дневная ДРЁМА — амбиент и дроун
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:razmakha-s-p96-vinyl-presentation-in-moscow-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261119T150000Z
+DTEND:20261119T170000Z
+SUMMARY:Презентация пластинки Размахи «Р96»
+  в Москве
+LOCATION:Kultura Record Store\, Большой Трёхсвятитель
+ ский пер.\, 2/1с1\, Москва
+DESCRIPTION:Московская презентация нового ал
+ ьбома Размахи «Р96»\, автограф-сессия и в
+ стречи с автором.\nРазмаха\, Kultura Record Store\, 
+ Shabash Records\nhttps://t.me/kulturarecordstore/2990
+URL:https://doublebasskakov.github.io/radar/#e=razmakha-s-p96-vinyl-prese
+ ntation-in-moscow-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Презентация пластинки Размахи «Р
+ 96» в Москве
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:contemporary-academic-music-and-french-program-concert-moscow@afisha-
+ art
+DTSTAMP:20261113T184219Z
+DTSTART:20261113T163000Z
+DTEND:20261113T183000Z
+SUMMARY:Концерт современной академической 
+ музыки и французской программы
+LOCATION:Культурный центр «Рассвет»\, Москв
+ а
+DESCRIPTION:Вечер современной музыки в рамка
+ х французской программы в культурном це
+ нтре «Рассвет».\nHauntology\nhttps://hauntology.ru/
+URL:https://doublebasskakov.github.io/radar/#e=contemporary-academic-musi
+ c-and-french-program-concert-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт современной академическ
+ ой музыки и французской программы
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:zloba-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261113T200000Z
+DTEND:20261113T220000Z
+SUMMARY:Zloba
+LOCATION:Rndm\, Наставнический пер.\, 13/15\, стр. 3\
+ , Москва
+DESCRIPTION:Вечер экспрессивной электроники\
+ , посвященный выплеску подавленных эмоц
+ ий через звук.\n\nhttps://t.me/dancingalone/36992
+URL:https://doublebasskakov.github.io/radar/#e=zloba-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Zloba
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:moscow-piano-day-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261115T160000Z
+DTEND:20261115T180000Z
+SUMMARY:Moscow Piano Day
+LOCATION:Yauza Place\, Москва
+DESCRIPTION:Концерт фортепианной музыки в ра
+ мках программы мероприятий пространств
+ а Yauza Place.\nГлеб Андрианов и др.\nhttps://t.me/yauza
+ _place/5529
+URL:https://doublebasskakov.github.io/radar/#e=moscow-piano-day-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Moscow Piano Day
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:biomechanika-6-vacuum@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20270309T160000Z
+DTEND:20270309T180000Z
+SUMMARY:«Биомеханика» VI: CEAM Artists и Vacuum Quartet
+LOCATION:Концертный зал им. Чайковского\, Ка
+ мерный зал\, Триумфальная пл.\, 4\, Москва
+DESCRIPTION:Струнный квартет и электроника: п
+ рограмма VI фестиваля «Биомеханика» с пр
+ емьерами.\nCEAM Artists\, струнный квартет Vacuum\
+ nhttps://meloman.ru/concert/kzf-2027-03-09/
+URL:https://doublebasskakov.github.io/radar/#e=biomechanika-6-vacuum
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:«Биомеханика» VI: CEAM Artists и Vacuum Quartet
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:razmakha-s-p96-vinyl-presentation-in-saint-petersburg-saint-peters@af
+ isha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261118T150000Z
+DTEND:20261118T170000Z
+SUMMARY:Презентация пластинки Размахи «Р96»
+  в Санкт-Петербурге
+LOCATION:Kultura Record Store\, ул. Марата\, 30\, Санкт-Пе
+ тербург
+DESCRIPTION:Презентация нового альбома Разма
+ хи «Р96» с автограф-сессией и общением с 
+ артистом.\nРазмаха\, Kultura Record Store\, Shabash Record
+ s\nhttps://t.me/kulturarecordstore/2990
+URL:https://doublebasskakov.github.io/radar/#e=razmakha-s-p96-vinyl-prese
+ ntation-in-saint-petersburg-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Презентация пластинки Размахи «Р
+ 96» в Санкт-Петербурге
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:krasnoyarsk-schnittke-choir@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261119T120000Z
+DTEND:20261119T140000Z
+SUMMARY:Шнитке. Концерт для хора на стихи На
+ рекаци — премьера в Красноярске
+LOCATION:Красноярская филармония\, Краснояр
+ ск
+DESCRIPTION:Первое исполнение в городе одног
+ о из главных хоровых сочинений Альфреда
+  Шнитке.\nКрасноярский камерный хор\, Ека
+ терина Баулина\nhttps://t.me/orpheusradio
+URL:https://doublebasskakov.github.io/radar/#e=krasnoyarsk-schnittke-choi
+ r
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Шнитке. Концерт для хора на стихи 
+ Нарекаци — премьера в Красноярске
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:caspiy-band-concert-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261115T170000Z
+DTEND:20261115T190000Z
+SUMMARY:Концерт группы «Каспий»
+LOCATION:Еврейский музей и центр толерантно
+ сти\, Москва
+DESCRIPTION:Праздничный концерт музыкальног
+ о коллектива в честь 14-летия Еврейского 
+ музея.\nГруппа «Каспий»\nhttps://t.me/jewishmuseum/574
+ 8
+URL:https://doublebasskakov.github.io/radar/#e=caspiy-band-concert-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт группы «Каспий»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:igor-butman-jubilee-gala-concert-tyumen@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Игорь Бутман. Юбилейный гала-концер
+ т
+LOCATION:Тюмень
+DESCRIPTION:Юбилейное выступление Игоря Бутм
+ ана в Тюмени в рамках гастрольного тура.
+ \nИгорь Бутман\nhttps://t.me/jazz100ru/1081
+URL:https://doublebasskakov.github.io/radar/#e=igor-butman-jubilee-gala-c
+ oncert-tyumen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Игорь Бутман. Юбилейный гала-конц
+ ерт
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:andrey-kondakov-trio-izhevsk@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261128T150000Z
+DTEND:20261128T170000Z
+SUMMARY:Трио Андрея Кондакова
+LOCATION:Удмуртская филармония\, Ижевск
+DESCRIPTION:Выступление признанного петербу
+ ргского пианиста и его джазового трио.\n
+ Андрей Кондаков\nhttps://t.me/jazz100ru/1083
+URL:https://doublebasskakov.github.io/radar/#e=andrey-kondakov-trio-izhev
+ sk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Трио Андрея Кондакова
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:opensound-quartets-rassvet@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261126T163000Z
+DTEND:20261126T183000Z
+SUMMARY:OpensoundOrchestra: презентация альбома стр
+ унных квартетов
+LOCATION:ДК «Рассвет»\, Столярный пер.\, 3\, ко
+ рп. 15\, Москва
+DESCRIPTION:Живая презентация второго тома а
+ нтологии новых российских квартетов.\nШ
+ есть сочинений российских композиторов
+ \nhttps://t.me/classicalmusicnews
+URL:https://doublebasskakov.github.io/radar/#e=opensound-quartets-rassvet
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:OpensoundOrchestra: презентация альбома с
+ трунных квартетов
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:varvara-ubel-band-saint-peters@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261114T163000Z
+DTEND:20261114T183000Z
+SUMMARY:Варвара Убель & Band
+LOCATION:Санкт-Петербург
+DESCRIPTION:Выступление джазовой вокалистки 
+ Варвары Убель и её коллектива.\nВарвара 
+ Убель\nhttps://t.me/jazz100ru/1081
+URL:https://doublebasskakov.github.io/radar/#e=varvara-ubel-band-saint-pe
+ ters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Варвара Убель & Band
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bomba-oktyabr-band-concert-saint-peters@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261219T163000Z
+DTEND:20261219T183000Z
+SUMMARY:Концерт группы «Бомба-Октябрь»
+LOCATION:Новая сцена Санкт-Петербургского т
+ еатра им. В.Ф. Комиссаржевской\, наб. реки
+  Фонтанки\, 41\, Санкт-Петербург
+DESCRIPTION:Выступление музыкальной группы н
+ а Новой сцене.\nБомба-Октябрь\nhttps://t.me/newsta
+ geprojects/3179
+URL:https://doublebasskakov.github.io/radar/#e=bomba-oktyabr-band-concert
+ -saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт группы «Бомба-Октябрь»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:the-translators-and-tattooin-split-concert-nizhny-novgo@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261115T160000Z
+DTEND:20261115T180000Z
+SUMMARY:Сплит-концерт The Translators и TattooIN
+LOCATION:Алькатрас\, Почаинская ул.\, 17с\, Ниж
+ ний Новгород
+DESCRIPTION:Совместный концерт рок-проекта Ч
+ ака и Дмитрия Шуманского The Translators с ирон
+ ичными переводами хитов и романтиков soft
+ -rock сцены TattooIN.\nThe Translators\, TattooIN\nhttps://thetransl
+ ators-nn.ticketscloud.org/
+URL:https://doublebasskakov.github.io/radar/#e=the-translators-and-tattoo
+ in-split-concert-nizhny-novgo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Сплит-концерт The Translators и TattooIN
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:drema-saint-peters@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261129T110000Z
+DTEND:20261129T130000Z
+SUMMARY:ДРËМА
+LOCATION:Йога-зал\, 16-я линия В.О.\, Санкт-Пете
+ рбург
+DESCRIPTION:Сессия глубокого погружения в зв
+ ук в формате горизонтального слушания с
+  программой саунд-хиллинга и терапевтич
+ еского эмбиент-дроуна.\nМира Древо\, Юм-Ю
+ м\, Онейроглиф\, Микориза\, Andrew Sprrw\, море к
+ ризисов\nhttps://t.me/whats_that_noise/4746
+URL:https://doublebasskakov.github.io/radar/#e=drema-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ДРËМА
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:wind-music-concert-evening-in-memory-of-yevgeny-rozhkov-nizhny-novgo@
+ afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261123T143000Z
+DTEND:20261123T163000Z
+SUMMARY:Концерт духовой музыки: Вечер памят
+ и Евгения Рожкова
+LOCATION:Центральный дворец культуры желез
+ нодорожников\, ул. Июльских дней\, 1А\, Ниж
+ ний Новгород
+DESCRIPTION:Концерт любителей духовой музыки
+ \, посвященный памяти Евгения Рожкова\, с
+  участием трех известных коллективов го
+ рода.\nТри коллектива Нижнего Новгорода\
+ nhttps://t.me/NNafisha/13184
+URL:https://doublebasskakov.github.io/radar/#e=wind-music-concert-evening
+ -in-memory-of-yevgeny-rozhkov-nizhny-novgo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт духовой музыки: Вечер пам
+ яти Евгения Рожкова
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:concert-of-indie-singer-dmitrevna-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261114T180000Z
+DTEND:20261114T200000Z
+SUMMARY:Концерт инди-певицы дмитревной
+LOCATION:Лапшичная «Лан Ма»\, Новослободска
+ я ул.\, 20\, Москва
+DESCRIPTION:Презентация альбома «Осторожно\, 
+ хрупкое!» в необычном пространстве лапш
+ ичной в рамках коллаборации с керамиста
+ ми.\nдмитревна\nhttps://lanma.ticketscloud.org/
+URL:https://doublebasskakov.github.io/radar/#e=concert-of-indie-singer-dm
+ itrevna-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт инди-певицы дмитревной
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:concert-of-students-of-v-nosina-and-o-danilova-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261115T120000Z
+DTEND:20261115T140000Z
+SUMMARY:Концерт студентов класса В.Б. Носин
+ ой и О.С. Даниловой
+LOCATION:РАМ имени Гнесиных\, Малый зал\, Мос
+ ква
+DESCRIPTION:Фортепианный концерт студентов п
+ од руководством профессора В.Б. Носиной 
+ и старшего преподавателя О.С. Даниловой.
+ \nСтуденты класса В. Носиной и О. Данилов
+ ой\nhttps://t.me/gnesinafisha/331
+URL:https://doublebasskakov.github.io/radar/#e=concert-of-students-of-v-n
+ osina-and-o-danilova-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт студентов класса В.Б. Нос
+ иной и О.С. Даниловой
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:concert-along-the-long-road-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261114T140000Z
+DTEND:20261114T160000Z
+SUMMARY:Концерт «Дорогой длинною»
+LOCATION:ВЗ «Выхино»\, ул. Ташкентская 9\, Мос
+ ква
+DESCRIPTION:Камерный концерт вокальной и инс
+ трументальной музыки в исполнении Ирин
+ ы Новиковой и Константина Алесеева.\nИри
+ на Новикова\, Константин Алесеев\nhttps://t.me
+ /vykhino_vzgallery/2659
+URL:https://doublebasskakov.github.io/radar/#e=concert-along-the-long-roa
+ d-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт «Дорогой длинною»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:iv-moscow-festival-competition-of-folk-instrumental-art-chil-moscow@a
+ fisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261115T100000Z
+DTEND:20261115T120000Z
+SUMMARY:IV Московский фестиваль-конкурс нар
+ одно-инструментального искусства «Детс
+ кая академия»
+LOCATION:Большой зал «Гнесинский на Поварск
+ ой»\, ул. Поварская\, Москва
+DESCRIPTION:Конкурсная и концертная программ
+ а детского и юношеского народно-инструм
+ ентального искусства.\nУчастники фестив
+ аля-конкурса\nhttps://t.me/gnesinafisha/331
+URL:https://doublebasskakov.github.io/radar/#e=iv-moscow-festival-competi
+ tion-of-folk-instrumental-art-chil-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:IV Московский фестиваль-конкурс н
+ ародно-инструментального искусства «Де
+ тская академия»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:acoustic-concert-by-frank-at-sklad-no-3-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261114T160000Z
+DTEND:20261114T180000Z
+SUMMARY:Акустический концерт фрэнк? на Скла
+ де №3
+LOCATION:Склад №3\, Малая Семёновская улица\,
+  д. 5\, стр. 2\, Москва
+DESCRIPTION:Акустическое выступление проект
+ а фрэнк? на независимой андеграундной п
+ лощадке.\nфрэнк?\nhttps://t.me/sklad_no3/3880
+URL:https://doublebasskakov.github.io/radar/#e=acoustic-concert-by-frank-
+ at-sklad-no-3-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Акустический концерт фрэнк? на Ск
+ ладе №3
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cycle-sunday-daytime-concerts-masterpieces-of-piano-music-moscow@afis
+ ha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261115T090000Z
+DTEND:20261115T110000Z
+SUMMARY:Цикл «Воскресные дневные концерты»
+ : «Шедевры фортепианной музыки»
+LOCATION:РАМ имени Гнесиных\, Малый зал\, Мос
+ ква
+DESCRIPTION:Концерт студентов фортепианного 
+ факультета в рамках цикла дневных конце
+ ртов.\nСтуденты фортепианного факультет
+ а РАМ им. Гнесиных\nhttps://t.me/gnesinafisha/331
+URL:https://doublebasskakov.github.io/radar/#e=cycle-sunday-daytime-conce
+ rts-masterpieces-of-piano-music-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Цикл «Воскресные дневные концерт
+ ы»: «Шедевры фортепианной музыки»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:tvari-i-grady-fest-saint-peters@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261113T160000Z
+DTEND:20261113T180000Z
+SUMMARY:Твари и гады фест
+LOCATION:Склад №3\, Санкт-Петербург
+DESCRIPTION:Концерт в рамках фестиваля с учас
+ тием независимых проектов и музыкантов.
+ \nХей Оливер\, the moss voice\, Котобус\, feefunction\nht
+ tps://t.me/sklad_no3/3864
+URL:https://doublebasskakov.github.io/radar/#e=tvari-i-grady-fest-saint-p
+ eters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Твари и гады фест
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:some-heavy-ocean-concert-saint-peters@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261115T160000Z
+DTEND:20261115T180000Z
+SUMMARY:Концерт Some Heavy Ocean
+LOCATION:Склад №3\, Санкт-Петербург
+DESCRIPTION:Концерт музыкальных проектов Echosa
+ lute\, Рябь\, ATÅMA и Карнегия.\nEchosalute\, Рябь\, AT
+ ÅMA\, Карнегия\nhttps://t.me/sklad_no3/3864
+URL:https://doublebasskakov.github.io/radar/#e=some-heavy-ocean-concert-s
+ aint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт Some Heavy Ocean
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kim-nazaretov-jazz-orchestra-rostov-on-do@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261115T150000Z
+DTEND:20261115T170000Z
+SUMMARY:Эстрадно-джазовый оркестр им. Кима 
+ Назаретова
+LOCATION:Ростов-на-Дону
+DESCRIPTION:Концерт одного из ведущих регион
+ альных биг-бэндов России.\nЭстрадно-джаз
+ овый оркестр им. Кима Назаретова\nhttps://t.me
+ /jazz100ru/1081
+URL:https://doublebasskakov.github.io/radar/#e=kim-nazaretov-jazz-orchest
+ ra-rostov-on-do
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Эстрадно-джазовый оркестр им. Ким
+ а Назаретова
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:concert-of-the-frank-project-saint-peters@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261114T160000Z
+DTEND:20261114T180000Z
+SUMMARY:Концерт проекта «фрэнк?»
+LOCATION:Склад №3\, Санкт-Петербург
+DESCRIPTION:Живое выступление на независимой
+  площадке.\nNone\nhttps://t.me/sklad_no3/3864
+URL:https://doublebasskakov.github.io/radar/#e=concert-of-the-frank-proje
+ ct-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт проекта «фрэнк?»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ekb-masm-kontrapunkt-epokh@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261127T140000Z
+DTEND:20261127T160000Z
+SUMMARY:МАСМ. «Контрапункт эпох»
+LOCATION:Ельцин Центр\, Музей Бориса Ельцина
+ \, Екатеринбург
+DESCRIPTION:Гастроль одного из главных ансам
+ блей новой музыки: концерт и публичный р
+ азговор после него.\nМосковский ансамбл
+ ь современной музыки\nhttps://m-c-m-e.ru/ru/events/2026
+ /11/
+URL:https://doublebasskakov.github.io/radar/#e=ekb-masm-kontrapunkt-epokh
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:МАСМ. «Контрапункт эпох»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:contemporary-music-concert-works-by-steve-reich-and-iannis-x-moscow@a
+ fisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261121T163000Z
+DTEND:20261121T183000Z
+SUMMARY:Концерт современной музыки: произв
+ едения Стива Райха и Яниса Ксенакиса
+LOCATION:ДК Рассвет\, Москва
+DESCRIPTION:Исполнение знаковых авангардных 
+ произведений Стива Райха («Piano Phase») и Ян
+ иса Ксенакиса («Oophaa»\, «Komboï»).\nАндрей Во
+ лосовский\, Михаил Дубов\nhttps://t.me/dkrassvet/2358
+URL:https://doublebasskakov.github.io/radar/#e=contemporary-music-concert
+ -works-by-steve-reich-and-iannis-x-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт современной музыки: прои
+ зведения Стива Райха и Яниса Ксенакиса
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:from-the-life-of-planets-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261219T160000Z
+DTEND:20261219T180000Z
+SUMMARY:Из жизни планет
+LOCATION:Электротеатр Станиславский\, Тверс
+ кая ул.\, 23\, Москва
+DESCRIPTION:Музыкально-театральное посвящен
+ ие неснятым фильмам 1960-х годов от Олега 
+ Нестерова и группы «Мегаполис».\nОлег Не
+ стеров\, группа «Мегаполис»\, Денис Азар
+ ов\nhttps://electrotheatre.ru/playbill
+URL:https://doublebasskakov.github.io/radar/#e=from-the-life-of-planets-m
+ oscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Из жизни планет
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:opening-concert-of-the-electroacoustic-music-exhibition-saint-peters@
+ afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261114T170000Z
+DTEND:20261114T190000Z
+SUMMARY:Концерт-открытие выставки электроа
+ кустической музыки
+LOCATION:Дом Радио\, Невский пр.\, 62\, Санкт-Пе
+ тербург
+DESCRIPTION:Концерт экспериментальной и элек
+ троакустической музыки в рамках открыт
+ ия новой звуковой экспозиции.\nНикита Ал
+ ексеенко\, Влад Добровольский\, Соня Ско
+ белева\, Виктория Харкевич\nhttps://t.me/experiment
+ allaboratory/305
+URL:https://doublebasskakov.github.io/radar/#e=opening-concert-of-the-ele
+ ctroacoustic-music-exhibition-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт-открытие выставки электр
+ оакустической музыки
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:concert-dedicated-to-the-80th-anniversary-of-sergei-berinsky-moscow@a
+ fisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261114T160000Z
+DTEND:20261114T180000Z
+SUMMARY:Концерт к 80-летию Сергея Беринского
+  в абонементе «Реминисценции»
+LOCATION:Московская консерватория\, Москва
+DESCRIPTION:Вечер камерной музыки\, посвященн
+ ый творчеству Сергея Беринского\, в диал
+ оге с которым прозвучит Первая скрипичн
+ ая соната Эрнеста Блоха на основе еврей
+ ского фольклора.\nАндрей Устинов\nhttps://t.me
+ /mosfilarmonia/2244
+URL:https://doublebasskakov.github.io/radar/#e=concert-dedicated-to-the-8
+ 0th-anniversary-of-sergei-berinsky-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт к 80-летию Сергея Беринско
+ го в абонементе «Реминисценции»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:msk-masm-15-dec@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20261215T160000Z
 DTEND:20261215T180000Z
 SUMMARY:МАСМ: Булез\, Шнитке\, Райх\, Найман
@@ -435,8 +2429,47 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:night-concert-continuum-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261113T193000Z
+DTEND:20261113T213000Z
+SUMMARY:Ночной концерт «Continuum»
+LOCATION:Клуб Эссе\, Москва
+DESCRIPTION:Непрерывное музыкальное полотно\
+ , создаваемое в реальном времени на стык
+ е импровизации и экспериментальных зву
+ ковых текстур.\n\nhttps://t.me/essejazzclub/4165
+URL:https://doublebasskakov.github.io/radar/#e=night-concert-continuum-mo
+ scow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ночной концерт «Continuum»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:manuk-kazaryan-quintet-concert-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261114T170000Z
+DTEND:20261114T190000Z
+SUMMARY:Концерт Манука Казаряна Квинтета
+LOCATION:Клуб Эссе\, ул. Пятницкая\, д. 27\, стр. 
+ 3а\, Москва
+DESCRIPTION:Выступление известного пианиста 
+ и кинокомпозитора Манука Казаряна в соп
+ ровождении квинтета музыкантов.\nМанук 
+ Казарян Квинтет\nhttps://t.me/essejazzclub/4168
+URL:https://doublebasskakov.github.io/radar/#e=manuk-kazaryan-quintet-con
+ cert-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт Манука Казаряна Квинтета
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:nsk-masm-tri-veka@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20261126T120000Z
 DTEND:20261126T140000Z
 SUMMARY:МАСМ. «Три века русской камерной му
@@ -457,8 +2490,27 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:ethno-mechanica-bad-zu-saint-peters@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261114T160000Z
+DTEND:20261114T180000Z
+SUMMARY:Этно-механика: BAD ZU
+LOCATION:Космонавт\, Санкт-Петербург
+DESCRIPTION:Концерт проекта BAD ZU на фестивале 
+ «Этно-механика»\, объединяющий электрон
+ ные ритмы и живые барабаны.\nBAD ZU\nhttps://t.me/k
+ uryokhincenter/3373
+URL:https://doublebasskakov.github.io/radar/#e=ethno-mechanica-bad-zu-sai
+ nt-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Этно-механика: BAD ZU
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:tomsk-masm-denisov@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20261124T120000Z
 DTEND:20261124T140000Z
 SUMMARY:МАСМ. «Диалоги сквозь время: Эдисон 
@@ -478,7 +2530,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:chel-masm-avangard@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20261128T130000Z
 DTEND:20261128T150000Z
 SUMMARY:МАСМ. «Путешествия русского аванга
@@ -498,9 +2550,28 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:concert-at-veladora-car-wash-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261114T170000Z
+DTEND:20261114T190000Z
+SUMMARY:Концерт на Автомойке by Veladora
+LOCATION:Автомойка by Veladora\, Старосадский пер
+ еулок\, 3\, стр. 2\, Москва
+DESCRIPTION:Живой концерт на необычной площа
+ дке с бесплатным входом.\nMestnost\nhttps://t.me/mest
+ nost_label/2852
+URL:https://doublebasskakov.github.io/radar/#e=concert-at-veladora-car-wa
+ sh-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт на Автомойке by Veladora
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:artist-talk-and-concert-vladimir-martynov-yuri-ginzburg-and--moscow@a
  fisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Встреча и концерт: Владимир Мартыно
@@ -526,7 +2597,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:zvukovye-puti-ceam-artists@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:«Звуковые пути»: CEAM Artists
@@ -549,8 +2620,95 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:sound-up-festival-concert-olga-beloglazova-resonance-moscow@afisha-ar
+ t
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Концерт фестиваля Sound UP: Ольга Белог
+ лазова (RESONANCE)
+LOCATION:галерея fābula HQ\, завод «Кристалл»\, М
+ осква
+DESCRIPTION:Виолончелистка Ольга Белоглазов
+ а исполнит произведения американских м
+ инималистов и современных композиторов
+  в индустриальном пространстве с уникал
+ ьной акустикой.\nОльга Белоглазова\nhttps://
+ t.me/time_to_hear/192
+URL:https://doublebasskakov.github.io/radar/#e=sound-up-festival-concert-
+ olga-beloglazova-resonance-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт фестиваля Sound UP: Ольга Бел
+ оглазова (RESONANCE)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:grand-concert-for-the-anniversary-of-i-le-the-le-me-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Гранд-Концерт к юбилею «Île Thélème»
+LOCATION:Пространство «Île Thélème»\, Москва
+DESCRIPTION:Праздничный концерт с участием в
+ осемнадцати музыкантов в рамках праздн
+ ования пятилетия проекта\, сопровождающ
+ ийся демонстрацией барочных декораций.\
+ nМартынов\, Гринденко\, Мягкова и др.\nhttps:/
+ /t.me/ile_theleme/1849
+URL:https://doublebasskakov.github.io/radar/#e=grand-concert-for-the-anni
+ versary-of-i-le-the-le-me-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Гранд-Концерт к юбилею «Île Thélème»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:vivacello-festival-concert-opensoundorchestra-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Концерт фестиваля VIVACELLO: OpensoundOrchestra
+LOCATION:ДК «Рассвет»\, Москва
+DESCRIPTION:В рамках фестиваля VIVACELLO прозвуча
+ т мировые премьеры: сочинения Баруха Бе
+ рлинера и Геннадия Ровнера для виолонче
+ ли с оркестром.\nOpensoundOrchestra\, Станислав Ма
+ лышев\, Борис Андрианов\nhttps://t.me/time_to_hear/190
+URL:https://doublebasskakov.github.io/radar/#e=vivacello-festival-concert
+ -opensoundorchestra-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт фестиваля VIVACELLO: OpensoundOrchest
+ ra
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:concert-in-other-words-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261121
+SUMMARY:Концерт «Другими словами»
+LOCATION:Тон-Центр\, Москва\, Москва
+DESCRIPTION:Музыкальное высказывание композ
+ итора и режиссера Владислава Наставшев
+ а на стихи современных поэтов в купольн
+ ой акустике депо.\nВладислав Наставшев\nh
+ ttps://t.me/toncentermoscow/492
+URL:https://doublebasskakov.github.io/radar/#e=concert-in-other-words-mos
+ cow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт «Другими словами»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:folklore-as-infinity-festival-saint-peters@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:Фестиваль «Фольклор как бесконечно
@@ -570,8 +2728,137 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:film-concert-with-1920s-soviet-avant-garde-music-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Фильм-концерт с музыкой советского 
+ авангарда 1920-х годов
+LOCATION:Центр Зотов\, Москва
+DESCRIPTION:Редкие партитуры советского аван
+ гарда — квартет Лурье и камерная симфон
+ ия Попова — в необычном формате фильма-
+ концерта.\nСолисты musicAeterna\, Дмитрий Боро
+ дин\nhttps://t.me/musicaeternaTC/4990
+URL:https://doublebasskakov.github.io/radar/#e=film-concert-with-1920s-so
+ viet-avant-garde-music-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Фильм-концерт с музыкой советско
+ го авангарда 1920-х годов
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fuselab-showcase-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Fuselab Showcase
+LOCATION:Берёзка\, Москва
+DESCRIPTION:Музыкальная ретроспектива и совр
+ еменные релизы лейбла Fuselab с участием зн
+ аковых российских электронных артистов
+ .\nIshome\, Summer Of Haze\, AL-90\, Пайта\, FMSAO\, Sestrica\nhttps
+ ://t.me/dancingalone/36992
+URL:https://doublebasskakov.github.io/radar/#e=fuselab-showcase-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fuselab Showcase
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:other-words-performance-concert-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Концерт-спектакль «Другими словами
+ »
+LOCATION:ТОН-Центр\, Москва
+DESCRIPTION:Влад Наставшев представит музыка
+ льную программу на стихи поэта Семена Х
+ анина о внутренних кризисах и поисках с
+ ебя.\nВлад Наставшев\, Юра Гинзбург\nhttps://t
+ .me/toncentermoscow/502
+URL:https://doublebasskakov.github.io/radar/#e=other-words-performance-co
+ ncert-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт-спектакль «Другими слова
+ ми»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:concert-string-quartets-vol-2-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Концерт «String quartets. Vol. 2»
+LOCATION:ДК «Рассвет»\, Москва
+DESCRIPTION:Презентация нового альбома антол
+ огии современной российской музыки с пр
+ оизведениями для струнного квартета.\nOpe
+ nsoundOrchestra\nhttps://t.me/dkrassvet/2347
+URL:https://doublebasskakov.github.io/radar/#e=concert-string-quartets-vo
+ l-2-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт «String quartets. Vol. 2»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:concert-of-the-dsch-shostakovich-code-subscription-saint-peters@afish
+ a-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Концерт абонемента «DSCH - код Шостак
+ овича»
+LOCATION:Санкт-Петербургская филармония (Бо
+ льшой зал)\, Санкт-Петербург
+DESCRIPTION:Концерт симфонической музыки в р
+ амках юбилейной филармонической програ
+ ммы к 120-летию Д. Д. Шостаковича.\nАнатоли
+ й Рыбалко\, Иван Бессонов\, ЗКР\nhttps://t.me/phil
+ harmoniaspb/2422
+URL:https://doublebasskakov.github.io/radar/#e=concert-of-the-dsch-shosta
+ kovich-code-subscription-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт абонемента «DSCH - код Шост
+ аковича»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:oleg-kagan-memorial-festival-chamber-music-concert-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Фестиваль памяти Олега Кагана: Конц
+ ерт камерной музыки
+LOCATION:Московская консерватория\, Малый з
+ ал\, Большая Никитская ул.\, 13\, Москва
+DESCRIPTION:В исполнении известных музыканто
+ в прозвучат произведения Скрябина\, Мет
+ нера\, Рахманинова и Аренского.\nР. Сосни
+ н\, Д. Винник\, С. Мороз\, Е. Румянцев\nhttps://t.
+ me/mosconsv/1454
+URL:https://doublebasskakov.github.io/radar/#e=oleg-kagan-memorial-festiv
+ al-chamber-music-concert-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Фестиваль памяти Олега Кагана: Ко
+ нцерт камерной музыки
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:ges2-gala@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:ГЭС-2 Гала
@@ -590,28 +2877,147 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:soundup-resonance@afisha-art
-DTSTAMP:20261113T174826Z
-DTSTART;VALUE=DATE:20261127
-DTEND;VALUE=DATE:20261128
-SUMMARY:Sound Up Resonance
-LOCATION:Галерея fābula HQ\, Москва
-DESCRIPTION:Первый концерт новой серии Sound Up: 
- восемь взглядов современных композитор
- ов на виолончель.\nОльга Белоглазова\, ви
- олончель\nhttps://theblueprint.ru/culture/music/music-november-20
- 26
-URL:https://doublebasskakov.github.io/radar/#e=soundup-resonance
+UID:oleg-kagan-memorial-festival-road-without-end-concert-moscow@afisha-a
+ rt
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Фестиваль памяти Олега Кагана: Конц
+ ерт «Дорога без конца»
+LOCATION:Московская консерватория\, Малый з
+ ал\, Большая Никитская ул.\, 13\, Москва
+DESCRIPTION:Программа объединит сочинения Па
+ ганини\, Кастельнуово-Тедеско и Пьяццол
+ лы для скрипки и гитары.\nГ. Башмет\, С. Мо
+ роз\, А. Папушев\, Д. Илларионов\nhttps://t.me/mosc
+ onsv/1454
+URL:https://doublebasskakov.github.io/radar/#e=oleg-kagan-memorial-festiv
+ al-road-without-end-concert-moscow
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Sound Up Resonance
+DESCRIPTION:Фестиваль памяти Олега Кагана: Ко
+ нцерт «Дорога без конца»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:oleg-kagan-memorial-festival-interrupted-flight-concert-moscow@afisha
+ -art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Фестиваль памяти Олега Кагана: Конц
+ ерт «Прерванный полет»
+LOCATION:Московская консерватория\, Малый з
+ ал\, Большая Никитская ул.\, 13\, Москва
+DESCRIPTION:Выступление камерного оркестра и
+  солистов с произведениями Моцарта и Шн
+ итке.\nКамерный оркестр «Art Incognito»\, П. Гла
+ дыш\, С. Мороз\, А. Ларионова-Гладыш\nhttps://t.
+ me/mosconsv/1454
+URL:https://doublebasskakov.github.io/radar/#e=oleg-kagan-memorial-festiv
+ al-interrupted-flight-concert-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Фестиваль памяти Олега Кагана: Ко
+ нцерт «Прерванный полет»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:taneyev-quartet-concert-saint-peters@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:Концерт Квартета имени Танеева
+LOCATION:Малый зал Санкт-Петербургской фила
+ рмонии\, Невский пр.\, 30\, Санкт-Петербург
+DESCRIPTION:Юбилейный концерт в честь 80-летия
+  со дня основания Квартета имени Танеев
+ а.\nКвартет имени Танеева\nhttps://t.me/philharmonias
+ pb/2431
+URL:https://doublebasskakov.github.io/radar/#e=taneyev-quartet-concert-sa
+ int-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт Квартета имени Танеева
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:tribute-concert-to-alexey-kozlov-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:Музыкальное посвящение Алексею Коз
+ лову
+LOCATION:Музей Зиларт\, Москва
+DESCRIPTION:Бесплатная программа памяти сакс
+ офониста Алексея Козлова с концертом ор
+ кестра Петра Востокова\, лекцией об исто
+ рии советского джаза и фотовыставкой.\nБ
+ ольшой джазовый оркестр под управление
+ м Петра Востокова\, Александр Михайловс
+ кий\, Александр Забрин\nhttps://t.me/culturalmsk/17316
+URL:https://doublebasskakov.github.io/radar/#e=tribute-concert-to-alexey-
+ kozlov-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Музыкальное посвящение Алексею К
+ озлову
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:vinyl-evening-at-dovlatov-bar-can-ulyanovsk@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Виниловый вечер в баре «Довлатов»: C
+ AN
+LOCATION:Бар «Довлатов»\, пер. Молочный\, 2\, У
+ льяновск
+DESCRIPTION:Прослушивание знаковых альбомов 
+ краут-рок пионеров Can на виниле\, сопрово
+ ждаемое лекцией об истории группы и пок
+ азом архивного концерта.\nCan\, Damo Suzuki\nhttps:/
+ /t.me/sankin_vybor/1644
+URL:https://doublebasskakov.github.io/radar/#e=vinyl-evening-at-dovlatov-
+ bar-can-ulyanovsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Виниловый вечер в баре «Довлатов
+ »: CAN
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:flora-bichakhchyan-concert-flora-world-star-yekaterinbur@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:Концерт Флоры Бичахчян «ФЛОРА. Миро
+ вая звезда»
+LOCATION:Ельцин Центр\, Бориса Ельцина\, 3\, Ек
+ атеринбург
+DESCRIPTION:Концертно-театрализованное шоу п
+ обедительницы «Новой волны» с программ
+ ой\, объединяющей джаз\, хип-хоп и вокаль
+ ные эксперименты.\nФлора Бичахчян\nhttps://t.
+ me/yeltsincenter/10185
+URL:https://doublebasskakov.github.io/radar/#e=flora-bichakhchyan-concert
+ -flora-world-star-yekaterinbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт Флоры Бичахчян «ФЛОРА. Ми
+ ровая звезда»
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:12-hour-meditation-marathon-attaque-de-panique-and-nikola-me-moscow@a
  fisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261119
 SUMMARY:12-часовой марафон-медитация: хор Attaq
@@ -632,8 +3038,28 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:sound-laboratory-ander-saint-peters@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Лаборатория звука «АНДЕР»
+LOCATION:Ритмы\, Санкт-Петербург
+DESCRIPTION:Шоукейс петербургского электрон
+ ного андерграунда с программой от класс
+ ического техно и хардгрува до притрансо
+ вых вибраций.\nCEKTA\, SEROTONIN CRISIS\, KATSURA\, ANNIE\, MI
+ KHAIL BONDAR\nhttps://t.me/new_soundwave/28854
+URL:https://doublebasskakov.github.io/radar/#e=sound-laboratory-ander-sai
+ nt-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лаборатория звука «АНДЕР»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:favorin@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
 SUMMARY:«Фейерверки». Юрий Фаворин
@@ -651,8 +3077,51 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:igor-butman-jubilee-gala-concert-chelyabinsk@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Игорь Бутман. Юбилейный гала-концер
+ т
+LOCATION:Челябинск
+DESCRIPTION:Торжественный концерт к 65-летию з
+ наменитого саксофониста в рамках юбиле
+ йного тура.\nИгорь Бутман\nhttps://t.me/jazz100ru/108
+ 1
+URL:https://doublebasskakov.github.io/radar/#e=igor-butman-jubilee-gala-c
+ oncert-chelyabinsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Игорь Бутман. Юбилейный гала-конц
+ ерт
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:jazz-stories-dmitry-mospan-and-mosjazz-quartet-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Джазовые истории. Дмитрий Моспан и 
+ Мосджаз-квартет
+LOCATION:Клуб Алексея Козлова\, Москва
+DESCRIPTION:Концерт джазовых историй в испол
+ нении Дмитрия Моспана и Мосджаз-квартет
+ а.\nДмитрий Моспан\, Мосджаз-квартет\nhttps:/
+ /kozlovclub.ru/event/dmitrij-mospan-i-mosdzhaz-kvartet-dzhazovye-istorii-
+ 8/
+URL:https://doublebasskakov.github.io/radar/#e=jazz-stories-dmitry-mospan
+ -and-mosjazz-quartet-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Джазовые истории. Дмитрий Моспан 
+ и Мосджаз-квартет
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:vivacello@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:Последний день: Vivacello — фестиваль в
@@ -672,8 +3141,30 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:concert-of-viola-masterpieces-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Концерт шедевров альтового реперту
+ ара
+LOCATION:Московская консерватория\, Москва
+DESCRIPTION:Исполнение оригинальных сочинен
+ ий для альта и классических переложений
+  в исполнении Павла Романенко и Зарины Ш
+ иманской.\nПавел Романенко\, Зарина Шима
+ нская\nhttps://t.me/mosfilarmonia/2244
+URL:https://doublebasskakov.github.io/radar/#e=concert-of-viola-masterpie
+ ces-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт шедевров альтового репер
+ туара
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:snm-kompozitory-mosconsv-22nov@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:«Композиторы Московской консерват
@@ -695,7 +3186,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:msk-snm-10-dec@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 SUMMARY:Ансамбль солистов «Студия новой му
@@ -716,7 +3207,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:msk-snm-18-dec@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
 SUMMARY:Ансамбль солистов «Студия новой му
@@ -732,6 +3223,135 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Ансамбль солистов «Студия новой 
  музыки» в Рахманиновском зале
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mobile-music-assembly-kirov-kirov@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261203
+SUMMARY:Передвижная музыкальная ассамблея:
+  Киров
+LOCATION:Киров
+DESCRIPTION:Двухдневная программа концертов 
+ и мастер-классов для учащихся музыкальн
+ ых учебных заведений.\nКазанская госуда
+ рственная консерватория имени Н.Г. Жига
+ нова\nhttps://t.me/kazancons/3600
+URL:https://doublebasskakov.github.io/radar/#e=mobile-music-assembly-kiro
+ v-kirov
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Передвижная музыкальная ассамбл
+ ея: Киров
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mobile-music-assembly-almetyevsk-almetyevsk@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:Передвижная музыкальная ассамблея:
+  Альметьевск
+LOCATION:Альметьевск
+DESCRIPTION:Концерты и образовательные масте
+ р-классы ведущих преподавателей Казанс
+ кой консерватории.\nКазанская государст
+ венная консерватория имени Н.Г. Жиганов
+ а\nhttps://t.me/kazancons/3600
+URL:https://doublebasskakov.github.io/radar/#e=mobile-music-assembly-alme
+ tyevsk-almetyevsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Передвижная музыкальная ассамбл
+ ея: Альметьевск
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mobile-music-assembly-naberezhnye-chelny-naberezhnye-@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261214
+DTEND;VALUE=DATE:20261215
+SUMMARY:Передвижная музыкальная ассамблея:
+  Набережные Челны
+LOCATION:Набережные Челны
+DESCRIPTION:Заключительные мероприятия асса
+ мблеи с участием творческих коллективо
+ в консерватории.\nКазанская государстве
+ нная консерватория имени Н.Г. Жиганова\nh
+ ttps://t.me/kazancons/3600
+URL:https://doublebasskakov.github.io/radar/#e=mobile-music-assembly-nabe
+ rezhnye-chelny-naberezhnye-
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Передвижная музыкальная ассамбл
+ ея: Набережные Челны
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mobile-music-assembly-ulyanovsk-ulyanovsk@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:Передвижная музыкальная ассамблея:
+  Ульяновск
+LOCATION:Ульяновск
+DESCRIPTION:Концертная программа и творчески
+ е встречи с профессорами консерватории.
+ \nКазанская государственная консервато
+ рия имени Н.Г. Жиганова\nhttps://t.me/kazancons/3600
+URL:https://doublebasskakov.github.io/radar/#e=mobile-music-assembly-ulya
+ novsk-ulyanovsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Передвижная музыкальная ассамбл
+ ея: Ульяновск
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mobile-music-assembly-dimitrovgrad-dimitrovgrad@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:Передвижная музыкальная ассамблея:
+  Димитровград
+LOCATION:Димитровград
+DESCRIPTION:Выездные выступления и мастер-кл
+ ассы музыкантов из Казани.\nКазанская го
+ сударственная консерватория имени Н.Г. 
+ Жиганова\nhttps://t.me/kazancons/3600
+URL:https://doublebasskakov.github.io/radar/#e=mobile-music-assembly-dimi
+ trovgrad-dimitrovgrad
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Передвижная музыкальная ассамбл
+ ея: Димитровград
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mobile-music-assembly-yoshkar-ola-yoshkar-ola@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:Передвижная музыкальная ассамблея:
+  Йошкар-Ола
+LOCATION:Йошкар-Ола
+DESCRIPTION:Концертные выступления и профори
+ ентационные мастер-классы.\nКазанская г
+ осударственная консерватория имени Н.Г.
+  Жиганова\nhttps://t.me/kazancons/3600
+URL:https://doublebasskakov.github.io/radar/#e=mobile-music-assembly-yosh
+ kar-ola-yoshkar-ola
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Передвижная музыкальная ассамбл
+ ея: Йошкар-Ола
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

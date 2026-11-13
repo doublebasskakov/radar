@@ -7,8 +7,53 @@ X-WR-CALNAME:Радар — Россия · city-nizhny-novgorod
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:concert-gorkovskaya-metro-station-la-grande-finale-nizhny-novgo@afish
+ a-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261114T180000Z
+DTEND:20261114T200000Z
+SUMMARY:Концерт «Станция Метро Горьковская
+ » и La Grande Finale
+LOCATION:ЦЕХ *\, Варварская\, 32\, Нижний Новгор
+ од
+DESCRIPTION:Масштабное мультимедиа-шоу и пре
+ зентация нового альбома проекта «Станц
+ ия Метро Горьковская» с визуальным офор
+ млением от ведущих студий.\nСтанция Метр
+ о Горьковская\, RNDM CREW\, СЕТАП\, dreamlaser\nhttps://
+ t.me/tsehspace/3290
+URL:https://doublebasskakov.github.io/radar/#e=concert-gorkovskaya-metro-
+ station-la-grande-finale-nizhny-novgo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт «Станция Метро Горьковск
+ ая» и La Grande Finale
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:science-slam-nizhny-novgo@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261117T153000Z
+DTEND:20261117T173000Z
+SUMMARY:Научная битва Science Slam
+LOCATION:DKRT\, Большая Покровская\, 18\, Нижний 
+ Новгород
+DESCRIPTION:Региональная научная битва\, где 
+ молодые учёные из разных городов за 10 ми
+ нут увлекательно рассказывают о своих и
+ сследованиях в области криптовалют\, сл
+ енга и нейросетей.\nDKRT\nhttps://t.me/NNafisha/13182
+URL:https://doublebasskakov.github.io/radar/#e=science-slam-nizhny-novgo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Научная битва Science Slam
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:vrubel-brunch-nizhny-novgo@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20261115T080000Z
 DTEND:20261115T100000Z
 SUMMARY:Врубелевский бранч
@@ -27,7 +72,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:artist-tour-by-evgenia-buravleva-nizhny-novgo@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20261114T120000Z
 DTEND:20261114T140000Z
 SUMMARY:Авторская экскурсия Евгении Буравл
@@ -47,8 +92,74 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:the-translators-and-tattooin-split-concert-nizhny-novgo@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261115T160000Z
+DTEND:20261115T180000Z
+SUMMARY:Сплит-концерт The Translators и TattooIN
+LOCATION:Алькатрас\, Почаинская ул.\, 17с\, Ниж
+ ний Новгород
+DESCRIPTION:Совместный концерт рок-проекта Ч
+ ака и Дмитрия Шуманского The Translators с ирон
+ ичными переводами хитов и романтиков soft
+ -rock сцены TattooIN.\nThe Translators\, TattooIN\nhttps://thetransl
+ ators-nn.ticketscloud.org/
+URL:https://doublebasskakov.github.io/radar/#e=the-translators-and-tattoo
+ in-split-concert-nizhny-novgo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Сплит-концерт The Translators и TattooIN
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lecture-how-does-a-mars-rover-work-nizhny-novgo@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261113T150000Z
+DTEND:20261113T170000Z
+SUMMARY:Лекция «Как работает марсоход?»
+LOCATION:ИЦАЭ\, ул. Семашко\, 7Б\, Нижний Новго
+ род
+DESCRIPTION:Аэрокосмический инженер Никита М
+ атасов расскажет об устройстве марсохо
+ дов\, технологиях их создания и связи с З
+ емлей.\nНикита Матасов\nhttps://t.me/NNafisha/13187
+URL:https://doublebasskakov.github.io/radar/#e=lecture-how-does-a-mars-ro
+ ver-work-nizhny-novgo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекция «Как работает марсоход?»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:wind-music-concert-evening-in-memory-of-yevgeny-rozhkov-nizhny-novgo@
+ afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261123T143000Z
+DTEND:20261123T163000Z
+SUMMARY:Концерт духовой музыки: Вечер памят
+ и Евгения Рожкова
+LOCATION:Центральный дворец культуры желез
+ нодорожников\, ул. Июльских дней\, 1А\, Ниж
+ ний Новгород
+DESCRIPTION:Концерт любителей духовой музыки
+ \, посвященный памяти Евгения Рожкова\, с
+  участием трех известных коллективов го
+ рода.\nТри коллектива Нижнего Новгорода\
+ nhttps://t.me/NNafisha/13184
+URL:https://doublebasskakov.github.io/radar/#e=wind-music-concert-evening
+ -in-memory-of-yevgeny-rozhkov-nizhny-novgo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт духовой музыки: Вечер пам
+ яти Евгения Рожкова
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:model-range-exhibition-nizhny-novgo@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Открытие: Выставка «Модельный ряд»
@@ -73,7 +184,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nn-9b-bomse-golos-za-kadrom@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Последний день: Эвсти Бомсе. «Голос 
@@ -97,8 +208,32 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:exhibition-of-layouts-of-the-all-russian-exhibition-of-1896-nizhny-no
+ vgo@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Открытие: Выставка макетов Всеросс
+ ийской выставки 1896 года
+LOCATION:Здание «Маяк»\, Нижний Новгород
+DESCRIPTION:Экспозиция в здании «Маяк» предс
+ тавляет подробные макеты павильонов и и
+ нфраструктуры XVI Всероссийской промышл
+ енной и художественной выставки 1896 года
+  в масштабе 1:200.\nЗдание «Маяк»\nhttps://t.me/NNaf
+ isha/13193
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-of-layouts-of-t
+ he-all-russian-exhibition-of-1896-nizhny-novgo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка макетов Всеро
+ ссийской выставки 1896 года
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:model-range-nizhny-novgo@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Последний день: Модельный ряд
@@ -119,7 +254,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:arsenal-leger@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
 SUMMARY:Последний день: Фернан Леже. Формул
@@ -135,6 +270,28 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Последний день: Фернан Леже. Форм
  ула стиля
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:brazilian-film-festival-brazilian-heist-nizhny-novgo@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261115
+SUMMARY:Фестиваль бразильского кино: «Огра
+ бление по-бразильски»
+LOCATION:Рекорд\, Нижний Новгород
+DESCRIPTION:Открытие 17-го Фестиваля бразильс
+ кого кино концертом группы «Филиал Браз
+ илии» и показом драматической комедии о
+ б известном ограблении.\nКиноцентр «Рек
+ орд»\nhttps://t.me/gorkoNN/29550
+URL:https://doublebasskakov.github.io/radar/#e=brazilian-film-festival-br
+ azilian-heist-nizhny-novgo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Фестиваль бразильского кино: «Ог
+ рабление по-бразильски»
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:screening-of-conveyor-of-death-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261113T153000Z
+DTEND:20261113T173000Z
+SUMMARY:Показ фильма «Конвейер смерти»
+LOCATION:Музей кино на Каретном\, Москва
+DESCRIPTION:Показ ранней советской кинокарти
+ ны 1933 года в рамках цикла «Ретроскоп по 
+ пятницам».\nИван Пырьев\nhttps://t.me/museikino/6397
+URL:https://doublebasskakov.github.io/radar/#e=screening-of-conveyor-of-d
+ eath-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильма «Конвейер смерти»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

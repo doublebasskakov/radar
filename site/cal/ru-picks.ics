@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:signal-city-monasterio-showcase-moscow@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20261121T150000Z
 DTEND:20261121T170000Z
 SUMMARY:Signal City: Monasterio Showcase
@@ -31,7 +31,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ceam-fantomy-roboty@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20261113T130000Z
 DTEND:20261113T150000Z
 SUMMARY:Открытие: «Фантомы. Партитура для р
@@ -57,7 +57,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ceam-manuskript-khubeev@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20261118T163000Z
 DTEND:20261118T183000Z
 SUMMARY:«Манускрипт». Три пьесы Александра 
@@ -81,7 +81,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:the-nutcracker-not-a-fairy-tale-saint-peters@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20261202T160000Z
 DTEND:20261202T180000Z
 SUMMARY:Щелкунчик. Несказка
@@ -103,8 +103,55 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:garage-diapazony@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261114T120000Z
+DTEND:20261114T140000Z
+SUMMARY:Другие диапазоны. 1989–1991
+LOCATION:Музей «Гараж»\, ул. Крымский Вал\, 9\, 
+ стр. 32\, Москва
+DESCRIPTION:Новая часть исследования «Гаража
+ » о неофициальном искусстве на сломе 1980-
+ х и 1990-х — время\, когда художественная с
+ истема страны перестраивалась на ходу.\n
+ Айдан Салахова\, Евгений Митта\, Сергей В
+ олков\, Иван Чуйков\, Константин Звездоч
+ етов и др.\nhttps://theblueprint.ru/culture/art/vystavki-november2
+ 026
+URL:https://doublebasskakov.github.io/radar/#e=garage-diapazony
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Другие диапазоны. 1989–1991
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:play-romeo-and-juliet-in-the-haze-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261125T160000Z
+DTEND:20261125T180000Z
+SUMMARY:Спектакль «Ромео и Джульетта во мгл
+ е»
+LOCATION:Московский театр Et Cetera (Основная сц
+ ена)\, Фролов пер.\, 2\, Москва
+DESCRIPTION:МДТ — Театр Европы впервые показ
+ ывает в Москве постановку Льва Додина «
+ Ромео и Джульетта во мгле». Спектакли пр
+ ойдут на Основной сцене театра Et Cetera.\nМД
+ Т — Театр Европы\, Лев Додин\nhttps://t.me/orpheusr
+ adio/51530
+URL:https://doublebasskakov.github.io/radar/#e=play-romeo-and-juliet-in-t
+ he-haze-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спектакль «Ромео и Джульетта во м
+ гле»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:special-screening-of-the-film-scenes-from-capital-moscow@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20261115T140000Z
 DTEND:20261115T160000Z
 SUMMARY:Спецпоказ фильма «Сцены из "Капитал
@@ -128,7 +175,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dom-radio-electricity@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20261114T150000Z
 DTEND:20261114T170000Z
 SUMMARY:«Электричество»: открытие выставки
@@ -151,7 +198,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:zotov-mr-west-musicaeterna@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20261120T163000Z
 DTEND:20261120T183000Z
 SUMMARY:Фильм-концерт «Необычайные приключ
@@ -175,7 +222,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:delta-2026-saint-peters@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20261121T190000Z
 DTEND:20261121T210000Z
 SUMMARY:Delta 2026
@@ -197,7 +244,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:stolen-dances@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20261117T170000Z
 DTEND:20261117T190000Z
 SUMMARY:Украденные танцы
@@ -218,8 +265,31 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:concert-1881-1921-as-part-of-gala-five-years-of-music-moscow@afisha-a
+ rt
+DTSTAMP:20261113T184219Z
+DTSTART:20261126T170000Z
+DTEND:20261126T190000Z
+SUMMARY:Концерт «1881/1921» в рамках программы 
+ «Гала. Пять лет музыки»
+LOCATION:ГЭС-2\, Москва
+DESCRIPTION:В рамках юбилейной программы про
+ звучит камерная версия Седьмой симфони
+ и Антона Брукнера\, созданная по заказу 
+ Арнольда Шёнберга.\nАнтон Брукнер\, Арно
+ льд Шёнберг\nhttps://t.me/vacges2/8547
+URL:https://doublebasskakov.github.io/radar/#e=concert-1881-1921-as-part-
+ of-gala-five-years-of-music-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт «1881/1921» в рамках программ
+ ы «Гала. Пять лет музыки»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:the-seagull-ballet-moscow@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20261118T160000Z
 DTEND:20261118T180000Z
 SUMMARY:Балет «Чайка»
@@ -239,8 +309,35 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:vivacello-festival-closing-concert-tchaikovsky-symphony-orch-moscow@a
+ fisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261118T160000Z
+DTEND:20261118T180000Z
+SUMMARY:Концерт-закрытие фестиваля VIVACELLO: Б
+ ольшой симфонический оркестр имени Чай
+ ковского
+LOCATION:Концертный зал имени Чайковского\, 
+ Москва
+DESCRIPTION:Закрытие виолончельного фестива
+ ля с российской премьерой концерта Фазы
+ ла Сая Never Give Up и сочинением Ришара Дюбюн
+ ьона.\nБольшой симфонический оркестр им
+ ени Чайковского\, Арсентий Ткаченко\, Бо
+ рис Андрианов\nhttps://t.me/time_to_hear/190
+URL:https://doublebasskakov.github.io/radar/#e=vivacello-festival-closing
+ -concert-tchaikovsky-symphony-orch-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт-закрытие фестиваля VIVACELLO:
+  Большой симфонический оркестр имени Ча
+ йковского
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:intermezzo-saint-peters@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20261124T160000Z
 DTEND:20261124T180000Z
 SUMMARY:Интермеццо
@@ -259,8 +356,31 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:index-fest-2026-vladimir-martynov-index-iii-psaruman-moscow@afisha-ar
+ t
+DTSTAMP:20261113T184219Z
+DTSTART:20261125T160000Z
+DTEND:20261125T180000Z
+SUMMARY:INDEX FEST 2026: Владимир Мартынов × INDEX III 
+ × Psaruman
+LOCATION:КЦ ДОМ\, Москва
+DESCRIPTION:Концерт-открытие фестиваля с пре
+ мьерной программой композитора Владими
+ ра Мартынова и проекта Psaruman.\nВладимир М
+ артынов\, INDEX III\, Psaruman\nhttps://t.me/moscownoisemanufactor
+ y/1151
+URL:https://doublebasskakov.github.io/radar/#e=index-fest-2026-vladimir-m
+ artynov-index-iii-psaruman-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:INDEX FEST 2026: Владимир Мартынов × INDEX I
+ II × Psaruman
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:kzn-mon-gastroli-kapital@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20261129T150000Z
 DTEND:20261129T170000Z
 SUMMARY:«Гастроли: Капитал»
@@ -278,7 +398,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ligeti-sf-polyphony-spb@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20261113T170000Z
 DTEND:20261113T190000Z
 SUMMARY:Российская премьера «Полифонии Сан
@@ -300,7 +420,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:reverse-saint-peters@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20261119T160000Z
 DTEND:20261119T180000Z
 SUMMARY:Реверс
@@ -319,7 +439,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dancing-for-diaghilev-saint-peters@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20261116T170000Z
 DTEND:20261116T190000Z
 SUMMARY:Танцуем для Дягилева
@@ -339,9 +459,34 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:snm-magiya-prisutstviya@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261119T160000Z
+DTEND:20261119T180000Z
+SUMMARY:«Магия присутствия»: Студия новой м
+ узыки
+LOCATION:Рахманиновский зал Московской кон
+ серватории\, Большая Никитская\, 11\, Моск
+ ва
+DESCRIPTION:Мировая премьера «Вечной мерзлот
+ ы» Никифора Яковлева для большого ансам
+ бля\, записи и контрабас-кларнета\, а так
+ же Грабовский\, Крам («Голос кита»)\, Ялка
+ нен\, Кнайфель и Кауэлл. Программа о сакр
+ альном\, природе и времени.\nАнсамбль «Ст
+ удия новой музыки»\nhttps://t.me/studionewmusic/2311
+URL:https://doublebasskakov.github.io/radar/#e=snm-magiya-prisutstviya
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:«Магия присутствия»: Студия ново
+ й музыки
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:conference-how-it-s-made-vladimir-gorlinsky-on-contraforces--moscow@a
  fisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20261125T170000Z
 DTEND:20261125T190000Z
 SUMMARY:Конференция «Как это сделано?»: Вла
@@ -367,7 +512,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:native-speech-moscow@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20261105T160000Z
 DTEND:20261105T180000Z
 SUMMARY:Открытие: Родная речь
@@ -388,14 +533,40 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:sound-up-resonance-cello-russian-premiere-of-john-luther-ada-moscow@a
+ fisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261127T160000Z
+DTEND:20261127T180000Z
+SUMMARY:SOUND UP resonance: cello — Российская премьер
+ а Three High Places Джона Лютера Адамса
+LOCATION:Галерея fābula HQ\, Самокатная ул.\, 4\, с
+ тр. 1\, Москва
+DESCRIPTION:Российская премьера произведени
+ я американского композитора Джона Люте
+ ра Адамса для виолончели в исполнении О
+ льги Белоглазовой в пространстве бывше
+ го заводского цеха.\nОльга Белоглазая\nhtt
+ ps://clck.ru/3Wu8fL
+URL:https://doublebasskakov.github.io/radar/#e=sound-up-resonance-cello-r
+ ussian-premiere-of-john-luther-ada-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SOUND UP resonance: cello — Российская премь
+ ера Three High Places Джона Лютера Адамса
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:ballet-moscow-angles-3-contemporary-dance-laboratory-moscow@afisha-ar
  t
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20261120T160000Z
 DTEND:20261120T180000Z
 SUMMARY:Лаборатория современного танца «Ба
  лет Москва. Ракурсы 3»
-LOCATION:Балет Москва\, Москва
+LOCATION:Балет Москва\, Каретный Ряд\, 3\, стр. 
+ 2\, Москва
 DESCRIPTION:Премьера четырех новых работ сов
  ременных хореографов\, в которых академ
  ическая школа соединяется с эксцентрик
@@ -413,8 +584,133 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:screening-of-nevechernaya-and-discussion-with-the-authors-moscow@afis
+ ha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261113T163000Z
+DTEND:20261113T183000Z
+SUMMARY:Показ фильма «Невечерняя» и обсужд
+ ение с авторами
+LOCATION:КАРО/Арт\, ул. Новый Арбат\, 24\, Москв
+ а
+DESCRIPTION:В рамках проекта КАРО/Арт состоит
+ ся показ фильма Марлена Хуциева «Невече
+ рняя»\, после которого пройдет обсужден
+ ие с известными киноведами и кинематогр
+ афистами.\nМарлен Хуциев\, Наум Клейман\, 
+ Али Хамраев\, Андрей Натоцинский\, Глеб П
+ ирятинский\, Максим Павлов\nhttps://t.me/kinoartru/
+ 13877
+URL:https://doublebasskakov.github.io/radar/#e=screening-of-nevechernaya-
+ and-discussion-with-the-authors-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильма «Невечерняя» и обсу
+ ждение с авторами
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:screening-of-there-was-a-father-and-lecture-on-japanese-cine-moscow@a
+ fisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261115T142500Z
+DTEND:20261115T162500Z
+SUMMARY:Кинопоказ фильма «Был отец» и лекци
+ я о классиках японского кино с Сергеем К
+ удрявцевым
+LOCATION:Галерея «Ходынка»\, Москва
+DESCRIPTION:Лекция о творчестве выдающихся я
+ понских режиссеров и специальный показ 
+ драмы Ясудзиро Одзу «Был отец» с обсужд
+ ением при участии кинокритика Сергея Ку
+ дрявцева.\nСергей Кудрявцев\, Ясудзиро О
+ дзу\nhttps://t.me/khodynkagallery/2635
+URL:https://doublebasskakov.github.io/radar/#e=screening-of-there-was-a-f
+ ather-and-lecture-on-japanese-cine-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Кинопоказ фильма «Был отец» и лек
+ ция о классиках японского кино с Сергее
+ м Кудрявцевым
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-grammy-awards-nominations-announcement-online@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261116T044500Z
+DTEND:20261116T064500Z
+SUMMARY:Объявление номинантов премии «Грэм
+ ми» 2027
+LOCATION:Официальный сайт Grammy\, Онлайн
+DESCRIPTION:Официальное оглашение номинанто
+ в музыкальной премии\, где в категориях 
+ глобальной музыки и аранжировки ожидае
+ тся упоминание этно-электронного проек
+ та AY YOLA.\nThe Recording Academy\, AY YOLA\nhttps://t.me/sound_monopo
+ ly/5321
+URL:https://doublebasskakov.github.io/radar/#e=2027-grammy-awards-nominat
+ ions-announcement-online
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Объявление номинантов премии «Гр
+ эмми» 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:concert-performance-vortex-temporum-saint-peters@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261115T160000Z
+DTEND:20261115T180000Z
+SUMMARY:Концерт-перформанс «Вихрь времени»
+LOCATION:Центр современного искусства им. С
+ ергея Курёхина\, Санкт-Петербург
+DESCRIPTION:Вечер современной академической 
+ музыки к 80-летию Жерара Гризе с исполнен
+ ием культового произведения Vortex temporum и 
+ хореографическим перформансом.\nАнсамб
+ ль современной музыки Центра им. Курехи
+ на\, «Танц-механика»\nhttps://t.me/kuryokhincenter/3374
+URL:https://doublebasskakov.github.io/radar/#e=concert-performance-vortex
+ -temporum-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт-перформанс «Вихрь времен
+ и»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:message-to-man-film-festival-echo-illusion-of-reality-screen-moscow@a
+ fisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261113T163000Z
+DTEND:20261113T183000Z
+SUMMARY:Кинопоказ «Эхо» фестиваля «Послани
+ е к человеку»: Сеанс «Иллюзия реальност
+ и»
+LOCATION:Музей современного искусства «Гар
+ аж»\, Лекторий Музея «Гараж»\, Москва
+DESCRIPTION:Показ программы короткометражно
+ го и экспериментального кино «Иллюзия р
+ еальности» в рамках эха фестиваля «Посл
+ ание к человеку» в лектории «Гаража».\nР
+ азличные режиссеры\nhttps://t.me/message2man/2832
+URL:https://doublebasskakov.github.io/radar/#e=message-to-man-film-festiv
+ al-echo-illusion-of-reality-screen-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Кинопоказ «Эхо» фестиваля «Посла
+ ние к человеку»: Сеанс «Иллюзия реально
+ сти»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:dafes-awards-show-2026-intellectual-art-moscow@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20261126T170000Z
 DTEND:20261126T190000Z
 SUMMARY:DAFES AWARDS SHOW 2026: Интеллектуальное иску
@@ -437,8 +733,196 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:how-and-why-did-collecting-emerge-saint-peters@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261124T160000Z
+DTEND:20261124T180000Z
+SUMMARY:Как и зачем возникло коллекциониро
+ вание?
+LOCATION:Галерея «Цифергауз»\, Новая Голлан
+ дия\, Санкт-Петербург
+DESCRIPTION:Лекция коллекционера и куратора 
+ Пьера-Кристиана Броше об истории коллек
+ ционирования начиная с XV века и формиро
+ вании художественного канона.\nПьер-Кри
+ стиан Броше\nhttps://t.me/af_1703/4477
+URL:https://doublebasskakov.github.io/radar/#e=how-and-why-did-collecting
+ -emerge-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Как и зачем возникло коллекциони
+ рование?
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:l-histoire-de-dyens-concert-program-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261120T163000Z
+DTEND:20261120T183000Z
+SUMMARY:Концертная программа «L'histoire de Dyens»
+LOCATION:ДК «Рассвет»\, Москва
+DESCRIPTION:Концерт к юбилею французского ко
+ мпозитора и гитариста Ролана Дьенса\, гд
+ е его сочинения прозвучат в сопровожден
+ ии сценических импровизаций.\nВладимир 
+ Волков\, Руст Позюмский\, Андрей Зеленск
+ ий\, Александр «Stradivaly» Островский\, Дмит
+ рий Илларионов\nhttps://t.me/dkrassvet/2362
+URL:https://doublebasskakov.github.io/radar/#e=l-histoire-de-dyens-concer
+ t-program-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концертная программа «L'histoire de Dyens
+ »
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dafes-awards-show-2026-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261126T160000Z
+DTEND:20261126T180000Z
+SUMMARY:Церемония и перформанс-шоу Dafes Awards 20
+ 26
+LOCATION:ДК «Альфа Кристалл»\, Москва
+DESCRIPTION:Мультимедийное событие в теме «И
+ нтеллектуальное искусство»\, объединяю
+ щее пять визуальных перформансов\, сцен
+ ографию\, видеоарт и вечеринку.\nСолова и
+  др.\nhttps://t.me/afishadailynews/103837
+URL:https://doublebasskakov.github.io/radar/#e=dafes-awards-show-2026-mos
+ cow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Церемония и перформанс-шоу Dafes Award
+ s 2026
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:vivacello-international-festival-closing-concert-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261118T160000Z
+DTEND:20261118T180000Z
+SUMMARY:Международный фестиваль Vivacello: Закр
+ ытие фестиваля
+LOCATION:Концертный зал имени П. И. Чайковск
+ ого\, Москва
+DESCRIPTION:Финальный вечер фестиваля Vivacello о
+ бъединит четыре концертных жанра и вклю
+ чит мировую премьеру Феерической фанта
+ зии Ришара Дюбюньона.\nАнна Кошкина\, Нил
+ ь Коджамангиль\, Василий Степанов\, Бори
+ с Андрианов\, БСО им. П.И. Чайковского\, Ар
+ сентий Ткаченко\nhttps://t.me/mosfilarmonia/2229
+URL:https://doublebasskakov.github.io/radar/#e=vivacello-international-fe
+ stival-closing-concert-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Международный фестиваль Vivacello: За
+ крытие фестиваля
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:concert-gorkovskaya-metro-station-la-grande-finale-nizhny-novgo@afish
+ a-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261114T180000Z
+DTEND:20261114T200000Z
+SUMMARY:Концерт «Станция Метро Горьковская
+ » и La Grande Finale
+LOCATION:ЦЕХ *\, Варварская\, 32\, Нижний Новгор
+ од
+DESCRIPTION:Масштабное мультимедиа-шоу и пре
+ зентация нового альбома проекта «Станц
+ ия Метро Горьковская» с визуальным офор
+ млением от ведущих студий.\nСтанция Метр
+ о Горьковская\, RNDM CREW\, СЕТАП\, dreamlaser\nhttps://
+ t.me/tsehspace/3290
+URL:https://doublebasskakov.github.io/radar/#e=concert-gorkovskaya-metro-
+ station-la-grande-finale-nizhny-novgo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт «Станция Метро Горьковск
+ ая» и La Grande Finale
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-show-soundtrack-of-the-90s-michael-jackson-in-russia-yekaterin
+ bur@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261114T110000Z
+DTEND:20261114T130000Z
+SUMMARY:Музейное шоу «Саундтрек 90-х»: Майкл 
+ Джексон в России
+LOCATION:Ельцин Центр\, ул. Бориса Ельцина\, 3\
+ , Екатеринбург
+DESCRIPTION:Исследовательский проект о влиян
+ ии Майкла Джексона на российскую культу
+ ру 90-х\, включающий лекционный разбор и ж
+ ивое исполнение хитов.\nОлег Соболев\, Кс
+ ения Алавацкая\nhttps://t.me/yeltsincenter/10167
+URL:https://doublebasskakov.github.io/radar/#e=museum-show-soundtrack-of-
+ the-90s-michael-jackson-in-russia-yekaterinbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Музейное шоу «Саундтрек 90-х»: Май
+ кл Джексон в России
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:guided-tour-by-natalia-chumakova-of-the-exhibition-grass-up--moscow@a
+ fisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261114T083000Z
+DTEND:20261114T103000Z
+SUMMARY:Экскурсия Натальи Чумаковой по выс
+ тавке «Трава по пояс»
+LOCATION:Вознесенский центр\, Москва
+DESCRIPTION:Кураторская экскурсия по экспози
+ ции Егора Летова\, раскрывающая его не т
+ олько как музыканта\, но и как самобытно
+ го художника-коллажиста.\nНаталья Чумак
+ ова\nhttps://t.me/voznesenskycenter/4660
+URL:https://doublebasskakov.github.io/radar/#e=guided-tour-by-natalia-chu
+ makova-of-the-exhibition-grass-up--moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Экскурсия Натальи Чумаковой по в
+ ыставке «Трава по пояс»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:concert-musical-offering-to-dmitry-shostakovich-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261118T160000Z
+DTEND:20261118T180000Z
+SUMMARY:Концерт «Музыкальное приношение Дм
+ итрию Шостаковичу»
+LOCATION:Малый зал консерватории\, Б. Никитс
+ кая ул.\, 11\, Москва
+DESCRIPTION:Программа камерной музыки к 120-ле
+ тию со дня рождения Дмитрия Шостаковича
+  в исполнении известных академических м
+ узыкантов и ансамблей.\nАлександр Бонду
+ рянский\nhttps://t.me/mosconsv/1459
+URL:https://doublebasskakov.github.io/radar/#e=concert-musical-offering-t
+ o-dmitry-shostakovich-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт «Музыкальное приношение 
+ Дмитрию Шостаковичу»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:zotov-snm-ma-interval@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20261204T163000Z
 DTEND:20261204T183000Z
 SUMMARY:«Интервал. Звук и тишина в японском 
@@ -459,8 +943,33 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:dance-performance-gloria-saint-peters@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261116T170000Z
+DTEND:20261116T190000Z
+SUMMARY:Танцевальный перформанс «Глория»
+LOCATION:Новая сцена Александринского теат
+ ра\, наб. реки Фонтанки\, 49А\, Санкт-Петерб
+ ург
+DESCRIPTION:Масштабная хореографическая раб
+ ота для расширенного состава танцовщиц 
+ под живое музыкальное сопровождение пи
+ аниста Артема Макояна.\nАня Кравченко и 
+ танцевальная компания «Земные радости»
+ \nhttps://alexandrinsky.ru/afisha-i-bilety/gloriya-tantsevalnyy-performan
+ s/
+URL:https://doublebasskakov.github.io/radar/#e=dance-performance-gloria-s
+ aint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Танцевальный перформанс «Глория
+ »
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:demutsky-16@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20261126T150000Z
 DTEND:20261126T170000Z
 SUMMARY:16 фортепианных пьес
@@ -481,8 +990,72 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:sound-up-resonance-cello-concert-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261127T160000Z
+DTEND:20261127T180000Z
+SUMMARY:Концерт SOUND UP resonance: cello
+LOCATION:Галерея fābula HQ\, Самокатная ул.\, 4\, с
+ тр. 1\, Москва
+DESCRIPTION:Музыкальное событие\, исследующе
+ е взаимодействие современной минималис
+ тичной музыки для виолончели с архитект
+ урным пространством.\nВосемь композитор
+ ов\nhttps://clck.ru/3WqsqZ
+URL:https://doublebasskakov.github.io/radar/#e=sound-up-resonance-cello-c
+ oncert-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт SOUND UP resonance: cello
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:film-robert-wilson-beauty-is-a-mystery-samara@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261126T153000Z
+DTEND:20261126T173000Z
+SUMMARY:Фильм «Роберт Уилсон: Красота — в з
+ агадке»
+LOCATION:Самара
+DESCRIPTION:Документальное исследование виз
+ уального языка и творческого пути одног
+ о из самых значимых театральных режиссе
+ ров современности.\nКарл фон Карштедт\, Р
+ оберт Уилсон\nhttps://t.me/kinosmr/2091
+URL:https://doublebasskakov.github.io/radar/#e=film-robert-wilson-beauty-
+ is-a-mystery-samara
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Фильм «Роберт Уилсон: Красота — в
+  загадке»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:autumn-gala-concert-at-novaya-opera-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261114T160000Z
+DTEND:20261114T180000Z
+SUMMARY:Осенний гала-концерт в Новой опере
+LOCATION:Новая опера\, Москва\, Москва
+DESCRIPTION:Специальная программа осеннего г
+ ала-концерта с участием ведущих солисто
+ в и оркестра под управлением дирижера А
+ ндрея Лебедева.\nАндрей Лебедев\, солист
+ ы театра «Новая опера»\nhttps://t.me/novayaopera/5887
+URL:https://doublebasskakov.github.io/radar/#e=autumn-gala-concert-at-nov
+ aya-opera-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Осенний гала-концерт в Новой опер
+ е
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:biomechanika-6-electric-dreams@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20270203T160000Z
 DTEND:20270203T180000Z
 SUMMARY:«Биомеханика» VI: «Электрические сн
@@ -504,8 +1077,75 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:resonance-party-at-rndm-club-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261128T200000Z
+DTEND:20261128T220000Z
+SUMMARY:Вечеринка Resonance в клубе RNDM
+LOCATION:RNDM\, Наставнический пер.\, 13-15\, стр. 3\
+ , Москва
+DESCRIPTION:Ночная клубная вечеринка объедин
+ ения Resonance в рамках фестиваля INDEX FEST с уч
+ астием дарк-техно продюсеров и лайв-сет
+ ами.\nNORD\, Artemiy Anrilov\, INDEX III\, Nikita Zabelin\, Shrieking 
+ Ashes\, MISHXN\nhttps://t.me/resonancemoscow/7702
+URL:https://doublebasskakov.github.io/radar/#e=resonance-party-at-rndm-cl
+ ub-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Вечеринка Resonance в клубе RNDM
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:screening-of-shelter-as-part-of-the-message-to-man-festival--moscow@a
+ fisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261114T133000Z
+DTEND:20261114T153000Z
+SUMMARY:Кинопоказ «Укрытие» в рамках «Эха» 
+ фестиваля «Послание к человеку»
+LOCATION:Центр «Зотов»\, Москва
+DESCRIPTION:Показ фильма «Укрытие» режиссера
+  Никиты Карцева в Центре «Зотов» в рамка
+ х программы показов фестиваля «Послани
+ е к человеку».\nНикита Карцев\nhttps://t.me/messag
+ e2man/2836
+URL:https://doublebasskakov.github.io/radar/#e=screening-of-shelter-as-pa
+ rt-of-the-message-to-man-festival--moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Кинопоказ «Укрытие» в рамках «Эх
+ а» фестиваля «Послание к человеку»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:piano-concert-natalia-trull-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261120T160000Z
+DTEND:20261120T180000Z
+SUMMARY:Концерт фортепианной музыки: Натал
+ ия Трулль
+LOCATION:Московская консерватория\, Малый з
+ ал\, Большая Никитская ул.\, 13\, Москва
+DESCRIPTION:Заслуженная артистка России Ната
+ лия Трулль исполнит произведения Бетхо
+ вена\, Листа и Шуберта в рамках юбилейно
+ го концерта.\nНаталия Трулль\nhttps://t.me/moscons
+ v/1453
+URL:https://doublebasskakov.github.io/radar/#e=piano-concert-natalia-trul
+ l-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт фортепианной музыки: Нат
+ алия Трулль
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:bruckner-1921@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20261126T170000Z
 DTEND:20261126T190000Z
 SUMMARY:1881/1921
@@ -524,8 +1164,146 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:premiere-screening-of-see-everything-with-q-a-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261114T140000Z
+DTEND:20261114T160000Z
+SUMMARY:Премьерный показ фильма «Увидеть в
+ сё» с обсуждением
+LOCATION:Киноцентр «Октябрь»\, Москва
+DESCRIPTION:Специальный показ фильма в рамка
+ х сотрудничества с Beat Film Festival с последую
+ щим обсуждением с приглашенными гостям
+ и.\nКиноцентр «Октябрь»\, Beat Film Festival\nhttps://
+ t.me/beatfest/6443
+URL:https://doublebasskakov.github.io/radar/#e=premiere-screening-of-see-
+ everything-with-q-a-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Премьерный показ фильма «Увидеть
+  всё» с обсуждением
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ethno-mechanica-festival-toloka-pole-hodi-la-i-zba-bad-zu-as-saint-pe
+ ters@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261114T160000Z
+DTEND:20261114T180000Z
+SUMMARY:Фестиваль «Этно-механика»: концерт
+ ы проектов «Толока»\, POLE\, Hodíla ízba\, BAD ZU и 
+ «Ащэмэз»
+LOCATION:Центр современного искусства имен
+ и Сергея Курёхина\, Санкт-Петербург
+DESCRIPTION:Концертная программа фестиваля н
+ а двух сценах\, объединяющая аутентичны
+ й фольклор\, электронику и эксперимента
+ льный фьюжн.\nТолока\, POLE\, Hodíla ízba\, BAD ZU\, А
+ щэмэз\nhttps://t.me/kuryokhincenter/3375
+URL:https://doublebasskakov.github.io/radar/#e=ethno-mechanica-festival-t
+ oloka-pole-hodi-la-i-zba-bad-zu-as-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Фестиваль «Этно-механика»: конце
+ рты проектов «Толока»\, POLE\, Hodíla ízba\, BAD ZU 
+ и «Ащэмэз»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:musical-performance-from-the-life-of-planets-by-oleg-nestero-saint-pe
+ ters@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261208T163000Z
+DTEND:20261208T183000Z
+SUMMARY:Музыкальный спектакль Олега Нестер
+ ова и группы «Мегаполис» «Из жизни план
+ ет»
+LOCATION:Новая сцена Санкт-Петербургского т
+ еатра им. В.Ф. Комиссаржевской\, наб. реки
+  Фонтанки\, 41\, Санкт-Петербург
+DESCRIPTION:Музыкально-театральный проект Ол
+ ега Нестерова и группы «Мегаполис»\, пос
+ вященный нереализованным фильмам совет
+ ского кино.\nОлег Нестеров\, группа «Мега
+ полис»\nhttps://t.me/newstageprojects/3179
+URL:https://doublebasskakov.github.io/radar/#e=musical-performance-from-t
+ he-life-of-planets-by-oleg-nestero-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Музыкальный спектакль Олега Нест
+ ерова и группы «Мегаполис» «Из жизни пл
+ анет»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:minimum-pop-showcase-deck-and-others-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261129T140000Z
+DTEND:20261129T160000Z
+SUMMARY:Шоукейс Minimum Pop: Deck и другие
+LOCATION:Склад N3 и Столярка\, Малая Семёновс
+ кая ул.\, 5\, стр. 1 и стр. 2\, Москва
+DESCRIPTION:День рождения «Склада №3» и масшт
+ абный шоукейс с участием нижегородских 
+ хардкорщиков Deck и множества других прое
+ ктов.\nDeck\, Partybreaker\, Бакурли\, Eeva\, Раскаты 
+ и др.\nhttps://t.me/sadwave/4026
+URL:https://doublebasskakov.github.io/radar/#e=minimum-pop-showcase-deck-
+ and-others-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Шоукейс Minimum Pop: Deck и другие
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:effort-performance-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261113T183000Z
+DTEND:20261113T203000Z
+SUMMARY:Перформанс EFFORT / УСИЛИЕ
+LOCATION:Дизайн завод\, ул. Большая Новодмит
+ ровская\, 36\, Москва
+DESCRIPTION:Мультимедийный показ с волюметри
+ ческим экраном и кинетическими лебедка
+ ми\, ранее представленный на фестивале Ou
+ tline.\nKJLL (Дмитрий Масаидов и Мару Бородин
+ чик)\nhttps://t.me/lym_lab/828
+URL:https://doublebasskakov.github.io/radar/#e=effort-performance-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Перформанс EFFORT / УСИЛИЕ
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:vosstanie-dance-performance-saint-peters@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261207T170000Z
+DTEND:20261207T190000Z
+SUMMARY:«ВОССТАНИЕ» — танц-перформанс
+LOCATION:Новая сцена Александринского теат
+ ра\, наб. реки Фонтанки\, 49А\, Санкт-Петерб
+ ург
+DESCRIPTION:Танцевальный перформанс о сомати
+ ческой коллективности и телесном бунте 
+ против повседневности под живой саунд-д
+ изайн.\nАнтон Вдовиченко\nhttps://alexandrinsky.ru/af
+ isha-i-bilety/tants-performans-vosstanie-/
+URL:https://doublebasskakov.github.io/radar/#e=vosstanie-dance-performanc
+ e-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:«ВОССТАНИЕ» — танц-перформанс
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:lecture-by-mikhail-maizuls-twilight-of-the-idols-moscow@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20261114T110000Z
 DTEND:20261114T130000Z
 SUMMARY:Лекция Михаила Майзульса «Сумерки 
@@ -547,8 +1325,185 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:john-neumeier-s-the-nutcracker-ballet-samara@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261122T130000Z
+DTEND:20261122T150000Z
+SUMMARY:Балет «Щелкунчик» Джона Ноймайера
+LOCATION:Самара
+DESCRIPTION:Кинопоказ авторской версии класс
+ ического балета\, переосмысленной Нойма
+ йером как признание в любви искусству т
+ анца.\nДжон Ноймайер\nhttps://t.me/kinosmr/2091
+URL:https://doublebasskakov.github.io/radar/#e=john-neumeier-s-the-nutcra
+ cker-ballet-samara
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Балет «Щелкунчик» Джона Ноймайер
+ а
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:vivacello-international-festival-baroque-circle-concert-moscow@afisha
+ -art
+DTSTAMP:20261113T184219Z
+DTSTART:20261114T160000Z
+DTEND:20261114T180000Z
+SUMMARY:Международный фестиваль Vivacello: Конц
+ ерт «Барочный круг»
+LOCATION:Концертный зал имени П. И. Чайковск
+ ого\, Москва
+DESCRIPTION:Концерт фестиваля виолончельной 
+ музыки Vivacello представляет программу «Ба
+ рочный круг» с элементами импровизации.
+ \nБорис Андрианов\, Мириам Пранди\, Стюар
+ т Пинкомб\, Алиса Тен\, Дмитрий Илларионо
+ в\, Questa Musica\nhttps://t.me/mosfilarmonia/2229
+URL:https://doublebasskakov.github.io/radar/#e=vivacello-international-fe
+ stival-baroque-circle-concert-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Международный фестиваль Vivacello: Ко
+ нцерт «Барочный круг»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:exhibition-phantoms-score-for-robots-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261114T130000Z
+DTEND:20261114T150000Z
+SUMMARY:Открытие: Выставка «Фантомы. Партит
+ ура для роботов»
+LOCATION:Арт-пространство «Артемьев»\, Б. Ни
+ китская\, 13\, Москва
+DESCRIPTION:Пространственная инсталляция с а
+ втоматизированными роялями\, роборукам
+ и и роботизированными музыкальными объ
+ ектами.\nНиколай Попов\, Дмитрий Масаидо
+ в\, ЦЭАМ\nhttps://t.me/ceammc/3519
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-phantoms-score-
+ for-robots-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка «Фантомы. Парт
+ итура для роботов»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:premiere-screening-of-see-everything-at-moskino-kosmos-moscow@afisha-
+ art
+DTSTAMP:20261113T184219Z
+DTSTART:20261116T163000Z
+DTEND:20261116T183000Z
+SUMMARY:Премьерный показ фильма «Увидеть в
+ сё» в «Москино Космос»
+LOCATION:Москино Космос\, Москва
+DESCRIPTION:Показ документального кино в рам
+ ках совместного проекта с Beat Film Festival с о
+ бсуждением экспертов медиа-сферы.\n«Мос
+ кино Космос»\, Beat Film Festival\nhttps://t.me/beatfest/6443
+URL:https://doublebasskakov.github.io/radar/#e=premiere-screening-of-see-
+ everything-at-moskino-kosmos-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Премьерный показ фильма «Увидеть
+  всё» в «Москино Космос»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sound-up-resonance-cello-second-session-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261127T180000Z
+DTEND:20261127T200000Z
+SUMMARY:SOUND UP resonance: cello — Второй сеанс
+LOCATION:Галерея fābula HQ\, Самокатная ул.\, 4\, с
+ тр. 1\, Москва
+DESCRIPTION:Повторный сеанс российской премь
+ еры сочинения Джона Лютера Адамса в исп
+ олнении виолончелистки Ольги Белоглазо
+ вой.\nОльга Белоглазая\nhttps://clck.ru/3Wu8fL
+URL:https://doublebasskakov.github.io/radar/#e=sound-up-resonance-cello-s
+ econd-session-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SOUND UP resonance: cello — Второй сеанс
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:retrospective-of-masha-chernaya-part-1-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261122T150000Z
+DTEND:20261122T170000Z
+SUMMARY:Ретроспектива Маши Черной. Часть 1
+LOCATION:Еврейский музей и центр толерантно
+ сти\, Москва
+DESCRIPTION:Первая часть ретроспективы незав
+ исимого документалиста Маши Черной с по
+ казом ранних лент и дискуссией с авторо
+ м.\nЕврейский музей и центр толерантност
+ и\nhttps://t.me/vortexcinema/288
+URL:https://doublebasskakov.github.io/radar/#e=retrospective-of-masha-che
+ rnaya-part-1-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ретроспектива Маши Черной. Часть 
+ 1
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:retrospective-of-masha-chernaya-part-2-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261129T120000Z
+DTEND:20261129T140000Z
+SUMMARY:Ретроспектива Маши Черной. Часть 2
+LOCATION:Еврейский музей и центр толерантно
+ сти\, Москва
+DESCRIPTION:Вторая часть ретроспективы незав
+ исимого кино с показом новейших докумен
+ тальных работ и Q&A сессией с режиссером.\
+ nЕврейский музей и центр толерантности\n
+ https://t.me/vortexcinema/288
+URL:https://doublebasskakov.github.io/radar/#e=retrospective-of-masha-che
+ rnaya-part-2-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ретроспектива Маши Черной. Часть 
+ 2
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:concert-baroque-antiquity-music-of-rome-saint-peters@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261115T163000Z
+DTEND:20261115T183000Z
+SUMMARY:Концерт «Барочная античность: музы
+ ка Рима»
+LOCATION:Эрмитаж\, Фельдмаршальский зал\, Са
+ нкт-Петербург
+DESCRIPTION:Исполнение сочинений итальянски
+ х композиторов XVII-XVIII веков на историчес
+ ких инструментах в аутентичном строе.\nА
+ ртисты оркестра musicAeterna\nhttps://t.me/musicaeternaTC/4
+ 990
+URL:https://doublebasskakov.github.io/radar/#e=concert-baroque-antiquity-
+ music-of-rome-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт «Барочная античность: му
+ зыка Рима»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:lincoln-in-the-bardo-online-stream-online@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20261114T170000Z
 DTEND:20261114T190000Z
 SUMMARY:Онлайн-показ оперы «Линкольн в бард
@@ -569,8 +1524,57 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:diana-sholk-and-dmitry-peich-performance-at-mmoma-sound-moscow@afisha
+ -art
+DTSTAMP:20261113T184219Z
+DTSTART:20261121T160000Z
+DTEND:20261121T180000Z
+SUMMARY:Выступление Дианы Шолк и Дмитрия Пе
+ йча в рамках программы «ММОМА. Звук»
+LOCATION:ММОМА на Ермолаевском\, Ермолаевск
+ ий пер.\, 17\, Москва
+DESCRIPTION:Концерт-саундскейп на стыке чело
+ веческого голоса и электронных экспери
+ ментов\, отсылающий к эстетике киберпан
+ ка.\nДиана Шолк\, Дмитрий Пейч\nhttps://t.me/mmoma/
+ 3882
+URL:https://doublebasskakov.github.io/radar/#e=diana-sholk-and-dmitry-pei
+ ch-performance-at-mmoma-sound-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выступление Дианы Шолк и Дмитрия 
+ Пейча в рамках программы «ММОМА. Звук»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:concert-of-the-gnesin-contemporary-choral-music-ensemble-alt-novosibi
+ rsk@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261113T120000Z
+DTEND:20261113T140000Z
+SUMMARY:Концерт Гнесинского ансамбля совре
+ менной хоровой музыки «Altro Coro»
+LOCATION:Большой зал Новосибирской государ
+ ственной консерватории имени М.И. Глинк
+ и\, Советская\, 31\, Новосибирск
+DESCRIPTION:Выступление известного коллекти
+ ва современной хоровой музыки в рамках 
+ масштабного фестиваля «Россия хоровая»
+ .\nАлександр Рыжинский\, Мария Власова\nhtt
+ ps://t.me/altrocoro/742
+URL:https://doublebasskakov.github.io/radar/#e=concert-of-the-gnesin-cont
+ emporary-choral-music-ensemble-alt-novosibirsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт Гнесинского ансамбля сов
+ ременной хоровой музыки «Altro Coro»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:contemporary-and-ancient-music-concert-in-podolsk-podolsk@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20261121T140000Z
 DTEND:20261121T160000Z
 SUMMARY:Концерт современной и старинной му
@@ -591,8 +1595,200 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:index-fest-2026-rushana-anton-stolyarov-index-iii-dmitry-ero-moscow@a
+ fisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261126T170000Z
+DTEND:20261126T190000Z
+SUMMARY:INDEX FEST 2026: Рушана × Антон Столяров × I
+ NDEX III × Дмитрий Ерошин × Антон Спартаков
+LOCATION:КЦ ДОМ\, Москва
+DESCRIPTION:Экспериментальный перформанс на 
+ стыке академических и современных жанр
+ ов с участием приглашенных вокалистов.\n
+ Рушана Валиева\, Антон Столяров\, INDEX III\nht
+ tps://t.me/moscownoisemanufactory/1151
+URL:https://doublebasskakov.github.io/radar/#e=index-fest-2026-rushana-an
+ ton-stolyarov-index-iii-dmitry-ero-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:INDEX FEST 2026: Рушана × Антон Столяров 
+ × INDEX III × Дмитрий Ерошин × Антон Спартак
+ ов
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:index-fest-2026-index-iii-solo-concert-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261125T180000Z
+DTEND:20261125T200000Z
+SUMMARY:INDEX FEST 2026: INDEX III (Сольный концерт)
+LOCATION:КЦ ДОМ\, Москва
+DESCRIPTION:Сольное выступление пост-джазово
+ й группы INDEX III\, открывающее пространств
+ о для звуковых экспериментов.\nINDEX III\nhttps:
+ //t.me/moscownoisemanufactory/1151
+URL:https://doublebasskakov.github.io/radar/#e=index-fest-2026-index-iii-
+ solo-concert-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:INDEX FEST 2026: INDEX III (Сольный концерт)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ethno-mechanika-festival-at-the-kuryokhin-center-saint-peters@afisha-
+ art
+DTSTAMP:20261113T184219Z
+DTSTART:20261114T150000Z
+DTEND:20261114T170000Z
+SUMMARY:Фестиваль «Этно-механика» в Центре 
+ Курёхина
+LOCATION:Центр современного искусства им. С
+ ергея Курёхина\, Средний пр. В.О.\, 93\, Санк
+ т-Петербург
+DESCRIPTION:Ежегодный музыкальный фестиваль 
+ на стыке этники\, электроники и современ
+ ного аудиовизуального искусства.\nNone\nhttp
+ s://t.me/kuryokhincenter/3388
+URL:https://doublebasskakov.github.io/radar/#e=ethno-mechanika-festival-a
+ t-the-kuryokhin-center-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Фестиваль «Этно-механика» в Цент
+ ре Курёхина
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:screening-of-scenes-from-capital-as-part-of-the-message-to-m-moscow@a
+ fisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261115T140000Z
+DTEND:20261115T160000Z
+SUMMARY:Кинопоказ «Сцены из „Капитала“» в 
+ рамках «Эха» фестиваля «Послание к чело
+ веку»
+LOCATION:Центр «Зотов»\, Москва
+DESCRIPTION:Демонстрация документальной раб
+ оты «Сцены из „Капитала“» авторов Федо
+ ра Максимишина и Дарьи Сусловой.\nФедор 
+ Максимишин\, Дарья Суслова\, Михаил Ратг
+ ауз\nhttps://t.me/message2man/2836
+URL:https://doublebasskakov.github.io/radar/#e=screening-of-scenes-from-c
+ apital-as-part-of-the-message-to-m-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Кинопоказ «Сцены из „Капитала“»
+  в рамках «Эха» фестиваля «Послание к че
+ ловеку»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:message-to-man-festival-echo-program-screenings-in-krasnoyar-krasnoya
+ rsk@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261123
+SUMMARY:Фестиваль «Послание к человеку»: по
+ казы программы «Эхо» в Красноярске
+LOCATION:Кинотеатр «Дом кино»\, Красноярск
+DESCRIPTION:Региональная программа показов д
+ окументальных и анимационных картин фе
+ стиваля «Послание к человеку».\nКинотеа
+ тр «Дом кино»\nhttps://t.me/message2man/2821
+URL:https://doublebasskakov.github.io/radar/#e=message-to-man-festival-ec
+ ho-program-screenings-in-krasnoyar-krasnoyarsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Фестиваль «Послание к человеку»: 
+ показы программы «Эхо» в Красноярске
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:the-tower-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261128T160000Z
+DTEND:20261128T180000Z
+SUMMARY:Спектакль «Башня»
+LOCATION:Центр Зотов\, Ходынская ул.\, 2\, стр. 1
+ \, Москва
+DESCRIPTION:Экспериментальная постановка\, в 
+ которой актер Федор Лавров вживую испол
+ няет музыку на терменвоксе.\nФёдор Лавро
+ в\nhttps://t.me/centrezotov/10334
+URL:https://doublebasskakov.github.io/radar/#e=the-tower-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спектакль «Башня»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:the-play-hamlet-collage-samara@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261119T153000Z
+DTEND:20261119T173000Z
+SUMMARY:Спектакль «Гамлет | Коллаж»
+LOCATION:Самара
+DESCRIPTION:Киноверсия высокотехнологичной 
+ постановки Робера Лепажа\, где все роли 
+ исполняет Евгений Миронов.\nРобер Лепаж\
+ , Евгений Миронов\nhttps://t.me/kinosmr/2091
+URL:https://doublebasskakov.github.io/radar/#e=the-play-hamlet-collage-sa
+ mara
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спектакль «Гамлет | Коллаж»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sound-up-resonance-cello-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261127T160000Z
+DTEND:20261127T180000Z
+SUMMARY:SOUND UP resonance: cello
+LOCATION:Галерея fābula HQ\, Самокатная ул.\, 4\, с
+ тр. 1\, Москва
+DESCRIPTION:Концерт современной академическ
+ ой музыки для виолончели в рамках конце
+ ртной программы SOUND UP.\nОльга Белоглазая\
+ nhttps://clck.ru/3WtZTY
+URL:https://doublebasskakov.github.io/radar/#e=sound-up-resonance-cello-m
+ oscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SOUND UP resonance: cello
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:soundup-resonance@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261127T160000Z
+DTEND:20261127T180000Z
+SUMMARY:Sound Up Resonance
+LOCATION:Галерея fābula HQ\, Самокатная ул.\, 4\, с
+ тр. 1\, Москва
+DESCRIPTION:Первый концерт новой серии Sound Up: 
+ восемь взглядов современных композитор
+ ов на виолончель.\nОльга Белоглазова\, ви
+ олончель\nhttps://theblueprint.ru/culture/music/music-november-20
+ 26
+URL:https://doublebasskakov.github.io/radar/#e=soundup-resonance
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sound Up Resonance
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:ruarts-gong-sensonica@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20261121T100000Z
 DTEND:20261121T120000Z
 SUMMARY:Гонг-перформанс Юлии Гоголевой (SENSON
@@ -612,8 +1808,359 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:write-hear-see-pokras-lampas-x-new-electronic-music-saint-peters@afis
+ ha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261205T163000Z
+DTEND:20261205T183000Z
+SUMMARY:«ПИШУ — СЛЫШУ — ВИЖУ». Покрас Лампа
+ с x Новая электронная музыка
+LOCATION:Новая сцена Санкт-Петербургского т
+ еатра им. В.Ф. Комиссаржевской\, наб. реки
+  Фонтанки\, 41\, Санкт-Петербург
+DESCRIPTION:Совместный перформанс художника 
+ Покраса Лампаса и проекта современной э
+ лектронной музыки.\nПокрас Лампас\, Нова
+ я электронная музыка\nhttps://t.me/newstageprojects/317
+ 9
+URL:https://doublebasskakov.github.io/radar/#e=write-hear-see-pokras-lamp
+ as-x-new-electronic-music-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:«ПИШУ — СЛЫШУ — ВИЖУ». Покрас Лам
+ пас x Новая электронная музыка
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:play-oblomov-directed-by-andrei-pricotenco-saint-peters@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261216T160000Z
+DTEND:20261216T180000Z
+SUMMARY:Спектакль Андрея Прикотенко «Облом
+ ов»
+LOCATION:Новая сцена Санкт-Петербургского т
+ еатра им. В.Ф. Комиссаржевской\, наб. реки
+  Фонтанки\, 41\, Санкт-Петербург
+DESCRIPTION:Масштабная интерпретация класси
+ ческого романа Гончарова в постановке А
+ ндрея Прикотенко.\nАндрей Прикотенко\nhttp
+ s://t.me/newstageprojects/3179
+URL:https://doublebasskakov.github.io/radar/#e=play-oblomov-directed-by-a
+ ndrei-pricotenco-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спектакль Андрея Прикотенко «Обл
+ омов»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:opera-lohengrin-at-novaya-opera-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261113T160000Z
+DTEND:20261113T180000Z
+SUMMARY:Опера «Лоэнгрин» в Новой опере
+LOCATION:Новая опера\, Москва
+DESCRIPTION:Показ оперы Рихарда Вагнера «Лоэ
+ нгрин» с масштабным оркестровым и вокал
+ ьным составом.\nР. Вагнер\, Антон Торбеев\
+ , Хачатур Бадалян\, Елизавета Соина\nhttps://
+ t.me/novayaopera/5893
+URL:https://doublebasskakov.github.io/radar/#e=opera-lohengrin-at-novaya-
+ opera-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Опера «Лоэнгрин» в Новой опере
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hauntology@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261113T163000Z
+DTEND:20261113T183000Z
+SUMMARY:Édition française: от Марена Маре до группы
+  Air
+LOCATION:ДК «Рассвет»\, Столярный пер.\, 3\, ко
+ рп. 15\, Москва
+DESCRIPTION:Французская музыка через века и ж
+ анры — от барокко до электроники в одно
+ й программе.\nАнсамбль Hauntology\nhttps://theblueprint
+ .ru/culture/music/music-november-2026
+URL:https://doublebasskakov.github.io/radar/#e=hauntology
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Édition française: от Марена Маре до груп
+ пы Air
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:play-honest-woman-directed-by-valery-fokin-saint-peters@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261229T163000Z
+DTEND:20261229T183000Z
+SUMMARY:Спектакль Валерия Фокина «Честная 
+ женщина»
+LOCATION:Новая сцена Санкт-Петербургского т
+ еатра им. В.Ф. Комиссаржевской\, наб. реки
+  Фонтанки\, 41\, Санкт-Петербург
+DESCRIPTION:Психологическая постановка худо
+ жественного руководителя театра Валери
+ я Фокина.\nВалерий Фокин\nhttps://t.me/newstageproject
+ s/3179
+URL:https://doublebasskakov.github.io/radar/#e=play-honest-woman-directed
+ -by-valery-fokin-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спектакль Валерия Фокина «Честна
+ я женщина»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:exhibition-lez-electricity-saint-peters@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261114T170000Z
+DTEND:20261114T190000Z
+SUMMARY:Выставка «ЛЭЗ: Электричество»
+LOCATION:Дом Радио\, Невский пр.\, 62\, Санкт-Пе
+ тербург
+DESCRIPTION:Концерт-открытие выставки Лабора
+ тории электромузыкальных звуков в Доме 
+ Радио.\nЛаборатория электромузыкальных 
+ звуков (ЛЭЗ) / Дом Радио\nhttps://t.me/experimentallabor
+ atory/289
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-lez-electricity
+ -saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выставка «ЛЭЗ: Электричество»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:antonio-di-cristofano-recital-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261125T160000Z
+DTEND:20261125T180000Z
+SUMMARY:Сольный концерт Антонио ди Кристоф
+ ано
+LOCATION:Музыкальное училище имени Гнесины
+ х\, Москва
+DESCRIPTION:Итальянский пианист исполнит соч
+ инения Моцарта\, Брамса\, Бетховена и Шоп
+ ена.\nАнтонио ди Кристофано\nhttps://t.me/gnesinafi
+ sha/326
+URL:https://doublebasskakov.github.io/radar/#e=antonio-di-cristofano-reci
+ tal-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Сольный концерт Антонио ди Крист
+ офано
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:index-fest-2026-oleg-nesterov-mire-le-anastasia-terelya-inde-moscow@a
+ fisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261127T160000Z
+DTEND:20261127T180000Z
+SUMMARY:INDEX FEST 2026: Олег Нестеров × Mirèle × Анас
+ тасия Тереля × INDEX III
+LOCATION:КЦ ДОМ\, Москва
+DESCRIPTION:Уникальный диалог инди-артистов 
+ и дарк-джаза/IDM звучания группы INDEX III.\nОл
+ ег Нестеров\, Mirèle\, Анастасия Тереля\, INDEX
+  III\nhttps://t.me/moscownoisemanufactory/1151
+URL:https://doublebasskakov.github.io/radar/#e=index-fest-2026-oleg-neste
+ rov-mire-le-anastasia-terelya-inde-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:INDEX FEST 2026: Олег Нестеров × Mirèle × Ан
+ астасия Тереля × INDEX III
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:index-fest-2026-xandr-vasiliev-arkadius-padre-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261128T180000Z
+DTEND:20261128T200000Z
+SUMMARY:INDEX FEST 2026: Xandr.Vasiliev & Arkadius\, Padre
+LOCATION:RNDM\, Москва
+DESCRIPTION:Электроакустический лайв на стык
+ е dark techno\, IDM\, эмбиента и минимализма.\nXandr
+ .Vasiliev\, Аркадий Пикунов\, Padre\nhttps://t.me/moscownoi
+ semanufactory/1151
+URL:https://doublebasskakov.github.io/radar/#e=index-fest-2026-xandr-vasi
+ liev-arkadius-padre-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:INDEX FEST 2026: Xandr.Vasiliev & Arkadius\, Padre
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:screening-of-you-need-to-make-movies-as-part-of-the-message--moscow@a
+ fisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261114T153000Z
+DTEND:20261114T173000Z
+SUMMARY:Кинопоказ «Надо снимать фильмы» в р
+ амках «Эха» фестиваля «Послание к челов
+ еку»
+LOCATION:Центр «Зотов»\, Москва
+DESCRIPTION:Показ ленты «Надо снимать фильмы
+ » Маши Черной на площадке Центра «Зотов
+ ».\nМаша Черная\nhttps://t.me/message2man/2836
+URL:https://doublebasskakov.github.io/radar/#e=screening-of-you-need-to-m
+ ake-movies-as-part-of-the-message--moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Кинопоказ «Надо снимать фильмы» 
+ в рамках «Эха» фестиваля «Послание к че
+ ловеку»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:index-fest-2026-zerolines-index-iii-dmitry-eroshin-dmitry-re-moscow@a
+ fisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261127T180000Z
+DTEND:20261127T200000Z
+SUMMARY:INDEX FEST 2026: ZEROLINES × INDEX III × Дмитрий Еро
+ шин × Дмитрий Рессер
+LOCATION:КЦ ДОМ\, Москва
+DESCRIPTION:Премьерная коллаборация INDEX III с п
+ роектом Олега Нестерова ZEROLINES.\nZEROLINES\, INDE
+ X III\nhttps://t.me/moscownoisemanufactory/1151
+URL:https://doublebasskakov.github.io/radar/#e=index-fest-2026-zerolines-
+ index-iii-dmitry-eroshin-dmitry-re-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:INDEX FEST 2026: ZEROLINES × INDEX III × Дмитрий Е
+ рошин × Дмитрий Рессер
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:screening-of-there-s-enough-happiness-in-the-world-for-every-moscow@a
+ fisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261127T163000Z
+DTEND:20261127T183000Z
+SUMMARY:Кинопоказ «Счастья в мире хватит на
+  всех» в рамках «Эха» фестиваля «Послан
+ ие к человеку»
+LOCATION:Центр «Зотов»\, Москва
+DESCRIPTION:Показ картины Даши Сеничевой в ра
+ мках кинопрограммы в Центре «Зотов».\nДа
+ ша Сеничева\nhttps://t.me/message2man/2836
+URL:https://doublebasskakov.github.io/radar/#e=screening-of-there-s-enoug
+ h-happiness-in-the-world-for-every-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Кинопоказ «Счастья в мире хватит 
+ на всех» в рамках «Эха» фестиваля «Посл
+ ание к человеку»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:screening-of-arina-s-portraits-as-part-of-the-message-to-man-moscow@a
+ fisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261122T150000Z
+DTEND:20261122T170000Z
+SUMMARY:Кинопоказ «Портреты Арины» в рамка
+ х «Эха» фестиваля «Послание к человеку»
+LOCATION:Центр «Зотов»\, Москва
+DESCRIPTION:Показ фильма Ивана Дружинина «По
+ ртреты Арины» в Центре «Зотов».\nИван Др
+ ужинин\nhttps://t.me/message2man/2836
+URL:https://doublebasskakov.github.io/radar/#e=screening-of-arina-s-portr
+ aits-as-part-of-the-message-to-man-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Кинопоказ «Портреты Арины» в рам
+ ках «Эха» фестиваля «Послание к человек
+ у»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:phases-and-psalms-tribute-to-steve-reich-saint-peters@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261206T160000Z
+DTEND:20261206T180000Z
+SUMMARY:«Фазы и псалмы». Посвящение Стиву Р
+ айху
+LOCATION:Новая сцена Санкт-Петербургского т
+ еатра им. В.Ф. Комиссаржевской\, наб. реки
+  Фонтанки\, 41\, Санкт-Петербург
+DESCRIPTION:Концерт-посвящение американском
+ у минималисту Стиву Райху.\n\nhttps://t.me/newstage
+ projects/3179
+URL:https://doublebasskakov.github.io/radar/#e=phases-and-psalms-tribute-
+ to-steve-reich-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:«Фазы и псалмы». Посвящение Стиву
+  Райху
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:screening-of-lumberjack-as-part-of-the-message-to-man-festiv-moscow@a
+ fisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261127T181500Z
+DTEND:20261127T201500Z
+SUMMARY:Кинопоказ «Лесоруб» в рамках «Эха» 
+ фестиваля «Послание к человеку»
+LOCATION:Центр «Зотов»\, Москва
+DESCRIPTION:Показ фильма Артема Тумакова «Ле
+ соруб» в Центре «Зотов».\nАртем Тумаков\n
+ https://t.me/message2man/2836
+URL:https://doublebasskakov.github.io/radar/#e=screening-of-lumberjack-as
+ -part-of-the-message-to-man-festiv-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Кинопоказ «Лесоруб» в рамках «Эх
+ а» фестиваля «Послание к человеку»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:romeo-and-juliet-in-darkness-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261125T160000Z
+DTEND:20261125T180000Z
+SUMMARY:Ромео и Джульетта во мгле
+LOCATION:Et Cetera (Большой зал)\, Москва\, Фролов 
+ пер.\, 2\, Москва
+DESCRIPTION:Спектакль-сочинение Льва Додина 
+ в гастрольной постановке МДТ — Театра Е
+ вропы. Продолжительность около 1 ч 30 мин 
+ без антракта. Площадка по данным Яндекс 
+ Афиши — Большой зал\, а не Основная сцен
+ а\, как указано в запросе.\nМДТ — Театр Ев
+ ропы\, Лев Додин\nhttps://et-cetera.ru/performance/
+URL:https://doublebasskakov.github.io/radar/#e=romeo-and-juliet-in-darkne
+ ss-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ромео и Джульетта во мгле
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:ekb-masm-kontrapunkt-epokh@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20261127T140000Z
 DTEND:20261127T160000Z
 SUMMARY:МАСМ. «Контрапункт эпох»
@@ -633,7 +2180,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:msk-electrotheatre-uzhin-v-pompeyakh@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20261120T160000Z
 DTEND:20261120T180000Z
 SUMMARY:«Ужин в ПомПеях». Премьера
@@ -652,27 +2199,368 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:snm-magiya-prisutstviya@afisha-art
-DTSTAMP:20261113T174826Z
-DTSTART:20261119T160000Z
-DTEND:20261119T180000Z
-SUMMARY:«Магия присутствия»: Студия новой м
- узыки
-LOCATION:Рахманиновский зал Московской кон
- серватории\, Большая Никитская\, 11\, Моск
- ва
-DESCRIPTION:Мировая премьера «Вечной мерзлот
- ы» Никифора Яковлева для большого ансам
- бля\, записи и контрабас-кларнета\, а так
- же Грабовский\, Крам («Голос кита»)\, Ялка
- нен\, Кнайфель и Кауэлл. Программа о сакр
- альном\, природе и времени.\nАнсамбль «Ст
- удия новой музыки»\nhttps://t.me/studionewmusic/2311
-URL:https://doublebasskakov.github.io/radar/#e=snm-magiya-prisutstviya
+UID:ritm-nol-meditation-marathon-day-2-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261114T120000Z
+DTEND:20261114T140000Z
+SUMMARY:Марафон-медитация «РИТМ.НОЛЬ» — де
+ нь 2
+LOCATION:Монолит Холл\, Москва\, Михайловски
+ й проезд\, 3В\, Москва
+DESCRIPTION:Второй день марафона-медитации «
+ Ритм.Ноль» в Монолит Холле: по данным ис
+ точников\, с 15:00 до 01:30. Запланировано 7 ча
+ совых сессий\, хедлайнеры — Attaque de Panique\, N
+ ikola Melnikov с оркестром Continuum (Stabat Mater с хоро
+ м из 8 человек) и Nikita Zabelin. После 01:00 — тан
+ цевальная часть «Ритм.130». Вход на сесси
+ и по билетам от 2800 руб. (по одной сессии).\
+ nNikita Zabelin\, Attaque de Panique\, Nikola Melnikov\nhttps://t.me/reso
+ nancemoscow/7698
+URL:https://doublebasskakov.github.io/radar/#e=ritm-nol-meditation-marath
+ on-day-2-moscow
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:«Магия присутствия»: Студия ново
- й музыки
+DESCRIPTION:Марафон-медитация «РИТМ.НОЛЬ» — 
+ день 2
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:beyond-the-render-submerge-project-washington@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261113T170000Z
+DTEND:20261113T190000Z
+SUMMARY:Beyond the Render (SUBMERGE Project)
+LOCATION:ARTECHOUSE DC\, 1238 Maryland Ave SW\, Washington\, DC 20024\, 
+ Вашингтон
+DESCRIPTION:45-минутное иммерсивное шоу на 18K-п
+ роекции во всю стену и потолок\, основа в
+ ыставки SUBMERGE Project. Сеансы ежедневно в 12:00
+ \, до 15 ноября.\nARTECHOUSE DC\, Render Network Foundation\nhttp
+ s://www.artechouse.com/program/submerge-dc/
+URL:https://doublebasskakov.github.io/radar/#e=beyond-the-render-submerge
+ -project-washington
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Beyond the Render (SUBMERGE Project)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:international-film-festival-cinema-without-barriers-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261113T080000Z
+DTEND:20261113T100000Z
+SUMMARY:Международный кинофестиваль «Кино 
+ без барьеров»
+LOCATION:«Формула кино» (ЦДМ)\, Библиотека ин
+ остранной литературы\, Музей кино на ВДН
+ Х\, Москва
+DESCRIPTION:Масштабный киносмотр\, посвященн
+ ый повседневной жизни людей с инвалидно
+ стью\, в программе которого представлен
+ о 82 фильма из 34 стран.\n\nhttps://t.me/theblueprintnews/9
+ 9504
+URL:https://doublebasskakov.github.io/radar/#e=international-film-festiva
+ l-cinema-without-barriers-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Международный кинофестиваль «Ки
+ но без барьеров»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:contemporary-music-concert-works-by-steve-reich-and-iannis-x-moscow@a
+ fisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261121T163000Z
+DTEND:20261121T183000Z
+SUMMARY:Концерт современной музыки: произв
+ едения Стива Райха и Яниса Ксенакиса
+LOCATION:ДК Рассвет\, Москва
+DESCRIPTION:Исполнение знаковых авангардных 
+ произведений Стива Райха («Piano Phase») и Ян
+ иса Ксенакиса («Oophaa»\, «Komboï»).\nАндрей Во
+ лосовский\, Михаил Дубов\nhttps://t.me/dkrassvet/2358
+URL:https://doublebasskakov.github.io/radar/#e=contemporary-music-concert
+ -works-by-steve-reich-and-iannis-x-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт современной музыки: прои
+ зведения Стива Райха и Яниса Ксенакиса
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:alexander-romanovsky-concert-liszt-and-ravel-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261113T160000Z
+DTEND:20261113T180000Z
+SUMMARY:Концерт Александра Романовского: Л
+ ист и Равель
+LOCATION:Концертный зал им. П.И. Чайковского\
+ , Москва
+DESCRIPTION:Пианист исполнит произведения с 
+ инфернальными и таинственными образами
+  авторства Ференца Листа и Мориса Равел
+ я.\nАлександр Романовский\nhttps://t.me/mosfilarmoni
+ a/2245
+URL:https://doublebasskakov.github.io/radar/#e=alexander-romanovsky-conce
+ rt-liszt-and-ravel-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт Александра Романовского:
+  Лист и Равель
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:about-my-mother-and-about-me-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261212T170000Z
+DTEND:20261212T190000Z
+SUMMARY:Про мою маму и про меня
+LOCATION:Электротеатр Станиславский\, Тверс
+ кая ул.\, 23\, Москва
+DESCRIPTION:Спектакль по пьесе Елены Исаевой 
+ в память об Елене Греминой и Михаиле Уга
+ рове\, режиссер — Елена Морозова.\nЕлена 
+ Морозова\nhttps://electrotheatre.ru/playbill
+URL:https://doublebasskakov.github.io/radar/#e=about-my-mother-and-about-
+ me-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Про мою маму и про меня
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:idiotology-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261216T160000Z
+DTEND:20261216T180000Z
+SUMMARY:Идиотология
+LOCATION:Электротеатр Станиславский\, Тверс
+ кая ул.\, 23\, Москва
+DESCRIPTION:Интерпретация романа Ф. М. Достое
+ вского «Идиот» в рамках проекта «Золото
+ й осел»\, режиссер Клим Козинский.\nКлим 
+ Козинский\nhttps://electrotheatre.ru/playbill
+URL:https://doublebasskakov.github.io/radar/#e=idiotology-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Идиотология
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:from-the-life-of-planets-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261219T160000Z
+DTEND:20261219T180000Z
+SUMMARY:Из жизни планет
+LOCATION:Электротеатр Станиславский\, Тверс
+ кая ул.\, 23\, Москва
+DESCRIPTION:Музыкально-театральное посвящен
+ ие неснятым фильмам 1960-х годов от Олега 
+ Нестерова и группы «Мегаполис».\nОлег Не
+ стеров\, группа «Мегаполис»\, Денис Азар
+ ов\nhttps://electrotheatre.ru/playbill
+URL:https://doublebasskakov.github.io/radar/#e=from-the-life-of-planets-m
+ oscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Из жизни планет
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:opening-concert-of-the-electroacoustic-music-exhibition-saint-peters@
+ afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261114T170000Z
+DTEND:20261114T190000Z
+SUMMARY:Концерт-открытие выставки электроа
+ кустической музыки
+LOCATION:Дом Радио\, Невский пр.\, 62\, Санкт-Пе
+ тербург
+DESCRIPTION:Концерт экспериментальной и элек
+ троакустической музыки в рамках открыт
+ ия новой звуковой экспозиции.\nНикита Ал
+ ексеенко\, Влад Добровольский\, Соня Ско
+ белева\, Виктория Харкевич\nhttps://t.me/experiment
+ allaboratory/305
+URL:https://doublebasskakov.github.io/radar/#e=opening-concert-of-the-ele
+ ctroacoustic-music-exhibition-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт-открытие выставки электр
+ оакустической музыки
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:life-is-a-dream-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261118T160000Z
+DTEND:20261118T180000Z
+SUMMARY:Жизнь есть сон
+LOCATION:Электротеатр Станиславский\, Тверс
+ кая ул.\, 23\, Москва
+DESCRIPTION:Копродукция Электротеатра и Teatro E
+ spañol в постановке испанского режиссера 
+ Натальи Менендес.\nНаталья Менендес\nhttps:
+ //electrotheatre.ru/playbill
+URL:https://doublebasskakov.github.io/radar/#e=life-is-a-dream-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Жизнь есть сон
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sound-objects-and-electroacoustics-exhibition-at-dom-radio-saint-pete
+ rs@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261114T150000Z
+DTEND:20261114T170000Z
+SUMMARY:Выставка звуковых объектов и элект
+ роакустики в Доме Радио
+LOCATION:Дом Радио\, Невский пр.\, 62\, Санкт-Пе
+ тербург
+DESCRIPTION:Открытие выставки звуковых датчи
+ ков\, синтезаторов и кинетических инста
+ лляций Лаборатории.\nNone\nhttps://t.me/experimentallabo
+ ratory/305
+URL:https://doublebasskakov.github.io/radar/#e=sound-objects-and-electroa
+ coustics-exhibition-at-dom-radio-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выставка звуковых объектов и эле
+ ктроакустики в Доме Радио
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:momento-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261113T170000Z
+DTEND:20261113T190000Z
+SUMMARY:Momento
+LOCATION:Электротеатр Станиславский\, Тверс
+ кая ул.\, 23\, Москва
+DESCRIPTION:Хореографический спектакль пост
+ ановщика Чена Агрона на основной сцене 
+ театра.\nЧен Агрон\nhttps://electrotheatre.ru/playbill
+URL:https://doublebasskakov.github.io/radar/#e=momento-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Momento
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:maryino-field-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261204T160000Z
+DTEND:20261204T180000Z
+SUMMARY:Марьино поле
+LOCATION:Электротеатр Станиславский\, Тверс
+ кая ул.\, 23\, Москва
+DESCRIPTION:Второй премьерный показ постанов
+ ки Романа Дробота по пьесе Олега Богаев
+ а.\nРоман Дробот\nhttps://electrotheatre.ru/playbill
+URL:https://doublebasskakov.github.io/radar/#e=maryino-field-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Марьино поле
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:msk-electrotheatre-maryino-pole@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261203T160000Z
+DTEND:20261203T180000Z
+SUMMARY:«Марьино поле». Премьера
+LOCATION:Электротеатр Станиславский\, Основ
+ ная сцена\, ул. Тверская\, 23\, Москва
+DESCRIPTION:Премьера на Основной сцене Элект
+ ротеатра.\nЭлектротеатр Станиславский\nh
+ ttps://electrotheatre.ru/playbill?month=2026-12
+URL:https://doublebasskakov.github.io/radar/#e=msk-electrotheatre-maryino
+ -pole
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:«Марьино поле». Премьера
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:msk-electrotheatre-ya-fabr@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261117T170000Z
+DTEND:20261117T190000Z
+SUMMARY:«Я/Фабр»
+LOCATION:Электротеатр Станиславский\, Малая
+  сцена\, ул. Тверская\, 23\, Москва
+DESCRIPTION:Спектакль по текстам Яна Фабра.\nЭ
+ лектротеатр Станиславский\nhttps://electrotheatre
+ .ru/playbill/
+URL:https://doublebasskakov.github.io/radar/#e=msk-electrotheatre-ya-fabr
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:«Я/Фабр»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:exhibition-incidents-and-characters-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Выставка «Случаи и характеры»
+LOCATION:Солодовня\, Москва
+DESCRIPTION:Масштабная экспозиция в «Солодов
+ не»\, показывающая эволюцию историческо
+ го жанра в русской живописи от Ломоносо
+ ва до конца XIX века\, включая впервые воз
+ вращенное в Россию монументальное поло
+ тно Константина Маковского «Иван Сусан
+ ин».\nNone\nhttps://t.me/culturalmsk/17328
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-incidents-and-c
+ haracters-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выставка «Случаи и характеры»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kandinsky-and-scriabin-hearing-color-and-seeing-sound-moscow@afisha-a
+ rt
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:Открытие: Кандинский и Скрябин. Слы
+ шать цвет и видеть звук
+LOCATION:Павильон «Медиацентр»\, парк «Заря
+ дье»\, улица Варварка\, 6\, Москва
+DESCRIPTION:Масштабная выставка к 160-летию Ва
+ силия Кандинского\, объединяющая живопи
+ сь авангарда\, архивные материалы Алекс
+ андра Скрябина и мультимедийные инстал
+ ляции с современным звуковым переосмыс
+ лением.\nДепартамент культуры Москвы\nhttp
+ s://t.me/mosmuseum/7633
+URL:https://doublebasskakov.github.io/radar/#e=kandinsky-and-scriabin-hea
+ ring-color-and-seeing-sound-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Кандинский и Скрябин. С
+ лышать цвет и видеть звук
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
@@ -699,7 +2587,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:special-project-by-the-nosorog-publishing-house-and-the-posl-moscow@a
  fisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Специальный проект издательства «Н
@@ -725,7 +2613,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:artist-talk-and-concert-vladimir-martynov-yuri-ginzburg-and--moscow@a
  fisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Встреча и концерт: Владимир Мартыно
@@ -751,7 +2639,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ges2-things-idols-bananas@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Открытие: Вещи\, идолы\, бананы
@@ -773,7 +2661,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:kzn-smena-rabochaya-smena@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:Открытие: «Рабочая смена»
@@ -795,31 +2683,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:garage-diapazony@afisha-art
-DTSTAMP:20261113T174826Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-SUMMARY:Другие диапазоны. 1989–1991
-LOCATION:Музей «Гараж»\, ул. Крымский Вал\, 9\, 
- стр. 32\, Москва
-DESCRIPTION:Новая часть исследования «Гаража
- » о неофициальном искусстве на сломе 1980-
- х и 1990-х — время\, когда художественная с
- истема страны перестраивалась на ходу.\n
- Айдан Салахова\, Евгений Митта\, Сергей В
- олков\, Иван Чуйков\, Константин Звездоч
- етов и др.\nhttps://theblueprint.ru/culture/art/vystavki-november2
- 026
-URL:https://doublebasskakov.github.io/radar/#e=garage-diapazony
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Другие диапазоны. 1989–1991
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:msk-ges2-posle-zhanra@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20270425
 DTEND;VALUE=DATE:20270426
 SUMMARY:Последний день: «Натюрморт. Портрет
@@ -843,7 +2708,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:vladimir-dmitriev-exhibition-saint-peters@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Владимир Дмитриев. Выставка
@@ -866,7 +2731,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:spb-lakhta-tretya-priroda@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20270430
 DTEND;VALUE=DATE:20270501
 SUMMARY:Последний день: «Третья природа»
@@ -885,8 +2750,54 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:exhibition-marquise-de-pompadour-the-triumph-of-rococo-moscow@afisha-
+ art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:Выставка «Маркиза де Помпадур. Триу
+ мф рококо»
+LOCATION:Главное здание Пушкинского музея\, 
+ Волхонка\, 12\, Москва
+DESCRIPTION:Масштабная зимняя выставка\, посв
+ ященная культуре рококо и образу маркиз
+ ы де Помпадур\, где будут представлены р
+ едкие исторические экспонаты.\nПушкинск
+ ий музей\nhttps://t.me/theartsmuseum/12542
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-marquise-de-pom
+ padour-the-triumph-of-rococo-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выставка «Маркиза де Помпадур. Тр
+ иумф рококо»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:catalog-art-fair-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261123
+SUMMARY:Ярмарка современного искусства | cata
+ log |
+LOCATION:ЖК «Золотой»\, Софийская наб.\, 10\, Мо
+ сква
+DESCRIPTION:Участие галереи TŌMO в арт-ярмарке 
+ со стендом\, представляющим работы Анки 
+ Ахалаи\, Кирилла Ашастина\, Кати Емельян
+ овой и Есоль Ким.\nГалерея TŌMO\nhttps://t.me/tomo_a
+ rt/2555
+URL:https://doublebasskakov.github.io/radar/#e=catalog-art-fair-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ярмарка современного искусства | 
+ catalog |
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:vest-2@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20270223
 DTEND;VALUE=DATE:20270224
 SUMMARY:Последний день: Весть 2.0
@@ -908,7 +2819,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:spb-manezh-stsena-deystviya@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
 SUMMARY:Последний день: «Сцена действия»
@@ -929,7 +2840,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:oberton-graphic-art-fair-moscow@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261207
 SUMMARY:Ярмарка графики «Обертон»
@@ -948,8 +2859,34 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:message-to-man-festival-echo-program-screenings-in-moscow-moscow@afis
+ ha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Открытие: Фестиваль «Послание к чел
+ овеку»: показы программы «Эхо» в Москве
+LOCATION:Киноцентр «Октябрь» (КАРО/АРТ)\, Мос
+ ква
+DESCRIPTION:Шорт-лист 36-го фестиваля документ
+ ального и анимационного кино «Послание 
+ к человеку» на ведущих культурных площа
+ дках Москвы.\nКиноцентр «Октябрь»\, Цент
+ р «Зотов»\, ГЭС-2\, Гараж\, Третьяковская г
+ алерея\nhttps://t.me/message2man/2821
+URL:https://doublebasskakov.github.io/radar/#e=message-to-man-festival-ec
+ ho-program-screenings-in-moscow-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Фестиваль «Послание к ч
+ еловеку»: показы программы «Эхо» в Моск
+ ве
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:zotov-constructivism@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:Конструктивизм. Инструкция
@@ -970,7 +2907,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:spb-diaghilev-ps-2026@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 SUMMARY:Последний день: Фестиваль «Дягилев 
@@ -994,7 +2931,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ryuichi-sakamoto-exhibition-seeing-sound-hearing-time-berlin@afisha-a
  rt
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20270620
 DTEND;VALUE=DATE:20270621
 SUMMARY:Последний день: Выставка Рюити Сака
@@ -1015,8 +2952,31 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:exhibition-still-life-portrait-landscape-after-the-genre-moscow@afish
+ a-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20270425
+DTEND;VALUE=DATE:20270426
+SUMMARY:Последний день: Выставка «Натюрмор
+ т. Портрет. Пейзаж. После жанра»
+LOCATION:ГЭС-2\, Москва
+DESCRIPTION:Масштабная выставка о классическ
+ их живописных жанрах\, предвосхитивших 
+ современные цифровые медиа\, рекламу и в
+ идеоигры.\nПолина Абина\, Ян Гинзбург\, Ол
+ ег Матрохин и др.\nhttps://t.me/ica_moscow/1179
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-still-life-port
+ rait-landscape-after-the-genre-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Выставка «Натюрм
+ орт. Портрет. Пейзаж. После жанра»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:gisich-plyashem@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:Марина Алексеева. ¡ПЛЯШЕМ!
@@ -1036,7 +2996,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:catalog-fair@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261123
 SUMMARY:|catalog| — ярмарка современного искус
@@ -1058,7 +3018,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-other-ranges-1989-1991-moscow@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Выставка «Другие диапазоны. 1989-1991»
@@ -1079,7 +3039,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:spb-tsifergauz-poka-sobiraetsya-mir@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:Последний день: «Пока собирается ми
@@ -1102,8 +3062,32 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:exhibition-rome-saint-petersburg-on-the-dissimilarity-of-the-saint-pe
+ ters@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Открытие: Выставка «Рим — Петербур
+ г. О несходстве сходного»
+LOCATION:Главный штаб Эрмитажа\, Санкт-Петер
+ бург
+DESCRIPTION:Проект сопоставляет архитектуру 
+ и образы Петербурга и Рима через фотогр
+ афии и монументальные инсталляции.\nДми
+ трий Сироткин\, Аркадий Ипполитов\nhttps://t.
+ me/af_1703/4479
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-rome-saint-pete
+ rsburg-on-the-dissimilarity-of-the-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка «Рим — Петерб
+ ург. О несходстве сходного»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:spb-kurekhin-bartenev-pesni-eklera@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:Последний день: Андрей Бартенев. «П
@@ -1125,7 +3109,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:leon-bakst-exhibition-moscow@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261119
 SUMMARY:Выставка Леона Бакста
@@ -1144,8 +3128,53 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:exhibition-urbi-et-orbi-baroque-and-antique-rome-saint-peters@afisha-
+ art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Выставка «Urbi et Orbi. Рим барочный и Ри
+ м античный»
+LOCATION:Манеж Малого Эрмитажа\, Дворцовая н
+ аб.\, 38\, Санкт-Петербург
+DESCRIPTION:Масштабный проект об эволюции Ри
+ ма XVI–XVIII веков через архитектуру\, иску
+ сство и социальную жизнь.\nГосударствен
+ ный Эрмитаж\nhttps://t.me/hermitage_museum/11842
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-urbi-et-orbi-ba
+ roque-and-antique-rome-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выставка «Urbi et Orbi. Рим барочный и 
+ Рим античный»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hermitage-sirotkin@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Открытие: Рим — Петербург. О несход
+ стве сходного
+LOCATION:Государственный Эрмитаж\, Дворцова
+ я пл.\, 2\, Санкт-Петербург
+DESCRIPTION:Проект памяти Аркадия Ипполитова
+ : его тексты о двух городах встречаются 
+ с фотографиями Сироткина.\nФотографии Д
+ митрия Сироткина\, тексты Аркадия Иппол
+ итова\nhttps://theblueprint.ru/culture/art/vystavki-november2026
+URL:https://doublebasskakov.github.io/radar/#e=hermitage-sirotkin
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Рим — Петербург. О несх
+ одстве сходного
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:oberton-fair-2026@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261207
 SUMMARY:«Обертон» — ярмарка графики Cosmoscow
@@ -1166,7 +3195,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:spb-anna-nova-gart-ozimandiya@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Открытие: Александра Гарт. «Озиманд
@@ -1188,7 +3217,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:aga-professional-conference-on-the-future-of-the-art-market--moscow@a
  fisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:Профессиональная конференция АГА о
@@ -1219,7 +3248,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:catalog-fair-anna-bat-s-project-habitus-at-gallery-9b-booth-moscow@af
  isha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261123
 SUMMARY:Ярмарка |catalog|: проект Анны Бат «Габи
@@ -1244,7 +3273,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:art-industry-2027-foundations-of-sustainability-and-drivers--moscow@a
  fisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:Арт-индустрия 2027: основы устойчивос
@@ -1271,8 +3300,35 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:exhibition-one-hundred-years-of-fashion-1918-2018-costumes-f-omsk@afi
+ sha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20270606
+DTEND;VALUE=DATE:20270607
+SUMMARY:Последний день: Выставка «Сто лет м
+ оды. 1918–2018. Костюм из собрания Государс
+ твенного Эрмитажа»
+LOCATION:Центр «Эрмитаж – Сибирь»\, Омск
+DESCRIPTION:Масштабная экспозиция представл
+ яет более ста исторических образов\, акс
+ ессуаров и предметов декора XX–XXI веков 
+ из фондов Эрмитажа\, а также дополняющие
+  их произведения прикладного искусства.
+ \nГосударственный Эрмитаж\nhttps://t.me/hermitage_m
+ useum/11850
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-one-hundred-yea
+ rs-of-fashion-1918-2018-costumes-f-omsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Выставка «Сто лет
+  моды. 1918–2018. Костюм из собрания Государ
+ ственного Эрмитажа»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:horizons-moscow@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:Горизонты
@@ -1296,7 +3352,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:hand-memory-volga-atlantis-samara@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261109
 DTEND;VALUE=DATE:20261116
 SUMMARY:Ручная память. Волжская Атлантида
@@ -1319,7 +3375,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:zvukovye-puti-ceam-artists@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:«Звуковые пути»: CEAM Artists
@@ -1343,7 +3399,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:crocodilepower-silver-armor-moscow@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Последний день: Выставка crocodilePOWER «С
@@ -1366,8 +3422,55 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:conference-beyond-the-lesson-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261115
+SUMMARY:Конференция «По ту сторону урока»
+LOCATION:Дом культуры «ГЭС-2»\, Москва
+DESCRIPTION:Междисциплинарное исследование 
+ современных и исторических педагогичес
+ ких практик\, низовых образовательных и
+ нициатив\, роли нейросетей и игровых фор
+ матов в обучении.\nЛера Конончук\, Дом ку
+ льтуры «ГЭС-2»\nhttps://t.me/vacges2/8526
+URL:https://doublebasskakov.github.io/radar/#e=conference-beyond-the-less
+ on-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Конференция «По ту сторону урока
+ »
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sound-up-festival-concert-olga-beloglazova-resonance-moscow@afisha-ar
+ t
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Концерт фестиваля Sound UP: Ольга Белог
+ лазова (RESONANCE)
+LOCATION:галерея fābula HQ\, завод «Кристалл»\, М
+ осква
+DESCRIPTION:Виолончелистка Ольга Белоглазов
+ а исполнит произведения американских м
+ инималистов и современных композиторов
+  в индустриальном пространстве с уникал
+ ьной акустикой.\nОльга Белоглазова\nhttps://
+ t.me/time_to_hear/192
+URL:https://doublebasskakov.github.io/radar/#e=sound-up-festival-concert-
+ olga-beloglazova-resonance-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт фестиваля Sound UP: Ольга Бел
+ оглазова (RESONANCE)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:autumn-edition-of-the-catalog-contemporary-art-fair-moscow@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261123
 SUMMARY:Осенний выпуск ярмарки современног
@@ -1394,7 +3497,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:after-the-sea-saint-peters@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Открытие: После моря
@@ -1413,34 +3516,32 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:screening-of-nevechernaya-and-discussion-with-the-authors-moscow@afis
- ha-art
-DTSTAMP:20261113T174826Z
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-SUMMARY:Показ фильма «Невечерняя» и обсужд
- ение с авторами
-LOCATION:КАРО/Арт\, Москва
-DESCRIPTION:В рамках проекта КАРО/Арт состоит
- ся показ фильма Марлена Хуциева «Невече
- рняя»\, после которого пройдет обсужден
- ие с известными киноведами и кинематогр
- афистами.\nМарлен Хуциев\, Наум Клейман\, 
- Али Хамраев\, Андрей Натоцинский\, Глеб П
- ирятинский\, Максим Павлов\nhttps://t.me/kinoartru/
- 13877
-URL:https://doublebasskakov.github.io/radar/#e=screening-of-nevechernaya-
- and-discussion-with-the-authors-moscow
+UID:catalog-fair-sistema-gallery-booth-dream-greenhouse-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261123
+SUMMARY:Ярмарка |catalog|: стенд SISTEMA GALLERY «Оранж
+ ерея сновидений»
+LOCATION:ЖК «Золотой»\, Софийская набережна
+ я\, д. 10\, Москва
+DESCRIPTION:SISTEMA GALLERY представляет проект чет
+ ырех художников на ярмарке современног
+ о искусства\, объединяющий различные ме
+ диумы в единую экологическую инсталляц
+ ию.\nАнна Касс\, Каролина Росляк\, Гоша Хо
+ мич\, Сергей Шеховцов\nhttps://t.me/sistema_gallery/2691
+URL:https://doublebasskakov.github.io/radar/#e=catalog-fair-sistema-galle
+ ry-booth-dream-greenhouse-moscow
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Показ фильма «Невечерняя» и обсу
- ждение с авторами
+DESCRIPTION:Ярмарка |catalog|: стенд SISTEMA GALLERY «Ора
+ нжерея сновидений»
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:imaginary-cosmos-samara@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20270328
 DTEND;VALUE=DATE:20270329
 SUMMARY:Последний день: Воображаемый космо
@@ -1463,9 +3564,77 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:exhibition-nikolai-akimov-s-archive-photography-as-a-noteboo-saint-pe
+ ters@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Выставка «Архив Николая Акимова. Фо
+ тография как записная книжка»
+LOCATION:РОСФОТО\, Большая Морская ул.\, 35\, Са
+ нкт-Петербург
+DESCRIPTION:Ретроспективная выставка к 125-лет
+ ию художника и сценографа Николая Акимо
+ ва\, представляющая его малоизвестные л
+ юбительские фотографии 1950–1960-х годов.\n
+ Николай Акимов\nhttps://t.me/museumrosphoto/4340
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-nikolai-akimov-
+ s-archive-photography-as-a-noteboo-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выставка «Архив Николая Акимова. 
+ Фотография как записная книжка»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:exhibition-traugott-island-saint-peters@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:Открытие: Выставка «Остров Траугот
+ »
+LOCATION:Музей искусства Санкт-Петербурга XX
+ –XX1 веков (МИСП)\, наб. канала Грибоедова\
+ , 103\, Санкт-Петербург
+DESCRIPTION:Масштабная ретроспективная выст
+ авка художественной династии Траугот\, 
+ объединяющая около пятисот произведени
+ й графики\, живописи и прикладного искус
+ ства.\nСемья Траугот\nhttps://t.me/mispspb/4426
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-traugott-island
+ -saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка «Остров Трауг
+ от»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:system-108-dafes-awards-show-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:System 108 × DAFES AWARDS SHOW
+LOCATION:Москва
+DESCRIPTION:Выступление команды лейбла System 108
+  и театрализованного проекта «Стерео Ши
+ рина» на церемонии DAFES Awards Show с музыкой\, 
+ видеоартом и перформансами.\nSystem 108\, СТЕ
+ РЕО ШИРИНА\nhttps://t.me/DAFES_platform/3360
+URL:https://doublebasskakov.github.io/radar/#e=system-108-dafes-awards-sh
+ ow-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:System 108 × DAFES AWARDS SHOW
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:exhibition-the-one-who-lost-his-head-and-other-forest-action-moscow@a
  fisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:Последний день: Выставка «„Потеряв
@@ -1488,7 +3657,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:platon-infante-solo-exhibition-moscow@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261208
 DTEND;VALUE=DATE:20261209
 SUMMARY:Персональная выставка Платона Инфа
@@ -1510,8 +3679,33 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:xiv-international-film-festival-cinema-without-barriers-scre-moscow@a
+ fisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261116
+SUMMARY:XIV Международный кинофестиваль «Ки
+ но без барьеров»: показ фильма «Пришеле
+ ц»
+LOCATION:Музей кино на ВДНХ\, Москва
+DESCRIPTION:Показы инклюзивной кинопрограмм
+ ы фестиваля\, включая художественный фи
+ льм Ивана Соснина «Пришелец» и другие к
+ артины о принятии и преодолении барьеро
+ в.\nИван Соснин\nhttps://t.me/museikino/6403
+URL:https://doublebasskakov.github.io/radar/#e=xiv-international-film-fes
+ tival-cinema-without-barriers-scre-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:XIV Международный кинофестиваль «
+ Кино без барьеров»: показ фильма «Прише
+ лец»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:exhibition-vest-2-0-moscow@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20270223
 DTEND;VALUE=DATE:20270224
 SUMMARY:Последний день: Выставка «Весть 2.0»
@@ -1535,7 +3729,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:model-range-exhibition-nizhny-novgo@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Открытие: Выставка «Модельный ряд»
@@ -1559,8 +3753,99 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:exhibition-season-results-no-63-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:Последний день: Выставка «Итоги сез
+ она №63»
+LOCATION:Арт-пространство «КУБ» (Cube.Moscow)\, Тв
+ ерская ул.\, 3\, Москва
+DESCRIPTION:Ежегодная выставка московских те
+ атральных художников представляет рабо
+ ты и сценографию к спектаклям прошедшег
+ о театрального сезона со всей России.\nС
+ оюз театральных деятелей России\nhttps://t.me
+ /cube_moscow/9558
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-season-results-
+ no-63-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Выставка «Итоги с
+ езона №63»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:harley-davidson-spirit-of-freedom-exhibition-saint-peters@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Открытие: Выставка «Harley-Davidson. Дух св
+ ободы»
+LOCATION:Эрарта\, Санкт-Петербург
+DESCRIPTION:Масштабная экспозиция в музее Эр
+ арта\, представляющая оригинальные и ка
+ стомные мотоциклы\, архивные материалы 
+ и российскую культуру Harley-Davidson.\n\nhttps://t.me
+ /erarta_museum/3606
+URL:https://doublebasskakov.github.io/radar/#e=harley-davidson-spirit-of-
+ freedom-exhibition-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка «Harley-Davidson. Дух 
+ свободы»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:grand-concert-for-the-anniversary-of-i-le-the-le-me-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Гранд-Концерт к юбилею «Île Thélème»
+LOCATION:Пространство «Île Thélème»\, Москва
+DESCRIPTION:Праздничный концерт с участием в
+ осемнадцати музыкантов в рамках праздн
+ ования пятилетия проекта\, сопровождающ
+ ийся демонстрацией барочных декораций.\
+ nМартынов\, Гринденко\, Мягкова и др.\nhttps:/
+ /t.me/ile_theleme/1849
+URL:https://doublebasskakov.github.io/radar/#e=grand-concert-for-the-anni
+ versary-of-i-le-the-le-me-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Гранд-Концерт к юбилею «Île Thélème»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:digital-lethargy-exhibition-saint-peters@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:Последний день: Выставка «Цифровая 
+ летаргия»
+LOCATION:Центр искусства и науки ИТМО\, Санк
+ т-Петербург\, Биржевая линия\, 16\, Санкт-П
+ етербург
+DESCRIPTION:Экспозиция работ молодых художни
+ ков\, исследующая тему коллективной уст
+ алости от цифровизации и переосмысляющ
+ ая отношения человека с технологиями.\nА
+ ся Каплан\nhttps://t.me/art_sci/2896
+URL:https://doublebasskakov.github.io/radar/#e=digital-lethargy-exhibitio
+ n-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Выставка «Цифров
+ ая летаргия»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:catalog-art-fair-6th-edition-moscow@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261123
 SUMMARY:Ярмарка |catalog| (6-й выпуск)
@@ -1582,7 +3867,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:marina-abramovic-element-project-milan@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:Открытие: Проект Marina Abramovic Element
@@ -1602,7 +3887,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:the-rake-s-progress-opera-moscow@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261120
 SUMMARY:Опера «Похождения повесы»
@@ -1624,7 +3909,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:pa-gallery-pseudomorphoses-booth-at-art021-shanghai-shanghai@afisha-a
  rt
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261115
 SUMMARY:Стенд PA Gallery «Псевдоморфозы» на ярм
@@ -1647,8 +3932,32 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:inclusive-festival-art-in-sensations-main-program-saint-peters@afisha
+ -art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Инклюзивный фестиваль «Искусство в
+  ощущениях»: Главная программа
+LOCATION:Главный штаб (Эрмитаж)\, Санкт-Петер
+ бург
+DESCRIPTION:Открытая программа фестиваля вкл
+ ючает концерт духового оркестра\, лекци
+ ю с сурдопереводом\, выступления глухих 
+ артистов и исторические танцы.\nЭрмитаж\
+ nhttps://t.me/hermitage_museum/11838
+URL:https://doublebasskakov.github.io/radar/#e=inclusive-festival-art-in-
+ sensations-main-program-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Инклюзивный фестиваль «Искусств
+ о в ощущениях»: Главная программа
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:i-am-the-signal-moscow@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:Я — Сигнал
@@ -1668,8 +3977,123 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:meditation-marathon-rhythm-zero-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261115
+SUMMARY:Марафон-медитация «РИТМ.НОЛЬ»
+LOCATION:Монолит Холл\, Москва\, Михайловски
+ й проезд\, 3В\, Москва
+DESCRIPTION:Двенадцатичасовой марафон-медит
+ ация на стыке техно-культуры\, практик и 
+ мультимедийного перформанса с живым эм
+ биент-сетом Никиты Забелина.\nNikita Zabelin\nhtt
+ ps://t.me/resonancemoscow/7698
+URL:https://doublebasskakov.github.io/radar/#e=meditation-marathon-rhythm
+ -zero-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Марафон-медитация «РИТМ.НОЛЬ»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:exhibition-his-serene-highness-naive-at-sistema-gallery-moscow@afisha
+ -art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Открытие: Выставка «Его Светлость Н
+ аив» в SISTEMA GALLERY
+LOCATION:SISTEMA GALLERY\, Москва
+DESCRIPTION:Экспозиция коллекции наивного ис
+ кусства Сергея Ястржембского\, объединя
+ ющая работы признанных мастеров и анони
+ мных авторов со всего мира.\nСергей Ястр
+ жембский\, Галина Чернова\nhttps://t.me/sistema_gall
+ ery/2679
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-his-serene-high
+ ness-naive-at-sistema-gallery-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка «Его Светлост
+ ь Наив» в SISTEMA GALLERY
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:exhibition-cuban-poster-1950-1970s-cinema-and-revolution-moscow@afish
+ a-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Открытие: Выставка «Кубинский плак
+ ат. 1950-1970-е. Кино и революция»
+LOCATION:ГМИИ им. А.С. Пушкина\, Москва
+DESCRIPTION:Выставка прикладной графики и пл
+ акатного искусства кубинских художнико
+ в середины XX века\, внесенного в реестр м
+ ирового наследия ЮНЕСКО.\nГМИИ им. А.С. Пу
+ шкина\nhttps://t.me/theartsmuseum/12541
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-cuban-poster-19
+ 50-1970s-cinema-and-revolution-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка «Кубинский пл
+ акат. 1950-1970-е. Кино и революция»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lecture-and-concert-dedicated-to-nikolai-medtner-s-75th-anni-saint-pe
+ ters@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Лекция и концерт к 75-летию Николая М
+ етнера
+LOCATION:Дом Радио\, Малая Садовая ул.\, 2\, Сан
+ кт-Петербург
+DESCRIPTION:Пианист Михаил Турпанов выступит
+  с лекцией о феномене композитора Никол
+ ая Метнера и исполнит его фортепианные 
+ произведения разных лет.\nМихаил Турпан
+ ов\nhttps://t.me/domradio_online/2171
+URL:https://doublebasskakov.github.io/radar/#e=lecture-and-concert-dedica
+ ted-to-nikolai-medtner-s-75th-anni-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекция и концерт к 75-летию Никола
+ я Метнера
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:installation-melting-diary-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Открытие: Инсталляция «Тающий днев
+ ник»
+LOCATION:Коммунальный блок Дома Наркомфина\
+ , Москва
+DESCRIPTION:Псевдодокументальная инсталляци
+ я\, исследующая архитектурное прошлое и 
+ скрытые цветовые решения Дома Наркомфи
+ на до его реконструкции.\nИван Новиков\, 
+ Дарья Сетевинец\nhttps://t.me/uuMSCA/4908
+URL:https://doublebasskakov.github.io/radar/#e=installation-melting-diary
+ -moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Инсталляция «Тающий дн
+ евник»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:hse-art-gallery-at-catalog-art-fair-moscow@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261123
 SUMMARY:Стенд Галереи Школы дизайна НИУ ВШЭ
@@ -1693,7 +4117,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:semyon-kotko-opera-moscow@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 SUMMARY:Опера «Семён Котко»
@@ -1713,7 +4137,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:macca-friends-animated-series-premiere-online@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:Премьера анимационного сериала Macca 
@@ -1734,30 +4158,52 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:catalog-art-fair-moscow@afisha-art
-DTSTAMP:20261113T174826Z
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261123
-SUMMARY:Ярмарка современного искусства | cata
- log |
-LOCATION:ЖК «Золотой»\, Софийская наб.\, 10\, Мо
- сква
-DESCRIPTION:Участие галереи TŌMO в арт-ярмарке 
- со стендом\, представляющим работы Анки 
- Ахалаи\, Кирилла Ашастина\, Кати Емельян
- овой и Есоль Ким.\nГалерея TŌMO\nhttps://t.me/tomo_a
- rt/2555
-URL:https://doublebasskakov.github.io/radar/#e=catalog-art-fair-moscow
+UID:system-108-party-police-in-paris-laud-roma-hard-shalze-moscow@afisha-
+ art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Вечеринка System 108: Police in Paris\, Лауд\, Roma 
+ Hard\, Shalze
+LOCATION:Москва
+DESCRIPTION:Масштабная клубная ночь с участи
+ ем белорусского хард-техно проекта Police i
+ n Paris\, уфимского хаус-трио «Лауд»\, Roma Hard 
+ и Shalze.\nPolice in Paris\, Лауд\, Roma Hard\, Shalze\nhttps://t.me
+ /system108/14614
+URL:https://doublebasskakov.github.io/radar/#e=system-108-party-police-in
+ -paris-laud-roma-hard-shalze-moscow
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Ярмарка современного искусства | 
- catalog |
+DESCRIPTION:Вечеринка System 108: Police in Paris\, Лауд\, R
+ oma Hard\, Shalze
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:vivacello-festival-concert-opensoundorchestra-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Концерт фестиваля VIVACELLO: OpensoundOrchestra
+LOCATION:ДК «Рассвет»\, Москва
+DESCRIPTION:В рамках фестиваля VIVACELLO прозвуча
+ т мировые премьеры: сочинения Баруха Бе
+ рлинера и Геннадия Ровнера для виолонче
+ ли с оркестром.\nOpensoundOrchestra\, Станислав Ма
+ лышев\, Борис Андрианов\nhttps://t.me/time_to_hear/190
+URL:https://doublebasskakov.github.io/radar/#e=vivacello-festival-concert
+ -opensoundorchestra-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт фестиваля VIVACELLO: OpensoundOrchest
+ ra
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:constructivism-days-moscow@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261123
 SUMMARY:Дни конструктивизма
@@ -1775,8 +4221,61 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:exhibition-between-appearance-and-disappearance-graphics-by--saint-pe
+ ters@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:Последний день: Выставка «Между явл
+ ением и исчезновением. Графика Евгения 
+ Герасимова»
+LOCATION:Государственный Эрмитаж (Фойе Эрми
+ тажного театра)\, Дворцовая наб.\, 34\, Санк
+ т-Петербург
+DESCRIPTION:Первая персональная выставка рес
+ тавратора Эрмитажа Евгения Герасимова\,
+  представляющая его уникальные авторск
+ ие японские гравюры.\nЕвгений Герасимов\
+ nhttps://t.me/hermitage_museum/11840
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-between-appeara
+ nce-and-disappearance-graphics-by--saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Выставка «Между я
+ влением и исчезновением. Графика Евгени
+ я Герасимова»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sergey-poteryaev-s-exhibition-soundscape-st-petersburg-symph-saint-pe
+ ters@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Открытие: Выставка Сергея Потеряев
+ а «Звуковой ландшафт. Санкт-Петербургск
+ ая симфония»
+LOCATION:Marina Gisich Projects\, набережная реки Фонт
+ анки\, 121\, Санкт-Петербург
+DESCRIPTION:Персональный проект исследует пр
+ омышленную архитектуру Петербурга чере
+ з фотографию и саунд-дизайн\, переосмысл
+ яющий память места.\nСергей Потеряев\, Ан
+ тон Шанихин\nhttps://t.me/agarussia/3618
+URL:https://doublebasskakov.github.io/radar/#e=sergey-poteryaev-s-exhibit
+ ion-soundscape-st-petersburg-symph-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка Сергея Потеря
+ ева «Звуковой ландшафт. Санкт-Петербург
+ ская симфония»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:exhibition-the-triumph-of-melancholy-moscow@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Выставка «Торжество меланхолии»
@@ -1799,7 +4298,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:dima-filippov-in-an-imaginary-country-finissage-saint-peters@afisha-a
  rt
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261116
 SUMMARY:Дима Филиппов «В воображаемой стра
@@ -1821,8 +4320,49 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:overton-online-graphics-fair-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:Открытие: Онлайн-ярмарка графики «О
+ бертон»
+LOCATION:Платформа ТЕО\, Москва
+DESCRIPTION:Второй выпуск онлайн-ярмарки гра
+ фики «Обертон»\, представляющий работы 3
+ 7 галерей из различных городов России на
+  платформе ТЕО.\nCosmoscow\nhttps://t.me/cosmoscowfair/6886
+URL:https://doublebasskakov.github.io/radar/#e=overton-online-graphics-fa
+ ir-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Онлайн-ярмарка графики 
+ «Обертон»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:concert-in-other-words-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261121
+SUMMARY:Концерт «Другими словами»
+LOCATION:Тон-Центр\, Москва\, Москва
+DESCRIPTION:Музыкальное высказывание композ
+ итора и режиссера Владислава Наставшев
+ а на стихи современных поэтов в купольн
+ ой акустике депо.\nВладислав Наставшев\nh
+ ttps://t.me/toncentermoscow/492
+URL:https://doublebasskakov.github.io/radar/#e=concert-in-other-words-mos
+ cow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт «Другими словами»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:folklore-as-infinity-festival-saint-peters@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:Фестиваль «Фольклор как бесконечно
@@ -1842,8 +4382,31 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:songs-of-the-eclair-exhibition-by-andrey-bartenev-saint-peters@afisha
+ -art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Открытие: Выставка «Песни эклéра» А
+ ндрея Бартенева
+LOCATION:Центр Курёхина\, Санкт-Петербург
+DESCRIPTION:Экспозиция включает более 40 колл
+ ажей и графических работ 1980–1990-х годов\,
+  авторские костюмы\, фотографии и видеом
+ атериалы.\nАндрей Бартенев\nhttps://t.me/kuryokhinc
+ enter/3372
+URL:https://doublebasskakov.github.io/radar/#e=songs-of-the-eclair-exhibi
+ tion-by-andrey-bartenev-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка «Песни эклéра
+ » Андрея Бартенева
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:kirill-manchunsky-angel-is-always-with-you-moscow@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261123
 SUMMARY:Кирилл Манчунский «Ангел всегда с т
@@ -1866,7 +4429,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:one-hundred-years-of-fashion-exhibition-omsk@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Выставка «Сто лет моды»
@@ -1886,7 +4449,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ivan-lubennikov-exhibition-moscow@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Открытие: Выставка Ивана Лубеннико
@@ -1909,8 +4472,138 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:submerge-project-exhibition-washington@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261116
+SUMMARY:Выставка SUBMERGE Project
+LOCATION:ARTECHOUSE DC\, Вашингтон
+DESCRIPTION:Масштабная выставка аудиовизуал
+ ьных миров и интерактивных инсталляций\
+ , включающая панорамное 18K-шоу Beyond the Render.
+ \nARTECHOUSE DC\nhttps://t.me/generativegallery/4536
+URL:https://doublebasskakov.github.io/radar/#e=submerge-project-exhibitio
+ n-washington
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выставка SUBMERGE Project
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:film-concert-with-1920s-soviet-avant-garde-music-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Фильм-концерт с музыкой советского 
+ авангарда 1920-х годов
+LOCATION:Центр Зотов\, Москва
+DESCRIPTION:Редкие партитуры советского аван
+ гарда — квартет Лурье и камерная симфон
+ ия Попова — в необычном формате фильма-
+ концерта.\nСолисты musicAeterna\, Дмитрий Боро
+ дин\nhttps://t.me/musicaeternaTC/4990
+URL:https://doublebasskakov.github.io/radar/#e=film-concert-with-1920s-so
+ viet-avant-garde-music-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Фильм-концерт с музыкой советско
+ го авангарда 1920-х годов
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:catalog-fair-preview-sistema-gallery-booth-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Препоказ ярмарки |catalog|: стенд SISTEMA GAL
+ LERY
+LOCATION:ЖК «Золотой»\, Софийская набережна
+ я\, д. 10\, Москва
+DESCRIPTION:Закрытый предпоказ проекта «Оран
+ жерея сновидений» от SISTEMA GALLERY в рамках я
+ рмарки современного искусства |catalog|.\nАн
+ на Касс\, Каролина Росляк\, Гоша Хомич\, С
+ ергей Шеховцов\nhttps://t.me/sistema_gallery/2691
+URL:https://doublebasskakov.github.io/radar/#e=catalog-fair-preview-siste
+ ma-gallery-booth-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Препоказ ярмарки |catalog|: стенд SISTEMA
+  GALLERY
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:spb-tretye-mesto-nevyrazimoe@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Открытие: «Невыразимое. Заметки об 
+ одиночестве»
+LOCATION:«Третье место»\, Литейный проспект\
+ , 62\, Санкт-Петербург
+DESCRIPTION:Более тридцати художников — живо
+ пись\, объекты и видео об одиночестве\, о
+ т вынужденной изоляции до выбранного уе
+ динения.\nДубосарский\, Хаим Сокол\, Алин
+ а Глазун\, Аня Жёлудь\, «Синий суп» и др.\nh
+ ttps://www.sobaka.ru/entertainment/art/222821
+URL:https://doublebasskakov.github.io/radar/#e=spb-tretye-mesto-nevyrazim
+ oe
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: «Невыразимое. Заметки о
+ б одиночестве»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dramatic-play-why-not-saint-peters@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261123
+SUMMARY:Драматический спектакль «Почему не
+ т?»
+LOCATION:Дом Радио\, Санкт-Петербург
+DESCRIPTION:Премьера постановки о любви и рас
+ ставании на музыку песен Теодора Курент
+ зиса в исполнении труппы musicAeterna Dance.\nАнн
+ а Гусева\, musicAeterna Dance\nhttps://t.me/musicaeternaTC/4990
+URL:https://doublebasskakov.github.io/radar/#e=dramatic-play-why-not-sain
+ t-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Драматический спектакль «Почему 
+ нет?»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:odair-faleco-talk-on-ai-cinema-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Лекция Одаира Фалеко об ИИ-кинемато
+ графе
+LOCATION:Кинозавод «Москино»\, Москва
+DESCRIPTION:Выступление основателя фестивал
+ я ИИ-кино Одаира Фалеко о развитии нейро
+ сетевых технологий в индустрии видео и 
+ кино.\nОдаир Фалеко\nhttps://t.me/malepeg/19963
+URL:https://doublebasskakov.github.io/radar/#e=odair-faleco-talk-on-ai-ci
+ nema-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекция Одаира Фалеко об ИИ-кинема
+ тографе
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:fuselab-showcase-moscow@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Fuselab Showcase
@@ -1928,8 +4621,52 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:other-words-performance-concert-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Концерт-спектакль «Другими словами
+ »
+LOCATION:ТОН-Центр\, Москва
+DESCRIPTION:Влад Наставшев представит музыка
+ льную программу на стихи поэта Семена Х
+ анина о внутренних кризисах и поисках с
+ ебя.\nВлад Наставшев\, Юра Гинзбург\nhttps://t
+ .me/toncentermoscow/502
+URL:https://doublebasskakov.github.io/radar/#e=other-words-performance-co
+ ncert-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт-спектакль «Другими слова
+ ми»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:exhibition-in-the-forests-perm@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:Последний день: Выставка «В лесах»
+LOCATION:Музей современного искусства ПЕРМ
+ М\, ул. Крисанова\, 4\, Пермь
+DESCRIPTION:Итоговая выставка резидентов 12-г
+ о сезона MaxArt\, исследующая природный и э
+ кологический контекст Пермского края.\n
+ Данил Куликов\, Яна Васильева\, Сергей По
+ теряев\, Анна Кондрашова\nhttps://t.me/maxartperm/772
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-in-the-forests-
+ perm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Выставка «В лесах
+ »
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:oleg-khvostov-at-gridchinhall-stand-moscow@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261123
 SUMMARY:Олег Хвостов на стенде Гридчинхолл
@@ -1951,7 +4688,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:luchino-visconti-retrospective-senso-moscow@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Ретроспектива Лукино Висконти: «Чу
@@ -1973,7 +4710,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:luchino-visconti-retrospective-the-innocent-moscow@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Ретроспектива Лукино Висконти: «Не
@@ -1995,7 +4732,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:trust-only-your-anxiety-saint-peters@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Открытие: Доверяй только твоей трев
@@ -2016,8 +4753,71 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:concert-string-quartets-vol-2-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Концерт «String quartets. Vol. 2»
+LOCATION:ДК «Рассвет»\, Москва
+DESCRIPTION:Презентация нового альбома антол
+ огии современной российской музыки с пр
+ оизведениями для струнного квартета.\nOpe
+ nsoundOrchestra\nhttps://t.me/dkrassvet/2347
+URL:https://doublebasskakov.github.io/radar/#e=concert-string-quartets-vo
+ l-2-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт «String quartets. Vol. 2»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:andrey-kuzkin-s-exhibition-the-headless-and-other-forest-act-moscow@a
+ fisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261116
+SUMMARY:Выставка Андрея Кузькина «"Потеряв
+ ший голову" и другие лесные акции»
+LOCATION:ЦСИ Фабрика\, Москва
+DESCRIPTION:Масштабный проект известного худ
+ ожника\, посвященный документации и осм
+ ыслению лесных акций и перформансов.\nАн
+ дрей Кузькин\nhttps://t.me/cci_fabrika/6081
+URL:https://doublebasskakov.github.io/radar/#e=andrey-kuzkin-s-exhibition
+ -the-headless-and-other-forest-act-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выставка Андрея Кузькина «"Потер
+ явший голову" и другие лесные акции»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:chamber-meeting-composer-creation-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Камерная встреча «Композитор: сози
+ дание?»
+LOCATION:Галерея Île Thélème\, Москва\, Москва
+DESCRIPTION:Пилотная камерная встреча-дискус
+ сия с ведущими современными композитор
+ ами и музыкантами о роли творчества.\nВл
+ адимир Мартынов\, Владимир Горлинский\, 
+ Юра Гинзбург\nhttps://t.me/muzlifemagazine/10194
+URL:https://doublebasskakov.github.io/radar/#e=chamber-meeting-composer-c
+ reation-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Камерная встреча «Композитор: со
+ зидание?»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:exhibition-melting-diary-ivan-novikov-moscow@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
 SUMMARY:Последний день: Выставка «Тающий дн
@@ -2039,30 +4839,147 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:hermitage-sirotkin@afisha-art
-DTSTAMP:20261113T174826Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-SUMMARY:Открытие: Рим — Петербург. О несход
- стве сходного
-LOCATION:Государственный Эрмитаж\, Дворцова
- я пл.\, 2\, Санкт-Петербург
-DESCRIPTION:Проект памяти Аркадия Ипполитова
- : его тексты о двух городах встречаются 
- с фотографиями Сироткина.\nФотографии Д
- митрия Сироткина\, тексты Аркадия Иппол
- итова\nhttps://theblueprint.ru/culture/art/vystavki-november2026
-URL:https://doublebasskakov.github.io/radar/#e=hermitage-sirotkin
+UID:concert-of-the-dsch-shostakovich-code-subscription-saint-peters@afish
+ a-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Концерт абонемента «DSCH - код Шостак
+ овича»
+LOCATION:Санкт-Петербургская филармония (Бо
+ льшой зал)\, Санкт-Петербург
+DESCRIPTION:Концерт симфонической музыки в р
+ амках юбилейной филармонической програ
+ ммы к 120-летию Д. Д. Шостаковича.\nАнатоли
+ й Рыбалко\, Иван Бессонов\, ЗКР\nhttps://t.me/phil
+ harmoniaspb/2422
+URL:https://doublebasskakov.github.io/radar/#e=concert-of-the-dsch-shosta
+ kovich-code-subscription-saint-peters
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Открытие: Рим — Петербург. О несх
- одстве сходного
+DESCRIPTION:Концерт абонемента «DSCH - код Шост
+ аковича»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:free-admission-day-for-egor-letov-s-grass-up-to-the-waist-na-moscow@a
+ fisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:Бесплатный день посещения выставки
+  «Трава по пояс. Природа и искусство Его
+ ра Летова»
+LOCATION:Центр Вознесенского\, Большая Орды
+ нка\, д. 46\, стр. 3\, Москва
+DESCRIPTION:Специальный день свободного вход
+ а на масштабную экспозицию\, посвященну
+ ю жизни и творчеству Егора Летова.\nЦент
+ р Вознесенского\nhttps://t.me/voznesenskycenter/4667
+URL:https://doublebasskakov.github.io/radar/#e=free-admission-day-for-ego
+ r-letov-s-grass-up-to-the-waist-na-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Бесплатный день посещения выстав
+ ки «Трава по пояс. Природа и искусство Е
+ гора Летова»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:exhibition-ra-tsel-um-renoir-at-the-kurpfa-lzisches-museum-heidelberg
+ @afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Открытие: Выставка «Загадка вокруг 
+ Ренуара» в Курпфальцском музее
+LOCATION:Курпфальцский музей\, Гейдельберг
+DESCRIPTION:Экспозиция новоатрибутированной
+  литографии Пьера Огюста Ренуара 1899 год
+ а\, ранее считавшейся подделкой.\nГенри К
+ еазор\nhttps://t.me/artguide_com/9099
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-ra-tsel-um-reno
+ ir-at-the-kurpfa-lzisches-museum-heidelberg
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка «Загадка вокр
+ уг Ренуара» в Курпфальцском музее
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:message-to-man-festival-echo-program-screenings-in-pskov-pskov@afisha
+ -art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261130
+SUMMARY:Фестиваль «Послание к человеку»: по
+ казы программы «Эхо» в Пскове
+LOCATION:Кинотеатр «Акваполис»\, Псков
+DESCRIPTION:Показы документального и коротко
+ метражного кино из шорт-листа фестиваля
+  «Послание к человеку» в Пскове.\nМираж С
+ инема\nhttps://t.me/message2man/2821
+URL:https://doublebasskakov.github.io/radar/#e=message-to-man-festival-ec
+ ho-program-screenings-in-pskov-pskov
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Фестиваль «Послание к человеку»: 
+ показы программы «Эхо» в Пскове
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:oleg-kagan-memorial-festival-chamber-music-concert-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Фестиваль памяти Олега Кагана: Конц
+ ерт камерной музыки
+LOCATION:Московская консерватория\, Малый з
+ ал\, Большая Никитская ул.\, 13\, Москва
+DESCRIPTION:В исполнении известных музыканто
+ в прозвучат произведения Скрябина\, Мет
+ нера\, Рахманинова и Аренского.\nР. Сосни
+ н\, Д. Винник\, С. Мороз\, Е. Румянцев\nhttps://t.
+ me/mosconsv/1454
+URL:https://doublebasskakov.github.io/radar/#e=oleg-kagan-memorial-festiv
+ al-chamber-music-concert-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Фестиваль памяти Олега Кагана: Ко
+ нцерт камерной музыки
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:film-program-revealing-age-naomi-kawase-screenings-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261126
+SUMMARY:Кинопрограмма «Обнажая возраст»: п
+ оказы фильмов Наоми Кавасэ
+LOCATION:Музей «Гараж»\, Крымский Вал\, 9\, с. 32
+ \, Москва
+DESCRIPTION:Показ документальных работ японс
+ кого режиссера о повседневности и старе
+ нии с последующей медиацией.\nНаоми Кава
+ сэ\, Елена Чернышова\, Тина Широкоступ\nhtt
+ ps://garagemca.org/event/revealing-age-film-program
+URL:https://doublebasskakov.github.io/radar/#e=film-program-revealing-age
+ -naomi-kawase-screenings-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Кинопрограмма «Обнажая возраст»:
+  показы фильмов Наоми Кавасэ
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ges2-gala@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:ГЭС-2 Гала
@@ -2081,27 +4998,81 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:soundup-resonance@afisha-art
-DTSTAMP:20261113T174826Z
-DTSTART;VALUE=DATE:20261127
-DTEND;VALUE=DATE:20261128
-SUMMARY:Sound Up Resonance
-LOCATION:Галерея fābula HQ\, Москва
-DESCRIPTION:Первый концерт новой серии Sound Up: 
- восемь взглядов современных композитор
- ов на виолончель.\nОльга Белоглазова\, ви
- олончель\nhttps://theblueprint.ru/culture/music/music-november-20
- 26
-URL:https://doublebasskakov.github.io/radar/#e=soundup-resonance
+UID:message-to-man-festival-echo-program-screenings-in-yekaterin-yekateri
+ nbur@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Открытие: Фестиваль «Послание к чел
+ овеку»: показы программы «Эхо» в Екатер
+ инбурге
+LOCATION:Музей Ельцин Центр\, Екатеринбург
+DESCRIPTION:Показы избранных фильмов из конк
+ урсных программ фестиваля «Послание к ч
+ еловеку» в Екатеринбурге.\nЕльцин Центр\
+ , Дом кино\nhttps://t.me/message2man/2821
+URL:https://doublebasskakov.github.io/radar/#e=message-to-man-festival-ec
+ ho-program-screenings-in-yekaterin-yekaterinbur
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Sound Up Resonance
+DESCRIPTION:Открытие: Фестиваль «Послание к ч
+ еловеку»: показы программы «Эхо» в Екат
+ еринбурге
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mila-nishatova-s-solo-exhibition-sometimes-water-moves-towar-moscow@a
+ fisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Открытие: Персональная выставка Ми
+ лы Нишатовой «Иногда вода двигается в с
+ торону луны»
+LOCATION:ММОМА на Петровке\, Петровка\, 25\, Мо
+ сква
+DESCRIPTION:Выставка с центральной кинетичес
+ кой инсталляцией\, имитирующей природны
+ й ритм приливов и отливов.\nМила Нишатов
+ а\nhttps://t.me/af_1703/4479
+URL:https://doublebasskakov.github.io/radar/#e=mila-nishatova-s-solo-exhi
+ bition-sometimes-water-moves-towar-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Персональная выставка 
+ Милы Нишатовой «Иногда вода двигается в
+  сторону луны»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:oleg-kagan-memorial-festival-road-without-end-concert-moscow@afisha-a
+ rt
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Фестиваль памяти Олега Кагана: Конц
+ ерт «Дорога без конца»
+LOCATION:Московская консерватория\, Малый з
+ ал\, Большая Никитская ул.\, 13\, Москва
+DESCRIPTION:Программа объединит сочинения Па
+ ганини\, Кастельнуово-Тедеско и Пьяццол
+ лы для скрипки и гитары.\nГ. Башмет\, С. Мо
+ роз\, А. Папушев\, Д. Илларионов\nhttps://t.me/mosc
+ onsv/1454
+URL:https://doublebasskakov.github.io/radar/#e=oleg-kagan-memorial-festiv
+ al-road-without-end-concert-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Фестиваль памяти Олега Кагана: Ко
+ нцерт «Дорога без конца»
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mayak-2026-film-festival-screenings-saint-peters@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Показы фестиваля актуального кино 
@@ -2123,8 +5094,55 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:national-competition-screening-echo-of-the-message-to-man-fe-moscow@a
+ fisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Сеанс национального конкурса: «Эхо
+ » фестиваля «Послание к человеку» в Мос
+ кве
+LOCATION:Музей современного искусства «Гар
+ аж»\, Москва
+DESCRIPTION:Показ сборной программы документ
+ альных фильмов-победителей национально
+ го конкурса фестиваля.\nПавел Пугачёв\nhtt
+ ps://t.me/message2man/2838
+URL:https://doublebasskakov.github.io/radar/#e=national-competition-scree
+ ning-echo-of-the-message-to-man-fe-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Сеанс национального конкурса: «Э
+ хо» фестиваля «Послание к человеку» в М
+ оскве
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:exhibition-stitches-hooks-and-a-red-thread-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261116
+SUMMARY:Выставка «Стежки\, крючки и красная 
+ нить»
+LOCATION:ММОМА на Ермолаевском\, Ермолаевск
+ ий переулок\, 17\, Москва
+DESCRIPTION:Мини-энциклопедия и выставка\, ра
+ ссказывающая об истории одежды через кл
+ ючевые экспонаты.\nВладимир Прохоров\, м
+ едиа Acme\nhttps://t.me/mmoma/3888
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-stitches-hooks-
+ and-a-red-thread-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выставка «Стежки\, крючки и красн
+ ая нить»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:luchino-visconti-retrospective-white-nights-moscow@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Ретроспектива Лукино Висконти: «Бе
@@ -2145,8 +5163,29 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:st-petersburg-premiere-of-the-film-malika-saint-peters@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Петербуржская премьера фильма «Мал
+ ика»
+LOCATION:Дом Радио\, Санкт-Петербург
+DESCRIPTION:Дебютная полнометражная лента На
+ тальи Уваровой\, завоевавшая гран-при фе
+ стиваля «Маяк».\nНаталья Уварова\nhttps://dom.
+ radio
+URL:https://doublebasskakov.github.io/radar/#e=st-petersburg-premiere-of-
+ the-film-malika-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Петербуржская премьера фильма «М
+ алика»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:fabula-anemoia@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:Анемойя
@@ -2166,8 +5205,52 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:oleg-kagan-memorial-festival-interrupted-flight-concert-moscow@afisha
+ -art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Фестиваль памяти Олега Кагана: Конц
+ ерт «Прерванный полет»
+LOCATION:Московская консерватория\, Малый з
+ ал\, Большая Никитская ул.\, 13\, Москва
+DESCRIPTION:Выступление камерного оркестра и
+  солистов с произведениями Моцарта и Шн
+ итке.\nКамерный оркестр «Art Incognito»\, П. Гла
+ дыш\, С. Мороз\, А. Ларионова-Гладыш\nhttps://t.
+ me/mosconsv/1454
+URL:https://doublebasskakov.github.io/radar/#e=oleg-kagan-memorial-festiv
+ al-interrupted-flight-concert-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Фестиваль памяти Олега Кагана: Ко
+ нцерт «Прерванный полет»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:taneyev-quartet-concert-saint-peters@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:Концерт Квартета имени Танеева
+LOCATION:Малый зал Санкт-Петербургской фила
+ рмонии\, Невский пр.\, 30\, Санкт-Петербург
+DESCRIPTION:Юбилейный концерт в честь 80-летия
+  со дня основания Квартета имени Танеев
+ а.\nКвартет имени Танеева\nhttps://t.me/philharmonias
+ pb/2431
+URL:https://doublebasskakov.github.io/radar/#e=taneyev-quartet-concert-sa
+ int-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт Квартета имени Танеева
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:msk-muzey-moskvy-reflections@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20270129
 DTEND;VALUE=DATE:20270130
 SUMMARY:Последний день: Никола Мельников. REF
@@ -2193,7 +5276,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:premiere-of-the-multimedia-show-galileo-and-the-secrets-of-t-moscow@a
  fisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Премьера мультимедийного шоу «Гали
@@ -2216,12 +5299,12 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:vld-zarya-na-nozhkakh@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20270411
 DTEND;VALUE=DATE:20270412
 SUMMARY:Последний день: «На ножках»
-LOCATION:ЦСИ «Заря»\, выставочный зал\, Влади
- восток
+LOCATION:ЦСИ «Заря»\, выставочный зал\, пр-т 10
+ 0-летия Владивостока\, 155\, Владивосток
 DESCRIPTION:Передвижная групповая выставка о
  б избушке Бабы-яги как архитектурном об
  разе — от концептуалистов до некрореал
@@ -2237,32 +5320,53 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:sa-mmoma-psychoacoustics@afisha-art
-DTSTAMP:20261113T174826Z
-DTSTART;VALUE=DATE:20261125
-DTEND;VALUE=DATE:20261126
-SUMMARY:Открытие: «Психоакустика и феномен
- ология звука»: цикл лекций soundartist.ru × MMOMA
-LOCATION:Московский музей современного иск
- усства (и онлайн)\, Москва
-DESCRIPTION:Новый цикл лекций о слуховом опыт
- е: от основ психоакустики\, звуковых пар
- адоксов и пространственно-временных от
- ношений до философии звукозаписи и фено
- менологии слуха. Офлайн и онлайн.\nsoundartist
- .ru\nhttps://t.me/soundartist_ru/696
-URL:https://doublebasskakov.github.io/radar/#e=sa-mmoma-psychoacoustics
+UID:clay-pillar-submerge-project-washington@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Clay Pillar (SUBMERGE Project)
+LOCATION:ARTECHOUSE DC\, 1238 Maryland Ave SW\, Washington\, DC 20024\, 
+ Вашингтон
+DESCRIPTION:Интерактивная инсталляция: участ
+ ники лепят глину\, а ИИ превращает их сло
+ ва и жесты в развивающееся цифровое про
+ изведение. Экспонируется в рамках SUBMERGE P
+ roject до 15 ноября\; отдельное время не указ
+ ано.\nInteractive Items\nhttps://www.artechouse.com/program/submerge-d
+ c/
+URL:https://doublebasskakov.github.io/radar/#e=clay-pillar-submerge-proje
+ ct-washington
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Открытие: «Психоакустика и феном
- енология звука»: цикл лекций soundartist.ru × MM
- OMA
+DESCRIPTION:Clay Pillar (SUBMERGE Project)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:octologue-submerge-project-washington@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Octologue (SUBMERGE Project)
+LOCATION:ARTECHOUSE DC\, 1238 Maryland Ave SW\, Washington\, DC 20024\, 
+ Вашингтон
+DESCRIPTION:Интерактивная инсталляция: скуль
+ птуры философов оживают с помощью ИИ и в
+ едут дебаты в тексте и аудио. Экспонируе
+ тся в рамках SUBMERGE Project до 15 ноября\; отдел
+ ьное время сеансов не указано.\nARTECHOUSE DC\nh
+ ttps://www.artechouse.com/program/submerge-dc/
+URL:https://doublebasskakov.github.io/radar/#e=octologue-submerge-project
+ -washington
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Octologue (SUBMERGE Project)
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:habitus-bestiary-of-bird-characters-myths-and-facts-moscow@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:Габитус. Бестиарий птичьих характе
@@ -2287,8 +5391,96 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:film-program-still-life-portrait-landscape-after-genre-at-ge-moscow@a
+ fisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Открытие: Кинопрограмма «Натюрморт
+ . Портрет. Пейзаж. После жанра» в ГЭС-2
+LOCATION:Дом культуры «ГЭС-2»\, Болотная наб.\
+ , 15\, Москва
+DESCRIPTION:Новая кинопрограмма исследует фи
+ льмы\, режиссеры которых заимствовали п
+ ринципы композиции\, работы со светом и 
+ характера у классических жанров живопи
+ си.\n\nhttps://t.me/vacges2/8546
+URL:https://doublebasskakov.github.io/radar/#e=film-program-still-life-po
+ rtrait-landscape-after-genre-at-ge-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Кинопрограмма «Натюрмо
+ рт. Портрет. Пейзаж. После жанра» в ГЭС-2
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:jean-michel-basquiat-documentary-on-netflix-online@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:Документальный фильм «Жан-Мишель Б
+ аския» на Netflix
+LOCATION:Netflix\, Онлайн
+DESCRIPTION:Премьера документальной ленты о 
+ художнике Жан-Мишеле Баскии\, созданной 
+ на основе редких архивных материалов\, р
+ анних работ и воспоминаний близких.\nNetfli
+ x\nhttps://t.me/theblueprintnews/99496
+URL:https://doublebasskakov.github.io/radar/#e=jean-michel-basquiat-docum
+ entary-on-netflix-online
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Документальный фильм «Жан-Мишель
+  Баския» на Netflix
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:asylum-4-years-marla-singer-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:ASYLUM 4 YEARS: Marla Singer
+LOCATION:Клуб DEX\, Москва
+DESCRIPTION:Выступление артистки Marla Singer в ра
+ мках празднования четырехлетия промо-ф
+ ормации ASYLUM с гипнотичным тяжелым техно
+  и псай-мотивами.\nMarla Singer\nhttps://t.me/QticketsBuyBot
+ /buy?startapp=259665
+URL:https://doublebasskakov.github.io/radar/#e=asylum-4-years-marla-singe
+ r-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ASYLUM 4 YEARS: Marla Singer
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:performance-mayakovsky-date-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261117
+SUMMARY:Спектакль «Маяковский. Свидание»
+LOCATION:Центральный дом литераторов\, Моск
+ ва
+DESCRIPTION:Поэтическое посвящение девушкам\
+ , влюбленным в поэтов\, основанное на ист
+ ории переписки Владимира Маяковского с 
+ неизвестной поклонницей.\nАлександр Тро
+ нов\, Анна Тихомирова\, Светлана Шилова\, 
+ Алексей Кирсанов\nhttps://t.me/theblueprintnews/99504
+URL:https://doublebasskakov.github.io/radar/#e=performance-mayakovsky-dat
+ e-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спектакль «Маяковский. Свидание»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:preview-tour-of-the-catalog-art-fair-moscow@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:Экскурсия-превью по ярмарке |catalog|
@@ -2311,7 +5503,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:conference-art-industry-2027-foundations-of-sustainability-a-moscow@a
  fisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:Конференция «Арт-индустрия 2027: осно
@@ -2334,7 +5526,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:vadim-mikhailov-bylyem-poroslo-saint-peters@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Открытие: Вадим Михайлов «Быльем по
@@ -2356,8 +5548,71 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:digital-lethargy-saint-peters@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:Последний день: Цифровая летаргия
+LOCATION:Центр искусства и науки ИТМО\, Бирж
+ евая линия\, 16\, Санкт-Петербург
+DESCRIPTION:Выставка под кураторством Аси Ка
+ план\, объединяющая работы 17 художников\
+ , исследующих осязаемость цифровых техн
+ ологий.\nАся Каплан\, Центр искусства и н
+ ауки ИТМО\nhttps://t.me/art_sci/2894
+URL:https://doublebasskakov.github.io/radar/#e=digital-lethargy-saint-pet
+ ers
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Цифровая летарги
+ я
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:the-wicker-man-screening-and-discussion-kazan@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Показ фильма «Плетеный человек» и о
+ бсуждение
+LOCATION:Центр современной культуры «Смена
+ »\, ул. Бурхана Шахиди\, 7\, Казань
+DESCRIPTION:Кинопоказ и дискуссия\, посвященн
+ ые анализу культовых экранных образов и
+  тематике фильма «Плетеный человек».\n\nht
+ tps://t.me/mestokzn/795
+URL:https://doublebasskakov.github.io/radar/#e=the-wicker-man-screening-a
+ nd-discussion-kazan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильма «Плетеный человек» 
+ и обсуждение
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:tolerance-week-2026-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261120
+SUMMARY:Неделя толерантности 2026
+LOCATION:Еврейский музей и центр толерантно
+ сти\, Москва
+DESCRIPTION:Четыре дня лекций\, кинопоказов\, 
+ музыкальных и культурных встреч\, посвя
+ щенных диалогу традиций и искусств.\n\nhttp
+ s://t.me/jewishmuseum/5753
+URL:https://doublebasskakov.github.io/radar/#e=tolerance-week-2026-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Неделя толерантности 2026
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:mou-sen@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20270221
 DTEND;VALUE=DATE:20270222
 SUMMARY:Последний день: Моу Сэнь. Божествен
@@ -2374,6 +5629,42 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Последний день: Моу Сэнь. Божеств
  енная комедия
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:shalze-at-asylum-4-years-party-at-dex-club-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:SHALZE на вечеринке ASYLUM 4 YEARS в клубе DEX
+LOCATION:Клуб DEX\, Москва
+DESCRIPTION:Жесткий шранц-сет от резидента TECH
+ NOVIBE на четырехлетии промо-формации ASYLUM.\
+ nSHALZE\nhttps://t.me/QticketsBuyBot/buy?startapp=259665
+URL:https://doublebasskakov.github.io/radar/#e=shalze-at-asylum-4-years-p
+ arty-at-dex-club-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SHALZE на вечеринке ASYLUM 4 YEARS в клубе D
+ EX
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:monasterio-season-2026-closing-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:Monasterio Season 2026 Closing
+LOCATION:Москва\, Москва
+DESCRIPTION:Масштабное закрытие рейв-сезона 
+ от команды Monasterio.\nMonasterio\nhttps://monasterio.moscow/
+URL:https://doublebasskakov.github.io/radar/#e=monasterio-season-2026-clo
+ sing-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Monasterio Season 2026 Closing
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:exhibition-artists-to-sofia-gubaidulina-kazan@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261116
+SUMMARY:Выставка «Художники — Софии Губайд
+ улиной»
+LOCATION:Выставочный зал Казанской ратуши\, 
+ ул. Карла Маркса\, 33\, Казань
+DESCRIPTION:Экспозиция к 95-летию Софии Губайд
+ улиной\, включающая живопись\, графику\, 
+ личные вещи композитора и ее партитуры.\
+ nКазанская ратуша\nhttps://t.me/centergubaidulinoy/2376
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-artists-to-sofi
+ a-gubaidulina-kazan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выставка «Художники — Софии Губа
+ йдулиной»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:concert-clavier-and-voice-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261114T110000Z
+DTEND:20261114T130000Z
+SUMMARY:Концерт «Клавир и голос»
+LOCATION:Рахманиновский зал консерватории\,
+  Б. Никитская ул.\, 11\, Москва
+DESCRIPTION:Клавишица Мария Успенская предст
+ авит программу из произведений старинн
+ ой и академической музыки от Букстехуде
+  и Баха до современных отечественных ко
+ мпозиторов.\nМария Успенская\nhttps://t.me/moscon
+ sv/1458
+URL:https://doublebasskakov.github.io/radar/#e=concert-clavier-and-voice-
+ moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт «Клавир и голос»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:digital-lethargy-exhibition-saint-peters@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:Последний день: Выставка «Цифровая 
+ летаргия»
+LOCATION:Центр искусства и науки ИТМО\, Санк
+ т-Петербург\, Биржевая линия\, 16\, Санкт-П
+ етербург
+DESCRIPTION:Экспозиция работ молодых художни
+ ков\, исследующая тему коллективной уст
+ алости от цифровизации и переосмысляющ
+ ая отношения человека с технологиями.\nА
+ ся Каплан\nhttps://t.me/art_sci/2896
+URL:https://doublebasskakov.github.io/radar/#e=digital-lethargy-exhibitio
+ n-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Выставка «Цифров
+ ая летаргия»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ink-london@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20270422
+DTEND;VALUE=DATE:20270423
+SUMMARY:Открытие: Ink
+LOCATION:Tate Modern\, Лондон\, Великобритания
+DESCRIPTION:Экспозиция\, демонстрирующая сло
+ жную эстетику и красоту традиционного и
+ скусства работы с тушью.\n\nhttps://www.tate.org.uk/w
+ hats-on/tate-modern/ink
+URL:https://doublebasskakov.github.io/radar/#e=ink-london
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Ink
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

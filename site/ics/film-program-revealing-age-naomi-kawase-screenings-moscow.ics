@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:film-program-revealing-age-naomi-kawase-screenings-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261126
+SUMMARY:Кинопрограмма «Обнажая возраст»: п
+ оказы фильмов Наоми Кавасэ
+LOCATION:Музей «Гараж»\, Крымский Вал\, 9\, с. 32
+ \, Москва
+DESCRIPTION:Показ документальных работ японс
+ кого режиссера о повседневности и старе
+ нии с последующей медиацией.\nНаоми Кава
+ сэ\, Елена Чернышова\, Тина Широкоступ\nhtt
+ ps://garagemca.org/event/revealing-age-film-program
+URL:https://doublebasskakov.github.io/radar/#e=film-program-revealing-age
+ -naomi-kawase-screenings-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Кинопрограмма «Обнажая возраст»:
+  показы фильмов Наоми Кавасэ
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

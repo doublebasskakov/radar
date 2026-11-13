@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:exhibition-dot-and-line-kaliningrad@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Открытие: Выставка «Точка и линия»
+LOCATION:Третьяковская галерея. Калинингра
+ д\, Калининград
+DESCRIPTION:Экспозиция современного искусст
+ ва\, исследующая графические основы и ви
+ зуальные структуры.\n\nhttps://www.afisha.ru/exhibition/
+ tochka-i-liniya-1012664/#rcmrclid=140e859c77a6e58d
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-dot-and-line-ka
+ liningrad
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка «Точка и линия
+ »
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

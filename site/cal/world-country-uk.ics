@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:hcmf-2026@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20261120T180000Z
 DTEND:20261120T200000Z
 SUMMARY:Открытие: hcmf// 2026 Huddersfield Contemporary Music Fes
@@ -30,8 +30,110 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:tate-frida@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+SUMMARY:Последний день: Frida: The Making of an Icon
+LOCATION:Tate Modern\, Bankside\, London SE1 9TG\, Лондон\, Вел
+ икобритания
+DESCRIPTION:Выставка о том\, как Фрида Кало пр
+ евратилась в глобальную икону\, и о её вл
+ иянии на художников последующих поколе
+ ний.\nФрида Кало\nhttps://tate.org.uk/press/press-releases/ta
+ te-announces-2026-exhibition-highlights
+URL:https://doublebasskakov.github.io/radar/#e=tate-frida
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Frida: The Making of an Icon
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:tate-le-parc@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20270503
+DTEND;VALUE=DATE:20270504
+SUMMARY:Последний день: Julio Le Parc: Light. Colour. Action
+ .
+LOCATION:Tate Modern\, Bankside\, London SE1 9TG\, Лондон\, Вел
+ икобритания
+DESCRIPTION:Ретроспектива аргентинского пио
+ нера кинетического и оп-арта с интеракт
+ ивными световыми средами.\nХулио Ле Парк
+ \nhttps://tate.org.uk/press/press-releases/tate-announces-2026-exhibition
+ -highlights
+URL:https://doublebasskakov.github.io/radar/#e=tate-le-parc
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Julio Le Parc: Light. Colour. Ac
+ tion.
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:tate-mendieta@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:Последний день: Ana Mendieta
+LOCATION:Tate Modern\, Bankside\, London SE1 9TG\, Лондон\, Вел
+ икобритания
+DESCRIPTION:Большая выставка кубино-американ
+ ской художницы\, соединявшей перформанс
+ \, ленд-арт и фотографию.\nАна Мендьета\nhtt
+ ps://tate.org.uk/press/press-releases/tate-announces-2026-exhibition-high
+ lights
+URL:https://doublebasskakov.github.io/radar/#e=tate-mendieta
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Ana Mendieta
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:tate-monet-painting-time@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20270225
+DTEND;VALUE=DATE:20270226
+SUMMARY:Открытие: Monet: Painting Time
+LOCATION:Tate Modern\, Bankside\, London SE1 9TG\, Лондон\, Вел
+ икобритания
+DESCRIPTION:Первая выставка Моне в Тейт Модер
+ н — о времени\, серийности и изменчивом 
+ свете в его живописи.\nКлод Моне\nhttps://www.ti
+ meout.com/london/news/monet-painting-time-tate-modern-launch-date-2027-09
+ 1626
+URL:https://doublebasskakov.github.io/radar/#e=tate-monet-painting-time
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Monet: Painting Time
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:tate-nalini-malani@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20270701
+DTEND;VALUE=DATE:20270702
+SUMMARY:Открытие: Nalini Malani
+LOCATION:Tate Modern\, Bankside\, London SE1 9TG\, Лондон\, Вел
+ икобритания
+DESCRIPTION:Обзорная выставка индийской худо
+ жницы\, известной видеоинсталляциями и 
+ «теневыми» проекциями.\nНалини Малани\nht
+ tps://www.theartnewspaper.com/2026/03/16/tate-announces-major-david-hockn
+ ey-edvard-munch-and-sonia-boyce-exhibitions-for-2027
+URL:https://doublebasskakov.github.io/radar/#e=tate-nalini-malani
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Nalini Malani
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:tate-atoui-hold@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20270411
 DTEND;VALUE=DATE:20270412
 SUMMARY:Последний день: Hyundai Commission: Tarek Atoui. Hol
@@ -54,7 +156,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tate-britain-hockney@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20271007
 DTEND;VALUE=DATE:20271008
 SUMMARY:Открытие: David Hockney
@@ -74,110 +176,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:tate-frida@afisha-art
-DTSTAMP:20261113T174826Z
-DTSTART;VALUE=DATE:20270103
-DTEND;VALUE=DATE:20270104
-SUMMARY:Последний день: Frida: The Making of an Icon
-LOCATION:Tate Modern\, Bankside\, London SE1 9TG\, Лондон\, Вел
- икобритания
-DESCRIPTION:Выставка о том\, как Фрида Кало пр
- евратилась в глобальную икону\, и о её вл
- иянии на художников последующих поколе
- ний.\nФрида Кало\nhttps://tate.org.uk/press/press-releases/ta
- te-announces-2026-exhibition-highlights
-URL:https://doublebasskakov.github.io/radar/#e=tate-frida
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Последний день: Frida: The Making of an Icon
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:tate-le-parc@afisha-art
-DTSTAMP:20261113T174826Z
-DTSTART;VALUE=DATE:20270503
-DTEND;VALUE=DATE:20270504
-SUMMARY:Последний день: Julio Le Parc: Light. Colour. Action
- .
-LOCATION:Tate Modern\, Bankside\, London SE1 9TG\, Лондон\, Вел
- икобритания
-DESCRIPTION:Ретроспектива аргентинского пио
- нера кинетического и оп-арта с интеракт
- ивными световыми средами.\nХулио Ле Парк
- \nhttps://tate.org.uk/press/press-releases/tate-announces-2026-exhibition
- -highlights
-URL:https://doublebasskakov.github.io/radar/#e=tate-le-parc
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Последний день: Julio Le Parc: Light. Colour. Ac
- tion.
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:tate-mendieta@afisha-art
-DTSTAMP:20261113T174826Z
-DTSTART;VALUE=DATE:20270110
-DTEND;VALUE=DATE:20270111
-SUMMARY:Последний день: Ana Mendieta
-LOCATION:Tate Modern\, Bankside\, London SE1 9TG\, Лондон\, Вел
- икобритания
-DESCRIPTION:Большая выставка кубино-американ
- ской художницы\, соединявшей перформанс
- \, ленд-арт и фотографию.\nАна Мендьета\nhtt
- ps://tate.org.uk/press/press-releases/tate-announces-2026-exhibition-high
- lights
-URL:https://doublebasskakov.github.io/radar/#e=tate-mendieta
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Последний день: Ana Mendieta
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:tate-monet-painting-time@afisha-art
-DTSTAMP:20261113T174826Z
-DTSTART;VALUE=DATE:20270225
-DTEND;VALUE=DATE:20270226
-SUMMARY:Открытие: Monet: Painting Time
-LOCATION:Tate Modern\, Bankside\, London SE1 9TG\, Лондон\, Вел
- икобритания
-DESCRIPTION:Первая выставка Моне в Тейт Модер
- н — о времени\, серийности и изменчивом 
- свете в его живописи.\nКлод Моне\nhttps://www.ti
- meout.com/london/news/monet-painting-time-tate-modern-launch-date-2027-09
- 1626
-URL:https://doublebasskakov.github.io/radar/#e=tate-monet-painting-time
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Открытие: Monet: Painting Time
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:tate-nalini-malani@afisha-art
-DTSTAMP:20261113T174826Z
-DTSTART;VALUE=DATE:20270701
-DTEND;VALUE=DATE:20270702
-SUMMARY:Открытие: Nalini Malani
-LOCATION:Tate Modern\, Bankside\, London SE1 9TG\, Лондон\, Вел
- икобритания
-DESCRIPTION:Обзорная выставка индийской худо
- жницы\, известной видеоинсталляциями и 
- «теневыми» проекциями.\nНалини Малани\nht
- tps://www.theartnewspaper.com/2026/03/16/tate-announces-major-david-hockn
- ey-edvard-munch-and-sonia-boyce-exhibitions-for-2027
-URL:https://doublebasskakov.github.io/radar/#e=tate-nalini-malani
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Открытие: Nalini Malani
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:tate-munch@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20271111
 DTEND;VALUE=DATE:20271112
 SUMMARY:Открытие: Edvard Munch
@@ -196,7 +196,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:liverpool-biennial-2027@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20270605
 DTEND;VALUE=DATE:20270606
 SUMMARY:Открытие: Liverpool Biennial 2027

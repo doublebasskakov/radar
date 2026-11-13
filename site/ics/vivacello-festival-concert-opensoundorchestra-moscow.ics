@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:vivacello-festival-concert-opensoundorchestra-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Концерт фестиваля VIVACELLO: OpensoundOrchestra
+LOCATION:ДК «Рассвет»\, Москва
+DESCRIPTION:В рамках фестиваля VIVACELLO прозвуча
+ т мировые премьеры: сочинения Баруха Бе
+ рлинера и Геннадия Ровнера для виолонче
+ ли с оркестром.\nOpensoundOrchestra\, Станислав Ма
+ лышев\, Борис Андрианов\nhttps://t.me/time_to_hear/190
+URL:https://doublebasskakov.github.io/radar/#e=vivacello-festival-concert
+ -opensoundorchestra-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт фестиваля VIVACELLO: OpensoundOrchest
+ ra
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

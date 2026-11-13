@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:not-all-days-are-shrovetide-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261206T160000Z
+DTEND:20261206T180000Z
+SUMMARY:Не всё коту масленица
+LOCATION:Электротеатр Станиславский\, Тверс
+ кая ул.\, 23\, Москва
+DESCRIPTION:Классическая пьеса А. Н. Островск
+ ого в современной интерпретации режисс
+ ера Павла Кравца.\nПавел Кравец\nhttps://electro
+ theatre.ru/playbill
+URL:https://doublebasskakov.github.io/radar/#e=not-all-days-are-shrovetid
+ e-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Не всё коту масленица
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

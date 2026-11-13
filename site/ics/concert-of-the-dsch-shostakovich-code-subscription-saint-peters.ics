@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:concert-of-the-dsch-shostakovich-code-subscription-saint-peters@afish
+ a-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Концерт абонемента «DSCH - код Шостак
+ овича»
+LOCATION:Санкт-Петербургская филармония (Бо
+ льшой зал)\, Санкт-Петербург
+DESCRIPTION:Концерт симфонической музыки в р
+ амках юбилейной филармонической програ
+ ммы к 120-летию Д. Д. Шостаковича.\nАнатоли
+ й Рыбалко\, Иван Бессонов\, ЗКР\nhttps://t.me/phil
+ harmoniaspb/2422
+URL:https://doublebasskakov.github.io/radar/#e=concert-of-the-dsch-shosta
+ kovich-code-subscription-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт абонемента «DSCH - код Шост
+ аковича»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

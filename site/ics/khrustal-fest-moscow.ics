@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:khrustal-fest-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261115T160000Z
+DTEND:20261115T180000Z
+SUMMARY:Хрусталь фест
+LOCATION:Бар Мо[три]\, Москва
+DESCRIPTION:Концерт в честь второй годовщины 
+ промо-сквада ПМЖС с шугейзом\, эмо-панко
+ м и домашним инди.\nПМЖС\nhttps://t.me/gzsmsk/9998
+URL:https://doublebasskakov.github.io/radar/#e=khrustal-fest-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Хрусталь фест
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

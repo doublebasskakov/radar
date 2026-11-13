@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:exhibition-our-bestiary-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Последний день: Выставка «Наш Бести
+ арий»
+LOCATION:Галерея-мастерская «Варшавка»\, Ва
+ ршавское шоссе\, д. 68\, к. 1\, Москва
+DESCRIPTION:Групповая выставка «Наш Бестиари
+ й»\, исследующая образы животных и мифол
+ огических существ в современном визуал
+ ьном искусстве.\nГалерея-мастерская «Ва
+ ршавка»\nhttps://t.me/rostokino_gallery/2082
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-our-bestiary-mo
+ scow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Выставка «Наш Бес
+ тиарий»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

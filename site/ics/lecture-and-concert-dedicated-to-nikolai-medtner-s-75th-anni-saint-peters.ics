@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:lecture-and-concert-dedicated-to-nikolai-medtner-s-75th-anni-saint-pe
+ ters@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Лекция и концерт к 75-летию Николая М
+ етнера
+LOCATION:Дом Радио\, Малая Садовая ул.\, 2\, Сан
+ кт-Петербург
+DESCRIPTION:Пианист Михаил Турпанов выступит
+  с лекцией о феномене композитора Никол
+ ая Метнера и исполнит его фортепианные 
+ произведения разных лет.\nМихаил Турпан
+ ов\nhttps://t.me/domradio_online/2171
+URL:https://doublebasskakov.github.io/radar/#e=lecture-and-concert-dedica
+ ted-to-nikolai-medtner-s-75th-anni-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекция и концерт к 75-летию Никола
+ я Метнера
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

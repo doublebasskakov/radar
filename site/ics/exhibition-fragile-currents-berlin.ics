@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:exhibition-fragile-currents-berlin@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20270127
+DTEND;VALUE=DATE:20270128
+SUMMARY:Открытие: Выставка «fragile currents»
+LOCATION:Akademie der Künste (Hanseatenweg)\, Берлин\, Герма
+ ния
+DESCRIPTION:Масштабная выставка\, объединяющ
+ ая фильмы\, инсталляции\, скульптуры и иг
+ ровые проекты\, исследующие материально
+ сть современных технологий.\n\nhttps://transmedia
+ le.de/en/2027/exhibition-2027
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-fragile-current
+ s-berlin
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка «fragile currents»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

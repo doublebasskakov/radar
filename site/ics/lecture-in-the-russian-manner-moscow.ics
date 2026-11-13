@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:lecture-in-the-russian-manner-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261114T130000Z
+DTEND:20261114T150000Z
+SUMMARY:Лекция «НА РУССКИЙ МАНЕР»
+LOCATION:Cube.Moscow\, Москва
+DESCRIPTION:Тематическая лекция о культурных
+  кодах и традициях в рамках выставочной 
+ программы арт-пространства.\nCube.Moscow\nhttps:/
+ /t.me/cube_moscow/9557
+URL:https://doublebasskakov.github.io/radar/#e=lecture-in-the-russian-man
+ ner-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекция «НА РУССКИЙ МАНЕР»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:art-breakfast-renoir-london@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:ART-завтрак: «Ренуар. Любовь\, свет и н
+ овая жизнь Парижа»
+LOCATION:National Gallery\, Лондон\, Великобритания
+DESCRIPTION:Утреннее мероприятие\, посвященн
+ ое масштабной выставке Огюста Ренуара в
+  Лондоне\, с разбором его импрессионистс
+ кого периода и поздних поисков классиче
+ ской формы.\nNational Gallery\nhttps://t.me/afishalondon/11230
+URL:https://doublebasskakov.github.io/radar/#e=art-breakfast-renoir-londo
+ n
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ART-завтрак: «Ренуар. Любовь\, свет 
+ и новая жизнь Парижа»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

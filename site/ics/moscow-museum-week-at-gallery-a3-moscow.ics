@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:moscow-museum-week-at-gallery-a3-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261115T080000Z
+DTEND:20261115T100000Z
+SUMMARY:Московская музейная неделя в Галер
+ ее А3
+LOCATION:Галерея А3\, Москва
+DESCRIPTION:Бесплатное посещение текущих экс
+ позиций галереи в рамках городской музе
+ йной акции.\n\nhttps://t.me/a3gallery/2400
+URL:https://doublebasskakov.github.io/radar/#e=moscow-museum-week-at-gall
+ ery-a3-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Московская музейная неделя в Гал
+ ерее А3
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

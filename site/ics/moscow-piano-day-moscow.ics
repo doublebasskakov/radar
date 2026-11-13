@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:moscow-piano-day-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261115T160000Z
+DTEND:20261115T180000Z
+SUMMARY:Moscow Piano Day
+LOCATION:Yauza Place\, Москва
+DESCRIPTION:Концерт фортепианной музыки в ра
+ мках программы мероприятий пространств
+ а Yauza Place.\nГлеб Андрианов и др.\nhttps://t.me/yauza
+ _place/5529
+URL:https://doublebasskakov.github.io/radar/#e=moscow-piano-day-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Moscow Piano Day
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Радар — Россия · city-heidelberg
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:exhibition-ra-tsel-um-renoir-at-the-kurpfa-lzisches-museum-heidelberg
+ @afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Открытие: Выставка «Загадка вокруг 
+ Ренуара» в Курпфальцском музее
+LOCATION:Курпфальцский музей\, Гейдельберг
+DESCRIPTION:Экспозиция новоатрибутированной
+  литографии Пьера Огюста Ренуара 1899 год
+ а\, ранее считавшейся подделкой.\nГенри К
+ еазор\nhttps://t.me/artguide_com/9099
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-ra-tsel-um-reno
+ ir-at-the-kurpfa-lzisches-museum-heidelberg
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка «Загадка вокр
+ уг Ренуара» в Курпфальцском музее
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

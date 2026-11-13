@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:screening-of-alien-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261114T135500Z
+DTEND:20261114T155500Z
+SUMMARY:Показ фильма «Пришелец»
+LOCATION:Музей кино на ВДНХ\, Москва
+DESCRIPTION:Показ художественного фильма Ива
+ на Соснина в рамках программы фестиваля
+ .\nИван Соснин\nhttps://t.me/museikino/6397
+URL:https://doublebasskakov.github.io/radar/#e=screening-of-alien-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильма «Пришелец»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

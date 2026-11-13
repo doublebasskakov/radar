@@ -7,8 +7,29 @@ X-WR-CALNAME:Радар — Мир / World · cat-media
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:christmas-at-kew-london@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261113T162000Z
+DTEND:20261113T182000Z
+SUMMARY:Открытие: Зимняя световая прогулка 
+ в Kew Gardens
+LOCATION:Kew Gardens\, Kew\, Richmond\, London\, Лондон\, Вели
+ кобритания
+DESCRIPTION:Трехкилометровый световой маршр
+ ут по саду включает инсталляции\, светящ
+ ийся тоннель и иллюминацию оранжереи Palm
+  House.\nKew Gardens\nhttps://t.me/eventmeuk/2368
+URL:https://doublebasskakov.github.io/radar/#e=christmas-at-kew-london
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Зимняя световая прогул
+ ка в Kew Gardens
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:transmediale-2027@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20270128
 DTEND;VALUE=DATE:20270201
 SUMMARY:transmediale 2027: groundstates
@@ -29,7 +50,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ars-electronica-2027@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20270908
 DTEND;VALUE=DATE:20270913
 SUMMARY:Ars Electronica Festival 2027
@@ -47,8 +68,75 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:exhibition-fragile-currents-berlin@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20270127
+DTEND;VALUE=DATE:20270128
+SUMMARY:Открытие: Выставка «fragile currents»
+LOCATION:Akademie der Künste (Hanseatenweg)\, Берлин\, Герма
+ ния
+DESCRIPTION:Масштабная выставка\, объединяющ
+ ая фильмы\, инсталляции\, скульптуры и иг
+ ровые проекты\, исследующие материально
+ сть современных технологий.\n\nhttps://transmedia
+ le.de/en/2027/exhibition-2027
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-fragile-current
+ s-berlin
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка «fragile currents»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dark-net-exhibition-at-akademie-der-ku-nste-berlin@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20270127
+DTEND;VALUE=DATE:20270128
+SUMMARY:Открытие: Выставка «Dark Net» в Akademie der K
+ ünste
+LOCATION:Akademie der Künste (Hanseatenweg)\, Hanseatenweg 10\, 10557 Be
+ rlin\, Берлин\, Германия
+DESCRIPTION:Исследовательский проект-инстал
+ ляция «Dark Net» затрагивает темы технолог
+ ической эксплуатации\, асимметрии и скр
+ ытых инфраструктур.\nOleksii Minko\, Fernando Morales de
+  la Peña\, Antonina Stebur\nhttps://transmediale.de/en/2027/artwork/dark
+ -net
+URL:https://doublebasskakov.github.io/radar/#e=dark-net-exhibition-at-aka
+ demie-der-ku-nste-berlin
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка «Dark Net» в Akademie d
+ er Künste
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:arcane-universe-league-of-legends-exhibition-yerevan@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Последний день: Выставка «Вселенна
+ я Arcane: League of Legends»
+LOCATION:Ереван\, Армения
+DESCRIPTION:Первая в Армении выставка\, посвя
+ щенная вселенной культового анимационн
+ ого сериала по мотивам игры League of Legends.\nМ
+ еждународный фестиваль анимации и коми
+ ксов «РеА»\nhttps://t.me/guideyerevan/1575
+URL:https://doublebasskakov.github.io/radar/#e=arcane-universe-league-of-
+ legends-exhibition-yerevan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Выставка «Вселен
+ ная Arcane: League of Legends»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:mutek-montreal-2027@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20270824
 DTEND;VALUE=DATE:20270830
 SUMMARY:MUTEK Montréal 2027: Sensitive Waves
@@ -68,7 +156,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mutek-jp-2026@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261124
 SUMMARY:MUTEK.JP 2026
@@ -87,8 +175,31 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:tate-atoui-hold@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20270411
+DTEND;VALUE=DATE:20270412
+SUMMARY:Последний день: Hyundai Commission: Tarek Atoui. Hol
+ d
+LOCATION:Tate Modern\, Turbine Hall\, Bankside\, London SE1 9TG\, Лон
+ дон\, Великобритания
+DESCRIPTION:Ливанский звуковой художник прев
+ ращает Турбинный зал в гигантский экспе
+ риментальный инструмент\; ежемесячные ж
+ ивые выступления по пятницам.\nТарек Ату
+ и\nhttps://www.tate.org.uk/press/press-releases/hyundai-commission-tarek
+ -atoui-hold
+URL:https://doublebasskakov.github.io/radar/#e=tate-atoui-hold
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Hyundai Commission: Tarek Atoui.
+  Hold
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:new-museum-arthur-jafa@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
 SUMMARY:Последний день: Arthur Jafa: I Am Tony
@@ -107,8 +218,50 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:paolo-cirio-nudify-ai-online@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+SUMMARY:Последний день: Paolo Cirio: NUDIFY AI
+LOCATION:Online\, Онлайн\, Онлайн
+DESCRIPTION:Онлайн-проект художника Паоло Чи
+ рио\, исследующий этические и социальны
+ е проблемы технологий искусственного и
+ нтеллекта.\nPaolo Cirio\nhttps://jeudepaume.org/en/evenement/nud
+ ify-ai/
+URL:https://doublebasskakov.github.io/radar/#e=paolo-cirio-nudify-ai-onli
+ ne
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Paolo Cirio: NUDIFY AI
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hunter-170th-anniversary-installation-london@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Открытие: Временная инсталляция бр
+ енда Hunter
+LOCATION:Covent Garden\, Covent Garden\, London\, Лондон\, Вели
+ кобритания
+DESCRIPTION:Гигантская инсталляция в виде ко
+ робки из-под сапог в Ковент-Гардене\, пос
+ вященная 170-летнему юбилею бренда.\nHunter\nh
+ ttps://t.me/eventmeuk/2368
+URL:https://doublebasskakov.github.io/radar/#e=hunter-170th-anniversary-i
+ nstallation-london
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Временная инсталляция 
+ бренда Hunter
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:steina-playback-haus-der-kunst@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 SUMMARY:Последний день: Steina: Playback

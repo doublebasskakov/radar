@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:art-basel-miami-beach-2026@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20261204T160000Z
 DTEND:20261204T180000Z
 SUMMARY:Art Basel Miami Beach 2026
@@ -25,8 +25,54 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:armand-hammer-new-york@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261116T010000Z
+DTEND:20261116T030000Z
+SUMMARY:Armand Hammer
+LOCATION:Music Hall of Williamsburg\, Нью-Йорк\, США
+DESCRIPTION:Концерт американского хип-хоп ду
+ эта Armand Hammer в рамках завершения их север
+ оамериканского турне.\nArmand Hammer\nhttps://thequiet
+ us.com/news/armand-hammer-surprise-release-new-album-snakes-ladders/
+URL:https://doublebasskakov.github.io/radar/#e=armand-hammer-new-york
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Armand Hammer
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:tamerlano-opera-concert-performance-at-carnegie-hall-new-york@afisha-
+ art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20270329
+DTEND;VALUE=DATE:20270330
+SUMMARY:Концертная версия оперы «Тамерлан»
+  в Карнеги-холле
+LOCATION:Карнеги-холл\, Carnegie Hall\, New York\, Нью-Йо
+ рк\, США
+DESCRIPTION:Концертное исполнение оперы Геор
+ га Фридриха Генделя и Кирилла Рихтера «
+ Тамерлан» в исполнении Национального с
+ имфонического оркестра Узбекистана под
+  управлением Алибека Кабдурахманова.\nГ
+ еорг Фридрих Гендель\, Кирилл Рихтер\, На
+ циональный симфонический оркестр Узбек
+ истана\, Алибек Кабдурахманов\nhttps://t.me/acdf
+ uz/14610
+URL:https://doublebasskakov.github.io/radar/#e=tamerlano-opera-concert-pe
+ rformance-at-carnegie-hall-new-york
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концертная версия оперы «Тамерла
+ н» в Карнеги-холле
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:whitney-lichtenstein-like-new@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20270510
 DTEND;VALUE=DATE:20270511
 SUMMARY:Последний день: Roy Lichtenstein: Like New
@@ -48,7 +94,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:new-museum-arthur-jafa@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
 SUMMARY:Последний день: Arthur Jafa: I Am Tony
@@ -67,8 +113,31 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:a-long-shadow-postwar-japan-through-the-lens-new-york@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Открытие: A Long Shadow: Postwar Japan Through the Lens
+LOCATION:Metropolitan Museum of Art\, Нью-Йорк\, США
+DESCRIPTION:Масштабная выставка японской фот
+ ографии в Метрополитен-музее объединяе
+ т работы 15 междисциплинарных авторов\, ф
+ отокниги и видеоинсталляцию\, исследующ
+ ие жизнь страны в послевоенные десятиле
+ тия.\nMetropolitan Museum of Art\nhttps://www.theguardian.com/artandde
+ sign/gallery/2026/nov/12/postwar-japan-met-museum-photos
+URL:https://doublebasskakov.github.io/radar/#e=a-long-shadow-postwar-japa
+ n-through-the-lens-new-york
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: A Long Shadow: Postwar Japan Through the Le
+ ns
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:moma-brancusi@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20270227
 DTEND;VALUE=DATE:20270228
 SUMMARY:Последний день: Brancusi: The Artist and His Studio
@@ -90,7 +159,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:guggenheim-taryn-simon@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20270314
 DTEND;VALUE=DATE:20270315
 SUMMARY:Последний день: Taryn Simon
@@ -110,7 +179,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:guggenheim-pop@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
 SUMMARY:Последний день: Guggenheim Pop: 1960 to Now
@@ -129,7 +198,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:frieze-new-york-2027@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20270512
 DTEND;VALUE=DATE:20270517
 SUMMARY:Frieze New York 2027

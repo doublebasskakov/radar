@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Радар — Россия · city-magadan
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:exhibition-tidal-patterns-code-of-the-sea-magadan@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261115T150000Z
+DTEND:20261115T170000Z
+SUMMARY:Открытие: Выставка «Приливные патт
+ ерны: Код моря»
+LOCATION:КВЦ «Рында»\, Магадан
+DESCRIPTION:Художественное осмысление Охотс
+ кого моря\, его природных циклов\, прилив
+ ов и ледовой динамики.\nКуратор Саша Пуч
+ кова\nhttps://t.me/generativegallery/4540
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-tidal-patterns-
+ code-of-the-sea-magadan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка «Приливные па
+ ттерны: Код моря»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

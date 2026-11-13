@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:tribute-concert-to-alexey-kozlov-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:Музыкальное посвящение Алексею Коз
+ лову
+LOCATION:Музей Зиларт\, Москва
+DESCRIPTION:Бесплатная программа памяти сакс
+ офониста Алексея Козлова с концертом ор
+ кестра Петра Востокова\, лекцией об исто
+ рии советского джаза и фотовыставкой.\nБ
+ ольшой джазовый оркестр под управление
+ м Петра Востокова\, Александр Михайловс
+ кий\, Александр Забрин\nhttps://t.me/culturalmsk/17316
+URL:https://doublebasskakov.github.io/radar/#e=tribute-concert-to-alexey-
+ kozlov-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Музыкальное посвящение Алексею К
+ озлову
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:about-my-mother-and-about-me-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261212T170000Z
+DTEND:20261212T190000Z
+SUMMARY:Про мою маму и про меня
+LOCATION:Электротеатр Станиславский\, Тверс
+ кая ул.\, 23\, Москва
+DESCRIPTION:Спектакль по пьесе Елены Исаевой 
+ в память об Елене Греминой и Михаиле Уга
+ рове\, режиссер — Елена Морозова.\nЕлена 
+ Морозова\nhttps://electrotheatre.ru/playbill
+URL:https://doublebasskakov.github.io/radar/#e=about-my-mother-and-about-
+ me-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Про мою маму и про меня
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

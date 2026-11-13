@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:farsh-band-concert-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261125T170000Z
+DTEND:20261125T190000Z
+SUMMARY:Концерт группы ФАРШ
+LOCATION:Yauza Place\, Yauza Place\, Москва
+DESCRIPTION:Финальный в этом году концерт кол
+ лектива ФАРШ\, исполняющего эклектичный
+  «симфонический панк» с неожиданными жа
+ нровыми сочетаниями.\nФАРШ\nhttps://t.me/yauza_plac
+ e/5538
+URL:https://doublebasskakov.github.io/radar/#e=farsh-band-concert-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт группы ФАРШ
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

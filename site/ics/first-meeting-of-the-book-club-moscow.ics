@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:first-meeting-of-the-book-club-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261121T110000Z
+DTEND:20261121T130000Z
+SUMMARY:Первая встреча Клубного книжника
+LOCATION:Москва
+DESCRIPTION:Заседание книжного клуба\, посвящ
+ енное обсуждению романа «Блондинка в за
+ коне».\nКлубный книжник\nhttps://t.me/vspyshkafriends/
+ 5674
+URL:https://doublebasskakov.github.io/radar/#e=first-meeting-of-the-book-
+ club-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Первая встреча Клубного книжника
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

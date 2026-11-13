@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:digital-lethargy-saint-peters@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:Последний день: Цифровая летаргия
+LOCATION:Центр искусства и науки ИТМО\, Бирж
+ евая линия\, 16\, Санкт-Петербург
+DESCRIPTION:Выставка под кураторством Аси Ка
+ план\, объединяющая работы 17 художников\
+ , исследующих осязаемость цифровых техн
+ ологий.\nАся Каплан\, Центр искусства и н
+ ауки ИТМО\nhttps://t.me/art_sci/2894
+URL:https://doublebasskakov.github.io/radar/#e=digital-lethargy-saint-pet
+ ers
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Цифровая летарги
+ я
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

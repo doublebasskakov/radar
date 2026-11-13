@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:arcane-universe-league-of-legends-exhibition-yerevan@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Последний день: Выставка «Вселенна
+ я Arcane: League of Legends»
+LOCATION:Ереван\, Армения
+DESCRIPTION:Первая в Армении выставка\, посвя
+ щенная вселенной культового анимационн
+ ого сериала по мотивам игры League of Legends.\nМ
+ еждународный фестиваль анимации и коми
+ ксов «РеА»\nhttps://t.me/guideyerevan/1575
+URL:https://doublebasskakov.github.io/radar/#e=arcane-universe-league-of-
+ legends-exhibition-yerevan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Выставка «Вселен
+ ная Arcane: League of Legends»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:a-christmas-memory-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261231T090000Z
+DTEND:20261231T110000Z
+SUMMARY:Воспоминание об одном Рождестве
+LOCATION:Электротеатр Станиславский\, Тверс
+ кая ул.\, 23\, Москва
+DESCRIPTION:Премьерный новогодний спектакль 
+ для всей семьи в постановке Ирины Михее
+ вой.\nИрина Михеева\nhttps://electrotheatre.ru/playbill
+URL:https://doublebasskakov.github.io/radar/#e=a-christmas-memory-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Воспоминание об одном Рождестве
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

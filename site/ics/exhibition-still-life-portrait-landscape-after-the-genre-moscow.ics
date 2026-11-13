@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:exhibition-still-life-portrait-landscape-after-the-genre-moscow@afish
+ a-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20270425
+DTEND;VALUE=DATE:20270426
+SUMMARY:Последний день: Выставка «Натюрмор
+ т. Портрет. Пейзаж. После жанра»
+LOCATION:ГЭС-2\, Москва
+DESCRIPTION:Масштабная выставка о классическ
+ их живописных жанрах\, предвосхитивших 
+ современные цифровые медиа\, рекламу и в
+ идеоигры.\nПолина Абина\, Ян Гинзбург\, Ол
+ ег Матрохин и др.\nhttps://t.me/ica_moscow/1179
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-still-life-port
+ rait-landscape-after-the-genre-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Выставка «Натюрм
+ орт. Портрет. Пейзаж. После жанра»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

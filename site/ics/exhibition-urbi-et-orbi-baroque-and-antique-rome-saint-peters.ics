@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:exhibition-urbi-et-orbi-baroque-and-antique-rome-saint-peters@afisha-
+ art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Выставка «Urbi et Orbi. Рим барочный и Ри
+ м античный»
+LOCATION:Манеж Малого Эрмитажа\, Дворцовая н
+ аб.\, 38\, Санкт-Петербург
+DESCRIPTION:Масштабный проект об эволюции Ри
+ ма XVI–XVIII веков через архитектуру\, иску
+ сство и социальную жизнь.\nГосударствен
+ ный Эрмитаж\nhttps://t.me/hermitage_museum/11842
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-urbi-et-orbi-ba
+ roque-and-antique-rome-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выставка «Urbi et Orbi. Рим барочный и 
+ Рим античный»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:screening-of-party-member-card-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261115T100000Z
+DTEND:20261115T120000Z
+SUMMARY:Показ фильма «Партийный билет»
+LOCATION:Музей кино на ВДНХ\, Москва
+DESCRIPTION:Показ советской драмы 1936 года к 125
+ -летию со дня рождения режиссёра.\nИван П
+ ырьев\nhttps://t.me/museikino/6397
+URL:https://doublebasskakov.github.io/radar/#e=screening-of-party-member-
+ card-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильма «Партийный билет»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

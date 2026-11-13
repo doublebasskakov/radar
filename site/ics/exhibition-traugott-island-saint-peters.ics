@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:exhibition-traugott-island-saint-peters@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:Открытие: Выставка «Остров Траугот
+ »
+LOCATION:Музей искусства Санкт-Петербурга XX
+ –XX1 веков (МИСП)\, наб. канала Грибоедова\
+ , 103\, Санкт-Петербург
+DESCRIPTION:Масштабная ретроспективная выст
+ авка художественной династии Траугот\, 
+ объединяющая около пятисот произведени
+ й графики\, живописи и прикладного искус
+ ства.\nСемья Траугот\nhttps://t.me/mispspb/4426
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-traugott-island
+ -saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка «Остров Трауг
+ от»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

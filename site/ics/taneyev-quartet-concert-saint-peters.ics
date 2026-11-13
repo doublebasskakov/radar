@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:taneyev-quartet-concert-saint-peters@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:Концерт Квартета имени Танеева
+LOCATION:Малый зал Санкт-Петербургской фила
+ рмонии\, Невский пр.\, 30\, Санкт-Петербург
+DESCRIPTION:Юбилейный концерт в честь 80-летия
+  со дня основания Квартета имени Танеев
+ а.\nКвартет имени Танеева\nhttps://t.me/philharmonias
+ pb/2431
+URL:https://doublebasskakov.github.io/radar/#e=taneyev-quartet-concert-sa
+ int-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт Квартета имени Танеева
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:night-concert-continuum-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261113T193000Z
+DTEND:20261113T213000Z
+SUMMARY:Ночной концерт «Continuum»
+LOCATION:Клуб Эссе\, Москва
+DESCRIPTION:Непрерывное музыкальное полотно\
+ , создаваемое в реальном времени на стык
+ е импровизации и экспериментальных зву
+ ковых текстур.\n\nhttps://t.me/essejazzclub/4165
+URL:https://doublebasskakov.github.io/radar/#e=night-concert-continuum-mo
+ scow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ночной концерт «Continuum»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

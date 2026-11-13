@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:concert-friday-the-13th-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261113T170000Z
+DTEND:20261113T190000Z
+SUMMARY:Концерт «Пятница 13»
+LOCATION:Люмьер Холл\, Берсеневский пер.\, 2с1\
+ , Москва
+DESCRIPTION:Мистический музыкальный вечер\, в
+  программу которого вошли узнаваемые и 
+ тревожные мелодии из культовых кинокар
+ тин и фэнтези.\nПространство Люмьер Холл
+  и GRANI MUSIC\nhttps://t.me/lumierehall/1067
+URL:https://doublebasskakov.github.io/radar/#e=concert-friday-the-13th-mo
+ scow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт «Пятница 13»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

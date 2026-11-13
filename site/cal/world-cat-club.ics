@@ -7,41 +7,91 @@ X-WR-CALNAME:Радар — Мир / World · cat-club
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:sonar-2027@afisha-art
-DTSTAMP:20261113T174826Z
-DTSTART;VALUE=DATE:20270617
-DTEND;VALUE=DATE:20270620
-SUMMARY:Sónar 2027
-LOCATION:Sónar by Day (набережная) и Sónar by Night (Fira Gr
- an Via)\, Барселона\, Испания
-DESCRIPTION:Барселонский фестиваль продвину
- той музыки и цифровой культуры возвраща
- ется к формату «день/ночь»\; конференция
-  Sónar+D снова входит в дневную программу.\n
- \nhttps://sonar.es/en/news/preventa-2027
-URL:https://doublebasskakov.github.io/radar/#e=sonar-2027
+UID:radio-plato-closing-event-sara-tokina-anastasiya-rydlyewskay-szczecin
+ @afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261119T190000Z
+DTEND:20261119T210000Z
+SUMMARY:Radio Plato Closing Event: Сара Токина\, Анастас
+ ия Рыдлеўская\, Papa Bo Selektah\, KorneJ
+LOCATION:Klub Storrady\, Storrady\, Szczecin\, Щецин\, Польша
+DESCRIPTION:Прощальная вечеринка Radio Plato в Шчэ
+ цине с перформансом доулы смерти Сары Т
+ окиной\, презентацией альбома Анастасии
+  Рыдлеўской и лайвами Papa Bo Selektah и KorneJ.\nСа
+ ра Токина\, Анастасия Рыдлеўская\, Papa Bo Sel
+ ektah\, KorneJ\nhttps://radioplato.live
+URL:https://doublebasskakov.github.io/radar/#e=radio-plato-closing-event-
+ sara-tokina-anastasiya-rydlyewskay-szczecin
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Sónar 2027
+DESCRIPTION:Radio Plato Closing Event: Сара Токина\, Анаст
+ асия Рыдлеўская\, Papa Bo Selektah\, KorneJ
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:berlin-atonal-2027@afisha-art
-DTSTAMP:20261113T174826Z
-DTSTART;VALUE=DATE:20270825
-DTEND;VALUE=DATE:20270830
-SUMMARY:Berlin Atonal 2027
-LOCATION:Kraftwerk Berlin\, Köpenicker Str. 70\, 10179 Berlin\, Берл
- ин\, Германия
-DESCRIPTION:Фестиваль экспериментальной муз
- ыки и аудиовизуальных перформансов в ги
- гантском зале бывшей электростанции Kraft
- werk.\n\nhttps://www.festivalfinder.eu/festivals/berlin-atonal-2027
-URL:https://doublebasskakov.github.io/radar/#e=berlin-atonal-2027
+UID:intertronika-festival-workshops-live-concert-and-club-night-hamburg@a
+ fisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261205T193000Z
+DTEND:20261205T213000Z
+SUMMARY:Фестиваль Intertronika: воркшопы\, лайв-ко
+ нцерт и клубная ночь
+LOCATION:Fabrique\, Gänsemarkt\, Hamburg\, Гамбург\, Герма
+ ния
+DESCRIPTION:Мультидисциплинарное событие к п
+ ятилетию проекта объединяет дневные во
+ ркшопы\, живое выступление и масштабную 
+ клубную ночь.\nChocks и др.\nhttps://www.instagram.com/inte
+ rtronika/
+URL:https://doublebasskakov.github.io/radar/#e=intertronika-festival-work
+ shops-live-concert-and-club-night-hamburg
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Berlin Atonal 2027
+DESCRIPTION:Фестиваль Intertronika: воркшопы\, лайв-
+ концерт и клубная ночь
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:urban-essentials-street-dance-festival-vilnius@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261113T140000Z
+DTEND:20261113T160000Z
+SUMMARY:Фестиваль уличного танца Urban Essentials
+LOCATION:Лукишская тюрьма 2.0\, Вильнюс\, Литв
+ а
+DESCRIPTION:Фестиваль уличного танца с баттл
+ ами\, мастер-классами и вечеринками в пр
+ остранстве Лукишской тюрьмы.\n\nhttps://t.me/vol
+ na_lt/9745
+URL:https://doublebasskakov.github.io/radar/#e=urban-essentials-street-da
+ nce-festival-vilnius
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Фестиваль уличного танца Urban Essentia
+ ls
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:redo-rave-tbilisi@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:REDO RAVE
+LOCATION:Junkyard\, Тбилиси\, Грузия
+DESCRIPTION:Масштабный рейв в пространстве Jun
+ kyard с участием легендарной Лены Поповой 
+ и локальных артистов\, дополненный живы
+ м световым и лазерным перформансом.\nЛен
+ а Попова\, CHIN\, Mr. Chizh\, Nikusha Ten\nhttps://t.me/tbiraving/
+ 3572
+URL:https://doublebasskakov.github.io/radar/#e=redo-rave-tbilisi
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:REDO RAVE
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

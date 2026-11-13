@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:voronezh-kamerata-ceam@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20261129T150000Z
 DTEND:20261129T170000Z
 SUMMARY:CEAM Artists на «Воронежской камерате»
@@ -23,6 +23,71 @@ URL:https://doublebasskakov.github.io/radar/#e=voronezh-kamerata-ceam
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:CEAM Artists на «Воронежской камерате»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sentimental-delirium-film-festival-day-2-voronezh@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261113T180000Z
+DTEND:20261113T200000Z
+SUMMARY:Кинофестиваль «Сентиментальная го
+ рячка»: День 2
+LOCATION:«Прогресс»\, вторая сцена Никитинс
+ кого театра\, Воронеж
+DESCRIPTION:Показ арт-фильма Дмитрия Давыдов
+ а «Прозрачные земли» с участием продюсе
+ ра картины.\nНикитинский театр\nhttps://t.me/tri
+ _skameyki/2736
+URL:https://doublebasskakov.github.io/radar/#e=sentimental-delirium-film-
+ festival-day-2-voronezh
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Кинофестиваль «Сентиментальная 
+ горячка»: День 2
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sentimental-delirium-film-festival-day-3-voronezh@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261114T150000Z
+DTEND:20261114T170000Z
+SUMMARY:Кинофестиваль «Сентиментальная го
+ рячка»: День 3
+LOCATION:«Прогресс»\, вторая сцена Никитинс
+ кого театра\, Воронеж
+DESCRIPTION:Показ полнометражной ленты «Пуст
+ ые места» с обсуждением с создателями.\n
+ Никитинский театр\nhttps://t.me/tri_skameyki/2736
+URL:https://doublebasskakov.github.io/radar/#e=sentimental-delirium-film-
+ festival-day-3-voronezh
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Кинофестиваль «Сентиментальная 
+ горячка»: День 3
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sentimental-delirium-film-festival-day-4-voronezh@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Кинофестиваль «Сентиментальная го
+ рячка»: День 4
+LOCATION:«Прогресс»\, вторая сцена Никитинс
+ кого театра\, Воронеж
+DESCRIPTION:Заключительный день фестиваля: п
+ оказы короткометражных и полнометражны
+ х дебютов\, включая фильм «Другой мир».\n
+ Никитинский театр\nhttps://t.me/tri_skameyki/2736
+URL:https://doublebasskakov.github.io/radar/#e=sentimental-delirium-film-
+ festival-day-4-voronezh
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Кинофестиваль «Сентиментальная 
+ горячка»: День 4
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

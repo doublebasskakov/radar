@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:kzn-mon-gastroli-kapital@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20261129T150000Z
 DTEND:20261129T170000Z
 SUMMARY:«Гастроли: Капитал»
@@ -26,7 +26,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:kzn-mon-15172@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20261118T160000Z
 DTEND:20261118T180000Z
 SUMMARY:«15 172». Пластический спектакль
@@ -44,7 +44,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:kzn-mon-zatvornik-i-shestipalyy@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20261119T160000Z
 DTEND:20261119T180000Z
 SUMMARY:«Затворник и Шестипалый»
@@ -63,7 +63,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:kzn-mon-otstan-ot-sebya@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20261125T160000Z
 DTEND:20261125T180000Z
 SUMMARY:«Отстань от себя». Пластический спе
@@ -80,8 +80,29 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:master-class-series-made-for-home-bas-relief-kazan@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261117T153000Z
+DTEND:20261117T173000Z
+SUMMARY:Серия мастер-классов «Сделано для д
+ ома»: Барельеф
+LOCATION:СКБ Прометей\, Казань
+DESCRIPTION:Практическое занятие для взрослы
+ х по созданию барельефа из металлическо
+ го листа под руководством художницы.\nАд
+ елина Абдуллина\nhttps://t.me/skbprometheus/1693
+URL:https://doublebasskakov.github.io/radar/#e=master-class-series-made-f
+ or-home-bas-relief-kazan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Серия мастер-классов «Сделано дл
+ я дома»: Барельеф
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:klimt-and-vrubel-two-geniuses-of-art-nouveau-kazan@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20261120T153000Z
 DTEND:20261120T173000Z
 SUMMARY:Климт и Врубель: два гения модерна
@@ -101,8 +122,28 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:master-class-series-made-for-home-wall-clock-kazan@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261124T153000Z
+DTEND:20261124T173000Z
+SUMMARY:Серия мастер-классов «Сделано для д
+ ома»: Настенные часы
+LOCATION:СКБ Прометей\, Казань
+DESCRIPTION:Мастер-класс по сборке настенных 
+ часов с механизмом в технике папье-маше.
+ \nАделина Абдуллина\nhttps://t.me/skbprometheus/1693
+URL:https://doublebasskakov.github.io/radar/#e=master-class-series-made-f
+ or-home-wall-clock-kazan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Серия мастер-классов «Сделано дл
+ я дома»: Настенные часы
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:kzn-smena-rabochaya-smena@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:Открытие: «Рабочая смена»
@@ -124,8 +165,30 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:exhibition-artists-to-sofia-gubaidulina-kazan@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261116
+SUMMARY:Выставка «Художники — Софии Губайд
+ улиной»
+LOCATION:Выставочный зал Казанской ратуши\, 
+ ул. Карла Маркса\, 33\, Казань
+DESCRIPTION:Экспозиция к 95-летию Софии Губайд
+ улиной\, включающая живопись\, графику\, 
+ личные вещи композитора и ее партитуры.\
+ nКазанская ратуша\nhttps://t.me/centergubaidulinoy/2376
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-artists-to-sofi
+ a-gubaidulina-kazan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выставка «Художники — Софии Губа
+ йдулиной»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:smena-winter-book-fest@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261207
 SUMMARY:Зимний книжный фестиваль «Смены»
@@ -139,6 +202,28 @@ URL:https://doublebasskakov.github.io/radar/#e=smena-winter-book-fest
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зимний книжный фестиваль «Смены»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:the-wicker-man-screening-and-discussion-kazan@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Показ фильма «Плетеный человек» и о
+ бсуждение
+LOCATION:Центр современной культуры «Смена
+ »\, ул. Бурхана Шахиди\, 7\, Казань
+DESCRIPTION:Кинопоказ и дискуссия\, посвященн
+ ые анализу культовых экранных образов и
+  тематике фильма «Плетеный человек».\n\nht
+ tps://t.me/mestokzn/795
+URL:https://doublebasskakov.github.io/radar/#e=the-wicker-man-screening-a
+ nd-discussion-kazan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильма «Плетеный человек» 
+ и обсуждение
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

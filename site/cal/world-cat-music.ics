@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:ina-grm-pre-sences-electronic-1-paris@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20270219T193000Z
 DTEND:20270219T213000Z
 SUMMARY:INA grm / PRÉSENCES électronique #1
@@ -30,7 +30,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ina-grm-pre-sences-electronic-2-paris@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20270220T193000Z
 DTEND:20270220T213000Z
 SUMMARY:INA grm / PRÉSENCES électronique #2
@@ -52,7 +52,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ina-grm-pre-sences-electronic-3-paris@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20270221T170000Z
 DTEND:20270221T190000Z
 SUMMARY:INA grm / PRÉSENCES électronique #3
@@ -72,8 +72,27 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:ircam-explosante-fixe-2027@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20270113T190000Z
+DTEND:20270113T210000Z
+SUMMARY:Булез: «…explosante-fixe…»
+LOCATION:Филармония Парижа\, Большой зал\, 221 
+ Avenue Jean Jaurès\, 75019 Paris\, Париж\, Франция
+DESCRIPTION:Классика live electronics: «…explosante-fixe…» 
+ Булеза с электроникой реального времен
+ и IRCAM.\nEnsemble intercontemporain\, IRCAM\nhttps://www.ircam.fr/en/ev
+ ents/explosante-fixe
+URL:https://doublebasskakov.github.io/radar/#e=ircam-explosante-fixe-2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Булез: «…explosante-fixe…»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:burning-song-berlin@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20270125T190000Z
 DTEND:20270125T210000Z
 SUMMARY:Burning Song
@@ -90,7 +109,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ina-grm-acousmonium-brussels@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20270127T183000Z
 DTEND:20270127T203000Z
 SUMMARY:Ina GRM – Acousmonium
@@ -113,7 +132,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ina-grm-akousma-5-paris@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20270508T183000Z
 DTEND:20270508T203000Z
 SUMMARY:INA grm Akousma #5
@@ -133,8 +152,33 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:chamber-concert-in-dialogue-pavel-gomzyakov-and-andrey-korob-london@a
+ fisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261211T190000Z
+DTEND:20261211T210000Z
+SUMMARY:Камерный концерт In Dialogue: Павел Гомз
+ яков и Андрей Коробейников
+LOCATION:Leighton House\, 12 Holland Park Road\, W14 8LZ\, Лондон\,
+  Великобритания
+DESCRIPTION:Виолончелист Павел Гомзяков и пи
+ анист Андрей Коробейников исполнят сон
+ аты Мясковского\, Шостаковича и Рахмани
+ нова в исторических интерьерах Leighton House.
+ \nПавел Гомзяков\, Андрей Коробейников\nht
+ tps://t.me/eventmeuk/2361
+URL:https://doublebasskakov.github.io/radar/#e=chamber-concert-in-dialogu
+ e-pavel-gomzyakov-and-andrey-korob-london
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Камерный концерт In Dialogue: Павел Го
+ мзяков и Андрей Коробейников
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:grm-acousmonium-set-1-brussels@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20270130T191500Z
 DTEND:20270130T211500Z
 SUMMARY:GRM Acousmonium (сет 1)
@@ -155,7 +199,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ina-grm-akousma-4-paris@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20270507T183000Z
 DTEND:20270507T203000Z
 SUMMARY:INA grm Akousma #4
@@ -175,7 +219,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:grm-acousmonium-set-2-brussels@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20270130T202000Z
 DTEND:20270130T222000Z
 SUMMARY:GRM Acousmonium (сет 2)
@@ -196,7 +240,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:grm-acousmonium-set-3-brussels@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20270130T211500Z
 DTEND:20270130T231500Z
 SUMMARY:GRM Acousmonium (сет 3)
@@ -217,7 +261,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ina-grm-akousma-6-paris@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20270509T160000Z
 DTEND:20270509T180000Z
 SUMMARY:INA grm Akousma #6
@@ -237,7 +281,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ina-grm-acousmonium-xx-xxi-brussels@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20270129T190000Z
 DTEND:20270129T210000Z
 SUMMARY:Ina GRM – Acousmonium (XX-XXI)
@@ -256,8 +300,28 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:ircam-aho-ssan-studio-session@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261209T180000Z
+DTEND:20261209T200000Z
+SUMMARY:Aho Ssan: Forum Studio Session #8
+LOCATION:IRCAM\, Studio 5 (и онлайн)\, 1 Place Stravinsky\, 75004 
+ Paris\, Париж\, Франция
+DESCRIPTION:Французский электронщик Aho Ssan игр
+ ает пространственный сет в студии IRCAM\; в
+ ыступление транслируется онлайн.\nAho Ssan\n
+ https://www.ircam.fr/en/events/aho-ssan-forum-studio-session-8
+URL:https://doublebasskakov.github.io/radar/#e=ircam-aho-ssan-studio-sess
+ ion
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Aho Ssan: Forum Studio Session #8
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:grm-bozar-acousmonium-2027@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20270127T183000Z
 DTEND:20270127T203000Z
 SUMMARY:INA GRM: Акусмониум в Bozar
@@ -276,7 +340,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ina-grm-acousmonium-total-immersion-brussels@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20270128T193000Z
 DTEND:20270128T213000Z
 SUMMARY:Ina GRM – Acousmonium (Total Immersion)
@@ -296,7 +360,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ircam-klangforum-saint-eustache@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20261130T190000Z
 DTEND:20261130T210000Z
 SUMMARY:Klangforum Wien × IRCAM
@@ -314,27 +378,27 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ircam-explosante-fixe-2027@afisha-art
-DTSTAMP:20261113T174826Z
-DTSTART:20270113T190000Z
-DTEND:20270113T210000Z
-SUMMARY:Булез: «…explosante-fixe…»
-LOCATION:Филармония Парижа\, Большой зал\, Па
- риж\, Франция
-DESCRIPTION:Классика live electronics: «…explosante-fixe…» 
- Булеза с электроникой реального времен
- и IRCAM.\nEnsemble intercontemporain\, IRCAM\nhttps://www.ircam.fr/en/ev
- ents/explosante-fixe
-URL:https://doublebasskakov.github.io/radar/#e=ircam-explosante-fixe-2027
+UID:ircam-court-circuit-2027@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20270122T190000Z
+DTEND:20270122T210000Z
+SUMMARY:Ensemble Court-circuit в IRCAM
+LOCATION:IRCAM\, Espace de projection\, 1 Place Stravinsky\, 75004 Paris\
+ , Париж\, Франция
+DESCRIPTION:Концерт с премьерами для ансамбл
+ я и электроники в легендарном зале с изм
+ еняемой акустикой.\nEnsemble Court-circuit\nhttps://www.i
+ rcam.fr/en/events/concert-court-circuit
+URL:https://doublebasskakov.github.io/radar/#e=ircam-court-circuit-2027
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Булез: «…explosante-fixe…»
+DESCRIPTION:Ensemble Court-circuit в IRCAM
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:hcmf-2026@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20261120T180000Z
 DTEND:20261120T200000Z
 SUMMARY:Открытие: hcmf// 2026 Huddersfield Contemporary Music Fes
@@ -356,45 +420,101 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ircam-aho-ssan-studio-session@afisha-art
-DTSTAMP:20261113T174826Z
-DTSTART:20261209T180000Z
-DTEND:20261209T200000Z
-SUMMARY:Aho Ssan: Forum Studio Session #8
-LOCATION:IRCAM\, Studio 5 (и онлайн)\, Париж\, Франция
-DESCRIPTION:Французский электронщик Aho Ssan игр
- ает пространственный сет в студии IRCAM\; в
- ыступление транслируется онлайн.\nAho Ssan\n
- https://www.ircam.fr/en/events/aho-ssan-forum-studio-session-8
-URL:https://doublebasskakov.github.io/radar/#e=ircam-aho-ssan-studio-sess
- ion
+UID:anime-hits-by-symphony-orchestra-tashkent@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261115T130000Z
+DTEND:20261115T150000Z
+SUMMARY:Хиты из мира аниме в исполнении сим
+ фонического оркестра
+LOCATION:ТЕАТР+\, Матбуотчиллар 17\, Ташкент\, 
+ Узбекистан
+DESCRIPTION:Молодой виртуозный оркестр испол
+ нит культовые саундтреки из фильмов Хая
+ о Миядзаки\, Такеши Китано и других изве
+ стных режиссеров и композиторов.\nСимфо
+ нический оркестр\nhttps://iticket.uz
+URL:https://doublebasskakov.github.io/radar/#e=anime-hits-by-symphony-orc
+ hestra-tashkent
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Aho Ssan: Forum Studio Session #8
+DESCRIPTION:Хиты из мира аниме в исполнении с
+ имфонического оркестра
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ircam-court-circuit-2027@afisha-art
-DTSTAMP:20261113T174826Z
-DTSTART:20270122T190000Z
-DTEND:20270122T210000Z
-SUMMARY:Ensemble Court-circuit в IRCAM
-LOCATION:IRCAM\, Espace de projection\, Париж\, Франция
-DESCRIPTION:Концерт с премьерами для ансамбл
- я и электроники в легендарном зале с изм
- еняемой акустикой.\nEnsemble Court-circuit\nhttps://www.i
- rcam.fr/en/events/concert-court-circuit
-URL:https://doublebasskakov.github.io/radar/#e=ircam-court-circuit-2027
+UID:adk-sample-hold-11@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261125T190000Z
+DTEND:20261125T210000Z
+SUMMARY:sample&hold #11: Paul Purgas & Stefan Keller
+LOCATION:Akademie der Künste\, Pariser Platz\, Pariser Platz 4\, Бер
+ лин\, Германия
+DESCRIPTION:Серия Студии электроакустическо
+ й музыки Академии искусств: Пол Пургас п
+ оказывает заново открытую электронную 
+ музыку Индии начала 1970-х.\nPaul Purgas\, Stefan Kelle
+ r\, Andreas Fischer\nhttps://www.visitberlin.de/en/node/2293941
+URL:https://doublebasskakov.github.io/radar/#e=adk-sample-hold-11
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Ensemble Court-circuit в IRCAM
+DESCRIPTION:sample&hold #11: Paul Purgas & Stefan Keller
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:anniversary-concert-of-the-state-symphony-orchestra-choir-of-tashkent
+ @afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261127T140000Z
+DTEND:20261127T160000Z
+SUMMARY:Юбилейный концерт хора при Государ
+ ственном симфоническом оркестре Узбеки
+ стана
+LOCATION:Государственная консерватория Узб
+ екистана\, ул. Батыра Закирова\, 1\, Ташкен
+ т\, Узбекистан
+DESCRIPTION:Концерт в честь 10-летия хора вклю
+ чает мировые классические шедевры\, поп
+ улярные хиты и хоровые произведения раз
+ ных эпох.\nХор Государственного симфони
+ ческого оркестра Узбекистана\nhttps://t.me/tash
+ kent_gogo/8184
+URL:https://doublebasskakov.github.io/radar/#e=anniversary-concert-of-the
+ -state-symphony-orchestra-choir-of-tashkent
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Юбилейный концерт хора при Госуд
+ арственном симфоническом оркестре Узбе
+ кистана
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ekaterina-gopenko-niemnogo-niervno-concert-vilnius@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261113T170000Z
+DTEND:20261113T190000Z
+SUMMARY:Концерт Екатерины Гопенко («Немног
+ о Нервно»)
+LOCATION:MESTO\, Pamėnkalnio g. 1\, Vilnius\, Вильнюс\, Литв
+ а
+DESCRIPTION:Лидер дрим-фолк группы «Немного Н
+ ервно» Екатерина Гопенко выступит с сол
+ ьным концертом в Вильнюсе.\nЕкатерина Го
+ пенко\nhttps://t.me/volna_lt/9743
+URL:https://doublebasskakov.github.io/radar/#e=ekaterina-gopenko-niemnogo
+ -niervno-concert-vilnius
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт Екатерины Гопенко («Немн
+ ого Нервно»)
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ultraschall-berlin-2027@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20270120T170000Z
 DTEND:20270120T190000Z
 SUMMARY:Ultraschall Berlin 2027
@@ -412,8 +532,49 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:live-jazz-concert-at-mary-jos-tbilisi@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261114T160000Z
+DTEND:20261114T180000Z
+SUMMARY:Концерт живого джаза в Mary Jos
+LOCATION:Mary Jos\, Тбилиси\, Грузия
+DESCRIPTION:Вечер живой музыки с исполнением 
+ джазовой классики и популярных хитов в 
+ сопровождении дегустации вина.\n\nhttps://t.me
+ /georgiaafisha/6525
+URL:https://doublebasskakov.github.io/radar/#e=live-jazz-concert-at-mary-
+ jos-tbilisi
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт живого джаза в Mary Jos
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:klangforum-wien-concert-at-saint-eustache-paris@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261130T190000Z
+DTEND:20261130T210000Z
+SUMMARY:Концерт Klangforum Wien в церкви Сен-Эсташ
+LOCATION:Église Saint-Eustache\, 2 Impasse Saint-Eustache\, 75001 Paris\
+ , Париж\, Франция
+DESCRIPTION:Концерт ансамбля современной муз
+ ыки Klangforum Wien с премьерой сочинения Эш Фь
+ юр и классикой спектральной музыки.\nKlangf
+ orum Wien\, Ash Fure\, Justė Janulytė\, György Ligeti\, Gérard Grisey
+ \, Francesco Filidei\nhttps://www.ircam.fr/agenda
+URL:https://doublebasskakov.github.io/radar/#e=klangforum-wien-concert-at
+ -saint-eustache-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт Klangforum Wien в церкви Сен-Эст
+ аш
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:flor-do-ibo-today-s-special-berlin@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20270122T170000Z
 DTEND:20270122T190000Z
 SUMMARY:Flor Do Ibo / Today's Special
@@ -431,7 +592,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:polygonia-simon-popp-and-more-berlin@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20270122T190000Z
 DTEND:20270122T210000Z
 SUMMARY:Polygonia\, Simon Popp и другие
@@ -450,7 +611,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:the-dream-has-still-not-whispered-what-to-make-of-these-mort-berlin@a
  fisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20270123T190000Z
 DTEND:20270123T210000Z
 SUMMARY:The Dream Has Still Not Whispered / What To Make Of These Mortal 
@@ -470,7 +631,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cantadoras-iii-berlin@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20270123T190000Z
 DTEND:20270123T210000Z
 SUMMARY:Cantadoras III
@@ -487,8 +648,90 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:concert-eic-50-dialogue-des-ombres-paris@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20270423T180000Z
+DTEND:20270423T200000Z
+SUMMARY:Концерт EIC 50 / Dialogue des ombres
+LOCATION:Cité de la musique - Philharmonie de Paris\, Salle des concerts
+ \, 221 Avenue Jean Jaurès\, 75019 Paris\, Париж\, Франция
+DESCRIPTION:Концерт современной музыки с пре
+ мьерами Пьера Йодловского и Яны Шлябанс
+ кой в исполнении Ensemble intercontemporain.\nEnsemble inte
+ rcontemporain\, Pierre Jodlowski\, Yana Shliabanska\, Pierre Bleuse\nhttp
+ s://www.ircam.fr/agenda
+URL:https://doublebasskakov.github.io/radar/#e=concert-eic-50-dialogue-de
+ s-ombres-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт EIC 50 / Dialogue des ombres
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:symphonic-and-contemporary-music-concert-milhaud-berio-diana-paris@af
+ isha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20270227T190000Z
+DTEND:20270227T210000Z
+SUMMARY:Концерт симфонической и современно
+ й музыки: Мийо\, Берьо\, Диана Сох
+LOCATION:Maison de la Radio et de la Musique\, Auditorium\, 116 Avenue du
+  Président Kennedy\, 75016 Paris\, Париж\, Франция
+DESCRIPTION:Концерт Филармонического оркест
+ ра Радио Франции с сочинениями Дариюса 
+ Мийо\, Лучано Берьо и премьерами.\nOrchestre Ph
+ ilharmonique de Radio France\, Lin Liao\, Diana Soh\, Yaron Herman\, Luci
+ ano Berio\, Darius Milhaud\nhttps://www.ircam.fr/agenda
+URL:https://doublebasskakov.github.io/radar/#e=symphonic-and-contemporary
+ -music-concert-milhaud-berio-diana-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт симфонической и современ
+ ной музыки: Мийо\, Берьо\, Диана Сох
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:armand-hammer-new-york@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261116T010000Z
+DTEND:20261116T030000Z
+SUMMARY:Armand Hammer
+LOCATION:Music Hall of Williamsburg\, Нью-Йорк\, США
+DESCRIPTION:Концерт американского хип-хоп ду
+ эта Armand Hammer в рамках завершения их север
+ оамериканского турне.\nArmand Hammer\nhttps://thequiet
+ us.com/news/armand-hammer-surprise-release-new-album-snakes-ladders/
+URL:https://doublebasskakov.github.io/radar/#e=armand-hammer-new-york
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Armand Hammer
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:concert-conical-intersect-constellation-sonore-paris@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20270130T150000Z
+DTEND:20270130T170000Z
+SUMMARY:Концерт «Conical intersect / Constellation sonore»
+LOCATION:Cité de la musique\, Amphithéâtre\, 221 Avenue Jean Jaurès\,
+  75019 Paris\, Париж\, Франция
+DESCRIPTION:Специальный концерт в рамках уик-
+ энда к юбилею Центра Помпиду и IRCAM.\nCentre Po
+ mpidou\, IRCAM\nhttps://www.ircam.fr/agenda
+URL:https://doublebasskakov.github.io/radar/#e=concert-conical-intersect-
+ constellation-sonore-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт «Conical intersect / Constellation sonore»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:grm-live-electronics-1-2027@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20270108T190000Z
 DTEND:20270108T210000Z
 SUMMARY:INA GRM: Live Electronics #1
@@ -505,8 +748,78 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:contemporary-music-concert-not-alone-2014-15-paris@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20270109T183000Z
+DTEND:20270109T203000Z
+SUMMARY:Концерт современной музыки «Not Alone\, 
+ 2014-15»
+LOCATION:Jeu de Paume\, 1 Place de la Concorde\, 75008 Paris\, Париж
+ \, Франция
+DESCRIPTION:Концерт академической и современ
+ ной музыки в выставочном пространстве Je
+ u de Paume.\nJeu de Paume\nhttps://jeudepaume.org/en/evenement/not-alone-
+ 2014-15/
+URL:https://doublebasskakov.github.io/radar/#e=contemporary-music-concert
+ -not-alone-2014-15-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт современной музыки «Not Alon
+ e\, 2014-15»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:tamerlano-opera-concert-performance-at-carnegie-hall-new-york@afisha-
+ art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20270329
+DTEND;VALUE=DATE:20270330
+SUMMARY:Концертная версия оперы «Тамерлан»
+  в Карнеги-холле
+LOCATION:Карнеги-холл\, Carnegie Hall\, New York\, Нью-Йо
+ рк\, США
+DESCRIPTION:Концертное исполнение оперы Геор
+ га Фридриха Генделя и Кирилла Рихтера «
+ Тамерлан» в исполнении Национального с
+ имфонического оркестра Узбекистана под
+  управлением Алибека Кабдурахманова.\nГ
+ еорг Фридрих Гендель\, Кирилл Рихтер\, На
+ циональный симфонический оркестр Узбек
+ истана\, Алибек Кабдурахманов\nhttps://t.me/acdf
+ uz/14610
+URL:https://doublebasskakov.github.io/radar/#e=tamerlano-opera-concert-pe
+ rformance-at-carnegie-hall-new-york
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концертная версия оперы «Тамерла
+ н» в Карнеги-холле
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ctm-festival-2027@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+SUMMARY:Открытие: CTM Festival 2027
+LOCATION:Площадки Берлина (Berghain\, HAU\, silent green 
+ и др.)\, Берлин\, Германия
+DESCRIPTION:28-й CTM — берлинский фестиваль экс
+ периментальной музыки и звукового иску
+ сства: концерты\, клубные ночи\, выставки
+  и дискуссии.\n\nhttps://www.ctm-festival.de/news/ctm-2027-fest
+ ival-save-the-date
+URL:https://doublebasskakov.github.io/radar/#e=ctm-festival-2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: CTM Festival 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:grm-akousma-may-2027@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20270507
 DTEND;VALUE=DATE:20270510
 SUMMARY:INA GRM: Akousma & Live Electronics
@@ -526,7 +839,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wien-modern-2026@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Последний день: Wien Modern 39: Ecosystems for Liste
@@ -549,8 +862,47 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:sonar-2027@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20270617
+DTEND;VALUE=DATE:20270620
+SUMMARY:Sónar 2027
+LOCATION:Sónar by Day (набережная) и Sónar by Night (Fira Gr
+ an Via)\, Барселона\, Испания
+DESCRIPTION:Барселонский фестиваль продвину
+ той музыки и цифровой культуры возвраща
+ ется к формату «день/ночь»\; конференция
+  Sónar+D снова входит в дневную программу.\n
+ \nhttps://sonar.es/en/news/preventa-2027
+URL:https://doublebasskakov.github.io/radar/#e=sonar-2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sónar 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:berlin-atonal-2027@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20270825
+DTEND;VALUE=DATE:20270830
+SUMMARY:Berlin Atonal 2027
+LOCATION:Kraftwerk Berlin\, Köpenicker Str. 70\, 10179 Berlin\, Берл
+ ин\, Германия
+DESCRIPTION:Фестиваль экспериментальной муз
+ ыки и аудиовизуальных перформансов в ги
+ гантском зале бывшей электростанции Kraft
+ werk.\n\nhttps://www.festivalfinder.eu/festivals/berlin-atonal-2027
+URL:https://doublebasskakov.github.io/radar/#e=berlin-atonal-2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Berlin Atonal 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:iscm-wnmd-2027@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20271009
 DTEND;VALUE=DATE:20271010
 SUMMARY:Открытие: ISCM World New Music Days 2027
@@ -568,8 +920,48 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:rewire-2027@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20270408
+DTEND;VALUE=DATE:20270412
+SUMMARY:Rewire 2027
+LOCATION:Koninklijke Schouwburg\, West Den Haag\, PAARD и др.\, Гаа
+ га\, Нидерланды
+DESCRIPTION:Гаагский фестиваль эксперимента
+ льной и электронной музыки\, звукового и
+ скусства и перформанса в центре города.\
+ nДиаманда Галас и др.\nhttps://www.rewirefestival.nl/info
+ 2027
+URL:https://doublebasskakov.github.io/radar/#e=rewire-2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Rewire 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:jazz-for-kids-concert-yerevan@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Концерт JAZZ for KIDS
+LOCATION:Дом кино\, Ереван\, Армения
+DESCRIPTION:Необычный концерт живой джазовой
+  музыки с показом анимации на большом эк
+ ране в рамках фестиваля «РеА».\nМеждунар
+ одный фестиваль анимации и комиксов «Ре
+ А»\nhttps://t.me/guideyerevan/1575
+URL:https://doublebasskakov.github.io/radar/#e=jazz-for-kids-concert-yere
+ van
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт JAZZ for KIDS
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:maerzmusik-2027@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20270312
 DTEND;VALUE=DATE:20270313
 SUMMARY:Открытие: MaerzMusik 2027
@@ -588,7 +980,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:grm-presences-electronique-2027@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20270219
 DTEND;VALUE=DATE:20270222
 SUMMARY:Фестиваль PRÉSENCES électronique 2027
@@ -608,8 +1000,31 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:tehran-contemporary-sounds-festival-abdullah-miniawy-more-berlin@afis
+ ha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261116
+SUMMARY:Tehran Contemporary Sounds Festival: Абдулла Миньяу
+ и и др.
+LOCATION:Silent Green Kulturquartier\, Берлин\, Германия
+DESCRIPTION:Музыкальная программа фестиваля 
+ современной иранской диаспоры с участи
+ ем Абдуллы Миньяуи\, Gnäw\, Ava Rasti и других а
+ ртистов.\nTehran Contemporary Sounds\nhttps://thequietus.com/news/
+ tehran-contemporary-sounds-festival-takes-place-in-berlin/
+URL:https://doublebasskakov.github.io/radar/#e=tehran-contemporary-sounds
+ -festival-abdullah-miniawy-more-berlin
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tehran Contemporary Sounds Festival: Абдулла Минь
+ яуи и др.
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:darmstadt-summer-course-2027@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20270710
 DTEND;VALUE=DATE:20270711
 SUMMARY:Открытие: Darmstädter Ferienkurse 2027
@@ -630,7 +1045,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:grm-focus-2027@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20270416
 DTEND;VALUE=DATE:20270418
 SUMMARY:INA GRM: Focus
@@ -646,7 +1061,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:jnme-strasbourg-2026@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261117
 SUMMARY:Résonances Électriques 2.0 / JNME
@@ -666,7 +1081,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:carte-blanche-cologne-2026@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261207
 SUMMARY:Carte blanche Cologne
@@ -685,7 +1100,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:helmca-ea-days-corfu-2026@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261123
 SUMMARY:Electroacoustic Music Days 2026

@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:exhibition-incidents-and-characters-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Выставка «Случаи и характеры»
+LOCATION:Солодовня\, Москва
+DESCRIPTION:Масштабная экспозиция в «Солодов
+ не»\, показывающая эволюцию историческо
+ го жанра в русской живописи от Ломоносо
+ ва до конца XIX века\, включая впервые воз
+ вращенное в Россию монументальное поло
+ тно Константина Маковского «Иван Сусан
+ ин».\nNone\nhttps://t.me/culturalmsk/17328
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-incidents-and-c
+ haracters-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выставка «Случаи и характеры»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

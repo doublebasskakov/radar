@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:momento-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261113T170000Z
+DTEND:20261113T190000Z
+SUMMARY:Momento
+LOCATION:Электротеатр Станиславский\, Тверс
+ кая ул.\, 23\, Москва
+DESCRIPTION:Хореографический спектакль пост
+ ановщика Чена Агрона на основной сцене 
+ театра.\nЧен Агрон\nhttps://electrotheatre.ru/playbill
+URL:https://doublebasskakov.github.io/radar/#e=momento-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Momento
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:momento-moscow-1@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261114T170000Z
+DTEND:20261114T190000Z
+SUMMARY:Momento
+LOCATION:Электротеатр Станиславский\, Тверс
+ кая ул.\, 23\, Москва
+DESCRIPTION:Хореографический спектакль пост
+ ановщика Чена Агрона на основной сцене 
+ театра.\nЧен Агрон\nhttps://electrotheatre.ru/playbill
+URL:https://doublebasskakov.github.io/radar/#e=momento-moscow-1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Momento
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:play-gromkie-tbilisi@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20270406
+DTEND;VALUE=DATE:20270407
+SUMMARY:Спектакль «Громкие»
+LOCATION:Театр Грибоедова\, Тбилиси\, Грузия
+DESCRIPTION:Спектакль о кризисе в долгосрочн
+ ых отношениях и поисках ключа к счастью 
+ с участием Виктории Толстогановой и Мак
+ сима Виторгана.\nВиктория Толстоганова\,
+  Максим Виторган\nhttps://gromkie.com
+URL:https://doublebasskakov.github.io/radar/#e=play-gromkie-tbilisi
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спектакль «Громкие»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

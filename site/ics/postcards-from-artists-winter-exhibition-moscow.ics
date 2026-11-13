@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:postcards-from-artists-winter-exhibition-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261117
+SUMMARY:Выставка «Открытки от художников. З
+ има»
+LOCATION:Галерея «Тираж 1/1»\, Поварская 31/29\, 
+ Москва
+DESCRIPTION:Ежегодная праздничная групповая 
+ выставка Галереи Погодиной с участием к
+ лючевых современных российских художни
+ ков.\nСемен Агроскин\, Мария Арендт\, Евге
+ ний Асс\, Кирилл Асс\, Ирина Корина и др.\nh
+ ttps://t.me/vmuzey/32256
+URL:https://doublebasskakov.github.io/radar/#e=postcards-from-artists-win
+ ter-exhibition-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выставка «Открытки от художников
+ . Зима»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

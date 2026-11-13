@@ -7,8 +7,74 @@ X-WR-CALNAME:Радар — Мир / World · country-lithuania
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:young-lithuanian-designers-day-mados-karta-vilnius@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261114T110000Z
+DTEND:20261114T130000Z
+SUMMARY:День молодых литовских дизайнеров (
+ Mados karta)
+LOCATION:ТЦ Panorama\, Saltoniškių g. 9\, Vilnius\, Вильнюс\, 
+ Литва
+DESCRIPTION:Встреча с молодыми литовскими ди
+ зайнерами одежды\, презентация коллекци
+ й\, винтаж\, диджей-сеты и дискуссии о сов
+ ременной моде.\nТЦ Panorama\, DJ Big Boi Studios\, Free Fin
+ ga\nhttps://t.me/volna_lt/9750
+URL:https://doublebasskakov.github.io/radar/#e=young-lithuanian-designers
+ -day-mados-karta-vilnius
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:День молодых литовских дизайнеро
+ в (Mados karta)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ekaterina-gopenko-niemnogo-niervno-concert-vilnius@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261113T170000Z
+DTEND:20261113T190000Z
+SUMMARY:Концерт Екатерины Гопенко («Немног
+ о Нервно»)
+LOCATION:MESTO\, Pamėnkalnio g. 1\, Vilnius\, Вильнюс\, Литв
+ а
+DESCRIPTION:Лидер дрим-фолк группы «Немного Н
+ ервно» Екатерина Гопенко выступит с сол
+ ьным концертом в Вильнюсе.\nЕкатерина Го
+ пенко\nhttps://t.me/volna_lt/9743
+URL:https://doublebasskakov.github.io/radar/#e=ekaterina-gopenko-niemnogo
+ -niervno-concert-vilnius
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт Екатерины Гопенко («Немн
+ ого Нервно»)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:urban-essentials-street-dance-festival-vilnius@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261113T140000Z
+DTEND:20261113T160000Z
+SUMMARY:Фестиваль уличного танца Urban Essentials
+LOCATION:Лукишская тюрьма 2.0\, Вильнюс\, Литв
+ а
+DESCRIPTION:Фестиваль уличного танца с баттл
+ ами\, мастер-классами и вечеринками в пр
+ остранстве Лукишской тюрьмы.\n\nhttps://t.me/vol
+ na_lt/9745
+URL:https://doublebasskakov.github.io/radar/#e=urban-essentials-street-da
+ nce-festival-vilnius
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Фестиваль уличного танца Urban Essentia
+ ls
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:iscm-wnmd-2027@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20271009
 DTEND;VALUE=DATE:20271010
 SUMMARY:Открытие: ISCM World New Music Days 2027
@@ -22,6 +88,24 @@ URL:https://doublebasskakov.github.io/radar/#e=iscm-wnmd-2027
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Открытие: ISCM World New Music Days 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:minsk-sea-performance-vilnius@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:Спектакль «Минское море»
+LOCATION:Вильнюс\, Литва
+DESCRIPTION:Показ современного театрального 
+ спектакля «Минское море» в Вильнюсе.\nТе
+ атральный проект\nhttps://t.me/volna_lt/9742
+URL:https://doublebasskakov.github.io/radar/#e=minsk-sea-performance-viln
+ ius
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спектакль «Минское море»
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

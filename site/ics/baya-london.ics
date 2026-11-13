@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:baya-london@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20270610
+DTEND;VALUE=DATE:20270611
+SUMMARY:Открытие: Baya
+LOCATION:Tate Modern\, Лондон\, Великобритания
+DESCRIPTION:Выставка ярких и выразительных р
+ абот выдающейся алжирской художницы Ба
+ и.\nБая Махиддин\nhttps://www.tate.org.uk/whats-on/tate-moder
+ n/baya
+URL:https://doublebasskakov.github.io/radar/#e=baya-london
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Baya
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

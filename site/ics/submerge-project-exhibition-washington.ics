@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:submerge-project-exhibition-washington@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261116
+SUMMARY:Выставка SUBMERGE Project
+LOCATION:ARTECHOUSE DC\, Вашингтон
+DESCRIPTION:Масштабная выставка аудиовизуал
+ ьных миров и интерактивных инсталляций\
+ , включающая панорамное 18K-шоу Beyond the Render.
+ \nARTECHOUSE DC\nhttps://t.me/generativegallery/4536
+URL:https://doublebasskakov.github.io/radar/#e=submerge-project-exhibitio
+ n-washington
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выставка SUBMERGE Project
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:exhibition-in-the-forests-perm@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:Последний день: Выставка «В лесах»
+LOCATION:Музей современного искусства ПЕРМ
+ М\, ул. Крисанова\, 4\, Пермь
+DESCRIPTION:Итоговая выставка резидентов 12-г
+ о сезона MaxArt\, исследующая природный и э
+ кологический контекст Пермского края.\n
+ Данил Куликов\, Яна Васильева\, Сергей По
+ теряев\, Анна Кондрашова\nhttps://t.me/maxartperm/772
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-in-the-forests-
+ perm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Выставка «В лесах
+ »
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

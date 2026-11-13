@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:mobile-music-assembly-dimitrovgrad-dimitrovgrad@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:Передвижная музыкальная ассамблея:
+  Димитровград
+LOCATION:Димитровград
+DESCRIPTION:Выездные выступления и мастер-кл
+ ассы музыкантов из Казани.\nКазанская го
+ сударственная консерватория имени Н.Г. 
+ Жиганова\nhttps://t.me/kazancons/3600
+URL:https://doublebasskakov.github.io/radar/#e=mobile-music-assembly-dimi
+ trovgrad-dimitrovgrad
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Передвижная музыкальная ассамбл
+ ея: Димитровград
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

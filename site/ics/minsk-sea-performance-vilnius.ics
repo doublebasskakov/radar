@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:minsk-sea-performance-vilnius@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:Спектакль «Минское море»
+LOCATION:Вильнюс\, Литва
+DESCRIPTION:Показ современного театрального 
+ спектакля «Минское море» в Вильнюсе.\nТе
+ атральный проект\nhttps://t.me/volna_lt/9742
+URL:https://doublebasskakov.github.io/radar/#e=minsk-sea-performance-viln
+ ius
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спектакль «Минское море»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

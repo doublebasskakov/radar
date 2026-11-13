@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:stan-douglas-parallax-paris@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:Последний день: Stan Douglas: Parallax
+LOCATION:Jeu de Paume\, 1 Place de la Concorde\, 75008 Paris\, Париж
+ \, Франция
+DESCRIPTION:Масштабная выставка работ извест
+ ного художника Стэна Дугласа в центре с
+ овременного искусства Jeu de Paume.\nStan Douglas\nht
+ tps://jeudepaume.org/en/evenement/stan-douglas/
+URL:https://doublebasskakov.github.io/radar/#e=stan-douglas-parallax-pari
+ s
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Stan Douglas: Parallax
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

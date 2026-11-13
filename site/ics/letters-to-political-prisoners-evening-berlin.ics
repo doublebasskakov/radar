@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:letters-to-political-prisoners-evening-berlin@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Вечер писем политзаключенным
+LOCATION:Reforum Space Berlin\, Wiener Straße 31\, Берлин\, Гер
+ мания
+DESCRIPTION:Мероприятие в рамках Berlin Freedom Week\, 
+ где участники могут написать письма под
+ держки российским политзаключенным на 
+ русском\, английском и немецком языках.\n
+ ОВД-Инфо\nhttps://t.me/reforumspaceberlin/2124
+URL:https://doublebasskakov.github.io/radar/#e=letters-to-political-priso
+ ners-evening-berlin
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Вечер писем политзаключенным
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

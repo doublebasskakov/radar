@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:screening-of-the-film-it-was-it-wasn-t-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:Показ фильма «Было не было»
+LOCATION:ДК Рассвет\, Москва
+DESCRIPTION:Показ роуд-муви мелодрамы «Было н
+ е было» режиссера Тимофея Анисимова о п
+ утешествии по Кольскому полуострову.\nТ
+ имофей Анисимов\nhttps://t.me/dkrassvet/2357
+URL:https://doublebasskakov.github.io/radar/#e=screening-of-the-film-it-w
+ as-it-wasn-t-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильма «Было не было»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

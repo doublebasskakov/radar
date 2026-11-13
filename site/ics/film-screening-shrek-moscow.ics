@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:film-screening-shrek-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261114T160000Z
+DTEND:20261114T180000Z
+SUMMARY:Кинопоказ: «Шрэк»
+LOCATION:Москва
+DESCRIPTION:Субботний кинопоказ анимационно
+ го фильма «Шрэк».\n\nhttps://t.me/vspyshkafriends/5687
+URL:https://doublebasskakov.github.io/radar/#e=film-screening-shrek-mosco
+ w
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Кинопоказ: «Шрэк»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

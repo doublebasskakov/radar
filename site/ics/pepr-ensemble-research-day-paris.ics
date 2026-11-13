@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:pepr-ensemble-research-day-paris@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261211T090000Z
+DTEND:20261211T110000Z
+SUMMARY:Научная встреча PEPR eNSEMBLE по устойчив
+ ой компьютерной инженерии
+LOCATION:Ircam\, salle Stravinsky\, 1 Place Stravinsky\, 75004 Paris\, П
+ ариж\, Франция
+DESCRIPTION:День исследований критических по
+ дходов к взаимодействию человека с комп
+ ьютером и цифровым искусством.\nIRCAM\nhttps://
+ www.ircam.fr/agenda
+URL:https://doublebasskakov.github.io/radar/#e=pepr-ensemble-research-day
+ -paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Научная встреча PEPR eNSEMBLE по устойч
+ ивой компьютерной инженерии
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

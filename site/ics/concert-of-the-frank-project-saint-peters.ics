@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:concert-of-the-frank-project-saint-peters@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261114T160000Z
+DTEND:20261114T180000Z
+SUMMARY:Концерт проекта «фрэнк?»
+LOCATION:Склад №3\, Санкт-Петербург
+DESCRIPTION:Живое выступление на независимой
+  площадке.\nNone\nhttps://t.me/sklad_no3/3864
+URL:https://doublebasskakov.github.io/radar/#e=concert-of-the-frank-proje
+ ct-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт проекта «фрэнк?»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

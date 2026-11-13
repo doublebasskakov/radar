@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:ceam-fantomy-roboty@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20261113T130000Z
 DTEND:20261113T150000Z
 SUMMARY:Открытие: «Фантомы. Партитура для р
@@ -33,8 +33,31 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:dom-radio-electricity@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261114T150000Z
+DTEND:20261114T170000Z
+SUMMARY:«Электричество»: открытие выставки
+  и концерт экспериментальной музыки
+LOCATION:Дом Радио\, ул. Итальянская\, 27\, Санк
+ т-Петербург
+DESCRIPTION:Выставка об электромагнетизме ка
+ к среде и источнике звука\; в первый вече
+ р — концерт экспериментальной музыки н
+ а преобразователях ЛЭЗ.\nНикита Алексее
+ нко\, Влад Добровольский\, Соня Скобелев
+ а\, Виктория Харкевич\nhttps://t.me/whats_that_noise
+URL:https://doublebasskakov.github.io/radar/#e=dom-radio-electricity
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:«Электричество»: открытие выстав
+ ки и концерт экспериментальной музыки
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:dafes-awards-show-2026-intellectual-art-moscow@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20261126T170000Z
 DTEND:20261126T190000Z
 SUMMARY:DAFES AWARDS SHOW 2026: Интеллектуальное иску
@@ -57,8 +80,214 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:concert-gorkovskaya-metro-station-la-grande-finale-nizhny-novgo@afish
+ a-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261114T180000Z
+DTEND:20261114T200000Z
+SUMMARY:Концерт «Станция Метро Горьковская
+ » и La Grande Finale
+LOCATION:ЦЕХ *\, Варварская\, 32\, Нижний Новгор
+ од
+DESCRIPTION:Масштабное мультимедиа-шоу и пре
+ зентация нового альбома проекта «Станц
+ ия Метро Горьковская» с визуальным офор
+ млением от ведущих студий.\nСтанция Метр
+ о Горьковская\, RNDM CREW\, СЕТАП\, dreamlaser\nhttps://
+ t.me/tsehspace/3290
+URL:https://doublebasskakov.github.io/radar/#e=concert-gorkovskaya-metro-
+ station-la-grande-finale-nizhny-novgo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт «Станция Метро Горьковск
+ ая» и La Grande Finale
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:exhibition-phantoms-score-for-robots-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261114T130000Z
+DTEND:20261114T150000Z
+SUMMARY:Открытие: Выставка «Фантомы. Партит
+ ура для роботов»
+LOCATION:Арт-пространство «Артемьев»\, Б. Ни
+ китская\, 13\, Москва
+DESCRIPTION:Пространственная инсталляция с а
+ втоматизированными роялями\, роборукам
+ и и роботизированными музыкальными объ
+ ектами.\nНиколай Попов\, Дмитрий Масаидо
+ в\, ЦЭАМ\nhttps://t.me/ceammc/3519
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-phantoms-score-
+ for-robots-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка «Фантомы. Парт
+ итура для роботов»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:exhibition-lez-electricity-saint-peters@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261114T170000Z
+DTEND:20261114T190000Z
+SUMMARY:Выставка «ЛЭЗ: Электричество»
+LOCATION:Дом Радио\, Невский пр.\, 62\, Санкт-Пе
+ тербург
+DESCRIPTION:Концерт-открытие выставки Лабора
+ тории электромузыкальных звуков в Доме 
+ Радио.\nЛаборатория электромузыкальных 
+ звуков (ЛЭЗ) / Дом Радио\nhttps://t.me/experimentallabor
+ atory/289
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-lez-electricity
+ -saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выставка «ЛЭЗ: Электричество»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:session-2-department-of-multimedia-directing-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261118T090000Z
+DTEND:20261118T110000Z
+SUMMARY:Сеанс 2. Кафедра режиссуры мультиме
+ диа
+LOCATION:Кинотеатр «Иллюзион»\, Котельничес
+ кая наб.\, 1/15\, Москва
+DESCRIPTION:Показ работ учеников мастерской 
+ режиссуры мультимедиа\, сочетающих клас
+ сические приемы игрового кино с интерак
+ тивными медиа и новыми технологиями.\nМа
+ стерская Виктора Азеева\nhttps://t.me/gosfilmofond/8
+ 980
+URL:https://doublebasskakov.github.io/radar/#e=session-2-department-of-mu
+ ltimedia-directing-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Сеанс 2. Кафедра режиссуры мульти
+ медиа
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hse-hiphop-sound@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261119T160000Z
+DTEND:20261119T180000Z
+SUMMARY:Что ты сделал для хип-хопа — саунд-а
+ рт выставка
+LOCATION:HSE ART GALLERY\, Малая Пионерская ул.\, 12\, 
+ Москва
+DESCRIPTION:Экскурсия по выставке\, где худож
+ ники и саунд-артисты превращают «ДНК» х
+ ип-хоп-лейблов в аудиовизуальные портре
+ ты.\nКураторы Илья Крончев-Иванов\, Ольга
+  Зубова\nhttps://t.me/hseartgallery
+URL:https://doublebasskakov.github.io/radar/#e=hse-hiphop-sound
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Что ты сделал для хип-хопа — саун
+ д-арт выставка
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:exhibition-tidal-patterns-code-of-the-sea-magadan@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261115T150000Z
+DTEND:20261115T170000Z
+SUMMARY:Открытие: Выставка «Приливные патт
+ ерны: Код моря»
+LOCATION:КВЦ «Рында»\, Магадан
+DESCRIPTION:Художественное осмысление Охотс
+ кого моря\, его природных циклов\, прилив
+ ов и ледовой динамики.\nКуратор Саша Пуч
+ кова\nhttps://t.me/generativegallery/4540
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-tidal-patterns-
+ code-of-the-sea-magadan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка «Приливные па
+ ттерны: Код моря»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:beyond-the-render-submerge-project-washington@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261113T170000Z
+DTEND:20261113T190000Z
+SUMMARY:Beyond the Render (SUBMERGE Project)
+LOCATION:ARTECHOUSE DC\, 1238 Maryland Ave SW\, Washington\, DC 20024\, 
+ Вашингтон
+DESCRIPTION:45-минутное иммерсивное шоу на 18K-п
+ роекции во всю стену и потолок\, основа в
+ ыставки SUBMERGE Project. Сеансы ежедневно в 12:00
+ \, до 15 ноября.\nARTECHOUSE DC\, Render Network Foundation\nhttp
+ s://www.artechouse.com/program/submerge-dc/
+URL:https://doublebasskakov.github.io/radar/#e=beyond-the-render-submerge
+ -project-washington
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Beyond the Render (SUBMERGE Project)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sound-objects-and-electroacoustics-exhibition-at-dom-radio-saint-pete
+ rs@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261114T150000Z
+DTEND:20261114T170000Z
+SUMMARY:Выставка звуковых объектов и элект
+ роакустики в Доме Радио
+LOCATION:Дом Радио\, Невский пр.\, 62\, Санкт-Пе
+ тербург
+DESCRIPTION:Открытие выставки звуковых датчи
+ ков\, синтезаторов и кинетических инста
+ лляций Лаборатории.\nNone\nhttps://t.me/experimentallabo
+ ratory/305
+URL:https://doublebasskakov.github.io/radar/#e=sound-objects-and-electroa
+ coustics-exhibition-at-dom-radio-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выставка звуковых объектов и эле
+ ктроакустики в Доме Радио
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kandinsky-and-scriabin-hearing-color-and-seeing-sound-moscow@afisha-a
+ rt
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:Открытие: Кандинский и Скрябин. Слы
+ шать цвет и видеть звук
+LOCATION:Павильон «Медиацентр»\, парк «Заря
+ дье»\, улица Варварка\, 6\, Москва
+DESCRIPTION:Масштабная выставка к 160-летию Ва
+ силия Кандинского\, объединяющая живопи
+ сь авангарда\, архивные материалы Алекс
+ андра Скрябина и мультимедийные инстал
+ ляции с современным звуковым переосмыс
+ лением.\nДепартамент культуры Москвы\nhttp
+ s://t.me/mosmuseum/7633
+URL:https://doublebasskakov.github.io/radar/#e=kandinsky-and-scriabin-hea
+ ring-color-and-seeing-sound-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Кандинский и Скрябин. С
+ лышать цвет и видеть звук
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:spb-lakhta-tretya-priroda@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20270430
 DTEND;VALUE=DATE:20270501
 SUMMARY:Последний день: «Третья природа»
@@ -78,7 +307,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:vest-2@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20270223
 DTEND;VALUE=DATE:20270224
 SUMMARY:Последний день: Весть 2.0
@@ -99,8 +328,31 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:ryuichi-sakamoto-exhibition-seeing-sound-hearing-time-berlin@afisha-a
+ rt
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20270620
+DTEND;VALUE=DATE:20270621
+SUMMARY:Последний день: Выставка Рюити Сака
+ мото «Seeing Sound\, Hearing Time»
+LOCATION:Hamburger Bahnhof\, Берлин
+DESCRIPTION:Масштабная музейная ретроспекти
+ ва звуковых установок и аудиовизуальны
+ х произведений японского пионера элект
+ ронной музыки.\nРюити Сакамото / Ryuichi Sakamot
+ o\nhttps://t.me/sobogallery/2133
+URL:https://doublebasskakov.github.io/radar/#e=ryuichi-sakamoto-exhibitio
+ n-seeing-sound-hearing-time-berlin
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Выставка Рюити Са
+ камото «Seeing Sound\, Hearing Time»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:spb-tsifergauz-poka-sobiraetsya-mir@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:Последний день: «Пока собирается ми
@@ -124,7 +376,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:platon-infante-solo-exhibition-moscow@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261208
 DTEND;VALUE=DATE:20261209
 SUMMARY:Персональная выставка Платона Инфа
@@ -147,7 +399,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:marina-abramovic-element-project-milan@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:Открытие: Проект Marina Abramovic Element
@@ -166,8 +418,50 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:installation-melting-diary-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Открытие: Инсталляция «Тающий днев
+ ник»
+LOCATION:Коммунальный блок Дома Наркомфина\
+ , Москва
+DESCRIPTION:Псевдодокументальная инсталляци
+ я\, исследующая архитектурное прошлое и 
+ скрытые цветовые решения Дома Наркомфи
+ на до его реконструкции.\nИван Новиков\, 
+ Дарья Сетевинец\nhttps://t.me/uuMSCA/4908
+URL:https://doublebasskakov.github.io/radar/#e=installation-melting-diary
+ -moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Инсталляция «Тающий дн
+ евник»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:submerge-project-exhibition-washington@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261116
+SUMMARY:Выставка SUBMERGE Project
+LOCATION:ARTECHOUSE DC\, Вашингтон
+DESCRIPTION:Масштабная выставка аудиовизуал
+ ьных миров и интерактивных инсталляций\
+ , включающая панорамное 18K-шоу Beyond the Render.
+ \nARTECHOUSE DC\nhttps://t.me/generativegallery/4536
+URL:https://doublebasskakov.github.io/radar/#e=submerge-project-exhibitio
+ n-washington
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выставка SUBMERGE Project
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:vs-sled@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:Последний день: След
@@ -186,7 +480,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ekb-yeltsin-atrium-art-object-2026@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261226
 DTEND;VALUE=DATE:20261227
 SUMMARY:Новогодний арт-объект в атриуме Ель
@@ -210,7 +504,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mars-sens@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261230
 DTEND;VALUE=DATE:20261231
 SUMMARY:Последний день: СЕНС. Эволюция стих
@@ -232,8 +526,31 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:exhibition-as-the-world-gathers-saint-peters@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Открытие: Выставка «Пока собираетс
+ я мир»
+LOCATION:Галерея «Цифергауз»\, Санкт-Петерб
+ ург
+DESCRIPTION:Экспозиция видеоарта\, генератив
+ ных работ и интерактивных инсталляций\, 
+ исследующих восприятие реальности.\nМеж
+ дународный состав художников\nhttps://t.me/gene
+ rativegallery/4540
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-as-the-world-ga
+ thers-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка «Пока собирае
+ тся мир»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:msk-muzey-moskvy-reflections@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20270129
 DTEND;VALUE=DATE:20270130
 SUMMARY:Последний день: Никола Мельников. REF
@@ -259,7 +576,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:premiere-of-the-multimedia-show-galileo-and-the-secrets-of-t-moscow@a
  fisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Премьера мультимедийного шоу «Гали
@@ -281,8 +598,30 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:digital-lethargy-saint-peters@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:Последний день: Цифровая летаргия
+LOCATION:Центр искусства и науки ИТМО\, Бирж
+ евая линия\, 16\, Санкт-Петербург
+DESCRIPTION:Выставка под кураторством Аси Ка
+ план\, объединяющая работы 17 художников\
+ , исследующих осязаемость цифровых техн
+ ологий.\nАся Каплан\, Центр искусства и н
+ ауки ИТМО\nhttps://t.me/art_sci/2894
+URL:https://doublebasskakov.github.io/radar/#e=digital-lethargy-saint-pet
+ ers
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Цифровая летарги
+ я
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:mou-sen@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20270221
 DTEND;VALUE=DATE:20270222
 SUMMARY:Последний день: Моу Сэнь. Божествен
@@ -299,6 +638,50 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Последний день: Моу Сэнь. Божеств
  енная комедия
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sometimes-water-moves-towards-the-moon-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261216
+DTEND;VALUE=DATE:20261217
+SUMMARY:Последний день: Иногда вода двигает
+ ся в сторону луны
+LOCATION:ММОМА на Петровке\, Петровка\, 25\, Мо
+ сква
+DESCRIPTION:Персональная выставка Милы Нишат
+ овой представляет масштабную кинетичес
+ кую инсталляцию\, воспроизводящую прили
+ вы и отливы\, дополненную археологическ
+ ими объектами\, фото и видео.\nМила Нишат
+ ова\nhttps://t.me/freeworkshops_mmoma/1381
+URL:https://doublebasskakov.github.io/radar/#e=sometimes-water-moves-towa
+ rds-the-moon-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Иногда вода двига
+ ется в сторону луны
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:installation-the-flood-kaliningrad@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Открытие: Инсталляция «Потоп»
+LOCATION:Культурный квартал «Понарт»\, Кали
+ нинград
+DESCRIPTION:Масштабная инсталляция в Культур
+ ном квартале «Понарт»\, исследующая тем
+ у стихии и воды.\n\nhttps://www.afisha.ru/kaliningrad/other/k
+ ulturniy-kvartal-ponart-131306/
+URL:https://doublebasskakov.github.io/radar/#e=installation-the-flood-kal
+ iningrad
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Инсталляция «Потоп»
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

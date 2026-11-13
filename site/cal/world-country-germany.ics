@@ -7,8 +7,32 @@ X-WR-CALNAME:Радар — Мир / World · country-germany
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:30-years-hamburger-bahnhof-24-7-anniversary-celebration-berlin@afisha
+ -art
+DTSTAMP:20261113T184219Z
+DTSTART:20261114T100000Z
+DTEND:20261114T120000Z
+SUMMARY:30 лет Hamburger Bahnhof: Круглосуточный пра
+ здник
+LOCATION:Hamburger Bahnhof – Nationalgalerie der Gegenwart\, Invalidens
+ traße 50-51\, Berlin\, Берлин\, Германия
+DESCRIPTION:Музей современного искусства отм
+ ечает 30-летие масштабной 30-часовой прог
+ раммой с бесплатным входом\, ночными экс
+ курсиями\, показами фильмов и виниловым
+ и сессиями.\nHamburger Bahnhof\nhttps://www.artatberlin.com/
+URL:https://doublebasskakov.github.io/radar/#e=30-years-hamburger-bahnhof
+ -24-7-anniversary-celebration-berlin
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:30 лет Hamburger Bahnhof: Круглосуточный п
+ раздник
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:burning-song-berlin@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20270125T190000Z
 DTEND:20270125T210000Z
 SUMMARY:Burning Song
@@ -24,122 +48,32 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:adk-sample-hold-11@afisha-art
-DTSTAMP:20261113T174826Z
-DTSTART:20261125T190000Z
-DTEND:20261125T210000Z
-SUMMARY:sample&hold #11: Paul Purgas & Stefan Keller
-LOCATION:Akademie der Künste\, Pariser Platz\, Pariser Platz 4\, Бер
- лин\, Германия
-DESCRIPTION:Серия Студии электроакустическо
- й музыки Академии искусств: Пол Пургас п
- оказывает заново открытую электронную 
- музыку Индии начала 1970-х.\nPaul Purgas\, Stefan Kelle
- r\, Andreas Fischer\nhttps://www.visitberlin.de/en/node/2293941
-URL:https://doublebasskakov.github.io/radar/#e=adk-sample-hold-11
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:sample&hold #11: Paul Purgas & Stefan Keller
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:ultraschall-berlin-2027@afisha-art
-DTSTAMP:20261113T174826Z
-DTSTART:20270120T170000Z
-DTEND:20270120T190000Z
-SUMMARY:Ultraschall Berlin 2027
-LOCATION:Haus des Rundfunks\, Heimathafen Neukölln\, Radialsystem\, Бе
- рлин\, Германия
-DESCRIPTION:Пять вечеров новой академической
-  музыки — фестиваль Deutschlandfunk Kultur и rbb radio3
- .\n\nhttps://www.berlin.de/en/events/6416655-2842498-ultraschall-berlin-f
- estival-for-new-musi.en.html
-URL:https://doublebasskakov.github.io/radar/#e=ultraschall-berlin-2027
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Ultraschall Berlin 2027
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:flor-do-ibo-today-s-special-berlin@afisha-art
-DTSTAMP:20261113T174826Z
-DTSTART:20270122T170000Z
-DTEND:20270122T190000Z
-SUMMARY:Flor Do Ibo / Today's Special
-LOCATION:silent green Kuppelhalle\, Берлин\, Германия
-DESCRIPTION:Концертная программа CTM 2027: два се
- т-проекта в один вечер.\nMariana Carrilho\; Hanne Lippa
- rd & Renato Grieco\nhttps://www.ctm-festival.de/festival-2027/tickets
-URL:https://doublebasskakov.github.io/radar/#e=flor-do-ibo-today-s-specia
- l-berlin
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Flor Do Ibo / Today's Special
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:polygonia-simon-popp-and-more-berlin@afisha-art
-DTSTAMP:20261113T174826Z
-DTSTART:20270122T190000Z
-DTEND:20270122T210000Z
-SUMMARY:Polygonia\, Simon Popp и другие
-LOCATION:silent green Betonhalle\, Берлин\, Германия
-DESCRIPTION:Вечер CTM 2027\; состав остальных уча
- стников уточняется.\nPolygonia\; Simon Popp\nhttps://www
- .ctm-festival.de/festival-2027/tickets
-URL:https://doublebasskakov.github.io/radar/#e=polygonia-simon-popp-and-m
- ore-berlin
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Polygonia\, Simon Popp и другие
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:the-dream-has-still-not-whispered-what-to-make-of-these-mort-berlin@a
+UID:what-happens-if-i-wave-my-arm-the-school-of-algorithmic-soli-berlin@a
  fisha-art
-DTSTAMP:20261113T174826Z
-DTSTART:20270123T190000Z
-DTEND:20270123T210000Z
-SUMMARY:The Dream Has Still Not Whispered / What To Make Of These Mortal 
- Hands
-LOCATION:silent green Betonhalle\, Берлин\, Германия
-DESCRIPTION:Два концертных выступления в оди
- н вечер на CTM 2027.\nBilawa Respati\, Karina Utomo\, Süräle\; 
- Dis Fig\nhttps://www.ctm-festival.de/festival-2027/tickets
-URL:https://doublebasskakov.github.io/radar/#e=the-dream-has-still-not-wh
- ispered-what-to-make-of-these-mort-berlin
+DTSTAMP:20261113T184219Z
+DTSTART:20261113T170000Z
+DTEND:20261113T190000Z
+SUMMARY:What happens if I wave my arm? (The School of Algorithmic Solidar
+ ity)
+LOCATION:transmediale studio\, Берлин\, Германия
+DESCRIPTION:Вторая сессия Школы алгоритмичес
+ кой солидарности с группой eeefff исследуе
+ т телесные практики\, моторику и взаимод
+ ействие человека с технологиями через п
+ ризму эрготерапии.\neeefff\, transmediale studio\nhttps:/
+ /transmediale.de/en/event/what-happens-if-i-wave-my-arm
+URL:https://doublebasskakov.github.io/radar/#e=what-happens-if-i-wave-my-
+ arm-the-school-of-algorithmic-soli-berlin
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Dream Has Still Not Whispered / What To Make Of These Mor
- tal Hands
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:cantadoras-iii-berlin@afisha-art
-DTSTAMP:20261113T174826Z
-DTSTART:20270123T190000Z
-DTEND:20270123T210000Z
-SUMMARY:Cantadoras III
-LOCATION:Deutsche Oper Berlin (Tischlerei)\, Берлин\, Герман
- ия
-DESCRIPTION:Часть многолетней серии CTM с Deutsche 
- Oper Berlin.\nSainkho Namtchylak\; HMOT\nhttps://www.ctm-festival.de/fest
- ival-2027/tickets
-URL:https://doublebasskakov.github.io/radar/#e=cantadoras-iii-berlin
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Cantadoras III
+DESCRIPTION:What happens if I wave my arm? (The School of Algorithmic Sol
+ idarity)
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:hamburger-bahnhof-sophie-calle@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20261113T180000Z
 DTEND:20261113T200000Z
 SUMMARY:Открытие: Sophie Calle: Is It Better?
@@ -159,8 +93,235 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:adk-sample-hold-11@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261125T190000Z
+DTEND:20261125T210000Z
+SUMMARY:sample&hold #11: Paul Purgas & Stefan Keller
+LOCATION:Akademie der Künste\, Pariser Platz\, Pariser Platz 4\, Бер
+ лин\, Германия
+DESCRIPTION:Серия Студии электроакустическо
+ й музыки Академии искусств: Пол Пургас п
+ оказывает заново открытую электронную 
+ музыку Индии начала 1970-х.\nPaul Purgas\, Stefan Kelle
+ r\, Andreas Fischer\nhttps://www.visitberlin.de/en/node/2293941
+URL:https://doublebasskakov.github.io/radar/#e=adk-sample-hold-11
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:sample&hold #11: Paul Purgas & Stefan Keller
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lecture-on-censorship-in-russian-streaming-series-by-mika-go-berlin@a
+ fisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261122T160000Z
+DTEND:20261122T180000Z
+SUMMARY:Лекция Мики Голубовского о цензуре 
+ в российских сериалах
+LOCATION:Reforum Space Berlin\, Wiener Straße 31\, 10999 Berlin\, Бер
+ лин\, Германия
+DESCRIPTION:Редактор «Медиазоны» расскажет о
+  результатах исследования вырезанных с
+ цен и цензуры в зарубежных сериалах на р
+ оссийских стримингах.\nМедиазона\, Reforum Sp
+ ace Berlin\nhttps://t.me/reforumspaceberlin/2143
+URL:https://doublebasskakov.github.io/radar/#e=lecture-on-censorship-in-r
+ ussian-streaming-series-by-mika-go-berlin
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекция Мики Голубовского о цензу
+ ре в российских сериалах
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:intertronika-festival-workshops-live-concert-and-club-night-hamburg@a
+ fisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261205T193000Z
+DTEND:20261205T213000Z
+SUMMARY:Фестиваль Intertronika: воркшопы\, лайв-ко
+ нцерт и клубная ночь
+LOCATION:Fabrique\, Gänsemarkt\, Hamburg\, Гамбург\, Герма
+ ния
+DESCRIPTION:Мультидисциплинарное событие к п
+ ятилетию проекта объединяет дневные во
+ ркшопы\, живое выступление и масштабную 
+ клубную ночь.\nChocks и др.\nhttps://www.instagram.com/inte
+ rtronika/
+URL:https://doublebasskakov.github.io/radar/#e=intertronika-festival-work
+ shops-live-concert-and-club-night-hamburg
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Фестиваль Intertronika: воркшопы\, лайв-
+ концерт и клубная ночь
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:respekt-festival-2026-hamburg@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261113T150000Z
+DTEND:20261113T170000Z
+SUMMARY:Respekt* Festival 2026
+LOCATION:Fabrique\, Гамбург\, Германия
+DESCRIPTION:Фестиваль политического образов
+ ания\, искусства и музыки\, объединяющий 
+ перформансы\, дискуссии и мастер-классы.
+ \nAGfJ\, Finna\, Zima\, Marione Ingram\, Arne Semsrott\, Wolfgang Schmidt
+ \nhttps://agfj-hamburg.de/respekt-2026/
+URL:https://doublebasskakov.github.io/radar/#e=respekt-festival-2026-hamb
+ urg
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Respekt* Festival 2026
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:meet-read-reading-club-with-ekaterina-schulmann-berlin@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261115T100000Z
+DTEND:20261115T120000Z
+SUMMARY:MEET & READ. Читательские встречи с Екат
+ ериной Шульман
+LOCATION:Clärchens Ballhaus (Spiegelsaal)\, Берлин\, Герман
+ ия
+DESCRIPTION:Очередная встреча книжного клуба
+  в историческом зеркальном зале под мод
+ ераторством Екатерины Шульман.\nЕкатери
+ на Шульман\nhttps://t.me/genau/2974
+URL:https://doublebasskakov.github.io/radar/#e=meet-read-reading-club-wit
+ h-ekaterina-schulmann-berlin
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MEET & READ. Читательские встречи с Ек
+ атериной Шульман
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ultraschall-berlin-2027@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20270120T170000Z
+DTEND:20270120T190000Z
+SUMMARY:Ultraschall Berlin 2027
+LOCATION:Haus des Rundfunks\, Heimathafen Neukölln\, Radialsystem\, Бе
+ рлин\, Германия
+DESCRIPTION:Пять вечеров новой академической
+  музыки — фестиваль Deutschlandfunk Kultur и rbb radio3
+ .\n\nhttps://www.berlin.de/en/events/6416655-2842498-ultraschall-berlin-f
+ estival-for-new-musi.en.html
+URL:https://doublebasskakov.github.io/radar/#e=ultraschall-berlin-2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ultraschall Berlin 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:flor-do-ibo-today-s-special-berlin@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20270122T170000Z
+DTEND:20270122T190000Z
+SUMMARY:Flor Do Ibo / Today's Special
+LOCATION:silent green Kuppelhalle\, Берлин\, Германия
+DESCRIPTION:Концертная программа CTM 2027: два се
+ т-проекта в один вечер.\nMariana Carrilho\; Hanne Lippa
+ rd & Renato Grieco\nhttps://www.ctm-festival.de/festival-2027/tickets
+URL:https://doublebasskakov.github.io/radar/#e=flor-do-ibo-today-s-specia
+ l-berlin
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Flor Do Ibo / Today's Special
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:polygonia-simon-popp-and-more-berlin@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20270122T190000Z
+DTEND:20270122T210000Z
+SUMMARY:Polygonia\, Simon Popp и другие
+LOCATION:silent green Betonhalle\, Берлин\, Германия
+DESCRIPTION:Вечер CTM 2027\; состав остальных уча
+ стников уточняется.\nPolygonia\; Simon Popp\nhttps://www
+ .ctm-festival.de/festival-2027/tickets
+URL:https://doublebasskakov.github.io/radar/#e=polygonia-simon-popp-and-m
+ ore-berlin
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Polygonia\, Simon Popp и другие
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:the-dream-has-still-not-whispered-what-to-make-of-these-mort-berlin@a
+ fisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20270123T190000Z
+DTEND:20270123T210000Z
+SUMMARY:The Dream Has Still Not Whispered / What To Make Of These Mortal 
+ Hands
+LOCATION:silent green Betonhalle\, Берлин\, Германия
+DESCRIPTION:Два концертных выступления в оди
+ н вечер на CTM 2027.\nBilawa Respati\, Karina Utomo\, Süräle\; 
+ Dis Fig\nhttps://www.ctm-festival.de/festival-2027/tickets
+URL:https://doublebasskakov.github.io/radar/#e=the-dream-has-still-not-wh
+ ispered-what-to-make-of-these-mort-berlin
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Dream Has Still Not Whispered / What To Make Of These Mor
+ tal Hands
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cantadoras-iii-berlin@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20270123T190000Z
+DTEND:20270123T210000Z
+SUMMARY:Cantadoras III
+LOCATION:Deutsche Oper Berlin (Tischlerei)\, Берлин\, Герман
+ ия
+DESCRIPTION:Часть многолетней серии CTM с Deutsche 
+ Oper Berlin.\nSainkho Namtchylak\; HMOT\nhttps://www.ctm-festival.de/fest
+ ival-2027/tickets
+URL:https://doublebasskakov.github.io/radar/#e=cantadoras-iii-berlin
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Cantadoras III
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:tamina-amadyar-opaque-waters-berlin@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261114T170000Z
+DTEND:20261114T190000Z
+SUMMARY:Открытие: Tamina Amadyar – Opaque Waters
+LOCATION:Meyer Riegger\, Friedenstraße 120\, Berlin\, Берлин\, Г
+ ермания
+DESCRIPTION:Персональная выставка Тамины Ама
+ дьяр исследует тему моря\, света и цвета\
+ , продолжая традиции пейзажной живописи
+  через призму современных материалов.\nTa
+ mina Amadyar\nhttps://www.artatberlin.com/ausstellung-tamina-amadyar-meye
+ r-riegger-contemporary-art-zeitgenoessische-kunst-in-berlin-ausstellungen
+ -berlin-galerien-art-at-berlin/
+URL:https://doublebasskakov.github.io/radar/#e=tamina-amadyar-opaque-wate
+ rs-berlin
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Tamina Amadyar – Opaque Waters
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:berlin-biennale-14@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20270605
 DTEND;VALUE=DATE:20270606
 SUMMARY:Открытие: 14. Berlin Biennale: Central Europe Eastern Tim
@@ -185,7 +346,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:documenta-16@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20270612
 DTEND;VALUE=DATE:20270613
 SUMMARY:Открытие: documenta 16
@@ -207,7 +368,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:transmediale-2027@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20270128
 DTEND;VALUE=DATE:20270201
 SUMMARY:transmediale 2027: groundstates
@@ -228,7 +389,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ctm-festival-2027@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20270122
 DTEND;VALUE=DATE:20270123
 SUMMARY:Открытие: CTM Festival 2027
@@ -247,8 +408,99 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:exhibition-fragile-currents-berlin@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20270127
+DTEND;VALUE=DATE:20270128
+SUMMARY:Открытие: Выставка «fragile currents»
+LOCATION:Akademie der Künste (Hanseatenweg)\, Берлин\, Герма
+ ния
+DESCRIPTION:Масштабная выставка\, объединяющ
+ ая фильмы\, инсталляции\, скульптуры и иг
+ ровые проекты\, исследующие материально
+ сть современных технологий.\n\nhttps://transmedia
+ le.de/en/2027/exhibition-2027
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-fragile-current
+ s-berlin
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка «fragile currents»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dark-net-exhibition-at-akademie-der-ku-nste-berlin@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20270127
+DTEND;VALUE=DATE:20270128
+SUMMARY:Открытие: Выставка «Dark Net» в Akademie der K
+ ünste
+LOCATION:Akademie der Künste (Hanseatenweg)\, Hanseatenweg 10\, 10557 Be
+ rlin\, Берлин\, Германия
+DESCRIPTION:Исследовательский проект-инстал
+ ляция «Dark Net» затрагивает темы технолог
+ ической эксплуатации\, асимметрии и скр
+ ытых инфраструктур.\nOleksii Minko\, Fernando Morales de
+  la Peña\, Antonina Stebur\nhttps://transmediale.de/en/2027/artwork/dark
+ -net
+URL:https://doublebasskakov.github.io/radar/#e=dark-net-exhibition-at-aka
+ demie-der-ku-nste-berlin
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка «Dark Net» в Akademie d
+ er Künste
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:letters-to-political-prisoners-evening-berlin@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Вечер писем политзаключенным
+LOCATION:Reforum Space Berlin\, Wiener Straße 31\, Берлин\, Гер
+ мания
+DESCRIPTION:Мероприятие в рамках Berlin Freedom Week\, 
+ где участники могут написать письма под
+ держки российским политзаключенным на 
+ русском\, английском и немецком языках.\n
+ ОВД-Инфо\nhttps://t.me/reforumspaceberlin/2124
+URL:https://doublebasskakov.github.io/radar/#e=letters-to-political-priso
+ ners-evening-berlin
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Вечер писем политзаключенным
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:anna-vilenskaya-lecture-future-music-fears-that-have-already-berlin@a
+ fisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:Лекция Анны Вилленской «Музыка буд
+ ущего: страхи\, которые уже оправдались\,
+  и новые надежды»
+LOCATION:Берлин\, Германия
+DESCRIPTION:Музыковед Анна Вилленская выступ
+ ит в Берлине с лекцией о влиянии искусст
+ венного интеллекта и новых технологий н
+ а музыкальную индустрию.\nАнна Вилленск
+ ая\nhttps://t.me/genau/2984
+URL:https://doublebasskakov.github.io/radar/#e=anna-vilenskaya-lecture-fu
+ ture-music-fears-that-have-already-berlin
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекция Анны Вилленской «Музыка б
+ удущего: страхи\, которые уже оправдалис
+ ь\, и новые надежды»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:berlin-atonal-2027@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20270825
 DTEND;VALUE=DATE:20270830
 SUMMARY:Berlin Atonal 2027
@@ -267,7 +519,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gropius-bau-schlingensief@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
 SUMMARY:Последний день: Christoph Schlingensief: Es ist nich
@@ -289,7 +541,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gropius-bau-kreuzberg@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
 SUMMARY:Последний день: Kreuzberg: Kunst und Migration seit 
@@ -310,7 +562,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:maerzmusik-2027@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20270312
 DTEND;VALUE=DATE:20270313
 SUMMARY:Открытие: MaerzMusik 2027
@@ -329,7 +581,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:neue-nationalgalerie-cattelan@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270308
 SUMMARY:Последний день: Maurizio Cattelan. NIGHT
@@ -348,8 +600,103 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:thomas-scheibitz-elizabeth-warfel-berlin@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Открытие: Thomas Scheibitz & Elizabeth Warfel
+LOCATION:Sprüth Magers Berlin\, Oranienburger Straße 18\, Berlin\, Бе
+ рлин\, Германия
+DESCRIPTION:Двойная выставка: Томас Шайбиц ис
+ следует границы абстракции и фигурации 
+ в новых картинах и скульптурах\, а Элиза
+ бет Варфель в витринном пространстве по
+ казывает городские сцены ночной жизни.\n
+ Thomas Scheibitz\, Elizabeth Warfel\nhttps://www.artatberlin.com/ausstell
+ ung-thomas-scheibitz-elizabeth-warfel-sprueth-magers-berlin-zeitgenoessis
+ che-kunst-in-berlin-contemporary-art-ausstellungen-galerien-berlin-art-at
+ -berlin/
+URL:https://doublebasskakov.github.io/radar/#e=thomas-scheibitz-elizabeth
+ -warfel-berlin
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Thomas Scheibitz & Elizabeth Warfel
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:daniela-comani-orlando-s-library-berlin@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:Открытие: Daniela Comani. Orlando’s Library
+LOCATION:Kunstbibliothek – Staatliche Museen zu Berlin\, Kulturforum\, 
+ Berlin\, Берлин\, Германия
+DESCRIPTION:Инсталляция художницы Даниэлы Ко
+ мани в рамках серии «Бухсалон»\, предста
+ вляющая собой обманчивые визуальные ко
+ мпозиции с книжными полками и завуалиро
+ ванными изменениями на обложках.\nDaniela Com
+ ani\nhttps://www.artatberlin.com/news-buchsalon-daniela-comani-orlandos-l
+ ibrary-kunstbibliothek-berlin-17-11-2026-bis-08-03-2027/
+URL:https://doublebasskakov.github.io/radar/#e=daniela-comani-orlando-s-l
+ ibrary-berlin
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Daniela Comani. Orlando’s Library
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:disruption-network-lab-conference-the-kill-cloud-ai-migratio-berlin@a
+ fisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261130
+SUMMARY:Конференция Disruption Network Lab: The Kill Cloud\, A
+ I & Migration Control
+LOCATION:Kunstquartier Bethanien (Studio 1)\, Marianneplatz 2\, 10997 Ber
+ lin\, Берлин\, Германия
+DESCRIPTION:38-я конференция Disruption Network Lab посв
+ ящена технологиям искусственного интел
+ лекта\, контролю миграции и цифровой без
+ опасности.\nDisruption Network Lab\nhttps://www.disruptionlab.or
+ g/testing-grounds
+URL:https://doublebasskakov.github.io/radar/#e=disruption-network-lab-con
+ ference-the-kill-cloud-ai-migratio-berlin
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Конференция Disruption Network Lab: The Kill Cloud
+ \, AI & Migration Control
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:tehran-contemporary-sounds-festival-abdullah-miniawy-more-berlin@afis
+ ha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261116
+SUMMARY:Tehran Contemporary Sounds Festival: Абдулла Миньяу
+ и и др.
+LOCATION:Silent Green Kulturquartier\, Берлин\, Германия
+DESCRIPTION:Музыкальная программа фестиваля 
+ современной иранской диаспоры с участи
+ ем Абдуллы Миньяуи\, Gnäw\, Ava Rasti и других а
+ ртистов.\nTehran Contemporary Sounds\nhttps://thequietus.com/news/
+ tehran-contemporary-sounds-festival-takes-place-in-berlin/
+URL:https://doublebasskakov.github.io/radar/#e=tehran-contemporary-sounds
+ -festival-abdullah-miniawy-more-berlin
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tehran Contemporary Sounds Festival: Абдулла Минь
+ яуи и др.
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:darmstadt-summer-course-2027@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20270710
 DTEND;VALUE=DATE:20270711
 SUMMARY:Открытие: Darmstädter Ferienkurse 2027
@@ -370,7 +717,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:haus-der-kunst-saraceno@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
 SUMMARY:Последний день: Tomás Saraceno
@@ -391,7 +738,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:neue-nationalgalerie-ruin-and-rush@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
 SUMMARY:Последний день: Ruin and Rush. Berlin 1910–1930
@@ -413,7 +760,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:steina-playback-haus-der-kunst@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 SUMMARY:Последний день: Steina: Playback
@@ -435,7 +782,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:haus-der-kunst-diane-severin-nguyen@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:Открытие: Diane Severin Nguyen
@@ -457,7 +804,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:carte-blanche-cologne-2026@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261207
 SUMMARY:Carte blanche Cologne

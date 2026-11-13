@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:exhibition-found-in-the-cabbage-saint-peters@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Открытие: Выставка «Найдено в капус
+ те»
+LOCATION:Галерея «Паразиты»\, Санкт-Петербу
+ рг
+DESCRIPTION:Выставка-ответный визит Капустин
+ ского ЦСИ\, представляющая диалог между 
+ радикально разными моделями независимо
+ го искусства.\nОльга Божко\, Павел Зудано
+ в\, Ирина Корина\, Моно Катя\, Евгения Сте
+ рлягова\nhttps://t.me/ica_moscow/1185
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-found-in-the-ca
+ bbage-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка «Найдено в кап
+ усте»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

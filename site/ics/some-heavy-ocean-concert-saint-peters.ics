@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:some-heavy-ocean-concert-saint-peters@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261115T160000Z
+DTEND:20261115T180000Z
+SUMMARY:Концерт Some Heavy Ocean
+LOCATION:Склад №3\, Санкт-Петербург
+DESCRIPTION:Концерт музыкальных проектов Echosa
+ lute\, Рябь\, ATÅMA и Карнегия.\nEchosalute\, Рябь\, AT
+ ÅMA\, Карнегия\nhttps://t.me/sklad_no3/3864
+URL:https://doublebasskakov.github.io/radar/#e=some-heavy-ocean-concert-s
+ aint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт Some Heavy Ocean
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

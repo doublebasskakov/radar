@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:live-jazz-concert-at-mary-jos-tbilisi@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261114T160000Z
+DTEND:20261114T180000Z
+SUMMARY:Концерт живого джаза в Mary Jos
+LOCATION:Mary Jos\, Тбилиси\, Грузия
+DESCRIPTION:Вечер живой музыки с исполнением 
+ джазовой классики и популярных хитов в 
+ сопровождении дегустации вина.\n\nhttps://t.me
+ /georgiaafisha/6525
+URL:https://doublebasskakov.github.io/radar/#e=live-jazz-concert-at-mary-
+ jos-tbilisi
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт живого джаза в Mary Jos
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

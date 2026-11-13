@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:exhibition-lez-electricity-saint-peters@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261114T170000Z
+DTEND:20261114T190000Z
+SUMMARY:Выставка «ЛЭЗ: Электричество»
+LOCATION:Дом Радио\, Невский пр.\, 62\, Санкт-Пе
+ тербург
+DESCRIPTION:Концерт-открытие выставки Лабора
+ тории электромузыкальных звуков в Доме 
+ Радио.\nЛаборатория электромузыкальных 
+ звуков (ЛЭЗ) / Дом Радио\nhttps://t.me/experimentallabor
+ atory/289
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-lez-electricity
+ -saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выставка «ЛЭЗ: Электричество»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:maryino-field-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261204T160000Z
+DTEND:20261204T180000Z
+SUMMARY:Марьино поле
+LOCATION:Электротеатр Станиславский\, Тверс
+ кая ул.\, 23\, Москва
+DESCRIPTION:Второй премьерный показ постанов
+ ки Романа Дробота по пьесе Олега Богаев
+ а.\nРоман Дробот\nhttps://electrotheatre.ru/playbill
+URL:https://doublebasskakov.github.io/radar/#e=maryino-field-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Марьино поле
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

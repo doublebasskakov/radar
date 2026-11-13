@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:ina-grm-pre-sences-electronic-1-paris@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20270219T193000Z
 DTEND:20270219T213000Z
 SUMMARY:INA grm / PRÉSENCES électronique #1
@@ -30,7 +30,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ina-grm-pre-sences-electronic-2-paris@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20270220T193000Z
 DTEND:20270220T213000Z
 SUMMARY:INA grm / PRÉSENCES électronique #2
@@ -52,7 +52,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ina-grm-pre-sences-electronic-3-paris@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20270221T170000Z
 DTEND:20270221T190000Z
 SUMMARY:INA grm / PRÉSENCES électronique #3
@@ -72,8 +72,51 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:30-years-hamburger-bahnhof-24-7-anniversary-celebration-berlin@afisha
+ -art
+DTSTAMP:20261113T184219Z
+DTSTART:20261114T100000Z
+DTEND:20261114T120000Z
+SUMMARY:30 лет Hamburger Bahnhof: Круглосуточный пра
+ здник
+LOCATION:Hamburger Bahnhof – Nationalgalerie der Gegenwart\, Invalidens
+ traße 50-51\, Berlin\, Берлин\, Германия
+DESCRIPTION:Музей современного искусства отм
+ ечает 30-летие масштабной 30-часовой прог
+ раммой с бесплатным входом\, ночными экс
+ курсиями\, показами фильмов и виниловым
+ и сессиями.\nHamburger Bahnhof\nhttps://www.artatberlin.com/
+URL:https://doublebasskakov.github.io/radar/#e=30-years-hamburger-bahnhof
+ -24-7-anniversary-celebration-berlin
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:30 лет Hamburger Bahnhof: Круглосуточный п
+ раздник
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ircam-explosante-fixe-2027@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20270113T190000Z
+DTEND:20270113T210000Z
+SUMMARY:Булез: «…explosante-fixe…»
+LOCATION:Филармония Парижа\, Большой зал\, 221 
+ Avenue Jean Jaurès\, 75019 Paris\, Париж\, Франция
+DESCRIPTION:Классика live electronics: «…explosante-fixe…» 
+ Булеза с электроникой реального времен
+ и IRCAM.\nEnsemble intercontemporain\, IRCAM\nhttps://www.ircam.fr/en/ev
+ ents/explosante-fixe
+URL:https://doublebasskakov.github.io/radar/#e=ircam-explosante-fixe-2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Булез: «…explosante-fixe…»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:burning-song-berlin@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20270125T190000Z
 DTEND:20270125T210000Z
 SUMMARY:Burning Song
@@ -90,7 +133,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ina-grm-acousmonium-brussels@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20270127T183000Z
 DTEND:20270127T203000Z
 SUMMARY:Ina GRM – Acousmonium
@@ -112,8 +155,32 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:what-happens-if-i-wave-my-arm-the-school-of-algorithmic-soli-berlin@a
+ fisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261113T170000Z
+DTEND:20261113T190000Z
+SUMMARY:What happens if I wave my arm? (The School of Algorithmic Solidar
+ ity)
+LOCATION:transmediale studio\, Берлин\, Германия
+DESCRIPTION:Вторая сессия Школы алгоритмичес
+ кой солидарности с группой eeefff исследуе
+ т телесные практики\, моторику и взаимод
+ ействие человека с технологиями через п
+ ризму эрготерапии.\neeefff\, transmediale studio\nhttps:/
+ /transmediale.de/en/event/what-happens-if-i-wave-my-arm
+URL:https://doublebasskakov.github.io/radar/#e=what-happens-if-i-wave-my-
+ arm-the-school-of-algorithmic-soli-berlin
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:What happens if I wave my arm? (The School of Algorithmic Sol
+ idarity)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:ina-grm-akousma-5-paris@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20270508T183000Z
 DTEND:20270508T203000Z
 SUMMARY:INA grm Akousma #5
@@ -133,8 +200,59 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:documentary-film-nabokov-a-good-russian-and-meeting-with-leo-london@a
+ fisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261115T190000Z
+DTEND:20261115T210000Z
+SUMMARY:Документальный фильм «Набоков\, хор
+ оший русский» и встреча с Леонидом Парф
+ ёновым
+LOCATION:Лондон\, Великобритания
+DESCRIPTION:Журналист Леонид Парфёнов предст
+ авит свой новый документальный фильм об
+  эмигрантском периоде жизни Владимира Н
+ абокова и презентует новый том книги «Н
+ амедни».\nЛеонид Парфёнов\nhttps://t.me/afishalondon
+ /11241
+URL:https://doublebasskakov.github.io/radar/#e=documentary-film-nabokov-a
+ -good-russian-and-meeting-with-leo-london
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Документальный фильм «Набоков\, х
+ ороший русский» и встреча с Леонидом Па
+ рфёновым
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:chamber-concert-in-dialogue-pavel-gomzyakov-and-andrey-korob-london@a
+ fisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261211T190000Z
+DTEND:20261211T210000Z
+SUMMARY:Камерный концерт In Dialogue: Павел Гомз
+ яков и Андрей Коробейников
+LOCATION:Leighton House\, 12 Holland Park Road\, W14 8LZ\, Лондон\,
+  Великобритания
+DESCRIPTION:Виолончелист Павел Гомзяков и пи
+ анист Андрей Коробейников исполнят сон
+ аты Мясковского\, Шостаковича и Рахмани
+ нова в исторических интерьерах Leighton House.
+ \nПавел Гомзяков\, Андрей Коробейников\nht
+ tps://t.me/eventmeuk/2361
+URL:https://doublebasskakov.github.io/radar/#e=chamber-concert-in-dialogu
+ e-pavel-gomzyakov-and-andrey-korob-london
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Камерный концерт In Dialogue: Павел Го
+ мзяков и Андрей Коробейников
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:grm-acousmonium-set-1-brussels@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20270130T191500Z
 DTEND:20270130T211500Z
 SUMMARY:GRM Acousmonium (сет 1)
@@ -155,7 +273,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ina-grm-akousma-4-paris@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20270507T183000Z
 DTEND:20270507T203000Z
 SUMMARY:INA grm Akousma #4
@@ -175,7 +293,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:grm-acousmonium-set-2-brussels@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20270130T202000Z
 DTEND:20270130T222000Z
 SUMMARY:GRM Acousmonium (сет 2)
@@ -196,7 +314,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:grm-acousmonium-set-3-brussels@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20270130T211500Z
 DTEND:20270130T231500Z
 SUMMARY:GRM Acousmonium (сет 3)
@@ -217,7 +335,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ina-grm-akousma-6-paris@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20270509T160000Z
 DTEND:20270509T180000Z
 SUMMARY:INA grm Akousma #6
@@ -236,8 +354,31 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:kvareli-foundation-opening@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261102T060000Z
+DTEND:20261102T080000Z
+SUMMARY:Открытие: Georgian Contemporary Art: Origins and Continui
+ ties
+LOCATION:Kvareli Foundation for Contemporary Art\, Кварели\, Гр
+ узия
+DESCRIPTION:Новый частный музей современного
+  искусства в Кахетии (два часа от Тбилис
+ и) открылся выставкой о корнях грузинск
+ ого искусства.\nKvareli Foundation for Contemporary Art\nhttp
+ s://www.theartnewspaper.com/2026/10/29/new-private-museum-in-georgia-puts
+ -focus-on-the-countrys-artists
+URL:https://doublebasskakov.github.io/radar/#e=kvareli-foundation-opening
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Georgian Contemporary Art: Origins and Cont
+ inuities
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:ina-grm-acousmonium-xx-xxi-brussels@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20270129T190000Z
 DTEND:20270129T210000Z
 SUMMARY:Ina GRM – Acousmonium (XX-XXI)
@@ -256,8 +397,28 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:ircam-aho-ssan-studio-session@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261209T180000Z
+DTEND:20261209T200000Z
+SUMMARY:Aho Ssan: Forum Studio Session #8
+LOCATION:IRCAM\, Studio 5 (и онлайн)\, 1 Place Stravinsky\, 75004 
+ Paris\, Париж\, Франция
+DESCRIPTION:Французский электронщик Aho Ssan игр
+ ает пространственный сет в студии IRCAM\; в
+ ыступление транслируется онлайн.\nAho Ssan\n
+ https://www.ircam.fr/en/events/aho-ssan-forum-studio-session-8
+URL:https://doublebasskakov.github.io/radar/#e=ircam-aho-ssan-studio-sess
+ ion
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Aho Ssan: Forum Studio Session #8
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:grm-bozar-acousmonium-2027@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20270127T183000Z
 DTEND:20270127T203000Z
 SUMMARY:INA GRM: Акусмониум в Bozar
@@ -275,8 +436,32 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:meeting-with-leonid-parfenov-screening-of-nabokov-a-good-rus-london@a
+ fisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261115T140000Z
+DTEND:20261115T160000Z
+SUMMARY:Встреча с Леонидом Парфёновым: пока
+ з фильма «Набоков\, хороший русский» и п
+ резентация книги
+LOCATION:Лондон\, Великобритания
+DESCRIPTION:Творческая встреча с журналистом
+  Леонидом Парфёновым\, включающая показ 
+ нового фильма и презентацию книги.\nЛеон
+ ид Парфёнов\nhttps://t.me/afishalondon/11223
+URL:https://doublebasskakov.github.io/radar/#e=meeting-with-leonid-parfen
+ ov-screening-of-nabokov-a-good-rus-london
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Встреча с Леонидом Парфёновым: по
+ каз фильма «Набоков\, хороший русский» и
+  презентация книги
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:ina-grm-acousmonium-total-immersion-brussels@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20270128T193000Z
 DTEND:20270128T213000Z
 SUMMARY:Ina GRM – Acousmonium (Total Immersion)
@@ -295,8 +480,27 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:ircam-forum-workshops-2027@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20270324T090000Z
+DTEND:20270324T110000Z
+SUMMARY:IRCAM Forum Workshops 2027
+LOCATION:IRCAM\, 1 Place Stravinsky\, 75004 Paris\, Париж\, Фран
+ ция
+DESCRIPTION:Ежегодная встреча разработчиков 
+ и композиторов: новые инструменты IRCAM дл
+ я звука\, пространства и ИИ.\nIRCAM\nhttps://www.irc
+ am.fr/en/events/ircam-forum-workshops
+URL:https://doublebasskakov.github.io/radar/#e=ircam-forum-workshops-2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:IRCAM Forum Workshops 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:ircam-klangforum-saint-eustache@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20261130T190000Z
 DTEND:20261130T210000Z
 SUMMARY:Klangforum Wien × IRCAM
@@ -314,27 +518,107 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ircam-explosante-fixe-2027@afisha-art
-DTSTAMP:20261113T174826Z
-DTSTART:20270113T190000Z
-DTEND:20270113T210000Z
-SUMMARY:Булез: «…explosante-fixe…»
-LOCATION:Филармония Парижа\, Большой зал\, Па
- риж\, Франция
-DESCRIPTION:Классика live electronics: «…explosante-fixe…» 
- Булеза с электроникой реального времен
- и IRCAM.\nEnsemble intercontemporain\, IRCAM\nhttps://www.ircam.fr/en/ev
- ents/explosante-fixe
-URL:https://doublebasskakov.github.io/radar/#e=ircam-explosante-fixe-2027
+UID:ircam-court-circuit-2027@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20270122T190000Z
+DTEND:20270122T210000Z
+SUMMARY:Ensemble Court-circuit в IRCAM
+LOCATION:IRCAM\, Espace de projection\, 1 Place Stravinsky\, 75004 Paris\
+ , Париж\, Франция
+DESCRIPTION:Концерт с премьерами для ансамбл
+ я и электроники в легендарном зале с изм
+ еняемой акустикой.\nEnsemble Court-circuit\nhttps://www.i
+ rcam.fr/en/events/concert-court-circuit
+URL:https://doublebasskakov.github.io/radar/#e=ircam-court-circuit-2027
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Булез: «…explosante-fixe…»
+DESCRIPTION:Ensemble Court-circuit в IRCAM
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hamburger-bahnhof-sophie-calle@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261113T180000Z
+DTEND:20261113T200000Z
+SUMMARY:Открытие: Sophie Calle: Is It Better?
+LOCATION:Hamburger Bahnhof – Nationalgalerie der Gegenwart\, Invalidens
+ traße 50–51\, 10557 Berlin\, Берлин\, Германия
+DESCRIPTION:Большая выставка французской худ
+ ожницы\, соединяющей фотографию\, текст 
+ и личные истории.\nСофи Калль\nhttps://www.smb.mus
+ eum/en/exhibitions/preview/hamburger-bahnhof-nationalgalerie-der-gegenwar
+ t/
+URL:https://doublebasskakov.github.io/radar/#e=hamburger-bahnhof-sophie-c
+ alle
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Sophie Calle: Is It Better?
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ircam-radigue-ecoute@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261118T180000Z
+DTEND:20261118T200000Z
+SUMMARY:Les états de l'écoute: Элиана Радиг
+LOCATION:IRCAM\, зал Стравинского\, 1 Place Stravinsky\, 7
+ 5004 Paris\, Париж\, Франция
+DESCRIPTION:Встреча в IRCAM о слушании и музыке 
+ Элианы Радиг — пионерки электронного д
+ рона.\nFrançois J. Bonnet\, Hélène Breschand\, Carol Robinson\nhtt
+ ps://www.ircam.fr/en/events/les-etats-de-lecoute-eliane-radigue
+URL:https://doublebasskakov.github.io/radar/#e=ircam-radigue-ecoute
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Les états de l'écoute: Элиана Радиг
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ircam-action-man-ray@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20270130T190000Z
+DTEND:20270130T210000Z
+SUMMARY:Action! Man Ray
+LOCATION:Cité de la musique\, Salle des concerts\, 221 Avenue Jean Jaur
+ ès\, 75019 Paris\, Париж\, Франция
+DESCRIPTION:Фильмы Ман Рэя с новой живой музы
+ кой и электроникой в программе IRCAM.\nCentre P
+ ompidou\, IRCAM\nhttps://www.ircam.fr/en/events/action-man-ray
+URL:https://doublebasskakov.github.io/radar/#e=ircam-action-man-ray
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Action! Man Ray
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:klangforum-wien-concert-at-saint-eustache-paris@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261130T190000Z
+DTEND:20261130T210000Z
+SUMMARY:Концерт Klangforum Wien в церкви Сен-Эсташ
+LOCATION:Église Saint-Eustache\, 2 Impasse Saint-Eustache\, 75001 Paris\
+ , Париж\, Франция
+DESCRIPTION:Концерт ансамбля современной муз
+ ыки Klangforum Wien с премьерой сочинения Эш Фь
+ юр и классикой спектральной музыки.\nKlangf
+ orum Wien\, Ash Fure\, Justė Janulytė\, György Ligeti\, Gérard Grisey
+ \, Francesco Filidei\nhttps://www.ircam.fr/agenda
+URL:https://doublebasskakov.github.io/radar/#e=klangforum-wien-concert-at
+ -saint-eustache-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт Klangforum Wien в церкви Сен-Эст
+ аш
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:flor-do-ibo-today-s-special-berlin@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20270122T170000Z
 DTEND:20270122T190000Z
 SUMMARY:Flor Do Ibo / Today's Special
@@ -352,7 +636,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:polygonia-simon-popp-and-more-berlin@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20270122T190000Z
 DTEND:20270122T210000Z
 SUMMARY:Polygonia\, Simon Popp и другие
@@ -371,7 +655,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:the-dream-has-still-not-whispered-what-to-make-of-these-mort-berlin@a
  fisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20270123T190000Z
 DTEND:20270123T210000Z
 SUMMARY:The Dream Has Still Not Whispered / What To Make Of These Mortal 
@@ -391,7 +675,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cantadoras-iii-berlin@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20270123T190000Z
 DTEND:20270123T210000Z
 SUMMARY:Cantadoras III
@@ -408,8 +692,311 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:special-screening-of-ddt-20th-century-and-q-a-with-director--london@a
+ fisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261119T200000Z
+DTEND:20261119T220000Z
+SUMMARY:Спецпоказ фильма «ДДТ. XX век» и Q&A с 
+ режиссёром Сергеем Кузнецовым
+LOCATION:Hackney Picturehouse\, Лондон\, Великобритани
+ я
+DESCRIPTION:Показ независимого фильма Сергея
+  Кузнецова\, исследующего историю Росси
+ и через судьбы одной семьи и музыку груп
+ пы ДДТ. После сеанса состоится обсужден
+ ие с режиссером.\nСергей Кузнецов\nhttps://t.m
+ e/afishalondon/11238
+URL:https://doublebasskakov.github.io/radar/#e=special-screening-of-ddt-2
+ 0th-century-and-q-a-with-director--london
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спецпоказ фильма «ДДТ. XX век» и Q&A 
+ с режиссёром Сергеем Кузнецовым
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:tamina-amadyar-opaque-waters-berlin@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261114T170000Z
+DTEND:20261114T190000Z
+SUMMARY:Открытие: Tamina Amadyar – Opaque Waters
+LOCATION:Meyer Riegger\, Friedenstraße 120\, Berlin\, Берлин\, Г
+ ермания
+DESCRIPTION:Персональная выставка Тамины Ама
+ дьяр исследует тему моря\, света и цвета\
+ , продолжая традиции пейзажной живописи
+  через призму современных материалов.\nTa
+ mina Amadyar\nhttps://www.artatberlin.com/ausstellung-tamina-amadyar-meye
+ r-riegger-contemporary-art-zeitgenoessische-kunst-in-berlin-ausstellungen
+ -berlin-galerien-art-at-berlin/
+URL:https://doublebasskakov.github.io/radar/#e=tamina-amadyar-opaque-wate
+ rs-berlin
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Tamina Amadyar – Opaque Waters
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ctrl-sound-neural-audio-workshop-paris@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261204T073000Z
+DTEND:20261204T093000Z
+SUMMARY:CTRL+Sound: Нейроаудио-воркшоп по декоди
+ рованию звука с помощью ИИ
+LOCATION:Ircam\, 1 Place Stravinsky\, 75004 Paris\, Париж\, Фран
+ ция
+DESCRIPTION:Практический семинар и воркшоп в 
+ IRCAM по применению нейросетей и алгоритм
+ ов искусственного интеллекта для анали
+ за звука.\nIRCAM\nhttps://www.ircam.fr/fr/events/ctrl-sound
+URL:https://doublebasskakov.github.io/radar/#e=ctrl-sound-neural-audio-wo
+ rkshop-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CTRL+Sound: Нейроаудио-воркшоп по деко
+ дированию звука с помощью ИИ
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:christmas-at-kew-london@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261113T162000Z
+DTEND:20261113T182000Z
+SUMMARY:Открытие: Зимняя световая прогулка 
+ в Kew Gardens
+LOCATION:Kew Gardens\, Kew\, Richmond\, London\, Лондон\, Вели
+ кобритания
+DESCRIPTION:Трехкилометровый световой маршр
+ ут по саду включает инсталляции\, светящ
+ ийся тоннель и иллюминацию оранжереи Palm
+  House.\nKew Gardens\nhttps://t.me/eventmeuk/2368
+URL:https://doublebasskakov.github.io/radar/#e=christmas-at-kew-london
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Зимняя световая прогул
+ ка в Kew Gardens
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:concert-eic-50-dialogue-des-ombres-paris@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20270423T180000Z
+DTEND:20270423T200000Z
+SUMMARY:Концерт EIC 50 / Dialogue des ombres
+LOCATION:Cité de la musique - Philharmonie de Paris\, Salle des concerts
+ \, 221 Avenue Jean Jaurès\, 75019 Paris\, Париж\, Франция
+DESCRIPTION:Концерт современной музыки с пре
+ мьерами Пьера Йодловского и Яны Шлябанс
+ кой в исполнении Ensemble intercontemporain.\nEnsemble inte
+ rcontemporain\, Pierre Jodlowski\, Yana Shliabanska\, Pierre Bleuse\nhttp
+ s://www.ircam.fr/agenda
+URL:https://doublebasskakov.github.io/radar/#e=concert-eic-50-dialogue-de
+ s-ombres-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт EIC 50 / Dialogue des ombres
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:symphonic-and-contemporary-music-concert-milhaud-berio-diana-paris@af
+ isha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20270227T190000Z
+DTEND:20270227T210000Z
+SUMMARY:Концерт симфонической и современно
+ й музыки: Мийо\, Берьо\, Диана Сох
+LOCATION:Maison de la Radio et de la Musique\, Auditorium\, 116 Avenue du
+  Président Kennedy\, 75016 Paris\, Париж\, Франция
+DESCRIPTION:Концерт Филармонического оркест
+ ра Радио Франции с сочинениями Дариюса 
+ Мийо\, Лучано Берьо и премьерами.\nOrchestre Ph
+ ilharmonique de Radio France\, Lin Liao\, Diana Soh\, Yaron Herman\, Luci
+ ano Berio\, Darius Milhaud\nhttps://www.ircam.fr/agenda
+URL:https://doublebasskakov.github.io/radar/#e=symphonic-and-contemporary
+ -music-concert-milhaud-berio-diana-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт симфонической и современ
+ ной музыки: Мийо\, Берьо\, Диана Сох
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:armand-hammer-new-york@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261116T010000Z
+DTEND:20261116T030000Z
+SUMMARY:Armand Hammer
+LOCATION:Music Hall of Williamsburg\, Нью-Йорк\, США
+DESCRIPTION:Концерт американского хип-хоп ду
+ эта Armand Hammer в рамках завершения их север
+ оамериканского турне.\nArmand Hammer\nhttps://thequiet
+ us.com/news/armand-hammer-surprise-release-new-album-snakes-ladders/
+URL:https://doublebasskakov.github.io/radar/#e=armand-hammer-new-york
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Armand Hammer
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:meeting-john-cage-and-merce-cunningham-paris@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20270204T180000Z
+DTEND:20270204T200000Z
+SUMMARY:Встреча «Le pari de l’œuvre de John Cage et Merce Cunn
+ ingham»
+LOCATION:Ircam\, salle Stravinsky\, 1 Place Stravinsky\, 75004 Paris\, П
+ ариж\, Франция
+DESCRIPTION:Дискуссия и лекция о творческом с
+ оюзе композитора Джона Кейджа и хореогр
+ афа Мерса Каннингема.\nBrigitte Lefêvre\, Claudine Sim
+ on\nhttps://www.ircam.fr/agenda
+URL:https://doublebasskakov.github.io/radar/#e=meeting-john-cage-and-merc
+ e-cunningham-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Встреча «Le pari de l’œuvre de John Cage et Merce 
+ Cunningham»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lecolap-workshop-with-ariane-mnouchkine-paris@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20270316T173000Z
+DTEND:20270316T193000Z
+SUMMARY:Семинар LecOlap с Арианой Мнушкин
+LOCATION:Ircam\, salle Stravinsky\, 1 Place Stravinsky\, 75004 Paris\, П
+ ариж\, Франция
+DESCRIPTION:Встреча с выдающимся режиссером 
+ театра Арианой Мнушкин в рамках цикла а
+ нтропологии политики.\nAgnès Callu\, Ariane Mnouchkin
+ e\nhttps://www.ircam.fr/agenda
+URL:https://doublebasskakov.github.io/radar/#e=lecolap-workshop-with-aria
+ ne-mnouchkine-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Семинар LecOlap с Арианой Мнушкин
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:performance-les-jeux-de-l-amour-et-de-l-e-nigme-paris@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20270318T180000Z
+DTEND:20270318T200000Z
+SUMMARY:Спектакль «Les Jeux de l'amour et de l'énigme»
+LOCATION:Ircam\, Studio 5\, 1 Place Stravinsky\, 75004 Paris\, Париж
+ \, Франция
+DESCRIPTION:Современный театральный спектак
+ ль режиссера Анн Монфор по тексту Элен Ф
+ раппа в студии IRCAM.\nAnne Monfort\, Hélène Frappat\nhttps
+ ://www.ircam.fr/agenda
+URL:https://doublebasskakov.github.io/radar/#e=performance-les-jeux-de-l-
+ amour-et-de-l-e-nigme-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спектакль «Les Jeux de l'amour et de l'énigme»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:exhibition-patrimoines-en-re-sistance-de-tombouctou-a-odessa-paris@af
+ isha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20260520T090000Z
+DTEND:20260520T110000Z
+SUMMARY:Открытие: Выставка «Patrimoines en résistance\,
+  de Tombouctou à Odessa»
+LOCATION:Cité de l’architecture et du patrimoine\, 1 Place du Trocadé
+ ro et du 11 Novembre\, 75116 Paris\, Париж\, Франция
+DESCRIPTION:Выставка цифровой реконструкции 
+ памятников архитектуры с саунд-дизайно
+ м Янна Бреси.\nYann Brecy\, Yves Ubelman\nhttps://www.ircam.fr/
+ agenda
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-patrimoines-en-
+ re-sistance-de-tombouctou-a-odessa-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка «Patrimoines en résistan
+ ce\, de Tombouctou à Odessa»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:european-premiere-artist-talk-tiffany-sia-overt-listening-vienna@afis
+ ha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261114T170000Z
+DTEND:20261114T190000Z
+SUMMARY:Европейская премьера и паблик-ток: 
+ Тиффани Сиа — Overt Listening
+LOCATION:Filmmuseum\, Augustinerstraße 1\, 1010 Wien\, Вена\, Авс
+ трия
+DESCRIPTION:Европейский премьерный показ про
+ екта Тиффани Сиа и встреча с художницей.
+ \nТиффани Сиа\nhttps://kunsthallewien.at/en/event/filmmuseum-ti
+ ffany-sia-overt-listening
+URL:https://doublebasskakov.github.io/radar/#e=european-premiere-artist-t
+ alk-tiffany-sia-overt-listening-vienna
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Европейская премьера и паблик-то
+ к: Тиффани Сиа — Overt Listening
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:concert-conical-intersect-constellation-sonore-paris@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20270130T150000Z
+DTEND:20270130T170000Z
+SUMMARY:Концерт «Conical intersect / Constellation sonore»
+LOCATION:Cité de la musique\, Amphithéâtre\, 221 Avenue Jean Jaurès\,
+  75019 Paris\, Париж\, Франция
+DESCRIPTION:Специальный концерт в рамках уик-
+ энда к юбилею Центра Помпиду и IRCAM.\nCentre Po
+ mpidou\, IRCAM\nhttps://www.ircam.fr/agenda
+URL:https://doublebasskakov.github.io/radar/#e=concert-conical-intersect-
+ constellation-sonore-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт «Conical intersect / Constellation sonore»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:exhibition-opening-artist-talk-magali-reus-tenant-vienna@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261126T170000Z
+DTEND:20261126T190000Z
+SUMMARY:Открытие выставки и паблик-ток: Маг
+ али Реус — Tenant
+LOCATION:Kunsthalle Wien (Museumsquartier)\, Museumsplatz 1\, 1070 Wien\,
+  Вена\, Австрия
+DESCRIPTION:Вернисаж персональной выставки М
+ агали Реус и дискуссия с автором.\nМагал
+ и Реус\nhttps://kunsthallewien.at/en/event/exhibition-opening-magali
+ -reus-tenant
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-opening-artist-
+ talk-magali-reus-tenant-vienna
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие выставки и паблик-ток: М
+ агали Реус — Tenant
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:berlin-biennale-14@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20270605
 DTEND;VALUE=DATE:20270606
 SUMMARY:Открытие: 14. Berlin Biennale: Central Europe Eastern Tim
@@ -434,7 +1021,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sharjah-biennial-17@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20270121
 DTEND;VALUE=DATE:20270122
 SUMMARY:Открытие: Sharjah Biennial 17: What remains\, sits restiv
@@ -458,8 +1045,36 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:tamerlano-opera-concert-performance-at-carnegie-hall-new-york@afisha-
+ art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20270329
+DTEND;VALUE=DATE:20270330
+SUMMARY:Концертная версия оперы «Тамерлан»
+  в Карнеги-холле
+LOCATION:Карнеги-холл\, Carnegie Hall\, New York\, Нью-Йо
+ рк\, США
+DESCRIPTION:Концертное исполнение оперы Геор
+ га Фридриха Генделя и Кирилла Рихтера «
+ Тамерлан» в исполнении Национального с
+ имфонического оркестра Узбекистана под
+  управлением Алибека Кабдурахманова.\nГ
+ еорг Фридрих Гендель\, Кирилл Рихтер\, На
+ циональный симфонический оркестр Узбек
+ истана\, Алибек Кабдурахманов\nhttps://t.me/acdf
+ uz/14610
+URL:https://doublebasskakov.github.io/radar/#e=tamerlano-opera-concert-pe
+ rformance-at-carnegie-hall-new-york
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концертная версия оперы «Тамерла
+ н» в Карнеги-холле
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:documenta-16@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20270612
 DTEND;VALUE=DATE:20270613
 SUMMARY:Открытие: documenta 16
@@ -481,7 +1096,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:bukhara-biennial-2027@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20270903
 DTEND;VALUE=DATE:20270904
 SUMMARY:Открытие: Bukhara Biennial 2027
@@ -504,7 +1119,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:transmediale-2027@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20270128
 DTEND;VALUE=DATE:20270201
 SUMMARY:transmediale 2027: groundstates
@@ -525,7 +1140,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lyon-biennale-18@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Последний день: 18e Biennale de Lyon: Passer d'un r
@@ -548,7 +1163,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:guggenheim-abu-dhabi-opening@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:Открытие Guggenheim Abu Dhabi
@@ -570,7 +1185,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ars-electronica-2027@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20270908
 DTEND;VALUE=DATE:20270913
 SUMMARY:Ars Electronica Festival 2027
@@ -589,7 +1204,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:art-basel-2027@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20270617
 DTEND;VALUE=DATE:20270621
 SUMMARY:Art Basel 2027
@@ -608,7 +1223,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ctm-festival-2027@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20270122
 DTEND;VALUE=DATE:20270123
 SUMMARY:Открытие: CTM Festival 2027
@@ -627,8 +1242,242 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:tate-frida@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+SUMMARY:Последний день: Frida: The Making of an Icon
+LOCATION:Tate Modern\, Bankside\, London SE1 9TG\, Лондон\, Вел
+ икобритания
+DESCRIPTION:Выставка о том\, как Фрида Кало пр
+ евратилась в глобальную икону\, и о её вл
+ иянии на художников последующих поколе
+ ний.\nФрида Кало\nhttps://tate.org.uk/press/press-releases/ta
+ te-announces-2026-exhibition-highlights
+URL:https://doublebasskakov.github.io/radar/#e=tate-frida
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Frida: The Making of an Icon
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:tate-le-parc@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20270503
+DTEND;VALUE=DATE:20270504
+SUMMARY:Последний день: Julio Le Parc: Light. Colour. Action
+ .
+LOCATION:Tate Modern\, Bankside\, London SE1 9TG\, Лондон\, Вел
+ икобритания
+DESCRIPTION:Ретроспектива аргентинского пио
+ нера кинетического и оп-арта с интеракт
+ ивными световыми средами.\nХулио Ле Парк
+ \nhttps://tate.org.uk/press/press-releases/tate-announces-2026-exhibition
+ -highlights
+URL:https://doublebasskakov.github.io/radar/#e=tate-le-parc
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Julio Le Parc: Light. Colour. Ac
+ tion.
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:tate-mendieta@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:Последний день: Ana Mendieta
+LOCATION:Tate Modern\, Bankside\, London SE1 9TG\, Лондон\, Вел
+ икобритания
+DESCRIPTION:Большая выставка кубино-американ
+ ской художницы\, соединявшей перформанс
+ \, ленд-арт и фотографию.\nАна Мендьета\nhtt
+ ps://tate.org.uk/press/press-releases/tate-announces-2026-exhibition-high
+ lights
+URL:https://doublebasskakov.github.io/radar/#e=tate-mendieta
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Ana Mendieta
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:tate-monet-painting-time@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20270225
+DTEND;VALUE=DATE:20270226
+SUMMARY:Открытие: Monet: Painting Time
+LOCATION:Tate Modern\, Bankside\, London SE1 9TG\, Лондон\, Вел
+ икобритания
+DESCRIPTION:Первая выставка Моне в Тейт Модер
+ н — о времени\, серийности и изменчивом 
+ свете в его живописи.\nКлод Моне\nhttps://www.ti
+ meout.com/london/news/monet-painting-time-tate-modern-launch-date-2027-09
+ 1626
+URL:https://doublebasskakov.github.io/radar/#e=tate-monet-painting-time
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Monet: Painting Time
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:tate-nalini-malani@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20270701
+DTEND;VALUE=DATE:20270702
+SUMMARY:Открытие: Nalini Malani
+LOCATION:Tate Modern\, Bankside\, London SE1 9TG\, Лондон\, Вел
+ икобритания
+DESCRIPTION:Обзорная выставка индийской худо
+ жницы\, известной видеоинсталляциями и 
+ «теневыми» проекциями.\nНалини Малани\nht
+ tps://www.theartnewspaper.com/2026/03/16/tate-announces-major-david-hockn
+ ey-edvard-munch-and-sonia-boyce-exhibitions-for-2027
+URL:https://doublebasskakov.github.io/radar/#e=tate-nalini-malani
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Nalini Malani
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:art-breakfast-renoir-london@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:ART-завтрак: «Ренуар. Любовь\, свет и н
+ овая жизнь Парижа»
+LOCATION:National Gallery\, Лондон\, Великобритания
+DESCRIPTION:Утреннее мероприятие\, посвященн
+ ое масштабной выставке Огюста Ренуара в
+  Лондоне\, с разбором его импрессионистс
+ кого периода и поздних поисков классиче
+ ской формы.\nNational Gallery\nhttps://t.me/afishalondon/11230
+URL:https://doublebasskakov.github.io/radar/#e=art-breakfast-renoir-londo
+ n
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ART-завтрак: «Ренуар. Любовь\, свет 
+ и новая жизнь Парижа»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:redo-rave-tbilisi@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:REDO RAVE
+LOCATION:Junkyard\, Тбилиси\, Грузия
+DESCRIPTION:Масштабный рейв в пространстве Jun
+ kyard с участием легендарной Лены Поповой 
+ и локальных артистов\, дополненный живы
+ м световым и лазерным перформансом.\nЛен
+ а Попова\, CHIN\, Mr. Chizh\, Nikusha Ten\nhttps://t.me/tbiraving/
+ 3572
+URL:https://doublebasskakov.github.io/radar/#e=redo-rave-tbilisi
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:REDO RAVE
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:screening-of-andrey-zvyagintsev-s-film-minotaur-and-lecture-london@af
+ isha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Кинопоказ фильма Андрея Звягинцева
+  «Минотавр» и лекция
+LOCATION:BFI\, Лондон\, Великобритания
+DESCRIPTION:Специальный кинопоказ нового фил
+ ьма Андрея Звягинцева «Минотавр» в кино
+ театре BFI с последующим обсуждением и ле
+ кцией о творчестве режиссера.\nАндрей Зв
+ ягинцев\nhttps://t.me/afishalondon/11232
+URL:https://doublebasskakov.github.io/radar/#e=screening-of-andrey-zvyagi
+ ntsev-s-film-minotaur-and-lecture-london
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Кинопоказ фильма Андрея Звягинце
+ ва «Минотавр» и лекция
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:exhibition-fragile-currents-berlin@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20270127
+DTEND;VALUE=DATE:20270128
+SUMMARY:Открытие: Выставка «fragile currents»
+LOCATION:Akademie der Künste (Hanseatenweg)\, Берлин\, Герма
+ ния
+DESCRIPTION:Масштабная выставка\, объединяющ
+ ая фильмы\, инсталляции\, скульптуры и иг
+ ровые проекты\, исследующие материально
+ сть современных технологий.\n\nhttps://transmedia
+ le.de/en/2027/exhibition-2027
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-fragile-current
+ s-berlin
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка «fragile currents»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dark-net-exhibition-at-akademie-der-ku-nste-berlin@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20270127
+DTEND;VALUE=DATE:20270128
+SUMMARY:Открытие: Выставка «Dark Net» в Akademie der K
+ ünste
+LOCATION:Akademie der Künste (Hanseatenweg)\, Hanseatenweg 10\, 10557 Be
+ rlin\, Берлин\, Германия
+DESCRIPTION:Исследовательский проект-инстал
+ ляция «Dark Net» затрагивает темы технолог
+ ической эксплуатации\, асимметрии и скр
+ ытых инфраструктур.\nOleksii Minko\, Fernando Morales de
+  la Peña\, Antonina Stebur\nhttps://transmediale.de/en/2027/artwork/dark
+ -net
+URL:https://doublebasskakov.github.io/radar/#e=dark-net-exhibition-at-aka
+ demie-der-ku-nste-berlin
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка «Dark Net» в Akademie d
+ er Künste
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:arcane-universe-league-of-legends-exhibition-yerevan@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Последний день: Выставка «Вселенна
+ я Arcane: League of Legends»
+LOCATION:Ереван\, Армения
+DESCRIPTION:Первая в Армении выставка\, посвя
+ щенная вселенной культового анимационн
+ ого сериала по мотивам игры League of Legends.\nМ
+ еждународный фестиваль анимации и коми
+ ксов «РеА»\nhttps://t.me/guideyerevan/1575
+URL:https://doublebasskakov.github.io/radar/#e=arcane-universe-league-of-
+ legends-exhibition-yerevan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Выставка «Вселен
+ ная Arcane: League of Legends»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:grm-akousma-may-2027@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20270507
 DTEND;VALUE=DATE:20270510
 SUMMARY:INA GRM: Akousma & Live Electronics
@@ -648,7 +1497,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:venice-biennale-arte-2026@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Последний день: Biennale Arte 2026: In Minor Keys
@@ -672,7 +1521,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:istanbul-biennial-19@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20270918
 DTEND;VALUE=DATE:20270919
 SUMMARY:Открытие: 19. İstanbul Bienali
@@ -694,8 +1543,31 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:a-long-shadow-postwar-japan-through-the-lens-new-york@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Открытие: A Long Shadow: Postwar Japan Through the Lens
+LOCATION:Metropolitan Museum of Art\, Нью-Йорк\, США
+DESCRIPTION:Масштабная выставка японской фот
+ ографии в Метрополитен-музее объединяе
+ т работы 15 междисциплинарных авторов\, ф
+ отокниги и видеоинсталляцию\, исследующ
+ ие жизнь страны в послевоенные десятиле
+ тия.\nMetropolitan Museum of Art\nhttps://www.theguardian.com/artandde
+ sign/gallery/2026/nov/12/postwar-japan-met-museum-photos
+URL:https://doublebasskakov.github.io/radar/#e=a-long-shadow-postwar-japa
+ n-through-the-lens-new-york
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: A Long Shadow: Postwar Japan Through the Le
+ ns
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:venice-biennale-architettura-2027@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20270508
 DTEND;VALUE=DATE:20270509
 SUMMARY:Открытие: Biennale Architettura 2027: Do Architecture
@@ -716,8 +1588,30 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:jan-van-eyck-the-portraits-london@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Открытие: Jan van Eyck: The Portraits
+LOCATION:National Gallery\, Trafalgar Square\, London\, Лондон\, В
+ еликобритания
+DESCRIPTION:Беспрецедентная выставка\, вперв
+ ые объединяющая все десять сохранивших
+ ся портретных работ мастера северного В
+ озрождения Яна ван Эйка из ведущих евро
+ пейских собраний.\nJan van Eyck\nhttps://www.artatberlin.c
+ om/
+URL:https://doublebasskakov.github.io/radar/#e=jan-van-eyck-the-portraits
+ -london
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Jan van Eyck: The Portraits
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:stedelijk-yayoi-kusama@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
 SUMMARY:Последний день: Yayoi Kusama
@@ -738,7 +1632,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:moma-brancusi@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20270227
 DTEND;VALUE=DATE:20270228
 SUMMARY:Последний день: Brancusi: The Artist and His Studio
@@ -760,7 +1654,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:grm-presences-electronique-2027@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20270219
 DTEND;VALUE=DATE:20270222
 SUMMARY:Фестиваль PRÉSENCES électronique 2027
@@ -776,6 +1670,333 @@ URL:https://doublebasskakov.github.io/radar/#e=grm-presences-electronique
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Фестиваль PRÉSENCES électronique 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:thomas-scheibitz-elizabeth-warfel-berlin@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Открытие: Thomas Scheibitz & Elizabeth Warfel
+LOCATION:Sprüth Magers Berlin\, Oranienburger Straße 18\, Berlin\, Бе
+ рлин\, Германия
+DESCRIPTION:Двойная выставка: Томас Шайбиц ис
+ следует границы абстракции и фигурации 
+ в новых картинах и скульптурах\, а Элиза
+ бет Варфель в витринном пространстве по
+ казывает городские сцены ночной жизни.\n
+ Thomas Scheibitz\, Elizabeth Warfel\nhttps://www.artatberlin.com/ausstell
+ ung-thomas-scheibitz-elizabeth-warfel-sprueth-magers-berlin-zeitgenoessis
+ che-kunst-in-berlin-contemporary-art-ausstellungen-galerien-berlin-art-at
+ -berlin/
+URL:https://doublebasskakov.github.io/radar/#e=thomas-scheibitz-elizabeth
+ -warfel-berlin
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Thomas Scheibitz & Elizabeth Warfel
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:daniela-comani-orlando-s-library-berlin@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:Открытие: Daniela Comani. Orlando’s Library
+LOCATION:Kunstbibliothek – Staatliche Museen zu Berlin\, Kulturforum\, 
+ Berlin\, Берлин\, Германия
+DESCRIPTION:Инсталляция художницы Даниэлы Ко
+ мани в рамках серии «Бухсалон»\, предста
+ вляющая собой обманчивые визуальные ко
+ мпозиции с книжными полками и завуалиро
+ ванными изменениями на обложках.\nDaniela Com
+ ani\nhttps://www.artatberlin.com/news-buchsalon-daniela-comani-orlandos-l
+ ibrary-kunstbibliothek-berlin-17-11-2026-bis-08-03-2027/
+URL:https://doublebasskakov.github.io/radar/#e=daniela-comani-orlando-s-l
+ ibrary-berlin
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Daniela Comani. Orlando’s Library
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:disruption-network-lab-conference-the-kill-cloud-ai-migratio-berlin@a
+ fisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261130
+SUMMARY:Конференция Disruption Network Lab: The Kill Cloud\, A
+ I & Migration Control
+LOCATION:Kunstquartier Bethanien (Studio 1)\, Marianneplatz 2\, 10997 Ber
+ lin\, Берлин\, Германия
+DESCRIPTION:38-я конференция Disruption Network Lab посв
+ ящена технологиям искусственного интел
+ лекта\, контролю миграции и цифровой без
+ опасности.\nDisruption Network Lab\nhttps://www.disruptionlab.or
+ g/testing-grounds
+URL:https://doublebasskakov.github.io/radar/#e=disruption-network-lab-con
+ ference-the-kill-cloud-ai-migratio-berlin
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Конференция Disruption Network Lab: The Kill Cloud
+ \, AI & Migration Control
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:wilhelmina-barns-graham-st-ives@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Открытие: Wilhelmina Barns-Graham
+LOCATION:Tate St Ives\, Сент-Айвз\, Великобритания
+DESCRIPTION:Ретроспектива восьми десятилети
+ й смелого и новаторского творчества Вил
+ ьгельмины Барнс-Грэм\, вдохновленного п
+ ейзажами и абстракцией.\nВильгельмина Б
+ арнс-Грэм\nhttps://www.tate.org.uk/whats-on
+URL:https://doublebasskakov.github.io/radar/#e=wilhelmina-barns-graham-st
+ -ives
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Wilhelmina Barns-Graham
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:push-and-pull-a-furniture-comedy-vienna@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Открытие: Push and Pull: A Furniture Comedy
+LOCATION:mumok\, Museumsplatz 1\, 1070 Wien\, Вена\, Австрия
+DESCRIPTION:Масштабная выставка в музее совр
+ еменного искусства mumok\, посвященная вза
+ имодействию человека\, пространства и п
+ редметов мебели.\nmumok\nhttps://www.mumok.at/en/exhibition
+ s
+URL:https://doublebasskakov.github.io/radar/#e=push-and-pull-a-furniture-
+ comedy-vienna
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Push and Pull: A Furniture Comedy
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:tehran-contemporary-sounds-festival-abdullah-miniawy-more-berlin@afis
+ ha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261116
+SUMMARY:Tehran Contemporary Sounds Festival: Абдулла Миньяу
+ и и др.
+LOCATION:Silent Green Kulturquartier\, Берлин\, Германия
+DESCRIPTION:Музыкальная программа фестиваля 
+ современной иранской диаспоры с участи
+ ем Абдуллы Миньяуи\, Gnäw\, Ava Rasti и других а
+ ртистов.\nTehran Contemporary Sounds\nhttps://thequietus.com/news/
+ tehran-contemporary-sounds-festival-takes-place-in-berlin/
+URL:https://doublebasskakov.github.io/radar/#e=tehran-contemporary-sounds
+ -festival-abdullah-miniawy-more-berlin
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tehran Contemporary Sounds Festival: Абдулла Минь
+ яуи и др.
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:paolo-cirio-nudify-ai-online@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+SUMMARY:Последний день: Paolo Cirio: NUDIFY AI
+LOCATION:Online\, Онлайн\, Онлайн
+DESCRIPTION:Онлайн-проект художника Паоло Чи
+ рио\, исследующий этические и социальны
+ е проблемы технологий искусственного и
+ нтеллекта.\nPaolo Cirio\nhttps://jeudepaume.org/en/evenement/nud
+ ify-ai/
+URL:https://doublebasskakov.github.io/radar/#e=paolo-cirio-nudify-ai-onli
+ ne
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Paolo Cirio: NUDIFY AI
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rebecca-moss-shapeshifter-st-ives@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Открытие: Rebecca Moss: Shapeshifter
+LOCATION:Tate St Ives\, Сент-Айвз\, Великобритания
+DESCRIPTION:Игровая художническая интервенц
+ ия Ребекки Мосс в пространстве изогнуто
+ й галереи с видом на Атлантический океа
+ н.\nРебекка Мосс\nhttps://www.tate.org.uk/whats-on
+URL:https://doublebasskakov.github.io/radar/#e=rebecca-moss-shapeshifter-
+ st-ives
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Rebecca Moss: Shapeshifter
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:stan-douglas-parallax-paris@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:Последний день: Stan Douglas: Parallax
+LOCATION:Jeu de Paume\, 1 Place de la Concorde\, 75008 Paris\, Париж
+ \, Франция
+DESCRIPTION:Масштабная выставка работ извест
+ ного художника Стэна Дугласа в центре с
+ овременного искусства Jeu de Paume.\nStan Douglas\nht
+ tps://jeudepaume.org/en/evenement/stan-douglas/
+URL:https://doublebasskakov.github.io/radar/#e=stan-douglas-parallax-pari
+ s
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Stan Douglas: Parallax
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:light-and-magic-the-birth-of-art-photography-london@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Открытие: Light and Magic: The Birth of Art Photography
+LOCATION:Tate Modern\, Лондон\, Великобритания
+DESCRIPTION:Масштабная выставка\, рассказыва
+ ющая неизведанную глобальную историю з
+ арождения художественной фотографии.\n\n
+ https://www.tate.org.uk/whats-on
+URL:https://doublebasskakov.github.io/radar/#e=light-and-magic-the-birth-
+ of-art-photography-london
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Light and Magic: The Birth of Art Photograp
+ hy
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:the-90s-art-and-fashion-london@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Открытие: The 90s: Art and Fashion
+LOCATION:Tate Britain\, Лондон\, Великобритания
+DESCRIPTION:Исследование яркого десятилетия\
+ , отмеченного смелым творчеством и бунт
+ арским духом в искусстве и моде.\n\nhttps://www
+ .tate.org.uk/whats-on/tate-britain/the-90s
+URL:https://doublebasskakov.github.io/radar/#e=the-90s-art-and-fashion-lo
+ ndon
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: The 90s: Art and Fashion
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:go-zde-i-lkin-those-who-remember-their-births-st-ives@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Открытие: Gözde İlkin: Those Who Remember Their Births
+LOCATION:Tate St Ives\, Сент-Айвз\, Великобритания
+DESCRIPTION:Увлекательная текстильная инста
+ лляция\, раскрывающая темы памяти\, иден
+ тичности и принадлежности.\nГезде Ильки
+ н\nhttps://www.tate.org.uk/whats-on
+URL:https://doublebasskakov.github.io/radar/#e=go-zde-i-lkin-those-who-re
+ member-their-births-st-ives
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Gözde İlkin: Those Who Remember Their Bir
+ ths
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ink-london@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20270422
+DTEND;VALUE=DATE:20270423
+SUMMARY:Открытие: Ink
+LOCATION:Tate Modern\, Лондон\, Великобритания
+DESCRIPTION:Экспозиция\, демонстрирующая сло
+ жную эстетику и красоту традиционного и
+ скусства работы с тушью.\n\nhttps://www.tate.org.uk/w
+ hats-on/tate-modern/ink
+URL:https://doublebasskakov.github.io/radar/#e=ink-london
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Ink
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:terminal-piece-vienna@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+SUMMARY:Последний день: Terminal Piece
+LOCATION:mumok\, Museumsplatz 1\, 1070 Wien\, Вена\, Австрия
+DESCRIPTION:Экспозиция в музее mumok\, представл
+ яющая современные художественные практ
+ ики и инсталляции.\nmumok\nhttps://www.mumok.at/en/exhibit
+ ions
+URL:https://doublebasskakov.github.io/radar/#e=terminal-piece-vienna
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Terminal Piece
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:vanessa-bell-duncan-grant-inside-bloomsbury-london@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Открытие: Vanessa Bell & Duncan Grant: Inside Bloomsbury
+LOCATION:Tate Britain\, Лондон\, Великобритания
+DESCRIPTION:Погружение в яркий визуальный ми
+ р знаменитого творческого дуэта группы 
+ Блумсбери.\nВанесса Белл\, Данкан Грант\nh
+ ttps://www.tate.org.uk/whats-on
+URL:https://doublebasskakov.github.io/radar/#e=vanessa-bell-duncan-grant-
+ inside-bloomsbury-london
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Vanessa Bell & Duncan Grant: Inside Bloomsb
+ ury
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:baya-london@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20270610
+DTEND;VALUE=DATE:20270611
+SUMMARY:Открытие: Baya
+LOCATION:Tate Modern\, Лондон\, Великобритания
+DESCRIPTION:Выставка ярких и выразительных р
+ абот выдающейся алжирской художницы Ба
+ и.\nБая Махиддин\nhttps://www.tate.org.uk/whats-on/tate-moder
+ n/baya
+URL:https://doublebasskakov.github.io/radar/#e=baya-london
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Baya
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

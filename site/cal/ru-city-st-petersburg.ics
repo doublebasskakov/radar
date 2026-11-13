@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:round-table-contemporary-art-and-theatre-st-petersbur@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20261115T094500Z
 DTEND:20261115T114500Z
 SUMMARY:Круглый стол «Современное искусств
@@ -33,9 +33,27 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:stvol-5th-anniversary-party-st-petersbur@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261113T200000Z
+DTEND:20261113T220000Z
+SUMMARY:Вечеринка Ствол 5 лет
+LOCATION:K-30\, Санкт-Петербург
+DESCRIPTION:Праздничная вечеринка в честь пя
+ тилетия клубного лейбла «Ствол» на площ
+ адке K-30.\nЛейбл Ствол\nhttps://t.me/dancingalone/37005
+URL:https://doublebasskakov.github.io/radar/#e=stvol-5th-anniversary-part
+ y-st-petersbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Вечеринка Ствол 5 лет
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:david-berezin-s-exhibition-scribbles-little-scribbles-st-petersbur@af
  isha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Последний день: Выставка Давида Бер
@@ -58,9 +76,31 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:ilya-zharkov-botanical-meditations-st-petersbur@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Открытие: Выставка Ильи Жаркова «Бо
+ танические медитации»
+LOCATION:IRNBY\, Санкт-Петербург
+DESCRIPTION:Персональная выставка керамичес
+ ких объектов Ильи Жаркова\, основанная н
+ а эксперименте с глазурями и бархатисты
+ м покрытием флоком.\nИлья Жарков\nhttps://t.me/
+ obdn_ru/12655
+URL:https://doublebasskakov.github.io/radar/#e=ilya-zharkov-botanical-med
+ itations-st-petersbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка Ильи Жаркова «
+ Ботанические медитации»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:mediation-tour-of-katya-veselovskaya-s-exhibition-st-petersbur@afisha
  -art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Медиация по выставке Кати Веселовс

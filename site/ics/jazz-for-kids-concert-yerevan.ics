@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:jazz-for-kids-concert-yerevan@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Концерт JAZZ for KIDS
+LOCATION:Дом кино\, Ереван\, Армения
+DESCRIPTION:Необычный концерт живой джазовой
+  музыки с показом анимации на большом эк
+ ране в рамках фестиваля «РеА».\nМеждунар
+ одный фестиваль анимации и комиксов «Ре
+ А»\nhttps://t.me/guideyerevan/1575
+URL:https://doublebasskakov.github.io/radar/#e=jazz-for-kids-concert-yere
+ van
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт JAZZ for KIDS
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

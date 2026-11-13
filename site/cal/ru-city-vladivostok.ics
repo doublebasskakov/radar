@@ -8,12 +8,12 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:vld-zarya-na-nozhkakh@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20270411
 DTEND;VALUE=DATE:20270412
 SUMMARY:Последний день: «На ножках»
-LOCATION:ЦСИ «Заря»\, выставочный зал\, Влади
- восток
+LOCATION:ЦСИ «Заря»\, выставочный зал\, пр-т 10
+ 0-летия Владивостока\, 155\, Владивосток
 DESCRIPTION:Передвижная групповая выставка о
  б избушке Бабы-яги как архитектурном об
  разе — от концептуалистов до некрореал
@@ -29,8 +29,30 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:far-red-vladivostok@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:Последний день: Far Red
+LOCATION:Центр современного искусства «Зар
+ я»\, пр-т 100-летия Владивостока\, 155\, Влади
+ восток
+DESCRIPTION:Проект Анны Бат исследует тему кр
+ асного цвета и скрытого спектра через т
+ екстильные объекты и инсталляции\, вдох
+ новленные локальным контекстом Владиво
+ стока.\nАнна Бат\nhttps://www.zaryavladivostok.ru/en/exhibiti
+ ons/post/2984
+URL:https://doublebasskakov.github.io/radar/#e=far-red-vladivostok
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Far Red
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:vld-zarya-anna-bat-far-red@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:Последний день: Анна Бат. Far Red

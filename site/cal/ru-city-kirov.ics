@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Радар — Россия · city-kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:mobile-music-assembly-kirov-kirov@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261203
+SUMMARY:Передвижная музыкальная ассамблея:
+  Киров
+LOCATION:Киров
+DESCRIPTION:Двухдневная программа концертов 
+ и мастер-классов для учащихся музыкальн
+ ых учебных заведений.\nКазанская госуда
+ рственная консерватория имени Н.Г. Жига
+ нова\nhttps://t.me/kazancons/3600
+URL:https://doublebasskakov.github.io/radar/#e=mobile-music-assembly-kiro
+ v-kirov
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Передвижная музыкальная ассамбл
+ ея: Киров
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:suspiria-stan-douglas-paris@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20270109
+DTEND;VALUE=DATE:20270110
+SUMMARY:Последний день: Suspiria (Stan Douglas)
+LOCATION:Jeu de Paume\, 1 Place de la Concorde\, 75008 Paris\, Париж
+ \, Франция
+DESCRIPTION:Кинопоказ видеоработ Стэна Дугла
+ са в рамках выставочной программы в Jeu de 
+ Paume.\nStan Douglas\nhttps://jeudepaume.org/en/evenement/suspiria/
+URL:https://doublebasskakov.github.io/radar/#e=suspiria-stan-douglas-pari
+ s
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Suspiria (Stan Douglas)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

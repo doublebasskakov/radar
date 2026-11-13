@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:concert-in-other-words-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261121
+SUMMARY:Концерт «Другими словами»
+LOCATION:Тон-Центр\, Москва\, Москва
+DESCRIPTION:Музыкальное высказывание композ
+ итора и режиссера Владислава Наставшев
+ а на стихи современных поэтов в купольн
+ ой акустике депо.\nВладислав Наставшев\nh
+ ttps://t.me/toncentermoscow/492
+URL:https://doublebasskakov.github.io/radar/#e=concert-in-other-words-mos
+ cow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт «Другими словами»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

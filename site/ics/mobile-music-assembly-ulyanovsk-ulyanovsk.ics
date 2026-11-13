@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:mobile-music-assembly-ulyanovsk-ulyanovsk@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:Передвижная музыкальная ассамблея:
+  Ульяновск
+LOCATION:Ульяновск
+DESCRIPTION:Концертная программа и творчески
+ е встречи с профессорами консерватории.
+ \nКазанская государственная консервато
+ рия имени Н.Г. Жиганова\nhttps://t.me/kazancons/3600
+URL:https://doublebasskakov.github.io/radar/#e=mobile-music-assembly-ulya
+ novsk-ulyanovsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Передвижная музыкальная ассамбл
+ ея: Ульяновск
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

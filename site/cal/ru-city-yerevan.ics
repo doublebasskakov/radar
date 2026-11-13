@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Радар — Россия · city-yerevan
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:concert-by-ukhushukhu-temple-of-frogs-and-zer-yerevan@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261115T170000Z
+DTEND:20261115T190000Z
+SUMMARY:Концерт УХУШУХУ\, Temple of frogs и ZeRø
+LOCATION:Muha\, Ереван
+DESCRIPTION:Вечер эмбиента\, дроуна и полевых 
+ записей на стыке импровизационной и экс
+ периментальной музыки.\nУХУШУХУ\, Temple of fr
+ ogs\, ZeRø\nhttps://t.me/gudelnaya/2372
+URL:https://doublebasskakov.github.io/radar/#e=concert-by-ukhushukhu-temp
+ le-of-frogs-and-zer-yerevan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт УХУШУХУ\, Temple of frogs и ZeRø
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

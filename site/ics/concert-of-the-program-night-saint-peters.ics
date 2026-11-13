@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:concert-of-the-program-night-saint-peters@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261115T160000Z
+DTEND:20261115T180000Z
+SUMMARY:Концерт программы «Ночь»
+LOCATION:Дом Радио\, Санкт-Петербург
+DESCRIPTION:Камерный концерт с романсами о но
+ чных переживаниях в исполнении артисто
+ в хора musicAeterna.\nХор musicAeterna\nhttps://t.me/musicaeterna
+ TC/4990
+URL:https://doublebasskakov.github.io/radar/#e=concert-of-the-program-nig
+ ht-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт программы «Ночь»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

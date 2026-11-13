@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:caspiy-band-concert-moscow@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261115T170000Z
+DTEND:20261115T190000Z
+SUMMARY:Концерт группы «Каспий»
+LOCATION:Еврейский музей и центр толерантно
+ сти\, Москва
+DESCRIPTION:Праздничный концерт музыкальног
+ о коллектива в честь 14-летия Еврейского 
+ музея.\nГруппа «Каспий»\nhttps://t.me/jewishmuseum/574
+ 8
+URL:https://doublebasskakov.github.io/radar/#e=caspiy-band-concert-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт группы «Каспий»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

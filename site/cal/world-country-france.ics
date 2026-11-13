@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:ina-grm-pre-sences-electronic-1-paris@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20270219T193000Z
 DTEND:20270219T213000Z
 SUMMARY:INA grm / PRÉSENCES électronique #1
@@ -30,7 +30,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ina-grm-pre-sences-electronic-2-paris@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20270220T193000Z
 DTEND:20270220T213000Z
 SUMMARY:INA grm / PRÉSENCES électronique #2
@@ -52,7 +52,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ina-grm-pre-sences-electronic-3-paris@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20270221T170000Z
 DTEND:20270221T190000Z
 SUMMARY:INA grm / PRÉSENCES électronique #3
@@ -72,8 +72,27 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:ircam-explosante-fixe-2027@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20270113T190000Z
+DTEND:20270113T210000Z
+SUMMARY:Булез: «…explosante-fixe…»
+LOCATION:Филармония Парижа\, Большой зал\, 221 
+ Avenue Jean Jaurès\, 75019 Paris\, Париж\, Франция
+DESCRIPTION:Классика live electronics: «…explosante-fixe…» 
+ Булеза с электроникой реального времен
+ и IRCAM.\nEnsemble intercontemporain\, IRCAM\nhttps://www.ircam.fr/en/ev
+ ents/explosante-fixe
+URL:https://doublebasskakov.github.io/radar/#e=ircam-explosante-fixe-2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Булез: «…explosante-fixe…»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:ina-grm-akousma-5-paris@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20270508T183000Z
 DTEND:20270508T203000Z
 SUMMARY:INA grm Akousma #5
@@ -94,7 +113,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ina-grm-akousma-4-paris@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20270507T183000Z
 DTEND:20270507T203000Z
 SUMMARY:INA grm Akousma #4
@@ -114,7 +133,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ina-grm-akousma-6-paris@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20270509T160000Z
 DTEND:20270509T180000Z
 SUMMARY:INA grm Akousma #6
@@ -133,8 +152,47 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:ircam-aho-ssan-studio-session@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261209T180000Z
+DTEND:20261209T200000Z
+SUMMARY:Aho Ssan: Forum Studio Session #8
+LOCATION:IRCAM\, Studio 5 (и онлайн)\, 1 Place Stravinsky\, 75004 
+ Paris\, Париж\, Франция
+DESCRIPTION:Французский электронщик Aho Ssan игр
+ ает пространственный сет в студии IRCAM\; в
+ ыступление транслируется онлайн.\nAho Ssan\n
+ https://www.ircam.fr/en/events/aho-ssan-forum-studio-session-8
+URL:https://doublebasskakov.github.io/radar/#e=ircam-aho-ssan-studio-sess
+ ion
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Aho Ssan: Forum Studio Session #8
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ircam-forum-workshops-2027@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20270324T090000Z
+DTEND:20270324T110000Z
+SUMMARY:IRCAM Forum Workshops 2027
+LOCATION:IRCAM\, 1 Place Stravinsky\, 75004 Paris\, Париж\, Фран
+ ция
+DESCRIPTION:Ежегодная встреча разработчиков 
+ и композиторов: новые инструменты IRCAM дл
+ я звука\, пространства и ИИ.\nIRCAM\nhttps://www.irc
+ am.fr/en/events/ircam-forum-workshops
+URL:https://doublebasskakov.github.io/radar/#e=ircam-forum-workshops-2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:IRCAM Forum Workshops 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:ircam-klangforum-saint-eustache@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20261130T190000Z
 DTEND:20261130T210000Z
 SUMMARY:Klangforum Wien × IRCAM
@@ -152,68 +210,13 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ircam-explosante-fixe-2027@afisha-art
-DTSTAMP:20261113T174826Z
-DTSTART:20270113T190000Z
-DTEND:20270113T210000Z
-SUMMARY:Булез: «…explosante-fixe…»
-LOCATION:Филармония Парижа\, Большой зал\, Па
- риж\, Франция
-DESCRIPTION:Классика live electronics: «…explosante-fixe…» 
- Булеза с электроникой реального времен
- и IRCAM.\nEnsemble intercontemporain\, IRCAM\nhttps://www.ircam.fr/en/ev
- ents/explosante-fixe
-URL:https://doublebasskakov.github.io/radar/#e=ircam-explosante-fixe-2027
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Булез: «…explosante-fixe…»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:ircam-aho-ssan-studio-session@afisha-art
-DTSTAMP:20261113T174826Z
-DTSTART:20261209T180000Z
-DTEND:20261209T200000Z
-SUMMARY:Aho Ssan: Forum Studio Session #8
-LOCATION:IRCAM\, Studio 5 (и онлайн)\, Париж\, Франция
-DESCRIPTION:Французский электронщик Aho Ssan игр
- ает пространственный сет в студии IRCAM\; в
- ыступление транслируется онлайн.\nAho Ssan\n
- https://www.ircam.fr/en/events/aho-ssan-forum-studio-session-8
-URL:https://doublebasskakov.github.io/radar/#e=ircam-aho-ssan-studio-sess
- ion
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Aho Ssan: Forum Studio Session #8
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:ircam-forum-workshops-2027@afisha-art
-DTSTAMP:20261113T174826Z
-DTSTART:20270324T090000Z
-DTEND:20270324T110000Z
-SUMMARY:IRCAM Forum Workshops 2027
-LOCATION:IRCAM\, Париж\, Франция
-DESCRIPTION:Ежегодная встреча разработчиков 
- и композиторов: новые инструменты IRCAM дл
- я звука\, пространства и ИИ.\n\nhttps://www.ircam.fr
- /en/events/ircam-forum-workshops
-URL:https://doublebasskakov.github.io/radar/#e=ircam-forum-workshops-2027
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:IRCAM Forum Workshops 2027
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:ircam-court-circuit-2027@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20270122T190000Z
 DTEND:20270122T210000Z
 SUMMARY:Ensemble Court-circuit в IRCAM
-LOCATION:IRCAM\, Espace de projection\, Париж\, Франция
+LOCATION:IRCAM\, Espace de projection\, 1 Place Stravinsky\, 75004 Paris\
+ , Париж\, Франция
 DESCRIPTION:Концерт с премьерами для ансамбл
  я и электроники в легендарном зале с изм
  еняемой акустикой.\nEnsemble Court-circuit\nhttps://www.i
@@ -227,16 +230,16 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ircam-radigue-ecoute@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20261118T180000Z
 DTEND:20261118T200000Z
 SUMMARY:Les états de l'écoute: Элиана Радиг
-LOCATION:IRCAM\, зал Стравинского\, Париж\, Фран
- ция
+LOCATION:IRCAM\, зал Стравинского\, 1 Place Stravinsky\, 7
+ 5004 Paris\, Париж\, Франция
 DESCRIPTION:Встреча в IRCAM о слушании и музыке 
  Элианы Радиг — пионерки электронного д
- рона.\n\nhttps://www.ircam.fr/en/events/les-etats-de-lecoute-eliane-r
- adigue
+ рона.\nFrançois J. Bonnet\, Hélène Breschand\, Carol Robinson\nhtt
+ ps://www.ircam.fr/en/events/les-etats-de-lecoute-eliane-radigue
 URL:https://doublebasskakov.github.io/radar/#e=ircam-radigue-ecoute
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -246,15 +249,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ircam-action-man-ray@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20270130T190000Z
 DTEND:20270130T210000Z
 SUMMARY:Action! Man Ray
-LOCATION:Cité de la musique\, Salle des concerts\, Париж\, Фран
- ция
+LOCATION:Cité de la musique\, Salle des concerts\, 221 Avenue Jean Jaur
+ ès\, 75019 Paris\, Париж\, Франция
 DESCRIPTION:Фильмы Ман Рэя с новой живой музы
- кой и электроникой в программе IRCAM.\n\nhttps:
- //www.ircam.fr/en/events/action-man-ray
+ кой и электроникой в программе IRCAM.\nCentre P
+ ompidou\, IRCAM\nhttps://www.ircam.fr/en/events/action-man-ray
 URL:https://doublebasskakov.github.io/radar/#e=ircam-action-man-ray
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -263,8 +266,308 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:klangforum-wien-concert-at-saint-eustache-paris@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261130T190000Z
+DTEND:20261130T210000Z
+SUMMARY:Концерт Klangforum Wien в церкви Сен-Эсташ
+LOCATION:Église Saint-Eustache\, 2 Impasse Saint-Eustache\, 75001 Paris\
+ , Париж\, Франция
+DESCRIPTION:Концерт ансамбля современной муз
+ ыки Klangforum Wien с премьерой сочинения Эш Фь
+ юр и классикой спектральной музыки.\nKlangf
+ orum Wien\, Ash Fure\, Justė Janulytė\, György Ligeti\, Gérard Grisey
+ \, Francesco Filidei\nhttps://www.ircam.fr/agenda
+URL:https://doublebasskakov.github.io/radar/#e=klangforum-wien-concert-at
+ -saint-eustache-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт Klangforum Wien в церкви Сен-Эст
+ аш
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ctrl-sound-neural-audio-workshop-paris@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261204T073000Z
+DTEND:20261204T093000Z
+SUMMARY:CTRL+Sound: Нейроаудио-воркшоп по декоди
+ рованию звука с помощью ИИ
+LOCATION:Ircam\, 1 Place Stravinsky\, 75004 Paris\, Париж\, Фран
+ ция
+DESCRIPTION:Практический семинар и воркшоп в 
+ IRCAM по применению нейросетей и алгоритм
+ ов искусственного интеллекта для анали
+ за звука.\nIRCAM\nhttps://www.ircam.fr/fr/events/ctrl-sound
+URL:https://doublebasskakov.github.io/radar/#e=ctrl-sound-neural-audio-wo
+ rkshop-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CTRL+Sound: Нейроаудио-воркшоп по деко
+ дированию звука с помощью ИИ
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:concert-eic-50-dialogue-des-ombres-paris@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20270423T180000Z
+DTEND:20270423T200000Z
+SUMMARY:Концерт EIC 50 / Dialogue des ombres
+LOCATION:Cité de la musique - Philharmonie de Paris\, Salle des concerts
+ \, 221 Avenue Jean Jaurès\, 75019 Paris\, Париж\, Франция
+DESCRIPTION:Концерт современной музыки с пре
+ мьерами Пьера Йодловского и Яны Шлябанс
+ кой в исполнении Ensemble intercontemporain.\nEnsemble inte
+ rcontemporain\, Pierre Jodlowski\, Yana Shliabanska\, Pierre Bleuse\nhttp
+ s://www.ircam.fr/agenda
+URL:https://doublebasskakov.github.io/radar/#e=concert-eic-50-dialogue-de
+ s-ombres-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт EIC 50 / Dialogue des ombres
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:symphonic-and-contemporary-music-concert-milhaud-berio-diana-paris@af
+ isha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20270227T190000Z
+DTEND:20270227T210000Z
+SUMMARY:Концерт симфонической и современно
+ й музыки: Мийо\, Берьо\, Диана Сох
+LOCATION:Maison de la Radio et de la Musique\, Auditorium\, 116 Avenue du
+  Président Kennedy\, 75016 Paris\, Париж\, Франция
+DESCRIPTION:Концерт Филармонического оркест
+ ра Радио Франции с сочинениями Дариюса 
+ Мийо\, Лучано Берьо и премьерами.\nOrchestre Ph
+ ilharmonique de Radio France\, Lin Liao\, Diana Soh\, Yaron Herman\, Luci
+ ano Berio\, Darius Milhaud\nhttps://www.ircam.fr/agenda
+URL:https://doublebasskakov.github.io/radar/#e=symphonic-and-contemporary
+ -music-concert-milhaud-berio-diana-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт симфонической и современ
+ ной музыки: Мийо\, Берьо\, Диана Сох
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:meeting-john-cage-and-merce-cunningham-paris@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20270204T180000Z
+DTEND:20270204T200000Z
+SUMMARY:Встреча «Le pari de l’œuvre de John Cage et Merce Cunn
+ ingham»
+LOCATION:Ircam\, salle Stravinsky\, 1 Place Stravinsky\, 75004 Paris\, П
+ ариж\, Франция
+DESCRIPTION:Дискуссия и лекция о творческом с
+ оюзе композитора Джона Кейджа и хореогр
+ афа Мерса Каннингема.\nBrigitte Lefêvre\, Claudine Sim
+ on\nhttps://www.ircam.fr/agenda
+URL:https://doublebasskakov.github.io/radar/#e=meeting-john-cage-and-merc
+ e-cunningham-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Встреча «Le pari de l’œuvre de John Cage et Merce 
+ Cunningham»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lecolap-workshop-with-ariane-mnouchkine-paris@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20270316T173000Z
+DTEND:20270316T193000Z
+SUMMARY:Семинар LecOlap с Арианой Мнушкин
+LOCATION:Ircam\, salle Stravinsky\, 1 Place Stravinsky\, 75004 Paris\, П
+ ариж\, Франция
+DESCRIPTION:Встреча с выдающимся режиссером 
+ театра Арианой Мнушкин в рамках цикла а
+ нтропологии политики.\nAgnès Callu\, Ariane Mnouchkin
+ e\nhttps://www.ircam.fr/agenda
+URL:https://doublebasskakov.github.io/radar/#e=lecolap-workshop-with-aria
+ ne-mnouchkine-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Семинар LecOlap с Арианой Мнушкин
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:performance-les-jeux-de-l-amour-et-de-l-e-nigme-paris@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20270318T180000Z
+DTEND:20270318T200000Z
+SUMMARY:Спектакль «Les Jeux de l'amour et de l'énigme»
+LOCATION:Ircam\, Studio 5\, 1 Place Stravinsky\, 75004 Paris\, Париж
+ \, Франция
+DESCRIPTION:Современный театральный спектак
+ ль режиссера Анн Монфор по тексту Элен Ф
+ раппа в студии IRCAM.\nAnne Monfort\, Hélène Frappat\nhttps
+ ://www.ircam.fr/agenda
+URL:https://doublebasskakov.github.io/radar/#e=performance-les-jeux-de-l-
+ amour-et-de-l-e-nigme-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спектакль «Les Jeux de l'amour et de l'énigme»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:exhibition-patrimoines-en-re-sistance-de-tombouctou-a-odessa-paris@af
+ isha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20260520T090000Z
+DTEND:20260520T110000Z
+SUMMARY:Открытие: Выставка «Patrimoines en résistance\,
+  de Tombouctou à Odessa»
+LOCATION:Cité de l’architecture et du patrimoine\, 1 Place du Trocadé
+ ro et du 11 Novembre\, 75116 Paris\, Париж\, Франция
+DESCRIPTION:Выставка цифровой реконструкции 
+ памятников архитектуры с саунд-дизайно
+ м Янна Бреси.\nYann Brecy\, Yves Ubelman\nhttps://www.ircam.fr/
+ agenda
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-patrimoines-en-
+ re-sistance-de-tombouctou-a-odessa-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка «Patrimoines en résistan
+ ce\, de Tombouctou à Odessa»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:concert-conical-intersect-constellation-sonore-paris@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20270130T150000Z
+DTEND:20270130T170000Z
+SUMMARY:Концерт «Conical intersect / Constellation sonore»
+LOCATION:Cité de la musique\, Amphithéâtre\, 221 Avenue Jean Jaurès\,
+  75019 Paris\, Париж\, Франция
+DESCRIPTION:Специальный концерт в рамках уик-
+ энда к юбилею Центра Помпиду и IRCAM.\nCentre Po
+ mpidou\, IRCAM\nhttps://www.ircam.fr/agenda
+URL:https://doublebasskakov.github.io/radar/#e=concert-conical-intersect-
+ constellation-sonore-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт «Conical intersect / Constellation sonore»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sound-music-health-day-diversity-of-auditory-perception-paris@afisha-
+ art
+DTSTAMP:20261113T184219Z
+DTSTART:20261201T083000Z
+DTEND:20261201T103000Z
+SUMMARY:День «Звук\, Музыка и Здоровье»: Раз
+ нообразие слухового восприятия
+LOCATION:Ircam\, salle Stravinsky\, 1 Place Stravinsky\, 75004 Paris\, П
+ ариж\, Франция
+DESCRIPTION:Ежегодная конференция института 
+ IRCAM\, посвященная медицинской и психоаку
+ стической тематике восприятия звука.\nIRC
+ AM\nhttps://www.ircam.fr/agenda
+URL:https://doublebasskakov.github.io/radar/#e=sound-music-health-day-div
+ ersity-of-auditory-perception-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:День «Звук\, Музыка и Здоровье»: Р
+ азнообразие слухового восприятия
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gdr-iasis-study-day-on-auditory-perception-and-cognition-paris@afisha
+ -art
+DTSTAMP:20261113T184219Z
+DTSTART:20261119T083000Z
+DTEND:20261119T103000Z
+SUMMARY:День исследования GdR IASIS по восприят
+ ию и когнитивным особенностям слуха
+LOCATION:Ircam\, salle Stravinsky\, 1 Place Stravinsky\, 75004 Paris\, П
+ ариж\, Франция
+DESCRIPTION:Научная встреча и исследования в 
+ области восприятия звука и слуховой ког
+ нитивистики в институте IRCAM.\nGdR IASIS\, IRCAM\nh
+ ttps://www.ircam.fr/fr/events/gdr-iasis
+URL:https://doublebasskakov.github.io/radar/#e=gdr-iasis-study-day-on-aud
+ itory-perception-and-cognition-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:День исследования GdR IASIS по воспри
+ ятию и когнитивным особенностям слуха
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lecolap-workshop-with-bartabas-paris@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20270202T173000Z
+DTEND:20270202T193000Z
+SUMMARY:Семинар LecOlap с Бартабасом
+LOCATION:Ircam\, salle Stravinsky\, 1 Place Stravinsky\, 75004 Paris\, П
+ ариж\, Франция
+DESCRIPTION:Семинар по альтернативным художе
+ ственным практикам современного театра
+  с участием режиссера Бартабаса.\nAgnès Callu
+ \, Bartabas\nhttps://www.ircam.fr/agenda
+URL:https://doublebasskakov.github.io/radar/#e=lecolap-workshop-with-bart
+ abas-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Семинар LecOlap с Бартабасом
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:interlab-day-2026-paris@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261120T090000Z
+DTEND:20261120T110000Z
+SUMMARY:Междисциплинарный день Interlab 2026
+LOCATION:Ircam\, salle Stravinsky\, 1 Place Stravinsky\, 75004 Paris\, П
+ ариж\, Франция
+DESCRIPTION:Исследовательский день\, посвяще
+ нный вопросам равенства\, инклюзии и инд
+ и-подходов в искусстве и науке.\nIRCAM\nhttps://
+ www.ircam.fr/agenda
+URL:https://doublebasskakov.github.io/radar/#e=interlab-day-2026-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Междисциплинарный день Interlab 2026
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pepr-ensemble-research-day-paris@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261211T090000Z
+DTEND:20261211T110000Z
+SUMMARY:Научная встреча PEPR eNSEMBLE по устойчив
+ ой компьютерной инженерии
+LOCATION:Ircam\, salle Stravinsky\, 1 Place Stravinsky\, 75004 Paris\, П
+ ариж\, Франция
+DESCRIPTION:День исследований критических по
+ дходов к взаимодействию человека с комп
+ ьютером и цифровым искусством.\nIRCAM\nhttps://
+ www.ircam.fr/agenda
+URL:https://doublebasskakov.github.io/radar/#e=pepr-ensemble-research-day
+ -paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Научная встреча PEPR eNSEMBLE по устойч
+ ивой компьютерной инженерии
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:grm-live-electronics-1-2027@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART:20270108T190000Z
 DTEND:20270108T210000Z
 SUMMARY:INA GRM: Live Electronics #1
@@ -281,8 +584,180 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:meeting-with-stan-douglas-george-e-lewis-and-alexandre-pierr-paris@af
+ isha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20270109T163000Z
+DTEND:20270109T183000Z
+SUMMARY:Встреча со Стэном Дугласом\, Джордж
+ ем Э. Льюисом и Александром Пьерпоном
+LOCATION:Jeu de Paume\, 1 Place de la Concorde\, 75008 Paris\, Париж
+ \, Франция
+DESCRIPTION:Публичная дискуссия с участием х
+ удожника Стэна Дугласа и исследователе
+ й культуры в Jeu de Paume.\nStan Douglas\, George E. Lewis\, Al
+ exandre Pierrepont\nhttps://jeudepaume.org/en/evenement/with-stan-douglas
+ -2/
+URL:https://doublebasskakov.github.io/radar/#e=meeting-with-stan-douglas-
+ george-e-lewis-and-alexandre-pierr-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Встреча со Стэном Дугласом\, Джор
+ джем Э. Льюисом и Александром Пьерпоном
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:meeting-mouna-ouafik-and-shaeirat-platform-paris@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261217T180000Z
+DTEND:20261217T200000Z
+SUMMARY:Встреча «Le pari de l’œuvre de Mouna Ouafik et la plat
+ eforme Shaeirat»
+LOCATION:Ircam\, salle Stravinsky\, 1 Place Stravinsky\, 75004 Paris\, П
+ ариж\, Франция
+DESCRIPTION:Перформативно-поэтическая встре
+ чa с перформером Муной Уафик в рамках ци
+ кла институции.\nMouna Ouafik\, Henri Jules Julien\nhttps://
+ www.ircam.fr/agenda
+URL:https://doublebasskakov.github.io/radar/#e=meeting-mouna-ouafik-and-s
+ haeirat-platform-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Встреча «Le pari de l’œuvre de Mouna Ouafik et la 
+ plateforme Shaeirat»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:meeting-the-history-of-la-marseillaise-paris@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20270422T170000Z
+DTEND:20270422T190000Z
+SUMMARY:Встреча «Le pari de l’œuvre de la Marseillaise»
+LOCATION:Ircam\, salle Stravinsky\, 1 Place Stravinsky\, 75004 Paris\, П
+ ариж\, Франция
+DESCRIPTION:Историческая лекция историка Гий
+ ома Мазо о символике и культурном значе
+ нии Марсельезы.\nGuillaume Mazeau\nhttps://www.ircam.fr/agen
+ da
+URL:https://doublebasskakov.github.io/radar/#e=meeting-the-history-of-la-
+ marseillaise-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Встреча «Le pari de l’œuvre de la Marseillaise»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:meeting-emmanuel-guibert-paris@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20270513T170000Z
+DTEND:20270513T190000Z
+SUMMARY:Встреча «Le pari du photographe» с Эммануэлем
+  Гибером
+LOCATION:Ircam\, salle Stravinsky\, 1 Place Stravinsky\, 75004 Paris\, П
+ ариж\, Франция
+DESCRIPTION:Творческая встреча с иллюстратор
+ ом и сценаристом Эммануэлем Гибером в и
+ нституте IRCAM.\nEmmanuel Guibert\nhttps://www.ircam.fr/agenda
+URL:https://doublebasskakov.github.io/radar/#e=meeting-emmanuel-guibert-p
+ aris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Встреча «Le pari du photographe» с Эммануэл
+ ем Гибером
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:meeting-le-pari-de-peter-pan-with-nathalie-azoulai-paris@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20270114T180000Z
+DTEND:20270114T200000Z
+SUMMARY:Встреча «Le pari de Peter Pan» с Натали Азул
+ ай
+LOCATION:Ircam\, salle Stravinsky\, 1 Place Stravinsky\, 75004 Paris\, П
+ ариж\, Франция
+DESCRIPTION:Литературно-художественная встр
+ еча с переводчицей Натали Азулай в прос
+ транстве IRCAM.\nNathalie Azoulai\nhttps://www.ircam.fr/agenda
+URL:https://doublebasskakov.github.io/radar/#e=meeting-le-pari-de-peter-p
+ an-with-nathalie-azoulai-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Встреча «Le pari de Peter Pan» с Натали Аз
+ улай
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:contemporary-music-concert-not-alone-2014-15-paris@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20270109T183000Z
+DTEND:20270109T203000Z
+SUMMARY:Концерт современной музыки «Not Alone\, 
+ 2014-15»
+LOCATION:Jeu de Paume\, 1 Place de la Concorde\, 75008 Paris\, Париж
+ \, Франция
+DESCRIPTION:Концерт академической и современ
+ ной музыки в выставочном пространстве Je
+ u de Paume.\nJeu de Paume\nhttps://jeudepaume.org/en/evenement/not-alone-
+ 2014-15/
+URL:https://doublebasskakov.github.io/radar/#e=contemporary-music-concert
+ -not-alone-2014-15-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт современной музыки «Not Alon
+ e\, 2014-15»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:meeting-virginia-woolf-orlando-paris@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20270311T180000Z
+DTEND:20270311T200000Z
+SUMMARY:Встреча «Le pari de l’œuvre de Virginia Woolf»
+LOCATION:Ircam\, salle Stravinsky\, 1 Place Stravinsky\, 75004 Paris\, П
+ ариж\, Франция
+DESCRIPTION:Лекция исследовательницы Наоми Т
+ от о романе Вирджинии Вулф «Орландо» в IR
+ CAM.\nNaomi Toth\nhttps://www.ircam.fr/agenda
+URL:https://doublebasskakov.github.io/radar/#e=meeting-virginia-woolf-orl
+ ando-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Встреча «Le pari de l’œuvre de Virginia Woolf»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:davide-sgambaro-performance-fini-les-lendemains-sombres-crac-paris@af
+ isha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261113T150000Z
+DTEND:20261113T170000Z
+SUMMARY:Перформанс Davide Sgambaro «Fini les lendemains sombre
+ s (crachat)»
+LOCATION:Jeu de Paume\, 1 Place de la Concorde\, 75008 Paris\, Париж
+ \, Франция
+DESCRIPTION:Живой перформанс художника Давид
+ е Сгамбаро в арт-центре Jeu de Paume.\nDavide Sgambaro
+ \nhttps://jeudepaume.org/en/evenement/fini-les-lendemains-sombres-crachat
+ /
+URL:https://doublebasskakov.github.io/radar/#e=davide-sgambaro-performanc
+ e-fini-les-lendemains-sombres-crac-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Перформанс Davide Sgambaro «Fini les lendemains so
+ mbres (crachat)»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:lyon-biennale-18@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Последний день: 18e Biennale de Lyon: Passer d'un r
@@ -305,7 +780,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:grm-akousma-may-2027@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20270507
 DTEND;VALUE=DATE:20270510
 SUMMARY:INA GRM: Akousma & Live Electronics
@@ -325,7 +800,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:flv-gustave-fayet@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20270308
 DTEND;VALUE=DATE:20270309
 SUMMARY:Последний день: Gustave Fayet. Collectionneur — Cr
@@ -347,7 +822,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:art-basel-paris-2027@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20271022
 DTEND;VALUE=DATE:20271025
 SUMMARY:Art Basel Paris 2027
@@ -365,7 +840,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:bourse-de-commerce-remember-me@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20270118
 DTEND;VALUE=DATE:20270119
 SUMMARY:Последний день: Remember Me
@@ -387,7 +862,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:paris-photo-2026@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261116
 SUMMARY:Paris Photo 2026
@@ -406,7 +881,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:grm-presences-electronique-2027@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20270219
 DTEND;VALUE=DATE:20270222
 SUMMARY:Фестиваль PRÉSENCES électronique 2027
@@ -426,8 +901,28 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:stan-douglas-parallax-paris@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:Последний день: Stan Douglas: Parallax
+LOCATION:Jeu de Paume\, 1 Place de la Concorde\, 75008 Paris\, Париж
+ \, Франция
+DESCRIPTION:Масштабная выставка работ извест
+ ного художника Стэна Дугласа в центре с
+ овременного искусства Jeu de Paume.\nStan Douglas\nht
+ tps://jeudepaume.org/en/evenement/stan-douglas/
+URL:https://doublebasskakov.github.io/radar/#e=stan-douglas-parallax-pari
+ s
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Stan Douglas: Parallax
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:festival-automne-paris-2026@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
 SUMMARY:Последний день: Festival d'Automne à Paris 2026
@@ -447,8 +942,27 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:suspiria-stan-douglas-paris@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20270109
+DTEND;VALUE=DATE:20270110
+SUMMARY:Последний день: Suspiria (Stan Douglas)
+LOCATION:Jeu de Paume\, 1 Place de la Concorde\, 75008 Paris\, Париж
+ \, Франция
+DESCRIPTION:Кинопоказ видеоработ Стэна Дугла
+ са в рамках выставочной программы в Jeu de 
+ Paume.\nStan Douglas\nhttps://jeudepaume.org/en/evenement/suspiria/
+URL:https://doublebasskakov.github.io/radar/#e=suspiria-stan-douglas-pari
+ s
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Suspiria (Stan Douglas)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:grm-focus-2027@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20270416
 DTEND;VALUE=DATE:20270418
 SUMMARY:INA GRM: Focus
@@ -464,7 +978,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:jnme-strasbourg-2026@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261117
 SUMMARY:Résonances Électriques 2.0 / JNME

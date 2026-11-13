@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:exhibition-resort-samara@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261114T080000Z
+DTEND:20261114T100000Z
+SUMMARY:Открытие: Выставка «Курорт»
+LOCATION:Культурный центр «Бойлерная» на «С
+ танкозаводе»\, ул. Куйбышева\, 128а\, Самар
+ а
+DESCRIPTION:Выставка живописи и этюдов трёх х
+ удожников\, исследовавших прибрежную жи
+ знь в рамках пленэрного проекта «Два бе
+ рега».\nРоман Третьяков\, Евгения Тарасо
+ ва\, Елена Островская\nhttps://t.me/stzv_afisha/3867
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-resort-samara
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка «Курорт»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

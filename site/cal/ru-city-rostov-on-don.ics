@@ -7,8 +7,95 @@ X-WR-CALNAME:Радар — Россия · city-rostov-on-don
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:film-screening-of-the-plastic-play-ne-delimoe-rostov-on-do@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261114T150000Z
+DTEND:20261114T170000Z
+SUMMARY:Кинопоказ пластического спектакля 
+ «НЕ/ДЕЛИМОЕ»
+LOCATION:Дом Кино\, Пушкинская улица\, 215\, Рос
+ тов-на-Дону
+DESCRIPTION:Уникальный кинопоказ пластическ
+ ого спектакля о параллельных мирах люде
+ й и призраков\, исследующего темы времен
+ и\, памяти и вечности.\nДом Кино (Ростов-н
+ а-Дону)\nhttps://forms.yandex.ru/u/6aef91016d2d739d85e02474
+URL:https://doublebasskakov.github.io/radar/#e=film-screening-of-the-plas
+ tic-play-ne-delimoe-rostov-on-do
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Кинопоказ пластического спектак
+ ля «НЕ/ДЕЛИМОЕ»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:exhibition-pdr-shevronomics-in-rostov-on-don-rostov-on-do@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261114T150000Z
+DTEND:20261114T170000Z
+SUMMARY:Выставка «ПДР / шеврономика» в Рост
+ ове-на-Дону
+LOCATION:Независимое пространство «пробел»
+ \, Буденновский пр.\, 22\, Ростов-на-Дону
+DESCRIPTION:Открытие персональной выставки «
+ ПДР / шеврономика» в Ростове-на-Дону.\nTsveT
+  / цвет\, кураторки KRUS\nhttps://t.me/tsvetsvetsvet/233
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-pdr-shevronomic
+ s-in-rostov-on-don-rostov-on-do
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выставка «ПДР / шеврономика» в Ро
+ стове-на-Дону
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:film-analysis-dead-poets-society-rostov-on-do@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261122T140000Z
+DTEND:20261122T160000Z
+SUMMARY:Киноразбор «Общество мертвых поэто
+ в»
+LOCATION:Центр современной культуры «Степь
+ »\, Ростов-на-Дону
+DESCRIPTION:Киноразбор культовой драмы Питер
+ а Уира с обсуждением ключевых тем и конф
+ ликтов картины.\nОльга Бабаленко\nhttps://t.me
+ /pokazVGIK/696
+URL:https://doublebasskakov.github.io/radar/#e=film-analysis-dead-poets-s
+ ociety-rostov-on-do
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Киноразбор «Общество мертвых поэ
+ тов»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kim-nazaretov-jazz-orchestra-rostov-on-do@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261115T150000Z
+DTEND:20261115T170000Z
+SUMMARY:Эстрадно-джазовый оркестр им. Кима 
+ Назаретова
+LOCATION:Ростов-на-Дону
+DESCRIPTION:Концерт одного из ведущих регион
+ альных биг-бэндов России.\nЭстрадно-джаз
+ овый оркестр им. Кима Назаретова\nhttps://t.me
+ /jazz100ru/1081
+URL:https://doublebasskakov.github.io/radar/#e=kim-nazaretov-jazz-orchest
+ ra-rostov-on-do
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Эстрадно-джазовый оркестр им. Ким
+ а Назаретова
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:rnd-step-asian-vanguard@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261201
 SUMMARY:Российская международная выставка 
@@ -31,7 +118,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rnd-culture-temperatura-pamyati@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Открытие: «Температура памяти. Лето

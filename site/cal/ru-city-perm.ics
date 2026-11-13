@@ -7,8 +7,78 @@ X-WR-CALNAME:Радар — Россия · city-perm
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:concert-performance-of-the-opera-andrea-che-nier-lecture-by--perm@afi
+ sha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261122T120000Z
+DTEND:20261122T140000Z
+SUMMARY:Концертное исполнение оперы «Андре
+  Шенье»: Лекция Виктора Сонькина
+LOCATION:Пермская опера\, Пермь
+DESCRIPTION:Лекция Виктора Сонькина «Больше 
+ чем поэт» в рамках Лаборатории современ
+ ного зрителя к концертному исполнению о
+ перы «Андре Шенье».\nВиктор Сонькин\nhttps:/
+ /t.me/permopera/8951
+URL:https://doublebasskakov.github.io/radar/#e=concert-performance-of-the
+ -opera-andrea-che-nier-lecture-by--perm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концертное исполнение оперы «Анд
+ ре Шенье»: Лекция Виктора Сонькина
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:concert-performance-of-the-opera-andrea-che-nier-creative-me-perm@afi
+ sha-art
+DTSTAMP:20261113T184219Z
+DTSTART:20261121T110000Z
+DTEND:20261121T130000Z
+SUMMARY:Концертное исполнение оперы «Андре
+  Шенье»: Творческая встреча с Федором Бе
+ зносиковым
+LOCATION:Пермская опера\, Пермь
+DESCRIPTION:Творческая встреча с дирижером Ф
+ едором Безносиковым в рамках Лаборатор
+ ии современного зрителя к опере «Андре 
+ Шенье».\nФедор Безносиков\nhttps://t.me/permopera/89
+ 51
+URL:https://doublebasskakov.github.io/radar/#e=concert-performance-of-the
+ -opera-andrea-che-nier-creative-me-perm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концертное исполнение оперы «Анд
+ ре Шенье»: Творческая встреча с Федором 
+ Безносиковым
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:exhibition-in-the-forests-perm@afisha-art
+DTSTAMP:20261113T184219Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:Последний день: Выставка «В лесах»
+LOCATION:Музей современного искусства ПЕРМ
+ М\, ул. Крисанова\, 4\, Пермь
+DESCRIPTION:Итоговая выставка резидентов 12-г
+ о сезона MaxArt\, исследующая природный и э
+ кологический контекст Пермского края.\n
+ Данил Куликов\, Яна Васильева\, Сергей По
+ теряев\, Анна Кондрашова\nhttps://t.me/maxartperm/772
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-in-the-forests-
+ perm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Выставка «В лесах
+ »
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:perm-drugie-krugi-barskaya-nechernyy-kvadrat@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261113T184219Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Последний день: Анна Барская. «Нечё
