@@ -5,9 +5,9 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:art-basel-miami-beach-2026@afisha-art
-DTSTAMP:20261113T140410Z
-DTSTART;VALUE=DATE:20261204
-DTEND;VALUE=DATE:20261207
+DTSTAMP:20261113T144626Z
+DTSTART:20261204T160000Z
+DTEND:20261204T180000Z
 SUMMARY:Art Basel Miami Beach 2026
 LOCATION:Miami Beach Convention Center\, Майами-Бич\, США
 DESCRIPTION:Главная арт-ярмарка Америк\; VIP-дн
@@ -15,6 +15,44 @@ DESCRIPTION:Главная арт-ярмарка Америк\; VIP-дн
  путников и выставок.\n\nhttps://www.artbasel.com/miami-b
  each/at-the-show
 URL:https://doublebasskakov.github.io/radar/#e=art-basel-miami-beach-2026
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Art Basel Miami Beach 2026
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:art-basel-miami-beach-2026-1@afisha-art
+DTSTAMP:20261113T144626Z
+DTSTART:20261205T160000Z
+DTEND:20261205T180000Z
+SUMMARY:Art Basel Miami Beach 2026
+LOCATION:Miami Beach Convention Center\, Майами-Бич\, США
+DESCRIPTION:Главная арт-ярмарка Америк\; VIP-дн
+ и 2–3 декабря\, вокруг — неделя ярмарок-с
+ путников и выставок.\n\nhttps://www.artbasel.com/miami-b
+ each/at-the-show
+URL:https://doublebasskakov.github.io/radar/#e=art-basel-miami-beach-2026
+ -1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Art Basel Miami Beach 2026
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:art-basel-miami-beach-2026-2@afisha-art
+DTSTAMP:20261113T144626Z
+DTSTART:20261206T160000Z
+DTEND:20261206T180000Z
+SUMMARY:Art Basel Miami Beach 2026
+LOCATION:Miami Beach Convention Center\, Майами-Бич\, США
+DESCRIPTION:Главная арт-ярмарка Америк\; VIP-дн
+ и 2–3 декабря\, вокруг — неделя ярмарок-с
+ путников и выставок.\n\nhttps://www.artbasel.com/miami-b
+ each/at-the-show
+URL:https://doublebasskakov.github.io/radar/#e=art-basel-miami-beach-2026
+ -2
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Art Basel Miami Beach 2026

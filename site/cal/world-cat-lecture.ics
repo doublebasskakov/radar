@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:ircam-forum-workshops-2027@afisha-art
-DTSTAMP:20261113T140410Z
+DTSTAMP:20261113T144626Z
 DTSTART:20270324T090000Z
 DTEND:20270324T110000Z
 SUMMARY:IRCAM Forum Workshops 2027
@@ -26,7 +26,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ircam-radigue-ecoute@afisha-art
-DTSTAMP:20261113T140410Z
+DTSTAMP:20261113T144626Z
 DTSTART:20261118T180000Z
 DTEND:20261118T200000Z
 SUMMARY:Les états de l'écoute: Элиана Радиг
@@ -40,6 +40,26 @@ URL:https://doublebasskakov.github.io/radar/#e=ircam-radigue-ecoute
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Les états de l'écoute: Элиана Радиг
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:marshall-mcluhan-lecture-berlin@afisha-art
+DTSTAMP:20261113T144626Z
+DTSTART;VALUE=DATE:20270126
+DTEND;VALUE=DATE:20270127
+SUMMARY:Marshall McLuhan Lecture
+LOCATION:Embassy of Canada in Berlin\, Берлин\, Германия
+DESCRIPTION:Лекция в рамках программы transmediale\
+ , проходящая в посольстве Канады в Берли
+ не. Точное время и спикер в найденных ис
+ точниках не указаны.\n\nhttps://transmediale.de/en/festi
+ val
+URL:https://doublebasskakov.github.io/radar/#e=marshall-mcluhan-lecture-b
+ erlin
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Marshall McLuhan Lecture
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

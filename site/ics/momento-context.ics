@@ -5,9 +5,9 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:momento-context@afisha-art
-DTSTAMP:20261113T140410Z
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261115
+DTSTAMP:20261113T144626Z
+DTSTART:20261113T170000Z
+DTEND:20261113T190000Z
 SUMMARY:Momento
 LOCATION:Электротеатр Станиславский\, Тверс
  кая ул.\, 23\, Москва
@@ -18,6 +18,27 @@ DESCRIPTION:Танцевальный спектакль о напряже
  а Вишнёва\nhttps://theblueprint.ru/culture/theatre/theatre-nov202
  6
 URL:https://doublebasskakov.github.io/radar/#e=momento-context
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Momento
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:momento-context-1@afisha-art
+DTSTAMP:20261113T144626Z
+DTSTART:20261114T170000Z
+DTEND:20261114T190000Z
+SUMMARY:Momento
+LOCATION:Электротеатр Станиславский\, Тверс
+ кая ул.\, 23\, Москва
+DESCRIPTION:Танцевальный спектакль о напряже
+ нии между желанием быть частью коллекти
+ ва и необходимостью оставаться собой.\nХ
+ ореограф Чен Агрон\, фестиваль Context. Диан
+ а Вишнёва\nhttps://theblueprint.ru/culture/theatre/theatre-nov202
+ 6
+URL:https://doublebasskakov.github.io/radar/#e=momento-context-1
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Momento

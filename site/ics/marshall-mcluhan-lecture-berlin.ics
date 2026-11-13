@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:marshall-mcluhan-lecture-berlin@afisha-art
+DTSTAMP:20261113T144626Z
+DTSTART;VALUE=DATE:20270126
+DTEND;VALUE=DATE:20270127
+SUMMARY:Marshall McLuhan Lecture
+LOCATION:Embassy of Canada in Berlin\, Берлин\, Германия
+DESCRIPTION:Лекция в рамках программы transmediale\
+ , проходящая в посольстве Канады в Берли
+ не. Точное время и спикер в найденных ис
+ точниках не указаны.\n\nhttps://transmediale.de/en/festi
+ val
+URL:https://doublebasskakov.github.io/radar/#e=marshall-mcluhan-lecture-b
+ erlin
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Marshall McLuhan Lecture
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

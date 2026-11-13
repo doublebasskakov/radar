@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:the-time-between-us-berlin@afisha-art
+DTSTAMP:20261113T144626Z
+DTSTART:20270127T180000Z
+DTEND:20270127T200000Z
+SUMMARY:The Time Between Us
+LOCATION:Radialsystem\, Holzmarktstraße 33\, 10243 Berlin\, Берлин
+ \, Германия
+DESCRIPTION:Импровизационный концерт ансамб
+ ля с машинным обучением и сетевой средо
+ й.\nStefan Schultze & Distributed Ensemble\nhttps://www.ctm-festival.de/
+ news/ctm-2027-festival-save-the-date
+URL:https://doublebasskakov.github.io/radar/#e=the-time-between-us-berlin
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Time Between Us
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

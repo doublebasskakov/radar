@@ -5,9 +5,9 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:art-basel-qatar-2027@afisha-art
-DTSTAMP:20261113T140410Z
-DTSTART;VALUE=DATE:20270128
-DTEND;VALUE=DATE:20270131
+DTSTAMP:20261113T144626Z
+DTSTART:20270128T100000Z
+DTEND:20270128T120000Z
 SUMMARY:Art Basel Qatar 2027: Between
 LOCATION:Doha Design District\, Msheireb Downtown\, Доха\, Катар
 DESCRIPTION:Второй выпуск Art Basel в Дохе на тему
@@ -17,6 +17,46 @@ DESCRIPTION:Второй выпуск Art Basel в Дохе на тему
  s://qna.org.qa/en/News-Area/News/2026-10/27/chairperson-of-qatar-museums-
  announces-details-of-art-basel-qatar-2027
 URL:https://doublebasskakov.github.io/radar/#e=art-basel-qatar-2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Art Basel Qatar 2027: Between
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:art-basel-qatar-2027-1@afisha-art
+DTSTAMP:20261113T144626Z
+DTSTART:20270129T100000Z
+DTEND:20270129T120000Z
+SUMMARY:Art Basel Qatar 2027: Between
+LOCATION:Doha Design District\, Msheireb Downtown\, Доха\, Катар
+DESCRIPTION:Второй выпуск Art Basel в Дохе на тему
+  «Между»\; программа охватывает музеи\, г
+ алереи и общественные пространства Кат
+ ара.\nАрт-директор Вассан аль-Худаири\nhttp
+ s://qna.org.qa/en/News-Area/News/2026-10/27/chairperson-of-qatar-museums-
+ announces-details-of-art-basel-qatar-2027
+URL:https://doublebasskakov.github.io/radar/#e=art-basel-qatar-2027-1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Art Basel Qatar 2027: Between
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:art-basel-qatar-2027-2@afisha-art
+DTSTAMP:20261113T144626Z
+DTSTART:20270130T100000Z
+DTEND:20270130T120000Z
+SUMMARY:Art Basel Qatar 2027: Between
+LOCATION:Doha Design District\, Msheireb Downtown\, Доха\, Катар
+DESCRIPTION:Второй выпуск Art Basel в Дохе на тему
+  «Между»\; программа охватывает музеи\, г
+ алереи и общественные пространства Кат
+ ара.\nАрт-директор Вассан аль-Худаири\nhttp
+ s://qna.org.qa/en/News-Area/News/2026-10/27/chairperson-of-qatar-museums-
+ announces-details-of-art-basel-qatar-2027
+URL:https://doublebasskakov.github.io/radar/#e=art-basel-qatar-2027-2
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Art Basel Qatar 2027: Between

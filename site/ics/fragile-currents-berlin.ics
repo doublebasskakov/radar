@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:fragile-currents-berlin@afisha-art
+DTSTAMP:20261113T144626Z
+DTSTART;VALUE=DATE:20270127
+DTEND;VALUE=DATE:20270128
+SUMMARY:fragile currents
+LOCATION:Akademie der Künste (Hanseatenweg)\, Берлин\, Герма
+ ния
+DESCRIPTION:Выставка в рамках юбилейного 40-го
+  выпуска transmediale. Открытие 27 января\, эксп
+ озиция работает до 7 марта 2027 года\; тема 
+ — инфраструктурный распад как условие 
+ для новых форм организации.\nАнтонина Ст
+ ебур\nhttps://transmediale.de/en/2027/exhibition-2027
+URL:https://doublebasskakov.github.io/radar/#e=fragile-currents-berlin
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:fragile currents
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

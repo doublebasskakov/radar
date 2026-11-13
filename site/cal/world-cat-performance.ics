@@ -7,8 +7,28 @@ X-WR-CALNAME:Радар — Мир / World · cat-performance
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:death-by-sun-berlin@afisha-art
+DTSTAMP:20261113T144626Z
+DTSTART:20270128T180000Z
+DTEND:20270128T200000Z
+SUMMARY:Death by Sun
+LOCATION:HAU\, Берлин\, Германия
+DESCRIPTION:Перформанс мультидисциплинарног
+ о художника Тяньчжо Чэня о солнце как це
+ нтре путешествия через мифологию\, техн
+ ологии и спорные перспективы солнечной 
+ энергетики. Партнёрская программа transmedi
+ ale.\nTianzhuo Chen\nhttps://transmediale.de/en/festival
+URL:https://doublebasskakov.github.io/radar/#e=death-by-sun-berlin
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Death by Sun
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:holland-festival-2027@afisha-art
-DTSTAMP:20261113T140410Z
+DTSTAMP:20261113T144626Z
 DTSTART;VALUE=DATE:20270603
 DTEND;VALUE=DATE:20270604
 SUMMARY:Открытие: Holland Festival 2027
@@ -29,7 +49,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:festival-automne-paris-2026@afisha-art
-DTSTAMP:20261113T140410Z
+DTSTAMP:20261113T144626Z
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
 SUMMARY:Последний день: Festival d'Automne à Paris 2026
