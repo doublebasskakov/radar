@@ -602,6 +602,78 @@ def translate_missing(master, limit=120):
             log("  ! перевод:", ex)
 
 
+TIME_CATS = ("music", "theatre", "performance", "lecture", "cinema", "media")
+TIMES_PROMPT = """Сегодня {today}. Для каждого события ниже найди в интернете (сайт площадки, билетные сервисы, Telegram)
+ТОЧНОЕ время начала по местному времени. Если показов несколько в разные дни — время первого показа и, если у
+других дней время другое, перечисли их в "times" как {{"YYYY-MM-DD":"HH:MM"}}. Для выставок — время открытия
+вернисажа в день открытия, если оно есть, иначе null. Не выдумывай: если не нашёл точно — "time": null.
+Верни ТОЛЬКО JSON-объект вида {{"<id>": {{"time": "HH:MM"|null, "times": {{}}, "source": "url"}}}}.
+События:
+{items}"""
+
+
+def gemini_search(prompt):
+    """Gemini с поиском Google — для уточнения времени."""
+    key = os.environ.get("GEMINI_API_KEY")
+    if not key or _gemini_dead:
+        raise RuntimeError("gemini off")
+    for _ in range(6):
+        r = requests.post(f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent",
+                          params={"key": key}, timeout=240,
+                          json={"contents": [{"role": "user", "parts": [{"text": prompt}]}], "tools": [{"google_search": {}}]})
+        if r.status_code in (400, 403, 404, 429):
+            if _gemini_next(key, f"{GEMINI_MODEL} → {r.status_code} (поиск)"):
+                continue
+            raise RuntimeError(f"gemini search {r.status_code}")
+        if r.status_code >= 500:
+            time.sleep(10); continue
+        r.raise_for_status()
+        cand = (r.json().get("candidates") or [{}])[0]
+        time.sleep(4)
+        return "".join(p.get("text", "") for p in (cand.get("content") or {}).get("parts") or [])
+    raise RuntimeError("gemini search failed")
+
+
+def fill_times(master, limit=48):
+    """Концертам, спектаклям, лекциям без времени ищем точное время начала (раз на событие)."""
+    st = load_json(STATE_FILE, {"seen": [], "pages": {}})
+    tried = set(st.get("time_tried", []))
+    horizon = TODAY + dt.timedelta(days=90)
+    todo = [e for e in master if not e.get("time") and e["id"] not in tried and not e.get("tba")
+            and (e.get("cat") in TIME_CATS or (pdate(e.get("start")) or TODAY) >= TODAY)
+            and TODAY <= (pdate(e.get("start")) or TODAY) <= horizon
+            and not (e.get("cat") == "gallery" and (pdate(e.get("start")) or TODAY) < TODAY)]
+    todo.sort(key=lambda e: (e.get("cat") not in TIME_CATS, e.get("start") or ""))
+    todo = todo[:limit]
+    n = 0
+    for i in range(0, len(todo), 6):
+        chunk = todo[i:i + 6]
+        items = "\n".join(json.dumps({"id": e["id"], "title": e["title"], "who": e.get("who"), "venue": e.get("venue"),
+                                      "city": e.get("city"), "start": e.get("start"), "end": e.get("end"),
+                                      "src": e.get("src")}, ensure_ascii=False) for e in chunk)
+        try:
+            text = gemini_search(TIMES_PROMPT.format(today=TODAY.isoformat(), items=items))
+            res = json.loads(re.search(r"\{.*\}", text, re.S).group(0))
+        except Exception as ex:
+            log("  ! время:", ex)
+            break
+        for e in chunk:
+            tried.add(e["id"])
+            r = res.get(e["id"]) or {}
+            tm = r.get("time")
+            if isinstance(tm, str) and re.fullmatch(r"\d{1,2}:\d{2}", tm.strip()):
+                e["time"] = tm.strip().zfill(5); n += 1
+                tms = {d: t for d, t in (r.get("times") or {}).items()
+                       if re.fullmatch(r"\d{4}-\d{2}-\d{2}", str(d)) and re.fullmatch(r"\d{1,2}:\d{2}", str(t))}
+                if tms:
+                    e["times"] = {d: t.zfill(5) for d, t in tms.items()}
+    st = load_json(STATE_FILE, st)
+    st["time_tried"] = sorted(tried)[-5000:]
+    save_json(STATE_FILE, st)
+    log(f"время: уточнено {n} из {len(todo)}")
+    return n
+
+
 def build():
     master = load_json(EVENTS_FILE, [])
     rules = editor_rules()
@@ -636,7 +708,20 @@ def build():
         p = cal_plan(ev)
         if p:
             ve = vevent(ev, p, stamp, base_url)
-            (SITE / "ics" / f"{ev['id']}.ics").write_text(calendar(ev["title"], [ve], feed=False), encoding="utf-8", newline="")
+            ves_one = [ve]
+            s0, e0 = pdate(ev.get("start")), pdate(ev.get("end"))
+            if p[3] and s0 and e0 and 0 < (e0 - s0).days <= 7:    # несколько показов — событие на каждый день
+                tz = ZoneInfo(ev.get("tz") or "Europe/Moscow")
+                for k in range(1, (e0 - s0).days + 1):
+                    d = s0 + dt.timedelta(days=k)
+                    tm = (ev.get("times") or {}).get(d.isoformat(), ev["time"])
+                    try:
+                        h, m = map(int, tm.split(":"))
+                        t0 = dt.datetime(d.year, d.month, d.day, h, m, tzinfo=tz).astimezone(dt.timezone.utc)
+                        ves_one.append(vevent({**ev, "id": f"{ev['id']}-{k}"}, (p[0], t0, t0 + dt.timedelta(hours=2), True), stamp, base_url))
+                    except Exception:
+                        pass
+            (SITE / "ics" / f"{ev['id']}.ics").write_text(calendar(ev["title"], ves_one, feed=False), encoding="utf-8", newline="")
             pub["ics"] = f"ics/{ev['id']}.ics"
             pub["calSummary"] = p[0]
             summary, st, en, timed = p
@@ -671,5 +756,9 @@ if __name__ == "__main__":
     cmd = sys.argv[1] if len(sys.argv) > 1 else "all"
     if cmd in ("collect", "all"):
         collect()
+    if cmd in ("times", "collect", "all"):
+        m = load_json(EVENTS_FILE, [])
+        if fill_times(m):
+            save_json(EVENTS_FILE, m)
     if cmd in ("build", "all"):
         build()

@@ -3,7 +3,11 @@ name: Обновить афишу
 on:
   schedule:
     - cron: "17 3 * * *"     # каждый день в 06:17 по Москве
-  workflow_dispatch: {}       # кнопка «Run workflow» для ручного запуска
+  workflow_dispatch:          # кнопка «Run workflow» для ручного запуска
+    inputs:
+      mode:
+        description: "all — полный сбор, times — только уточнить время событий"
+        default: all
   push:
     branches: [main]
     paths: ["site/**", "data/events.json", "scraper/**"]
@@ -35,7 +39,7 @@ jobs:
           AFISHA_MODEL: ${{ vars.AFISHA_MODEL }}
         run: |
           if [ -z "$GEMINI_API_KEY$ANTHROPIC_API_KEY" ]; then echo "Нет ключа модели (GEMINI_API_KEY) — пропускаю сбор"; exit 0; fi
-          python scraper/robot.py collect
+          if [ "${{ inputs.mode }}" = "times" ]; then python scraper/robot.py times; else python scraper/robot.py collect; fi
 
       - name: Собрать сайт и календари
         env:

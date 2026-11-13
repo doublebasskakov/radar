@@ -192,9 +192,19 @@
       // Из Telegram ссылка на .ics уходит прямо в Календарь как «подписка». Поэтому открываем
       // в Safari промежуточную страницу — там файл открывается как одно событие «Добавить в Календарь».
       const TGW = window.Telegram && window.Telegram.WebApp;
-      const page = new URL("add.html?k=apple&id=" + encodeURIComponent(e.id), location.href).href;
-      if (TGW && TGW.openLink) return TGW.openLink(page, { try_instant_view: false });
-      return openExternal(page);
+      const page = new URL("add.html?k=apple&s=1&id=" + encodeURIComponent(e.id), location.href).href;
+      // Встроенный браузер Telegram отдаёт .ics Календарю как «подписку». Схема x-safari-https://
+      // открывает страницу сразу в настоящем Safari (iOS 17+), а Safari добавляет одно событие.
+      let left = false;
+      const onHide = () => { left = true; };
+      document.addEventListener("visibilitychange", onHide, { once: true });
+      try { location.href = "x-safari-" + page; } catch (_) {}
+      setTimeout(() => {
+        if (left || document.hidden) return;
+        const p2 = page.replace("&s=1", "");          // запасной путь: страница с кнопкой «Открыть в Safari»
+        if (TGW && TGW.openLink) TGW.openLink(p2, { try_instant_view: false }); else openExternal(p2);
+      }, 1200);
+      return;
     }
     location.href = new URL(e.ics, location.href).href;
   }

@@ -11,25 +11,33 @@ small{color:#8f8e9b;display:block;margin-top:16px}
 </style></head><body><main>
 <h1 id="t">Добавить в календарь</h1>
 <p id="w"></p>
+<a class="b" id="safari" href="#" hidden>Открыть в Safari и добавить</a>
 <a class="b" id="apple" href="#">Добавить в Apple Календарь</a>
 <a class="b g" id="google" href="#">Добавить в Google Календарь</a>
-<small>Если вместо события открылась «подписка» — закройте её и откройте эту страницу в Safari (⋯ → «Открыть в Safari»).</small>
+<small id="hint">Если iPhone предлагает «подписку» — закройте её и нажмите «Открыть в Safari»: в Safari событие добавится одним касанием.</small>
 </main>
 <script>
 (async () => {
   const q = new URLSearchParams(location.search), id = q.get("id") || "";
-  const ics = "ics/" + encodeURIComponent(id) + ".ics";
+  const ics = new URL("ics/" + encodeURIComponent(id) + ".ics", location.href).href;
+  const IOS = /iPhone|iPad|iPod/.test(navigator.userAgent) || (/Macintosh/.test(navigator.userAgent) && navigator.maxTouchPoints > 1);
   document.getElementById("apple").href = ics;
+  if (IOS) { const sf = document.getElementById("safari"); sf.hidden = false;
+    const u = new URL(location.href); u.searchParams.set("s", "1"); sf.href = "x-safari-" + u.href; }
+  const mon = ["янв","фев","мар","апр","мая","июн","июл","авг","сен","окт","ноя","дек"];
   try {
     const d = await (await fetch("data/events.json", { cache: "no-cache" })).json();
     const e = d.events.find((x) => x.id === id);
     if (e) {
-      document.getElementById("t").textContent = e.title;
-      document.getElementById("w").textContent = [e.calSummary || "", e.venue, e.city].filter(Boolean).join(" · ");
+      document.getElementById("t").textContent = e.calSummary || e.title;
+      const [y, m, dd] = (e.start || "").split("-").map(Number);
+      const when = e.start ? `${dd} ${mon[m - 1]}${e.time ? ", " + e.time : ""}` : "";
+      document.getElementById("w").textContent = [when, e.venue, e.city].filter(Boolean).join(" · ");
       if (e.gcal) document.getElementById("google").href = e.gcal;
     }
   } catch (_) {}
-  if (q.get("k") === "apple" && /iPhone|iPad|iPod|Macintosh/.test(navigator.userAgent)) location.href = ics;
-  if (q.get("k") === "google") { const g = document.getElementById("google").href; if (!g.endsWith("#")) location.href = g; }
+  // s=1 — страница уже открыта в Safari: сразу открываем событие (iPhone покажет «Добавить в Календарь»)
+  if (q.get("s") === "1" && q.get("k") === "apple") location.href = ics;
+  if (q.get("k") === "google") { const g = document.getElementById("google").getAttribute("href"); if (g && g !== "#") location.href = g; }
 })();
 </script></body></html>
