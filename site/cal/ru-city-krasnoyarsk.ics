@@ -7,30 +7,8 @@ X-WR-CALNAME:Радар — Россия · city-krasnoyarsk
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:krasnoyarsk-schnittke-choir@afisha-art
-DTSTAMP:20261113T085528Z
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261120
-SUMMARY:Шнитке. Концерт для хора на стихи На
- рекаци — премьера в Красноярске
-LOCATION:Красноярская филармония\, Краснояр
- ск
-DESCRIPTION:Первое исполнение в городе одног
- о из главных хоровых сочинений Альфреда
-  Шнитке.\nКрасноярский камерный хор\, Ека
- терина Баулина\nhttps://t.me/orpheusradio
-URL:https://doublebasskakov.github.io/radar/#e=krasnoyarsk-schnittke-choi
- r
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Шнитке. Концерт для хора на стихи 
- Нарекаци — премьера в Красноярске
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:krsk-ploshchad-mira-pozdeev-antologiya@afisha-art
-DTSTAMP:20261113T085528Z
+DTSTAMP:20261113T091905Z
 DTSTART;VALUE=DATE:20270216
 DTEND;VALUE=DATE:20270217
 SUMMARY:Последний день: «Антология». Андрей
@@ -42,12 +20,32 @@ DESCRIPTION:Большой обзор творчества красноя
  о из главных художников Сибири второй п
  оловины XX века.\nАндрей Поздеев\nhttps://theblue
  print.ru/culture/art/october-2026-exhibitions
-URL:https://doublebasskakov.github.io/radar/#e=krsk-ploshchad-mira-pozdee
- v-antologiya
+URL:https://theblueprint.ru/culture/art/october-2026-exhibitions
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Последний день: «Антология». Андр
  ей Поздеев
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:krasnoyarsk-schnittke-choir@afisha-art
+DTSTAMP:20261113T091905Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Шнитке. Концерт для хора на стихи На
+ рекаци — премьера в Красноярске
+LOCATION:Красноярская филармония\, Краснояр
+ ск
+DESCRIPTION:Первое исполнение в городе одног
+ о из главных хоровых сочинений Альфреда
+  Шнитке.\nКрасноярский камерный хор\, Ека
+ терина Баулина\nhttps://t.me/orpheusradio
+URL:https://t.me/orpheusradio
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Шнитке. Концерт для хора на стихи 
+ Нарекаци — премьера в Красноярске
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

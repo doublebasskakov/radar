@@ -1,5 +1,5 @@
 // Офлайн-режим: оболочка приложения из кэша, данные — сначала из сети.
-const VERSION = "afisha-v5";
+const VERSION = "afisha-v6";
 const SHELL = ["./", "index.html", "app.css", "app.js", "config.js", "manifest.webmanifest", "icons/icon-192.png", "icons/icon-512.png"];
 
 self.addEventListener("install", (e) => {

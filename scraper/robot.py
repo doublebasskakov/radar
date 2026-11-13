@@ -65,6 +65,94 @@ def norm_title(t):
     return re.sub(r"[^a-zа-я0-9]+", "", (t or "").lower().replace("ё", "е"))[:40]
 
 
+_STOP = {"концерт", "концерта", "выставка", "выставки", "спектакль", "лекция", "фестиваль", "премьера", "встреча",
+         "concert", "exhibition", "festival", "lecture", "performance", "премьеры", "программа", "вечер", "show"}
+
+
+def _tokens(e):
+    txt = " ".join(str(e.get(k) or "") for k in ("title", "title_en")).lower().replace("ё", "е")
+    return {w[:7] for w in re.findall(r"[a-zа-я0-9]{4,}", txt) if w not in _STOP}
+
+
+def _quoted(e):
+    return {norm_title(q) for q in re.findall(r"[«\"“]([^»\"”]{4,})[»\"”]", e.get("title") or "") if len(norm_title(q)) >= 4}
+
+
+def _names(e):
+    txt = " ".join(str(e.get(k) or "") for k in ("title", "who"))
+    return {w.lower()[:7] for w in re.findall(r"\b[А-ЯЁA-Z][а-яёa-z]{4,}", txt)} - {w[:7] for w in _STOP}
+
+
+_CHILD = re.compile(r"стенд|на ярмарке|на стенде|\bна\s+[A-ZА-ЯЁ|«]|в рамках|\bat\s+[A-Z]", re.I)
+_SERIES = re.compile(r"цикл|серия|паблик-токи|программа|фестивал|конференц|festival|series", re.I)
+
+
+def _multi(e):
+    s0, e0 = pdate(e.get("start")), pdate(e.get("end"))
+    return bool(s0 and e0 and e0 > s0)
+
+
+def part_of(child, parent):
+    """child — отдельное событие внутри parent (стенд на ярмарке, концерт фестиваля, встреча цикла)."""
+    if child.get("festival") and norm_title(child["festival"])[:12] in norm_title(parent.get("title")):
+        return True
+    if _CHILD.search(child.get("title") or "") and not _CHILD.search(parent.get("title") or ""):
+        return True
+    return bool(_SERIES.search(parent.get("title") or "") and not _SERIES.search(child.get("title") or "")
+                and not _multi(child))
+
+
+def same_event(a, b):
+    """Одно ли это событие: тот же город и день, похожие названия или те же участники."""
+    if (a.get("city") or "") != (b.get("city") or ""):
+        return False
+    sa, sb = a.get("start") or "", b.get("start") or ""
+    if sa != sb and not ((a.get("tba") or b.get("tba")) and sa[:7] == sb[:7]):
+        return False
+    ta, tb = a.get("time"), b.get("time")
+    if ta and tb and ta != tb:
+        return False
+    if a.get("festival") and b.get("festival") and a.get("venue") and b.get("venue") and a["venue"] != b["venue"]:
+        return False
+    if _quoted(a) & _quoted(b) and not (_CHILD.search(a.get("title") or "") or _CHILD.search(b.get("title") or "")):
+        return True
+    if part_of(a, b) or part_of(b, a):
+        return False
+    na, nb = norm_title(a.get("title")), norm_title(b.get("title"))
+    if na == nb or (min(len(na), len(nb)) >= 8 and (na in nb or nb in na)):
+        return True
+    if _quoted(a) & _quoted(b):
+        return True
+    A, B = _tokens(a), _tokens(b)
+    if A and B and len(A & B) / len(A | B) >= 0.5:
+        return True
+    return len(_names(a) & _names(b)) >= 2 and len(A & B) >= 1
+
+
+def _quality(e):
+    return (bool(e.get("time")), not e.get("tba"), bool(e.get("img") or e.get("_img")),
+            e.get("importance", 3), len(e.get("desc") or ""))
+
+
+def dedupe(master):
+    """Сливает дубликаты: оставляет лучшую карточку, дописывает в неё недостающие поля."""
+    out, removed = [], 0
+    for e in sorted(master, key=_quality, reverse=True):
+        twin = next((k for k in out if same_event(k, e)), None)
+        if twin is None:
+            out.append(e)
+            continue
+        for f in ("end", "time", "address", "venue", "desc_en", "title_en", "who", "festival", "img", "imgCredit", "_img"):
+            if not twin.get(f) and e.get(f):
+                twin[f] = e[f]
+        twin["importance"] = max(twin.get("importance", 3), e.get("importance", 3))
+        twin.setdefault("aliases", [])
+        twin["aliases"] = sorted(set(twin["aliases"]) | {e["id"]} | set(e.get("aliases", [])))
+        removed += 1
+    master[:] = out
+    return removed
+
+
 def pdate(s):
     try:
         return dt.date.fromisoformat(s) if s and len(s) == 10 else None
@@ -199,12 +287,17 @@ PROMPT = """Ты — редактор афиши современного иск
 - press: true, если это пресс-показ / показ для аккредитованных.
 - src_index — номер фрагмента, откуда событие. url — прямая ссылка на событие, если есть в тексте, иначе null.
 - Для событий за рубежом country — страна по-русски, city — город по-русски.
+- ФЕСТИВАЛИ, циклы, конференции, программы с несколькими днями или площадками: если в тексте есть программа —
+  сделай ОТДЕЛЬНОЕ событие на каждый концерт / спектакль / показ / лекцию / выставку программы, со своей датой,
+  временем и площадкой, и укажи в поле "festival" название фестиваля. Общую карточку фестиваля в этом случае НЕ делай.
+  Только если программы в тексте нет — одна карточка фестиваля с датами начала и конца.
+- Одно и то же событие из разных фрагментов верни ОДИН раз.
 
 Верни ТОЛЬКО JSON-массив (может быть пустым []), элементы:
 {{"title":"","title_en":"","who":"","cat":"music|media|gallery|performance|fair|theatre|biennial|cinema|lecture","press":false,
 "country":"Россия","country_en":"Russia","city":"","city_en":"","venue":"","address":"",
 "start":"YYYY-MM-DD","end":"YYYY-MM-DD|null","time":"HH:MM|null","tz":"IANA, напр. Europe/Moscow",
-"tba":false,"desc":"","desc_en":"","importance":3,"src_index":0,"url":null}}
+"tba":false,"festival":null,"desc":"","desc_en":"","importance":3,"src_index":0,"url":null}}
 
 Фрагменты:
 {chunks}
@@ -371,8 +464,8 @@ def merge(master, new):
         if not valid(ev):
             continue
         k = (norm_title(ev["title"]), ev.get("city"))
-        if k in index:
-            old = index[k]
+        old = index.get(k) or next((x for x in master if same_event(x, ev)), None)
+        if old is not None:
             for f in ("end", "time", "address", "venue", "desc_en", "title_en", "who"):
                 if not old.get(f) and ev.get(f):
                     old[f] = ev[f]
@@ -674,6 +767,59 @@ def fill_times(master, limit=72):
     return n
 
 
+FEST_PROMPT = """Сегодня {today}. Найди в интернете (официальный сайт, билетные сервисы, Telegram) ПРОГРАММУ события:
+{item}
+Верни ОТДЕЛЬНОЕ событие на каждый концерт / спектакль / показ / лекцию / выставку программы, которые проходят
+не раньше {today}: свои дата, время начала, площадка. Не выдумывай: включай только то, что нашёл.
+Если программы нет — верни []. Верни ТОЛЬКО JSON-массив:
+[{{"title":"","title_en":"","who":"","cat":"music|media|gallery|performance|fair|theatre|biennial|cinema|lecture",
+"venue":"","address":"","start":"YYYY-MM-DD","time":"HH:MM|null","desc":"","desc_en":"","url":null}}]"""
+
+
+def expand_festivals(master, limit=8):
+    """Фестивали и многодневные программы (кроме выставок) — раскладываем на отдельные события."""
+    st = load_json(STATE_FILE, {"seen": [], "pages": {}})
+    tried = set(st.get("fest_tried", []))
+    todo = [e for e in master if e["id"] not in tried and _multi(e) and e.get("cat") != "gallery"
+            and not e.get("festival") and (pdate(e.get("end")) or TODAY) >= TODAY
+            and ((pdate(e.get("end")) - pdate(e.get("start"))).days <= 45)]
+    todo.sort(key=lambda e: (-e.get("importance", 3), e.get("start") or ""))
+    added = 0
+    for parent in todo[:limit]:
+        item = json.dumps({k: parent.get(k) for k in ("title", "who", "city", "venue", "start", "end", "src")}, ensure_ascii=False)
+        try:
+            text = gemini_search(FEST_PROMPT.format(today=TODAY.isoformat(), item=item))
+            subs = json.loads(re.search(r"\[.*\]", text, re.S).group(0))
+        except Exception as ex:
+            log("  ! программа:", ex)
+            break
+        tried.add(parent["id"])
+        kids = []
+        for k in subs if isinstance(subs, list) else []:
+            if not isinstance(k, dict) or not k.get("title") or not pdate(k.get("start")):
+                continue
+            ev = {"title": k["title"], "title_en": k.get("title_en") or "", "who": k.get("who") or "",
+                  "cat": k.get("cat") if k.get("cat") in CATS else parent.get("cat"),
+                  "venue": k.get("venue") or parent.get("venue"), "address": k.get("address") or "",
+                  "start": k["start"], "end": None,
+                  "time": k["time"] if isinstance(k.get("time"), str) and re.fullmatch(r"\d{1,2}:\d{2}", k["time"]) else None,
+                  "desc": k.get("desc") or "", "desc_en": k.get("desc_en") or "", "festival": parent["title"],
+                  "src": k.get("url") or parent.get("src"), "srcName": parent.get("srcName"),
+                  "importance": parent.get("importance", 3)}
+            for f in ("region", "country", "country_en", "city", "city_en", "tz"):
+                ev[f] = parent.get(f)
+            if ev["time"]:
+                ev["time"] = ev["time"].zfill(5)
+            kids.append(ev)
+        n = merge(master, kids)
+        added += n
+        log(f"  программа «{parent['title'][:40]}»: {n} событий")
+    st = load_json(STATE_FILE, st)
+    st["fest_tried"] = sorted(tried)[-3000:]
+    save_json(STATE_FILE, st)
+    return added
+
+
 def build():
     master = load_json(EVENTS_FILE, [])
     rules = editor_rules()
@@ -681,9 +827,12 @@ def build():
         if ev.get("id") and not any(x["id"] == ev["id"] for x in master):
             ev.setdefault("region", "ru"); ev.setdefault("importance", 4)
             master.append(ev)
+    gone = dedupe(master)
+    if gone:
+        log(f"build: убрано дубликатов {gone}")
     hidden = set(rules["hide"])
     for ev in master:
-        if ev["id"] in rules["pin"]:
+        if ev["id"] in rules["pin"] or set(ev.get("aliases", [])) & set(rules["pin"]):
             ev["importance"] = 5
     base_url = os.environ.get("SITE_URL", "")
     live = []
@@ -758,7 +907,9 @@ if __name__ == "__main__":
         collect()
     if cmd in ("times", "collect", "all"):
         m = load_json(EVENTS_FILE, [])
-        if fill_times(m):
+        changed = expand_festivals(m)
+        changed += fill_times(m)
+        if changed:
             save_json(EVENTS_FILE, m)
     if cmd in ("build", "all"):
         build()
