@@ -36,7 +36,7 @@ TODAY = dt.date.fromisoformat(os.environ["AFISHA_TODAY"]) if os.environ.get("AFI
     dt.datetime.now(ZoneInfo("Europe/Moscow")).date()
 CATS = ["music", "club", "media", "gallery", "performance", "fair", "theatre", "biennial", "cinema", "lecture"]
 LOOKBACK_DAYS = 21          # насколько старые посты ещё разбирать
-MAX_POSTS_PER_RUN = 400     # предохранитель расходов на модель
+MAX_POSTS_PER_RUN = 1500    # предохранитель расходов на модель
 
 
 # ---------------------------------------------------------------- utils
@@ -429,7 +429,7 @@ def call_llm(prompt):
     return json.loads(m.group(0)) if m else []
 
 
-LLM_DEADLINE = time.time() + int(os.environ.get("AFISHA_LLM_MINUTES", "30")) * 60
+LLM_DEADLINE = time.time() + int(os.environ.get("AFISHA_LLM_MINUTES", "70")) * 60
 
 
 def extract(items, region, done=None):
@@ -519,6 +519,26 @@ def merge(master, new):
     return added
 
 
+_DATE_HINT = re.compile(
+    r"\b\d{1,2}\s*(?:[-–—]\s*\d{1,2}\s*)?(?:янв|фев|мар|апр|мая|май|июн|июл|авг|сен|окт|ноя|дек|jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)"
+    r"|\b\d{1,2}[./]\d{1,2}(?:[./]\d{2,4})?\b|\b\d{1,2}:\d{2}\b|сегодня|завтра|today|tonight|tomorrow"
+    r"|понедельник|вторник|сред[ау]|четверг|пятниц|суббот|воскресень|monday|tuesday|wednesday|thursday|friday|saturday|sunday",
+    re.I)
+
+
+def fair_queue(groups):
+    """Посты по очереди из каждого источника (а не первые N из первых каналов списка).
+    Сначала — посты, где есть дата или время: в них почти всегда анонсы."""
+    dated = [[p for p in g if p.get("long") or _DATE_HINT.search(p.get("text", ""))] for g in groups]
+    out, i = [], 0
+    while any(i < len(g) for g in dated):
+        for g in dated:
+            if i < len(g):
+                out.append(g[i])
+        i += 1
+    return out
+
+
 def collect():
     cfg = yaml.safe_load((ROOT / "scraper" / "sources.yaml").read_text(encoding="utf-8"))
     state = load_json(STATE_FILE, {"seen": [], "pages": {}})
@@ -533,7 +553,7 @@ def collect():
             if ch.get("city"):
                 for p in posts:
                     p["text"] = f"(Площадка из города {ch['city']})\n" + p["text"]
-            pool[ch.get("region", "ru")] += posts
+            pool[ch.get("region", "ru")].append(posts)
             log(f"tg @{ch['u']}: {len(posts)}")
         except Exception as e:
             log(f"tg @{ch['u']}: ошибка {e}")
@@ -544,18 +564,18 @@ def collect():
             if src.get("city"):
                 for p in items:
                     p["text"] = f"(Город площадки: {src['city']})\n" + p["text"]
-            pool[src.get("region", "ru")] += items
+            pool[src.get("region", "ru")].append(items)
             log(f"page {src['url']}: {'изменилась' if items else 'без изменений'}")
         except Exception as e:
             log(f"page {src['url']}: ошибка {e}")
     for src in cfg.get("rss", []):
         try:
-            pool[src.get("region", "world")] += fetch_rss(src, seen)
+            pool[src.get("region", "world")].append(fetch_rss(src, seen))
         except Exception as e:
             log(f"rss {src['url']}: ошибка {e}")
     total = 0
-    for region, items in pool.items():
-        items = items[:MAX_POSTS_PER_RUN]
+    for region, groups in pool.items():
+        items = fair_queue(groups)[:MAX_POSTS_PER_RUN]
         log(f"→ {region}: {len(items)} фрагментов на разбор")
         done = set()
         found = extract(items, region, done)
