@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:semyon-kotko-opera-moscow@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:Опера «Семён Котко»
+LOCATION:Большой театр (Историческая сцена)\
+ , Театральная площадь\, 1\, Москва
+DESCRIPTION:Масштабная постановка оперы Прок
+ офьева\, исследующая столкновение челов
+ еческих чувств и трагических событий эп
+ охи Гражданской войны.\nСергей Прокофье
+ в\nhttps://bolshoi.ru
+URL:https://doublebasskakov.github.io/radar/#e=semyon-kotko-opera-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Опера «Семён Котко»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

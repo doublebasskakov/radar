@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:planet-tchaikovsky-exhibition-chengdu@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Выставка «Планета Чайковский»
+LOCATION:Музей музыки и интеллектуальных те
+ хнологий\, Чэнду
+DESCRIPTION:Выставочный проект Российского н
+ ационального музея музыки\, посвященный
+  жизни и творчеству великого композитор
+ а.\n\nhttps://t.me/orpheusradio/51523
+URL:https://doublebasskakov.github.io/radar/#e=planet-tchaikovsky-exhibit
+ ion-chengdu
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выставка «Планета Чайковский»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

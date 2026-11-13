@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:blink-182-lecture-moscow@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:Лекция о группе Blink-182
+LOCATION:Центр «Зотов»\, Ходынская ул.\, 2\, ст
+ р. 1\, Москва
+DESCRIPTION:История становления калифорнийс
+ кого панк-трио: от юношеского конспирол
+ огического панка до стадионных шоу и ли
+ чных трансформаций.\n\nhttps://t.me/dancingalone/36984
+URL:https://doublebasskakov.github.io/radar/#e=blink-182-lecture-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекция о группе Blink-182
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

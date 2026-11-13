@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:exhibition-and-competition-ostozhenka-yesterday-today-tomorr-moscow@a
+ fisha-art
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261221
+SUMMARY:Выставка-конкурс «Остоженка: вчера\
+ , сегодня\, завтра»
+LOCATION:Инфопространство\, 1-й Зачатьевский
+  пер.\, 4\, Москва
+DESCRIPTION:Экспозиция в рамках городского п
+ роекта\, объединяющая реалистические\, и
+ сторические и футуристические художест
+ венные интерпретации улицы Остоженка и 
+ ее знаковых архитектурных объектов.\nПр
+ оект «АРТ-ОСТОЖЕНКА»\nhttps://art-ostozhenka.ru/konkurs
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-and-competition
+ -ostozhenka-yesterday-today-tomorr-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выставка-конкурс «Остоженка: вче
+ ра\, сегодня\, завтра»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

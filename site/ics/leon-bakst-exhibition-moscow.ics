@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:leon-bakst-exhibition-moscow@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261119
+SUMMARY:Выставка Леона Бакста
+LOCATION:Государственная Третьяковская гал
+ ерея\, Лаврушинский пер.\, 10\, Москва
+DESCRIPTION:Масштабная экспозиция работ знам
+ енитого театрального художника\, объеди
+ няющая живопись\, моду и балет.\nЛеон Бак
+ ст\nhttps://t.me/futuro_gallery/2854
+URL:https://doublebasskakov.github.io/radar/#e=leon-bakst-exhibition-mosc
+ ow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выставка Леона Бакста
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

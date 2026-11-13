@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:exhibition-the-estate-speaks-winter-stories-ivanovo@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:Открытие: Выставка «Усадьба говори
+ т. Зимние истории»
+LOCATION:Усадьба Рагозина\, Ивановская обла
+ сть\, Иваново
+DESCRIPTION:Масштабный проект-возрождение ст
+ аринной дворянской усадьбы через совре
+ менное искусство\, скульптуру и историч
+ еские артефакты\, продолжающий летнюю с
+ ерию экспозиций.\nУсадьба Рагозина\nhttps://
+ usadba-ragozina.ru/open-call
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-the-estate-spea
+ ks-winter-stories-ivanovo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка «Усадьба гово
+ рит. Зимние истории»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

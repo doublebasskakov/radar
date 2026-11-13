@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:reverse-saint-peters@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART:20261119T160000Z
 DTEND:20261119T180000Z
 SUMMARY:Реверс
@@ -27,7 +27,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dancing-for-diaghilev-saint-peters@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART:20261116T170000Z
 DTEND:20261116T190000Z
 SUMMARY:Танцуем для Дягилева
@@ -48,7 +48,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:demutsky-16@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART:20261126T150000Z
 DTEND:20261126T170000Z
 SUMMARY:16 фортепианных пьес
@@ -70,7 +70,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ruarts-gong-sensonica@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART:20261121T100000Z
 DTEND:20261121T120000Z
 SUMMARY:Гонг-перформанс Юлии Гоголевой (SENSON
@@ -91,7 +91,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:kzn-mon-15172@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART:20261118T160000Z
 DTEND:20261118T180000Z
 SUMMARY:«15 172». Пластический спектакль
@@ -109,7 +109,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:spb-soobshchestvo-spisok-papernoy@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART:20261129T170000Z
 DTEND:20261129T190000Z
 SUMMARY:«Список Паперной»
@@ -130,7 +130,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:kzn-mon-otstan-ot-sebya@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART:20261125T160000Z
 DTEND:20261125T180000Z
 SUMMARY:«Отстань от себя». Пластический спе
@@ -148,7 +148,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:msk-electrotheatre-uzhin-v-pompeyakh@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART:20261120T160000Z
 DTEND:20261120T180000Z
 SUMMARY:«Ужин в ПомПеях». Премьера
@@ -168,7 +168,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:msk-electrotheatre-belaqua@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART:20261126T160000Z
 DTEND:20261126T180000Z
 SUMMARY:«Belaqua\, или Скоро Сорок»
@@ -185,8 +185,29 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:i-am-the-signal-moscow@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Я — Сигнал
+LOCATION:Центр Вознесенского\, ул. Большая О
+ рдынка\, 46\, стр. 3\, Москва
+DESCRIPTION:Вечер памяти Зои Богуславской с п
+ редпремьерным показом перформанса по с
+ тихам Андрея Вознесенского\, исследующе
+ го человека в цифровую эпоху.\nЗоя Богус
+ лавская\, Андрей Вознесенский\nhttps://t.me/danc
+ ingalone/36984
+URL:https://doublebasskakov.github.io/radar/#e=i-am-the-signal-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Я — Сигнал
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:fabula-anemoia@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:Анемойя
@@ -206,8 +227,33 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:international-youth-festival-of-asian-culture-moscow@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Международный молодежный Фестивал
+ ь азиатской культуры
+LOCATION:Международный колледж искусств и к
+ оммуникаций (МКИК)\, Москва
+DESCRIPTION:Фестиваль азиатской культуры с л
+ екциями востоковедов\, чайными церемони
+ ями\, мастер-классами по оригами и высту
+ плениями k-pop танцоров.\nТарас Ивченко\, А
+ нна Донченко\, Александра Черткова\, Нат
+ алья Демченко\, ArtAsia\, студенты МКИК\nhttps://
+ t.me/afishadailynews/103833
+URL:https://doublebasskakov.github.io/radar/#e=international-youth-festiv
+ al-of-asian-culture-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Международный молодежный Фестив
+ аль азиатской культуры
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:spb-kurekhin-istorii-bez-slov@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261129
 SUMMARY:«Истории без слов. Шесть премьер»

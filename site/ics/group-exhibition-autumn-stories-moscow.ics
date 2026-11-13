@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:group-exhibition-autumn-stories-moscow@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261205
+SUMMARY:Групповая выставка «Осенние истори
+ и»
+LOCATION:Галерея "Гоголь Арт"\, ул. Гоголевск
+ ий бул. 14 стр. 3\, Москва
+DESCRIPTION:Выставка современных художников\
+ , где осень выступает не просто пейзажны
+ м фоном\, а собеседником\, рассказывающи
+ м личные истории о переменах и воспомин
+ аниях. На открытии запланирован фуршет 
+ с живой музыкой.\nЛига "Метрополис"\, гале
+ рея "Гоголь Арт"\nhttps://t.me/opencallRus/6811
+URL:https://doublebasskakov.github.io/radar/#e=group-exhibition-autumn-st
+ ories-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Групповая выставка «Осенние исто
+ рии»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

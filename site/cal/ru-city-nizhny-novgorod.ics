@@ -7,8 +7,48 @@ X-WR-CALNAME:Радар — Россия · city-nizhny-novgorod
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:vrubel-brunch-nizhny-novgo@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART:20261115T080000Z
+DTEND:20261115T100000Z
+SUMMARY:Врубелевский бранч
+LOCATION:Теплое место\, ул. Горького\, 140\, Ниж
+ ний Новгород
+DESCRIPTION:Культурный завтрак\, посвященный 
+ творчеству Михаила Врубеля\, с обсужден
+ ием живописи и цветами.\nКоманда FUTURO\nhttps:
+ //t.me/futuro_gallery/2854
+URL:https://doublebasskakov.github.io/radar/#e=vrubel-brunch-nizhny-novgo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Врубелевский бранч
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:artist-tour-by-evgenia-buravleva-nizhny-novgo@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART:20261114T120000Z
+DTEND:20261114T140000Z
+SUMMARY:Авторская экскурсия Евгении Буравл
+ евой
+LOCATION:Галерея FUTURO\, ул. Рождественская\, 6\,
+  Нижний Новгород
+DESCRIPTION:Прогулка по выставке «Большой вс
+ плеск» в сопровождении автора проекта.\n
+ Евгения Буравлева\nhttps://t.me/futuro_gallery/2854
+URL:https://doublebasskakov.github.io/radar/#e=artist-tour-by-evgenia-bur
+ avleva-nizhny-novgo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Авторская экскурсия Евгении Бура
+ влевой
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:model-range-exhibition-nizhny-novgo@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Открытие: Выставка «Модельный ряд»
@@ -33,7 +73,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nn-9b-bomse-golos-za-kadrom@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Последний день: Эвсти Бомсе. «Голос 
@@ -58,7 +98,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:model-range-nizhny-novgo@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Последний день: Модельный ряд
@@ -79,7 +119,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:arsenal-leger@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
 SUMMARY:Последний день: Фернан Леже. Формул

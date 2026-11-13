@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:mayak-2026-film-festival-screenings-saint-peters@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Показы фестиваля актуального кино 
+ «Маяк 2026»
+LOCATION:Новая Голландия\, пространство «Со
+ общество»\, набережная Адмиралтейского 
+ канала\, 2\, Санкт-Петербург
+DESCRIPTION:Серия показов фильмов-участников
+  и лауреатов фестиваля современного рос
+ сийского кино «Маяк».\n\nhttps://t.me/orpheusradio/5151
+ 4
+URL:https://doublebasskakov.github.io/radar/#e=mayak-2026-film-festival-s
+ creenings-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показы фестиваля актуального кин
+ о «Маяк 2026»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

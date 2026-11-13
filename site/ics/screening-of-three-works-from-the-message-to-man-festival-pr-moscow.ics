@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:screening-of-three-works-from-the-message-to-man-festival-pr-moscow@a
+ fisha-art
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Показ трех работ программы фестива
+ ля «Послание к человеку»
+LOCATION:Музей «Гараж»\, Крымский Вал\, 9\, стр
+ . 32\, Москва
+DESCRIPTION:В Музее «Гараж» завершаются пока
+ зы эха фестиваля «Послание к человеку» 
+ сеансом из трех авторских картин.\nЕвген
+ ия Арбугаева\, Женя Казанкина\, Иван Бойк
+ о\nhttps://t.me/kinoartru/13873
+URL:https://doublebasskakov.github.io/radar/#e=screening-of-three-works-f
+ rom-the-message-to-man-festival-pr-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ трех работ программы фести
+ валя «Послание к человеку»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

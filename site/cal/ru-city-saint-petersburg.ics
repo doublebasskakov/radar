@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:the-nutcracker-not-a-fairy-tale-saint-peters@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART:20261202T160000Z
 DTEND:20261202T180000Z
 SUMMARY:Щелкунчик. Несказка
@@ -26,28 +26,6 @@ URL:https://doublebasskakov.github.io/radar/#e=the-nutcracker-not-a-fairy
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Щелкунчик. Несказка
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:stolen-dances@afisha-art
-DTSTAMP:20261113T144626Z
-DTSTART:20261117T170000Z
-DTEND:20261117T190000Z
-SUMMARY:Украденные танцы
-LOCATION:Театр-фестиваль «Балтийский дом»\, 
- Александровский парк\, 4\, Санкт-Петербур
- г
-DESCRIPTION:Спектакль о средневековых «танце
- вальных эпидемиях»: фламенко встречает
- ся с современной хореографией. В програ
- мме «Дягилев P. S.».\nХореограф Давид Кори
- а (Испания)\nhttps://theblueprint.ru/culture/theatre/theatre-nov2
- 026
-URL:https://doublebasskakov.github.io/radar/#e=stolen-dances
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Украденные танцы
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
@@ -113,7 +91,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dom-radio-electricity@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART:20261114T150000Z
 DTEND:20261114T170000Z
 SUMMARY:«Электричество»: открытие выставки
@@ -135,8 +113,50 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:stolen-dances@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART:20261117T170000Z
+DTEND:20261117T190000Z
+SUMMARY:Украденные танцы
+LOCATION:Театр-фестиваль «Балтийский дом»\, 
+ Александровский парк\, 4\, Санкт-Петербур
+ г
+DESCRIPTION:Спектакль о средневековых «танце
+ вальных эпидемиях»: фламенко встречает
+ ся с современной хореографией. В програ
+ мме «Дягилев P. S.».\nХореограф Давид Кори
+ а (Испания)\nhttps://theblueprint.ru/culture/theatre/theatre-nov2
+ 026
+URL:https://doublebasskakov.github.io/radar/#e=stolen-dances
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Украденные танцы
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:intermezzo-saint-peters@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART:20261124T160000Z
+DTEND:20261124T180000Z
+SUMMARY:Интермеццо
+LOCATION:Александринский театр\, Новая сцен
+ а\, Санкт-Петербург
+DESCRIPTION:Театрально-музыкальный вечер с п
+ роизведениями Шостаковича\, Таривердие
+ ва\, Бриттена\, Десятникова и Пьяццоллы.\n
+ Алексей Гориболь\nhttps://www.sobaka.ru/entertainment/thea
+ tre/223061
+URL:https://doublebasskakov.github.io/radar/#e=intermezzo-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Интермеццо
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:ligeti-sf-polyphony-spb@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART:20261113T170000Z
 DTEND:20261113T190000Z
 SUMMARY:Российская премьера «Полифонии Сан
@@ -157,9 +177,49 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:reverse-saint-peters@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART:20261119T160000Z
+DTEND:20261119T180000Z
+SUMMARY:Реверс
+LOCATION:ТЮЗ имени Брянцева\, Санкт-Петербур
+ г
+DESCRIPTION:Спектакль\, сочетающий хореограф
+ ию\, акробатику\, театр и циркового искус
+ ство.\nМосковский театр мюзикла\nhttps://www.di
+ aghilev-ps.ru/en/programs/2026-main/
+URL:https://doublebasskakov.github.io/radar/#e=reverse-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Реверс
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dancing-for-diaghilev-saint-peters@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART:20261116T170000Z
+DTEND:20261116T190000Z
+SUMMARY:Танцуем для Дягилева
+LOCATION:Александринский театр\, основная с
+ цена\, Санкт-Петербург
+DESCRIPTION:Вечер современной хореографии с 
+ тремя премьерами\, посвящённый Дягилеву
+ .\nМаксим Севагин\, Татьяна Баганова\, Але
+ ксей Мирошниченко\; Дарья Павленко\nhttps://
+ www.diaghilev-ps.ru/en/programs/2026-main/
+URL:https://doublebasskakov.github.io/radar/#e=dancing-for-diaghilev-sain
+ t-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Танцуем для Дягилева
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:lecture-by-alexander-korotkov-exhibition-architecture-of-kon-saint-pe
  ters@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART:20261114T153000Z
 DTEND:20261114T173000Z
 SUMMARY:Лекция Александра Короткова «Выста
@@ -184,8 +244,30 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:tape-splicing-workshop-at-f5-saint-peters@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART:20261115T120000Z
+DTEND:20261115T140000Z
+SUMMARY:Плёночный переполох в F5
+LOCATION:F5\, ул. Римского-Корсакова\, 39\, Санкт
+ -Петербург
+DESCRIPTION:Практическое занятие по работе с 
+ магнитной лентой\, где участники научат
+ ся технике создания плёночных петель и 
+ обменяются опытом в области эксперимен
+ тальной музыки.\nDatura Metel\, Den Pat\, PTOS\nhttps://spb.
+ qtickets.events/271910-1511-plenochnyy-perepolokh
+URL:https://doublebasskakov.github.io/radar/#e=tape-splicing-workshop-at-
+ f5-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Плёночный переполох в F5
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:spb-nevidimyy-teatr-rehab@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART:20261114T170000Z
 DTEND:20261114T190000Z
 SUMMARY:«Рехаб»
@@ -203,8 +285,30 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:ambient-tea-party-vol-6-saint-peters@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART:20261114T150000Z
+DTEND:20261114T170000Z
+SUMMARY:AMBIENT Tea Party vol. 6
+LOCATION:Студия YESYOGA\, Студенческая 24 к.1\, Сан
+ кт-Петербург
+DESCRIPTION:Камерная вечеринка\, объединяюща
+ я выступления артистов в жанрах эмбиент
+  и дроун с видеоинсталляциями и чайными 
+ церемониями.\nSIERÅTTALA\, dr. SpaceKir\, М.О.У.Б.\, Tile
+  Shore\, Гриша Федосев\nhttps://t.me/QticketsBuyBot/buy?start
+ app=268737
+URL:https://doublebasskakov.github.io/radar/#e=ambient-tea-party-vol-6-sa
+ int-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AMBIENT Tea Party vol. 6
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:ladoga-vinyl-sevcable@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART:20261114T110000Z
 DTEND:20261114T130000Z
 SUMMARY:Как звучит Ладога: презентация плас
@@ -226,7 +330,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mdt-zoo@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART:20261113T163000Z
 DTEND:20261113T183000Z
 SUMMARY:Что случилось в зоопарке
@@ -246,7 +350,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:drema-drone-spb@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART:20261129T110000Z
 DTEND:20261129T130000Z
 SUMMARY:Дневная ДРЁМА — амбиент и дроун
@@ -266,7 +370,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:spb-soobshchestvo-spisok-papernoy@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART:20261129T170000Z
 DTEND:20261129T190000Z
 SUMMARY:«Список Паперной»
@@ -286,31 +390,91 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:presentation-and-discussion-of-the-novel-library-saint-peters@afisha-
- art
-DTSTAMP:20261113T144626Z
-DTSTART:20261130T160000Z
-DTEND:20261130T180000Z
-SUMMARY:Презентация и обсуждение романа «Б
- иблиотека»
+UID:varvara-ubel-band-saint-peters@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART:20261114T163000Z
+DTEND:20261114T183000Z
+SUMMARY:Варвара Убель & Band
 LOCATION:Санкт-Петербург
-DESCRIPTION:Обсуждение нового романа Владими
- ра Коваленко\, посвященного сюрреалисти
- ческому путешествию героя внутри беско
- нечной библиотеки.\nВладимир Коваленко\n
- https://t.me/tavrida_art/22600
-URL:https://doublebasskakov.github.io/radar/#e=presentation-and-discussio
- n-of-the-novel-library-saint-peters
+DESCRIPTION:Выступление джазовой вокалистки 
+ Варвары Убель и её коллектива.\nВарвара 
+ Убель\nhttps://t.me/jazz100ru/1081
+URL:https://doublebasskakov.github.io/radar/#e=varvara-ubel-band-saint-pe
+ ters
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Презентация и обсуждение романа 
- «Библиотека»
+DESCRIPTION:Варвара Убель & Band
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:drema-saint-peters@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART:20261129T110000Z
+DTEND:20261129T130000Z
+SUMMARY:ДРËМА
+LOCATION:Йога-зал\, 16-я линия В.О.\, Санкт-Пете
+ рбург
+DESCRIPTION:Сессия глубокого погружения в зв
+ ук в формате горизонтального слушания с
+  программой саунд-хиллинга и терапевтич
+ еского эмбиент-дроуна.\nМира Древо\, Юм-Ю
+ м\, Онейроглиф\, Микориза\, Andrew Sprrw\, море к
+ ризисов\nhttps://t.me/whats_that_noise/4746
+URL:https://doublebasskakov.github.io/radar/#e=drema-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ДРËМА
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:delta-2026-saint-peters@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART:20261121T190000Z
+DTEND:20261121T210000Z
+SUMMARY:Delta 2026
+LOCATION:Завод Разин\, ул. Степана Разина\, 9\, 
+ Санкт-Петербург
+DESCRIPTION:Финальное событие года от m_division н
+ а трех сценах завода\, включающее лайв-в
+ ыступления\, техно-сеты и специальную ви
+ ниловую сцену.\nG.XIST\, Damne\, Ivan Logos\, Lena Popova\, S
+ estrica\, Roks\, Bionoid\, Technovvintage\, Noform\, Unbalance\, Blain\, 
+ Novikov\, Nastya Tkacheva\, Utah\, Kaptsan\nhttps://gammafestival.ru/delt
+ a2026
+URL:https://doublebasskakov.github.io/radar/#e=delta-2026-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Delta 2026
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:presentation-of-vladimir-kovalenko-s-novel-library-in-st-pet-saint-pe
+ ters@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART:20261130T160000Z
+DTEND:20261130T180000Z
+SUMMARY:Презентация романа Владимира Ковал
+ енко «Библиотека» в Петербурге
+LOCATION:Санкт-Петербург
+DESCRIPTION:Литературная встреча\, посвященн
+ ая выходу нового романа в жанре интелле
+ ктуальной прозы.\nВладимир Коваленко\nhttp
+ s://t.me/tavrida_art/22600
+URL:https://doublebasskakov.github.io/radar/#e=presentation-of-vladimir-k
+ ovalenko-s-novel-library-in-st-pet-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Презентация романа Владимира Ков
+ аленко «Библиотека» в Петербурге
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:vladimir-dmitriev-exhibition-saint-peters@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Владимир Дмитриев. Выставка
@@ -333,7 +497,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:spb-lakhta-tretya-priroda@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20270430
 DTEND;VALUE=DATE:20270501
 SUMMARY:Последний день: «Третья природа»
@@ -353,7 +517,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:spb-manezh-stsena-deystviya@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
 SUMMARY:Последний день: «Сцена действия»
@@ -374,7 +538,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:spb-diaghilev-ps-2026@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 SUMMARY:Последний день: Фестиваль «Дягилев 
@@ -397,7 +561,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gisich-plyashem@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:Марина Алексеева. ¡ПЛЯШЕМ!
@@ -417,7 +581,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:spb-tsifergauz-poka-sobiraetsya-mir@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:Последний день: «Пока собирается ми
@@ -441,7 +605,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:spb-kurekhin-bartenev-pesni-eklera@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:Последний день: Андрей Бартенев. «П
@@ -463,7 +627,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:spb-anna-nova-gart-ozimandiya@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Открытие: Александра Гарт. «Озиманд
@@ -484,7 +648,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:zvukovye-puti-ceam-artists@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:«Звуковые пути»: CEAM Artists
@@ -508,7 +672,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:after-the-sea-saint-peters@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Открытие: После моря
@@ -527,8 +691,53 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:dima-filippov-in-an-imaginary-country-finissage-saint-peters@afisha-a
+ rt
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261116
+SUMMARY:Дима Филиппов «В воображаемой стра
+ не» (финисаж)
+LOCATION:Anna Nova Gallery\, ул. Жуковского\, 28\, Санкт
+ -Петербург
+DESCRIPTION:Последние дни выставки\, посвящен
+ ной исследованию пространства\, памяти 
+ и художественного метода автора через л
+ андшафтные образы.\nДима Филиппов\nhttps://t.
+ me/anna_nova_gallery/4816
+URL:https://doublebasskakov.github.io/radar/#e=dima-filippov-in-an-imagin
+ ary-country-finissage-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Дима Филиппов «В воображаемой ст
+ ране» (финисаж)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:folklore-as-infinity-festival-saint-peters@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:Фестиваль «Фольклор как бесконечно
+ сть»
+LOCATION:Санкт-Петербург
+DESCRIPTION:Смотр современной музыки\, объеди
+ няющий фольклорные традиции и сочинени
+ я актуальных авторов на различных город
+ ских площадках.\n\nhttps://t.me/orpheusradio/51512
+URL:https://doublebasskakov.github.io/radar/#e=folklore-as-infinity-festi
+ val-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Фестиваль «Фольклор как бесконеч
+ ность»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:trust-only-your-anxiety-saint-peters@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Открытие: Доверяй только твоей трев
@@ -550,7 +759,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:hermitage-sirotkin@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:Открытие: Рим — Петербург. О несход
@@ -571,8 +780,78 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:mayak-2026-film-festival-screenings-saint-peters@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Показы фестиваля актуального кино 
+ «Маяк 2026»
+LOCATION:Новая Голландия\, пространство «Со
+ общество»\, набережная Адмиралтейского 
+ канала\, 2\, Санкт-Петербург
+DESCRIPTION:Серия показов фильмов-участников
+  и лауреатов фестиваля современного рос
+ сийского кино «Маяк».\n\nhttps://t.me/orpheusradio/5151
+ 4
+URL:https://doublebasskakov.github.io/radar/#e=mayak-2026-film-festival-s
+ creenings-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показы фестиваля актуального кин
+ о «Маяк 2026»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:screening-of-snow-is-falling-as-part-of-the-mayak-festival-e-saint-pe
+ ters@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261116
+SUMMARY:Показ фильма «Падает снег» в рамках
+  эха фестиваля «Маяк»
+LOCATION:Новая Голландия\, набережная Адмир
+ алтейского канала\, 2\, Санкт-Петербург
+DESCRIPTION:В Новой Голландии покажут програ
+ мму фильмов-участников недавнего киноф
+ естиваля «Маяк»\, еще не вышедших в широ
+ кий прокат\, включая картину Евгении Гро
+ мовой.\nЕвгения Громова\nhttps://t.me/kinoartru/13872
+URL:https://doublebasskakov.github.io/radar/#e=screening-of-snow-is-falli
+ ng-as-part-of-the-mayak-festival-e-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильма «Падает снег» в рамк
+ ах эха фестиваля «Маяк»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:exhibition-if-your-eyes-could-speak-saint-peters@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Открытие: Выставка «Если бы твои гл
+ аза умели говорить»
+LOCATION:Галерея «Мастер»\, Санкт-Петербург
+DESCRIPTION:Совместная выставка живописи и х
+ удожественной фотографии\, исследующая 
+ разные ракурсы восприятия мира через эм
+ оционально выразительные визуальные ра
+ боты.\nГалерея «Мастер»\, проект «Если бы
+  Арт»\nhttps://eslibyart.ru
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-if-your-eyes-co
+ uld-speak-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка «Если бы твои 
+ глаза умели говорить»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:exhibition-in-the-imaginary-country-saint-peters@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:Последний день: Выставка «В воображ
@@ -595,7 +874,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pop-up-project-morning-diplopia-saint-peters@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
 SUMMARY:Последний день: Pop-up проект «Утренне
@@ -618,7 +897,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:punctuation-mark-placement-saint-peters@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Последний день: Постановка знака
@@ -638,7 +917,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:spb-tretye-mesto-nevyrazimoe@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Открытие: «Невыразимое. Заметки об 
@@ -661,7 +940,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:spb-stantsiya-gorbunov-imago@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Открытие: Андрей Горбунов. IMAGO
@@ -682,7 +961,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:spb-gisich-alekseeva@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Открытие: Марина Алексеева. Выставк
@@ -703,7 +982,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:spb-parazit-naydeno-v-kapuste@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261208
 DTEND;VALUE=DATE:20261209
 SUMMARY:Последний день: «Найдено в капусте»
@@ -725,8 +1004,51 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:kontrkult-h-griboedov-showcase-saint-peters@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:kontrkult х Griboedov Showcase
+LOCATION:Griboedov / Воронежская 2а\, ул. Воронежс
+ кая\, 2а\, Санкт-Петербург
+DESCRIPTION:Шоукейс\, посвященный темной стор
+ оне электроники (ebm\, dark techno) в сочетании 
+ с иммерсивным перформансом.\n\nhttps://t.me/danci
+ ngalone/37003
+URL:https://doublebasskakov.github.io/radar/#e=kontrkult-h-griboedov-show
+ case-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:kontrkult х Griboedov Showcase
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:screening-of-malika-as-part-of-the-mayak-festival-echo-saint-peters@a
+ fisha-art
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261116
+SUMMARY:Показ фильма «Малика» в рамках эха 
+ фестиваля «Маяк»
+LOCATION:Новая Голландия\, набережная Адмир
+ алтейского канала\, 2\, Санкт-Петербург
+DESCRIPTION:Показ обладателя Гран-при фестив
+ аля «Маяк» — картины Натальи Уваровой 
+ — в пространстве «Новая Голландия».\nНа
+ талья Уварова\nhttps://t.me/kinoartru/13872
+URL:https://doublebasskakov.github.io/radar/#e=screening-of-malika-as-par
+ t-of-the-mayak-festival-echo-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильма «Малика» в рамках эх
+ а фестиваля «Маяк»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:spb-didi-pletnev-labirint@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Последний день: Павел Плетнёв. «Лаб
@@ -745,8 +1067,31 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:screening-of-frost-as-part-of-the-mayak-festival-echo-saint-peters@af
+ isha-art
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261116
+SUMMARY:Показ фильма «Мороз» в рамках эха ф
+ естиваля «Маяк»
+LOCATION:Новая Голландия\, набережная Адмир
+ алтейского канала\, 2\, Санкт-Петербург
+DESCRIPTION:Жители и гости Санкт-Петербурга с
+ могут увидеть работу Семена Серзина в п
+ рограмме фестивальных премьер.\nСемен С
+ ерзин\nhttps://t.me/kinoartru/13872
+URL:https://doublebasskakov.github.io/radar/#e=screening-of-frost-as-part
+ -of-the-mayak-festival-echo-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильма «Мороз» в рамках эха
+  фестиваля «Маяк»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:spb-sobo-veselovskaya@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:Последний день: Катерина Веселовск
@@ -767,7 +1112,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pavel-pletnev-s-exhibition-pavel-s-labyrinth-saint-peters@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Открытие: Выставка Павла Плетнёва «
@@ -788,8 +1133,31 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:screening-of-golem-as-part-of-the-mayak-festival-echo-saint-peters@af
+ isha-art
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261116
+SUMMARY:Показ фильма «Голем» в рамках эха ф
+ естиваля «Маяк»
+LOCATION:Новая Голландия\, набережная Адмир
+ алтейского канала\, 2\, Санкт-Петербург
+DESCRIPTION:В Новой Голландии в рамках показо
+ в с фестиваля «Маяк» можно будет увидет
+ ь ленту Александра Котта.\nАлександр Кот
+ т\nhttps://t.me/kinoartru/13872
+URL:https://doublebasskakov.github.io/radar/#e=screening-of-golem-as-part
+ -of-the-mayak-festival-echo-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильма «Голем» в рамках эха
+  фестиваля «Маяк»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:spb-street-art-storage-tekstotsentrichnost@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20270113
 DTEND;VALUE=DATE:20270114
 SUMMARY:Последний день: «Текстоцентричност
@@ -811,8 +1179,73 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:screening-of-vanya-as-part-of-the-mayak-festival-echo-saint-peters@af
+ isha-art
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261116
+SUMMARY:Показ фильма «Ваня» в рамках эха фе
+ стиваля «Маяк»
+LOCATION:Новая Голландия\, набережная Адмир
+ алтейского канала\, 2\, Санкт-Петербург
+DESCRIPTION:Показ отмеченной множеством нагр
+ ад картины Клавдии Коршуновой в петербу
+ ргской Новой Голландии.\nКлавдия Коршун
+ ова\nhttps://t.me/kinoartru/13872
+URL:https://doublebasskakov.github.io/radar/#e=screening-of-vanya-as-part
+ -of-the-mayak-festival-echo-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильма «Ваня» в рамках эха 
+ фестиваля «Маяк»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:and-i-see-again-a-family-of-friends-saint-peters@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:И вижу вновь семью друзей
+LOCATION:Музей-усадьба Г. Р. Державина\, наб. 
+ реки Фонтанки\, 118\, Санкт-Петербург
+DESCRIPTION:Выставка портретов юного Пушкина
+  и его товарищей\, посвященная лицейском
+ у периоду жизни поэта.\n\nhttps://t.me/orpheusradio/515
+ 11
+URL:https://doublebasskakov.github.io/radar/#e=and-i-see-again-a-family-o
+ f-friends-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:И вижу вновь семью друзей
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:alexander-tsikarishvili-medea-saint-peters@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Открытие: Александр Цикаришвили «М
+ едея»
+LOCATION:Третье место\, Литейный пр.\, 62\, Санк
+ т-Петербург
+DESCRIPTION:Работа художника представлена в 
+ рамках кураторского проекта об одиноче
+ стве «Невыразимое».\nАлександр Цикаришв
+ или\nhttps://t.me/sobogallery/2142
+URL:https://doublebasskakov.github.io/radar/#e=alexander-tsikarishvili-me
+ dea-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Александр Цикаришвили 
+ «Медея»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:spb-gisich-begalskaya-vilkin-allokhoriya@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Последний день: Вика Бегальская и А
@@ -833,7 +1266,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:blokha-chekhov@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 SUMMARY:Чехов. Мировая душа
@@ -851,7 +1284,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:spb-parazit-tsementa-3@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Последний день: «Цемента III: Ноги в т
@@ -872,7 +1305,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:erarta-ponomarenko@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Открытие: Виктор Пономаренко. Наблю
@@ -893,7 +1326,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:erarta-robino@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Открытие: Массимилиано Робино. Урок
@@ -914,7 +1347,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:spb-erarta-saunin@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Последний день: Денис Саунин. «Слон 
@@ -933,28 +1366,51 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:sound-laboratory-ander-saint-peters@afisha-art
-DTSTAMP:20261113T144626Z
+UID:vadim-mikhailov-bylyem-poroslo-saint-peters@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Открытие: Вадим Михайлов «Быльем по
+ росло»
+LOCATION:MYTH Gallery\, ул. Чайковского\, 61\, Санкт-П
+ етербург
+DESCRIPTION:Исследование детских воспоминан
+ ий об уральском поселке через свободные
+  художественные практики и ностальгиче
+ ские образы.\nВадим Михайлов\nhttps://t.me/mythgal
+ lery/4783
+URL:https://doublebasskakov.github.io/radar/#e=vadim-mikhailov-bylyem-por
+ oslo-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Вадим Михайлов «Быльем 
+ поросло»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:under-sound-laboratory-saint-peters@afisha-art
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
-SUMMARY:Лаборатория звука «АНДЕР»
+SUMMARY:АНДЕР — лаборатория звука
 LOCATION:Ритмы\, Санкт-Петербург
-DESCRIPTION:Шоукейс петербургского электрон
- ного андерграунда с программой от класс
- ического техно и хардгрува до притрансо
- вых вибраций.\nCEKTA\, SEROTONIN CRISIS\, KATSURA\, ANNIE\, MI
- KHAIL BONDAR\nhttps://t.me/new_soundwave/28854
-URL:https://doublebasskakov.github.io/radar/#e=sound-laboratory-ander-sai
+DESCRIPTION:Шоукейс питерского андеграунда в
+  формате «клуб в клубе»\, представляющий
+  переход от классического техно к хардг
+ руву и трансовым вибрациям.\nCEKTA\, SEROTONIN CRI
+ SIS\, KATSURA\, ANNIE\, MIKHAIL BONDAR\nhttps://t.me/new_soundwave/28854
+URL:https://doublebasskakov.github.io/radar/#e=under-sound-laboratory-sai
  nt-peters
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Лаборатория звука «АНДЕР»
+DESCRIPTION:АНДЕР — лаборатория звука
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:spb-teatro-di-capua-uvb-76@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261120
 SUMMARY:«УВБ-76»
@@ -973,7 +1429,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:spb-uzel-istoriya-kommunizma@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261127
 SUMMARY:«История коммунизма в рассказах дл
@@ -995,7 +1451,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:spb-kurekhin-istorii-bez-slov@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261129
 SUMMARY:«Истории без слов. Шесть премьер»

@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:samara-osenniy-auktsion-2026@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART:20261126T150000Z
 DTEND:20261126T170000Z
 SUMMARY:VII Осенний аукцион современного иск
@@ -68,7 +68,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:oberton-graphic-art-fair-moscow@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261207
 SUMMARY:Ярмарка графики «Обертон»
@@ -88,7 +88,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:spb-diaghilev-ps-2026@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 SUMMARY:Последний день: Фестиваль «Дягилев 
@@ -111,7 +111,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:catalog-fair@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261123
 SUMMARY:|catalog| — ярмарка современного искус
@@ -133,7 +133,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:oberton-fair-2026@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261207
 SUMMARY:«Обертон» — ярмарка графики Cosmoscow
@@ -155,7 +155,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:catalog-fair-anna-bat-s-project-habitus-at-gallery-9b-booth-moscow@af
  isha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261123
 SUMMARY:Ярмарка |catalog|: проект Анны Бат «Габи
@@ -179,7 +179,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:autumn-edition-of-the-catalog-contemporary-art-fair-moscow@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261123
 SUMMARY:Осенний выпуск ярмарки современног
@@ -206,7 +206,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:catalog-art-fair-6th-edition-moscow@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261123
 SUMMARY:Ярмарка |catalog| (6-й выпуск)
@@ -229,7 +229,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:pa-gallery-pseudomorphoses-booth-at-art021-shanghai-shanghai@afisha-a
  rt
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261115
 SUMMARY:Стенд PA Gallery «Псевдоморфозы» на ярм
@@ -252,8 +252,32 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:hse-art-gallery-at-catalog-art-fair-moscow@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261123
+SUMMARY:Стенд Галереи Школы дизайна НИУ ВШЭ
+  на ярмарке |catalog|
+LOCATION:ЖК «Золотой»\, Софийская наб.\, 10\, Мо
+ сква
+DESCRIPTION:Исследование диалога между молод
+ ыми авторами и коллекционерами\, дополн
+ енное специальной зоной саунд-арта со с
+ туденческими работами.\nДарья Бражников
+ а\, Полина Вайнер\, Агата Гафарова и др.\nht
+ tps://t.me/hseartgallery/4850
+URL:https://doublebasskakov.github.io/radar/#e=hse-art-gallery-at-catalog
+ -art-fair-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Стенд Галереи Школы дизайна НИУ В
+ ШЭ на ярмарке |catalog|
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:catalog-art-fair-moscow@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261123
 SUMMARY:Ярмарка современного искусства | cata
@@ -274,9 +298,78 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:kirill-manchunsky-angel-is-always-with-you-moscow@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261123
+SUMMARY:Кирилл Манчунский «Ангел всегда с т
+ обою»
+LOCATION:ЖК «Золотой»\, Софийская наб.\, 10 (Ст
+ енд A11)\, Москва
+DESCRIPTION:Новая серия работ\, представляюща
+ я собой художественное размышление о не
+ видимой защите и духовной близости в по
+ вседневности.\nКирилл Манчунский\nhttps://t.m
+ e/GALLERY_ELEVEN_TWELVE/940
+URL:https://doublebasskakov.github.io/radar/#e=kirill-manchunsky-angel-is
+ -always-with-you-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Кирилл Манчунский «Ангел всегда 
+ с тобою»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:oleg-khvostov-at-gridchinhall-stand-moscow@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261123
+SUMMARY:Олег Хвостов на стенде Гридчинхолл
+ а
+LOCATION:ЖК «Золотой»\, Софийская наб.\, 10 (Ст
+ енд B52)\, Москва
+DESCRIPTION:Представление работ в стиле «абс
+ олютной живописи»\, создающих идеальный
+  красочный мир в контрасте с реальность
+ ю.\nОлег Хвостов\nhttps://t.me/gridchinhallgallery/2195
+URL:https://doublebasskakov.github.io/radar/#e=oleg-khvostov-at-gridchinh
+ all-stand-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Олег Хвостов на стенде Гридчинхо
+ лла
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:painting-and-graphics-exhibition-with-auction-moscow@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:Открытие: Выставка живописи и графи
+ ки с аукционом
+LOCATION:Creativity Place\, Москва
+DESCRIPTION:Предновогодняя выставка-продажа 
+ произведений живописи и графики в тради
+ ционных и концептуальных жанрах с возмо
+ жностью приобретения работ на торгах Ру
+ сского аукционного дома.\nРусский аукци
+ онный дом\, Creativity Place\nhttps://creativityplace.ru/exhibiti
+ on.html
+URL:https://doublebasskakov.github.io/radar/#e=painting-and-graphics-exhi
+ bition-with-auction-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка живописи и гра
+ фики с аукционом
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:fyodor-hiroshige-and-palto-gallery-at-catalog-art-fair-moscow@afisha-
  art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261123
 SUMMARY:Участие Фёдора Хиросигэ и галереи «
@@ -301,7 +394,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:kucha3-fair-moscow@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261221
 SUMMARY:Ярмарка «Куча³»
@@ -316,6 +409,43 @@ URL:https://doublebasskakov.github.io/radar/#e=kucha3-fair-moscow
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Ярмарка «Куча³»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:signal-city-2026@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261123
+SUMMARY:Signal City
+LOCATION:ДК завода «Серп и Молот»\, Москва
+DESCRIPTION:Городская версия фестиваля Signal: д
+ ва дня электронной музыки в лабиринтах 
+ исторического ДК.\nMonasterio\, Gescu и др.\nhttps://t.
+ me/signal_live
+URL:https://doublebasskakov.github.io/radar/#e=signal-city-2026
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Signal City
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:smena-winter-book-fest@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261207
+SUMMARY:Зимний книжный фестиваль «Смены»
+LOCATION:Национальная библиотека Республик
+ и Татарстан\, Казань
+DESCRIPTION:Четырнадцатый фестиваль к 13-лети
+ ю «Смены»: книжная ярмарка и три паралле
+ льных лектория.\nЦентр современной куль
+ туры «Смена»\nhttps://t.me/ooosmenaknigi
+URL:https://doublebasskakov.github.io/radar/#e=smena-winter-book-fest
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Зимний книжный фестиваль «Смены»
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:the-nutcracker-not-a-fairy-tale-saint-peters@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART:20261202T160000Z
 DTEND:20261202T180000Z
 SUMMARY:Щелкунчик. Несказка
@@ -31,7 +31,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:stolen-dances@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART:20261117T170000Z
 DTEND:20261117T190000Z
 SUMMARY:Украденные танцы
@@ -52,8 +52,29 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:the-seagull-ballet-moscow@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART:20261118T160000Z
+DTEND:20261118T180000Z
+SUMMARY:Балет «Чайка»
+LOCATION:Большой театр (Новая сцена)\, Театра
+ льная площадь\, 1\, Москва
+DESCRIPTION:Современная хореографическая ин
+ терпретация Чехова\, включающая элемент
+ ы перформанса и экспериментальное звуч
+ ание гонга соло.\nСветлана Захарова\, Арт
+ ём Овчаренко\, Анастасия Сташкевич\, Арт
+ емий Беляков\nhttps://t.me/bolshoi_theatre/11760
+URL:https://doublebasskakov.github.io/radar/#e=the-seagull-ballet-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Балет «Чайка»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:kzn-mon-gastroli-kapital@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART:20261129T150000Z
 DTEND:20261129T170000Z
 SUMMARY:«Гастроли: Капитал»
@@ -70,29 +91,33 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:momento-context@afisha-art
-DTSTAMP:20261113T144626Z
-DTSTART:20261113T170000Z
-DTEND:20261113T190000Z
-SUMMARY:Momento
-LOCATION:Электротеатр Станиславский\, Тверс
- кая ул.\, 23\, Москва
-DESCRIPTION:Танцевальный спектакль о напряже
- нии между желанием быть частью коллекти
- ва и необходимостью оставаться собой.\nХ
- ореограф Чен Агрон\, фестиваль Context. Диан
- а Вишнёва\nhttps://theblueprint.ru/culture/theatre/theatre-nov202
- 6
-URL:https://doublebasskakov.github.io/radar/#e=momento-context
+UID:ballet-moscow-angles-3-contemporary-dance-laboratory-moscow@afisha-ar
+ t
+DTSTAMP:20261113T152152Z
+DTSTART:20261120T160000Z
+DTEND:20261120T180000Z
+SUMMARY:Лаборатория современного танца «Ба
+ лет Москва. Ракурсы 3»
+LOCATION:Балет Москва\, Москва
+DESCRIPTION:Премьера четырех новых работ сов
+ ременных хореографов\, в которых академ
+ ическая школа соединяется с эксцентрик
+ ой\, магическим реализмом и эксперимент
+ альной музыкой.\nПавел Рябов\, Марианна Р
+ ыжкина\, Андрей Лега\, Арсений Гордеев\nhtt
+ ps://t.me/baletmoskva/4776
+URL:https://doublebasskakov.github.io/radar/#e=ballet-moscow-angles-3-con
+ temporary-dance-laboratory-moscow
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Momento
+DESCRIPTION:Лаборатория современного танца «
+ Балет Москва. Ракурсы 3»
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:spb-nevidimyy-teatr-rehab@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART:20261114T170000Z
 DTEND:20261114T190000Z
 SUMMARY:«Рехаб»
@@ -110,8 +135,51 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:la-traviata-opera-live-stream-online@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART:20261113T140000Z
+DTEND:20261113T160000Z
+SUMMARY:Онлайн-трансляция оперы «Травиата»
+LOCATION:Видеоплатформа «Орфей»\, Онлайн
+DESCRIPTION:Прямой эфир премьеры оперы Верди 
+ из Башкирского театра оперы и балета с у
+ частием звезд мировой оперной сцены.\nАс
+ кар Абдразаков\, Альбина Шагимуратова\, 
+ Нажмиддин Мавлянов\nhttps://t.me/orpheusradio/51521
+URL:https://doublebasskakov.github.io/radar/#e=la-traviata-opera-live-str
+ eam-online
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Онлайн-трансляция оперы «Травиат
+ а»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:play-three-sisters-down-with-gloom-moscow@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART:20261113T160000Z
+DTEND:20261113T180000Z
+SUMMARY:Спектакль «Три сестры. Долой уныние
+ »
+LOCATION:Театр на Таганке\, ул. Земляной Вал\,
+  76/21\, Москва
+DESCRIPTION:Постановка молодого режиссера\, н
+ едавно отмеченная премией за актуально
+ сть и новый взгляд на классику.\nСаша Зол
+ отовицкий\nhttps://t.me/futuro_gallery/2854
+URL:https://doublebasskakov.github.io/radar/#e=play-three-sisters-down-wi
+ th-gloom-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спектакль «Три сестры. Долой унын
+ ие»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:mdt-zoo@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART:20261113T163000Z
 DTEND:20261113T183000Z
 SUMMARY:Что случилось в зоопарке
@@ -131,7 +199,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:the-tower-moscow@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART:20261128T160000Z
 DTEND:20261128T180000Z
 SUMMARY:Спектакль «Башня»
@@ -150,7 +218,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:kzn-mon-zatvornik-i-shestipalyy@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART:20261119T160000Z
 DTEND:20261119T180000Z
 SUMMARY:«Затворник и Шестипалый»
@@ -169,7 +237,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:msk-praktika-naivno-super@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART:20261120T160000Z
 DTEND:20261120T180000Z
 SUMMARY:«Наивно. Супер». Премьера
@@ -187,7 +255,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:msk-electrotheatre-maryino-pole@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART:20261203T160000Z
 DTEND:20261203T180000Z
 SUMMARY:«Марьино поле». Премьера
@@ -206,7 +274,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:msk-electrotheatre-ya-fabr@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART:20261117T170000Z
 DTEND:20261117T190000Z
 SUMMARY:«Я/Фабр»
@@ -223,8 +291,49 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:the-rake-s-progress-opera-moscow@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261120
+SUMMARY:Опера «Похождения повесы»
+LOCATION:Большой театр (Бетховенский зал)\, Т
+ еатральная площадь\, 1\, Москва
+DESCRIPTION:Возобновление легендарного спек
+ такля Бориса Покровского по неоклассич
+ еской опере Стравинского\, вдохновленно
+ й сатирическими гравюрами XVIII века.\nИго
+ рь Стравинский\nhttps://t.me/bolshoi_theatre/11766
+URL:https://doublebasskakov.github.io/radar/#e=the-rake-s-progress-opera-
+ moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Опера «Похождения повесы»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:semyon-kotko-opera-moscow@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:Опера «Семён Котко»
+LOCATION:Большой театр (Историческая сцена)\
+ , Театральная площадь\, 1\, Москва
+DESCRIPTION:Масштабная постановка оперы Прок
+ офьева\, исследующая столкновение челов
+ еческих чувств и трагических событий эп
+ охи Гражданской войны.\nСергей Прокофье
+ в\nhttps://bolshoi.ru
+URL:https://doublebasskakov.github.io/radar/#e=semyon-kotko-opera-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Опера «Семён Котко»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:constructivism-days-moscow@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261123
 SUMMARY:Дни конструктивизма
@@ -242,8 +351,29 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:momento-context@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261115
+SUMMARY:Momento
+LOCATION:Электротеатр Станиславский\, Тверс
+ кая ул.\, 23\, Москва
+DESCRIPTION:Танцевальный спектакль о напряже
+ нии между желанием быть частью коллекти
+ ва и необходимостью оставаться собой.\nХ
+ ореограф Чен Агрон\, фестиваль Context. Диан
+ а Вишнёва\nhttps://theblueprint.ru/culture/theatre/theatre-nov202
+ 6
+URL:https://doublebasskakov.github.io/radar/#e=momento-context
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Momento
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:pilorama@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Пилорама+
@@ -262,7 +392,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:blokha-chekhov@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 SUMMARY:Чехов. Мировая душа
@@ -280,7 +410,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mamt-romeo@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261130
 SUMMARY:Ромео и Джульетта (опера Гуно)
@@ -299,8 +429,28 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:peter-pan-samara@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Спектакль «Питер Пэн»
+LOCATION:Самарский театр юного зрителя «Сам
+ Арт»\, Самара
+DESCRIPTION:Премьера спектакля по ранней пов
+ ести Джеймса Барри\, исследующая истоки 
+ истории о мальчике\, который не хотел вз
+ рослеть\, и его жизнь в Кенсингтонском с
+ аду.\nЮлия Беляева\nhttps://t.me/ct_pro/14788
+URL:https://doublebasskakov.github.io/radar/#e=peter-pan-samara
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спектакль «Питер Пэн»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:spb-teatro-di-capua-uvb-76@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261120
 SUMMARY:«УВБ-76»
@@ -319,7 +469,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:spb-uzel-istoriya-kommunizma@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261127
 SUMMARY:«История коммунизма в рассказах дл

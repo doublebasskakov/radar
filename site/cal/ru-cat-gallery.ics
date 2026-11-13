@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:native-speech-moscow@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART:20261105T160000Z
 DTEND:20261105T180000Z
 SUMMARY:Открытие: Родная речь
@@ -30,7 +30,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:victoria-water@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART:20261112T150000Z
 DTEND:20261112T170000Z
 SUMMARY:Открытие: Написано водой\, на воде\, 
@@ -52,7 +52,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-always-time-to-drink-tea-vyborg@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART:20261113T120000Z
 DTEND:20261113T140000Z
 SUMMARY:Выставка «Всегда время пить чай»
@@ -71,9 +71,30 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:traditional-costume-exhibition-culture-unites-moscow@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART:20261116T150000Z
+DTEND:20261116T170000Z
+SUMMARY:Выставка традиционных костюмов: Ку
+ льтура объединяет
+LOCATION:Еврейский музей и центр толерантно
+ сти\, ул. Образцова\, 11\, стр. 1А\, Москва
+DESCRIPTION:Экспозиция костюмов\, созданных п
+ о мотивам традиционной одежды различны
+ х регионов России.\n\nhttps://t.me/dancingalone/36984
+URL:https://doublebasskakov.github.io/radar/#e=traditional-costume-exhibi
+ tion-culture-unites-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выставка традиционных костюмов: 
+ Культура объединяет
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:special-project-by-the-nosorog-publishing-house-and-the-posl-moscow@a
  fisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Специальный проект издательства «Н
@@ -98,7 +119,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ges2-things-idols-bananas@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Открытие: Вещи\, идолы\, бананы
@@ -120,7 +141,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:kzn-smena-rabochaya-smena@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:Открытие: «Рабочая смена»
@@ -142,8 +163,31 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:garage-diapazony@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Другие диапазоны. 1989–1991
+LOCATION:Музей «Гараж»\, ул. Крымский Вал\, 9\, 
+ стр. 32\, Москва
+DESCRIPTION:Новая часть исследования «Гаража
+ » о неофициальном искусстве на сломе 1980-
+ х и 1990-х — время\, когда художественная с
+ истема страны перестраивалась на ходу.\n
+ Айдан Салахова\, Евгений Митта\, Сергей В
+ олков\, Иван Чуйков\, Константин Звездоч
+ етов и др.\nhttps://theblueprint.ru/culture/art/vystavki-november2
+ 026
+URL:https://doublebasskakov.github.io/radar/#e=garage-diapazony
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Другие диапазоны. 1989–1991
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:msk-ges2-posle-zhanra@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20270425
 DTEND;VALUE=DATE:20270426
 SUMMARY:Последний день: «Натюрморт. Портрет
@@ -167,7 +211,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:vladimir-dmitriev-exhibition-saint-peters@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Владимир Дмитриев. Выставка
@@ -190,7 +234,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:spb-manezh-stsena-deystviya@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
 SUMMARY:Последний день: «Сцена действия»
@@ -211,7 +255,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:zotov-constructivism@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:Конструктивизм. Инструкция
@@ -232,7 +276,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gisich-plyashem@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:Марина Алексеева. ¡ПЛЯШЕМ!
@@ -251,8 +295,29 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:exhibition-other-ranges-1989-1991-moscow@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Выставка «Другие диапазоны. 1989-1991»
+LOCATION:Музей «Гараж»\, Открытое хранение\, 
+ ул. Крымский Вал\, 9\, стр. 32\, Москва
+DESCRIPTION:Новый раздел в Открытом хранении 
+ музея\, посвященный переходному периоду
+  в искусстве и культуре рубежа десятиле
+ тий.\nГалерея «Гараж»\nhttps://t.me/futuro_gallery/2854
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-other-ranges-19
+ 89-1991-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выставка «Другие диапазоны. 1989-1991
+ »
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:spb-kurekhin-bartenev-pesni-eklera@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:Последний день: Андрей Бартенев. «П
@@ -273,8 +338,28 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:leon-bakst-exhibition-moscow@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261119
+SUMMARY:Выставка Леона Бакста
+LOCATION:Государственная Третьяковская гал
+ ерея\, Лаврушинский пер.\, 10\, Москва
+DESCRIPTION:Масштабная экспозиция работ знам
+ енитого театрального художника\, объеди
+ няющая живопись\, моду и балет.\nЛеон Бак
+ ст\nhttps://t.me/futuro_gallery/2854
+URL:https://doublebasskakov.github.io/radar/#e=leon-bakst-exhibition-mosc
+ ow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выставка Леона Бакста
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:spb-anna-nova-gart-ozimandiya@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Открытие: Александра Гарт. «Озиманд
@@ -295,7 +380,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:hand-memory-volga-atlantis-samara@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261109
 DTEND;VALUE=DATE:20261116
 SUMMARY:Ручная память. Волжская Атлантида
@@ -318,7 +403,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:crocodilepower-silver-armor-moscow@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Последний день: Выставка crocodilePOWER «С
@@ -342,7 +427,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:after-the-sea-saint-peters@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Открытие: После моря
@@ -361,31 +446,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:garage-diapazony@afisha-art
-DTSTAMP:20261113T144626Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-SUMMARY:Другие диапазоны. 1989–1991
-LOCATION:Музей «Гараж»\, ул. Крымский Вал\, 9\, 
- стр. 32\, Москва
-DESCRIPTION:Новая часть исследования «Гаража
- » о неофициальном искусстве на сломе 1980-
- х и 1990-х — время\, когда художественная с
- истема страны перестраивалась на ходу.\n
- Айдан Салахова\, Евгений Митта\, Сергей В
- олков\, Иван Чуйков\, Константин Звездоч
- етов и др.\nhttps://theblueprint.ru/culture/art/vystavki-november2
- 026
-URL:https://doublebasskakov.github.io/radar/#e=garage-diapazony
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Другие диапазоны. 1989–1991
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:imaginary-cosmos-samara@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20270328
 DTEND;VALUE=DATE:20270329
 SUMMARY:Последний день: Воображаемый космо
@@ -410,7 +472,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-the-one-who-lost-his-head-and-other-forest-action-moscow@a
  fisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:Последний день: Выставка «„Потеряв
@@ -433,7 +495,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-vest-2-0-moscow@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20270223
 DTEND;VALUE=DATE:20270224
 SUMMARY:Последний день: Выставка «Весть 2.0»
@@ -457,7 +519,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:model-range-exhibition-nizhny-novgo@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Открытие: Выставка «Модельный ряд»
@@ -482,7 +544,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-the-triumph-of-melancholy-moscow@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Выставка «Торжество меланхолии»
@@ -503,8 +565,76 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:dima-filippov-in-an-imaginary-country-finissage-saint-peters@afisha-a
+ rt
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261116
+SUMMARY:Дима Филиппов «В воображаемой стра
+ не» (финисаж)
+LOCATION:Anna Nova Gallery\, ул. Жуковского\, 28\, Санкт
+ -Петербург
+DESCRIPTION:Последние дни выставки\, посвящен
+ ной исследованию пространства\, памяти 
+ и художественного метода автора через л
+ андшафтные образы.\nДима Филиппов\nhttps://t.
+ me/anna_nova_gallery/4816
+URL:https://doublebasskakov.github.io/radar/#e=dima-filippov-in-an-imagin
+ ary-country-finissage-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Дима Филиппов «В воображаемой ст
+ ране» (финисаж)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:one-hundred-years-of-fashion-exhibition-omsk@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Выставка «Сто лет моды»
+LOCATION:Центр «Эрмитаж-Сибирь»\, ул. Музейн
+ ая\, 4\, Омск
+DESCRIPTION:Экспозиция костюмов из собрания 
+ Государственного Эрмитажа\, демонстрир
+ ующая отражение глобальных перемен XX ве
+ ка в одежде.\n\nhttps://t.me/orpheusradio/51516
+URL:https://doublebasskakov.github.io/radar/#e=one-hundred-years-of-fashi
+ on-exhibition-omsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выставка «Сто лет моды»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ivan-lubennikov-exhibition-moscow@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Открытие: Выставка Ивана Лубеннико
+ ва
+LOCATION:Третьяковская галерея (корпус на К
+ адашевской набережной)\, Кадашевская на
+ бережная\, Москва
+DESCRIPTION:Персональная выставка монумента
+ листа\, чья экспозиция стилизована под с
+ танцию метро и включает узнаваемые лубо
+ чные образы.\nИван Лубенников\nhttps://t.me/vmuze
+ y/32227
+URL:https://doublebasskakov.github.io/radar/#e=ivan-lubennikov-exhibition
+ -moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка Ивана Лубенни
+ кова
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:trust-only-your-anxiety-saint-peters@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Открытие: Доверяй только твоей трев
@@ -526,7 +656,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-melting-diary-ivan-novikov-moscow@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
 SUMMARY:Последний день: Выставка «Тающий дн
@@ -549,7 +679,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:hermitage-sirotkin@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:Открытие: Рим — Петербург. О несход
@@ -572,7 +702,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:kirill-gatavan-s-exhibition-pull-your-tongue-all-the-way-out-moscow@a
  fisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Последний день: Выставка Кирилла Га
@@ -599,8 +729,35 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:street-art-exhibition-at-netsten-gallery-moscow@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Выставка уличного искусства в гале
+ рее «Нетстен»
+LOCATION:Уличная галерея «Нетстен» у «Винза
+ вода»\, 4-й Сыромятнический пер.\, 1/8\, Моск
+ ва
+DESCRIPTION:Проект посвящен городскому прост
+ ранству как площадке для игры и творчес
+ кого взаимодействия. Пять художников пе
+ реосмысляют через стрит-арт повседневн
+ ую жизнь\, спорт и детские воспоминания 
+ о дворовой культуре.\nOneTheWalls\, Truue\, Миша Sue
+ r\, Саша Sam\, Сергей Rusich\, Максим Има\nhttps://t.m
+ e/afishadailynews/103823
+URL:https://doublebasskakov.github.io/radar/#e=street-art-exhibition-at-n
+ etsten-gallery-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выставка уличного искусства в га
+ лерее «Нетстен»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:nn-9b-bomse-golos-za-kadrom@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Последний день: Эвсти Бомсе. «Голос 
@@ -624,9 +781,34 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:group-exhibition-autumn-stories-moscow@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261205
+SUMMARY:Групповая выставка «Осенние истори
+ и»
+LOCATION:Галерея "Гоголь Арт"\, ул. Гоголевск
+ ий бул. 14 стр. 3\, Москва
+DESCRIPTION:Выставка современных художников\
+ , где осень выступает не просто пейзажны
+ м фоном\, а собеседником\, рассказывающи
+ м личные истории о переменах и воспомин
+ аниях. На открытии запланирован фуршет 
+ с живой музыкой.\nЛига "Метрополис"\, гале
+ рея "Гоголь Арт"\nhttps://t.me/opencallRus/6811
+URL:https://doublebasskakov.github.io/radar/#e=group-exhibition-autumn-st
+ ories-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Групповая выставка «Осенние исто
+ рии»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:adamcsik-istvan-s-exhibition-color-semantics-mysticism-and-i-yekateri
  nbur@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:Последний день: Выставка Адамчика И
@@ -652,7 +834,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-trace-moscow@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261116
 SUMMARY:Выставка «След»
@@ -673,7 +855,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:good-luck-sweetheart-moscow@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Последний день: Good Luck\, Sweetheart
@@ -693,8 +875,55 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:online-exhibition-home-elsewhere-online@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:Открытие: Онлайн-выставка «Home\, Elsewher
+ e» («Дом\, где-то ещё»)
+LOCATION:The Kult Talk\, Онлайн
+DESCRIPTION:Ежегодный международный онлайн-п
+ роект визуального искусства\, исследующ
+ ий через работы художников и фотографов
+  многогранные смыслы понятия «дом» и ли
+ чные географии.\nThe Kult Talk\nhttps://thekulttalk.com/open
+ -call-home-elsewhere/
+URL:https://doublebasskakov.github.io/radar/#e=online-exhibition-home-els
+ ewhere-online
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Онлайн-выставка «Home\, Else
+ where» («Дом\, где-то ещё»)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:exhibition-the-estate-speaks-winter-stories-ivanovo@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:Открытие: Выставка «Усадьба говори
+ т. Зимние истории»
+LOCATION:Усадьба Рагозина\, Ивановская обла
+ сть\, Иваново
+DESCRIPTION:Масштабный проект-возрождение ст
+ аринной дворянской усадьбы через совре
+ менное искусство\, скульптуру и историч
+ еские артефакты\, продолжающий летнюю с
+ ерию экспозиций.\nУсадьба Рагозина\nhttps://
+ usadba-ragozina.ru/open-call
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-the-estate-spea
+ ks-winter-stories-ivanovo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка «Усадьба гово
+ рит. Зимние истории»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:gabbers-and-diggers-party-and-exhibition-moscow@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:Вечеринка и выставка габберов и диг
@@ -716,8 +945,31 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:exhibition-if-your-eyes-could-speak-saint-peters@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Открытие: Выставка «Если бы твои гл
+ аза умели говорить»
+LOCATION:Галерея «Мастер»\, Санкт-Петербург
+DESCRIPTION:Совместная выставка живописи и х
+ удожественной фотографии\, исследующая 
+ разные ракурсы восприятия мира через эм
+ оционально выразительные визуальные ра
+ боты.\nГалерея «Мастер»\, проект «Если бы
+  Арт»\nhttps://eslibyart.ru
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-if-your-eyes-co
+ uld-speak-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка «Если бы твои 
+ глаза умели говорить»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:exhibition-in-the-imaginary-country-saint-peters@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:Последний день: Выставка «В воображ
@@ -740,7 +992,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:perm-drugie-krugi-barskaya-nechernyy-kvadrat@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Последний день: Анна Барская. «Нечё
@@ -763,7 +1015,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-n-o-rma-moscow@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261229
 DTEND;VALUE=DATE:20261230
 SUMMARY:Последний день: Выставка «Н.О.РМА»
@@ -784,7 +1036,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:folds-group-exhibition-moscow@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:Последний день: Коллективная выста
@@ -811,7 +1063,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pop-up-project-morning-diplopia-saint-peters@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
 SUMMARY:Последний день: Pop-up проект «Утренне
@@ -834,7 +1086,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:objects-and-states-exhibition-moscow@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Открытие: Выставка «Объекты и состо
@@ -858,7 +1110,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:shift-of-coordinates-moscow@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261116
 SUMMARY:Смена координат
@@ -881,7 +1133,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:david-berezin-s-exhibition-scribbles-little-scribbles-st-petersbur@af
  isha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Последний день: Выставка Давида Бер
@@ -905,7 +1157,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:samara-victoria-idite-po-moemu-sledu@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
 SUMMARY:Последний день: «Идите по моему сле
@@ -930,7 +1182,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ekb-galereya11-savenko@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:Анастасия Савенко. «Временно стаби
@@ -952,7 +1204,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:punctuation-mark-placement-saint-peters@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Последний день: Постановка знака
@@ -972,7 +1224,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wild-stones-moscow@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Последний день: Дикие камни
@@ -993,7 +1245,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:krsk-ploshchad-mira-pozdeev-antologiya@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20270216
 DTEND;VALUE=DATE:20270217
 SUMMARY:Последний день: «Антология». Андрей
@@ -1015,8 +1267,31 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:handle-with-care-group-project-moscow@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Групповой проект «Обращаться остор
+ ожно»
+LOCATION:Галерея АРТЗИП\, ЦСИ Винзавод\, 4-й С
+ ыромятнический пер.\, 1/8\, Москва
+DESCRIPTION:Выставка\, посвященная исследова
+ нию перемен и переосмыслению повседнев
+ ности в преддверии официального открыт
+ ия новой площадки.\nГрупповая выставка\nh
+ ttps://t.me/artzip_gallery/9866
+URL:https://doublebasskakov.github.io/radar/#e=handle-with-care-group-pro
+ ject-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Групповой проект «Обращаться ост
+ орожно»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:rnd-step-asian-vanguard@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261201
 SUMMARY:Российская международная выставка 
@@ -1039,7 +1314,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-reflections-of-beauty-moscow@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:Открытие: Выставка «Отражения крас
@@ -1062,7 +1337,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:spb-tretye-mesto-nevyrazimoe@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Открытие: «Невыразимое. Заметки об 
@@ -1085,7 +1360,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mise-en-abyme-exhibition-ufa@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Открытие: Выставка «Мизанабим»
@@ -1105,7 +1380,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:n-o-rma-moscow@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261229
 DTEND;VALUE=DATE:20261230
 SUMMARY:Последний день: Н.О.РМА
@@ -1124,7 +1399,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:model-range-nizhny-novgo@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Последний день: Модельный ряд
@@ -1144,8 +1419,28 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:planet-tchaikovsky-exhibition-chengdu@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Выставка «Планета Чайковский»
+LOCATION:Музей музыки и интеллектуальных те
+ хнологий\, Чэнду
+DESCRIPTION:Выставочный проект Российского н
+ ационального музея музыки\, посвященный
+  жизни и творчеству великого композитор
+ а.\n\nhttps://t.me/orpheusradio/51523
+URL:https://doublebasskakov.github.io/radar/#e=planet-tchaikovsky-exhibit
+ ion-chengdu
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выставка «Планета Чайковский»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:spb-stantsiya-gorbunov-imago@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Открытие: Андрей Горбунов. IMAGO
@@ -1166,7 +1461,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:spb-gisich-alekseeva@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Открытие: Марина Алексеева. Выставк
@@ -1187,7 +1482,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:crushed-holiday-moscow@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261117
 SUMMARY:Раздавленный праздник
@@ -1207,7 +1502,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:spb-parazit-naydeno-v-kapuste@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261208
 DTEND;VALUE=DATE:20261209
 SUMMARY:Последний день: «Найдено в капусте»
@@ -1230,7 +1525,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:arsenal-leger@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
 SUMMARY:Последний день: Фернан Леже. Формул
@@ -1251,7 +1546,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:msk-mmoma-nishatova@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:Последний день: Мила Нишатова. «Ино
@@ -1273,7 +1568,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:spb-didi-pletnev-labirint@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Последний день: Павел Плетнёв. «Лаб
@@ -1293,7 +1588,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:spb-sobo-veselovskaya@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:Последний день: Катерина Веселовск
@@ -1314,7 +1609,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pavel-pletnev-s-exhibition-pavel-s-labyrinth-saint-peters@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Открытие: Выставка Павла Плетнёва «
@@ -1335,8 +1630,31 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:collaboration-time-to-celebrate-moscow@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Открытие: Коллаборация «Время отме
+ чать»
+LOCATION:Eggsellent\, ул. Большая Садовая\, 5\, корп.
+  1\, Москва
+DESCRIPTION:Интерактивная игра по поиску цве
+ тов и фактур в честь десятилетия Музея р
+ усского импрессионизма.\nМузей русского
+  импрессионизма\, Eggsellent\nhttps://t.me/futuro_gallery/2
+ 854
+URL:https://doublebasskakov.github.io/radar/#e=collaboration-time-to-cele
+ brate-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Коллаборация «Время от
+ мечать»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:spb-street-art-storage-tekstotsentrichnost@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20270113
 DTEND;VALUE=DATE:20270114
 SUMMARY:Последний день: «Текстоцентричност
@@ -1359,7 +1677,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:artzip-voinar@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:Последний день: Евгения Войнар. Ина
@@ -1381,7 +1699,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:msk-vmdpni-frolova-skazochnye-miry@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:«Сказочные миры» с Сашей Фроловой
@@ -1401,8 +1719,28 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:and-i-see-again-a-family-of-friends-saint-peters@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:И вижу вновь семью друзей
+LOCATION:Музей-усадьба Г. Р. Державина\, наб. 
+ реки Фонтанки\, 118\, Санкт-Петербург
+DESCRIPTION:Выставка портретов юного Пушкина
+  и его товарищей\, посвященная лицейском
+ у периоду жизни поэта.\n\nhttps://t.me/orpheusradio/515
+ 11
+URL:https://doublebasskakov.github.io/radar/#e=and-i-see-again-a-family-o
+ f-friends-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:И вижу вновь семью друзей
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:msk-mmoma-rukhin@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Последний день: «Рухин. Шаг в беспре
@@ -1422,7 +1760,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:msk-maslovka-zhenskie-strasti@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20270314
 DTEND;VALUE=DATE:20270315
 SUMMARY:Последний день: «Женские страсти»
@@ -1443,8 +1781,50 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:alexander-tsikarishvili-medea-saint-peters@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Открытие: Александр Цикаришвили «М
+ едея»
+LOCATION:Третье место\, Литейный пр.\, 62\, Санк
+ т-Петербург
+DESCRIPTION:Работа художника представлена в 
+ рамках кураторского проекта об одиноче
+ стве «Невыразимое».\nАлександр Цикаришв
+ или\nhttps://t.me/sobogallery/2142
+URL:https://doublebasskakov.github.io/radar/#e=alexander-tsikarishvili-me
+ dea-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Александр Цикаришвили 
+ «Медея»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:exhibition-dialogue-moscow@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Выставка «Диалог»
+LOCATION:Место быть\, ул. Мясницкая\, 13\, стр. 20
+ \, Москва
+DESCRIPTION:Совместный проект известных совр
+ еменных художников и авторов с ментальн
+ ыми особенностями.\nИван Горшков\, Слава 
+ Нестеров\, Игорь Самолет и др.\nhttps://t.me/futur
+ o_gallery/2854
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-dialogue-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выставка «Диалог»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:des-esseintes-blue-glow@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261230
 DTEND;VALUE=DATE:20261231
 SUMMARY:Последний день: Сквозь голубое свеч
@@ -1464,7 +1844,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:spb-gisich-begalskaya-vilkin-allokhoriya@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Последний день: Вика Бегальская и А
@@ -1485,7 +1865,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ekb-generations-innovators@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Последний день: Поколения новаторо
@@ -1506,7 +1886,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:msk-muzey-az-territoriya-svobody@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 SUMMARY:Открытие: «Территория свободы. Нонк
@@ -1529,7 +1909,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:incomplete-collected-works-moscow@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Последний день: Неполное собрание с
@@ -1550,7 +1930,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:64-photographs-exhibition-moscow@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:Выставка «64 фотографии»
@@ -1569,7 +1949,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:spb-parazit-tsementa-3@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Последний день: «Цемента III: Ноги в т
@@ -1590,10 +1970,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rnd-culture-temperatura-pamyati@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
-SUMMARY:«Температура памяти. Лето внутри»
+SUMMARY:Открытие: «Температура памяти. Лето
+  внутри»
 LOCATION:Галерея CULTURE\, Ростов-на-Дону
 DESCRIPTION:Проект о течении времени\, где лет
  о понимается как внутреннее состояние.\n
@@ -1603,14 +1984,33 @@ URL:https://doublebasskakov.github.io/radar/#e=rnd-culture-temperatura-pa
  myati
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:«Температура памяти. Лето внутри
- »
+DESCRIPTION:Открытие: «Температура памяти. Ле
+ то внутри»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:place-for-games-graffiti-project-moscow@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Граффити-проект «Место для игр»
+LOCATION:Галерея НЕТСТЕН\, вдоль ж/д Курског
+ о вокзала\, Москва
+DESCRIPTION:Обновленная экспозиция стрит-арт
+ а на стене вдоль железнодорожных путей.\
+ nУличные художники\nhttps://t.me/futuro_gallery/2854
+URL:https://doublebasskakov.github.io/radar/#e=place-for-games-graffiti-p
+ roject-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Граффити-проект «Место для игр»
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:erarta-ponomarenko@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Открытие: Виктор Пономаренко. Наблю
@@ -1631,7 +2031,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:erarta-robino@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Открытие: Массимилиано Робино. Урок
@@ -1652,7 +2052,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:spb-erarta-saunin@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Последний день: Денис Саунин. «Слон 
@@ -1672,7 +2072,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:vld-zarya-na-nozhkakh@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20270411
 DTEND;VALUE=DATE:20270412
 SUMMARY:Последний день: «На ножках»
@@ -1693,8 +2093,56 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:vadim-mikhailov-bylyem-poroslo-saint-peters@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Открытие: Вадим Михайлов «Быльем по
+ росло»
+LOCATION:MYTH Gallery\, ул. Чайковского\, 61\, Санкт-П
+ етербург
+DESCRIPTION:Исследование детских воспоминан
+ ий об уральском поселке через свободные
+  художественные практики и ностальгиче
+ ские образы.\nВадим Михайлов\nhttps://t.me/mythgal
+ lery/4783
+URL:https://doublebasskakov.github.io/radar/#e=vadim-mikhailov-bylyem-por
+ oslo-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Вадим Михайлов «Быльем 
+ поросло»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:exhibition-and-competition-ostozhenka-yesterday-today-tomorr-moscow@a
+ fisha-art
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261221
+SUMMARY:Выставка-конкурс «Остоженка: вчера\
+ , сегодня\, завтра»
+LOCATION:Инфопространство\, 1-й Зачатьевский
+  пер.\, 4\, Москва
+DESCRIPTION:Экспозиция в рамках городского п
+ роекта\, объединяющая реалистические\, и
+ сторические и футуристические художест
+ венные интерпретации улицы Остоженка и 
+ ее знаковых архитектурных объектов.\nПр
+ оект «АРТ-ОСТОЖЕНКА»\nhttps://art-ostozhenka.ru/konkurs
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-and-competition
+ -ostozhenka-yesterday-today-tomorr-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выставка-конкурс «Остоженка: вче
+ ра\, сегодня\, завтра»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:tomsk-kabinet-flora-sibiri@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:Последний день: «Флора Сибири: худо
@@ -1717,7 +2165,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:msk-1112-muratov@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Последний день: Дамир Муратов. «Неп
@@ -1738,7 +2186,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:msk-netsten-mesto-dlya-igr@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20270401
 DTEND;VALUE=DATE:20270402
 SUMMARY:Последний день: «Место для игр»
@@ -1757,7 +2205,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:msk-futuro-buravlev-bolshoy-vsplesk@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Последний день: Евгений Буравлёв. «
@@ -1779,7 +2227,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:msk-iks-el-sapozhnikov-10-26@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Последний день: Сергей Сапожников. 
@@ -1801,7 +2249,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:vld-zarya-anna-bat-far-red@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:Последний день: Анна Бат. Far Red
@@ -1820,7 +2268,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:msk-winzavod-eksperiment-neprisnivsheesya-zavtra@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Последний день: «Неприснившееся за
@@ -1841,7 +2289,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:kgd-tretyakov-tochka-i-liniya@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20270328
 DTEND;VALUE=DATE:20270329
 SUMMARY:Последний день: «Точка и линия»
@@ -1861,7 +2309,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:msk-ovcharenko-dolyanovsky-relaps@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:Последний день: Михаил Доляновский.
@@ -1882,7 +2330,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:msk-totibadze-yarin@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:Последний день: Юрий Ярин. «Место\, г

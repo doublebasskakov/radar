@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:one-hundred-years-of-fashion-exhibition-omsk@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Выставка «Сто лет моды»
+LOCATION:Центр «Эрмитаж-Сибирь»\, ул. Музейн
+ ая\, 4\, Омск
+DESCRIPTION:Экспозиция костюмов из собрания 
+ Государственного Эрмитажа\, демонстрир
+ ующая отражение глобальных перемен XX ве
+ ка в одежде.\n\nhttps://t.me/orpheusradio/51516
+URL:https://doublebasskakov.github.io/radar/#e=one-hundred-years-of-fashi
+ on-exhibition-omsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выставка «Сто лет моды»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

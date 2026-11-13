@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:zloba-moscow@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART:20261113T200000Z
+DTEND:20261113T220000Z
+SUMMARY:Zloba
+LOCATION:Rndm\, Наставнический пер.\, 13/15\, стр. 3\
+ , Москва
+DESCRIPTION:Вечер экспрессивной электроники\
+ , посвященный выплеску подавленных эмоц
+ ий через звук.\n\nhttps://t.me/dancingalone/36992
+URL:https://doublebasskakov.github.io/radar/#e=zloba-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Zloba
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

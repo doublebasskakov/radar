@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:hse-art-gallery-at-catalog-art-fair-moscow@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261123
+SUMMARY:Стенд Галереи Школы дизайна НИУ ВШЭ
+  на ярмарке |catalog|
+LOCATION:ЖК «Золотой»\, Софийская наб.\, 10\, Мо
+ сква
+DESCRIPTION:Исследование диалога между молод
+ ыми авторами и коллекционерами\, дополн
+ енное специальной зоной саунд-арта со с
+ туденческими работами.\nДарья Бражников
+ а\, Полина Вайнер\, Агата Гафарова и др.\nht
+ tps://t.me/hseartgallery/4850
+URL:https://doublebasskakov.github.io/radar/#e=hse-art-gallery-at-catalog
+ -art-fair-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Стенд Галереи Школы дизайна НИУ В
+ ШЭ на ярмарке |catalog|
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

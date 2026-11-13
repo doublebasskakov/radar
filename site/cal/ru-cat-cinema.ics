@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:special-screening-of-the-film-scenes-from-capital-moscow@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART:20261115T140000Z
 DTEND:20261115T160000Z
 SUMMARY:Спецпоказ фильма «Сцены из "Капитал
@@ -32,7 +32,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:special-screening-a-small-fact-moscow@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART:20261121T150000Z
 DTEND:20261121T170000Z
 SUMMARY:Спецпоказ. Маленький факт
@@ -46,6 +46,423 @@ URL:https://doublebasskakov.github.io/radar/#e=special-screening-a-small-
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Спецпоказ. Маленький факт
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fifth-film-apartment-gathering-of-the-kommunalka-film-club-moscow@afi
+ sha-art
+DTSTAMP:20261113T152152Z
+DTSTART:20261119T160000Z
+DTEND:20261119T180000Z
+SUMMARY:Пятый Киноквартирник киноклуба «Ко
+ ммуналка»
+LOCATION:Киноклуб «Коммуналка»\, Старая Бас
+ манная ул.\, 12с2\, Москва
+DESCRIPTION:Камерный показ короткометражных 
+ игровых\, документальных и эксперимента
+ льных фильмов с возможностью обсуждени
+ я с авторами в уютной обстановке.\nNone\nhttps
+ ://t.me/kinoartru/13880
+URL:https://doublebasskakov.github.io/radar/#e=fifth-film-apartment-gathe
+ ring-of-the-kommunalka-film-club-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Пятый Киноквартирник киноклуба «
+ Коммуналка»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:screening-the-fantasies-of-faryatyev-moscow@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART:20261119T161500Z
+DTEND:20261119T181500Z
+SUMMARY:Кинопоказ «Фантазии Фарятьева»
+LOCATION:Центр Зотов\, Ходынская ул.\, 2\, стр. 1
+ \, Москва
+DESCRIPTION:Показ драмы Ильи Авербаха о роман
+ тическом герое в поисках смысла в рамка
+ х тематической кинопрограммы.\nАндрей М
+ иронов\nhttps://t.me/centrezotov/10346
+URL:https://doublebasskakov.github.io/radar/#e=screening-the-fantasies-of
+ -faryatyev-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Кинопоказ «Фантазии Фарятьева»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:screening-of-nevechernaya-and-discussion-with-the-authors-moscow@afis
+ ha-art
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Показ фильма «Невечерняя» и обсужд
+ ение с авторами
+LOCATION:КАРО/Арт\, Москва
+DESCRIPTION:В рамках проекта КАРО/Арт состоит
+ ся показ фильма Марлена Хуциева «Невече
+ рняя»\, после которого пройдет обсужден
+ ие с известными киноведами и кинематогр
+ афистами.\nМарлен Хуциев\, Наум Клейман\, 
+ Али Хамраев\, Андрей Натоцинский\, Глеб П
+ ирятинский\, Максим Павлов\nhttps://t.me/kinoartru/
+ 13877
+URL:https://doublebasskakov.github.io/radar/#e=screening-of-nevechernaya-
+ and-discussion-with-the-authors-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильма «Невечерняя» и обсу
+ ждение с авторами
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:luchino-visconti-retrospective-senso-moscow@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Ретроспектива Лукино Висконти: «Чу
+ вство»
+LOCATION:Третьяковская галерея\, Клементовс
+ кий переулок\, 14\, Москва
+DESCRIPTION:В Третьяковской галерее в рамках 
+ ретроспективы к 120-летию Лукино Висконт
+ и покажут картину «Чувство» 1954 года.\nЛу
+ кино Висконти\nhttps://t.me/kinoartru/13879
+URL:https://doublebasskakov.github.io/radar/#e=luchino-visconti-retrospec
+ tive-senso-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ретроспектива Лукино Висконти: «
+ Чувство»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:luchino-visconti-retrospective-the-innocent-moscow@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Ретроспектива Лукино Висконти: «Не
+ винный»
+LOCATION:Третьяковская галерея\, Клементовс
+ кий переулок\, 14\, Москва
+DESCRIPTION:Третьяковская галерея завершает 
+ ноябрьскую программу показов к юбилею Л
+ укино Висконти лентой «Невинный» (1976).\nЛ
+ укино Висконти\nhttps://t.me/kinoartru/13879
+URL:https://doublebasskakov.github.io/radar/#e=luchino-visconti-retrospec
+ tive-the-innocent-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ретроспектива Лукино Висконти: «
+ Невинный»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mayak-2026-film-festival-screenings-saint-peters@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Показы фестиваля актуального кино 
+ «Маяк 2026»
+LOCATION:Новая Голландия\, пространство «Со
+ общество»\, набережная Адмиралтейского 
+ канала\, 2\, Санкт-Петербург
+DESCRIPTION:Серия показов фильмов-участников
+  и лауреатов фестиваля современного рос
+ сийского кино «Маяк».\n\nhttps://t.me/orpheusradio/5151
+ 4
+URL:https://doublebasskakov.github.io/radar/#e=mayak-2026-film-festival-s
+ creenings-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показы фестиваля актуального кин
+ о «Маяк 2026»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:luchino-visconti-retrospective-white-nights-moscow@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:Ретроспектива Лукино Висконти: «Бе
+ лые ночи»
+LOCATION:Третьяковская галерея\, Клементовс
+ кий переулок\, 14\, Москва
+DESCRIPTION:Показ классического фильма Лукин
+ о Висконти «Белые ночи» (1957) в Третьяков
+ ской галерее.\nЛукино Висконти\nhttps://t.me/kin
+ oartru/13879
+URL:https://doublebasskakov.github.io/radar/#e=luchino-visconti-retrospec
+ tive-white-nights-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ретроспектива Лукино Висконти: «
+ Белые ночи»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:screening-of-we-don-t-meet-and-meeting-with-the-authors-moscow@afisha
+ -art
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Показ фильма «Мы не знакомимся» и в
+ стреча с авторами
+LOCATION:Третьяковская галерея\, Клементовс
+ кий переулок\, 14\, Москва
+DESCRIPTION:В Третьяковской галерее пройдет 
+ показ документальной ленты Юлии Гусько
+ вой о жизни столичной молодежи\, после к
+ оторого зрители смогут обсудить фильм с
+  режиссером и главным героем.\nЮлия Гусь
+ кова\, Глеб\nhttps://t.me/kinoartru/13870
+URL:https://doublebasskakov.github.io/radar/#e=screening-of-we-don-t-meet
+ -and-meeting-with-the-authors-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильма «Мы не знакомимся» и
+  встреча с авторами
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:screening-of-snow-is-falling-as-part-of-the-mayak-festival-e-saint-pe
+ ters@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261116
+SUMMARY:Показ фильма «Падает снег» в рамках
+  эха фестиваля «Маяк»
+LOCATION:Новая Голландия\, набережная Адмир
+ алтейского канала\, 2\, Санкт-Петербург
+DESCRIPTION:В Новой Голландии покажут програ
+ мму фильмов-участников недавнего киноф
+ естиваля «Маяк»\, еще не вышедших в широ
+ кий прокат\, включая картину Евгении Гро
+ мовой.\nЕвгения Громова\nhttps://t.me/kinoartru/13872
+URL:https://doublebasskakov.github.io/radar/#e=screening-of-snow-is-falli
+ ng-as-part-of-the-mayak-festival-e-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильма «Падает снег» в рамк
+ ах эха фестиваля «Маяк»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:special-screening-of-bridget-jones-s-diary-moscow@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:Специальный показ фильма «Дневник 
+ Бриджит Джонс»
+LOCATION:Киноцентр «Октябрь»\, ул. Новый Арб
+ ат\, 24\, Москва
+DESCRIPTION:Специальный показ отреставриров
+ анной версии культовой романтической к
+ омедии в киноцентре «Октябрь» при подде
+ ржке проекта КАРО/АРТ.\nNone\nhttps://t.me/kinoartru/13
+ 881
+URL:https://doublebasskakov.github.io/radar/#e=special-screening-of-bridg
+ et-jones-s-diary-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Специальный показ фильма «Дневни
+ к Бриджит Джонс»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:screening-illusion-of-reality-echo-of-the-message-to-man-fes-moscow@a
+ fisha-art
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Сеанс «Иллюзия реальности» (эхо фес
+ тиваля «Послание к человеку»)
+LOCATION:Музей «Гараж»\, Крымский Вал\, 9\, стр
+ . 32\, Москва
+DESCRIPTION:В Музее «Гараж» в рамках программ
+ ы эха фестиваля «Послание к человеку» п
+ окажут девять короткометражных экспери
+ ментальных фильмов.\nNone\nhttps://t.me/kinoartru/13873
+URL:https://doublebasskakov.github.io/radar/#e=screening-illusion-of-real
+ ity-echo-of-the-message-to-man-fes-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Сеанс «Иллюзия реальности» (эхо ф
+ естиваля «Послание к человеку»)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:screening-of-the-competition-program-of-the-message-to-man-f-moscow@a
+ fisha-art
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Показ конкурсной программы фестива
+ ля «Послание к человеку»
+LOCATION:Музей «Гараж»\, Крымский Вал\, 9\, стр
+ . 32\, Москва
+DESCRIPTION:Второй день показов эха фестивал
+ я «Послание к человеку» в Музее «Гараж» 
+ познакомит зрителей с работами из конку
+ рсной программы.\nАлексей Суховей\, Стас
+ я Хомерики-Гранковская\, Анастасия Прас
+ олова\nhttps://t.me/kinoartru/13873
+URL:https://doublebasskakov.github.io/radar/#e=screening-of-the-competiti
+ on-program-of-the-message-to-man-f-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ конкурсной программы фести
+ валя «Послание к человеку»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:screening-of-malika-as-part-of-the-mayak-festival-echo-saint-peters@a
+ fisha-art
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261116
+SUMMARY:Показ фильма «Малика» в рамках эха 
+ фестиваля «Маяк»
+LOCATION:Новая Голландия\, набережная Адмир
+ алтейского канала\, 2\, Санкт-Петербург
+DESCRIPTION:Показ обладателя Гран-при фестив
+ аля «Маяк» — картины Натальи Уваровой 
+ — в пространстве «Новая Голландия».\nНа
+ талья Уварова\nhttps://t.me/kinoartru/13872
+URL:https://doublebasskakov.github.io/radar/#e=screening-of-malika-as-par
+ t-of-the-mayak-festival-echo-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильма «Малика» в рамках эх
+ а фестиваля «Маяк»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:screening-of-three-works-from-the-message-to-man-festival-pr-moscow@a
+ fisha-art
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Показ трех работ программы фестива
+ ля «Послание к человеку»
+LOCATION:Музей «Гараж»\, Крымский Вал\, 9\, стр
+ . 32\, Москва
+DESCRIPTION:В Музее «Гараж» завершаются пока
+ зы эха фестиваля «Послание к человеку» 
+ сеансом из трех авторских картин.\nЕвген
+ ия Арбугаева\, Женя Казанкина\, Иван Бойк
+ о\nhttps://t.me/kinoartru/13873
+URL:https://doublebasskakov.github.io/radar/#e=screening-of-three-works-f
+ rom-the-message-to-man-festival-pr-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ трех работ программы фести
+ валя «Послание к человеку»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:screening-of-frost-as-part-of-the-mayak-festival-echo-saint-peters@af
+ isha-art
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261116
+SUMMARY:Показ фильма «Мороз» в рамках эха ф
+ естиваля «Маяк»
+LOCATION:Новая Голландия\, набережная Адмир
+ алтейского канала\, 2\, Санкт-Петербург
+DESCRIPTION:Жители и гости Санкт-Петербурга с
+ могут увидеть работу Семена Серзина в п
+ рограмме фестивальных премьер.\nСемен С
+ ерзин\nhttps://t.me/kinoartru/13872
+URL:https://doublebasskakov.github.io/radar/#e=screening-of-frost-as-part
+ -of-the-mayak-festival-echo-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильма «Мороз» в рамках эха
+  фестиваля «Маяк»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:screening-of-golem-as-part-of-the-mayak-festival-echo-saint-peters@af
+ isha-art
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261116
+SUMMARY:Показ фильма «Голем» в рамках эха ф
+ естиваля «Маяк»
+LOCATION:Новая Голландия\, набережная Адмир
+ алтейского канала\, 2\, Санкт-Петербург
+DESCRIPTION:В Новой Голландии в рамках показо
+ в с фестиваля «Маяк» можно будет увидет
+ ь ленту Александра Котта.\nАлександр Кот
+ т\nhttps://t.me/kinoartru/13872
+URL:https://doublebasskakov.github.io/radar/#e=screening-of-golem-as-part
+ -of-the-mayak-festival-echo-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильма «Голем» в рамках эха
+  фестиваля «Маяк»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:screening-of-vanya-as-part-of-the-mayak-festival-echo-saint-peters@af
+ isha-art
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261116
+SUMMARY:Показ фильма «Ваня» в рамках эха фе
+ стиваля «Маяк»
+LOCATION:Новая Голландия\, набережная Адмир
+ алтейского канала\, 2\, Санкт-Петербург
+DESCRIPTION:Показ отмеченной множеством нагр
+ ад картины Клавдии Коршуновой в петербу
+ ргской Новой Голландии.\nКлавдия Коршун
+ ова\nhttps://t.me/kinoartru/13872
+URL:https://doublebasskakov.github.io/radar/#e=screening-of-vanya-as-part
+ -of-the-mayak-festival-echo-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильма «Ваня» в рамках эха 
+ фестиваля «Маяк»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:macca-friends-animated-series-premiere-online@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Премьера анимационного сериала Macca 
+ & Friends
+LOCATION:Rockstar Games Platforms\, Онлайн
+DESCRIPTION:Релиз анимационного проекта от с
+ оздателей GTA VI\, посвященного приключени
+ ям аллигатора Макки в цифровом простран
+ стве штата Леонида.\nRockstar Games\nhttps://t.me/technom
+ otel/25372
+URL:https://doublebasskakov.github.io/radar/#e=macca-friends-animated-ser
+ ies-premiere-online
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Премьера анимационного сериала Ma
+ cca & Friends
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

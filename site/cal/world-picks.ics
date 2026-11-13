@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:grm-bozar-acousmonium-2027@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART:20270127T183000Z
 DTEND:20270127T203000Z
 SUMMARY:INA GRM: Акусмониум в Bozar
@@ -27,7 +27,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ircam-klangforum-saint-eustache@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART:20261130T190000Z
 DTEND:20261130T210000Z
 SUMMARY:Klangforum Wien × IRCAM
@@ -46,7 +46,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ircam-explosante-fixe-2027@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART:20270113T190000Z
 DTEND:20270113T210000Z
 SUMMARY:Булез: «…explosante-fixe…»
@@ -64,21 +64,21 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ina-grm-pre-sences-e-lectronique-1-paris@afisha-art
-DTSTAMP:20261113T144626Z
+UID:ina-grm-pre-sences-electronic-1-paris@afisha-art
+DTSTAMP:20261113T152152Z
 DTSTART:20270219T193000Z
 DTEND:20270219T213000Z
 SUMMARY:INA grm / PRÉSENCES électronique #1
 LOCATION:Maison de la Radio et de la Musique - Studio 104\, 116 avenue du
   Président Kennedy\, 75016 Paris\, Париж\, Франция
-DESCRIPTION:Первый вечер 22-го фестиваля PRÉSENCES
-  électronique. Участники: Thomas Tilly\; Feronia Wennborg & Luc
- y Duncombe\; Chris Corsano & Carlos Giffoni\; Emptyset. Звук чере
- з Acousmonium\, оркестр громкоговорителей INA GR
- M.\nINA GRM\nhttps://www.maisondelaradioetdelamusique.fr/evenement/ina-gr
- m-presences-electronique-1-3
-URL:https://doublebasskakov.github.io/radar/#e=ina-grm-pre-sences-e-lectr
- onique-1-paris
+DESCRIPTION:Фестиваль PRÉSENCES électronique\, 22-е изда
+ ние. Программа концерта: Thomas Tilly\; Feronia Wennb
+ org & Lucy Duncombe\; Chris Corsano & Carlos Giffoni\; Emptyset. Звук
+  через Acousmonium (оркестр громкоговорителе
+ й INA GRM). Билеты от 6 до 12 €.\nINA GRM\nhttps://www.maiso
+ ndelaradioetdelamusique.fr/evenement/ina-grm-presences-electronique-1-3
+URL:https://doublebasskakov.github.io/radar/#e=ina-grm-pre-sences-electro
+ nic-1-paris
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:INA grm / PRÉSENCES électronique #1
@@ -86,40 +86,21 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:death-by-sun-berlin@afisha-art
-DTSTAMP:20261113T144626Z
-DTSTART:20270128T180000Z
-DTEND:20270128T200000Z
-SUMMARY:Death by Sun
-LOCATION:HAU\, Берлин\, Германия
-DESCRIPTION:Перформанс мультидисциплинарног
- о художника Тяньчжо Чэня о солнце как це
- нтре путешествия через мифологию\, техн
- ологии и спорные перспективы солнечной 
- энергетики. Партнёрская программа transmedi
- ale.\nTianzhuo Chen\nhttps://transmediale.de/en/festival
-URL:https://doublebasskakov.github.io/radar/#e=death-by-sun-berlin
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Death by Sun
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:ina-grm-pre-sences-e-lectronique-2-paris@afisha-art
-DTSTAMP:20261113T144626Z
+UID:ina-grm-pre-sences-electronic-2-paris@afisha-art
+DTSTAMP:20261113T152152Z
 DTSTART:20270220T193000Z
 DTEND:20270220T213000Z
 SUMMARY:INA grm / PRÉSENCES électronique #2
 LOCATION:Maison de la Radio et de la Musique - Studio 104\, 116 avenue du
   Président Kennedy\, 75016 Paris\, Париж\, Франция
-DESCRIPTION:Второй вечер фестиваля PRÉSENCES électr
- onique. Участники: Eve Aboulkheir\; Yann Gourdon\; Augustė Vick
- unaitė\; Alex Zhang Hungtai\; Clarice Jensen. Звук через Acousm
- onium INA GRM.\nINA GRM\nhttps://www.maisondelaradioetdelamusique.fr/even
- ement/ina-grm-presences-electronique-2-3
-URL:https://doublebasskakov.github.io/radar/#e=ina-grm-pre-sences-e-lectr
- onique-2-paris
+DESCRIPTION:Фестиваль PRÉSENCES électronique\, 22-е изда
+ ние. Программа концерта: Eve Aboulkheir\; Yann Gourdo
+ n\; Augustė Vickunaitė\; Alex Zhang Hungtai\; Clarice Jensen. Звук 
+ через Acousmonium. Билеты от 6 до 12 €.\nINA GRM\nhttps:
+ //www.maisondelaradioetdelamusique.fr/evenement/ina-grm-presences-electro
+ nique-2-3
+URL:https://doublebasskakov.github.io/radar/#e=ina-grm-pre-sences-electro
+ nic-2-paris
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:INA grm / PRÉSENCES électronique #2
@@ -127,20 +108,20 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ina-grm-pre-sences-e-lectronique-3-paris@afisha-art
-DTSTAMP:20261113T144626Z
+UID:ina-grm-pre-sences-electronic-3-paris@afisha-art
+DTSTAMP:20261113T152152Z
 DTSTART:20270221T170000Z
 DTEND:20270221T190000Z
 SUMMARY:INA grm / PRÉSENCES électronique #3
 LOCATION:Maison de la Radio et de la Musique - Studio 104\, 116 avenue du
   Président Kennedy\, 75016 Paris\, Париж\, Франция
-DESCRIPTION:Третий вечер фестиваля PRÉSENCES électr
- onique. Участники: Tomoko Sauvage\; KMRU\; Andrea Neuman & Mads 
- Emil Nielsen\; Robert Aiki Aubrey Lowe. Звук через Acousmonium I
- NA GRM.\nINA GRM\nhttps://www.maisondelaradioetdelamusique.fr/tag/presenc
- es-electronique-2027
-URL:https://doublebasskakov.github.io/radar/#e=ina-grm-pre-sences-e-lectr
- onique-3-paris
+DESCRIPTION:Фестиваль PRÉSENCES électronique\, 22-е изда
+ ние. Программа концерта: Tomoko Sauvage\; KMRU\; Andr
+ ea Neuman & Mads Emil Nielsen\; Robert Aiki Aubrey Lowe. Звук чер
+ ез Acousmonium. Билеты от 6 до 12 €.\nINA GRM\nhttps://www.
+ maisondelaradioetdelamusique.fr/tag/presences-electronique-2027
+URL:https://doublebasskakov.github.io/radar/#e=ina-grm-pre-sences-electro
+ nic-3-paris
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:INA grm / PRÉSENCES électronique #3
@@ -148,215 +129,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:vi-ddir-berlin@afisha-art
-DTSTAMP:20261113T144626Z
-DTSTART:20270129T190000Z
-DTEND:20270129T210000Z
-SUMMARY:Víddir
-LOCATION:Gedächtniskirche\, Берлин\, Германия
-DESCRIPTION:Работа Bára Gísladóttir с ансамблем\; ра
- нее объявлялась в сотрудничестве с Deutsche
-  Oper Berlin\, место по программе RA.\nBára Gísladótti
- r & ensemble\nhttps://www.ctm-festival.de/news/ctm-2027-festival-save-the
- -date
-URL:https://doublebasskakov.github.io/radar/#e=vi-ddir-berlin
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Víddir
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:syysma-opening-club-night-berlin@afisha-art
-DTSTAMP:20261113T144626Z
-DTSTART:20270122T210000Z
-DTEND:20270122T230000Z
-SUMMARY:Syysma / Opening Club Night
-LOCATION:Berghain | Panorama Bar | Säule\, Берлин\, Германи
- я
-DESCRIPTION:Клубная ночь открытия CTM 2027 с неск
- олькими диджеями и живыми выступлениям
- и.\nNZIRIA\; A.N.I.\; Evil Grimace\; Kontronatura b2b Debit\; Javier Are
- al Vélez\nhttps://www.ctm-festival.de/festival-2027/tickets
-URL:https://doublebasskakov.github.io/radar/#e=syysma-opening-club-night-
- berlin
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Syysma / Opening Club Night
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:the-time-between-us-berlin@afisha-art
-DTSTAMP:20261113T144626Z
-DTSTART:20270127T180000Z
-DTEND:20270127T200000Z
-SUMMARY:The Time Between Us
-LOCATION:Radialsystem\, Holzmarktstraße 33\, 10243 Berlin\, Берлин
- \, Германия
-DESCRIPTION:Импровизационный концерт ансамб
- ля с машинным обучением и сетевой средо
- й.\nStefan Schultze & Distributed Ensemble\nhttps://www.ctm-festival.de/
- news/ctm-2027-festival-save-the-date
-URL:https://doublebasskakov.github.io/radar/#e=the-time-between-us-berlin
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:The Time Between Us
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:modeselektor-mdslktr-and-guests-berlin@afisha-art
-DTSTAMP:20261113T144626Z
-DTSTART:20270124T170000Z
-DTEND:20270124T190000Z
-SUMMARY:Modeselektor »MDSLKTR and Guests«
-LOCATION:Haus der Visionäre\, Берлин\, Германия
-DESCRIPTION:Презентация нового альбома Modeselekt
- or MDSLKTR с гостями на CTM 2027.\nModeselektor\; Kabeaushé\; 
- Gudrun Gut\nhttps://www.ctm-festival.de/festival-2027/tickets
-URL:https://doublebasskakov.github.io/radar/#e=modeselektor-mdslktr-and-g
- uests-berlin
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Modeselektor »MDSLKTR and Guests«
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:transmuting-berlin@afisha-art
-DTSTAMP:20261113T144626Z
-DTSTART:20270123T210000Z
-DTEND:20270123T230000Z
-SUMMARY:Transmuting
-LOCATION:RSO.BERLIN\, Schnellerstrasse 137\, 12439 Berlin\, Берлин\
- , Германия
-DESCRIPTION:Бас-ориентированная ночь CTM 2027 с а
- удиовизуальными и live-сетами.\nDebit & biānjiè.s
- ystems\; Spekki Webu & Matti Vilho\; ABADIR & Hogir\; eid55558.55\nhttps:
- //www.ctm-festival.de/news/ctm-2027-festival-save-the-date
-URL:https://doublebasskakov.github.io/radar/#e=transmuting-berlin
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Transmuting
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:in-listening-black-ark-black-box-spectral-after-pneuma-berlin@afisha-
- art
-DTSTAMP:20261113T144626Z
-DTSTART:20270123T170000Z
-DTEND:20270123T190000Z
-SUMMARY:In Listening: Black Ark / Black Box\; Spectral (After Pneuma)
-LOCATION:silent green Kuppelhalle\, Берлин\, Германия
-DESCRIPTION:Программа In Listening в рамках CTM 2027: д
- ве работы в один вечер.\nPedro Oliveira\; Zara Julius\,
-  Larissa Johnson\, Gugulethu Duma\nhttps://www.ctm-festival.de/festival-2
- 027/tickets
-URL:https://doublebasskakov.github.io/radar/#e=in-listening-black-ark-bla
- ck-box-spectral-after-pneuma-berlin
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:In Listening: Black Ark / Black Box\; Spectral (After Pneuma)
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:flor-do-ibo-today-s-special-berlin@afisha-art
-DTSTAMP:20261113T144626Z
-DTSTART:20270122T170000Z
-DTEND:20270122T190000Z
-SUMMARY:Flor Do Ibo / Today's Special
-LOCATION:silent green Kuppelhalle\, Берлин\, Германия
-DESCRIPTION:Концертная программа CTM 2027: два се
- т-проекта в один вечер.\nMariana Carrilho\; Hanne Lippa
- rd & Renato Grieco\nhttps://www.ctm-festival.de/festival-2027/tickets
-URL:https://doublebasskakov.github.io/radar/#e=flor-do-ibo-today-s-specia
- l-berlin
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Flor Do Ibo / Today's Special
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:polygonia-simon-popp-and-more-berlin@afisha-art
-DTSTAMP:20261113T144626Z
-DTSTART:20270122T190000Z
-DTEND:20270122T210000Z
-SUMMARY:Polygonia\, Simon Popp и другие
-LOCATION:silent green Betonhalle\, Берлин\, Германия
-DESCRIPTION:Вечер CTM 2027\; состав остальных уча
- стников уточняется.\nPolygonia\; Simon Popp\nhttps://www
- .ctm-festival.de/festival-2027/tickets
-URL:https://doublebasskakov.github.io/radar/#e=polygonia-simon-popp-and-m
- ore-berlin
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Polygonia\, Simon Popp и другие
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:the-dream-has-still-not-whispered-what-to-make-of-these-mort-berlin@a
- fisha-art
-DTSTAMP:20261113T144626Z
-DTSTART:20270123T190000Z
-DTEND:20270123T210000Z
-SUMMARY:The Dream Has Still Not Whispered / What To Make Of These Mortal 
- Hands
-LOCATION:silent green Betonhalle\, Берлин\, Германия
-DESCRIPTION:Два концертных выступления в оди
- н вечер на CTM 2027.\nBilawa Respati\, Karina Utomo\, Süräle\; 
- Dis Fig\nhttps://www.ctm-festival.de/festival-2027/tickets
-URL:https://doublebasskakov.github.io/radar/#e=the-dream-has-still-not-wh
- ispered-what-to-make-of-these-mort-berlin
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:The Dream Has Still Not Whispered / What To Make Of These Mor
- tal Hands
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:cantadoras-iii-berlin@afisha-art
-DTSTAMP:20261113T144626Z
-DTSTART:20270123T190000Z
-DTEND:20270123T210000Z
-SUMMARY:Cantadoras III
-LOCATION:Deutsche Oper Berlin (Tischlerei)\, Берлин\, Герман
- ия
-DESCRIPTION:Часть многолетней серии CTM с Deutsche 
- Oper Berlin.\nSainkho Namtchylak\; HMOT\nhttps://www.ctm-festival.de/fest
- ival-2027/tickets
-URL:https://doublebasskakov.github.io/radar/#e=cantadoras-iii-berlin
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Cantadoras III
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:burning-song-berlin@afisha-art
-DTSTAMP:20261113T144626Z
-DTSTART:20270125T190000Z
-DTEND:20270125T210000Z
-SUMMARY:Burning Song
-LOCATION:Gedächtniskirche\, Берлин\, Германия
-DESCRIPTION:Концерт Kali Malone на CTM 2027\; время уто
- чняется.\nKali Malone\; Stephen O'Malley\nhttps://www.ctm-festival
- .de/news/ctm-2027-festival-save-the-date
-URL:https://doublebasskakov.github.io/radar/#e=burning-song-berlin
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Burning Song
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:berlin-biennale-14@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20270605
 DTEND;VALUE=DATE:20270606
 SUMMARY:Открытие: 14. Berlin Biennale: Central Europe Eastern Tim
@@ -381,7 +155,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sharjah-biennial-17@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20270121
 DTEND;VALUE=DATE:20270122
 SUMMARY:Открытие: Sharjah Biennial 17: What remains\, sits restiv
@@ -406,7 +180,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:documenta-16@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20270612
 DTEND;VALUE=DATE:20270613
 SUMMARY:Открытие: documenta 16
@@ -428,7 +202,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:bukhara-biennial-2027@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20270903
 DTEND;VALUE=DATE:20270904
 SUMMARY:Открытие: Bukhara Biennial 2027
@@ -451,7 +225,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:transmediale-2027@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20270128
 DTEND;VALUE=DATE:20270201
 SUMMARY:transmediale 2027: groundstates
@@ -472,7 +246,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lyon-biennale-18@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Последний день: 18e Biennale de Lyon: Passer d'un r
@@ -495,7 +269,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:guggenheim-abu-dhabi-opening@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:Открытие Guggenheim Abu Dhabi
@@ -517,7 +291,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ars-electronica-2027@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20270908
 DTEND;VALUE=DATE:20270913
 SUMMARY:Ars Electronica Festival 2027
@@ -536,7 +310,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:art-basel-2027@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20270617
 DTEND;VALUE=DATE:20270621
 SUMMARY:Art Basel 2027
@@ -555,7 +329,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ctm-festival-2027@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20270122
 DTEND;VALUE=DATE:20270123
 SUMMARY:Открытие: CTM Festival 2027
@@ -575,7 +349,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:grm-akousma-may-2027@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20270507
 DTEND;VALUE=DATE:20270510
 SUMMARY:INA GRM: Akousma & Live Electronics
@@ -595,7 +369,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:venice-biennale-arte-2026@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Последний день: Biennale Arte 2026: In Minor Keys
@@ -619,7 +393,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:istanbul-biennial-19@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20270918
 DTEND;VALUE=DATE:20270919
 SUMMARY:Открытие: 19. İstanbul Bienali
@@ -663,7 +437,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:venice-biennale-architettura-2027@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20270508
 DTEND;VALUE=DATE:20270509
 SUMMARY:Открытие: Biennale Architettura 2027: Do Architecture
@@ -705,7 +479,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:stedelijk-yayoi-kusama@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
 SUMMARY:Последний день: Yayoi Kusama
@@ -726,7 +500,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:moma-brancusi@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20270227
 DTEND;VALUE=DATE:20270228
 SUMMARY:Последний день: Brancusi: The Artist and His Studio
@@ -748,7 +522,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:grm-presences-electronique-2027@afisha-art
-DTSTAMP:20261113T144626Z
+DTSTAMP:20261113T152152Z
 DTSTART;VALUE=DATE:20270219
 DTEND;VALUE=DATE:20270222
 SUMMARY:Фестиваль PRÉSENCES électronique 2027

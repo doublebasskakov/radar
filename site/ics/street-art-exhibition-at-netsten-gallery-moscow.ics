@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:street-art-exhibition-at-netsten-gallery-moscow@afisha-art
+DTSTAMP:20261113T152152Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Выставка уличного искусства в гале
+ рее «Нетстен»
+LOCATION:Уличная галерея «Нетстен» у «Винза
+ вода»\, 4-й Сыромятнический пер.\, 1/8\, Моск
+ ва
+DESCRIPTION:Проект посвящен городскому прост
+ ранству как площадке для игры и творчес
+ кого взаимодействия. Пять художников пе
+ реосмысляют через стрит-арт повседневн
+ ую жизнь\, спорт и детские воспоминания 
+ о дворовой культуре.\nOneTheWalls\, Truue\, Миша Sue
+ r\, Саша Sam\, Сергей Rusich\, Максим Има\nhttps://t.m
+ e/afishadailynews/103823
+URL:https://doublebasskakov.github.io/radar/#e=street-art-exhibition-at-n
+ etsten-gallery-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выставка уличного искусства в га
+ лерее «Нетстен»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR
