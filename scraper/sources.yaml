@@ -442,7 +442,16 @@ telegram:
   - {u: uuMSCA, region: ru}
   - {u: sashafrolovaart, region: ru}
 
+  # --- саунд-арт ---
+  - {u: soundartist_ru, region: ru, city: Москва}
+  - {u: decodesilence, region: ru, city: Санкт-Петербург}
+  - {u: fieldrecordinglibrary, region: ru}
+
 pages:
+  # --- саунд-арт ---
+  - {url: "https://soundartist.ru/", region: ru, city: Москва}
+  - {url: "https://soundartist.ru/news/--/", region: ru, city: Москва}
+  - {url: "https://soundmuseumspb.ru/events", region: ru, city: Санкт-Петербург}
   # --- фестивали электронной музыки и медиаискусства (мир) ---
   - {url: "https://berlin-atonal.com/", region: world, city: Берлин}
   - {url: "https://www.rewirefestival.nl/", region: world, city: Гаага}

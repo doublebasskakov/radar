@@ -33,7 +33,7 @@
       installAndroid: "Android: меню Chrome → «Установить приложение».", installBtn: "Установить",
       footNote: "Афиша собирается автоматически из Telegram-каналов площадок, сайтов и подборок. Перед походом проверяйте дату по ссылке «Источник». Изображения принадлежат правообладателям и ведут на первоисточник.",
       suggest: "Предложить событие или источник", region: "Россия", world: "Мир", imgFrom: "Изображение:",
-      cats: { music: "Новая музыка", club: "Электроника / клубы", media: "Медиа / диджитал", gallery: "Выставки", performance: "Перформанс", fair: "Ярмарки / фестивали", theatre: "Театр", cinema: "Кино", lecture: "Лекции", biennial: "Биеннале" },
+      cats: { music: "Новая музыка", soundart: "Саунд-арт", club: "Электроника / клубы", media: "Медиа / диджитал", gallery: "Выставки", performance: "Перформанс", fair: "Ярмарки / фестивали", theatre: "Театр", cinema: "Кино", lecture: "Лекции", biennial: "Биеннале" },
       mon: ["января","февраля","марта","апреля","мая","июня","июля","августа","сентября","октября","ноября","декабря"],
       mon1: ["Январь","Февраль","Март","Апрель","Май","Июнь","Июль","Август","Сентябрь","Октябрь","Ноябрь","Декабрь"],
       wd: ["вс","пн","вт","ср","чт","пт","сб"],
@@ -61,13 +61,13 @@
       installAndroid: "Android: Chrome menu → Install app.", installBtn: "Install",
       footNote: "Listings are collected automatically from venues' Telegram channels, websites and editorial round-ups. Check the date via “Source” before you go. Images belong to their owners and link to the original.",
       suggest: "Suggest an event or a source", region: "Russia", world: "World", imgFrom: "Image:",
-      cats: { music: "New music", club: "Electronic / club", media: "Media / digital", gallery: "Exhibitions", performance: "Performance", fair: "Fairs / festivals", theatre: "Theatre", cinema: "Cinema", lecture: "Talks", biennial: "Biennials" },
+      cats: { music: "New music", soundart: "Sound art", club: "Electronic / club", media: "Media / digital", gallery: "Exhibitions", performance: "Performance", fair: "Fairs / festivals", theatre: "Theatre", cinema: "Cinema", lecture: "Talks", biennial: "Biennials" },
       mon: ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
       mon1: ["January","February","March","April","May","June","July","August","September","October","November","December"],
       wd: ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],
     },
   };
-  const CAT_HEX = { music: "#7cf2c9", club: "#ff3df2", media: "#8f7bff", gallery: "#ffb15c", performance: "#ff6b8b", fair: "#5cc8ff", theatre: "#ff4d3d", cinema: "#c9b6ff", lecture: "#f2e6c9", biennial: "#e7ff5c" };
+  const CAT_HEX = { music: "#7cf2c9", soundart: "#ffe14d", club: "#ff3df2", media: "#8f7bff", gallery: "#ffb15c", performance: "#ff6b8b", fair: "#5cc8ff", theatre: "#ff4d3d", cinema: "#c9b6ff", lecture: "#f2e6c9", biennial: "#e7ff5c" };
 
   // ------------------------------------------------------------ state
   const S = {
@@ -150,6 +150,12 @@
       for (let x = 6; x < W; x += 22) { g += `<rect x="${x}" y="${f(y0 + 6)}" width="10" height="8" rx="2" fill="${c}" opacity=".7"/><rect x="${x}" y="${f(y0 + h - 14)}" width="10" height="8" rx="2" fill="${c}" opacity=".7"/>`; }
       for (let x = 10, k = 0; x < W; x += 116, k++) { const o = (.25 + r() * .6).toFixed(2); g += `<rect x="${x}" y="${f(y0 + 22)}" width="100" height="${f(h - 44)}" fill="${k % 2 ? "#fff" : c}" opacity="${o}"/>`; }
       g += `<circle cx="${f(W * (.2 + .6 * r()))}" cy="${f(H * .85)}" r="${f(40 + r() * 60)}" fill="${c}" opacity=".12"/>`;
+    } else if (e.cat === "soundart") {
+      const cy = H / 2;
+      for (let k = 0; k < 9; k++) { const amp = 20 + r() * 110, fr = .01 + r() * .05, ph = r() * 6; let d = `M0 ${cy}`;
+        for (let x = 0; x <= W; x += 12) d += ` L${x} ${f(cy + amp * Math.sin(x * fr + ph) * Math.sin(x / W * Math.PI))}`;
+        g += `<path d="${d}" fill="none" stroke="${k % 3 ? c : "#fff"}" stroke-width="${(1 + r() * 3).toFixed(1)}" opacity="${(.25 + r() * .6).toFixed(2)}"/>`; }
+      for (let k = 0; k < 4; k++) g += `<circle cx="${f(W * r())}" cy="${f(H * r())}" r="${f(20 + r() * 90)}" fill="none" stroke="${c}" stroke-dasharray="2 6" opacity=".5"/>`;
     } else if (e.cat === "club") {
       const n = 32, bw = W / n;
       for (let k = 0; k < n; k++) { const h = H * (.08 + .8 * Math.abs(Math.sin(k * .55 + r() * 2)) * r()); g += `<rect x="${f(k * bw + 2)}" y="${f(H - h)}" width="${f(bw - 4)}" height="${f(h)}" fill="${k % 5 ? c : "#fff"}" opacity="${(.35 + r() * .55).toFixed(2)}"/>`; }

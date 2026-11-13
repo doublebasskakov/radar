@@ -34,7 +34,7 @@ UA = {"User-Agent": "Mozilla/5.0 (compatible; AfishaArtBot/1.0; +https://github.
 MODEL = os.environ.get("AFISHA_MODEL") or "claude-haiku-5-5"   # пустая переменная — модель по умолчанию
 TODAY = dt.date.fromisoformat(os.environ["AFISHA_TODAY"]) if os.environ.get("AFISHA_TODAY") else \
     dt.datetime.now(ZoneInfo("Europe/Moscow")).date()
-CATS = ["music", "club", "media", "gallery", "performance", "fair", "theatre", "biennial", "cinema", "lecture"]
+CATS = ["music", "soundart", "club", "media", "gallery", "performance", "fair", "theatre", "biennial", "cinema", "lecture"]
 LOOKBACK_DAYS = 21          # насколько старые посты ещё разбирать
 MAX_POSTS_PER_RUN = 1500    # предохранитель расходов на модель
 
@@ -73,6 +73,23 @@ _CLUB = re.compile(r"\b(dj|диджей|ди-джей|b2b|рейв|rave|техн
 _CLUB_NAMES = re.compile(r"sónar|sonar 20|berlin atonal|dekmantel|awakenings|dimensions festival|"
                          r"\brndm\b|зангези|\bритмы\b|monasterio|mutabor|мутабор|\bdex\b|powerhouse|gazgolder|"
                          r"diskonoir|disko|дискотек|техно-|techno", re.I)
+
+
+_SOUNDART = re.compile(r"саунд-арт|sound ?art|звуков\w* (?:инсталляц|прогулк|искусств|объект)|полев\w* запис|field recording|"
+                       r"deep listening|глубок\w* слушан|нойз|noise|дроун|drone|эмбиент|ambient|импровизац|improvis|"
+                       r"шумов|плёночн|сонификац|soundartist|музей звука|f5 /|модульн\w* синтез", re.I)
+
+
+def is_soundart(ev):
+    if ev.get("cat") not in ("music", "media", "gallery", "performance", "lecture"):
+        return False
+    if ev.get("cat") == "music" and re.search(r"акусм|acousm|grm|ircam|ЦЭАМ|CEAM|ансамбл|ensemble|квартет|оркестр|"
+                                               r"филармон|консерват", " ".join(str(ev.get(k) or "") for k in ("title", "who", "venue")), re.I):
+        return False
+    txt = " ".join(str(ev.get(k) or "") for k in ("title", "title_en", "who", "venue"))
+    if ev.get("cat") in ("gallery", "media", "lecture"):     # там — только явный саунд-арт
+        return bool(re.search(r"саунд-арт|sound ?art|звуков\w* (?:инсталляц|искусств)|soundartist|музей звука|психоакуст", txt, re.I))
+    return bool(_SOUNDART.search(txt))
 
 
 def is_club(ev):
@@ -288,8 +305,11 @@ PROMPT = """Ты — редактор афиши современного иск
 Ниже — фрагменты (посты Telegram-каналов, страницы сайтов). Найди в них КОНКРЕТНЫЕ будущие или идущие события,
 которые проходят не раньше {today}, по темам: новая/экспериментальная академическая музыка, саунд-арт,
 электроакустика (ОСОБЫЙ ПРИОРИТЕТ: акусматика, live electronics, мультимедийные концерты, концерты на акусмониуме,
-выставки электромузыкальных инструментов и звуковых объектов — ЦЭАМ, IRCAM, INA GRM, Термен-центр и т.п.); ЭКСПЕРИМЕНТАЛЬНАЯ ЭЛЕКТРОНИКА для слушания (эмбиент, нойз, IDM, модульные синтезаторы, концертные live-сеты,
-шоукейсы лейблов — cat "music");
+выставки электромузыкальных инструментов и звуковых объектов — ЦЭАМ, IRCAM, INA GRM, Термен-центр и т.п.); САУНД-АРТ — отдельная рубрика cat "soundart": выставки и инсталляции звукового искусства, звуковые прогулки,
+полевые записи, deep listening, экспериментальные концерты (нойз, дроун, эмбиент, свободная импровизация,
+модульные синтезаторы, плёночные петли, DIY-инструменты, многоканальный звук), саунд-арт-мероприятия и лекции о
+звуке в галереях и пространствах вроде soundartist.ru, Музея звука, F5, Московской шумовой мануфактуры;
+cat "music" — композиторская новая/академическая музыка, ансамбли новой музыки, электроакустика и акусматика;
 ЭЛЕКТРОННАЯ ТАНЦЕВАЛЬНАЯ И КЛУБНАЯ МУЗЫКА — отдельная рубрика cat "club": вечеринки и рейвы, DJ-сеты, техно, хаус,
 электро, бас-музыка, клубные ночи (DEX, Mutabor, Powerhouse, Monasterio, Berghain и т.п.), танцевальные фестивали;
 МУЛЬТИМЕДИА-ИНСТАЛЛЯЦИИ, световые и звуковые инсталляции, проекционные шоу, медиафасады (cat "media");
@@ -320,7 +340,7 @@ PROMPT = """Ты — редактор афиши современного иск
 - Одно и то же событие из разных фрагментов верни ОДИН раз.
 
 Верни ТОЛЬКО JSON-массив (может быть пустым []), элементы:
-{{"title":"","title_en":"","who":"","cat":"music|club|media|gallery|performance|fair|theatre|biennial|cinema|lecture","press":false,
+{{"title":"","title_en":"","who":"","cat":"music|soundart|club|media|gallery|performance|fair|theatre|biennial|cinema|lecture","press":false,
 "country":"Россия","country_en":"Russia","city":"","city_en":"","venue":"","address":"",
 "start":"YYYY-MM-DD","end":"YYYY-MM-DD|null","time":"HH:MM|null","tz":"IANA, напр. Europe/Moscow",
 "tba":false,"festival":null,"desc":"","desc_en":"","importance":3,"src_index":0,"url":null}}
@@ -484,6 +504,8 @@ def extract(items, region, done=None):
 def valid(ev):
     if ev.get("cat") == "music" and is_club(ev):
         ev["cat"] = "club"
+    elif is_soundart(ev):
+        ev["cat"] = "soundart"
     if ev.get("cat") not in CATS or not ev.get("title") or not ev.get("city"):
         return False
     s, e = pdate(ev.get("start")), pdate(ev.get("end"))
@@ -753,7 +775,7 @@ def translate_missing(master, limit=120):
             log("  ! перевод:", ex)
 
 
-TIME_CATS = ("music", "club", "theatre", "performance", "lecture", "cinema", "media")
+TIME_CATS = ("music", "soundart", "club", "theatre", "performance", "lecture", "cinema", "media")
 TIMES_PROMPT = """Сегодня {today}. Для каждого события ниже найди в интернете (сайт площадки, билетные сервисы, Telegram)
 ТОЧНОЕ время начала по местному времени. Если показов несколько в разные дни — время первого показа и, если у
 других дней время другое, перечисли их в "times" как {{"YYYY-MM-DD":"HH:MM"}}. Для выставок — время открытия
@@ -846,7 +868,7 @@ FEST_PROMPT = """Сегодня {today}. Найди в интернете (оф�
 Верни ОТДЕЛЬНОЕ событие на каждый концерт / спектакль / показ / лекцию / выставку программы, которые проходят
 не раньше {today}: свои дата, время начала, площадка. Не выдумывай: включай только то, что нашёл.
 Если программы нет — верни []. Верни ТОЛЬКО JSON-массив:
-[{{"title":"","title_en":"","who":"","cat":"music|club|media|gallery|performance|fair|theatre|biennial|cinema|lecture",
+[{{"title":"","title_en":"","who":"","cat":"music|soundart|club|media|gallery|performance|fair|theatre|biennial|cinema|lecture",
 "venue":"","address":"","start":"YYYY-MM-DD","time":"HH:MM|null","desc":"","desc_en":"","url":null}}]"""
 
 
@@ -905,9 +927,11 @@ def build():
         if ev.get("id") and not any(x["id"] == ev["id"] for x in master):
             ev.setdefault("region", "ru"); ev.setdefault("importance", 4)
             master.append(ev)
-    for ev in master:                      # клубная электроника — своя рубрика
+    for ev in master:                      # клубная электроника и саунд-арт — свои рубрики
         if ev.get("cat") == "music" and is_club(ev):
             ev["cat"] = "club"
+        elif not ev.get("cat_locked") and is_soundart(ev):
+            ev["cat"] = "soundart"
     gone = dedupe(master)
     if gone:
         log(f"build: убрано дубликатов {gone}")

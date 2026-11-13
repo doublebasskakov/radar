@@ -1,0 +1,93 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Радар — Мир / World · cat-soundart
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:adk-sample-hold-11@afisha-art
+DTSTAMP:20261113T174050Z
+DTSTART:20261125T190000Z
+DTEND:20261125T210000Z
+SUMMARY:sample&hold #11: Paul Purgas & Stefan Keller
+LOCATION:Akademie der Künste\, Pariser Platz\, Pariser Platz 4\, Бер
+ лин\, Германия
+DESCRIPTION:Серия Студии электроакустическо
+ й музыки Академии искусств: Пол Пургас п
+ оказывает заново открытую электронную 
+ музыку Индии начала 1970-х.\nPaul Purgas\, Stefan Kelle
+ r\, Andreas Fischer\nhttps://www.visitberlin.de/en/node/2293941
+URL:https://www.visitberlin.de/en/node/2293941
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:sample&hold #11: Paul Purgas & Stefan Keller
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ctm-festival-2027@afisha-art
+DTSTAMP:20261113T174050Z
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+SUMMARY:Открытие: CTM Festival 2027
+LOCATION:Площадки Берлина (Berghain\, HAU\, silent green 
+ и др.)\, Берлин\, Германия
+DESCRIPTION:28-й CTM — берлинский фестиваль экс
+ периментальной музыки и звукового иску
+ сства: концерты\, клубные ночи\, выставки
+  и дискуссии.\n\nhttps://www.ctm-festival.de/news/ctm-2027-fest
+ ival-save-the-date
+URL:https://www.ctm-festival.de/news/ctm-2027-festival-save-the-date
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: CTM Festival 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:tate-atoui-hold@afisha-art
+DTSTAMP:20261113T174050Z
+DTSTART;VALUE=DATE:20270411
+DTEND;VALUE=DATE:20270412
+SUMMARY:Последний день: Hyundai Commission: Tarek Atoui. Hol
+ d
+LOCATION:Tate Modern\, Turbine Hall\, Bankside\, London SE1 9TG\, Лон
+ дон\, Великобритания
+DESCRIPTION:Ливанский звуковой художник прев
+ ращает Турбинный зал в гигантский экспе
+ риментальный инструмент\; ежемесячные ж
+ ивые выступления по пятницам.\nТарек Ату
+ и\nhttps://www.tate.org.uk/press/press-releases/hyundai-commission-tarek
+ -atoui-hold
+URL:https://www.tate.org.uk/press/press-releases/hyundai-commission-tarek
+ -atoui-hold
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Hyundai Commission: Tarek Atoui.
+  Hold
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rewire-2027@afisha-art
+DTSTAMP:20261113T174050Z
+DTSTART;VALUE=DATE:20270408
+DTEND;VALUE=DATE:20270412
+SUMMARY:Rewire 2027
+LOCATION:Koninklijke Schouwburg\, West Den Haag\, PAARD и др.\, Гаа
+ га\, Нидерланды
+DESCRIPTION:Гаагский фестиваль эксперимента
+ льной и электронной музыки\, звукового и
+ скусства и перформанса в центре города.\
+ nДиаманда Галас и др.\nhttps://www.rewirefestival.nl/info
+ 2027
+URL:https://www.rewirefestival.nl/info2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Rewire 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR
