@@ -634,7 +634,7 @@ def gemini_search(prompt):
     raise RuntimeError("gemini search failed")
 
 
-def fill_times(master, limit=48):
+def fill_times(master, limit=72):
     """Концертам, спектаклям, лекциям без времени ищем точное время начала (раз на событие)."""
     st = load_json(STATE_FILE, {"seen": [], "pages": {}})
     tried = set(st.get("time_tried", []))
