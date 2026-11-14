@@ -9,7 +9,7 @@ X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:concert-gorkovskaya-metro-station-la-grande-finale-nizhny-novgo@afish
  a-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261114T180000Z
 DTEND:20261114T200000Z
 SUMMARY:Концерт «Станция Метро Горьковская
@@ -33,7 +33,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:science-slam-nizhny-novgo@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261117T153000Z
 DTEND:20261117T173000Z
 SUMMARY:Научная битва Science Slam
@@ -53,7 +53,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:vrubel-brunch-nizhny-novgo@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261115T080000Z
 DTEND:20261115T100000Z
 SUMMARY:Врубелевский бранч
@@ -72,7 +72,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:artist-tour-by-evgenia-buravleva-nizhny-novgo@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261114T120000Z
 DTEND:20261114T140000Z
 SUMMARY:Авторская экскурсия Евгении Буравл
@@ -93,7 +93,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:the-translators-and-tattooin-split-concert-nizhny-novgo@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261115T160000Z
 DTEND:20261115T180000Z
 SUMMARY:Сплит-концерт The Translators и TattooIN
@@ -113,29 +113,9 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:lecture-how-does-a-mars-rover-work-nizhny-novgo@afisha-art
-DTSTAMP:20261113T184219Z
-DTSTART:20261113T150000Z
-DTEND:20261113T170000Z
-SUMMARY:Лекция «Как работает марсоход?»
-LOCATION:ИЦАЭ\, ул. Семашко\, 7Б\, Нижний Новго
- род
-DESCRIPTION:Аэрокосмический инженер Никита М
- атасов расскажет об устройстве марсохо
- дов\, технологиях их создания и связи с З
- емлей.\nНикита Матасов\nhttps://t.me/NNafisha/13187
-URL:https://doublebasskakov.github.io/radar/#e=lecture-how-does-a-mars-ro
- ver-work-nizhny-novgo
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Лекция «Как работает марсоход?»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:wind-music-concert-evening-in-memory-of-yevgeny-rozhkov-nizhny-novgo@
  afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261123T143000Z
 DTEND:20261123T163000Z
 SUMMARY:Концерт духовой музыки: Вечер памят
@@ -159,10 +139,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:model-range-exhibition-nizhny-novgo@afisha-art
-DTSTAMP:20261113T184219Z
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-SUMMARY:Открытие: Выставка «Модельный ряд»
+DTSTAMP:20261114T113718Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Последний день: Выставка «Модельны
+ й ряд»
 LOCATION:Центр современного искусства «Тер
  минал А»\, Красная Слобода\, 9\, Нижний Нов
  город
@@ -177,14 +158,14 @@ URL:https://doublebasskakov.github.io/radar/#e=model-range-exhibition-niz
  hny-novgo
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Открытие: Выставка «Модельный ря
- д»
+DESCRIPTION:Последний день: Выставка «Модель
+ ный ряд»
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nn-9b-bomse-golos-za-kadrom@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Последний день: Эвсти Бомсе. «Голос 
@@ -210,11 +191,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-of-layouts-of-the-all-russian-exhibition-of-1896-nizhny-no
  vgo@afisha-art
-DTSTAMP:20261113T184219Z
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-SUMMARY:Открытие: Выставка макетов Всеросс
- ийской выставки 1896 года
+DTSTAMP:20261114T113718Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:Последний день: Выставка макетов Вс
+ ероссийской выставки 1896 года
 LOCATION:Здание «Маяк»\, Нижний Новгород
 DESCRIPTION:Экспозиция в здании «Маяк» предс
  тавляет подробные макеты павильонов и и
@@ -226,14 +207,60 @@ URL:https://doublebasskakov.github.io/radar/#e=exhibition-of-layouts-of-t
  he-all-russian-exhibition-of-1896-nizhny-novgo
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Открытие: Выставка макетов Всеро
- ссийской выставки 1896 года
+DESCRIPTION:Последний день: Выставка макетов 
+ Всероссийской выставки 1896 года
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:konstantin-belousov-s-exhibition-people-and-birds-nizhny-novgo@afisha
+ -art
+DTSTAMP:20261114T113718Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Открытие: Выставка Константина Бел
+ оусова «Люди и птицы»
+LOCATION:Центр культуры «Рекорд»\, Нижний Но
+ вгород
+DESCRIPTION:Две графические серии художника\,
+  в которых метафорические образы птиц г
+ оворят о памяти\, поддержке и поиске сво
+ его дома.\nКонстантин Белоусов\nhttps://t.me/gor
+ koNN/29567
+URL:https://doublebasskakov.github.io/radar/#e=konstantin-belousov-s-exhi
+ bition-people-and-birds-nizhny-novgo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка Константина Б
+ елоусова «Люди и птицы»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ekaterina-bim-s-exhibition-unity-nizhny-novgo@afisha-art
+DTSTAMP:20261114T113718Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Открытие: Выставка Екатерины Бим «Е
+ динение»
+LOCATION:Центр культуры «Рекорд»\, Нижний Но
+ вгород
+DESCRIPTION:Выставка живописи\, где через сре
+ дневековые и религиозные мотивы осмысл
+ яются темы любви\, гармонии и духовной б
+ лизости.\nЕкатерина Бим\nhttps://t.me/gorkoNN/29567
+URL:https://doublebasskakov.github.io/radar/#e=ekaterina-bim-s-exhibition
+ -unity-nizhny-novgo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка Екатерины Бим 
+ «Единение»
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:model-range-nizhny-novgo@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Последний день: Модельный ряд
@@ -254,7 +281,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:arsenal-leger@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
 SUMMARY:Последний день: Фернан Леже. Формул
@@ -275,7 +302,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:brazilian-film-festival-brazilian-heist-nizhny-novgo@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261115
 SUMMARY:Фестиваль бразильского кино: «Огра

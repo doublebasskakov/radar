@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:exhibition-magic-of-gancha-tashkent@afisha-art
+DTSTAMP:20261114T113718Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261116
+SUMMARY:Выставка «Волшебство ганча»
+LOCATION:Международный Караван-Сарай культ
+ уры Икуо Хираямы\, Ташкент\, Узбекистан
+DESCRIPTION:Выставка традиционного и совреме
+ нного искусства резьбы по ганчу.\nМеждун
+ ародный Караван-Сарай культуры Икуо Хир
+ аямы\nhttps://www.afisha.uz/ru/exhibitions/2026/11/09/gancha
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-magic-of-gancha
+ -tashkent
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выставка «Волшебство ганча»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

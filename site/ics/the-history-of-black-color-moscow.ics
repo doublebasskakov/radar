@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:the-history-of-black-color-moscow@afisha-art
+DTSTAMP:20261114T113718Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:История черного цвета
+LOCATION:Фонд культуры «Екатерина»\, ул. Куз
+ нецкий Мост\, 21/5\, Москва
+DESCRIPTION:Масштабный выставочный проект\, и
+ сследующий символизм и художественные 
+ возможности черного цвета в различных в
+ идах искусства.\nГрупповая выставка\nhttps:
+ //theblueprint.ru/culture/art/art-in-black
+URL:https://doublebasskakov.github.io/radar/#e=the-history-of-black-color
+ -moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:История черного цвета
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

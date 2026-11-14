@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:group-tours-of-open-storage-moscow@afisha-art
+DTSTAMP:20261114T113718Z
+DTSTART;VALUE=DATE:20261230
+DTEND;VALUE=DATE:20261231
+SUMMARY:Последний день: Сборные экскурсии п
+ о открытому хранению
+LOCATION:Музей «Гараж»\, Москва
+DESCRIPTION:Регулярные прогулки по фондам му
+ зея\, в ходе которых посетители могут ув
+ идеть архивные материалы и произведени
+ я из коллекции.\nМузей «Гараж»\nhttps://garagemca
+ .org/event/tours-on-the-project-open-storage-a-prologue
+URL:https://doublebasskakov.github.io/radar/#e=group-tours-of-open-storag
+ e-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Сборные экскурси
+ и по открытому хранению
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

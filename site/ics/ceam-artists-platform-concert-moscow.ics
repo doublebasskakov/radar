@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ceam-artists-platform-concert-moscow@afisha-art
+DTSTAMP:20261114T113718Z
+DTSTART;VALUE=DATE:20270203
+DTEND;VALUE=DATE:20270204
+SUMMARY:Концерт платформы CEAM Artists
+LOCATION:Камерный зал Филармонии\, Москва
+DESCRIPTION:Электроакустический концерт пла
+ тформы CEAM Artists Центра электроакустическ
+ ой музыки Московской консерватории.\nПл
+ атформа CEAM Artists Центра электроакустичес
+ кой музыки Московской консерватории\nhttp
+ s://meloman.ru/subscription/~74sp/
+URL:https://doublebasskakov.github.io/radar/#e=ceam-artists-platform-conc
+ ert-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт платформы CEAM Artists
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

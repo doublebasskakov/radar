@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:exhibition-pliashem-saint-peters@afisha-art
+DTSTAMP:20261114T113718Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:Последний день: Выставка «¡Пляшем!»
+LOCATION:Галерея Марины Гисич\, наб. реки Фон
+ танки\, 121\, Санкт-Петербург
+DESCRIPTION:Экспозиция включает миниатюрные 
+ лайтбоксы-сцены с анимацией и видео\, по
+ священные театру\, балету и поп-культуре
+ \, включая новую работу «Весна священная
+ ». Проект проходит в рамках фестиваля «Д
+ ягилев P. S.».\nМарина Алексеева\nhttps://t.me/mari
+ nagisichgallery/5396
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-pliashem-saint-
+ peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Выставка «¡Пляше
+ м!»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

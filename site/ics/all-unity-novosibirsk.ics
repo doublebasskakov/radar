@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:all-unity-novosibirsk@afisha-art
+DTSTAMP:20261114T113718Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Всеединство
+LOCATION:Новосибирский художественный музе
+ й\, Новосибирск
+DESCRIPTION:Художественная выставка живопис
+ и\, исследующая философские и эстетичес
+ кие концепции единства.\n\nhttps://www.afisha.ru/exhi
+ bition/vseedinstvo-1014627/
+URL:https://doublebasskakov.github.io/radar/#e=all-unity-novosibirsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Всеединство
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

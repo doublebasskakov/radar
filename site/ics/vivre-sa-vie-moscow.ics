@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:vivre-sa-vie-moscow@afisha-art
+DTSTAMP:20261114T113718Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Жить своей жизнью
+LOCATION:Кинотеатры Москвы\, Москва
+DESCRIPTION:Классическая драма французской н
+ овой волны\, представляющая собой двена
+ дцать философских новелл о жизни молодо
+ й парижанки.\nЖан-Люк Годар\nhttps://www.afisha.ru/m
+ ovie/zhit-svoey-zhiznyu-166918/
+URL:https://doublebasskakov.github.io/radar/#e=vivre-sa-vie-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Жить своей жизнью
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

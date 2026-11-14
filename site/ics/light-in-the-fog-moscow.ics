@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:light-in-the-fog-moscow@afisha-art
+DTSTAMP:20261114T113718Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Свет в тумане
+LOCATION:Москва
+DESCRIPTION:Выставка-оммаж творчеству Юрия Н
+ орштейна\, объединяющая работы современ
+ ных художников\, вдохновленных эстетико
+ й мастера.\nГрупповая выставка художник
+ ов и аниматоров\nhttps://theblueprint.ru/culture/art/homages
+ -to-norstein
+URL:https://doublebasskakov.github.io/radar/#e=light-in-the-fog-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Свет в тумане
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:film-screening-greener-grass-moscow@afisha-art
+DTSTAMP:20261114T113718Z
+DTSTART:20261115T153000Z
+DTEND:20261115T173000Z
+SUMMARY:Кинопоказ «Greener Grass»
+LOCATION:GAZE fem club\, Москва
+DESCRIPTION:Показ и обсуждение абсурдистской
+  комедии 2019 года под кураторством иссле
+ довательницы кино Полины Гончаровой.\nЖ
+ оселин ДэБоэр\, Доун Люббе\, Полина Гонча
+ рова\nhttps://t.me/gazefemclub1/786
+URL:https://doublebasskakov.github.io/radar/#e=film-screening-greener-gra
+ ss-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Кинопоказ «Greener Grass»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

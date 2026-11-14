@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:exhibition-levitation-in-memory-of-bayat-mukhtarov-tashkent@afisha-ar
+ t
+DTSTAMP:20261114T113718Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Выставка «Левитация» памяти Баята 
+ Мухтарова
+LOCATION:Галерея изобразительного искусств
+ а (NBU)\, Ташкент\, Узбекистан
+DESCRIPTION:Заключительный день мемориально
+ й выставки художника Баята Мухтарова.\nБ
+ аят Мухтаров\nhttps://www.afisha.uz/ru/exhibitions/2026/10/21/
+ levitation
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-levitation-in-m
+ emory-of-bayat-mukhtarov-tashkent
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выставка «Левитация» памяти Баят
+ а Мухтарова
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Радар — Россия · city-orenburg
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:exhibition-ivan-kudryashov-vanishing-point-orenburg@afisha-art
+DTSTAMP:20261114T113718Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Открытие: Выставка «Иван Кудряшов. 
+ Точка схода»
+LOCATION:Оренбургский областной историко-к
+ раеведческий музей\, Оренбург
+DESCRIPTION:Масштабная выставка работ супрем
+ атиста Ивана Кудряшова из собрания Трет
+ ьяковской галереи.\nТретьяковская галер
+ ея\nhttps://t.me/orpheusradio/51543
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-ivan-kudryashov
+ -vanishing-point-orenburg
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка «Иван Кудряшо
+ в. Точка схода»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

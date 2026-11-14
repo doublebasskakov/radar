@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:lez-electricity-st-petersbur@afisha-art
+DTSTAMP:20261114T113718Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:ЛЭЗ: Электричество
+LOCATION:Дом Радио\, Санкт-Петербург
+DESCRIPTION:Видеопроект\, исследующий феноме
+ н электричества в контексте современно
+ го медиаискусства.\n\nhttps://www.afisha.ru/spb/schedule_
+ exhibition/modern_art/
+URL:https://doublebasskakov.github.io/radar/#e=lez-electricity-st-petersb
+ ur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ЛЭЗ: Электричество
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

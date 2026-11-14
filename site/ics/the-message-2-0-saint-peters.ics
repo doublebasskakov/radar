@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:the-message-2-0-saint-peters@afisha-art
+DTSTAMP:20261114T113718Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Весть 2.0
+LOCATION:Русский музей\, Инженерная ул.\, 4\, С
+ анкт-Петербург
+DESCRIPTION:Выставка об истории и способах че
+ ловеческой коммуникации\, представленн
+ ая через знаковые произведения совреме
+ нного искусства.\nNone\nhttps://theblueprint.ru/culture/art
+ /vest-2-0
+URL:https://doublebasskakov.github.io/radar/#e=the-message-2-0-saint-pete
+ rs
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Весть 2.0
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

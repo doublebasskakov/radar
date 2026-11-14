@@ -9,7 +9,7 @@ X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:documentary-film-nabokov-a-good-russian-and-meeting-with-leo-london@a
  fisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261115T190000Z
 DTEND:20261115T210000Z
 SUMMARY:Документальный фильм «Набоков\, хор
@@ -35,7 +35,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:chamber-concert-in-dialogue-pavel-gomzyakov-and-andrey-korob-london@a
  fisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261211T190000Z
 DTEND:20261211T210000Z
 SUMMARY:Камерный концерт In Dialogue: Павел Гомз
@@ -60,7 +60,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:meeting-with-leonid-parfenov-screening-of-nabokov-a-good-rus-london@a
  fisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261115T140000Z
 DTEND:20261115T160000Z
 SUMMARY:Встреча с Леонидом Парфёновым: пока
@@ -82,28 +82,30 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:music-quiz-in-london-london@afisha-art
-DTSTAMP:20261113T184219Z
-DTSTART:20261113T190000Z
-DTEND:20261113T210000Z
-SUMMARY:Музыкальный квиз в Лондоне
-LOCATION:Tank & Paddle Minster Court\, 3 Mincing Lane\, Minster Court\, E
- C3R 7AA\, Лондон\, Великобритания
-DESCRIPTION:Интерактивный музыкальный квиз н
- а русском языке\, посвященный хитам 2000-х 
- и 2010-х годов.\nEventmeuk\nhttps://t.me/eventmeuk/2352
-URL:https://doublebasskakov.github.io/radar/#e=music-quiz-in-london-londo
- n
+UID:sherlock-holmes-and-the-12-days-of-christmas-london@afisha-art
+DTSTAMP:20261114T113718Z
+DTSTART:20261124T193000Z
+DTEND:20261124T213000Z
+SUMMARY:Открытие: Sherlock Holmes and the 12 Days of Christmas
+LOCATION:Alexandra Palace Theatre\, Лондон\, Великобрита
+ ния
+DESCRIPTION:Театральная постановка о Шерлоке
+  Холмсе с участием звездного актерского
+  состава.\nAlexandra Palace Theatre\nhttps://t.me/theatreandsuch/1
+ 379
+URL:https://doublebasskakov.github.io/radar/#e=sherlock-holmes-and-the-12
+ -days-of-christmas-london
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Музыкальный квиз в Лондоне
+DESCRIPTION:Открытие: Sherlock Holmes and the 12 Days of Christma
+ s
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:special-screening-of-ddt-20th-century-and-q-a-with-director--london@a
  fisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261119T200000Z
 DTEND:20261119T220000Z
 SUMMARY:Спецпоказ фильма «ДДТ. XX век» и Q&A с 
@@ -127,7 +129,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:christmas-at-kew-london@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261113T162000Z
 DTEND:20261113T182000Z
 SUMMARY:Открытие: Зимняя световая прогулка 
@@ -148,7 +150,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:art-breakfast-renoir-london@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 SUMMARY:ART-завтрак: «Ренуар. Любовь\, свет и н
@@ -171,7 +173,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-andrey-zvyagintsev-s-film-minotaur-and-lecture-london@af
  isha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Кинопоказ фильма Андрея Звягинцева
@@ -192,8 +194,31 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:presentation-of-the-book-cities-and-people-in-london-london@afisha-ar
+ t
+DTSTAMP:20261114T113718Z
+DTSTART;VALUE=DATE:20270113
+DTEND;VALUE=DATE:20270114
+SUMMARY:Презентация книги «Города и люди» в
+  Лондоне
+LOCATION:Отель Savoy\, Лондон\, Великобритания
+DESCRIPTION:Праздничный вечер Старого Нового
+  года с живой музыкой\, приуроченный к пр
+ езентации нового сборника литературных
+  эссе «Города и люди».\nЖурнал «Зима»\nhttps
+ ://t.me/zimamagazine/17304
+URL:https://doublebasskakov.github.io/radar/#e=presentation-of-the-book-c
+ ities-and-people-in-london-london
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Презентация книги «Города и люди
+ » в Лондоне
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:meeting-with-writer-dmitry-glukhovsky-london@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
 SUMMARY:Встреча с писателем Дмитрием Глухо
@@ -214,29 +239,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:sherlock-holmes-and-the-12-days-of-christmas-london@afisha-art
-DTSTAMP:20261113T184219Z
-DTSTART;VALUE=DATE:20261124
-DTEND;VALUE=DATE:20261125
-SUMMARY:Открытие: Sherlock Holmes and the 12 Days of Christmas
-LOCATION:Alexandra Palace Theatre\, Лондон\, Великобрита
- ния
-DESCRIPTION:Театральная постановка о Шерлоке
-  Холмсе с участием звездного актерского
-  состава.\nAlexandra Palace Theatre\nhttps://t.me/theatreandsuch/1
- 379
-URL:https://doublebasskakov.github.io/radar/#e=sherlock-holmes-and-the-12
- -days-of-christmas-london
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Открытие: Sherlock Holmes and the 12 Days of Christma
- s
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:jan-van-eyck-the-portraits-london@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Открытие: Jan van Eyck: The Portraits
@@ -258,10 +262,10 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wilhelmina-barns-graham-st-ives@afisha-art
-DTSTAMP:20261113T184219Z
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-SUMMARY:Открытие: Wilhelmina Barns-Graham
+DTSTAMP:20261114T113718Z
+DTSTART;VALUE=DATE:20270503
+DTEND;VALUE=DATE:20270504
+SUMMARY:Последний день: Wilhelmina Barns-Graham
 LOCATION:Tate St Ives\, Сент-Айвз\, Великобритания
 DESCRIPTION:Ретроспектива восьми десятилети
  й смелого и новаторского творчества Вил
@@ -272,13 +276,13 @@ URL:https://doublebasskakov.github.io/radar/#e=wilhelmina-barns-graham-st
  -ives
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Открытие: Wilhelmina Barns-Graham
+DESCRIPTION:Последний день: Wilhelmina Barns-Graham
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rebecca-moss-shapeshifter-st-ives@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Открытие: Rebecca Moss: Shapeshifter
@@ -297,11 +301,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:light-and-magic-the-birth-of-art-photography-london@afisha-art
-DTSTAMP:20261113T184219Z
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-SUMMARY:Открытие: Light and Magic: The Birth of Art Photography
-LOCATION:Tate Modern\, Лондон\, Великобритания
+DTSTAMP:20261114T113718Z
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+SUMMARY:Последний день: Light and Magic: The Birth of Art Ph
+ otography
+LOCATION:Tate Modern\, Bankside\, London SE1 9TG\, Лондон\, Вел
+ икобритания
 DESCRIPTION:Масштабная выставка\, рассказыва
  ющая неизведанную глобальную историю з
  арождения художественной фотографии.\n\n
@@ -310,18 +316,39 @@ URL:https://doublebasskakov.github.io/radar/#e=light-and-magic-the-birth-
  of-art-photography-london
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Открытие: Light and Magic: The Birth of Art Photograp
- hy
+DESCRIPTION:Последний день: Light and Magic: The Birth of Ar
+ t Photography
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:wilhelmina-barns-graham-st-ives-2@afisha-art
+DTSTAMP:20261114T113718Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Открытие: Wilhelmina Barns-Graham
+LOCATION:Tate St Ives\, Porthmeor Beach\, St Ives TR26 2TG\, Сент-А
+ йвс\, Великобритания
+DESCRIPTION:Ретроспектива новаторских абстр
+ актных работ Вильгельмины Барнс-Грэм\, в
+ дохновленных природой и ландшафтом.\nWilhe
+ lmina Barns-Graham\nhttps://www.tate.org.uk/whats-on
+URL:https://doublebasskakov.github.io/radar/#e=wilhelmina-barns-graham-st
+ -ives-2
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Wilhelmina Barns-Graham
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:the-90s-art-and-fashion-london@afisha-art
-DTSTAMP:20261113T184219Z
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-SUMMARY:Открытие: The 90s: Art and Fashion
-LOCATION:Tate Britain\, Лондон\, Великобритания
+DTSTAMP:20261114T113718Z
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+SUMMARY:Последний день: The 90s: Art and Fashion
+LOCATION:Tate Britain\, Millbank\, London SW1P 4RG\, Лондон\, Ве
+ ликобритания
 DESCRIPTION:Исследование яркого десятилетия\
  , отмеченного смелым творчеством и бунт
  арским духом в искусстве и моде.\n\nhttps://www
@@ -330,16 +357,37 @@ URL:https://doublebasskakov.github.io/radar/#e=the-90s-art-and-fashion-lo
  ndon
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Открытие: The 90s: Art and Fashion
+DESCRIPTION:Последний день: The 90s: Art and Fashion
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rebecca-moss-shapeshifter-st-ives-2@afisha-art
+DTSTAMP:20261114T113718Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Открытие: Rebecca Moss: Shapeshifter
+LOCATION:Tate St Ives\, Porthmeor Beach\, St Ives TR26 2TG\, Сент-А
+ йвс\, Великобритания
+DESCRIPTION:Игровая пространственная интерв
+ енция художницы Ребекки Мосс в галерее 
+ с видом на Атлантический океан.\nRebecca Moss\n
+ https://www.tate.org.uk/whats-on
+URL:https://doublebasskakov.github.io/radar/#e=rebecca-moss-shapeshifter-
+ st-ives-2
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Rebecca Moss: Shapeshifter
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:go-zde-i-lkin-those-who-remember-their-births-st-ives@afisha-art
-DTSTAMP:20261113T184219Z
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-SUMMARY:Открытие: Gözde İlkin: Those Who Remember Their Births
+DTSTAMP:20261114T113718Z
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+SUMMARY:Последний день: Gözde İlkin: Those Who Remember Th
+ eir Births
 LOCATION:Tate St Ives\, Сент-Айвз\, Великобритания
 DESCRIPTION:Увлекательная текстильная инста
  лляция\, раскрывающая темы памяти\, иден
@@ -349,14 +397,14 @@ URL:https://doublebasskakov.github.io/radar/#e=go-zde-i-lkin-those-who-re
  member-their-births-st-ives
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Открытие: Gözde İlkin: Those Who Remember Their Bir
- ths
+DESCRIPTION:Последний день: Gözde İlkin: Those Who Remembe
+ r Their Births
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ink-london@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART;VALUE=DATE:20270422
 DTEND;VALUE=DATE:20270423
 SUMMARY:Открытие: Ink
@@ -373,12 +421,35 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:go-zde-i-lkin-those-who-remember-their-births-st-ives-2@afisha-art
+DTSTAMP:20261114T113718Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Открытие: Gözde İlkin: Those Who Remember Their Births
+LOCATION:Tate St Ives\, Porthmeor Beach\, St Ives TR26 2TG\, Сент-А
+ йвс\, Великобритания
+DESCRIPTION:Масштабная текстильная инсталля
+ ция Гёзде Илькин\, исследующая темы памя
+ ти и идентичности.\nGözde İlkin\nhttps://www.tate.org.uk
+ /whats-on
+URL:https://doublebasskakov.github.io/radar/#e=go-zde-i-lkin-those-who-re
+ member-their-births-st-ives-2
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Gözde İlkin: Those Who Remember Their Bir
+ ths
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:vanessa-bell-duncan-grant-inside-bloomsbury-london@afisha-art
-DTSTAMP:20261113T184219Z
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-SUMMARY:Открытие: Vanessa Bell & Duncan Grant: Inside Bloomsbury
-LOCATION:Tate Britain\, Лондон\, Великобритания
+DTSTAMP:20261114T113718Z
+DTSTART;VALUE=DATE:20270411
+DTEND;VALUE=DATE:20270412
+SUMMARY:Последний день: Vanessa Bell & Duncan Grant: Inside 
+ Bloomsbury
+LOCATION:Tate Britain\, Millbank\, London SW1P 4RG\, Лондон\, Ве
+ ликобритания
 DESCRIPTION:Погружение в яркий визуальный ми
  р знаменитого творческого дуэта группы 
  Блумсбери.\nВанесса Белл\, Данкан Грант\nh
@@ -387,14 +458,14 @@ URL:https://doublebasskakov.github.io/radar/#e=vanessa-bell-duncan-grant-
  inside-bloomsbury-london
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Открытие: Vanessa Bell & Duncan Grant: Inside Bloomsb
- ury
+DESCRIPTION:Последний день: Vanessa Bell & Duncan Grant: Ins
+ ide Bloomsbury
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:baya-london@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART;VALUE=DATE:20270610
 DTEND;VALUE=DATE:20270611
 SUMMARY:Открытие: Baya
@@ -412,11 +483,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:hunter-170th-anniversary-installation-london@afisha-art
-DTSTAMP:20261113T184219Z
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-SUMMARY:Открытие: Временная инсталляция бр
- енда Hunter
+DTSTAMP:20261114T113718Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:Последний день: Временная инсталля
+ ция бренда Hunter
 LOCATION:Covent Garden\, Covent Garden\, London\, Лондон\, Вели
  кобритания
 DESCRIPTION:Гигантская инсталляция в виде ко
@@ -427,14 +498,14 @@ URL:https://doublebasskakov.github.io/radar/#e=hunter-170th-anniversary-i
  nstallation-london
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Открытие: Временная инсталляция 
- бренда Hunter
+DESCRIPTION:Последний день: Временная инстал
+ ляция бренда Hunter
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nicole-eisenman-exhibition-margate@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:Открытие: Выставка Николь Эйзенман

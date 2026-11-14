@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:futurione-moscow@afisha-art
+DTSTAMP:20261114T113718Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Открытие: Futurione
+LOCATION:Арт-пространство Futurione\, Кутузовски
+ й просп.\, 36\, стр. 3\, Москва
+DESCRIPTION:Иммерсивный проект\, представляю
+ щий собой технологичную инсталляцию\, п
+ огружающую зрителя в атмосферу будущег
+ о.\n\nhttps://www.afisha.ru/msk/schedule_exhibition/
+URL:https://doublebasskakov.github.io/radar/#e=futurione-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Futurione
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

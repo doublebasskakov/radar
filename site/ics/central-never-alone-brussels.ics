@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:central-never-alone-brussels@afisha-art
+DTSTAMP:20261114T113718Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Открытие: Central. Never Alone
+LOCATION:Bozar\, Rue Ravenstein 23\, Брюссель\, Бельгия
+DESCRIPTION:Выставка\, посвященная архитекту
+ ре и урбанистике.\nNone\nhttps://www.bozar.be/en/calendar/c
+ entral-never-alone
+URL:https://doublebasskakov.github.io/radar/#e=central-never-alone-brusse
+ ls
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Central. Never Alone
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

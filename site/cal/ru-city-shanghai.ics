@@ -7,9 +7,31 @@ X-WR-CALNAME:Радар — Россия · city-shanghai
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:pseudomorphoses-art021-shanghai-shanghai@afisha-art
+DTSTAMP:20261114T113718Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261115
+SUMMARY:Псевдоморфозы (ART021 Shanghai)
+LOCATION:Шанхайский выставочный центр\, Шан
+ хай
+DESCRIPTION:Проект PA Gallery объединяет авторов 
+ с диаметрально разными художественными
+  практиками\, исследующих природу возни
+ кновения и трансформации visual-образов.\nА
+ лиса Горелова\, Антон Конюхов\, Андрей Ся
+ йлев\, Олег Хвостов\nhttps://t.me/pagallery_official/1838
+URL:https://doublebasskakov.github.io/radar/#e=pseudomorphoses-art021-sha
+ nghai-shanghai
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Псевдоморфозы (ART021 Shanghai)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:pa-gallery-pseudomorphoses-booth-at-art021-shanghai-shanghai@afisha-a
  rt
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261115
 SUMMARY:Стенд PA Gallery «Псевдоморфозы» на ярм

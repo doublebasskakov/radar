@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:citizen-kane-moscow@afisha-art
+DTSTAMP:20261114T113718Z
+DTSTART:20261114T111000Z
+DTEND:20261114T131000Z
+SUMMARY:Гражданин Кейн
+LOCATION:Кинотеатры Москвы\, Москва
+DESCRIPTION:Шедевр мирового кино\, изменивший
+  структуру киноповествования и операто
+ рское искусство.\nОрсон Уэллс\nhttps://www.afisha
+ .ru/movie/grazhdanin-keyn-167238/
+URL:https://doublebasskakov.github.io/radar/#e=citizen-kane-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Гражданин Кейн
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

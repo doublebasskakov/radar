@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:multimedia-exhibition-savitsky-s-diaries-old-and-new-tashkent@afisha-
+ art
+DTSTAMP:20261114T113718Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Открытие: Мультимедийная выставка 
+ «Дневники Савицкого. Старое и новое»
+LOCATION:Tashkent City Mall\, Ташкент\, Узбекистан
+DESCRIPTION:Иммерсивный мультимедийный прое
+ кт\, основанный на наследии и дневниках 
+ выдающегося исследователя искусства Иг
+ оря Савицкого.\nИгорь Савицкий\nhttps://www.afis
+ ha.uz/ru/exhibitions/2026/10/22/savitskys-diaries
+URL:https://doublebasskakov.github.io/radar/#e=multimedia-exhibition-savi
+ tsky-s-diaries-old-and-new-tashkent
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Мультимедийная выставк
+ а «Дневники Савицкого. Старое и новое»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

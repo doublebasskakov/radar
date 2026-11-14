@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:power-of-motion-concert-moscow@afisha-art
+DTSTAMP:20261114T113718Z
+DTSTART:20261127T160000Z
+DTEND:20261127T180000Z
+SUMMARY:Концерт «Сила движения»
+LOCATION:Камерный зал Филармонии\, Москва
+DESCRIPTION:Выступление ансамбля «Галерея ак
+ туальной музыки» с программой современ
+ ной академической музыки\, автор и ведущ
+ ий вечера — Рауф Фархадов.\nАнсамбль «Га
+ лерея актуальной музыки»\, Рауф Фархадо
+ в\nhttps://meloman.ru/concert/kzf-2027-02-14/
+URL:https://doublebasskakov.github.io/radar/#e=power-of-motion-concert-mo
+ scow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт «Сила движения»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

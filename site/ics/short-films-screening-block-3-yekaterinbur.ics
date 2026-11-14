@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:short-films-screening-block-3-yekaterinbur@afisha-art
+DTSTAMP:20261114T113718Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Показ короткометражных фильмов. Сб
+ орник 3
+LOCATION:Ельцин Центр\, Екатеринбург
+DESCRIPTION:Сборник короткометражного кино: 
+ «Чуураа»\, «Город сов»\, «Ветер веет там\,
+  где хочет».\n\nhttps://t.me/yeltsincenter/10187
+URL:https://doublebasskakov.github.io/radar/#e=short-films-screening-bloc
+ k-3-yekaterinbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ короткометражных фильмов. 
+ Сборник 3
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

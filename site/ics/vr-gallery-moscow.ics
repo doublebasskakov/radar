@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:vr-gallery-moscow@afisha-art
+DTSTAMP:20261114T113718Z
+DTSTART:20261114T090000Z
+DTEND:20261114T110000Z
+SUMMARY:Открытие: Виртуальная галерея (VR Galle
+ ry)
+LOCATION:Музей Artdynamics\, Нижний Сусальный пер.
+ \, 5\, стр. 10\, Москва
+DESCRIPTION:Экспозиция в формате виртуальной
+  реальности\, позволяющая взаимодейство
+ вать с цифровым искусством в иммерсивно
+ й среде.\n\nhttps://www.afisha.ru/msk/schedule_exhibition/
+URL:https://doublebasskakov.github.io/radar/#e=vr-gallery-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Виртуальная галерея (VR G
+ allery)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

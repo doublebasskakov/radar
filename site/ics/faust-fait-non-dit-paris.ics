@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:faust-fait-non-dit-paris@afisha-art
+DTSTAMP:20261114T113718Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261120
+SUMMARY:Faust. Fait\, non dit
+LOCATION:Odéon Théâtre de l’Europe\, Париж
+DESCRIPTION:Новая радикальная трактовка мифа
+  о Фаусте от ведущего итальянского режи
+ ссера Ромео Кастеллуччи.\nРомео Кастелл
+ уччи\nhttps://t.me/lobbymoscow/3740
+URL:https://doublebasskakov.github.io/radar/#e=faust-fait-non-dit-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Faust. Fait\, non dit
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

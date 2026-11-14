@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:man-with-a-movie-camera-moscow@afisha-art
+DTSTAMP:20261114T113718Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Человек с киноаппаратом
+LOCATION:Кинотеатры Москвы\, Москва
+DESCRIPTION:Показ фундаментального произвед
+ ения советского киноавангарда\, перевер
+ нувшего представление о монтаже и киноя
+ зыке.\nДзига Вертов\nhttps://www.afisha.ru/movie/cheloveк
+ -s-kinoapparatom-172189/
+URL:https://doublebasskakov.github.io/radar/#e=man-with-a-movie-camera-mo
+ scow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Человек с киноаппаратом
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

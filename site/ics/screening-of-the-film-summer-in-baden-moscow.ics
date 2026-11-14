@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:screening-of-the-film-summer-in-baden-moscow@afisha-art
+DTSTAMP:20261114T113718Z
+DTSTART:20261127T163000Z
+DTEND:20261127T183000Z
+SUMMARY:Показ фильма «Лето в Бадене»
+LOCATION:Филармония-2. Виртуальный зал\, Мичу
+ ринский проспект\, Олимпийская деревня\,
+  д. 1\, Москва
+DESCRIPTION:Премьерная экранизация автофикш
+ н-романа Леонида Цыпкина\, посвящённого 
+ истории и путешествию Фёдора Достоевск
+ ого.\nЛеонид Цыпкин\nhttps://meloman.ru/concert/vz-2026-11
+ -27-19/
+URL:https://doublebasskakov.github.io/radar/#e=screening-of-the-film-summ
+ er-in-baden-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильма «Лето в Бадене»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

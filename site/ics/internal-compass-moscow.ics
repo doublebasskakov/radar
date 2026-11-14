@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:internal-compass-moscow@afisha-art
+DTSTAMP:20261114T113718Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Открытие: Внутренний компас
+LOCATION:Арт-платформа «Куб»\, ул. Тверская\, 
+ 7\, Москва
+DESCRIPTION:Интерактивная выставка\, использ
+ ующая цифровые технологии для исследов
+ ания человеческого самопознания.\n\nhttps://
+ www.afisha.ru/msk/schedule_exhibition/
+URL:https://doublebasskakov.github.io/radar/#e=internal-compass-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Внутренний компас
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

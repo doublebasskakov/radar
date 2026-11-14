@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:tram-to-park-moscow@afisha-art
+DTSTAMP:20261114T113718Z
+DTSTART:20261114T080000Z
+DTEND:20261114T100000Z
+SUMMARY:Трамвай в парк
+LOCATION:ГЭС-2\, Болотная наб.\, 15\, Москва
+DESCRIPTION:Художественный проект\, исследую
+ щий городское пространство и механизмы 
+ памяти через выставочные медиумы.\nГЭС-2\
+ nhttps://ges-2.org/en/projects/tram-to-park
+URL:https://doublebasskakov.github.io/radar/#e=tram-to-park-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Трамвай в парк
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

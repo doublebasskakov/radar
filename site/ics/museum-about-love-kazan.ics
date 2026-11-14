@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:museum-about-love-kazan@afisha-art
+DTSTAMP:20261114T113718Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Открытие: Музей «Про любовь»
+LOCATION:Музей «Про любовь»\, Казань
+DESCRIPTION:Выставка современного искусства 
+ в Казани\, посвященная многогранности ч
+ еловеческих чувств.\n\nhttps://www.afisha.ru/exhibition/
+ muzey-pro-lyubov-g-kazan-1016527/
+URL:https://doublebasskakov.github.io/radar/#e=museum-about-love-kazan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Музей «Про любовь»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

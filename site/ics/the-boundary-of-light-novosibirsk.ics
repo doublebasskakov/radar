@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:the-boundary-of-light-novosibirsk@afisha-art
+DTSTAMP:20261114T113718Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:Граница света
+LOCATION:Новосибирский художественный музе
+ й\, Новосибирск
+DESCRIPTION:Живописная выставка\, посвященна
+ я исследованию световых эффектов и визу
+ альных границ в искусстве.\n\nhttps://www.afisha.ru
+ /exhibition/granica-sveta-1015484/
+URL:https://doublebasskakov.github.io/radar/#e=the-boundary-of-light-novo
+ sibirsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Граница света
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

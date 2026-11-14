@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:light-shadow-kazan@afisha-art
+DTSTAMP:20261114T113718Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Открытие: Свет/тень
+LOCATION:Галерея-мастерская Зайцева\, Казан
+ ь
+DESCRIPTION:Инсталляция\, работающая с простр
+ анством и визуальным восприятием света.
+ \n\nhttps://www.afisha.ru/exhibition/svet-ten-1013773/
+URL:https://doublebasskakov.github.io/radar/#e=light-shadow-kazan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Свет/тень
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

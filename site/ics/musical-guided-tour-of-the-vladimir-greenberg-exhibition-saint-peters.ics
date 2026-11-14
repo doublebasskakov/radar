@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:musical-guided-tour-of-the-vladimir-greenberg-exhibition-saint-peters
+ @afisha-art
+DTSTAMP:20261114T113718Z
+DTSTART:20261118T160000Z
+DTEND:20261118T180000Z
+SUMMARY:Музыкальная экскурсия по выставке 
+ «Художник Ленинграда. Владимир Гринбер
+ г»
+LOCATION:МИСП\, наб. канала Грибоедова\, 101\, С
+ анкт-Петербург
+DESCRIPTION:Кураторская экскурсия по выставо
+ чной экспозиции живописи Владимира Гри
+ нберга в скрипичном сопровождении.\n\nhttps
+ ://t.me/mispspb/4414
+URL:https://doublebasskakov.github.io/radar/#e=musical-guided-tour-of-the
+ -vladimir-greenberg-exhibition-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Музыкальная экскурсия по выставк
+ е «Художник Ленинграда. Владимир Гринбе
+ рг»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

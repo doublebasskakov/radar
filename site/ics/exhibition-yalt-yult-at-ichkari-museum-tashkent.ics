@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:exhibition-yalt-yult-at-ichkari-museum-tashkent@afisha-art
+DTSTAMP:20261114T113718Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Открытие: Выставка «Ялт-Юлт» в музе
+ е ICHKARI
+LOCATION:ICHKARI\, Ташкент\, Узбекистан
+DESCRIPTION:Экспозиция в музее ICHKARI\, представ
+ ляющая самобытные художественные практ
+ ики.\nМузей ICHKARI\nhttps://www.afisha.uz/ru/exhibitions/2026/09
+ /17/yaltyult
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-yalt-yult-at-ic
+ hkari-museum-tashkent
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка «Ялт-Юлт» в му
+ зее ICHKARI
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

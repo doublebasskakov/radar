@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:from-the-life-of-planets-moscow@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261219T160000Z
 DTEND:20261219T180000Z
 SUMMARY:Из жизни планет
@@ -18,6 +18,27 @@ DESCRIPTION:Музыкально-театральное посвящен
  ов\nhttps://electrotheatre.ru/playbill
 URL:https://doublebasskakov.github.io/radar/#e=from-the-life-of-planets-m
  oscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Из жизни планет
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:from-the-life-of-planets-moscow-1@afisha-art
+DTSTAMP:20261114T113718Z
+DTSTART:20261220T160000Z
+DTEND:20261220T180000Z
+SUMMARY:Из жизни планет
+LOCATION:Электротеатр Станиславский\, Тверс
+ кая ул.\, 23\, Москва
+DESCRIPTION:Музыкально-театральное посвящен
+ ие неснятым фильмам 1960-х годов от Олега 
+ Нестерова и группы «Мегаполис».\nОлег Не
+ стеров\, группа «Мегаполис»\, Денис Азар
+ ов\nhttps://electrotheatre.ru/playbill
+URL:https://doublebasskakov.github.io/radar/#e=from-the-life-of-planets-m
+ oscow-1
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Из жизни планет

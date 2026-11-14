@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:christmas-at-kew-london@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261113T162000Z
 DTEND:20261113T182000Z
 SUMMARY:Открытие: Зимняя световая прогулка 
@@ -28,8 +28,31 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:exhibition-opening-hidden-on-tape-early-video-art-in-europe-karlsruhe
+ @afisha-art
+DTSTAMP:20261114T113718Z
+DTSTART:20261127T180000Z
+DTEND:20261127T200000Z
+SUMMARY:Выставка «Скрыто на пленке. Раннее 
+ видеоарт в Европе»
+LOCATION:ZKM | Center for Art and Media\, Lorenzstraße 19\, 76135 Karlsr
+ uhe\, Карлсруэ\, Германия
+DESCRIPTION:Открытие масштабной экспозиции р
+ анних произведений европейского видеоа
+ рта в фойе центра ZKM.\nZKM\nhttps://zkm.de/en/2026/11/hidd
+ en-on-tape-early-video-art-in-europe-0
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-opening-hidden-
+ on-tape-early-video-art-in-europe-karlsruhe
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выставка «Скрыто на пленке. Ранне
+ е видеоарт в Европе»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:transmediale-2027@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART;VALUE=DATE:20270128
 DTEND;VALUE=DATE:20270201
 SUMMARY:transmediale 2027: groundstates
@@ -50,7 +73,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ars-electronica-2027@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART;VALUE=DATE:20270908
 DTEND;VALUE=DATE:20270913
 SUMMARY:Ars Electronica Festival 2027
@@ -69,7 +92,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-fragile-currents-berlin@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART;VALUE=DATE:20270127
 DTEND;VALUE=DATE:20270128
 SUMMARY:Открытие: Выставка «fragile currents»
@@ -90,7 +113,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dark-net-exhibition-at-akademie-der-ku-nste-berlin@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART;VALUE=DATE:20270127
 DTEND;VALUE=DATE:20270128
 SUMMARY:Открытие: Выставка «Dark Net» в Akademie der K
@@ -114,7 +137,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:arcane-universe-league-of-legends-exhibition-yerevan@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Последний день: Выставка «Вселенна
@@ -136,7 +159,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mutek-montreal-2027@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART;VALUE=DATE:20270824
 DTEND;VALUE=DATE:20270830
 SUMMARY:MUTEK Montréal 2027: Sensitive Waves
@@ -156,7 +179,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mutek-jp-2026@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261124
 SUMMARY:MUTEK.JP 2026
@@ -175,31 +198,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:tate-atoui-hold@afisha-art
-DTSTAMP:20261113T184219Z
-DTSTART;VALUE=DATE:20270411
-DTEND;VALUE=DATE:20270412
-SUMMARY:Последний день: Hyundai Commission: Tarek Atoui. Hol
- d
-LOCATION:Tate Modern\, Turbine Hall\, Bankside\, London SE1 9TG\, Лон
- дон\, Великобритания
-DESCRIPTION:Ливанский звуковой художник прев
- ращает Турбинный зал в гигантский экспе
- риментальный инструмент\; ежемесячные ж
- ивые выступления по пятницам.\nТарек Ату
- и\nhttps://www.tate.org.uk/press/press-releases/hyundai-commission-tarek
- -atoui-hold
-URL:https://doublebasskakov.github.io/radar/#e=tate-atoui-hold
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Последний день: Hyundai Commission: Tarek Atoui.
-  Hold
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:new-museum-arthur-jafa@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
 SUMMARY:Последний день: Arthur Jafa: I Am Tony
@@ -218,8 +218,31 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:multimedia-exhibition-savitsky-s-diaries-old-and-new-tashkent@afisha-
+ art
+DTSTAMP:20261114T113718Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Открытие: Мультимедийная выставка 
+ «Дневники Савицкого. Старое и новое»
+LOCATION:Tashkent City Mall\, Ташкент\, Узбекистан
+DESCRIPTION:Иммерсивный мультимедийный прое
+ кт\, основанный на наследии и дневниках 
+ выдающегося исследователя искусства Иг
+ оря Савицкого.\nИгорь Савицкий\nhttps://www.afis
+ ha.uz/ru/exhibitions/2026/10/22/savitskys-diaries
+URL:https://doublebasskakov.github.io/radar/#e=multimedia-exhibition-savi
+ tsky-s-diaries-old-and-new-tashkent
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Мультимедийная выставк
+ а «Дневники Савицкого. Старое и новое»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:paolo-cirio-nudify-ai-online@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART;VALUE=DATE:20270401
 DTEND;VALUE=DATE:20270402
 SUMMARY:Последний день: Paolo Cirio: NUDIFY AI
@@ -238,12 +261,33 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:house-of-memory-by-basil-al-rawi-brussels@afisha-art
+DTSTAMP:20261114T113718Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Открытие: House of Memory / بيت الذاكرة — Bas
+ il Al-Rawi
+LOCATION:Bozar\, Rue Ravenstein 23\, Брюссель\, Бельгия
+DESCRIPTION:Иммерсивное VR-путешествие по арх
+ ивам и иракским историям от художника Б
+ азиля Аль-Рави.\nBasil Al-Rawi\nhttps://www.bozar.be/en/calen
+ dar/house-memory-byt-aldhakrt-basil-al-rawi
+URL:https://doublebasskakov.github.io/radar/#e=house-of-memory-by-basil-a
+ l-rawi-brussels
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: House of Memory / بيت الذاكرة —
+  Basil Al-Rawi
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:hunter-170th-anniversary-installation-london@afisha-art
-DTSTAMP:20261113T184219Z
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-SUMMARY:Открытие: Временная инсталляция бр
- енда Hunter
+DTSTAMP:20261114T113718Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:Последний день: Временная инсталля
+ ция бренда Hunter
 LOCATION:Covent Garden\, Covent Garden\, London\, Лондон\, Вели
  кобритания
 DESCRIPTION:Гигантская инсталляция в виде ко
@@ -254,14 +298,14 @@ URL:https://doublebasskakov.github.io/radar/#e=hunter-170th-anniversary-i
  nstallation-london
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Открытие: Временная инсталляция 
- бренда Hunter
+DESCRIPTION:Последний день: Временная инстал
+ ляция бренда Hunter
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:steina-playback-haus-der-kunst@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 SUMMARY:Последний день: Steina: Playback

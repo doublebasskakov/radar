@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:screening-of-portraits-of-arina-yekaterinbur@afisha-art
+DTSTAMP:20261114T113718Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Показ фильма «Портреты Арины»
+LOCATION:Ельцин Центр\, Екатеринбург
+DESCRIPTION:Показ документальной картины из 
+ программы фестиваля кино «Послание к че
+ ловеку».\n\nhttps://t.me/yeltsincenter/10187
+URL:https://doublebasskakov.github.io/radar/#e=screening-of-portraits-of-
+ arina-yekaterinbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильма «Портреты Арины»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:adapted-tour-of-open-storage-moscow@afisha-art
+DTSTAMP:20261114T113718Z
+DTSTART;VALUE=DATE:20270812
+DTEND;VALUE=DATE:20270813
+SUMMARY:Открытие: Адаптированная экскурсия
+  по открытому хранению
+LOCATION:Музей «Гараж»\, Москва
+DESCRIPTION:Специальная программа осмотра му
+ зейной коллекции в формате открытого хр
+ анения\, адаптированная для посетителей
+  с инвалидностью.\nМузей «Гараж»\nhttps://garag
+ emca.org/event/adapted-tours-of-the-project-open-storage-a-prologue
+URL:https://doublebasskakov.github.io/radar/#e=adapted-tour-of-open-stora
+ ge-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Адаптированная экскурс
+ ия по открытому хранению
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

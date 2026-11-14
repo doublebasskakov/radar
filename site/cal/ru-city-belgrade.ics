@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Радар — Россия · city-belgrade
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:arcto-xx-belgrade@afisha-art
+DTSTAMP:20261114T113718Z
+DTSTART:20261219T220000Z
+DTEND:20261220T000000Z
+SUMMARY:ARCTO XX
+LOCATION:Drugstore (Main)\, Белград
+DESCRIPTION:Рейв-посвящение двадцатилетию пр
+ омо-группы Arcto Promo с участием хедлайнеро
+ в индустриального и авангардного техно.
+ \nAncient Methods\, SHXCXCHCXSH\, Aneri\, Sariim\nhttps://t.me/whats_that
+ _noise/4750
+URL:https://doublebasskakov.github.io/radar/#e=arcto-xx-belgrade
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ARCTO XX
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

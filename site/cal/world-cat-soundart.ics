@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:adk-sample-hold-11@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261125T190000Z
 DTEND:20261125T210000Z
 SUMMARY:sample&hold #11: Paul Purgas & Stefan Keller
@@ -27,8 +27,51 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:concert-sonic-experiments-resonating-futures-karlsruhe@afisha-art
+DTSTAMP:20261114T113718Z
+DTSTART:20261210T180000Z
+DTEND:20261210T200000Z
+SUMMARY:Концерт «Звуковые эксперименты – Р
+ езонирующие будущие»
+LOCATION:ZKM | Center for Art and Media\, Lorenzstraße 19\, 76135 Karlsr
+ uhe\, Карлсруэ\, Германия
+DESCRIPTION:Экспериментальный музыкальный к
+ онцерт в кубе ZKM\, исследующий новые звук
+ овые ландшафты и акустические технолог
+ ии.\nZKM\nhttps://zkm.de/en/2026/12/sonic-experiments-resonating-future
+ s
+URL:https://doublebasskakov.github.io/radar/#e=concert-sonic-experiments-
+ resonating-futures-karlsruhe
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт «Звуковые эксперименты 
+ – Резонирующие будущие»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:show-other-games-improvisation-tashkent@afisha-art
+DTSTAMP:20261114T113718Z
+DTSTART:20261118T143000Z
+DTEND:20261118T163000Z
+SUMMARY:Шоу «Другие игры. Импровизация»
+LOCATION:Ц.И.Р.К (Seoul Mun)\, Seoul Mun\, нижний этаж\, D 
+ 31\, Ташкент\, Узбекистан
+DESCRIPTION:Вечер комедийной импровизации с 
+ интерактивными выступлениями актеров и
+  непредсказуемыми сценическими сюжетам
+ и.\nЦ.И.Р.К\nhttps://t.me/kettuz/6697
+URL:https://doublebasskakov.github.io/radar/#e=show-other-games-improvisa
+ tion-tashkent
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Шоу «Другие игры. Импровизация»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:ctm-festival-2027@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261114T113718Z
 DTSTART;VALUE=DATE:20270122
 DTEND;VALUE=DATE:20270123
 SUMMARY:Открытие: CTM Festival 2027
@@ -48,7 +91,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tate-atoui-hold@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261114T113718Z
 DTSTART;VALUE=DATE:20270411
 DTEND;VALUE=DATE:20270412
 SUMMARY:Последний день: Hyundai Commission: Tarek Atoui. Hol
@@ -71,7 +114,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rewire-2027@afisha-art
-DTSTAMP:20261113T174826Z
+DTSTAMP:20261114T113718Z
 DTSTART;VALUE=DATE:20270408
 DTEND;VALUE=DATE:20270412
 SUMMARY:Rewire 2027

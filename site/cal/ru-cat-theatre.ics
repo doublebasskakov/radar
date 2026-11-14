@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:the-nutcracker-not-a-fairy-tale-saint-peters@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261202T160000Z
 DTEND:20261202T180000Z
 SUMMARY:Щелкунчик. Несказка
@@ -31,7 +31,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:play-romeo-and-juliet-in-the-haze-moscow@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261125T160000Z
 DTEND:20261125T180000Z
 SUMMARY:Спектакль «Ромео и Джульетта во мгл
@@ -55,7 +55,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:stolen-dances@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261117T170000Z
 DTEND:20261117T190000Z
 SUMMARY:Украденные танцы
@@ -77,7 +77,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:the-seagull-ballet-moscow@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261118T160000Z
 DTEND:20261118T180000Z
 SUMMARY:Балет «Чайка»
@@ -98,7 +98,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:kzn-mon-gastroli-kapital@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261129T150000Z
 DTEND:20261129T170000Z
 SUMMARY:«Гастроли: Капитал»
@@ -117,7 +117,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ballet-moscow-angles-3-contemporary-dance-laboratory-moscow@afisha-ar
  t
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261120T160000Z
 DTEND:20261120T180000Z
 SUMMARY:Лаборатория современного танца «Ба
@@ -143,7 +143,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:musical-performance-from-the-life-of-planets-by-oleg-nestero-saint-pe
  ters@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261208T163000Z
 DTEND:20261208T183000Z
 SUMMARY:Музыкальный спектакль Олега Нестер
@@ -169,7 +169,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:john-neumeier-s-the-nutcracker-ballet-samara@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261122T130000Z
 DTEND:20261122T150000Z
 SUMMARY:Балет «Щелкунчик» Джона Ноймайера
@@ -189,7 +189,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:the-tower-moscow@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261128T160000Z
 DTEND:20261128T180000Z
 SUMMARY:Спектакль «Башня»
@@ -208,7 +208,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:the-play-hamlet-collage-samara@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261119T153000Z
 DTEND:20261119T173000Z
 SUMMARY:Спектакль «Гамлет | Коллаж»
@@ -227,7 +227,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:play-oblomov-directed-by-andrei-pricotenco-saint-peters@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261216T160000Z
 DTEND:20261216T180000Z
 SUMMARY:Спектакль Андрея Прикотенко «Облом
@@ -249,28 +249,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:opera-lohengrin-at-novaya-opera-moscow@afisha-art
-DTSTAMP:20261113T184219Z
-DTSTART:20261113T160000Z
-DTEND:20261113T180000Z
-SUMMARY:Опера «Лоэнгрин» в Новой опере
-LOCATION:Новая опера\, Москва
-DESCRIPTION:Показ оперы Рихарда Вагнера «Лоэ
- нгрин» с масштабным оркестровым и вокал
- ьным составом.\nР. Вагнер\, Антон Торбеев\
- , Хачатур Бадалян\, Елизавета Соина\nhttps://
- t.me/novayaopera/5893
-URL:https://doublebasskakov.github.io/radar/#e=opera-lohengrin-at-novaya-
- opera-moscow
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Опера «Лоэнгрин» в Новой опере
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:play-honest-woman-directed-by-valery-fokin-saint-peters@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261229T163000Z
 DTEND:20261229T183000Z
 SUMMARY:Спектакль Валерия Фокина «Честная 
@@ -292,8 +272,26 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:momento-moscow@afisha-art
+DTSTAMP:20261114T113718Z
+DTSTART:20261113T170000Z
+DTEND:20261113T190000Z
+SUMMARY:Momento
+LOCATION:Электротеатр Станиславский\, Тверс
+ кая ул.\, 23\, Москва
+DESCRIPTION:Хореографический спектакль пост
+ ановщика Чена Агрона на основной сцене 
+ театра.\nЧен Агрон\nhttps://electrotheatre.ru/playbill
+URL:https://doublebasskakov.github.io/radar/#e=momento-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Momento
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:film-screening-of-the-plastic-play-ne-delimoe-rostov-on-do@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261114T150000Z
 DTEND:20261114T170000Z
 SUMMARY:Кинопоказ пластического спектакля 
@@ -316,7 +314,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:spb-nevidimyy-teatr-rehab@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261114T170000Z
 DTEND:20261114T190000Z
 SUMMARY:«Рехаб»
@@ -336,7 +334,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:play-kozintsev-gogoliada-directed-by-nikita-kobelev-saint-peters@afis
  ha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261223T163000Z
 DTEND:20261223T183000Z
 SUMMARY:Постановка Никиты Кобелева «Козинц
@@ -360,7 +358,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:readings-and-text-laboratory-results-presentation-yekaterinbur@afisha
  -art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261115T120000Z
 DTEND:20261115T140000Z
 SUMMARY:Читки. Презентация итогов лаборато
@@ -380,29 +378,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:la-traviata-opera-live-stream-online@afisha-art
-DTSTAMP:20261113T184219Z
-DTSTART:20261113T140000Z
-DTEND:20261113T160000Z
-SUMMARY:Онлайн-трансляция оперы «Травиата»
-LOCATION:Видеоплатформа «Орфей»\, Онлайн
-DESCRIPTION:Прямой эфир премьеры оперы Верди 
- из Башкирского театра оперы и балета с у
- частием звезд мировой оперной сцены.\nАс
- кар Абдразаков\, Альбина Шагимуратова\, 
- Нажмиддин Мавлянов\nhttps://t.me/orpheusradio/51521
-URL:https://doublebasskakov.github.io/radar/#e=la-traviata-opera-live-str
- eam-online
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Онлайн-трансляция оперы «Травиат
- а»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:the-tale-of-fedot-the-strelets-samara@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261119T150000Z
 DTEND:20261119T170000Z
 SUMMARY:Спектакль «Сказ про Федота-стрельц
@@ -425,7 +402,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:my-poor-marat-play-moscow@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261120T160000Z
 DTEND:20261120T180000Z
 SUMMARY:Спектакль «Мой бедный Марат»
@@ -444,30 +421,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:play-three-sisters-down-with-gloom-moscow@afisha-art
-DTSTAMP:20261113T184219Z
-DTSTART:20261113T160000Z
-DTEND:20261113T180000Z
-SUMMARY:Спектакль «Три сестры. Долой уныние
- »
-LOCATION:Театр на Таганке\, ул. Земляной Вал\,
-  76/21\, Москва
-DESCRIPTION:Постановка молодого режиссера\, н
- едавно отмеченная премией за актуально
- сть и новый взгляд на классику.\nСаша Зол
- отовицкий\nhttps://t.me/futuro_gallery/2854
-URL:https://doublebasskakov.github.io/radar/#e=play-three-sisters-down-wi
- th-gloom-moscow
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Спектакль «Три сестры. Долой унын
- ие»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:mdt-zoo@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261113T163000Z
 DTEND:20261113T183000Z
 SUMMARY:Что случилось в зоопарке
@@ -486,30 +441,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:performance-words-are-different-at-the-new-stage-moscow@afisha-art
-DTSTAMP:20261113T184219Z
-DTSTART:20261113T163000Z
-DTEND:20261113T183000Z
-SUMMARY:Спектакль «Слова бывают разные» на 
- Новой сцене
-LOCATION:Новая сцена им. Вс. Мейерхольда\, Мо
- сква
-DESCRIPTION:Интерактивный поэтический спект
- акль по стихотворениям Генриха Сапгира\
- , вовлекающий зрителей в игру.\nТеатр «У 
- театра»\nhttps://t.me/newstageprojects/3170
-URL:https://doublebasskakov.github.io/radar/#e=performance-words-are-diff
- erent-at-the-new-stage-moscow
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Спектакль «Слова бывают разные» 
- на Новой сцене
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:one-man-show-idyll-saint-peters@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261115T170000Z
 DTEND:20261115T190000Z
 SUMMARY:Моноспектакль «Идиллия»
@@ -528,8 +461,27 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:aristocrats-samara@afisha-art
+DTSTAMP:20261114T113718Z
+DTSTART:20261128T120000Z
+DTEND:20261128T140000Z
+SUMMARY:Спектакль «Аристократы»
+LOCATION:ДКЖ им. Пушкина\, ул. Льва Толстого\, 
+ 94\, Самара
+DESCRIPTION:Ироничная постановка по рассказа
+ м Надежды Тэффи об атмосфере уходящей э
+ похи Серебряного века.\nАнна Калинина\nhtt
+ ps://clck.ru/3WssoJ
+URL:https://doublebasskakov.github.io/radar/#e=aristocrats-samara
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спектакль «Аристократы»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:play-kolia-s-composition-moscow@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261115T130000Z
 DTEND:20261115T150000Z
 SUMMARY:Спектакль «Колино сочинение»
@@ -549,7 +501,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:performative-play-na-predele-moscow@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261118T160000Z
 DTEND:20261118T180000Z
 SUMMARY:Перформативный спектакль «На Преде
@@ -572,7 +524,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:documentary-sound-performance-i-want-to-say-saint-peters@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261212T160000Z
 DTEND:20261212T180000Z
 SUMMARY:Документальный саунд-спектакль «Я 
@@ -595,7 +547,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:play-ivona-princess-of-burgundia-directed-by-hugo-erikssen-saint-pete
  rs@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261213T160000Z
 DTEND:20261213T180000Z
 SUMMARY:Спектакль Хуго Эрикссена «Ивонна\, 
@@ -618,7 +570,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:play-the-man-from-dublin-directed-by-andrei-kalinin-saint-peters@afis
  ha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261224T160000Z
 DTEND:20261224T180000Z
 SUMMARY:Спектакль Андрея Калинина «Человек
@@ -640,7 +592,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:kzn-mon-zatvornik-i-shestipalyy@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261119T160000Z
 DTEND:20261119T180000Z
 SUMMARY:«Затворник и Шестипалый»
@@ -659,7 +611,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:creature-directed-by-nikita-kobelev-moscow@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261113T160000Z
 DTEND:20261113T180000Z
 SUMMARY:Спектакль Никиты Кобелева «Тварь»
@@ -679,7 +631,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:play-comrade-kislyakov-directed-by-andrei-kalinin-saint-peters@afisha
  -art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261227T160000Z
 DTEND:20261227T180000Z
 SUMMARY:Спектакль Андрея Калинина «Товарищ
@@ -702,7 +654,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:play-tired-of-being-born-and-dying-directed-by-ding-yiteng-saint-pete
  rs@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261226T160000Z
 DTEND:20261226T180000Z
 SUMMARY:Спектакль Дин Итэна «Устал рождать
@@ -724,7 +676,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:msk-praktika-naivno-super@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261120T160000Z
 DTEND:20261120T180000Z
 SUMMARY:«Наивно. Супер». Премьера
@@ -742,7 +694,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:play-the-seagull-directed-by-elena-pavlova-saint-peters@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261205T160000Z
 DTEND:20261205T180000Z
 SUMMARY:Спектакль Елены Павловой «Чайка»
@@ -762,7 +714,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:play-creature-directed-by-nikita-kobelev-saint-peters@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261201T160000Z
 DTEND:20261201T180000Z
 SUMMARY:Спектакль Никиты Кобелева «Тварь»
@@ -783,7 +735,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:play-it-s-not-me-it-s-my-childhood-saint-peters@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261211T160000Z
 DTEND:20261211T180000Z
 SUMMARY:Спектакль «Это не я\, это моё детств
@@ -806,7 +758,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:play-my-friend-lapshin-directed-by-elena-pavlova-saint-peters@afisha-
  art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261219T160000Z
 DTEND:20261219T180000Z
 SUMMARY:Спектакль Елены Павловой «Мой друг 
@@ -827,28 +779,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:theatre-performance-words-are-different-moscow@afisha-art
-DTSTAMP:20261113T184219Z
-DTSTART:20261113T163000Z
-DTEND:20261113T183000Z
-SUMMARY:Спектакль «У Театра» «Слова бывают 
- разные»
-LOCATION:Новая сцена\, Москва
-DESCRIPTION:Показ камерного спектакля на Нов
- ой сцене.\nТеатр «У Театра»\nhttps://t.me/newstagepr
- ojects/3169
-URL:https://doublebasskakov.github.io/radar/#e=theatre-performance-words-
- are-different-moscow
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Спектакль «У Театра» «Слова быва
- ют разные»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:the-birthday-of-a-fairy-tale-performance-moscow@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261114T100000Z
 DTEND:20261114T120000Z
 SUMMARY:Спектакль «День рождения сказки»
@@ -866,7 +798,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:romeo-and-juliet-in-darkness-moscow@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261125T160000Z
 DTEND:20261125T180000Z
 SUMMARY:Ромео и Джульетта во мгле
@@ -888,8 +820,55 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:performance-mayakovsky-date-moscow@afisha-art
+DTSTAMP:20261114T113718Z
+DTSTART:20261114T160000Z
+DTEND:20261114T180000Z
+SUMMARY:Спектакль «Маяковский. Свидание»
+LOCATION:Центральный дом литераторов\, Моск
+ ва\, Большая Никитская ул.\, 53\, Москва
+DESCRIPTION:Поэтическое посвящение девушкам\
+ , влюбленным в поэтов\, основанное на ист
+ ории переписки Владимира Маяковского с 
+ неизвестной поклонницей.\nАлександр Тро
+ нов\, Анна Тихомирова\, Светлана Шилова\, 
+ Алексей Кирсанов\nhttps://t.me/theblueprintnews/99504
+URL:https://doublebasskakov.github.io/radar/#e=performance-mayakovsky-dat
+ e-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спектакль «Маяковский. Свидание»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:screening-of-the-performance-pushkin-s-fairy-tales-directed--moscow@a
+ fisha-art
+DTSTAMP:20261114T113718Z
+DTSTART:20261128T133000Z
+DTEND:20261128T153000Z
+SUMMARY:Показ спектакля «Сказки Пушкина» в 
+ постановке Роберта Уилсона
+LOCATION:Филармония-2. Виртуальный зал\, Мичу
+ ринский проспект\, Олимпийская деревня\,
+  д. 1\, Москва
+DESCRIPTION:Видеопоказ авангардной театраль
+ ной постановки режиссёра Роберта Уилсо
+ на по сказкам А. С. Пушкина\, созданной в 
+ Театре Наций.\nРоберт Уилсон\, Театр Наци
+ й\nhttps://meloman.ru/concert/vz-2026-11-28-16/
+URL:https://doublebasskakov.github.io/radar/#e=screening-of-the-performan
+ ce-pushkin-s-fairy-tales-directed--moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ спектакля «Сказки Пушкина»
+  в постановке Роберта Уилсона
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:about-my-mother-and-about-me-moscow@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261212T170000Z
 DTEND:20261212T190000Z
 SUMMARY:Про мою маму и про меня
@@ -909,7 +888,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:idiotology-moscow@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261216T160000Z
 DTEND:20261216T180000Z
 SUMMARY:Идиотология
@@ -928,7 +907,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:life-is-a-dream-moscow@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261118T160000Z
 DTEND:20261118T180000Z
 SUMMARY:Жизнь есть сон
@@ -946,26 +925,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:momento-moscow@afisha-art
-DTSTAMP:20261113T184219Z
-DTSTART:20261113T170000Z
-DTEND:20261113T190000Z
-SUMMARY:Momento
-LOCATION:Электротеатр Станиславский\, Тверс
- кая ул.\, 23\, Москва
-DESCRIPTION:Хореографический спектакль пост
- ановщика Чена Агрона на основной сцене 
- театра.\nЧен Агрон\nhttps://electrotheatre.ru/playbill
-URL:https://doublebasskakov.github.io/radar/#e=momento-moscow
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Momento
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:maryino-field-moscow@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261204T160000Z
 DTEND:20261204T180000Z
 SUMMARY:Марьино поле
@@ -983,7 +944,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:msk-electrotheatre-maryino-pole@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261203T160000Z
 DTEND:20261203T180000Z
 SUMMARY:«Марьино поле». Премьера
@@ -1002,7 +963,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:msk-electrotheatre-ya-fabr@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261117T170000Z
 DTEND:20261117T190000Z
 SUMMARY:«Я/Фабр»
@@ -1020,7 +981,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:not-all-days-are-shrovetide-moscow@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261206T160000Z
 DTEND:20261206T180000Z
 SUMMARY:Не всё коту масленица
@@ -1039,8 +1000,32 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:screening-of-the-ballet-carmina-burana-choreographed-by-edwa-moscow@a
+ fisha-art
+DTSTAMP:20261114T113718Z
+DTSTART:20261114T140000Z
+DTEND:20261114T160000Z
+SUMMARY:Показ балета «Carmina Burana» в хореограф
+ ии Эдварда Клюга
+LOCATION:Филармония-2. Виртуальный зал\, Мичу
+ ринский проспект\, Олимпийская деревня\,
+  д. 1\, Москва
+DESCRIPTION:Видеопоказ современного балета в
+  хореографии Эдварда Клюга на музыку ка
+ нтаты Карла Орфа.\nЭдвард Клюг\nhttps://meloman.r
+ u/concert/vz-2026-11-14-17/
+URL:https://doublebasskakov.github.io/radar/#e=screening-of-the-ballet-ca
+ rmina-burana-choreographed-by-edwa-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ балета «Carmina Burana» в хореогр
+ афии Эдварда Клюга
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:bunin-moscow@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261121T160000Z
 DTEND:20261121T180000Z
 SUMMARY:Бунин
@@ -1058,8 +1043,31 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:marital-stories-play-saratov@afisha-art
+DTSTAMP:20261114T113718Z
+DTSTART:20261114T140000Z
+DTEND:20261114T160000Z
+SUMMARY:Спектакль «Супружеские истории»
+LOCATION:Театральный институт Саратовской 
+ государственной консерватории им. Л. В. 
+ Собинова\, Саратов
+DESCRIPTION:Показ камерного спектакля «Супру
+ жеские истории» в рамках проекта «Театр
+  малых форм».\nТеатр малых форм (Саратовс
+ кий театральный институт)\nhttps://sarcons.ru/event
+ s/teatr-malykh-form-14-i-20-noyabrya-v-18-00-sostoitsya-pokaz-spektaklya-
+ supruzheskie-istorii/
+URL:https://doublebasskakov.github.io/radar/#e=marital-stories-play-sarat
+ ov
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спектакль «Супружеские истории»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:a-christmas-memory-moscow@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261231T090000Z
 DTEND:20261231T110000Z
 SUMMARY:Воспоминание об одном Рождестве
@@ -1076,8 +1084,47 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:the-rake-s-progress-opera-moscow@afisha-art
+DTSTAMP:20261114T113718Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261120
+SUMMARY:Опера «Похождения повесы»
+LOCATION:Большой театр (Бетховенский зал)\, Т
+ еатральная площадь\, 1\, Москва
+DESCRIPTION:Возобновление легендарного спек
+ такля Бориса Покровского по неоклассич
+ еской опере Стравинского\, вдохновленно
+ й сатирическими гравюрами XVIII века.\nИго
+ рь Стравинский\nhttps://t.me/bolshoi_theatre/11766
+URL:https://doublebasskakov.github.io/radar/#e=the-rake-s-progress-opera-
+ moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Опера «Похождения повесы»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:faust-fait-non-dit-paris@afisha-art
+DTSTAMP:20261114T113718Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261120
+SUMMARY:Faust. Fait\, non dit
+LOCATION:Odéon Théâtre de l’Europe\, Париж
+DESCRIPTION:Новая радикальная трактовка мифа
+  о Фаусте от ведущего итальянского режи
+ ссера Ромео Кастеллуччи.\nРомео Кастелл
+ уччи\nhttps://t.me/lobbymoscow/3740
+URL:https://doublebasskakov.github.io/radar/#e=faust-fait-non-dit-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Faust. Fait\, non dit
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:exhibition-season-results-no-63-moscow@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:Последний день: Выставка «Итоги сез
@@ -1100,29 +1147,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:the-rake-s-progress-opera-moscow@afisha-art
-DTSTAMP:20261113T184219Z
-DTSTART;VALUE=DATE:20261118
-DTEND;VALUE=DATE:20261120
-SUMMARY:Опера «Похождения повесы»
-LOCATION:Большой театр (Бетховенский зал)\, Т
- еатральная площадь\, 1\, Москва
-DESCRIPTION:Возобновление легендарного спек
- такля Бориса Покровского по неоклассич
- еской опере Стравинского\, вдохновленно
- й сатирическими гравюрами XVIII века.\nИго
- рь Стравинский\nhttps://t.me/bolshoi_theatre/11766
-URL:https://doublebasskakov.github.io/radar/#e=the-rake-s-progress-opera-
- moscow
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Опера «Похождения повесы»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:semyon-kotko-opera-moscow@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 SUMMARY:Опера «Семён Котко»
@@ -1142,7 +1168,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:constructivism-days-moscow@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261123
 SUMMARY:Дни конструктивизма
@@ -1161,7 +1187,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dramatic-play-why-not-saint-peters@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261123
 SUMMARY:Драматический спектакль «Почему не
@@ -1181,8 +1207,30 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:dance-performance-the-nutcracker-not-a-fairy-tale-moscow@afisha-art
+DTSTAMP:20261114T113718Z
+DTSTART;VALUE=DATE:20261225
+DTEND;VALUE=DATE:20261228
+SUMMARY:Танцевальный спектакль «Щелкунчик.
+  Несказка»
+LOCATION:Новая Опера\, Москва
+DESCRIPTION:Современный хореографический сп
+ ектакль Павла Глухова предлагает перео
+ смысление известного балета П. И. Чайков
+ ского.\nПавел Глухов\, театр «Новая Опера
+ »\nhttps://t.me/novayaopera/5883
+URL:https://doublebasskakov.github.io/radar/#e=dance-performance-the-nutc
+ racker-not-a-fairy-tale-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Танцевальный спектакль «Щелкунч
+ ик. Несказка»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:peter-pan-samara@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:Спектакль «Питер Пэн»
@@ -1202,7 +1250,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:winter-city-mystery-asya-is-looking-for-words-moscow@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART;VALUE=DATE:20270106
 DTEND;VALUE=DATE:20270111
 SUMMARY:Зимняя городская мистерия «Ася ище
@@ -1224,7 +1272,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pilorama@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Пилорама+
@@ -1243,7 +1291,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:blokha-chekhov@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 SUMMARY:Чехов. Мировая душа
@@ -1261,7 +1309,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:opera-la-traviata-moscow@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Опера «Травиата»
@@ -1279,7 +1327,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mamt-romeo@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261130
 SUMMARY:Ромео и Джульетта (опера Гуно)
@@ -1298,30 +1346,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:performance-mayakovsky-date-moscow@afisha-art
-DTSTAMP:20261113T184219Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261117
-SUMMARY:Спектакль «Маяковский. Свидание»
-LOCATION:Центральный дом литераторов\, Моск
- ва
-DESCRIPTION:Поэтическое посвящение девушкам\
- , влюбленным в поэтов\, основанное на ист
- ории переписки Владимира Маяковского с 
- неизвестной поклонницей.\nАлександр Тро
- нов\, Анна Тихомирова\, Светлана Шилова\, 
- Алексей Кирсанов\nhttps://t.me/theblueprintnews/99504
-URL:https://doublebasskakov.github.io/radar/#e=performance-mayakovsky-dat
- e-moscow
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Спектакль «Маяковский. Свидание»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:spb-teatro-di-capua-uvb-76@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261120
 SUMMARY:«УВБ-76»
@@ -1340,7 +1366,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:spb-uzel-istoriya-kommunizma@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261127
 SUMMARY:«История коммунизма в рассказах дл

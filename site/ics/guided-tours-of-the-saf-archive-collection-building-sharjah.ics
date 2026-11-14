@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:guided-tours-of-the-saf-archive-collection-building-sharjah@afisha-ar
+ t
+DTSTAMP:20261114T113718Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Экскурсии по архиву и фондам SAF
+LOCATION:SAF Archive & Collection Building\, Шарджа\, ОАЭ
+DESCRIPTION:Посетители могут ознакомиться с 
+ процессами хранения коллекции из более 
+ чем 5 000 объектов\, эскизов и архивных док
+ ументов.\nSharjah Art Foundation\nhttps://www.sharjahart.org/en/wh
+ ats-on/details/guided-tours-of-the-saf-archive-collection-building
+URL:https://doublebasskakov.github.io/radar/#e=guided-tours-of-the-saf-ar
+ chive-collection-building-sharjah
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Экскурсии по архиву и фондам SAF
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

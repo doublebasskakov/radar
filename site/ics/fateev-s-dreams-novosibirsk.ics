@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:fateev-s-dreams-novosibirsk@afisha-art
+DTSTAMP:20261114T113718Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Сны Фатеева
+LOCATION:Новосибирский художественный музе
+ й\, Новосибирск
+DESCRIPTION:Персональная выставка живописи\, 
+ представляющая сюрреалистические и сим
+ волические образы в творчестве художни
+ ка.\nФатеев\nhttps://www.afisha.ru/exhibition/sny-fateeva-1014032
+ /
+URL:https://doublebasskakov.github.io/radar/#e=fateev-s-dreams-novosibirs
+ k
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Сны Фатеева
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

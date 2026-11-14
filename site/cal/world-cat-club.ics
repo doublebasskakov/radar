@@ -7,9 +7,30 @@ X-WR-CALNAME:Радар — Мир / World · cat-club
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:boiler-room-tbilisi-tbilisi@afisha-art
+DTSTAMP:20261114T113718Z
+DTSTART:20261114T180000Z
+DTEND:20261114T200000Z
+SUMMARY:Boiler Room Tbilisi
+LOCATION:Loco Park\, Тбилиси\, Грузия
+DESCRIPTION:Масштабный ночной рейв Boiler Room в Т
+ билиси при поддержке команды Innergated с уч
+ астием международных и локальных звезд 
+ техно-сцены.\nInnergated\, Vnjoka\, Marcel Fengler\, Obscure Sh
+ ape\, Laure Croft\, Natte Visstick\, Kotorri\, Airod\, 999999999\, Rites\
+ , Métaraph\, Steya\, Tkivilsaari\nhttps://t.me/tbiraving/3583
+URL:https://doublebasskakov.github.io/radar/#e=boiler-room-tbilisi-tbilis
+ i
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Boiler Room Tbilisi
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:radio-plato-closing-event-sara-tokina-anastasiya-rydlyewskay-szczecin
  @afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261119T190000Z
 DTEND:20261119T210000Z
 SUMMARY:Radio Plato Closing Event: Сара Токина\, Анастас
@@ -33,7 +54,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:intertronika-festival-workshops-live-concert-and-club-night-hamburg@a
  fisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261205T193000Z
 DTEND:20261205T213000Z
 SUMMARY:Фестиваль Intertronika: воркшопы\, лайв-ко
@@ -55,8 +76,27 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:nyege-nyege-festival-2026-day-1-jinja@afisha-art
+DTSTAMP:20261114T113718Z
+DTSTART:20261119T130000Z
+DTEND:20261119T150000Z
+SUMMARY:Nyege Nyege Festival 2026 — День 1
+LOCATION:Kalagala Falls\, River Nile\, Джинджа\, Уганда
+DESCRIPTION:Открытие масштабного фестиваля м
+ узыки и искусства на берегу Нила: первые
+  выступления артистов на семи сценах.\nDJ 
+ Luke Hekate\, Masaka Masaka\, Odera и др.\nhttps://nyegenyege.com/
+URL:https://doublebasskakov.github.io/radar/#e=nyege-nyege-festival-2026-
+ day-1-jinja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Nyege Nyege Festival 2026 — День 1
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:urban-essentials-street-dance-festival-vilnius@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261113T140000Z
 DTEND:20261113T160000Z
 SUMMARY:Фестиваль уличного танца Urban Essentials
@@ -77,7 +117,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:redo-rave-tbilisi@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:REDO RAVE
@@ -92,6 +132,102 @@ URL:https://doublebasskakov.github.io/radar/#e=redo-rave-tbilisi
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:REDO RAVE
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sonar-2027@afisha-art
+DTSTAMP:20261114T113718Z
+DTSTART;VALUE=DATE:20270617
+DTEND;VALUE=DATE:20270620
+SUMMARY:Sónar 2027
+LOCATION:Sónar by Day (набережная) и Sónar by Night (Fira Gr
+ an Via)\, Барселона\, Испания
+DESCRIPTION:Барселонский фестиваль продвину
+ той музыки и цифровой культуры возвраща
+ ется к формату «день/ночь»\; конференция
+  Sónar+D снова входит в дневную программу.\n
+ \nhttps://sonar.es/en/news/preventa-2027
+URL:https://doublebasskakov.github.io/radar/#e=sonar-2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sónar 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:berlin-atonal-2027@afisha-art
+DTSTAMP:20261114T113718Z
+DTSTART;VALUE=DATE:20270825
+DTEND;VALUE=DATE:20270830
+SUMMARY:Berlin Atonal 2027
+LOCATION:Kraftwerk Berlin\, Köpenicker Str. 70\, 10179 Berlin\, Берл
+ ин\, Германия
+DESCRIPTION:Фестиваль экспериментальной муз
+ ыки и аудиовизуальных перформансов в ги
+ гантском зале бывшей электростанции Kraft
+ werk.\n\nhttps://www.festivalfinder.eu/festivals/berlin-atonal-2027
+URL:https://doublebasskakov.github.io/radar/#e=berlin-atonal-2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Berlin Atonal 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nyege-nyege-festival-2026-day-3-jinja@afisha-art
+DTSTAMP:20261114T113718Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Nyege Nyege Festival 2026 — День 3
+LOCATION:Kalagala Falls\, River Nile\, Джинджа\, Уганда
+DESCRIPTION:Главная ночная программа фестива
+ ля: выступления хедлайнеров и танцы до р
+ ассвета с участием более 20 тысяч зрител
+ ей.\nХедлайнеры фестиваля\nhttps://nyegenyege.com/
+URL:https://doublebasskakov.github.io/radar/#e=nyege-nyege-festival-2026-
+ day-3-jinja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Nyege Nyege Festival 2026 — День 3
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nyege-nyege-festival-2026-day-2-jinja@afisha-art
+DTSTAMP:20261114T113718Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Nyege Nyege Festival 2026 — День 2
+LOCATION:Kalagala Falls\, River Nile\, Джинджа\, Уганда
+DESCRIPTION:Второй день фестиваля объединяет
+  афробит\, экспериментальную электроник
+ у и клубные ритмы на семи сценах.\n300+ арт
+ истов\nhttps://nyegenyege.com/
+URL:https://doublebasskakov.github.io/radar/#e=nyege-nyege-festival-2026-
+ day-2-jinja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Nyege Nyege Festival 2026 — День 2
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nyege-nyege-festival-2026-finale-jinja@afisha-art
+DTSTAMP:20261114T113718Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Nyege Nyege Festival 2026 — Финал
+LOCATION:Kalagala Falls\, River Nile\, Джинджа\, Уганда
+DESCRIPTION:Заключительный день фестиваля у 
+ водопадов Калагала с финальными сетями 
+ под утреннее солнце.\nУчастники фестива
+ ля\nhttps://nyegenyege.com/
+URL:https://doublebasskakov.github.io/radar/#e=nyege-nyege-festival-2026-
+ finale-jinja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Nyege Nyege Festival 2026 — Финал
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

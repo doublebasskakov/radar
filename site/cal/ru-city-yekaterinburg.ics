@@ -9,7 +9,7 @@ X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:museum-show-soundtrack-of-the-90s-michael-jackson-in-russia-yekaterin
  bur@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261114T110000Z
 DTEND:20261114T130000Z
 SUMMARY:Музейное шоу «Саундтрек 90-х»: Майкл 
@@ -31,9 +31,47 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:short-films-screening-block-2-yekaterinbur@afisha-art
+DTSTAMP:20261114T113718Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Показ короткометражных фильмов. Сб
+ орник 2
+LOCATION:Ельцин Центр\, Екатеринбург
+DESCRIPTION:Показ короткометражных фестивал
+ ьных работ «Мама»\, «Перед солнцем» и «М
+ атеринские сны».\n\nhttps://t.me/yeltsincenter/10187
+URL:https://doublebasskakov.github.io/radar/#e=short-films-screening-bloc
+ k-2-yekaterinbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ короткометражных фильмов. 
+ Сборник 2
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:screening-of-shelter-yekaterinbur@afisha-art
+DTSTAMP:20261114T113718Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Показ фильма «Укрытие»
+LOCATION:Ельцин Центр\, Екатеринбург
+DESCRIPTION:Показ неигрового фильма из конку
+ рсной программы фестиваля «Послание к ч
+ еловеку».\n\nhttps://t.me/yeltsincenter/10187
+URL:https://doublebasskakov.github.io/radar/#e=screening-of-shelter-yekat
+ erinbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильма «Укрытие»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:lecture-by-alexander-kushnir-on-zvuki-mu-and-pyotr-mamonov-yekaterinb
  ur@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261115T110000Z
 DTEND:20261115T130000Z
 SUMMARY:Лекция Александра Кушнира «Взлеты 
@@ -58,9 +96,30 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:performance-gadgets-in-our-life-yekaterinbur@afisha-art
+DTSTAMP:20261114T113718Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Перформанс «Гаджеты в нашей жизни»
+LOCATION:Музей Андеграунда\, Екатеринбург
+DESCRIPTION:Интерактивный плейбэк-спектакль\
+ , в котором актеры импровизируют и превр
+ ащают личные истории зрителей о гаджета
+ х в сценки.\nПлейбэк-театр «Отражение»\nht
+ tps://t.me/undergroundmuseum_ekb/5295
+URL:https://doublebasskakov.github.io/radar/#e=performance-gadgets-in-our
+ -life-yekaterinbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Перформанс «Гаджеты в нашей жизн
+ и»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:readings-and-text-laboratory-results-presentation-yekaterinbur@afisha
  -art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261115T120000Z
 DTEND:20261115T140000Z
 SUMMARY:Читки. Презентация итогов лаборато
@@ -80,29 +139,9 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:master-class-emotion-map-yekaterinbur@afisha-art
-DTSTAMP:20261113T184219Z
-DTSTART:20261113T140000Z
-DTEND:20261113T160000Z
-SUMMARY:Мастер-класс «Карта эмоций»
-LOCATION:Ельцин Центр\, Екатеринбург
-DESCRIPTION:Мастер-класс по выражению пережи
- ваний через коллаж и созданию зина в рам
- ках Недели (не)видимой инвалидности.\nЮл
- ия Быкова\, Катя Червонных\nhttps://t.me/yeltsincent
- er/10174
-URL:https://doublebasskakov.github.io/radar/#e=master-class-emotion-map-y
- ekaterinbur
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Мастер-класс «Карта эмоций»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:lecture-by-masha-ryba-soviet-fashion-of-the-nep-era-yekaterinbur@afis
  ha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART;VALUE=DATE:20270116
 DTEND;VALUE=DATE:20270117
 SUMMARY:Лекция Маши Рыбы «Советская мода эп
@@ -125,7 +164,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:presentation-of-the-poetry-anthology-factories-and-backwater-yekateri
  nbur@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261114T100000Z
 DTEND:20261114T120000Z
 SUMMARY:Презентация антологии поэзии «Заво
@@ -147,7 +186,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:public-talk-on-accessibility-visible-invisible-yekaterinbur@afisha-ar
  t
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261114T100000Z
 DTEND:20261114T120000Z
 SUMMARY:Паблик-ток о доступности «Видимое-н
@@ -168,7 +207,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lecture-by-zoya-sokolova-adhd-in-adults-yekaterinbur@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261114T130000Z
 DTEND:20261114T150000Z
 SUMMARY:Лекция Зои Соколовой «СДВГ у взросл
@@ -189,7 +228,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:performative-workout-yekaterinbur@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261114T090000Z
 DTEND:20261114T110000Z
 SUMMARY:Перформативная тренировка
@@ -208,7 +247,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:art-therapy-support-group-for-dementia-caregivers-yekaterinbur@afisha
  -art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261115T100000Z
 DTEND:20261115T120000Z
 SUMMARY:Арт-терапия. Группа поддержки ухажи
@@ -228,7 +267,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ekb-masm-kontrapunkt-epokh@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261127T140000Z
 DTEND:20261127T160000Z
 SUMMARY:МАСМ. «Контрапункт эпох»
@@ -247,9 +286,30 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:short-films-screening-block-1-yekaterinbur@afisha-art
+DTSTAMP:20261114T113718Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Показ короткометражных фильмов. Сб
+ орник 1
+LOCATION:Ельцин Центр\, Екатеринбург
+DESCRIPTION:Показ фестивальных короткометра
+ жных фильмов «Просто побудьте со мной»\,
+  «Я тоже хочу (снимать кино)» и «Похитите
+ ли».\n\nhttps://t.me/yeltsincenter/10187
+URL:https://doublebasskakov.github.io/radar/#e=short-films-screening-bloc
+ k-1-yekaterinbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ короткометражных фильмов. 
+ Сборник 1
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:message-to-man-festival-echo-program-screenings-in-yekaterin-yekateri
  nbur@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:Открытие: Фестиваль «Послание к чел
@@ -271,9 +331,47 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:short-films-screening-block-3-yekaterinbur@afisha-art
+DTSTAMP:20261114T113718Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Показ короткометражных фильмов. Сб
+ орник 3
+LOCATION:Ельцин Центр\, Екатеринбург
+DESCRIPTION:Сборник короткометражного кино: 
+ «Чуураа»\, «Город сов»\, «Ветер веет там\,
+  где хочет».\n\nhttps://t.me/yeltsincenter/10187
+URL:https://doublebasskakov.github.io/radar/#e=short-films-screening-bloc
+ k-3-yekaterinbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ короткометражных фильмов. 
+ Сборник 3
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:screening-of-portraits-of-arina-yekaterinbur@afisha-art
+DTSTAMP:20261114T113718Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Показ фильма «Портреты Арины»
+LOCATION:Ельцин Центр\, Екатеринбург
+DESCRIPTION:Показ документальной картины из 
+ программы фестиваля кино «Послание к че
+ ловеку».\n\nhttps://t.me/yeltsincenter/10187
+URL:https://doublebasskakov.github.io/radar/#e=screening-of-portraits-of-
+ arina-yekaterinbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильма «Портреты Арины»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:adamcsik-istvan-s-exhibition-color-semantics-mysticism-and-i-yekateri
  nbur@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:Последний день: Выставка Адамчика И
@@ -299,7 +397,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ekb-galereya11-savenko@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:Анастасия Савенко. «Временно стаби
@@ -321,7 +419,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:flora-bichakhchyan-concert-flora-world-star-yekaterinbur@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Концерт Флоры Бичахчян «ФЛОРА. Миро
@@ -345,7 +443,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:tour-and-masterclass-erik-bulatov-freedom-to-be-yekaterinbur@afisha-a
  rt
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:Экскурсия и мастер-класс «Эрик Була
@@ -367,7 +465,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ekb-yeltsin-atrium-art-object-2026@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART;VALUE=DATE:20261226
 DTEND;VALUE=DATE:20261227
 SUMMARY:Новогодний арт-объект в атриуме Ель
@@ -392,7 +490,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:presentation-of-the-limited-clothing-collection-autograph-yekaterinbu
  r@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Презентация лимитированной коллек
@@ -413,7 +511,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ekb-generations-innovators@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Последний день: Поколения новаторо

@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:nodirabegim-play-tashkent@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261125T130000Z
 DTEND:20261125T150000Z
 SUMMARY:Спектакль «Nodirabegim»
@@ -30,7 +30,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:play-osmon-hamma-gapni-eshitadi-tashkent@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261123T130000Z
 DTEND:20261123T150000Z
 SUMMARY:Спектакль «Osmon hamma gapni eshitadi»
@@ -52,8 +52,77 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:play-wolves-and-sheep-tashkent@afisha-art
+DTSTAMP:20261114T113718Z
+DTSTART:20261115T120000Z
+DTEND:20261115T140000Z
+SUMMARY:Спектакль «Волки и овцы»
+LOCATION:Государственный Академический Рус
+ ский драматический театр Узбекистана\, 
+ ул. Зарафшан\, 24\, Ташкент\, Узбекистан
+DESCRIPTION:Яркая комедийная постановка по к
+ лассической пьесе Александра Островско
+ го о человеческих интригах и обмане.\nГо
+ сударственный Академический Русский др
+ аматический театр Узбекистана\nhttps://t.me/ta
+ shkent_gogo/8185
+URL:https://doublebasskakov.github.io/radar/#e=play-wolves-and-sheep-tash
+ kent
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спектакль «Волки и овцы»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sherlock-holmes-and-the-12-days-of-christmas-london@afisha-art
+DTSTAMP:20261114T113718Z
+DTSTART:20261124T193000Z
+DTEND:20261124T213000Z
+SUMMARY:Открытие: Sherlock Holmes and the 12 Days of Christmas
+LOCATION:Alexandra Palace Theatre\, Лондон\, Великобрита
+ ния
+DESCRIPTION:Театральная постановка о Шерлоке
+  Холмсе с участием звездного актерского
+  состава.\nAlexandra Palace Theatre\nhttps://t.me/theatreandsuch/1
+ 379
+URL:https://doublebasskakov.github.io/radar/#e=sherlock-holmes-and-the-12
+ -days-of-christmas-london
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Sherlock Holmes and the 12 Days of Christma
+ s
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gla55-anne-teresa-de-keersmaeker-rosas-ictus-bl-ndman-berlin@afisha-a
+ rt
+DTSTAMP:20261114T113718Z
+DTSTART:20261119T183000Z
+DTEND:20261119T203000Z
+SUMMARY:GLA55: Анна Тереза Де Кеерсмакер / Rosas\, 
+ Ictus & BL!NDMAN
+LOCATION:Haus der Berliner Festspiele\, Schaperstraße 24\, 10719 Berlin\
+ , Берлин\, Германия
+DESCRIPTION:Спектакль в рамках Performing Arts Season\, 
+ объединяющий хореографию Анны Терезы Д
+ е Кеерсмаeker и живое музыкальное исполне
+ ние ансамблей Rosas\, Ictus и BL!NDMAN.\nAnne Teresa De Keer
+ smaeker\, Rosas\, Ictus\, BL!NDMAN\nhttps://www.berlinerfestspiele.de/en/
+ performing-arts-season/programm/2026/spielplan/gla55
+URL:https://doublebasskakov.github.io/radar/#e=gla55-anne-teresa-de-keers
+ maeker-rosas-ictus-bl-ndman-berlin
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GLA55: Анна Тереза Де Кеерсмакер / Rosa
+ s\, Ictus & BL!NDMAN
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:performance-les-jeux-de-l-amour-et-de-l-e-nigme-paris@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20270318T180000Z
 DTEND:20270318T200000Z
 SUMMARY:Спектакль «Les Jeux de l'amour et de l'énigme»
@@ -73,7 +142,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:play-gromkie-tbilisi@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART;VALUE=DATE:20270406
 DTEND;VALUE=DATE:20270407
 SUMMARY:Спектакль «Громкие»
@@ -91,50 +160,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:the-son-at-ilkhom-theatre-tashkent@afisha-art
-DTSTAMP:20261113T184219Z
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-SUMMARY:Спектакль «Сын» в театре «Ильхом»
-LOCATION:Театр «Ильхом»\, Ташкент\, Ташкент\, 
- Узбекистан
-DESCRIPTION:Показ спектакля «Сын» на сцене те
- атра «Ильхом» (замена ранее заявленного
-  спектакля).\nТеатр «Ильхом»\nhttps://t.me/ilkhomth
- eatre/6624
-URL:https://doublebasskakov.github.io/radar/#e=the-son-at-ilkhom-theatre-
- tashkent
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Спектакль «Сын» в театре «Ильхом
- »
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sherlock-holmes-and-the-12-days-of-christmas-london@afisha-art
-DTSTAMP:20261113T184219Z
-DTSTART;VALUE=DATE:20261124
-DTEND;VALUE=DATE:20261125
-SUMMARY:Открытие: Sherlock Holmes and the 12 Days of Christmas
-LOCATION:Alexandra Palace Theatre\, Лондон\, Великобрита
- ния
-DESCRIPTION:Театральная постановка о Шерлоке
-  Холмсе с участием звездного актерского
-  состава.\nAlexandra Palace Theatre\nhttps://t.me/theatreandsuch/1
- 379
-URL:https://doublebasskakov.github.io/radar/#e=sherlock-holmes-and-the-12
- -days-of-christmas-london
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Открытие: Sherlock Holmes and the 12 Days of Christma
- s
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:seven-moons-at-ilkhom-theatre-tashkent@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Спектакль «Семь лун» в театре «Ильх
@@ -155,7 +182,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:minsk-sea-performance-vilnius@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Спектакль «Минское море»

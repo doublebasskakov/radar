@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:short-films-screening-block-1-yekaterinbur@afisha-art
+DTSTAMP:20261114T113718Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Показ короткометражных фильмов. Сб
+ орник 1
+LOCATION:Ельцин Центр\, Екатеринбург
+DESCRIPTION:Показ фестивальных короткометра
+ жных фильмов «Просто побудьте со мной»\,
+  «Я тоже хочу (снимать кино)» и «Похитите
+ ли».\n\nhttps://t.me/yeltsincenter/10187
+URL:https://doublebasskakov.github.io/radar/#e=short-films-screening-bloc
+ k-1-yekaterinbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ короткометражных фильмов. 
+ Сборник 1
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

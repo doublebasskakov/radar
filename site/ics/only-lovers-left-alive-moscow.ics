@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:only-lovers-left-alive-moscow@afisha-art
+DTSTAMP:20261114T113718Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Выживут только любовники
+LOCATION:Кинотеатры Москвы\, Москва
+DESCRIPTION:Эстетическое авторское кино о ве
+ чной любви двух древних вампиров-интелл
+ ектуалов в современном мире.\nДжим Джарм
+ уш\nhttps://www.afisha.ru/movie/vyzhivut-tolko-lyubovniki-210656/
+URL:https://doublebasskakov.github.io/radar/#e=only-lovers-left-alive-mos
+ cow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выживут только любовники
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

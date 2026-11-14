@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:exhibition-action-scene-saint-peters@afisha-art
+DTSTAMP:20261114T113718Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Открытие: Выставка «Сцена действия
+ »
+LOCATION:Центральный выставочный зал «Мане
+ ж»\, Санкт-Петербург
+DESCRIPTION:Выставка исследует феномен спект
+ акля через произведения живописи\, граф
+ ики\, скульптуры и кино.\nЦВЗ «Манеж»\nhttps:
+ //t.me/spbmanege/4029
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-action-scene-sa
+ int-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка «Сцена действ
+ ия»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

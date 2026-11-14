@@ -5,11 +5,10 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:msk-winzavod-eksperiment-neprisnivsheesya-zavtra@afisha-art
-DTSTAMP:20261113T184219Z
-DTSTART;VALUE=DATE:20261129
-DTEND;VALUE=DATE:20261130
-SUMMARY:Последний день: «Неприснившееся за
- втра»
+DTSTAMP:20261114T113718Z
+DTSTART:20261021T070000Z
+DTEND:20261021T090000Z
+SUMMARY:Открытие: «Неприснившееся завтра»
 LOCATION:Винзавод\, Акцизный зал\, 4-й Сыромят
  нический пер.\, 1/8\, Москва
 DESCRIPTION:Выставка экспериментальной прог
@@ -19,8 +18,8 @@ URL:https://doublebasskakov.github.io/radar/#e=msk-winzavod-eksperiment-n
  eprisnivsheesya-zavtra
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Последний день: «Неприснившееся 
- завтра»
+DESCRIPTION:Открытие: «Неприснившееся завтра
+ »
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

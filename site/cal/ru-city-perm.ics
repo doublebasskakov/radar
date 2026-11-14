@@ -9,7 +9,7 @@ X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:concert-performance-of-the-opera-andrea-che-nier-lecture-by--perm@afi
  sha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261122T120000Z
 DTEND:20261122T140000Z
 SUMMARY:Концертное исполнение оперы «Андре
@@ -32,7 +32,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:concert-performance-of-the-opera-andrea-che-nier-creative-me-perm@afi
  sha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART:20261121T110000Z
 DTEND:20261121T130000Z
 SUMMARY:Концертное исполнение оперы «Андре
@@ -56,7 +56,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-in-the-forests-perm@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Последний день: Выставка «В лесах»
@@ -78,7 +78,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:perm-drugie-krugi-barskaya-nechernyy-kvadrat@afisha-art
-DTSTAMP:20261113T184219Z
+DTSTAMP:20261114T113718Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Последний день: Анна Барская. «Нечё
@@ -96,6 +96,24 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Последний день: Анна Барская. «Не
  чёрный квадрат»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:new-year-red-market-perm@afisha-art
+DTSTAMP:20261114T113718Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261221
+SUMMARY:Новогодний RED MARKET
+LOCATION:Завод Шпагина\, Пермь
+DESCRIPTION:Новогодний дизайн-маркет с участ
+ ием локальных брендов\, фермеров\, образ
+ овательной и семейной программой на чет
+ ырех площадках.\n\nhttps://t.me/afisha59ru/12115
+URL:https://doublebasskakov.github.io/radar/#e=new-year-red-market-perm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Новогодний RED MARKET
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
