@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:born-in-childhood-moscow@afisha-art
+DTSTAMP:20261114T203651Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Открытие: Родом из детства
+LOCATION:Государственный Дарвиновский музе
+ й\, Москва
+DESCRIPTION:Ретроспективная выставка работ Н
+ ади Лихогруд\, посвященная исследованию
+  детских воспоминаний и личной памяти.\n
+ Надя Лихогруд\nhttps://t.me/vmuzey/32257
+URL:https://doublebasskakov.github.io/radar/#e=born-in-childhood-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Родом из детства
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

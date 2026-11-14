@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:screening-of-nevechernyaya-moscow@afisha-art
+DTSTAMP:20261114T203651Z
+DTSTART:20261127T163000Z
+DTEND:20261127T183000Z
+SUMMARY:Показ фильма «Невечерняя»
+LOCATION:Инженерный корпус Третьяковской г
+ алереи\, Москва
+DESCRIPTION:Спецпоказ фильма Марлена Хуциева
+  об исканиях и беседах Льва Толстого и А
+ нтона Чехова с участием Али Хамраева.\nМ
+ арлен Хуциев\, Али Хамраев\nhttps://t.me/message2man
+ /2845
+URL:https://doublebasskakov.github.io/radar/#e=screening-of-nevechernyaya
+ -moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильма «Невечерняя»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

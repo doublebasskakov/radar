@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:his-highness-naive-moscow@afisha-art
+DTSTAMP:20261114T203651Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Открытие: Выставка «Его Светлость Н
+ аив»
+LOCATION:Sistema Gallery\, Москва
+DESCRIPTION:Экспозиция произведений наивног
+ о искусства художников-самоучек из двух
+  десятков стран из частного собрания Се
+ ргея Ястржембского.\nСергей Ястржембски
+ й\nhttps://t.me/sistema_gallery/2701
+URL:https://doublebasskakov.github.io/radar/#e=his-highness-naive-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка «Его Светлост
+ ь Наив»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

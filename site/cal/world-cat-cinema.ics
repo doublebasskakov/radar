@@ -9,7 +9,7 @@ X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:documentary-film-nabokov-a-good-russian-and-meeting-with-leo-london@a
  fisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART:20261115T190000Z
 DTEND:20261115T210000Z
 SUMMARY:Документальный фильм «Набоков\, хор
@@ -34,7 +34,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nomsiz-experimental-film-and-video-art-festival-tashkent@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART:20261114T120000Z
 DTEND:20261114T140000Z
 SUMMARY:Фестиваль экспериментального кино 
@@ -57,7 +57,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:meeting-with-leonid-parfenov-screening-of-nabokov-a-good-rus-london@a
  fisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART:20261115T140000Z
 DTEND:20261115T160000Z
 SUMMARY:Встреча с Леонидом Парфёновым: пока
@@ -80,7 +80,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ircam-action-man-ray@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART:20270130T190000Z
 DTEND:20270130T210000Z
 SUMMARY:Action! Man Ray
@@ -97,9 +97,33 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:documentary-screening-of-children-404-and-discussion-berlin@afisha-ar
+ t
+DTSTAMP:20261114T203651Z
+DTSTART:20261125T180000Z
+DTEND:20261125T200000Z
+SUMMARY:Показ документального фильма «Дети
+  404» с обсуждением
+LOCATION:Reforum Space Berlin\, Wiener Straße 31\, 10999 Berlin\, Бер
+ лин\, Германия
+DESCRIPTION:Показ документальной ленты о жиз
+ ни ЛГБТИК-подростков в России с участие
+ м режиссеров Аскольда Курова и Павла Ло
+ парева.\nАскольд Куров\, Павел Лопарев\, EQ
+ UAL\nhttps://t.me/reforumspaceberlin/2148
+URL:https://doublebasskakov.github.io/radar/#e=documentary-screening-of-c
+ hildren-404-and-discussion-berlin
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ документального фильма «Де
+ ти 404» с обсуждением
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:special-screening-of-ddt-20th-century-and-q-a-with-director--london@a
  fisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART:20261119T200000Z
 DTEND:20261119T220000Z
 SUMMARY:Спецпоказ фильма «ДДТ. XX век» и Q&A с 
@@ -124,7 +148,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:european-premiere-artist-talk-tiffany-sia-overt-listening-vienna@afis
  ha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART:20261114T170000Z
 DTEND:20261114T190000Z
 SUMMARY:Европейская премьера и паблик-ток: 
@@ -146,7 +170,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:maintenance-artist-toby-perl-freilich-brussels@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART:20261114T153000Z
 DTEND:20261114T173000Z
 SUMMARY:Maintenance Artist — Toby Perl Freilich
@@ -165,7 +189,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nostalgia-for-the-future-brecht-debackere-brussels@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART:20261114T180000Z
 DTEND:20261114T200000Z
 SUMMARY:Nostalgia for the Future — Brecht Debackere
@@ -184,7 +208,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:film-screening-book-launch-basak-senova-mirror-project-vienna@afisha-
  art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART:20261118T180000Z
 DTEND:20261118T200000Z
 SUMMARY:Кинопоказ и презентация книги: Баша
@@ -204,9 +228,33 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:27th-tbilisi-international-film-festival-tbilisi@afisha-art
+DTSTAMP:20261114T203651Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261207
+SUMMARY:27-й Международный кинофестиваль в Т
+ билиси
+LOCATION:Кинотеатр «Амирани»\, Тбилиси\, Гру
+ зия
+DESCRIPTION:Масштабный киносмотр\, представл
+ яющий около 80 грузинских и зарубежных ф
+ ильмов\, включая конкурсную «Грузинскую
+  панораму»\, секции «Европейский форум»\
+ , «Мир документального кино» и специаль
+ ные показы.\n\nhttps://t.me/nateli_tbilisi/11855
+URL:https://doublebasskakov.github.io/radar/#e=27th-tbilisi-international
+ -film-festival-tbilisi
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:27-й Международный кинофестиваль 
+ в Тбилиси
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:screening-of-andrey-zvyagintsev-s-film-minotaur-and-lecture-london@af
  isha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Кинопоказ фильма Андрея Звягинцева
@@ -227,8 +275,29 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:the-film-london-jarman-award-2026-london@afisha-art
+DTSTAMP:20261114T203651Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:Открытие: Премия Film London Jarman Award 2026
+LOCATION:Whitechapel Gallery\, Лондон\, Великобритани
+ я
+DESCRIPTION:Показы и мероприятия в рамках пре
+ стижной премии имени Дерека Джармана дл
+ я независимых кинорежиссеров и видеоху
+ дожников.\nVarious\nhttps://www.whitechapelgallery.org/exhibition
+ s/the-film-london-jarman-award-2026/
+URL:https://doublebasskakov.github.io/radar/#e=the-film-london-jarman-awa
+ rd-2026-london
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Премия Film London Jarman Award 2026
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:suspiria-stan-douglas-paris@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART;VALUE=DATE:20270109
 DTEND;VALUE=DATE:20270110
 SUMMARY:Последний день: Suspiria (Stan Douglas)
@@ -242,6 +311,29 @@ URL:https://doublebasskakov.github.io/radar/#e=suspiria-stan-douglas-pari
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Последний день: Suspiria (Stan Douglas)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:screen-portraits-whitechapel-gallery-artists-part-2-london@afisha-art
+DTSTAMP:20261114T203651Z
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+SUMMARY:Последний день: Портреты на экране: 
+ Художники галереи Уайтчепел — Часть 2
+LOCATION:Whitechapel Gallery\, Лондон\, Великобритани
+ я
+DESCRIPTION:Вторая часть кинопрограммы\, посв
+ ященной видеоработам художников\, связа
+ нных с историей галереи Уайтчепел.\nVarious\
+ nhttps://www.whitechapelgallery.org/exhibitions/screen-portraits-whitecha
+ pel-gallery-artists-part-2/
+URL:https://doublebasskakov.github.io/radar/#e=screen-portraits-whitechap
+ el-gallery-artists-part-2-london
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Портреты на экран
+ е: Художники галереи Уайтчепел — Часть 2
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

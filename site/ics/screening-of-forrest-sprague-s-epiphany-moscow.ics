@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:screening-of-forrest-sprague-s-epiphany-moscow@afisha-art
+DTSTAMP:20261114T203651Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Показ фильма «Epiphany» Форреста Спрей
+ га
+LOCATION:Фонд «Кинора»\, Москва
+DESCRIPTION:Показ экспериментального пятича
+ стного фильма Форреста Спрейга о нью-йо
+ ркской стройке в традициях структурног
+ о кино\, сопровождаемый обсуждением с ав
+ тором.\nФоррест Спрейг\, Игорь Крючков\nhtt
+ ps://t.me/kinoartru/13884
+URL:https://doublebasskakov.github.io/radar/#e=screening-of-forrest-sprag
+ ue-s-epiphany-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильма «Epiphany» Форреста Спр
+ ейга
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

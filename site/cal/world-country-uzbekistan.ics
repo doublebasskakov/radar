@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:nomsiz-experimental-film-and-video-art-festival-tashkent@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART:20261114T120000Z
 DTEND:20261114T140000Z
 SUMMARY:Фестиваль экспериментального кино 
@@ -31,7 +31,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:lecture-nomads-and-cities-two-worlds-of-central-asia-tashkent@afisha-
  art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART:20261114T130000Z
 DTEND:20261114T150000Z
 SUMMARY:Лекция «Кочевники и города: два мир
@@ -54,7 +54,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nodirabegim-play-tashkent@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART:20261125T130000Z
 DTEND:20261125T150000Z
 SUMMARY:Спектакль «Nodirabegim»
@@ -77,7 +77,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:rushana-alimova-solo-exhibition-how-rivers-become-clouds-tashkent@afi
  sha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART:20261118T130000Z
 DTEND:20261118T150000Z
 SUMMARY:Открытие: Персональная выставка Ру
@@ -102,7 +102,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:anime-hits-by-symphony-orchestra-tashkent@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART:20261115T130000Z
 DTEND:20261115T150000Z
 SUMMARY:Хиты из мира аниме в исполнении сим
@@ -125,7 +125,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:play-osmon-hamma-gapni-eshitadi-tashkent@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART:20261123T130000Z
 DTEND:20261123T150000Z
 SUMMARY:Спектакль «Osmon hamma gapni eshitadi»
@@ -149,7 +149,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:anniversary-concert-of-the-state-symphony-orchestra-choir-of-tashkent
  @afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART:20261127T140000Z
 DTEND:20261127T160000Z
 SUMMARY:Юбилейный концерт хора при Государ
@@ -175,8 +175,31 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:premiere-of-the-comedy-play-maysara-tashkent@afisha-art
+DTSTAMP:20261114T203651Z
+DTSTART:20261128T120000Z
+DTEND:20261128T140000Z
+SUMMARY:Премьера комедийного спектакля «Mays
+ ara»
+LOCATION:Узбекский государственный музыкал
+ ьный театр имени Мукими\, ул. Махмуджона 
+ Гафурова\, 187\, Ташкент\, Узбекистан
+DESCRIPTION:Музыкальная комедийная постанов
+ ка по мотивам узбекского фольклора о на
+ ходчивой героине Майсаре\, помогающей в
+ любленным.\n\nhttps://t.me/tashkent_gogo/8193
+URL:https://doublebasskakov.github.io/radar/#e=premiere-of-the-comedy-pla
+ y-maysara-tashkent
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Премьера комедийного спектакля «
+ Maysara»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:play-wolves-and-sheep-tashkent@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART:20261115T120000Z
 DTEND:20261115T140000Z
 SUMMARY:Спектакль «Волки и овцы»
@@ -200,7 +223,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:glass-bottle-upcycling-masterclass-at-human-house-gallery-tashkent@af
  isha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART:20261114T070000Z
 DTEND:20261114T090000Z
 SUMMARY:Мастер-класс по апсайклингу стекля
@@ -223,7 +246,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:lecture-by-yulia-aukhadeeva-between-steppe-and-oasis-tashkent@afisha-
  art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART:20261114T130000Z
 DTEND:20261114T150000Z
 SUMMARY:Лекция Юлии Аухадеевой «Между степ
@@ -246,7 +269,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:literary-translation-workshop-by-hafiza-qo-chqorova-tashkent@afisha-a
  rt
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART:20261116T100000Z
 DTEND:20261116T120000Z
 SUMMARY:Мастер-класс по литературному пере
@@ -271,7 +294,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gingerbread-house-master-class-tashkent@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART:20261129T120000Z
 DTEND:20261129T140000Z
 SUMMARY:Мастер-класс «Имбирный домик»
@@ -290,7 +313,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:show-other-games-improvisation-tashkent@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART:20261118T143000Z
 DTEND:20261118T163000Z
 SUMMARY:Шоу «Другие игры. Импровизация»
@@ -310,7 +333,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tashkent-city-tour-with-rakhmat-akzamovich-tashkent@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART:20261115T050000Z
 DTEND:20261115T070000Z
 SUMMARY:Экскурсия по Ташкенту с Рахматом Ак
@@ -332,7 +355,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:bukhara-biennial-2027@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART;VALUE=DATE:20270903
 DTEND;VALUE=DATE:20270904
 SUMMARY:Открытие: Bukhara Biennial 2027
@@ -355,7 +378,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:seven-moons-at-ilkhom-theatre-tashkent@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Спектакль «Семь лун» в театре «Ильх
@@ -377,7 +400,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:multimedia-exhibition-savitsky-s-diaries-old-and-new-tashkent@afisha-
  art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:Открытие: Мультимедийная выставка 
@@ -399,7 +422,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:hikmah-exhibition-at-cca-tashkent-tashkent@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:Открытие: Выставка Hikmah в CCA Tashkent
@@ -419,7 +442,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:zurab-tsereteli-exhibition-larger-than-life-tashkent@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:Открытие: Выставка Зураба Церетели 
@@ -442,7 +465,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:yermolai-solzhenitsyn-photo-exhibition-textures-and-fragment-tashkent
  @afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261117
 SUMMARY:Фотовыставка Ермолая Солженицына «
@@ -464,7 +487,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:timur-d-vatz-exhibition-journey-tashkent@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261119
 SUMMARY:Выставка Тимура Д’Ватца «Путешест
@@ -485,7 +508,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-yalt-yult-at-ichkari-museum-tashkent@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:Открытие: Выставка «Ялт-Юлт» в музе
@@ -507,7 +530,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:san-at-up-exhibition-project-at-the-goethe-institut-tashkent@afisha-a
  rt
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:Открытие: Выставочный проект San’at Up
@@ -530,7 +553,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-levitation-in-memory-of-bayat-mukhtarov-tashkent@afisha-ar
  t
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:Выставка «Левитация» памяти Баята 
@@ -552,7 +575,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-magic-of-gancha-tashkent@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261116
 SUMMARY:Выставка «Волшебство ганча»
@@ -573,7 +596,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:salima-abdurazakova-exhibition-what-dreams-may-come-tashkent@afisha-a
  rt
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261117
 SUMMARY:Выставка Салимы Абдуразаковой «Куд
@@ -595,7 +618,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:interflows-exhibition-at-artepa-gallery-tashkent@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:Открытие: Выставка Interflows в галерее A
@@ -616,7 +639,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:kydyrbay-nazhimov-book-graphics-exhibition-tashkent@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:Открытие: Выставка книжной графики 

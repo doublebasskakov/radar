@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:vent-moscow@afisha-art
+DTSTAMP:20261114T203651Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:VENT
+LOCATION:Beryozka Club\, Москва
+DESCRIPTION:Ночное мероприятие с эксперимент
+ альной электронной музыкой\, шоукейсом 
+ площадки ROOM38 и визуальным арт-шоу.\nDJ XNX\, 
+ Metaphys1ca\, Yandex3000\, DJ Ulyba\, Laladevochka\, Falcon Kid\, Sablesg
+ litch\, DJ Haaz\, Placid\nhttps://t.me/gzsmsk/10013
+URL:https://doublebasskakov.github.io/radar/#e=vent-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:VENT
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -9,7 +9,7 @@ X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:documentary-film-nabokov-a-good-russian-and-meeting-with-leo-london@a
  fisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART:20261115T190000Z
 DTEND:20261115T210000Z
 SUMMARY:Документальный фильм «Набоков\, хор
@@ -35,7 +35,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:chamber-concert-in-dialogue-pavel-gomzyakov-and-andrey-korob-london@a
  fisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART:20261211T190000Z
 DTEND:20261211T210000Z
 SUMMARY:Камерный концерт In Dialogue: Павел Гомз
@@ -60,7 +60,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:meeting-with-leonid-parfenov-screening-of-nabokov-a-good-rus-london@a
  fisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART:20261115T140000Z
 DTEND:20261115T160000Z
 SUMMARY:Встреча с Леонидом Парфёновым: пока
@@ -83,7 +83,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sherlock-holmes-and-the-12-days-of-christmas-london@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART:20261124T193000Z
 DTEND:20261124T213000Z
 SUMMARY:Открытие: Sherlock Holmes and the 12 Days of Christmas
@@ -105,7 +105,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:special-screening-of-ddt-20th-century-and-q-a-with-director--london@a
  fisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART:20261119T200000Z
 DTEND:20261119T220000Z
 SUMMARY:Спецпоказ фильма «ДДТ. XX век» и Q&A с 
@@ -129,7 +129,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:christmas-at-kew-london@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART:20261113T162000Z
 DTEND:20261113T182000Z
 SUMMARY:Открытие: Зимняя световая прогулка 
@@ -149,8 +149,97 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:saturday-talks-kit-gurnos-on-amar-kanwar-london@afisha-art
+DTSTAMP:20261114T203651Z
+DTSTART:20270116T123000Z
+DTEND:20270116T143000Z
+SUMMARY:Субботняя экскурсия: Кит Гурнос об 
+ Амаре Канваре
+LOCATION:Serpentine North Gallery\, Лондон\, Великобрита
+ ния
+DESCRIPTION:Ассистент куратора выставки Кит 
+ Гурнос проводит знакомство с творчеств
+ ом индийского художника и режиссера Ама
+ ра Канвара.\nKit Gurnos\nhttps://www.serpentinegalleries.org/wha
+ ts-on/saturday-talks-kit-gurnos-on-amar-kanwar/
+URL:https://doublebasskakov.github.io/radar/#e=saturday-talks-kit-gurnos-
+ on-amar-kanwar-london
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Субботняя экскурсия: Кит Гурнос о
+ б Амаре Канваре
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:saturday-talks-natalia-grabowska-on-justin-caguiat-change-ri-london@a
+ fisha-art
+DTSTAMP:20261114T203651Z
+DTSTART:20261114T120000Z
+DTEND:20261114T140000Z
+SUMMARY:Субботняя экскурсия: Наталия Грабо
+ вска о выставке Джастина Кагиата
+LOCATION:Serpentine South Gallery\, Лондон\, Великобрита
+ ния
+DESCRIPTION:Куратор Наталия Грабовска провод
+ ит экскурсию по выставке Джастина Кагиа
+ та «Change Ringing».\nNatalia Grabowska\nhttps://www.serpentinegaller
+ ies.org/whats-on/saturday-talks-natalia-grabowska-on-justin-caguiat-chang
+ e-ringing/
+URL:https://doublebasskakov.github.io/radar/#e=saturday-talks-natalia-gra
+ bowska-on-justin-caguiat-change-ri-london
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Субботняя экскурсия: Наталия Гра
+ бовска о выставке Джастина Кагиата
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:friday-live-justin-caguiat-london@afisha-art
+DTSTAMP:20261114T203651Z
+DTSTART:20261127T183000Z
+DTEND:20261127T203000Z
+SUMMARY:Пятничный вечер Live: Джастин Кагиат
+LOCATION:Offsite\, Лондон\, Великобритания
+DESCRIPTION:Вечер кинопоказов\, перформансов 
+ и чтений в рамках проекта Джастина Каги
+ ата.\nJustin Caguiat\nhttps://www.serpentinegalleries.org/whats-on/fri
+ day-live-justin-caguiat/
+URL:https://doublebasskakov.github.io/radar/#e=friday-live-justin-caguiat
+ -london
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Пятничный вечер Live: Джастин Кагиа
+ т
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:relaxed-hours-london@afisha-art
+DTSTAMP:20261114T203651Z
+DTSTART:20261201T100000Z
+DTEND:20261201T120000Z
+SUMMARY:Спокойные часы в галерее Серпентай
+ н
+LOCATION:Serpentine South Gallery\, Лондон\, Великобрита
+ ния
+DESCRIPTION:Специальная сессия для посетител
+ ей с инвалидностью\, особенностями нейр
+ оразвития и сенсорными потребностями.\nS
+ erpentine Galleries\nhttps://www.serpentinegalleries.org/whats-on/relaxed
+ -hours/
+URL:https://doublebasskakov.github.io/radar/#e=relaxed-hours-london
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спокойные часы в галерее Серпент
+ айн
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:art-breakfast-renoir-london@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 SUMMARY:ART-завтрак: «Ренуар. Любовь\, свет и н
@@ -173,7 +262,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-andrey-zvyagintsev-s-film-minotaur-and-lecture-london@af
  isha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Кинопоказ фильма Андрея Звягинцева
@@ -196,7 +285,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:presentation-of-the-book-cities-and-people-in-london-london@afisha-ar
  t
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART;VALUE=DATE:20270113
 DTEND;VALUE=DATE:20270114
 SUMMARY:Презентация книги «Города и люди» в
@@ -218,7 +307,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:meeting-with-writer-dmitry-glukhovsky-london@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
 SUMMARY:Встреча с писателем Дмитрием Глухо
@@ -239,8 +328,29 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:sand-animation-masterclass-for-kids-in-london-london@afisha-art
+DTSTAMP:20261114T203651Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Мастер-класс по песочной анимации д
+ ля детей в Лондоне
+LOCATION:Лондон\, Великобритания
+DESCRIPTION:Творческий мастер-класс под руко
+ водством опытной художницы для детей 7–
+ 13 лет с участием персонажа котёнка Финд
+ уса.\nАлёна Войнова\nhttps://t.me/afishalondon/11246
+URL:https://doublebasskakov.github.io/radar/#e=sand-animation-masterclass
+ -for-kids-in-london-london
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Мастер-класс по песочной анимаци
+ и для детей в Лондоне
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:jan-van-eyck-the-portraits-london@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Открытие: Jan van Eyck: The Portraits
@@ -261,8 +371,72 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:justin-caguiat-change-ringing-london@afisha-art
+DTSTAMP:20261114T203651Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:Последний день: Джастин Кагиат: Change 
+ Ringing
+LOCATION:Serpentine South Gallery\, Лондон\, Великобрита
+ ния
+DESCRIPTION:Первая британская институционал
+ ьная выставка художника\, включающая жи
+ вопись\, скульптуру\, печатную графику\, 
+ звук и кино в рамках саййт-специфик инст
+ алляции.\nJustin Caguiat\nhttps://www.serpentinegalleries.org/what
+ s-on/justin-caguiat-change-ringing/
+URL:https://doublebasskakov.github.io/radar/#e=justin-caguiat-change-ring
+ ing-london
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Джастин Кагиат: Cha
+ nge Ringing
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lisa-brice-london@afisha-art
+DTSTAMP:20261114T203651Z
+DTSTART;VALUE=DATE:20271008
+DTEND;VALUE=DATE:20271009
+SUMMARY:Открытие: Лиза Брайс
+LOCATION:Serpentine South Gallery\, Лондон\, Великобрита
+ ния
+DESCRIPTION:Новая выставка Лизы Брайс\, объед
+ иняющая новые и существующие живописны
+ е работы\, бросающие вызов традиционным 
+ образам женщин в истории искусства.\nLisa B
+ rice\nhttps://www.serpentinegalleries.org/whats-on/lisa-brice/
+URL:https://doublebasskakov.github.io/radar/#e=lisa-brice-london
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Лиза Брайс
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:matt-copson-london@afisha-art
+DTSTAMP:20261114T203651Z
+DTSTART;VALUE=DATE:20270316
+DTEND;VALUE=DATE:20270317
+SUMMARY:Открытие: Мэтт Копсон
+LOCATION:Serpentine North Gallery\, Лондон\, Великобрита
+ ния
+DESCRIPTION:Первая крупная персональная выст
+ авка Мэтта Копсона в Великобритании\, об
+ ъединяющая лазерную анимацию\, скульпту
+ ру\, аниматронику и звук.\nMatt Copson\nhttps://www.se
+ rpentinegalleries.org/whats-on/matt-copson/
+URL:https://doublebasskakov.github.io/radar/#e=matt-copson-london
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Мэтт Копсон
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:wilhelmina-barns-graham-st-ives@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART;VALUE=DATE:20270503
 DTEND;VALUE=DATE:20270504
 SUMMARY:Последний день: Wilhelmina Barns-Graham
@@ -281,8 +455,124 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:adrian-piper-i-m-this-space-selected-works-1967-2027-london@afisha-ar
+ t
+DTSTAMP:20261114T203651Z
+DTSTART;VALUE=DATE:20270526
+DTEND;VALUE=DATE:20270527
+SUMMARY:Открытие: Эдриан Пайпер: Я — это про
+ странство. Избранные работы 1967–2027
+LOCATION:Serpentine South Gallery\, Лондон\, Великобрита
+ ния
+DESCRIPTION:Ретроспектива Эдриана Пайпера\, и
+ спользующего иронию\, юмор и вовлечение 
+ зрителей для осмысления тем расы\, генде
+ ра и истины.\nAdrian Piper\nhttps://www.serpentinegalleries.org/
+ whats-on/adrian-piper-im-this-space-selected-works-1967-2027/
+URL:https://doublebasskakov.github.io/radar/#e=adrian-piper-i-m-this-spac
+ e-selected-works-1967-2027-london
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Эдриан Пайпер: Я — это п
+ ространство. Избранные работы 1967–2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pierre-alechinsky-in-paperland-london@afisha-art
+DTSTAMP:20261114T203651Z
+DTSTART;VALUE=DATE:20270211
+DTEND;VALUE=DATE:20270212
+SUMMARY:Открытие: Пьер Алешинский: В бумажн
+ ой стране
+LOCATION:Serpentine South Gallery\, Лондон\, Великобрита
+ ния
+DESCRIPTION:Масштабная выставка графически н
+ асыщенных и экспрессивных работ выдающ
+ егося радикального и экспериментальног
+ о художника.\nPierre Alechinsky\nhttps://www.serpentinegallerie
+ s.org/whats-on/pierre-alechinksy/
+URL:https://doublebasskakov.github.io/radar/#e=pierre-alechinsky-in-paper
+ land-london
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Пьер Алешинский: В бума
+ жной стране
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:the-film-london-jarman-award-2026-london@afisha-art
+DTSTAMP:20261114T203651Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:Открытие: Премия Film London Jarman Award 2026
+LOCATION:Whitechapel Gallery\, Лондон\, Великобритани
+ я
+DESCRIPTION:Показы и мероприятия в рамках пре
+ стижной премии имени Дерека Джармана дл
+ я независимых кинорежиссеров и видеоху
+ дожников.\nVarious\nhttps://www.whitechapelgallery.org/exhibition
+ s/the-film-london-jarman-award-2026/
+URL:https://doublebasskakov.github.io/radar/#e=the-film-london-jarman-awa
+ rd-2026-london
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Премия Film London Jarman Award 2026
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:serpentine-x-the-flag-foundation-prize-gozo-yoshimasu-london@afisha-a
+ rt
+DTSTAMP:20261114T203651Z
+DTSTART;VALUE=DATE:20270924
+DTEND;VALUE=DATE:20270925
+SUMMARY:Открытие: Премия Фонда Флага: Годзо 
+ Ёсимасу
+LOCATION:Serpentine North Gallery\, Лондон\, Великобрита
+ ния
+DESCRIPTION:Выставка одного из самых радикал
+ ьных и известных поэтов Японии\, первого
+  лауреата премии The FLAG Art Foundation Prize.\nGozo Yoshi
+ masu\nhttps://www.serpentinegalleries.org/whats-on/serpentine-x-the-flag-
+ foundation-prize-gozo-yoshimasu/
+URL:https://doublebasskakov.github.io/radar/#e=serpentine-x-the-flag-foun
+ dation-prize-gozo-yoshimasu-london
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Премия Фонда Флага: Год
+ зо Ёсимасу
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:through-holes-in-the-clouds-artists-and-the-postcolonial-ima-london@a
+ fisha-art
+DTSTAMP:20261114T203651Z
+DTSTART;VALUE=DATE:20270317
+DTEND;VALUE=DATE:20270318
+SUMMARY:Открытие: Через дыры в облаках: Худо
+ жники и постколониальное воображение
+LOCATION:Whitechapel Gallery\, Лондон\, Великобритани
+ я
+DESCRIPTION:Масштабная групповая выставка\, и
+ сследующая темы постколониального вооб
+ ражения в современном визуальном искус
+ стве.\nVarious\nhttps://www.whitechapelgallery.org/exhibitions/throug
+ h-holes-in-the-clouds/
+URL:https://doublebasskakov.github.io/radar/#e=through-holes-in-the-cloud
+ s-artists-and-the-postcolonial-ima-london
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Через дыры в облаках: Ху
+ дожники и постколониальное воображение
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:rebecca-moss-shapeshifter-st-ives@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Открытие: Rebecca Moss: Shapeshifter
@@ -300,8 +590,31 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:cecilia-vicun-a-living-threads-london@afisha-art
+DTSTAMP:20261114T203651Z
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+SUMMARY:Последний день: Сесилия Викунья: Жи
+ вые нити
+LOCATION:Whitechapel Gallery\, Лондон\, Великобритани
+ я
+DESCRIPTION:Масштабная выставка Сесилии Вику
+ ньи\, исследующая переплетения текстиль
+ ных и концептуальных практик художницы.
+ \nCecilia Vicuña\nhttps://www.whitechapelgallery.org/exhibitions/cecilia
+ -vicuna/
+URL:https://doublebasskakov.github.io/radar/#e=cecilia-vicun-a-living-thr
+ eads-london
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Сесилия Викунья: 
+ Живые нити
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:light-and-magic-the-birth-of-art-photography-london@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART;VALUE=DATE:20270221
 DTEND;VALUE=DATE:20270222
 SUMMARY:Последний день: Light and Magic: The Birth of Art Ph
@@ -323,7 +636,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wilhelmina-barns-graham-st-ives-2@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:Открытие: Wilhelmina Barns-Graham
@@ -343,7 +656,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:the-90s-art-and-fashion-london@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
 SUMMARY:Последний день: The 90s: Art and Fashion
@@ -363,7 +676,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rebecca-moss-shapeshifter-st-ives-2@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Открытие: Rebecca Moss: Shapeshifter
@@ -383,7 +696,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:go-zde-i-lkin-those-who-remember-their-births-st-ives@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
 SUMMARY:Последний день: Gözde İlkin: Those Who Remember Th
@@ -404,7 +717,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ink-london@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART;VALUE=DATE:20270422
 DTEND;VALUE=DATE:20270423
 SUMMARY:Открытие: Ink
@@ -421,8 +734,27 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:amar-kanwar-london@afisha-art
+DTSTAMP:20261114T203651Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:Последний день: Амар Канвар
+LOCATION:Serpentine North Gallery\, Лондон\, Великобрита
+ ния
+DESCRIPTION:Киновыставка известного художни
+ ка и режиссера\, объединяющая новые и ра
+ нее созданные работы.\nAmar Kanwar\nhttps://www.serpent
+ inegalleries.org/whats-on/amar-kanwar-exhibition/
+URL:https://doublebasskakov.github.io/radar/#e=amar-kanwar-london
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Амар Канвар
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:go-zde-i-lkin-those-who-remember-their-births-st-ives-2@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:Открытие: Gözde İlkin: Those Who Remember Their Births
@@ -443,7 +775,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:vanessa-bell-duncan-grant-inside-bloomsbury-london@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART;VALUE=DATE:20270411
 DTEND;VALUE=DATE:20270412
 SUMMARY:Последний день: Vanessa Bell & Duncan Grant: Inside 
@@ -465,7 +797,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:baya-london@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART;VALUE=DATE:20270610
 DTEND;VALUE=DATE:20270611
 SUMMARY:Открытие: Baya
@@ -483,7 +815,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:hunter-170th-anniversary-installation-london@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Последний день: Временная инсталля
@@ -504,8 +836,31 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:screen-portraits-whitechapel-gallery-artists-part-2-london@afisha-art
+DTSTAMP:20261114T203651Z
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+SUMMARY:Последний день: Портреты на экране: 
+ Художники галереи Уайтчепел — Часть 2
+LOCATION:Whitechapel Gallery\, Лондон\, Великобритани
+ я
+DESCRIPTION:Вторая часть кинопрограммы\, посв
+ ященной видеоработам художников\, связа
+ нных с историей галереи Уайтчепел.\nVarious\
+ nhttps://www.whitechapelgallery.org/exhibitions/screen-portraits-whitecha
+ pel-gallery-artists-part-2/
+URL:https://doublebasskakov.github.io/radar/#e=screen-portraits-whitechap
+ el-gallery-artists-part-2-london
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Портреты на экран
+ е: Художники галереи Уайтчепел — Часть 2
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:nicole-eisenman-exhibition-margate@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:Открытие: Выставка Николь Эйзенман

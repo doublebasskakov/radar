@@ -9,7 +9,7 @@ X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:museum-show-soundtrack-of-the-90s-michael-jackson-in-russia-yekaterin
  bur@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART:20261114T110000Z
 DTEND:20261114T130000Z
 SUMMARY:Музейное шоу «Саундтрек 90-х»: Майкл 
@@ -32,7 +32,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:short-films-screening-block-2-yekaterinbur@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Показ короткометражных фильмов. Сб
@@ -52,7 +52,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-shelter-yekaterinbur@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Показ фильма «Укрытие»
@@ -69,9 +69,30 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:poetic-promenade-yekaterinbur@afisha-art
+DTSTAMP:20261114T203651Z
+DTSTART:20261120T143000Z
+DTEND:20261120T163000Z
+SUMMARY:Поэтический променад
+LOCATION:Музей андеграунда\, Екатеринбург
+DESCRIPTION:Сайт-специфичный поэтический про
+ менад по экспозиции музея\, в ходе котор
+ ого участники театральной лаборатории 
+ озвучивают работы неофициального искус
+ ства.\nТатьяна Смирнягина\, Мария Морозо
+ ва\nhttps://t.me/undergroundmuseum_ekb/5301
+URL:https://doublebasskakov.github.io/radar/#e=poetic-promenade-yekaterin
+ bur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Поэтический променад
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:lecture-by-alexander-kushnir-on-zvuki-mu-and-pyotr-mamonov-yekaterinb
  ur@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART:20261115T110000Z
 DTEND:20261115T130000Z
 SUMMARY:Лекция Александра Кушнира «Взлеты 
@@ -97,7 +118,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:performance-gadgets-in-our-life-yekaterinbur@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Перформанс «Гаджеты в нашей жизни»
@@ -119,7 +140,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:readings-and-text-laboratory-results-presentation-yekaterinbur@afisha
  -art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART:20261115T120000Z
 DTEND:20261115T140000Z
 SUMMARY:Читки. Презентация итогов лаборато
@@ -141,7 +162,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:lecture-by-masha-ryba-soviet-fashion-of-the-nep-era-yekaterinbur@afis
  ha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART;VALUE=DATE:20270116
 DTEND;VALUE=DATE:20270117
 SUMMARY:Лекция Маши Рыбы «Советская мода эп
@@ -164,7 +185,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:presentation-of-the-poetry-anthology-factories-and-backwater-yekateri
  nbur@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART:20261114T100000Z
 DTEND:20261114T120000Z
 SUMMARY:Презентация антологии поэзии «Заво
@@ -186,7 +207,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:public-talk-on-accessibility-visible-invisible-yekaterinbur@afisha-ar
  t
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART:20261114T100000Z
 DTEND:20261114T120000Z
 SUMMARY:Паблик-ток о доступности «Видимое-н
@@ -207,7 +228,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lecture-by-zoya-sokolova-adhd-in-adults-yekaterinbur@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART:20261114T130000Z
 DTEND:20261114T150000Z
 SUMMARY:Лекция Зои Соколовой «СДВГ у взросл
@@ -228,7 +249,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:performative-workout-yekaterinbur@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART:20261114T090000Z
 DTEND:20261114T110000Z
 SUMMARY:Перформативная тренировка
@@ -247,7 +268,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:art-therapy-support-group-for-dementia-caregivers-yekaterinbur@afisha
  -art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART:20261115T100000Z
 DTEND:20261115T120000Z
 SUMMARY:Арт-терапия. Группа поддержки ухажи
@@ -267,7 +288,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ekb-masm-kontrapunkt-epokh@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART:20261127T140000Z
 DTEND:20261127T160000Z
 SUMMARY:МАСМ. «Контрапункт эпох»
@@ -287,7 +308,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:short-films-screening-block-1-yekaterinbur@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:Показ короткометражных фильмов. Сб
@@ -309,7 +330,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:message-to-man-festival-echo-program-screenings-in-yekaterin-yekateri
  nbur@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:Открытие: Фестиваль «Послание к чел
@@ -332,7 +353,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:short-films-screening-block-3-yekaterinbur@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Показ короткометражных фильмов. Сб
@@ -352,7 +373,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-portraits-of-arina-yekaterinbur@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Показ фильма «Портреты Арины»
@@ -371,7 +392,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:adamcsik-istvan-s-exhibition-color-semantics-mysticism-and-i-yekateri
  nbur@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:Последний день: Выставка Адамчика И
@@ -397,7 +418,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ekb-galereya11-savenko@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:Анастасия Савенко. «Временно стаби
@@ -419,7 +440,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:flora-bichakhchyan-concert-flora-world-star-yekaterinbur@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Концерт Флоры Бичахчян «ФЛОРА. Миро
@@ -443,7 +464,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:tour-and-masterclass-erik-bulatov-freedom-to-be-yekaterinbur@afisha-a
  rt
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:Экскурсия и мастер-класс «Эрик Була
@@ -465,7 +486,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ekb-yeltsin-atrium-art-object-2026@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART;VALUE=DATE:20261226
 DTEND;VALUE=DATE:20261227
 SUMMARY:Новогодний арт-объект в атриуме Ель
@@ -490,7 +511,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:presentation-of-the-limited-clothing-collection-autograph-yekaterinbu
  r@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Презентация лимитированной коллек
@@ -511,7 +532,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ekb-generations-innovators@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Последний день: Поколения новаторо

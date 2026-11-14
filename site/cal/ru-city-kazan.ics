@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:kzn-mon-gastroli-kapital@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART:20261129T150000Z
 DTEND:20261129T170000Z
 SUMMARY:«Гастроли: Капитал»
@@ -25,9 +25,34 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:lecture-mortality-drunken-satyrs-and-art-morgan-meis-between-kazan@af
+ isha-art
+DTSTAMP:20261114T203651Z
+DTSTART:20261114T130000Z
+DTEND:20261114T150000Z
+SUMMARY:Лекция «Смертность\, пьяные сатиры 
+ и искусство: Морган Мейс между Рубенсом\
+ , Ницше и возвышенным»
+LOCATION:Центр современной культуры «Смена
+ »\, ул. Бурхана Шахиди\, 7\, Казань
+DESCRIPTION:Лекция\, посвященная исследовани
+ ям Моргана Мейса на стыке классической 
+ живописи\, философии и человеческого во
+ сприятия.\nМорган Мейс\nhttps://t.me/ooosmenaknigi/8672
+URL:https://doublebasskakov.github.io/radar/#e=lecture-mortality-drunken-
+ satyrs-and-art-morgan-meis-between-kazan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекция «Смертность\, пьяные сатир
+ ы и искусство: Морган Мейс между Рубенсо
+ м\, Ницше и возвышенным»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:guided-tour-of-the-city-of-missing-letters-exhibition-kazan@afisha-ar
  t
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART:20261114T140000Z
 DTEND:20261114T160000Z
 SUMMARY:Экскурсия по выставке «Город выпав
@@ -48,7 +73,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:kzn-mon-15172@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART:20261118T160000Z
 DTEND:20261118T180000Z
 SUMMARY:«15 172». Пластический спектакль
@@ -66,7 +91,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:kzn-mon-zatvornik-i-shestipalyy@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART:20261119T160000Z
 DTEND:20261119T180000Z
 SUMMARY:«Затворник и Шестипалый»
@@ -85,7 +110,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:kzn-mon-otstan-ot-sebya@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART:20261125T160000Z
 DTEND:20261125T180000Z
 SUMMARY:«Отстань от себя». Пластический спе
@@ -103,7 +128,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:master-class-series-made-for-home-bas-relief-kazan@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART:20261117T153000Z
 DTEND:20261117T173000Z
 SUMMARY:Серия мастер-классов «Сделано для д
@@ -124,7 +149,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:klimt-and-vrubel-two-geniuses-of-art-nouveau-kazan@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART:20261120T153000Z
 DTEND:20261120T173000Z
 SUMMARY:Климт и Врубель: два гения модерна
@@ -145,7 +170,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:master-class-series-made-for-home-wall-clock-kazan@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART:20261124T153000Z
 DTEND:20261124T173000Z
 SUMMARY:Серия мастер-классов «Сделано для д
@@ -164,8 +189,70 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:parallel-program-for-the-exhibition-working-shift-kazan@afisha-art
+DTSTAMP:20261114T203651Z
+DTSTART:20261117T160000Z
+DTEND:20261117T180000Z
+SUMMARY:Параллельная программа к выставке 
+ «Рабочая смена»
+LOCATION:ЦСК «Смена»\, ул. Бурхана Шахиди\, 7\, 
+ Казань
+DESCRIPTION:Мероприятие в рамках параллельно
+ й программы к текущей выставке в «Смене
+ ».\nЦСК «Смена»\nhttps://s-m-e-n-a.org/parallel-prabochaja-sme
+ na/
+URL:https://doublebasskakov.github.io/radar/#e=parallel-program-for-the-e
+ xhibition-working-shift-kazan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Параллельная программа к выставк
+ е «Рабочая смена»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lecture-series-what-did-freud-say-kazan@afisha-art
+DTSTAMP:20261114T203651Z
+DTSTART:20261128T160000Z
+DTEND:20261128T180000Z
+SUMMARY:Лекторий «Что сказал Фрейд?»
+LOCATION:ЦСК «Смена»\, ул. Бурхана Шахиди\, 7\, 
+ Казань
+DESCRIPTION:Очередная лекция из психоаналити
+ ческого лектория в «Смене».\nЦСК «Смена»
+ \nhttps://s-m-e-n-a.org/lektorij-chto-skazal-frejd/
+URL:https://doublebasskakov.github.io/radar/#e=lecture-series-what-did-fr
+ eud-say-kazan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекторий «Что сказал Фрейд?»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:special-screening-of-the-film-the-wicker-husband-kazan@afisha-art
+DTSTAMP:20261114T203651Z
+DTSTART:20261122T140000Z
+DTEND:20261122T160000Z
+SUMMARY:Специальный показ фильма «Плетеный
+  муж»
+LOCATION:ЦСК «Смена»\, ул. Бурхана Шахиди\, 7\, 
+ Казань
+DESCRIPTION:Специальный кинопоказ в культурн
+ ом центре «Смена».\nЦСК «Смена»\nhttps://s-m-e-n
+ -a.org/wicker_smena/
+URL:https://doublebasskakov.github.io/radar/#e=special-screening-of-the-f
+ ilm-the-wicker-husband-kazan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Специальный показ фильма «Плетен
+ ый муж»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:kzn-smena-rabochaya-smena@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:Открытие: «Рабочая смена»
@@ -187,8 +274,28 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:smena-winter-book-fest@afisha-art
+DTSTAMP:20261114T203651Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261207
+SUMMARY:Зимний книжный фестиваль «Смены»
+LOCATION:Национальная библиотека Республик
+ и Татарстан\, ул. Бурхана Шахиди\, 7\, Каза
+ нь
+DESCRIPTION:Четырнадцатый фестиваль к 13-лети
+ ю «Смены»: книжная ярмарка и три паралле
+ льных лектория.\nЦентр современной куль
+ туры «Смена»\nhttps://t.me/ooosmenaknigi
+URL:https://doublebasskakov.github.io/radar/#e=smena-winter-book-fest
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Зимний книжный фестиваль «Смены»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:exhibition-artists-to-sofia-gubaidulina-kazan@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261116
 SUMMARY:Выставка «Художники — Софии Губайд
@@ -209,27 +316,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:smena-winter-book-fest@afisha-art
-DTSTAMP:20261114T160658Z
-DTSTART;VALUE=DATE:20261205
-DTEND;VALUE=DATE:20261207
-SUMMARY:Зимний книжный фестиваль «Смены»
-LOCATION:Национальная библиотека Республик
- и Татарстан\, Казань
-DESCRIPTION:Четырнадцатый фестиваль к 13-лети
- ю «Смены»: книжная ярмарка и три паралле
- льных лектория.\nЦентр современной куль
- туры «Смена»\nhttps://t.me/ooosmenaknigi
-URL:https://doublebasskakov.github.io/radar/#e=smena-winter-book-fest
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Зимний книжный фестиваль «Смены»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:the-wicker-man-screening-and-discussion-kazan@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Показ фильма «Плетеный человек» и о
@@ -251,7 +339,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:light-shadow-kazan@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:Открытие: Свет/тень
@@ -269,7 +357,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-about-love-kazan@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:Открытие: Музей «Про любовь»

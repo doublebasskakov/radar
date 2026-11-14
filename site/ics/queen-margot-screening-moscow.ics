@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:queen-margot-screening-moscow@afisha-art
+DTSTAMP:20261114T203651Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Показ фильма «Королева Марго»
+LOCATION:Кинотеатр Пионер\, Москва
+DESCRIPTION:Единственный сеанс отреставриро
+ ванной режиссерской версии Патриса Шер
+ о со вступительным словом киноведа.\nПат
+ рис Шеро\, Виктор Прокофьев\nhttps://t.me/pionercin
+ emaru/5594
+URL:https://doublebasskakov.github.io/radar/#e=queen-margot-screening-mos
+ cow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильма «Королева Марго»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

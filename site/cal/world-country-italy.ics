@@ -7,8 +7,49 @@ X-WR-CALNAME:Радар — Мир / World · country-italy
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:assembly-day-2-seeding-resilience-part-2-venice@afisha-art
+DTSTAMP:20261114T203651Z
+DTSTART:20261114T130000Z
+DTEND:20261114T150000Z
+SUMMARY:Assembly – Day 2: Seeding Resilience (Part 2)
+LOCATION:Sala d’Armi E\, Arsenale\, Sala d’Armi E\, Венеция\, 
+ Италия
+DESCRIPTION:Ассамблея художников и организац
+ ионных коллективов\, посвященная темам 
+ устойчивости и совместной работы.\nLa Bienna
+ le di Venezia\nhttps://www.labiennale.org/en/agenda/assembly-%E2%80%93-da
+ y-2-seeding-resilience-part-2
+URL:https://doublebasskakov.github.io/radar/#e=assembly-day-2-seeding-res
+ ilience-part-2-venice
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Assembly – Day 2: Seeding Resilience (Part 2)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:felwine-sarr-to-inhabit-the-world-venice@afisha-art
+DTSTAMP:20261114T203651Z
+DTSTART:20261114T100000Z
+DTEND:20261114T120000Z
+SUMMARY:FELWINE SARR | To Inhabit the World
+LOCATION:Sala d’Armi E\, Arsenale\, Sala d’Armi E\, Венеция\, 
+ Италия
+DESCRIPTION:Выступление Фельвина Сарра о нов
+ ых способах осмысления и обитания в сов
+ ременном мире.\nFelwine Sarr\nhttps://www.labiennale.org/en/a
+ genda/felwine-sarr-inhabit-world
+URL:https://doublebasskakov.github.io/radar/#e=felwine-sarr-to-inhabit-th
+ e-world-venice
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FELWINE SARR | To Inhabit the World
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:venice-biennale-arte-2026@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Последний день: Biennale Arte 2026: In Minor Keys
@@ -32,7 +73,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:venice-biennale-architettura-2027@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART;VALUE=DATE:20270508
 DTEND;VALUE=DATE:20270509
 SUMMARY:Открытие: Biennale Architettura 2027: Do Architecture
@@ -49,6 +90,53 @@ URL:https://doublebasskakov.github.io/radar/#e=venice-biennale-architettu
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Открытие: Biennale Architettura 2027: Do Architecture
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:biennale-arte-2026-performances-lectures-discussions-roundta-venice@a
+ fisha-art
+DTSTAMP:20261114T203651Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Последний день: Biennale Arte 2026: performances\, l
+ ectures\, discussions\, roundtables
+LOCATION:Arsenale\, Arsenale\, Venice\, Венеция\, Италия
+DESCRIPTION:Серия перформансов\, лекций\, диск
+ уссий и круглых столов в рамках финальн
+ ых дней 61-й Международной художественно
+ й выставки.\nLa Biennale di Venezia\nhttps://www.labiennale.org/
+ en/art/2026
+URL:https://doublebasskakov.github.io/radar/#e=biennale-arte-2026-perform
+ ances-lectures-discussions-roundta-venice
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Biennale Arte 2026: performances
+ \, lectures\, discussions\, roundtables
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:the-pillar-and-the-ground-of-truth-by-pavel-a-florenskij-venice@afish
+ a-art
+DTSTAMP:20261114T203651Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261121
+SUMMARY:Пьеса «Столп и утверждение истины» 
+ Павла Флоренского
+LOCATION:Historical Archive\, Arsenale\, Arsenale di Venezia\, Венец
+ ия\, Италия
+DESCRIPTION:Пять театральных вечеров по моти
+ вам труда Павла Флоренского в постановк
+ е Антонелло Почетти в новом пространств
+ е Исторического архива.\nАнтонелло Поче
+ тти\nhttps://www.labiennale.org/en/asac
+URL:https://doublebasskakov.github.io/radar/#e=the-pillar-and-the-ground-
+ of-truth-by-pavel-a-florenskij-venice
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Пьеса «Столп и утверждение истин
+ ы» Павла Флоренского
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:magali-reus-tenant-vienna@afisha-art
+DTSTAMP:20261114T203651Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Открытие: Magali Reus: Tenant
+LOCATION:Kunsthalle Wien\, Museumsquartier\, Вена\, Австрия
+DESCRIPTION:Персональная выставка Магали Реу
+ с в пространстве Kunsthalle Wien.\nMagali Reus\nhttps://kun
+ sthallewien.at/en/exhibition/magali-reus-tenant
+URL:https://doublebasskakov.github.io/radar/#e=magali-reus-tenant-vienna
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Magali Reus: Tenant
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

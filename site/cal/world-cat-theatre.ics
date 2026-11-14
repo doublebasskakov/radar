@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:nodirabegim-play-tashkent@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART:20261125T130000Z
 DTEND:20261125T150000Z
 SUMMARY:Спектакль «Nodirabegim»
@@ -30,7 +30,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:play-osmon-hamma-gapni-eshitadi-tashkent@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART:20261123T130000Z
 DTEND:20261123T150000Z
 SUMMARY:Спектакль «Osmon hamma gapni eshitadi»
@@ -52,8 +52,31 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:premiere-of-the-comedy-play-maysara-tashkent@afisha-art
+DTSTAMP:20261114T203651Z
+DTSTART:20261128T120000Z
+DTEND:20261128T140000Z
+SUMMARY:Премьера комедийного спектакля «Mays
+ ara»
+LOCATION:Узбекский государственный музыкал
+ ьный театр имени Мукими\, ул. Махмуджона 
+ Гафурова\, 187\, Ташкент\, Узбекистан
+DESCRIPTION:Музыкальная комедийная постанов
+ ка по мотивам узбекского фольклора о на
+ ходчивой героине Майсаре\, помогающей в
+ любленным.\n\nhttps://t.me/tashkent_gogo/8193
+URL:https://doublebasskakov.github.io/radar/#e=premiere-of-the-comedy-pla
+ y-maysara-tashkent
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Премьера комедийного спектакля «
+ Maysara»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:play-wolves-and-sheep-tashkent@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART:20261115T120000Z
 DTEND:20261115T140000Z
 SUMMARY:Спектакль «Волки и овцы»
@@ -76,7 +99,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sherlock-holmes-and-the-12-days-of-christmas-london@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART:20261124T193000Z
 DTEND:20261124T213000Z
 SUMMARY:Открытие: Sherlock Holmes and the 12 Days of Christmas
@@ -98,7 +121,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:gla55-anne-teresa-de-keersmaeker-rosas-ictus-bl-ndman-berlin@afisha-a
  rt
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART:20261119T183000Z
 DTEND:20261119T203000Z
 SUMMARY:GLA55: Анна Тереза Де Кеерсмакер / Rosas\, 
@@ -122,7 +145,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:performance-les-jeux-de-l-amour-et-de-l-e-nigme-paris@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART:20270318T180000Z
 DTEND:20270318T200000Z
 SUMMARY:Спектакль «Les Jeux de l'amour et de l'énigme»
@@ -142,7 +165,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:play-gromkie-tbilisi@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART;VALUE=DATE:20270406
 DTEND;VALUE=DATE:20270407
 SUMMARY:Спектакль «Громкие»
@@ -161,7 +184,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:seven-moons-at-ilkhom-theatre-tashkent@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Спектакль «Семь лун» в театре «Ильх
@@ -181,8 +204,32 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:the-pillar-and-the-ground-of-truth-by-pavel-a-florenskij-venice@afish
+ a-art
+DTSTAMP:20261114T203651Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261121
+SUMMARY:Пьеса «Столп и утверждение истины» 
+ Павла Флоренского
+LOCATION:Historical Archive\, Arsenale\, Arsenale di Venezia\, Венец
+ ия\, Италия
+DESCRIPTION:Пять театральных вечеров по моти
+ вам труда Павла Флоренского в постановк
+ е Антонелло Почетти в новом пространств
+ е Исторического архива.\nАнтонелло Поче
+ тти\nhttps://www.labiennale.org/en/asac
+URL:https://doublebasskakov.github.io/radar/#e=the-pillar-and-the-ground-
+ of-truth-by-pavel-a-florenskij-venice
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Пьеса «Столп и утверждение истин
+ ы» Павла Флоренского
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:minsk-sea-performance-vilnius@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Спектакль «Минское море»

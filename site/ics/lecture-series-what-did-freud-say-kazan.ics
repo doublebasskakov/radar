@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:lecture-series-what-did-freud-say-kazan@afisha-art
+DTSTAMP:20261114T203651Z
+DTSTART:20261128T160000Z
+DTEND:20261128T180000Z
+SUMMARY:Лекторий «Что сказал Фрейд?»
+LOCATION:ЦСК «Смена»\, ул. Бурхана Шахиди\, 7\, 
+ Казань
+DESCRIPTION:Очередная лекция из психоаналити
+ ческого лектория в «Смене».\nЦСК «Смена»
+ \nhttps://s-m-e-n-a.org/lektorij-chto-skazal-frejd/
+URL:https://doublebasskakov.github.io/radar/#e=lecture-series-what-did-fr
+ eud-say-kazan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекторий «Что сказал Фрейд?»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:yuri-massin-music-festival-concert-saratov@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART:20261115T090000Z
 DTEND:20261115T110000Z
 SUMMARY:Концерт «Фестиваль музыки Юрия Мас
@@ -33,7 +33,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:domra-in-the-works-of-contemporary-composers-saratov@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART:20261130T140000Z
 DTEND:20261130T160000Z
 SUMMARY:Концерт «Домра в творчестве соврем
@@ -55,14 +55,61 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:opening-of-the-18th-all-russian-festival-in-the-homeland-of--saratov@
+ afisha-art
+DTSTAMP:20261114T203651Z
+DTSTART:20270114T143000Z
+DTEND:20270114T163000Z
+SUMMARY:Открытие XVIII Всероссийского фестив
+ аля «На родине Паницкого»
+LOCATION:Саратовская государственная консе
+ рватория\, Саратов\, ул. им. Радищева А.Н.\,
+  89\, Саратов
+DESCRIPTION:Торжественное открытие фестивал
+ я народно-инструментального искусства\,
+  посвященного наследию Ивана Паницкого.
+ \nNone\nhttps://sarcons.ru/
+URL:https://doublebasskakov.github.io/radar/#e=opening-of-the-18th-all-ru
+ ssian-festival-in-the-homeland-of--saratov
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие XVIII Всероссийского фест
+ иваля «На родине Паницкого»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:domra-in-the-works-of-contemporary-composers-saratov-2@afisha-art
+DTSTAMP:20261114T203651Z
+DTSTART:20261130T140000Z
+DTEND:20261130T160000Z
+SUMMARY:Домра в творчестве современных ком
+ позиторов
+LOCATION:Саратовская государственная консе
+ рватория\, Саратов\, ул. им. Радищева А.Н.\,
+  89\, Саратов
+DESCRIPTION:Концерт современной академическ
+ ой музыки для домры в рамках межрегиона
+ льного фестиваля.\nNone\nhttps://sarcons.ru/
+URL:https://doublebasskakov.github.io/radar/#e=domra-in-the-works-of-cont
+ emporary-composers-saratov-2
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Домра в творчестве современных к
+ омпозиторов
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:marital-stories-play-saratov@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART:20261114T140000Z
 DTEND:20261114T160000Z
 SUMMARY:Спектакль «Супружеские истории»
 LOCATION:Театральный институт Саратовской 
  государственной консерватории им. Л. В. 
- Собинова\, Саратов
+ Собинова\, Саратов\, ул. им. Радищева А.Н.\,
+  89\, Саратов
 DESCRIPTION:Показ камерного спектакля «Супру
  жеские истории» в рамках проекта «Театр
   малых форм».\nТеатр малых форм (Саратовс
@@ -74,6 +121,26 @@ URL:https://doublebasskakov.github.io/radar/#e=marital-stories-play-sarat
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Спектакль «Супружеские истории»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yuri-massin-music-festival-saratov@afisha-art
+DTSTAMP:20261114T203651Z
+DTSTART:20261115T090000Z
+DTEND:20261115T110000Z
+SUMMARY:Фестиваль музыки Юрия Массина
+LOCATION:Саратовская государственная консе
+ рватория\, Большой Зал\, Саратов\, ул. им. 
+ Радищева А.Н.\, 89\, Саратов
+DESCRIPTION:Концерт к 85-летию заслуженного де
+ ятеля искусств России\, композитора Юри
+ я Массина.\nЮрий Массин\nhttps://sarcons.ru/
+URL:https://doublebasskakov.github.io/radar/#e=yuri-massin-music-festival
+ -saratov
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Фестиваль музыки Юрия Массина
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

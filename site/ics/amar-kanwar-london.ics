@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:amar-kanwar-london@afisha-art
+DTSTAMP:20261114T203651Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:Последний день: Амар Канвар
+LOCATION:Serpentine North Gallery\, Лондон\, Великобрита
+ ния
+DESCRIPTION:Киновыставка известного художни
+ ка и режиссера\, объединяющая новые и ра
+ нее созданные работы.\nAmar Kanwar\nhttps://www.serpent
+ inegalleries.org/whats-on/amar-kanwar-exhibition/
+URL:https://doublebasskakov.github.io/radar/#e=amar-kanwar-london
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Амар Канвар
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

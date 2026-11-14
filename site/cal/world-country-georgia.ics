@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:boiler-room-tbilisi-tbilisi@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART:20261114T180000Z
 DTEND:20261114T200000Z
 SUMMARY:Boiler Room Tbilisi
@@ -29,7 +29,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:kvareli-foundation-opening@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART:20261102T060000Z
 DTEND:20261102T080000Z
 SUMMARY:Открытие: Georgian Contemporary Art: Origins and Continui
@@ -53,7 +53,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:book-club-discussion-of-center-of-gravity-with-vladimir-kuzn-tbilisi@
  afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART:20261203T153000Z
 DTEND:20261203T173000Z
 SUMMARY:Книжный клуб: обсуждение романа «Це
@@ -81,7 +81,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:lecture-multifaceted-tbilisi-city-at-the-crossroads-of-cultu-tbilisi@
  afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART:20261117T160000Z
 DTEND:20261117T180000Z
 SUMMARY:Лекция «Многоликий Тбилиси: город н
@@ -104,7 +104,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lecture-history-of-comics-tbilisi@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART:20261118T160000Z
 DTEND:20261118T180000Z
 SUMMARY:Лекция «История комиксов: от наскал
@@ -128,7 +128,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:book-presentation-by-tatiana-montik-tbilisi@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART:20261119T160000Z
 DTEND:20261119T180000Z
 SUMMARY:Презентация книги Татьяны Монтик «
@@ -152,7 +152,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:scientific-excursion-to-dmanisi-and-bolnisi-tbilisi@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART:20261121T050000Z
 DTEND:20261121T070000Z
 SUMMARY:Научная экскурсия в Дманиси и Болни
@@ -178,7 +178,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:time-presentation-of-vasily-chernyshev-s-debut-novella-tbilisi@afisha
  -art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART:20261120T160000Z
 DTEND:20261120T180000Z
 SUMMARY:«Тайме» — презентация дебютной пов
@@ -200,7 +200,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lecture-on-georgian-literature-tbilisi@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART:20261119T160000Z
 DTEND:20261119T180000Z
 SUMMARY:Лекция «История грузинской литерат
@@ -223,7 +223,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:georgian-trace-in-fashion-and-art-tbilisi@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART:20261125T160000Z
 DTEND:20261125T180000Z
 SUMMARY:Грузинский след в моде и искусстве
@@ -244,7 +244,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:live-jazz-concert-at-mary-jos-tbilisi@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART:20261114T160000Z
 DTEND:20261114T180000Z
 SUMMARY:Концерт живого джаза в Mary Jos
@@ -262,8 +262,32 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:27th-tbilisi-international-film-festival-tbilisi@afisha-art
+DTSTAMP:20261114T203651Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261207
+SUMMARY:27-й Международный кинофестиваль в Т
+ билиси
+LOCATION:Кинотеатр «Амирани»\, Тбилиси\, Гру
+ зия
+DESCRIPTION:Масштабный киносмотр\, представл
+ яющий около 80 грузинских и зарубежных ф
+ ильмов\, включая конкурсную «Грузинскую
+  панораму»\, секции «Европейский форум»\
+ , «Мир документального кино» и специаль
+ ные показы.\n\nhttps://t.me/nateli_tbilisi/11855
+URL:https://doublebasskakov.github.io/radar/#e=27th-tbilisi-international
+ -film-festival-tbilisi
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:27-й Международный кинофестиваль 
+ в Тбилиси
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:redo-rave-tbilisi@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:REDO RAVE
@@ -283,7 +307,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:play-gromkie-tbilisi@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART;VALUE=DATE:20270406
 DTEND;VALUE=DATE:20270407
 SUMMARY:Спектакль «Громкие»

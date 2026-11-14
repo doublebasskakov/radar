@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:arcto-xx-belgrade@afisha-art
-DTSTAMP:20261114T160658Z
+DTSTAMP:20261114T203651Z
 DTSTART:20261219T220000Z
 DTEND:20261220T000000Z
 SUMMARY:ARCTO XX
@@ -22,6 +22,26 @@ URL:https://doublebasskakov.github.io/radar/#e=arcto-xx-belgrade
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:ARCTO XX
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cometa-free-cinema-festival-belgrade@afisha-art
+DTSTAMP:20261114T203651Z
+DTSTART:20261121T150000Z
+DTEND:20261121T170000Z
+SUMMARY:Фестиваль свободного кино «КоМета»
+LOCATION:Vojvode Dobrnjca 48\, Vojvode Dobrnjca 48\, Белград
+DESCRIPTION:Двухдневный фестиваль реалистич
+ еского и экспериментального короткомет
+ ражного кино\, включающий 17 работ различ
+ ных жанров.\n\nhttps://t.me/kometa_fest/320
+URL:https://doublebasskakov.github.io/radar/#e=cometa-free-cinema-festiva
+ l-belgrade
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Фестиваль свободного кино «КоМет
+ а»
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
