@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:special-screening-of-the-film-scenes-from-capital-moscow@afisha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART:20261115T140000Z
 DTEND:20261115T160000Z
 SUMMARY:Спецпоказ фильма «Сцены из "Капитал
@@ -33,7 +33,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-there-was-a-father-and-lecture-on-japanese-cine-moscow@a
  fisha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART:20261115T142500Z
 DTEND:20261115T162500Z
 SUMMARY:Кинопоказ фильма «Был отец» и лекци
@@ -57,8 +57,32 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:international-film-festival-cinema-without-barriers-moscow@afisha-art
+DTSTAMP:20261115T163838Z
+DTSTART:20261113T080000Z
+DTEND:20261113T100000Z
+SUMMARY:Международный кинофестиваль «Кино 
+ без барьеров»
+LOCATION:«Формула кино» (ЦДМ)\, Библиотека ин
+ остранной литературы\, Музей кино на ВДН
+ Х\, Москва
+DESCRIPTION:Масштабный киносмотр\, посвященн
+ ый повседневной жизни людей с инвалидно
+ стью\, в программе которого представлен
+ о 82 фильма из 34 стран.\n\nhttps://t.me/theblueprintnews/9
+ 9504
+URL:https://doublebasskakov.github.io/radar/#e=international-film-festiva
+ l-cinema-without-barriers-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Международный кинофестиваль «Ки
+ но без барьеров»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:film-robert-wilson-beauty-is-a-mystery-samara@afisha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART:20261126T153000Z
 DTEND:20261126T173000Z
 SUMMARY:Фильм «Роберт Уилсон: Красота — в з
@@ -81,7 +105,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:premiere-screening-of-see-everything-at-moskino-kosmos-moscow@afisha-
  art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART:20261116T163000Z
 DTEND:20261116T183000Z
 SUMMARY:Премьерный показ фильма «Увидеть в
@@ -102,7 +126,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:retrospective-of-masha-chernaya-part-1-moscow@afisha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART:20261122T150000Z
 DTEND:20261122T170000Z
 SUMMARY:Ретроспектива Маши Черной. Часть 1
@@ -124,7 +148,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:retrospective-of-masha-chernaya-part-2-moscow@afisha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART:20261129T120000Z
 DTEND:20261129T140000Z
 SUMMARY:Ретроспектива Маши Черной. Часть 2
@@ -146,7 +170,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-nevechernyaya-moscow@afisha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART:20261127T163000Z
 DTEND:20261127T183000Z
 SUMMARY:Показ фильма «Невечерняя»
@@ -167,7 +191,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-flashback-and-discussion-moscow@afisha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART:20261115T160000Z
 DTEND:20261115T180000Z
 SUMMARY:Показ фильма «Флешбэк» и обсуждени
@@ -190,7 +214,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-scenes-from-capital-as-part-of-the-message-to-m-moscow@a
  fisha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART:20261115T140000Z
 DTEND:20261115T160000Z
 SUMMARY:Кинопоказ «Сцены из „Капитала“» в 
@@ -215,7 +239,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:message-to-man-festival-echo-program-screenings-in-krasnoyar-krasnoya
  rsk@afisha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261123
 SUMMARY:Фестиваль «Послание к человеку»: по
@@ -236,7 +260,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:st-petersburg-premiere-of-the-film-malika-saint-peters@afisha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART:20261126T160000Z
 DTEND:20261126T180000Z
 SUMMARY:Петербуржская премьера фильма «Мал
@@ -257,7 +281,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:short-films-screening-block-2-yekaterinbur@afisha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Показ короткометражных фильмов. Сб
@@ -277,7 +301,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-shelter-yekaterinbur@afisha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Показ фильма «Укрытие»
@@ -296,7 +320,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-there-s-enough-happiness-in-the-world-for-every-moscow@a
  fisha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART:20261127T163000Z
 DTEND:20261127T183000Z
 SUMMARY:Кинопоказ «Счастья в мире хватит на
@@ -319,7 +343,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-arina-s-portraits-as-part-of-the-message-to-man-moscow@a
  fisha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART:20261122T150000Z
 DTEND:20261122T170000Z
 SUMMARY:Кинопоказ «Портреты Арины» в рамка
@@ -340,7 +364,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-dear-juliet-and-good-friday-moscow@afisha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART:20261115T140000Z
 DTEND:20261115T160000Z
 SUMMARY:Показ фильмов «Дорогая Джульетта» 
@@ -361,7 +385,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-lumberjack-as-part-of-the-message-to-man-festiv-moscow@a
  fisha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART:20261127T181500Z
 DTEND:20261127T201500Z
 SUMMARY:Кинопоказ «Лесоруб» в рамках «Эха» 
@@ -382,7 +406,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-sleeping-with-a-tiger-and-lecture-by-ilmira-bol-moscow@a
  fisha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART:20261121T150000Z
 DTEND:20261121T170000Z
 SUMMARY:Показ фильма «Сон с тигром» и лекци
@@ -407,7 +431,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:the-cell-screening-and-ulyana-savina-photo-exhibition-moscow@afisha-a
  rt
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART:20261120T173000Z
 DTEND:20261120T193000Z
 SUMMARY:Кинопоказ фильма «Клетка» Тарсема 
@@ -429,7 +453,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:session-1-department-of-non-fiction-film-directing-moscow@afisha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART:20261117T090000Z
 DTEND:20261117T110000Z
 SUMMARY:Сеанс 1. Кафедра режиссуры неигрово
@@ -453,7 +477,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-the-cyclo-by-tran-anh-hung-moscow@afisha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART:20261120T160000Z
 DTEND:20261120T180000Z
 SUMMARY:Показ фильма «Рикша» Чан Ань Хунга
@@ -475,7 +499,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-naomi-kawase-s-films-katatsumori-and-niwatsugum-moscow@a
  fisha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART:20261120T163000Z
 DTEND:20261120T183000Z
 SUMMARY:Показ фильмов Наоми Кавасе «Катацу
@@ -499,7 +523,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cometa-free-cinema-festival-belgrade@afisha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART:20261121T150000Z
 DTEND:20261121T170000Z
 SUMMARY:Фестиваль свободного кино «КоМета»
@@ -519,7 +543,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:screening-and-discussion-of-broken-flowers-moscow@afisha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART:20261116T160000Z
 DTEND:20261116T180000Z
 SUMMARY:Показ и обсуждение фильма «Сломанн
@@ -542,7 +566,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:film-screening-greener-grass-moscow@afisha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART:20261115T153000Z
 DTEND:20261115T173000Z
 SUMMARY:Кинопоказ «Greener Grass»
@@ -563,7 +587,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:special-screening-of-the-military-drama-a-span-of-earth-moscow@afisha
  -art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART:20261119T070000Z
 DTEND:20261119T090000Z
 SUMMARY:Специальный показ военной драмы «П
@@ -584,7 +608,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:the-5th-indie-cinema-apartment-screening-festival-moscow@afisha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART:20261119T160000Z
 DTEND:20261119T180000Z
 SUMMARY:Пятый киноквартирник инди-кино
@@ -604,7 +628,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-the-substance-and-discussion-moscow@afisha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART:20261122T150000Z
 DTEND:20261122T170000Z
 SUMMARY:Показ фильма «Субстанция» и обсужд
@@ -627,7 +651,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-taking-the-horse-to-eat-jalebis-moscow@afisha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART:20261121T160000Z
 DTEND:20261121T180000Z
 SUMMARY:Показ фильма «Taking the Horse to Eat Jalebis»
@@ -647,7 +671,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:special-screening-of-tart-grape-moscow@afisha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART:20261120T160000Z
 DTEND:20261120T180000Z
 SUMMARY:Специальный показ фильма «Терпкий 
@@ -669,7 +693,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:preview-screening-and-q-a-with-ilya-farfel-moscow@afisha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART:20261117T170000Z
 DTEND:20261117T190000Z
 SUMMARY:Предпремьерный показ и встреча с Ил
@@ -691,7 +715,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:screening-the-fantasies-of-faryatyev-moscow@afisha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART:20261119T161500Z
 DTEND:20261119T181500Z
 SUMMARY:Кинопоказ «Фантазии Фарятьева»
@@ -711,7 +735,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-the-pavilion-on-the-water-samara@afisha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART:20261115T130000Z
 DTEND:20261115T150000Z
 SUMMARY:Показ фильма «Павильон на воде»
@@ -731,7 +755,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:screening-and-discussion-of-the-film-mayak-by-timofey-anisim-saint-pe
  ters@afisha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART:20261115T160000Z
 DTEND:20261115T180000Z
 SUMMARY:Показ и обсуждение фильма «Маяк» / а
@@ -754,7 +778,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-the-sacrifice-moscow@afisha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART:20261117T163000Z
 DTEND:20261117T183000Z
 SUMMARY:Показ фильма «Жертвоприношение»
@@ -773,7 +797,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:special-screening-a-small-fact-moscow@afisha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART:20261121T150000Z
 DTEND:20261121T170000Z
 SUMMARY:Спецпоказ. Маленький факт
@@ -793,7 +817,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-paper-tiger-and-discussion-with-daniil-dzhienba-moscow@a
  fisha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART:20261118T163000Z
 DTEND:20261118T183000Z
 SUMMARY:Показ фильма «Бумажный тигр» и обсу
@@ -815,7 +839,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:film-screening-sea-sea-sea-sea-and-this-body-of-a-bird-moscow@afisha-
  art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART:20261126T170000Z
 DTEND:20261126T190000Z
 SUMMARY:Кинопоказ: «Море\, море\, море\, море»
@@ -837,7 +861,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:20th-century-cinema-four-perspectives-on-eurasia-the-cow-saint-peters
  @afisha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART:20261115T170000Z
 DTEND:20261115T190000Z
 SUMMARY:Кинематограф XX века: четыре взгляда
@@ -859,7 +883,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-the-tale-of-tsar-saltan-at-opera-on-screen-moscow@afisha
  -art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART:20261118T180000Z
 DTEND:20261118T200000Z
 SUMMARY:Показ оперы «Сказка о царе Салтане»
@@ -883,7 +907,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-secret-room-in-the-mall-dir-jeremy-workman-moscow@afisha
  -art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART:20261121T150000Z
 DTEND:20261121T170000Z
 SUMMARY:Показ фильма «Тайная комната в ТЦ» (
@@ -904,7 +928,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-today-at-german-s-122-at-85-dir-petr-shepotinni-moscow@a
  fisha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART:20261119T163000Z
 DTEND:20261119T183000Z
 SUMMARY:Показ фильма «Сегодня у Германа 122 н
@@ -925,7 +949,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-competition-screening-at-message-to-man-film-festiv-moscow@a
  fisha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART:20261120T163000Z
 DTEND:20261120T183000Z
 SUMMARY:Сеанс национального конкурса МКФ «
@@ -947,7 +971,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-light-of-a-distant-star-moscow@afisha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART:20261115T120000Z
 DTEND:20261115T140000Z
 SUMMARY:Показ фильма «Свет далекой звезды»
@@ -966,7 +990,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-party-member-card-moscow@afisha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART:20261115T100000Z
 DTEND:20261115T120000Z
 SUMMARY:Показ фильма «Партийный билет»
@@ -985,7 +1009,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-yo-love-is-a-rebellious-bird-dir-anna-fitch-moscow@afish
  a-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART:20261122T140000Z
 DTEND:20261122T160000Z
 SUMMARY:Показ фильма «Йо\, любовь — это мяте
@@ -1005,7 +1029,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:film-screening-songs-of-the-moon-king-moscow@afisha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART:20261119T170000Z
 DTEND:20261119T190000Z
 SUMMARY:Кинопоказ: «Песни лунного короля»
@@ -1024,7 +1048,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-the-rich-bride-moscow@afisha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART:20261115T130000Z
 DTEND:20261115T150000Z
 SUMMARY:Показ фильма «Богатая невеста»
@@ -1043,7 +1067,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:double-film-screening-up-the-field-and-the-guilty-must-be-pu-ulyanovs
  k@afisha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART:20261115T150000Z
 DTEND:20261115T170000Z
 SUMMARY:Сдвоенный показ фильмов «Вверх по п
@@ -1068,7 +1092,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:fifth-film-apartment-gathering-of-the-kommunalka-film-club-moscow@afi
  sha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART:20261119T160000Z
 DTEND:20261119T180000Z
 SUMMARY:Пятый Киноквартирник киноклуба «Ко
@@ -1091,7 +1115,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:screening-and-discussion-of-the-film-i-origins-moscow@afisha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART:20261115T150000Z
 DTEND:20261115T170000Z
 SUMMARY:Кинопоказ и обсуждение фильма «Я на
@@ -1113,7 +1137,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-the-breakfast-club-moscow@afisha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART:20261115T140000Z
 DTEND:20261115T160000Z
 SUMMARY:Кинопоказ фильма «Клуб «Завтрак»
@@ -1132,7 +1156,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:film-analysis-dead-poets-society-rostov-on-do@afisha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART:20261122T140000Z
 DTEND:20261122T160000Z
 SUMMARY:Киноразбор «Общество мертвых поэто
@@ -1153,32 +1177,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:international-film-festival-cinema-without-barriers-moscow@afisha-art
-DTSTAMP:20261115T115423Z
-DTSTART:20261113T080000Z
-DTEND:20261113T100000Z
-SUMMARY:Международный кинофестиваль «Кино 
- без барьеров»
-LOCATION:«Формула кино» (ЦДМ)\, Библиотека ин
- остранной литературы\, Музей кино на ВДН
- Х\, Москва
-DESCRIPTION:Масштабный киносмотр\, посвященн
- ый повседневной жизни людей с инвалидно
- стью\, в программе которого представлен
- о 82 фильма из 34 стран.\n\nhttps://t.me/theblueprintnews/9
- 9504
-URL:https://doublebasskakov.github.io/radar/#e=international-film-festiva
- l-cinema-without-barriers-moscow
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Международный кинофестиваль «Ки
- но без барьеров»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:screening-of-the-film-summer-in-baden-moscow@afisha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART:20261127T163000Z
 DTEND:20261127T183000Z
 SUMMARY:Показ фильма «Лето в Бадене»
@@ -1200,7 +1200,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:victorian-psycho-moscow@afisha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART:20261115T123000Z
 DTEND:20261115T143000Z
 SUMMARY:Victorian Psycho
@@ -1219,7 +1219,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-children-of-cast-iron-gods-dir-tamas-toth-moscow@afisha-
  art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART:20261115T170000Z
 DTEND:20261115T190000Z
 SUMMARY:Показ фильма «Дети чугунных богов» 
@@ -1239,7 +1239,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-the-film-petersburg-night-1934-moscow@afisha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART:20261115T140000Z
 DTEND:20261115T160000Z
 SUMMARY:Кинопоказ фильма «Петербургская но
@@ -1260,7 +1260,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:short-film-program-at-children-of-cast-iron-gods-festival-moscow@afis
  ha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART:20261115T143000Z
 DTEND:20261115T163000Z
 SUMMARY:Короткометражная программа фестив
@@ -1281,7 +1281,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:special-screening-of-the-film-the-wicker-husband-kazan@afisha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART:20261122T140000Z
 DTEND:20261122T160000Z
 SUMMARY:Специальный показ фильма «Плетеный
@@ -1303,7 +1303,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:message-to-man-festival-echo-program-screenings-in-moscow-moscow@afis
  ha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Последний день: Фестиваль «Послани
@@ -1329,7 +1329,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-forrest-sprague-s-epiphany-moscow@afisha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:Показ фильма «Epiphany» Форреста Спрей
@@ -1353,7 +1353,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:xiv-international-film-festival-cinema-without-barriers-scre-moscow@a
  fisha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261116
 SUMMARY:XIV Международный кинофестиваль «Ки
@@ -1377,7 +1377,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:macca-friends-animated-series-premiere-online@afisha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:Премьера анимационного сериала Macca 
@@ -1399,7 +1399,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:short-films-screening-block-1-yekaterinbur@afisha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:Показ короткометражных фильмов. Сб
@@ -1420,7 +1420,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:luchino-visconti-retrospective-senso-moscow@afisha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Ретроспектива Лукино Висконти: «Чу
@@ -1442,7 +1442,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:luchino-visconti-retrospective-the-innocent-moscow@afisha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Ретроспектива Лукино Висконти: «Не
@@ -1464,7 +1464,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:queen-margot-screening-moscow@afisha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Показ фильма «Королева Марго»
@@ -1485,7 +1485,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:message-to-man-festival-echo-program-screenings-in-pskov-pskov@afisha
  -art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261130
 SUMMARY:Фестиваль «Послание к человеку»: по
@@ -1506,7 +1506,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:film-program-revealing-age-naomi-kawase-screenings-moscow@afisha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261126
 SUMMARY:Кинопрограмма «Обнажая возраст»: п
@@ -1530,7 +1530,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:message-to-man-festival-echo-program-screenings-in-yekaterin-yekateri
  nbur@afisha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:Открытие: Фестиваль «Послание к чел
@@ -1553,7 +1553,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:luchino-visconti-retrospective-white-nights-moscow@afisha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Ретроспектива Лукино Висконти: «Бе
@@ -1575,7 +1575,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:short-films-screening-block-3-yekaterinbur@afisha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Показ короткометражных фильмов. Сб
@@ -1595,7 +1595,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-portraits-of-arina-yekaterinbur@afisha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Показ фильма «Портреты Арины»
@@ -1614,7 +1614,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-snow-is-falling-as-part-of-the-mayak-festival-e-saint-pe
  ters@afisha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261116
 SUMMARY:Показ фильма «Падает снег» в рамках
@@ -1637,7 +1637,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:special-screening-of-bridget-jones-s-diary-moscow@afisha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
 SUMMARY:Специальный показ фильма «Дневник 
@@ -1660,7 +1660,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sentimental-delirium-film-festival-day-4-voronezh@afisha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:Кинофестиваль «Сентиментальная го
@@ -1683,7 +1683,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-malika-as-part-of-the-mayak-festival-echo-saint-peters@a
  fisha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261116
 SUMMARY:Показ фильма «Малика» в рамках эха 
@@ -1706,7 +1706,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-three-works-from-the-message-to-man-festival-pr-moscow@a
  fisha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:Показ трех работ программы фестива
@@ -1730,7 +1730,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-frost-as-part-of-the-mayak-festival-echo-saint-peters@af
  isha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261116
 SUMMARY:Показ фильма «Мороз» в рамках эха ф
@@ -1753,7 +1753,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-golem-as-part-of-the-mayak-festival-echo-saint-peters@af
  isha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261116
 SUMMARY:Показ фильма «Голем» в рамках эха ф
@@ -1776,7 +1776,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-vanya-as-part-of-the-mayak-festival-echo-saint-peters@af
  isha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261116
 SUMMARY:Показ фильма «Ваня» в рамках эха фе
@@ -1799,7 +1799,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:film-program-still-life-portrait-landscape-after-genre-at-ge-moscow@a
  fisha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:Открытие: Кинопрограмма «Натюрморт
@@ -1822,7 +1822,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:jean-michel-basquiat-documentary-on-netflix-online@afisha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:Документальный фильм «Жан-Мишель Б
@@ -1844,7 +1844,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:the-wicker-man-screening-and-discussion-kazan@afisha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Показ фильма «Плетеный человек» и о
@@ -1866,7 +1866,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:8-1-2-moscow@afisha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:Восемь с половиной
@@ -1884,7 +1884,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-the-film-it-was-it-wasn-t-moscow@afisha-art
-DTSTAMP:20261115T115423Z
+DTSTAMP:20261115T163838Z
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
 SUMMARY:Показ фильма «Было не было»
