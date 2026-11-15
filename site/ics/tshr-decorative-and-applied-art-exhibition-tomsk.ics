@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:tshr-decorative-and-applied-art-exhibition-tomsk@afisha-art
+DTSTAMP:20261115T115423Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Открытие: Выставка декоративно-при
+ кладного искусства ТСХР
+LOCATION:Томский центр современной культур
+ ы\, Томск
+DESCRIPTION:Выставка произведений декоратив
+ но-прикладного искусства\, созданных чл
+ енами Творческого союза художников Рос
+ сии.\nТСХР\nhttps://www.afisha.ru/tomsk/schedule_exhibition/
+URL:https://doublebasskakov.github.io/radar/#e=tshr-decorative-and-applie
+ d-art-exhibition-tomsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка декоративно-п
+ рикладного искусства ТСХР
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

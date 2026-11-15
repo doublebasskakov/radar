@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:sasha-hello-play-kaliningrad@afisha-art
+DTSTAMP:20261115T115423Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Спектакль «Саша\, привет!»
+LOCATION:Калининградский драматический теа
+ тр\, Калининград
+DESCRIPTION:Премьера спектакля Алексея Золот
+ овицкого по роману-антиутопии Дмитрия Д
+ анилова.\nАлексей Золотовицкий\nhttps://t.me/ct
+ _pro/14817
+URL:https://doublebasskakov.github.io/radar/#e=sasha-hello-play-kaliningr
+ ad
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спектакль «Саша\, привет!»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

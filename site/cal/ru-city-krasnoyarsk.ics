@@ -9,7 +9,7 @@ X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:message-to-man-festival-echo-program-screenings-in-krasnoyar-krasnoya
  rsk@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261123
 SUMMARY:Фестиваль «Послание к человеку»: по
@@ -30,7 +30,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iskrafest-festival-krasnoyarsk@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART:20261129T080000Z
 DTEND:20261129T100000Z
 SUMMARY:Фестиваль «Искрафест»
@@ -50,7 +50,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:krasnoyarsk-schnittke-choir@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART:20261119T120000Z
 DTEND:20261119T140000Z
 SUMMARY:Шнитке. Концерт для хора на стихи На
@@ -71,8 +71,28 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:ballet-leap-to-freedom-krasnoyarsk@afisha-art
+DTSTAMP:20261115T115423Z
+DTSTART:20261129T120000Z
+DTEND:20261129T140000Z
+SUMMARY:Балет «Прыжок в свободу»
+LOCATION:Сибирский институт искусств им. Хв
+ оростовского\, Красноярск
+DESCRIPTION:Танцевальная постановка\, расска
+ зывающая о жизни и творческом пути выда
+ ющегося артиста балета.\nNone\nhttps://www.afisha.ru/
+ performance/pryzhok-v-svobodu-77132/
+URL:https://doublebasskakov.github.io/radar/#e=ballet-leap-to-freedom-kra
+ snoyarsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Балет «Прыжок в свободу»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:krsk-ploshchad-mira-pozdeev-antologiya@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART;VALUE=DATE:20270216
 DTEND;VALUE=DATE:20270217
 SUMMARY:Последний день: «Антология». Андрей
@@ -95,7 +115,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-indigenous-minor-peoples-of-siberia-krasnoyarsk@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Последний день: Выставка «Коренные 
@@ -114,6 +134,29 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Последний день: Выставка «Коренн
  ые малочисленные народы Сибири»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:exhibition-pozdeev-s-anthology-krasnoyarsk@afisha-art
+DTSTAMP:20261115T115423Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Открытие: Экспозиция «Антология По
+ здеева»
+LOCATION:Красноярский музейный центр\, Крас
+ ноярск
+DESCRIPTION:Ретроспективная выставка и экску
+ рсии\, посвященные творчеству знакового
+  красноярского художника Андрея Поздее
+ ва.\nАндрей Поздеев\nhttps://www.afisha.ru/excursion/eksku
+ rsiya-po-vystavke-antologiya-pozdeeva-5736/
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-pozdeev-s-antho
+ logy-krasnoyarsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Экспозиция «Антология 
+ Поздеева»
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

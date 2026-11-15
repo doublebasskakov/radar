@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:tshr-scan-exhibition-tomsk@afisha-art
+DTSTAMP:20261115T115423Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Открытие: Выставка ТСХР + СКАН
+LOCATION:Томский центр современной культур
+ ы\, Томск
+DESCRIPTION:Совместный выставочный проект ху
+ дожников ТСХР и региональной арт-ярмарк
+ и SCAN.\nТворческий союз художников России
+  (ТСХР)\, СКАН\nhttps://www.afisha.ru/exhibition/tshr-skan-101514
+ 1/
+URL:https://doublebasskakov.github.io/radar/#e=tshr-scan-exhibition-tomsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка ТСХР + СКАН
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

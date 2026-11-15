@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:the-magnificent-hermitage-kaliningrad@afisha-art
+DTSTAMP:20261115T115423Z
+DTSTART;VALUE=DATE:20261216
+DTEND;VALUE=DATE:20261217
+SUMMARY:Великолепный Эрмитаж
+LOCATION:Третьяковская галерея\, Октябрьски
+ й остров\, Калининград
+DESCRIPTION:Цифровой проект\, представляющий 
+ шедевры и историю Эрмитажа через видеот
+ ехнологии.\n\nhttps://www.afisha.ru/exhibition/velikolepniy-ermi
+ tazh-1011458/
+URL:https://doublebasskakov.github.io/radar/#e=the-magnificent-hermitage-
+ kaliningrad
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Великолепный Эрмитаж
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:art-of-the-20th-century-moscow@afisha-art
+DTSTAMP:20261115T115423Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Открытие: Искусство ХХ века
+LOCATION:Новая Третьяковка\, Москва
+DESCRIPTION:Постоянная экспозиция главных им
+ ен русского авангарда и современного ис
+ кусства прошлого столетия.\n\nhttps://www.afisha.r
+ u/msk/schedule_exhibition/
+URL:https://doublebasskakov.github.io/radar/#e=art-of-the-20th-century-mo
+ scow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Искусство ХХ века
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

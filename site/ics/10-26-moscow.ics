@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:10-26-moscow@afisha-art
+DTSTAMP:20261115T115423Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Последний день: 10-26
+LOCATION:ЦСИ Винзавод\, Галерея Икс Эль\, 4-й С
+ ыромятнический пер.\, 1/8 стр. 6\, Москва
+DESCRIPTION:Персональная выставка художника 
+ и фотографа Сергея Сапожникова в галере
+ е XL.\nСергей Сапожников\nhttps://www.winzavod.ru/calend
+ ar/exhibitions/10-26/
+URL:https://doublebasskakov.github.io/radar/#e=10-26-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: 10-26
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:nsk-masm-tri-veka@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART:20261126T120000Z
 DTEND:20261126T140000Z
 SUMMARY:МАСМ. «Три века русской камерной му
@@ -29,8 +29,29 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:raphael-versions-novosibirsk@afisha-art
+DTSTAMP:20261115T115423Z
+DTSTART;VALUE=DATE:20270314
+DTEND;VALUE=DATE:20270315
+SUMMARY:Рафаэль. Версии
+LOCATION:Новосибирский художественный музе
+ й\, Новосибирск
+DESCRIPTION:Масштабная временная выставка\, п
+ редставляющая различные интерпретации 
+ и авторские версии произведений велико
+ го мастера Возрождения.\nРафаэль Санти\nh
+ ttps://www.afisha.ru/exhibition/rafael-versii-1014626/
+URL:https://doublebasskakov.github.io/radar/#e=raphael-versions-novosibir
+ sk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Рафаэль. Версии
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:robert-falk-and-his-students-novosibirsk@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Роберт Фальк и его ученики
@@ -52,7 +73,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:international-scientific-conference-horizons-of-scientific-h-novosibi
  rsk@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261125
 SUMMARY:Международная научная конференция 
@@ -80,8 +101,54 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:lecture-hall-gericault-zaryanko-infante-novosibirsk@afisha-art
+DTSTAMP:20261115T115423Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Лекторий: Жерико\, Зарянко\, Инфанте
+LOCATION:Новосибирский художественный музе
+ й\, Новосибирск
+DESCRIPTION:Искусствоведческая лекция\, объе
+ диняющая мастеров разных веков и заверш
+ ающаяся анализом творчества классика к
+ инетизма Франсиско Инфанте.\nФрансиско 
+ Инфанте-Арана\, Теодор Жерико\, Сергей За
+ рянко\nhttps://www.afisha.ru/novosibirsk/schedule_exhibition/
+URL:https://doublebasskakov.github.io/radar/#e=lecture-hall-gericault-zar
+ yanko-infante-novosibirsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекторий: Жерико\, Зарянко\, Инфан
+ те
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lecture-hall-botticelli-thirst-for-harmony-novosibirsk@afisha-art
+DTSTAMP:20261115T115423Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Лекторий: Боттичелли. Жажда гармони
+ и
+LOCATION:Новосибирский художественный музе
+ й\, Новосибирск
+DESCRIPTION:Образовательное мероприятие\, по
+ священное визуальному языку и философи
+ и одного из величайших художников Ранне
+ го Возрождения.\nСандро Боттичелли\nhttps://
+ www.afisha.ru/exhibition/lektoriy-bottichelli-zhazhda-garmonii-1013130/
+URL:https://doublebasskakov.github.io/radar/#e=lecture-hall-botticelli-th
+ irst-for-harmony-novosibirsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекторий: Боттичелли. Жажда гармо
+ нии
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:fateev-s-dreams-novosibirsk@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Сны Фатеева
@@ -101,8 +168,76 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:art-lecture-chanel-woman-brand-legend-novosibirsk@afisha-art
+DTSTAMP:20261115T115423Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Арт-лекция «Chanel. Женщина. Бренд. Лег
+ енда»
+LOCATION:Коллекция\, Новосибирск
+DESCRIPTION:Лекция о культурном влиянии Коко 
+ Шанель и о том\, как её эстетика сформиро
+ вала современное представление о моде.\n
+ Коко Шанель\nhttps://www.afisha.ru/novosibirsk/schedule_exhibit
+ ion/
+URL:https://doublebasskakov.github.io/radar/#e=art-lecture-chanel-woman-b
+ rand-legend-novosibirsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Арт-лекция «Chanel. Женщина. Бренд. Л
+ егенда»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:festival-of-young-designers-of-the-melange-school-novosibirsk@afisha-
+ art
+DTSTAMP:20261115T115423Z
+DTSTART;VALUE=DATE:20270129
+DTEND;VALUE=DATE:20270130
+SUMMARY:Фестиваль юных дизайнеров школы «М
+ еланж»
+LOCATION:Концертный зал им. Каца\, Новосибир
+ ск
+DESCRIPTION:Смотр творческих достижений начи
+ нающих дизайнеров\, представляющих новы
+ е идеи в области моды и стиля.\n\nhttps://www.afis
+ ha.ru/exhibition/festival-yunyh-diziynerov-shkoly-melanzh-1016150/
+URL:https://doublebasskakov.github.io/radar/#e=festival-of-young-designer
+ s-of-the-melange-school-novosibirsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Фестиваль юных дизайнеров школы 
+ «Меланж»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lecture-hall-india-exotic-and-attractive-novosibirsk@afisha-art
+DTSTAMP:20261115T115423Z
+DTSTART;VALUE=DATE:20270313
+DTEND;VALUE=DATE:20270314
+SUMMARY:Лекторий: Индия. Экзотическая и при
+ тягательная
+LOCATION:Новосибирский художественный музе
+ й\, Новосибирск
+DESCRIPTION:Культурологическая лекция\, посв
+ ященная искусству и традициям Индии\, её
+  влиянию на мировую культуру.\n\nhttps://www.afis
+ ha.ru/exhibition/lektoriy-indiya-ekzoticheskaya-i-prityagatelnaya-1013124
+ /
+URL:https://doublebasskakov.github.io/radar/#e=lecture-hall-india-exotic-
+ and-attractive-novosibirsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекторий: Индия. Экзотическая и п
+ ритягательная
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:the-boundary-of-light-novosibirsk@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:Граница света
@@ -122,7 +257,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:all-unity-novosibirsk@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Всеединство

@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:where-dreams-live-moscow@afisha-art
+DTSTAMP:20261115T115423Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Открытие: Где живут сны
+LOCATION:Центр «Марс»\, Москва
+DESCRIPTION:Интерактивная инсталляция\, посв
+ ященная исследованию сюрреалистически
+ х пространств и сновидений.\n\nhttps://www.afisha.
+ ru/msk/schedule_exhibition/
+URL:https://doublebasskakov.github.io/radar/#e=where-dreams-live-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Где живут сны
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

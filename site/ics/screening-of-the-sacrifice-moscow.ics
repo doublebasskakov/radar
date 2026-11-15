@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:screening-of-the-sacrifice-moscow@afisha-art
+DTSTAMP:20261115T115423Z
+DTSTART:20261117T163000Z
+DTEND:20261117T183000Z
+SUMMARY:Показ фильма «Жертвоприношение»
+LOCATION:Киноклуб МАММ\, Москва
+DESCRIPTION:Спецпоказ заключительной картин
+ ы Андрея Тарковского в рамках киноклуба
+  Мультимедиа Арт Музея.\nАндрей Тарковск
+ ий\nhttps://t.me/multimediaartmuseum/7131
+URL:https://doublebasskakov.github.io/radar/#e=screening-of-the-sacrifice
+ -moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильма «Жертвоприношение»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

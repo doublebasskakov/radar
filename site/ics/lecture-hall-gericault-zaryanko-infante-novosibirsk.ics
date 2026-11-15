@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:lecture-hall-gericault-zaryanko-infante-novosibirsk@afisha-art
+DTSTAMP:20261115T115423Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Лекторий: Жерико\, Зарянко\, Инфанте
+LOCATION:Новосибирский художественный музе
+ й\, Новосибирск
+DESCRIPTION:Искусствоведческая лекция\, объе
+ диняющая мастеров разных веков и заверш
+ ающаяся анализом творчества классика к
+ инетизма Франсиско Инфанте.\nФрансиско 
+ Инфанте-Арана\, Теодор Жерико\, Сергей За
+ рянко\nhttps://www.afisha.ru/novosibirsk/schedule_exhibition/
+URL:https://doublebasskakov.github.io/radar/#e=lecture-hall-gericault-zar
+ yanko-infante-novosibirsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекторий: Жерико\, Зарянко\, Инфан
+ те
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

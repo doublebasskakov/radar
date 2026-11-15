@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:light-and-color-painting-exhibition-kaliningrad@afisha-art
+DTSTAMP:20261115T115423Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261122
+SUMMARY:Выставка живописи «Свет и цвет»
+LOCATION:Арт-пространство «Ворота»\, ул. Лит
+ овский вал\, 61\, Калининград
+DESCRIPTION:Экспозиция художественных работ\
+ , исследующая взаимодействие световых п
+ отоков и цветовой палитры.\nNone\nhttps://vorotagal
+ lery.ru/events/fotovystavka-svet-i-cvet/
+URL:https://doublebasskakov.github.io/radar/#e=light-and-color-painting-e
+ xhibition-kaliningrad
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выставка живописи «Свет и цвет»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

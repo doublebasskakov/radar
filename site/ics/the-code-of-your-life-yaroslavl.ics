@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:the-code-of-your-life-yaroslavl@afisha-art
+DTSTAMP:20261115T115423Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Код твоей жизни
+LOCATION:Пространство «Дом»\, Ярославль
+DESCRIPTION:Образовательная лекция о личност
+ ном развитии и жизненных стратегиях в к
+ ультурном пространстве «Дом».\n\nhttps://www.af
+ isha.ru/exhibition/kod-tvoey-zhizni-1016096/
+URL:https://doublebasskakov.github.io/radar/#e=the-code-of-your-life-yaro
+ slavl
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Код твоей жизни
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

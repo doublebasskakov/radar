@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:lecture-graphics-of-the-russian-north-mezen-painting-rostov-on-do@afi
+ sha-art
+DTSTAMP:20261115T115423Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:Лекция «Графика Русского Севера. Ме
+ зенская роспись»
+LOCATION:Ленинский СДК\, Ростов-на-Дону
+DESCRIPTION:Образовательное событие\, посвящ
+ енное уникальной знаковой системе и тра
+ диционной графике Русского Севера.\n\nhttps
+ ://www.afisha.ru/exhibition/lekciya-grafika-russkogo-severa-mezenskaya-ro
+ spis-1015001/
+URL:https://doublebasskakov.github.io/radar/#e=lecture-graphics-of-the-ru
+ ssian-north-mezen-painting-rostov-on-do
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекция «Графика Русского Севера. 
+ Мезенская роспись»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:christmas-at-kew-london@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART:20261113T162000Z
 DTEND:20261113T182000Z
 SUMMARY:Открытие: Зимняя световая прогулка 
@@ -30,7 +30,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-opening-hidden-on-tape-early-video-art-in-europe-karlsruhe
  @afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART:20261127T180000Z
 DTEND:20261127T200000Z
 SUMMARY:Выставка «Скрыто на пленке. Раннее 
@@ -51,8 +51,29 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:exhibition-hidden-on-tape-early-video-art-in-europe-karlsruhe@afisha-
+ art
+DTSTAMP:20261115T115423Z
+DTSTART:20261127T180000Z
+DTEND:20261127T200000Z
+SUMMARY:Выставка «Hidden on Tape. Early Video Art in Europe»
+LOCATION:ZKM | Center for Art and Media\, Lorenzstraße 19\, 76135 Karlsr
+ uhe\, Карлсруэ\, Германия
+DESCRIPTION:Открытие масштабной выставки ран
+ него европейского видеоарта.\nZKM\nhttps://zkm.d
+ e/en/2026/11/hidden-on-tape-early-video-art-in-europe-0
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-hidden-on-tape-
+ early-video-art-in-europe-karlsruhe
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выставка «Hidden on Tape. Early Video Art in Europe
+ »
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:transmediale-2027@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART;VALUE=DATE:20270128
 DTEND;VALUE=DATE:20270201
 SUMMARY:transmediale 2027: groundstates
@@ -73,7 +94,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ars-electronica-2027@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART;VALUE=DATE:20270908
 DTEND;VALUE=DATE:20270913
 SUMMARY:Ars Electronica Festival 2027
@@ -92,7 +113,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-fragile-currents-berlin@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART;VALUE=DATE:20270127
 DTEND;VALUE=DATE:20270128
 SUMMARY:Открытие: Выставка «fragile currents»
@@ -113,7 +134,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dark-net-exhibition-at-akademie-der-ku-nste-berlin@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART;VALUE=DATE:20270127
 DTEND;VALUE=DATE:20270128
 SUMMARY:Открытие: Выставка «Dark Net» в Akademie der K
@@ -137,7 +158,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:arcane-universe-league-of-legends-exhibition-yerevan@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Последний день: Выставка «Вселенна
@@ -159,7 +180,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mutek-montreal-2027@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART;VALUE=DATE:20270824
 DTEND;VALUE=DATE:20270830
 SUMMARY:MUTEK Montréal 2027: Sensitive Waves
@@ -179,7 +200,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mutek-jp-2026@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261124
 SUMMARY:MUTEK.JP 2026
@@ -199,7 +220,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:new-museum-arthur-jafa@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
 SUMMARY:Последний день: Arthur Jafa: I Am Tony
@@ -220,11 +241,12 @@ END:VEVENT
 BEGIN:VEVENT
 UID:multimedia-exhibition-savitsky-s-diaries-old-and-new-tashkent@afisha-
  art
-DTSTAMP:20261114T203651Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-SUMMARY:Открытие: Мультимедийная выставка 
- «Дневники Савицкого. Старое и новое»
+DTSTAMP:20261115T115423Z
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+SUMMARY:Последний день: Мультимедийная выс
+ тавка «Дневники Савицкого. Старое и нов
+ ое»
 LOCATION:Tashkent City Mall\, Ташкент\, Узбекистан
 DESCRIPTION:Иммерсивный мультимедийный прое
  кт\, основанный на наследии и дневниках 
@@ -235,14 +257,15 @@ URL:https://doublebasskakov.github.io/radar/#e=multimedia-exhibition-savi
  tsky-s-diaries-old-and-new-tashkent
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Открытие: Мультимедийная выставк
- а «Дневники Савицкого. Старое и новое»
+DESCRIPTION:Последний день: Мультимедийная в
+ ыставка «Дневники Савицкого. Старое и н
+ овое»
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:paolo-cirio-nudify-ai-online@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART;VALUE=DATE:20270401
 DTEND;VALUE=DATE:20270402
 SUMMARY:Последний день: Paolo Cirio: NUDIFY AI
@@ -262,11 +285,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:house-of-memory-by-basil-al-rawi-brussels@afisha-art
-DTSTAMP:20261114T203651Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-SUMMARY:Открытие: House of Memory / بيت الذاكرة — Bas
- il Al-Rawi
+DTSTAMP:20261115T115423Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Последний день: House of Memory / بيت الذاك
+ رة — Basil Al-Rawi
 LOCATION:Bozar\, Rue Ravenstein 23\, Брюссель\, Бельгия
 DESCRIPTION:Иммерсивное VR-путешествие по арх
  ивам и иракским историям от художника Б
@@ -276,14 +299,14 @@ URL:https://doublebasskakov.github.io/radar/#e=house-of-memory-by-basil-a
  l-rawi-brussels
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Открытие: House of Memory / بيت الذاكرة —
-  Basil Al-Rawi
+DESCRIPTION:Последний день: House of Memory / بيت الذ
+ اكرة — Basil Al-Rawi
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:hunter-170th-anniversary-installation-london@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Последний день: Временная инсталля
@@ -305,7 +328,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:steina-playback-haus-der-kunst@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 SUMMARY:Последний день: Steina: Playback

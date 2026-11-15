@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:nodirabegim-play-tashkent@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART:20261125T130000Z
 DTEND:20261125T150000Z
 SUMMARY:Спектакль «Nodirabegim»
@@ -30,7 +30,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:play-osmon-hamma-gapni-eshitadi-tashkent@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART:20261123T130000Z
 DTEND:20261123T150000Z
 SUMMARY:Спектакль «Osmon hamma gapni eshitadi»
@@ -53,7 +53,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:premiere-of-the-comedy-play-maysara-tashkent@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART:20261128T120000Z
 DTEND:20261128T140000Z
 SUMMARY:Премьера комедийного спектакля «Mays
@@ -76,7 +76,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:play-wolves-and-sheep-tashkent@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART:20261115T120000Z
 DTEND:20261115T140000Z
 SUMMARY:Спектакль «Волки и овцы»
@@ -99,7 +99,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sherlock-holmes-and-the-12-days-of-christmas-london@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART:20261124T193000Z
 DTEND:20261124T213000Z
 SUMMARY:Открытие: Sherlock Holmes and the 12 Days of Christmas
@@ -119,9 +119,29 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:musical-story-finn-family-moomintroll-tashkent@afisha-art
+DTSTAMP:20261115T115423Z
+DTSTART:20261115T130000Z
+DTEND:20261115T150000Z
+SUMMARY:Музыкальная история «Муми-тролль и 
+ Шляпа Волшебника»
+LOCATION:Human House\, Ташкент\, Узбекистан
+DESCRIPTION:Музыкальное представление для вс
+ ей семьи по мотивам сказки Туве Янссон.\n
+ Илья Небослов\nhttps://t.me/humanhouse_event/3226
+URL:https://doublebasskakov.github.io/radar/#e=musical-story-finn-family-
+ moomintroll-tashkent
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Музыкальная история «Муми-тролль
+  и Шляпа Волшебника»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:gla55-anne-teresa-de-keersmaeker-rosas-ictus-bl-ndman-berlin@afisha-a
  rt
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART:20261119T183000Z
 DTEND:20261119T203000Z
 SUMMARY:GLA55: Анна Тереза Де Кеерсмакер / Rosas\, 
@@ -145,7 +165,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:performance-les-jeux-de-l-amour-et-de-l-e-nigme-paris@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART:20270318T180000Z
 DTEND:20270318T200000Z
 SUMMARY:Спектакль «Les Jeux de l'amour et de l'énigme»
@@ -165,7 +185,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:play-gromkie-tbilisi@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART;VALUE=DATE:20270406
 DTEND;VALUE=DATE:20270407
 SUMMARY:Спектакль «Громкие»
@@ -183,8 +203,31 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:christmas-tree-lighting-ceremony-london@afisha-art
+DTSTAMP:20261115T115423Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:Церемония зажжения огней на рождес
+ твенской ёлке
+LOCATION:Трафальгарская площадь\, Trafalgar Square\,
+  London\, Лондон\, Великобритания
+DESCRIPTION:Традиционная торжественная цере
+ мония зажжения огней на главной новогод
+ ней елке Лондона\, подаренной Норвегией.
+ \nТрафальгарская площадь\nhttps://t.me/afishalondon/
+ 11249
+URL:https://doublebasskakov.github.io/radar/#e=christmas-tree-lighting-ce
+ remony-london
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Церемония зажжения огней на рожд
+ ественской ёлке
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:seven-moons-at-ilkhom-theatre-tashkent@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Спектакль «Семь лун» в театре «Ильх
@@ -206,7 +249,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:the-pillar-and-the-ground-of-truth-by-pavel-a-florenskij-venice@afish
  a-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261121
 SUMMARY:Пьеса «Столп и утверждение истины» 
@@ -229,7 +272,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:minsk-sea-performance-vilnius@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Спектакль «Минское море»

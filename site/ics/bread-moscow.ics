@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:bread-moscow@afisha-art
+DTSTAMP:20261115T115423Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Открытие: Хлеб
+LOCATION:Центр «Зотов»\, Москва
+DESCRIPTION:Масштабная выставка в пространст
+ ве бывшего хлебозавода\, исследующая об
+ раз хлеба в культуре и искусстве.\n\nhttps://w
+ ww.afisha.ru/msk/other/centr-zotov-120289/
+URL:https://doublebasskakov.github.io/radar/#e=bread-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Хлеб
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

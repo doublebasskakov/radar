@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:about-nothing-saint-peters@afisha-art
+DTSTAMP:20261115T115423Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Открытие: Ниочём
+LOCATION:Балаган\, Санкт-Петербург
+DESCRIPTION:Выставка живописи\, посвященная п
+ ереосмыслению обыденности.\n\nhttps://www.afisha.
+ ru/spb/schedule_exhibition/modern_art/
+URL:https://doublebasskakov.github.io/radar/#e=about-nothing-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Ниочём
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

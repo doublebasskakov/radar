@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:tomsk-masm-denisov@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART:20261124T120000Z
 DTEND:20261124T140000Z
 SUMMARY:МАСМ. «Диалоги сквозь время: Эдисон 
@@ -27,8 +27,28 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:tshr-scan-exhibition-tomsk@afisha-art
+DTSTAMP:20261115T115423Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Открытие: Выставка ТСХР + СКАН
+LOCATION:Томский центр современной культур
+ ы\, Томск
+DESCRIPTION:Совместный выставочный проект ху
+ дожников ТСХР и региональной арт-ярмарк
+ и SCAN.\nТворческий союз художников России
+  (ТСХР)\, СКАН\nhttps://www.afisha.ru/exhibition/tshr-skan-101514
+ 1/
+URL:https://doublebasskakov.github.io/radar/#e=tshr-scan-exhibition-tomsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка ТСХР + СКАН
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:tomsk-kabinet-flora-sibiri@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:Последний день: «Флора Сибири: худо
@@ -46,6 +66,97 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Последний день: «Флора Сибири: ху
  дожественное исследование»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:first-workshop-of-siberian-art-exhibition-tomsk@afisha-art
+DTSTAMP:20261115T115423Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Открытие: Выставка Первой мастерск
+ ой Сибирского искусства
+LOCATION:Томский центр современной культур
+ ы\, Томск
+DESCRIPTION:Экспозиция работ участников Перв
+ ой мастерской\, представляющая актуальн
+ ые направления в современном сибирском 
+ искусстве.\nПервая мастерская Сибирског
+ о искусства\nhttps://www.afisha.ru/exhibition/vystavka-perviy-m
+ asterskiy-sibirskogo-iskusstva-1014923/
+URL:https://doublebasskakov.github.io/radar/#e=first-workshop-of-siberian
+ -art-exhibition-tomsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка Первой мастер
+ ской Сибирского искусства
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:tshr-decorative-and-applied-art-exhibition-tomsk@afisha-art
+DTSTAMP:20261115T115423Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Открытие: Выставка декоративно-при
+ кладного искусства ТСХР
+LOCATION:Томский центр современной культур
+ ы\, Томск
+DESCRIPTION:Выставка произведений декоратив
+ но-прикладного искусства\, созданных чл
+ енами Творческого союза художников Рос
+ сии.\nТСХР\nhttps://www.afisha.ru/tomsk/schedule_exhibition/
+URL:https://doublebasskakov.github.io/radar/#e=tshr-decorative-and-applie
+ d-art-exhibition-tomsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка декоративно-п
+ рикладного искусства ТСХР
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:creative-meeting-theater-in-details-tomsk@afisha-art
+DTSTAMP:20261115T115423Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:Творческая встреча «Театр в деталя
+ х»
+LOCATION:Томский драматический театр\, Томс
+ к
+DESCRIPTION:Встреча\, посвященная внутренней 
+ жизни театра и тонкостям создания совре
+ менных спектаклей.\nNone\nhttps://www.afisha.ru/exhibitio
+ n/tvorcheskaya-vstrecha-teatr-v-detalyah-1002097/
+URL:https://doublebasskakov.github.io/radar/#e=creative-meeting-theater-i
+ n-details-tomsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Творческая встреча «Театр в дета
+ лях»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lecture-architecture-instruction-for-use-tomsk@afisha-art
+DTSTAMP:20261115T115423Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:Курс «Архитектура: инструкция по пр
+ именению»
+LOCATION:Томский центр современной культур
+ ы\, Томск
+DESCRIPTION:Образовательная встреча о том\, к
+ ак понимать и воспринимать архитектурн
+ ую среду.\nС. Березовская\nhttps://www.afisha.ru/exhib
+ ition/kurs-arhitektura-instrukciya-po-primeneniyu-ot-s-berezovskoy-101600
+ 6/
+URL:https://doublebasskakov.github.io/radar/#e=lecture-architecture-instr
+ uction-for-use-tomsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Курс «Архитектура: инструкция по 
+ применению»
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

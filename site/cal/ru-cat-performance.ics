@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:reverse-saint-peters@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART:20261119T160000Z
 DTEND:20261119T180000Z
 SUMMARY:Реверс
@@ -27,7 +27,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dancing-for-diaghilev-saint-peters@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART:20261116T170000Z
 DTEND:20261116T190000Z
 SUMMARY:Танцуем для Дягилева
@@ -47,36 +47,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ritm-nol-meditation-marathon-day-2-moscow@afisha-art
-DTSTAMP:20261114T203651Z
-DTSTART:20261114T120000Z
-DTEND:20261114T140000Z
-SUMMARY:Марафон-медитация «РИТМ.НОЛЬ» — де
- нь 2
-LOCATION:Монолит Холл\, Москва\, Михайловски
- й проезд\, 3В\, Москва
-DESCRIPTION:Второй день марафона-медитации «
- Ритм.Ноль» в Монолит Холле: по данным ис
- точников\, с 15:00 до 01:30. Запланировано 7 ча
- совых сессий\, хедлайнеры — Attaque de Panique\, N
- ikola Melnikov с оркестром Continuum (Stabat Mater с хоро
- м из 8 человек) и Nikita Zabelin. После 01:00 — тан
- цевальная часть «Ритм.130». Вход на сесси
- и по билетам от 2800 руб. (по одной сессии).\
- nNikita Zabelin\, Attaque de Panique\, Nikola Melnikov\nhttps://t.me/reso
- nancemoscow/7698
-URL:https://doublebasskakov.github.io/radar/#e=ritm-nol-meditation-marath
- on-day-2-moscow
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Марафон-медитация «РИТМ.НОЛЬ» — 
- день 2
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:dafes-awards-show-2026-moscow@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART:20261126T160000Z
 DTEND:20261126T180000Z
 SUMMARY:Церемония и перформанс-шоу Dafes Awards 20
@@ -98,7 +70,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dance-performance-gloria-saint-peters@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART:20261116T170000Z
 DTEND:20261116T190000Z
 SUMMARY:Танцевальный перформанс «Глория»
@@ -123,7 +95,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:demutsky-16@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART:20261126T150000Z
 DTEND:20261126T170000Z
 SUMMARY:16 фортепианных пьес
@@ -145,7 +117,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:vosstanie-dance-performance-saint-peters@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART:20261207T170000Z
 DTEND:20261207T190000Z
 SUMMARY:«ВОССТАНИЕ» — танц-перформанс
@@ -167,7 +139,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:poetic-promenade-yekaterinbur@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART:20261120T143000Z
 DTEND:20261120T163000Z
 SUMMARY:Поэтический променад
@@ -188,7 +160,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dance-performance-copypaste-moscow@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART:20261128T173000Z
 DTEND:20261128T193000Z
 SUMMARY:Танцевальный перформанс «copypaste»
@@ -208,7 +180,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:poetry-evening-by-nonsns-art-group-moscow@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART:20261115T150000Z
 DTEND:20261115T170000Z
 SUMMARY:Поэтический вечер арт-группы NONSNS
@@ -227,7 +199,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:performance-gadgets-in-our-life-yekaterinbur@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Перформанс «Гаджеты в нашей жизни»
@@ -247,8 +219,29 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:performance-concert-dogs-saint-peters@afisha-art
+DTSTAMP:20261115T115423Z
+DTSTART:20261212T170000Z
+DTEND:20261212T190000Z
+SUMMARY:Перформанс-концерт «Псы»
+LOCATION:Новая сцена Александринского теат
+ ра\, Санкт-Петербург
+DESCRIPTION:Энергичный перформанс-концерт пя
+ ти танцовщиц и группы Pómmo с отсылками к 
+ кино и культовым музыкальным проектам.\n
+ Маша Шешукова\, группа Pómmo\nhttps://t.me/sdvigspace/
+ 6922
+URL:https://doublebasskakov.github.io/radar/#e=performance-concert-dogs-s
+ aint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Перформанс-концерт «Псы»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:kzn-mon-15172@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART:20261118T160000Z
 DTEND:20261118T180000Z
 SUMMARY:«15 172». Пластический спектакль
@@ -265,32 +258,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ksenia-malikova-s-performance-the-finale-won-t-be-beautiful-moscow@af
- isha-art
-DTSTAMP:20261114T203651Z
-DTSTART:20261114T110000Z
-DTEND:20261114T130000Z
-SUMMARY:Перформанс Ксении Маликовой «Финал
-  не будет красивым»
-LOCATION:ЦТИ «Фабрика»\, Цех отделки\, Переве
- деновский пер.\, 18\, стр. 4\, Москва
-DESCRIPTION:Интерактивный перформанс-исслед
- ование телесности в рамках выставки вид
- еоарта «Пейзаж как предчувствие».\nКсен
- ия Маликова\nhttps://tsti-fabrika-events.timepad.ru/event/42868
- 74/
-URL:https://doublebasskakov.github.io/radar/#e=ksenia-malikova-s-performa
- nce-the-finale-won-t-be-beautiful-moscow
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Перформанс Ксении Маликовой «Фин
- ал не будет красивым»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:blue-times-performance-moscow@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART:20261122T170000Z
 DTEND:20261122T190000Z
 SUMMARY:Перформанс Blue Times
@@ -311,7 +280,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pop-dance-opera-how-the-bicycle-was-invented-moscow@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART:20261123T163000Z
 DTEND:20261123T183000Z
 SUMMARY:Поп-танц-опера «Как изобрели велоси
@@ -333,7 +302,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dance-performance-gloria-moscow@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART:20261116T170000Z
 DTEND:20261116T190000Z
 SUMMARY:Танцевальный перформанс «Глория»
@@ -355,7 +324,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:spb-soobshchestvo-spisok-papernoy@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART:20261129T170000Z
 DTEND:20261129T190000Z
 SUMMARY:«Список Паперной»
@@ -376,7 +345,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:choreographic-performance-refraction-moscow@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART:20261123T170000Z
 DTEND:20261123T190000Z
 SUMMARY:Хореографический спектакль «Прело
@@ -396,26 +365,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:performative-workout-yekaterinbur@afisha-art
-DTSTAMP:20261114T203651Z
-DTSTART:20261114T090000Z
-DTEND:20261114T110000Z
-SUMMARY:Перформативная тренировка
-LOCATION:Ельцин Центр\, Екатеринбург
-DESCRIPTION:Спортивная тренировка на сайклах
-  под специально подготовленную аудиодо
- рожку.\n\nhttps://t.me/yeltsincenter/10174
-URL:https://doublebasskakov.github.io/radar/#e=performative-workout-yekat
- erinbur
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Перформативная тренировка
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:kzn-mon-otstan-ot-sebya@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART:20261125T160000Z
 DTEND:20261125T180000Z
 SUMMARY:«Отстань от себя». Пластический спе
@@ -433,7 +384,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:all-sorts-of-dance-with-anton-vdovichenko-moscow@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART:20261113T174500Z
 DTEND:20261113T194500Z
 SUMMARY:Открытие: «Всякие разные танцы» с А
@@ -455,7 +406,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:stand-up-with-ernest-tarzumanyan-and-sergey-snurnikov-moscow@afisha-a
  rt
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART:20261115T160000Z
 DTEND:20261115T180000Z
 SUMMARY:Стендап с Эрнестом Таржуманяном и С
@@ -477,7 +428,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-birthday-children-s-gaming-adventures-moscow@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART:20261115T104000Z
 DTEND:20261115T124000Z
 SUMMARY:День рождения музея: детские игровы
@@ -498,7 +449,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dance-lessons-with-masha-sheshukova-moscow@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART:20261113T160000Z
 DTEND:20261113T180000Z
 SUMMARY:Открытие: «Уроки танцев» с Машей Ше
@@ -519,7 +470,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tech-classes-with-anya-kravchenko-moscow@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART:20261113T080000Z
 DTEND:20261113T100000Z
 SUMMARY:Открытие: «Тех. классы» с Аней Кравч
@@ -540,7 +491,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:poetry-evening-dmitry-plakhov-and-alexander-grabar-moscow@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART:20261117T163000Z
 DTEND:20261117T183000Z
 SUMMARY:Поэтический вечер Дмитрия Плахова 
@@ -562,7 +513,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:msk-electrotheatre-uzhin-v-pompeyakh@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART:20261120T160000Z
 DTEND:20261120T180000Z
 SUMMARY:«Ужин в ПомПеях». Премьера
@@ -581,8 +532,28 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:ballet-leap-to-freedom-krasnoyarsk@afisha-art
+DTSTAMP:20261115T115423Z
+DTSTART:20261129T120000Z
+DTEND:20261129T140000Z
+SUMMARY:Балет «Прыжок в свободу»
+LOCATION:Сибирский институт искусств им. Хв
+ оростовского\, Красноярск
+DESCRIPTION:Танцевальная постановка\, расска
+ зывающая о жизни и творческом пути выда
+ ющегося артиста балета.\nNone\nhttps://www.afisha.ru/
+ performance/pryzhok-v-svobodu-77132/
+URL:https://doublebasskakov.github.io/radar/#e=ballet-leap-to-freedom-kra
+ snoyarsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Балет «Прыжок в свободу»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:morning-exercise-with-alexander-gorchilin-moscow@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART:20261122T090000Z
 DTEND:20261122T110000Z
 SUMMARY:Утренняя зарядка с Александром Гор
@@ -604,7 +575,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:belaqua-or-soon-forty-moscow@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART:20261126T160000Z
 DTEND:20261126T180000Z
 SUMMARY:Belaqua\, или Cкоро Cорок
@@ -624,7 +595,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:msk-electrotheatre-belaqua@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART:20261126T160000Z
 DTEND:20261126T180000Z
 SUMMARY:«Belaqua\, или Скоро Сорок»
@@ -643,7 +614,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:inclusive-festival-art-in-sensations-main-program-saint-peters@afisha
  -art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Инклюзивный фестиваль «Искусство в
@@ -665,29 +636,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:i-am-the-signal-moscow@afisha-art
-DTSTAMP:20261114T203651Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-SUMMARY:Я — Сигнал
-LOCATION:Центр Вознесенского\, ул. Большая О
- рдынка\, 46\, стр. 3\, Москва
-DESCRIPTION:Вечер памяти Зои Богуславской с п
- редпремьерным показом перформанса по с
- тихам Андрея Вознесенского\, исследующе
- го человека в цифровую эпоху.\nЗоя Богус
- лавская\, Андрей Вознесенский\nhttps://t.me/danc
- ingalone/36984
-URL:https://doublebasskakov.github.io/radar/#e=i-am-the-signal-moscow
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Я — Сигнал
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:art-in-sensations-festival-open-event-st-petersbur@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Программа фестиваля «Искусство в о
@@ -711,7 +661,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fabula-anemoia@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:Анемойя
@@ -732,7 +682,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:international-youth-festival-of-asian-culture-moscow@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Международный молодежный Фестивал
@@ -757,7 +707,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tanya-gordeeva-s-laboratory-moscow@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261116
 SUMMARY:Лаборатория Тани Гордеевой
@@ -776,29 +726,30 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:performance-concert-dogs-saint-peters@afisha-art
-DTSTAMP:20261114T203651Z
-DTSTART;VALUE=DATE:20261212
-DTEND;VALUE=DATE:20261214
-SUMMARY:Перформанс-концерт «Псы»
-LOCATION:Новая сцена Александринского теат
- ра\, Санкт-Петербург
-DESCRIPTION:Энергичный перформанс-концерт пя
- ти танцовщиц и группы Pómmo с отсылками к 
- кино и культовым музыкальным проектам.\n
- Маша Шешукова\, группа Pómmo\nhttps://t.me/sdvigspace/
- 6922
-URL:https://doublebasskakov.github.io/radar/#e=performance-concert-dogs-s
- aint-peters
+UID:immersive-tour-playing-theater-samara@afisha-art
+DTSTAMP:20261115T115423Z
+DTSTART;VALUE=DATE:20261221
+DTEND;VALUE=DATE:20261222
+SUMMARY:Иммерсивная экскурсия «Игра в теат
+ р»
+LOCATION:Самарский театр драмы им. Горького\
+ , пл. Чапаева\, 1\, Самара
+DESCRIPTION:Театрализованное закулисное пут
+ ешествие\, стирающее грань между зрител
+ ем и актером.\n\nhttps://www.afisha.ru/samara/schedule_exhibiti
+ on/
+URL:https://doublebasskakov.github.io/radar/#e=immersive-tour-playing-the
+ ater-samara
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Перформанс-концерт «Псы»
+DESCRIPTION:Иммерсивная экскурсия «Игра в те
+ атр»
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:spb-kurekhin-istorii-bez-slov@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261129
 SUMMARY:«Истории без слов. Шесть премьер»
@@ -812,6 +763,26 @@ URL:https://doublebasskakov.github.io/radar/#e=spb-kurekhin-istorii-bez-s
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:«Истории без слов. Шесть премьер»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:criminal-ryazan-true-crime-promenade-kazan@afisha-art
+DTSTAMP:20261115T115423Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:Криминальная Рязань - трукрайм пром
+ енад
+LOCATION:Тайны Сююмбике\, Казань
+DESCRIPTION:Иммерсивная прогулка-спектакль в
+  жанре тру-крайм.\n\nhttps://www.afisha.ru/exhibition/krimin
+ alnaya-ryazan-trukraym-promenad-1011142/
+URL:https://doublebasskakov.github.io/radar/#e=criminal-ryazan-true-crime
+ -promenade-kazan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Криминальная Рязань - трукрайм пр
+ оменад
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

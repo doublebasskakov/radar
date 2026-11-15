@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:hannibaby-and-zarafa-2026-sharjah@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART:20261115T123000Z
 DTEND:20261115T143000Z
 SUMMARY:Hannibaby and Zarafa (2026)
@@ -28,7 +28,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:xxl-2026-sharjah@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART:20261129T163000Z
 DTEND:20261129T183000Z
 SUMMARY:XXL (2026)
@@ -47,10 +47,10 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:perform-sharjah-sharjah@afisha-art
-DTSTAMP:20261114T203651Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-SUMMARY:Открытие: Perform Sharjah
+DTSTAMP:20261115T115423Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Последний день: Perform Sharjah
 LOCATION:Sharjah Art Foundation\, Шарджа\, ОАЭ
 DESCRIPTION:Пятый сезон перформансов исследу
  ет телесность через призму движения\, па
@@ -61,13 +61,13 @@ DESCRIPTION:Пятый сезон перформансов исследу
 URL:https://doublebasskakov.github.io/radar/#e=perform-sharjah-sharjah
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Открытие: Perform Sharjah
+DESCRIPTION:Последний день: Perform Sharjah
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a-sea-for-borrowed-time-exhibition-sharjah@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:Открытие: Выставка «A Sea for Borrowed Time»
@@ -89,7 +89,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:longings-returns-2026-sharjah@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Longings\, Returns (2026)
@@ -109,7 +109,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sawt-al-sahel-sharjah@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Sawt Al Sahel
@@ -124,27 +124,6 @@ URL:https://doublebasskakov.github.io/radar/#e=sawt-al-sahel-sharjah
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Sawt Al Sahel
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:guided-tours-of-the-saf-archive-collection-building-sharjah@afisha-ar
- t
-DTSTAMP:20261114T203651Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-SUMMARY:Экскурсии по архиву и фондам SAF
-LOCATION:SAF Archive & Collection Building\, Шарджа\, ОАЭ
-DESCRIPTION:Посетители могут ознакомиться с 
- процессами хранения коллекции из более 
- чем 5 000 объектов\, эскизов и архивных док
- ументов.\nSharjah Art Foundation\nhttps://www.sharjahart.org/en/wh
- ats-on/details/guided-tours-of-the-saf-archive-collection-building
-URL:https://doublebasskakov.github.io/radar/#e=guided-tours-of-the-saf-ar
- chive-collection-building-sharjah
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Экскурсии по архиву и фондам SAF
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

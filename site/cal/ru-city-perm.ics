@@ -9,7 +9,7 @@ X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:concert-performance-of-the-opera-andrea-che-nier-lecture-by--perm@afi
  sha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART:20261122T120000Z
 DTEND:20261122T140000Z
 SUMMARY:Концертное исполнение оперы «Андре
@@ -32,7 +32,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:concert-performance-of-the-opera-andrea-che-nier-creative-me-perm@afi
  sha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART:20261121T110000Z
 DTEND:20261121T130000Z
 SUMMARY:Концертное исполнение оперы «Андре
@@ -56,7 +56,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-in-the-forests-perm@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Последний день: Выставка «В лесах»
@@ -78,7 +78,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:perm-drugie-krugi-barskaya-nechernyy-kvadrat@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Последний день: Анна Барская. «Нечё
@@ -101,7 +101,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:new-year-red-market-perm@afisha-art
-DTSTAMP:20261114T203651Z
+DTSTAMP:20261115T115423Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261221
 SUMMARY:Новогодний RED MARKET
@@ -114,6 +114,29 @@ URL:https://doublebasskakov.github.io/radar/#e=new-year-red-market-perm
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Новогодний RED MARKET
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:art-lectorium-how-new-year-and-christmas-were-celebrated-perm@afisha-
+ art
+DTSTAMP:20261115T115423Z
+DTSTART;VALUE=DATE:20270106
+DTEND;VALUE=DATE:20270107
+SUMMARY:Арт-лекторий. Как встречали Новый г
+ од и Рождество
+LOCATION:Филармония «Триумф»\, ул. Ленина\, 44\
+ , Пермь
+DESCRIPTION:Культурологическая лекция об ист
+ ории и традициях зимних праздников в ис
+ кусстве и быту.\nОльга Вознесенская\nhttps:/
+ /www.afisha.ru/prm/schedule_exhibition/
+URL:https://doublebasskakov.github.io/radar/#e=art-lectorium-how-new-year
+ -and-christmas-were-celebrated-perm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Арт-лекторий. Как встречали Новый
+  год и Рождество
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

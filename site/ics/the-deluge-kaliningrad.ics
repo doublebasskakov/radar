@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:the-deluge-kaliningrad@afisha-art
+DTSTAMP:20261115T115423Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Открытие: Потоп
+LOCATION:Культурный квартал «Понарт»\, ул. С
+ удостроительная\, 75\, Калининград
+DESCRIPTION:Художественная инсталляция\, раз
+ мещенная в историческом пространстве б
+ ывшего пивоваренного завода.\n\nhttps://www.afis
+ ha.ru/exhibition/potop-1011166/
+URL:https://doublebasskakov.github.io/radar/#e=the-deluge-kaliningrad
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Потоп
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

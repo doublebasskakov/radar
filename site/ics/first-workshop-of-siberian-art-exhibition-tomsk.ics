@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:first-workshop-of-siberian-art-exhibition-tomsk@afisha-art
+DTSTAMP:20261115T115423Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Открытие: Выставка Первой мастерск
+ ой Сибирского искусства
+LOCATION:Томский центр современной культур
+ ы\, Томск
+DESCRIPTION:Экспозиция работ участников Перв
+ ой мастерской\, представляющая актуальн
+ ые направления в современном сибирском 
+ искусстве.\nПервая мастерская Сибирског
+ о искусства\nhttps://www.afisha.ru/exhibition/vystavka-perviy-m
+ asterskiy-sibirskogo-iskusstva-1014923/
+URL:https://doublebasskakov.github.io/radar/#e=first-workshop-of-siberian
+ -art-exhibition-tomsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка Первой мастер
+ ской Сибирского искусства
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

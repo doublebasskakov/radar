@@ -5,10 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:maf-main-exposition-st-petersbur@afisha-art
-DTSTAMP:20261114T203651Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-SUMMARY:Открытие: МАФ. Основная экспозиция
+DTSTAMP:20261115T115423Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:Последний день: МАФ. Основная экспо
+ зиция
 LOCATION:Музей МАФ\, Санкт-Петербург
 DESCRIPTION:Постоянная выставка инсталляций 
  в музее малых архитектурных форм.\n\nhttps://
@@ -17,8 +18,8 @@ URL:https://doublebasskakov.github.io/radar/#e=maf-main-exposition-st-pet
  ersbur
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Открытие: МАФ. Основная экспозици
- я
+DESCRIPTION:Последний день: МАФ. Основная экс
+ позиция
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

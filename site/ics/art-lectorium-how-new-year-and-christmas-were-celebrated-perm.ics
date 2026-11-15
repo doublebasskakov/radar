@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:art-lectorium-how-new-year-and-christmas-were-celebrated-perm@afisha-
+ art
+DTSTAMP:20261115T115423Z
+DTSTART;VALUE=DATE:20270106
+DTEND;VALUE=DATE:20270107
+SUMMARY:Арт-лекторий. Как встречали Новый г
+ од и Рождество
+LOCATION:Филармония «Триумф»\, ул. Ленина\, 44\
+ , Пермь
+DESCRIPTION:Культурологическая лекция об ист
+ ории и традициях зимних праздников в ис
+ кусстве и быту.\nОльга Вознесенская\nhttps:/
+ /www.afisha.ru/prm/schedule_exhibition/
+URL:https://doublebasskakov.github.io/radar/#e=art-lectorium-how-new-year
+ -and-christmas-were-celebrated-perm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Арт-лекторий. Как встречали Новый
+  год и Рождество
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

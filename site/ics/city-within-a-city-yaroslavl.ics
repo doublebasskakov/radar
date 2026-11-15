@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:city-within-a-city-yaroslavl@afisha-art
+DTSTAMP:20261115T115423Z
+DTSTART:20261115T090000Z
+DTEND:20261115T110000Z
+SUMMARY:Город в городе
+LOCATION:Текстиль\, Ярославль\, ул. Семашко\, 8
+ \, Ярославль
+DESCRIPTION:Экскурсия-прогулка по фабричному
+  району\, посвященная исследованию и сох
+ ранению индустриального наследия Яросл
+ авля.\n\nhttps://txtl.space/events/gorod-v-gorode
+URL:https://doublebasskakov.github.io/radar/#e=city-within-a-city-yarosla
+ vl
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Город в городе
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

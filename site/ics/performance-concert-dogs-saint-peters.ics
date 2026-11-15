@@ -5,9 +5,9 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:performance-concert-dogs-saint-peters@afisha-art
-DTSTAMP:20261114T203651Z
-DTSTART;VALUE=DATE:20261212
-DTEND;VALUE=DATE:20261214
+DTSTAMP:20261115T115423Z
+DTSTART:20261212T170000Z
+DTEND:20261212T190000Z
 SUMMARY:Перформанс-концерт «Псы»
 LOCATION:Новая сцена Александринского теат
  ра\, Санкт-Петербург
@@ -18,6 +18,27 @@ DESCRIPTION:Энергичный перформанс-концерт пя
  6922
 URL:https://doublebasskakov.github.io/radar/#e=performance-concert-dogs-s
  aint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Перформанс-концерт «Псы»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:performance-concert-dogs-saint-peters-1@afisha-art
+DTSTAMP:20261115T115423Z
+DTSTART:20261213T170000Z
+DTEND:20261213T190000Z
+SUMMARY:Перформанс-концерт «Псы»
+LOCATION:Новая сцена Александринского теат
+ ра\, Санкт-Петербург
+DESCRIPTION:Энергичный перформанс-концерт пя
+ ти танцовщиц и группы Pómmo с отсылками к 
+ кино и культовым музыкальным проектам.\n
+ Маша Шешукова\, группа Pómmo\nhttps://t.me/sdvigspace/
+ 6922
+URL:https://doublebasskakov.github.io/radar/#e=performance-concert-dogs-s
+ aint-peters-1
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Перформанс-концерт «Псы»

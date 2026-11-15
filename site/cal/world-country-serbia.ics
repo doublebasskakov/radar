@@ -1,0 +1,51 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Радар — Мир / World · country-serbia
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:exhibition-of-yugoslav-tourist-posters-hey-yu-belgrade@afisha-art
+DTSTAMP:20261115T115423Z
+DTSTART:20261115T170000Z
+DTEND:20261115T190000Z
+SUMMARY:Выставка югославских туристически
+ х плакатов «HEY YU»
+LOCATION:SENSE — S.SPACE\, Белград\, Сербия
+DESCRIPTION:Открытие выставки спасенных югос
+ лавских туристических плакатов.\nSENSE — S.
+ SPACE\nhttps://t.me/mapamagrus/17412
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-of-yugoslav-tou
+ rist-posters-hey-yu-belgrade
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выставка югославских туристичес
+ ких плакатов «HEY YU»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:katabasis-vr-film-by-ugo-arsac-belgrade@afisha-art
+DTSTAMP:20261115T115423Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Открытие: Katabasis: VR-фильм Уго Арсака
+LOCATION:Ложионица\, Белград\, Сербия
+DESCRIPTION:Интерактивный документальный VR-ф
+ ильм французского художника Уго Арсака\
+ , погружающий зрителей в подземный мир Н
+ ью-Йорка и исследующий скрытые городски
+ е пространства.\nУго Арсак\nhttps://t.me/mapamagrus/
+ 17414
+URL:https://doublebasskakov.github.io/radar/#e=katabasis-vr-film-by-ugo-a
+ rsac-belgrade
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Katabasis: VR-фильм Уго Арсак
+ а
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

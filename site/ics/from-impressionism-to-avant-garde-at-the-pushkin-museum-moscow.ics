@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:from-impressionism-to-avant-garde-at-the-pushkin-museum-moscow@afisha
+ -art
+DTSTAMP:20261115T115423Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:От импрессионизма до авангарда в Пу
+ шкинском музее
+LOCATION:Галерея искусства стран Европы и А
+ мерики XIX–XX веков\, Москва
+DESCRIPTION:Выставочный проект\, демонстриру
+ ющий эволюцию художественных стилей от 
+ импрессионистов до радикального аванга
+ рда.\n\nhttps://www.afisha.ru/msk/schedule_exhibition/
+URL:https://doublebasskakov.github.io/radar/#e=from-impressionism-to-avan
+ t-garde-at-the-pushkin-museum-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:От импрессионизма до авангарда в 
+ Пушкинском музее
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:paris-photo-fair-paris@afisha-art
+DTSTAMP:20261115T115423Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Ярмарка фотографии Paris Photo
+LOCATION:Paris Photo\, Париж
+DESCRIPTION:Заключительный день ключевой меж
+ дународной ярмарки фотоискусства\, прох
+ одящей в год 200-летия фотографии.\nParis Photo\
+ nhttps://t.me/Betoncvc/13935
+URL:https://doublebasskakov.github.io/radar/#e=paris-photo-fair-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ярмарка фотографии Paris Photo
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

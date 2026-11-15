@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ink-london-2@afisha-art
+DTSTAMP:20261115T115423Z
+DTSTART;VALUE=DATE:20270422
+DTEND;VALUE=DATE:20270423
+SUMMARY:Открытие: Тушь
+LOCATION:Tate Modern\, Лондон\, Великобритания
+DESCRIPTION:Выставка\, посвященная сложной и 
+ утонченной эстетике традиционной техни
+ ки работы с тушью.\n\nhttps://www.tate.org.uk/whats-on/tate
+ -modern/ink
+URL:https://doublebasskakov.github.io/radar/#e=ink-london-2
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Тушь
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:8-1-2-moscow@afisha-art
+DTSTAMP:20261115T115423Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Восемь с половиной
+LOCATION:Кинотеатры Москвы\, Москва
+DESCRIPTION:Классика мирового арт-хауса\, сюр
+ реалистическая драма о творческом поис
+ ке и природе кино.\nФедерико Феллини\nhttps:
+ //www.afisha.ru/movie/vosem-s-polovinoy-170720/
+URL:https://doublebasskakov.github.io/radar/#e=8-1-2-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Восемь с половиной
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

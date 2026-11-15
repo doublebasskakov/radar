@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:elena-pelevina-s-new-year-salon-yaroslavl@afisha-art
+DTSTAMP:20261115T115423Z
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+SUMMARY:Новогодний салон Елены Пелевиной
+LOCATION:Музей современного искусства\, Яро
+ славль
+DESCRIPTION:Интерактивная праздничная экспо
+ зиция в залах Музея современного искусс
+ тва\, объединяющая искусство и рождеств
+ енскую тематику.\nЕлена Пелевина\nhttps://www.
+ afisha.ru/exhibition/novogodniy-salon-eleny-peleviniy-1005859/
+URL:https://doublebasskakov.github.io/radar/#e=elena-pelevina-s-new-year-
+ salon-yaroslavl
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Новогодний салон Елены Пелевиной
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

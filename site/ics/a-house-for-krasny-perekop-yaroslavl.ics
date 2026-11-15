@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:a-house-for-krasny-perekop-yaroslavl@afisha-art
+DTSTAMP:20261115T115423Z
+DTSTART:20261129T120000Z
+DTEND:20261129T140000Z
+SUMMARY:Дом для Красного Перекопа
+LOCATION:Дом культуры «Красный Перекоп»\, Яр
+ ославль\, ул. Стачек\, 53\, Ярославль
+DESCRIPTION:Специальная экскурсия по зданию 
+ Дома культуры\, раскрывающая историю со
+ ветского быта и культурной политики на 
+ фабрике.\n\nhttps://txtl.space/events/dom-kultury
+URL:https://doublebasskakov.github.io/radar/#e=a-house-for-krasny-perekop
+ -yaroslavl
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Дом для Красного Перекопа
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -5,10 +5,10 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:internal-compass-moscow@afisha-art
-DTSTAMP:20261114T203651Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-SUMMARY:Открытие: Внутренний компас
+DTSTAMP:20261115T115423Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:Последний день: Внутренний компас
 LOCATION:Арт-платформа «Куб»\, ул. Тверская\, 
  7\, Москва
 DESCRIPTION:Интерактивная выставка\, использ
@@ -18,7 +18,8 @@ DESCRIPTION:Интерактивная выставка\, использ
 URL:https://doublebasskakov.github.io/radar/#e=internal-compass-moscow
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Открытие: Внутренний компас
+DESCRIPTION:Последний день: Внутренний компа
+ с
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

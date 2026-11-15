@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:immersive-tour-playing-theater-samara@afisha-art
+DTSTAMP:20261115T115423Z
+DTSTART;VALUE=DATE:20261221
+DTEND;VALUE=DATE:20261222
+SUMMARY:Иммерсивная экскурсия «Игра в теат
+ р»
+LOCATION:Самарский театр драмы им. Горького\
+ , пл. Чапаева\, 1\, Самара
+DESCRIPTION:Театрализованное закулисное пут
+ ешествие\, стирающее грань между зрител
+ ем и актером.\n\nhttps://www.afisha.ru/samara/schedule_exhibiti
+ on/
+URL:https://doublebasskakov.github.io/radar/#e=immersive-tour-playing-the
+ ater-samara
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Иммерсивная экскурсия «Игра в те
+ атр»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

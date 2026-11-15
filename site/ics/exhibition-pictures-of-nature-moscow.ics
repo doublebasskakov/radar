@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:exhibition-pictures-of-nature-moscow@afisha-art
+DTSTAMP:20261115T115423Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:Открытие: Выставка «Картины природ
+ ы»
+LOCATION:Мемориальная квартира А. С. Пушкина
+  на Арбате\, ул. Арбат\, 53\, Москва
+DESCRIPTION:Выставочный проект РОСФОТО о ста
+ новлении и развитии жанра пейзажной фот
+ ографии в России XIX–XX веков.\nВильям Кар
+ рик\, Андрей Карелин\, Максим Дмитриев и 
+ другие\nhttps://t.me/museumrosphoto/4342
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-pictures-of-nat
+ ure-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка «Картины прир
+ оды»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

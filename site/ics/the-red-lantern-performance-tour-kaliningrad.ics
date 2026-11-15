@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:the-red-lantern-performance-tour-kaliningrad@afisha-art
+DTSTAMP:20261115T115423Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261122
+SUMMARY:Гастроли спектакля «Красный фонарь
+ »
+LOCATION:Арт-пространство «Ворота»\, ул. Лит
+ овский вал\, 61\, Калининград
+DESCRIPTION:Показы спектакля в рамках гастро
+ льного тура в калининградском арт-прост
+ ранстве.\nNone\nhttps://vorotagallery.ru/events/gastroli-spektaklj
+ a-krasnyj-fonar-3/
+URL:https://doublebasskakov.github.io/radar/#e=the-red-lantern-performanc
+ e-tour-kaliningrad
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Гастроли спектакля «Красный фона
+ рь»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

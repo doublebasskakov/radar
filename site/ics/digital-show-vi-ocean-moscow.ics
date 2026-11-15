@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:digital-show-vi-ocean-moscow@afisha-art
+DTSTAMP:20261115T115423Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Открытие: Цифровое шоу «VI Океан»
+LOCATION:Арт-пространство Luminar\, Москва
+DESCRIPTION:Иммерсивный цифровой проект\, пог
+ ружающий зрителей в атмосферу подводно
+ го мира с помощью новых медиа.\n\nhttps://www.afi
+ sha.ru/msk/schedule_exhibition/
+URL:https://doublebasskakov.github.io/radar/#e=digital-show-vi-ocean-mosc
+ ow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Цифровое шоу «VI Океан»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

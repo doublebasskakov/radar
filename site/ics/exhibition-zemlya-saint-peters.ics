@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:exhibition-zemlya-saint-peters@afisha-art
+DTSTAMP:20261115T115423Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Открытие: Выставка «Земьля»
+LOCATION:Дом Бехтерева\, наб. Малой Невки\, 25\,
+  Санкт-Петербург
+DESCRIPTION:Небольшая выставка графики и кер
+ амических работ Аи Филинской в эстетике
+  ар-нуво\, посвященная единению человека
+  и природы.\nАя Филинская\nhttps://t.me/tripsoup/12438
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-zemlya-saint-pe
+ ters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка «Земьля»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR
