@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:science-slam-nizhny-novgo@afisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART:20261117T153000Z
 DTEND:20261117T173000Z
 SUMMARY:Научная битва Science Slam
@@ -28,7 +28,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:meditative-evening-at-planetarium-1-nizhny-novgo@afisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART:20261129T150000Z
 DTEND:20261129T170000Z
 SUMMARY:Медитативный вечер в Планетарии 1
@@ -46,49 +46,34 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:vrubel-brunch-nizhny-novgo@afisha-art
-DTSTAMP:20261115T163838Z
-DTSTART:20261115T080000Z
-DTEND:20261115T100000Z
-SUMMARY:Врубелевский бранч
-LOCATION:Теплое место\, ул. Горького\, 140\, Ниж
- ний Новгород
-DESCRIPTION:Культурный завтрак\, посвященный 
- творчеству Михаила Врубеля\, с обсужден
- ием живописи и цветами.\nКоманда FUTURO\nhttps:
- //t.me/futuro_gallery/2854
-URL:https://doublebasskakov.github.io/radar/#e=vrubel-brunch-nizhny-novgo
+UID:vladimir-gepalov-s-exhibition-reflection-of-the-soul-nizhny-novgo@afi
+ sha-art
+DTSTAMP:20261115T210725Z
+DTSTART:20261103T070000Z
+DTEND:20261103T090000Z
+SUMMARY:Открытие: Выставка Владимира Гепал
+ ова «Отражение души»
+LOCATION:Библиотека ЦДПИ\, арт-пространство 
+ «36 гвоздей»\, пр. Кирова\, 6\, Нижний Новго
+ род
+DESCRIPTION:Экспозиция сказочных и глубоких 
+ сюжетных картин Владимира Гепалова\, ис
+ следующих темы веры\, любви и борьбы доб
+ ра со злом.\nВладимир Гепалов\nhttps://t.me/NNafis
+ ha/13209
+URL:https://doublebasskakov.github.io/radar/#e=vladimir-gepalov-s-exhibit
+ ion-reflection-of-the-soul-nizhny-novgo
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Врубелевский бранч
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:the-translators-and-tattooin-split-concert-nizhny-novgo@afisha-art
-DTSTAMP:20261115T163838Z
-DTSTART:20261115T160000Z
-DTEND:20261115T180000Z
-SUMMARY:Сплит-концерт The Translators и TattooIN
-LOCATION:Алькатрас\, Почаинская ул.\, 17с\, Ниж
- ний Новгород
-DESCRIPTION:Совместный концерт рок-проекта Ч
- ака и Дмитрия Шуманского The Translators с ирон
- ичными переводами хитов и романтиков soft
- -rock сцены TattooIN.\nThe Translators\, TattooIN\nhttps://thetransl
- ators-nn.ticketscloud.org/
-URL:https://doublebasskakov.github.io/radar/#e=the-translators-and-tattoo
- in-split-concert-nizhny-novgo
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Сплит-концерт The Translators и TattooIN
+DESCRIPTION:Открытие: Выставка Владимира Геп
+ алова «Отражение души»
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wind-music-concert-evening-in-memory-of-yevgeny-rozhkov-nizhny-novgo@
  afisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART:20261123T143000Z
 DTEND:20261123T163000Z
 SUMMARY:Концерт духовой музыки: Вечер памят
@@ -112,7 +97,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:model-range-exhibition-nizhny-novgo@afisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Последний день: Выставка «Модельны
@@ -138,7 +123,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nn-9b-bomse-golos-za-kadrom@afisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Последний день: Эвсти Бомсе. «Голос 
@@ -164,7 +149,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-of-layouts-of-the-all-russian-exhibition-of-1896-nizhny-no
  vgo@afisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Последний день: Выставка макетов Вс
@@ -188,7 +173,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:konstantin-belousov-s-exhibition-people-and-birds-nizhny-novgo@afisha
  -art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Последний день: Выставка Константи
@@ -211,7 +196,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ekaterina-bim-s-exhibition-unity-nizhny-novgo@afisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Последний день: Выставка Екатерины 
@@ -233,7 +218,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:model-range-nizhny-novgo@afisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Последний день: Модельный ряд
@@ -254,10 +239,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-unity-nizhny-novgo@afisha-art
-DTSTAMP:20261115T163838Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:Открытие: Выставка «Единение»
+DTSTAMP:20261115T210725Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Последний день: Выставка «Единение
+ »
 LOCATION:Центр культуры «Рекорд»\, Нижний Но
  вгород
 DESCRIPTION:Экспозиция московской художницы 
@@ -268,13 +254,14 @@ URL:https://doublebasskakov.github.io/radar/#e=exhibition-unity-nizhny-no
  vgo
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Открытие: Выставка «Единение»
+DESCRIPTION:Последний день: Выставка «Единен
+ ие»
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:arsenal-leger@afisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
 SUMMARY:Последний день: Фернан Леже. Формул

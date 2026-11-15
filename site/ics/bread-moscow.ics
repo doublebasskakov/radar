@@ -5,10 +5,10 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:bread-moscow@afisha-art
-DTSTAMP:20261115T163838Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:Открытие: Хлеб
+DTSTAMP:20261115T210725Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Последний день: Хлеб
 LOCATION:Центр «Зотов»\, Москва
 DESCRIPTION:Масштабная выставка в пространст
  ве бывшего хлебозавода\, исследующая об
@@ -17,7 +17,7 @@ DESCRIPTION:Масштабная выставка в пространст
 URL:https://doublebasskakov.github.io/radar/#e=bread-moscow
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Открытие: Хлеб
+DESCRIPTION:Последний день: Хлеб
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

@@ -1,0 +1,68 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Радар — Россия · city-irkutsk
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:author-s-tour-by-sayana-khomonova-irkutsk@afisha-art
+DTSTAMP:20261115T210725Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Авторская экскурсия Саяны Хомоново
+ й
+LOCATION:Галерея Виктора Бронштейна\, ул. Ок
+ тябрьской Революции\, д. 3\, Иркутск
+DESCRIPTION:Встреча и авторская экскурсия с х
+ удожницей Саяной Хомоновой в рамках ее 
+ персональной выставки «Чай с молоком».\n
+ Саяна Хомонова\nhttps://www.vbgallery.ru/index/afisha/vstrec
+ ha-s-sayanoi/
+URL:https://doublebasskakov.github.io/radar/#e=author-s-tour-by-sayana-kh
+ omonova-irkutsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Авторская экскурсия Саяны Хомоно
+ вой
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:tea-with-milk-irkutsk@afisha-art
+DTSTAMP:20261115T210725Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Открытие: «Чай с молоком»
+LOCATION:Галерея Виктора Бронштейна\, ул. Ок
+ тябрьской Революции\, д. 3\, Иркутск
+DESCRIPTION:Персональная выставка работ Саян
+ ы Хомоновой.\nСаяна Хомонова\nhttps://www.vbgaller
+ y.ru/index/afisha/chai-s-molokom/
+URL:https://doublebasskakov.github.io/radar/#e=tea-with-milk-irkutsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: «Чай с молоком»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:behind-the-scenes-irkutsk@afisha-art
+DTSTAMP:20261115T210725Z
+DTSTART;VALUE=DATE:20270418
+DTEND;VALUE=DATE:20270419
+SUMMARY:Последний день: «За кулисами»
+LOCATION:Галерея Виктора Бронштейна\, ул. Ок
+ тябрьской Революции\, д. 3\, Иркутск
+DESCRIPTION:Персональная выставка художника 
+ Льва Гимова.\nЛев Гимов\nhttps://www.vbgallery.ru/index
+ /afisha/za-kulisami/
+URL:https://doublebasskakov.github.io/radar/#e=behind-the-scenes-irkutsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: «За кулисами»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

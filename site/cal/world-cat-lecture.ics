@@ -9,7 +9,7 @@ X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:disruption-network-lab-conference-the-kill-cloud-ai-migratio-berlin@a
  fisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART:20261127T153000Z
 DTEND:20261127T173000Z
 SUMMARY:Конференция Disruption Network Lab: The Kill Cloud\, A
@@ -32,7 +32,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ctrl-sound-neural-audio-workshop-paris@afisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART:20261204T073000Z
 DTEND:20261204T093000Z
 SUMMARY:CTRL+Sound: Нейроаудио-воркшоп по декоди
@@ -54,7 +54,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:treffen-junger-autor-innen-2026-berlin@afisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART:20261126T180000Z
 DTEND:20261126T200000Z
 SUMMARY:Treffen junger Autor*innen 2026
@@ -75,7 +75,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ircam-forum-workshops-2027@afisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART:20270324T090000Z
 DTEND:20270324T110000Z
 SUMMARY:IRCAM Forum Workshops 2027
@@ -93,8 +93,32 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:meeting-with-stan-douglas-george-e-lewis-and-alexandre-pierr-paris@af
+ isha-art
+DTSTAMP:20261115T210725Z
+DTSTART:20270109T163000Z
+DTEND:20270109T183000Z
+SUMMARY:Встреча со Стэном Дугласом\, Джордж
+ ем Э. Льюисом и Александром Пьерпоном
+LOCATION:Jeu de Paume\, 1 Place de la Concorde\, 75008 Paris\, Париж
+ \, Франция
+DESCRIPTION:Публичная дискуссия с участием х
+ удожника Стэна Дугласа и исследователе
+ й культуры в Jeu de Paume.\nStan Douglas\, George E. Lewis\, Al
+ exandre Pierrepont\nhttps://jeudepaume.org/en/evenement/with-stan-douglas
+ -2/
+URL:https://doublebasskakov.github.io/radar/#e=meeting-with-stan-douglas-
+ george-e-lewis-and-alexandre-pierr-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Встреча со Стэном Дугласом\, Джор
+ джем Э. Льюисом и Александром Пьерпоном
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:ircam-radigue-ecoute@afisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART:20261118T180000Z
 DTEND:20261118T200000Z
 SUMMARY:Les états de l'écoute: Элиана Радиг
@@ -114,7 +138,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:book-club-discussion-of-center-of-gravity-with-vladimir-kuzn-tbilisi@
  afisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART:20261203T153000Z
 DTEND:20261203T173000Z
 SUMMARY:Книжный клуб: обсуждение романа «Це
@@ -142,7 +166,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:lecture-multifaceted-tbilisi-city-at-the-crossroads-of-cultu-tbilisi@
  afisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART:20261117T160000Z
 DTEND:20261117T180000Z
 SUMMARY:Лекция «Многоликий Тбилиси: город н
@@ -165,7 +189,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lecture-history-of-comics-tbilisi@afisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART:20261118T160000Z
 DTEND:20261118T180000Z
 SUMMARY:Лекция «История комиксов: от наскал
@@ -189,7 +213,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:book-presentation-by-tatiana-montik-tbilisi@afisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART:20261119T160000Z
 DTEND:20261119T180000Z
 SUMMARY:Презентация книги Татьяны Монтик «
@@ -212,8 +236,54 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:konstantin-blyuz-lecture-on-israel-s-energy-strategy-tbilisi@afisha-a
+ rt
+DTSTAMP:20261115T210725Z
+DTSTART:20261120T160000Z
+DTEND:20261120T180000Z
+SUMMARY:Лекция Константина Блюза об энерге
+ тической стратегии Израиля
+LOCATION:Бар Papers\, ул. Верико Анджапаридзе\, 1\
+ , Тбилиси\, Грузия
+DESCRIPTION:Бывший заместитель директора Упр
+ авления природного газа Израиля расска
+ жет о том\, как газовые открытия изменил
+ и политику и дипломатию Ближнего Восток
+ а.\nКонстантин Блюз\nhttps://t.me/paperkartuli/30202
+URL:https://doublebasskakov.github.io/radar/#e=konstantin-blyuz-lecture-o
+ n-israel-s-energy-strategy-tbilisi
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекция Константина Блюза об энер
+ гетической стратегии Израиля
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:christmas-art-breakfast-the-faberge-legend-london@afisha-art
+DTSTAMP:20261115T210725Z
+DTSTART:20261206T103000Z
+DTEND:20261206T123000Z
+SUMMARY:Рождественский ART-завтрак «Легенда 
+ Фаберже»
+LOCATION:Лондон\, Лондон\, Великобритания
+DESCRIPTION:Праздничная лекция арт-эксперта 
+ Маргариты Багровой к 180-летию со дня рож
+ дения Карла Фаберже\, посвященная истор
+ ии его шедевров и ювелирного наследия.\n
+ Маргарита Багрова\nhttps://t.me/afishalondon/11251
+URL:https://doublebasskakov.github.io/radar/#e=christmas-art-breakfast-th
+ e-faberge-legend-london
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Рождественский ART-завтрак «Леген
+ да Фаберже»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:scientific-excursion-to-dmanisi-and-bolnisi-tbilisi@afisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART:20261121T050000Z
 DTEND:20261121T070000Z
 SUMMARY:Научная экскурсия в Дманиси и Болни
@@ -239,7 +309,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:siddha-tradition-meditation-workshop-four-immeasurable-state-tashkent
  @afisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART:20261119T090000Z
 DTEND:20261119T110000Z
 SUMMARY:Практикум по медитациям и методам в
@@ -265,7 +335,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:anna-vilenskaya-lecture-future-music-fears-that-have-already-berlin@a
  fisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART:20261123T173000Z
 DTEND:20261123T193000Z
 SUMMARY:Лекция Анны Вилленской «Музыка буд
@@ -290,7 +360,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:time-presentation-of-vasily-chernyshev-s-debut-novella-tbilisi@afisha
  -art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART:20261120T160000Z
 DTEND:20261120T180000Z
 SUMMARY:«Тайме» — презентация дебютной пов
@@ -313,7 +383,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:lecture-on-censorship-in-russian-streaming-series-by-mika-go-berlin@a
  fisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART:20261122T160000Z
 DTEND:20261122T180000Z
 SUMMARY:Лекция Мики Голубовского о цензуре 
@@ -335,531 +405,9 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:lecture-on-georgian-literature-tbilisi@afisha-art
-DTSTAMP:20261115T163838Z
-DTSTART:20261119T160000Z
-DTEND:20261119T180000Z
-SUMMARY:Лекция «История грузинской литерат
- уры»
-LOCATION:бар Papers\, ул. Верико Анджапаридзе\, 1\
- , Тбилиси\, Грузия
-DESCRIPTION:Лекция экскурсовода Виталия Киби
- тлевского об истории грузинской литера
- туры\, знаковых авторах и литературных в
- заимосвязях.\nВиталий Кибитлевский\nhttps:/
- /t.me/paperkartuli/30154
-URL:https://doublebasskakov.github.io/radar/#e=lecture-on-georgian-litera
- ture-tbilisi
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Лекция «История грузинской литер
- атуры»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:siddha-tradition-meditation-workshop-mindfulness-practices-tashkent@a
- fisha-art
-DTSTAMP:20261115T163838Z
-DTSTART:20261121T090000Z
-DTEND:20261121T110000Z
-SUMMARY:Практикум по медитациям в традиции 
- сиддхов: Практики полноты внимательнос
- ти
-LOCATION:Пространство «Артха»\, ул. 1-й проез
- д Микуми\, 8А\, Ташкент\, Узбекистан
-DESCRIPTION:Сессия практикума\, исследующая у
- держание осознанности\, развитие внутре
- ннего наблюдателя и инструменты работы 
- с эмоциями.\nГоракханатх\nhttps://t.me/artha_uz/12554
-URL:https://doublebasskakov.github.io/radar/#e=siddha-tradition-meditatio
- n-workshop-mindfulness-practices-tashkent
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Практикум по медитациям в традиц
- ии сиддхов: Практики полноты внимательн
- ости
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:georgian-trace-in-fashion-and-art-tbilisi@afisha-art
-DTSTAMP:20261115T163838Z
-DTSTART:20261125T160000Z
-DTEND:20261125T180000Z
-SUMMARY:Грузинский след в моде и искусстве
-LOCATION:Театр Грибоедова (малая сцена)\, Тби
- лиси\, Грузия
-DESCRIPTION:Авторская лекция о влиянии Грузи
- и на моду и искусство\, дополненная новы
- ми историями и элементами перформанса.\n
- Нино\nhttps://t.me/nateli_tbilisi/11838
-URL:https://doublebasskakov.github.io/radar/#e=georgian-trace-in-fashion-
- and-art-tbilisi
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Грузинский след в моде и искусств
- е
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:respekt-festival-2026-hamburg@afisha-art
-DTSTAMP:20261115T163838Z
-DTSTART:20261113T150000Z
-DTEND:20261113T170000Z
-SUMMARY:Respekt* Festival 2026
-LOCATION:Fabrique\, Гамбург\, Германия
-DESCRIPTION:Фестиваль политического образов
- ания\, искусства и музыки\, объединяющий 
- перформансы\, дискуссии и мастер-классы.
- \nAGfJ\, Finna\, Zima\, Marione Ingram\, Arne Semsrott\, Wolfgang Schmidt
- \nhttps://agfj-hamburg.de/respekt-2026/
-URL:https://doublebasskakov.github.io/radar/#e=respekt-festival-2026-hamb
- urg
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Respekt* Festival 2026
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:meet-read-reading-club-with-ekaterina-schulmann-berlin@afisha-art
-DTSTAMP:20261115T163838Z
-DTSTART:20261115T100000Z
-DTEND:20261115T120000Z
-SUMMARY:MEET & READ. Читательские встречи с Екат
- ериной Шульман
-LOCATION:Clärchens Ballhaus (Spiegelsaal)\, Берлин\, Герман
- ия
-DESCRIPTION:Очередная встреча книжного клуба
-  в историческом зеркальном зале под мод
- ераторством Екатерины Шульман.\nЕкатери
- на Шульман\nhttps://t.me/genau/2974
-URL:https://doublebasskakov.github.io/radar/#e=meet-read-reading-club-wit
- h-ekaterina-schulmann-berlin
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:MEET & READ. Читательские встречи с Ек
- атериной Шульман
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:siddha-tradition-meditation-workshop-tashkent@afisha-art
-DTSTAMP:20261115T163838Z
-DTSTART:20261117T090000Z
-DTEND:20261117T110000Z
-SUMMARY:Практикум по медитациям в традиции 
- сиддхов
-LOCATION:Пространство «Артха»\, ул. 1-й проез
- д Микуми\, 8А\, Ташкент\, Узбекистан
-DESCRIPTION:Занятие в рамках цикла практик по
-  методам традиции сиддхов с разбором те
- хник медитации.\nГоракханатх\nhttps://t.me/artha_
- uz/12554
-URL:https://doublebasskakov.github.io/radar/#e=siddha-tradition-meditatio
- n-workshop-tashkent
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Практикум по медитациям в традиц
- ии сиддхов
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:webinar-how-to-relocate-and-legalize-in-germany-for-citizens-online@a
- fisha-art
-DTSTAMP:20261115T163838Z
-DTSTART:20261125T140000Z
-DTEND:20261125T160000Z
-SUMMARY:Вебинар: Как переехать и легализова
- ться в Германии гражданам РФ и РБ?
-LOCATION:Онлайн\, Онлайн\, Онлайн
-DESCRIPTION:Экспертный вебинар по миграционн
- ым вопросам\, посвященный визам\, картам 
- шансов\, рабочей и бизнес-иммиграции в Г
- ерманию.\nАлексей Козлов\nhttps://t.me/reforumspacebe
- rlin/2147
-URL:https://doublebasskakov.github.io/radar/#e=webinar-how-to-relocate-an
- d-legalize-in-germany-for-citizens-online
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Вебинар: Как переехать и легализо
- ваться в Германии гражданам РФ и РБ?
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:meeting-with-stan-douglas-george-e-lewis-and-alexandre-pierr-paris@af
- isha-art
-DTSTAMP:20261115T163838Z
-DTSTART:20270109T163000Z
-DTEND:20270109T183000Z
-SUMMARY:Встреча со Стэном Дугласом\, Джордж
- ем Э. Льюисом и Александром Пьерпоном
-LOCATION:Jeu de Paume\, 1 Place de la Concorde\, 75008 Paris\, Париж
- \, Франция
-DESCRIPTION:Публичная дискуссия с участием х
- удожника Стэна Дугласа и исследователе
- й культуры в Jeu de Paume.\nStan Douglas\, George E. Lewis\, Al
- exandre Pierrepont\nhttps://jeudepaume.org/en/evenement/with-stan-douglas
- -2/
-URL:https://doublebasskakov.github.io/radar/#e=meeting-with-stan-douglas-
- george-e-lewis-and-alexandre-pierr-paris
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Встреча со Стэном Дугласом\, Джор
- джем Э. Льюисом и Александром Пьерпоном
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:meeting-john-cage-and-merce-cunningham-paris@afisha-art
-DTSTAMP:20261115T163838Z
-DTSTART:20270204T180000Z
-DTEND:20270204T200000Z
-SUMMARY:Встреча «Le pari de l’œuvre de John Cage et Merce Cunn
- ingham»
-LOCATION:Ircam\, salle Stravinsky\, 1 Place Stravinsky\, 75004 Paris\, П
- ариж\, Франция
-DESCRIPTION:Дискуссия и лекция о творческом с
- оюзе композитора Джона Кейджа и хореогр
- афа Мерса Каннингема.\nBrigitte Lefêvre\, Claudine Sim
- on\nhttps://www.ircam.fr/agenda
-URL:https://doublebasskakov.github.io/radar/#e=meeting-john-cage-and-merc
- e-cunningham-paris
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Встреча «Le pari de l’œuvre de John Cage et Merce 
- Cunningham»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:lecolap-workshop-with-ariane-mnouchkine-paris@afisha-art
-DTSTAMP:20261115T163838Z
-DTSTART:20270316T173000Z
-DTEND:20270316T193000Z
-SUMMARY:Семинар LecOlap с Арианой Мнушкин
-LOCATION:Ircam\, salle Stravinsky\, 1 Place Stravinsky\, 75004 Paris\, П
- ариж\, Франция
-DESCRIPTION:Встреча с выдающимся режиссером 
- театра Арианой Мнушкин в рамках цикла а
- нтропологии политики.\nAgnès Callu\, Ariane Mnouchkin
- e\nhttps://www.ircam.fr/agenda
-URL:https://doublebasskakov.github.io/radar/#e=lecolap-workshop-with-aria
- ne-mnouchkine-paris
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Семинар LecOlap с Арианой Мнушкин
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:saturday-talks-kit-gurnos-on-amar-kanwar-london@afisha-art
-DTSTAMP:20261115T163838Z
-DTSTART:20270116T123000Z
-DTEND:20270116T143000Z
-SUMMARY:Субботняя экскурсия: Кит Гурнос об 
- Амаре Канваре
-LOCATION:Serpentine North Gallery\, Лондон\, Великобрита
- ния
-DESCRIPTION:Ассистент куратора выставки Кит 
- Гурнос проводит знакомство с творчеств
- ом индийского художника и режиссера Ама
- ра Канвара.\nKit Gurnos\nhttps://www.serpentinegalleries.org/wha
- ts-on/saturday-talks-kit-gurnos-on-amar-kanwar/
-URL:https://doublebasskakov.github.io/radar/#e=saturday-talks-kit-gurnos-
- on-amar-kanwar-london
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Субботняя экскурсия: Кит Гурнос о
- б Амаре Канваре
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:literary-translation-workshop-by-hafiza-qo-chqorova-tashkent@afisha-a
- rt
-DTSTAMP:20261115T163838Z
-DTSTART:20261116T100000Z
-DTEND:20261116T120000Z
-SUMMARY:Мастер-класс по литературному пере
- воду Хафизы Кучкаровой
-LOCATION:Узбекский государственный универс
- итет мировых языков / Университет узбек
- ского языка и литературы\, Талшкент\, Таш
- кент\, Узбекистан
-DESCRIPTION:Семинар о передаче культурных и с
- тилистических особенностей в художеств
- енном переводе с практическим разбором 
- примеров.\nХафиза Кучкарова\nhttps://t.me/goethein
- stituttaschkent/6808
-URL:https://doublebasskakov.github.io/radar/#e=literary-translation-works
- hop-by-hafiza-qo-chqorova-tashkent
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Мастер-класс по литературному пе
- реводу Хафизы Кучкаровой
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sound-music-health-day-diversity-of-auditory-perception-paris@afisha-
- art
-DTSTAMP:20261115T163838Z
-DTSTART:20261201T083000Z
-DTEND:20261201T103000Z
-SUMMARY:День «Звук\, Музыка и Здоровье»: Раз
- нообразие слухового восприятия
-LOCATION:Ircam\, salle Stravinsky\, 1 Place Stravinsky\, 75004 Paris\, П
- ариж\, Франция
-DESCRIPTION:Ежегодная конференция института 
- IRCAM\, посвященная медицинской и психоаку
- стической тематике восприятия звука.\nIRC
- AM\nhttps://www.ircam.fr/agenda
-URL:https://doublebasskakov.github.io/radar/#e=sound-music-health-day-div
- ersity-of-auditory-perception-paris
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:День «Звук\, Музыка и Здоровье»: Р
- азнообразие слухового восприятия
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:gdr-iasis-study-day-on-auditory-perception-and-cognition-paris@afisha
- -art
-DTSTAMP:20261115T163838Z
-DTSTART:20261119T083000Z
-DTEND:20261119T103000Z
-SUMMARY:День исследования GdR IASIS по восприят
- ию и когнитивным особенностям слуха
-LOCATION:Ircam\, salle Stravinsky\, 1 Place Stravinsky\, 75004 Paris\, П
- ариж\, Франция
-DESCRIPTION:Научная встреча и исследования в 
- области восприятия звука и слуховой ког
- нитивистики в институте IRCAM.\nGdR IASIS\, IRCAM\nh
- ttps://www.ircam.fr/fr/events/gdr-iasis
-URL:https://doublebasskakov.github.io/radar/#e=gdr-iasis-study-day-on-aud
- itory-perception-and-cognition-paris
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:День исследования GdR IASIS по воспри
- ятию и когнитивным особенностям слуха
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:lecolap-workshop-with-bartabas-paris@afisha-art
-DTSTAMP:20261115T163838Z
-DTSTART:20270202T173000Z
-DTEND:20270202T193000Z
-SUMMARY:Семинар LecOlap с Бартабасом
-LOCATION:Ircam\, salle Stravinsky\, 1 Place Stravinsky\, 75004 Paris\, П
- ариж\, Франция
-DESCRIPTION:Семинар по альтернативным художе
- ственным практикам современного театра
-  с участием режиссера Бартабаса.\nAgnès Callu
- \, Bartabas\nhttps://www.ircam.fr/agenda
-URL:https://doublebasskakov.github.io/radar/#e=lecolap-workshop-with-bart
- abas-paris
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Семинар LecOlap с Бартабасом
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:interlab-day-2026-paris@afisha-art
-DTSTAMP:20261115T163838Z
-DTSTART:20261120T090000Z
-DTEND:20261120T110000Z
-SUMMARY:Междисциплинарный день Interlab 2026
-LOCATION:Ircam\, salle Stravinsky\, 1 Place Stravinsky\, 75004 Paris\, П
- ариж\, Франция
-DESCRIPTION:Исследовательский день\, посвяще
- нный вопросам равенства\, инклюзии и инд
- и-подходов в искусстве и науке.\nIRCAM\nhttps://
- www.ircam.fr/agenda
-URL:https://doublebasskakov.github.io/radar/#e=interlab-day-2026-paris
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Междисциплинарный день Interlab 2026
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:pepr-ensemble-research-day-paris@afisha-art
-DTSTAMP:20261115T163838Z
-DTSTART:20261211T090000Z
-DTEND:20261211T110000Z
-SUMMARY:Научная встреча PEPR eNSEMBLE по устойчив
- ой компьютерной инженерии
-LOCATION:Ircam\, salle Stravinsky\, 1 Place Stravinsky\, 75004 Paris\, П
- ариж\, Франция
-DESCRIPTION:День исследований критических по
- дходов к взаимодействию человека с комп
- ьютером и цифровым искусством.\nIRCAM\nhttps://
- www.ircam.fr/agenda
-URL:https://doublebasskakov.github.io/radar/#e=pepr-ensemble-research-day
- -paris
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Научная встреча PEPR eNSEMBLE по устойч
- ивой компьютерной инженерии
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:artist-talk-with-juha-van-ingen-karlsruhe@afisha-art
-DTSTAMP:20261115T163838Z
-DTSTART:20261120T170000Z
-DTEND:20261120T190000Z
-SUMMARY:Артист-ток с Юхой ван Ингеном
-LOCATION:ZKM | Center for Art and Media\, Lorenzstraße 19\, 76135 Karlsr
- uhe\, Карлсруэ\, Германия
-DESCRIPTION:Публичная встреча и беседы с меди
- ахудожником Юхой ван Ингеном в Media Lounge ц
- ентра ZKM.\nЮха ван Инген\nhttps://zkm.de/en/2026/11/arti
- st-talk-juha-van-ingen
-URL:https://doublebasskakov.github.io/radar/#e=artist-talk-with-juha-van-
- ingen-karlsruhe
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Артист-ток с Юхой ван Ингеном
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:meeting-mouna-ouafik-and-shaeirat-platform-paris@afisha-art
-DTSTAMP:20261115T163838Z
-DTSTART:20261217T180000Z
-DTEND:20261217T200000Z
-SUMMARY:Встреча «Le pari de l’œuvre de Mouna Ouafik et la plat
- eforme Shaeirat»
-LOCATION:Ircam\, salle Stravinsky\, 1 Place Stravinsky\, 75004 Paris\, П
- ариж\, Франция
-DESCRIPTION:Перформативно-поэтическая встре
- чa с перформером Муной Уафик в рамках ци
- кла институции.\nMouna Ouafik\, Henri Jules Julien\nhttps://
- www.ircam.fr/agenda
-URL:https://doublebasskakov.github.io/radar/#e=meeting-mouna-ouafik-and-s
- haeirat-platform-paris
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Встреча «Le pari de l’œuvre de Mouna Ouafik et la 
- plateforme Shaeirat»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:meeting-the-history-of-la-marseillaise-paris@afisha-art
-DTSTAMP:20261115T163838Z
-DTSTART:20270422T170000Z
-DTEND:20270422T190000Z
-SUMMARY:Встреча «Le pari de l’œuvre de la Marseillaise»
-LOCATION:Ircam\, salle Stravinsky\, 1 Place Stravinsky\, 75004 Paris\, П
- ариж\, Франция
-DESCRIPTION:Историческая лекция историка Гий
- ома Мазо о символике и культурном значе
- нии Марсельезы.\nGuillaume Mazeau\nhttps://www.ircam.fr/agen
- da
-URL:https://doublebasskakov.github.io/radar/#e=meeting-the-history-of-la-
- marseillaise-paris
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Встреча «Le pari de l’œuvre de la Marseillaise»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:meeting-emmanuel-guibert-paris@afisha-art
-DTSTAMP:20261115T163838Z
-DTSTART:20270513T170000Z
-DTEND:20270513T190000Z
-SUMMARY:Встреча «Le pari du photographe» с Эммануэлем
-  Гибером
-LOCATION:Ircam\, salle Stravinsky\, 1 Place Stravinsky\, 75004 Paris\, П
- ариж\, Франция
-DESCRIPTION:Творческая встреча с иллюстратор
- ом и сценаристом Эммануэлем Гибером в и
- нституте IRCAM.\nEmmanuel Guibert\nhttps://www.ircam.fr/agenda
-URL:https://doublebasskakov.github.io/radar/#e=meeting-emmanuel-guibert-p
- aris
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Встреча «Le pari du photographe» с Эммануэл
- ем Гибером
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:meeting-le-pari-de-peter-pan-with-nathalie-azoulai-paris@afisha-art
-DTSTAMP:20261115T163838Z
-DTSTART:20270114T180000Z
-DTEND:20270114T200000Z
-SUMMARY:Встреча «Le pari de Peter Pan» с Натали Азул
- ай
-LOCATION:Ircam\, salle Stravinsky\, 1 Place Stravinsky\, 75004 Paris\, П
- ариж\, Франция
-DESCRIPTION:Литературно-художественная встр
- еча с переводчицей Натали Азулай в прос
- транстве IRCAM.\nNathalie Azoulai\nhttps://www.ircam.fr/agenda
-URL:https://doublebasskakov.github.io/radar/#e=meeting-le-pari-de-peter-p
- an-with-nathalie-azoulai-paris
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Встреча «Le pari de Peter Pan» с Натали Аз
- улай
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:meeting-virginia-woolf-orlando-paris@afisha-art
-DTSTAMP:20261115T163838Z
-DTSTART:20270311T180000Z
-DTEND:20270311T200000Z
-SUMMARY:Встреча «Le pari de l’œuvre de Virginia Woolf»
-LOCATION:Ircam\, salle Stravinsky\, 1 Place Stravinsky\, 75004 Paris\, П
- ариж\, Франция
-DESCRIPTION:Лекция исследовательницы Наоми Т
- от о романе Вирджинии Вулф «Орландо» в IR
- CAM.\nNaomi Toth\nhttps://www.ircam.fr/agenda
-URL:https://doublebasskakov.github.io/radar/#e=meeting-virginia-woolf-orl
- ando-paris
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Встреча «Le pari de l’œuvre de Virginia Woolf»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:artist-workshop-tiffany-sia-goodbye-to-language-vienna@afisha-art
-DTSTAMP:20261115T163838Z
-DTSTART:20261121T140000Z
-DTEND:20261121T160000Z
-SUMMARY:Воркшоп для художников: Тиффани Сиа
-LOCATION:Kunsthalle Wien (Museumsquartier)\, Museumsplatz 1\, 1070 Wien\,
-  Вена\, Австрия
-DESCRIPTION:Практический семинар для художни
- ков\, исследующий роль авторского текст
- а.\nТиффани Сиа\nhttps://kunsthallewien.at/en/event/artist-wor
- kshop-tiffany-sia
-URL:https://doublebasskakov.github.io/radar/#e=artist-workshop-tiffany-si
- a-goodbye-to-language-vienna
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Воркшоп для художников: Тиффани С
- иа
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:lecture-from-grandmother-s-album-to-archive-step-by-step-gen-almaty@a
  fisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART:20261118T143000Z
 DTEND:20261118T163000Z
 SUMMARY:Лекция: От бабушкиного альбома до а
@@ -885,8 +433,506 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:lecture-alexander-the-great-in-the-east-tashkent@afisha-art
+DTSTAMP:20261115T210725Z
+DTSTART:20261120T133000Z
+DTEND:20261120T153000Z
+SUMMARY:Лекция «Александр Македонский на В
+ остоке»
+LOCATION:Human House Gallery\, Kichik Mirabad Str.\, 43\, Ташкент\
+ , Узбекистан
+DESCRIPTION:Историческая лекция с демонстрац
+ ией археологических находок и карт о ка
+ мпании Александра Македонского в Бактр
+ ии и Согдиане.\n\nhttps://t.me/humanhouse_event/3236
+URL:https://doublebasskakov.github.io/radar/#e=lecture-alexander-the-grea
+ t-in-the-east-tashkent
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекция «Александр Македонский на
+  Востоке»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lecture-on-georgian-literature-tbilisi@afisha-art
+DTSTAMP:20261115T210725Z
+DTSTART:20261119T160000Z
+DTEND:20261119T180000Z
+SUMMARY:Лекция «История грузинской литерат
+ уры»
+LOCATION:бар Papers\, ул. Верико Анджапаридзе\, 1\
+ , Тбилиси\, Грузия
+DESCRIPTION:Лекция экскурсовода Виталия Киби
+ тлевского об истории грузинской литера
+ туры\, знаковых авторах и литературных в
+ заимосвязях.\nВиталий Кибитлевский\nhttps:/
+ /t.me/paperkartuli/30154
+URL:https://doublebasskakov.github.io/radar/#e=lecture-on-georgian-litera
+ ture-tbilisi
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекция «История грузинской литер
+ атуры»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:siddha-tradition-meditation-workshop-mindfulness-practices-tashkent@a
+ fisha-art
+DTSTAMP:20261115T210725Z
+DTSTART:20261121T090000Z
+DTEND:20261121T110000Z
+SUMMARY:Практикум по медитациям в традиции 
+ сиддхов: Практики полноты внимательнос
+ ти
+LOCATION:Пространство «Артха»\, ул. 1-й проез
+ д Микуми\, 8А\, Ташкент\, Узбекистан
+DESCRIPTION:Сессия практикума\, исследующая у
+ держание осознанности\, развитие внутре
+ ннего наблюдателя и инструменты работы 
+ с эмоциями.\nГоракханатх\nhttps://t.me/artha_uz/12554
+URL:https://doublebasskakov.github.io/radar/#e=siddha-tradition-meditatio
+ n-workshop-mindfulness-practices-tashkent
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Практикум по медитациям в традиц
+ ии сиддхов: Практики полноты внимательн
+ ости
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:saturday-talks-kit-gurnos-on-amar-kanwar-london@afisha-art
+DTSTAMP:20261115T210725Z
+DTSTART:20270116T123000Z
+DTEND:20270116T143000Z
+SUMMARY:Субботняя экскурсия: Кит Гурнос об 
+ Амаре Канваре
+LOCATION:Serpentine North Gallery\, Лондон\, Великобрита
+ ния
+DESCRIPTION:Ассистент куратора выставки Кит 
+ Гурнос проводит знакомство с творчеств
+ ом индийского художника и режиссера Ама
+ ра Канвара.\nKit Gurnos\nhttps://www.serpentinegalleries.org/wha
+ ts-on/saturday-talks-kit-gurnos-on-amar-kanwar/
+URL:https://doublebasskakov.github.io/radar/#e=saturday-talks-kit-gurnos-
+ on-amar-kanwar-london
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Субботняя экскурсия: Кит Гурнос о
+ б Амаре Канваре
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:literary-translation-workshop-by-hafiza-qo-chqorova-tashkent@afisha-a
+ rt
+DTSTAMP:20261115T210725Z
+DTSTART:20261116T100000Z
+DTEND:20261116T120000Z
+SUMMARY:Мастер-класс по литературному пере
+ воду Хафизы Кучкаровой
+LOCATION:Узбекский государственный универс
+ итет мировых языков / Университет узбек
+ ского языка и литературы\, Талшкент\, Таш
+ кент\, Узбекистан
+DESCRIPTION:Семинар о передаче культурных и с
+ тилистических особенностей в художеств
+ енном переводе с практическим разбором 
+ примеров.\nХафиза Кучкарова\nhttps://t.me/goethein
+ stituttaschkent/6808
+URL:https://doublebasskakov.github.io/radar/#e=literary-translation-works
+ hop-by-hafiza-qo-chqorova-tashkent
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Мастер-класс по литературному пе
+ реводу Хафизы Кучкаровой
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:georgian-trace-in-fashion-and-art-tbilisi@afisha-art
+DTSTAMP:20261115T210725Z
+DTSTART:20261125T160000Z
+DTEND:20261125T180000Z
+SUMMARY:Грузинский след в моде и искусстве
+LOCATION:Театр Грибоедова (малая сцена)\, Тби
+ лиси\, Грузия
+DESCRIPTION:Авторская лекция о влиянии Грузи
+ и на моду и искусство\, дополненная новы
+ ми историями и элементами перформанса.\n
+ Нино\nhttps://t.me/nateli_tbilisi/11838
+URL:https://doublebasskakov.github.io/radar/#e=georgian-trace-in-fashion-
+ and-art-tbilisi
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Грузинский след в моде и искусств
+ е
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:artist-talk-with-juha-van-ingen-karlsruhe@afisha-art
+DTSTAMP:20261115T210725Z
+DTSTART:20261120T170000Z
+DTEND:20261120T190000Z
+SUMMARY:Артист-ток с Юхой ван Ингеном
+LOCATION:ZKM | Center for Art and Media\, Lorenzstraße 19\, 76135 Karlsr
+ uhe\, Карлсруэ\, Германия
+DESCRIPTION:Публичная встреча и беседы с меди
+ ахудожником Юхой ван Ингеном в Media Lounge ц
+ ентра ZKM.\nЮха ван Инген\nhttps://zkm.de/en/2026/11/arti
+ st-talk-juha-van-ingen
+URL:https://doublebasskakov.github.io/radar/#e=artist-talk-with-juha-van-
+ ingen-karlsruhe
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Артист-ток с Юхой ван Ингеном
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:siddha-tradition-meditation-workshop-tashkent@afisha-art
+DTSTAMP:20261115T210725Z
+DTSTART:20261117T090000Z
+DTEND:20261117T110000Z
+SUMMARY:Практикум по медитациям в традиции 
+ сиддхов
+LOCATION:Пространство «Артха»\, ул. 1-й проез
+ д Микуми\, 8А\, Ташкент\, Узбекистан
+DESCRIPTION:Занятие в рамках цикла практик по
+  методам традиции сиддхов с разбором те
+ хник медитации.\nГоракханатх\nhttps://t.me/artha_
+ uz/12554
+URL:https://doublebasskakov.github.io/radar/#e=siddha-tradition-meditatio
+ n-workshop-tashkent
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Практикум по медитациям в традиц
+ ии сиддхов
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:artist-workshop-tiffany-sia-goodbye-to-language-vienna@afisha-art
+DTSTAMP:20261115T210725Z
+DTSTART:20261121T140000Z
+DTEND:20261121T160000Z
+SUMMARY:Воркшоп для художников: Тиффани Сиа
+LOCATION:Kunsthalle Wien (Museumsquartier)\, Museumsplatz 1\, 1070 Wien\,
+  Вена\, Австрия
+DESCRIPTION:Практический семинар для художни
+ ков\, исследующий роль авторского текст
+ а.\nТиффани Сиа\nhttps://kunsthallewien.at/en/event/artist-wor
+ kshop-tiffany-sia
+URL:https://doublebasskakov.github.io/radar/#e=artist-workshop-tiffany-si
+ a-goodbye-to-language-vienna
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Воркшоп для художников: Тиффани С
+ иа
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:webinar-how-to-relocate-and-legalize-in-germany-for-citizens-online@a
+ fisha-art
+DTSTAMP:20261115T210725Z
+DTSTART:20261125T140000Z
+DTEND:20261125T160000Z
+SUMMARY:Вебинар: Как переехать и легализова
+ ться в Германии гражданам РФ и РБ?
+LOCATION:Онлайн\, Онлайн\, Онлайн
+DESCRIPTION:Экспертный вебинар по миграционн
+ ым вопросам\, посвященный визам\, картам 
+ шансов\, рабочей и бизнес-иммиграции в Г
+ ерманию.\nАлексей Козлов\nhttps://t.me/reforumspacebe
+ rlin/2147
+URL:https://doublebasskakov.github.io/radar/#e=webinar-how-to-relocate-an
+ d-legalize-in-germany-for-citizens-online
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Вебинар: Как переехать и легализо
+ ваться в Германии гражданам РФ и РБ?
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:meeting-john-cage-and-merce-cunningham-paris@afisha-art
+DTSTAMP:20261115T210725Z
+DTSTART:20270204T180000Z
+DTEND:20270204T200000Z
+SUMMARY:Встреча «Le pari de l’œuvre de John Cage et Merce Cunn
+ ingham»
+LOCATION:Ircam\, salle Stravinsky\, 1 Place Stravinsky\, 75004 Paris\, П
+ ариж\, Франция
+DESCRIPTION:Дискуссия и лекция о творческом с
+ оюзе композитора Джона Кейджа и хореогр
+ афа Мерса Каннингема.\nBrigitte Lefêvre\, Claudine Sim
+ on\nhttps://www.ircam.fr/agenda
+URL:https://doublebasskakov.github.io/radar/#e=meeting-john-cage-and-merc
+ e-cunningham-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Встреча «Le pari de l’œuvre de John Cage et Merce 
+ Cunningham»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lecolap-workshop-with-ariane-mnouchkine-paris@afisha-art
+DTSTAMP:20261115T210725Z
+DTSTART:20270316T173000Z
+DTEND:20270316T193000Z
+SUMMARY:Семинар LecOlap с Арианой Мнушкин
+LOCATION:Ircam\, salle Stravinsky\, 1 Place Stravinsky\, 75004 Paris\, П
+ ариж\, Франция
+DESCRIPTION:Встреча с выдающимся режиссером 
+ театра Арианой Мнушкин в рамках цикла а
+ нтропологии политики.\nAgnès Callu\, Ariane Mnouchkin
+ e\nhttps://www.ircam.fr/agenda
+URL:https://doublebasskakov.github.io/radar/#e=lecolap-workshop-with-aria
+ ne-mnouchkine-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Семинар LecOlap с Арианой Мнушкин
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:tiffany-sia-goodbye-to-language-vienna@afisha-art
+DTSTAMP:20261115T210725Z
+DTSTART:20261121T140000Z
+DTEND:20261121T160000Z
+SUMMARY:Tiffany Sia: Goodbye to Language?
+LOCATION:Kunsthalle Wien\, Вена\, Австрия
+DESCRIPTION:Мастер-класс художника Тиффани С
+ иа\, посвященный писательским практикам
+  как форме художественного исследовани
+ я.\nTiffany Sia\nhttps://kunsthallewien.at/en/event/artist-workshop-tiff
+ any-sia
+URL:https://doublebasskakov.github.io/radar/#e=tiffany-sia-goodbye-to-lan
+ guage-vienna
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tiffany Sia: Goodbye to Language?
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sound-music-health-day-diversity-of-auditory-perception-paris@afisha-
+ art
+DTSTAMP:20261115T210725Z
+DTSTART:20261201T083000Z
+DTEND:20261201T103000Z
+SUMMARY:День «Звук\, Музыка и Здоровье»: Раз
+ нообразие слухового восприятия
+LOCATION:Ircam\, salle Stravinsky\, 1 Place Stravinsky\, 75004 Paris\, П
+ ариж\, Франция
+DESCRIPTION:Ежегодная конференция института 
+ IRCAM\, посвященная медицинской и психоаку
+ стической тематике восприятия звука.\nIRC
+ AM\nhttps://www.ircam.fr/agenda
+URL:https://doublebasskakov.github.io/radar/#e=sound-music-health-day-div
+ ersity-of-auditory-perception-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:День «Звук\, Музыка и Здоровье»: Р
+ азнообразие слухового восприятия
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gdr-iasis-study-day-on-auditory-perception-and-cognition-paris@afisha
+ -art
+DTSTAMP:20261115T210725Z
+DTSTART:20261119T083000Z
+DTEND:20261119T103000Z
+SUMMARY:День исследования GdR IASIS по восприят
+ ию и когнитивным особенностям слуха
+LOCATION:Ircam\, salle Stravinsky\, 1 Place Stravinsky\, 75004 Paris\, П
+ ариж\, Франция
+DESCRIPTION:Научная встреча и исследования в 
+ области восприятия звука и слуховой ког
+ нитивистики в институте IRCAM.\nGdR IASIS\, IRCAM\nh
+ ttps://www.ircam.fr/fr/events/gdr-iasis
+URL:https://doublebasskakov.github.io/radar/#e=gdr-iasis-study-day-on-aud
+ itory-perception-and-cognition-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:День исследования GdR IASIS по воспри
+ ятию и когнитивным особенностям слуха
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lecolap-workshop-with-bartabas-paris@afisha-art
+DTSTAMP:20261115T210725Z
+DTSTART:20270202T173000Z
+DTEND:20270202T193000Z
+SUMMARY:Семинар LecOlap с Бартабасом
+LOCATION:Ircam\, salle Stravinsky\, 1 Place Stravinsky\, 75004 Paris\, П
+ ариж\, Франция
+DESCRIPTION:Семинар по альтернативным художе
+ ственным практикам современного театра
+  с участием режиссера Бартабаса.\nAgnès Callu
+ \, Bartabas\nhttps://www.ircam.fr/agenda
+URL:https://doublebasskakov.github.io/radar/#e=lecolap-workshop-with-bart
+ abas-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Семинар LecOlap с Бартабасом
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:interlab-day-2026-paris@afisha-art
+DTSTAMP:20261115T210725Z
+DTSTART:20261120T090000Z
+DTEND:20261120T110000Z
+SUMMARY:Междисциплинарный день Interlab 2026
+LOCATION:Ircam\, salle Stravinsky\, 1 Place Stravinsky\, 75004 Paris\, П
+ ариж\, Франция
+DESCRIPTION:Исследовательский день\, посвяще
+ нный вопросам равенства\, инклюзии и инд
+ и-подходов в искусстве и науке.\nIRCAM\nhttps://
+ www.ircam.fr/agenda
+URL:https://doublebasskakov.github.io/radar/#e=interlab-day-2026-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Междисциплинарный день Interlab 2026
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pepr-ensemble-research-day-paris@afisha-art
+DTSTAMP:20261115T210725Z
+DTSTART:20261211T090000Z
+DTEND:20261211T110000Z
+SUMMARY:Научная встреча PEPR eNSEMBLE по устойчив
+ ой компьютерной инженерии
+LOCATION:Ircam\, salle Stravinsky\, 1 Place Stravinsky\, 75004 Paris\, П
+ ариж\, Франция
+DESCRIPTION:День исследований критических по
+ дходов к взаимодействию человека с комп
+ ьютером и цифровым искусством.\nIRCAM\nhttps://
+ www.ircam.fr/agenda
+URL:https://doublebasskakov.github.io/radar/#e=pepr-ensemble-research-day
+ -paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Научная встреча PEPR eNSEMBLE по устойч
+ ивой компьютерной инженерии
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:meeting-mouna-ouafik-and-shaeirat-platform-paris@afisha-art
+DTSTAMP:20261115T210725Z
+DTSTART:20261217T180000Z
+DTEND:20261217T200000Z
+SUMMARY:Встреча «Le pari de l’œuvre de Mouna Ouafik et la plat
+ eforme Shaeirat»
+LOCATION:Ircam\, salle Stravinsky\, 1 Place Stravinsky\, 75004 Paris\, П
+ ариж\, Франция
+DESCRIPTION:Перформативно-поэтическая встре
+ чa с перформером Муной Уафик в рамках ци
+ кла институции.\nMouna Ouafik\, Henri Jules Julien\nhttps://
+ www.ircam.fr/agenda
+URL:https://doublebasskakov.github.io/radar/#e=meeting-mouna-ouafik-and-s
+ haeirat-platform-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Встреча «Le pari de l’œuvre de Mouna Ouafik et la 
+ plateforme Shaeirat»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:meeting-the-history-of-la-marseillaise-paris@afisha-art
+DTSTAMP:20261115T210725Z
+DTSTART:20270422T170000Z
+DTEND:20270422T190000Z
+SUMMARY:Встреча «Le pari de l’œuvre de la Marseillaise»
+LOCATION:Ircam\, salle Stravinsky\, 1 Place Stravinsky\, 75004 Paris\, П
+ ариж\, Франция
+DESCRIPTION:Историческая лекция историка Гий
+ ома Мазо о символике и культурном значе
+ нии Марсельезы.\nGuillaume Mazeau\nhttps://www.ircam.fr/agen
+ da
+URL:https://doublebasskakov.github.io/radar/#e=meeting-the-history-of-la-
+ marseillaise-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Встреча «Le pari de l’œuvre de la Marseillaise»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:meeting-emmanuel-guibert-paris@afisha-art
+DTSTAMP:20261115T210725Z
+DTSTART:20270513T170000Z
+DTEND:20270513T190000Z
+SUMMARY:Встреча «Le pari du photographe» с Эммануэлем
+  Гибером
+LOCATION:Ircam\, salle Stravinsky\, 1 Place Stravinsky\, 75004 Paris\, П
+ ариж\, Франция
+DESCRIPTION:Творческая встреча с иллюстратор
+ ом и сценаристом Эммануэлем Гибером в и
+ нституте IRCAM.\nEmmanuel Guibert\nhttps://www.ircam.fr/agenda
+URL:https://doublebasskakov.github.io/radar/#e=meeting-emmanuel-guibert-p
+ aris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Встреча «Le pari du photographe» с Эммануэл
+ ем Гибером
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:meeting-le-pari-de-peter-pan-with-nathalie-azoulai-paris@afisha-art
+DTSTAMP:20261115T210725Z
+DTSTART:20270114T180000Z
+DTEND:20270114T200000Z
+SUMMARY:Встреча «Le pari de Peter Pan» с Натали Азул
+ ай
+LOCATION:Ircam\, salle Stravinsky\, 1 Place Stravinsky\, 75004 Paris\, П
+ ариж\, Франция
+DESCRIPTION:Литературно-художественная встр
+ еча с переводчицей Натали Азулай в прос
+ транстве IRCAM.\nNathalie Azoulai\nhttps://www.ircam.fr/agenda
+URL:https://doublebasskakov.github.io/radar/#e=meeting-le-pari-de-peter-p
+ an-with-nathalie-azoulai-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Встреча «Le pari de Peter Pan» с Натали Аз
+ улай
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:meeting-virginia-woolf-orlando-paris@afisha-art
+DTSTAMP:20261115T210725Z
+DTSTART:20270311T180000Z
+DTEND:20270311T200000Z
+SUMMARY:Встреча «Le pari de l’œuvre de Virginia Woolf»
+LOCATION:Ircam\, salle Stravinsky\, 1 Place Stravinsky\, 75004 Paris\, П
+ ариж\, Франция
+DESCRIPTION:Лекция исследовательницы Наоми Т
+ от о романе Вирджинии Вулф «Орландо» в IR
+ CAM.\nNaomi Toth\nhttps://www.ircam.fr/agenda
+URL:https://doublebasskakov.github.io/radar/#e=meeting-virginia-woolf-orl
+ ando-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Встреча «Le pari de l’œuvre de Virginia Woolf»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:gingerbread-house-master-class-tashkent@afisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART:20261129T120000Z
 DTEND:20261129T140000Z
 SUMMARY:Мастер-класс «Имбирный домик»
@@ -904,30 +950,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:tashkent-city-tour-with-rakhmat-akzamovich-tashkent@afisha-art
-DTSTAMP:20261115T163838Z
-DTSTART:20261115T050000Z
-DTEND:20261115T070000Z
-SUMMARY:Экскурсия по Ташкенту с Рахматом Ак
- замовичем
-LOCATION:Гостиница «Узбекистан» (место встр
- ечи)\, Ташкент\, Узбекистан
-DESCRIPTION:Автобусная экскурсия по историче
- ским и современным местам Ташкента под 
- руководством гида высшей категории.\nРа
- хмат Акзамович\nhttps://t.me/kettuz/6683
-URL:https://doublebasskakov.github.io/radar/#e=tashkent-city-tour-with-ra
- khmat-akzamovich-tashkent
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Экскурсия по Ташкенту с Рахматом 
- Акзамовичем
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:lecture-the-japan-we-do-not-know-almaty@afisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART:20261125T143000Z
 DTEND:20261125T163000Z
 SUMMARY:Лекция: Япония\, которую мы не знаем
@@ -949,7 +973,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:open-lino-wood-cut-workshops-berlin@afisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART:20261116T150000Z
 DTEND:20261116T170000Z
 SUMMARY:Мастер-классы по линогравюре и ксил
@@ -971,7 +995,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:baby-friendly-guided-tour-tiffany-sia-overt-listening-vienna@afisha-a
  rt
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART:20261117T100000Z
 DTEND:20261117T120000Z
 SUMMARY:Экскурсия для родителей с младенца
@@ -993,7 +1017,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:art-breakfast-renoir-london@afisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 SUMMARY:ART-завтрак: «Ренуар. Любовь\, свет и н
@@ -1016,7 +1040,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:presentation-of-the-book-cities-and-people-in-london-london@afisha-ar
  t
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART;VALUE=DATE:20270113
 DTEND;VALUE=DATE:20270114
 SUMMARY:Презентация книги «Города и люди» в
@@ -1038,7 +1062,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:meeting-with-writer-dmitry-glukhovsky-london@afisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
 SUMMARY:Встреча с писателем Дмитрием Глухо
@@ -1060,7 +1084,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sand-animation-masterclass-for-kids-in-london-london@afisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Мастер-класс по песочной анимации д
@@ -1082,7 +1106,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:symposium-play-display-symposium-on-games-museums-and-curato-karlsruh
  e@afisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261128
 SUMMARY:Симпозиум «Игра/Показ: Симпозиум по

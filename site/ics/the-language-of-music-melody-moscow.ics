@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:the-language-of-music-melody-moscow@afisha-art
+DTSTAMP:20261115T210725Z
+DTSTART;VALUE=DATE:20270321
+DTEND;VALUE=DATE:20270322
+SUMMARY:Язык музыки. Мелодия
+LOCATION:Филармония-2. Концертный зал имени 
+ С. В. Рахманинова\, Мичуринский проспект\
+ , Олимпийская деревня\, дом 1\, Москва
+DESCRIPTION:Интерактивная лекция-концерт о м
+ елодическом строении музыки. В программ
+ е прозвучит индустриальный авангард Ал
+ ександра Мосолова «Завод» и музыка пион
+ ера электроники Эдуарда Артемьева.\nЯро
+ слав Тимофеев\, Мария Холкина\, Оркестр Г
+ осударственной академической симфонич
+ еской капеллы России\, Максим Мохорев\nhtt
+ ps://meloman.ru/hall/filarmoniya-2-koncertnyj-zal-imeni-svrahmaninova/
+URL:https://doublebasskakov.github.io/radar/#e=the-language-of-music-melo
+ dy-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Язык музыки. Мелодия
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

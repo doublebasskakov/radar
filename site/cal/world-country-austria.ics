@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:exhibition-opening-artist-talk-magali-reus-tenant-vienna@afisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART:20261126T170000Z
 DTEND:20261126T190000Z
 SUMMARY:Открытие выставки и паблик-ток: Маг
@@ -31,7 +31,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:kunsthalle-wien-club-preview-meet-greet-with-magali-reus-vienna@afish
  a-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART:20261125T170000Z
 DTEND:20261125T190000Z
 SUMMARY:Встреча Kunsthalle Wien Club с Магали Реус
@@ -51,7 +51,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:artist-workshop-tiffany-sia-goodbye-to-language-vienna@afisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART:20261121T140000Z
 DTEND:20261121T160000Z
 SUMMARY:Воркшоп для художников: Тиффани Сиа
@@ -72,7 +72,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:harkeerat-mangat-getting-in-vienna@afisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART:20261117T180000Z
 DTEND:20261117T200000Z
 SUMMARY:Перформанс Харкирата Мангата: Getting I
@@ -94,7 +94,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:film-screening-book-launch-basak-senova-mirror-project-vienna@afisha-
  art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART:20261118T180000Z
 DTEND:20261118T200000Z
 SUMMARY:Кинопоказ и презентация книги: Баша
@@ -114,9 +114,48 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:tiffany-sia-goodbye-to-language-vienna@afisha-art
+DTSTAMP:20261115T210725Z
+DTSTART:20261121T140000Z
+DTEND:20261121T160000Z
+SUMMARY:Tiffany Sia: Goodbye to Language?
+LOCATION:Kunsthalle Wien\, Вена\, Австрия
+DESCRIPTION:Мастер-класс художника Тиффани С
+ иа\, посвященный писательским практикам
+  как форме художественного исследовани
+ я.\nTiffany Sia\nhttps://kunsthallewien.at/en/event/artist-workshop-tiff
+ any-sia
+URL:https://doublebasskakov.github.io/radar/#e=tiffany-sia-goodbye-to-lan
+ guage-vienna
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tiffany Sia: Goodbye to Language?
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sound-stories-discovering-sounds-vienna@afisha-art
+DTSTAMP:20261115T210725Z
+DTSTART:20261121T100000Z
+DTEND:20261121T120000Z
+SUMMARY:Sound Stories – Discovering Sounds
+LOCATION:Kunsthalle Wien\, Вена\, Австрия
+DESCRIPTION:Интерактивная звуковая мастерск
+ ая для детей и семей\, посвященная иссле
+ дованию звукового окружения.\nNone\nhttps://kuns
+ thallewien.at/en/event/sound-stories-discovering-sounds-2
+URL:https://doublebasskakov.github.io/radar/#e=sound-stories-discovering-
+ sounds-vienna
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sound Stories – Discovering Sounds
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:baby-friendly-guided-tour-tiffany-sia-overt-listening-vienna@afisha-a
  rt
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART:20261117T100000Z
 DTEND:20261117T120000Z
 SUMMARY:Экскурсия для родителей с младенца
@@ -138,7 +177,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ars-electronica-2027@afisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART;VALUE=DATE:20270908
 DTEND;VALUE=DATE:20270913
 SUMMARY:Ars Electronica Festival 2027
@@ -157,7 +196,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wien-modern-2026@afisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Последний день: Wien Modern 39: Ecosystems for Liste
@@ -181,7 +220,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:push-and-pull-a-furniture-comedy-vienna@afisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART;VALUE=DATE:20270404
 DTEND;VALUE=DATE:20270405
 SUMMARY:Последний день: Push and Pull: A Furniture Comedy
@@ -202,7 +241,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ramesch-daha-wien-1933-1935-vienna@afisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART;VALUE=DATE:20270425
 DTEND;VALUE=DATE:20270426
 SUMMARY:Последний день: Ramesch Daha: WIEN 1933 – 1935
@@ -222,7 +261,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tiffany-sia-overt-listening-vienna@afisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
 SUMMARY:Последний день: Tiffany Sia: Overt Listening
@@ -242,7 +281,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:terminal-piece-vienna@afisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
 SUMMARY:Последний день: Terminal Piece
@@ -261,7 +300,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:kunsthalle-wien-preis-2026-lotti-brockmann-valentino-skarwan-vienna@a
  fisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:Открытие: Kunsthalle Wien Preis 2026: Lotti Brockmann & V
@@ -283,7 +322,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:magali-reus-tenant-vienna@afisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Открытие: Magali Reus: Tenant

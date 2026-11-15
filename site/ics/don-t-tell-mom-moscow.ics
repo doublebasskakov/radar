@@ -5,10 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:don-t-tell-mom-moscow@afisha-art
-DTSTAMP:20261115T163838Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:Открытие: Только не говори маме
+DTSTAMP:20261115T210725Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:Последний день: Только не говори ма
+ ме
 LOCATION:Арт-центр Linda de La\, Москва
 DESCRIPTION:Экспозиция видеоарта\, фокусирую
  щаяся на личных историях и социальных т
@@ -16,7 +17,8 @@ DESCRIPTION:Экспозиция видеоарта\, фокусирую
 URL:https://doublebasskakov.github.io/radar/#e=don-t-tell-mom-moscow
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Открытие: Только не говори маме
+DESCRIPTION:Последний день: Только не говори 
+ маме
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

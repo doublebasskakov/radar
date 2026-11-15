@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:lilya-moscow@afisha-art
+DTSTAMP:20261115T210725Z
+DTSTART:20261128T160000Z
+DTEND:20261128T180000Z
+SUMMARY:Художественный фильм «Лиля»
+LOCATION:Филармония-2\, Виртуальный зал\, Мич
+ уринский проспект\, Олимпийская деревня
+ \, дом 1\, Москва
+DESCRIPTION:Премьера исторической драмы о лю
+ бви на фоне революционных потрясений на
+ чала XX века.\nМария Смольникова\, Андрей 
+ Максимов\, Евгений Стычкин\nhttps://meloman.ru/conc
+ ert/vz-2026-11-28-19/
+URL:https://doublebasskakov.github.io/radar/#e=lilya-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Художественный фильм «Лиля»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

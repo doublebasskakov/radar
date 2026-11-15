@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:behind-the-scenes-irkutsk@afisha-art
+DTSTAMP:20261115T210725Z
+DTSTART;VALUE=DATE:20270418
+DTEND;VALUE=DATE:20270419
+SUMMARY:Последний день: «За кулисами»
+LOCATION:Галерея Виктора Бронштейна\, ул. Ок
+ тябрьской Революции\, д. 3\, Иркутск
+DESCRIPTION:Персональная выставка художника 
+ Льва Гимова.\nЛев Гимов\nhttps://www.vbgallery.ru/index
+ /afisha/za-kulisami/
+URL:https://doublebasskakov.github.io/radar/#e=behind-the-scenes-irkutsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: «За кулисами»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

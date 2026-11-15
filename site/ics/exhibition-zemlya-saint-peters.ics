@@ -5,10 +5,10 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:exhibition-zemlya-saint-peters@afisha-art
-DTSTAMP:20261115T163838Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:Открытие: Выставка «Земьля»
+DTSTAMP:20261115T210725Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:Последний день: Выставка «Земьля»
 LOCATION:Дом Бехтерева\, наб. Малой Невки\, 25\,
   Санкт-Петербург
 DESCRIPTION:Небольшая выставка графики и кер
@@ -19,7 +19,8 @@ URL:https://doublebasskakov.github.io/radar/#e=exhibition-zemlya-saint-pe
  ters
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Открытие: Выставка «Земьля»
+DESCRIPTION:Последний день: Выставка «Земьля
+ »
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

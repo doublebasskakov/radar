@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:immersive-play-avdotya-moscow@afisha-art
+DTSTAMP:20261115T210725Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:Иммерсивный спектакль «Авдотья»
+LOCATION:Боярские палаты\, Москва
+DESCRIPTION:Спектакль-мистерия с элементами 
+ японского танца\, ольфакторными эффекта
+ ми и электронной музыкой\, переплетенно
+ й с фольклорными мотивами.\nМастерская Б
+ русникина\, театр «Практика»\, реж. Анжел
+ ика Катышева\nhttps://t.me/CulturMoscow/5883
+URL:https://doublebasskakov.github.io/radar/#e=immersive-play-avdotya-mos
+ cow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Иммерсивный спектакль «Авдотья»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

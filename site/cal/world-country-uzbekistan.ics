@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:nodirabegim-play-tashkent@afisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART:20261125T130000Z
 DTEND:20261125T150000Z
 SUMMARY:Спектакль «Nodirabegim»
@@ -31,7 +31,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:rushana-alimova-solo-exhibition-how-rivers-become-clouds-tashkent@afi
  sha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART:20261118T130000Z
 DTEND:20261118T150000Z
 SUMMARY:Открытие: Персональная выставка Ру
@@ -55,32 +55,9 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:anime-hits-by-symphony-orchestra-tashkent@afisha-art
-DTSTAMP:20261115T163838Z
-DTSTART:20261115T130000Z
-DTEND:20261115T150000Z
-SUMMARY:Хиты из мира аниме в исполнении сим
- фонического оркестра
-LOCATION:ТЕАТР+\, Матбуотчиллар 17\, Ташкент\, 
- Узбекистан
-DESCRIPTION:Молодой виртуозный оркестр испол
- нит культовые саундтреки из фильмов Хая
- о Миядзаки\, Такеши Китано и других изве
- стных режиссеров и композиторов.\nСимфо
- нический оркестр\nhttps://iticket.uz
-URL:https://doublebasskakov.github.io/radar/#e=anime-hits-by-symphony-orc
- hestra-tashkent
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Хиты из мира аниме в исполнении с
- имфонического оркестра
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:siddha-tradition-meditation-workshop-four-immeasurable-state-tashkent
  @afisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART:20261119T090000Z
 DTEND:20261119T110000Z
 SUMMARY:Практикум по медитациям и методам в
@@ -105,7 +82,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:play-osmon-hamma-gapni-eshitadi-tashkent@afisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART:20261123T130000Z
 DTEND:20261123T150000Z
 SUMMARY:Спектакль «Osmon hamma gapni eshitadi»
@@ -127,9 +104,53 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:play-eringizni-menga-soting-tashkent@afisha-art
+DTSTAMP:20261115T210725Z
+DTSTART:20261129T090000Z
+DTEND:20261129T110000Z
+SUMMARY:Спектакль «Eringizni menga soting»
+LOCATION:Узбекский Национальный Академичес
+ кий драматический театр\, Проспект Алиш
+ ера Навои\, 34\, Ташкент\, Узбекистан
+DESCRIPTION:Комедийная постановка по произве
+ дению Михаила Задорнова о взаимоотноше
+ ниях мужчины и женщин в атмосферных дек
+ орациях 1970-х годов.\nМихаил Задорнов\nhttps:
+ //t.me/tashkent_gogo/8194
+URL:https://doublebasskakov.github.io/radar/#e=play-eringizni-menga-sotin
+ g-tashkent
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спектакль «Eringizni menga soting»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lecture-alexander-the-great-in-the-east-tashkent@afisha-art
+DTSTAMP:20261115T210725Z
+DTSTART:20261120T133000Z
+DTEND:20261120T153000Z
+SUMMARY:Лекция «Александр Македонский на В
+ остоке»
+LOCATION:Human House Gallery\, Kichik Mirabad Str.\, 43\, Ташкент\
+ , Узбекистан
+DESCRIPTION:Историческая лекция с демонстрац
+ ией археологических находок и карт о ка
+ мпании Александра Македонского в Бактр
+ ии и Согдиане.\n\nhttps://t.me/humanhouse_event/3236
+URL:https://doublebasskakov.github.io/radar/#e=lecture-alexander-the-grea
+ t-in-the-east-tashkent
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекция «Александр Македонский на
+  Востоке»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:anniversary-concert-of-the-state-symphony-orchestra-choir-of-tashkent
  @afisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART:20261127T140000Z
 DTEND:20261127T160000Z
 SUMMARY:Юбилейный концерт хора при Государ
@@ -157,7 +178,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:siddha-tradition-meditation-workshop-mindfulness-practices-tashkent@a
  fisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART:20261121T090000Z
 DTEND:20261121T110000Z
 SUMMARY:Практикум по медитациям в традиции 
@@ -180,97 +201,9 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:premiere-of-the-comedy-play-maysara-tashkent@afisha-art
-DTSTAMP:20261115T163838Z
-DTSTART:20261128T120000Z
-DTEND:20261128T140000Z
-SUMMARY:Премьера комедийного спектакля «Mays
- ara»
-LOCATION:Узбекский государственный музыкал
- ьный театр имени Мукими\, ул. Махмуджона 
- Гафурова\, 187\, Ташкент\, Узбекистан
-DESCRIPTION:Музыкальная комедийная постанов
- ка по мотивам узбекского фольклора о на
- ходчивой героине Майсаре\, помогающей в
- любленным.\n\nhttps://t.me/tashkent_gogo/8193
-URL:https://doublebasskakov.github.io/radar/#e=premiere-of-the-comedy-pla
- y-maysara-tashkent
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Премьера комедийного спектакля «
- Maysara»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:play-wolves-and-sheep-tashkent@afisha-art
-DTSTAMP:20261115T163838Z
-DTSTART:20261115T120000Z
-DTEND:20261115T140000Z
-SUMMARY:Спектакль «Волки и овцы»
-LOCATION:Государственный Академический Рус
- ский драматический театр Узбекистана\, 
- ул. Зарафшан\, 24\, Ташкент\, Узбекистан
-DESCRIPTION:Яркая комедийная постановка по к
- лассической пьесе Александра Островско
- го о человеческих интригах и обмане.\nГо
- сударственный Академический Русский др
- аматический театр Узбекистана\nhttps://t.me/ta
- shkent_gogo/8185
-URL:https://doublebasskakov.github.io/radar/#e=play-wolves-and-sheep-tash
- kent
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Спектакль «Волки и овцы»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:siddha-tradition-meditation-workshop-tashkent@afisha-art
-DTSTAMP:20261115T163838Z
-DTSTART:20261117T090000Z
-DTEND:20261117T110000Z
-SUMMARY:Практикум по медитациям в традиции 
- сиддхов
-LOCATION:Пространство «Артха»\, ул. 1-й проез
- д Микуми\, 8А\, Ташкент\, Узбекистан
-DESCRIPTION:Занятие в рамках цикла практик по
-  методам традиции сиддхов с разбором те
- хник медитации.\nГоракханатх\nhttps://t.me/artha_
- uz/12554
-URL:https://doublebasskakov.github.io/radar/#e=siddha-tradition-meditatio
- n-workshop-tashkent
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Практикум по медитациям в традиц
- ии сиддхов
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:musical-story-finn-family-moomintroll-tashkent@afisha-art
-DTSTAMP:20261115T163838Z
-DTSTART:20261115T130000Z
-DTEND:20261115T150000Z
-SUMMARY:Музыкальная история «Муми-тролль и 
- Шляпа Волшебника»
-LOCATION:Human House\, Ташкент\, Узбекистан
-DESCRIPTION:Музыкальное представление для вс
- ей семьи по мотивам сказки Туве Янссон.\n
- Илья Небослов\nhttps://t.me/humanhouse_event/3226
-URL:https://doublebasskakov.github.io/radar/#e=musical-story-finn-family-
- moomintroll-tashkent
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Музыкальная история «Муми-тролль
-  и Шляпа Волшебника»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:literary-translation-workshop-by-hafiza-qo-chqorova-tashkent@afisha-a
  rt
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART:20261116T100000Z
 DTEND:20261116T120000Z
 SUMMARY:Мастер-класс по литературному пере
@@ -294,8 +227,77 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:premiere-of-the-comedy-play-maysara-tashkent@afisha-art
+DTSTAMP:20261115T210725Z
+DTSTART:20261128T120000Z
+DTEND:20261128T140000Z
+SUMMARY:Премьера комедийного спектакля «Mays
+ ara»
+LOCATION:Узбекский государственный музыкал
+ ьный театр имени Мукими\, ул. Махмуджона 
+ Гафурова\, 187\, Ташкент\, Узбекистан
+DESCRIPTION:Музыкальная комедийная постанов
+ ка по мотивам узбекского фольклора о на
+ ходчивой героине Майсаре\, помогающей в
+ любленным.\n\nhttps://t.me/tashkent_gogo/8193
+URL:https://doublebasskakov.github.io/radar/#e=premiere-of-the-comedy-pla
+ y-maysara-tashkent
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Премьера комедийного спектакля «
+ Maysara»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:siddha-tradition-meditation-workshop-tashkent@afisha-art
+DTSTAMP:20261115T210725Z
+DTSTART:20261117T090000Z
+DTEND:20261117T110000Z
+SUMMARY:Практикум по медитациям в традиции 
+ сиддхов
+LOCATION:Пространство «Артха»\, ул. 1-й проез
+ д Микуми\, 8А\, Ташкент\, Узбекистан
+DESCRIPTION:Занятие в рамках цикла практик по
+  методам традиции сиддхов с разбором те
+ хник медитации.\nГоракханатх\nhttps://t.me/artha_
+ uz/12554
+URL:https://doublebasskakov.github.io/radar/#e=siddha-tradition-meditatio
+ n-workshop-tashkent
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Практикум по медитациям в традиц
+ ии сиддхов
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dzhemma-fagradyan-music-evening-flashbacks-tashkent@afisha-art
+DTSTAMP:20261115T210725Z
+DTSTART:20261201T140000Z
+DTEND:20261201T160000Z
+SUMMARY:Музыкально-творческий вечер Джеммы
+  Фаградян «Флешбэки»
+LOCATION:Театр «Ильхом»\, Пахтакорская\, 5\, Т
+ ашкент\, Узбекистан
+DESCRIPTION:Авторский музыкальный вечер актр
+ исы и певицы Джеммы Фаградян\, объединяю
+ щий эклектичные песни на основе личных 
+ переживаний и поэзию.\nДжемма Фаградян\nh
+ ttps://perfend.com/ru/categories/theatre/events/flashback/2026-12-01-19-0
+ 0/678
+URL:https://doublebasskakov.github.io/radar/#e=dzhemma-fagradyan-music-ev
+ ening-flashbacks-tashkent
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Музыкально-творческий вечер Джем
+ мы Фаградян «Флешбэки»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:gingerbread-house-master-class-tashkent@afisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART:20261129T120000Z
 DTEND:20261129T140000Z
 SUMMARY:Мастер-класс «Имбирный домик»
@@ -314,7 +316,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:show-other-games-improvisation-tashkent@afisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART:20261118T143000Z
 DTEND:20261118T163000Z
 SUMMARY:Шоу «Другие игры. Импровизация»
@@ -333,30 +335,63 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:tashkent-city-tour-with-rakhmat-akzamovich-tashkent@afisha-art
-DTSTAMP:20261115T163838Z
-DTSTART:20261115T050000Z
-DTEND:20261115T070000Z
-SUMMARY:Экскурсия по Ташкенту с Рахматом Ак
- замовичем
-LOCATION:Гостиница «Узбекистан» (место встр
- ечи)\, Ташкент\, Узбекистан
-DESCRIPTION:Автобусная экскурсия по историче
- ским и современным местам Ташкента под 
- руководством гида высшей категории.\nРа
- хмат Акзамович\nhttps://t.me/kettuz/6683
-URL:https://doublebasskakov.github.io/radar/#e=tashkent-city-tour-with-ra
- khmat-akzamovich-tashkent
+UID:tibetan-singing-bowls-relaxation-practice-tashkent@afisha-art
+DTSTAMP:20261115T210725Z
+DTSTART:20261119T153000Z
+DTEND:20261119T173000Z
+SUMMARY:Практика расслабления «Тибетские ч
+ аши»
+LOCATION:Артха\, Ташкент\, Узбекистан
+DESCRIPTION:Сеанс звукотерапии и расслаблени
+ я в гамаках с использованием тибетских 
+ чаш.\nСога\nhttps://t.me/artha_uz/12562
+URL:https://doublebasskakov.github.io/radar/#e=tibetan-singing-bowls-rela
+ xation-practice-tashkent
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Экскурсия по Ташкенту с Рахматом 
- Акзамовичем
+DESCRIPTION:Практика расслабления «Тибетски
+ е чаши»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:evening-of-musical-experiments-tashkent@afisha-art
+DTSTAMP:20261115T210725Z
+DTSTART:20261118T150000Z
+DTEND:20261118T170000Z
+SUMMARY:Вечер музыкальных экспериментов
+LOCATION:Артха\, Ташкент\, Узбекистан
+DESCRIPTION:Камерное мероприятие\, посвященн
+ ое звуковым экспериментам и импровизац
+ ии.\nАртха\nhttps://t.me/artha_uz/12562
+URL:https://doublebasskakov.github.io/radar/#e=evening-of-musical-experim
+ ents-tashkent
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Вечер музыкальных экспериментов
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gong-meditation-tashkent@afisha-art
+DTSTAMP:20261115T210725Z
+DTSTART:20261117T153000Z
+DTEND:20261117T173000Z
+SUMMARY:Гонг медитация
+LOCATION:Артха\, Ташкент\, Узбекистан
+DESCRIPTION:Практика глубокого расслабления 
+ в гамаках-коконах под звуки гонга.\nСога\
+ nhttps://t.me/artha_uz/12562
+URL:https://doublebasskakov.github.io/radar/#e=gong-meditation-tashkent
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Гонг медитация
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:bukhara-biennial-2027@afisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART;VALUE=DATE:20270903
 DTEND;VALUE=DATE:20270904
 SUMMARY:Открытие: Bukhara Biennial 2027
@@ -379,7 +414,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:seven-moons-at-ilkhom-theatre-tashkent@afisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Спектакль «Семь лун» в театре «Ильх
@@ -401,7 +436,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:multimedia-exhibition-savitsky-s-diaries-old-and-new-tashkent@afisha-
  art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
 SUMMARY:Последний день: Мультимедийная выс
@@ -425,7 +460,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:hikmah-exhibition-at-cca-tashkent-tashkent@afisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:Последний день: Выставка Hikmah в CCA Tashk
@@ -447,7 +482,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:zurab-tsereteli-exhibition-larger-than-life-tashkent@afisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Последний день: Выставка Зураба Цер
@@ -470,7 +505,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:yermolai-solzhenitsyn-photo-exhibition-textures-and-fragment-tashkent
  @afisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261117
 SUMMARY:Фотовыставка Ермолая Солженицына «
@@ -492,7 +527,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:timur-d-vatz-exhibition-journey-tashkent@afisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261119
 SUMMARY:Выставка Тимура Д’Ватца «Путешест
@@ -513,7 +548,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-yalt-yult-at-ichkari-museum-tashkent@afisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART;VALUE=DATE:20270206
 DTEND;VALUE=DATE:20270207
 SUMMARY:Последний день: Выставка «Ялт-Юлт» 
@@ -535,7 +570,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:san-at-up-exhibition-project-at-the-goethe-institut-tashkent@afisha-a
  rt
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Последний день: Выставочный проект 
@@ -556,29 +591,9 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:exhibition-magic-of-gancha-tashkent@afisha-art
-DTSTAMP:20261115T163838Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261116
-SUMMARY:Выставка «Волшебство ганча»
-LOCATION:Международный Караван-Сарай культ
- уры Икуо Хираямы\, Ташкент\, Узбекистан
-DESCRIPTION:Выставка традиционного и совреме
- нного искусства резьбы по ганчу.\nМеждун
- ародный Караван-Сарай культуры Икуо Хир
- аямы\nhttps://www.afisha.uz/ru/exhibitions/2026/11/09/gancha
-URL:https://doublebasskakov.github.io/radar/#e=exhibition-magic-of-gancha
- -tashkent
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Выставка «Волшебство ганча»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:salima-abdurazakova-exhibition-what-dreams-may-come-tashkent@afisha-a
  rt
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261117
 SUMMARY:Выставка Салимы Абдуразаковой «Куд
@@ -600,7 +615,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:interflows-exhibition-at-artepa-gallery-tashkent@afisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Последний день: Выставка Interflows в га
@@ -621,7 +636,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:kydyrbay-nazhimov-book-graphics-exhibition-tashkent@afisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Последний день: Выставка книжной гр

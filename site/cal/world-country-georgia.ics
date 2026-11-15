@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:kvareli-foundation-opening@afisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART:20261102T060000Z
 DTEND:20261102T080000Z
 SUMMARY:Открытие: Georgian Contemporary Art: Origins and Continui
@@ -32,7 +32,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:book-club-discussion-of-center-of-gravity-with-vladimir-kuzn-tbilisi@
  afisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART:20261203T153000Z
 DTEND:20261203T173000Z
 SUMMARY:Книжный клуб: обсуждение романа «Це
@@ -60,7 +60,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:lecture-multifaceted-tbilisi-city-at-the-crossroads-of-cultu-tbilisi@
  afisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART:20261117T160000Z
 DTEND:20261117T180000Z
 SUMMARY:Лекция «Многоликий Тбилиси: город н
@@ -83,7 +83,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lecture-history-of-comics-tbilisi@afisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART:20261118T160000Z
 DTEND:20261118T180000Z
 SUMMARY:Лекция «История комиксов: от наскал
@@ -107,7 +107,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:book-presentation-by-tatiana-montik-tbilisi@afisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART:20261119T160000Z
 DTEND:20261119T180000Z
 SUMMARY:Презентация книги Татьяны Монтик «
@@ -130,8 +130,32 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:konstantin-blyuz-lecture-on-israel-s-energy-strategy-tbilisi@afisha-a
+ rt
+DTSTAMP:20261115T210725Z
+DTSTART:20261120T160000Z
+DTEND:20261120T180000Z
+SUMMARY:Лекция Константина Блюза об энерге
+ тической стратегии Израиля
+LOCATION:Бар Papers\, ул. Верико Анджапаридзе\, 1\
+ , Тбилиси\, Грузия
+DESCRIPTION:Бывший заместитель директора Упр
+ авления природного газа Израиля расска
+ жет о том\, как газовые открытия изменил
+ и политику и дипломатию Ближнего Восток
+ а.\nКонстантин Блюз\nhttps://t.me/paperkartuli/30202
+URL:https://doublebasskakov.github.io/radar/#e=konstantin-blyuz-lecture-o
+ n-israel-s-energy-strategy-tbilisi
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекция Константина Блюза об энер
+ гетической стратегии Израиля
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:scientific-excursion-to-dmanisi-and-bolnisi-tbilisi@afisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART:20261121T050000Z
 DTEND:20261121T070000Z
 SUMMARY:Научная экскурсия в Дманиси и Болни
@@ -157,7 +181,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:time-presentation-of-vasily-chernyshev-s-debut-novella-tbilisi@afisha
  -art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART:20261120T160000Z
 DTEND:20261120T180000Z
 SUMMARY:«Тайме» — презентация дебютной пов
@@ -179,7 +203,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lecture-on-georgian-literature-tbilisi@afisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART:20261119T160000Z
 DTEND:20261119T180000Z
 SUMMARY:Лекция «История грузинской литерат
@@ -202,7 +226,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:georgian-trace-in-fashion-and-art-tbilisi@afisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART:20261125T160000Z
 DTEND:20261125T180000Z
 SUMMARY:Грузинский след в моде и искусстве
@@ -223,7 +247,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:27th-tbilisi-international-film-festival-tbilisi@afisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261207
 SUMMARY:27-й Международный кинофестиваль в Т
@@ -247,7 +271,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:redo-rave-tbilisi@afisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:REDO RAVE
@@ -267,7 +291,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:play-gromkie-tbilisi@afisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART;VALUE=DATE:20270406
 DTEND;VALUE=DATE:20270407
 SUMMARY:Спектакль «Громкие»

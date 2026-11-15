@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:festival-of-russian-music-moscow@afisha-art
+DTSTAMP:20261115T210725Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:Последний день: Фестиваль русской м
+ узыки
+LOCATION:Московская филармония\, Триумфальн
+ ая площадь\, 4/31\, Москва
+DESCRIPTION:Обширный фестивальный цикл\, пред
+ ставляющий шедевры отечественной музык
+ и от эпохи барокко до сочинений Дмитрия 
+ Шостаковича.\nразличные исполнители\nhttps
+ ://meloman.ru/
+URL:https://doublebasskakov.github.io/radar/#e=festival-of-russian-music-
+ moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Фестиваль русско
+ й музыки
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -5,10 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:exhibition-unity-nizhny-novgo@afisha-art
-DTSTAMP:20261115T163838Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:Открытие: Выставка «Единение»
+DTSTAMP:20261115T210725Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Последний день: Выставка «Единение
+ »
 LOCATION:Центр культуры «Рекорд»\, Нижний Но
  вгород
 DESCRIPTION:Экспозиция московской художницы 
@@ -19,7 +20,8 @@ URL:https://doublebasskakov.github.io/radar/#e=exhibition-unity-nizhny-no
  vgo
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Открытие: Выставка «Единение»
+DESCRIPTION:Последний день: Выставка «Единен
+ ие»
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:water-in-music-moscow@afisha-art
+DTSTAMP:20261115T210725Z
+DTSTART:20261121T090000Z
+DTEND:20261121T110000Z
+SUMMARY:Water in Music
+LOCATION:Филармония-2\, Малый зал\, Мичуринск
+ ий проспект\, Олимпийская деревня\, дом 1\
+ , Москва
+DESCRIPTION:Образовательный концерт-лекция\, 
+ посвященный музыкальным воплощениям во
+ дной стихии в произведениях различных к
+ омпозиторов.\nМария Холкина\, Малика Мух
+ итдинова\, Светлана Наборщикова\, Галина
+  Тарасевич-Николаева\, Павел Замула\nhttps:/
+ /meloman.ru/subscription/the-magic-of-music-2026-218/
+URL:https://doublebasskakov.github.io/radar/#e=water-in-music-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Water in Music
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:tea-with-milk-irkutsk@afisha-art
+DTSTAMP:20261115T210725Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Открытие: «Чай с молоком»
+LOCATION:Галерея Виктора Бронштейна\, ул. Ок
+ тябрьской Революции\, д. 3\, Иркутск
+DESCRIPTION:Персональная выставка работ Саян
+ ы Хомоновой.\nСаяна Хомонова\nhttps://www.vbgaller
+ y.ru/index/afisha/chai-s-molokom/
+URL:https://doublebasskakov.github.io/radar/#e=tea-with-milk-irkutsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: «Чай с молоком»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

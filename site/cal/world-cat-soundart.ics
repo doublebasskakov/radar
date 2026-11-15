@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:concert-sonic-experiments-resonating-futures-karlsruhe@afisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART:20261210T180000Z
 DTEND:20261210T200000Z
 SUMMARY:Концерт «Звуковые эксперименты – Р
@@ -31,7 +31,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:adk-sample-hold-11@afisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART:20261125T190000Z
 DTEND:20261125T210000Z
 SUMMARY:sample&hold #11: Paul Purgas & Stefan Keller
@@ -50,8 +50,27 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:sound-stories-discovering-sounds-vienna@afisha-art
+DTSTAMP:20261115T210725Z
+DTSTART:20261121T100000Z
+DTEND:20261121T120000Z
+SUMMARY:Sound Stories – Discovering Sounds
+LOCATION:Kunsthalle Wien\, Вена\, Австрия
+DESCRIPTION:Интерактивная звуковая мастерск
+ ая для детей и семей\, посвященная иссле
+ дованию звукового окружения.\nNone\nhttps://kuns
+ thallewien.at/en/event/sound-stories-discovering-sounds-2
+URL:https://doublebasskakov.github.io/radar/#e=sound-stories-discovering-
+ sounds-vienna
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sound Stories – Discovering Sounds
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:show-other-games-improvisation-tashkent@afisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART:20261118T143000Z
 DTEND:20261118T163000Z
 SUMMARY:Шоу «Другие игры. Импровизация»
@@ -70,8 +89,63 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:tibetan-singing-bowls-relaxation-practice-tashkent@afisha-art
+DTSTAMP:20261115T210725Z
+DTSTART:20261119T153000Z
+DTEND:20261119T173000Z
+SUMMARY:Практика расслабления «Тибетские ч
+ аши»
+LOCATION:Артха\, Ташкент\, Узбекистан
+DESCRIPTION:Сеанс звукотерапии и расслаблени
+ я в гамаках с использованием тибетских 
+ чаш.\nСога\nhttps://t.me/artha_uz/12562
+URL:https://doublebasskakov.github.io/radar/#e=tibetan-singing-bowls-rela
+ xation-practice-tashkent
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Практика расслабления «Тибетски
+ е чаши»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:evening-of-musical-experiments-tashkent@afisha-art
+DTSTAMP:20261115T210725Z
+DTSTART:20261118T150000Z
+DTEND:20261118T170000Z
+SUMMARY:Вечер музыкальных экспериментов
+LOCATION:Артха\, Ташкент\, Узбекистан
+DESCRIPTION:Камерное мероприятие\, посвященн
+ ое звуковым экспериментам и импровизац
+ ии.\nАртха\nhttps://t.me/artha_uz/12562
+URL:https://doublebasskakov.github.io/radar/#e=evening-of-musical-experim
+ ents-tashkent
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Вечер музыкальных экспериментов
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gong-meditation-tashkent@afisha-art
+DTSTAMP:20261115T210725Z
+DTSTART:20261117T153000Z
+DTEND:20261117T173000Z
+SUMMARY:Гонг медитация
+LOCATION:Артха\, Ташкент\, Узбекистан
+DESCRIPTION:Практика глубокого расслабления 
+ в гамаках-коконах под звуки гонга.\nСога\
+ nhttps://t.me/artha_uz/12562
+URL:https://doublebasskakov.github.io/radar/#e=gong-meditation-tashkent
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Гонг медитация
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:ctm-festival-2027@afisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART;VALUE=DATE:20270122
 DTEND;VALUE=DATE:20270123
 SUMMARY:Открытие: CTM Festival 2027
@@ -91,7 +165,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tate-atoui-hold@afisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART;VALUE=DATE:20270411
 DTEND;VALUE=DATE:20270412
 SUMMARY:Последний день: Hyundai Commission: Tarek Atoui. Hol
@@ -114,7 +188,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rewire-2027@afisha-art
-DTSTAMP:20261115T163838Z
+DTSTAMP:20261115T210725Z
 DTSTART;VALUE=DATE:20270408
 DTEND;VALUE=DATE:20270412
 SUMMARY:Rewire 2027
