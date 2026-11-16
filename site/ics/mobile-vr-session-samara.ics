@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:mobile-vr-session-samara@afisha-art
+DTSTAMP:20261116T123248Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261123
+SUMMARY:Выездной сеанс VR
+LOCATION:Самара Космическая\, пр. Ленина\, 21\, 
+ Самара
+DESCRIPTION:Погружение в виртуальную реально
+ сть на базе музейного центра\, предлагаю
+ щее цифровой опыт взаимодействия с прос
+ транством.\nNone\nhttps://www.afisha.ru/samara/schedule_exhibiti
+ on/
+URL:https://doublebasskakov.github.io/radar/#e=mobile-vr-session-samara
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выездной сеанс VR
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

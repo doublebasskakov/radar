@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:exhibition-beaux-mendes-white-forest-vienna@afisha-art
+DTSTAMP:20261116T123248Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:Открытие: Выставка: Бокс Мендес — Whi
+ te Forest
+LOCATION:Secession\, Friedrichstraße 12\, 1010 Wien\, Вена\, Авс
+ трия
+DESCRIPTION:Новый проект художника Бокса Мен
+ деса «White Forest» в галерее Secession.\nБокс Менд
+ ес\nhttps://secession.at/ausstellung_beaux_mendes_leicht
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-beaux-mendes-wh
+ ite-forest-vienna
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка: Бокс Мендес —
+  White Forest
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

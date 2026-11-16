@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:screening-of-vivre-sa-vie-moscow@afisha-art
+DTSTAMP:20261116T123248Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:Показ фильма «Жить своей жизнью»
+LOCATION:Кинотеатры Москвы\, Москва
+DESCRIPTION:Классика французской новой волны
+ \, состоящая из двенадцати эпизодов из ж
+ изни молодой женщины.\nЖан-Люк Годар\nhttps:
+ //www.afisha.ru/movie/zhit-svoey-zhiznyu-166918/
+URL:https://doublebasskakov.github.io/radar/#e=screening-of-vivre-sa-vie-
+ moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильма «Жить своей жизнью»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

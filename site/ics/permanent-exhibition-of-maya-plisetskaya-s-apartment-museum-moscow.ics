@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:permanent-exhibition-of-maya-plisetskaya-s-apartment-museum-moscow@af
+ isha-art
+DTSTAMP:20261116T123248Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:Посещение постоянной экспозиции му
+ зея-квартиры М.М. Плисецкой
+LOCATION:Музей-квартира Плисецкой\, Москва
+DESCRIPTION:Открытие доступа к постоянной эк
+ спозиции мемориальной квартиры легенда
+ рной балерины.\nМайя Плисецкая\nhttps://www.afis
+ ha.ru/msk/schedule_exhibition/
+URL:https://doublebasskakov.github.io/radar/#e=permanent-exhibition-of-ma
+ ya-plisetskaya-s-apartment-museum-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Посещение постоянной экспозиции 
+ музея-квартиры М.М. Плисецкой
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

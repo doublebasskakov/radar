@@ -9,7 +9,7 @@ X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:gla55-anne-teresa-de-keersmaeker-rosas-ictus-bl-ndman-berlin@afisha-a
  rt
-DTSTAMP:20261115T210725Z
+DTSTAMP:20261116T123248Z
 DTSTART:20261119T183000Z
 DTEND:20261119T203000Z
 SUMMARY:GLA55: Анна Тереза Де Кеерсмакер / Rosas\, 
@@ -33,7 +33,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nodirabegim-play-tashkent@afisha-art
-DTSTAMP:20261115T210725Z
+DTSTAMP:20261116T123248Z
 DTSTART:20261125T130000Z
 DTEND:20261125T150000Z
 SUMMARY:Спектакль «Nodirabegim»
@@ -55,7 +55,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:play-osmon-hamma-gapni-eshitadi-tashkent@afisha-art
-DTSTAMP:20261115T210725Z
+DTSTAMP:20261116T123248Z
 DTSTART:20261123T130000Z
 DTEND:20261123T150000Z
 SUMMARY:Спектакль «Osmon hamma gapni eshitadi»
@@ -78,7 +78,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:play-eringizni-menga-soting-tashkent@afisha-art
-DTSTAMP:20261115T210725Z
+DTSTAMP:20261116T123248Z
 DTSTART:20261129T090000Z
 DTEND:20261129T110000Z
 SUMMARY:Спектакль «Eringizni menga soting»
@@ -100,7 +100,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:premiere-of-the-comedy-play-maysara-tashkent@afisha-art
-DTSTAMP:20261115T210725Z
+DTSTAMP:20261116T123248Z
 DTSTART:20261128T120000Z
 DTEND:20261128T140000Z
 SUMMARY:Премьера комедийного спектакля «Mays
@@ -122,8 +122,47 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:saturnian-poems-tbilisi@afisha-art
+DTSTAMP:20261116T123248Z
+DTSTART:20261116T150000Z
+DTEND:20261116T170000Z
+SUMMARY:Сатурнические поэмы
+LOCATION:Тбилисский государственный театр 
+ оперы и балета\, Тбилиси\, Грузия
+DESCRIPTION:Показ постановки «Сатурнические 
+ поэмы» на сцене Тбилисского государств
+ енного театра оперы и балета.\nТбилисски
+ й государственный театр оперы и балета\n
+ https://t.me/georgiaafisha/6532
+URL:https://doublebasskakov.github.io/radar/#e=saturnian-poems-tbilisi
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Сатурнические поэмы
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:the-overcoat-tbilisi@afisha-art
+DTSTAMP:20261116T123248Z
+DTSTART:20261122T160000Z
+DTEND:20261122T180000Z
+SUMMARY:Спектакль «Шинель»
+LOCATION:Театр Марджанишвили\, Тбилиси\, Гру
+ зия
+DESCRIPTION:Театральная постановка по мотива
+ м классического произведения в театре и
+ м. Марджанишвили.\nТеатр Марджанишвили\nh
+ ttps://t.me/georgiaafisha/6532
+URL:https://doublebasskakov.github.io/radar/#e=the-overcoat-tbilisi
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спектакль «Шинель»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:sherlock-holmes-and-the-12-days-of-christmas-london@afisha-art
-DTSTAMP:20261115T210725Z
+DTSTAMP:20261116T123248Z
 DTSTART:20261124T193000Z
 DTEND:20261124T213000Z
 SUMMARY:Открытие: Sherlock Holmes and the 12 Days of Christmas
@@ -143,8 +182,32 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:the-pillar-and-the-ground-of-truth-by-pavel-a-florenskij-venice@afish
+ a-art
+DTSTAMP:20261116T123248Z
+DTSTART:20261116T180000Z
+DTEND:20261116T200000Z
+SUMMARY:Пьеса «Столп и утверждение истины» 
+ Павла Флоренского
+LOCATION:Historical Archive\, Arsenale\, Arsenale di Venezia\, Венец
+ ия\, Италия
+DESCRIPTION:Пять театральных вечеров по моти
+ вам труда Павла Флоренского в постановк
+ е Антонелло Почетти в новом пространств
+ е Исторического архива.\nАнтонелло Поче
+ тти\nhttps://www.labiennale.org/en/asac
+URL:https://doublebasskakov.github.io/radar/#e=the-pillar-and-the-ground-
+ of-truth-by-pavel-a-florenskij-venice
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Пьеса «Столп и утверждение истин
+ ы» Павла Флоренского
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:performance-les-jeux-de-l-amour-et-de-l-e-nigme-paris@afisha-art
-DTSTAMP:20261115T210725Z
+DTSTAMP:20261116T123248Z
 DTSTART:20270318T180000Z
 DTEND:20270318T200000Z
 SUMMARY:Спектакль «Les Jeux de l'amour et de l'énigme»
@@ -164,7 +227,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:play-gromkie-tbilisi@afisha-art
-DTSTAMP:20261115T210725Z
+DTSTAMP:20261116T123248Z
 DTSTART;VALUE=DATE:20270406
 DTEND;VALUE=DATE:20270407
 SUMMARY:Спектакль «Громкие»
@@ -183,7 +246,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:christmas-tree-lighting-ceremony-london@afisha-art
-DTSTAMP:20261115T210725Z
+DTSTAMP:20261116T123248Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:Церемония зажжения огней на рождес
@@ -206,7 +269,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:seven-moons-at-ilkhom-theatre-tashkent@afisha-art
-DTSTAMP:20261115T210725Z
+DTSTAMP:20261116T123248Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Спектакль «Семь лун» в театре «Ильх
@@ -226,32 +289,28 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:the-pillar-and-the-ground-of-truth-by-pavel-a-florenskij-venice@afish
- a-art
-DTSTAMP:20261115T210725Z
+UID:croydonites-independent-theatre-festival-london@afisha-art
+DTSTAMP:20261116T123248Z
 DTSTART;VALUE=DATE:20261116
-DTEND;VALUE=DATE:20261121
-SUMMARY:Пьеса «Столп и утверждение истины» 
- Павла Флоренского
-LOCATION:Historical Archive\, Arsenale\, Arsenale di Venezia\, Венец
- ия\, Италия
-DESCRIPTION:Пять театральных вечеров по моти
- вам труда Павла Флоренского в постановк
- е Антонелло Почетти в новом пространств
- е Исторического архива.\nАнтонелло Поче
- тти\nhttps://www.labiennale.org/en/asac
-URL:https://doublebasskakov.github.io/radar/#e=the-pillar-and-the-ground-
- of-truth-by-pavel-a-florenskij-venice
+DTEND;VALUE=DATE:20261122
+SUMMARY:Фестиваль независимого театра Croydoni
+ tes
+LOCATION:Кройдон\, Лондон\, Великобритания
+DESCRIPTION:Фестиваль независимых театральн
+ ых постановок и комедийных шоу в Кройдо
+ не.\nCroydonites\nhttps://t.me/eventmeuk/2379
+URL:https://doublebasskakov.github.io/radar/#e=croydonites-independent-th
+ eatre-festival-london
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Пьеса «Столп и утверждение истин
- ы» Павла Флоренского
+DESCRIPTION:Фестиваль независимого театра Croy
+ donites
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:minsk-sea-performance-vilnius@afisha-art
-DTSTAMP:20261115T210725Z
+DTSTAMP:20261116T123248Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Спектакль «Минское море»

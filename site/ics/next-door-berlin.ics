@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:next-door-berlin@afisha-art
+DTSTAMP:20261116T123248Z
+DTSTART;VALUE=DATE:20270627
+DTEND;VALUE=DATE:20270628
+SUMMARY:Последний день: Next Door
+LOCATION:Hamburger Bahnhof – Nationalgalerie der Gegenwart\, Берли
+ н\, Германия
+DESCRIPTION:Масштабная выставка работ извест
+ ных современных художников из коллекци
+ и музея.\nTacita Dean\, Thomas Demand\, Olafur Eliasson\, Henrik H
+ åkansson\, Tomás Saraceno\nhttps://www.smb.museum/en/museums-institutio
+ ns/hamburger-bahnhof/exhibitions/detail/next-door/
+URL:https://doublebasskakov.github.io/radar/#e=next-door-berlin
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Next Door
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

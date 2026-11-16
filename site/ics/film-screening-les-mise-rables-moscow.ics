@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:film-screening-les-mise-rables-moscow@afisha-art
+DTSTAMP:20261116T123248Z
+DTSTART:20261116T130000Z
+DTEND:20261116T150000Z
+SUMMARY:Кинопоказ «Отверженные»
+LOCATION:ГЭС-2\, Болотная наб.\, 15\, Москва
+DESCRIPTION:Показ авторского кино в рамках ки
+ нопрограммы Дома культуры.\n\nhttps://ges-2.org/en
+ /les-miserables
+URL:https://doublebasskakov.github.io/radar/#e=film-screening-les-mise-ra
+ bles-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Кинопоказ «Отверженные»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:japan-fest-saint-peters@afisha-art
+DTSTAMP:20261116T123248Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:Открытие: Япония.Фест
+LOCATION:tba\, Санкт-Петербург
+DESCRIPTION:Выставка современной и традицион
+ ной японской графики.\nNone\nhttps://www.afisha.ru/exhi
+ bition/yaponiya-fest-1010906/
+URL:https://doublebasskakov.github.io/radar/#e=japan-fest-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Япония.Фест
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

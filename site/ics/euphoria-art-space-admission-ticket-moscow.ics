@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:euphoria-art-space-admission-ticket-moscow@afisha-art
+DTSTAMP:20261116T123248Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:Арт-пространство Эйфория. Входной б
+ илет
+LOCATION:Арт-пространство «Эйфория»\, Береж
+ ковская наб.\, 20\, стр. 64\, Москва
+DESCRIPTION:Интерактивное пространство\, объ
+ единяющее искусство и современные техн
+ ологии для создания особого сенсорного 
+ опыта.\nNone\nhttps://www.afisha.ru/exhibition/art-prostranstvo-eyfo
+ riya-vhodnoy-bilet-1002454/
+URL:https://doublebasskakov.github.io/radar/#e=euphoria-art-space-admissi
+ on-ticket-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Арт-пространство Эйфория. Входно
+ й билет
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:special-screening-of-dust-moscow@afisha-art
+DTSTAMP:20261116T123248Z
+DTSTART:20261117T173000Z
+DTEND:20261117T193000Z
+SUMMARY:Спецпоказ фильма «Пыль»
+LOCATION:Центр Зотов\, Москва
+DESCRIPTION:Спецпоказ культового фильма «Пыл
+ ь» с участием Петра Мамонова.\nПётр Мамо
+ нов\nhttps://t.me/centrezotov/10359
+URL:https://doublebasskakov.github.io/radar/#e=special-screening-of-dust-
+ moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спецпоказ фильма «Пыль»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

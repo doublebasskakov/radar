@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:the-overcoat-tbilisi@afisha-art
+DTSTAMP:20261116T123248Z
+DTSTART:20261122T160000Z
+DTEND:20261122T180000Z
+SUMMARY:Спектакль «Шинель»
+LOCATION:Театр Марджанишвили\, Тбилиси\, Гру
+ зия
+DESCRIPTION:Театральная постановка по мотива
+ м классического произведения в театре и
+ м. Марджанишвили.\nТеатр Марджанишвили\nh
+ ttps://t.me/georgiaafisha/6532
+URL:https://doublebasskakov.github.io/radar/#e=the-overcoat-tbilisi
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спектакль «Шинель»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

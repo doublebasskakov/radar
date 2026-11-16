@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:voiceover-masterclass-saint-peters@afisha-art
+DTSTAMP:20261116T123248Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Мастер-класс по озвучке
+LOCATION:tba\, Санкт-Петербург
+DESCRIPTION:Практическое занятие по работе с
+ о звуком и озвучиванию.\nNone\nhttps://www.afisha.ru/s
+ pb/schedule_exhibition/modern_art/
+URL:https://doublebasskakov.github.io/radar/#e=voiceover-masterclass-sain
+ t-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Мастер-класс по озвучке
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

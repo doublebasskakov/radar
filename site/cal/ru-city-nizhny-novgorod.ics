@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:science-slam-nizhny-novgo@afisha-art
-DTSTAMP:20261115T210725Z
+DTSTAMP:20261116T123248Z
 DTSTART:20261117T153000Z
 DTEND:20261117T173000Z
 SUMMARY:Научная битва Science Slam
@@ -28,7 +28,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:meditative-evening-at-planetarium-1-nizhny-novgo@afisha-art
-DTSTAMP:20261115T210725Z
+DTSTAMP:20261116T123248Z
 DTSTART:20261129T150000Z
 DTEND:20261129T170000Z
 SUMMARY:Медитативный вечер в Планетарии 1
@@ -48,7 +48,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:vladimir-gepalov-s-exhibition-reflection-of-the-soul-nizhny-novgo@afi
  sha-art
-DTSTAMP:20261115T210725Z
+DTSTAMP:20261116T123248Z
 DTSTART:20261103T070000Z
 DTEND:20261103T090000Z
 SUMMARY:Открытие: Выставка Владимира Гепал
@@ -73,7 +73,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:wind-music-concert-evening-in-memory-of-yevgeny-rozhkov-nizhny-novgo@
  afisha-art
-DTSTAMP:20261115T210725Z
+DTSTAMP:20261116T123248Z
 DTSTART:20261123T143000Z
 DTEND:20261123T163000Z
 SUMMARY:Концерт духовой музыки: Вечер памят
@@ -97,7 +97,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:model-range-exhibition-nizhny-novgo@afisha-art
-DTSTAMP:20261115T210725Z
+DTSTAMP:20261116T123248Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Последний день: Выставка «Модельны
@@ -123,7 +123,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nn-9b-bomse-golos-za-kadrom@afisha-art
-DTSTAMP:20261115T210725Z
+DTSTAMP:20261116T123248Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Последний день: Эвсти Бомсе. «Голос 
@@ -149,7 +149,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-of-layouts-of-the-all-russian-exhibition-of-1896-nizhny-no
  vgo@afisha-art
-DTSTAMP:20261115T210725Z
+DTSTAMP:20261116T123248Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Последний день: Выставка макетов Вс
@@ -173,7 +173,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:konstantin-belousov-s-exhibition-people-and-birds-nizhny-novgo@afisha
  -art
-DTSTAMP:20261115T210725Z
+DTSTAMP:20261116T123248Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Последний день: Выставка Константи
@@ -196,7 +196,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ekaterina-bim-s-exhibition-unity-nizhny-novgo@afisha-art
-DTSTAMP:20261115T210725Z
+DTSTAMP:20261116T123248Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Последний день: Выставка Екатерины 
@@ -217,8 +217,30 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:guided-tour-of-the-exhibition-and-then-there-was-nothing-nizhny-novgo
+ @afisha-art
+DTSTAMP:20261116T123248Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Экскурсия по выставке «И ничего не 
+ стало»
+LOCATION:Студия «Тихая»\, Нижний Новгород
+DESCRIPTION:Кураторская экскурсия по экспози
+ ции\, посвященной недолговечности худож
+ ественных произведений и ускользающему
+  времени.\n\nhttps://t.me/gorkoNN/29582
+URL:https://doublebasskakov.github.io/radar/#e=guided-tour-of-the-exhibit
+ ion-and-then-there-was-nothing-nizhny-novgo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Экскурсия по выставке «И ничего н
+ е стало»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:model-range-nizhny-novgo@afisha-art
-DTSTAMP:20261115T210725Z
+DTSTAMP:20261116T123248Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Последний день: Модельный ряд
@@ -239,7 +261,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-unity-nizhny-novgo@afisha-art
-DTSTAMP:20261115T210725Z
+DTSTAMP:20261116T123248Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Последний день: Выставка «Единение
@@ -261,7 +283,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:arsenal-leger@afisha-art
-DTSTAMP:20261115T210725Z
+DTSTAMP:20261116T123248Z
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
 SUMMARY:Последний день: Фернан Леже. Формул
@@ -277,6 +299,68 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Последний день: Фернан Леже. Форм
  ула стиля
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lecture-christian-mosaic-ancient-traditions-and-revival-nizhny-novgo@
+ afisha-art
+DTSTAMP:20261116T123248Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:Лекция «Христианская мозаика: древ
+ ние традиции и возрождение»
+LOCATION:Арсенал\, Нижний Новгород
+DESCRIPTION:Искусствоведческая лекция о веко
+ вых канонах мозаичной техники и её акту
+ альном переосмыслении в искусстве.\nТат
+ ьяна Мошкова\nhttps://t.me/gorkoNN/29582
+URL:https://doublebasskakov.github.io/radar/#e=lecture-christian-mosaic-a
+ ncient-traditions-and-revival-nizhny-novgo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекция «Христианская мозаика: др
+ евние традиции и возрождение»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:special-screening-of-bylo-ne-bylo-nizhny-novgo@afisha-art
+DTSTAMP:20261116T123248Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Спецпоказ фильма «Было не было»
+LOCATION:Центр культуры «Рекорд»\, Нижний Но
+ вгород
+DESCRIPTION:Специальный кинопоказ ленты о се
+ мейных тайнах с личным участием и после
+ дующим обсуждением с режиссёром.\nТимоф
+ ей Анисимов\nhttps://t.me/gorkoNN/29582
+URL:https://doublebasskakov.github.io/radar/#e=special-screening-of-bylo-
+ ne-bylo-nizhny-novgo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спецпоказ фильма «Было не было»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:play-an-android-walks-into-a-bar-nizhny-novgo@afisha-art
+DTSTAMP:20261116T123248Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Спектакль «Заходит андроид в бар»
+LOCATION:Центр Театрального Мастерства\, Ни
+ жний Новгород
+DESCRIPTION:Фантастическая комедийная поста
+ новка на сцене независимой театральной 
+ площадки.\n\nhttps://t.me/gorkoNN/29582
+URL:https://doublebasskakov.github.io/radar/#e=play-an-android-walks-into
+ -a-bar-nizhny-novgo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спектакль «Заходит андроид в бар
+ »
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

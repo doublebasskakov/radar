@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:guided-tour-of-the-exhibition-and-then-there-was-nothing-nizhny-novgo
+ @afisha-art
+DTSTAMP:20261116T123248Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Экскурсия по выставке «И ничего не 
+ стало»
+LOCATION:Студия «Тихая»\, Нижний Новгород
+DESCRIPTION:Кураторская экскурсия по экспози
+ ции\, посвященной недолговечности худож
+ ественных произведений и ускользающему
+  времени.\n\nhttps://t.me/gorkoNN/29582
+URL:https://doublebasskakov.github.io/radar/#e=guided-tour-of-the-exhibit
+ ion-and-then-there-was-nothing-nizhny-novgo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Экскурсия по выставке «И ничего н
+ е стало»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

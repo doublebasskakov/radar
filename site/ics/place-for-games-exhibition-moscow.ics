@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:place-for-games-exhibition-moscow@afisha-art
+DTSTAMP:20261116T123248Z
+DTSTART:20261116T090000Z
+DTEND:20261116T110000Z
+SUMMARY:Открытие: Выставка «Место для игр»
+LOCATION:Галерея уличного искусства НЕТСТЕ
+ Н\, 4-й Сыромятнический переулок\, 1/8 стр. 6
+ \, Москва
+DESCRIPTION:Уличная экспозиция\, рассматрива
+ ющая городскую среду через призму игров
+ ых пространств и практик.\nNone\nhttps://www.winzavo
+ d.ru/calendar/exhibitions/mesto-dlya-igr/
+URL:https://doublebasskakov.github.io/radar/#e=place-for-games-exhibition
+ -moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка «Место для игр
+ »
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

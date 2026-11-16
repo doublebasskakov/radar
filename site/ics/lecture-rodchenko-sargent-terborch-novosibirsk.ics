@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:lecture-rodchenko-sargent-terborch-novosibirsk@afisha-art
+DTSTAMP:20261116T123248Z
+DTSTART;VALUE=DATE:20270213
+DTEND;VALUE=DATE:20270214
+SUMMARY:Лекторий: Родченко\, Сарджент\, Терб
+ орх
+LOCATION:Новосибирский художественный музе
+ й\, Новосибирск
+DESCRIPTION:Искусствоведческая лекция\, посв
+ ященная творчеству великого авангардис
+ та Александра Родченко в контексте миро
+ вой истории искусства.\nАлександр Родче
+ нко\nhttps://www.afisha.ru/novosibirsk/schedule_exhibition/
+URL:https://doublebasskakov.github.io/radar/#e=lecture-rodchenko-sargent-
+ terborch-novosibirsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекторий: Родченко\, Сарджент\, Те
+ рборх
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

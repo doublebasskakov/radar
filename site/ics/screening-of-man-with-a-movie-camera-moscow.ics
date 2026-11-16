@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:screening-of-man-with-a-movie-camera-moscow@afisha-art
+DTSTAMP:20261116T123248Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:Показ фильма «Человек с киноаппара
+ том»
+LOCATION:Кинотеатры Москвы\, Москва
+DESCRIPTION:Демонстрация шедевра мирового ки
+ ноавангарда\, перевернувшего представл
+ ение о языке кино и монтаже.\nДзига Верто
+ в\nhttps://www.afisha.ru/movie/cheловек-s-kinoapparatom-172189/
+URL:https://doublebasskakov.github.io/radar/#e=screening-of-man-with-a-mo
+ vie-camera-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильма «Человек с киноаппа
+ ратом»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

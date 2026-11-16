@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:festival-garage-vintage-moscow@afisha-art
+DTSTAMP:20261116T123248Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261123
+SUMMARY:Фестиваль «Гараж Винтаж»
+LOCATION:Музей Москвы\, Зубовский б-р\, 2\, Мос
+ ква
+DESCRIPTION:Двухдневный винтажный маркет и ф
+ естиваль на площадке Музея Москвы.\nМузе
+ й Москвы\nhttps://t.me/mosmuseum/7654
+URL:https://doublebasskakov.github.io/radar/#e=festival-garage-vintage-mo
+ scow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Фестиваль «Гараж Винтаж»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

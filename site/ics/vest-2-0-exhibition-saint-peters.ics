@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:vest-2-0-exhibition-saint-peters@afisha-art
+DTSTAMP:20261116T123248Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:Выставка «Весть 2.0»
+LOCATION:Русский музей\, Инженерная ул.\, 4\, С
+ анкт-Петербург
+DESCRIPTION:Масштабный проект об истории ком
+ муникаций и передачи информации в искус
+ стве от древности до цифровой эпохи.\nNone\
+ nhttps://theblueprint.ru/culture/art/vest-2-0
+URL:https://doublebasskakov.github.io/radar/#e=vest-2-0-exhibition-saint-
+ peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выставка «Весть 2.0»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

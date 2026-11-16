@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:screening-of-the-piano-teacher-moscow@afisha-art
+DTSTAMP:20261116T123248Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:Показ фильма «Пианистка»
+LOCATION:Кинотеатры Москвы\, Москва
+DESCRIPTION:Провокационная психологическая 
+ драма Михаэля Ханеке об одержимости и п
+ одавленной сексуальности.\nМихаэль Хане
+ ке\nhttps://www.afisha.ru/movie/pianistka-168754/
+URL:https://doublebasskakov.github.io/radar/#e=screening-of-the-piano-tea
+ cher-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильма «Пианистка»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

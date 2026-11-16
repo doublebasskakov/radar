@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:materialistin-matter-of-care-care-of-matter-berlin@afisha-art
+DTSTAMP:20261116T123248Z
+DTSTART;VALUE=DATE:20270314
+DTEND;VALUE=DATE:20270315
+SUMMARY:Последний день: [ materialistin ] Matter of Care\, C
+ are of Matter
+LOCATION:Hamburger Bahnhof – Nationalgalerie der Gegenwart\, Берли
+ н\, Германия
+DESCRIPTION:Выставка\, посвященная вопросам м
+ атериальности\, заботы и экологии в совр
+ еменном искусстве.\nNone\nhttps://www.smb.museum/en/museu
+ ms-institutions/hamburger-bahnhof/exhibitions/detail/materialistin/
+URL:https://doublebasskakov.github.io/radar/#e=materialistin-matter-of-ca
+ re-care-of-matter-berlin
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: [ materialistin ] Matter of Care
+ \, Care of Matter
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

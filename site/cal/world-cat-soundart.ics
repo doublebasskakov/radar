@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:concert-sonic-experiments-resonating-futures-karlsruhe@afisha-art
-DTSTAMP:20261115T210725Z
+DTSTAMP:20261116T123248Z
 DTSTART:20261210T180000Z
 DTEND:20261210T200000Z
 SUMMARY:Концерт «Звуковые эксперименты – Р
@@ -31,7 +31,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:adk-sample-hold-11@afisha-art
-DTSTAMP:20261115T210725Z
+DTSTAMP:20261116T123248Z
 DTSTART:20261125T190000Z
 DTEND:20261125T210000Z
 SUMMARY:sample&hold #11: Paul Purgas & Stefan Keller
@@ -51,7 +51,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sound-stories-discovering-sounds-vienna@afisha-art
-DTSTAMP:20261115T210725Z
+DTSTAMP:20261116T123248Z
 DTSTART:20261121T100000Z
 DTEND:20261121T120000Z
 SUMMARY:Sound Stories – Discovering Sounds
@@ -70,7 +70,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:show-other-games-improvisation-tashkent@afisha-art
-DTSTAMP:20261115T210725Z
+DTSTAMP:20261116T123248Z
 DTSTART:20261118T143000Z
 DTEND:20261118T163000Z
 SUMMARY:Шоу «Другие игры. Импровизация»
@@ -90,7 +90,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tibetan-singing-bowls-relaxation-practice-tashkent@afisha-art
-DTSTAMP:20261115T210725Z
+DTSTAMP:20261116T123248Z
 DTSTART:20261119T153000Z
 DTEND:20261119T173000Z
 SUMMARY:Практика расслабления «Тибетские ч
@@ -110,7 +110,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:evening-of-musical-experiments-tashkent@afisha-art
-DTSTAMP:20261115T210725Z
+DTSTAMP:20261116T123248Z
 DTSTART:20261118T150000Z
 DTEND:20261118T170000Z
 SUMMARY:Вечер музыкальных экспериментов
@@ -128,7 +128,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gong-meditation-tashkent@afisha-art
-DTSTAMP:20261115T210725Z
+DTSTAMP:20261116T123248Z
 DTSTART:20261117T153000Z
 DTEND:20261117T173000Z
 SUMMARY:Гонг медитация
@@ -144,8 +144,32 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:sound-stories-discovering-sounds-workshop-for-kids-and-famil-vienna@a
+ fisha-art
+DTSTAMP:20261116T123248Z
+DTSTART:20261121T100000Z
+DTEND:20261121T120000Z
+SUMMARY:Звуковые истории – Исследуем звуки
+  (Workshop for Kids and Families)
+LOCATION:Kunsthalle Wien (Museumsquartier)\, Museumsplatz 1\, 1070 Wien\,
+  Вена\, Австрия
+DESCRIPTION:Семейный мастер-класс для детей\, 
+ посвященный исследованию звукового окр
+ ужения и созданию звуковых историй.\nKunsth
+ alle Wien\nhttps://kunsthallewien.at/en/event/sound-stories-discovering-s
+ ounds-2
+URL:https://doublebasskakov.github.io/radar/#e=sound-stories-discovering-
+ sounds-workshop-for-kids-and-famil-vienna
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Звуковые истории – Исследуем зву
+ ки (Workshop for Kids and Families)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:ctm-festival-2027@afisha-art
-DTSTAMP:20261115T210725Z
+DTSTAMP:20261116T123248Z
 DTSTART;VALUE=DATE:20270122
 DTEND;VALUE=DATE:20270123
 SUMMARY:Открытие: CTM Festival 2027
@@ -165,7 +189,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tate-atoui-hold@afisha-art
-DTSTAMP:20261115T210725Z
+DTSTAMP:20261116T123248Z
 DTSTART;VALUE=DATE:20270411
 DTEND;VALUE=DATE:20270412
 SUMMARY:Последний день: Hyundai Commission: Tarek Atoui. Hol
@@ -188,7 +212,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rewire-2027@afisha-art
-DTSTAMP:20261115T210725Z
+DTSTAMP:20261116T123248Z
 DTSTART;VALUE=DATE:20270408
 DTEND;VALUE=DATE:20270412
 SUMMARY:Rewire 2027
@@ -203,6 +227,48 @@ URL:https://doublebasskakov.github.io/radar/#e=rewire-2027
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Rewire 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ryuichi-sakamoto-seeing-sound-hearing-time-berlin@afisha-art
+DTSTAMP:20261116T123248Z
+DTSTART;VALUE=DATE:20270620
+DTEND;VALUE=DATE:20270621
+SUMMARY:Последний день: Ryuichi Sakamoto: seeing sound\, hea
+ ring time
+LOCATION:Hamburger Bahnhof – Nationalgalerie der Gegenwart\, Берли
+ н\, Германия
+DESCRIPTION:Проект выдающегося композитора и
+  звукового художника Рюити Сакамото\, ис
+ следующий взаимосвязь звука и простран
+ ства.\nRyuichi Sakamoto\nhttps://www.smb.museum/en/museums-institutio
+ ns/hamburger-bahnhof/exhibitions/detail/ryuichi-sakamoto/
+URL:https://doublebasskakov.github.io/radar/#e=ryuichi-sakamoto-seeing-so
+ und-hearing-time-berlin
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Ryuichi Sakamoto: seeing sound\,
+  hearing time
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:between-movement-and-sound-sharjah@afisha-art
+DTSTAMP:20261116T123248Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Between Movement and Sound
+LOCATION:Sharjah Art Foundation\, Шарджа\, ОАЭ
+DESCRIPTION:Экспериментальная сессия\, иссле
+ дующая взаимосвязь между движением\, ри
+ тмом и звуком.\nNone\nhttps://www.sharjahart.org/en/whats-on/d
+ etails/between-movement-and-sound
+URL:https://doublebasskakov.github.io/radar/#e=between-movement-and-sound
+ -sharjah
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Between Movement and Sound
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

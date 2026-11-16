@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:tour-of-shift-of-coordinates-exhibition-moscow@afisha-art
+DTSTAMP:20261116T123248Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Последний день: Экскурсия по выстав
+ ке «Смена координат»
+LOCATION:ТОН-ЦЕНТР\, Москва
+DESCRIPTION:Экскурсия-медиация по экспозиции
+  современного искусства\, созданной по р
+ езультатам арт-резиденции в Апатитах.\nТ
+ ОН-ЦЕНТР\nhttps://ton-center.zapomni.ru/events
+URL:https://doublebasskakov.github.io/radar/#e=tour-of-shift-of-coordinat
+ es-exhibition-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Экскурсия по выст
+ авке «Смена координат»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

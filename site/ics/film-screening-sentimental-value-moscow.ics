@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:film-screening-sentimental-value-moscow@afisha-art
+DTSTAMP:20261116T123248Z
+DTSTART:20261119T163000Z
+DTEND:20261119T183000Z
+SUMMARY:Кинопоказ «Сентиментальная ценнос
+ ть»
+LOCATION:Еврейский музей и центр толерантно
+ сти\, Москва
+DESCRIPTION:Вечерний кинопоказ авторского фи
+ льма в рамках тематической программы му
+ зея.\n\nhttps://t.me/jewishmuseum/5766
+URL:https://doublebasskakov.github.io/radar/#e=film-screening-sentimental
+ -value-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Кинопоказ «Сентиментальная ценн
+ ость»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

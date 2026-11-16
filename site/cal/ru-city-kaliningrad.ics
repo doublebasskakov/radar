@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:master-class-landscape-of-mood-isaac-levitan-kaliningrad@afisha-art
-DTSTAMP:20261115T210725Z
+DTSTAMP:20261116T123248Z
 DTSTART:20261119T140000Z
 DTEND:20261119T160000Z
 SUMMARY:Мастер-класс «Пейзаж настроения. Ис
@@ -29,8 +29,34 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:meeting-with-the-participants-of-the-exhibition-maritime-ind-kalining
+ rad@afisha-art
+DTSTAMP:20261116T123248Z
+DTSTART:20261119T160000Z
+DTEND:20261119T180000Z
+SUMMARY:Встреча с участниками выставки-экс
+ перимента «Морской. Индустриальный. Наш
+ »
+LOCATION:Калининградский областной историк
+ о-художественный музей\, Калининград
+DESCRIPTION:Разговор об индустриальном насле
+ дии региона с художниками-участниками в
+ ыставочного проекта.\nТаисия Казанцева\,
+  Елена Зеленская\, Екатерина Осколкова\, 
+ Алексей Чебыкин\nhttps://t.me/koihm/6349
+URL:https://doublebasskakov.github.io/radar/#e=meeting-with-the-participa
+ nts-of-the-exhibition-maritime-ind-kaliningrad
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Встреча с участниками выставки-э
+ ксперимента «Морской. Индустриальный. Н
+ аш»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:exhibition-beauties-and-beasts-kaliningrad@afisha-art
-DTSTAMP:20261115T210725Z
+DTSTAMP:20261116T123248Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Последний день: Выставка «Красавиц
@@ -54,7 +80,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lecture-in-search-of-sound-color-kaliningrad@afisha-art
-DTSTAMP:20261115T210725Z
+DTSTAMP:20261116T123248Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Лекция «В поисках звукоцвета»
@@ -75,7 +101,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:the-magnificent-hermitage-kaliningrad@afisha-art
-DTSTAMP:20261115T210725Z
+DTSTAMP:20261116T123248Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:Великолепный Эрмитаж
@@ -95,7 +121,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:kgd-tretyakov-tochka-i-liniya@afisha-art
-DTSTAMP:20261115T210725Z
+DTSTAMP:20261116T123248Z
 DTSTART;VALUE=DATE:20270328
 DTEND;VALUE=DATE:20270329
 SUMMARY:Последний день: «Точка и линия»
@@ -116,7 +142,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:contemporary-art-exhibition-marine-industrial-ours-kaliningrad@afisha
  -art
-DTSTAMP:20261115T210725Z
+DTSTAMP:20261116T123248Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Последний день: Выставка современн
@@ -141,7 +167,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:history-hall-of-the-tretyakov-gallery-kaliningrad@afisha-art
-DTSTAMP:20261115T210725Z
+DTSTAMP:20261116T123248Z
 DTSTART;VALUE=DATE:20270112
 DTEND;VALUE=DATE:20270113
 SUMMARY:Последний день: Зал Истории Третьяк
@@ -164,7 +190,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:the-deluge-kaliningrad@afisha-art
-DTSTAMP:20261115T210725Z
+DTSTAMP:20261116T123248Z
 DTSTART;VALUE=DATE:20270122
 DTEND;VALUE=DATE:20270123
 SUMMARY:Последний день: Потоп
@@ -183,8 +209,28 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:light-and-color-painting-exhibition-kaliningrad@afisha-art
+DTSTAMP:20261116T123248Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261122
+SUMMARY:Выставка живописи «Свет и цвет»
+LOCATION:Арт-пространство «Ворота»\, ул. Лит
+ овский вал\, 61\, Калининград
+DESCRIPTION:Экспозиция художественных работ\
+ , исследующая взаимодействие световых п
+ отоков и цветовой палитры.\nNone\nhttps://vorotagal
+ lery.ru/events/fotovystavka-svet-i-cvet/
+URL:https://doublebasskakov.github.io/radar/#e=light-and-color-painting-e
+ xhibition-kaliningrad
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выставка живописи «Свет и цвет»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:exhibition-sea-of-opportunities-kaliningrad@afisha-art
-DTSTAMP:20261115T210725Z
+DTSTAMP:20261116T123248Z
 DTSTART;VALUE=DATE:20270112
 DTEND;VALUE=DATE:20270113
 SUMMARY:Последний день: Выставка «Море возм
@@ -206,7 +252,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:vasily-beynarovich-faust-of-the-21st-century-kaliningrad@afisha-art
-DTSTAMP:20261115T210725Z
+DTSTAMP:20261116T123248Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Василий Бейнарович\, Фауст 21 века. К
@@ -229,7 +275,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-dot-and-line-kaliningrad@afisha-art
-DTSTAMP:20261115T210725Z
+DTSTAMP:20261116T123248Z
 DTSTART;VALUE=DATE:20270112
 DTEND;VALUE=DATE:20270113
 SUMMARY:Последний день: Выставка «Точка и л
@@ -251,7 +297,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:installation-the-flood-kaliningrad@afisha-art
-DTSTAMP:20261115T210725Z
+DTSTAMP:20261116T123248Z
 DTSTART;VALUE=DATE:20270122
 DTEND;VALUE=DATE:20270123
 SUMMARY:Последний день: Инсталляция «Потоп
@@ -273,7 +319,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sea-of-possibilities-kaliningrad@afisha-art
-DTSTAMP:20261115T210725Z
+DTSTAMP:20261116T123248Z
 DTSTART;VALUE=DATE:20270114
 DTEND;VALUE=DATE:20270115
 SUMMARY:Последний день: Море возможностей
@@ -295,7 +341,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:the-red-lantern-performance-tour-kaliningrad@afisha-art
-DTSTAMP:20261115T210725Z
+DTSTAMP:20261116T123248Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261122
 SUMMARY:Гастроли спектакля «Красный фонарь
@@ -312,26 +358,6 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Гастроли спектакля «Красный фона
  рь»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:light-and-color-painting-exhibition-kaliningrad@afisha-art
-DTSTAMP:20261115T210725Z
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261122
-SUMMARY:Выставка живописи «Свет и цвет»
-LOCATION:Арт-пространство «Ворота»\, ул. Лит
- овский вал\, 61\, Калининград
-DESCRIPTION:Экспозиция художественных работ\
- , исследующая взаимодействие световых п
- отоков и цветовой палитры.\nNone\nhttps://vorotagal
- lery.ru/events/fotovystavka-svet-i-cvet/
-URL:https://doublebasskakov.github.io/radar/#e=light-and-color-painting-e
- xhibition-kaliningrad
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Выставка живописи «Свет и цвет»
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

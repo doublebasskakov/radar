@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:intimate-bakst-saint-peters@afisha-art
+DTSTAMP:20261116T123248Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:Интимный Бакст
+LOCATION:Санкт-Петербург
+DESCRIPTION:Выставка\, раскрывающая камерные 
+ и личные стороны творчества знаменитог
+ о художника Льва Бакста.\nЛев Бакст\nhttps://
+ theblueprint.ru/culture/art/vystavki-november2026
+URL:https://doublebasskakov.github.io/radar/#e=intimate-bakst-saint-peter
+ s
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Интимный Бакст
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

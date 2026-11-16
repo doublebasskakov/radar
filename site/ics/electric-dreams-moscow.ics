@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:electric-dreams-moscow@afisha-art
+DTSTAMP:20261116T123248Z
+DTSTART;VALUE=DATE:20270203
+DTEND;VALUE=DATE:20270204
+SUMMARY:Электрические сны
+LOCATION:Камерный зал Филармонии\, Москва
+DESCRIPTION:Событие Центра электроакустичес
+ кой музыки Московской консерватории\, п
+ освященное взаимодействию живого звука
+  и технологий.\nПлатформа CEAM Artists Центра 
+ электроакустической музыки Московской 
+ консерватории\nhttps://meloman.ru/subscription/~74sp/
+URL:https://doublebasskakov.github.io/radar/#e=electric-dreams-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Электрические сны
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

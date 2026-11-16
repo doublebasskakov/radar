@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:screening-of-twin-peaks-fire-walk-with-me-moscow@afisha-art
+DTSTAMP:20261116T123248Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:Показ фильма «Твин Пикс: Сквозь ого
+ нь»
+LOCATION:Кинотеатры Москвы\, Москва
+DESCRIPTION:Кинопоказ культового сюрреалист
+ ического триллера Дэвида Линча\, прикве
+ ла знаменитого сериала.\nДэвид Линч\nhttps:/
+ /www.afisha.ru/movie/tvin-piks-skvoz-ogon-181071/
+URL:https://doublebasskakov.github.io/radar/#e=screening-of-twin-peaks-fi
+ re-walk-with-me-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильма «Твин Пикс: Сквозь о
+ гонь»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

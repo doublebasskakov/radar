@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:screening-of-the-killing-of-a-sacred-deer-moscow@afisha-art
+DTSTAMP:20261116T123248Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:Показ фильма «Убийство священного 
+ оленя»
+LOCATION:Кинотеатры Москвы\, Москва
+DESCRIPTION:Сюрреалистический триллер в жанр
+ е «греческой странной волны» от режиссе
+ ра Йоргоса Лантимоса.\nЙоргос Лантимос\nh
+ ttps://www.afisha.ru/movie/ubiystvo-svyashchennogo-olenya-228888/
+URL:https://doublebasskakov.github.io/radar/#e=screening-of-the-killing-o
+ f-a-sacred-deer-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильма «Убийство священног
+ о оленя»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:iv-antiquities-fair-antique-collection-moscow@afisha-art
+DTSTAMP:20261116T123248Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:IV Ярмарка старины «Антикварная кол
+ лекция»
+LOCATION:Москва
+DESCRIPTION:Четвертая ярмарка-продажа антикв
+ арных предметов\, искусства и предметов 
+ старины.\nNone\nhttps://www.afisha.ru/msk/schedule_exhibition/
+URL:https://doublebasskakov.github.io/radar/#e=iv-antiquities-fair-antiqu
+ e-collection-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:IV Ярмарка старины «Антикварная к
+ оллекция»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

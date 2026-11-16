@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:screening-of-the-film-dance-breath-about-maurice-be-jart-moscow@afish
+ a-art
+DTSTAMP:20261116T123248Z
+DTSTART:20261128T153000Z
+DTEND:20261128T173000Z
+SUMMARY:Кинопоказ фильма «Дыхание танца» о 
+ Морисе Бежаре
+LOCATION:Еврейский музей и центр толерантно
+ сти\, Москва
+DESCRIPTION:Показ документального фильма о л
+ егендарном хореографе в рамках програм
+ мы к выставке о Майе Плисецкой.\nАлексей 
+ Исайчев\nhttps://t.me/vmuzey/32305
+URL:https://doublebasskakov.github.io/radar/#e=screening-of-the-film-danc
+ e-breath-about-maurice-be-jart-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Кинопоказ фильма «Дыхание танца»
+  о Морисе Бежаре
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:badgrub-birthday-party-moscow@afisha-art
+DTSTAMP:20261116T123248Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:Вечеринка «День рождения Badgrub»
+LOCATION:Москва
+DESCRIPTION:Московская праздничная клубная н
+ очь от команды System 108.\nSystem 108\, Badgrub\nhttps://t.m
+ e/system108/14633
+URL:https://doublebasskakov.github.io/radar/#e=badgrub-birthday-party-mos
+ cow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Вечеринка «День рождения Badgrub»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

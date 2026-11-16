@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:play-subscriber-temporarily-unavailable-moscow@afisha-art
+DTSTAMP:20261116T123248Z
+DTSTART:20261121T160000Z
+DTEND:20261121T180000Z
+SUMMARY:Спектакль «Абонент временно недост
+ упен»
+LOCATION:Музей «Садовое кольцо»\, пр. Мира\, 14
+ \, Москва
+DESCRIPTION:Театральная постановка на площад
+ ке музея «Садовое кольцо».\nМузей «Садов
+ ое кольцо»\nhttps://t.me/mosmuseum/7654
+URL:https://doublebasskakov.github.io/radar/#e=play-subscriber-temporaril
+ y-unavailable-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спектакль «Абонент временно недо
+ ступен»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

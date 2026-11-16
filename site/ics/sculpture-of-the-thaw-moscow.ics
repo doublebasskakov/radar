@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:sculpture-of-the-thaw-moscow@afisha-art
+DTSTAMP:20261116T123248Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:Выставка «Скульптура оттепели»
+LOCATION:Центр AZART\, Москва
+DESCRIPTION:Экспозиция\, посвященная пластич
+ ескому искусству периода советской «от
+ тепели».\nNone\nhttps://theblueprint.ru/culture/art/sculpture-otte
+ pel
+URL:https://doublebasskakov.github.io/radar/#e=sculpture-of-the-thaw-mosc
+ ow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выставка «Скульптура оттепели»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:play-the-mozart-brothers-moscow@afisha-art
+DTSTAMP:20261116T123248Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:Спектакль «Братья Моцарт»
+LOCATION:Московский международный Дом музы
+ ки\, Космодамианская наб.\, 52\, стр. 8\, Моск
+ ва
+DESCRIPTION:Премьера музыкального спектакля 
+ Дмитрия Минчёнка об истории взлёта и за
+ бвения композитора Евстигнея Фомина.\nД
+ митрий Минчёнок\, Телерадиоцентр «Орфей
+ »\nhttps://t.me/orpheusradio/51579
+URL:https://doublebasskakov.github.io/radar/#e=play-the-mozart-brothers-m
+ oscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спектакль «Братья Моцарт»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

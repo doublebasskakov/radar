@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:badgrub-birthday-party-saint-peters@afisha-art
+DTSTAMP:20261116T123248Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Вечеринка «День рождения Badgrub»
+LOCATION:Санкт-Петербург
+DESCRIPTION:Праздничная электронная вечерин
+ ка промо-команды в Санкт-Петербурге.\nSyste
+ m 108\, Badgrub\nhttps://t.me/system108/14633
+URL:https://doublebasskakov.github.io/radar/#e=badgrub-birthday-party-sai
+ nt-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Вечеринка «День рождения Badgrub»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

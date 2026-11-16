@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:screening-suspiria-stan-douglas-paris@afisha-art
+DTSTAMP:20261116T123248Z
+DTSTART;VALUE=DATE:20270109
+DTEND;VALUE=DATE:20270110
+SUMMARY:Последний день: Показ: Суспирия (в р
+ амках выставки Стэна Дугласа)
+LOCATION:Jeu de Paume\, 1 Place de la Concorde\, 75008 Paris\, Париж
+ \, Франция
+DESCRIPTION:Кинопоказ\, приуроченный к текуще
+ й экспозиции Стэна Дугласа в艺术ном цент
+ ре.\nStan Douglas\nhttps://jeudepaume.org/en/evenement/suspiria/
+URL:https://doublebasskakov.github.io/radar/#e=screening-suspiria-stan-do
+ uglas-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Показ: Суспирия (в
+  рамках выставки Стэна Дугласа)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

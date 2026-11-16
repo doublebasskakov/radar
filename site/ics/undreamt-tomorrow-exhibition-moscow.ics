@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:undreamt-tomorrow-exhibition-moscow@afisha-art
+DTSTAMP:20261116T123248Z
+DTSTART:20261116T090000Z
+DTEND:20261116T110000Z
+SUMMARY:Открытие: Выставка «Неприснившееся
+  завтра»
+LOCATION:ЦСИ Винзавод\, Акцизный зал\, 4-й Сыр
+ омятнический переулок\, 1/8 стр. 6\, Москва
+DESCRIPTION:Художественное исследование буд
+ ущего в рамках проекта «Винзавод.Экспер
+ имент»\, объединяющее работы современны
+ х авторов.\nВинзавод.Эксперимент\nhttps://www.
+ winzavod.ru/calendar/exhibitions/neprisnivsheesya-zavtra/
+URL:https://doublebasskakov.github.io/radar/#e=undreamt-tomorrow-exhibiti
+ on-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка «Неприснившее
+ ся завтра»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:personal-exhibition-of-balzhinima-dorzhiev-irkutsk@afisha-art
+DTSTAMP:20261116T123248Z
+DTSTART:20261116T030000Z
+DTEND:20261116T050000Z
+SUMMARY:Открытие: Персональная выставка Ба
+ льжинимы Доржиева
+LOCATION:Галерея Виктора Бронштейна\, ул. Ок
+ тябрьской Революции\, д. 3\, Иркутск
+DESCRIPTION:Выставка яркой и самобытной живо
+ писи народного художника Бурятии.\nБаль
+ жинима Доржиев\nhttps://www.vbgallery.ru/index/afisha/balzhi
+ nima-dorzhiev/
+URL:https://doublebasskakov.github.io/radar/#e=personal-exhibition-of-bal
+ zhinima-dorzhiev-irkutsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Персональная выставка 
+ Бальжинимы Доржиева
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

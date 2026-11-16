@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:moscow-philharmonic-orchestra-concert-moscow@afisha-art
+DTSTAMP:20261116T123248Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:Концерт Симфонического оркестра Мо
+ сковской филармонии
+LOCATION:Концертный зал им. П. И. Чайковского
+ \, Москва
+DESCRIPTION:Оркестровый концерт современной 
+ академической музыки с произведениями 
+ Арво Пярта\, Софии Губайдулиной и Сергея
+  Прокофьева.\nДмитрий Юровский\, Вадим Ре
+ пин\, АСО Московской филармонии\nhttps://t.me/t
+ ime_to_hear/203
+URL:https://doublebasskakov.github.io/radar/#e=moscow-philharmonic-orches
+ tra-concert-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт Симфонического оркестра 
+ Московской филармонии
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR
