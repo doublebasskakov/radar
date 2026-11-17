@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:no-admittance-except-on-business-istanbul@afisha-art
+DTSTAMP:20261117T130140Z
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+SUMMARY:Последний день: Выставка «Посторон
+ ним вход только по делу»
+LOCATION:Salt Galata\, Bankalar Caddesi 11\, 34421 Karaköy İstanbul\, 
+ Стамбул\, Турция
+DESCRIPTION:Экспозиция\, исследующая архивны
+ е материалы и темы труда\, бизнеса и прос
+ транственных ограничений.\n\nhttps://saltonline.or
+ g/en/exhibition-no-admittance-except-on-business-3107
+URL:https://doublebasskakov.github.io/radar/#e=no-admittance-except-on-bu
+ siness-istanbul
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Выставка «Постор
+ онним вход только по делу»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

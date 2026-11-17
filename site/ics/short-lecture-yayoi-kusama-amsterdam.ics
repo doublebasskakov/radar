@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:short-lecture-yayoi-kusama-amsterdam@afisha-art
+DTSTAMP:20261117T130140Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Лекция о выставке Yayoi Kusama
+LOCATION:Stedelijk Museum Amsterdam\, Museumplein 10\, 1071 DJ Amsterdam\
+ , Амстердам\, Нидерланды
+DESCRIPTION:Краткая вводная лекция о творчес
+ тве и экспозиции Яёи Кусамы.\nYayoi Kusama\nhttps:
+ //www.stedelijk.nl/en/events/introductory-lecture-yayoi-kusama
+URL:https://doublebasskakov.github.io/radar/#e=short-lecture-yayoi-kusama
+ -amsterdam
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекция о выставке Yayoi Kusama
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

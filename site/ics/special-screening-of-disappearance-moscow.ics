@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:special-screening-of-disappearance-moscow@afisha-art
+DTSTAMP:20261117T130140Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Спецпоказ фильма «Исчезновение»
+LOCATION:Кинотеатр «Пионер»\, Москва
+DESCRIPTION:Премьерный показ чилийского дете
+ ктива из программы «Особый взгляд» Канн
+ ского кинофестиваля с обсуждением кино
+ веда.\nВиктор Прокофьев\nhttps://t.me/pionercinemaru/5
+ 603
+URL:https://doublebasskakov.github.io/radar/#e=special-screening-of-disap
+ pearance-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спецпоказ фильма «Исчезновение»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:art-of-contemporaries-tomsk@afisha-art
+DTSTAMP:20261117T130140Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:Открытие: Искусство современников
+LOCATION:Томский центр современной культур
+ ы\, Томск
+DESCRIPTION:Выставка\, представляющая актуал
+ ьные художественные практики и произве
+ дения современных сибирских авторов.\nNon
+ e\nhttps://www.afisha.ru/exhibition/iskusstvo-sovremennikov-1016008/
+URL:https://doublebasskakov.github.io/radar/#e=art-of-contemporaries-toms
+ k
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Искусство современнико
+ в
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

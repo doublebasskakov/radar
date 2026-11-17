@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:kirill-arkhipov-concert-saint-peters@afisha-art
+DTSTAMP:20261117T130140Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:Концерт Кирилла Архипова
+LOCATION:Дом Радио\, Санкт-Петербург
+DESCRIPTION:Экспериментальная программа ком
+ позитора Кирилла Архипова\, сочетающая 
+ академическую музыку\, минимал-техно\, к
+ олесную лиру и интерпретации Стравинск
+ ого.\nКирилл Архипов\, musicAeterna\, Академия и
+ мени Антона Рубинштейна\, Илья Гайсин\nhtt
+ ps://t.me/domradio_online/2200
+URL:https://doublebasskakov.github.io/radar/#e=kirill-arkhipov-concert-sa
+ int-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт Кирилла Архипова
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:exhibition-art-about-food-moscow@afisha-art
+DTSTAMP:20261117T130140Z
+DTSTART;VALUE=DATE:20261222
+DTEND;VALUE=DATE:20261223
+SUMMARY:Открытие: Выставка «Искусство про е
+ ду»
+LOCATION:ГМИИ им. А.С. Пушкина (Галерея новог
+ о искусства)\, ул. Волхонка\, 14\, Москва
+DESCRIPTION:Экспозиция произведений живопис
+ и\, графики и предметов быта\, раскрывающ
+ ая темы кулинарии\, застольных традиций 
+ и кухонной утвари.\nГМИИ им. А.С. Пушкина\n
+ https://t.me/vmuzey/32313
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-art-about-food-
+ moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка «Искусство пр
+ о еду»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

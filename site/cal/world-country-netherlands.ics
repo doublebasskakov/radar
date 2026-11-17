@@ -7,8 +7,50 @@ X-WR-CALNAME:Радар — Мир / World · country-netherlands
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:prince-claus-fund-impact-symposium-community-is-a-gift-amsterdam@afis
+ ha-art
+DTSTAMP:20261117T130140Z
+DTSTART:20261128T123000Z
+DTEND:20261128T143000Z
+SUMMARY:Симпозиум Prince Claus Fund: Community is a Gift
+LOCATION:Stedelijk Museum Amsterdam\, Museumplein 10\, 1071 DJ Amsterdam\
+ , Амстердам\, Нидерланды
+DESCRIPTION:Импакт-симпозиум Фонда Клауса пр
+ инца Нидерландского\, посвященный идеям
+  комьюнити и социальной солидарности.\nPr
+ ince Claus Fund\nhttps://www.stedelijk.nl/en/events/community-is-a-gift-s
+ ymposium
+URL:https://doublebasskakov.github.io/radar/#e=prince-claus-fund-impact-s
+ ymposium-community-is-a-gift-amsterdam
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Симпозиум Prince Claus Fund: Community is a Gift
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:artist-talk-adam-pendleton-amsterdam@afisha-art
+DTSTAMP:20261117T130140Z
+DTSTART:20261118T080000Z
+DTEND:20261118T100000Z
+SUMMARY:Артист-ток: Adam Pendleton
+LOCATION:Stedelijk Museum Amsterdam\, Museumplein 10\, 1071 DJ Amsterdam\
+ , Амстердам\, Нидерланды
+DESCRIPTION:Встреча и разговор с американски
+ м художником Адамом Пендлтоном в Стедел
+ ик музее.\nAdam Pendleton\nhttps://www.stedelijk.nl/en/events/arti
+ st-talk-adam-pendleton-en
+URL:https://doublebasskakov.github.io/radar/#e=artist-talk-adam-pendleton
+ -amsterdam
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Артист-ток: Adam Pendleton
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:rewire-2027@afisha-art
-DTSTAMP:20261117T003107Z
+DTSTAMP:20261117T130140Z
 DTSTART;VALUE=DATE:20270408
 DTEND;VALUE=DATE:20270412
 SUMMARY:Rewire 2027
@@ -28,7 +70,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:stedelijk-yayoi-kusama@afisha-art
-DTSTAMP:20261117T003107Z
+DTSTAMP:20261117T130140Z
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
 SUMMARY:Последний день: Yayoi Kusama
@@ -49,7 +91,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:holland-festival-2027@afisha-art
-DTSTAMP:20261117T003107Z
+DTSTAMP:20261117T130140Z
 DTSTART;VALUE=DATE:20270603
 DTEND;VALUE=DATE:20270604
 SUMMARY:Открытие: Holland Festival 2027
@@ -65,6 +107,25 @@ URL:https://doublebasskakov.github.io/radar/#e=holland-festival-2027
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Открытие: Holland Festival 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:short-lecture-yayoi-kusama-amsterdam@afisha-art
+DTSTAMP:20261117T130140Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Лекция о выставке Yayoi Kusama
+LOCATION:Stedelijk Museum Amsterdam\, Museumplein 10\, 1071 DJ Amsterdam\
+ , Амстердам\, Нидерланды
+DESCRIPTION:Краткая вводная лекция о творчес
+ тве и экспозиции Яёи Кусамы.\nYayoi Kusama\nhttps:
+ //www.stedelijk.nl/en/events/introductory-lecture-yayoi-kusama
+URL:https://doublebasskakov.github.io/radar/#e=short-lecture-yayoi-kusama
+ -amsterdam
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекция о выставке Yayoi Kusama
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

@@ -7,9 +7,30 @@ X-WR-CALNAME:Радар — Россия · city-perm
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:lecture-concert-evening-of-unpopular-music-perm@afisha-art
+DTSTAMP:20261117T130140Z
+DTSTART:20261120T140000Z
+DTEND:20261120T160000Z
+SUMMARY:Лекция–концерт «Вечер непопулярно
+ й музыки»
+LOCATION:Пермская галерея\, Пермь
+DESCRIPTION:Просветительское мероприятие\, п
+ освященное истории\, философии и особен
+ ностям создания эмбиент-музыки.\nNone\nhttps:/
+ /t.me/mmmperm/8780
+URL:https://doublebasskakov.github.io/radar/#e=lecture-concert-evening-of
+ -unpopular-music-perm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекция–концерт «Вечер непопуляр
+ ной музыки»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:concert-performance-of-the-opera-andrea-che-nier-lecture-by--perm@afi
  sha-art
-DTSTAMP:20261117T003107Z
+DTSTAMP:20261117T130140Z
 DTSTART:20261122T120000Z
 DTEND:20261122T140000Z
 SUMMARY:Концертное исполнение оперы «Андре
@@ -32,7 +53,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:concert-performance-of-the-opera-andrea-che-nier-creative-me-perm@afi
  sha-art
-DTSTAMP:20261117T003107Z
+DTSTAMP:20261117T130140Z
 DTSTART:20261121T110000Z
 DTEND:20261121T130000Z
 SUMMARY:Концертное исполнение оперы «Андре
@@ -55,29 +76,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:lecture-concert-evening-of-unpopular-music-perm@afisha-art
-DTSTAMP:20261117T003107Z
-DTSTART:20261120T140000Z
-DTEND:20261120T160000Z
-SUMMARY:Лекция–концерт «Вечер непопулярно
- й музыки»
-LOCATION:Пермская галерея\, Пермь
-DESCRIPTION:Просветительское мероприятие\, п
- освященное истории\, философии и особен
- ностям создания эмбиент-музыки.\nNone\nhttps:/
- /t.me/mmmperm/8780
-URL:https://doublebasskakov.github.io/radar/#e=lecture-concert-evening-of
- -unpopular-music-perm
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Лекция–концерт «Вечер непопуляр
- ной музыки»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:guided-tour-with-tatyana-sinitsyna-perm@afisha-art
-DTSTAMP:20261117T003107Z
+DTSTAMP:20261117T130140Z
 DTSTART:20261117T140000Z
 DTEND:20261117T160000Z
 SUMMARY:Экскурсия с Татьяной Синицыной
@@ -96,7 +96,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-in-the-forests-perm@afisha-art
-DTSTAMP:20261117T003107Z
+DTSTAMP:20261117T130140Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Последний день: Выставка «В лесах»
@@ -118,7 +118,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:perm-drugie-krugi-barskaya-nechernyy-kvadrat@afisha-art
-DTSTAMP:20261117T003107Z
+DTSTAMP:20261117T130140Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Последний день: Анна Барская. «Нечё
@@ -141,7 +141,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:new-year-red-market-perm@afisha-art
-DTSTAMP:20261117T003107Z
+DTSTAMP:20261117T130140Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261221
 SUMMARY:Новогодний RED MARKET
@@ -159,7 +159,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:polar-bear-parma-s-birthday-celebration-perm@afisha-art
-DTSTAMP:20261117T003107Z
+DTSTAMP:20261117T130140Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Праздник в честь дня рождения белой
@@ -181,7 +181,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:art-lectorium-how-new-year-and-christmas-were-celebrated-perm@afisha-
  art
-DTSTAMP:20261117T003107Z
+DTSTAMP:20261117T130140Z
 DTSTART;VALUE=DATE:20270106
 DTEND;VALUE=DATE:20270107
 SUMMARY:Арт-лекторий. Как встречали Новый г

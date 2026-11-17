@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:wicker-moscow@afisha-art
+DTSTAMP:20261117T130140Z
+DTSTART:20261117T163000Z
+DTEND:20261117T183000Z
+SUMMARY:Плетень
+LOCATION:ГЭС-2\, Болотная наб.\, 15\, Москва
+DESCRIPTION:Кинопоказ авторского фильма в ра
+ мках программы кинотеатра Дома культур
+ ы.\n\nhttps://ges-2.org/en/wicker
+URL:https://doublebasskakov.github.io/radar/#e=wicker-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Плетень
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

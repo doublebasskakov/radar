@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:nadya-kovba-silence-samara@afisha-art
+DTSTAMP:20261117T130140Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:Открытие: Надя Ковба. Тишина
+LOCATION:КЦ «ЗИМ-галерея»\, ул. Ново-Садовая\,
+  106Г\, Самара
+DESCRIPTION:Интерактивная художественная вы
+ ставка Нади Ковбы\, исследующая тему вну
+ треннего покоя.\nНадя Ковба\nhttps://www.afisha.ru/
+ exhibition/nadya-kovba-tishina-1014553/
+URL:https://doublebasskakov.github.io/radar/#e=nadya-kovba-silence-samara
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Надя Ковба. Тишина
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

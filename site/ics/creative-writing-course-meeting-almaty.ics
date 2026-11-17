@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:creative-writing-course-meeting-almaty@afisha-art
+DTSTAMP:20261117T130140Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Встреча курса художественного пись
+ ма
+LOCATION:Центр современной культуры «Целин
+ ный»\, Алматы\, Казахстан
+DESCRIPTION:Занятие курса художественного пи
+ сьма\, посвященное символизму\, деталям 
+ и приемам предвосхищения в литературе.\n
+ Центр современной культуры «Целинный»\n
+ https://t.me/tselinnycenter/1852
+URL:https://doublebasskakov.github.io/radar/#e=creative-writing-course-me
+ eting-almaty
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Встреча курса художественного пи
+ сьма
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

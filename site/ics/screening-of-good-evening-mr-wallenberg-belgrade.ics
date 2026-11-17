@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:screening-of-good-evening-mr-wallenberg-belgrade@afisha-art
+DTSTAMP:20261117T130140Z
+DTSTART:20261117T180000Z
+DTEND:20261117T200000Z
+SUMMARY:Показ фильма «Good Evening Mr. Wallenberg»
+LOCATION:Jevrejski kulturni centar\, Белград\, Сербия
+DESCRIPTION:Показ картины в рамках программы 
+ шестого Еврейского кинофестиваля.\n6-й Е
+ врейский кинофестиваль\nhttps://t.me/mapamagrus/1743
+ 0
+URL:https://doublebasskakov.github.io/radar/#e=screening-of-good-evening-
+ mr-wallenberg-belgrade
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильма «Good Evening Mr. Wallenberg»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

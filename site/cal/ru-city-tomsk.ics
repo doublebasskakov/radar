@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:tomsk-masm-denisov@afisha-art
-DTSTAMP:20261117T003107Z
+DTSTAMP:20261117T130140Z
 DTSTART:20261124T120000Z
 DTEND:20261124T140000Z
 SUMMARY:МАСМ. «Диалоги сквозь время: Эдисон 
@@ -27,8 +27,27 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:tsxr-scan-tomsk@afisha-art
+DTSTAMP:20261117T130140Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:Открытие: ТСХР + СКАН
+LOCATION:Томский центр современной культур
+ ы\, Томск
+DESCRIPTION:Совместный выставочный проект Тв
+ орческого союза художников России и пла
+ тформы современного искусства «СКАН».\nN
+ one\nhttps://www.afisha.ru/exhibition/tshr-skan-1015141/
+URL:https://doublebasskakov.github.io/radar/#e=tsxr-scan-tomsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: ТСХР + СКАН
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:tshr-scan-exhibition-tomsk@afisha-art
-DTSTAMP:20261117T003107Z
+DTSTAMP:20261117T130140Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Последний день: Выставка ТСХР + СКАН
@@ -49,7 +68,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tomsk-kabinet-flora-sibiri@afisha-art
-DTSTAMP:20261117T003107Z
+DTSTAMP:20261117T130140Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:Последний день: «Флора Сибири: худо
@@ -72,7 +91,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:first-workshop-of-siberian-art-exhibition-tomsk@afisha-art
-DTSTAMP:20261117T003107Z
+DTSTAMP:20261117T130140Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Последний день: Выставка Первой мас
@@ -95,8 +114,73 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:art-of-contemporaries-tomsk@afisha-art
+DTSTAMP:20261117T130140Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:Открытие: Искусство современников
+LOCATION:Томский центр современной культур
+ ы\, Томск
+DESCRIPTION:Выставка\, представляющая актуал
+ ьные художественные практики и произве
+ дения современных сибирских авторов.\nNon
+ e\nhttps://www.afisha.ru/exhibition/iskusstvo-sovremennikov-1016008/
+URL:https://doublebasskakov.github.io/radar/#e=art-of-contemporaries-toms
+ k
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Искусство современнико
+ в
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:history-of-cinema-russian-cinematography-tomsk@afisha-art
+DTSTAMP:20261117T130140Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:История кино: российский кинематог
+ раф
+LOCATION:Томский центр современной культур
+ ы\, Томск
+DESCRIPTION:Цикл лекций\, посвященный ключевы
+ м этапам становления и развития отечест
+ венного киноискусства.\nNone\nhttps://www.afisha.ru/e
+ xhibition/istoriya-kino-rossiyskiy-kinematograf-1016144/
+URL:https://doublebasskakov.github.io/radar/#e=history-of-cinema-russian-
+ cinematography-tomsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:История кино: российский кинемат
+ ограф
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:contemporaries-vidimo-nevidimo-tomsk@afisha-art
+DTSTAMP:20261117T130140Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:Открытие: Современники + Видимо-нев
+ идимо
+LOCATION:Томский центр современной культур
+ ы\, Томск
+DESCRIPTION:Художественный проект\, исследую
+ щий границы видимого в работах современ
+ ных авторов.\nNone\nhttps://www.afisha.ru/exhibition/sovremenni
+ ki-vidimo-nevidimo-1016717/
+URL:https://doublebasskakov.github.io/radar/#e=contemporaries-vidimo-nevi
+ dimo-tomsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Современники + Видимо-н
+ евидимо
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:tshr-decorative-and-applied-art-exhibition-tomsk@afisha-art
-DTSTAMP:20261117T003107Z
+DTSTAMP:20261117T130140Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Последний день: Выставка декоратив
@@ -118,7 +202,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lecture-architecture-instruction-for-use-tomsk@afisha-art
-DTSTAMP:20261117T003107Z
+DTSTAMP:20261117T130140Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 SUMMARY:Курс «Архитектура: инструкция по пр
