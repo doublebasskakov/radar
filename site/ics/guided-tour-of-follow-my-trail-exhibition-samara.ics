@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:guided-tour-of-follow-my-trail-exhibition-samara@afisha-art
+DTSTAMP:20261117T003107Z
+DTSTART:20261121T110000Z
+DTEND:20261121T130000Z
+SUMMARY:Экскурсия по выставке «Идите по мое
+ му следу»
+LOCATION:Галерея «Виктория»\, Некрасовская 
+ ул.\, 2\, Самара
+DESCRIPTION:Обзорный осмотр выставочной эксп
+ озиции с гидом.\nГалерея «Виктория»\nhttps:/
+ /t.me/gallery_victoria/4248
+URL:https://doublebasskakov.github.io/radar/#e=guided-tour-of-follow-my-t
+ rail-exhibition-samara
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Экскурсия по выставке «Идите по м
+ оему следу»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

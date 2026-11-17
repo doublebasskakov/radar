@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:konferencia-pozdnesovetskoe-pole-eksperimentov-den-1-moscow@afisha-ar
+ t
+DTSTAMP:20261117T003107Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261123
+SUMMARY:Конференция «Позднесоветское поле 
+ экспериментов»: День 1
+LOCATION:Президентская академия\, Большая О
+ рдынка\, 46\, Москва
+DESCRIPTION:Первый день научной конференции\,
+  посвященной экспериментальным поискам
+  и техническим утопиям оттепели.\nNone\nhttps:
+ //t.me/voznesenskycenter/4677
+URL:https://doublebasskakov.github.io/radar/#e=konferencia-pozdnesovetsko
+ e-pole-eksperimentov-den-1-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Конференция «Позднесоветское по
+ ле экспериментов»: День 1
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

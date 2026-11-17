@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:lecture-space-resources-tbilisi@afisha-art
+DTSTAMP:20261117T003107Z
+DTSTART:20261117T113000Z
+DTEND:20261117T133000Z
+SUMMARY:Лекция «Ресурсы космоса»
+LOCATION:Auditoria\, S. Janashia 22-26\, Тбилиси\, Грузия
+DESCRIPTION:Астроном Владимир Сурдин расскаж
+ ет о ценности космических условий для н
+ ауки\, уникальных ресурсах вне Земли и п
+ оисках новых возможностей для человече
+ ства.\nВладимир Сурдин\nhttps://t.me/auditoria_tbilisi_
+ bot?start=ihugi
+URL:https://doublebasskakov.github.io/radar/#e=lecture-space-resources-tb
+ ilisi
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекция «Ресурсы космоса»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

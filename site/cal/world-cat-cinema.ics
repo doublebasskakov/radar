@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:ircam-action-man-ray@afisha-art
-DTSTAMP:20261116T195208Z
+DTSTAMP:20261117T003107Z
 DTSTART:20270130T190000Z
 DTEND:20270130T210000Z
 SUMMARY:Action! Man Ray
@@ -27,7 +27,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:documentary-screening-of-children-404-and-discussion-berlin@afisha-ar
  t
-DTSTAMP:20261116T195208Z
+DTSTAMP:20261117T003107Z
 DTSTART:20261125T180000Z
 DTEND:20261125T200000Z
 SUMMARY:Показ документального фильма «Дети
@@ -50,12 +50,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:film-club-screening-and-discussion-of-the-odyssey-tbilisi@afisha-art
-DTSTAMP:20261116T195208Z
+DTSTAMP:20261117T003107Z
 DTSTART:20261122T152000Z
 DTEND:20261122T172000Z
 SUMMARY:Киноклуб: показ и обсуждение фильма
   «Одиссея»
-LOCATION:Аудитория\, Тбилиси\, Грузия
+LOCATION:Аудитория\, S. Janashia 22-26\, Тбилиси\, Гру
+ зия
 DESCRIPTION:Кинопоказ фильма Кристофера Нола
  на с последующим обсуждением в киноклуб
  е.\nКристофер Нолан\nhttps://t.me/auditoria_tbilisi/7748
@@ -71,7 +72,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:film-screening-book-launch-basak-senova-mirror-project-vienna@afisha-
  art
-DTSTAMP:20261116T195208Z
+DTSTAMP:20261117T003107Z
 DTSTART:20261118T180000Z
 DTEND:20261118T200000Z
 SUMMARY:Кинопоказ и презентация книги: Баша
@@ -93,7 +94,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:special-screening-of-ddt-20th-century-and-q-a-with-director--london@a
  fisha-art
-DTSTAMP:20261116T195208Z
+DTSTAMP:20261117T003107Z
 DTSTART:20261119T200000Z
 DTEND:20261119T220000Z
 SUMMARY:Спецпоказ фильма «ДДТ. XX век» и Q&A с 
@@ -116,8 +117,29 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:marinetti-l-uomo-che-invento-il-futuro-rome@afisha-art
+DTSTAMP:20261117T003107Z
+DTSTART:20261127T170000Z
+DTEND:20261127T190000Z
+SUMMARY:Разговор и кинопоказ: Маринетти — ч
+ еловек\, изобретший будущее
+LOCATION:MAXXI\, Via Guido Reni 4A\, Рим\, Италия
+DESCRIPTION:Специальный показ фильма и обсуж
+ дение\, посвященные фигуре основоположн
+ ика футуризма Филиппо Томмазо Маринетт
+ и.\nVarious\nhttps://www.maxxi.art/en/events/marinetti/
+URL:https://doublebasskakov.github.io/radar/#e=marinetti-l-uomo-che-inven
+ to-il-futuro-rome
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Разговор и кинопоказ: Маринетти 
+ — человек\, изобретший будущее
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:27th-tbilisi-international-film-festival-tbilisi@afisha-art
-DTSTAMP:20261116T195208Z
+DTSTAMP:20261117T003107Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261207
 SUMMARY:27-й Международный кинофестиваль в Т
@@ -142,7 +164,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-andrey-zvyagintsev-s-film-minotaur-and-lecture-london@af
  isha-art
-DTSTAMP:20261116T195208Z
+DTSTAMP:20261117T003107Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Кинопоказ фильма Андрея Звягинцева
@@ -164,7 +186,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:katabasis-vr-film-by-ugo-arsac-belgrade@afisha-art
-DTSTAMP:20261116T195208Z
+DTSTAMP:20261117T003107Z
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
 SUMMARY:Последний день: Katabasis: VR-фильм Уго Ар
@@ -187,7 +209,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:the-film-london-jarman-award-2026-london@afisha-art
-DTSTAMP:20261116T195208Z
+DTSTAMP:20261117T003107Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 SUMMARY:Открытие: Премия Film London Jarman Award 2026
@@ -208,7 +230,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:suspiria-stan-douglas-paris@afisha-art
-DTSTAMP:20261116T195208Z
+DTSTAMP:20261117T003107Z
 DTSTART;VALUE=DATE:20270109
 DTEND;VALUE=DATE:20270110
 SUMMARY:Последний день: Suspiria (Stan Douglas)
@@ -227,7 +249,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:screen-portraits-whitechapel-gallery-artists-part-2-london@afisha-art
-DTSTAMP:20261116T195208Z
+DTSTAMP:20261117T003107Z
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
 SUMMARY:Последний день: Портреты на экране: 
@@ -250,7 +272,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:screening-suspiria-stan-douglas-paris@afisha-art
-DTSTAMP:20261116T195208Z
+DTSTAMP:20261117T003107Z
 DTSTART;VALUE=DATE:20270109
 DTEND;VALUE=DATE:20270110
 SUMMARY:Последний день: Показ: Суспирия (в р
@@ -266,6 +288,46 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Последний день: Показ: Суспирия (в
   рамках выставки Стэна Дугласа)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:screening-suspiria-stan-douglas-paris-2@afisha-art
+DTSTAMP:20261117T003107Z
+DTSTART;VALUE=DATE:20270109
+DTEND;VALUE=DATE:20270110
+SUMMARY:Последний день: Кинопоказ: Суспирия
+  (Стэн Дуглас)
+LOCATION:Же-де-Пом\, 1 Place de la Concorde\, 75008 Paris\, Пар
+ иж\, Франция
+DESCRIPTION:Кинопоказ в рамках выставочной п
+ рограммы художника Стэна Дугласа.\nСтэн 
+ Дуглас\nhttps://jeudepaume.org/en/evenement/suspiria/
+URL:https://doublebasskakov.github.io/radar/#e=screening-suspiria-stan-do
+ uglas-paris-2
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Кинопоказ: Суспир
+ ия (Стэн Дуглас)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nova-78-aaron-brookner-rodrigo-areias-brussels@afisha-art
+DTSTAMP:20261117T003107Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:Открытие: Нова '78
+LOCATION:Bozar\, Rue Ravenstein 23\, Брюссель\, Бельгия
+DESCRIPTION:Новый кинопоказ от режиссеров Аа
+ рона Брукнера и Родригу Арейаша.\nAaron Brookn
+ er & Rodrigo Areias\nhttps://www.bozar.be/en/calendar/nova-78-aaron-brook
+ ner-rodrigo-areias-0
+URL:https://doublebasskakov.github.io/radar/#e=nova-78-aaron-brookner-rod
+ rigo-areias-brussels
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Нова '78
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

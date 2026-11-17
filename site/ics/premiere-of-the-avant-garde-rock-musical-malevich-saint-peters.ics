@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:premiere-of-the-avant-garde-rock-musical-malevich-saint-peters@afisha
+ -art
+DTSTAMP:20261117T003107Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261130
+SUMMARY:Премьера авангардного рок-мюзикла 
+ «Малевич»
+LOCATION:Театр на Садовой\, Санкт-Петербург
+DESCRIPTION:Постановка режиссера Анны Тесс о
+ снована на биографии выдающегося худож
+ ника-авангардиста Казимира Малевича.\nА
+ нна Тесс\nhttps://t.me/orpheusradio/51610
+URL:https://doublebasskakov.github.io/radar/#e=premiere-of-the-avant-gard
+ e-rock-musical-malevich-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Премьера авангардного рок-мюзикл
+ а «Малевич»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

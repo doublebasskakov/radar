@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:sergey-kozhara-taming-centaurs-saint-peters@afisha-art
+DTSTAMP:20261117T003107Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:Последний день: Сергей Кожара. Укро
+ щение кентавров
+LOCATION:Музей современного искусства Эрар
+ та\, 29-я линия Васильевского острова\, 2\, 
+ Санкт-Петербург
+DESCRIPTION:Персональная выставка живописи и
+  графики Сергея Кожары в пространстве Э
+ рарты.\nМузей современного искусства Эр
+ арта\nhttps://www.erarta.com/ru/calendar/exhibitions/detail/25082503/
+URL:https://doublebasskakov.github.io/radar/#e=sergey-kozhara-taming-cent
+ aurs-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Сергей Кожара. Ук
+ рощение кентавров
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

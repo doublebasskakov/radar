@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ink-london-3@afisha-art
+DTSTAMP:20261117T003107Z
+DTSTART;VALUE=DATE:20270422
+DTEND;VALUE=DATE:20270423
+SUMMARY:Открытие: Инк
+LOCATION:Tate Modern\, Bankside\, London SE1 9TG\, Лондон\, Вел
+ икобритания
+DESCRIPTION:Выставка\, демонстрирующая сложн
+ ую красоту традиционных форм искусства.
+ \n\nhttps://www.tate.org.uk/whats-on/tate-modern/ink
+URL:https://doublebasskakov.github.io/radar/#e=ink-london-3
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Инк
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

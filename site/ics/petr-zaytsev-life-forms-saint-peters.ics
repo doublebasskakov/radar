@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:petr-zaytsev-life-forms-saint-peters@afisha-art
+DTSTAMP:20261117T003107Z
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+SUMMARY:Последний день: Петр Зайцев. Формы ж
+ изни
+LOCATION:Музей современного искусства Эрар
+ та\, 29-я линия Васильевского острова\, 2\, 
+ Санкт-Петербург
+DESCRIPTION:Выставка художественных работ Пе
+ тра Зайцева\, посвященная поиску новых с
+ труктур и органических форм.\nМузей совр
+ еменного искусства Эрарта\nhttps://www.erarta.com/
+ ru/calendar/exhibitions/detail/190826/
+URL:https://doublebasskakov.github.io/radar/#e=petr-zaytsev-life-forms-sa
+ int-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Петр Зайцев. Форм
+ ы жизни
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

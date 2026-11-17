@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:concert-dedicated-to-the-170th-anniversary-of-sergey-taneyev-moscow@a
+ fisha-art
+DTSTAMP:20261117T003107Z
+DTSTART:20261117T160000Z
+DTEND:20261117T180000Z
+SUMMARY:Концерт к 170-летию со дня рождения С
+ ергея Танеева
+LOCATION:Концертный зал «Зарядье» (Большой 
+ зал)\, Москва\, ул. Варварка\, 6\, Москва
+DESCRIPTION:Академический концерт под управл
+ ением Владимира Спивакова\, посвященный
+  юбилею композитора Сергея Танеева.\nВла
+ димир Спиваков\, Национальный филармони
+ ческий оркестр России\, Стефания Поспех
+ ина\nhttps://t.me/zaryadyehall/5653
+URL:https://doublebasskakov.github.io/radar/#e=concert-dedicated-to-the-1
+ 70th-anniversary-of-sergey-taneyev-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт к 170-летию со дня рождения
+  Сергея Танеева
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

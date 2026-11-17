@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:guided-tour-magali-reus-tenant-vienna@afisha-art
+DTSTAMP:20261117T003107Z
+DTSTART:20261129T140000Z
+DTEND:20261129T160000Z
+SUMMARY:Кураторская экскурсия по выставке 
+ Магали Реус: Tenant
+LOCATION:Kunsthalle Wien (Museumsquartier)\, Museumsplatz 1\, 1070 Wien\,
+  Вена\, Австрия
+DESCRIPTION:Обзорная экскурсия по экспозиции
+  Магали Реус.\nKunsthalle Wien\nhttps://kunsthallewien.at/en/ev
+ ent/guided-tour-magali-reus-tenant
+URL:https://doublebasskakov.github.io/radar/#e=guided-tour-magali-reus-te
+ nant-vienna
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Кураторская экскурсия по выставк
+ е Магали Реус: Tenant
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

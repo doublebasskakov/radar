@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:free-sunday-supported-by-dorotheum-vienna@afisha-art
+DTSTAMP:20261117T003107Z
+DTSTART:20261129T090000Z
+DTEND:20261129T110000Z
+SUMMARY:День бесплатного посещения при под
+ держке Dorotheum
+LOCATION:Kunsthalle Wien (Museumsquartier)\, Museumsplatz 1\, 1070 Wien\,
+  Вена\, Австрия
+DESCRIPTION:День открытых дверей с бесплатны
+ м входом на текущие выставки.\nKunsthalle Wien\nh
+ ttps://kunsthallewien.at/en/event/free-sunday-10
+URL:https://doublebasskakov.github.io/radar/#e=free-sunday-supported-by-d
+ orotheum-vienna
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:День бесплатного посещения при п
+ оддержке Dorotheum
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

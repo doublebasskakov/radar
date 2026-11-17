@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:voronezh-kamerata-ceam@afisha-art
-DTSTAMP:20261116T195208Z
+DTSTAMP:20261117T003107Z
 DTSTART:20261129T150000Z
 DTEND:20261129T170000Z
 SUMMARY:CEAM Artists на «Воронежской камерате»
@@ -23,6 +23,25 @@ URL:https://doublebasskakov.github.io/radar/#e=voronezh-kamerata-ceam
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:CEAM Artists на «Воронежской камерате»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:screening-of-the-film-at-the-edge-of-the-world-voronezh@afisha-art
+DTSTAMP:20261117T003107Z
+DTSTART:20261119T160000Z
+DTEND:20261119T180000Z
+SUMMARY:Показ фильма «На краю света»
+LOCATION:«Матрёшка»\, Воронеж
+DESCRIPTION:Показ новой картины Эдуарда Нови
+ кова «На краю света» в рамках цикла пока
+ зов якутского кино.\nЭдуард Новиков\nhttps:/
+ /t.me/tri_skameyki/2751
+URL:https://doublebasskakov.github.io/radar/#e=screening-of-the-film-at-t
+ he-edge-of-the-world-voronezh
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильма «На краю света»
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

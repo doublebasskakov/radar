@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:screening-of-the-film-at-the-edge-of-the-world-voronezh@afisha-art
+DTSTAMP:20261117T003107Z
+DTSTART:20261119T160000Z
+DTEND:20261119T180000Z
+SUMMARY:Показ фильма «На краю света»
+LOCATION:«Матрёшка»\, Воронеж
+DESCRIPTION:Показ новой картины Эдуарда Нови
+ кова «На краю света» в рамках цикла пока
+ зов якутского кино.\nЭдуард Новиков\nhttps:/
+ /t.me/tri_skameyki/2751
+URL:https://doublebasskakov.github.io/radar/#e=screening-of-the-film-at-t
+ he-edge-of-the-world-voronezh
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильма «На краю света»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Радар — Россия · city-kudymkar
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:film-lab-doc-residency-kudymkar-kudymkar@afisha-art
+DTSTAMP:20261117T003107Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261120
+SUMMARY:Кинолаборатория «Док-резиденция. К
+ удымкар»
+LOCATION:Коми-Пермяцкий этнокультурный цен
+ тр\, Кудымкар
+DESCRIPTION:Серия бесплатных мастер-классов 
+ от пермских кинематографистов по режис
+ суре\, операторскому искусству и монтаж
+ у документального кино.\nNone\nhttps://t.me/mmmperm/8
+ 780
+URL:https://doublebasskakov.github.io/radar/#e=film-lab-doc-residency-kud
+ ymkar-kudymkar
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Кинолаборатория «Док-резиденция.
+  Кудымкар»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

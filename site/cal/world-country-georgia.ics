@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:kvareli-foundation-opening@afisha-art
-DTSTAMP:20261116T195208Z
+DTSTAMP:20261117T003107Z
 DTSTART:20261102T060000Z
 DTEND:20261102T080000Z
 SUMMARY:Открытие: Georgian Contemporary Art: Origins and Continui
@@ -32,7 +32,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:book-club-discussion-of-center-of-gravity-with-vladimir-kuzn-tbilisi@
  afisha-art
-DTSTAMP:20261116T195208Z
+DTSTAMP:20261117T003107Z
 DTSTART:20261203T153000Z
 DTEND:20261203T173000Z
 SUMMARY:Книжный клуб: обсуждение романа «Це
@@ -60,7 +60,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:lecture-multifaceted-tbilisi-city-at-the-crossroads-of-cultu-tbilisi@
  afisha-art
-DTSTAMP:20261116T195208Z
+DTSTAMP:20261117T003107Z
 DTSTART:20261117T160000Z
 DTEND:20261117T180000Z
 SUMMARY:Лекция «Многоликий Тбилиси: город н
@@ -83,7 +83,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lecture-history-of-comics-tbilisi@afisha-art
-DTSTAMP:20261116T195208Z
+DTSTAMP:20261117T003107Z
 DTSTART:20261118T160000Z
 DTEND:20261118T180000Z
 SUMMARY:Лекция «История комиксов: от наскал
@@ -107,7 +107,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:book-presentation-by-tatiana-montik-tbilisi@afisha-art
-DTSTAMP:20261116T195208Z
+DTSTAMP:20261117T003107Z
 DTSTART:20261119T160000Z
 DTEND:20261119T180000Z
 SUMMARY:Презентация книги Татьяны Монтик «
@@ -130,9 +130,30 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:lecture-space-resources-tbilisi@afisha-art
+DTSTAMP:20261117T003107Z
+DTSTART:20261117T113000Z
+DTEND:20261117T133000Z
+SUMMARY:Лекция «Ресурсы космоса»
+LOCATION:Auditoria\, S. Janashia 22-26\, Тбилиси\, Грузия
+DESCRIPTION:Астроном Владимир Сурдин расскаж
+ ет о ценности космических условий для н
+ ауки\, уникальных ресурсах вне Земли и п
+ оисках новых возможностей для человече
+ ства.\nВладимир Сурдин\nhttps://t.me/auditoria_tbilisi_
+ bot?start=ihugi
+URL:https://doublebasskakov.github.io/radar/#e=lecture-space-resources-tb
+ ilisi
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекция «Ресурсы космоса»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:konstantin-blyuz-lecture-on-israel-s-energy-strategy-tbilisi@afisha-a
  rt
-DTSTAMP:20261116T195208Z
+DTSTAMP:20261117T003107Z
 DTSTART:20261120T160000Z
 DTEND:20261120T180000Z
 SUMMARY:Лекция Константина Блюза об энерге
@@ -155,7 +176,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:scientific-excursion-to-dmanisi-and-bolnisi-tbilisi@afisha-art
-DTSTAMP:20261116T195208Z
+DTSTAMP:20261117T003107Z
 DTSTART:20261121T050000Z
 DTEND:20261121T070000Z
 SUMMARY:Научная экскурсия в Дманиси и Болни
@@ -181,7 +202,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:time-presentation-of-vasily-chernyshev-s-debut-novella-tbilisi@afisha
  -art
-DTSTAMP:20261116T195208Z
+DTSTAMP:20261117T003107Z
 DTSTART:20261120T160000Z
 DTEND:20261120T180000Z
 SUMMARY:«Тайме» — презентация дебютной пов
@@ -203,7 +224,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lecture-on-georgian-literature-tbilisi@afisha-art
-DTSTAMP:20261116T195208Z
+DTSTAMP:20261117T003107Z
 DTSTART:20261119T160000Z
 DTEND:20261119T180000Z
 SUMMARY:Лекция «История грузинской литерат
@@ -226,7 +247,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:georgian-trace-in-fashion-and-art-tbilisi@afisha-art
-DTSTAMP:20261116T195208Z
+DTSTAMP:20261117T003107Z
 DTSTART:20261125T160000Z
 DTEND:20261125T180000Z
 SUMMARY:Грузинский след в моде и искусстве
@@ -247,7 +268,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:w-a-mozart-the-marriage-of-figaro-tbilisi@afisha-art
-DTSTAMP:20261116T195208Z
+DTSTAMP:20261117T003107Z
 DTSTART:20261118T150000Z
 DTEND:20261118T170000Z
 SUMMARY:В. А. Моцарт | Свадьба Фигаро
@@ -267,28 +288,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:saturnian-poems-tbilisi@afisha-art
-DTSTAMP:20261116T195208Z
-DTSTART:20261116T150000Z
-DTEND:20261116T170000Z
-SUMMARY:Сатурнические поэмы
-LOCATION:Тбилисский государственный театр 
- оперы и балета\, Тбилиси\, Грузия
-DESCRIPTION:Показ постановки «Сатурнические 
- поэмы» на сцене Тбилисского государств
- енного театра оперы и балета.\nТбилисски
- й государственный театр оперы и балета\n
- https://t.me/georgiaafisha/6532
-URL:https://doublebasskakov.github.io/radar/#e=saturnian-poems-tbilisi
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Сатурнические поэмы
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:organ-music-evening-felix-hell-tbilisi@afisha-art
-DTSTAMP:20261116T195208Z
+DTSTAMP:20261117T003107Z
 DTSTART:20261120T150000Z
 DTEND:20261120T170000Z
 SUMMARY:Вечер органной музыки: Феликс Хелль
@@ -309,7 +310,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:the-overcoat-tbilisi@afisha-art
-DTSTAMP:20261116T195208Z
+DTSTAMP:20261117T003107Z
 DTSTART:20261122T160000Z
 DTEND:20261122T180000Z
 SUMMARY:Спектакль «Шинель»
@@ -328,12 +329,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:film-club-screening-and-discussion-of-the-odyssey-tbilisi@afisha-art
-DTSTAMP:20261116T195208Z
+DTSTAMP:20261117T003107Z
 DTSTART:20261122T152000Z
 DTEND:20261122T172000Z
 SUMMARY:Киноклуб: показ и обсуждение фильма
   «Одиссея»
-LOCATION:Аудитория\, Тбилиси\, Грузия
+LOCATION:Аудитория\, S. Janashia 22-26\, Тбилиси\, Гру
+ зия
 DESCRIPTION:Кинопоказ фильма Кристофера Нола
  на с последующим обсуждением в киноклуб
  е.\nКристофер Нолан\nhttps://t.me/auditoria_tbilisi/7748
@@ -348,7 +350,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:27th-tbilisi-international-film-festival-tbilisi@afisha-art
-DTSTAMP:20261116T195208Z
+DTSTAMP:20261117T003107Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261207
 SUMMARY:27-й Международный кинофестиваль в Т
@@ -372,7 +374,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:redo-rave-tbilisi@afisha-art
-DTSTAMP:20261116T195208Z
+DTSTAMP:20261117T003107Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:REDO RAVE
@@ -392,7 +394,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:play-gromkie-tbilisi@afisha-art
-DTSTAMP:20261116T195208Z
+DTSTAMP:20261117T003107Z
 DTSTART;VALUE=DATE:20270406
 DTEND;VALUE=DATE:20270407
 SUMMARY:Спектакль «Громкие»

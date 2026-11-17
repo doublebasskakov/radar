@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:open-mic-by-standup-goats-moscow@afisha-art
+DTSTAMP:20261117T003107Z
+DTSTART:20261117T170000Z
+DTEND:20261117T190000Z
+SUMMARY:Открытый микрофон от Standup Goats
+LOCATION:Бар Ладно\, Мясницкая\, 41с3\, Москва
+DESCRIPTION:Вечер проверки нового материала 
+ от комиков Standup Goats в баре Ладно.\n\nhttps://t.me
+ /ladnospot/2274
+URL:https://doublebasskakov.github.io/radar/#e=open-mic-by-standup-goats-
+ moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытый микрофон от Standup Goats
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:concert-of-the-whole-stravinsky-project-moscow@afisha-art
+DTSTAMP:20261117T003107Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:Концерт проекта «Весь Стравинский»
+LOCATION:Концертный зал им. Чайковского\, Мо
+ сква
+DESCRIPTION:В рамках пятого сезона авторског
+ о проекта Ярослава Тимофеева прозвучат 
+ сочинения Игоря Стравинского первой по
+ ловины 1940-х годов.\nЯрослав Тимофеев\, Мо
+ сковская филармония\nhttps://t.me/orpheusradio/51614
+URL:https://doublebasskakov.github.io/radar/#e=concert-of-the-whole-strav
+ insky-project-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт проекта «Весь Стравински
+ й»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

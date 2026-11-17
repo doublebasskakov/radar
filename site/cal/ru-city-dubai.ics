@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Радар — Россия · city-dubai
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:bolshoi-theatre-tours-in-uae-dubai@afisha-art
+DTSTAMP:20261117T003107Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261207
+SUMMARY:Гастроли Большого театра в ОАЭ: Дра
+ матические и оперные спектакли
+LOCATION:Дубайская опера\, Дубай
+DESCRIPTION:Первые официальные гастроли Боль
+ шого театра на сцене Дубайской оперы.\nБ
+ ольшой театр\nhttps://t.me/orpheusradio/51605
+URL:https://doublebasskakov.github.io/radar/#e=bolshoi-theatre-tours-in-u
+ ae-dubai
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Гастроли Большого театра в ОАЭ: Д
+ раматические и оперные спектакли
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR
