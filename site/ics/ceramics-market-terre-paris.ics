@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ceramics-market-terre-paris@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261207
+SUMMARY:Ярмарка керамики «Terre»
+LOCATION:Lafayette Anticipations\, 9 rue du Plâtre F-75004 Paris\, Па
+ риж\, Франция
+DESCRIPTION:Двухдневная ярмарка керамики в в
+ ыставочном пространстве фонда.\nLafayette Anti
+ cipations\nhttps://www.lafayetteanticipations.com/en/exposition/terre
+URL:https://doublebasskakov.github.io/radar/#e=ceramics-market-terre-pari
+ s
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ярмарка керамики «Terre»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

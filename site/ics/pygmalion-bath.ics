@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:pygmalion-bath@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART;VALUE=DATE:20270813
+DTEND;VALUE=DATE:20270814
+SUMMARY:Открытие: Pygmalion
+LOCATION:Theatre Royal Bath\, Бат\, Великобритания
+DESCRIPTION:Классическая пьеса Бернарда Шоу 
+ с Сэмюэлом Уэстом в роли Генри Хиггинса.
+ \nСэмюэл Уэст\nhttps://t.me/theatreandsuch/1398
+URL:https://doublebasskakov.github.io/radar/#e=pygmalion-bath
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Pygmalion
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

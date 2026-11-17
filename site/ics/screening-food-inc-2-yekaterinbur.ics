@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:screening-food-inc-2-yekaterinbur@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Показ фильма «Корпорация „Еда“ - 2»
+LOCATION:Ельцин Центр\, Екатеринбург
+DESCRIPTION:Документальное расследование о п
+ роблемах современной пищевой индустрии
+ .\n\nhttps://t.me/yeltsincenter/10195
+URL:https://doublebasskakov.github.io/radar/#e=screening-food-inc-2-yekat
+ erinbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильма «Корпорация „Еда“ -
+  2»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

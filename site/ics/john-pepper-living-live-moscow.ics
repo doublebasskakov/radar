@@ -5,11 +5,10 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:john-pepper-living-live-moscow@afisha-art
-DTSTAMP:20261117T184737Z
-DTSTART;VALUE=DATE:20261129
-DTEND;VALUE=DATE:20261130
-SUMMARY:Последний день: Джон Пеппер. Живя\, ж
- иви
+DTSTAMP:20261117T235129Z
+DTSTART:20261021T090000Z
+DTEND:20261021T110000Z
+SUMMARY:Открытие: Джон Пеппер. Живя\, живи
 LOCATION:Галерея PENNLAB\, 4-й Сыромятнический п
  ереулок\, 1/8 стр. 6\, Москва
 DESCRIPTION:Фотовыставка\, фиксирующая ускол
@@ -20,8 +19,7 @@ URL:https://doublebasskakov.github.io/radar/#e=john-pepper-living-live-mo
  scow
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Последний день: Джон Пеппер. Живя\
- , живи
+DESCRIPTION:Открытие: Джон Пеппер. Живя\, живи
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

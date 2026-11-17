@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:concert-of-the-st-petersburg-composition-school-series-saint-peters@a
+ fisha-art
+DTSTAMP:20261117T235129Z
+DTSTART:20261124T160000Z
+DTEND:20261124T180000Z
+SUMMARY:Концерт рубрики «Петербургская ком
+ позиторская школа»
+LOCATION:Концертный зал Санкт-Петербургско
+ й консерватории\, Санкт-Петербург
+DESCRIPTION:Концерт в рамках традиционной ко
+ нсерваторской рубрики «Наши учителя и у
+ ченики»\, посвященной петербургской ком
+ позиторской школе.\nСанкт-Петербургская
+  консерватория\nhttps://www.conservatory.ru/concerts/nashi-u
+ chitelya-i-ucheniki
+URL:https://doublebasskakov.github.io/radar/#e=concert-of-the-st-petersbu
+ rg-composition-school-series-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт рубрики «Петербургская к
+ омпозиторская школа»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

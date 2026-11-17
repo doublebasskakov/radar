@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:festival-ceramania-new-year-moscow@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261123
+SUMMARY:Фестиваль «Ceramania Новогодняя»
+LOCATION:ЦСИ Винзавод (Цех Белого\, Цех Красн
+ ого)\, Москва\, 4-й Сыромятнический переул
+ ок\, 1/8 стр. 6\, Москва
+DESCRIPTION:Ярмарка-фестиваль авторской кера
+ мики и современного предметного дизайн
+ а.\nCeramania\nhttps://www.winzavod.ru/calendar/festivals/ceramania-novo
+ godnyaya/
+URL:https://doublebasskakov.github.io/radar/#e=festival-ceramania-new-yea
+ r-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Фестиваль «Ceramania Новогодняя»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

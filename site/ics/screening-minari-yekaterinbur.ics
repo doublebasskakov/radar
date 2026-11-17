@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:screening-minari-yekaterinbur@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Показ фильма «Минари»
+LOCATION:Ельцин Центр\, Екатеринбург
+DESCRIPTION:Показ оскароносной драмы о жизни 
+ семьи корейских иммигрантов в США.\n\nhttps:
+ //t.me/yeltsincenter/10195
+URL:https://doublebasskakov.github.io/radar/#e=screening-minari-yekaterin
+ bur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильма «Минари»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

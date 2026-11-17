@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:concert-chamber-palette-saint-peters@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART:20261130T160000Z
+DTEND:20261130T180000Z
+SUMMARY:Концерт «Камерная палитра»
+LOCATION:Санкт-Петербургская государственн
+ ая консерватория имени Н. А. Римского-Ко
+ рсакова\, Санкт-Петербург
+DESCRIPTION:Программа камерной музыки под ру
+ ководством профессора кафедры камерног
+ о ансамбля Натальи Фроловой.\nНаталья Фр
+ олова\nhttps://www.conservatory.ru/concerts/kamernaya-palitra
+URL:https://doublebasskakov.github.io/radar/#e=concert-chamber-palette-sa
+ int-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт «Камерная палитра»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

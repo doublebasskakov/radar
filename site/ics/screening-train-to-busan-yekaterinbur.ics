@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:screening-train-to-busan-yekaterinbur@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261127
+SUMMARY:Показ фильма ужасов «Поезд в Пусан»
+LOCATION:Ельцин Центр\, Екатеринбург
+DESCRIPTION:Показы южнокорейского зомби-хорр
+ ора.\n\nhttps://t.me/yeltsincenter/10195
+URL:https://doublebasskakov.github.io/radar/#e=screening-train-to-busan-y
+ ekaterinbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильма ужасов «Поезд в Пуса
+ н»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

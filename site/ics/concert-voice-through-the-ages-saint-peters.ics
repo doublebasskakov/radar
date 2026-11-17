@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:concert-voice-through-the-ages-saint-peters@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART:20261118T150000Z
+DTEND:20261118T170000Z
+SUMMARY:Концерт «Голос сквозь века»
+LOCATION:Санкт-Петербургская государственн
+ ая консерватория имени Н. А. Римского-Ко
+ рсакова\, Санкт-Петербург
+DESCRIPTION:Панорама вокального искусства от
+  эпохи барокко до XX века\, демонстрирующ
+ ая эволюцию выразительных возможностей
+  человеческого голоса.\nСанкт-Петербург
+ ская консерватория\nhttps://www.conservatory.ru/concerts
+ /golos-skvoz-veka
+URL:https://doublebasskakov.github.io/radar/#e=concert-voice-through-the-
+ ages-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт «Голос сквозь века»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

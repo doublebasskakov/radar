@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:yu-nishimura-exhibition-towards-a-sea-paris@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+SUMMARY:Последний день: Выставка Ю Нисимуры
+  «Towards a Sea»
+LOCATION:Lafayette Anticipations\, 9 rue du Plâtre F-75004 Paris\, Па
+ риж\, Франция
+DESCRIPTION:Персональная выставка художника 
+ Ю Нисимуры в пространстве Lafayette Anticipations.\
+ nYu Nishimura\nhttps://www.lafayetteanticipations.com/en/exposition/yu-ni
+ shimura
+URL:https://doublebasskakov.github.io/radar/#e=yu-nishimura-exhibition-to
+ wards-a-sea-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Выставка Ю Нисиму
+ ры «Towards a Sea»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

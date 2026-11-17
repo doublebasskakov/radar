@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:my-poor-marat-samara@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART:20261222T160000Z
+DTEND:20261222T180000Z
+SUMMARY:Спектакль «Мой бедный Марат»
+LOCATION:МТС Live Холл\, ул. Ново-Садовая\, 106Г\, 
+ Самара
+DESCRIPTION:Лирическая драма по пьесе Алексе
+ я Арбузова о любви\, дружбе и жизненном в
+ ыборе трех героев\, чья история разворач
+ ивается на протяжении семнадцати лет.\nNo
+ ne\nhttps://clck.ru/3WXnyj
+URL:https://doublebasskakov.github.io/radar/#e=my-poor-marat-samara
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спектакль «Мой бедный Марат»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -5,10 +5,10 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:tsxr-scan-tomsk@afisha-art
-DTSTAMP:20261117T184737Z
-DTSTART;VALUE=DATE:20261117
-DTEND;VALUE=DATE:20261118
-SUMMARY:Открытие: ТСХР + СКАН
+DTSTAMP:20261117T235129Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:Последний день: ТСХР + СКАН
 LOCATION:Томский центр современной культур
  ы\, Томск
 DESCRIPTION:Совместный выставочный проект Тв
@@ -18,7 +18,7 @@ DESCRIPTION:Совместный выставочный проект Тв
 URL:https://doublebasskakov.github.io/radar/#e=tsxr-scan-tomsk
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Открытие: ТСХР + СКАН
+DESCRIPTION:Последний день: ТСХР + СКАН
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

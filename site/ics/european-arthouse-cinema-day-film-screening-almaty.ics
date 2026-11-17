@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:european-arthouse-cinema-day-film-screening-almaty@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART:20261122T120000Z
+DTEND:20261122T140000Z
+SUMMARY:День европейского артхаусного кино
+ : Показ фильма
+LOCATION:Центр современной культуры «Целин
+ ный»\, Алматы\, Казахстан
+DESCRIPTION:Специальный показ независимого е
+ вропейского фильма на польском языке с 
+ английскими субтитрами в рамках междун
+ ародного Дня артхаусного кино.\nCICAE\, Stowarz
+ yszenie Kin Studyjnych\nhttps://t.me/tselinnycenter/1853
+URL:https://doublebasskakov.github.io/radar/#e=european-arthouse-cinema-d
+ ay-film-screening-almaty
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:День европейского артхаусного ки
+ но: Показ фильма
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

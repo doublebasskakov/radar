@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:nyege-nyege-festival-2026-day-1-jinja@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261119T130000Z
 DTEND:20261119T150000Z
 SUMMARY:Nyege Nyege Festival 2026 — День 1
@@ -28,7 +28,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nyege-nyege-festival-2026-opening-night-jinja@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261119T130000Z
 DTEND:20261119T150000Z
 SUMMARY:Nyege Nyege Festival 2026 — открытие
@@ -49,7 +49,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:radio-plato-closing-event-sara-tokina-anastasiya-rydlyewskay-szczecin
  @afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261119T190000Z
 DTEND:20261119T210000Z
 SUMMARY:Radio Plato Closing Event: Сара Токина\, Анастас
@@ -73,7 +73,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:intertronika-festival-workshops-live-concert-and-club-night-hamburg@a
  fisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261205T193000Z
 DTEND:20261205T213000Z
 SUMMARY:Фестиваль Intertronika: воркшопы\, лайв-ко
@@ -95,8 +95,65 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:nyege-nyege-festival-2026-day-3-jinja@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Nyege Nyege Festival 2026 — День 3
+LOCATION:Kalagala Falls\, River Nile\, Джинджа\, Уганда
+DESCRIPTION:Главная ночная программа фестива
+ ля: выступления хедлайнеров и танцы до р
+ ассвета с участием более 20 тысяч зрител
+ ей.\nХедлайнеры фестиваля\nhttps://nyegenyege.com/
+URL:https://doublebasskakov.github.io/radar/#e=nyege-nyege-festival-2026-
+ day-3-jinja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Nyege Nyege Festival 2026 — День 3
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nyege-nyege-festival-2026-day-2-jinja@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Nyege Nyege Festival 2026 — День 2
+LOCATION:Kalagala Falls\, River Nile\, Джинджа\, Уганда
+DESCRIPTION:Второй день фестиваля объединяет
+  афробит\, экспериментальную электроник
+ у и клубные ритмы на семи сценах.\n300+ арт
+ истов\nhttps://nyegenyege.com/
+URL:https://doublebasskakov.github.io/radar/#e=nyege-nyege-festival-2026-
+ day-2-jinja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Nyege Nyege Festival 2026 — День 2
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nyege-nyege-festival-2026-finale-jinja@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Nyege Nyege Festival 2026 — Финал
+LOCATION:Kalagala Falls\, River Nile\, Джинджа\, Уганда
+DESCRIPTION:Заключительный день фестиваля у 
+ водопадов Калагала с финальными сетями 
+ под утреннее солнце.\nУчастники фестива
+ ля\nhttps://nyegenyege.com/
+URL:https://doublebasskakov.github.io/radar/#e=nyege-nyege-festival-2026-
+ finale-jinja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Nyege Nyege Festival 2026 — Финал
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:redo-rave-tbilisi@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:REDO RAVE
@@ -116,7 +173,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sonar-2027@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART;VALUE=DATE:20270617
 DTEND;VALUE=DATE:20270620
 SUMMARY:Sónar 2027
@@ -136,7 +193,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:berlin-atonal-2027@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART;VALUE=DATE:20270825
 DTEND;VALUE=DATE:20270830
 SUMMARY:Berlin Atonal 2027
@@ -155,7 +212,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sbpch-concert-in-berlin-berlin@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Концерт группы СБПЧ в Берлине
@@ -168,63 +225,6 @@ URL:https://doublebasskakov.github.io/radar/#e=sbpch-concert-in-berlin-be
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Концерт группы СБПЧ в Берлине
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:nyege-nyege-festival-2026-day-3-jinja@afisha-art
-DTSTAMP:20261117T184737Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261122
-SUMMARY:Nyege Nyege Festival 2026 — День 3
-LOCATION:Kalagala Falls\, River Nile\, Джинджа\, Уганда
-DESCRIPTION:Главная ночная программа фестива
- ля: выступления хедлайнеров и танцы до р
- ассвета с участием более 20 тысяч зрител
- ей.\nХедлайнеры фестиваля\nhttps://nyegenyege.com/
-URL:https://doublebasskakov.github.io/radar/#e=nyege-nyege-festival-2026-
- day-3-jinja
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Nyege Nyege Festival 2026 — День 3
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:nyege-nyege-festival-2026-day-2-jinja@afisha-art
-DTSTAMP:20261117T184737Z
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261121
-SUMMARY:Nyege Nyege Festival 2026 — День 2
-LOCATION:Kalagala Falls\, River Nile\, Джинджа\, Уганда
-DESCRIPTION:Второй день фестиваля объединяет
-  афробит\, экспериментальную электроник
- у и клубные ритмы на семи сценах.\n300+ арт
- истов\nhttps://nyegenyege.com/
-URL:https://doublebasskakov.github.io/radar/#e=nyege-nyege-festival-2026-
- day-2-jinja
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Nyege Nyege Festival 2026 — День 2
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:nyege-nyege-festival-2026-finale-jinja@afisha-art
-DTSTAMP:20261117T184737Z
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
-SUMMARY:Nyege Nyege Festival 2026 — Финал
-LOCATION:Kalagala Falls\, River Nile\, Джинджа\, Уганда
-DESCRIPTION:Заключительный день фестиваля у 
- водопадов Калагала с финальными сетями 
- под утреннее солнце.\nУчастники фестива
- ля\nhttps://nyegenyege.com/
-URL:https://doublebasskakov.github.io/radar/#e=nyege-nyege-festival-2026-
- finale-jinja
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Nyege Nyege Festival 2026 — Финал
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

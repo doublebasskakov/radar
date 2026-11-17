@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:he-le-ne-fauquet-exhibition-vivresse-paris@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+SUMMARY:Последний день: Выставка Элен Фуке 
+ «Vivresse»
+LOCATION:Lafayette Anticipations\, 9 rue du Plâtre F-75004 Paris\, Па
+ риж\, Франция
+DESCRIPTION:Выставка работ Элен Фуке в Париже
+ .\nHélène Fauquet\nhttps://www.lafayetteanticipations.com/en/exposition
+ /helene-fauquet
+URL:https://doublebasskakov.github.io/radar/#e=he-le-ne-fauquet-exhibitio
+ n-vivresse-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Выставка Элен Фук
+ е «Vivresse»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

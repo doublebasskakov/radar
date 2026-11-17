@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:screening-of-our-salvation-at-message-to-man-echo-moscow@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART:20261121T170000Z
+DTEND:20261121T190000Z
+SUMMARY:Показ фильма «Наше спасение» на Эхе
+  фестиваля «Послание к человеку»
+LOCATION:Третьяковская галерея\, Инженерный
+  корпус\, Москва
+DESCRIPTION:Сеанс авторского кино Эмманюэля 
+ Марре в кинозале Третьяковской галереи.
+ \nЭмманюэль Марре\nhttps://t.me/message2man/2866
+URL:https://doublebasskakov.github.io/radar/#e=screening-of-our-salvation
+ -at-message-to-man-echo-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильма «Наше спасение» на Э
+ хе фестиваля «Послание к человеку»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

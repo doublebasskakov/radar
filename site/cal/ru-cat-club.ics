@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:signal-city-monasterio-showcase-moscow@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261121T150000Z
 DTEND:20261121T170000Z
 SUMMARY:Signal City: Monasterio Showcase
@@ -31,7 +31,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:delta-2026-saint-peters@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261121T190000Z
 DTEND:20261121T210000Z
 SUMMARY:Delta 2026
@@ -53,7 +53,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:system-108-dafes-awards-show-moscow@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261126T160000Z
 DTEND:20261126T180000Z
 SUMMARY:System 108 × DAFES AWARDS SHOW
@@ -73,11 +73,12 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:asylum-4-years-marla-singer-moscow@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261121T200000Z
 DTEND:20261121T220000Z
 SUMMARY:ASYLUM 4 YEARS: Marla Singer
-LOCATION:Клуб DEX\, Москва
+LOCATION:Клуб DEX\, Шарикоподшипниковская ули
+ ца\, 13\, стр. 32\, Москва
 DESCRIPTION:Выступление артистки Marla Singer в ра
  мках празднования четырехлетия промо-ф
  ормации ASYLUM с гипнотичным тяжелым техно
@@ -93,7 +94,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:resonance-party-at-rndm-club-moscow@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261128T200000Z
 DTEND:20261128T220000Z
 SUMMARY:Вечеринка Resonance в клубе RNDM
@@ -113,8 +114,31 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:minimum-pop-showcase-moscow@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART:20261129T140000Z
+DTEND:20261129T160000Z
+SUMMARY:Шоукейс Minimum Pop
+LOCATION:Склад N3 и Столярка\, Малая Семёновс
+ кая ул.\, 5\, стр. 1 и стр. 2\, Москва
+DESCRIPTION:Музыкальный шоукейс независимой 
+ сцены с участием электропанк-дуэта obraza.n
+ et и других гитарных и электронных колле
+ ктивов.\nobraza.net\, Partybreaker\, Бакурли\, Eeva x Рас
+ каты\, Deck\, ПФКБ\, Сожитель\, Да\, смрть!\, Яз
+ ва\, The Slürm\, Неоновый гроб\, Аварийные раб
+ оты\nhttps://minimum-pop-showcase.ticketscloud.org/
+URL:https://doublebasskakov.github.io/radar/#e=minimum-pop-showcase-mosco
+ w
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Шоукейс Minimum Pop
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:minimum-pop-showcase-deck-and-others-moscow@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261129T140000Z
 DTEND:20261129T160000Z
 SUMMARY:Шоукейс Minimum Pop: Deck и другие
@@ -135,7 +159,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:arcto-xx-belgrade@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261219T220000Z
 DTEND:20261220T000000Z
 SUMMARY:ARCTO XX
@@ -154,7 +178,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:32-years-underground-experience-party-saint-peters@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261128T200000Z
 DTEND:20261128T220000Z
 SUMMARY:Вечеринка 32 Years Underground Experience
@@ -174,7 +198,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:shalze-at-asylum-4-years-party-at-dex-club-moscow@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261121T200000Z
 DTEND:20261121T220000Z
 SUMMARY:SHALZE на вечеринке ASYLUM 4 YEARS в клубе DEX
@@ -193,7 +217,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:index-fest-2026-xandr-vasiliev-arkadius-padre-moscow@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261128T180000Z
 DTEND:20261128T200000Z
 SUMMARY:INDEX FEST 2026: Xandr.Vasiliev & Arkadius\, Padre
@@ -212,7 +236,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:minimum-pop-showcase-da-smert-and-others-moscow@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261129T140000Z
 DTEND:20261129T160000Z
 SUMMARY:Шоукейс Minimum Pop: «Да\, смерть!» и друг
@@ -239,7 +263,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:celestica-moscow@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261121T180000Z
 DTEND:20261121T200000Z
 SUMMARY:Celestica
@@ -258,31 +282,47 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:minimum-pop-showcase-moscow@afisha-art
-DTSTAMP:20261117T184737Z
-DTSTART:20261129T140000Z
-DTEND:20261129T160000Z
-SUMMARY:Шоукейс Minimum Pop
-LOCATION:Склад N3 и Столярка\, Малая Семёновс
- кая ул.\, 5\, стр. 1 и стр. 2\, Москва
-DESCRIPTION:Музыкальный шоукейс независимой 
- сцены с участием электропанк-дуэта obraza.n
- et и других гитарных и электронных колле
- ктивов.\nobraza.net\, Partybreaker\, Бакурли\, Eeva x Рас
- каты\, Deck\, ПФКБ\, Сожитель\, Да\, смрть!\, Яз
- ва\, The Slürm\, Неоновый гроб\, Аварийные раб
- оты\nhttps://minimum-pop-showcase.ticketscloud.org/
-URL:https://doublebasskakov.github.io/radar/#e=minimum-pop-showcase-mosco
+UID:delay-party-moscow@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART:20261120T200000Z
+DTEND:20261120T220000Z
+SUMMARY:Вечеринка DELAY
+LOCATION:fābula HQ\, Москва
+DESCRIPTION:Рейв с акцентом на габбер\, хардко
+ р и эсид-звучание на мощном звуке Funktion-One
+  с сетами от ведущих адептов скоростной 
+ сцены.\nNИMB\, Shakka\, Snaily\, Keener\, dj XNX\, Rex Rawhead\, Al
+ l In\nhttps://t.me/fabula_gallery/1999
+URL:https://doublebasskakov.github.io/radar/#e=delay-party-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Вечеринка DELAY
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:russian-grape-global-moscow@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART:20261128T190000Z
+DTEND:20261128T210000Z
+SUMMARY:RUSSIAN GRAPE GLOBAL
+LOCATION:Yauza\, Москва
+DESCRIPTION:Масштабная ночная вечеринка в ст
+ илистике GTA VI с лайв-шоу исполнителей и д
+ иджей-сетами на нескольких танцполах.\nRO
+ CKET\, MONEYKUSH\, SOSA\, NONOCOCO\, JACQUES FRANKO\, IZABELLE\, PUZZLLEW
+ ORLD\, JBRMV\, NORMAN\, VEERLAEN\, AISHA\nhttps://t.me/yauza_place/5565
+URL:https://doublebasskakov.github.io/radar/#e=russian-grape-global-mosco
  w
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Шоукейс Minimum Pop
+DESCRIPTION:RUSSIAN GRAPE GLOBAL
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:new-year-party-loud-boyz-2027-loud-moscow@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261231T170000Z
 DTEND:20261231T190000Z
 SUMMARY:Новогодняя вечеринка LOUD BOYZ 2027: ЛАУД
@@ -302,7 +342,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:asylum-4-years-n-a-m-i-moscow@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261121T200000Z
 DTEND:20261121T220000Z
 SUMMARY:ASYLUM 4 YEARS: N.A.M.I.
@@ -322,7 +362,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:presentation-of-the-volchok-x-trezv-drop-and-wrestling-show-moscow@af
  isha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261119T170000Z
 DTEND:20261119T190000Z
 SUMMARY:Презентация дропа VOLCHOK x ТРЕЗВ и рес
@@ -345,7 +385,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:crimewave-xxii-party-moscow@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20270123T190000Z
 DTEND:20270123T210000Z
 SUMMARY:Вечеринка CRIMEWAVE XXII
@@ -366,8 +406,28 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:party-gigzanol-dossier-no-20-11-moscow@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART:20261120T200000Z
+DTEND:20261120T220000Z
+SUMMARY:Вечеринка «ГигЗаНоль: Досье № 20.11»
+LOCATION:16 Тонн\, Москва
+DESCRIPTION:Электронная вечеринка лейбла с у
+ частием актуальных резидентов и экспер
+ иментальных музыкантов.\nЗвонь\, H.Ruine\, Hobb
+ oth\, C0CK CLEANER\, глия и др.\nhttps://t.me/gzsmsk/10030
+URL:https://doublebasskakov.github.io/radar/#e=party-gigzanol-dossier-no-
+ 20-11-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Вечеринка «ГигЗаНоль: Досье № 20.11
+ »
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:synesthesia-ectogenesis-rave-performance-moscow@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261120T200000Z
 DTEND:20261120T220000Z
 SUMMARY:Рейв-перформанс SYNESTHESIA: ECTOGENESIS
@@ -388,7 +448,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:vampatmo-myatmo-party-moscow@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261127T200000Z
 DTEND:20261127T220000Z
 SUMMARY:Вечеринка VAMPATMO | MYATMO
@@ -408,7 +468,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:beauty-series-party-at-yauza-place-moscow@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261120T180000Z
 DTEND:20261120T200000Z
 SUMMARY:Вечеринка сериала «Красота» в Yauza Pla
@@ -429,7 +489,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:police-in-paris-party-at-k-30-saint-peters@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261120T190000Z
 DTEND:20261120T210000Z
 SUMMARY:Вечеринка Police in Paris в K-30
@@ -448,7 +508,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:index-fest-2026-index-iii-resonance-party-moscow@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261128T200000Z
 DTEND:20261128T220000Z
 SUMMARY:INDEX FEST 2026: INDEX III & Resonance Party
@@ -466,7 +526,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:concert-show-prichudilos-moscow@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261124T160000Z
 DTEND:20261124T180000Z
 SUMMARY:Концертное шоу «Причудилось»
@@ -485,8 +545,29 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:hypnobaza-solo-concert-moscow@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART:20261120T160000Z
+DTEND:20261120T180000Z
+SUMMARY:Большой сольный концерт группы «Ги
+ пнобаза»
+LOCATION:Склад №3\, Малая Семёновская улица\,
+  д. 5\, стр. 2\, Москва
+DESCRIPTION:Большой сольный концерт группы «
+ Гипнобаза» на независимой площадке.\nГи
+ пнобаза\nhttps://t.me/sklad_no3/3892
+URL:https://doublebasskakov.github.io/radar/#e=hypnobaza-solo-concert-mos
+ cow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Большой сольный концерт группы «
+ Гипнобаза»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:asylum-4-years-speerax-moscow@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261121T200000Z
 DTEND:20261121T220000Z
 SUMMARY:ASYLUM 4 YEARS: SPEERAX
@@ -505,7 +586,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rexjet-at-asylum-4-years-moscow@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261121T200000Z
 DTEND:20261121T220000Z
 SUMMARY:Выступление REXJET на ASYLUM 4 YEARS
@@ -523,8 +604,27 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:exodus-zugzwang-modul-minsk@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART:20261120T200000Z
+DTEND:20261120T220000Z
+SUMMARY:ИСХОД | ZUGZWANG | MODUL
+LOCATION:MODUL\, Октябрьская 16\, корп. 3\, Минск
+DESCRIPTION:Ночная техно-вечеринка на двух не
+ зависимых танцполах с живыми перформан
+ сами и световыми инсталляциями.\nБазово
+ е техно\, Zugzwang\nhttps://t.me/wearemodul/4767
+URL:https://doublebasskakov.github.io/radar/#e=exodus-zugzwang-modul-mins
+ k
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ИСХОД | ZUGZWANG | MODUL
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:music-bingo-by-show-today-guess-the-melody-samara@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261120T150000Z
 DTEND:20261120T170000Z
 SUMMARY:МУЗЛОТО от SHOW TODAY «Угадай мелодию»
@@ -546,7 +646,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:system-108-party-police-in-paris-laud-roma-hard-shalze-moscow@afisha-
  art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Вечеринка System 108: Police in Paris\, Лауд\, Roma 
@@ -568,7 +668,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:monasterio-season-2026-closing-moscow@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:Monasterio Season 2026 Closing
@@ -584,27 +684,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:delay-party-moscow@afisha-art
-DTSTAMP:20261117T184737Z
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261121
-SUMMARY:Вечеринка DELAY
-LOCATION:fābula HQ\, Москва
-DESCRIPTION:Рейв с акцентом на габбер\, хардко
- р и эсид-звучание на мощном звуке Funktion-One
-  с сетами от ведущих адептов скоростной 
- сцены.\nNИMB\, Shakka\, Snaily\, Keener\, dj XNX\, Rex Rawhead\, Al
- l In\nhttps://t.me/fabula_gallery/1999
-URL:https://doublebasskakov.github.io/radar/#e=delay-party-moscow
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Вечеринка DELAY
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:sound-laboratory-ander-saint-peters@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:Лаборатория звука «АНДЕР»
@@ -624,7 +705,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:darkness-rises-x-electronic-music-festival-saint-peters@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Фестиваль электронной музыки DARKNESS R
@@ -646,7 +727,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:vent-moscow@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:VENT
@@ -666,7 +747,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:vent-party-moscow@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Вечеринка Vent
@@ -684,7 +765,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:asylum-4-years-party-delina-moscow@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Вечеринка ASYLUM 4 YEARS: DELINA
@@ -703,7 +784,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:party-asylum-moscow-x-barrel-23-dubai-moscow@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Вечеринка ASYLUM MOSCOW x BARREL 23 DUBAI
@@ -722,7 +803,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:helga-zeit-performance-at-asylum-4-years-moscow@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Выступление Helga Zeit на ASYLUM 4 YEARS
@@ -742,7 +823,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:asylum-4-years-go-rite-moscow@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:ASYLUM 4 YEARS: GO_RITE
@@ -762,7 +843,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:immersive-show-dissociation-of-personality-at-random-kultury-moscow@a
  fisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Иммерсивное шоу «рассТРОЕние лично
@@ -783,7 +864,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:asylum-4-years-land-rova-moscow@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:ASYLUM 4 YEARS: LAND ROVA
@@ -802,7 +883,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:asylum-4-years-party-antera-i-zer-moscow@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Вечеринка ASYLUM 4 YEARS: ANTERÄİZER
@@ -821,7 +902,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:asylum-4-years-arina-plastovez-moscow@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:ASYLUM 4 YEARS: Arina Plastovez
@@ -840,7 +921,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:badgrub-birthday-party-saint-peters@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Вечеринка «День рождения Badgrub»
@@ -858,7 +939,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:badgrub-birthday-party-moscow@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Вечеринка «День рождения Badgrub»

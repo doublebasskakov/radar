@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:theatrehd-screening-robert-wilson-s-pushkin-s-fairy-tales-yekaterinbu
+ r@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Кинопоказ спектакля Роберта Уилсон
+ а «Сказки Пушкина»
+LOCATION:Ельцин Центр\, Екатеринбург
+DESCRIPTION:Кинопоказ авангардного спектакл
+ я Роберта Уилсона по мотивам произведен
+ ий Пушкина в рамках проекта TheatreHD.\nРобер
+ т Уилсон\nhttps://t.me/yeltsincenter/10195
+URL:https://doublebasskakov.github.io/radar/#e=theatrehd-screening-robert
+ -wilson-s-pushkin-s-fairy-tales-yekaterinbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Кинопоказ спектакля Роберта Уилс
+ она «Сказки Пушкина»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

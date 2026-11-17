@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:duet-project-eiko-otake-and-ishmael-houston-jones-paris@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261208T180000Z
 DTEND:20261208T200000Z
 SUMMARY:Duet Project: Эйко Отоке и Исмаил Хьюстон-
@@ -31,7 +31,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:xxl-2026-sharjah@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261129T163000Z
 DTEND:20261129T183000Z
 SUMMARY:XXL (2026)
@@ -50,7 +50,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:friday-live-justin-caguiat-london@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261127T183000Z
 DTEND:20261127T203000Z
 SUMMARY:Пятничный вечер Live: Джастин Кагиат
@@ -70,7 +70,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:performance-in-two-minds-karlsruhe@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261127T190000Z
 DTEND:20261127T210000Z
 SUMMARY:Перформанс «В двух умах»
@@ -88,29 +88,69 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:harkeerat-mangat-getting-in-vienna@afisha-art
-DTSTAMP:20261117T184737Z
-DTSTART:20261117T180000Z
-DTEND:20261117T200000Z
-SUMMARY:Перформанс Харкирата Мангата: Getting I
- n
-LOCATION:Kunsthalle Wien (Museumsquartier)\, Museumsplatz 1\, 1070 Wien\,
-  Вена\, Австрия
-DESCRIPTION:Живой перформанс художника в рам
- ках цикла программ.\nХаркират Мангат\nhttps
- ://kunsthallewien.at/en/event/performance-harkeerat-mangat-getting-in
-URL:https://doublebasskakov.github.io/radar/#e=harkeerat-mangat-getting-i
- n-vienna
+UID:world-premiere-of-aura-performance-by-pawe-sakowicz-vienna@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART:20261205T150000Z
+DTEND:20261205T170000Z
+SUMMARY:Мировая премьера перформанса AURA Па
+ вла Саковича
+LOCATION:Secession\, Friedrichstraße 12\, 1010 Wien\, Вена\, Авс
+ трия
+DESCRIPTION:Всемирная премьера хореографиче
+ ского перформанса «AURA»\, созданного худ
+ ожником и хореографом Павлом Саковичем.
+ \nПавел Сакович\nhttps://secession.at/performance_aura
+URL:https://doublebasskakov.github.io/radar/#e=world-premiere-of-aura-per
+ formance-by-pawe-sakowicz-vienna
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Перформанс Харкирата Мангата: Getti
- ng In
+DESCRIPTION:Мировая премьера перформанса AURA 
+ Павла Саковича
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:harkeerat-mangat-getting-in-vienna-2@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART:20261118T180000Z
+DTEND:20261118T200000Z
+SUMMARY:Harkeerat Mangat: Getting In
+LOCATION:Kunsthalle Wien\, Museumsplatz 1\, 1070 Wien\, Вена\, Авс
+ трия
+DESCRIPTION:Перформанс художника Харкерата М
+ ангата в рамках программы «Lebt und arbeitet in Wi
+ en: Postscript».\nHarkeerat Mangat\nhttps://kunsthallewien.at/en/event/p
+ erformance-harkeerat-mangat-getting-in
+URL:https://doublebasskakov.github.io/radar/#e=harkeerat-mangat-getting-i
+ n-vienna-2
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Harkeerat Mangat: Getting In
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:performance-in-two-minds-karlsruhe-2@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART:20261127T190000Z
+DTEND:20261127T210000Z
+SUMMARY:Performance: In Two Minds
+LOCATION:ZKM | Center for Art and Media\, Lorenzstraße 19\, 76135 Karlsr
+ uhe\, Карлсруэ\, Германия
+DESCRIPTION:Экспериментальный перформанс в М
+ едиатеатре ZKM.\n\nhttps://zkm.de/en/2026/11/performance-in-two
+ -minds
+URL:https://doublebasskakov.github.io/radar/#e=performance-in-two-minds-k
+ arlsruhe-2
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Performance: In Two Minds
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:perform-sharjah-sharjah@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Последний день: Perform Sharjah
@@ -130,7 +170,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:longings-returns-2026-sharjah@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Longings\, Returns (2026)
@@ -151,7 +191,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:chanel-commission-lina-lapelyte-we-make-years-out-of-hours-berlin@afi
  sha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
 SUMMARY:Последний день: CHANEL Commission: Lina Lapelytė. W
@@ -174,7 +214,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:holland-festival-2027@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART;VALUE=DATE:20270603
 DTEND;VALUE=DATE:20270604
 SUMMARY:Открытие: Holland Festival 2027
@@ -195,7 +235,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:festival-automne-paris-2026@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
 SUMMARY:Последний день: Festival d'Automne à Paris 2026

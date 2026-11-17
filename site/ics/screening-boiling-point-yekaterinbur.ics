@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:screening-boiling-point-yekaterinbur@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Показ фильма «Точка кипения»
+LOCATION:Ельцин Центр\, Екатеринбург
+DESCRIPTION:Показ напряженной ресторанной др
+ амы\, снятой одним дублем.\n\nhttps://t.me/yeltsincen
+ ter/10195
+URL:https://doublebasskakov.github.io/radar/#e=screening-boiling-point-ye
+ katerinbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильма «Точка кипения»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

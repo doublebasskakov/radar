@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ai-journey-2026-science-day-online@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:AI Journey 2026: День науки
+LOCATION:AI Journey\, Онлайн
+DESCRIPTION:Научная конференция о последних 
+ достижениях в области искусственного и
+ нтеллекта\, фундаментальных моделях нов
+ ого поколения и физическом ИИ.\nКонстант
+ ин Анохин\, Алексей Хохлов\, Иван Оселеде
+ ц\, Наташа Пржуль\, Валерий Бабушкин и др
+ угие\nhttps://ai-journey.ru
+URL:https://doublebasskakov.github.io/radar/#e=ai-journey-2026-science-da
+ y-online
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AI Journey 2026: День науки
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:thanks-to-everyone-yekaterinbur@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:Последний день: Спасибо всем!
+LOCATION:Музей Андеграунда\, Екатеринбург
+DESCRIPTION:Ретроспективная выставка уральс
+ кого художника Альберта Сайфулина\, пре
+ дставляющая его живописные работы\, объ
+ екты из дерева и архивные семейные фото
+ графии.\nАльберт Сайфулин\nhttps://t.me/undergroundm
+ useum_ekb/5311
+URL:https://doublebasskakov.github.io/radar/#e=thanks-to-everyone-yekater
+ inbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Спасибо всем!
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

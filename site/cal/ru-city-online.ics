@@ -9,7 +9,7 @@ X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:online-presentation-of-the-cinema-and-context-course-at-sean-online@a
  fisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261121T090000Z
 DTEND:20261121T110000Z
 SUMMARY:Онлайн-презентация курса «Кино и ко
@@ -34,7 +34,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:webinar-from-studio-to-a-single-author-how-ai-changes-museum-online@a
  fisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261119T160000Z
 DTEND:20261119T180000Z
 SUMMARY:Вебинар «От студии к одному автору: 
@@ -57,7 +57,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:kira-dolinina-s-workshop-at-symposiy-lecturing-hall-online@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261129T090000Z
 DTEND:20261129T110000Z
 SUMMARY:Мастерская Киры Долининой в лектор
@@ -77,8 +77,72 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:jean-michel-basquiat-documentary-on-netflix-online@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:Документальный фильм «Жан-Мишель Б
+ аския» на Netflix
+LOCATION:Netflix\, Онлайн
+DESCRIPTION:Премьера документальной ленты о 
+ художнике Жан-Мишеле Баскии\, созданной 
+ на основе редких архивных материалов\, р
+ анних работ и воспоминаний близких.\nNetfli
+ x\nhttps://t.me/theblueprintnews/99496
+URL:https://doublebasskakov.github.io/radar/#e=jean-michel-basquiat-docum
+ entary-on-netflix-online
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Документальный фильм «Жан-Мишель
+  Баския» на Netflix
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:scenes-from-capital-online@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:Фильм «Сцены из „Капитала“»
+LOCATION:Кинопоиск\, Онлайн
+DESCRIPTION:Медиахудожники используют искус
+ ственный интеллект для визуализации не
+ реализованных планов Сергея Эйзенштейн
+ а по экранизации труда Карла Маркса.\nФе
+ дор Максимишин\, Дарья Суслова\nhttps://t.me/mes
+ sage2man/2865
+URL:https://doublebasskakov.github.io/radar/#e=scenes-from-capital-online
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Фильм «Сцены из „Капитала“»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ai-journey-2026-science-day-online@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:AI Journey 2026: День науки
+LOCATION:AI Journey\, Онлайн
+DESCRIPTION:Научная конференция о последних 
+ достижениях в области искусственного и
+ нтеллекта\, фундаментальных моделях нов
+ ого поколения и физическом ИИ.\nКонстант
+ ин Анохин\, Алексей Хохлов\, Иван Оселеде
+ ц\, Наташа Пржуль\, Валерий Бабушкин и др
+ угие\nhttps://ai-journey.ru
+URL:https://doublebasskakov.github.io/radar/#e=ai-journey-2026-science-da
+ y-online
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AI Journey 2026: День науки
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:macca-friends-animated-series-premiere-online@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:Премьера анимационного сериала Macca 
@@ -100,7 +164,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:online-exhibition-home-elsewhere-online@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Открытие: Онлайн-выставка «Home\, Elsewher
@@ -123,7 +187,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:how-to-become-an-art-historian-online@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART;VALUE=DATE:20270114
 DTEND;VALUE=DATE:20270115
 SUMMARY:Как стать искусствоведом
@@ -142,30 +206,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:jean-michel-basquiat-documentary-on-netflix-online@afisha-art
-DTSTAMP:20261117T184737Z
-DTSTART;VALUE=DATE:20261211
-DTEND;VALUE=DATE:20261212
-SUMMARY:Документальный фильм «Жан-Мишель Б
- аския» на Netflix
-LOCATION:Netflix\, Онлайн
-DESCRIPTION:Премьера документальной ленты о 
- художнике Жан-Мишеле Баскии\, созданной 
- на основе редких архивных материалов\, р
- анних работ и воспоминаний близких.\nNetfli
- x\nhttps://t.me/theblueprintnews/99496
-URL:https://doublebasskakov.github.io/radar/#e=jean-michel-basquiat-docum
- entary-on-netflix-online
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Документальный фильм «Жан-Мишель
-  Баския» на Netflix
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:podcast-contemporary-art-instructions-for-use-online@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:Последний день: Подкаст «Современн

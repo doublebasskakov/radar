@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:exhibition-on-vladimir-dal-nizhny-novgo@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Выставка о Владимире Дале
+LOCATION:Усадьба Рукавишниковых\, Нижний Но
+ вгород
+DESCRIPTION:Экспозиция\, посвященная нижегор
+ одскому периоду жизни создателя «Толко
+ вого словаря»\, раскрывающая его деятел
+ ьность на посту управляющего удельной к
+ онторой.\nNone\nhttps://t.me/NNafisha/13241
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-on-vladimir-dal
+ -nizhny-novgo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выставка о Владимире Дале
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

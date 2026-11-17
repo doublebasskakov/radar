@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:special-screening-agin-prr-moscow@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261122T143000Z
 DTEND:20261122T163000Z
 SUMMARY:Специальный показ: «АГИН ПРР»
@@ -28,8 +28,32 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:special-screening-of-battleship-potemkin-with-live-score-moscow@afish
+ a-art
+DTSTAMP:20261117T235129Z
+DTSTART:20261130T163000Z
+DTEND:20261130T183000Z
+SUMMARY:Специальный показ фильма «Броненос
+ ец „Потемкин“» с живым озвучанием
+LOCATION:МАММ\, ул. Остоженка\, 16\, Москва
+DESCRIPTION:Показ отреставрированной версии 
+ классического фильма Сергея Эйзенштейн
+ а к его 100-летию в сопровождении тапера Ф
+ илиппа Чельцова.\nСергей Эйзенштейн\, Фи
+ липп Чельцов\, Станислав Дединский\, Нат
+ алья Рябчикова\nhttps://t.me/multimediaartmuseum/7142
+URL:https://doublebasskakov.github.io/radar/#e=special-screening-of-battl
+ eship-potemkin-with-live-score-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Специальный показ фильма «Бронен
+ осец „Потемкин“» с живым озвучанием
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:film-robert-wilson-beauty-is-a-mystery-samara@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261126T153000Z
 DTEND:20261126T173000Z
 SUMMARY:Фильм «Роберт Уилсон: Красота — в з
@@ -51,7 +75,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:retrospective-of-masha-chernaya-part-1-moscow@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261122T150000Z
 DTEND:20261122T170000Z
 SUMMARY:Ретроспектива Маши Черной. Часть 1
@@ -73,7 +97,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:retrospective-of-masha-chernaya-part-2-moscow@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261129T120000Z
 DTEND:20261129T140000Z
 SUMMARY:Ретроспектива Маши Черной. Часть 2
@@ -95,7 +119,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-the-film-summer-in-baden-moscow@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261127T163000Z
 DTEND:20261127T183000Z
 SUMMARY:Показ фильма «Лето в Бадене»
@@ -117,7 +141,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-nevechernyaya-moscow@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261127T163000Z
 DTEND:20261127T183000Z
 SUMMARY:Показ фильма «Невечерняя»
@@ -139,7 +163,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:special-screening-of-pavel-lungin-s-film-four-lives-of-pyotr-moscow@a
  fisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261123T163000Z
 DTEND:20261123T183000Z
 SUMMARY:Специальный показ фильма Павла Лун
@@ -162,7 +186,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:special-naa-programma-festivala-poslanie-k-celoveku-nostal-g-saint-pe
  ters@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261121T150000Z
 DTEND:20261121T170000Z
 SUMMARY:Специальная программа фестиваля «П
@@ -186,7 +210,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:message-to-man-festival-echo-program-screenings-in-krasnoyar-krasnoya
  rsk@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261123
 SUMMARY:Фестиваль «Послание к человеку»: по
@@ -207,7 +231,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:special-screening-nostalgia-for-the-future-moscow@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261121T150000Z
 DTEND:20261121T170000Z
 SUMMARY:Специальный показ: «Ностальгия по б
@@ -228,8 +252,30 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:screening-andrei-tarkovsky-s-the-sacrifice-saint-peters@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART:20261119T160000Z
+DTEND:20261119T180000Z
+SUMMARY:Кинопоказ: «Жертвоприношение» Андр
+ ея Тарковского
+LOCATION:Центр современного искусства имен
+ и Сергея Курёхина\, Санкт-Петербург
+DESCRIPTION:Показ отреставрированной в 4K вер
+ сии философской притчи Андрея Тарковск
+ ого к её 40-летию.\nАндрей Тарковский\nhttps:/
+ /t.me/kuryokhincenter/3406
+URL:https://doublebasskakov.github.io/radar/#e=screening-andrei-tarkovsky
+ -s-the-sacrifice-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Кинопоказ: «Жертвоприношение» Ан
+ дрея Тарковского
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:st-petersburg-premiere-of-the-film-malika-saint-peters@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261126T160000Z
 DTEND:20261126T180000Z
 SUMMARY:Петербуржская премьера фильма «Мал
@@ -250,7 +296,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:short-films-screening-block-2-yekaterinbur@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Показ короткометражных фильмов. Сб
@@ -270,7 +316,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-shelter-yekaterinbur@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Показ фильма «Укрытие»
@@ -289,7 +335,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-there-s-enough-happiness-in-the-world-for-every-moscow@a
  fisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261127T163000Z
 DTEND:20261127T183000Z
 SUMMARY:Кинопоказ «Счастья в мире хватит на
@@ -312,7 +358,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-arina-s-portraits-as-part-of-the-message-to-man-moscow@a
  fisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261122T150000Z
 DTEND:20261122T170000Z
 SUMMARY:Кинопоказ «Портреты Арины» в рамка
@@ -332,9 +378,30 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:screening-of-never-evening-at-message-to-man-echo-moscow@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART:20261127T163000Z
+DTEND:20261127T183000Z
+SUMMARY:Показ фильма «Невечерняя» на Эхе фе
+ стиваля «Послание к человеку»
+LOCATION:Третьяковская галерея\, Инженерный
+  корпус\, Москва
+DESCRIPTION:Показ работы Марлена Хуциева в ра
+ мках ретроспективных показов.\nМарлен Х
+ уциев\nhttps://t.me/message2man/2866
+URL:https://doublebasskakov.github.io/radar/#e=screening-of-never-evening
+ -at-message-to-man-echo-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильма «Невечерняя» на Эхе 
+ фестиваля «Послание к человеку»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:screening-of-lumberjack-as-part-of-the-message-to-man-festiv-moscow@a
  fisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261127T181500Z
 DTEND:20261127T201500Z
 SUMMARY:Кинопоказ «Лесоруб» в рамках «Эха» 
@@ -353,33 +420,9 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:documentary-filmbook-the-csdf-era-screenings-by-andrei-istra-moscow@a
- fisha-art
-DTSTAMP:20261117T184737Z
-DTSTART:20261117T160000Z
-DTEND:20261117T180000Z
-SUMMARY:Киноблокнот документальный. Эпоха 
- ЦСДФ: показ фильмов Андрея Истратова
-LOCATION:Кинотеатр «Иллюзион»\, Москва
-DESCRIPTION:Спецпоказ двух документальных ле
- нт об истории Центральной студии докуме
- нтальных фильмов и архиве кинофотофоно
- документов с последующей встречей с реж
- иссером Андреем Истратовым.\nАндрей Ист
- ратов\nhttps://t.me/gosfilmofond/8989
-URL:https://doublebasskakov.github.io/radar/#e=documentary-filmbook-the-c
- sdf-era-screenings-by-andrei-istra-moscow
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Киноблокнот документальный. Эпох
- а ЦСДФ: показ фильмов Андрея Истратова
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:screening-of-sleeping-with-a-tiger-and-lecture-by-ilmira-bol-moscow@a
  fisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261121T150000Z
 DTEND:20261121T170000Z
 SUMMARY:Показ фильма «Сон с тигром» и лекци
@@ -402,9 +445,34 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:film-and-book-club-screening-and-discussion-of-three-thousan-moscow@a
+ fisha-art
+DTSTAMP:20261117T235129Z
+DTSTART:20261216T160000Z
+DTEND:20261216T180000Z
+SUMMARY:Кинокнижный клуб: показ и обсуждени
+ е фильма «Три тысячи лет желаний»
+LOCATION:Госфильмофонд / площадка клуба\, Мо
+ сква
+DESCRIPTION:Встреча кинокнижного клуба «Пере
+ листывая экран»\, посвященная экранизац
+ ии рассказа Антонии Сьюзен Байетт с уча
+ стием киноведов и экспертов.\nДжордж Мил
+ лер\, Татьяна Соловьева\, Александр Сими
+ ндейкин\nhttps://t.me/gosfilmofond/9000
+URL:https://doublebasskakov.github.io/radar/#e=film-and-book-club-screeni
+ ng-and-discussion-of-three-thousan-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Кинокнижный клуб: показ и обсужде
+ ние фильма «Три тысячи лет желаний»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:the-cell-screening-and-ulyana-savina-photo-exhibition-moscow@afisha-a
  rt
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261120T173000Z
 DTEND:20261120T193000Z
 SUMMARY:Кинопоказ фильма «Клетка» Тарсема 
@@ -425,32 +493,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:session-1-department-of-non-fiction-film-directing-moscow@afisha-art
-DTSTAMP:20261117T184737Z
-DTSTART:20261117T090000Z
-DTEND:20261117T110000Z
-SUMMARY:Сеанс 1. Кафедра режиссуры неигрово
- го кино
-LOCATION:Кинотеатр «Иллюзион»\, Котельничес
- кая наб.\, 1/15\, Москва
-DESCRIPTION:Показ студенческих работ нового 
- набора экспериментальной мастерской Ал
- ексея Учителя и Алексея Гелейна в рамка
- х фестиваля ВГИК.\nМастерская Алексея Уч
- ителя и Алексея Гелейна\nhttps://t.me/gosfilmofond/89
- 80
-URL:https://doublebasskakov.github.io/radar/#e=session-1-department-of-no
- n-fiction-film-directing-moscow
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Сеанс 1. Кафедра режиссуры неигро
- вого кино
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:museum-show-hermitage-the-power-of-art-moscow@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261121T113000Z
 DTEND:20261121T133000Z
 SUMMARY:Музейное шоу «Эрмитаж. Сила искусст
@@ -473,31 +517,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:documentary-film-evening-with-kinoperedvizhka-moscow@afisha-art
-DTSTAMP:20261117T184737Z
-DTSTART:20261117T160000Z
-DTEND:20261117T180000Z
-SUMMARY:Вечер документального взгляда с Ки
- ноПередвижкой
-LOCATION:КиноПередвижка\, ул. Малая Дмитровк
- а\, 25с1\, Москва
-DESCRIPTION:Показ серии короткометражных док
- ументальных и мокументари фильмов с пос
- ледующим обсуждением работ совместно с 
- их авторами.\nКристина Даурова и другие 
- режиссёры\nhttps://t.me/la_communee/1278
-URL:https://doublebasskakov.github.io/radar/#e=documentary-film-evening-w
- ith-kinoperedvizhka-moscow
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Вечер документального взгляда с 
- КиноПередвижкой
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:screening-of-the-cyclo-by-tran-anh-hung-moscow@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261120T160000Z
 DTEND:20261120T180000Z
 SUMMARY:Показ фильма «Рикша» Чан Ань Хунга
@@ -519,7 +540,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-naomi-kawase-s-films-katatsumori-and-niwatsugum-moscow@a
  fisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261120T163000Z
 DTEND:20261120T183000Z
 SUMMARY:Показ фильмов Наоми Кавасе «Катацу
@@ -544,7 +565,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:premiere-of-the-documentary-no-time-to-slow-down-initiation--moscow@a
  fisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261118T170000Z
 DTEND:20261118T190000Z
 SUMMARY:Премьера документального фильма «Н
@@ -569,7 +590,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cometa-free-cinema-festival-belgrade@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261121T150000Z
 DTEND:20261121T170000Z
 SUMMARY:Фестиваль свободного кино «КоМета»
@@ -590,7 +611,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:echo-of-flahertiana-program-documentary-screenings-and-discu-rostov-o
  n-do@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261122T130000Z
 DTEND:20261122T150000Z
 SUMMARY:Программа «Эхо Флаэртианы»: показы 
@@ -615,7 +636,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:special-screening-of-the-military-drama-a-span-of-earth-moscow@afisha
  -art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261119T070000Z
 DTEND:20261119T090000Z
 SUMMARY:Специальный показ военной драмы «П
@@ -636,7 +657,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:the-5th-indie-cinema-apartment-screening-festival-moscow@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261119T160000Z
 DTEND:20261119T180000Z
 SUMMARY:Пятый киноквартирник инди-кино
@@ -656,7 +677,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-the-substance-and-discussion-moscow@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261122T150000Z
 DTEND:20261122T170000Z
 SUMMARY:Показ фильма «Субстанция» и обсужд
@@ -679,7 +700,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dmitry-shostakovich-katerina-izmailova-moscow@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261122T120000Z
 DTEND:20261122T140000Z
 SUMMARY:Дмитрий Шостакович. «Катерина Изма
@@ -703,7 +724,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-poslednie-party-collective-films-and-trivia-qui-saint-pe
  ters@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261122T130000Z
 DTEND:20261122T150000Z
 SUMMARY:Показ фильмов кооператива «Последн
@@ -725,8 +746,33 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:screening-of-the-adventures-of-mosaics-on-land-and-beneath-a-moscow@a
+ fisha-art
+DTSTAMP:20261117T235129Z
+DTSTART:20261121T150000Z
+DTEND:20261121T170000Z
+SUMMARY:Показ фильма «Приключения мозаик н
+ а земле и под» на Эхе фестиваля «Послани
+ е к человеку»
+LOCATION:Третьяковская галерея\, Инженерный
+  корпус\, Москва
+DESCRIPTION:Показ документальной картины Але
+ ксея Федорченко в рамках программы пока
+ зов фестиваля «Послание к человеку».\nАл
+ ексей Федорченко\nhttps://t.me/message2man/2866
+URL:https://doublebasskakov.github.io/radar/#e=screening-of-the-adventure
+ s-of-mosaics-on-land-and-beneath-a-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильма «Приключения мозаик
+  на земле и под» на Эхе фестиваля «Посла
+ ние к человеку»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:screening-of-taking-the-horse-to-eat-jalebis-moscow@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261121T160000Z
 DTEND:20261121T180000Z
 SUMMARY:Показ фильма «Taking the Horse to Eat Jalebis»
@@ -746,7 +792,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:special-screening-of-tart-grape-moscow@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261120T160000Z
 DTEND:20261120T180000Z
 SUMMARY:Специальный показ фильма «Терпкий 
@@ -767,30 +813,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:preview-screening-and-q-a-with-ilya-farfel-moscow@afisha-art
-DTSTAMP:20261117T184737Z
-DTSTART:20261117T170000Z
-DTEND:20261117T190000Z
-SUMMARY:Предпремьерный показ и встреча с Ил
- ьясом Фарфелем
-LOCATION:Амфитеатр МЕОЦ\, 2-й Вышеславцев пер
- еулок\, д. 5А\, Москва
-DESCRIPTION:Закрытый показ новой картины реж
- иссёра Ильи Фарфеля с участием съёмочно
- й группы и последующим обсуждением.\nИль
- я Фарфель\nhttps://t.me/kinoklub_oge/1237
-URL:https://doublebasskakov.github.io/radar/#e=preview-screening-and-q-a-
- with-ilya-farfel-moscow
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Предпремьерный показ и встреча с 
- Ильясом Фарфелем
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:hermitage-the-power-of-art-moscow@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261121T113000Z
 DTEND:20261121T133000Z
 SUMMARY:Эрмитаж. Сила искусства
@@ -811,7 +835,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:screening-the-fantasies-of-faryatyev-moscow@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261119T161500Z
 DTEND:20261119T181500Z
 SUMMARY:Кинопоказ «Фантазии Фарятьева»
@@ -832,7 +856,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-the-film-dance-breath-about-maurice-be-jart-moscow@afish
  a-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261128T153000Z
 DTEND:20261128T173000Z
 SUMMARY:Кинопоказ фильма «Дыхание танца» о 
@@ -853,27 +877,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:screening-of-the-sacrifice-moscow@afisha-art
-DTSTAMP:20261117T184737Z
-DTSTART:20261117T163000Z
-DTEND:20261117T183000Z
-SUMMARY:Показ фильма «Жертвоприношение»
-LOCATION:Киноклуб МАММ\, Москва
-DESCRIPTION:Спецпоказ заключительной картин
- ы Андрея Тарковского в рамках киноклуба
-  Мультимедиа Арт Музея.\nАндрей Тарковск
- ий\nhttps://t.me/multimediaartmuseum/7131
-URL:https://doublebasskakov.github.io/radar/#e=screening-of-the-sacrifice
- -moscow
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Показ фильма «Жертвоприношение»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:special-screening-a-small-fact-moscow@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261121T150000Z
 DTEND:20261121T170000Z
 SUMMARY:Спецпоказ. Маленький факт
@@ -892,7 +897,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-other-people-s-letters-and-discussion-moscow@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261119T163000Z
 DTEND:20261119T183000Z
 SUMMARY:Показ фильма «Чужие письма» и обсуж
@@ -912,7 +917,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-the-film-at-the-edge-of-the-world-voronezh@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261119T160000Z
 DTEND:20261119T180000Z
 SUMMARY:Показ фильма «На краю света»
@@ -930,9 +935,32 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:screening-documentary-caravaggio-behold-the-man-saint-peters@afisha-a
+ rt
+DTSTAMP:20261117T235129Z
+DTSTART:20261120T160000Z
+DTEND:20261120T180000Z
+SUMMARY:Кинопоказ: документальный фильм «К
+ араваджо: Се человек»
+LOCATION:Центр современного искусства имен
+ и Сергея Курёхина\, Санкт-Петербург
+DESCRIPTION:Детективная документальная исто
+ рия об атрибуции и обнаружении утерянно
+ го шедевра Караваджо.\nАльваро Лонгория\
+ nhttps://t.me/kuryokhincenter/3406
+URL:https://doublebasskakov.github.io/radar/#e=screening-documentary-cara
+ vaggio-behold-the-man-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Кинопоказ: документальный фильм 
+ «Караваджо: Се человек»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:screening-of-paper-tiger-and-discussion-with-daniil-dzhienba-moscow@a
  fisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261118T163000Z
 DTEND:20261118T183000Z
 SUMMARY:Показ фильма «Бумажный тигр» и обсу
@@ -954,7 +982,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:film-screening-sea-sea-sea-sea-and-this-body-of-a-bird-moscow@afisha-
  art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261126T170000Z
 DTEND:20261126T190000Z
 SUMMARY:Кинопоказ: «Море\, море\, море\, море»
@@ -975,7 +1003,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lilya-moscow@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261128T160000Z
 DTEND:20261128T180000Z
 SUMMARY:Художественный фильм «Лиля»
@@ -996,7 +1024,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sergei-prokofiev-betrothal-in-a-monastery-moscow@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261129T113000Z
 DTEND:20261129T133000Z
 SUMMARY:Сергей Прокофьев. «Обручение в мона
@@ -1020,7 +1048,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-the-tale-of-tsar-saltan-at-opera-on-screen-moscow@afisha
  -art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261118T180000Z
 DTEND:20261118T200000Z
 SUMMARY:Показ оперы «Сказка о царе Салтане»
@@ -1043,7 +1071,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:film-screening-sentimental-value-moscow@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261119T163000Z
 DTEND:20261119T183000Z
 SUMMARY:Кинопоказ «Сентиментальная ценнос
@@ -1065,7 +1093,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-secret-room-in-the-mall-dir-jeremy-workman-moscow@afisha
  -art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261121T150000Z
 DTEND:20261121T170000Z
 SUMMARY:Показ фильма «Тайная комната в ТЦ» (
@@ -1086,7 +1114,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-today-at-german-s-122-at-85-dir-petr-shepotinni-moscow@a
  fisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261119T163000Z
 DTEND:20261119T183000Z
 SUMMARY:Показ фильма «Сегодня у Германа 122 н
@@ -1107,7 +1135,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:national-competition-screening-at-message-to-man-film-festiv-moscow@a
  fisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261120T163000Z
 DTEND:20261120T183000Z
 SUMMARY:Сеанс национального конкурса МКФ «
@@ -1128,25 +1156,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:wicker-moscow@afisha-art
-DTSTAMP:20261117T184737Z
-DTSTART:20261117T163000Z
-DTEND:20261117T183000Z
-SUMMARY:Плетень
-LOCATION:ГЭС-2\, Болотная наб.\, 15\, Москва
-DESCRIPTION:Кинопоказ авторского фильма в ра
- мках программы кинотеатра Дома культур
- ы.\n\nhttps://ges-2.org/en/wicker
-URL:https://doublebasskakov.github.io/radar/#e=wicker-moscow
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Плетень
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:screening-of-katatsumori-and-trace-and-mediation-moscow@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261120T163000Z
 DTEND:20261120T183000Z
 SUMMARY:Показ фильмов «Катацумори» и «След
@@ -1167,9 +1178,30 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:screening-of-our-salvation-at-message-to-man-echo-moscow@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART:20261121T170000Z
+DTEND:20261121T190000Z
+SUMMARY:Показ фильма «Наше спасение» на Эхе
+  фестиваля «Послание к человеку»
+LOCATION:Третьяковская галерея\, Инженерный
+  корпус\, Москва
+DESCRIPTION:Сеанс авторского кино Эмманюэля 
+ Марре в кинозале Третьяковской галереи.
+ \nЭмманюэль Марре\nhttps://t.me/message2man/2866
+URL:https://doublebasskakov.github.io/radar/#e=screening-of-our-salvation
+ -at-message-to-man-echo-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильма «Наше спасение» на Э
+ хе фестиваля «Послание к человеку»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:screening-of-yo-love-is-a-rebellious-bird-dir-anna-fitch-moscow@afish
  a-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261122T140000Z
 DTEND:20261122T160000Z
 SUMMARY:Показ фильма «Йо\, любовь — это мяте
@@ -1189,7 +1221,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:film-screening-songs-of-the-moon-king-moscow@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261119T170000Z
 DTEND:20261119T190000Z
 SUMMARY:Кинопоказ: «Песни лунного короля»
@@ -1207,26 +1239,50 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:special-screening-of-dust-moscow@afisha-art
-DTSTAMP:20261117T184737Z
-DTSTART:20261117T173000Z
-DTEND:20261117T193000Z
-SUMMARY:Спецпоказ фильма «Пыль»
-LOCATION:Центр Зотов\, Москва
-DESCRIPTION:Спецпоказ культового фильма «Пыл
- ь» с участием Петра Мамонова.\nПётр Мамо
- нов\nhttps://t.me/centrezotov/10359
-URL:https://doublebasskakov.github.io/radar/#e=special-screening-of-dust-
- moscow
+UID:screening-of-joybubbles-at-message-to-man-echo-moscow@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART:20261127T140000Z
+DTEND:20261127T160000Z
+SUMMARY:Показ фильма «Джойбабблс» на Эхе фе
+ стиваля «Послание к человеку»
+LOCATION:Третьяковская галерея\, Инженерный
+  корпус\, Москва
+DESCRIPTION:Показ картины Рэйчел Моррисон в п
+ рограмме фестиваля.\nРэйчел Моррисон\nhttp
+ s://t.me/message2man/2866
+URL:https://doublebasskakov.github.io/radar/#e=screening-of-joybubbles-at
+ -message-to-man-echo-moscow
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Спецпоказ фильма «Пыль»
+DESCRIPTION:Показ фильма «Джойбабблс» на Эхе 
+ фестиваля «Послание к человеку»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:screening-of-magic-atlas-at-message-to-man-echo-moscow@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART:20261122T163000Z
+DTEND:20261122T183000Z
+SUMMARY:Показ фильма «Волшебный атлас» на Э
+ хе фестиваля «Послание к человеку»
+LOCATION:Третьяковская галерея\, Инженерный
+  корпус\, Москва
+DESCRIPTION:Показ художественно-анимационно
+ го фильма Сунь Сюня.\nСунь Сюнь\nhttps://t.me/mes
+ sage2man/2866
+URL:https://doublebasskakov.github.io/radar/#e=screening-of-magic-atlas-a
+ t-message-to-man-echo-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильма «Волшебный атлас» н
+ а Эхе фестиваля «Послание к человеку»
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:special-screening-of-girl-interrupted-moscow@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261118T160000Z
 DTEND:20261118T180000Z
 SUMMARY:Спецпоказ фильма «Прерванная юност
@@ -1245,7 +1301,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:special-screening-of-the-film-the-wicker-husband-kazan@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261122T140000Z
 DTEND:20261122T160000Z
 SUMMARY:Специальный показ фильма «Плетеный
@@ -1265,9 +1321,33 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:screening-of-the-bald-man-s-curlers-at-message-to-man-echo-moscow@afi
+ sha-art
+DTSTAMP:20261117T235129Z
+DTSTART:20261122T110000Z
+DTEND:20261122T130000Z
+SUMMARY:Показ фильма «Бигуди лысого челове
+ ка» на Эхе фестиваля «Послание к челове
+ ку»
+LOCATION:Третьяковская галерея\, Инженерный
+  корпус\, Москва
+DESCRIPTION:Показ экспериментальной ленты Ма
+ ши Годованной.\nМаша Годованная\nhttps://t.me/m
+ essage2man/2866
+URL:https://doublebasskakov.github.io/radar/#e=screening-of-the-bald-man-
+ s-curlers-at-message-to-man-echo-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильма «Бигуди лысого чело
+ века» на Эхе фестиваля «Послание к чело
+ веку»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:fifth-film-apartment-gathering-of-the-kommunalka-film-club-moscow@afi
  sha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261119T160000Z
 DTEND:20261119T180000Z
 SUMMARY:Пятый Киноквартирник киноклуба «Ко
@@ -1289,8 +1369,28 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:demolition-film-screening-moscow@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART:20261122T140000Z
+DTEND:20261122T160000Z
+SUMMARY:Кинопоказ фильма «Разрушение»
+LOCATION:Циферблат на Пушкинской\, Москва
+DESCRIPTION:Совместный просмотр и детальный 
+ разбор драмы о человеке\, который пытает
+ ся пересобрать свою жизнь после трагиче
+ ской утраты.\nЖан-Марк Валле\, Константин
+ \nhttps://t.me/damngoodmovie/543
+URL:https://doublebasskakov.github.io/radar/#e=demolition-film-screening-
+ moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Кинопоказ фильма «Разрушение»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:film-analysis-dead-poets-society-rostov-on-do@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261122T140000Z
 DTEND:20261122T160000Z
 SUMMARY:Киноразбор «Общество мертвых поэто
@@ -1311,8 +1411,29 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:screening-drama-new-home-saint-peters@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART:20261118T160000Z
+DTEND:20261118T180000Z
+SUMMARY:Кинопоказ: драма «Новый дом»
+LOCATION:Центр современного искусства имен
+ и Сергея Курёхина\, Санкт-Петербург
+DESCRIPTION:Показ фильма Никиты Грушина о поп
+ ытках бывшей заключенной начать жизнь с
+  чистого листа.\nНикита Грушин\, Дарья Са
+ вельева\, Александр Яценко\nhttps://t.me/kuryokhinc
+ enter/3406
+URL:https://doublebasskakov.github.io/radar/#e=screening-drama-new-home-s
+ aint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Кинопоказ: драма «Новый дом»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:screening-of-harry-potter-and-the-sorcerer-s-stone-moscow@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261121T153000Z
 DTEND:20261121T173000Z
 SUMMARY:Кинопоказ фильма «Гарри Поттер и Фи
@@ -1332,7 +1453,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-the-film-dead-poets-society-moscow@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261119T163000Z
 DTEND:20261119T183000Z
 SUMMARY:Кинопоказ фильма «Общество мёртвых
@@ -1351,27 +1472,30 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:film-screening-woven-husband-moscow@afisha-art
-DTSTAMP:20261117T184737Z
-DTSTART:20261117T163000Z
-DTEND:20261117T183000Z
-SUMMARY:Кинопоказ «Плетеный муж»
-LOCATION:ГЭС-2\, Болотная наб.\, 15\, Москва
-DESCRIPTION:Показ авторского кино в рамках те
- кущей программы кинопоказов Дома культ
- уры.\nNone\nhttps://t.me/vacges2/8559
-URL:https://doublebasskakov.github.io/radar/#e=film-screening-woven-husba
- nd-moscow
+UID:film-screening-at-niko-1560-nizhny-novgo@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART:20261119T170000Z
+DTEND:20261119T190000Z
+SUMMARY:Киновечер в Нико 1560: показ фильма «Н
+ е грози Южному централу»
+LOCATION:Нико 1560\, Нижневолжская наб.\, 19 корп
+ . 1\, Нижний Новгород
+DESCRIPTION:Уютный киновечер в лаундж-формат
+ е с просмотром ироничной комедии-пароди
+ и.\nНико 1560\nhttps://t.me/NNafisha/13249
+URL:https://doublebasskakov.github.io/radar/#e=film-screening-at-niko-156
+ 0-nizhny-novgo
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Кинопоказ «Плетеный муж»
+DESCRIPTION:Киновечер в Нико 1560: показ фильма 
+ «Не грози Южному централу»
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-harry-potter-and-the-chamber-of-secrets-moscow@afisha-ar
  t
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261122T153000Z
 DTEND:20261122T173000Z
 SUMMARY:Кинопоказ фильма «Гарри Поттер и Та
@@ -1391,7 +1515,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-harry-potter-and-the-goblet-of-fire-moscow@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261129T153000Z
 DTEND:20261129T173000Z
 SUMMARY:Кинопоказ фильма «Гарри Поттер и Ку
@@ -1412,7 +1536,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-harry-potter-and-the-prisoner-of-azkaban-moscow@afisha-a
  rt
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART:20261128T153000Z
 DTEND:20261128T173000Z
 SUMMARY:Кинопоказ фильма «Гарри Поттер и Уз
@@ -1433,7 +1557,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:message-to-man-festival-echo-program-screenings-in-moscow-moscow@afis
  ha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Последний день: Фестиваль «Послани
@@ -1458,457 +1582,9 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:macca-friends-animated-series-premiere-online@afisha-art
-DTSTAMP:20261117T184737Z
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261120
-SUMMARY:Премьера анимационного сериала Macca 
- & Friends
-LOCATION:Rockstar Games Platforms\, Онлайн
-DESCRIPTION:Релиз анимационного проекта от с
- оздателей GTA VI\, посвященного приключени
- ям аллигатора Макки в цифровом простран
- стве штата Леонида.\nRockstar Games\nhttps://t.me/technom
- otel/25372
-URL:https://doublebasskakov.github.io/radar/#e=macca-friends-animated-ser
- ies-premiere-online
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Премьера анимационного сериала Ma
- cca & Friends
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:short-films-screening-block-1-yekaterinbur@afisha-art
-DTSTAMP:20261117T184737Z
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261121
-SUMMARY:Показ короткометражных фильмов. Сб
- орник 1
-LOCATION:Ельцин Центр\, Екатеринбург
-DESCRIPTION:Показ фестивальных короткометра
- жных фильмов «Просто побудьте со мной»\,
-  «Я тоже хочу (снимать кино)» и «Похитите
- ли».\n\nhttps://t.me/yeltsincenter/10187
-URL:https://doublebasskakov.github.io/radar/#e=short-films-screening-bloc
- k-1-yekaterinbur
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Показ короткометражных фильмов. 
- Сборник 1
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:luchino-visconti-retrospective-obsession-moscow@afisha-art
-DTSTAMP:20261117T184737Z
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261121
-SUMMARY:Ретроспектива фильмов Лукино Виско
- нти: «Одержимость»
-LOCATION:Третьяковская галерея\, Лаврушинск
- ий пер.\, 12\, Москва
-DESCRIPTION:Показ отреставрированной класси
- ческой драмы Лукино Висконти 1943 года в р
- амках ретроспективы к 120-летию режиссер
- а.\nЛукино Висконти\nhttps://t.me/seance_light/13682
-URL:https://doublebasskakov.github.io/radar/#e=luchino-visconti-retrospec
- tive-obsession-moscow
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Ретроспектива фильмов Лукино Вис
- конти: «Одержимость»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:luchino-visconti-retrospective-senso-moscow@afisha-art
-DTSTAMP:20261117T184737Z
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
-SUMMARY:Ретроспектива Лукино Висконти: «Чу
- вство»
-LOCATION:Третьяковская галерея\, Клементовс
- кий переулок\, 14\, Москва
-DESCRIPTION:В Третьяковской галерее в рамках 
- ретроспективы к 120-летию Лукино Висконт
- и покажут картину «Чувство» 1954 года.\nЛу
- кино Висконти\nhttps://t.me/kinoartru/13879
-URL:https://doublebasskakov.github.io/radar/#e=luchino-visconti-retrospec
- tive-senso-moscow
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Ретроспектива Лукино Висконти: «
- Чувство»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:luchino-visconti-retrospective-the-innocent-moscow@afisha-art
-DTSTAMP:20261117T184737Z
-DTSTART;VALUE=DATE:20261129
-DTEND;VALUE=DATE:20261130
-SUMMARY:Ретроспектива Лукино Висконти: «Не
- винный»
-LOCATION:Третьяковская галерея\, Клементовс
- кий переулок\, 14\, Москва
-DESCRIPTION:Третьяковская галерея завершает 
- ноябрьскую программу показов к юбилею Л
- укино Висконти лентой «Невинный» (1976).\nЛ
- укино Висконти\nhttps://t.me/kinoartru/13879
-URL:https://doublebasskakov.github.io/radar/#e=luchino-visconti-retrospec
- tive-the-innocent-moscow
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Ретроспектива Лукино Висконти: «
- Невинный»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:queen-margot-screening-moscow@afisha-art
-DTSTAMP:20261117T184737Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261122
-SUMMARY:Показ фильма «Королева Марго»
-LOCATION:Кинотеатр Пионер\, Москва
-DESCRIPTION:Единственный сеанс отреставриро
- ванной режиссерской версии Патриса Шер
- о со вступительным словом киноведа.\nПат
- рис Шеро\, Виктор Прокофьев\nhttps://t.me/pionercin
- emaru/5594
-URL:https://doublebasskakov.github.io/radar/#e=queen-margot-screening-mos
- cow
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Показ фильма «Королева Марго»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:message-to-man-festival-echo-program-screenings-in-pskov-pskov@afisha
- -art
-DTSTAMP:20261117T184737Z
-DTSTART;VALUE=DATE:20261127
-DTEND;VALUE=DATE:20261130
-SUMMARY:Фестиваль «Послание к человеку»: по
- казы программы «Эхо» в Пскове
-LOCATION:Кинотеатр «Акваполис»\, Псков
-DESCRIPTION:Показы документального и коротко
- метражного кино из шорт-листа фестиваля
-  «Послание к человеку» в Пскове.\nМираж С
- инема\nhttps://t.me/message2man/2821
-URL:https://doublebasskakov.github.io/radar/#e=message-to-man-festival-ec
- ho-program-screenings-in-pskov-pskov
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Фестиваль «Послание к человеку»: 
- показы программы «Эхо» в Пскове
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:film-program-revealing-age-naomi-kawase-screenings-moscow@afisha-art
-DTSTAMP:20261117T184737Z
-DTSTART;VALUE=DATE:20261118
-DTEND;VALUE=DATE:20261126
-SUMMARY:Кинопрограмма «Обнажая возраст»: п
- оказы фильмов Наоми Кавасэ
-LOCATION:Музей «Гараж»\, Крымский Вал\, 9\, с. 32
- \, Москва
-DESCRIPTION:Показ документальных работ японс
- кого режиссера о повседневности и старе
- нии с последующей медиацией.\nНаоми Кава
- сэ\, Елена Чернышова\, Тина Широкоступ\nhtt
- ps://garagemca.org/event/revealing-age-film-program
-URL:https://doublebasskakov.github.io/radar/#e=film-program-revealing-age
- -naomi-kawase-screenings-moscow
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Кинопрограмма «Обнажая возраст»:
-  показы фильмов Наоми Кавасэ
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:message-to-man-festival-echo-program-screenings-in-yekaterin-yekateri
- nbur@afisha-art
-DTSTAMP:20261117T184737Z
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261121
-SUMMARY:Открытие: Фестиваль «Послание к чел
- овеку»: показы программы «Эхо» в Екатер
- инбурге
-LOCATION:Музей Ельцин Центр\, Екатеринбург
-DESCRIPTION:Показы избранных фильмов из конк
- урсных программ фестиваля «Послание к ч
- еловеку» в Екатеринбурге.\nЕльцин Центр\
- , Дом кино\nhttps://t.me/message2man/2821
-URL:https://doublebasskakov.github.io/radar/#e=message-to-man-festival-ec
- ho-program-screenings-in-yekaterin-yekaterinbur
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Открытие: Фестиваль «Послание к ч
- еловеку»: показы программы «Эхо» в Екат
- еринбурге
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:luchino-visconti-retrospective-bellissima-moscow@afisha-art
-DTSTAMP:20261117T184737Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261122
-SUMMARY:Ретроспектива фильмов Лукино Виско
- нти: «Самая красивая»
-LOCATION:Третьяковская галерея\, Лаврушинск
- ий пер.\, 12\, Москва
-DESCRIPTION:Показ сатирической драмы 1951 года 
- с Анной Маньяни в рамках ретроспективы 
- Лукино Висконти.\nЛукино Висконти\nhttps://t.
- me/seance_light/13682
-URL:https://doublebasskakov.github.io/radar/#e=luchino-visconti-retrospec
- tive-bellissima-moscow
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Ретроспектива фильмов Лукино Вис
- конти: «Самая красивая»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:luchino-visconti-retrospective-white-nights-moscow@afisha-art
-DTSTAMP:20261117T184737Z
-DTSTART;VALUE=DATE:20261125
-DTEND;VALUE=DATE:20261126
-SUMMARY:Ретроспектива Лукино Висконти: «Бе
- лые ночи»
-LOCATION:Третьяковская галерея\, Клементовс
- кий переулок\, 14\, Москва
-DESCRIPTION:Показ классического фильма Лукин
- о Висконти «Белые ночи» (1957) в Третьяков
- ской галерее.\nЛукино Висконти\nhttps://t.me/kin
- oartru/13879
-URL:https://doublebasskakov.github.io/radar/#e=luchino-visconti-retrospec
- tive-white-nights-moscow
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Ретроспектива Лукино Висконти: «
- Белые ночи»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:retrospektiva-gorizont-mifa-ot-vesterna-do-isterna-moscow@afisha-art
-DTSTAMP:20261117T184737Z
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261123
-SUMMARY:Ретроспектива «Горизонт мифа: от ве
- стерна до истерна»
-LOCATION:Кинотеатр «Иллюзион»\, Москва
-DESCRIPTION:Ретроспективный показ фильмов в 
- жанре вестерна и истерна с киноведчески
- ми введениями.\nАндрей Икко\nhttps://t.me/gosfilmof
- ond/8995
-URL:https://doublebasskakov.github.io/radar/#e=retrospektiva-gorizont-mif
- a-ot-vesterna-do-isterna-moscow
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Ретроспектива «Горизонт мифа: от 
- вестерна до истерна»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:short-films-screening-block-3-yekaterinbur@afisha-art
-DTSTAMP:20261117T184737Z
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
-SUMMARY:Показ короткометражных фильмов. Сб
- орник 3
-LOCATION:Ельцин Центр\, Екатеринбург
-DESCRIPTION:Сборник короткометражного кино: 
- «Чуураа»\, «Город сов»\, «Ветер веет там\,
-  где хочет».\n\nhttps://t.me/yeltsincenter/10187
-URL:https://doublebasskakov.github.io/radar/#e=short-films-screening-bloc
- k-3-yekaterinbur
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Показ короткометражных фильмов. 
- Сборник 3
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:screening-of-portraits-of-arina-yekaterinbur@afisha-art
-DTSTAMP:20261117T184737Z
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
-SUMMARY:Показ фильма «Портреты Арины»
-LOCATION:Ельцин Центр\, Екатеринбург
-DESCRIPTION:Показ документальной картины из 
- программы фестиваля кино «Послание к че
- ловеку».\n\nhttps://t.me/yeltsincenter/10187
-URL:https://doublebasskakov.github.io/radar/#e=screening-of-portraits-of-
- arina-yekaterinbur
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Показ фильма «Портреты Арины»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:special-screening-of-bridget-jones-s-diary-moscow@afisha-art
-DTSTAMP:20261117T184737Z
-DTSTART;VALUE=DATE:20261123
-DTEND;VALUE=DATE:20261124
-SUMMARY:Специальный показ фильма «Дневник 
- Бриджит Джонс»
-LOCATION:Киноцентр «Октябрь»\, ул. Новый Арб
- ат\, 24\, Москва
-DESCRIPTION:Специальный показ отреставриров
- анной версии культовой романтической к
- омедии в киноцентре «Октябрь» при подде
- ржке проекта КАРО/АРТ.\nNone\nhttps://t.me/kinoartru/13
- 881
-URL:https://doublebasskakov.github.io/radar/#e=special-screening-of-bridg
- et-jones-s-diary-moscow
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Специальный показ фильма «Дневни
- к Бриджит Джонс»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:special-screening-of-disappearance-moscow@afisha-art
-DTSTAMP:20261117T184737Z
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261120
-SUMMARY:Спецпоказ фильма «Исчезновение»
-LOCATION:Кинотеатр «Пионер»\, Москва
-DESCRIPTION:Премьерный показ чилийского дете
- ктива из программы «Особый взгляд» Канн
- ского кинофестиваля с обсуждением кино
- веда.\nВиктор Прокофьев\nhttps://t.me/pionercinemaru/5
- 603
-URL:https://doublebasskakov.github.io/radar/#e=special-screening-of-disap
- pearance-moscow
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Спецпоказ фильма «Исчезновение»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:screening-of-becoming-rocky-with-discussion-moscow@afisha-art
-DTSTAMP:20261117T184737Z
-DTSTART;VALUE=DATE:20261118
-DTEND;VALUE=DATE:20261119
-SUMMARY:Показ фильма «Рокки — это я» и обсу
- ждение
-LOCATION:Кинотеатр «Пионер»\, Москва
-DESCRIPTION:Спецпоказ документальной картин
- ы о создании легендарного фильма с посл
- едующей дискуссией с участием кинокрит
- иков.\nСтанислав Ростоцкий\, Алексей Оди
- ноков\, Максим Малышев\nhttps://t.me/pionercinemaru/559
- 8
-URL:https://doublebasskakov.github.io/radar/#e=screening-of-becoming-rock
- y-with-discussion-moscow
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Показ фильма «Рокки — это я» и об
- суждение
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:special-screening-of-bylo-ne-bylo-nizhny-novgo@afisha-art
-DTSTAMP:20261117T184737Z
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261120
-SUMMARY:Спецпоказ фильма «Было не было»
-LOCATION:Центр культуры «Рекорд»\, Нижний Но
- вгород
-DESCRIPTION:Специальный кинопоказ ленты о се
- мейных тайнах с личным участием и после
- дующим обсуждением с режиссёром.\nТимоф
- ей Анисимов\nhttps://t.me/gorkoNN/29582
-URL:https://doublebasskakov.github.io/radar/#e=special-screening-of-bylo-
- ne-bylo-nizhny-novgo
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Спецпоказ фильма «Было не было»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:screening-of-1-3-megapixels-and-q-a-with-director-moscow@afisha-art
-DTSTAMP:20261117T184737Z
-DTSTART;VALUE=DATE:20261117
-DTEND;VALUE=DATE:20261118
-SUMMARY:Показ фильма «1.3 мегапикселя» и вст
- реча с режиссером
-LOCATION:La Commune\, Москва
-DESCRIPTION:Показ кинокартины «1.3 мегапиксел
- я» и встреча с режиссером фильма Кирилл
- ом Кирилловым.\nКирилл Кириллов\nhttps://t.me/l
- a_communee/1281
-URL:https://doublebasskakov.github.io/radar/#e=screening-of-1-3-megapixel
- s-and-q-a-with-director-moscow
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Показ фильма «1.3 мегапикселя» и в
- стреча с режиссером
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:film-screening-tractor-drivers-35mm-moscow@afisha-art
-DTSTAMP:20261117T184737Z
-DTSTART;VALUE=DATE:20261118
-DTEND;VALUE=DATE:20261119
-SUMMARY:Кинопоказ «Трактористы» (пленка)
-LOCATION:Иллюзион\, Котельническая наб.\, 1/15\,
-  Москва
-DESCRIPTION:Пленочный показ классической сов
- етской картины Ивана Пырьева.\nNone\nhttps://t.m
- e/kinoartru/13897
-URL:https://doublebasskakov.github.io/radar/#e=film-screening-tractor-dri
- vers-35mm-moscow
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Кинопоказ «Трактористы» (пленка)
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:film-club-making-sidney-lumet-saint-peters@afisha-art
-DTSTAMP:20261117T184737Z
-DTSTART;VALUE=DATE:20261205
-DTEND;VALUE=DATE:20261206
-SUMMARY:Киноклуб: «День рождения Сидни Люме
- та»
-LOCATION:Невидимый театр\, Санкт-Петербург
-DESCRIPTION:Показ фильма в атмосфере киноклу
- ба с традиционным чаем со сбитнем\, гада
- ниями и сувенирами.\nНевидимый театр\nhttps
- ://t.me/ulizabalabanova/38424
-URL:https://doublebasskakov.github.io/radar/#e=film-club-making-sidney-lu
- met-saint-peters
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Киноклуб: «День рождения Сидни Лю
- мета»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:film-program-still-life-portrait-landscape-after-genre-at-ge-moscow@a
  fisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART;VALUE=DATE:20270217
 DTEND;VALUE=DATE:20270218
 SUMMARY:Последний день: Кинопрограмма «Нат
@@ -1933,7 +1609,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:jean-michel-basquiat-documentary-on-netflix-online@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:Документальный фильм «Жан-Мишель Б
@@ -1954,8 +1630,159 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:macca-friends-animated-series-premiere-online@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Премьера анимационного сериала Macca 
+ & Friends
+LOCATION:Rockstar Games Platforms\, Онлайн
+DESCRIPTION:Релиз анимационного проекта от с
+ оздателей GTA VI\, посвященного приключени
+ ям аллигатора Макки в цифровом простран
+ стве штата Леонида.\nRockstar Games\nhttps://t.me/technom
+ otel/25372
+URL:https://doublebasskakov.github.io/radar/#e=macca-friends-animated-ser
+ ies-premiere-online
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Премьера анимационного сериала Ma
+ cca & Friends
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ivan-pyryev-retrospective-moscow@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:Открытие: Ретроспектива фильмов Ив
+ ана Пырьева
+LOCATION:Кинотеатр «Иллюзион»\, Москва
+DESCRIPTION:Ретроспективный показ ключевых к
+ артин советского классика Ивана Пырьев
+ а приурочен к 125-летию со дня рождения ре
+ жиссера.\nИван Пырьев\nhttps://t.me/gosfilmofond/9001
+URL:https://doublebasskakov.github.io/radar/#e=ivan-pyryev-retrospective-
+ moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Ретроспектива фильмов 
+ Ивана Пырьева
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:short-films-screening-block-1-yekaterinbur@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Показ короткометражных фильмов. Сб
+ орник 1
+LOCATION:Ельцин Центр\, Екатеринбург
+DESCRIPTION:Показ фестивальных короткометра
+ жных фильмов «Просто побудьте со мной»\,
+  «Я тоже хочу (снимать кино)» и «Похитите
+ ли».\n\nhttps://t.me/yeltsincenter/10187
+URL:https://doublebasskakov.github.io/radar/#e=short-films-screening-bloc
+ k-1-yekaterinbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ короткометражных фильмов. 
+ Сборник 1
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:luchino-visconti-retrospective-obsession-moscow@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Ретроспектива фильмов Лукино Виско
+ нти: «Одержимость»
+LOCATION:Третьяковская галерея\, Лаврушинск
+ ий пер.\, 12\, Москва
+DESCRIPTION:Показ отреставрированной класси
+ ческой драмы Лукино Висконти 1943 года в р
+ амках ретроспективы к 120-летию режиссер
+ а.\nЛукино Висконти\nhttps://t.me/seance_light/13682
+URL:https://doublebasskakov.github.io/radar/#e=luchino-visconti-retrospec
+ tive-obsession-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ретроспектива фильмов Лукино Вис
+ конти: «Одержимость»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:luchino-visconti-retrospective-senso-moscow@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Ретроспектива Лукино Висконти: «Чу
+ вство»
+LOCATION:Третьяковская галерея\, Клементовс
+ кий переулок\, 14\, Москва
+DESCRIPTION:В Третьяковской галерее в рамках 
+ ретроспективы к 120-летию Лукино Висконт
+ и покажут картину «Чувство» 1954 года.\nЛу
+ кино Висконти\nhttps://t.me/kinoartru/13879
+URL:https://doublebasskakov.github.io/radar/#e=luchino-visconti-retrospec
+ tive-senso-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ретроспектива Лукино Висконти: «
+ Чувство»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:luchino-visconti-retrospective-the-innocent-moscow@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Ретроспектива Лукино Висконти: «Не
+ винный»
+LOCATION:Третьяковская галерея\, Клементовс
+ кий переулок\, 14\, Москва
+DESCRIPTION:Третьяковская галерея завершает 
+ ноябрьскую программу показов к юбилею Л
+ укино Висконти лентой «Невинный» (1976).\nЛ
+ укино Висконти\nhttps://t.me/kinoartru/13879
+URL:https://doublebasskakov.github.io/radar/#e=luchino-visconti-retrospec
+ tive-the-innocent-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ретроспектива Лукино Висконти: «
+ Невинный»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:to-see-all-look-into-my-eyes-moscow@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Документальный фильм «Увидеть всё»
+LOCATION:Киноцентр «Октябрь»\, Москва
+DESCRIPTION:Резонансная документальная рабо
+ та о границах перформанса и реальности\,
+  выходящая в широкий российский прокат.\
+ nНейтан Филдер\, Ланс Оппенгейм\nhttps://t.me/be
+ atfest/6466
+URL:https://doublebasskakov.github.io/radar/#e=to-see-all-look-into-my-ey
+ es-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Документальный фильм «Увидеть вс
+ ё»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:the-wicker-man-screening-and-discussion-kazan@afisha-art
-DTSTAMP:20261117T184737Z
+DTSTAMP:20261117T235129Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Показ фильма «Плетеный человек» и о
@@ -1976,20 +1803,513 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:lost-highway-moscow@afisha-art
-DTSTAMP:20261117T184737Z
-DTSTART;VALUE=DATE:20261117
-DTEND;VALUE=DATE:20261118
-SUMMARY:Шоссе в никуда
-LOCATION:Москва
-DESCRIPTION:Загадочный неонуар о расщеплении
-  личности\, оформленный в неподражаемом 
- стиле линчевского кошмара.\nДэвид Линч\nh
- ttps://www.afisha.ru/movie/shosse-v-nikuda-171443/
-URL:https://doublebasskakov.github.io/radar/#e=lost-highway-moscow
+UID:queen-margot-screening-moscow@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Показ фильма «Королева Марго»
+LOCATION:Кинотеатр Пионер\, Москва
+DESCRIPTION:Единственный сеанс отреставриро
+ ванной режиссерской версии Патриса Шер
+ о со вступительным словом киноведа.\nПат
+ рис Шеро\, Виктор Прокофьев\nhttps://t.me/pionercin
+ emaru/5594
+URL:https://doublebasskakov.github.io/radar/#e=queen-margot-screening-mos
+ cow
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Шоссе в никуда
+DESCRIPTION:Показ фильма «Королева Марго»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:message-to-man-festival-echo-program-screenings-in-pskov-pskov@afisha
+ -art
+DTSTAMP:20261117T235129Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261130
+SUMMARY:Фестиваль «Послание к человеку»: по
+ казы программы «Эхо» в Пскове
+LOCATION:Кинотеатр «Акваполис»\, Псков
+DESCRIPTION:Показы документального и коротко
+ метражного кино из шорт-листа фестиваля
+  «Послание к человеку» в Пскове.\nМираж С
+ инема\nhttps://t.me/message2man/2821
+URL:https://doublebasskakov.github.io/radar/#e=message-to-man-festival-ec
+ ho-program-screenings-in-pskov-pskov
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Фестиваль «Послание к человеку»: 
+ показы программы «Эхо» в Пскове
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:film-program-revealing-age-naomi-kawase-screenings-moscow@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261126
+SUMMARY:Кинопрограмма «Обнажая возраст»: п
+ оказы фильмов Наоми Кавасэ
+LOCATION:Музей «Гараж»\, Крымский Вал\, 9\, с. 32
+ \, Москва
+DESCRIPTION:Показ документальных работ японс
+ кого режиссера о повседневности и старе
+ нии с последующей медиацией.\nНаоми Кава
+ сэ\, Елена Чернышова\, Тина Широкоступ\nhtt
+ ps://garagemca.org/event/revealing-age-film-program
+URL:https://doublebasskakov.github.io/radar/#e=film-program-revealing-age
+ -naomi-kawase-screenings-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Кинопрограмма «Обнажая возраст»:
+  показы фильмов Наоми Кавасэ
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:message-to-man-festival-echo-program-screenings-in-yekaterin-yekateri
+ nbur@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Открытие: Фестиваль «Послание к чел
+ овеку»: показы программы «Эхо» в Екатер
+ инбурге
+LOCATION:Музей Ельцин Центр\, Екатеринбург
+DESCRIPTION:Показы избранных фильмов из конк
+ урсных программ фестиваля «Послание к ч
+ еловеку» в Екатеринбурге.\nЕльцин Центр\
+ , Дом кино\nhttps://t.me/message2man/2821
+URL:https://doublebasskakov.github.io/radar/#e=message-to-man-festival-ec
+ ho-program-screenings-in-yekaterin-yekaterinbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Фестиваль «Послание к ч
+ еловеку»: показы программы «Эхо» в Екат
+ еринбурге
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:luchino-visconti-retrospective-bellissima-moscow@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Ретроспектива фильмов Лукино Виско
+ нти: «Самая красивая»
+LOCATION:Третьяковская галерея\, Лаврушинск
+ ий пер.\, 12\, Москва
+DESCRIPTION:Показ сатирической драмы 1951 года 
+ с Анной Маньяни в рамках ретроспективы 
+ Лукино Висконти.\nЛукино Висконти\nhttps://t.
+ me/seance_light/13682
+URL:https://doublebasskakov.github.io/radar/#e=luchino-visconti-retrospec
+ tive-bellissima-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ретроспектива фильмов Лукино Вис
+ конти: «Самая красивая»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:luchino-visconti-retrospective-white-nights-moscow@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:Ретроспектива Лукино Висконти: «Бе
+ лые ночи»
+LOCATION:Третьяковская галерея\, Клементовс
+ кий переулок\, 14\, Москва
+DESCRIPTION:Показ классического фильма Лукин
+ о Висконти «Белые ночи» (1957) в Третьяков
+ ской галерее.\nЛукино Висконти\nhttps://t.me/kin
+ oartru/13879
+URL:https://doublebasskakov.github.io/radar/#e=luchino-visconti-retrospec
+ tive-white-nights-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ретроспектива Лукино Висконти: «
+ Белые ночи»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:retrospektiva-gorizont-mifa-ot-vesterna-do-isterna-moscow@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261123
+SUMMARY:Ретроспектива «Горизонт мифа: от ве
+ стерна до истерна»
+LOCATION:Кинотеатр «Иллюзион»\, Москва
+DESCRIPTION:Ретроспективный показ фильмов в 
+ жанре вестерна и истерна с киноведчески
+ ми введениями.\nАндрей Икко\nhttps://t.me/gosfilmof
+ ond/8995
+URL:https://doublebasskakov.github.io/radar/#e=retrospektiva-gorizont-mif
+ a-ot-vesterna-do-isterna-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ретроспектива «Горизонт мифа: от 
+ вестерна до истерна»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:short-films-screening-block-3-yekaterinbur@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Показ короткометражных фильмов. Сб
+ орник 3
+LOCATION:Ельцин Центр\, Екатеринбург
+DESCRIPTION:Сборник короткометражного кино: 
+ «Чуураа»\, «Город сов»\, «Ветер веет там\,
+  где хочет».\n\nhttps://t.me/yeltsincenter/10187
+URL:https://doublebasskakov.github.io/radar/#e=short-films-screening-bloc
+ k-3-yekaterinbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ короткометражных фильмов. 
+ Сборник 3
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:screening-of-portraits-of-arina-yekaterinbur@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Показ фильма «Портреты Арины»
+LOCATION:Ельцин Центр\, Екатеринбург
+DESCRIPTION:Показ документальной картины из 
+ программы фестиваля кино «Послание к че
+ ловеку».\n\nhttps://t.me/yeltsincenter/10187
+URL:https://doublebasskakov.github.io/radar/#e=screening-of-portraits-of-
+ arina-yekaterinbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильма «Портреты Арины»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:special-screening-of-bridget-jones-s-diary-moscow@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:Специальный показ фильма «Дневник 
+ Бриджит Джонс»
+LOCATION:Киноцентр «Октябрь»\, ул. Новый Арб
+ ат\, 24\, Москва
+DESCRIPTION:Специальный показ отреставриров
+ анной версии культовой романтической к
+ омедии в киноцентре «Октябрь» при подде
+ ржке проекта КАРО/АРТ.\nNone\nhttps://t.me/kinoartru/13
+ 881
+URL:https://doublebasskakov.github.io/radar/#e=special-screening-of-bridg
+ et-jones-s-diary-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Специальный показ фильма «Дневни
+ к Бриджит Джонс»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:screening-and-discussion-of-the-film-malika-with-director-na-saint-pe
+ ters@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Показ и обсуждение фильма «Малика» 
+ с режиссером Натальей Уваровой
+LOCATION:Ленфильм\, Санкт-Петербург
+DESCRIPTION:Показ дебютного фильма Натальи У
+ варовой «Малика»\, удостоенного Гран-пр
+ и фестиваля «Маяк»\, с последующим обсуж
+ дением с автором.\nНаталья Уварова\nhttps://t
+ .me/seance_light/13695
+URL:https://doublebasskakov.github.io/radar/#e=screening-and-discussion-o
+ f-the-film-malika-with-director-na-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ и обсуждение фильма «Малик
+ а» с режиссером Натальей Уваровой
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:special-screening-of-disappearance-moscow@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Спецпоказ фильма «Исчезновение»
+LOCATION:Кинотеатр «Пионер»\, Москва
+DESCRIPTION:Премьерный показ чилийского дете
+ ктива из программы «Особый взгляд» Канн
+ ского кинофестиваля с обсуждением кино
+ веда.\nВиктор Прокофьев\nhttps://t.me/pionercinemaru/5
+ 603
+URL:https://doublebasskakov.github.io/radar/#e=special-screening-of-disap
+ pearance-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спецпоказ фильма «Исчезновение»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:screening-of-becoming-rocky-with-discussion-moscow@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:Показ фильма «Рокки — это я» и обсу
+ ждение
+LOCATION:Кинотеатр «Пионер»\, Москва
+DESCRIPTION:Спецпоказ документальной картин
+ ы о создании легендарного фильма с посл
+ едующей дискуссией с участием кинокрит
+ иков.\nСтанислав Ростоцкий\, Алексей Оди
+ ноков\, Максим Малышев\nhttps://t.me/pionercinemaru/559
+ 8
+URL:https://doublebasskakov.github.io/radar/#e=screening-of-becoming-rock
+ y-with-discussion-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильма «Рокки — это я» и об
+ суждение
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:special-screening-of-bylo-ne-bylo-nizhny-novgo@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Спецпоказ фильма «Было не было»
+LOCATION:Центр культуры «Рекорд»\, Нижний Но
+ вгород
+DESCRIPTION:Специальный кинопоказ ленты о се
+ мейных тайнах с личным участием и после
+ дующим обсуждением с режиссёром.\nТимоф
+ ей Анисимов\nhttps://t.me/gorkoNN/29582
+URL:https://doublebasskakov.github.io/radar/#e=special-screening-of-bylo-
+ ne-bylo-nizhny-novgo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спецпоказ фильма «Было не было»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:special-screening-it-was-it-wasn-t-yekaterinbur@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:Специальный показ фильма «Было не б
+ ыло»
+LOCATION:Ельцин Центр\, Екатеринбург
+DESCRIPTION:Специальный показ фильма-участни
+ ка конкурсной программы фестиваля «Мая
+ к».\n\nhttps://t.me/yeltsincenter/10195
+URL:https://doublebasskakov.github.io/radar/#e=special-screening-it-was-i
+ t-wasn-t-yekaterinbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Специальный показ фильма «Было н
+ е было»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:film-screening-tractor-drivers-35mm-moscow@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:Кинопоказ «Трактористы» (пленка)
+LOCATION:Иллюзион\, Котельническая наб.\, 1/15\,
+  Москва
+DESCRIPTION:Пленочный показ классической сов
+ етской картины Ивана Пырьева.\nNone\nhttps://t.m
+ e/kinoartru/13897
+URL:https://doublebasskakov.github.io/radar/#e=film-screening-tractor-dri
+ vers-35mm-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Кинопоказ «Трактористы» (пленка)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:screening-jim-jarmusch-s-paterson-yekaterinbur@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Открытие: Показ фильма «Патерсон» Д
+ жима Джармуша
+LOCATION:Ельцин Центр\, Екатеринбург
+DESCRIPTION:Ретроспективные показы поэтично
+ й драмы Джима Джармуша.\nДжим Джармуш\nhttp
+ s://t.me/yeltsincenter/10195
+URL:https://doublebasskakov.github.io/radar/#e=screening-jim-jarmusch-s-p
+ aterson-yekaterinbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Показ фильма «Патерсон
+ » Джима Джармуша
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:film-club-making-sidney-lumet-saint-peters@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Киноклуб: «День рождения Сидни Люме
+ та»
+LOCATION:Невидимый театр\, Санкт-Петербург
+DESCRIPTION:Показ фильма в атмосфере киноклу
+ ба с традиционным чаем со сбитнем\, гада
+ ниями и сувенирами.\nНевидимый театр\nhttps
+ ://t.me/ulizabalabanova/38424
+URL:https://doublebasskakov.github.io/radar/#e=film-club-making-sidney-lu
+ met-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Киноклуб: «День рождения Сидни Лю
+ мета»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:documentary-seeing-all-yekaterinbur@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Открытие: Документальный фильм «Ув
+ идеть всё»
+LOCATION:Ельцин Центр\, Екатеринбург
+DESCRIPTION:Показ документального расследов
+ ания о крупнейшем мошенничестве в Кремн
+ иевой долине.\n\nhttps://t.me/yeltsincenter/10195
+URL:https://doublebasskakov.github.io/radar/#e=documentary-seeing-all-yek
+ aterinbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Документальный фильм «
+ Увидеть всё»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:screening-first-cow-yekaterinbur@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Показ фильма «Первая корова»
+LOCATION:Ельцин Центр\, Екатеринбург
+DESCRIPTION:Показ исторической драмы Келли Р
+ айхардт о дружбе на американском Диком 
+ Западе.\nКелли Райхардт\nhttps://t.me/yeltsincenter/10
+ 195
+URL:https://doublebasskakov.github.io/radar/#e=screening-first-cow-yekate
+ rinbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильма «Первая корова»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:screening-food-inc-2-yekaterinbur@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Показ фильма «Корпорация „Еда“ - 2»
+LOCATION:Ельцин Центр\, Екатеринбург
+DESCRIPTION:Документальное расследование о п
+ роблемах современной пищевой индустрии
+ .\n\nhttps://t.me/yeltsincenter/10195
+URL:https://doublebasskakov.github.io/radar/#e=screening-food-inc-2-yekat
+ erinbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильма «Корпорация „Еда“ -
+  2»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:screening-minari-yekaterinbur@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Показ фильма «Минари»
+LOCATION:Ельцин Центр\, Екатеринбург
+DESCRIPTION:Показ оскароносной драмы о жизни 
+ семьи корейских иммигрантов в США.\n\nhttps:
+ //t.me/yeltsincenter/10195
+URL:https://doublebasskakov.github.io/radar/#e=screening-minari-yekaterin
+ bur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильма «Минари»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:screening-toni-yekaterinbur@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Показ фильма «Тони»
+LOCATION:Ельцин Центр\, Екатеринбург
+DESCRIPTION:Показ кинокартины о жизни и работ
+ е легендарного шеф-повара.\n\nhttps://t.me/yeltsinc
+ enter/10195
+URL:https://doublebasskakov.github.io/radar/#e=screening-toni-yekaterinbu
+ r
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильма «Тони»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:screening-boiling-point-yekaterinbur@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Показ фильма «Точка кипения»
+LOCATION:Ельцин Центр\, Екатеринбург
+DESCRIPTION:Показ напряженной ресторанной др
+ амы\, снятой одним дублем.\n\nhttps://t.me/yeltsincen
+ ter/10195
+URL:https://doublebasskakov.github.io/radar/#e=screening-boiling-point-ye
+ katerinbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильма «Точка кипения»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:screening-train-to-busan-yekaterinbur@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261127
+SUMMARY:Показ фильма ужасов «Поезд в Пусан»
+LOCATION:Ельцин Центр\, Екатеринбург
+DESCRIPTION:Показы южнокорейского зомби-хорр
+ ора.\n\nhttps://t.me/yeltsincenter/10195
+URL:https://doublebasskakov.github.io/radar/#e=screening-train-to-busan-y
+ ekaterinbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильма ужасов «Поезд в Пуса
+ н»
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

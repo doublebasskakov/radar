@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:exhibition-far-red-vladivostok@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:Последний день: Выставка «Far Red»
+LOCATION:Центр современного искусства «Зар
+ я» (Читальный зал)\, ул. Бородинская\, 26\, В
+ ладивосток
+DESCRIPTION:Проект Анны Бат исследует красны
+ й цвет как визуальный сигнал опасности 
+ и как метафору «дальнего красного» спек
+ тра\, незаметного глазу\, но важного для 
+ живой природы.\nАнна Бат\nhttps://www.zaryavladivostok
+ .ru/en/exhibitions/post/2984
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-far-red-vladivo
+ stok
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Выставка «Far Red»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:romantics-anonymous-bath@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART;VALUE=DATE:20270709
+DTEND;VALUE=DATE:20270710
+SUMMARY:Открытие: Romantics Anonymous
+LOCATION:Theatre Royal Bath\, Бат\, Великобритания
+DESCRIPTION:Яркая музыкально-театральная пос
+ тановка Эммы Райс.\nЭмма Райс\nhttps://t.me/theatr
+ eandsuch/1398
+URL:https://doublebasskakov.github.io/radar/#e=romantics-anonymous-bath
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Romantics Anonymous
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

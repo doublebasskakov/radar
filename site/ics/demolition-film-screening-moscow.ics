@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:demolition-film-screening-moscow@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART:20261122T140000Z
+DTEND:20261122T160000Z
+SUMMARY:Кинопоказ фильма «Разрушение»
+LOCATION:Циферблат на Пушкинской\, Москва
+DESCRIPTION:Совместный просмотр и детальный 
+ разбор драмы о человеке\, который пытает
+ ся пересобрать свою жизнь после трагиче
+ ской утраты.\nЖан-Марк Валле\, Константин
+ \nhttps://t.me/damngoodmovie/543
+URL:https://doublebasskakov.github.io/radar/#e=demolition-film-screening-
+ moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Кинопоказ фильма «Разрушение»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

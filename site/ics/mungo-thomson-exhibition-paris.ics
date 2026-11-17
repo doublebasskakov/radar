@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:mungo-thomson-exhibition-paris@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Последний день: Выставка Мунго Томс
+ она
+LOCATION:Lafayette Anticipations\, 9 rue du Plâtre F-75004 Paris\, Па
+ риж\, Франция
+DESCRIPTION:Выставка произведений Мунго Томс
+ она.\nMungo Thomson\nhttps://www.lafayetteanticipations.com/en/exposit
+ ion/mungo-thomson
+URL:https://doublebasskakov.github.io/radar/#e=mungo-thomson-exhibition-p
+ aris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Выставка Мунго То
+ мсона
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

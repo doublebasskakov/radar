@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:screening-first-cow-yekaterinbur@afisha-art
+DTSTAMP:20261117T235129Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Показ фильма «Первая корова»
+LOCATION:Ельцин Центр\, Екатеринбург
+DESCRIPTION:Показ исторической драмы Келли Р
+ айхардт о дружбе на американском Диком 
+ Западе.\nКелли Райхардт\nhttps://t.me/yeltsincenter/10
+ 195
+URL:https://doublebasskakov.github.io/radar/#e=screening-first-cow-yekate
+ rinbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильма «Первая корова»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR
