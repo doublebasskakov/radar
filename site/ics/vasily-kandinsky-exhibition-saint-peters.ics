@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:vasily-kandinsky-exhibition-saint-peters@afisha-art
+DTSTAMP:20261118T130346Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Выставка произведений Василия Канд
+ инского
+LOCATION:Корпус Бенуа Русского музея\, Санкт
+ -Петербург
+DESCRIPTION:Масштабная выставка к 160-летию ма
+ стера абстракции объединит более 70 поло
+ тен из собрания музея.\nВасилий Кандинск
+ ий\nhttps://t.me/rusmuseum/22612
+URL:https://doublebasskakov.github.io/radar/#e=vasily-kandinsky-exhibitio
+ n-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выставка произведений Василия Ка
+ ндинского
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:the-nutcracker-not-a-fairy-tale-saint-peters@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART:20261202T160000Z
 DTEND:20261202T180000Z
 SUMMARY:Щелкунчик. Несказка
@@ -31,7 +31,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:play-romeo-and-juliet-in-the-haze-moscow@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART:20261125T160000Z
 DTEND:20261125T180000Z
 SUMMARY:Спектакль «Ромео и Джульетта во мгл
@@ -55,7 +55,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:the-seagull-ballet-moscow@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART:20261118T160000Z
 DTEND:20261118T180000Z
 SUMMARY:Балет «Чайка»
@@ -77,7 +77,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-the-performance-pushkin-s-fairy-tales-directed--moscow@a
  fisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART:20261128T133000Z
 DTEND:20261128T153000Z
 SUMMARY:Показ спектакля «Сказки Пушкина» в 
@@ -101,7 +101,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pushkin-s-fairy-tales-a-play-by-robert-wilson-moscow@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART:20261128T133000Z
 DTEND:20261128T153000Z
 SUMMARY:«Сказки Пушкина». Спектакль Роберт
@@ -125,7 +125,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:kzn-mon-gastroli-kapital@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART:20261129T150000Z
 DTEND:20261129T170000Z
 SUMMARY:«Гастроли: Капитал»
@@ -144,7 +144,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ballet-moscow-angles-3-contemporary-dance-laboratory-moscow@afisha-ar
  t
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART:20261120T160000Z
 DTEND:20261120T180000Z
 SUMMARY:Лаборатория современного танца «Ба
@@ -169,7 +169,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:the-concierge-moscow@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART:20261222T160000Z
 DTEND:20261222T180000Z
 SUMMARY:Консьерж
@@ -190,7 +190,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:musical-performance-from-the-life-of-planets-by-oleg-nestero-saint-pe
  ters@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART:20261208T163000Z
 DTEND:20261208T183000Z
 SUMMARY:Музыкальный спектакль Олега Нестер
@@ -216,7 +216,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:john-neumeier-s-the-nutcracker-ballet-samara@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART:20261122T130000Z
 DTEND:20261122T150000Z
 SUMMARY:Балет «Щелкунчик» Джона Ноймайера
@@ -235,8 +235,31 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:sergei-rachmaninoff-s-opera-francesca-da-rimini-moscow@afisha-art
+DTSTAMP:20261118T130346Z
+DTSTART:20261123T160000Z
+DTEND:20261123T180000Z
+SUMMARY:Опера Сергея Рахманинова «Франческ
+ а да Римини»
+LOCATION:Большой зал Московской консервато
+ рии\, Б. Никитская ул.\, 13\, Москва
+DESCRIPTION:Постановка одноактной драматиче
+ ской оперы Рахманинова по мотивам сюжет
+ а из «Божественной комедии» Данте.\nОпер
+ ный театр Московской консерватории\nhttps:
+ //t.me/mosconsv/1464
+URL:https://doublebasskakov.github.io/radar/#e=sergei-rachmaninoff-s-oper
+ a-francesca-da-rimini-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Опера Сергея Рахманинова «Франче
+ ска да Римини»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:the-tower-moscow@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART:20261128T160000Z
 DTEND:20261128T180000Z
 SUMMARY:Спектакль «Башня»
@@ -255,7 +278,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:the-play-hamlet-collage-samara@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART:20261119T153000Z
 DTEND:20261119T173000Z
 SUMMARY:Спектакль «Гамлет | Коллаж»
@@ -275,7 +298,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:performance-heavenly-postman-fedya-bulkin-evening-show-vyksa@afisha-a
  rt
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART:20261128T160000Z
 DTEND:20261128T180000Z
 SUMMARY:Спектакль «Небесный почтальон Федя
@@ -296,7 +319,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:play-concert-brodsky-stories-moscow@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART:20261130T170000Z
 DTEND:20261130T190000Z
 SUMMARY:Спектакль-концерт «Бродский. Истор
@@ -318,7 +341,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:play-oblomov-directed-by-andrei-pricotenco-saint-peters@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART:20261216T160000Z
 DTEND:20261216T180000Z
 SUMMARY:Спектакль Андрея Прикотенко «Облом
@@ -342,7 +365,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:performance-heavenly-postman-fedya-bulkin-afternoon-show-vyksa@afisha
  -art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART:20261128T130000Z
 DTEND:20261128T150000Z
 SUMMARY:Спектакль «Небесный почтальон Федя
@@ -363,7 +386,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:play-honest-woman-directed-by-valery-fokin-saint-peters@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART:20261229T163000Z
 DTEND:20261229T183000Z
 SUMMARY:Спектакль Валерия Фокина «Честная 
@@ -385,699 +408,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:forum-theater-saint-peters@afisha-art
-DTSTAMP:20261117T235129Z
-DTSTART:20261124T140000Z
-DTEND:20261124T160000Z
-SUMMARY:Форум-театр
-LOCATION:Новая Голландия\, пространство «Уч
- ительская»\, набережная Адмиралтейског
- о канала\, 2\, здание «Бутылка»\, 4 этаж\, Са
- нкт-Петербург
-DESCRIPTION:Серия театральных встреч по мето
- ду Аугусто Боаля\, где участники исследу
- ют социальные отношения в школе и пробу
- ют изменить ход событий в специально со
- зданных сценах.\nМария Колосова\nhttps://t.me/n
- ewhollandsp/5915
-URL:https://doublebasskakov.github.io/radar/#e=forum-theater-saint-peters
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Форум-театр
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:my-poor-marat-samara@afisha-art
-DTSTAMP:20261117T235129Z
-DTSTART:20261222T160000Z
-DTEND:20261222T180000Z
-SUMMARY:Спектакль «Мой бедный Марат»
-LOCATION:МТС Live Холл\, ул. Ново-Садовая\, 106Г\, 
- Самара
-DESCRIPTION:Лирическая драма по пьесе Алексе
- я Арбузова о любви\, дружбе и жизненном в
- ыборе трех героев\, чья история разворач
- ивается на протяжении семнадцати лет.\nNo
- ne\nhttps://clck.ru/3WXnyj
-URL:https://doublebasskakov.github.io/radar/#e=my-poor-marat-samara
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Спектакль «Мой бедный Марат»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:rehearsal-performance-open-lesson-moscow@afisha-art
-DTSTAMP:20261117T235129Z
-DTSTART:20261122T150000Z
-DTEND:20261122T170000Z
-SUMMARY:Спектакль-репетиция «Открытый урок
- »
-LOCATION:Новая сцена им. Вс. Мейерхольда\, Мо
- сква
-DESCRIPTION:Интерактивный спектакль-репетиц
- ия\, в котором упражнения и этюды превра
- щаются в законченные музыкально-театра
- льные номера.\nМузыкальный Театр Детей М
- арины Ланда\nhttps://t.me/newstageprojects/3188
-URL:https://doublebasskakov.github.io/radar/#e=rehearsal-performance-open
- -lesson-moscow
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Спектакль-репетиция «Открытый ур
- ок»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:play-count-nulin-saint-peters@afisha-art
-DTSTAMP:20261117T235129Z
-DTSTART:20261120T170000Z
-DTEND:20261120T190000Z
-SUMMARY:Спектакль «Граф Нулин»
-LOCATION:ЦВЗ «Манеж»\, Санкт-Петербург
-DESCRIPTION:Ироничная пушкинская поэма в исп
- олнении артистов Театра «На Литейном» в
-  рамках выставочного проекта «Сцена дей
- ствия».\nТеатр «На Литейном»\, режиссер С
- ергей Морозов\nhttps://t.me/spbmanege/4032
-URL:https://doublebasskakov.github.io/radar/#e=play-count-nulin-saint-pet
- ers
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Спектакль «Граф Нулин»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:play-kozintsev-gogoliada-directed-by-nikita-kobelev-saint-peters@afis
- ha-art
-DTSTAMP:20261117T235129Z
-DTSTART:20261223T163000Z
-DTEND:20261223T183000Z
-SUMMARY:Постановка Никиты Кобелева «Козинц
- ев. Гоголиада»
-LOCATION:Новая сцена Санкт-Петербургского т
- еатра им. В.Ф. Комиссаржевской\, наб. реки
-  Фонтанки\, 41\, Санкт-Петербург
-DESCRIPTION:Спектакль Никиты Кобелева\, посвя
- щенный творческому наследию режиссера 
- Григория Козинцева и произведениям Гог
- оля.\nНикита Кобелев\nhttps://t.me/newstageprojects/3179
-URL:https://doublebasskakov.github.io/radar/#e=play-kozintsev-gogoliada-d
- irected-by-nikita-kobelev-saint-peters
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Постановка Никиты Кобелева «Кози
- нцев. Гоголиада»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:the-tale-of-fedot-the-strelets-samara@afisha-art
-DTSTAMP:20261117T235129Z
-DTSTART:20261119T150000Z
-DTEND:20261119T170000Z
-SUMMARY:Спектакль «Сказ про Федота-стрельц
- а»
-LOCATION:Дом офицеров Самарского гарнизона\
- , ул. Шостаковича\, д. 7\, Самара
-DESCRIPTION:Постановка Московского театра ко
- медии по знаменитой сказке Леонида Фила
- това с участием известных актеров.\nМоск
- овский театр комедии\nhttps://sam.comedytheatre.ru/perf
- ormances/skaz-pro-fedota-strelca?sam=1&utm_campaign=tg_sam_afisha_12_11
-URL:https://doublebasskakov.github.io/radar/#e=the-tale-of-fedot-the-stre
- lets-samara
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Спектакль «Сказ про Федота-стрел
- ьца»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:my-poor-marat-play-moscow@afisha-art
-DTSTAMP:20261117T235129Z
-DTSTART:20261120T160000Z
-DTEND:20261120T180000Z
-SUMMARY:Спектакль «Мой бедный Марат»
-LOCATION:Институт Современного Искусства (М
- алая сцена)\, Новозаводская 27а\, Москва
-DESCRIPTION:Драматическая постановка по пьес
- е Алексея Арбузова о военном детстве\, в
- зрослении и испытании временем.\nреж. Е. 
- Николаева\, курс Е. Дробышевой\nhttps://t.me/ct_p
- ro/14815
-URL:https://doublebasskakov.github.io/radar/#e=my-poor-marat-play-moscow
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Спектакль «Мой бедный Марат»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:performance-carmen-my-carmen-moscow@afisha-art
-DTSTAMP:20261117T235129Z
-DTSTART:20261121T130000Z
-DTEND:20261121T150000Z
-SUMMARY:Спектакль «Кармен! Моя Кармен!»
-LOCATION:Музей кино на Каретном\, Москва\, Мо
- сква
-DESCRIPTION:Показ спектакля «Кармен! Моя Карм
- ен!» в постановке А. Денникова в рамках к
- иноклуба «Театр в кино».\nА. Денников\nhttps
- ://t.me/museikino/6418
-URL:https://doublebasskakov.github.io/radar/#e=performance-carmen-my-carm
- en-moscow
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Спектакль «Кармен! Моя Кармен!»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:aristocrats-samara@afisha-art
-DTSTAMP:20261117T235129Z
-DTSTART:20261128T120000Z
-DTEND:20261128T140000Z
-SUMMARY:Спектакль «Аристократы»
-LOCATION:ДКЖ им. Пушкина\, ул. Льва Толстого\, 
- 94\, Самара
-DESCRIPTION:Ироничная постановка по рассказа
- м Надежды Тэффи об атмосфере уходящей э
- похи Серебряного века.\nАнна Калинина\nhtt
- ps://clck.ru/3WssoJ
-URL:https://doublebasskakov.github.io/radar/#e=aristocrats-samara
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Спектакль «Аристократы»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:performative-play-na-predele-moscow@afisha-art
-DTSTAMP:20261117T235129Z
-DTSTART:20261118T160000Z
-DTEND:20261118T180000Z
-SUMMARY:Перформативный спектакль «На Преде
- ле»
-LOCATION:Зверевский центр современного иск
- усства\, ул. Новорязанская\, д. 29\, строени
- е 4\, Москва
-DESCRIPTION:Спектакль-импровизация театра «Р
- акурс» на основе реальных историй и пер
- еживаний зрителей.\nТеатр "Ракурс"\nhttps://t.
- me/zverevcenter/2607
-URL:https://doublebasskakov.github.io/radar/#e=performative-play-na-prede
- le-moscow
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Перформативный спектакль «На Пре
- деле»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:play-stanislavsky-chekhov-moscow@afisha-art
-DTSTAMP:20261117T235129Z
-DTSTART:20261206T160000Z
-DTEND:20261206T180000Z
-SUMMARY:Спектакль «Станиславский/Чехов»
-LOCATION:«Покровка.Театр»\, Москва
-DESCRIPTION:Постановка о встрече Константина
-  Станиславского и Михаила Чехова в Берл
- ине 1928 года.\nДмитрий Бикбаев\nhttps://t.me/Cultur
- Moscow/5887
-URL:https://doublebasskakov.github.io/radar/#e=play-stanislavsky-chekhov-
- moscow
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Спектакль «Станиславский/Чехов»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:documentary-sound-performance-i-want-to-say-saint-peters@afisha-art
-DTSTAMP:20261117T235129Z
-DTSTART:20261212T160000Z
-DTEND:20261212T180000Z
-SUMMARY:Документальный саунд-спектакль «Я 
- хочу сказать»
-LOCATION:Новая сцена Санкт-Петербургского т
- еатра им. В.Ф. Комиссаржевской\, наб. реки
-  Фонтанки\, 41\, Санкт-Петербург
-DESCRIPTION:Инклюзивный документальный спек
- такль с акцентом на звуковую и речевую п
- артитуру.\n\nhttps://t.me/newstageprojects/3179
-URL:https://doublebasskakov.github.io/radar/#e=documentary-sound-performa
- nce-i-want-to-say-saint-peters
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Документальный саунд-спектакль «
- Я хочу сказать»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:play-ivona-princess-of-burgundia-directed-by-hugo-erikssen-saint-pete
- rs@afisha-art
-DTSTAMP:20261117T235129Z
-DTSTART:20261213T160000Z
-DTEND:20261213T180000Z
-SUMMARY:Спектакль Хуго Эрикссена «Ивонна\, 
- принцесса Бургундская»
-LOCATION:Новая сцена Санкт-Петербургского т
- еатра им. В.Ф. Комиссаржевской\, наб. реки
-  Фонтанки\, 41\, Санкт-Петербург
-DESCRIPTION:Спектакль режиссера Хуго Эрикссе
- на по мотивам абсурдистской драматурги
- и.\nХуго Эрикссен\nhttps://t.me/newstageprojects/3179
-URL:https://doublebasskakov.github.io/radar/#e=play-ivona-princess-of-bur
- gundia-directed-by-hugo-erikssen-saint-peters
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Спектакль Хуго Эрикссена «Ивонна
- \, принцесса Бургундская»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:play-the-man-from-dublin-directed-by-andrei-kalinin-saint-peters@afis
- ha-art
-DTSTAMP:20261117T235129Z
-DTSTART:20261224T160000Z
-DTEND:20261224T180000Z
-SUMMARY:Спектакль Андрея Калинина «Человек
-  из Дублина»
-LOCATION:Новая сцена Санкт-Петербургского т
- еатра им. В.Ф. Комиссаржевской\, наб. реки
-  Фонтанки\, 41\, Санкт-Петербург
-DESCRIPTION:Режиссерская работа Андрея Калин
- ина в пространстве Новой сцены.\nАндрей 
- Калинин\nhttps://t.me/newstageprojects/3179
-URL:https://doublebasskakov.github.io/radar/#e=play-the-man-from-dublin-d
- irected-by-andrei-kalinin-saint-peters
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Спектакль Андрея Калинина «Челов
- ек из Дублина»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:play-that-s-all-you-need-to-know-about-conducting-moscow@afisha-art
-DTSTAMP:20261117T235129Z
-DTSTART:20261119T160000Z
-DTEND:20261119T180000Z
-SUMMARY:Спектакль «Вот и все\, что вам нужно 
- знать о дирижировании»
-LOCATION:Музей Москвы\, Зубовский б-р\, 2\, Мос
- ква
-DESCRIPTION:Театральная постановка в Музее М
- осквы в рамках музейной недели.\nМузей М
- осквы\nhttps://t.me/mosmuseum/7654
-URL:https://doublebasskakov.github.io/radar/#e=play-that-s-all-you-need-t
- o-know-about-conducting-moscow
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Спектакль «Вот и все\, что вам нуж
- но знать о дирижировании»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:kzn-mon-zatvornik-i-shestipalyy@afisha-art
-DTSTAMP:20261117T235129Z
-DTSTART:20261119T160000Z
-DTEND:20261119T180000Z
-SUMMARY:«Затворник и Шестипалый»
-LOCATION:MOÑ\, ул. Пушкина\, 86\, Казань
-DESCRIPTION:Антиутопия по повести Пелевина в 
- постановке Кирилла Люкевича.\nРежиссёр 
- Кирилл Люкевич\; по Виктору Пелевину\nhttps
- ://afisha.yandex.ru/kazan/theatre/places/mon-kazan
-URL:https://doublebasskakov.github.io/radar/#e=kzn-mon-zatvornik-i-shesti
- palyy
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:«Затворник и Шестипалый»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:play-comrade-kislyakov-directed-by-andrei-kalinin-saint-peters@afisha
- -art
-DTSTAMP:20261117T235129Z
-DTSTART:20261227T160000Z
-DTEND:20261227T180000Z
-SUMMARY:Спектакль Андрея Калинина «Товарищ
-  Кисляков»
-LOCATION:Новая сцена Санкт-Петербургского т
- еатра им. В.Ф. Комиссаржевской\, наб. реки
-  Фонтанки\, 41\, Санкт-Петербург
-DESCRIPTION:Спектакль Андрея Калинина по ром
- ану Пантелеймона Романова.\nАндрей Кали
- нин\nhttps://t.me/newstageprojects/3179
-URL:https://doublebasskakov.github.io/radar/#e=play-comrade-kislyakov-dir
- ected-by-andrei-kalinin-saint-peters
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Спектакль Андрея Калинина «Товар
- ищ Кисляков»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:play-tired-of-being-born-and-dying-directed-by-ding-yiteng-saint-pete
- rs@afisha-art
-DTSTAMP:20261117T235129Z
-DTSTART:20261226T160000Z
-DTEND:20261226T180000Z
-SUMMARY:Спектакль Дин Итэна «Устал рождать
- ся и умирать»
-LOCATION:Новая сцена Санкт-Петербургского т
- еатра им. В.Ф. Комиссаржевской\, наб. реки
-  Фонтанки\, 41\, Санкт-Петербург
-DESCRIPTION:Международная театральная поста
- новка режиссера Дин Итэна.\nДин Итэн\nhttps:
- //t.me/newstageprojects/3179
-URL:https://doublebasskakov.github.io/radar/#e=play-tired-of-being-born-a
- nd-dying-directed-by-ding-yiteng-saint-peters
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Спектакль Дин Итэна «Устал рожда
- ться и умирать»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:msk-praktika-naivno-super@afisha-art
-DTSTAMP:20261117T235129Z
-DTSTART:20261120T160000Z
-DTEND:20261120T180000Z
-SUMMARY:«Наивно. Супер». Премьера
-LOCATION:Театр «Практика»\, Большой Козихин
- ский пер.\, 30\, Москва
-DESCRIPTION:Танцевально-драматическая притч
- а по роману Эрленда Лу.\nТеатр «Практика
- »\nhttps://praktikatheatre.ru/
-URL:https://doublebasskakov.github.io/radar/#e=msk-praktika-naivno-super
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:«Наивно. Супер». Премьера
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:play-the-seagull-directed-by-elena-pavlova-saint-peters@afisha-art
-DTSTAMP:20261117T235129Z
-DTSTART:20261205T160000Z
-DTEND:20261205T180000Z
-SUMMARY:Спектакль Елены Павловой «Чайка»
-LOCATION:Новая сцена Санкт-Петербургского т
- еатра им. В.Ф. Комиссаржевской\, наб. реки
-  Фонтанки\, 41\, Санкт-Петербург
-DESCRIPTION:Режиссерское переосмысление кла
- ссической пьесы Чехова.\nЕлена Павлова\nh
- ttps://t.me/newstageprojects/3179
-URL:https://doublebasskakov.github.io/radar/#e=play-the-seagull-directed-
- by-elena-pavlova-saint-peters
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Спектакль Елены Павловой «Чайка»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:play-creature-directed-by-nikita-kobelev-saint-peters@afisha-art
-DTSTAMP:20261117T235129Z
-DTSTART:20261201T160000Z
-DTEND:20261201T180000Z
-SUMMARY:Спектакль Никиты Кобелева «Тварь»
-LOCATION:Новая сцена Санкт-Петербургского т
- еатра им. В.Ф. Комиссаржевской\, наб. реки
-  Фонтанки\, 41\, Санкт-Петербург
-DESCRIPTION:Театральная постановка режиссер
- а Никиты Кобелева.\nНикита Кобелев\nhttps://t
- .me/newstageprojects/3179
-URL:https://doublebasskakov.github.io/radar/#e=play-creature-directed-by-
- nikita-kobelev-saint-peters
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Спектакль Никиты Кобелева «Тварь
- »
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:play-it-s-not-me-it-s-my-childhood-saint-peters@afisha-art
-DTSTAMP:20261117T235129Z
-DTSTART:20261211T160000Z
-DTEND:20261211T180000Z
-SUMMARY:Спектакль «Это не я\, это моё детств
- о»
-LOCATION:Новая сцена Санкт-Петербургского т
- еатра им. В.Ф. Комиссаржевской\, наб. реки
-  Фонтанки\, 41\, Санкт-Петербург
-DESCRIPTION:Постановка театральной компании 
- «Театр каждого».\nТеатр каждого\nhttps://t.me/n
- ewstageprojects/3179
-URL:https://doublebasskakov.github.io/radar/#e=play-it-s-not-me-it-s-my-c
- hildhood-saint-peters
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Спектакль «Это не я\, это моё детс
- тво»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:play-my-friend-lapshin-directed-by-elena-pavlova-saint-peters@afisha-
- art
-DTSTAMP:20261117T235129Z
-DTSTART:20261219T160000Z
-DTEND:20261219T180000Z
-SUMMARY:Спектакль Елены Павловой «Мой друг 
- Лапшин»
-LOCATION:Новая сцена Санкт-Петербургского т
- еатра им. В.Ф. Комиссаржевской\, наб. реки
-  Фонтанки\, 41\, Санкт-Петербург
-DESCRIPTION:Постановка Елены Павловой по про
- зе Юрия Германа.\nЕлена Павлова\nhttps://t.me/ne
- wstageprojects/3179
-URL:https://doublebasskakov.github.io/radar/#e=play-my-friend-lapshin-dir
- ected-by-elena-pavlova-saint-peters
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Спектакль Елены Павловой «Мой др
- уг Лапшин»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:play-oscar-school-of-life-in-four-lessons-15-00-moscow@afisha-art
-DTSTAMP:20261117T235129Z
-DTSTART:20261122T120000Z
-DTEND:20261122T140000Z
-SUMMARY:Спектакль «Оскар… Школа жизни в че
- тырех уроках» (15:00)
-LOCATION:Театр на Трубной\, Москва
-DESCRIPTION:Благотворительный дневной показ 
- спектакля в постановке Иры Михеевой в п
- омощь детскому хоспису.\nИра Михеева\nhttps
- ://t.me/theblueprintnews/99726
-URL:https://doublebasskakov.github.io/radar/#e=play-oscar-school-of-life-
- in-four-lessons-15-00-moscow
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Спектакль «Оскар… Школа жизни в 
- четырех уроках» (15:00)
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:play-oscar-school-of-life-in-four-lessons-19-00-moscow@afisha-art
-DTSTAMP:20261117T235129Z
-DTSTART:20261122T160000Z
-DTEND:20261122T180000Z
-SUMMARY:Спектакль «Оскар… Школа жизни в че
- тырех уроках» (19:00)
-LOCATION:Театр на Трубной\, Москва
-DESCRIPTION:Благотворительный вечерний пока
- з спектакля Иры Михеевой в пользу фонда 
- «Дом с маяком».\nИра Михеева\nhttps://t.me/thebluep
- rintnews/99726
-URL:https://doublebasskakov.github.io/radar/#e=play-oscar-school-of-life-
- in-four-lessons-19-00-moscow
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Спектакль «Оскар… Школа жизни в 
- четырех уроках» (19:00)
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:play-subscriber-temporarily-unavailable-moscow@afisha-art
-DTSTAMP:20261117T235129Z
-DTSTART:20261121T160000Z
-DTEND:20261121T180000Z
-SUMMARY:Спектакль «Абонент временно недост
- упен»
-LOCATION:Музей «Садовое кольцо»\, пр. Мира\, 14
- \, Москва
-DESCRIPTION:Театральная постановка на площад
- ке музея «Садовое кольцо».\nМузей «Садов
- ое кольцо»\nhttps://t.me/mosmuseum/7654
-URL:https://doublebasskakov.github.io/radar/#e=play-subscriber-temporaril
- y-unavailable-moscow
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Спектакль «Абонент временно недо
- ступен»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:play-volnaya-roscha-samara@afisha-art
-DTSTAMP:20261117T235129Z
-DTSTART:20261120T140000Z
-DTEND:20261120T160000Z
-SUMMARY:Спектакль «Вольная роща»
-LOCATION:Дом культуры «Победа»\, пр. Кирова\, 
- 72А\, Самара
-DESCRIPTION:Показ комедийного спектакля по п
- ьесе А. В. Карно.\nКарно А.В.\nhttps://t.me/afisha_sama
- ra/3177
-URL:https://doublebasskakov.github.io/radar/#e=play-volnaya-roscha-samara
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Спектакль «Вольная роща»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:romeo-and-juliet-in-darkness-moscow@afisha-art
-DTSTAMP:20261117T235129Z
-DTSTART:20261125T160000Z
-DTEND:20261125T180000Z
-SUMMARY:Ромео и Джульетта во мгле
-LOCATION:Et Cetera (Большой зал)\, Москва\, Фролов 
- пер.\, 2\, Москва
-DESCRIPTION:Спектакль-сочинение Льва Додина 
- в гастрольной постановке МДТ — Театра Е
- вропы. Продолжительность около 1 ч 30 мин 
- без антракта. Площадка по данным Яндекс 
- Афиши — Большой зал\, а не Основная сцен
- а\, как указано в запросе.\nМДТ — Театр Ев
- ропы\, Лев Додин\nhttps://et-cetera.ru/performance/
-URL:https://doublebasskakov.github.io/radar/#e=romeo-and-juliet-in-darkne
- ss-moscow
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Ромео и Джульетта во мгле
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:about-my-mother-and-about-me-moscow@afisha-art
-DTSTAMP:20261117T235129Z
-DTSTART:20261212T170000Z
-DTEND:20261212T190000Z
-SUMMARY:Про мою маму и про меня
-LOCATION:Электротеатр Станиславский\, Тверс
- кая ул.\, 23\, Москва
-DESCRIPTION:Спектакль по пьесе Елены Исаевой 
- в память об Елене Греминой и Михаиле Уга
- рове\, режиссер — Елена Морозова.\nЕлена 
- Морозова\nhttps://electrotheatre.ru/playbill
-URL:https://doublebasskakov.github.io/radar/#e=about-my-mother-and-about-
- me-moscow
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Про мою маму и про меня
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:idiotology-moscow@afisha-art
-DTSTAMP:20261117T235129Z
-DTSTART:20261216T160000Z
-DTEND:20261216T180000Z
-SUMMARY:Идиотология
-LOCATION:Электротеатр Станиславский\, Тверс
- кая ул.\, 23\, Москва
-DESCRIPTION:Интерпретация романа Ф. М. Достое
- вского «Идиот» в рамках проекта «Золото
- й осел»\, режиссер Клим Козинский.\nКлим 
- Козинский\nhttps://electrotheatre.ru/playbill
-URL:https://doublebasskakov.github.io/radar/#e=idiotology-moscow
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Идиотология
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:life-is-a-dream-moscow@afisha-art
-DTSTAMP:20261117T235129Z
-DTSTART:20261118T160000Z
-DTEND:20261118T180000Z
-SUMMARY:Жизнь есть сон
-LOCATION:Электротеатр Станиславский\, Тверс
- кая ул.\, 23\, Москва
-DESCRIPTION:Копродукция Электротеатра и Teatro E
- spañol в постановке испанского режиссера 
- Натальи Менендес.\nНаталья Менендес\nhttps:
- //electrotheatre.ru/playbill
-URL:https://doublebasskakov.github.io/radar/#e=life-is-a-dream-moscow
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Жизнь есть сон
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:maryino-field-moscow@afisha-art
-DTSTAMP:20261117T235129Z
-DTSTART:20261204T160000Z
-DTEND:20261204T180000Z
-SUMMARY:Марьино поле
-LOCATION:Электротеатр Станиславский\, Тверс
- кая ул.\, 23\, Москва
-DESCRIPTION:Второй премьерный показ постанов
- ки Романа Дробота по пьесе Олега Богаев
- а.\nРоман Дробот\nhttps://electrotheatre.ru/playbill
-URL:https://doublebasskakov.github.io/radar/#e=maryino-field-moscow
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Марьино поле
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:msk-electrotheatre-maryino-pole@afisha-art
-DTSTAMP:20261117T235129Z
-DTSTART:20261203T160000Z
-DTEND:20261203T180000Z
-SUMMARY:«Марьино поле». Премьера
-LOCATION:Электротеатр Станиславский\, Основ
- ная сцена\, ул. Тверская\, 23\, Москва
-DESCRIPTION:Премьера на Основной сцене Элект
- ротеатра.\nЭлектротеатр Станиславский\nh
- ttps://electrotheatre.ru/playbill?month=2026-12
-URL:https://doublebasskakov.github.io/radar/#e=msk-electrotheatre-maryino
- -pole
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:«Марьино поле». Премьера
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:performance-dovlatov-solo-on-a-suitcase-saint-peters@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART:20261119T170000Z
 DTEND:20261119T190000Z
 SUMMARY:Спектакль «Довлатов. Соло На Чемода
@@ -1101,8 +433,720 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:forum-theater-saint-peters@afisha-art
+DTSTAMP:20261118T130346Z
+DTSTART:20261124T140000Z
+DTEND:20261124T160000Z
+SUMMARY:Форум-театр
+LOCATION:Новая Голландия\, пространство «Уч
+ ительская»\, набережная Адмиралтейског
+ о канала\, 2\, здание «Бутылка»\, 4 этаж\, Са
+ нкт-Петербург
+DESCRIPTION:Серия театральных встреч по мето
+ ду Аугусто Боаля\, где участники исследу
+ ют социальные отношения в школе и пробу
+ ют изменить ход событий в специально со
+ зданных сценах.\nМария Колосова\nhttps://t.me/n
+ ewhollandsp/5915
+URL:https://doublebasskakov.github.io/radar/#e=forum-theater-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Форум-театр
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:my-poor-marat-samara@afisha-art
+DTSTAMP:20261118T130346Z
+DTSTART:20261222T160000Z
+DTEND:20261222T180000Z
+SUMMARY:Спектакль «Мой бедный Марат»
+LOCATION:МТС Live Холл\, ул. Ново-Садовая\, 106Г\, 
+ Самара
+DESCRIPTION:Лирическая драма по пьесе Алексе
+ я Арбузова о любви\, дружбе и жизненном в
+ ыборе трех героев\, чья история разворач
+ ивается на протяжении семнадцати лет.\nNo
+ ne\nhttps://clck.ru/3WXnyj
+URL:https://doublebasskakov.github.io/radar/#e=my-poor-marat-samara
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спектакль «Мой бедный Марат»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rehearsal-performance-open-lesson-moscow@afisha-art
+DTSTAMP:20261118T130346Z
+DTSTART:20261122T150000Z
+DTEND:20261122T170000Z
+SUMMARY:Спектакль-репетиция «Открытый урок
+ »
+LOCATION:Новая сцена им. Вс. Мейерхольда\, Мо
+ сква
+DESCRIPTION:Интерактивный спектакль-репетиц
+ ия\, в котором упражнения и этюды превра
+ щаются в законченные музыкально-театра
+ льные номера.\nМузыкальный Театр Детей М
+ арины Ланда\nhttps://t.me/newstageprojects/3188
+URL:https://doublebasskakov.github.io/radar/#e=rehearsal-performance-open
+ -lesson-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спектакль-репетиция «Открытый ур
+ ок»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:play-count-nulin-saint-peters@afisha-art
+DTSTAMP:20261118T130346Z
+DTSTART:20261120T170000Z
+DTEND:20261120T190000Z
+SUMMARY:Спектакль «Граф Нулин»
+LOCATION:ЦВЗ «Манеж»\, Санкт-Петербург
+DESCRIPTION:Ироничная пушкинская поэма в исп
+ олнении артистов Театра «На Литейном» в
+  рамках выставочного проекта «Сцена дей
+ ствия».\nТеатр «На Литейном»\, режиссер С
+ ергей Морозов\nhttps://t.me/spbmanege/4032
+URL:https://doublebasskakov.github.io/radar/#e=play-count-nulin-saint-pet
+ ers
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спектакль «Граф Нулин»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:play-kozintsev-gogoliada-directed-by-nikita-kobelev-saint-peters@afis
+ ha-art
+DTSTAMP:20261118T130346Z
+DTSTART:20261223T163000Z
+DTEND:20261223T183000Z
+SUMMARY:Постановка Никиты Кобелева «Козинц
+ ев. Гоголиада»
+LOCATION:Новая сцена Санкт-Петербургского т
+ еатра им. В.Ф. Комиссаржевской\, наб. реки
+  Фонтанки\, 41\, Санкт-Петербург
+DESCRIPTION:Спектакль Никиты Кобелева\, посвя
+ щенный творческому наследию режиссера 
+ Григория Козинцева и произведениям Гог
+ оля.\nНикита Кобелев\nhttps://t.me/newstageprojects/3179
+URL:https://doublebasskakov.github.io/radar/#e=play-kozintsev-gogoliada-d
+ irected-by-nikita-kobelev-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Постановка Никиты Кобелева «Кози
+ нцев. Гоголиада»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:play-change-cannot-be-changed-nizhny-novgo@afisha-art
+DTSTAMP:20261118T130346Z
+DTSTART:20261122T160000Z
+DTEND:20261122T180000Z
+SUMMARY:Спектакль «Измениться нельзя измен
+ ить»
+LOCATION:ЦТМ\, Нижний Новгород
+DESCRIPTION:Постановка учеников студии ЦТМ п
+ о пьесе Алексея Слаповского о поиске бл
+ изости\, любви и внутренней гармонии.\nТе
+ атральная студия ЦТМ\nhttps://t.me/gorkoNN/29601
+URL:https://doublebasskakov.github.io/radar/#e=play-change-cannot-be-chan
+ ged-nizhny-novgo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спектакль «Измениться нельзя изм
+ енить»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:the-tale-of-fedot-the-strelets-samara@afisha-art
+DTSTAMP:20261118T130346Z
+DTSTART:20261119T150000Z
+DTEND:20261119T170000Z
+SUMMARY:Спектакль «Сказ про Федота-стрельц
+ а»
+LOCATION:Дом офицеров Самарского гарнизона\
+ , ул. Шостаковича\, д. 7\, Самара
+DESCRIPTION:Постановка Московского театра ко
+ медии по знаменитой сказке Леонида Фила
+ това с участием известных актеров.\nМоск
+ овский театр комедии\nhttps://sam.comedytheatre.ru/perf
+ ormances/skaz-pro-fedota-strelca?sam=1&utm_campaign=tg_sam_afisha_12_11
+URL:https://doublebasskakov.github.io/radar/#e=the-tale-of-fedot-the-stre
+ lets-samara
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спектакль «Сказ про Федота-стрел
+ ьца»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:my-poor-marat-play-moscow@afisha-art
+DTSTAMP:20261118T130346Z
+DTSTART:20261120T160000Z
+DTEND:20261120T180000Z
+SUMMARY:Спектакль «Мой бедный Марат»
+LOCATION:Институт Современного Искусства (М
+ алая сцена)\, Новозаводская 27а\, Москва
+DESCRIPTION:Драматическая постановка по пьес
+ е Алексея Арбузова о военном детстве\, в
+ зрослении и испытании временем.\nреж. Е. 
+ Николаева\, курс Е. Дробышевой\nhttps://t.me/ct_p
+ ro/14815
+URL:https://doublebasskakov.github.io/radar/#e=my-poor-marat-play-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спектакль «Мой бедный Марат»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:performance-carmen-my-carmen-moscow@afisha-art
+DTSTAMP:20261118T130346Z
+DTSTART:20261121T130000Z
+DTEND:20261121T150000Z
+SUMMARY:Спектакль «Кармен! Моя Кармен!»
+LOCATION:Музей кино на Каретном\, Москва\, Мо
+ сква
+DESCRIPTION:Показ спектакля «Кармен! Моя Карм
+ ен!» в постановке А. Денникова в рамках к
+ иноклуба «Театр в кино».\nА. Денников\nhttps
+ ://t.me/museikino/6418
+URL:https://doublebasskakov.github.io/radar/#e=performance-carmen-my-carm
+ en-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спектакль «Кармен! Моя Кармен!»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:aristocrats-samara@afisha-art
+DTSTAMP:20261118T130346Z
+DTSTART:20261128T120000Z
+DTEND:20261128T140000Z
+SUMMARY:Спектакль «Аристократы»
+LOCATION:ДКЖ им. Пушкина\, ул. Льва Толстого\, 
+ 94\, Самара
+DESCRIPTION:Ироничная постановка по рассказа
+ м Надежды Тэффи об атмосфере уходящей э
+ похи Серебряного века.\nАнна Калинина\nhtt
+ ps://clck.ru/3WssoJ
+URL:https://doublebasskakov.github.io/radar/#e=aristocrats-samara
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спектакль «Аристократы»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:performative-play-na-predele-moscow@afisha-art
+DTSTAMP:20261118T130346Z
+DTSTART:20261118T160000Z
+DTEND:20261118T180000Z
+SUMMARY:Перформативный спектакль «На Преде
+ ле»
+LOCATION:Зверевский центр современного иск
+ усства\, ул. Новорязанская\, д. 29\, строени
+ е 4\, Москва
+DESCRIPTION:Спектакль-импровизация театра «Р
+ акурс» на основе реальных историй и пер
+ еживаний зрителей.\nТеатр "Ракурс"\nhttps://t.
+ me/zverevcenter/2607
+URL:https://doublebasskakov.github.io/radar/#e=performative-play-na-prede
+ le-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Перформативный спектакль «На Пре
+ деле»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:play-stanislavsky-chekhov-moscow@afisha-art
+DTSTAMP:20261118T130346Z
+DTSTART:20261206T160000Z
+DTEND:20261206T180000Z
+SUMMARY:Спектакль «Станиславский/Чехов»
+LOCATION:«Покровка.Театр»\, Москва
+DESCRIPTION:Постановка о встрече Константина
+  Станиславского и Михаила Чехова в Берл
+ ине 1928 года.\nДмитрий Бикбаев\nhttps://t.me/Cultur
+ Moscow/5887
+URL:https://doublebasskakov.github.io/radar/#e=play-stanislavsky-chekhov-
+ moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спектакль «Станиславский/Чехов»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:documentary-sound-performance-i-want-to-say-saint-peters@afisha-art
+DTSTAMP:20261118T130346Z
+DTSTART:20261212T160000Z
+DTEND:20261212T180000Z
+SUMMARY:Документальный саунд-спектакль «Я 
+ хочу сказать»
+LOCATION:Новая сцена Санкт-Петербургского т
+ еатра им. В.Ф. Комиссаржевской\, наб. реки
+  Фонтанки\, 41\, Санкт-Петербург
+DESCRIPTION:Инклюзивный документальный спек
+ такль с акцентом на звуковую и речевую п
+ артитуру.\n\nhttps://t.me/newstageprojects/3179
+URL:https://doublebasskakov.github.io/radar/#e=documentary-sound-performa
+ nce-i-want-to-say-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Документальный саунд-спектакль «
+ Я хочу сказать»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:play-ivona-princess-of-burgundia-directed-by-hugo-erikssen-saint-pete
+ rs@afisha-art
+DTSTAMP:20261118T130346Z
+DTSTART:20261213T160000Z
+DTEND:20261213T180000Z
+SUMMARY:Спектакль Хуго Эрикссена «Ивонна\, 
+ принцесса Бургундская»
+LOCATION:Новая сцена Санкт-Петербургского т
+ еатра им. В.Ф. Комиссаржевской\, наб. реки
+  Фонтанки\, 41\, Санкт-Петербург
+DESCRIPTION:Спектакль режиссера Хуго Эрикссе
+ на по мотивам абсурдистской драматурги
+ и.\nХуго Эрикссен\nhttps://t.me/newstageprojects/3179
+URL:https://doublebasskakov.github.io/radar/#e=play-ivona-princess-of-bur
+ gundia-directed-by-hugo-erikssen-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спектакль Хуго Эрикссена «Ивонна
+ \, принцесса Бургундская»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:play-the-man-from-dublin-directed-by-andrei-kalinin-saint-peters@afis
+ ha-art
+DTSTAMP:20261118T130346Z
+DTSTART:20261224T160000Z
+DTEND:20261224T180000Z
+SUMMARY:Спектакль Андрея Калинина «Человек
+  из Дублина»
+LOCATION:Новая сцена Санкт-Петербургского т
+ еатра им. В.Ф. Комиссаржевской\, наб. реки
+  Фонтанки\, 41\, Санкт-Петербург
+DESCRIPTION:Режиссерская работа Андрея Калин
+ ина в пространстве Новой сцены.\nАндрей 
+ Калинин\nhttps://t.me/newstageprojects/3179
+URL:https://doublebasskakov.github.io/radar/#e=play-the-man-from-dublin-d
+ irected-by-andrei-kalinin-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спектакль Андрея Калинина «Челов
+ ек из Дублина»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:play-that-s-all-you-need-to-know-about-conducting-moscow@afisha-art
+DTSTAMP:20261118T130346Z
+DTSTART:20261119T160000Z
+DTEND:20261119T180000Z
+SUMMARY:Спектакль «Вот и все\, что вам нужно 
+ знать о дирижировании»
+LOCATION:Музей Москвы\, Зубовский б-р\, 2\, Мос
+ ква
+DESCRIPTION:Театральная постановка в Музее М
+ осквы в рамках музейной недели.\nМузей М
+ осквы\nhttps://t.me/mosmuseum/7654
+URL:https://doublebasskakov.github.io/radar/#e=play-that-s-all-you-need-t
+ o-know-about-conducting-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спектакль «Вот и все\, что вам нуж
+ но знать о дирижировании»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kzn-mon-zatvornik-i-shestipalyy@afisha-art
+DTSTAMP:20261118T130346Z
+DTSTART:20261119T160000Z
+DTEND:20261119T180000Z
+SUMMARY:«Затворник и Шестипалый»
+LOCATION:MOÑ\, ул. Пушкина\, 86\, Казань
+DESCRIPTION:Антиутопия по повести Пелевина в 
+ постановке Кирилла Люкевича.\nРежиссёр 
+ Кирилл Люкевич\; по Виктору Пелевину\nhttps
+ ://afisha.yandex.ru/kazan/theatre/places/mon-kazan
+URL:https://doublebasskakov.github.io/radar/#e=kzn-mon-zatvornik-i-shesti
+ palyy
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:«Затворник и Шестипалый»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:play-comrade-kislyakov-directed-by-andrei-kalinin-saint-peters@afisha
+ -art
+DTSTAMP:20261118T130346Z
+DTSTART:20261227T160000Z
+DTEND:20261227T180000Z
+SUMMARY:Спектакль Андрея Калинина «Товарищ
+  Кисляков»
+LOCATION:Новая сцена Санкт-Петербургского т
+ еатра им. В.Ф. Комиссаржевской\, наб. реки
+  Фонтанки\, 41\, Санкт-Петербург
+DESCRIPTION:Спектакль Андрея Калинина по ром
+ ану Пантелеймона Романова.\nАндрей Кали
+ нин\nhttps://t.me/newstageprojects/3179
+URL:https://doublebasskakov.github.io/radar/#e=play-comrade-kislyakov-dir
+ ected-by-andrei-kalinin-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спектакль Андрея Калинина «Товар
+ ищ Кисляков»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:play-tired-of-being-born-and-dying-directed-by-ding-yiteng-saint-pete
+ rs@afisha-art
+DTSTAMP:20261118T130346Z
+DTSTART:20261226T160000Z
+DTEND:20261226T180000Z
+SUMMARY:Спектакль Дин Итэна «Устал рождать
+ ся и умирать»
+LOCATION:Новая сцена Санкт-Петербургского т
+ еатра им. В.Ф. Комиссаржевской\, наб. реки
+  Фонтанки\, 41\, Санкт-Петербург
+DESCRIPTION:Международная театральная поста
+ новка режиссера Дин Итэна.\nДин Итэн\nhttps:
+ //t.me/newstageprojects/3179
+URL:https://doublebasskakov.github.io/radar/#e=play-tired-of-being-born-a
+ nd-dying-directed-by-ding-yiteng-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спектакль Дин Итэна «Устал рожда
+ ться и умирать»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:msk-praktika-naivno-super@afisha-art
+DTSTAMP:20261118T130346Z
+DTSTART:20261120T160000Z
+DTEND:20261120T180000Z
+SUMMARY:«Наивно. Супер». Премьера
+LOCATION:Театр «Практика»\, Большой Козихин
+ ский пер.\, 30\, Москва
+DESCRIPTION:Танцевально-драматическая притч
+ а по роману Эрленда Лу.\nТеатр «Практика
+ »\nhttps://praktikatheatre.ru/
+URL:https://doublebasskakov.github.io/radar/#e=msk-praktika-naivno-super
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:«Наивно. Супер». Премьера
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:play-the-seagull-directed-by-elena-pavlova-saint-peters@afisha-art
+DTSTAMP:20261118T130346Z
+DTSTART:20261205T160000Z
+DTEND:20261205T180000Z
+SUMMARY:Спектакль Елены Павловой «Чайка»
+LOCATION:Новая сцена Санкт-Петербургского т
+ еатра им. В.Ф. Комиссаржевской\, наб. реки
+  Фонтанки\, 41\, Санкт-Петербург
+DESCRIPTION:Режиссерское переосмысление кла
+ ссической пьесы Чехова.\nЕлена Павлова\nh
+ ttps://t.me/newstageprojects/3179
+URL:https://doublebasskakov.github.io/radar/#e=play-the-seagull-directed-
+ by-elena-pavlova-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спектакль Елены Павловой «Чайка»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:play-creature-directed-by-nikita-kobelev-saint-peters@afisha-art
+DTSTAMP:20261118T130346Z
+DTSTART:20261201T160000Z
+DTEND:20261201T180000Z
+SUMMARY:Спектакль Никиты Кобелева «Тварь»
+LOCATION:Новая сцена Санкт-Петербургского т
+ еатра им. В.Ф. Комиссаржевской\, наб. реки
+  Фонтанки\, 41\, Санкт-Петербург
+DESCRIPTION:Театральная постановка режиссер
+ а Никиты Кобелева.\nНикита Кобелев\nhttps://t
+ .me/newstageprojects/3179
+URL:https://doublebasskakov.github.io/radar/#e=play-creature-directed-by-
+ nikita-kobelev-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спектакль Никиты Кобелева «Тварь
+ »
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:play-it-s-not-me-it-s-my-childhood-saint-peters@afisha-art
+DTSTAMP:20261118T130346Z
+DTSTART:20261211T160000Z
+DTEND:20261211T180000Z
+SUMMARY:Спектакль «Это не я\, это моё детств
+ о»
+LOCATION:Новая сцена Санкт-Петербургского т
+ еатра им. В.Ф. Комиссаржевской\, наб. реки
+  Фонтанки\, 41\, Санкт-Петербург
+DESCRIPTION:Постановка театральной компании 
+ «Театр каждого».\nТеатр каждого\nhttps://t.me/n
+ ewstageprojects/3179
+URL:https://doublebasskakov.github.io/radar/#e=play-it-s-not-me-it-s-my-c
+ hildhood-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спектакль «Это не я\, это моё детс
+ тво»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:play-my-friend-lapshin-directed-by-elena-pavlova-saint-peters@afisha-
+ art
+DTSTAMP:20261118T130346Z
+DTSTART:20261219T160000Z
+DTEND:20261219T180000Z
+SUMMARY:Спектакль Елены Павловой «Мой друг 
+ Лапшин»
+LOCATION:Новая сцена Санкт-Петербургского т
+ еатра им. В.Ф. Комиссаржевской\, наб. реки
+  Фонтанки\, 41\, Санкт-Петербург
+DESCRIPTION:Постановка Елены Павловой по про
+ зе Юрия Германа.\nЕлена Павлова\nhttps://t.me/ne
+ wstageprojects/3179
+URL:https://doublebasskakov.github.io/radar/#e=play-my-friend-lapshin-dir
+ ected-by-elena-pavlova-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спектакль Елены Павловой «Мой др
+ уг Лапшин»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:play-oscar-school-of-life-in-four-lessons-15-00-moscow@afisha-art
+DTSTAMP:20261118T130346Z
+DTSTART:20261122T120000Z
+DTEND:20261122T140000Z
+SUMMARY:Спектакль «Оскар… Школа жизни в че
+ тырех уроках» (15:00)
+LOCATION:Театр на Трубной\, Москва
+DESCRIPTION:Благотворительный дневной показ 
+ спектакля в постановке Иры Михеевой в п
+ омощь детскому хоспису.\nИра Михеева\nhttps
+ ://t.me/theblueprintnews/99726
+URL:https://doublebasskakov.github.io/radar/#e=play-oscar-school-of-life-
+ in-four-lessons-15-00-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спектакль «Оскар… Школа жизни в 
+ четырех уроках» (15:00)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:play-oscar-school-of-life-in-four-lessons-19-00-moscow@afisha-art
+DTSTAMP:20261118T130346Z
+DTSTART:20261122T160000Z
+DTEND:20261122T180000Z
+SUMMARY:Спектакль «Оскар… Школа жизни в че
+ тырех уроках» (19:00)
+LOCATION:Театр на Трубной\, Москва
+DESCRIPTION:Благотворительный вечерний пока
+ з спектакля Иры Михеевой в пользу фонда 
+ «Дом с маяком».\nИра Михеева\nhttps://t.me/thebluep
+ rintnews/99726
+URL:https://doublebasskakov.github.io/radar/#e=play-oscar-school-of-life-
+ in-four-lessons-19-00-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спектакль «Оскар… Школа жизни в 
+ четырех уроках» (19:00)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:play-subscriber-temporarily-unavailable-moscow@afisha-art
+DTSTAMP:20261118T130346Z
+DTSTART:20261121T160000Z
+DTEND:20261121T180000Z
+SUMMARY:Спектакль «Абонент временно недост
+ упен»
+LOCATION:Музей «Садовое кольцо»\, пр. Мира\, 14
+ \, Москва
+DESCRIPTION:Театральная постановка на площад
+ ке музея «Садовое кольцо».\nМузей «Садов
+ ое кольцо»\nhttps://t.me/mosmuseum/7654
+URL:https://doublebasskakov.github.io/radar/#e=play-subscriber-temporaril
+ y-unavailable-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спектакль «Абонент временно недо
+ ступен»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:play-volnaya-roscha-samara@afisha-art
+DTSTAMP:20261118T130346Z
+DTSTART:20261120T140000Z
+DTEND:20261120T160000Z
+SUMMARY:Спектакль «Вольная роща»
+LOCATION:Дом культуры «Победа»\, пр. Кирова\, 
+ 72А\, Самара
+DESCRIPTION:Показ комедийного спектакля по п
+ ьесе А. В. Карно.\nКарно А.В.\nhttps://t.me/afisha_sama
+ ra/3177
+URL:https://doublebasskakov.github.io/radar/#e=play-volnaya-roscha-samara
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спектакль «Вольная роща»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:romeo-and-juliet-in-darkness-moscow@afisha-art
+DTSTAMP:20261118T130346Z
+DTSTART:20261125T160000Z
+DTEND:20261125T180000Z
+SUMMARY:Ромео и Джульетта во мгле
+LOCATION:Et Cetera (Большой зал)\, Москва\, Фролов 
+ пер.\, 2\, Москва
+DESCRIPTION:Спектакль-сочинение Льва Додина 
+ в гастрольной постановке МДТ — Театра Е
+ вропы. Продолжительность около 1 ч 30 мин 
+ без антракта. Площадка по данным Яндекс 
+ Афиши — Большой зал\, а не Основная сцен
+ а\, как указано в запросе.\nМДТ — Театр Ев
+ ропы\, Лев Додин\nhttps://et-cetera.ru/performance/
+URL:https://doublebasskakov.github.io/radar/#e=romeo-and-juliet-in-darkne
+ ss-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ромео и Джульетта во мгле
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:about-my-mother-and-about-me-moscow@afisha-art
+DTSTAMP:20261118T130346Z
+DTSTART:20261212T170000Z
+DTEND:20261212T190000Z
+SUMMARY:Про мою маму и про меня
+LOCATION:Электротеатр Станиславский\, Тверс
+ кая ул.\, 23\, Москва
+DESCRIPTION:Спектакль по пьесе Елены Исаевой 
+ в память об Елене Греминой и Михаиле Уга
+ рове\, режиссер — Елена Морозова.\nЕлена 
+ Морозова\nhttps://electrotheatre.ru/playbill
+URL:https://doublebasskakov.github.io/radar/#e=about-my-mother-and-about-
+ me-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Про мою маму и про меня
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:idiotology-moscow@afisha-art
+DTSTAMP:20261118T130346Z
+DTSTART:20261216T160000Z
+DTEND:20261216T180000Z
+SUMMARY:Идиотология
+LOCATION:Электротеатр Станиславский\, Тверс
+ кая ул.\, 23\, Москва
+DESCRIPTION:Интерпретация романа Ф. М. Достое
+ вского «Идиот» в рамках проекта «Золото
+ й осел»\, режиссер Клим Козинский.\nКлим 
+ Козинский\nhttps://electrotheatre.ru/playbill
+URL:https://doublebasskakov.github.io/radar/#e=idiotology-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Идиотология
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:life-is-a-dream-moscow@afisha-art
+DTSTAMP:20261118T130346Z
+DTSTART:20261118T160000Z
+DTEND:20261118T180000Z
+SUMMARY:Жизнь есть сон
+LOCATION:Электротеатр Станиславский\, Тверс
+ кая ул.\, 23\, Москва
+DESCRIPTION:Копродукция Электротеатра и Teatro E
+ spañol в постановке испанского режиссера 
+ Натальи Менендес.\nНаталья Менендес\nhttps:
+ //electrotheatre.ru/playbill
+URL:https://doublebasskakov.github.io/radar/#e=life-is-a-dream-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Жизнь есть сон
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:maryino-field-moscow@afisha-art
+DTSTAMP:20261118T130346Z
+DTSTART:20261204T160000Z
+DTEND:20261204T180000Z
+SUMMARY:Марьино поле
+LOCATION:Электротеатр Станиславский\, Тверс
+ кая ул.\, 23\, Москва
+DESCRIPTION:Второй премьерный показ постанов
+ ки Романа Дробота по пьесе Олега Богаев
+ а.\nРоман Дробот\nhttps://electrotheatre.ru/playbill
+URL:https://doublebasskakov.github.io/radar/#e=maryino-field-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Марьино поле
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:msk-electrotheatre-maryino-pole@afisha-art
+DTSTAMP:20261118T130346Z
+DTSTART:20261203T160000Z
+DTEND:20261203T180000Z
+SUMMARY:«Марьино поле». Премьера
+LOCATION:Электротеатр Станиславский\, Основ
+ ная сцена\, ул. Тверская\, 23\, Москва
+DESCRIPTION:Премьера на Основной сцене Элект
+ ротеатра.\nЭлектротеатр Станиславский\nh
+ ttps://electrotheatre.ru/playbill?month=2026-12
+URL:https://doublebasskakov.github.io/radar/#e=msk-electrotheatre-maryino
+ -pole
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:«Марьино поле». Премьера
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:not-all-days-are-shrovetide-moscow@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART:20261206T160000Z
 DTEND:20261206T180000Z
 SUMMARY:Не всё коту масленица
@@ -1122,7 +1166,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:bunin-moscow@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART:20261121T160000Z
 DTEND:20261121T180000Z
 SUMMARY:Бунин
@@ -1141,7 +1185,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a-christmas-memory-moscow@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART:20261231T090000Z
 DTEND:20261231T110000Z
 SUMMARY:Воспоминание об одном Рождестве
@@ -1159,7 +1203,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:the-rake-s-progress-opera-moscow@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261120
 SUMMARY:Опера «Похождения повесы»
@@ -1180,7 +1224,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:faust-fait-non-dit-paris@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261120
 SUMMARY:Faust. Fait\, non dit
@@ -1198,7 +1242,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:bolshoi-theatre-tours-in-uae-dubai@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261207
 SUMMARY:Гастроли Большого театра в ОАЭ: Дра
@@ -1219,7 +1263,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sergei-prokofiev-s-opera-the-love-for-three-oranges-saint-peters@afis
  ha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Опера Сергея Прокофьева «Любовь к т
@@ -1243,7 +1287,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-season-results-no-63-moscow@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:Последний день: Выставка «Итоги сез
@@ -1267,7 +1311,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:constructivism-days-moscow@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261123
 SUMMARY:Дни конструктивизма
@@ -1286,7 +1330,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dramatic-play-why-not-saint-peters@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261123
 SUMMARY:Драматический спектакль «Почему не
@@ -1307,7 +1351,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dance-performance-the-nutcracker-not-a-fairy-tale-moscow@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261228
 SUMMARY:Танцевальный спектакль «Щелкунчик.
@@ -1329,7 +1373,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:play-the-mozart-brothers-moscow@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Спектакль «Братья Моцарт»
@@ -1350,8 +1394,31 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:immersive-performance-masquerade-at-the-opening-of-the-theat-moscow@a
+ fisha-art
+DTSTAMP:20261118T130346Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:Иммерсивный спектакль «Бал-маскара
+ д» на открытии «Театрального катка»
+LOCATION:Парк Горького\, Крымский Вал\, 9\, Мос
+ ква
+DESCRIPTION:Театрализованное ледовое шоу под
+  руководством режиссера Алексея Франде
+ тти в день открытия зимнего сезона.\nАле
+ ксей Франдетти\nhttps://t.me/orpheusradio/51650
+URL:https://doublebasskakov.github.io/radar/#e=immersive-performance-masq
+ uerade-at-the-opening-of-the-theat-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Иммерсивный спектакль «Бал-маска
+ рад» на открытии «Театрального катка»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:winter-city-mystery-asya-is-looking-for-words-moscow@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270106
 DTEND;VALUE=DATE:20270111
 SUMMARY:Зимняя городская мистерия «Ася ище
@@ -1374,7 +1441,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:theatrehd-screening-robert-wilson-s-pushkin-s-fairy-tales-yekaterinbu
  r@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Кинопоказ спектакля Роберта Уилсон
@@ -1396,7 +1463,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:premiere-of-the-avant-garde-rock-musical-malevich-saint-peters@afisha
  -art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261130
 SUMMARY:Премьера авангардного рок-мюзикла 
@@ -1417,7 +1484,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pilorama@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Пилорама+
@@ -1436,7 +1503,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:play-an-android-walks-into-a-bar-nizhny-novgo@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:Спектакль «Заходит андроид в бар»
@@ -1456,7 +1523,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:opera-la-traviata-moscow@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Опера «Травиата»
@@ -1474,7 +1541,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mamt-romeo@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261130
 SUMMARY:Ромео и Джульетта (опера Гуно)
@@ -1493,8 +1560,31 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:cosmic-wind-or-the-marble-girl-moscow@afisha-art
+DTSTAMP:20261118T130346Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:Космический ветер\, или Мраморная д
+ евочка
+LOCATION:Театр на Бронной\, Москва
+DESCRIPTION:Спектакль Константина Богомолов
+ а\, отмеченный коллегами за глубину и со
+ временный режиссерский подход в реперт
+ уаре театра.\nКонстантин Богомолов\nhttps://
+ kino.mail.ru/news/144982-sofya-ernst-nazvala-konstantina-bogomolova-bolsh
+ im-rezhisserom/
+URL:https://doublebasskakov.github.io/radar/#e=cosmic-wind-or-the-marble-
+ girl-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Космический ветер\, или Мраморная
+  девочка
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:immersive-play-avdotya-moscow@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 SUMMARY:Иммерсивный спектакль «Авдотья»
@@ -1516,7 +1606,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:artyom-tomilov-s-autofiction-theatre-workshop-yayaya-moscow@afisha-ar
  t
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261125
 SUMMARY:Мастерская автофикшн-театра Артема
@@ -1538,7 +1628,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:spb-teatro-di-capua-uvb-76@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261120
 SUMMARY:«УВБ-76»
@@ -1557,7 +1647,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:the-red-lantern-performance-tour-kaliningrad@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261122
 SUMMARY:Гастроли спектакля «Красный фонарь
@@ -1579,7 +1669,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:spb-uzel-istoriya-kommunizma@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261127
 SUMMARY:«История коммунизма в рассказах дл

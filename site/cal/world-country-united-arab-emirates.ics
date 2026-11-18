@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:xxl-2026-sharjah@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART:20261129T163000Z
 DTEND:20261129T183000Z
 SUMMARY:XXL (2026)
@@ -28,7 +28,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:perform-sharjah-sharjah@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Последний день: Perform Sharjah
@@ -48,7 +48,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a-sea-for-borrowed-time-exhibition-sharjah@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:Открытие: Выставка «A Sea for Borrowed Time»
@@ -69,8 +69,71 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:perform-sharjah-sharjah-2@afisha-art
+DTSTAMP:20261118T130346Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:Открытие: Сезон перформансов Perform Sha
+ rjah
+LOCATION:Sharjah Art Foundation\, Шарджа\, ОАЭ
+DESCRIPTION:Пятый сезон программы Perform Sharjah ис
+ следует телесность через серию перформ
+ ансов от международных художников\, бал
+ ансирующих между интимной рефлексией и 
+ коллективным опытом.\nSharjah Art Foundation\nhttps://w
+ ww.sharjahart.org/en/whats-on/details/perform-sharjah-2026
+URL:https://doublebasskakov.github.io/radar/#e=perform-sharjah-sharjah-2
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Сезон перформансов Perform
+  Sharjah
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:a-sea-for-borrowed-time-sharjah@afisha-art
+DTSTAMP:20261118T130346Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Открытие: Выставка «Море для взятог
+ о взаймы времени»
+LOCATION:Sharjah Art Foundation\, Шарджа\, ОАЭ
+DESCRIPTION:Масштабная выставка из коллекции
+  фонда исследует многообразие палестин
+ ского художественного процесса\, затраг
+ ивая темы оккупации\, перемещения и куль
+ турного выживания.\nSharjah Art Foundation\nhttps://www.s
+ harjahart.org/en/whats-on/details/a-sea-for-borrowed-time
+URL:https://doublebasskakov.github.io/radar/#e=a-sea-for-borrowed-time-sh
+ arjah
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка «Море для взят
+ ого взаймы времени»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:focal-point-2026-sharjah@afisha-art
+DTSTAMP:20261118T130346Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261214
+SUMMARY:Книжная ярмарка Focal Point 2026
+LOCATION:Sharjah Art Foundation\, Шарджа\, ОАЭ
+DESCRIPTION:Ежегодная книжная ярмарка искусс
+ тв от Sharjah Art Foundation демонстрирует незави
+ симое книгоиздание со всего мира.\nSharjah Ar
+ t Foundation\nhttps://www.sharjahart.org/en/focal-point/2026/
+URL:https://doublebasskakov.github.io/radar/#e=focal-point-2026-sharjah
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Книжная ярмарка Focal Point 2026
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:longings-returns-2026-sharjah@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Longings\, Returns (2026)
@@ -89,8 +152,32 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:sawt-al-sahel-concert-series-imarhan-and-nao-yoshioka-sharjah@afisha-
+ art
+DTSTAMP:20261118T130346Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261129
+SUMMARY:Концертная серия Sawt Al Sahel: Imarhan и Nao Yos
+ hioka
+LOCATION:Sharjah Art Foundation\, Шарджа\, ОАЭ
+DESCRIPTION:Концертная серия в рамках проект
+ а SAF Radio представляет выступления алжирс
+ кого квинтета Imarhan и соул-певицы Nao Yoshioka 
+ из Осаки\, дополненные сессиями слушани
+ я.\nImarhan\, Nao Yoshioka\nhttps://www.sharjahart.org/en/whats-on/detai
+ ls/sawt-al-sahel
+URL:https://doublebasskakov.github.io/radar/#e=sawt-al-sahel-concert-seri
+ es-imarhan-and-nao-yoshioka-sharjah
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концертная серия Sawt Al Sahel: Imarhan и Nao
+  Yoshioka
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:sawt-al-sahel-sharjah@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Sawt Al Sahel

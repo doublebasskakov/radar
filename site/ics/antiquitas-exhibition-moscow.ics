@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:antiquitas-exhibition-moscow@afisha-art
+DTSTAMP:20261118T130346Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:Последний день: Выставка «ANTIQUITAS»
+LOCATION:Галерея ASTRA\, Москва
+DESCRIPTION:Персональный проект Егора Воскре
+ сенского\, имитирующий археологические 
+ объекты и руинированные артефакты.\nЕго
+ р Воскресенский\, Сергей Хачатуров\nhttps://
+ t.me/astraartgallery/2758
+URL:https://doublebasskakov.github.io/radar/#e=antiquitas-exhibition-mosc
+ ow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Выставка «ANTIQUITAS»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:poe-mes-machines-paris@afisha-art
+DTSTAMP:20261118T130346Z
+DTSTART:20270130T090000Z
+DTEND:20270130T110000Z
+SUMMARY:Poèmes Machines
+LOCATION:Cité de la musique – Philharmonie de Paris\, 221 Av. Jean Jau
+ rès\, 75019 Paris\, Париж\, Франция
+DESCRIPTION:Звуковая сессия и инсталляция на 
+ стыке технологий\, механики и поэтическ
+ ого текста.\nNone\nhttps://www.centrepompidou.fr/en/program/cale
+ ndar
+URL:https://doublebasskakov.github.io/radar/#e=poe-mes-machines-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Poèmes Machines
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

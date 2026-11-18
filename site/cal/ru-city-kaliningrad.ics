@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:master-class-landscape-of-mood-isaac-levitan-kaliningrad@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART:20261119T140000Z
 DTEND:20261119T160000Z
 SUMMARY:Мастер-класс «Пейзаж настроения. Ис
@@ -31,7 +31,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:lecture-avant-garde-and-the-birth-of-techno-art-kaliningrad@afisha-ar
  t
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART:20261121T130000Z
 DTEND:20261121T150000Z
 SUMMARY:Лекция «Авангард и рождение технои
@@ -54,7 +54,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:meeting-with-the-participants-of-the-exhibition-maritime-ind-kalining
  rad@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART:20261119T160000Z
 DTEND:20261119T180000Z
 SUMMARY:Встреча с участниками выставки-экс
@@ -80,7 +80,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-beauties-and-beasts-kaliningrad@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Последний день: Выставка «Красавиц
@@ -103,8 +103,31 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:photo-exhibition-artist-through-the-lens-kaliningrad@afisha-art
+DTSTAMP:20261118T130346Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Фотовыставка «Художник в объективе
+ »
+LOCATION:Филиал Третьяковской галереи в Кал
+ ининграде\, Калининград
+DESCRIPTION:Экспозиция архивных портретов вы
+ дающихся отечественных живописцев\, вкл
+ ючая Васнецова и Нестерова.\nФилиал Трет
+ ьяковской галереи в Калининграде\nhttps://t.
+ me/orpheusradio/51648
+URL:https://doublebasskakov.github.io/radar/#e=photo-exhibition-artist-th
+ rough-the-lens-kaliningrad
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Фотовыставка «Художник в объекти
+ ве»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:lecture-in-search-of-sound-color-kaliningrad@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Лекция «В поисках звукоцвета»
@@ -125,7 +148,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:the-magnificent-hermitage-kaliningrad@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:Великолепный Эрмитаж
@@ -145,7 +168,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:kgd-tretyakov-tochka-i-liniya@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270328
 DTEND;VALUE=DATE:20270329
 SUMMARY:Последний день: «Точка и линия»
@@ -166,7 +189,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:contemporary-art-exhibition-marine-industrial-ours-kaliningrad@afisha
  -art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Последний день: Выставка современн
@@ -191,7 +214,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:history-hall-of-the-tretyakov-gallery-kaliningrad@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270112
 DTEND;VALUE=DATE:20270113
 SUMMARY:Последний день: Зал Истории Третьяк
@@ -214,7 +237,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:the-deluge-kaliningrad@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270122
 DTEND;VALUE=DATE:20270123
 SUMMARY:Последний день: Потоп
@@ -234,7 +257,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:light-and-color-painting-exhibition-kaliningrad@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261122
 SUMMARY:Выставка живописи «Свет и цвет»
@@ -255,7 +278,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-sea-of-opportunities-kaliningrad@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270112
 DTEND;VALUE=DATE:20270113
 SUMMARY:Последний день: Выставка «Море возм
@@ -277,7 +300,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:vasily-beynarovich-faust-of-the-21st-century-kaliningrad@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Василий Бейнарович\, Фауст 21 века. К
@@ -300,7 +323,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-dot-and-line-kaliningrad@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270112
 DTEND;VALUE=DATE:20270113
 SUMMARY:Последний день: Выставка «Точка и л
@@ -322,7 +345,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:installation-the-flood-kaliningrad@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270122
 DTEND;VALUE=DATE:20270123
 SUMMARY:Последний день: Инсталляция «Потоп
@@ -344,7 +367,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sea-of-possibilities-kaliningrad@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270114
 DTEND;VALUE=DATE:20270115
 SUMMARY:Последний день: Море возможностей
@@ -366,7 +389,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:the-red-lantern-performance-tour-kaliningrad@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261122
 SUMMARY:Гастроли спектакля «Красный фонарь

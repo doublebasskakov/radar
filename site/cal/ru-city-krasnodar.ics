@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Радар — Россия · city-krasnodar
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:special-screening-of-adults-under-supervision-krasnodar@afisha-art
+DTSTAMP:20261118T130346Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Спецпоказ фильма «Взрослые под при
+ смотром»
+LOCATION:КАРО 8 Галерея\, Краснодар
+DESCRIPTION:Показ психологической драмы с об
+ суждением картины вместе с киноведом Ки
+ рой Кац.\nКира Кац\nhttps://t.me/afishadailynews/103986
+URL:https://doublebasskakov.github.io/radar/#e=special-screening-of-adult
+ s-under-supervision-krasnodar
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спецпоказ фильма «Взрослые под п
+ рисмотром»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

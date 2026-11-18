@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:concert-manuscript-moscow@afisha-art
+DTSTAMP:20261118T130346Z
+DTSTART:20261119T163000Z
+DTEND:20261119T183000Z
+SUMMARY:Концерт «Манускрипт»
+LOCATION:ДК Рассвет\, Москва
+DESCRIPTION:Мультимедийный концерт современ
+ ной музыки\, в программу которого вошли 
+ три опуса композитора Александра Хубее
+ ва.\nАлександр Хубеев\nhttps://t.me/dkrassvet/2378
+URL:https://doublebasskakov.github.io/radar/#e=concert-manuscript-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт «Манускрипт»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

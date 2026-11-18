@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:once-upon-a-time-paris@afisha-art
+DTSTAMP:20261118T130346Z
+DTSTART:20270130T133000Z
+DTEND:20270130T153000Z
+SUMMARY:Il sera une fois
+LOCATION:Cité de la musique – Philharmonie de Paris\, 221 Av. Jean Jau
+ rès\, 75019 Paris\, Париж\, Франция
+DESCRIPTION:Музыкально-электроакустический 
+ проект для молодой аудитории от центра L
+ a Muse en Circuit.\nLa Muse en Circuit – CNCM\nhttps://www.centrepompid
+ ou.fr/en/program/calendar
+URL:https://doublebasskakov.github.io/radar/#e=once-upon-a-time-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Il sera une fois
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

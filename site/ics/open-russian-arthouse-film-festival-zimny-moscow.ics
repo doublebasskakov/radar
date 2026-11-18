@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:open-russian-arthouse-film-festival-zimny-moscow@afisha-art
+DTSTAMP:20261118T130346Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261208
+SUMMARY:Открытый российский кинофестиваль 
+ авторского кино «Зимний»
+LOCATION:Кинотеатр «Художественный»\, Арбат
+ ская пл.\, 14\, Москва
+DESCRIPTION:Главный смотр российского авторс
+ кого кино\, представляющий итоги года и 
+ новые творческие поиски кинематографис
+ тов.\n\nhttps://zimnyfest.ru/
+URL:https://doublebasskakov.github.io/radar/#e=open-russian-arthouse-film
+ -festival-zimny-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытый российский кинофестива
+ ль авторского кино «Зимний»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:domra-in-the-works-of-contemporary-composers-saratov@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART:20261130T140000Z
 DTEND:20261130T160000Z
 SUMMARY:Концерт «Домра в творчестве соврем
@@ -32,7 +32,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:opening-of-the-18th-all-russian-festival-in-the-homeland-of--saratov@
  afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART:20270114T143000Z
 DTEND:20270114T163000Z
 SUMMARY:Открытие XVIII Всероссийского фестив
@@ -55,7 +55,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:domra-in-the-works-of-contemporary-composers-saratov-2@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART:20261130T140000Z
 DTEND:20261130T160000Z
 SUMMARY:Домра в творчестве современных ком
@@ -72,6 +72,34 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Домра в творчестве современных к
  омпозиторов
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:vii-all-russian-scientific-and-practical-conference-theatre--saratov@
+ afisha-art
+DTSTAMP:20261118T130346Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:VII Всероссийская научно-практическ
+ ая конференция «Театральный процесс: ак
+ туальные проблемы теории и практики»
+LOCATION:Саратовская государственная консе
+ рватория имени Л.В. Собинова\, Саратов
+DESCRIPTION:Всероссийская научно-практическ
+ ая конференция\, посвященная современны
+ м исследованиям и практикам в области т
+ еатрального искусства.\nСаратовская гос
+ ударственная консерватория имени Л.В. С
+ обинова\nhttps://sarcons.ru/events/vii-vserossiyskaya-nauchno-prak
+ ticheskaya-konferentsiya-teatralnyy-protsess-aktualnye-problemy-teori/
+URL:https://doublebasskakov.github.io/radar/#e=vii-all-russian-scientific
+ -and-practical-conference-theatre--saratov
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:VII Всероссийская научно-практиче
+ ская конференция «Театральный процесс: 
+ актуальные проблемы теории и практики»
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

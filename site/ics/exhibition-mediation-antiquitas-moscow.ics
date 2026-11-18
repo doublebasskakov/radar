@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:exhibition-mediation-antiquitas-moscow@afisha-art
+DTSTAMP:20261118T130346Z
+DTSTART:20261120T160000Z
+DTEND:20261120T180000Z
+SUMMARY:Медиация по выставке «ANTIQUITAS»
+LOCATION:Галерея ASTRA\, Москва
+DESCRIPTION:Кураторская медиация по персонал
+ ьной выставке Егора Воскресенского ANTIQUI
+ TAS.\nГалерея ASTRA\nhttps://t.me/astraartgallery/2758
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-mediation-antiq
+ uitas-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Медиация по выставке «ANTIQUITAS»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

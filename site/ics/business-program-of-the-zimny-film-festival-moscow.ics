@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:business-program-of-the-zimny-film-festival-moscow@afisha-art
+DTSTAMP:20261118T130346Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261207
+SUMMARY:Деловая программа кинофестиваля «З
+ имний»
+LOCATION:Кинотеатры «Художественный» и «Ил
+ люзион»\, Москва
+DESCRIPTION:Серия профессиональных дискусси
+ й о развитии индустрии авторского кино 
+ и специальный проект для молодых кинема
+ тографистов.\n\nhttps://zimnyfest.ru/news/zimniy-2026-delovaya
+ -programma
+URL:https://doublebasskakov.github.io/radar/#e=business-program-of-the-zi
+ mny-film-festival-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Деловая программа кинофестиваля 
+ «Зимний»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

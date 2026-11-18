@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:l-innocente-moscow@afisha-art
+DTSTAMP:20261118T130346Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:Невинный
+LOCATION:Кинотеатры Москвы\, Москва
+DESCRIPTION:Последний шедевр Лукино Висконти
+ \, изысканная драма о страсти и морально
+ м падении в аристократическом обществе 
+ Италии XIX века.\nЛукино Висконти\nhttps://www.af
+ isha.ru/msk/schedule_cinema/vybor-afishi/
+URL:https://doublebasskakov.github.io/radar/#e=l-innocente-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Невинный
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

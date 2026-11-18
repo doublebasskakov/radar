@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:moonrise-kingdom-moscow@afisha-art
+DTSTAMP:20261118T130346Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:Королевство полной луны
+LOCATION:Кинотеатры Москвы\, Москва
+DESCRIPTION:Эстетически безупречная и иронич
+ ная лента Уэса Андерсона о побеге двух в
+ любленных подростков из лагеря бойскау
+ тов.\nУэс Андерсон\nhttps://www.afisha.ru/movie/korolevstvo
+ -polnoy-luny-206495/
+URL:https://doublebasskakov.github.io/radar/#e=moonrise-kingdom-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Королевство полной луны
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

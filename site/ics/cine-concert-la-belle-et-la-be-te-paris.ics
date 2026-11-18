@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:cine-concert-la-belle-et-la-be-te-paris@afisha-art
+DTSTAMP:20261118T130346Z
+DTSTART:20261123T190000Z
+DTEND:20261123T210000Z
+SUMMARY:Киноконцерт «Красавица и чудовище»
+LOCATION:Théâtre du Châtelet\, 2 Rue Édouard Colonne\, 75001 Paris\, 
+ Париж\, Франция
+DESCRIPTION:Показ шедевра французского кинем
+ атографа с живым исполнением музыки орк
+ естром и хором под управлением Франка Ш
+ тробеля.\nChœur de Radio France\, Orchestre Philharmonique de Rad
+ io France\, Frank Strobel\nhttps://www.maisondelaradioetdelamusique.fr/?m
+ id=402
+URL:https://doublebasskakov.github.io/radar/#e=cine-concert-la-belle-et-l
+ a-be-te-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Киноконцерт «Красавица и чудовищ
+ е»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

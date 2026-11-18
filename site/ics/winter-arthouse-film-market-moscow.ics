@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:winter-arthouse-film-market-moscow@afisha-art
+DTSTAMP:20261118T130346Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:Зимний кинорынок авторского кино
+LOCATION:Кинотеатр «Художественный»\, Арбат
+ ская пл.\, 14\, Москва
+DESCRIPTION:Презентация девяти отечественны
+ х фильмов на различных стадиях производ
+ ства для представителей киноиндустрии.\
+ n\nhttps://zimnyfest.ru/news/zimniy-2026-kinorynok
+URL:https://doublebasskakov.github.io/radar/#e=winter-arthouse-film-marke
+ t-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Зимний кинорынок авторского кино
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

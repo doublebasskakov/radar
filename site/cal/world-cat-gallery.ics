@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:tamina-amadyar-opaque-waters-berlin@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART:20261114T170000Z
 DTEND:20261114T190000Z
 SUMMARY:Открытие: Tamina Amadyar – Opaque Waters
@@ -31,7 +31,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:kvareli-foundation-opening@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART:20261102T060000Z
 DTEND:20261102T080000Z
 SUMMARY:Открытие: Georgian Contemporary Art: Origins and Continui
@@ -54,7 +54,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:opening-iza-tarasewicz-beaux-mendes-yoshinori-niwa-vienna@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART:20261203T180000Z
 DTEND:20261203T200000Z
 SUMMARY:Открытие выставок: Иза Тарасевич\, Б
@@ -78,7 +78,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ramesch-daha-wien-1933-1935-vienna-2@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART:20261117T090000Z
 DTEND:20261117T110000Z
 SUMMARY:Открытие: Рамеш Даха: Вена 1933–1935
@@ -99,7 +99,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:kunsthalle-wien-preis-2026-lotti-brockmann-valentino-skarwan-vienna@a
  fisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART:20261203T090000Z
 DTEND:20261203T110000Z
 SUMMARY:Открытие: Kunsthalle Wien Preis 2026: Lotti Brockmann & V
@@ -121,7 +121,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:hamburger-bahnhof-sophie-calle@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART:20261113T180000Z
 DTEND:20261113T200000Z
 SUMMARY:Открытие: Sophie Calle: Is It Better?
@@ -142,7 +142,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tiffany-sia-overt-listening-vienna-2@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART:20261117T090000Z
 DTEND:20261117T110000Z
 SUMMARY:Открытие: Тиффани Сиа: Overt Listening
@@ -162,7 +162,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-opening-artist-talk-magali-reus-tenant-vienna@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART:20261126T170000Z
 DTEND:20261126T190000Z
 SUMMARY:Открытие выставки и паблик-ток: Маг
@@ -184,7 +184,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:magali-reus-tenant-vienna@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART:20261127T090000Z
 DTEND:20261127T110000Z
 SUMMARY:Открытие: Magali Reus: Tenant
@@ -202,7 +202,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:rushana-alimova-solo-exhibition-how-rivers-become-clouds-tashkent@afi
  sha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART:20261118T130000Z
 DTEND:20261118T150000Z
 SUMMARY:Открытие: Персональная выставка Ру
@@ -228,7 +228,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:kunsthalle-wien-club-preview-meet-greet-with-magali-reus-vienna@afish
  a-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART:20261125T170000Z
 DTEND:20261125T190000Z
 SUMMARY:Встреча Kunsthalle Wien Club с Магали Реус
@@ -248,7 +248,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:free-sunday-supported-by-dorotheum-vienna@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART:20261129T090000Z
 DTEND:20261129T110000Z
 SUMMARY:День бесплатного посещения при под
@@ -268,8 +268,29 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:women-s-art-relax-fairy-tales-dreams-tashkent@afisha-art
+DTSTAMP:20261118T130346Z
+DTSTART:20261121T093000Z
+DTEND:20261121T113000Z
+SUMMARY:Женский Арт-релакс: «Сказочные сны»
+LOCATION:Human House\, ул. Кичик Миробад\, дом 43\, Та
+ шкент\, Узбекистан
+DESCRIPTION:Творческий мастер-класс по рисов
+ анию гуашью в нестандартных техниках дл
+ я глубокого расслабления и создания рес
+ урсной картины.\n\nhttps://t.me/aydatuda/15583
+URL:https://doublebasskakov.github.io/radar/#e=women-s-art-relax-fairy-ta
+ les-dreams-tashkent
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Женский Арт-релакс: «Сказочные сн
+ ы»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:relaxed-hours-london@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART:20261201T100000Z
 DTEND:20261201T120000Z
 SUMMARY:Спокойные часы в галерее Серпентай
@@ -292,7 +313,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-patrimoines-en-re-sistance-de-tombouctou-a-odessa-paris@af
  isha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART:20260520T090000Z
 DTEND:20260520T110000Z
 SUMMARY:Открытие: Выставка «Patrimoines en résistance\,
@@ -313,8 +334,28 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:1-day-1-artwork-the-musicians-memory-of-sidney-chelles@afisha-art
+DTSTAMP:20261118T130346Z
+DTSTART:20261118T090000Z
+DTEND:20261118T110000Z
+SUMMARY:1 jour\, 1 œuvre : « Les Musiciens\, souvenir de Sidney »
+LOCATION:Médiathèque Jean-Pierre-Vernant\, 34 Av. de la Résistance\, 7
+ 7500 Chelles\, Шель\, Франция
+DESCRIPTION:Интенсивный показ и обсуждение о
+ дного знакового произведения искусства
+  из коллекции Центра Помпиду.\nNone\nhttps://www.
+ centrepompidou.fr/en/program/calendar/event/0pR2iMt
+URL:https://doublebasskakov.github.io/radar/#e=1-day-1-artwork-the-musici
+ ans-memory-of-sidney-chelles
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1 jour\, 1 œuvre : « Les Musiciens\, souvenir de Sidney »
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:a-long-shadow-postwar-japan-through-the-lens-new-york@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270502
 DTEND;VALUE=DATE:20270503
 SUMMARY:Последний день: A Long Shadow: Postwar Japan Through
@@ -338,7 +379,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:jan-van-eyck-the-portraits-london@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Открытие: Jan van Eyck: The Portraits
@@ -360,7 +401,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:guggenheim-abu-dhabi-opening@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:Открытие Guggenheim Abu Dhabi
@@ -382,7 +423,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:carsten-ho-ller-two-beijing@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:Последний день: Карстен Хёллер: Два
@@ -404,7 +445,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gordon-matta-clark-not-the-work-the-worker-rome@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 SUMMARY:Последний день: Гордон Матта-Кларк: 
@@ -427,7 +468,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tate-frida@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
 SUMMARY:Последний день: Frida: The Making of an Icon
@@ -447,7 +488,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:stan-douglas-parallax-paris@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
 SUMMARY:Последний день: Stan Douglas: Parallax
@@ -467,7 +508,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:julio-le-parc-light-colour-action-london@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270503
 DTEND;VALUE=DATE:20270504
 SUMMARY:Последний день: Хулио Ле Парк: Свет. 
@@ -489,7 +530,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tate-le-parc@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270503
 DTEND;VALUE=DATE:20270504
 SUMMARY:Последний день: Julio Le Parc: Light. Colour. Action
@@ -511,7 +552,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tate-mendieta@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
 SUMMARY:Последний день: Ana Mendieta
@@ -531,7 +572,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tate-monet-painting-time@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270225
 DTEND;VALUE=DATE:20270226
 SUMMARY:Открытие: Monet: Painting Time
@@ -551,7 +592,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tate-nalini-malani@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270701
 DTEND;VALUE=DATE:20270702
 SUMMARY:Открытие: Nalini Malani
@@ -571,7 +612,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ana-mendieta-london@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
 SUMMARY:Последний день: Ана Мендьета
@@ -591,7 +632,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:william-kentridge-i-am-not-me-the-horse-is-not-mine-brussels@afisha-a
  rt
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270308
 SUMMARY:Последний день: William Kentridge: I am not me\, the
@@ -612,7 +653,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:the-90s-art-and-fashion-london-2@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
 SUMMARY:Последний день: 90-е: Искусство и мод
@@ -634,7 +675,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:frida-the-making-of-an-icon-london@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
 SUMMARY:Последний день: Фрида: Создание ико
@@ -656,7 +697,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:thomas-scheibitz-elizabeth-warfel-berlin@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Последний день: Thomas Scheibitz & Elizabeth Warfel
@@ -682,7 +723,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:daniela-comani-orlando-s-library-berlin@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270308
 DTEND;VALUE=DATE:20270309
 SUMMARY:Последний день: Daniela Comani. Orlando’s Library
@@ -706,7 +747,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:justin-caguiat-change-ringing-london@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
 SUMMARY:Последний день: Джастин Кагиат: Change 
@@ -730,7 +771,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a-sea-for-borrowed-time-exhibition-sharjah@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:Открытие: Выставка «A Sea for Borrowed Time»
@@ -752,7 +793,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lisa-brice-london@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20271008
 DTEND;VALUE=DATE:20271009
 SUMMARY:Открытие: Лиза Брайс
@@ -772,7 +813,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:matt-copson-london@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270316
 DTEND;VALUE=DATE:20270317
 SUMMARY:Открытие: Мэтт Копсон
@@ -793,7 +834,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:adrian-piper-i-m-this-space-selected-works-1967-2027-london@afisha-ar
  t
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270526
 DTEND;VALUE=DATE:20270527
 SUMMARY:Открытие: Эдриан Пайпер: Я — это про
@@ -816,7 +857,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pierre-alechinsky-in-paperland-london@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270211
 DTEND;VALUE=DATE:20270212
 SUMMARY:Открытие: Пьер Алешинский: В бумажн
@@ -839,7 +880,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:maxxi-bvlgari-prize-2026-rome@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270308
 SUMMARY:Последний день: Премия MAXXI BVLGARI 2026
@@ -860,7 +901,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-iza-tarasewicz-moving-cause-vienna@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Открытие: Выставка: Иза Тарасевич —
@@ -884,7 +925,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:serpentine-x-the-flag-foundation-prize-gozo-yoshimasu-london@afisha-a
  rt
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270924
 DTEND;VALUE=DATE:20270925
 SUMMARY:Открытие: Премия Фонда Флага: Годзо 
@@ -907,7 +948,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sophie-calle-matrimoni-rotture-e-funerali-inclusi-rome@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
 SUMMARY:Последний день: Софи Калле: Матримо
@@ -931,7 +972,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:through-holes-in-the-clouds-artists-and-the-postcolonial-ima-london@a
  fisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270317
 DTEND;VALUE=DATE:20270318
 SUMMARY:Открытие: Через дыры в облаках: Худо
@@ -954,7 +995,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cecilia-vicun-a-living-threads-london@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
 SUMMARY:Последний день: Сесилия Викунья: Жи
@@ -977,7 +1018,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:whitney-lichtenstein-like-new@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270510
 DTEND;VALUE=DATE:20270511
 SUMMARY:Последний день: Roy Lichtenstein: Like New
@@ -999,7 +1040,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tate-britain-hockney@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20271007
 DTEND;VALUE=DATE:20271008
 SUMMARY:Открытие: David Hockney
@@ -1020,7 +1061,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:napoleon-and-wellington-a-duel-of-genues-tour-london@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Тур «Наполеон и Веллингтон: дуэль г
@@ -1042,7 +1083,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mori-world-is-made-of-play@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270429
 DTEND;VALUE=DATE:20270430
 SUMMARY:Открытие: 世界はあそびでできている：アー
@@ -1065,7 +1106,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cafesjian-qarpet@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Последний день: Qarpet
@@ -1086,7 +1127,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tselinny-himoya@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270404
 DTEND;VALUE=DATE:20270405
 SUMMARY:Последний день: Himoya: Matrilineal Energies\, Oracu
@@ -1110,7 +1151,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:louvre-abu-dhabi-art-here-2026@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 SUMMARY:Последний день: Art Here 2026: Confluences
@@ -1131,7 +1172,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:flv-gustave-fayet@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270308
 DTEND;VALUE=DATE:20270309
 SUMMARY:Последний день: Gustave Fayet. Collectionneur — Cr
@@ -1153,7 +1194,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:arter-work-in-progress@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270314
 DTEND;VALUE=DATE:20270315
 SUMMARY:Последний день: Yapım Aşamasında / Work in Progre
@@ -1176,7 +1217,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gropius-bau-schlingensief@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
 SUMMARY:Последний день: Christoph Schlingensief: Es ist nich
@@ -1198,7 +1239,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gropius-bau-kreuzberg@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
 SUMMARY:Последний день: Kreuzberg: Kunst und Migration seit 
@@ -1219,7 +1260,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mori-mariko-mori@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270328
 DTEND;VALUE=DATE:20270329
 SUMMARY:Последний день: Mariko Mori: All That Shines
@@ -1238,7 +1279,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:bourse-de-commerce-remember-me@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270118
 DTEND;VALUE=DATE:20270119
 SUMMARY:Последний день: Remember Me
@@ -1260,7 +1301,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:neue-nationalgalerie-cattelan@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270308
 SUMMARY:Последний день: Maurizio Cattelan. NIGHT
@@ -1280,7 +1321,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:beyeler-ruth-asawa@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
 SUMMARY:Последний день: Ruth Asawa
@@ -1298,7 +1339,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:beyeler-louise-bourgeois@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270613
 DTEND;VALUE=DATE:20270614
 SUMMARY:Открытие: Louise Bourgeois
@@ -1316,7 +1357,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tate-munch@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20271111
 DTEND;VALUE=DATE:20271112
 SUMMARY:Открытие: Edvard Munch
@@ -1335,7 +1376,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:beyeler-frida-kahlo@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:Открытие: Frida Kahlo
@@ -1353,7 +1394,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:stedelijk-yayoi-kusama@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
 SUMMARY:Последний день: Yayoi Kusama
@@ -1374,7 +1415,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:moma-brancusi@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270227
 DTEND;VALUE=DATE:20270228
 SUMMARY:Последний день: Brancusi: The Artist and His Studio
@@ -1395,8 +1436,52 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:a-sea-for-borrowed-time-sharjah@afisha-art
+DTSTAMP:20261118T130346Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Открытие: Выставка «Море для взятог
+ о взаймы времени»
+LOCATION:Sharjah Art Foundation\, Шарджа\, ОАЭ
+DESCRIPTION:Масштабная выставка из коллекции
+  фонда исследует многообразие палестин
+ ского художественного процесса\, затраг
+ ивая темы оккупации\, перемещения и куль
+ турного выживания.\nSharjah Art Foundation\nhttps://www.s
+ harjahart.org/en/whats-on/details/a-sea-for-borrowed-time
+URL:https://doublebasskakov.github.io/radar/#e=a-sea-for-borrowed-time-sh
+ arjah
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка «Море для взят
+ ого взаймы времени»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:verena-issel-raff-raff-berlin@afisha-art
+DTSTAMP:20261118T130346Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Verena Issel: RAFF RAFF
+LOCATION:Sexauer Gallery\, Берлин\, Германия
+DESCRIPTION:Финальная выставка в пространств
+ е Sexauer Gallery на Вайсensee\, представляющая те
+ кстильные работы Верены Иссель на тему 
+ женских желаний.\nVerena Issel\nhttps://www.artatberlin.com
+ /ausstellung-verena-issel-sexauer-gallery-zeitgenoessische-kunst-in-berli
+ n-contemporary-art-ausstellungen-berlin-galerien-art-at-berlin/
+URL:https://doublebasskakov.github.io/radar/#e=verena-issel-raff-raff-ber
+ lin
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Verena Issel: RAFF RAFF
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:wilhelmina-barns-graham-st-ives@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270503
 DTEND;VALUE=DATE:20270504
 SUMMARY:Последний день: Wilhelmina Barns-Graham
@@ -1415,8 +1500,34 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:gerhard-richter-norbert-bisky-edward-b-gordon-ein-augenblick-berlin@a
+ fisha-art
+DTSTAMP:20261118T130346Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Герхард Рихтер\, Норберт Биски\, Эдв
+ ард Б. Гордон: «Ein Augenblick\, eine Erinnerung\, ein Bild»
+LOCATION:ARTES Berlin\, Берлин\, Германия
+DESCRIPTION:Выставка трех художников\, исслед
+ ующих грань между реальностью\, восприя
+ тием и памятью через фотографические ис
+ точники и живопись.\nGerhard Richter\, Norbert Bisky\, Ed
+ ward B. Gordon\nhttps://www.artatberlin.com/ausstellung-richter-norbert-b
+ isky-x-edward-b-gordon-artes-berlin-zeitgenoessische-kunst-berlin-contemp
+ orary-art-ausstellungen-galerien-berlin-art-at-berlin/
+URL:https://doublebasskakov.github.io/radar/#e=gerhard-richter-norbert-bi
+ sky-edward-b-gordon-ein-augenblick-berlin
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Герхард Рихтер\, Норберт Биски\, Э
+ двард Б. Гордон: «Ein Augenblick\, eine Erinnerung\, ein Bil
+ d»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:push-and-pull-a-furniture-comedy-vienna@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270404
 DTEND;VALUE=DATE:20270405
 SUMMARY:Последний день: Push and Pull: A Furniture Comedy
@@ -1437,7 +1548,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:frontiere-the-geopolitics-of-architecture-rome@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
 SUMMARY:Открытие: Фронтиры: Геополитика арх
@@ -1459,7 +1570,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rebecca-moss-shapeshifter-st-ives@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Открытие: Rebecca Moss: Shapeshifter
@@ -1478,12 +1589,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rebecca-moss-shapeshifter-st-ives-3@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Открытие: Инсталляция Ребекки Мосс 
  «Шейпшифтер»
-LOCATION:Tate St Ives\, Сент-Айвс\, Великобритания
+LOCATION:Tate St Ives\, Porthmeor Beach\, Сент-Айвс\, Велик
+ обритания
 DESCRIPTION:Игровенное ироничное вмешательс
  тво художника в пространство изогнутой 
  галереи с видом на Атлантический океан.\
@@ -1499,7 +1611,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rafik-greiss-the-city-and-the-city-berlin@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
 SUMMARY:Последний день: Rafik Greiss – The City and the Ci
@@ -1522,7 +1634,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:light-and-magic-the-birth-of-art-photography-london@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270221
 DTEND;VALUE=DATE:20270222
 SUMMARY:Последний день: Light and Magic: The Birth of Art Ph
@@ -1544,7 +1656,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wilhelmina-barns-graham-st-ives-2@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270503
 DTEND;VALUE=DATE:20270504
 SUMMARY:Последний день: Wilhelmina Barns-Graham
@@ -1564,7 +1676,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:maxxi-collection-ritrovarsi-rome@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Открытие: Коллекция MAXXI: Встреча с с
@@ -1585,7 +1697,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:the-90s-art-and-fashion-london@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
 SUMMARY:Последний день: The 90s: Art and Fashion
@@ -1605,7 +1717,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rebecca-moss-shapeshifter-st-ives-2@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Открытие: Rebecca Moss: Shapeshifter
@@ -1625,7 +1737,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ramesch-daha-wien-1933-1935-vienna@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270425
 DTEND;VALUE=DATE:20270426
 SUMMARY:Последний день: Ramesch Daha: WIEN 1933 – 1935
@@ -1645,7 +1757,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tiffany-sia-overt-listening-vienna@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
 SUMMARY:Последний день: Tiffany Sia: Overt Listening
@@ -1665,7 +1777,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:go-zde-i-lkin-those-who-remember-their-births-st-ives@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
 SUMMARY:Последний день: Gözde İlkin: Those Who Remember Th
@@ -1686,7 +1798,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:shilpa-gupta-what-still-holds-berlin@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
 SUMMARY:Последний день: Shilpa Gupta: What Still Holds
@@ -1707,7 +1819,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ink-london@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270422
 DTEND;VALUE=DATE:20270423
 SUMMARY:Открытие: Ink
@@ -1725,7 +1837,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:terminal-piece-vienna@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
 SUMMARY:Последний день: Terminal Piece
@@ -1743,7 +1855,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:amar-kanwar-london@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:Последний день: Амар Канвар
@@ -1761,8 +1873,27 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:ink-london-4@afisha-art
+DTSTAMP:20261118T130346Z
+DTSTART;VALUE=DATE:20270422
+DTEND;VALUE=DATE:20270423
+SUMMARY:Открытие: Чернила
+LOCATION:Tate Modern\, Bankside\, Лондон\, Великобритан
+ ия
+DESCRIPTION:Экспозиция\, исследующая сложную 
+ эстетику и красоту традиционной техник
+ и работы с чернилами.\nNone\nhttps://www.tate.org.uk/wha
+ ts-on/tate-modern/ink
+URL:https://doublebasskakov.github.io/radar/#e=ink-london-4
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Чернила
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:across-the-seas-o-zer-kabas-and-his-times-istanbul@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270314
 DTEND;VALUE=DATE:20270315
 SUMMARY:Последний день: Выставка «Через мор
@@ -1784,7 +1915,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:go-zde-i-lkin-those-who-remember-their-births-st-ives-2@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
 SUMMARY:Последний день: Gözde İlkin: Those Who Remember Th
@@ -1806,7 +1937,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:vanessa-bell-duncan-grant-inside-bloomsbury-london-2@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270411
 DTEND;VALUE=DATE:20270412
 SUMMARY:Последний день: Ванесса Белл и Дунк
@@ -1829,7 +1960,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:edith-dekyndt-x-cristo-bal-balenciaga-the-fabric-decides-brussels@afi
  sha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:Последний день: Edith Dekyndt x Cristóbal Balenciag
@@ -1850,7 +1981,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:koo-jeong-a-ousssean-berlin@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
 SUMMARY:Последний день: Koo Jeong A – Ousssean
@@ -1869,7 +2000,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:jean-brusselmans-painter-by-nature-brussels@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:Последний день: Jean Brusselmans: Painter by Nature
@@ -1889,7 +2020,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:hikmah-exhibition-at-cca-tashkent-tashkent@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:Последний день: Выставка Hikmah в CCA Tashk
@@ -1911,7 +2042,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:yu-nishimura-exhibition-towards-a-sea-paris@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
 SUMMARY:Последний день: Выставка Ю Нисимуры
@@ -1933,7 +2064,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:vanessa-bell-duncan-grant-inside-bloomsbury-london@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270411
 DTEND;VALUE=DATE:20270412
 SUMMARY:Последний день: Vanessa Bell & Duncan Grant: Inside 
@@ -1955,7 +2086,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:next-door-berlin@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270627
 DTEND;VALUE=DATE:20270628
 SUMMARY:Последний день: Next Door
@@ -1975,7 +2106,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:zurab-tsereteli-exhibition-larger-than-life-tashkent@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Последний день: Выставка Зураба Цер
@@ -1997,7 +2128,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:baya-london@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270610
 DTEND;VALUE=DATE:20270611
 SUMMARY:Открытие: Baya
@@ -2016,7 +2147,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-beaux-mendes-white-forest-vienna@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Открытие: Выставка: Бокс Мендес — Whi
@@ -2037,7 +2168,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:shirin-neshat-do-u-dare-rome@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
 SUMMARY:Последний день: Ширин Нешат: Смеешь 
@@ -2058,7 +2189,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ink-london-3@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270422
 DTEND;VALUE=DATE:20270423
 SUMMARY:Открытие: Инк
@@ -2076,7 +2207,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:susan-hiller-bad-dreams-berlin@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
 SUMMARY:Последний день: Susan Hiller. Bad Dreams
@@ -2095,7 +2226,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:light-and-magic-the-birth-of-art-photography-london-2@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270221
 DTEND;VALUE=DATE:20270222
 SUMMARY:Последний день: Свет и магия: Рожден
@@ -2116,7 +2247,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mungo-thomson-exhibition-paris@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Последний день: Выставка Мунго Томс
@@ -2137,7 +2268,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:he-le-ne-fauquet-exhibition-vivresse-paris@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
 SUMMARY:Последний день: Выставка Элен Фуке 
@@ -2158,7 +2289,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:haus-der-kunst-saraceno@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
 SUMMARY:Последний день: Tomás Saraceno
@@ -2179,7 +2310,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:neue-nationalgalerie-ruin-and-rush@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
 SUMMARY:Последний день: Ruin and Rush. Berlin 1910–1930
@@ -2201,7 +2332,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ordinare-il-mondo-l-archivio-di-nanda-lanfranco-rome@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 SUMMARY:Последний день: Упорядочивая мир: А
@@ -2223,7 +2354,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ucca-dune-katie-paterson@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270411
 DTEND;VALUE=DATE:20270412
 SUMMARY:Последний день: Katie Paterson
@@ -2242,7 +2373,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:il-villaggio-olimpico-di-roma-il-mondo-in-300-000-mq-rome@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
 SUMMARY:Открытие: Олимпийская деревня в Рим
@@ -2263,7 +2394,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:haus-der-kunst-diane-severin-nguyen@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:Открытие: Diane Severin Nguyen
@@ -2285,7 +2416,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nicole-eisenman-exhibition-margate@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270411
 DTEND;VALUE=DATE:20270412
 SUMMARY:Последний день: Выставка Николь Эйз
@@ -2308,7 +2439,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:no-admittance-except-on-business-istanbul@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
 SUMMARY:Последний день: Выставка «Посторон
@@ -2330,7 +2461,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:guggenheim-taryn-simon@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270314
 DTEND;VALUE=DATE:20270315
 SUMMARY:Последний день: Taryn Simon
@@ -2350,7 +2481,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:industrial-architecture-in-turkey-istanbul@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
 SUMMARY:Последний день: Выставка «Промышле
@@ -2371,7 +2502,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-layers-of-the-city-london@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Последний день: Выставка «Layers of the Cit
@@ -2393,7 +2524,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dennis-and-gnasher-sculpture-trail-london@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:Открытие: Выставка скульптур герое
@@ -2415,7 +2546,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tatiana-bilbao-estudio-campo-aperto-rome@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
 SUMMARY:Последний день: Татьяна Бильбао Эст
@@ -2436,7 +2567,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:timur-d-vatz-exhibition-journey-tashkent@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261119
 SUMMARY:Выставка Тимура Д’Ватца «Путешест
@@ -2457,7 +2588,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:materialistin-matter-of-care-care-of-matter-berlin@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270314
 DTEND;VALUE=DATE:20270315
 SUMMARY:Последний день: [ materialistin ] Matter of Care\, C
@@ -2479,7 +2610,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ink-london-2@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270422
 DTEND;VALUE=DATE:20270423
 SUMMARY:Открытие: Тушь
@@ -2497,7 +2628,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ucca-john-baldessari@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
 SUMMARY:Последний день: John Baldessari
@@ -2517,7 +2648,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:15-years-at-salt-exhibition-posters-istanbul@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20261227
 DTEND;VALUE=DATE:20261228
 SUMMARY:Последний день: Выставка плакатов «
@@ -2539,7 +2670,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:bpa-exhibition-2026-berlin@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Открытие: BPA / Exhibition 2026
@@ -2557,7 +2688,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-yalt-yult-at-ichkari-museum-tashkent@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270206
 DTEND;VALUE=DATE:20270207
 SUMMARY:Последний день: Выставка «Ялт-Юлт» 
@@ -2577,8 +2708,26 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:ab-van-hanegem-doodlemath-berlin@afisha-art
+DTSTAMP:20261118T130346Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:Открытие: Ab van Hanegem: Doodlemath
+LOCATION:Galerie Gilla Lörcher\, Берлин\, Германия
+DESCRIPTION:Экспозиция Аб ван Ханегем под наз
+ ванием «Doodlemath» в Galerie Gilla Lörcher.\nAb van Hanegem\nh
+ ttps://www.artatberlin.com/
+URL:https://doublebasskakov.github.io/radar/#e=ab-van-hanegem-doodlemath-
+ berlin
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Ab van Hanegem: Doodlemath
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:mplus-myths-and-monsters@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270404
 DTEND;VALUE=DATE:20270405
 SUMMARY:Последний день: Myths and Monsters: The Art of Fanta
@@ -2598,7 +2747,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:guggenheim-pop@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
 SUMMARY:Последний день: Guggenheim Pop: 1960 to Now
@@ -2618,7 +2767,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:san-at-up-exhibition-project-at-the-goethe-institut-tashkent@afisha-a
  rt
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Последний день: Выставочный проект 
@@ -2639,8 +2788,27 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:anne-griffiths-the-bliss-of-rain-berlin@afisha-art
+DTSTAMP:20261118T130346Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:Открытие: Anne Griffiths: The Bliss of Rain
+LOCATION:Kristin Hjellegjerde Gallery Berlin\, Берлин\, Герма
+ ния
+DESCRIPTION:Выставка работ Анны Гриффитс в га
+ лерее Kristin Hjellegjerde.\nAnne Griffiths\nhttps://www.artatberlin
+ .com/
+URL:https://doublebasskakov.github.io/radar/#e=anne-griffiths-the-bliss-o
+ f-rain-berlin
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Anne Griffiths: The Bliss of Rain
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:interflows-exhibition-at-artepa-gallery-tashkent@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Последний день: Выставка Interflows в га
@@ -2660,8 +2828,25 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:verena-bachl-graceful-degradation-berlin@afisha-art
+DTSTAMP:20261118T130346Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:Открытие: Verena Bachl: Graceful Degradation
+LOCATION:BBA Gallery\, Берлин\, Германия
+DESCRIPTION:Персональная выставка Верены Бах
+ ль в BBA Gallery.\nVerena Bachl\nhttps://www.artatberlin.com/
+URL:https://doublebasskakov.github.io/radar/#e=verena-bachl-graceful-degr
+ adation-berlin
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Verena Bachl: Graceful Degradation
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:central-never-alone-brussels@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
 SUMMARY:Последний день: Central. Never Alone
@@ -2679,7 +2864,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:kydyrbay-nazhimov-book-graphics-exhibition-tashkent@afisha-art
-DTSTAMP:20261117T235129Z
+DTSTAMP:20261118T130346Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Последний день: Выставка книжной гр
