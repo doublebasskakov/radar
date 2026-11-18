@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:humanoid-robot-programming-workshop-moscow@afisha-art
+DTSTAMP:20261118T231857Z
+DTSTART:20261125T133000Z
+DTEND:20261125T153000Z
+SUMMARY:Воркшоп по программированию робота
+ -гуманоида
+LOCATION:Арт-пространство «Артемьев»\, ул. Б.
+  Никитская\, 13\, Москва
+DESCRIPTION:Медиахудожник Дмитрий Масаидов р
+ асскажет о взаимодействии с роботами в 
+ искусстве и даст возможность поработат
+ ь с ними практически.\nДмитрий Масаидов\n
+ https://t.me/ceammc/3545
+URL:https://doublebasskakov.github.io/radar/#e=humanoid-robot-programming
+ -workshop-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Воркшоп по программированию робо
+ та-гуманоида
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

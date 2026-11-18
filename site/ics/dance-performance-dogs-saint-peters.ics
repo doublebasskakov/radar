@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:dance-performance-dogs-saint-peters@afisha-art
+DTSTAMP:20261118T231857Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261214
+SUMMARY:Танцевальный спектакль «Псы»
+LOCATION:Новая сцена Александринского теат
+ ра\, наб. реки Фонтанки\, 49А\, Санкт-Петерб
+ ург
+DESCRIPTION:Экспериментальный спектакль Мар
+ ии Шешуковой и музыкальной группы Pòmmo\, 
+ исследующий физические пределы тела и м
+ етафору преданности.\nМария Шешукова\, г
+ руппа Pòmmo\nhttps://alexandrinsky.ru/afisha-i-bilety/tantsevalnyy-
+ spektakl-psy/
+URL:https://doublebasskakov.github.io/radar/#e=dance-performance-dogs-sai
+ nt-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Танцевальный спектакль «Псы»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

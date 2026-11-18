@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:xxl-2026-sharjah@afisha-art
-DTSTAMP:20261118T182637Z
+DTSTAMP:20261118T231857Z
 DTSTART:20261129T163000Z
 DTEND:20261129T183000Z
 SUMMARY:XXL (2026)
@@ -27,8 +27,30 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:perform-sharjah-sharjah-2@afisha-art
+DTSTAMP:20261118T231857Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Последний день: Сезон перформансов 
+ Perform Sharjah
+LOCATION:Sharjah Art Foundation\, Шарджа\, ОАЭ
+DESCRIPTION:Пятый сезон программы Perform Sharjah ис
+ следует телесность через серию перформ
+ ансов от международных художников\, бал
+ ансирующих между интимной рефлексией и 
+ коллективным опытом.\nSharjah Art Foundation\nhttps://w
+ ww.sharjahart.org/en/whats-on/details/perform-sharjah-2026
+URL:https://doublebasskakov.github.io/radar/#e=perform-sharjah-sharjah-2
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Сезон перформанс
+ ов Perform Sharjah
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:perform-sharjah-sharjah@afisha-art
-DTSTAMP:20261118T182637Z
+DTSTAMP:20261118T231857Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Последний день: Perform Sharjah
@@ -47,52 +69,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:a-sea-for-borrowed-time-exhibition-sharjah@afisha-art
-DTSTAMP:20261118T182637Z
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261120
-SUMMARY:Открытие: Выставка «A Sea for Borrowed Time»
-LOCATION:Sharjah Art Foundation\, Шарджа\, ОАЭ
-DESCRIPTION:Масштабная выставка исследует мн
- огообразие палестинского искусства скв
- озь поколения\, затрагивая темы оккупац
- ии\, изгнания\, культурного выживания и п
- амяти.\nПалестинские художники\nhttps://www.sha
- rjahart.org/en/whats-on/details/a-sea-for-borrowed-time
-URL:https://doublebasskakov.github.io/radar/#e=a-sea-for-borrowed-time-ex
- hibition-sharjah
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Открытие: Выставка «A Sea for Borrowed Time
- »
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:perform-sharjah-sharjah-2@afisha-art
-DTSTAMP:20261118T182637Z
-DTSTART;VALUE=DATE:20261118
-DTEND;VALUE=DATE:20261119
-SUMMARY:Открытие: Сезон перформансов Perform Sha
- rjah
-LOCATION:Sharjah Art Foundation\, Шарджа\, ОАЭ
-DESCRIPTION:Пятый сезон программы Perform Sharjah ис
- следует телесность через серию перформ
- ансов от международных художников\, бал
- ансирующих между интимной рефлексией и 
- коллективным опытом.\nSharjah Art Foundation\nhttps://w
- ww.sharjahart.org/en/whats-on/details/perform-sharjah-2026
-URL:https://doublebasskakov.github.io/radar/#e=perform-sharjah-sharjah-2
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Открытие: Сезон перформансов Perform
-  Sharjah
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:a-sea-for-borrowed-time-sharjah@afisha-art
-DTSTAMP:20261118T182637Z
+DTSTAMP:20261118T231857Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:Открытие: Выставка «Море для взятог
@@ -114,8 +92,30 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:a-sea-for-borrowed-time-exhibition-sharjah@afisha-art
+DTSTAMP:20261118T231857Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Открытие: Выставка «A Sea for Borrowed Time»
+LOCATION:Sharjah Art Foundation\, Шарджа\, ОАЭ
+DESCRIPTION:Масштабная выставка исследует мн
+ огообразие палестинского искусства скв
+ озь поколения\, затрагивая темы оккупац
+ ии\, изгнания\, культурного выживания и п
+ амяти.\nПалестинские художники\nhttps://www.sha
+ rjahart.org/en/whats-on/details/a-sea-for-borrowed-time
+URL:https://doublebasskakov.github.io/radar/#e=a-sea-for-borrowed-time-ex
+ hibition-sharjah
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка «A Sea for Borrowed Time
+ »
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:focal-point-2026-sharjah@afisha-art
-DTSTAMP:20261118T182637Z
+DTSTAMP:20261118T231857Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261214
 SUMMARY:Книжная ярмарка Focal Point 2026
@@ -133,7 +133,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:longings-returns-2026-sharjah@afisha-art
-DTSTAMP:20261118T182637Z
+DTSTAMP:20261118T231857Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Longings\, Returns (2026)
@@ -154,7 +154,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sawt-al-sahel-concert-series-imarhan-and-nao-yoshioka-sharjah@afisha-
  art
-DTSTAMP:20261118T182637Z
+DTSTAMP:20261118T231857Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261129
 SUMMARY:Концертная серия Sawt Al Sahel: Imarhan и Nao Yos
@@ -177,7 +177,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sawt-al-sahel-sharjah@afisha-art
-DTSTAMP:20261118T182637Z
+DTSTAMP:20261118T231857Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Sawt Al Sahel

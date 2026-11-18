@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:exhibition-tour-phantoms-score-for-robots-moscow@afisha-art
+DTSTAMP:20261118T231857Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:Экскурсия по выставке «Фантомы. Пар
+ титура для роботов»
+LOCATION:Арт-пространство «Артемьев»\, ул. Б.
+  Никитская\, 13\, Москва
+DESCRIPTION:Специальный тур по экспозиции\, п
+ освященной робототехническому искусст
+ ву и звуковым инсталляциям.\nNone\nhttps://t.me/ce
+ ammc/3545
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-tour-phantoms-s
+ core-for-robots-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Экскурсия по выставке «Фантомы. П
+ артитура для роботов»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

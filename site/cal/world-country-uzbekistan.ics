@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:meros-ensemble-concert-tashkent@afisha-art
-DTSTAMP:20261118T182637Z
+DTSTAMP:20261118T231857Z
 DTSTART:20261208T140000Z
 DTEND:20261208T160000Z
 SUMMARY:Концерт ансамбля «Meros»
@@ -30,7 +30,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cinderella-ballet-tashkent@afisha-art
-DTSTAMP:20261118T182637Z
+DTSTAMP:20261118T231857Z
 DTSTART:20261128T140000Z
 DTEND:20261128T160000Z
 SUMMARY:Балет «Золушка»
@@ -51,7 +51,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:workshop-invisible-rules-everyday-life-and-communication-in--tashkent
  @afisha-art
-DTSTAMP:20261118T182637Z
+DTSTAMP:20261118T231857Z
 DTSTART:20261120T123000Z
 DTEND:20261120T143000Z
 SUMMARY:Воркшоп «Негласные правила» — повс
@@ -77,7 +77,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nodirabegim-play-tashkent@afisha-art
-DTSTAMP:20261118T182637Z
+DTSTAMP:20261118T231857Z
 DTSTART:20261125T130000Z
 DTEND:20261125T150000Z
 SUMMARY:Спектакль «Nodirabegim»
@@ -100,7 +100,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:rushana-alimova-solo-exhibition-how-rivers-become-clouds-tashkent@afi
  sha-art
-DTSTAMP:20261118T182637Z
+DTSTAMP:20261118T231857Z
 DTSTART:20261118T130000Z
 DTEND:20261118T150000Z
 SUMMARY:Открытие: Персональная выставка Ру
@@ -126,7 +126,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:siddha-tradition-meditation-workshop-four-immeasurable-state-tashkent
  @afisha-art
-DTSTAMP:20261118T182637Z
+DTSTAMP:20261118T231857Z
 DTSTART:20261119T090000Z
 DTEND:20261119T110000Z
 SUMMARY:Практикум по медитациям и методам в
@@ -150,8 +150,31 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:ballet-the-lady-of-the-camellias-tashkent@afisha-art
+DTSTAMP:20261118T231857Z
+DTSTART:20261204T140000Z
+DTEND:20261204T160000Z
+SUMMARY:Балет «Дама с камелиями»
+LOCATION:Государственный Академический Бол
+ ьшой театр имени Алишера Навои\, ул. Зара
+ фшанская\, 28\, Ташкент\, Узбекистан
+DESCRIPTION:Трагический балетный спектакль п
+ о мотивам знаменитого романа Александр
+ а Дюма-младшего о любви парижской курти
+ занки и молодого дворянина.\nГосударств
+ енный академический большой театр им. А
+ лишера Навои\nhttps://t.me/tashkent_gogo/8199
+URL:https://doublebasskakov.github.io/radar/#e=ballet-the-lady-of-the-cam
+ ellias-tashkent
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Балет «Дама с камелиями»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:play-osmon-hamma-gapni-eshitadi-tashkent@afisha-art
-DTSTAMP:20261118T182637Z
+DTSTAMP:20261118T231857Z
 DTSTART:20261123T130000Z
 DTEND:20261123T150000Z
 SUMMARY:Спектакль «Osmon hamma gapni eshitadi»
@@ -174,7 +197,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dzhemma-fagradyan-music-evening-flashbacks-tashkent@afisha-art
-DTSTAMP:20261118T182637Z
+DTSTAMP:20261118T231857Z
 DTSTART:20261201T140000Z
 DTEND:20261201T160000Z
 SUMMARY:Музыкально-творческий вечер Джеммы
@@ -198,7 +221,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:play-eringizni-menga-soting-tashkent@afisha-art
-DTSTAMP:20261118T182637Z
+DTSTAMP:20261118T231857Z
 DTSTART:20261129T090000Z
 DTEND:20261129T110000Z
 SUMMARY:Спектакль «Eringizni menga soting»
@@ -220,7 +243,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lecture-alexander-the-great-in-the-east-tashkent@afisha-art
-DTSTAMP:20261118T182637Z
+DTSTAMP:20261118T231857Z
 DTSTART:20261120T133000Z
 DTEND:20261120T153000Z
 SUMMARY:Лекция «Александр Македонский на В
@@ -243,7 +266,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:anniversary-concert-of-the-state-symphony-orchestra-choir-of-tashkent
  @afisha-art
-DTSTAMP:20261118T182637Z
+DTSTAMP:20261118T231857Z
 DTSTART:20261127T140000Z
 DTEND:20261127T160000Z
 SUMMARY:Юбилейный концерт хора при Государ
@@ -271,7 +294,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:siddha-tradition-meditation-workshop-mindfulness-practices-tashkent@a
  fisha-art
-DTSTAMP:20261118T182637Z
+DTSTAMP:20261118T231857Z
 DTSTART:20261121T090000Z
 DTEND:20261121T110000Z
 SUMMARY:Практикум по медитациям в традиции 
@@ -295,7 +318,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:premiere-of-the-comedy-play-maysara-tashkent@afisha-art
-DTSTAMP:20261118T182637Z
+DTSTAMP:20261118T231857Z
 DTSTART:20261128T120000Z
 DTEND:20261128T140000Z
 SUMMARY:Премьера комедийного спектакля «Mays
@@ -317,30 +340,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:musical-solo-performance-by-ilya-neboslov-tashkent@afisha-art
-DTSTAMP:20261118T182637Z
-DTSTART:20261118T140000Z
-DTEND:20261118T160000Z
-SUMMARY:Музыкальный моноспектакль Ильи Неб
- ослова
-LOCATION:Human House\, ул. Кичик Миробад\, дом 43\, Та
- шкент\, Узбекистан
-DESCRIPTION:Вечер живой музыки\, эмоций и особ
- енной атмосферы на музыкальном моноспе
- ктакле Ильи Небослова.\nИлья Небослов\nhtt
- ps://t.me/humanhouseuz/11333
-URL:https://doublebasskakov.github.io/radar/#e=musical-solo-performance-b
- y-ilya-neboslov-tashkent
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Музыкальный моноспектакль Ильи Н
- ебослова
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:tashkent-metro-tour-tashkent@afisha-art
-DTSTAMP:20261118T182637Z
+DTSTAMP:20261118T231857Z
 DTSTART:20261206T050000Z
 DTEND:20261206T070000Z
 SUMMARY:Экскурсия по Ташкентскому метропол
@@ -363,7 +364,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:women-s-art-relax-fairy-tales-dreams-tashkent@afisha-art
-DTSTAMP:20261118T182637Z
+DTSTAMP:20261118T231857Z
 DTSTART:20261121T093000Z
 DTEND:20261121T113000Z
 SUMMARY:Женский Арт-релакс: «Сказочные сны»
@@ -383,28 +384,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:show-other-games-improvisation-tashkent@afisha-art
-DTSTAMP:20261118T182637Z
-DTSTART:20261118T143000Z
-DTEND:20261118T163000Z
-SUMMARY:Шоу «Другие игры. Импровизация»
-LOCATION:Ц.И.Р.К (Seoul Mun)\, Seoul Mun\, нижний этаж\, D 
- 31\, Ташкент\, Узбекистан
-DESCRIPTION:Вечер комедийной импровизации с 
- интерактивными выступлениями актеров и
-  непредсказуемыми сценическими сюжетам
- и.\nЦ.И.Р.К\nhttps://t.me/kettuz/6697
-URL:https://doublebasskakov.github.io/radar/#e=show-other-games-improvisa
- tion-tashkent
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Шоу «Другие игры. Импровизация»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:tibetan-singing-bowls-relaxation-practice-tashkent@afisha-art
-DTSTAMP:20261118T182637Z
+DTSTAMP:20261118T231857Z
 DTSTART:20261119T153000Z
 DTEND:20261119T173000Z
 SUMMARY:Практика расслабления «Тибетские ч
@@ -423,26 +404,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:evening-of-musical-experiments-tashkent@afisha-art
-DTSTAMP:20261118T182637Z
-DTSTART:20261118T150000Z
-DTEND:20261118T170000Z
-SUMMARY:Вечер музыкальных экспериментов
-LOCATION:Артха\, Ташкент\, Узбекистан
-DESCRIPTION:Камерное мероприятие\, посвященн
- ое звуковым экспериментам и импровизац
- ии.\nАртха\nhttps://t.me/artha_uz/12562
-URL:https://doublebasskakov.github.io/radar/#e=evening-of-musical-experim
- ents-tashkent
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Вечер музыкальных экспериментов
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:reading-of-der-kuss-des-kohleperts-mr-kolpert-tashkent@afisha-art
-DTSTAMP:20261118T182637Z
+DTSTAMP:20261118T231857Z
 DTSTART:20261120T140000Z
 DTEND:20261120T160000Z
 SUMMARY:Читка пьесы «Господин Кольперт»
@@ -464,7 +427,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gingerbread-house-master-class-tashkent@afisha-art
-DTSTAMP:20261118T182637Z
+DTSTAMP:20261118T231857Z
 DTSTART:20261129T120000Z
 DTEND:20261129T140000Z
 SUMMARY:Мастер-класс «Имбирный домик»
@@ -483,7 +446,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:bukhara-biennial-2027@afisha-art
-DTSTAMP:20261118T182637Z
+DTSTAMP:20261118T231857Z
 DTSTART;VALUE=DATE:20270903
 DTEND;VALUE=DATE:20270904
 SUMMARY:Открытие: Bukhara Biennial 2027
@@ -507,7 +470,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:multimedia-exhibition-savitsky-s-diaries-old-and-new-tashkent@afisha-
  art
-DTSTAMP:20261118T182637Z
+DTSTAMP:20261118T231857Z
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
 SUMMARY:Последний день: Мультимедийная выс
@@ -530,29 +493,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:seven-moons-at-ilkhom-theatre-tashkent@afisha-art
-DTSTAMP:20261118T182637Z
-DTSTART;VALUE=DATE:20261127
-DTEND;VALUE=DATE:20261128
-SUMMARY:Спектакль «Семь лун» в театре «Ильх
- ом»
-LOCATION:Театр «Ильхом»\, Ташкент\, Ташкент\, 
- Узбекистан
-DESCRIPTION:Показ спектакля «Семь лун» на сце
- не театра «Ильхом».\nТеатр «Ильхом»\nhttps:/
- /t.me/ilkhomtheatre/6624
-URL:https://doublebasskakov.github.io/radar/#e=seven-moons-at-ilkhom-thea
- tre-tashkent
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Спектакль «Семь лун» в театре «Ил
- ьхом»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:hikmah-exhibition-at-cca-tashkent-tashkent@afisha-art
-DTSTAMP:20261118T182637Z
+DTSTAMP:20261118T231857Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:Последний день: Выставка Hikmah в CCA Tashk
@@ -574,7 +516,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:zurab-tsereteli-exhibition-larger-than-life-tashkent@afisha-art
-DTSTAMP:20261118T182637Z
+DTSTAMP:20261118T231857Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Последний день: Выставка Зураба Цер
@@ -595,8 +537,29 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:seven-moons-at-ilkhom-theatre-tashkent@afisha-art
+DTSTAMP:20261118T231857Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Спектакль «Семь лун» в театре «Ильх
+ ом»
+LOCATION:Театр «Ильхом»\, Ташкент\, Ташкент\, 
+ Узбекистан
+DESCRIPTION:Показ спектакля «Семь лун» на сце
+ не театра «Ильхом».\nТеатр «Ильхом»\nhttps:/
+ /t.me/ilkhomtheatre/6624
+URL:https://doublebasskakov.github.io/radar/#e=seven-moons-at-ilkhom-thea
+ tre-tashkent
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спектакль «Семь лун» в театре «Ил
+ ьхом»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:international-forum-finnext-asia-tashkent@afisha-art
-DTSTAMP:20261118T182637Z
+DTSTAMP:20261118T231857Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:Международный форум FINNEXT Asia
@@ -614,29 +577,29 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:timur-d-vatz-exhibition-journey-tashkent@afisha-art
-DTSTAMP:20261118T182637Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261119
-SUMMARY:Выставка Тимура Д’Ватца «Путешест
- вие»
-LOCATION:Andakulova gallery\, Ташкент\, Узбекистан
-DESCRIPTION:Живописные работы Тимура Д’Ватц
- а\, объединенные темой странствий и мифо
- логических мотивов.\nТимур Д’Ватц\nhttps://w
- ww.afisha.uz/ru/exhibitions/2026/10/12/dvatz-26
-URL:https://doublebasskakov.github.io/radar/#e=timur-d-vatz-exhibition-jo
- urney-tashkent
+UID:approved-by-society-exhibition-tashkent@afisha-art
+DTSTAMP:20261118T231857Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Открытие: Выставка «Одобрено общес
+ твом»
+LOCATION:Haqiqiy\, Ташкент\, Узбекистан
+DESCRIPTION:Выставочный проект в пространств
+ е Haqiqiy\, посвященный социальным темам и о
+ бщественным нормам.\nVarious Artists\nhttps://www.afisha
+ .uz/ru/exhibitions/2026/11/16/odobreno
+URL:https://doublebasskakov.github.io/radar/#e=approved-by-society-exhibi
+ tion-tashkent
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Выставка Тимура Д’Ватца «Путеше
- ствие»
+DESCRIPTION:Открытие: Выставка «Одобрено общ
+ еством»
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-yalt-yult-at-ichkari-museum-tashkent@afisha-art
-DTSTAMP:20261118T182637Z
+DTSTAMP:20261118T231857Z
 DTSTART;VALUE=DATE:20270206
 DTEND;VALUE=DATE:20270207
 SUMMARY:Последний день: Выставка «Ялт-Юлт» 
@@ -658,7 +621,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:san-at-up-exhibition-project-at-the-goethe-institut-tashkent@afisha-a
  rt
-DTSTAMP:20261118T182637Z
+DTSTAMP:20261118T231857Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Последний день: Выставочный проект 
@@ -680,7 +643,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:interflows-exhibition-at-artepa-gallery-tashkent@afisha-art
-DTSTAMP:20261118T182637Z
+DTSTAMP:20261118T231857Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Последний день: Выставка Interflows в га
@@ -701,7 +664,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:kydyrbay-nazhimov-book-graphics-exhibition-tashkent@afisha-art
-DTSTAMP:20261118T182637Z
+DTSTAMP:20261118T231857Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Последний день: Выставка книжной гр

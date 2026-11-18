@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:new-home-a-film-by-nikita-grushin-moscow@afisha-art
+DTSTAMP:20261118T231857Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Новый дом. Фильм Никиты Грушина
+LOCATION:ДК Рассвет\, Столярный пер.\, 3\, корп.
+  15\, Москва
+DESCRIPTION:Показ авторского кино о поиске см
+ ысла жизни после тюремного заключения с
+  последующим обсуждением с режиссером.\n
+ Никита Грушин\nhttps://t.me/dkrassvet/2380
+URL:https://doublebasskakov.github.io/radar/#e=new-home-a-film-by-nikita-
+ grushin-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Новый дом. Фильм Никиты Грушина
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:explosante-fixe-paris@afisha-art
+DTSTAMP:20261118T231857Z
+DTSTART:20270113T190000Z
+DTEND:20270113T210000Z
+SUMMARY:Концерт Ensemble intercontemporain: …explosante-fixe…
+LOCATION:Philharmonie de Paris\, Grande salle Pierre Boulez\, 221 Av. Jea
+ n Jaurès\, 75019 Paris\, Париж\, Франция
+DESCRIPTION:Масштабный концерт\, в рамках кот
+ орого Ансамбль интерконтемпорейн предс
+ тавляет коллективное сочинение пятидес
+ яти композиторов.\nEnsemble intercontemporain\nhttps://www
+ .ircam.fr/en/events
+URL:https://doublebasskakov.github.io/radar/#e=explosante-fixe-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт Ensemble intercontemporain: …explosante-fixe
+ …
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:frida-the-making-of-an-icon-exhibition-london@afisha-art
+DTSTAMP:20261118T231857Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Открытие: Выставка «Фрида: Создание
+  иконы»
+LOCATION:Tate Modern\, Лондон\, Великобритания
+DESCRIPTION:Экспозиция\, погружающая в жизнь 
+ и творческое наследие революционной ху
+ дожницы Фриды Кало.\nFrida Kahlo\nhttps://www.tate.org.uk
+ /whats-on/tate-modern/frida-kahlo-the-making-of-an-icon
+URL:https://doublebasskakov.github.io/radar/#e=frida-the-making-of-an-ico
+ n-exhibition-london
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка «Фрида: Создан
+ ие иконы»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:mc-senechka-concert-moscow@afisha-art
+DTSTAMP:20261118T231857Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Концерт МС Сенечки
+LOCATION:Место Зангези\, Москва
+DESCRIPTION:Живое выступление известного исп
+ олнителя русской независимой хип-хоп сц
+ ены.\nМС Сенечка\nhttps://t.me/dancingalone/37065
+URL:https://doublebasskakov.github.io/radar/#e=mc-senechka-concert-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт МС Сенечки
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

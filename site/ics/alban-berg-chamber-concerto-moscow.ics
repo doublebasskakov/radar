@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:alban-berg-chamber-concerto-moscow@afisha-art
+DTSTAMP:20261118T231857Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:Камерный концерт Альбана Берга
+LOCATION:ДК Рассвет\, Столярный пер.\, 3\, корп.
+  15\, Москва
+DESCRIPTION:Исполнение сложнейшего Камерног
+ о концерта Альбана Берга\, приуроченное 
+ к юбилею Олега Кагана.\nЕкатерина Рихтер
+ \nhttps://t.me/muzlifemagazine/10230
+URL:https://doublebasskakov.github.io/radar/#e=alban-berg-chamber-concert
+ o-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Камерный концерт Альбана Берга
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

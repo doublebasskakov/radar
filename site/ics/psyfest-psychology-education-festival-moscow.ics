@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:psyfest-psychology-education-festival-moscow@afisha-art
+DTSTAMP:20261118T231857Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261123
+SUMMARY:Фестиваль психопросвещения Psyfest
+LOCATION:Центр Благосфера\, Москва
+DESCRIPTION:Бесплатный фестиваль с семинарам
+ и\, мастер-классами\, арт-терапией и конс
+ ультациями специалистов.\nЦентр Благосф
+ ера\nhttps://t.me/dancingalone/37065
+URL:https://doublebasskakov.github.io/radar/#e=psyfest-psychology-educati
+ on-festival-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Фестиваль психопросвещения Psyfest
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

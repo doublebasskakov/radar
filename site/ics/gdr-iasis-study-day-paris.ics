@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:gdr-iasis-study-day-paris@afisha-art
+DTSTAMP:20261118T231857Z
+DTSTART:20261119T083000Z
+DTEND:20261119T103000Z
+SUMMARY:Journée d'étude GdR IASIS
+LOCATION:Ircam\, salle Stravinsky\, 1 place Igor-Stravinsky\, 75004 Paris
+ \, Париж\, Франция
+DESCRIPTION:Научная встреча и день исследова
+ ний\, посвященные восприятию и слуховой 
+ когнитивистике.\nGdR IASIS\nhttps://www.ircam.fr/fr/events/
+ gdr-iasis
+URL:https://doublebasskakov.github.io/radar/#e=gdr-iasis-study-day-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Journée d'étude GdR IASIS
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

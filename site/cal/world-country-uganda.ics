@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:nyege-nyege-festival-2026-day-1-jinja@afisha-art
-DTSTAMP:20261118T182637Z
+DTSTAMP:20261118T231857Z
 DTSTART:20261119T130000Z
 DTEND:20261119T150000Z
 SUMMARY:Nyege Nyege Festival 2026 — День 1
@@ -28,7 +28,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nyege-nyege-festival-2026-opening-night-jinja@afisha-art
-DTSTAMP:20261118T182637Z
+DTSTAMP:20261118T231857Z
 DTSTART:20261119T130000Z
 DTEND:20261119T150000Z
 SUMMARY:Nyege Nyege Festival 2026 — открытие
@@ -47,8 +47,29 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:nyege-nyege-festival-2026-jinja@afisha-art
+DTSTAMP:20261118T231857Z
+DTSTART:20261119T130000Z
+DTEND:20261119T150000Z
+SUMMARY:Nyege Nyege Festival 2026
+LOCATION:Kalagala Falls\, River Nile\, Kalagala Falls\, River Nile\, Jinj
+ a\, Джинджа\, Уганда
+DESCRIPTION:Масштабный фестиваль музыки\, кин
+ о и искусства на берегах Нила\, объединя
+ ющий сотни артистов со всего мира на сем
+ и сценах.\nРазличные артисты\nhttps://nyegenyege.c
+ om/tickets
+URL:https://doublebasskakov.github.io/radar/#e=nyege-nyege-festival-2026-
+ jinja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Nyege Nyege Festival 2026
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:nyege-nyege-festival-2026-day-3-jinja@afisha-art
-DTSTAMP:20261118T182637Z
+DTSTAMP:20261118T231857Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Nyege Nyege Festival 2026 — День 3
@@ -67,7 +88,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nyege-nyege-festival-2026-day-2-jinja@afisha-art
-DTSTAMP:20261118T182637Z
+DTSTAMP:20261118T231857Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:Nyege Nyege Festival 2026 — День 2
@@ -86,7 +107,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nyege-nyege-festival-2026-finale-jinja@afisha-art
-DTSTAMP:20261118T182637Z
+DTSTAMP:20261118T231857Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Nyege Nyege Festival 2026 — Финал

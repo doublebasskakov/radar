@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:sound-music-health-day-paris@afisha-art
+DTSTAMP:20261118T231857Z
+DTSTART:20261201T083000Z
+DTEND:20261201T103000Z
+SUMMARY:Journée Son\, Musique & Santé
+LOCATION:Ircam\, salle Stravinsky\, 1 place Igor-Stravinsky\, 75004 Paris
+ \, Париж\, Франция
+DESCRIPTION:Ежегодная конференция\, исследую
+ щая многообразие слухового восприятия 
+ в контексте звука\, музыки и здоровья.\nIrc
+ am\nhttps://www.ircam.fr/agenda
+URL:https://doublebasskakov.github.io/radar/#e=sound-music-health-day-par
+ is
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Journée Son\, Musique & Santé
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

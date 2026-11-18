@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:film-program-asie-du-sud-est-formes-vives-paris@afisha-art
+DTSTAMP:20261118T231857Z
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
+SUMMARY:Открытие: Кинопрограмма «Asie du Sud-Est\, 
+ formes vives»
+LOCATION:mk2 bibliothèque\, Париж\, Франция
+DESCRIPTION:Показы современного кинематогра
+ фа и видеоарта Юго-Восточной Азии.\n\nhttps:/
+ /www.centrepompidou.fr/en/program/calendar/event/or734nq
+URL:https://doublebasskakov.github.io/radar/#e=film-program-asie-du-sud-e
+ st-formes-vives-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Кинопрограмма «Asie du Sud-Es
+ t\, formes vives»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

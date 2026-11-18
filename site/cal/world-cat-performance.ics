@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:world-premiere-of-aura-performance-by-pawe-sakowicz-vienna@afisha-art
-DTSTAMP:20261118T182637Z
+DTSTAMP:20261118T231857Z
 DTSTART:20261205T150000Z
 DTEND:20261205T170000Z
 SUMMARY:Мировая премьера перформанса AURA Па
@@ -30,7 +30,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:duet-project-eiko-otake-and-ishmael-houston-jones-paris@afisha-art
-DTSTAMP:20261118T182637Z
+DTSTAMP:20261118T231857Z
 DTSTART:20261208T180000Z
 DTEND:20261208T200000Z
 SUMMARY:Duet Project: Эйко Отоке и Исмаил Хьюстон-
@@ -53,7 +53,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:xxl-2026-sharjah@afisha-art
-DTSTAMP:20261118T182637Z
+DTSTAMP:20261118T231857Z
 DTSTART:20261129T163000Z
 DTEND:20261129T183000Z
 SUMMARY:XXL (2026)
@@ -72,7 +72,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:friday-live-justin-caguiat-london@afisha-art
-DTSTAMP:20261118T182637Z
+DTSTAMP:20261118T231857Z
 DTSTART:20261127T183000Z
 DTEND:20261127T203000Z
 SUMMARY:Пятничный вечер Live: Джастин Кагиат
@@ -92,7 +92,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:performance-in-two-minds-karlsruhe@afisha-art
-DTSTAMP:20261118T182637Z
+DTSTAMP:20261118T231857Z
 DTSTART:20261127T190000Z
 DTEND:20261127T210000Z
 SUMMARY:Перформанс «В двух умах»
@@ -110,28 +110,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:harkeerat-mangat-getting-in-vienna-2@afisha-art
-DTSTAMP:20261118T182637Z
-DTSTART:20261118T180000Z
-DTEND:20261118T200000Z
-SUMMARY:Harkeerat Mangat: Getting In
-LOCATION:Kunsthalle Wien\, Museumsplatz 1\, 1070 Wien\, Вена\, Авс
- трия
-DESCRIPTION:Перформанс художника Харкерата М
- ангата в рамках программы «Lebt und arbeitet in Wi
- en: Postscript».\nHarkeerat Mangat\nhttps://kunsthallewien.at/en/event/p
- erformance-harkeerat-mangat-getting-in
-URL:https://doublebasskakov.github.io/radar/#e=harkeerat-mangat-getting-i
- n-vienna-2
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Harkeerat Mangat: Getting In
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:performance-in-two-minds-karlsruhe-2@afisha-art
-DTSTAMP:20261118T182637Z
+DTSTAMP:20261118T231857Z
 DTSTART:20261127T190000Z
 DTEND:20261127T210000Z
 SUMMARY:Performance: In Two Minds
@@ -149,8 +129,48 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:cabaret-extra-silencio-3-paris@afisha-art
+DTSTAMP:20261118T231857Z
+DTSTART:20261125T200000Z
+DTEND:20261125T220000Z
+SUMMARY:Кабаре-вечер Cabaret Extra! × Silencio #3
+LOCATION:Silencio\, Париж\, Франция
+DESCRIPTION:Перформативный вечер в клубе Silenci
+ o под названием «Embrasser les sutures».\n\nhttps://www.cen
+ trepompidou.fr/en/program/calendar/event/ErU0syn
+URL:https://doublebasskakov.github.io/radar/#e=cabaret-extra-silencio-3-p
+ aris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Кабаре-вечер Cabaret Extra! × Silencio #3
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:perform-sharjah-sharjah-2@afisha-art
+DTSTAMP:20261118T231857Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Последний день: Сезон перформансов 
+ Perform Sharjah
+LOCATION:Sharjah Art Foundation\, Шарджа\, ОАЭ
+DESCRIPTION:Пятый сезон программы Perform Sharjah ис
+ следует телесность через серию перформ
+ ансов от международных художников\, бал
+ ансирующих между интимной рефлексией и 
+ коллективным опытом.\nSharjah Art Foundation\nhttps://w
+ ww.sharjahart.org/en/whats-on/details/perform-sharjah-2026
+URL:https://doublebasskakov.github.io/radar/#e=perform-sharjah-sharjah-2
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Сезон перформанс
+ ов Perform Sharjah
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:perform-sharjah-sharjah@afisha-art
-DTSTAMP:20261118T182637Z
+DTSTAMP:20261118T231857Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Последний день: Perform Sharjah
@@ -169,30 +189,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:perform-sharjah-sharjah-2@afisha-art
-DTSTAMP:20261118T182637Z
-DTSTART;VALUE=DATE:20261118
-DTEND;VALUE=DATE:20261119
-SUMMARY:Открытие: Сезон перформансов Perform Sha
- rjah
-LOCATION:Sharjah Art Foundation\, Шарджа\, ОАЭ
-DESCRIPTION:Пятый сезон программы Perform Sharjah ис
- следует телесность через серию перформ
- ансов от международных художников\, бал
- ансирующих между интимной рефлексией и 
- коллективным опытом.\nSharjah Art Foundation\nhttps://w
- ww.sharjahart.org/en/whats-on/details/perform-sharjah-2026
-URL:https://doublebasskakov.github.io/radar/#e=perform-sharjah-sharjah-2
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Открытие: Сезон перформансов Perform
-  Sharjah
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:longings-returns-2026-sharjah@afisha-art
-DTSTAMP:20261118T182637Z
+DTSTAMP:20261118T231857Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Longings\, Returns (2026)
@@ -211,9 +209,32 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:performance-by-alexander-tarasenko-and-alessandro-paiano-aut-london@a
+ fisha-art
+DTSTAMP:20261118T231857Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:Перформанс Александра Тарасенко и A
+ lessandro Paiano “Autotomy for the Curious”
+LOCATION:Greatorex\, Лондон\, Великобритания
+DESCRIPTION:Премьерный хореографический спе
+ ктакль о разделении и свободе с живым му
+ зыкальным сопровождением в рамках прое
+ кта Tellus.\nАлександр Тарасенко\, Alessandro Paiano
+ \nhttps://t.me/afishalondon/11269
+URL:https://doublebasskakov.github.io/radar/#e=performance-by-alexander-t
+ arasenko-and-alessandro-paiano-aut-london
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Перформанс Александра Тарасенко 
+ и Alessandro Paiano “Autotomy for the Curious”
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:chanel-commission-lina-lapelyte-we-make-years-out-of-hours-berlin@afi
  sha-art
-DTSTAMP:20261118T182637Z
+DTSTAMP:20261118T231857Z
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
 SUMMARY:Последний день: CHANEL Commission: Lina Lapelytė. W
@@ -236,7 +257,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:holland-festival-2027@afisha-art
-DTSTAMP:20261118T182637Z
+DTSTAMP:20261118T231857Z
 DTSTART;VALUE=DATE:20270603
 DTEND;VALUE=DATE:20270604
 SUMMARY:Открытие: Holland Festival 2027
@@ -257,7 +278,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:festival-automne-paris-2026@afisha-art
-DTSTAMP:20261118T182637Z
+DTSTAMP:20261118T231857Z
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
 SUMMARY:Последний день: Festival d'Automne à Paris 2026

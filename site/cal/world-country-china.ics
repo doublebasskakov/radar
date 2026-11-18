@@ -7,8 +7,29 @@ X-WR-CALNAME:Радар — Мир / World · country-china
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:exhibition-computer-worlds-in-shanghai-shanghai@afisha-art
+DTSTAMP:20261118T231857Z
+DTSTART:20261119T030000Z
+DTEND:20261119T050000Z
+SUMMARY:Открытие: Выставка «Computer worlds» в Шан
+ хае
+LOCATION:West Bund Museum\, Шанхай\, Китай
+DESCRIPTION:Выставка цифрового и медиаискусс
+ тва\, исследующая компьютерные миры и ал
+ горитмы.\n\nhttps://www.centrepompidou.fr/en/program/calendar/even
+ t/OyA1tX8
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-computer-worlds
+ -in-shanghai-shanghai
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка «Computer worlds» в Ш
+ анхае
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:carsten-ho-ller-two-beijing@afisha-art
-DTSTAMP:20261118T182637Z
+DTSTAMP:20261118T231857Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:Последний день: Карстен Хёллер: Два
@@ -30,7 +51,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ucca-dune-katie-paterson@afisha-art
-DTSTAMP:20261118T182637Z
+DTSTAMP:20261118T231857Z
 DTSTART;VALUE=DATE:20270411
 DTEND;VALUE=DATE:20270412
 SUMMARY:Последний день: Katie Paterson
@@ -49,7 +70,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ucca-john-baldessari@afisha-art
-DTSTAMP:20261118T182637Z
+DTSTAMP:20261118T231857Z
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
 SUMMARY:Последний день: John Baldessari

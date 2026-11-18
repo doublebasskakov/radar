@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:opening-dahl-exhibition-nizhny-novgo@afisha-art
+DTSTAMP:20261118T231857Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Экспозиция «Открываем Даля»
+LOCATION:Нижний Новгород
+DESCRIPTION:Выставка\, посвященная толковому 
+ словарю Владимира Даля и жизни русского
+  народа XIX века через предметы быта и кос
+ тюмы.\nNone\nhttps://t.me/gorkoNN/29605
+URL:https://doublebasskakov.github.io/radar/#e=opening-dahl-exhibition-ni
+ zhny-novgo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Экспозиция «Открываем Даля»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

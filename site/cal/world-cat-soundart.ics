@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:soundwalk-collective-patti-smith-correspondences-paris@afisha-art
-DTSTAMP:20261118T182637Z
+DTSTAMP:20261118T231857Z
 DTSTART:20270129T190000Z
 DTEND:20270129T210000Z
 SUMMARY:Soundwalk Collective & Patti Smith: Correspondences
@@ -29,7 +29,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:concert-sonic-experiments-resonating-futures-karlsruhe@afisha-art
-DTSTAMP:20261118T182637Z
+DTSTAMP:20261118T231857Z
 DTSTART:20261210T180000Z
 DTEND:20261210T200000Z
 SUMMARY:Концерт «Звуковые эксперименты – Р
@@ -52,7 +52,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:adk-sample-hold-11@afisha-art
-DTSTAMP:20261118T182637Z
+DTSTAMP:20261118T231857Z
 DTSTART:20261125T190000Z
 DTEND:20261125T210000Z
 SUMMARY:sample&hold #11: Paul Purgas & Stefan Keller
@@ -71,9 +71,56 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:klub-demboh-back-to-pas-berlin@afisha-art
+DTSTAMP:20261118T231857Z
+DTSTART:20261123T183000Z
+DTEND:20261123T203000Z
+SUMMARY:Klub Demboh back to PAS
+LOCATION:Petersburg Art Space (PAS)\, Aufgang II\, 1OG\, Берлин\, 
+ Германия
+DESCRIPTION:Вечер ноябрьской аудиовизуально
+ й полифонии и импровизационной музыки с
+  участием международного состава музык
+ антов и перформеров.\nPierre Borel\, Anil Eraslan\, Anto
+ nio Borghini\, Mia Dyberg\, Axel Dörner\, Carina Khorkhordina\, Frauke N
+ owak\, Joel Grip\, Michael Griener\, Ali Onur Olgun\nhttps://t.me/petersb
+ urgartspace/1046
+URL:https://doublebasskakov.github.io/radar/#e=klub-demboh-back-to-pas-be
+ rlin
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Klub Demboh back to PAS
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:improvisational-music-concert-martin-ku-chen-ha-kon-berre-sc-berlin@a
+ fisha-art
+DTSTAMP:20261118T231857Z
+DTSTART:20261122T183000Z
+DTEND:20261122T203000Z
+SUMMARY:Концерт импровизационной музыки: Mar
+ tin Küchen / Håkon Berre и Schlotte / Bieler-Wendt / Stolyar
+LOCATION:Petersburg Art Space (PAS)\, Aufgang II\, 1OG\, Берлин\, 
+ Германия
+DESCRIPTION:Вечер современной экспериментал
+ ьной и свободной импровизационной музы
+ ки с участием интернационального дуэта 
+ и трио.\nMartin Küchen\, Håkon Berre\, Sue Schlotte\, Helmut Biele
+ r-Wendt\, Roman Stolyar\nhttps://t.me/petersburgartspace/1045
+URL:https://doublebasskakov.github.io/radar/#e=improvisational-music-conc
+ ert-martin-ku-chen-ha-kon-berre-sc-berlin
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт импровизационной музыки:
+  Martin Küchen / Håkon Berre и Schlotte / Bieler-Wendt / Stolyar
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:sound-stories-discovering-sounds-workshop-for-kids-and-famil-vienna@a
  fisha-art
-DTSTAMP:20261118T182637Z
+DTSTAMP:20261118T231857Z
 DTSTART:20261121T100000Z
 DTEND:20261121T120000Z
 SUMMARY:Звуковые истории – Исследуем звуки
@@ -96,7 +143,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mittwochstreff-winterblues-meets-wintersounds-karlsruhe@afisha-art
-DTSTAMP:20261118T182637Z
+DTSTAMP:20261118T231857Z
 DTSTART:20261125T140000Z
 DTEND:20261125T160000Z
 SUMMARY:Mittwochstreff: Winterblues meets Wintersounds
@@ -117,7 +164,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sound-stories-discovering-sounds-vienna@afisha-art
-DTSTAMP:20261118T182637Z
+DTSTAMP:20261118T231857Z
 DTSTART:20261121T100000Z
 DTEND:20261121T120000Z
 SUMMARY:Sound Stories – Discovering Sounds
@@ -138,7 +185,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:workshop-for-kids-and-families-sound-stories-discovering-sou-vienna-2
  @afisha-art
-DTSTAMP:20261118T182637Z
+DTSTAMP:20261118T231857Z
 DTSTART:20261128T100000Z
 DTEND:20261128T120000Z
 SUMMARY:Семейный воркшоп «Звуковые истории
@@ -160,7 +207,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:poe-mes-machines-paris@afisha-art
-DTSTAMP:20261118T182637Z
+DTSTAMP:20261118T231857Z
 DTSTART:20270130T090000Z
 DTEND:20270130T110000Z
 SUMMARY:Poèmes Machines
@@ -178,28 +225,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:show-other-games-improvisation-tashkent@afisha-art
-DTSTAMP:20261118T182637Z
-DTSTART:20261118T143000Z
-DTEND:20261118T163000Z
-SUMMARY:Шоу «Другие игры. Импровизация»
-LOCATION:Ц.И.Р.К (Seoul Mun)\, Seoul Mun\, нижний этаж\, D 
- 31\, Ташкент\, Узбекистан
-DESCRIPTION:Вечер комедийной импровизации с 
- интерактивными выступлениями актеров и
-  непредсказуемыми сценическими сюжетам
- и.\nЦ.И.Р.К\nhttps://t.me/kettuz/6697
-URL:https://doublebasskakov.github.io/radar/#e=show-other-games-improvisa
- tion-tashkent
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Шоу «Другие игры. Импровизация»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:tibetan-singing-bowls-relaxation-practice-tashkent@afisha-art
-DTSTAMP:20261118T182637Z
+DTSTAMP:20261118T231857Z
 DTSTART:20261119T153000Z
 DTEND:20261119T173000Z
 SUMMARY:Практика расслабления «Тибетские ч
@@ -218,26 +245,73 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:evening-of-musical-experiments-tashkent@afisha-art
-DTSTAMP:20261118T182637Z
-DTSTART:20261118T150000Z
-DTEND:20261118T170000Z
-SUMMARY:Вечер музыкальных экспериментов
-LOCATION:Артха\, Ташкент\, Узбекистан
-DESCRIPTION:Камерное мероприятие\, посвященн
- ое звуковым экспериментам и импровизац
- ии.\nАртха\nhttps://t.me/artha_uz/12562
-URL:https://doublebasskakov.github.io/radar/#e=evening-of-musical-experim
- ents-tashkent
+UID:sound-stories-discovering-sounds-vienna-2@afisha-art
+DTSTAMP:20261118T231857Z
+DTSTART:20261128T100000Z
+DTEND:20261128T120000Z
+SUMMARY:Детский воркшоп «Sound Stories – Discovering Sou
+ nds»
+LOCATION:Museumsquartier / Kunsthalle Wien\, Museumsplatz 1\, 1070 Wien\,
+  Вена\, Австрия
+DESCRIPTION:Повтор интерактивного семейного 
+ воркшопа по исследованию звука и аудиал
+ ьного воображения.\nKunsthalle Wien\nhttps://kunsthallewi
+ en.at/en/event/sound-stories-discovering-sounds-3
+URL:https://doublebasskakov.github.io/radar/#e=sound-stories-discovering-
+ sounds-vienna-2
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Вечер музыкальных экспериментов
+DESCRIPTION:Детский воркшоп «Sound Stories – Discovering
+  Sounds»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:digital-workshops-for-young-audiences-bestio-robot-paris@afisha-art
+DTSTAMP:20261118T231857Z
+DTSTART:20270313T140000Z
+DTEND:20270313T160000Z
+SUMMARY:Цифровые мастерские для детей: Робо
+ ты и звук
+LOCATION:Maison Pompidou\, Paris\, Париж\, Франция
+DESCRIPTION:Мартовские интерактивные мастер
+ ские для детей и подростков по соединен
+ ию робототехники и звукового искусства.
+ \nIrcam\nhttps://www.ircam.fr/en/events
+URL:https://doublebasskakov.github.io/radar/#e=digital-workshops-for-youn
+ g-audiences-bestio-robot-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Цифровые мастерские для детей: Ро
+ боты и звук
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:digital-workshops-for-young-audiences-lutherie-nume-rique-paris@afish
+ a-art
+DTSTAMP:20261118T231857Z
+DTSTART:20270109T140000Z
+DTEND:20270109T160000Z
+SUMMARY:Цифровые мастерские для детей: Цифр
+ овая лютьерия
+LOCATION:Maison Pompidou\, Paris\, Париж\, Франция
+DESCRIPTION:Январские мастер-классы для дете
+ й 7–12 лет по созданию цифровых музыкаль
+ ных инструментов и работе со звуком.\nIrcam
+ \nhttps://www.ircam.fr/en/events
+URL:https://doublebasskakov.github.io/radar/#e=digital-workshops-for-youn
+ g-audiences-lutherie-nume-rique-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Цифровые мастерские для детей: Ци
+ фровая лютьерия
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ctm-festival-2027@afisha-art
-DTSTAMP:20261118T182637Z
+DTSTAMP:20261118T231857Z
 DTSTART;VALUE=DATE:20270122
 DTEND;VALUE=DATE:20270123
 SUMMARY:Открытие: CTM Festival 2027
@@ -246,8 +320,8 @@ LOCATION:Площадки Берлина (Berghain\, HAU\, silent green
 DESCRIPTION:28-й CTM — берлинский фестиваль экс
  периментальной музыки и звукового иску
  сства: концерты\, клубные ночи\, выставки
-  и дискуссии.\n\nhttps://www.ctm-festival.de/news/ctm-2027-fest
- ival-save-the-date
+  и дискуссии.\nVarious Artists\nhttps://www.ctm-festival.de/new
+ s/ctm-2027-festival-save-the-date
 URL:https://doublebasskakov.github.io/radar/#e=ctm-festival-2027
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -257,7 +331,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rewire-2027@afisha-art
-DTSTAMP:20261118T182637Z
+DTSTAMP:20261118T231857Z
 DTSTART;VALUE=DATE:20270408
 DTEND;VALUE=DATE:20270412
 SUMMARY:Rewire 2027
@@ -276,8 +350,32 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:rewire-x-korzo-26-rau-l-refree-nin-o-de-elche-visible-cloaks-the-hagu
+ e@afisha-art
+DTSTAMP:20261118T231857Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:Rewire x Korzo #26: Raül Refree & Niño de Elche\, Visible Cloak
+ s\, Diamanda Dramm
+LOCATION:Korzo\, Гаага\, Нидерланды
+DESCRIPTION:Концерт экспериментальной и аван
+ гардной музыки в рамках совместной прог
+ раммы фестиваля Rewire и площадки Korzo с уча
+ стием ярких представителей современной
+  сцены.\nRaül Refree\, Niño de Elche\, Visible Cloaks\, Diamanda D
+ ramm\nhttps://www.rewirefestival.nl/event/rewire-x-korzo-26
+URL:https://doublebasskakov.github.io/radar/#e=rewire-x-korzo-26-rau-l-re
+ free-nin-o-de-elche-visible-cloaks-the-hague
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Rewire x Korzo #26: Raül Refree & Niño de Elche\, Visible C
+ loaks\, Diamanda Dramm
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:tate-atoui-hold@afisha-art
-DTSTAMP:20261118T182637Z
+DTSTAMP:20261118T231857Z
 DTSTART;VALUE=DATE:20270411
 DTEND;VALUE=DATE:20270412
 SUMMARY:Последний день: Hyundai Commission: Tarek Atoui. Hol
@@ -300,7 +398,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ryuichi-sakamoto-seeing-sound-hearing-time-berlin@afisha-art
-DTSTAMP:20261118T182637Z
+DTSTAMP:20261118T231857Z
 DTSTART;VALUE=DATE:20270620
 DTEND;VALUE=DATE:20270621
 SUMMARY:Последний день: Ryuichi Sakamoto: seeing sound\, hea
@@ -322,32 +420,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:rewire-x-korzo-26-rau-l-refree-nin-o-de-elche-visible-cloaks-the-hagu
- e@afisha-art
-DTSTAMP:20261118T182637Z
-DTSTART;VALUE=DATE:20261204
-DTEND;VALUE=DATE:20261205
-SUMMARY:Rewire x Korzo #26: Raül Refree & Niño de Elche\, Visible Cloak
- s\, Diamanda Dramm
-LOCATION:Korzo\, Гаага\, Нидерланды
-DESCRIPTION:Концерт экспериментальной и аван
- гардной музыки в рамках совместной прог
- раммы фестиваля Rewire и площадки Korzo с уча
- стием ярких представителей современной
-  сцены.\nRaül Refree\, Niño de Elche\, Visible Cloaks\, Diamanda D
- ramm\nhttps://www.rewirefestival.nl/event/rewire-x-korzo-26
-URL:https://doublebasskakov.github.io/radar/#e=rewire-x-korzo-26-rau-l-re
- free-nin-o-de-elche-visible-cloaks-the-hague
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Rewire x Korzo #26: Raül Refree & Niño de Elche\, Visible C
- loaks\, Diamanda Dramm
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:between-movement-and-sound-sharjah@afisha-art
-DTSTAMP:20261118T182637Z
+DTSTAMP:20261118T231857Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Between Movement and Sound

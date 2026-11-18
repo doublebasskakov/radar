@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:exhibition-muse-e-sentimental-in-lyon-lyon@afisha-art
+DTSTAMP:20261118T231857Z
+DTSTART:20261119T090000Z
+DTEND:20261119T110000Z
+SUMMARY:Открытие: Выставка «Musée sentimental» в Ли
+ оне
+LOCATION:Musée des Beaux-Arts de Lyon\, Лион\, Франция
+DESCRIPTION:Концептуальная выставка\, вдохно
+ вленная идеями Андре Бретона и Даниэля 
+ Споэрри.\nAndré Breton\, Daniel Spoerri\nhttps://www.centrepompid
+ ou.fr/en/program/calendar
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-muse-e-sentimen
+ tal-in-lyon-lyon
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка «Musée sentimental» в 
+ Лионе
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

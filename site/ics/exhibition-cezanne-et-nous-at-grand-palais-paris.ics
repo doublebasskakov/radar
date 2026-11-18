@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:exhibition-cezanne-et-nous-at-grand-palais-paris@afisha-art
+DTSTAMP:20261118T231857Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Открытие: Выставка «Cezanne et nous» в Гра
+ н-Пале
+LOCATION:Grand Palais\, Париж\, Франция
+DESCRIPTION:Масштабная экспозиция\, посвящён
+ ная влиянию Поля Сезанна на современное
+  искусство.\n\nhttps://www.centrepompidou.fr/en/program/calendar
+ /event/2s1FNB8
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-cezanne-et-nous
+ -at-grand-palais-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка «Cezanne et nous» в Г
+ ран-Пале
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

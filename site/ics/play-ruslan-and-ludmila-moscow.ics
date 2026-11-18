@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:play-ruslan-and-ludmila-moscow@afisha-art
+DTSTAMP:20261118T231857Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:Спектакль «Руслан и Людмила»
+LOCATION:Театр кукол Образцова\, Москва
+DESCRIPTION:Главная премьера года в Театре ку
+ кол Образцова — постановка классическо
+ го произведения в редком жанре ироикоми
+ ческой поэмы от главного режиссера Бори
+ са Константинова.\nБорис Константинов\nht
+ tps://t.me/orpheusradio/51667
+URL:https://doublebasskakov.github.io/radar/#e=play-ruslan-and-ludmila-mo
+ scow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спектакль «Руслан и Людмила»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR
