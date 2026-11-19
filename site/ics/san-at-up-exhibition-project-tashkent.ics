@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:san-at-up-exhibition-project-tashkent@afisha-art
+DTSTAMP:20261119T231855Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Последний день: Выставочный проект 
+ San’at Up
+LOCATION:Гёте-Институт\, Ташкент\, Узбекиста
+ н
+DESCRIPTION:Современный художественный прое
+ кт\, представленный в стенах Гёте-Инстит
+ ута в Ташкенте.\n\nhttps://www.afisha.uz/ru/exhibitions/2026/
+ 10/01/sanatup-gi
+URL:https://doublebasskakov.github.io/radar/#e=san-at-up-exhibition-proje
+ ct-tashkent
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Выставочный прое
+ кт San’at Up
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

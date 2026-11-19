@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:balkan-story-moscow@afisha-art
+DTSTAMP:20261119T231855Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Открытие: Балканская история
+LOCATION:Дом русского зарубежья имени Алекс
+ андра Солженицына\, ул. Нижняя Радищевск
+ ая\, д. 2\, Москва
+DESCRIPTION:Выставка посвящена малоизвестно
+ му периоду жизни ученицы Ильи Репина в э
+ миграции в Белграде\, где она продолжала
+  работать как художница.\nЕлена Киселева
+ \nhttps://t.me/vmuzey/32381
+URL:https://doublebasskakov.github.io/radar/#e=balkan-story-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Балканская история
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

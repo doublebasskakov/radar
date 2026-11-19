@@ -7,8 +7,30 @@ X-WR-CALNAME:Радар — Россия · cat-fair
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:catalog-fair@afisha-art
+DTSTAMP:20261119T231855Z
+DTSTART:20261119T080000Z
+DTEND:20261119T100000Z
+SUMMARY:|catalog| — ярмарка современного искус
+ ства
+LOCATION:ЖК «Золотой»\, Софийская набережна
+ я\, Софийская наб.\, Москва
+DESCRIPTION:Осенний выпуск ярмарки\, которую 
+ делают сами галеристы: стенды задуманы 
+ как маленькие выставки\, а не витрины пр
+ одаж.\nГалереи-участники Ассоциации гал
+ ерей\nhttps://theblueprint.ru/culture/art/vystavki-november2026
+URL:https://doublebasskakov.github.io/radar/#e=catalog-fair
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:|catalog| — ярмарка современного иск
+ усства
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:signal-city-2026@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART:20261121T150000Z
 DTEND:20261121T170000Z
 SUMMARY:Signal City
@@ -27,7 +49,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tam-typoartmarket-at-heb-hub-ulan-ude@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART:20261121T030000Z
 DTEND:20261121T050000Z
 SUMMARY:ТАМ — ТипоАртМаркет в Хэб—Хаб
@@ -48,7 +70,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:samara-osenniy-auktsion-2026@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART:20261126T150000Z
 DTEND:20261126T170000Z
 SUMMARY:VII Осенний аукцион современного иск
@@ -71,7 +93,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:vinyl-mne-mil-market-saint-peters@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART:20261122T110000Z
 DTEND:20261122T130000Z
 SUMMARY:Маркет «Винил мне мил»
@@ -92,7 +114,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iskrafest-festival-krasnoyarsk@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART:20261129T080000Z
 DTEND:20261129T100000Z
 SUMMARY:Фестиваль «Искрафест»
@@ -111,8 +133,27 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:festival-garage-vintage-moscow@afisha-art
+DTSTAMP:20261119T231855Z
+DTSTART:20261121T090000Z
+DTEND:20261121T110000Z
+SUMMARY:Фестиваль «Гараж Винтаж»
+LOCATION:Музей Москвы\, Зубовский б-р\, 2\, Мос
+ ква
+DESCRIPTION:Двухдневный винтажный маркет и ф
+ естиваль на площадке Музея Москвы.\nМузе
+ й Москвы\nhttps://t.me/mosmuseum/7654
+URL:https://doublebasskakov.github.io/radar/#e=festival-garage-vintage-mo
+ scow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Фестиваль «Гараж Винтаж»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:catalog-art-fair-moscow@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261123
 SUMMARY:Ярмарка современного искусства | cata
@@ -134,7 +175,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:oberton-graphic-art-fair-moscow@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261207
 SUMMARY:Ярмарка графики «Обертон»
@@ -154,7 +195,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:spb-diaghilev-ps-2026@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 SUMMARY:Последний день: Фестиваль «Дягилев 
@@ -176,30 +217,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:catalog-fair@afisha-art
-DTSTAMP:20261119T184256Z
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261123
-SUMMARY:|catalog| — ярмарка современного искус
- ства
-LOCATION:ЖК «Золотой»\, Софийская набережна
- я\, Софийская наб.\, Москва
-DESCRIPTION:Осенний выпуск ярмарки\, которую 
- делают сами галеристы: стенды задуманы 
- как маленькие выставки\, а не витрины пр
- одаж.\nГалереи-участники Ассоциации гал
- ерей\nhttps://theblueprint.ru/culture/art/vystavki-november2026
-URL:https://doublebasskakov.github.io/radar/#e=catalog-fair
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:|catalog| — ярмарка современного иск
- усства
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:oberton-fair-2026@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261207
 SUMMARY:«Обертон» — ярмарка графики Cosmoscow
@@ -221,7 +240,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:catalog-fair-anna-bat-s-project-habitus-at-gallery-9b-booth-moscow@af
  isha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261123
 SUMMARY:Ярмарка |catalog|: проект Анны Бат «Габи
@@ -245,7 +264,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:autumn-edition-of-the-catalog-contemporary-art-fair-moscow@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261123
 SUMMARY:Осенний выпуск ярмарки современног
@@ -272,7 +291,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:catalog-fair-sistema-gallery-booth-dream-greenhouse-moscow@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261123
 SUMMARY:Ярмарка |catalog|: стенд SISTEMA GALLERY «Оранж
@@ -296,7 +315,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:catalog-art-fair-6th-edition-moscow@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261123
 SUMMARY:Ярмарка |catalog| (6-й выпуск)
@@ -319,7 +338,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:catalog-contemporary-art-fair-pop-off-art-gallery-booth-moscow@afisha
  -art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261123
 SUMMARY:Ярмарка современного искусства |catal
@@ -343,7 +362,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:hse-art-gallery-at-catalog-art-fair-moscow@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261123
 SUMMARY:Стенд Галереи Школы дизайна НИУ ВШЭ
@@ -367,7 +386,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:overton-online-graphics-fair-moscow@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Открытие: Онлайн-ярмарка графики «О
@@ -388,7 +407,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:kirill-manchunsky-angel-is-always-with-you-moscow@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261123
 SUMMARY:Кирилл Манчунский «Ангел всегда с т
@@ -410,31 +429,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:catalog-fair-preview-sistema-gallery-booth-moscow@afisha-art
-DTSTAMP:20261119T184256Z
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261120
-SUMMARY:Препоказ ярмарки |catalog|: стенд SISTEMA GAL
- LERY
-LOCATION:ЖК «Золотой»\, Софийская набережна
- я\, д. 10\, Москва
-DESCRIPTION:Закрытый предпоказ проекта «Оран
- жерея сновидений» от SISTEMA GALLERY в рамках я
- рмарки современного искусства |catalog|.\nАн
- на Касс\, Каролина Росляк\, Гоша Хомич\, С
- ергей Шеховцов\nhttps://t.me/sistema_gallery/2691
-URL:https://doublebasskakov.github.io/radar/#e=catalog-fair-preview-siste
- ma-gallery-booth-moscow
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Препоказ ярмарки |catalog|: стенд SISTEMA
-  GALLERY
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:oleg-khvostov-at-gridchinhall-stand-moscow@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261123
 SUMMARY:Олег Хвостов на стенде Гридчинхолл
@@ -456,7 +452,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:catalog-art-fair-preview-moscow@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261123
 SUMMARY:Превью ярмарки |catalog|
@@ -476,7 +472,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:smena-winter-book-fest@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261207
 SUMMARY:Зимний книжный фестиваль «Смены»
@@ -496,7 +492,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:painting-and-graphics-exhibition-with-auction-moscow@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 SUMMARY:Открытие: Выставка живописи и графи
@@ -521,7 +517,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:fyodor-hiroshige-and-palto-gallery-at-catalog-art-fair-moscow@afisha-
  art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261123
 SUMMARY:Участие Фёдора Хиросигэ и галереи «
@@ -546,7 +542,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:art-fair-christmas-tree-under-the-dome-saint-peters@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261221
 SUMMARY:Арт-ярмарка «Елка под куполом»
@@ -567,7 +563,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nympheaum-stand-exhibition-at-the-fair-moscow@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261123
 SUMMARY:Выставка стенда NYMPHEAUM на ярмарке
@@ -589,7 +585,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:new-year-red-market-perm@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261221
 SUMMARY:Новогодний RED MARKET
@@ -607,7 +603,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:kucha3-fair-moscow@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261221
 SUMMARY:Ярмарка «Куча³»
@@ -627,7 +623,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dafes-awards-25-ceremony-moscow@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Церемония награждения DAFES AWARDS ’25
@@ -647,7 +643,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:presentation-of-the-limited-clothing-collection-autograph-yekaterinbu
  r@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Презентация лимитированной коллек
@@ -667,49 +663,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:festival-garage-vintage-moscow@afisha-art
-DTSTAMP:20261119T184256Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261123
-SUMMARY:Фестиваль «Гараж Винтаж»
-LOCATION:Музей Москвы\, Зубовский б-р\, 2\, Мос
- ква
-DESCRIPTION:Двухдневный винтажный маркет и ф
- естиваль на площадке Музея Москвы.\nМузе
- й Москвы\nhttps://t.me/mosmuseum/7654
-URL:https://doublebasskakov.github.io/radar/#e=festival-garage-vintage-mo
- scow
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Фестиваль «Гараж Винтаж»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:preview-tour-of-the-catalog-art-fair-moscow@afisha-art
-DTSTAMP:20261119T184256Z
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261120
-SUMMARY:Экскурсия-превью по ярмарке |catalog|
-LOCATION:ЖК «Золотой» (вход со стороны Болот
- ной площади)\, Москва\, Софийская набереж
- ная\, 10\, Москва
-DESCRIPTION:Закрытая экскурсия по шестому вы
- пуску ярмарки |catalog| за день до открытия 
- для широкой публики. Время в источнике н
- е указано.\nКоммерсантъ Клуб\nhttps://club.kommers
- ant.ru/events/19-11-2026-ekskursiya-prevyu-po-yarmarke-catalog/
-URL:https://doublebasskakov.github.io/radar/#e=preview-tour-of-the-catalo
- g-art-fair-moscow
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Экскурсия-превью по ярмарке |catalog|
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:iv-antiquities-fair-antique-collection-moscow@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:IV Ярмарка старины «Антикварная кол
@@ -729,7 +684,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:festival-ceramania-new-year-moscow@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261123
 SUMMARY:Фестиваль «Ceramania Новогодняя»
@@ -751,7 +706,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:festival-of-young-designers-of-the-melange-school-novosibirsk@afisha-
  art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART;VALUE=DATE:20270129
 DTEND;VALUE=DATE:20270130
 SUMMARY:Фестиваль юных дизайнеров школы «М

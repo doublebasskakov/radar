@@ -9,7 +9,7 @@ X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:nc-ic-session-chuuraa-city-of-owls-the-wind-bloweth-where-it-krasnoya
  rsk@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART:20261122T120000Z
 DTEND:20261122T140000Z
 SUMMARY:Сеанс НК+МК: «Чуураа»\, «Город сов»\, 
@@ -32,7 +32,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:message-to-man-festival-echo-program-screenings-in-krasnoyar-krasnoya
  rsk@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261123
 SUMMARY:Фестиваль «Послание к человеку»: по
@@ -54,7 +54,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:adventures-of-mosaics-on-earth-and-under-dir-aleksey-fedorch-krasnoya
  rsk@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART:20261120T120000Z
 DTEND:20261120T140000Z
 SUMMARY:«Приключения мозаик на земле и под»
@@ -75,7 +75,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iskrafest-festival-krasnoyarsk@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART:20261129T080000Z
 DTEND:20261129T100000Z
 SUMMARY:Фестиваль «Искрафест»
@@ -95,7 +95,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ballet-leap-to-freedom-krasnoyarsk@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART:20261129T120000Z
 DTEND:20261129T140000Z
 SUMMARY:Балет «Прыжок в свободу»
@@ -116,7 +116,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:short-film-session-in-search-of-the-supreme-it-was-summer-ca-krasnoya
  rsk@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART:20261121T090000Z
 DTEND:20261121T110000Z
 SUMMARY:Сеанс короткого метра: «В поисках в
@@ -138,30 +138,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:krasnoyarsk-schnittke-choir@afisha-art
-DTSTAMP:20261119T184256Z
-DTSTART:20261119T120000Z
-DTEND:20261119T140000Z
-SUMMARY:Шнитке. Концерт для хора на стихи На
- рекаци — премьера в Красноярске
-LOCATION:Красноярская филармония\, Краснояр
- ск
-DESCRIPTION:Первое исполнение в городе одног
- о из главных хоровых сочинений Альфреда
-  Шнитке.\nКрасноярский камерный хор\, Ека
- терина Баулина\nhttps://t.me/orpheusradio
-URL:https://doublebasskakov.github.io/radar/#e=krasnoyarsk-schnittke-choi
- r
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Шнитке. Концерт для хора на стихи 
- Нарекаци — премьера в Красноярске
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:bald-man-s-curlers-dir-masha-godovannaya-krasnoyarsk@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART:20261121T110000Z
 DTEND:20261121T130000Z
 SUMMARY:«Бигуди лысого человека»\, реж. Маша
@@ -180,8 +158,31 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:exhibition-pozdeev-s-anthology-krasnoyarsk@afisha-art
+DTSTAMP:20261119T231855Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:Последний день: Экспозиция «Антоло
+ гия Поздеева»
+LOCATION:Красноярский музейный центр\, Крас
+ ноярск
+DESCRIPTION:Ретроспективная выставка и экску
+ рсии\, посвященные творчеству знакового
+  красноярского художника Андрея Поздее
+ ва.\nАндрей Поздеев\nhttps://www.afisha.ru/excursion/eksku
+ rsiya-po-vystavke-antologiya-pozdeeva-5736/
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-pozdeev-s-antho
+ logy-krasnoyarsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Экспозиция «Анто
+ логия Поздеева»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:krsk-ploshchad-mira-pozdeev-antologiya@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART;VALUE=DATE:20270216
 DTEND;VALUE=DATE:20270217
 SUMMARY:Последний день: «Антология». Андрей
@@ -204,7 +205,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-indigenous-minor-peoples-of-siberia-krasnoyarsk@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Последний день: Выставка «Коренные 
@@ -223,29 +224,6 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Последний день: Выставка «Коренн
  ые малочисленные народы Сибири»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:exhibition-pozdeev-s-anthology-krasnoyarsk@afisha-art
-DTSTAMP:20261119T184256Z
-DTSTART;VALUE=DATE:20270228
-DTEND;VALUE=DATE:20270301
-SUMMARY:Последний день: Экспозиция «Антоло
- гия Поздеева»
-LOCATION:Красноярский музейный центр\, Крас
- ноярск
-DESCRIPTION:Ретроспективная выставка и экску
- рсии\, посвященные творчеству знакового
-  красноярского художника Андрея Поздее
- ва.\nАндрей Поздеев\nhttps://www.afisha.ru/excursion/eksku
- rsiya-po-vystavke-antologiya-pozdeeva-5736/
-URL:https://doublebasskakov.github.io/radar/#e=exhibition-pozdeev-s-antho
- logy-krasnoyarsk
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Последний день: Экспозиция «Анто
- логия Поздеева»
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

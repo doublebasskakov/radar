@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:special-screening-of-vremena-lyubvi-at-cinema-park-mosfilm-moscow@afi
+ sha-art
+DTSTAMP:20261119T231855Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:Спецпоказ фильма «Времена любви» в 
+ «Синема парк Мосфильм»
+LOCATION:«Синема парк Мосфильм»\, Москва
+DESCRIPTION:Специальный показ романтической 
+ драмы «Времена любви» с участием режисс
+ ера и актерского состава\, после которог
+ о состоится обсуждение картины.\nНикита 
+ Миклушов\, Василина Юсковец\, Алексей Лу
+ кин\nhttps://t.me/afishadaily/66428
+URL:https://doublebasskakov.github.io/radar/#e=special-screening-of-vreme
+ na-lyubvi-at-cinema-park-mosfilm-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спецпоказ фильма «Времена любви»
+  в «Синема парк Мосфильм»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:yalt-yult-exhibition-tashkent@afisha-art
+DTSTAMP:20261119T231855Z
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270207
+SUMMARY:Последний день: Выставка «Ялт-Юлт»
+LOCATION:ICHKARI\, Ташкент\, Узбекистан
+DESCRIPTION:Тематическая выставка в музее ICHKA
+ RI\, посвященная традициям и визуальной к
+ ультуре.\n\nhttps://www.afisha.uz/ru/exhibitions/2026/09/17/yaltyu
+ lt
+URL:https://doublebasskakov.github.io/radar/#e=yalt-yult-exhibition-tashk
+ ent
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Выставка «Ялт-Юлт
+ »
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

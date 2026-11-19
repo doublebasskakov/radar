@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:hikmah-exhibition-tashkent@afisha-art
+DTSTAMP:20261119T231855Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:Последний день: Выставка Hikmah
+LOCATION:Центр современного искусства в Таш
+ кенте (CCA Tashkent)\, Ташкент\, Узбекистан
+DESCRIPTION:Масштабная выставка в новом Цент
+ ре современного искусства в Ташкенте.\n\n
+ https://www.afisha.uz/ru/exhibitions/2026/08/17/hikmah
+URL:https://doublebasskakov.github.io/radar/#e=hikmah-exhibition-tashkent
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Выставка Hikmah
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

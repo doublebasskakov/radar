@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:nyege-nyege-festival-2026-jinja@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART:20261119T130000Z
 DTEND:20261119T150000Z
 SUMMARY:Nyege Nyege Festival 2026
@@ -28,28 +28,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:nyege-nyege-festival-2026-day-1-jinja@afisha-art
-DTSTAMP:20261119T184256Z
-DTSTART:20261119T130000Z
-DTEND:20261119T150000Z
-SUMMARY:Nyege Nyege Festival 2026 — День 1
-LOCATION:Kalagala Falls\, River Nile\, Kalagala Falls\, River Nile\, Jinj
- a\, Джинджа\, Уганда
-DESCRIPTION:Открытие масштабного фестиваля м
- узыки и искусства на берегу Нила: первые
-  выступления артистов на семи сценах.\nDJ 
- Luke Hekate\, Masaka Masaka\, Odera и др.\nhttps://nyegenyege.com/
-URL:https://doublebasskakov.github.io/radar/#e=nyege-nyege-festival-2026-
- day-1-jinja
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Nyege Nyege Festival 2026 — День 1
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:nyege-nyege-festival-2026-opening-night-jinja@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART:20261119T130000Z
 DTEND:20261119T150000Z
 SUMMARY:Nyege Nyege Festival 2026 — открытие
@@ -68,33 +48,9 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:radio-plato-closing-event-sara-tokina-anastasiya-rydlyewskay-szczecin
- @afisha-art
-DTSTAMP:20261119T184256Z
-DTSTART:20261119T190000Z
-DTEND:20261119T210000Z
-SUMMARY:Radio Plato Closing Event: Сара Токина\, Анастас
- ия Рыдлеўская\, Papa Bo Selektah\, KorneJ
-LOCATION:Klub Storrady\, Storrady\, Szczecin\, Щецин\, Польша
-DESCRIPTION:Прощальная вечеринка Radio Plato в Шчэ
- цине с перформансом доулы смерти Сары Т
- окиной\, презентацией альбома Анастасии
-  Рыдлеўской и лайвами Papa Bo Selektah и KorneJ.\nСа
- ра Токина\, Анастасия Рыдлеўская\, Papa Bo Sel
- ektah\, KorneJ\nhttps://radioplato.live
-URL:https://doublebasskakov.github.io/radar/#e=radio-plato-closing-event-
- sara-tokina-anastasiya-rydlyewskay-szczecin
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Radio Plato Closing Event: Сара Токина\, Анаст
- асия Рыдлеўская\, Papa Bo Selektah\, KorneJ
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:intertronika-festival-workshops-live-concert-and-club-night-hamburg@a
  fisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART:20261205T193000Z
 DTEND:20261205T213000Z
 SUMMARY:Фестиваль Intertronika: воркшопы\, лайв-ко
@@ -117,7 +73,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nyege-nyege-festival-2026-day-3-jinja@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Nyege Nyege Festival 2026 — День 3
@@ -136,7 +92,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nyege-nyege-festival-2026-day-2-jinja@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:Nyege Nyege Festival 2026 — День 2
@@ -155,7 +111,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nyege-nyege-festival-2026-finale-jinja@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Nyege Nyege Festival 2026 — Финал
@@ -173,8 +129,32 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:juan-atkins-tribute-night-at-new-river-studios-london@afisha-art
+DTSTAMP:20261119T231855Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261122
+SUMMARY:Вечер памяти Хуана Аткинса в New River St
+ udios
+LOCATION:New River Studios\, Harringay\, London\, Лондон\, Вели
+ кобритания
+DESCRIPTION:Трибьют-вечер в память о пионере 
+ детройт-техно Хуане Аткинсе: показ доку
+ ментального фильма «Последний ангел ис
+ тории» и DJ-сеты от UKAEA\, Ruby Quick и Proteus.\nUKAEA\, 
+ Ruby Quick\, Proteus\nhttps://thequietus.com/news/new-river-studio-juan-a
+ tkins-tribute-on-friday-night/
+URL:https://doublebasskakov.github.io/radar/#e=juan-atkins-tribute-night-
+ at-new-river-studios-london
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Вечер памяти Хуана Аткинса в New Rive
+ r Studios
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:redo-rave-tbilisi@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:REDO RAVE
@@ -194,7 +174,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sonar-2027@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART;VALUE=DATE:20270617
 DTEND;VALUE=DATE:20270620
 SUMMARY:Sónar 2027
@@ -214,7 +194,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:berlin-atonal-2027@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART;VALUE=DATE:20270825
 DTEND;VALUE=DATE:20270830
 SUMMARY:Berlin Atonal 2027
@@ -233,7 +213,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sbpch-concert-in-berlin-berlin@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Концерт группы СБПЧ в Берлине
@@ -250,26 +230,64 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:juan-atkins-tribute-night-at-new-river-studios-london@afisha-art
-DTSTAMP:20261119T184256Z
+UID:nyege-nyege-festival-2026-day-2-jinja-2@afisha-art
+DTSTAMP:20261119T231855Z
 DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261122
-SUMMARY:Вечер памяти Хуана Аткинса в New River St
- udios
-LOCATION:New River Studios\, Harringay\, London\, Лондон\, Вели
- кобритания
-DESCRIPTION:Трибьют-вечер в память о пионере 
- детройт-техно Хуане Аткинсе: показ доку
- ментального фильма «Последний ангел ис
- тории» и DJ-сеты от UKAEA\, Ruby Quick и Proteus.\nUKAEA\, 
- Ruby Quick\, Proteus\nhttps://thequietus.com/news/new-river-studio-juan-a
- tkins-tribute-on-friday-night/
-URL:https://doublebasskakov.github.io/radar/#e=juan-atkins-tribute-night-
- at-new-river-studios-london
+DTEND;VALUE=DATE:20261121
+SUMMARY:Фестиваль Nyege Nyege 2026 — День 2
+LOCATION:Kalagala Falls\, Kalagala Falls\, River Nile\, Джинджа\, 
+ Уганда
+DESCRIPTION:Второй день масштабного междунар
+ одного фестиваля экспериментальной эле
+ ктроники\, афробита и визуального искус
+ ства на берегах Нила.\nРазные артисты\nhttp
+ s://nyegenyege.com/tickets
+URL:https://doublebasskakov.github.io/radar/#e=nyege-nyege-festival-2026-
+ day-2-jinja-2
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Вечер памяти Хуана Аткинса в New Rive
- r Studios
+DESCRIPTION:Фестиваль Nyege Nyege 2026 — День 2
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nyege-nyege-festival-2026-day-3-jinja-2@afisha-art
+DTSTAMP:20261119T231855Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Фестиваль Nyege Nyege 2026 — День 3
+LOCATION:Kalagala Falls\, Kalagala Falls\, River Nile\, Джинджа\, 
+ Уганда
+DESCRIPTION:Кульминационная ночь фестиваля Ny
+ ege Nyege с выступлениями главных хедлайнер
+ ов и ночными танцами до рассвета на семи
+  сценах.\nРазные артисты\nhttps://nyegenyege.com/ticke
+ ts
+URL:https://doublebasskakov.github.io/radar/#e=nyege-nyege-festival-2026-
+ day-3-jinja-2
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Фестиваль Nyege Nyege 2026 — День 3
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nyege-nyege-festival-2026-finale-jinja-2@afisha-art
+DTSTAMP:20261119T231855Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Фестиваль Nyege Nyege 2026 — Финал
+LOCATION:Kalagala Falls\, Kalagala Falls\, River Nile\, Джинджа\, 
+ Уганда
+DESCRIPTION:Заключительный день фестиваля с 
+ финальными сетями\, утренней программой
+  у водопадов и прощальными выступлениям
+ и.\nРазные артисты\nhttps://nyegenyege.com/tickets
+URL:https://doublebasskakov.github.io/radar/#e=nyege-nyege-festival-2026-
+ finale-jinja-2
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Фестиваль Nyege Nyege 2026 — Финал
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:concert-performance-perhaps-us-saint-peters@afisha-art
+DTSTAMP:20261119T231855Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261201
+SUMMARY:Концерт-перформанс «Возможно мы»
+LOCATION:Дом Радио\, Санкт-Петербург
+DESCRIPTION:Музыкально-театральная лаборато
+ рия альтернативных сценариев судьбы по
+ д оперные арии классических композитор
+ ов.\nАртисты Академии имени Антона Рубин
+ штейна\nhttps://t.me/domradio_online/2214
+URL:https://doublebasskakov.github.io/radar/#e=concert-performance-perhap
+ s-us-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт-перформанс «Возможно мы»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

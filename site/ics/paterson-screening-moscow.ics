@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:paterson-screening-moscow@afisha-art
+DTSTAMP:20261119T231855Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Кинопоказ «Патерсон»
+LOCATION:Госфильмофонд / Иллюзион\, Москва
+DESCRIPTION:Повторный прокат поэтической дра
+ мы Джима Джармуша о повседневности.\nДжи
+ м Джармуш\nhttps://t.me/gosfilmofond/9010
+URL:https://doublebasskakov.github.io/radar/#e=paterson-screening-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Кинопоказ «Патерсон»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

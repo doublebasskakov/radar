@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:11th-scientific-and-practical-conference-museum-in-the-city--moscow@a
+ fisha-art
+DTSTAMP:20261119T231855Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261204
+SUMMARY:XI научно-практическая конференция 
+ «Музей в городе — город в музее»
+LOCATION:Музей Москвы\, Зубовский бульвар\, 2\
+ , Москва
+DESCRIPTION:Конференция посвящена теме «Исто
+ рия или память? Музей в поисках идентичн
+ ости» с участием музейных экспертов.\nМу
+ зей Москвы\nhttps://t.me/mosmuseum/7665
+URL:https://doublebasskakov.github.io/radar/#e=11th-scientific-and-practi
+ cal-conference-museum-in-the-city--moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:XI научно-практическая конференци
+ я «Музей в городе — город в музее»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

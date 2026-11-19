@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:idiotology-moscow@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART:20261216T160000Z
 DTEND:20261216T180000Z
 SUMMARY:Идиотология
@@ -16,6 +16,25 @@ DESCRIPTION:Интерпретация романа Ф. М. Достое
  й осел»\, режиссер Клим Козинский.\nКлим 
  Козинский\nhttps://electrotheatre.ru/playbill
 URL:https://doublebasskakov.github.io/radar/#e=idiotology-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Идиотология
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:idiotology-moscow-1@afisha-art
+DTSTAMP:20261119T231855Z
+DTSTART:20261217T160000Z
+DTEND:20261217T180000Z
+SUMMARY:Идиотология
+LOCATION:Электротеатр Станиславский\, Тверс
+ кая ул.\, 23\, Москва
+DESCRIPTION:Интерпретация романа Ф. М. Достое
+ вского «Идиот» в рамках проекта «Золото
+ й осел»\, режиссер Клим Козинский.\nКлим 
+ Козинский\nhttps://electrotheatre.ru/playbill
+URL:https://doublebasskakov.github.io/radar/#e=idiotology-moscow-1
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Идиотология

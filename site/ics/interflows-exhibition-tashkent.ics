@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:interflows-exhibition-tashkent@afisha-art
+DTSTAMP:20261119T231855Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+SUMMARY:Последний день: Выставка Interflows
+LOCATION:ARTepa Gallery by Green University\, Ташкент\, Узбек
+ истан
+DESCRIPTION:Экспозиция современной художест
+ венной работы в галерее ARTepa.\n\nhttps://www.afisha
+ .uz/ru/exhibitions/2026/09/28/interflows
+URL:https://doublebasskakov.github.io/radar/#e=interflows-exhibition-tash
+ kent
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Выставка Interflows
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:the-six-reiner-holzemer-brussels@afisha-art
+DTSTAMP:20261119T231855Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Открытие: The Six — Райнер Хольцемер
+LOCATION:Bozar\, Rue Ravenstein 23\, Брюссель\, Бельгия
+DESCRIPTION:Показ документального арт-фильма
+  Райнера Хольцемера в рамках кинопрогра
+ ммы центра Bozar.\nReiner Holzemer\nhttps://www.bozar.be/en/cale
+ ndar/six-reiner-holzemer
+URL:https://doublebasskakov.github.io/radar/#e=the-six-reiner-holzemer-br
+ ussels
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: The Six — Райнер Хольцемер
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

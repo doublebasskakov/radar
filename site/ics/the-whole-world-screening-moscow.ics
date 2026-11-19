@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:the-whole-world-screening-moscow@afisha-art
+DTSTAMP:20261119T231855Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Показ фильма «Увидеть всё»
+LOCATION:Киноцентр «Октябрь»\, Новый Арбат\, 
+ 24\, Москва
+DESCRIPTION:Прокат нашумевшего документальн
+ ого или арт-фильма\, представленного Beat F
+ ilm Festival.\nNone\nhttps://t.me/beatfest/6476
+URL:https://doublebasskakov.github.io/radar/#e=the-whole-world-screening-
+ moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильма «Увидеть всё»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

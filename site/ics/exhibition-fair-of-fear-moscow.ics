@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:exhibition-fair-of-fear-moscow@afisha-art
+DTSTAMP:20261119T231855Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Последний день: Выставка «Ярмарка с
+ траха»
+LOCATION:masters:dom\, Софийская наб.\, 34/5\, Москва
+DESCRIPTION:Предаукционная выставка проекта 
+ аукциON.art\, представляющая работы соврем
+ енных авторов\, включая керамические об
+ ъекты Петра Дьякова.\nПётр Дьяков\, аукци
+ ON.art\, галерея Anna Nova\nhttps://t.me/anna_nova_gallery/4842
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-fair-of-fear-mo
+ scow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Выставка «Ярмарк
+ а страха»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

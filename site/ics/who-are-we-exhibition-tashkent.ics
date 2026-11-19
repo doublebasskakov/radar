@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:who-are-we-exhibition-tashkent@afisha-art
+DTSTAMP:20261119T231855Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Выставка «Кто мы?»
+LOCATION:Ташкент\, Ташкент\, Узбекистан
+DESCRIPTION:Выставка приурочена к 30-летию раб
+ оты Британского совета в Узбекистане.\nБ
+ ританский совет\nhttps://www.afisha.uz/ru/exhibitions/2026/
+ 11/12/britishcouncil
+URL:https://doublebasskakov.github.io/radar/#e=who-are-we-exhibition-tash
+ kent
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выставка «Кто мы?»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

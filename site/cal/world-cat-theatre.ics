@@ -7,33 +7,8 @@ X-WR-CALNAME:Радар — Мир / World · cat-theatre
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:gla55-anne-teresa-de-keersmaeker-rosas-ictus-bl-ndman-berlin@afisha-a
- rt
-DTSTAMP:20261119T184256Z
-DTSTART:20261119T183000Z
-DTEND:20261119T203000Z
-SUMMARY:GLA55: Анна Тереза Де Кеерсмакер / Rosas\, 
- Ictus & BL!NDMAN
-LOCATION:Haus der Berliner Festspiele\, Schaperstraße 24\, 10719 Berlin\
- , Берлин\, Германия
-DESCRIPTION:Спектакль в рамках Performing Arts Season\, 
- объединяющий хореографию Анны Терезы Д
- е Кеерсмаeker и живое музыкальное исполне
- ние ансамблей Rosas\, Ictus и BL!NDMAN.\nAnne Teresa De Keer
- smaeker\, Rosas\, Ictus\, BL!NDMAN\nhttps://www.berlinerfestspiele.de/en/
- performing-arts-season/programm/2026/spielplan/gla55
-URL:https://doublebasskakov.github.io/radar/#e=gla55-anne-teresa-de-keers
- maeker-rosas-ictus-bl-ndman-berlin
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:GLA55: Анна Тереза Де Кеерсмакер / Rosa
- s\, Ictus & BL!NDMAN
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:cinderella-ballet-tashkent@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART:20261128T140000Z
 DTEND:20261128T160000Z
 SUMMARY:Балет «Золушка»
@@ -54,7 +29,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:theatre-performance-la-mort-du-mo-me-by-se-bastien-kheroufi-paris@afi
  sha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART:20261119T183000Z
 DTEND:20261119T203000Z
 SUMMARY:Открытие: Спектакль Себастьяна Кер
@@ -74,7 +49,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nodirabegim-play-tashkent@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART:20261125T130000Z
 DTEND:20261125T150000Z
 SUMMARY:Спектакль «Nodirabegim»
@@ -96,7 +71,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ballet-the-lady-of-the-camellias-tashkent@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART:20261204T140000Z
 DTEND:20261204T160000Z
 SUMMARY:Балет «Дама с камелиями»
@@ -119,7 +94,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:play-osmon-hamma-gapni-eshitadi-tashkent@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART:20261123T130000Z
 DTEND:20261123T150000Z
 SUMMARY:Спектакль «Osmon hamma gapni eshitadi»
@@ -142,7 +117,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:play-eringizni-menga-soting-tashkent@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART:20261129T090000Z
 DTEND:20261129T110000Z
 SUMMARY:Спектакль «Eringizni menga soting»
@@ -164,7 +139,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:premiere-of-the-comedy-play-maysara-tashkent@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART:20261128T120000Z
 DTEND:20261128T140000Z
 SUMMARY:Премьера комедийного спектакля «Mays
@@ -186,8 +161,33 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:play-do-not-part-with-your-loved-ones-tashkent@afisha-art
+DTSTAMP:20261119T231855Z
+DTSTART:20261127T140000Z
+DTEND:20261127T160000Z
+SUMMARY:Спектакль «С любимыми не расставай
+ тесь»
+LOCATION:Государственный Академический Рус
+ ский драматический театр Узбекистана\, 
+ ул. Зарафшан\, 24\, Ташкент\, Узбекистан
+DESCRIPTION:Пронзительная история по пьесе А
+ лександра Володина о любви\, ревности и 
+ чувствах\, которые важно беречь.\nГосуда
+ рственный Академический Русский драмат
+ ический театр Узбекистана\nhttps://t.me/tashkent_g
+ ogo/8207
+URL:https://doublebasskakov.github.io/radar/#e=play-do-not-part-with-your
+ -loved-ones-tashkent
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спектакль «С любимыми не расстав
+ айтесь»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:the-overcoat-tbilisi@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART:20261122T160000Z
 DTEND:20261122T180000Z
 SUMMARY:Спектакль «Шинель»
@@ -206,7 +206,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sherlock-holmes-and-the-12-days-of-christmas-london@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART:20261124T193000Z
 DTEND:20261124T213000Z
 SUMMARY:Открытие: Sherlock Holmes and the 12 Days of Christmas
@@ -228,7 +228,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:the-pillar-and-the-ground-of-truth-by-pavel-a-florenskij-venice@afish
  a-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART:20261116T180000Z
 DTEND:20261116T200000Z
 SUMMARY:Пьеса «Столп и утверждение истины» 
@@ -251,7 +251,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:performance-les-jeux-de-l-amour-et-de-l-e-nigme-paris@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART:20270318T180000Z
 DTEND:20270318T200000Z
 SUMMARY:Спектакль «Les Jeux de l'amour et de l'énigme»
@@ -271,7 +271,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:reading-of-der-kuss-des-kohleperts-mr-kolpert-tashkent@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART:20261120T140000Z
 DTEND:20261120T160000Z
 SUMMARY:Читка пьесы «Господин Кольперт»
@@ -293,7 +293,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lost-stories-performance-london@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:Спектакль Lost Stories
@@ -315,7 +315,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:la-boheme-opera-and-glam-night-christmas-party-berlin@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:Опера «Богема» и рождественская ве
@@ -337,7 +337,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:play-gromkie-tbilisi@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART;VALUE=DATE:20270406
 DTEND;VALUE=DATE:20270407
 SUMMARY:Спектакль «Громкие»
@@ -356,7 +356,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:christmas-tree-lighting-ceremony-london@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:Церемония зажжения огней на рождес
@@ -379,7 +379,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:blackbird-bath@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART;VALUE=DATE:20270204
 DTEND;VALUE=DATE:20270205
 SUMMARY:Открытие: Blackbird
@@ -397,7 +397,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pygmalion-bath@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART;VALUE=DATE:20270813
 DTEND;VALUE=DATE:20270814
 SUMMARY:Открытие: Pygmalion
@@ -414,7 +414,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a-german-life-bath@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART;VALUE=DATE:20270312
 DTEND;VALUE=DATE:20270313
 SUMMARY:Открытие: A German Life
@@ -431,7 +431,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:seven-moons-at-ilkhom-theatre-tashkent@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Спектакль «Семь лун» в театре «Ильх
@@ -452,7 +452,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:romantics-anonymous-bath@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART;VALUE=DATE:20270709
 DTEND;VALUE=DATE:20270710
 SUMMARY:Открытие: Romantics Anonymous
@@ -469,7 +469,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:croydonites-independent-theatre-festival-london@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261122
 SUMMARY:Фестиваль независимого театра Croydoni
@@ -489,7 +489,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:minsk-sea-performance-vilnius@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Спектакль «Минское море»

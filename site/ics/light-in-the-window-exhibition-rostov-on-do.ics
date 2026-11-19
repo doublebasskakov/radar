@@ -5,10 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:light-in-the-window-exhibition-rostov-on-do@afisha-art
-DTSTAMP:20261119T184256Z
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261120
-SUMMARY:Открытие: Выставка «Свет в окне»
+DTSTAMP:20261119T231855Z
+DTSTART;VALUE=DATE:20261230
+DTEND;VALUE=DATE:20261231
+SUMMARY:Последний день: Выставка «Свет в ок
+ не»
 LOCATION:Ростовский музей краеведения\, ул. 
  Большая Садовая\, 79\, Ростов-на-Дону
 DESCRIPTION:Историко-художественная выставк
@@ -19,7 +20,8 @@ URL:https://doublebasskakov.github.io/radar/#e=light-in-the-window-exhibi
  tion-rostov-on-do
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Открытие: Выставка «Свет в окне»
+DESCRIPTION:Последний день: Выставка «Свет в 
+ окне»
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:magnificent-hermitage-exhibition-kaliningrad@afisha-art
+DTSTAMP:20261119T231855Z
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+SUMMARY:Выставка «Великолепный Эрмитаж»
+LOCATION:Третьяковская галерея. Калинингра
+ д\, Калининград\, Калининград
+DESCRIPTION:Масштабная выставка\, представля
+ ющая сокровища и шедевры из собрания Го
+ сударственного Эрмитажа.\n\nhttps://www.afisha.ru/e
+ xhibition/velikolepniy-ermitazh-1011458/#rcmrclid=57ac9ca5be7547b2
+URL:https://doublebasskakov.github.io/radar/#e=magnificent-hermitage-exhi
+ bition-kaliningrad
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выставка «Великолепный Эрмитаж»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:autofiction-festival-at-teatr-doc-moscow@afisha-art
+DTSTAMP:20261119T231855Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261126
+SUMMARY:Фестиваль автофикшна в Театр.doc
+LOCATION:Театр.doc\, Москва
+DESCRIPTION:Фестиваль\, объединяющий докумен
+ тальный театр и личные истории\, включая
+  премьеру «Воображаемой земли».\nАся Вол
+ ошина\, Юрий Бутусов\nhttps://t.me/russiamatters/13488
+URL:https://doublebasskakov.github.io/radar/#e=autofiction-festival-at-te
+ atr-doc-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Фестиваль автофикшна в Театр.doc
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:soundwalk-collective-patti-smith-correspondences-paris@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART:20270129T190000Z
 DTEND:20270129T210000Z
 SUMMARY:Soundwalk Collective & Patti Smith: Correspondences
@@ -29,7 +29,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:concert-sonic-experiments-resonating-futures-karlsruhe@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART:20261210T180000Z
 DTEND:20261210T200000Z
 SUMMARY:Концерт «Звуковые эксперименты – Р
@@ -52,7 +52,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:adk-sample-hold-11@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART:20261125T190000Z
 DTEND:20261125T210000Z
 SUMMARY:sample&hold #11: Paul Purgas & Stefan Keller
@@ -72,7 +72,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:klub-demboh-back-to-pas-berlin@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART:20261123T183000Z
 DTEND:20261123T203000Z
 SUMMARY:Klub Demboh back to PAS
@@ -96,7 +96,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:improvisational-music-concert-martin-ku-chen-ha-kon-berre-sc-berlin@a
  fisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART:20261122T183000Z
 DTEND:20261122T203000Z
 SUMMARY:Концерт импровизационной музыки: Mar
@@ -120,7 +120,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sound-stories-discovering-sounds-workshop-for-kids-and-famil-vienna@a
  fisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART:20261121T100000Z
 DTEND:20261121T120000Z
 SUMMARY:Звуковые истории – Исследуем звуки
@@ -143,7 +143,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mittwochstreff-winterblues-meets-wintersounds-karlsruhe@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART:20261125T140000Z
 DTEND:20261125T160000Z
 SUMMARY:Mittwochstreff: Winterblues meets Wintersounds
@@ -164,7 +164,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sound-stories-discovering-sounds-vienna@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART:20261121T100000Z
 DTEND:20261121T120000Z
 SUMMARY:Sound Stories – Discovering Sounds
@@ -184,7 +184,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sound-stories-discovering-sounds-vienna-2@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART:20261128T100000Z
 DTEND:20261128T120000Z
 SUMMARY:Детский воркшоп «Sound Stories – Discovering Sou
@@ -207,7 +207,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:workshop-for-kids-and-families-sound-stories-discovering-sou-vienna-2
  @afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART:20261128T100000Z
 DTEND:20261128T120000Z
 SUMMARY:Семейный воркшоп «Звуковые истории
@@ -229,7 +229,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:poe-mes-machines-paris@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART:20270130T090000Z
 DTEND:20270130T110000Z
 SUMMARY:Poèmes Machines
@@ -247,28 +247,53 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:tibetan-singing-bowls-relaxation-practice-tashkent@afisha-art
-DTSTAMP:20261119T184256Z
-DTSTART:20261119T153000Z
-DTEND:20261119T173000Z
-SUMMARY:Практика расслабления «Тибетские ч
- аши»
-LOCATION:Артха\, Ташкент\, Узбекистан
-DESCRIPTION:Сеанс звукотерапии и расслаблени
- я в гамаках с использованием тибетских 
- чаш.\nСога\nhttps://t.me/artha_uz/12562
-URL:https://doublebasskakov.github.io/radar/#e=tibetan-singing-bowls-rela
- xation-practice-tashkent
+UID:sound-meditation-with-soga-tashkent@afisha-art
+DTSTAMP:20261119T231855Z
+DTSTART:20261121T154500Z
+DTEND:20261121T174500Z
+SUMMARY:Звуковая медитация с Согой
+LOCATION:Дюна\, Ташкент\, Узбекистан
+DESCRIPTION:Сеанс звуковой медитации и практ
+ ики расслабления под руководством Соги.
+  Мероприятие проходит еженедельно по су
+ бботам.\nСога\nhttps://t.me/artha_uz/12598
+URL:https://doublebasskakov.github.io/radar/#e=sound-meditation-with-soga
+ -tashkent
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Практика расслабления «Тибетски
- е чаши»
+DESCRIPTION:Звуковая медитация с Согой
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:unsound-london-2026-2k88-bianca-scout-rainy-miller-claire-ro-london@a
+ fisha-art
+DTSTAMP:20261119T231855Z
+DTSTART:20261125T193000Z
+DTEND:20261125T213000Z
+SUMMARY:Unsound London 2026: 2K88 + Bianca Scout + Rainy Miller + claire 
+ rousay + Martyna Basta
+LOCATION:Barbican at Milton Court\, Milton Court\, Silk St\, London EC2Y 
+ 9BH\, Лондон\, Великобритания
+DESCRIPTION:Концерт экспериментальной и эмби
+ ентной музыки в рамках масштабного брит
+ анского фестиваля Unsound с участием Клэр Р
+ ауси\, Мартины Басты и других музыкантов
+ .\n2K88\, Bianca Scout\, Rainy Miller\, claire rousay\, Martyna Basta\nht
+ tps://www.barbican.org.uk/whats-on/2026/event/2k88-bianca-scout-rainy-mil
+ ler
+URL:https://doublebasskakov.github.io/radar/#e=unsound-london-2026-2k88-b
+ ianca-scout-rainy-miller-claire-ro-london
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Unsound London 2026: 2K88 + Bianca Scout + Rainy Miller + cla
+ ire rousay + Martyna Basta
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:digital-workshops-for-young-audiences-bestio-robot-paris@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART:20270313T140000Z
 DTEND:20270313T160000Z
 SUMMARY:Цифровые мастерские для детей: Робо
@@ -290,7 +315,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:digital-workshops-for-young-audiences-lutherie-nume-rique-paris@afish
  a-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART:20270109T140000Z
 DTEND:20270109T160000Z
 SUMMARY:Цифровые мастерские для детей: Цифр
@@ -311,7 +336,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ctm-festival-2027@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART;VALUE=DATE:20270122
 DTEND;VALUE=DATE:20270123
 SUMMARY:Открытие: CTM Festival 2027
@@ -331,7 +356,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rewire-2027@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART;VALUE=DATE:20270408
 DTEND;VALUE=DATE:20270412
 SUMMARY:Rewire 2027
@@ -352,7 +377,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:rewire-x-korzo-26-rau-l-refree-nin-o-de-elche-visible-cloaks-the-hagu
  e@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Rewire x Korzo #26: Raül Refree & Niño de Elche\, Visible Cloak
@@ -375,7 +400,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tate-atoui-hold@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART;VALUE=DATE:20270411
 DTEND;VALUE=DATE:20270412
 SUMMARY:Последний день: Hyundai Commission: Tarek Atoui. Hol
@@ -398,7 +423,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ryuichi-sakamoto-seeing-sound-hearing-time-berlin@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART;VALUE=DATE:20270620
 DTEND;VALUE=DATE:20270621
 SUMMARY:Последний день: Ryuichi Sakamoto: seeing sound\, hea
@@ -421,7 +446,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:between-movement-and-sound-sharjah@afisha-art
-DTSTAMP:20261119T184256Z
+DTSTAMP:20261119T231855Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Between Movement and Sound

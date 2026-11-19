@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:beethoven-music-concert-and-lecture-on-late-quartets-saint-peters@afi
+ sha-art
+DTSTAMP:20261119T231855Z
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+SUMMARY:Концерт музыки Бетховена и лекция о
+  поздних квартетах
+LOCATION:Дом Радио\, Санкт-Петербург
+DESCRIPTION:Исполнение произведений Людвига 
+ ван Бетховена артистами оркестра musicAetern
+ a в сопровождении музыковедческого расс
+ каза.\nАртисты оркестра musicAeterna\, Анна Феф
+ елова\nhttps://t.me/musicaeternaTC/5013
+URL:https://doublebasskakov.github.io/radar/#e=beethoven-music-concert-an
+ d-lecture-on-late-quartets-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт музыки Бетховена и лекци
+ я о поздних квартетах
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR
