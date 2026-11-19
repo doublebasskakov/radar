@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:full-dome-program-planet-parade-perm@afisha-art
+DTSTAMP:20261119T125741Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Полнокупольная программа «Парад пл
+ анет»
+LOCATION:Планетарий\, б-р Гагарина\, 27а\, Перм
+ ь
+DESCRIPTION:Иммерсивная видеопроекция на куп
+ ол планетария\, посвященная движению и р
+ асположению планет Солнечной системы.\n\
+ nhttps://www.afisha.ru/exhibition/polnokupolnaya-programma-parad-planet-1
+ 008653/
+URL:https://doublebasskakov.github.io/radar/#e=full-dome-program-planet-p
+ arade-perm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Полнокупольная программа «Парад 
+ планет»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

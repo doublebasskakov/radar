@@ -7,9 +7,29 @@ X-WR-CALNAME:Радар — Мир / World · country-italy
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:exhibition-kandinsky-at-palazzo-bonaparte-rome@afisha-art
+DTSTAMP:20261119T125741Z
+DTSTART:20261119T080000Z
+DTEND:20261119T100000Z
+SUMMARY:Открытие: Выставка «Kandinsky» в Палацц
+ о Бонапарт
+LOCATION:Palazzo Bonaparte\, Рим\, Италия
+DESCRIPTION:Масштабная ретроспектива Васили
+ я Кандинского в Риме.\nWassily Kandinsky\nhttps://www.ce
+ ntrepompidou.fr/en/program/calendar/event/7uxjmdc
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-kandinsky-at-pa
+ lazzo-bonaparte-rome
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка «Kandinsky» в Пала
+ ццо Бонапарт
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:stefano-mancuso-la-citta-vivente-imparare-dalla-natura-per-r-rome@afi
  sha-art
-DTSTAMP:20261118T231857Z
+DTSTAMP:20261119T125741Z
 DTSTART:20261126T163000Z
 DTEND:20261126T183000Z
 SUMMARY:Стефано Манкузо: Живой город. Учить
@@ -33,7 +53,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:marinetti-l-uomo-che-invento-il-futuro-rome@afisha-art
-DTSTAMP:20261118T231857Z
+DTSTAMP:20261119T125741Z
 DTSTART:20261127T170000Z
 DTEND:20261127T190000Z
 SUMMARY:Разговор и кинопоказ: Маринетти — ч
@@ -55,7 +75,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:imprinting-i-paesaggi-nativi-degli-architetti-italiani-rome@afisha-ar
  t
-DTSTAMP:20261118T231857Z
+DTSTAMP:20261119T125741Z
 DTSTART:20261120T083000Z
 DTEND:20261120T103000Z
 SUMMARY:Импринтинг — Родные ландшафты итал
@@ -76,29 +96,9 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:exhibition-kandinsky-at-palazzo-bonaparte-rome@afisha-art
-DTSTAMP:20261118T231857Z
-DTSTART:20261119T080000Z
-DTEND:20261119T100000Z
-SUMMARY:Открытие: Выставка «Kandinsky» в Палацц
- о Бонапарт
-LOCATION:Palazzo Bonaparte\, Рим\, Италия
-DESCRIPTION:Масштабная ретроспектива Васили
- я Кандинского в Риме.\nWassily Kandinsky\nhttps://www.ce
- ntrepompidou.fr/en/program/calendar/event/7uxjmdc
-URL:https://doublebasskakov.github.io/radar/#e=exhibition-kandinsky-at-pa
- lazzo-bonaparte-rome
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Открытие: Выставка «Kandinsky» в Пала
- ццо Бонапарт
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:the-pillar-and-the-ground-of-truth-by-pavel-a-florenskij-venice@afish
  a-art
-DTSTAMP:20261118T231857Z
+DTSTAMP:20261119T125741Z
 DTSTART:20261116T180000Z
 DTEND:20261116T200000Z
 SUMMARY:Пьеса «Столп и утверждение истины» 
@@ -121,7 +121,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gordon-matta-clark-not-the-work-the-worker-rome@afisha-art
-DTSTAMP:20261118T231857Z
+DTSTAMP:20261119T125741Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 SUMMARY:Последний день: Гордон Матта-Кларк: 
@@ -144,7 +144,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:maxxi-bvlgari-prize-2026-rome@afisha-art
-DTSTAMP:20261118T231857Z
+DTSTAMP:20261119T125741Z
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270308
 SUMMARY:Последний день: Премия MAXXI BVLGARI 2026
@@ -165,7 +165,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sophie-calle-matrimoni-rotture-e-funerali-inclusi-rome@afisha-art
-DTSTAMP:20261118T231857Z
+DTSTAMP:20261119T125741Z
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
 SUMMARY:Последний день: Софи Калле: Матримо
@@ -188,7 +188,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:maxxi-collection-ritrovarsi-rome@afisha-art
-DTSTAMP:20261118T231857Z
+DTSTAMP:20261119T125741Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Открытие: Коллекция MAXXI: Встреча с с
@@ -209,7 +209,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sensing-the-future-rome@afisha-art
-DTSTAMP:20261118T231857Z
+DTSTAMP:20261119T125741Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Открытие: Ощущая будущее
@@ -228,7 +228,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:shirin-neshat-do-u-dare-rome@afisha-art
-DTSTAMP:20261118T231857Z
+DTSTAMP:20261119T125741Z
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
 SUMMARY:Последний день: Ширин Нешат: Смеешь 
@@ -249,7 +249,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:venice-biennale-arte-2026@afisha-art
-DTSTAMP:20261118T231857Z
+DTSTAMP:20261119T125741Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Последний день: Biennale Arte 2026: In Minor Keys
@@ -273,7 +273,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:venice-biennale-architettura-2027@afisha-art
-DTSTAMP:20261118T231857Z
+DTSTAMP:20261119T125741Z
 DTSTART;VALUE=DATE:20270508
 DTEND;VALUE=DATE:20270509
 SUMMARY:Открытие: Biennale Architettura 2027: Do Architecture
@@ -296,7 +296,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:biennale-arte-2026-performances-lectures-discussions-roundta-venice@a
  fisha-art
-DTSTAMP:20261118T231857Z
+DTSTAMP:20261119T125741Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Последний день: Biennale Arte 2026: performances\, l
@@ -318,7 +318,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:frontiere-the-geopolitics-of-architecture-rome@afisha-art
-DTSTAMP:20261118T231857Z
+DTSTAMP:20261119T125741Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
 SUMMARY:Открытие: Фронтиры: Геополитика арх
@@ -340,7 +340,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ordinare-il-mondo-l-archivio-di-nanda-lanfranco-rome@afisha-art
-DTSTAMP:20261118T231857Z
+DTSTAMP:20261119T125741Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 SUMMARY:Последний день: Упорядочивая мир: А
@@ -362,7 +362,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:il-villaggio-olimpico-di-roma-il-mondo-in-300-000-mq-rome@afisha-art
-DTSTAMP:20261118T231857Z
+DTSTAMP:20261119T125741Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
 SUMMARY:Открытие: Олимпийская деревня в Рим
@@ -383,7 +383,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tatiana-bilbao-estudio-campo-aperto-rome@afisha-art
-DTSTAMP:20261118T231857Z
+DTSTAMP:20261119T125741Z
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
 SUMMARY:Последний день: Татьяна Бильбао Эст

@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:art-basel-qatar-2027@afisha-art
-DTSTAMP:20261118T231857Z
+DTSTAMP:20261119T125741Z
 DTSTART:20270128T100000Z
 DTEND:20270128T120000Z
 SUMMARY:Art Basel Qatar 2027: Between
@@ -23,6 +23,24 @@ URL:https://doublebasskakov.github.io/radar/#e=art-basel-qatar-2027
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Art Basel Qatar 2027: Between
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:unruly-waters-doha@afisha-art
+DTSTAMP:20261119T125741Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Неукротимые воды
+LOCATION:Rubaiya Qatar\, Доха\, Катар
+DESCRIPTION:Новая выставка современного иску
+ сства в пространстве Rubaiya Qatar\, исследующ
+ ая водные экосистемы и геополитику.\nNone\n
+ https://qm.org.qa/en/calendar/unruly-waters/
+URL:https://doublebasskakov.github.io/radar/#e=unruly-waters-doha
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Неукротимые воды
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

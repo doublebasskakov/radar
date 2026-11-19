@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:tomsk-masm-denisov@afisha-art
-DTSTAMP:20261118T231857Z
+DTSTAMP:20261119T125741Z
 DTSTART:20261124T120000Z
 DTEND:20261124T140000Z
 SUMMARY:МАСМ. «Диалоги сквозь время: Эдисон 
@@ -28,7 +28,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tsxr-scan-tomsk@afisha-art
-DTSTAMP:20261118T231857Z
+DTSTAMP:20261119T125741Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Последний день: ТСХР + СКАН
@@ -47,7 +47,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tshr-scan-exhibition-tomsk@afisha-art
-DTSTAMP:20261118T231857Z
+DTSTAMP:20261119T125741Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Последний день: Выставка ТСХР + СКАН
@@ -67,8 +67,31 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:interactive-exhibition-robopark-tomsk@afisha-art
+DTSTAMP:20261119T125741Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Открытие: Интерактивная выставка «
+ Робопарк»
+LOCATION:Робопарк\, Томск
+DESCRIPTION:Масштабная технологическая эксп
+ озиция\, где посетители могут взаимодей
+ ствовать с современными роботами и изуч
+ ать достижения в области инженерной мыс
+ ли.\nNone\nhttps://www.afisha.ru/exhibition/interaktivnaya-vystavka-rob
+ opark-tomsk-1015984/
+URL:https://doublebasskakov.github.io/radar/#e=interactive-exhibition-rob
+ opark-tomsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Интерактивная выставка
+  «Робопарк»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:tomsk-kabinet-flora-sibiri@afisha-art
-DTSTAMP:20261118T231857Z
+DTSTAMP:20261119T125741Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:Последний день: «Флора Сибири: худо
@@ -91,7 +114,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:first-workshop-of-siberian-art-exhibition-tomsk@afisha-art
-DTSTAMP:20261118T231857Z
+DTSTAMP:20261119T125741Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Последний день: Выставка Первой мас
@@ -114,8 +137,54 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:tshr-skan-contemporaries-exhibition-tomsk@afisha-art
+DTSTAMP:20261119T125741Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Открытие: Выставка «ТСХР + СКАН + Сов
+ ременники»
+LOCATION:Томский центр современной культур
+ ы\, пер. Нахановича\, 3а\, Томск
+DESCRIPTION:Коллективная выставка\, объединя
+ ющая работы Творческого союза художник
+ ов России и молодых авторов в едином про
+ странстве.\nNone\nhttps://www.afisha.ru/exhibition/tshr-skan-sov
+ remenniki-1016716/
+URL:https://doublebasskakov.github.io/radar/#e=tshr-skan-contemporaries-e
+ xhibition-tomsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка «ТСХР + СКАН + С
+ овременники»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:architecture-instructions-for-use-by-s-berezovskaya-tomsk@afisha-art
+DTSTAMP:20261119T125741Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:Курс лекций С. Березовской «Архитек
+ тура: инструкция по применению»
+LOCATION:Томский центр современной культур
+ ы\, пер. Нахановича\, 3а\, Томск
+DESCRIPTION:Авторский лекционный цикл\, обуча
+ ющий анализировать архитектурное насле
+ дие и понимать логику городского простр
+ анства.\nС. Березовская\nhttps://www.afisha.ru/exhibiti
+ on/kurs-arhitektura-instrukciya-po-primeneniyu-ot-s-berezovskoy-1016006/
+URL:https://doublebasskakov.github.io/radar/#e=architecture-instructions-
+ for-use-by-s-berezovskaya-tomsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Курс лекций С. Березовской «Архит
+ ектура: инструкция по применению»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:art-of-contemporaries-tomsk@afisha-art
-DTSTAMP:20261118T231857Z
+DTSTAMP:20261119T125741Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Последний день: Искусство современ
@@ -136,8 +205,53 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:art-of-contemporaries-exhibition-tomsk@afisha-art
+DTSTAMP:20261119T125741Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Открытие: Выставка «Искусство совр
+ еменников»
+LOCATION:Томский центр современной культур
+ ы\, пер. Нахановича\, 3а\, Томск
+DESCRIPTION:Экспозиция работ ныне живущих ху
+ дожников\, представляющая срез актуальн
+ ых художественных практик и стилей.\nNone\n
+ https://www.afisha.ru/exhibition/iskusstvo-sovremennikov-1016008/
+URL:https://doublebasskakov.github.io/radar/#e=art-of-contemporaries-exhi
+ bition-tomsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка «Искусство со
+ временников»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cinema-history-russian-cinematography-lecture-series-tomsk@afisha-art
+DTSTAMP:20261119T125741Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Цикл лекций «История кино: российск
+ ий кинематограф»
+LOCATION:Томский центр современной культур
+ ы\, пер. Нахановича\, 3а\, Томск
+DESCRIPTION:Образовательный курс\, посвященн
+ ый эволюции отечественного киноискусст
+ ва от его истоков до современности.\nNone\nh
+ ttps://www.afisha.ru/exhibition/istoriya-kino-rossiyskiy-kinematograf-101
+ 6144/
+URL:https://doublebasskakov.github.io/radar/#e=cinema-history-russian-cin
+ ematography-lecture-series-tomsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Цикл лекций «История кино: россий
+ ский кинематограф»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:history-of-cinema-russian-cinematography-tomsk@afisha-art
-DTSTAMP:20261118T231857Z
+DTSTAMP:20261119T125741Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:История кино: российский кинематог
@@ -159,7 +273,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:contemporaries-vidimo-nevidimo-tomsk@afisha-art
-DTSTAMP:20261118T231857Z
+DTSTAMP:20261119T125741Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Последний день: Современники + Види
@@ -181,7 +295,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tshr-decorative-and-applied-art-exhibition-tomsk@afisha-art
-DTSTAMP:20261118T231857Z
+DTSTAMP:20261119T125741Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Последний день: Выставка декоратив

@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:curator-led-tour-of-the-stage-of-action-exhibition-saint-peters@afish
+ a-art
+DTSTAMP:20261119T125741Z
+DTSTART:20261119T153000Z
+DTEND:20261119T173000Z
+SUMMARY:Кураторская экскурсия по выставке 
+ «Сцена действия»
+LOCATION:ЦВЗ «Манеж»\, Санкт-Петербург
+DESCRIPTION:Авторская экскурсия по театральн
+ ой экспозиции под руководством куратор
+ а проекта.\nМанеж\nhttps://t.me/spbmanege/4052
+URL:https://doublebasskakov.github.io/radar/#e=curator-led-tour-of-the-st
+ age-of-action-exhibition-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Кураторская экскурсия по выставк
+ е «Сцена действия»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

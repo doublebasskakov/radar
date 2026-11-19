@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Радар — Россия · city-novokuskovo
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:mystery-of-the-culture-center-where-the-light-goes-out-novokuskovo@af
+ isha-art
+DTSTAMP:20261119T125741Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Игра-путешествие «Тайна ДК: Там\, гд
+ е гаснет свет»
+LOCATION:Новокусковский ДК\, с. Новокусково\,
+  ул. Школьная\, 49\, Новокусково
+DESCRIPTION:Иммерсивное интерактивное мероп
+ риятие\, предлагающее участникам исслед
+ овать пространство дома культуры в форм
+ ате игрового перформанса.\nNone\nhttps://www.afisha
+ .ru/exhibition/igra-puteshestvie-tayna-dk-tam-gde-gasnet-svet-1015512/
+URL:https://doublebasskakov.github.io/radar/#e=mystery-of-the-culture-cen
+ ter-where-the-light-goes-out-novokuskovo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Игра-путешествие «Тайна ДК: Там\, 
+ где гаснет свет»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

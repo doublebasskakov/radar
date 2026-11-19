@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:screening-of-alisher-navoi-1947-tashkent@afisha-art
+DTSTAMP:20261119T125741Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Показ фильма «Алишер Навои» (1947)
+LOCATION:Центр современного искусства (CCA Tash
+ kent)\, Ташкент\, Узбекистан
+DESCRIPTION:Показ исторической картины Камил
+ я Ярматова о поэте и мыслителе Алишер На
+ вои.\nКамиль Ярматов\nhttps://ccat.uz
+URL:https://doublebasskakov.github.io/radar/#e=screening-of-alisher-navoi
+ -1947-tashkent
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильма «Алишер Навои» (1947)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

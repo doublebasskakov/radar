@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:exhibition-to-open-eyes-at-centre-pompidou-ma-laga-malaga@afisha-art
-DTSTAMP:20261118T231857Z
+DTSTAMP:20261119T125741Z
 DTSTART:20261119T083000Z
 DTEND:20261119T103000Z
 SUMMARY:Открытие: Выставка «To Open Eyes» в Центр
@@ -29,7 +29,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sonar-2027@afisha-art
-DTSTAMP:20261118T231857Z
+DTSTAMP:20261119T125741Z
 DTSTART;VALUE=DATE:20270617
 DTEND;VALUE=DATE:20270620
 SUMMARY:Sónar 2027
@@ -44,6 +44,161 @@ URL:https://doublebasskakov.github.io/radar/#e=sonar-2027
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Sónar 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:la-menesunda-according-to-marta-minuji-n-madrid@afisha-art
+DTSTAMP:20261119T125741Z
+DTSTART;VALUE=DATE:20270308
+DTEND;VALUE=DATE:20270309
+SUMMARY:Последний день: «Ла Менесунда» по М
+ арте Минухин
+LOCATION:Центр искусств королевы Софии\, C/Rond
+ a de Atocha\, 2\, Мадрид\, Испания
+DESCRIPTION:Легендарная иммерсивная инсталл
+ яция-лабиринт аргентинской художницы М
+ арты Минухин.\nМарта Минухин\nhttps://www.museorei
+ nasofia.es/en/exhibition/la-menesunda-according-marta-minujin
+URL:https://doublebasskakov.github.io/radar/#e=la-menesunda-according-to-
+ marta-minuji-n-madrid
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: «Ла Менесунда» по
+  Марте Минухин
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:miguel-a-ngel-rojas-the-night-madrid@afisha-art
+DTSTAMP:20261119T125741Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+SUMMARY:Последний день: Мигель Анхель Рохас
+ . Ночь
+LOCATION:Центр искусств королевы Софии\, C/Rond
+ a de Atocha\, 2\, Мадрид\, Испания
+DESCRIPTION:Выставка произведений Мигеля Анх
+ еля Рохаса\, исследующая темы ночи\, иден
+ тичности и социальных изменений.\nМигел
+ ь Анхель Рохас\nhttps://www.museoreinasofia.es/en/exhibition/
+ miguel-angel-rojas
+URL:https://doublebasskakov.github.io/radar/#e=miguel-a-ngel-rojas-the-ni
+ ght-madrid
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Мигель Анхель Рох
+ ас. Ночь
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fernanda-laguna-my-heart-is-a-magnet-1992-2026-madrid@afisha-art
+DTSTAMP:20261119T125741Z
+DTSTART;VALUE=DATE:20270303
+DTEND;VALUE=DATE:20270304
+SUMMARY:Открытие: Фернанда Лагуна. Мое серд
+ це — магнит (1992–2026)
+LOCATION:Центр искусств королевы Софии\, C/Rond
+ a de Atocha\, 2\, Мадрид\, Испания
+DESCRIPTION:Масштабная выставка аргентинско
+ й художницы Фернанды Лагуны\, охватываю
+ щая её работы с 1992 по 2026 год.\nФернанда Ла
+ гуна\nhttps://www.museoreinasofia.es/en/exhibition/fernanda-laguna
+URL:https://doublebasskakov.github.io/radar/#e=fernanda-laguna-my-heart-i
+ s-a-magnet-1992-2026-madrid
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Фернанда Лагуна. Мое се
+ рдце — магнит (1992–2026)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cecilia-bengolea-shelly-belly-inna-real-life-madrid@afisha-art
+DTSTAMP:20261119T125741Z
+DTSTART;VALUE=DATE:20270217
+DTEND;VALUE=DATE:20270218
+SUMMARY:Открытие: Сесилия Бенголеа. Шелли Б
+ елли в реальной жизни
+LOCATION:Центр искусств королевы Софии\, C/Rond
+ a de Atocha\, 2\, Мадрид\, Испания
+DESCRIPTION:Мультидисциплинарный проект и пе
+ рформанс Сесилии Бенголеа на стыке совр
+ еменного искусства и танца.\nСесилия Бен
+ голеа\nhttps://www.museoreinasofia.es/en/exhibition/cecilia-bengolea
+URL:https://doublebasskakov.github.io/radar/#e=cecilia-bengolea-shelly-be
+ lly-inna-real-life-madrid
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Сесилия Бенголеа. Шелли
+  Белли в реальной жизни
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:anne-truitt-pioneer-of-minimal-art-madrid@afisha-art
+DTSTAMP:20261119T125741Z
+DTSTART;VALUE=DATE:20270224
+DTEND;VALUE=DATE:20270225
+SUMMARY:Открытие: Энн Труитт. Пионер минима
+ лизма
+LOCATION:Центр искусств королевы Софии\, C/Rond
+ a de Atocha\, 2\, Мадрид\, Испания
+DESCRIPTION:Ретроспектива американской худо
+ жницы Энн Труитт\, одной из ключевых фиг
+ ур в развитии минимализма.\nЭнн Труитт\nht
+ tps://www.museoreinasofia.es/en/exhibition/anne-truitt
+URL:https://doublebasskakov.github.io/radar/#e=anne-truitt-pioneer-of-min
+ imal-art-madrid
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Энн Труитт. Пионер мини
+ мализма
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:eli-cortin-as-the-machine-dreams-of-smoke-madrid@afisha-art
+DTSTAMP:20261119T125741Z
+DTSTART;VALUE=DATE:20270308
+DTEND;VALUE=DATE:20270309
+SUMMARY:Последний день: Эли Кортинас. Машин
+ а снит дым
+LOCATION:Центр искусств королевы Софии\, C/Rond
+ a de Atocha\, 2\, Мадрид\, Испания
+DESCRIPTION:Видеоинсталляция и выставка Эли 
+ Кортинас о технологиях\, памяти и образа
+ х будущего.\nЭли Кортинас\nhttps://www.museoreinasofi
+ a.es/en/exhibition/eli-cortinas
+URL:https://doublebasskakov.github.io/radar/#e=eli-cortin-as-the-machine-
+ dreams-of-smoke-madrid
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Эли Кортинас. Маш
+ ина снит дым
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:manolo-millares-personaje-cai-do-i-madrid@afisha-art
+DTSTAMP:20261119T125741Z
+DTSTART;VALUE=DATE:20270216
+DTEND;VALUE=DATE:20270217
+SUMMARY:Последний день: Маноло Мильярес. Па
+ дший персонаж I
+LOCATION:Центр искусств королевы Софии\, C/Rond
+ a de Atocha\, 2\, Мадрид\, Испания
+DESCRIPTION:Выставка знаковых работ испанско
+ го художника-абстракциониста Маноло Ми
+ льяреса.\nМаноло Мильярес\nhttps://www.museoreinasof
+ ia.es/en/exhibition/manolo-millares
+URL:https://doublebasskakov.github.io/radar/#e=manolo-millares-personaje-
+ cai-do-i-madrid
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Маноло Мильярес. 
+ Падший персонаж I
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

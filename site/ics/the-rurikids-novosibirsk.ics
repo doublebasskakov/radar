@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:the-rurikids-novosibirsk@afisha-art
+DTSTAMP:20261119T125741Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Открытие: Рюриковичи
+LOCATION:Исторический парк «Россия — моя ис
+ тория»\, ул. Василия Старощука\, 24\, Новос
+ ибирск
+DESCRIPTION:Цифровая выставка\, оживляющая ис
+ торию древней Руси и первой правящей ди
+ настии с помощью мультимедийных инстал
+ ляций.\nNone\nhttps://www.afisha.ru/exhibition/ryurikovichi-290527/
+URL:https://doublebasskakov.github.io/radar/#e=the-rurikids-novosibirsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Рюриковичи
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

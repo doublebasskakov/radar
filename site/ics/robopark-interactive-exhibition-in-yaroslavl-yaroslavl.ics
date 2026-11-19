@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:robopark-interactive-exhibition-in-yaroslavl-yaroslavl@afisha-art
+DTSTAMP:20261119T125741Z
+DTSTART;VALUE=DATE:20261226
+DTEND;VALUE=DATE:20261227
+SUMMARY:Интерактивная выставка Робопарк в 
+ Ярославле
+LOCATION:tba\, Ярославль
+DESCRIPTION:Масштабный проект\, объединяющий 
+ современные достижения робототехники и
+  интерактивные медиа-инсталляции для вс
+ ей семьи.\n\nhttps://www.afisha.ru/exhibition/interaktivnaya-vysta
+ vka-robopark-v-yaroslavle-1016776/
+URL:https://doublebasskakov.github.io/radar/#e=robopark-interactive-exhib
+ ition-in-yaroslavl-yaroslavl
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Интерактивная выставка Робопарк 
+ в Ярославле
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

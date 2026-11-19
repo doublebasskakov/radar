@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Радар — Россия · city-hanoi
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:tour-of-the-academic-symphony-orchestra-of-the-st-petersburg-hanoi@af
+ isha-art
+DTSTAMP:20261119T125741Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Гастроли Академического симфониче
+ ского оркестра Петербургской филармони
+ и во Вьетнаме
+LOCATION:Вьетнам\, Ханой
+DESCRIPTION:Первые в истории гастроли Академ
+ ического симфонического оркестра Петер
+ бургской филармонии во Вьетнаме с произ
+ ведениями Сергея Рахманинова.\nАкадемич
+ еский симфонический оркестр Петербургс
+ кой филармонии\nhttps://t.me/orpheusradio/51682
+URL:https://doublebasskakov.github.io/radar/#e=tour-of-the-academic-symph
+ ony-orchestra-of-the-st-petersburg-hanoi
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Гастроли Академического симфони
+ ческого оркестра Петербургской филармо
+ нии во Вьетнаме
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

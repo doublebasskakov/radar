@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:exhibitions-glass-and-stone-and-glass-in-sculpture-saint-peters@afish
+ a-art
+DTSTAMP:20261119T125741Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Открытие: Выставки «Стекло и камень
+ » и «Стекло в скульптуре»
+LOCATION:Строгановский дворец\, Невский про
+ спект\, 17\, Санкт-Петербург
+DESCRIPTION:Экспозиция произведений из худож
+ ественного стекла из собрания Русского 
+ музея\, демонстрирующая пластику и силу 
+ материала.\nРусский музей\nhttps://t.me/rusmuseum/22
+ 614
+URL:https://doublebasskakov.github.io/radar/#e=exhibitions-glass-and-ston
+ e-and-glass-in-sculpture-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставки «Стекло и каме
+ нь» и «Стекло в скульптуре»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

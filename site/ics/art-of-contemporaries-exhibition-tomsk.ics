@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:art-of-contemporaries-exhibition-tomsk@afisha-art
+DTSTAMP:20261119T125741Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Открытие: Выставка «Искусство совр
+ еменников»
+LOCATION:Томский центр современной культур
+ ы\, пер. Нахановича\, 3а\, Томск
+DESCRIPTION:Экспозиция работ ныне живущих ху
+ дожников\, представляющая срез актуальн
+ ых художественных практик и стилей.\nNone\n
+ https://www.afisha.ru/exhibition/iskusstvo-sovremennikov-1016008/
+URL:https://doublebasskakov.github.io/radar/#e=art-of-contemporaries-exhi
+ bition-tomsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка «Искусство со
+ временников»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

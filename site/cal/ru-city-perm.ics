@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:lecture-concert-evening-of-unpopular-music-perm@afisha-art
-DTSTAMP:20261118T231857Z
+DTSTAMP:20261119T125741Z
 DTSTART:20261120T140000Z
 DTEND:20261120T160000Z
 SUMMARY:Лекция–концерт «Вечер непопулярно
@@ -30,7 +30,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:concert-performance-of-the-opera-andrea-che-nier-lecture-by--perm@afi
  sha-art
-DTSTAMP:20261118T231857Z
+DTSTAMP:20261119T125741Z
 DTSTART:20261122T120000Z
 DTEND:20261122T140000Z
 SUMMARY:Концертное исполнение оперы «Андре
@@ -53,7 +53,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:concert-performance-of-the-opera-andrea-che-nier-creative-me-perm@afi
  sha-art
-DTSTAMP:20261118T231857Z
+DTSTAMP:20261119T125741Z
 DTSTART:20261121T110000Z
 DTEND:20261121T130000Z
 SUMMARY:Концертное исполнение оперы «Андре
@@ -77,7 +77,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-in-the-forests-perm@afisha-art
-DTSTAMP:20261118T231857Z
+DTSTAMP:20261119T125741Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Последний день: Выставка «В лесах»
@@ -99,7 +99,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:perm-drugie-krugi-barskaya-nechernyy-kvadrat@afisha-art
-DTSTAMP:20261118T231857Z
+DTSTAMP:20261119T125741Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Последний день: Анна Барская. «Нечё
@@ -122,7 +122,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:the-nutcracker-animated-fairytale-ballet-perm@afisha-art
-DTSTAMP:20261118T231857Z
+DTSTAMP:20261119T125741Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261224
 SUMMARY:Балет «Щелкунчик. Ожившая сказка»
@@ -145,7 +145,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:new-year-red-market-perm@afisha-art
-DTSTAMP:20261118T231857Z
+DTSTAMP:20261119T125741Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261221
 SUMMARY:Новогодний RED MARKET
@@ -163,7 +163,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-from-word-to-image-russian-seasons-perm@afisha-art
-DTSTAMP:20261118T231857Z
+DTSTAMP:20261119T125741Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Последний день: Выставка «От слова 
@@ -186,7 +186,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:polar-bear-parma-s-birthday-celebration-perm@afisha-art
-DTSTAMP:20261118T231857Z
+DTSTAMP:20261119T125741Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Праздник в честь дня рождения белой
@@ -206,9 +206,103 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:full-dome-program-planet-parade-perm@afisha-art
+DTSTAMP:20261119T125741Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Полнокупольная программа «Парад пл
+ анет»
+LOCATION:Планетарий\, б-р Гагарина\, 27а\, Перм
+ ь
+DESCRIPTION:Иммерсивная видеопроекция на куп
+ ол планетария\, посвященная движению и р
+ асположению планет Солнечной системы.\n\
+ nhttps://www.afisha.ru/exhibition/polnokupolnaya-programma-parad-planet-1
+ 008653/
+URL:https://doublebasskakov.github.io/radar/#e=full-dome-program-planet-p
+ arade-perm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Полнокупольная программа «Парад 
+ планет»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:full-dome-program-multicolor-universe-perm@afisha-art
+DTSTAMP:20261119T125741Z
+DTSTART;VALUE=DATE:20261224
+DTEND;VALUE=DATE:20261225
+SUMMARY:Полнокупольная программа «Разноцв
+ етная Вселенная»
+LOCATION:Планетарий\, б-р Гагарина\, 27а\, Перм
+ ь
+DESCRIPTION:Медиа-перформанс\, демонстрирующ
+ ий космос через различные спектры излуч
+ ения в формате иммерсивного кино.\n\nhttps://
+ www.afisha.ru/exhibition/polnokupolnaya-programma-raznocvetnaya-vselennay
+ a-1003100/
+URL:https://doublebasskakov.github.io/radar/#e=full-dome-program-multicol
+ or-universe-perm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Полнокупольная программа «Разно
+ цветная Вселенная»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:full-dome-program-supermassive-black-holes-uncovering-the-in-perm@afi
+ sha-art
+DTSTAMP:20261119T125741Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+SUMMARY:Полнокупольная программа «Сверхма
+ ссивные черные дыры. Открывая невидимое
+ »
+LOCATION:Планетарий\, б-р Гагарина\, 27а\, Перм
+ ь
+DESCRIPTION:Медиапрограмма в формате 360 граду
+ сов\, визуализирующая одни из самых зага
+ дочных объектов космоса.\n\nhttps://www.afisha.ru/ex
+ hibition/polnokupolnaya-programma-sverhmassivnye-chernye-dyry-otkryvaya-n
+ evidimoe-1003102/
+URL:https://doublebasskakov.github.io/radar/#e=full-dome-program-supermas
+ sive-black-holes-uncovering-the-in-perm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Полнокупольная программа «Сверх
+ массивные черные дыры. Открывая невидим
+ ое»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:full-dome-program-aerial-ghosts-perm@afisha-art
+DTSTAMP:20261119T125741Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:Полнокупольная программа «Воздушн
+ ые призраки»
+LOCATION:Планетарий\, б-р Гагарина\, 27а\, Перм
+ ь
+DESCRIPTION:Визуальное исследование атмосфе
+ рных явлений и оптических иллюзий на по
+ лнокупольном экране.\n\nhttps://www.afisha.ru/exhibitio
+ n/polnokupolnaya-programma-vozdushnye-prizraki-1008654/
+URL:https://doublebasskakov.github.io/radar/#e=full-dome-program-aerial-g
+ hosts-perm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Полнокупольная программа «Возду
+ шные призраки»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:art-lectorium-how-new-year-and-christmas-were-celebrated-perm@afisha-
  art
-DTSTAMP:20261118T231857Z
+DTSTAMP:20261119T125741Z
 DTSTART;VALUE=DATE:20270106
 DTEND;VALUE=DATE:20270107
 SUMMARY:Арт-лекторий. Как встречали Новый г

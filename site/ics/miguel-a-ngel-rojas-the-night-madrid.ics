@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:miguel-a-ngel-rojas-the-night-madrid@afisha-art
+DTSTAMP:20261119T125741Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+SUMMARY:Последний день: Мигель Анхель Рохас
+ . Ночь
+LOCATION:Центр искусств королевы Софии\, C/Rond
+ a de Atocha\, 2\, Мадрид\, Испания
+DESCRIPTION:Выставка произведений Мигеля Анх
+ еля Рохаса\, исследующая темы ночи\, иден
+ тичности и социальных изменений.\nМигел
+ ь Анхель Рохас\nhttps://www.museoreinasofia.es/en/exhibition/
+ miguel-angel-rojas
+URL:https://doublebasskakov.github.io/radar/#e=miguel-a-ngel-rojas-the-ni
+ ght-madrid
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Мигель Анхель Рох
+ ас. Ночь
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

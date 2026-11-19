@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:aivazovsky-exhibition-extended-hours-saint-peters@afisha-art
+DTSTAMP:20261119T125741Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Открытие: Выставка «Айвазовский» (п
+ родленные часы работы)
+LOCATION:Русский музей\, Санкт-Петербург
+DESCRIPTION:Масштабная выставка к 210-летию со 
+ дня рождения Ивана Айвазовского с возмо
+ жностью вечернего посещения.\nРусский м
+ узей\nhttps://t.me/rusmuseum/22620
+URL:https://doublebasskakov.github.io/radar/#e=aivazovsky-exhibition-exte
+ nded-hours-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка «Айвазовский»
+  (продленные часы работы)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -9,7 +9,7 @@ X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:echo-of-flahertiana-program-documentary-screenings-and-discu-rostov-o
  n-do@afisha-art
-DTSTAMP:20261118T231857Z
+DTSTAMP:20261119T125741Z
 DTSTART:20261122T130000Z
 DTEND:20261122T150000Z
 SUMMARY:Программа «Эхо Флаэртианы»: показы 
@@ -33,7 +33,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:film-analysis-dead-poets-society-rostov-on-do@afisha-art
-DTSTAMP:20261118T231857Z
+DTSTAMP:20261119T125741Z
 DTSTART:20261122T140000Z
 DTEND:20261122T160000Z
 SUMMARY:Киноразбор «Общество мертвых поэто
@@ -55,7 +55,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rnd-step-asian-vanguard@afisha-art
-DTSTAMP:20261118T231857Z
+DTSTAMP:20261119T125741Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261201
 SUMMARY:Российская международная выставка 
@@ -78,7 +78,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rnd-culture-temperatura-pamyati@afisha-art
-DTSTAMP:20261118T231857Z
+DTSTAMP:20261119T125741Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Открытие: «Температура памяти. Лето
@@ -100,7 +100,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:van-gogh-born-under-a-cold-star-multimedia-exhibition-rostov-on-do@af
  isha-art
-DTSTAMP:20261118T231857Z
+DTSTAMP:20261119T125741Z
 DTSTART;VALUE=DATE:20261227
 DTEND;VALUE=DATE:20261228
 SUMMARY:Последний день: Мультимедийная выс
@@ -125,9 +125,32 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:treasures-of-tutankhamun-s-tomb-exhibition-rostov-on-do@afisha-art
+DTSTAMP:20261119T125741Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Открытие: Выставка «Сокровища гроб
+ ницы Тутанхамона»
+LOCATION:Ростовский музей краеведения\, ул. 
+ Большая Садовая\, 79\, Ростов-на-Дону
+DESCRIPTION:Масштабная историческая экспози
+ ция\, представляющая артефакты и реконс
+ трукции из гробницы самого известного ф
+ араона Египта.\nNone\nhttps://www.afisha.ru/exhibition/sokrov
+ ishcha-grobnicy-tutanhamona-1014331/
+URL:https://doublebasskakov.github.io/radar/#e=treasures-of-tutankhamun-s
+ -tomb-exhibition-rostov-on-do
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка «Сокровища гр
+ обницы Тутанхамона»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:lecture-the-little-dutch-masters-on-life-and-existence-rostov-on-do@a
  fisha-art
-DTSTAMP:20261118T231857Z
+DTSTAMP:20261119T125741Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Лекция «Малые голландцы. О быте и бы
@@ -151,7 +174,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:vasily-beynarovich-faust-of-the-21st-century-how-not-to-rais-rostov-o
  n-do@afisha-art
-DTSTAMP:20261118T231857Z
+DTSTAMP:20261119T125741Z
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
 SUMMARY:Василий Бейнарович\, Фауст 21 века. К
@@ -176,17 +199,18 @@ END:VEVENT
 BEGIN:VEVENT
 UID:when-ballet-became-fashionable-diaghilev-chanel-and-artists-rostov-on
  -do@afisha-art
-DTSTAMP:20261118T231857Z
+DTSTAMP:20261119T125741Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:Когда балет стал модным: Дягилев\, Ш
  анель и художники
-LOCATION:Кофейня 88\, Ростов-на-Дону
+LOCATION:Кофейня 88\, ул. Максима Горького\, 88\,
+  Ростов-на-Дону
 DESCRIPTION:Встреча\, посвященная пересечени
  ю мира высокой моды\, русского авангарда
-  и балетного искусства начала XX века.\n\nht
- tps://www.afisha.ru/exhibition/kogda-balet-stal-modnym-dyagilev-shanel-i-
- hudozhniki-1016396/
+  и балетного искусства начала XX века.\nСе
+ ргей Дягилев\, Коко Шанель\nhttps://www.afisha.ru/ex
+ hibition/kogda-balet-stal-modnym-dyagilev-shanel-i-hudozhniki-1016396/
 URL:https://doublebasskakov.github.io/radar/#e=when-ballet-became-fashion
  able-diaghilev-chanel-and-artists-rostov-on-do
 BEGIN:VALARM
@@ -197,9 +221,56 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:interactive-lecture-imitators-project-inventing-man-rostov-on-do@afis
+ ha-art
+DTSTAMP:20261119T125741Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Интерактивная лекция «Имитаторы». 
+ Проект «Человек изобретающий»
+LOCATION:Ростовский музей краеведения\, Б. С
+ адовая ул.\, 79\, Ростов-на-Дону
+DESCRIPTION:Лекция об изобретениях и техноло
+ гиях\, имитирующих человеческие возможн
+ ости и природные явления.\n\nhttps://www.afisha.ru/e
+ xhibition/interaktivnaya-lekciya-imitatory-proekt-человек-изоб
+ ретающий-1016413/
+URL:https://doublebasskakov.github.io/radar/#e=interactive-lecture-imitat
+ ors-project-inventing-man-rostov-on-do
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Интерактивная лекция «Имитаторы
+ ». Проект «Человек изобретающий»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lecture-the-true-story-of-the-new-year-rostov-on-do@afisha-art
+DTSTAMP:20261119T125741Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+SUMMARY:Лекция «Правдивая история Нового г
+ ода»
+LOCATION:Шолохов-центр\, ул. Большая Садовая\
+ , 125/69\, Ростов-на-Дону
+DESCRIPTION:Встреча\, посвященная культурным 
+ традициям\, истории возникновения празд
+ ника и трансформации его обычаев во вре
+ мени.\nNone\nhttps://www.afisha.ru/exhibition/lekciya-pravdivaya-isto
+ riya-novogo-goda-1016790/
+URL:https://doublebasskakov.github.io/radar/#e=lecture-the-true-story-of-
+ the-new-year-rostov-on-do
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекция «Правдивая история Нового
+  года»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:lecture-grigory-rasputin-phenomenon-of-the-era-rostov-on-do@afisha-ar
  t
-DTSTAMP:20261118T231857Z
+DTSTAMP:20261119T125741Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Лекция «Григорий Распутин. Феномен 
@@ -221,26 +292,22 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:interactive-lecture-imitators-project-inventing-man-rostov-on-do@afis
- ha-art
-DTSTAMP:20261118T231857Z
-DTSTART;VALUE=DATE:20261126
-DTEND;VALUE=DATE:20261127
-SUMMARY:Интерактивная лекция «Имитаторы». 
- Проект «Человек изобретающий»
-LOCATION:Ростовский музей краеведения\, Б. С
- адовая ул.\, 79\, Ростов-на-Дону
-DESCRIPTION:Лекция об изобретениях и техноло
- гиях\, имитирующих человеческие возможн
- ости и природные явления.\n\nhttps://www.afisha.ru/e
- xhibition/interaktivnaya-lekciya-imitatory-proekt-человек-изоб
- ретающий-1016413/
-URL:https://doublebasskakov.github.io/radar/#e=interactive-lecture-imitat
- ors-project-inventing-man-rostov-on-do
+UID:light-in-the-window-exhibition-rostov-on-do@afisha-art
+DTSTAMP:20261119T125741Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Открытие: Выставка «Свет в окне»
+LOCATION:Ростовский музей краеведения\, ул. 
+ Большая Садовая\, 79\, Ростов-на-Дону
+DESCRIPTION:Историко-художественная выставк
+ а\, исследующая быт и атмосферу старого 
+ города через предметную среду.\nNone\nhttps://w
+ ww.afisha.ru/exhibition/svet-v-okne-1004255/
+URL:https://doublebasskakov.github.io/radar/#e=light-in-the-window-exhibi
+ tion-rostov-on-do
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Интерактивная лекция «Имитаторы
- ». Проект «Человек изобретающий»
+DESCRIPTION:Открытие: Выставка «Свет в окне»
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

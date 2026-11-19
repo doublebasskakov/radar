@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:unruly-waters-doha@afisha-art
+DTSTAMP:20261119T125741Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Неукротимые воды
+LOCATION:Rubaiya Qatar\, Доха\, Катар
+DESCRIPTION:Новая выставка современного иску
+ сства в пространстве Rubaiya Qatar\, исследующ
+ ая водные экосистемы и геополитику.\nNone\n
+ https://qm.org.qa/en/calendar/unruly-waters/
+URL:https://doublebasskakov.github.io/radar/#e=unruly-waters-doha
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Неукротимые воды
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

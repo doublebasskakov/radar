@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:the-mirror-moscow@afisha-art
+DTSTAMP:20261119T125741Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Зеркало
+LOCATION:Кинотеатры Москвы\, Москва
+DESCRIPTION:Сложное и поэтическое полотно Ан
+ дрея Тарковского\, в котором личные восп
+ оминания героя переплетаются с историе
+ й страны.\nАндрей Тарковский\nhttps://www.afisha.r
+ u/msk/schedule_cinema/vybor-afishi/
+URL:https://doublebasskakov.github.io/radar/#e=the-mirror-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Зеркало
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR
