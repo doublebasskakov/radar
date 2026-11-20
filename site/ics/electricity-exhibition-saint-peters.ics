@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:electricity-exhibition-saint-peters@afisha-art
+DTSTAMP:20261120T125115Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Открытие: Выставка «Электричество»
+LOCATION:Дом радио\, Санкт-Петербург
+DESCRIPTION:Экспозиция кинетических и электр
+ оакустических инсталляций\, превращающ
+ их микроколебания и электромагнитные и
+ мпульсы в звук.\nЛаборатория эксперимен
+ тального звука Дома радио\, decode silence\nhttps:/
+ /t.me/af_1703/4501
+URL:https://doublebasskakov.github.io/radar/#e=electricity-exhibition-sai
+ nt-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка «Электричеств
+ о»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

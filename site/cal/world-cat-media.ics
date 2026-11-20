@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:christmas-at-kew-london@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART:20261113T162000Z
 DTEND:20261113T182000Z
 SUMMARY:Открытие: Зимняя световая прогулка 
@@ -30,7 +30,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-opening-hidden-on-tape-early-video-art-in-europe-karlsruhe
  @afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART:20261127T180000Z
 DTEND:20261127T200000Z
 SUMMARY:Выставка «Скрыто на пленке. Раннее 
@@ -52,7 +52,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-computer-worlds-in-shanghai-shanghai@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART:20261119T030000Z
 DTEND:20261119T050000Z
 SUMMARY:Открытие: Выставка «Computer worlds» в Шан
@@ -74,7 +74,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-hidden-on-tape-early-video-art-in-europe-karlsruhe@afisha-
  art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART:20261127T180000Z
 DTEND:20261127T200000Z
 SUMMARY:Выставка «Hidden on Tape. Early Video Art in Europe»
@@ -93,9 +93,32 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:exhibition-heritages-in-resistance-from-timbuktu-to-odesa-paris@afish
+ a-art
+DTSTAMP:20261120T125115Z
+DTSTART:20260520T090000Z
+DTEND:20260520T110000Z
+SUMMARY:Открытие: Выставка: Патримиумы в со
+ противлении\, от Тимбукту до Одессы
+LOCATION:Cité de l’architecture et du patrimoine\, 1 Place du Trocadé
+ ro et du 11 Novembre\, 75116 Paris\, Париж\, Франция
+DESCRIPTION:Выставка с саунд-дизайном Яна Бре
+ си для документальных фильмов архитект
+ ора Ива Юбельмана.\nYann Brecy\, Yves Ubelman\nhttps://irc
+ am.fr/agenda
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-heritages-in-re
+ sistance-from-timbuktu-to-odesa-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка: Патримиумы в 
+ сопротивлении\, от Тимбукту до Одессы
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:exhibition-patrimoines-en-re-sistance-de-tombouctou-a-odessa-paris-2@
  afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART:20261119T100000Z
 DTEND:20261119T120000Z
 SUMMARY:Открытие: Выставка «Патриоты сопро
@@ -117,7 +140,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:digital-workshops-for-young-audiences-in-june-paris@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART:20270612T130000Z
 DTEND:20270612T150000Z
 SUMMARY:Цифровые мастерские для юной аудит
@@ -138,7 +161,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:digital-workshops-for-young-audiences-como-education-paris@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART:20261212T140000Z
 DTEND:20261212T160000Z
 SUMMARY:Цифровые мастерские для детей: Исто
@@ -159,7 +182,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:digital-workshops-for-young-audiences-cine-sons-paris@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART:20270213T140000Z
 DTEND:20270213T160000Z
 SUMMARY:Цифровые мастерские для детей: Кине
@@ -179,7 +202,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:digital-workshops-for-young-audiences-in-may-paris@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART:20270508T130000Z
 DTEND:20270508T150000Z
 SUMMARY:Цифровые мастерские для юной аудит
@@ -199,7 +222,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:digital-workshops-for-young-audiences-in-april-paris@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART:20270410T130000Z
 DTEND:20270410T150000Z
 SUMMARY:Цифровые мастерские для юной аудит
@@ -219,7 +242,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:transmediale-2027@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20270128
 DTEND;VALUE=DATE:20270201
 SUMMARY:transmediale 2027: groundstates
@@ -240,7 +263,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ars-electronica-2027@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20270908
 DTEND;VALUE=DATE:20270913
 SUMMARY:Ars Electronica Festival 2027
@@ -259,7 +282,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:yuko-mohri-in-concert-london@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
 SUMMARY:Последний день: Yuko Mohri: In Concert
@@ -280,7 +303,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-fragile-currents-berlin@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20270127
 DTEND;VALUE=DATE:20270128
 SUMMARY:Открытие: Выставка «fragile currents»
@@ -301,7 +324,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dark-net-exhibition-at-akademie-der-ku-nste-berlin@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20270127
 DTEND;VALUE=DATE:20270128
 SUMMARY:Открытие: Выставка «Dark Net» в Akademie der K
@@ -326,7 +349,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:multimedia-exhibition-savitsky-s-diaries-old-and-new-tashkent@afisha-
  art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
 SUMMARY:Последний день: Мультимедийная выс
@@ -349,8 +372,30 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:house-of-memory-by-basil-al-rawi-brussels-4@afisha-art
+DTSTAMP:20261120T125115Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261123
+SUMMARY:House of Memory / بيت الذاكرة: Басил Аль-Рав
+ и
+LOCATION:Bozar\, Rue Ravenstein 23\, Брюссель\, Бельгия
+DESCRIPTION:Иммерсивное путешествие в формат
+ е виртуальной реальности сквозь архивы 
+ и иракские истории от художника Басила 
+ Аль-Рави.\nBasil Al-Rawi\nhttps://www.bozar.be/en/calendar/house-m
+ emory-byt-aldhakrt-basil-al-rawi
+URL:https://doublebasskakov.github.io/radar/#e=house-of-memory-by-basil-a
+ l-rawi-brussels-4
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:House of Memory / بيت الذاكرة: Басил Аль-Р
+ ави
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:paolo-cirio-nudify-ai-online@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20270401
 DTEND;VALUE=DATE:20270402
 SUMMARY:Последний день: Paolo Cirio: NUDIFY AI
@@ -370,7 +415,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:arcane-universe-league-of-legends-exhibition-yerevan@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Последний день: Выставка «Вселенна
@@ -393,7 +438,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:mmca-new-media-collection-nostalgia-for-technology-cheongju@afisha-ar
  t
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20270314
 DTEND;VALUE=DATE:20270315
 SUMMARY:Последний день: Nostalgia for Technology
@@ -413,7 +458,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sensing-the-future-rome@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Открытие: Ощущая будущее
@@ -432,7 +477,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:house-of-memory-by-basil-al-rawi-brussels-2@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261123
 SUMMARY:Дом памяти / بيت الذاكرة
@@ -451,7 +496,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:house-of-memory-by-basil-al-rawi-brussels@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Последний день: House of Memory / بيت الذاك
@@ -472,7 +517,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:house-of-memory-by-basil-al-rawi-brussels-3@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261123
 SUMMARY:House of Memory / بيت الذاكرة
@@ -491,7 +536,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mutek-montreal-2027@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20270824
 DTEND;VALUE=DATE:20270830
 SUMMARY:MUTEK Montréal 2027: Sensitive Waves
@@ -511,7 +556,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mutek-jp-2026@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261124
 SUMMARY:MUTEK.JP 2026
@@ -531,7 +576,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:new-museum-arthur-jafa@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
 SUMMARY:Последний день: Arthur Jafa: I Am Tony
@@ -550,30 +595,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:house-of-memory-by-basil-al-rawi-brussels-4@afisha-art
-DTSTAMP:20261119T231855Z
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261123
-SUMMARY:House of Memory / بيت الذاكرة: Басил Аль-Рав
- и
-LOCATION:Bozar\, Rue Ravenstein 23\, Брюссель\, Бельгия
-DESCRIPTION:Иммерсивное путешествие в формат
- е виртуальной реальности сквозь архивы 
- и иракские истории от художника Басила 
- Аль-Рави.\nBasil Al-Rawi\nhttps://www.bozar.be/en/calendar/house-m
- emory-byt-aldhakrt-basil-al-rawi
-URL:https://doublebasskakov.github.io/radar/#e=house-of-memory-by-basil-a
- l-rawi-brussels-4
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:House of Memory / بيت الذاكرة: Басил Аль-Р
- ави
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:hunter-170th-anniversary-installation-london@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Последний день: Временная инсталля
@@ -595,7 +618,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:steina-playback-haus-der-kunst@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 SUMMARY:Последний день: Steina: Playback
@@ -616,8 +639,29 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:installation-almanak-tourcoing@afisha-art
+DTSTAMP:20261120T125115Z
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+SUMMARY:Последний день: Инсталляция «Almanak»
+LOCATION:Le Fresnoy – Studio national des arts contemporains\, Le Fresn
+ oy\, Tourcoing\, Туркуэн\, Франция
+DESCRIPTION:Видеоинсталляция Изе Сорель с са
+ ундтреком Эмре Эрёза в рамках выставки 
+ «Panorama 28».\nYsé Sorel\, Emre Eröz\nhttps://www.ircam.fr/en/events
+ /on-tour
+URL:https://doublebasskakov.github.io/radar/#e=installation-almanak-tourc
+ oing
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Инсталляция «Almanak
+ »
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:online-exhibition-do-our-chimeras-most-resemble-us-online@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Последний день: Онлайн-выставка «Do o

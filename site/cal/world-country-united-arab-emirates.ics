@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:xxl-2026-sharjah@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART:20261129T163000Z
 DTEND:20261129T183000Z
 SUMMARY:XXL (2026)
@@ -27,8 +27,32 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:premiere-of-the-play-alone-in-the-universe-dubai@afisha-art
+DTSTAMP:20261120T125115Z
+DTSTART:20261204T160000Z
+DTEND:20261204T180000Z
+SUMMARY:Премьера спектакля «Одни во Вселен
+ ной»
+LOCATION:Meyana Theatre Jumeirah Beach Hotel\, Дубай\, ОАЭ
+DESCRIPTION:Комедия отношений с участием изв
+ естных российских актеров театра и кино
+ \, превращающая уютный вечер в эмоционал
+ ьный вихрь неожиданных откровений.\nКри
+ стина Бабушкина\, Артём Ткаченко\, Екате
+ рина Стулова\, Джемал Тетруашвили\, Алек
+ сандра Милёшина\nhttps://t.me/dubai_afisha/930
+URL:https://doublebasskakov.github.io/radar/#e=premiere-of-the-play-alone
+ -in-the-universe-dubai
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Премьера спектакля «Одни во Всел
+ енной»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:perform-sharjah-sharjah-2@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Последний день: Сезон перформансов 
@@ -50,7 +74,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:perform-sharjah-sharjah@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Последний день: Perform Sharjah
@@ -70,12 +94,12 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a-sea-for-borrowed-time-sharjah@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20270704
 DTEND;VALUE=DATE:20270705
 SUMMARY:Последний день: Выставка «Море для 
  взятого взаймы времени»
-LOCATION:Sharjah Art Foundation\, Шарджа\, ОАЭ
+LOCATION:Sharjah Art Foundation\, Sharjah\, Шарджа\, ОАЭ
 DESCRIPTION:Масштабная выставка из коллекции
   фонда исследует многообразие палестин
  ского художественного процесса\, затраг
@@ -93,7 +117,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a-sea-for-borrowed-time-exhibition-sharjah@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20270704
 DTEND;VALUE=DATE:20270705
 SUMMARY:Последний день: Выставка «A Sea for Borrowe
@@ -116,11 +140,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:focal-point-2026-sharjah@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261214
 SUMMARY:Книжная ярмарка Focal Point 2026
-LOCATION:Sharjah Art Foundation\, Шарджа\, ОАЭ
+LOCATION:Sharjah Art Foundation\, Sharjah\, Шарджа\, ОАЭ
 DESCRIPTION:Ежегодная книжная ярмарка искусс
  тв от Sharjah Art Foundation демонстрирует незави
  симое книгоиздание со всего мира.\nSharjah Ar
@@ -134,7 +158,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:longings-returns-2026-sharjah@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Longings\, Returns (2026)
@@ -155,7 +179,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sawt-al-sahel-concert-series-imarhan-and-nao-yoshioka-sharjah@afisha-
  art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261129
 SUMMARY:Концертная серия Sawt Al Sahel: Imarhan и Nao Yos
@@ -178,7 +202,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sawt-al-sahel-sharjah@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Sawt Al Sahel
@@ -193,6 +217,95 @@ URL:https://doublebasskakov.github.io/radar/#e=sawt-al-sahel-sharjah
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Sawt Al Sahel
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:perform-sharjah-curated-performance-season-sharjah@afisha-art
+DTSTAMP:20261120T125115Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Открытие: Perform Sharjah: Курированная се
+ зонная программа перформансов
+LOCATION:Sharjah Art Foundation\, Sharjah\, Шарджа\, ОАЭ
+DESCRIPTION:Пятый сезон программы Perform Sharjah пр
+ едставляет серию перформансов междунар
+ одных авторов\, исследующих телесность 
+ через призму движения\, памяти и коллект
+ ивного опыта.\nNone\nhttps://www.sharjahart.org/en/whats-on/de
+ tails/perform-sharjah-2026
+URL:https://doublebasskakov.github.io/radar/#e=perform-sharjah-curated-pe
+ rformance-season-sharjah
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Perform Sharjah: Курированная 
+ сезонная программа перформансов
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:live-concert-imarhan-and-nao-yoshioka-sharjah@afisha-art
+DTSTAMP:20261120T125115Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Концерт живой музыки: Имархан и Нао 
+ Йошиока
+LOCATION:Sharjah Art Foundation\, Al Alta Artist Space / SAF Radio venue\
+ , Шарджа\, ОАЭ
+DESCRIPTION:Концерт в рамках концертной сери
+ и SAF Radio\, объединяющий квинтет из Алжира 
+ Имархан и соул-певицу из Осаки Нао Йошио
+ ку\, с предварительной сессией прослуши
+ вания шоу ASWAAT.\nImarhan\, Nao Yoshioka\nhttps://www.sharjahart
+ .org/en/whats-on/details/sawt-al-sahel
+URL:https://doublebasskakov.github.io/radar/#e=live-concert-imarhan-and-n
+ ao-yoshioka-sharjah
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт живой музыки: Имархан и Н
+ ао Йошиока
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:performance-longings-returns-by-sim-chi-yin-sharjah@afisha-art
+DTSTAMP:20261120T125115Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Перформанс «Тоски\, возвращения» Си
+ м Чи Йин
+LOCATION:Sharjah Art Foundation\, Sharjah\, Шарджа\, ОАЭ
+DESCRIPTION:Новый перформанс художницы Сим Ч
+ и Йин\, представленный в рамках публично
+ й программы фонда.\nSim Chi Yin\nhttps://www.sharjahart.or
+ g/en/whats-on/details/longings-returns-2026-by-sim-chi-yin
+URL:https://doublebasskakov.github.io/radar/#e=performance-longings-retur
+ ns-by-sim-chi-yin-sharjah
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Перформанс «Тоски\, возвращения» 
+ Сим Чи Йин
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:live-concert-as-part-of-sawt-al-sahel-sharjah@afisha-art
+DTSTAMP:20261120T125115Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Концерт живой музыки в рамках Sawt Al Sa
+ hel
+LOCATION:Sharjah Art Foundation\, Al Alta Artist Space / SAF Radio venue\
+ , Шарджа\, ОАЭ
+DESCRIPTION:Второй вечер живой музыки в рамка
+ х сезонной концертной программы SAF Radio.\nN
+ one\nhttps://www.sharjahart.org/en/whats-on/details/sawt-al-sahel
+URL:https://doublebasskakov.github.io/radar/#e=live-concert-as-part-of-sa
+ wt-al-sahel-sharjah
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт живой музыки в рамках Sawt A
+ l Sahel
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

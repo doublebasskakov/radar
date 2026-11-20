@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:curator-s-tour-of-in-the-forests-exhibition-perm@afisha-art
+DTSTAMP:20261120T125115Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:Кураторская экскурсия по выставке 
+ «В лесах»
+LOCATION:Музей современного искусства ПЕРМ
+ М\, ул. Крисанова\, 4\, Пермь
+DESCRIPTION:Кураторский обзор итоговой арт-р
+ езиденции MaxArt\, посвященной экологическ
+ ому состоянию и природному ландшафту Пе
+ рмского края.\nМаша Мирошина\nhttps://permm.ru/~/a
+ fisha
+URL:https://doublebasskakov.github.io/radar/#e=curator-s-tour-of-in-the-f
+ orests-exhibition-perm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Кураторская экскурсия по выставк
+ е «В лесах»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:installation-almanak-tourcoing@afisha-art
+DTSTAMP:20261120T125115Z
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+SUMMARY:Последний день: Инсталляция «Almanak»
+LOCATION:Le Fresnoy – Studio national des arts contemporains\, Le Fresn
+ oy\, Tourcoing\, Туркуэн\, Франция
+DESCRIPTION:Видеоинсталляция Изе Сорель с са
+ ундтреком Эмре Эрёза в рамках выставки 
+ «Panorama 28».\nYsé Sorel\, Emre Eröz\nhttps://www.ircam.fr/en/events
+ /on-tour
+URL:https://doublebasskakov.github.io/radar/#e=installation-almanak-tourc
+ oing
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Инсталляция «Almanak
+ »
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

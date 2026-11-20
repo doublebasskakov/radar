@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:ryman-in-rhythm-tyroneisaacstuart-london@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART:20261211T191500Z
 DTEND:20261211T211500Z
 SUMMARY:Ryman in Rhythm: tyroneisaacstuart
@@ -28,7 +28,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:world-premiere-of-aura-performance-by-pawe-sakowicz-vienna@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART:20261205T150000Z
 DTEND:20261205T170000Z
 SUMMARY:Мировая премьера перформанса AURA Па
@@ -50,7 +50,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:duet-project-eiko-otake-and-ishmael-houston-jones-paris@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART:20261208T180000Z
 DTEND:20261208T200000Z
 SUMMARY:Duet Project: Эйко Отоке и Исмаил Хьюстон-
@@ -73,7 +73,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:xxl-2026-sharjah@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART:20261129T163000Z
 DTEND:20261129T183000Z
 SUMMARY:XXL (2026)
@@ -92,7 +92,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:friday-live-justin-caguiat-london@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART:20261127T183000Z
 DTEND:20261127T203000Z
 SUMMARY:Пятничный вечер Live: Джастин Кагиат
@@ -112,7 +112,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:performance-in-two-minds-karlsruhe@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART:20261127T190000Z
 DTEND:20261127T210000Z
 SUMMARY:Перформанс «В двух умах»
@@ -131,7 +131,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cabaret-extra-silencio-3-paris@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART:20261125T200000Z
 DTEND:20261125T220000Z
 SUMMARY:Кабаре-вечер Cabaret Extra! × Silencio #3
@@ -149,7 +149,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:performance-in-two-minds-karlsruhe-2@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART:20261127T190000Z
 DTEND:20261127T210000Z
 SUMMARY:Performance: In Two Minds
@@ -167,8 +167,50 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:poetfest-dubai-concert-and-competition-dubai@afisha-art
+DTSTAMP:20261120T125115Z
+DTSTART:20261127T140000Z
+DTEND:20261127T160000Z
+SUMMARY:Конкурс-концерт Poetfest.Dubai
+LOCATION:Mazaya Business Avenue\, Tower BB1\, 20 этаж\, JLT\, Дуб
+ ай\, ОАЭ
+DESCRIPTION:Интерактивный вечер-конкурс\, объ
+ единяющий поэзию\, вокал\, живую музыку и
+  выставку работ художников в русскоязыч
+ ном сообществе Дубая.\nПоэты\, чтецы\, пев
+ цы\, музыканты и художники\nhttps://t.me/uaeeventsca
+ lendar/2392
+URL:https://doublebasskakov.github.io/radar/#e=poetfest-dubai-concert-and
+ -competition-dubai
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Конкурс-концерт Poetfest.Dubai
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deep-relaxation-practice-in-hammocks-bali-tashkent@afisha-art
+DTSTAMP:20261120T125115Z
+DTSTART:20261122T153000Z
+DTEND:20261122T173000Z
+SUMMARY:Практика глубокого расслабления в 
+ гамаках «Бали»
+LOCATION:Artha\, Ташкент\, Узбекистан
+DESCRIPTION:Сеанс глубокого расслабления в п
+ одвесных гамаках под руководством инст
+ руктора.\nСога\nhttps://t.me/artha_uz/12602
+URL:https://doublebasskakov.github.io/radar/#e=deep-relaxation-practice-i
+ n-hammocks-bali-tashkent
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Практика глубокого расслабления 
+ в гамаках «Бали»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:laboratory-beyond-the-gaze-almaty@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART:20261122T090000Z
 DTEND:20261122T110000Z
 SUMMARY:Лаборатория «Вне взгляда»
@@ -187,8 +229,29 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:music-and-poetry-evening-pro-lyuboff-vilnius@afisha-art
+DTSTAMP:20261120T125115Z
+DTSTART:20261121T130000Z
+DTEND:20261121T150000Z
+SUMMARY:Музыкально-поэтический вечер «Pro лю
+ бOFF»
+LOCATION:Книжный магазин Homo Sapiens\, S. Žukausko g. 49\
+ , Вильнюс\, Литва
+DESCRIPTION:Актёры «Театра 21» исполнят поэти
+ ческие и музыкальные произведения о люб
+ ви.\nТеатр 21\nhttps://t.me/volna_lt/9776
+URL:https://doublebasskakov.github.io/radar/#e=music-and-poetry-evening-p
+ ro-lyuboff-vilnius
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Музыкально-поэтический вечер «Pro 
+ любOFF»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:perform-sharjah-sharjah-2@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Последний день: Сезон перформансов 
@@ -210,7 +273,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:perform-sharjah-sharjah@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Последний день: Perform Sharjah
@@ -230,7 +293,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:longings-returns-2026-sharjah@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Longings\, Returns (2026)
@@ -251,7 +314,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:performance-by-alexander-tarasenko-and-alessandro-paiano-aut-london@a
  fisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:Перформанс Александра Тарасенко и A
@@ -272,8 +335,50 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:nateli-community-christmas-gala-tbilisi@afisha-art
+DTSTAMP:20261120T125115Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Рождественский гала-прием Nateli Community
+LOCATION:Дворец\, Тбилиси\, Грузия
+DESCRIPTION:Ежегодный праздничный приём сооб
+ щества\, который пройдет во Дворце.\nNateli C
+ ommunity\nhttps://t.me/nateli_tbilisi/11928
+URL:https://doublebasskakov.github.io/radar/#e=nateli-community-christmas
+ -gala-tbilisi
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Рождественский гала-прием Nateli Commu
+ nity
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:perform-sharjah-curated-performance-season-sharjah@afisha-art
+DTSTAMP:20261120T125115Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Открытие: Perform Sharjah: Курированная се
+ зонная программа перформансов
+LOCATION:Sharjah Art Foundation\, Sharjah\, Шарджа\, ОАЭ
+DESCRIPTION:Пятый сезон программы Perform Sharjah пр
+ едставляет серию перформансов междунар
+ одных авторов\, исследующих телесность 
+ через призму движения\, памяти и коллект
+ ивного опыта.\nNone\nhttps://www.sharjahart.org/en/whats-on/de
+ tails/perform-sharjah-2026
+URL:https://doublebasskakov.github.io/radar/#e=perform-sharjah-curated-pe
+ rformance-season-sharjah
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Perform Sharjah: Курированная 
+ сезонная программа перформансов
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:cecilia-bengolea-shelly-belly-inna-real-life-madrid@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20270217
 DTEND;VALUE=DATE:20270218
 SUMMARY:Открытие: Сесилия Бенголеа. Шелли Б
@@ -296,7 +401,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:chanel-commission-lina-lapelyte-we-make-years-out-of-hours-berlin@afi
  sha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
 SUMMARY:Последний день: CHANEL Commission: Lina Lapelytė. W
@@ -318,8 +423,30 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:immersive-dance-performance-l-ombre-madrid@afisha-art
+DTSTAMP:20261120T125115Z
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+SUMMARY:Последний день: Иммерсивный танцев
+ альный перформанс «L'Ombre»
+LOCATION:Teatros del Canal\, Teatros del Canal\, Madrid\, Мадрид\, 
+ Испания
+DESCRIPTION:Иммерсивное танцевальное предст
+ авление\, созданное Бланкой Ли и Эдит Ка
+ нат де Чизи.\nBlanca Li\, Édith Canat de Chizy\nhttps://www.irc
+ am.fr/en/events/on-tour
+URL:https://doublebasskakov.github.io/radar/#e=immersive-dance-performanc
+ e-l-ombre-madrid
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Иммерсивный танц
+ евальный перформанс «L'Ombre»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:holland-festival-2027@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20270603
 DTEND;VALUE=DATE:20270604
 SUMMARY:Открытие: Holland Festival 2027
@@ -340,7 +467,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:festival-automne-paris-2026@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
 SUMMARY:Последний день: Festival d'Automne à Paris 2026
@@ -356,6 +483,47 @@ URL:https://doublebasskakov.github.io/radar/#e=festival-automne-paris-202
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Последний день: Festival d'Automne à Paris 2026
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:performance-longings-returns-by-sim-chi-yin-sharjah@afisha-art
+DTSTAMP:20261120T125115Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Перформанс «Тоски\, возвращения» Си
+ м Чи Йин
+LOCATION:Sharjah Art Foundation\, Sharjah\, Шарджа\, ОАЭ
+DESCRIPTION:Новый перформанс художницы Сим Ч
+ и Йин\, представленный в рамках публично
+ й программы фонда.\nSim Chi Yin\nhttps://www.sharjahart.or
+ g/en/whats-on/details/longings-returns-2026-by-sim-chi-yin
+URL:https://doublebasskakov.github.io/radar/#e=performance-longings-retur
+ ns-by-sim-chi-yin-sharjah
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Перформанс «Тоски\, возвращения» 
+ Сим Чи Йин
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dance-masterclasses-with-elmira-ragimova-visaginas@afisha-art
+DTSTAMP:20261120T125115Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261122
+SUMMARY:Танцевальные мастер-классы с Эльми
+ рой Рагимовой
+LOCATION:Висагинас\, Литва
+DESCRIPTION:Бесплатные танцевальные мастер-к
+ лассы для участников от 16 лет.\nЭльмира Р
+ агимова\nhttps://t.me/volna_lt/9776
+URL:https://doublebasskakov.github.io/radar/#e=dance-masterclasses-with-e
+ lmira-ragimova-visaginas
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Танцевальные мастер-классы с Эль
+ мирой Рагимовой
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

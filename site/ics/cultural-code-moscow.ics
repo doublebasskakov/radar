@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:cultural-code-moscow@afisha-art
+DTSTAMP:20261120T125115Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Открытие: Культурный код
+LOCATION:Центр «Марс»\, Москва
+DESCRIPTION:Выставка видеоарта\, анализирующ
+ ая основы современной идентичности чер
+ ез визуальные образы.\nNone\nhttps://www.afisha.ru/msk/
+ schedule_exhibition/
+URL:https://doublebasskakov.github.io/radar/#e=cultural-code-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Культурный код
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:russian-artist-ivan-lubennikov-moscow@afisha-art
+DTSTAMP:20261120T125115Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Открытие: Русский художник Иван Луб
+ енников
+LOCATION:Третьяковская галерея. Корпус на К
+ адашевской набережной\, Москва
+DESCRIPTION:Персональная выставка известног
+ о современного живописца\, работающего 
+ на стыке классики и постмодерна.\nИван Л
+ убенников\nhttps://www.afisha.ru/msk/schedule_exhibition/
+URL:https://doublebasskakov.github.io/radar/#e=russian-artist-ivan-lubenn
+ ikov-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Русский художник Иван Л
+ убенников
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

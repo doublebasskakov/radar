@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:arrhythmia-moscow@afisha-art
+DTSTAMP:20261120T125115Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Аритмия
+LOCATION:Кинотеатры Москвы\, Москва
+DESCRIPTION:Драматическая история Бориса Хле
+ бникова о враче скорой помощи\, пытающем
+ ся найти баланс между спасением жизней 
+ и личным кризисом.\nБорис Хлебников\nhttps:/
+ /www.afisha.ru/msk/schedule_cinema/vybor-afishi/
+URL:https://doublebasskakov.github.io/radar/#e=arrhythmia-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Аритмия
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

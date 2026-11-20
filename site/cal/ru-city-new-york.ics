@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Радар — Россия · city-new-york
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:krasner-and-pollock-exhibition-new-york@afisha-art
+DTSTAMP:20261120T125115Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Выставка «Краснер и Поллок»
+LOCATION:Метрополитен-музей\, 1000 5th Ave\, Нью-Йо
+ рк
+DESCRIPTION:Двойная ретроспектива\, исследую
+ щая творческий диалог и взаимовлияние д
+ вух ключевых фигур американского экспр
+ ессионизма.\nЛи Краснер\, Джексон Поллок\
+ nhttps://theblueprint.ru/culture/art/pollock-i-krasner
+URL:https://doublebasskakov.github.io/radar/#e=krasner-and-pollock-exhibi
+ tion-new-york
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выставка «Краснер и Поллок»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

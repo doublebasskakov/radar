@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:park-in-mall-market-fair-tashkent@afisha-art
+DTSTAMP:20261120T125115Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Ярмарка Park in Mall Market
+LOCATION:Park In Mall\, Ташкент\, Узбекистан
+DESCRIPTION:Ярмарка локальных брендов и авто
+ ров в торгово-развлекательном комплекс
+ е Park In Mall.\n\nhttps://www.afisha.uz/ru/exhibitions/2026/11/17/pimmk
+ t2111
+URL:https://doublebasskakov.github.io/radar/#e=park-in-mall-market-fair-t
+ ashkent
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ярмарка Park in Mall Market
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:debut-ufa@afisha-art
+DTSTAMP:20261120T125115Z
+DTSTART:20261123T063000Z
+DTEND:20261123T083000Z
+SUMMARY:Дебют
+LOCATION:Концертный зал им. Ф.И. Шаляпина\, ул
+ . Ленина\, 14\, Уфа
+DESCRIPTION:Концерт камерной музыки\, в котор
+ ом принимают участие начинающие академ
+ ические исполнители.\nСтуденты Уфимског
+ о государственного института искусств\n
+ https://ufaart.ru/afisha/events/konczert-kamernoj-muzyiki-«debyut
+URL:https://doublebasskakov.github.io/radar/#e=debut-ufa
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Дебют
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

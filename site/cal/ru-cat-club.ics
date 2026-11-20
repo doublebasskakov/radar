@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:signal-city-monasterio-showcase-moscow@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART:20261121T150000Z
 DTEND:20261121T170000Z
 SUMMARY:Signal City: Monasterio Showcase
@@ -31,7 +31,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:delta-2026-saint-peters@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART:20261121T190000Z
 DTEND:20261121T210000Z
 SUMMARY:Delta 2026
@@ -52,8 +52,31 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:signal-city-festival-day-1-moscow@afisha-art
+DTSTAMP:20261120T125115Z
+DTSTART:20261121T170000Z
+DTEND:20261121T190000Z
+SUMMARY:Фестиваль Signal City: День 1
+LOCATION:ДК «Серп и Молот»\, Волочаевская\, 48\
+ , стр. 1\, Москва
+DESCRIPTION:Первый день масштабного музыкаль
+ ного фестиваля в пространстве памятник
+ а советского авангарда: шесть танцполов
+ \, шоукейсы ведущих промо-групп от румын
+ ского минимала до хардтехно и инсталляц
+ ия СЕТАП.\nGescu\, Simple Symmetry\, Geju\, Monasterio и др.\nh
+ ttps://t.me/new_soundwave/28940
+URL:https://doublebasskakov.github.io/radar/#e=signal-city-festival-day-1
+ -moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Фестиваль Signal City: День 1
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:system-108-dafes-awards-show-moscow@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART:20261126T160000Z
 DTEND:20261126T180000Z
 SUMMARY:System 108 × DAFES AWARDS SHOW
@@ -73,7 +96,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:asylum-4-years-marla-singer-moscow@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART:20261121T200000Z
 DTEND:20261121T220000Z
 SUMMARY:ASYLUM 4 YEARS: Marla Singer
@@ -94,7 +117,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:resonance-party-at-rndm-club-moscow@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART:20261128T200000Z
 DTEND:20261128T220000Z
 SUMMARY:Вечеринка Resonance в клубе RNDM
@@ -115,7 +138,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:minimum-pop-showcase-moscow@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART:20261129T140000Z
 DTEND:20261129T160000Z
 SUMMARY:Шоукейс Minimum Pop
@@ -138,7 +161,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:minimum-pop-showcase-deck-and-others-moscow@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART:20261129T140000Z
 DTEND:20261129T160000Z
 SUMMARY:Шоукейс Minimum Pop: Deck и другие
@@ -159,7 +182,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:arcto-xx-belgrade@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART:20261219T220000Z
 DTEND:20261220T000000Z
 SUMMARY:ARCTO XX
@@ -178,7 +201,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:32-years-underground-experience-party-saint-peters@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART:20261128T200000Z
 DTEND:20261128T220000Z
 SUMMARY:Вечеринка 32 Years Underground Experience
@@ -197,8 +220,27 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:okta-bar-soundcheck-opening-moscow@afisha-art
+DTSTAMP:20261120T125115Z
+DTSTART:20261120T170000Z
+DTEND:20261120T190000Z
+SUMMARY:Открытие-саундчек бара Окта
+LOCATION:Окта\, Москва
+DESCRIPTION:Техническое открытие нового прос
+ транства с акцентом на качественное зву
+ ковое сопровождение.\nSofia Rodina\, Abelle\, Simple Sy
+ mmetry\, Vlas Leskin\nhttps://t.me/dvevmoskve/14484
+URL:https://doublebasskakov.github.io/radar/#e=okta-bar-soundcheck-openin
+ g-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие-саундчек бара Окта
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:shalze-at-asylum-4-years-party-at-dex-club-moscow@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART:20261121T200000Z
 DTEND:20261121T220000Z
 SUMMARY:SHALZE на вечеринке ASYLUM 4 YEARS в клубе DEX
@@ -217,7 +259,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:index-fest-2026-xandr-vasiliev-arkadius-padre-moscow@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART:20261128T180000Z
 DTEND:20261128T200000Z
 SUMMARY:INDEX FEST 2026: Xandr.Vasiliev & Arkadius\, Padre
@@ -236,7 +278,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:minimum-pop-showcase-da-smert-and-others-moscow@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART:20261129T140000Z
 DTEND:20261129T160000Z
 SUMMARY:Шоукейс Minimum Pop: «Да\, смерть!» и друг
@@ -263,7 +305,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:celestica-moscow@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART:20261121T180000Z
 DTEND:20261121T200000Z
 SUMMARY:Celestica
@@ -282,8 +324,28 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:hkcr-radio-yuliana-ahulijing-mix-online@afisha-art
+DTSTAMP:20261120T125115Z
+DTSTART:20261121T140000Z
+DTEND:20261121T160000Z
+SUMMARY:HKCR Radio: Микс Юлианы Ahulijing
+LOCATION:HKCR Radio\, Онлайн
+DESCRIPTION:Радиоэфир с селекшном от сооснов
+ ательницы лейбла welofi\, сочетающим локал
+ ьную электронную сцену\, эксклюзивные р
+ елизы и архивные записи.\nЮлиана Ahulijing\nhtt
+ ps://www.hkcr.live/livestream
+URL:https://doublebasskakov.github.io/radar/#e=hkcr-radio-yuliana-ahuliji
+ ng-mix-online
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:HKCR Radio: Микс Юлианы Ahulijing
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:delay-party-moscow@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART:20261120T200000Z
 DTEND:20261120T220000Z
 SUMMARY:Вечеринка DELAY
@@ -302,7 +364,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:emocore2-festival-moscow@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART:20261122T150000Z
 DTEND:20261122T170000Z
 SUMMARY:Фестиваль «Эмокор²»
@@ -321,7 +383,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:russian-grape-global-moscow@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART:20261128T190000Z
 DTEND:20261128T210000Z
 SUMMARY:RUSSIAN GRAPE GLOBAL
@@ -341,7 +403,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:doaflip-cardio-rave-moscow@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART:20261122T080000Z
 DTEND:20261122T100000Z
 SUMMARY:Кардио рейв Doaflip
@@ -360,7 +422,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:new-year-party-loud-boyz-2027-loud-moscow@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART:20261231T170000Z
 DTEND:20261231T190000Z
 SUMMARY:Новогодняя вечеринка LOUD BOYZ 2027: ЛАУД
@@ -380,7 +442,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:asylum-4-years-n-a-m-i-moscow@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART:20261121T200000Z
 DTEND:20261121T220000Z
 SUMMARY:ASYLUM 4 YEARS: N.A.M.I.
@@ -399,7 +461,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:climbing-rave-uv-edition-moscow@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART:20261121T160000Z
 DTEND:20261121T180000Z
 SUMMARY:Climbing rave: uv edition
@@ -419,7 +481,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rndmnight-moscow@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART:20261120T200000Z
 DTEND:20261120T220000Z
 SUMMARY:RNDMNIGHT
@@ -439,7 +501,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:vent-party-moscow@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART:20261121T180000Z
 DTEND:20261121T200000Z
 SUMMARY:Вечеринка Vent
@@ -458,7 +520,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:crimewave-xxii-party-moscow@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART:20270123T190000Z
 DTEND:20270123T210000Z
 SUMMARY:Вечеринка CRIMEWAVE XXII
@@ -480,7 +542,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:imi-circle-party-moscow@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART:20261217T170000Z
 DTEND:20261217T190000Z
 SUMMARY:Вечеринка Круга ИМИ
@@ -499,7 +561,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:party-gigzanol-dossier-no-20-11-moscow@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART:20261120T200000Z
 DTEND:20261120T220000Z
 SUMMARY:Вечеринка «ГигЗаНоль: Досье № 20.11»
@@ -519,7 +581,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:synesthesia-ectogenesis-rave-performance-moscow@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART:20261120T200000Z
 DTEND:20261120T220000Z
 SUMMARY:Рейв-перформанс SYNESTHESIA: ECTOGENESIS
@@ -539,8 +601,28 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:wu-shu-x-hleb-dj-set-moscow@afisha-art
+DTSTAMP:20261120T125115Z
+DTSTART:20261120T180000Z
+DTEND:20261120T200000Z
+SUMMARY:Диджей-сет WU SHU x ХЛЕБ
+LOCATION:Заведение WU SHU\, ул. Трубная\, 21\, Моск
+ ва
+DESCRIPTION:Праздничный диджей-сет группы «Х
+ ЛЕБ» в баре WU SHU\, приуроченный к релизу т
+ река «Нихао».\nГруппа «ХЛЕБ»\, Gamma Music\nhttps:
+ //t.me/shozhu_msk/26701
+URL:https://doublebasskakov.github.io/radar/#e=wu-shu-x-hleb-dj-set-mosco
+ w
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Диджей-сет WU SHU x ХЛЕБ
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:vampatmo-myatmo-party-moscow@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART:20261127T200000Z
 DTEND:20261127T220000Z
 SUMMARY:Вечеринка VAMPATMO | MYATMO
@@ -560,7 +642,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:beauty-series-party-at-yauza-place-moscow@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART:20261120T180000Z
 DTEND:20261120T200000Z
 SUMMARY:Вечеринка сериала «Красота» в Yauza Pla
@@ -581,7 +663,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:police-in-paris-party-at-k-30-saint-peters@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART:20261120T190000Z
 DTEND:20261120T210000Z
 SUMMARY:Вечеринка Police in Paris в K-30
@@ -600,7 +682,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:index-fest-2026-index-iii-resonance-party-moscow@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART:20261128T200000Z
 DTEND:20261128T220000Z
 SUMMARY:INDEX FEST 2026: INDEX III & Resonance Party
@@ -617,8 +699,30 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:jean-jacques-restaurant-anniversary-live-by-dj-stonik-1917-moscow@afi
+ sha-art
+DTSTAMP:20261120T125115Z
+DTSTART:20261122T170000Z
+DTEND:20261122T190000Z
+SUMMARY:День рождения ресторана «Жан-Жак»: 
+ лайв DJ Stonik 1917
+LOCATION:Ресторан «Жан-Жак»\, Никитский буль
+ вар\, 12\, Москва
+DESCRIPTION:Праздничный вечер с живым выступ
+ лением DJ Stonik 1917 и диджей-сетами.\nDJ Stonik 1917
+ \nhttps://t.me/shozhu_msk/26701
+URL:https://doublebasskakov.github.io/radar/#e=jean-jacques-restaurant-an
+ niversary-live-by-dj-stonik-1917-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:День рождения ресторана «Жан-Жак
+ »: лайв DJ Stonik 1917
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:sound-wave-x-agalmerat-moscow@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART:20261122T170000Z
 DTEND:20261122T190000Z
 SUMMARY:SOUND WAVE X AGALMERAT
@@ -638,7 +742,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:concert-show-prichudilos-moscow@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART:20261124T160000Z
 DTEND:20261124T180000Z
 SUMMARY:Концертное шоу «Причудилось»
@@ -658,7 +762,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:decadence-fest-at-smena-club-moscow@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART:20261120T170000Z
 DTEND:20261120T190000Z
 SUMMARY:Декаданс-фест в клубе «Смена»
@@ -678,7 +782,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:event-at-avtomoyka-by-veladora-moscow@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART:20261120T170000Z
 DTEND:20261120T190000Z
 SUMMARY:Событие в пространстве Автомойка by 
@@ -699,7 +803,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:hypnobaza-solo-concert-moscow@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART:20261120T160000Z
 DTEND:20261120T180000Z
 SUMMARY:Большой сольный концерт группы «Ги
@@ -719,31 +823,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:signal-city-festival-day-1-moscow@afisha-art
-DTSTAMP:20261119T231855Z
-DTSTART:20261121T170000Z
-DTEND:20261121T190000Z
-SUMMARY:Фестиваль Signal City: День 1
-LOCATION:ДК «Серп и Молот»\, Волочаевская\, 48\
- , стр. 1\, Москва
-DESCRIPTION:Первый день масштабного музыкаль
- ного фестиваля в пространстве памятник
- а советского авангарда: шесть танцполов
- \, шоукейсы ведущих промо-групп от румын
- ского минимала до хардтехно и инсталляц
- ия СЕТАП.\nGescu\, Simple Symmetry\, Geju\, Monasterio и др.\nh
- ttps://t.me/new_soundwave/28940
-URL:https://doublebasskakov.github.io/radar/#e=signal-city-festival-day-1
- -moscow
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Фестиваль Signal City: День 1
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:asylum-4-years-speerax-moscow@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART:20261121T200000Z
 DTEND:20261121T220000Z
 SUMMARY:ASYLUM 4 YEARS: SPEERAX
@@ -762,7 +843,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rexjet-at-asylum-4-years-moscow@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART:20261121T200000Z
 DTEND:20261121T220000Z
 SUMMARY:Выступление REXJET на ASYLUM 4 YEARS
@@ -780,27 +861,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:okta-bar-soundcheck-opening-moscow@afisha-art
-DTSTAMP:20261119T231855Z
-DTSTART:20261120T170000Z
-DTEND:20261120T190000Z
-SUMMARY:Открытие-саундчек бара Окта
-LOCATION:Окта\, Москва
-DESCRIPTION:Техническое открытие нового прос
- транства с акцентом на качественное зву
- ковое сопровождение.\nNone\nhttps://t.me/dvevmoskve/144
- 84
-URL:https://doublebasskakov.github.io/radar/#e=okta-bar-soundcheck-openin
- g-moscow
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Открытие-саундчек бара Окта
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:exodus-zugzwang-modul-minsk@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART:20261120T200000Z
 DTEND:20261120T220000Z
 SUMMARY:ИСХОД | ZUGZWANG | MODUL
@@ -819,7 +881,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:music-bingo-by-show-today-guess-the-melody-samara@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART:20261120T150000Z
 DTEND:20261120T170000Z
 SUMMARY:МУЗЛОТО от SHOW TODAY «Угадай мелодию»
@@ -840,7 +902,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:signal-city-music-festival-day-1-moscow@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Музыкальный фестиваль Signal City: День 1
@@ -863,7 +925,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:signal-city-music-festival-day-2-moscow@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Музыкальный фестиваль Signal City: День 2
@@ -884,9 +946,31 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:signal-city-festival-day-2-moscow@afisha-art
+DTSTAMP:20261120T125115Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Фестиваль Signal City: День 2
+LOCATION:ДК «Серп и Молот»\, Волочаевская\, 48\
+ , стр. 1\, Москва
+DESCRIPTION:Второй день фестиваля электронно
+ й музыки в ДК «Серп и Молот» с выступлен
+ иями десятков артистов на шести сценах 
+ и марктом музыкальных сообществ.\nGescu\, Sim
+ ple Symmetry\, Geju\, Monasterio и др.\nhttps://t.me/new_soundwave/289
+ 40
+URL:https://doublebasskakov.github.io/radar/#e=signal-city-festival-day-2
+ -moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Фестиваль Signal City: День 2
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:system-108-party-police-in-paris-laud-roma-hard-shalze-moscow@afisha-
  art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Вечеринка System 108: Police in Paris\, Лауд\, Roma 
@@ -908,7 +992,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:signal-city-live-festival-2026-moscow@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261123
 SUMMARY:Фестиваль Signal City Live 2026
@@ -926,7 +1010,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:monasterio-season-2026-closing-moscow@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:Monasterio Season 2026 Closing
@@ -943,7 +1027,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:helga-zeit-performance-at-asylum-4-years-moscow@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Выступление Helga Zeit на ASYLUM 4 YEARS
@@ -963,7 +1047,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:light-of-france-debussy-ravel-satie-poulenc-moscow@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
 SUMMARY:Свет Франции. Дебюсси\, Равель\, Сати
@@ -986,7 +1070,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:win-battle-party-at-alpha-crystal-moscow@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Вечеринка WIN BATTLE в пространстве «Ал
@@ -1009,7 +1093,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:asylum-4-years-go-rite-moscow@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:ASYLUM 4 YEARS: GO_RITE
@@ -1028,7 +1112,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sound-laboratory-ander-saint-peters@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:Лаборатория звука «АНДЕР»
@@ -1048,7 +1132,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:darkness-rises-x-electronic-music-festival-saint-peters@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Фестиваль электронной музыки DARKNESS R
@@ -1069,8 +1153,28 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:synesthesia-ectogenesis-party-moscow@afisha-art
+DTSTAMP:20261120T125115Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Вечеринка Synesthesia: Ectogenesis
+LOCATION:Dex\, Москва
+DESCRIPTION:Шоукейсы формаций Dark Bloom\, Культпр
+ освет и Aircity Engine\, иммерсивное шоу и танц
+ евальный перформанс Ectogenesis.\nKontrkult\, Dark Bloo
+ m\, Культпросвет\, Aircity Engine\nhttps://t.me/dancingalone/
+ 37087
+URL:https://doublebasskakov.github.io/radar/#e=synesthesia-ectogenesis-pa
+ rty-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Вечеринка Synesthesia: Ectogenesis
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:vent-moscow@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:VENT
@@ -1089,8 +1193,27 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:opening-of-ten-club-saint-peters@afisha-art
+DTSTAMP:20261120T125115Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261123
+SUMMARY:Открытие клуба «Тень»
+LOCATION:Клуб «Тень»\, Санкт-Петербург
+DESCRIPTION:Двухдневная вечеринка в честь от
+ крытия нового двухэтажного пространств
+ а от проектов «Бланк» и «Контркульт».\nKon
+ trkult\, Бланк\nhttps://t.me/shozhu/19087
+URL:https://doublebasskakov.github.io/radar/#e=opening-of-ten-club-saint-
+ peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие клуба «Тень»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:asylum-4-years-party-delina-moscow@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Вечеринка ASYLUM 4 YEARS: DELINA
@@ -1109,7 +1232,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:party-asylum-moscow-x-barrel-23-dubai-moscow@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Вечеринка ASYLUM MOSCOW x BARREL 23 DUBAI
@@ -1128,7 +1251,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mc-senechka-concert-moscow@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Концерт МС Сенечки
@@ -1144,31 +1267,9 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:signal-city-festival-day-2-moscow@afisha-art
-DTSTAMP:20261119T231855Z
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
-SUMMARY:Фестиваль Signal City: День 2
-LOCATION:ДК «Серп и Молот»\, Волочаевская\, 48\
- , стр. 1\, Москва
-DESCRIPTION:Второй день фестиваля электронно
- й музыки в ДК «Серп и Молот» с выступлен
- иями десятков артистов на шести сценах 
- и марктом музыкальных сообществ.\nGescu\, Sim
- ple Symmetry\, Geju\, Monasterio и др.\nhttps://t.me/new_soundwave/289
- 40
-URL:https://doublebasskakov.github.io/radar/#e=signal-city-festival-day-2
- -moscow
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Фестиваль Signal City: День 2
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:immersive-show-dissociation-of-personality-at-random-kultury-moscow@a
  fisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Иммерсивное шоу «рассТРОЕние лично
@@ -1189,7 +1290,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:asylum-4-years-land-rova-moscow@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:ASYLUM 4 YEARS: LAND ROVA
@@ -1208,7 +1309,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:asylum-4-years-party-antera-i-zer-moscow@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Вечеринка ASYLUM 4 YEARS: ANTERÄİZER
@@ -1227,7 +1328,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:asylum-4-years-arina-plastovez-moscow@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:ASYLUM 4 YEARS: Arina Plastovez
@@ -1246,7 +1347,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:badgrub-birthday-party-saint-peters@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Вечеринка «День рождения Badgrub»
@@ -1264,7 +1365,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lolita-s-second-anniversary-moscow@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261123
 SUMMARY:Два года Лолите
@@ -1282,7 +1383,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:badgrub-birthday-party-moscow@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Вечеринка «День рождения Badgrub»

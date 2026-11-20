@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:moscow-petushki-moscow@afisha-art
+DTSTAMP:20261120T125115Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Москва — Петушки
+LOCATION:ТОН-ЦЕНТР\, Москва
+DESCRIPTION:Современная оперная постановка п
+ о поэме Венедикта Ерофеева\, сочетающая 
+ библейские тексты на иврите и оригиналь
+ ную музыкальную драматургию.\nVenedikt Yerofeyev
+  (based on)\nhttps://theblueprint.ru/culture/music/moscow-petushki-ton-ce
+ ntre
+URL:https://doublebasskakov.github.io/radar/#e=moscow-petushki-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Москва — Петушки
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

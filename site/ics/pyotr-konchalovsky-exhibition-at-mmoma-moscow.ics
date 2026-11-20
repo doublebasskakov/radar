@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:pyotr-konchalovsky-exhibition-at-mmoma-moscow@afisha-art
+DTSTAMP:20261120T125115Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Выставка Петра Кончаловского в ММО
+ МА
+LOCATION:ММОМА\, Москва
+DESCRIPTION:Масштабная экспозиция объединяе
+ т произведения из более чем 19 музейных к
+ оллекций\, показывая работы художника и 
+ историю его мастерской.\nММОМА\nhttps://t.me/Cul
+ turMoscow/5916
+URL:https://doublebasskakov.github.io/radar/#e=pyotr-konchalovsky-exhibit
+ ion-at-mmoma-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выставка Петра Кончаловского в М
+ МОМА
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:lecture-for-the-exhibition-follow-my-trace-samara@afisha-art
+DTSTAMP:20261120T125115Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Лекция к выставке «Идите по моему с
+ леду»
+LOCATION:Галерея Виктория\, Самара
+DESCRIPTION:Лекция графического дизайнера в 
+ рамках выставки «Идите по моему следу»\,
+  посвященная теме глитча\, штрихов и тех
+ нических ошибок в визуальном искусстве.
+ \n\nhttps://t.me/gallery_victoria/4276
+URL:https://doublebasskakov.github.io/radar/#e=lecture-for-the-exhibition
+ -follow-my-trace-samara
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекция к выставке «Идите по моему
+  следу»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

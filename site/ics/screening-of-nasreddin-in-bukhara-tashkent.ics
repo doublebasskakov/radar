@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:screening-of-nasreddin-in-bukhara-tashkent@afisha-art
+DTSTAMP:20261120T125115Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Показ фильма «Насреддин в Бухаре»
+LOCATION:Центр современного искусства в Таш
+ кенте (CCA Tashkent)\, Ташкент\, Узбекистан
+DESCRIPTION:Показ картины Якова Протазанова 
+ «Насреддин в Бухаре» (1943) в рамках ретро
+ спективы классики узбекского кино.\nЯко
+ в Протазанов\nhttps://t.me/cca_tashkent/2722
+URL:https://doublebasskakov.github.io/radar/#e=screening-of-nasreddin-in-
+ bukhara-tashkent
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильма «Насреддин в Бухаре
+ »
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

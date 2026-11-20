@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:neuyat-festival-exhibition-at-ichkari-tashkent@afisha-art
+DTSTAMP:20261120T125115Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Открытие: Выставка фестиваля NeUyat в I
+ CHKARI
+LOCATION:ICHKARI\, Ташкент\, Узбекистан
+DESCRIPTION:Выставка в рамках фестиваля NeUyat\, 
+ проходящая на площадке пространства ICHKA
+ RI.\n\nhttps://www.afisha.uz/ru/exhibitions/2026/11/17/neuyat2026
+URL:https://doublebasskakov.github.io/radar/#e=neuyat-festival-exhibition
+ -at-ichkari-tashkent
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка фестиваля NeUyat 
+ в ICHKARI
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

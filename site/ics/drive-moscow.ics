@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:drive-moscow@afisha-art
+DTSTAMP:20261120T125115Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Драйв
+LOCATION:Кинотеатры Москвы\, Москва
+DESCRIPTION:Неоновое неонуарное кино Николас
+ а Виндинга Рефна\, сочетающее эстетику 80
+ -х с минималистичным насилием.\nНиколас 
+ Виндинг Рефн\nhttps://www.afisha.ru/msk/schedule_cinema/vybor-
+ afishi/
+URL:https://doublebasskakov.github.io/radar/#e=drive-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Драйв
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

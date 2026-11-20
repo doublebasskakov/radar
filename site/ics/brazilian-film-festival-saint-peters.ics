@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:brazilian-film-festival-saint-peters@afisha-art
+DTSTAMP:20261120T125115Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261123
+SUMMARY:Фестиваль бразильского кино
+LOCATION:Кинотеатр «Родина»\, Санкт-Петербу
+ рг
+DESCRIPTION:Программа показов бразильских др
+ ам\, комедий и политических триллеров в 
+ Санкт-Петербурге.\nКинотеатр «Родина»\nht
+ tps://t.me/shozhu/19087
+URL:https://doublebasskakov.github.io/radar/#e=brazilian-film-festival-sa
+ int-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Фестиваль бразильского кино
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:court-circuit-concert-paris@afisha-art
+DTSTAMP:20261120T125115Z
+DTSTART:20270122T190000Z
+DTEND:20270122T210000Z
+SUMMARY:Концерт ансамбля Court-circuit
+LOCATION:Ircam\, Espace de projection\, Ircam\, Espace de projection\, Pa
+ ris\, Париж\, Франция
+DESCRIPTION:Вечер современной музыки с премь
+ ерами Филиппа Юреля\, Хибики Мукаи и Рос
+ ио Кано Валиньо.\nPhilippe Hurel\, Hibiki Mukai\, Rocío Can
+ o Valiño\, Philippe Leroux\nhttps://ircam-billetterie.mapado.com/
+URL:https://doublebasskakov.github.io/radar/#e=court-circuit-concert-pari
+ s
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт ансамбля Court-circuit
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

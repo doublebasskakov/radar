@@ -7,8 +7,30 @@ X-WR-CALNAME:Радар — Мир / World · country-uae
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:poetfest-dubai-concert-and-competition-dubai@afisha-art
+DTSTAMP:20261120T125115Z
+DTSTART:20261127T140000Z
+DTEND:20261127T160000Z
+SUMMARY:Конкурс-концерт Poetfest.Dubai
+LOCATION:Mazaya Business Avenue\, Tower BB1\, 20 этаж\, JLT\, Дуб
+ ай\, ОАЭ
+DESCRIPTION:Интерактивный вечер-конкурс\, объ
+ единяющий поэзию\, вокал\, живую музыку и
+  выставку работ художников в русскоязыч
+ ном сообществе Дубая.\nПоэты\, чтецы\, пев
+ цы\, музыканты и художники\nhttps://t.me/uaeeventsca
+ lendar/2392
+URL:https://doublebasskakov.github.io/radar/#e=poetfest-dubai-concert-and
+ -competition-dubai
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Конкурс-концерт Poetfest.Dubai
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:frieze-abu-dhabi-2026@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART:20261119T100000Z
 DTEND:20261119T120000Z
 SUMMARY:Frieze Abu Dhabi 2026
@@ -27,13 +49,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sharjah-biennial-17@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20270121
 DTEND;VALUE=DATE:20270122
 SUMMARY:Открытие: Sharjah Biennial 17: What remains\, sits restiv
  e
-LOCATION:Sharjah Art Foundation и площадки эмирата\, Ша
- рджа\, ОАЭ
+LOCATION:Sharjah Art Foundation и площадки эмирата\, Shar
+ jah\, Шарджа\, ОАЭ
 DESCRIPTION:17-я Шарджинская биеннале — одна и
  з главных выставок Ближнего Востока\; од
  ин из кураторов — армянский историк иск
@@ -52,7 +74,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:guggenheim-abu-dhabi-opening@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:Открытие Guggenheim Abu Dhabi
@@ -74,7 +96,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:louvre-abu-dhabi-art-here-2026@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 SUMMARY:Последний день: Art Here 2026: Confluences
@@ -95,7 +117,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:art-dubai-2027@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20270407
 DTEND;VALUE=DATE:20270412
 SUMMARY:Art Dubai 2027
@@ -113,7 +135,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:memory-history-and-film-archives-sharjah@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261123
 SUMMARY:Memory\, History and Film Archives
@@ -132,7 +154,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:between-movement-and-sound-sharjah@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Between Movement and Sound
@@ -152,7 +174,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:a-silence-that-sits-constructing-family-narratives-with-sim--sharjah@
  afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:A Silence That Sits: Constructing Family Narratives with Sim Chi 

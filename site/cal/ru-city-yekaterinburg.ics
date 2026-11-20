@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:short-films-screening-block-2-yekaterinbur@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Показ короткометражных фильмов. Сб
@@ -28,7 +28,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-shelter-yekaterinbur@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Показ фильма «Укрытие»
@@ -46,7 +46,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:poetic-promenade-yekaterinbur@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART:20261120T143000Z
 DTEND:20261120T163000Z
 SUMMARY:Поэтический променад
@@ -68,7 +68,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:lecture-by-alexander-morozov-the-image-of-the-1990s-in-moder-yekateri
  nbur@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART:20261125T123000Z
 DTEND:20261125T143000Z
 SUMMARY:Лекция Александра Морозова «Образ 1
@@ -93,7 +93,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:lecture-by-yuri-orlitsky-literary-life-of-russian-capitals-a-yekateri
  nbur@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART:20261123T073000Z
 DTEND:20261123T093000Z
 SUMMARY:Лекция Юрия Орлицкого «Литературна
@@ -117,7 +117,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:performance-gadgets-in-our-life-yekaterinbur@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Перформанс «Гаджеты в нашей жизни»
@@ -139,7 +139,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:round-table-the-right-to-vote-and-be-elected-state-authority-yekateri
  nbur@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART:20261124T113000Z
 DTEND:20261124T133000Z
 SUMMARY:Круглый стол «Право избирать и быть
@@ -161,9 +161,52 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:igor-gavrilov-exhibition-opening-artist-talk-yekaterinbur@afisha-art
+DTSTAMP:20261120T125115Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:Открытие выставки Игоря Гаврилова 
+ «Кадровый голод» и встреча с автором
+LOCATION:Ельцин Центр\, Екатеринбург
+DESCRIPTION:Торжественное открытие экспозиц
+ ии документальных снимков 1980–1990-х годо
+ в с участием фотографа Игоря Гаврилова.\
+ nИгорь Гаврилов\nhttps://t.me/yeltsincenter/10210
+URL:https://doublebasskakov.github.io/radar/#e=igor-gavrilov-exhibition-o
+ pening-artist-talk-yekaterinbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие выставки Игоря Гаврилов
+ а «Кадровый голод» и встреча с автором
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lecture-agatha-christie-and-other-rock-detectives-yekaterinbur@afisha
+ -art
+DTSTAMP:20261120T125115Z
+DTSTART:20261201T160000Z
+DTEND:20261201T180000Z
+SUMMARY:Лекция «„Агата Кристи“ и другие ро
+ к-детективы»
+LOCATION:Музей андеграунда\, Екатеринбург
+DESCRIPTION:Дизайнер Александр Коротич расск
+ ажет об истории создания обложек альбом
+ ов рок-групп Свердловского рок-клуба.\nА
+ лександр Коротич\nhttps://t.me/undergroundmuseum_ekb/5330
+URL:https://doublebasskakov.github.io/radar/#e=lecture-agatha-christie-an
+ d-other-rock-detectives-yekaterinbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекция «„Агата Кристи“ и другие 
+ рок-детективы»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:lecture-by-sergey-perekhozhikh-moscow-in-the-era-of-yeltsin--yekateri
  nbur@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART:20261125T083000Z
 DTEND:20261125T103000Z
 SUMMARY:Лекция Сергея Перехожих «Москва эп
@@ -185,7 +228,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:lecture-by-dmitry-karasyuk-history-of-the-sverdlovsk-rock-cl-yekateri
  nbur@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART:20261123T140000Z
 DTEND:20261123T160000Z
 SUMMARY:Лекция Дмитрия Карасюка «История С
@@ -207,7 +250,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:lecture-by-masha-ryba-soviet-fashion-of-the-nep-era-yekaterinbur@afis
  ha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20270116
 DTEND;VALUE=DATE:20270117
 SUMMARY:Лекция Маши Рыбы «Советская мода эп
@@ -230,7 +273,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:lecture-by-evgeny-burdenkov-yeltsin-at-construction-sites-th-yekateri
  nbur@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART:20261124T140000Z
 DTEND:20261124T160000Z
 SUMMARY:Лекция Евгения Бурденкова «Ельцин 
@@ -253,7 +296,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:the-art-of-feeling-workshop-yekaterinbur@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART:20261122T100000Z
 DTEND:20261122T120000Z
 SUMMARY:Мастерская «Искусство чувствовать
@@ -275,7 +318,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ekb-masm-kontrapunkt-epokh@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART:20261127T140000Z
 DTEND:20261127T160000Z
 SUMMARY:МАСМ. «Контрапункт эпох»
@@ -295,7 +338,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:short-films-screening-block-1-yekaterinbur@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:Показ короткометражных фильмов. Сб
@@ -315,9 +358,31 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:cadre-shortage-documentary-photography-exhibition-by-igor-ga-yekateri
+ nbur@afisha-art
+DTSTAMP:20261120T125115Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:Выставка документальной фотографи
+ и Игоря Гаврилова «Кадровый голод»
+LOCATION:Ельцин Центр\, Екатеринбург
+DESCRIPTION:Персональная выставка репортажн
+ ой и художественной фотографии 80-90-х год
+ ов известного фотографа Игоря Гаврилов
+ а.\nИгорь Гаврилов\nhttps://t.me/yeltsincenter/10210
+URL:https://doublebasskakov.github.io/radar/#e=cadre-shortage-documentary
+ -photography-exhibition-by-igor-ga-yekaterinbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выставка документальной фотогра
+ фии Игоря Гаврилова «Кадровый голод»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:message-to-man-festival-echo-program-screenings-in-yekaterin-yekateri
  nbur@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:Открытие: Фестиваль «Послание к чел
@@ -340,7 +405,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:short-films-screening-block-3-yekaterinbur@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Показ короткометражных фильмов. Сб
@@ -360,7 +425,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-portraits-of-arina-yekaterinbur@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Показ фильма «Портреты Арины»
@@ -378,7 +443,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:thanks-to-everyone-yekaterinbur@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
 SUMMARY:Последний день: Спасибо всем!
@@ -400,7 +465,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-tour-tetris-dendy-and-us-history-of-video-games-i-yekateri
  nbur@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Экскурсия «Тетрис»\, «Денди» и мы: и
@@ -422,7 +487,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:flora-bichakhchyan-concert-flora-world-star-yekaterinbur@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Концерт Флоры Бичахчян «ФЛОРА. Миро
@@ -446,7 +511,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:lecture-a-moment-before-the-freeze-literary-freedom-of-the-1-yekateri
  nbur@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Лекция «За мгновение до заморозков:
@@ -469,7 +534,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:tour-and-masterclass-erik-bulatov-freedom-to-be-yekaterinbur@afisha-a
  rt
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:Экскурсия и мастер-класс «Эрик Була
@@ -491,7 +556,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ekb-yeltsin-atrium-art-object-2026@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20261226
 DTEND;VALUE=DATE:20261227
 SUMMARY:Новогодний арт-объект в атриуме Ель
@@ -516,7 +581,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:theatrehd-screening-robert-wilson-s-pushkin-s-fairy-tales-yekaterinbu
  r@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Кинопоказ спектакля Роберта Уилсон
@@ -538,7 +603,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:presentation-of-the-limited-clothing-collection-autograph-yekaterinbu
  r@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Презентация лимитированной коллек
@@ -560,7 +625,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:discussion-reading-and-discussing-yevgeny-zamyatin-s-dystopi-yekateri
  nbur@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Дискуссия «Читаем и обсуждаем анти
@@ -583,7 +648,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ekb-generations-innovators@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Последний день: Поколения новаторо
@@ -604,7 +669,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:special-screening-it-was-it-wasn-t-yekaterinbur@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:Специальный показ фильма «Было не б
@@ -624,7 +689,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:screening-jim-jarmusch-s-paterson-yekaterinbur@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Открытие: Показ фильма «Патерсон» Д
@@ -644,7 +709,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:documentary-seeing-all-yekaterinbur@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:Открытие: Документальный фильм «Ув
@@ -664,7 +729,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:screening-first-cow-yekaterinbur@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Показ фильма «Первая корова»
@@ -683,7 +748,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:screening-food-inc-2-yekaterinbur@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Показ фильма «Корпорация „Еда“ - 2»
@@ -702,7 +767,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:screening-minari-yekaterinbur@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Показ фильма «Минари»
@@ -720,7 +785,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:screening-toni-yekaterinbur@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Показ фильма «Тони»
@@ -738,7 +803,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:screening-boiling-point-yekaterinbur@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Показ фильма «Точка кипения»
@@ -756,7 +821,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:screening-train-to-busan-yekaterinbur@afisha-art
-DTSTAMP:20261119T231855Z
+DTSTAMP:20261120T125115Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261127
 SUMMARY:Показ фильма ужасов «Поезд в Пусан»

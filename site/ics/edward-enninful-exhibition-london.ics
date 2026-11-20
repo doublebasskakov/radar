@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:edward-enninful-exhibition-london@afisha-art
+DTSTAMP:20261120T125115Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Выставка Эдварда Эннинфула
+LOCATION:Галерея Тейт\, Лондон
+DESCRIPTION:Экспозиция\, посвященная вкладу Э
+ дварда Эннинфула в моду и визуальную ку
+ льтуру 1990-х годов.\nЭдвард Эннинфул\nhttps://
+ theblueprint.ru/culture/art/tate-90s
+URL:https://doublebasskakov.github.io/radar/#e=edward-enninful-exhibition
+ -london
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выставка Эдварда Эннинфула
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

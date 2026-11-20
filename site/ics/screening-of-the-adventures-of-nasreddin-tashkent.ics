@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:screening-of-the-adventures-of-nasreddin-tashkent@afisha-art
+DTSTAMP:20261120T125115Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Показ фильма «Похождения Насреддин
+ а»
+LOCATION:Центр современного искусства в Таш
+ кенте (CCA Tashkent)\, Ташкент\, Узбекистан
+DESCRIPTION:Показ фильма Наби Ганиева «Похож
+ дения Насреддина» (1946) в рамках программ
+ ы классического узбекского кинематогра
+ фа.\nНаби Ганиев\nhttps://t.me/cca_tashkent/2722
+URL:https://doublebasskakov.github.io/radar/#e=screening-of-the-adventure
+ s-of-nasreddin-tashkent
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильма «Похождения Насредд
+ ина»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

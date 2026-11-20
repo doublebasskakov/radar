@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:exhibition-hold-your-breath-saint-peters@afisha-art
+DTSTAMP:20261120T125115Z
+DTSTART;VALUE=DATE:20261216
+DTEND;VALUE=DATE:20261217
+SUMMARY:Выставка «Задержите дыхание»
+LOCATION:Севкабель Порт\, пространство «Цех
+ »\, Санкт-Петербург
+DESCRIPTION:Масштабная инсталляция внутри 25-
+ метрового кита\, включающая междисципли
+ нарный арт-объект о внутреннем уединени
+ и и современной изоляции.\nАндрей Вороно
+ в\, Антон Морозов\nhttps://t.me/cityofthefuture/23317
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-hold-your-breat
+ h-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выставка «Задержите дыхание»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:live-concert-as-part-of-sawt-al-sahel-sharjah@afisha-art
+DTSTAMP:20261120T125115Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Концерт живой музыки в рамках Sawt Al Sa
+ hel
+LOCATION:Sharjah Art Foundation\, Al Alta Artist Space / SAF Radio venue\
+ , Шарджа\, ОАЭ
+DESCRIPTION:Второй вечер живой музыки в рамка
+ х сезонной концертной программы SAF Radio.\nN
+ one\nhttps://www.sharjahart.org/en/whats-on/details/sawt-al-sahel
+URL:https://doublebasskakov.github.io/radar/#e=live-concert-as-part-of-sa
+ wt-al-sahel-sharjah
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт живой музыки в рамках Sawt A
+ l Sahel
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR
