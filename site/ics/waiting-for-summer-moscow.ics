@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:waiting-for-summer-moscow@afisha-art
+DTSTAMP:20261120T225953Z
+DTSTART;VALUE=DATE:20270422
+DTEND;VALUE=DATE:20270423
+SUMMARY:В ожидании лета
+LOCATION:Концертный зал имени С. В. Рахманин
+ ова («Филармония-2»)\, Мичуринский проспе
+ кт\, Олимпийская деревня\, дом 1\, Москва
+DESCRIPTION:Яркая джазовая программа под рук
+ оводством саксофониста Игоря Бутмана.\n
+ Московский джазовый оркестр\, Игорь Бут
+ ман\nhttps://meloman.ru/concert/f2-2027-05-20/
+URL:https://doublebasskakov.github.io/radar/#e=waiting-for-summer-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:В ожидании лета
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

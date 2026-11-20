@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:tomsk-masm-denisov@afisha-art
-DTSTAMP:20261120T180310Z
+DTSTAMP:20261120T225953Z
 DTSTART:20261124T120000Z
 DTEND:20261124T140000Z
 SUMMARY:МАСМ. «Диалоги сквозь время: Эдисон 
@@ -28,7 +28,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tsxr-scan-tomsk@afisha-art
-DTSTAMP:20261120T180310Z
+DTSTAMP:20261120T225953Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Последний день: ТСХР + СКАН
@@ -47,7 +47,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tshr-scan-exhibition-tomsk@afisha-art
-DTSTAMP:20261120T180310Z
+DTSTAMP:20261120T225953Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Последний день: Выставка ТСХР + СКАН
@@ -68,7 +68,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:interactive-exhibition-robopark-tomsk@afisha-art
-DTSTAMP:20261120T180310Z
+DTSTAMP:20261120T225953Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:Последний день: Интерактивная выст
@@ -91,7 +91,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:first-workshop-of-siberian-art-exhibition-tomsk@afisha-art
-DTSTAMP:20261120T180310Z
+DTSTAMP:20261120T225953Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Последний день: Выставка Первой мас
@@ -115,7 +115,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tshr-skan-contemporaries-exhibition-tomsk@afisha-art
-DTSTAMP:20261120T180310Z
+DTSTAMP:20261120T225953Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Последний день: Выставка «ТСХР + СКА
@@ -137,31 +137,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:tomsk-kabinet-flora-sibiri@afisha-art
-DTSTAMP:20261120T180310Z
-DTSTART;VALUE=DATE:20270131
-DTEND;VALUE=DATE:20270201
-SUMMARY:Последний день: «Флора Сибири: худо
- жественное исследование»
-LOCATION:Кабинет Пушкинского музея в Научно
- й библиотеке ТГУ\, Томск
-DESCRIPTION:Ботанические иллюстрации XVIII век
- а из фондов ТГУ рядом с работами томской
-  художницы\, которая использует отпечат
- ки растений и коры.\nЕлизавета Клеванцев
- а\; Научная библиотека ТГУ\nhttps://pushkinmuseum.ar
- t/news/archive/2026/10_/tomsk/index.php?lang=ru
-URL:https://doublebasskakov.github.io/radar/#e=tomsk-kabinet-flora-sibiri
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Последний день: «Флора Сибири: ху
- дожественное исследование»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:architecture-instructions-for-use-by-s-berezovskaya-tomsk@afisha-art
-DTSTAMP:20261120T180310Z
+DTSTAMP:20261120T225953Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:Курс лекций С. Березовской «Архитек
@@ -183,30 +160,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:art-of-contemporaries-tomsk@afisha-art
-DTSTAMP:20261120T180310Z
-DTSTART;VALUE=DATE:20261130
-DTEND;VALUE=DATE:20261201
-SUMMARY:Последний день: Искусство современ
- ников
-LOCATION:Томский центр современной культур
- ы\, Томск
-DESCRIPTION:Выставка\, представляющая актуал
- ьные художественные практики и произве
- дения современных сибирских авторов.\nNon
- e\nhttps://www.afisha.ru/exhibition/iskusstvo-sovremennikov-1016008/
-URL:https://doublebasskakov.github.io/radar/#e=art-of-contemporaries-toms
- k
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Последний день: Искусство соврем
- енников
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:art-of-contemporaries-exhibition-tomsk@afisha-art
-DTSTAMP:20261120T180310Z
+DTSTAMP:20261120T225953Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Последний день: Выставка «Искусств
@@ -228,7 +183,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cinema-history-russian-cinematography-lecture-series-tomsk@afisha-art
-DTSTAMP:20261120T180310Z
+DTSTAMP:20261120T225953Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Цикл лекций «История кино: российск
@@ -250,8 +205,53 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:tomsk-kabinet-flora-sibiri@afisha-art
+DTSTAMP:20261120T225953Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:Последний день: «Флора Сибири: худо
+ жественное исследование»
+LOCATION:Кабинет Пушкинского музея в Научно
+ й библиотеке ТГУ\, Томск
+DESCRIPTION:Ботанические иллюстрации XVIII век
+ а из фондов ТГУ рядом с работами томской
+  художницы\, которая использует отпечат
+ ки растений и коры.\nЕлизавета Клеванцев
+ а\; Научная библиотека ТГУ\nhttps://pushkinmuseum.ar
+ t/news/archive/2026/10_/tomsk/index.php?lang=ru
+URL:https://doublebasskakov.github.io/radar/#e=tomsk-kabinet-flora-sibiri
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: «Флора Сибири: ху
+ дожественное исследование»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:art-of-contemporaries-tomsk@afisha-art
+DTSTAMP:20261120T225953Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:Последний день: Искусство современ
+ ников
+LOCATION:Томский центр современной культур
+ ы\, Томск
+DESCRIPTION:Выставка\, представляющая актуал
+ ьные художественные практики и произве
+ дения современных сибирских авторов.\nNon
+ e\nhttps://www.afisha.ru/exhibition/iskusstvo-sovremennikov-1016008/
+URL:https://doublebasskakov.github.io/radar/#e=art-of-contemporaries-toms
+ k
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Искусство соврем
+ енников
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:contemporaries-vidimo-nevidimo-tomsk@afisha-art
-DTSTAMP:20261120T180310Z
+DTSTAMP:20261120T225953Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Последний день: Современники + Види
@@ -273,7 +273,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tshr-decorative-and-applied-art-exhibition-tomsk@afisha-art
-DTSTAMP:20261120T180310Z
+DTSTAMP:20261120T225953Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Последний день: Выставка декоратив

@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:symphonic-concert-dutilleux-bizet-shchedrin-ravel-st-petersbur@afisha
+ -art
+DTSTAMP:20261120T225953Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Симфонический концерт: Дютийё\, Биз
+ е — Щедрин\, Равель
+LOCATION:Большой зал Филармонии им. Д. Д. Шос
+ таковича\, Михайловская ул.\, 2\, Санкт-Пет
+ ербург
+DESCRIPTION:Концерт оркестровой музыки XX век
+ а\, включающий произведение Анри Дютийё 
+ «Тембры\, пространство\, движение» и «Ка
+ рмен-сюиту» Щедрина.\nАкадемический сим
+ фонический оркестр Санкт-Петербургской
+  филармонии\, Димитрис Ботинис\, Надежда 
+ Павлова\nhttps://t.me/philharmoniaspb/2437
+URL:https://doublebasskakov.github.io/radar/#e=symphonic-concert-dutilleu
+ x-bizet-shchedrin-ravel-st-petersbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Симфонический концерт: Дютийё\, Б
+ изе — Щедрин\, Равель
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

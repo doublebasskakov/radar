@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:pianoforte-concert-saratov@afisha-art
+DTSTAMP:20261120T225953Z
+DTSTART:20261123T150000Z
+DTEND:20261123T170000Z
+SUMMARY:Концерт «PianoForte»
+LOCATION:Саратовская государственная консе
+ рватория имени Л.В. Собинова\, Большой за
+ л\, просп. имени Петра Столыпина\, 1\, Сара
+ тов
+DESCRIPTION:Вечер академической фортепианно
+ й музыки в Большом зале консерватории.\n
+ Студенты и преподаватели консерватории
+ \nhttps://sarcons.ru/
+URL:https://doublebasskakov.github.io/radar/#e=pianoforte-concert-saratov
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт «PianoForte»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

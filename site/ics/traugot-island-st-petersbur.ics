@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:traugot-island-st-petersbur@afisha-art
+DTSTAMP:20261120T225953Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Открытие: Остров Траугот
+LOCATION:Музей искусства Санкт-Петербурга XX
+ -XXI веков\, набережная канала Грибоедова\
+ , 103\, Санкт-Петербург
+DESCRIPTION:Выставка\, посвященная творческо
+ му наследию знаменитой династии художн
+ иков-иллюстраторов Г.А.В. Траугот.\nГ.А.В. 
+ Траугот\nhttps://t.me/mispspb/4457
+URL:https://doublebasskakov.github.io/radar/#e=traugot-island-st-petersbu
+ r
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Остров Траугот
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

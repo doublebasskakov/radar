@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:sinbad-the-sailor-moscow@afisha-art
+DTSTAMP:20261120T225953Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Синдбад-мореход
+LOCATION:Концертный зал имени С. В. Рахманин
+ ова («Филармония-2»)\, Мичуринский проспе
+ кт\, Олимпийская деревня\, дом 1\, Москва
+DESCRIPTION:Музыкально-литературная компози
+ ция по мотивам сказки Римского-Корсаков
+ а с художественным чтением.\nКамиль Лари
+ н\, Национальный филармонический оркест
+ р России\, Клеман Нонсьё\nhttps://meloman.ru/hall/fila
+ rmoniya-2-koncertnyj-zal-imeni-svrahmaninova/
+URL:https://doublebasskakov.github.io/radar/#e=sinbad-the-sailor-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Синдбад-мореход
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

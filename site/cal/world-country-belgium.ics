@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:ina-grm-acousmonium-brussels@afisha-art
-DTSTAMP:20261120T180310Z
+DTSTAMP:20261120T225953Z
 DTSTART:20270127T183000Z
 DTEND:20270127T203000Z
 SUMMARY:Ina GRM – Acousmonium
@@ -31,7 +31,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:grm-acousmonium-set-1-brussels@afisha-art
-DTSTAMP:20261120T180310Z
+DTSTAMP:20261120T225953Z
 DTSTART:20270130T191500Z
 DTEND:20270130T211500Z
 SUMMARY:GRM Acousmonium (сет 1)
@@ -52,7 +52,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:grm-acousmonium-set-2-brussels@afisha-art
-DTSTAMP:20261120T180310Z
+DTSTAMP:20261120T225953Z
 DTSTART:20270130T202000Z
 DTEND:20270130T222000Z
 SUMMARY:GRM Acousmonium (сет 2)
@@ -73,7 +73,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:grm-acousmonium-set-3-brussels@afisha-art
-DTSTAMP:20261120T180310Z
+DTSTAMP:20261120T225953Z
 DTSTART:20270130T211500Z
 DTEND:20270130T231500Z
 SUMMARY:GRM Acousmonium (сет 3)
@@ -94,7 +94,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ina-grm-acousmonium-xx-xxi-brussels@afisha-art
-DTSTAMP:20261120T180310Z
+DTSTAMP:20261120T225953Z
 DTSTART:20270129T190000Z
 DTEND:20270129T210000Z
 SUMMARY:Ina GRM – Acousmonium (XX-XXI)
@@ -114,7 +114,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:grm-bozar-acousmonium-2027@afisha-art
-DTSTAMP:20261120T180310Z
+DTSTAMP:20261120T225953Z
 DTSTART:20270127T183000Z
 DTEND:20270127T203000Z
 SUMMARY:INA GRM: Акусмониум в Bozar
@@ -133,7 +133,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ina-grm-acousmonium-total-immersion-brussels@afisha-art
-DTSTAMP:20261120T180310Z
+DTSTAMP:20261120T225953Z
 DTSTART:20270128T193000Z
 DTEND:20270128T213000Z
 SUMMARY:Ina GRM – Acousmonium (Total Immersion)
@@ -152,51 +152,31 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:short-movies-by-vivienne-dick-i-brussels@afisha-art
-DTSTAMP:20261120T180310Z
-DTSTART:20261120T180000Z
-DTEND:20261120T200000Z
-SUMMARY:Показ короткометражных фильмов Вив
- ьен Дик (I)
+UID:william-kentridge-i-am-not-me-the-horse-is-not-mine-brussels-2@afisha
+ -art
+DTSTAMP:20261120T225953Z
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
+SUMMARY:Последний день: Выставка Ульяма Кен
+ триджа «I am not me\, the horse is not mine»
 LOCATION:Bozar\, Bozar\, Brussels\, Брюссель\, Бельгия
-DESCRIPTION:Специальный показ авторских коро
- ткометражных фильмов Вивьен Дик в прису
- тствии режиссера.\nVivienne Dick\nhttps://www.bozar.be/en/
- calendar/short-movies-vivienne-dick-i
-URL:https://doublebasskakov.github.io/radar/#e=short-movies-by-vivienne-d
- ick-i-brussels
+DESCRIPTION:Масштабная выставка современног
+ о искусства известного южноафриканског
+ о художника Уильяма Кентриджа.\nWilliam Kentrid
+ ge\nhttps://www.bozar.be/en/calendar/william-kentridge-0
+URL:https://doublebasskakov.github.io/radar/#e=william-kentridge-i-am-not
+ -me-the-horse-is-not-mine-brussels-2
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Показ короткометражных фильмов В
- ивьен Дик (I)
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:short-movies-by-vivienne-dick-ii-brussels@afisha-art
-DTSTAMP:20261120T180310Z
-DTSTART:20261120T193000Z
-DTEND:20261120T213000Z
-SUMMARY:Показ короткометражных фильмов Вив
- ьен Дик (II)
-LOCATION:Bozar\, Bozar\, Brussels\, Брюссель\, Бельгия
-DESCRIPTION:Вторая часть программы короткоме
- тражного кино Вивьен Дик с участием авт
- ора.\nVivienne Dick\nhttps://www.bozar.be/en/calendar/short-movies-viv
- ienne-dick-ii
-URL:https://doublebasskakov.github.io/radar/#e=short-movies-by-vivienne-d
- ick-ii-brussels
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Показ короткометражных фильмов В
- ивьен Дик (II)
+DESCRIPTION:Последний день: Выставка Ульяма К
+ ентриджа «I am not me\, the horse is not mine»
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:william-kentridge-i-am-not-me-the-horse-is-not-mine-brussels@afisha-a
  rt
-DTSTAMP:20261120T180310Z
+DTSTAMP:20261120T225953Z
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270308
 SUMMARY:Последний день: William Kentridge: I am not me\, the
@@ -217,7 +197,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:house-of-memory-by-basil-al-rawi-brussels-4@afisha-art
-DTSTAMP:20261120T180310Z
+DTSTAMP:20261120T225953Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261123
 SUMMARY:House of Memory / بيت الذاكرة: Басил Аль-Рав
@@ -238,8 +218,31 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:edith-dekyndt-x-cristo-bal-balenciaga-the-fabric-decides-brussels-2@a
+ fisha-art
+DTSTAMP:20261120T225953Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:Последний день: Выставка «Edith Dekyndt x C
+ ristóbal Balenciaga: The Fabric Decides»
+LOCATION:Bozar\, Bozar\, Brussels\, Брюссель\, Бельгия
+DESCRIPTION:Совместный проект современного х
+ удожника Эдит Декиндт и наследия модног
+ о дома Кристобаля Баленсиаги.\nEdith Dekyndt\, C
+ ristóbal Balenciaga\nhttps://www.bozar.be/en/calendar/edith-dekyndt-x-cr
+ istobal-balenciaga
+URL:https://doublebasskakov.github.io/radar/#e=edith-dekyndt-x-cristo-bal
+ -balenciaga-the-fabric-decides-brussels-2
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Выставка «Edith Dekyndt
+  x Cristóbal Balenciaga: The Fabric Decides»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:house-of-memory-by-basil-al-rawi-brussels-2@afisha-art
-DTSTAMP:20261120T180310Z
+DTSTAMP:20261120T225953Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261123
 SUMMARY:Дом памяти / بيت الذاكرة
@@ -258,7 +261,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:house-of-memory-by-basil-al-rawi-brussels@afisha-art
-DTSTAMP:20261120T180310Z
+DTSTAMP:20261120T225953Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Последний день: House of Memory / بيت الذاك
@@ -280,7 +283,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:edith-dekyndt-x-cristo-bal-balenciaga-the-fabric-decides-brussels@afi
  sha-art
-DTSTAMP:20261120T180310Z
+DTSTAMP:20261120T225953Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:Последний день: Edith Dekyndt x Cristóbal Balenciag
@@ -301,7 +304,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:jean-brusselmans-painter-by-nature-brussels@afisha-art
-DTSTAMP:20261120T180310Z
+DTSTAMP:20261120T225953Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:Последний день: Jean Brusselmans: Painter by Nature
@@ -321,7 +324,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:house-of-memory-by-basil-al-rawi-brussels-3@afisha-art
-DTSTAMP:20261120T180310Z
+DTSTAMP:20261120T225953Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261123
 SUMMARY:House of Memory / بيت الذاكرة
@@ -339,57 +342,12 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:william-kentridge-i-am-not-me-the-horse-is-not-mine-brussels-2@afisha
- -art
-DTSTAMP:20261120T180310Z
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261121
-SUMMARY:Открытие: Выставка Ульяма Кентридж
- а «I am not me\, the horse is not mine»
-LOCATION:Bozar\, Bozar\, Brussels\, Брюссель\, Бельгия
-DESCRIPTION:Масштабная выставка современног
- о искусства известного южноафриканског
- о художника Уильяма Кентриджа.\nWilliam Kentrid
- ge\nhttps://www.bozar.be/en/calendar/william-kentridge-0
-URL:https://doublebasskakov.github.io/radar/#e=william-kentridge-i-am-not
- -me-the-horse-is-not-mine-brussels-2
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Открытие: Выставка Ульяма Кентри
- джа «I am not me\, the horse is not mine»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:edith-dekyndt-x-cristo-bal-balenciaga-the-fabric-decides-brussels-2@a
- fisha-art
-DTSTAMP:20261120T180310Z
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261121
-SUMMARY:Открытие: Выставка «Edith Dekyndt x Cristóbal B
- alenciaga: The Fabric Decides»
-LOCATION:Bozar\, Bozar\, Brussels\, Брюссель\, Бельгия
-DESCRIPTION:Совместный проект современного х
- удожника Эдит Декиндт и наследия модног
- о дома Кристобаля Баленсиаги.\nEdith Dekyndt\, C
- ristóbal Balenciaga\nhttps://www.bozar.be/en/calendar/edith-dekyndt-x-cr
- istobal-balenciaga
-URL:https://doublebasskakov.github.io/radar/#e=edith-dekyndt-x-cristo-bal
- -balenciaga-the-fabric-decides-brussels-2
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Открытие: Выставка «Edith Dekyndt x Cristób
- al Balenciaga: The Fabric Decides»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:jean-brusselmans-painter-by-nature-brussels-2@afisha-art
-DTSTAMP:20261120T180310Z
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261121
-SUMMARY:Открытие: Выставка «Жан Брюссельма
- нс. Художник от природы»
+DTSTAMP:20261120T225953Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:Последний день: Выставка «Жан Брюсс
+ ельманс. Художник от природы»
 LOCATION:Bozar\, Bozar\, Brussels\, Брюссель\, Бельгия
 DESCRIPTION:Выставка классика бельгийского м
  одернизма Жана Брюссельманса.\nJean Brusselmans
@@ -398,17 +356,18 @@ URL:https://doublebasskakov.github.io/radar/#e=jean-brusselmans-painter-b
  y-nature-brussels-2
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Открытие: Выставка «Жан Брюссель
- манс. Художник от природы»
+DESCRIPTION:Последний день: Выставка «Жан Брю
+ ссельманс. Художник от природы»
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:the-six-reiner-holzemer-brussels@afisha-art
-DTSTAMP:20261120T180310Z
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261121
-SUMMARY:Открытие: The Six — Райнер Хольцемер
+DTSTAMP:20261120T225953Z
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:Последний день: The Six — Райнер Хольц
+ емер
 LOCATION:Bozar\, Rue Ravenstein 23\, Брюссель\, Бельгия
 DESCRIPTION:Показ документального арт-фильма
   Райнера Хольцемера в рамках кинопрогра
@@ -418,17 +377,37 @@ URL:https://doublebasskakov.github.io/radar/#e=the-six-reiner-holzemer-br
  ussels
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Открытие: The Six — Райнер Хольцемер
+DESCRIPTION:Последний день: The Six — Райнер Хол
+ ьцемер
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:the-six-reiner-holzemer-brussels-2@afisha-art
+DTSTAMP:20261120T225953Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Открытие: The Six - Reiner Holzemer
+LOCATION:Bozar\, Брюссель\, Бельгия
+DESCRIPTION:Показ документального фильма Рай
+ нера Хольцемера в рамках кинопрограммы 
+ Bozar.\nReiner Holzemer\nhttps://www.bozar.be/en/calendar/six-reiner-holz
+ emer
+URL:https://doublebasskakov.github.io/radar/#e=the-six-reiner-holzemer-br
+ ussels-2
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: The Six - Reiner Holzemer
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nova-78-aaron-brookner-rodrigo-areias-brussels-2@afisha-art
-DTSTAMP:20261120T180310Z
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261121
-SUMMARY:Открытие: Nova '78 — Аарон Брукнер и Ро
- дриго Арейаш
+DTSTAMP:20261120T225953Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Последний день: Nova '78 — Аарон Брукне
+ р и Родриго Арейаш
 LOCATION:Bozar\, Rue Ravenstein 23\, Брюссель\, Бельгия
 DESCRIPTION:Специальный кинопоказ ленты режи
  ссеров Аарона Брукнера и Родриго Арейаш
@@ -438,14 +417,14 @@ URL:https://doublebasskakov.github.io/radar/#e=nova-78-aaron-brookner-rod
  rigo-areias-brussels-2
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Открытие: Nova '78 — Аарон Брукнер и 
- Родриго Арейаш
+DESCRIPTION:Последний день: Nova '78 — Аарон Брук
+ нер и Родриго Арейаш
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nova-78-aaron-brookner-rodrigo-areias-brussels@afisha-art
-DTSTAMP:20261120T180310Z
+DTSTAMP:20261120T225953Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Последний день: Нова '78
@@ -464,10 +443,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-central-never-alone-brussels@afisha-art
-DTSTAMP:20261120T180310Z
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261121
-SUMMARY:Открытие: Выставка «Central. Never Alone»
+DTSTAMP:20261120T225953Z
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+SUMMARY:Последний день: Выставка «Central. Never Al
+ one»
 LOCATION:Bozar\, Bozar\, Brussels\, Брюссель\, Бельгия
 DESCRIPTION:Архитектурная и урбанистическая 
  выставка в пространстве Bozar.\nBozar\nhttps://www.b
@@ -476,13 +456,33 @@ URL:https://doublebasskakov.github.io/radar/#e=exhibition-central-never-a
  lone-brussels
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Открытие: Выставка «Central. Never Alone»
+DESCRIPTION:Последний день: Выставка «Central. Neve
+ r Alone»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nova-78-aaron-brookner-rodrigo-areias-brussels-3@afisha-art
+DTSTAMP:20261120T225953Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Открытие: Nova '78 - Aaron Brookner & Rodrigo Areias
+LOCATION:Bozar\, Брюссель\, Бельгия
+DESCRIPTION:Кинопоказ новой работы Аарона Бр
+ укнера и Родригу Арейаша.\nAaron Brookner\, Rodrigo 
+ Areias\nhttps://www.bozar.be/en/calendar/nova-78-aaron-brookner-rodrigo-a
+ reias-0
+URL:https://doublebasskakov.github.io/radar/#e=nova-78-aaron-brookner-rod
+ rigo-areias-brussels-3
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Nova '78 - Aaron Brookner & Rodrigo Areias
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:central-never-alone-brussels@afisha-art
-DTSTAMP:20261120T180310Z
+DTSTAMP:20261120T225953Z
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
 SUMMARY:Последний день: Central. Never Alone

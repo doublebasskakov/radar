@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:xxl-2026-sharjah@afisha-art
-DTSTAMP:20261120T180310Z
+DTSTAMP:20261120T225953Z
 DTSTART:20261129T163000Z
 DTEND:20261129T183000Z
 SUMMARY:XXL (2026)
@@ -28,7 +28,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:premiere-of-the-play-alone-in-the-universe-dubai@afisha-art
-DTSTAMP:20261120T180310Z
+DTSTAMP:20261120T225953Z
 DTSTART:20261204T160000Z
 DTEND:20261204T180000Z
 SUMMARY:Премьера спектакля «Одни во Вселен
@@ -52,7 +52,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:perform-sharjah-sharjah-2@afisha-art
-DTSTAMP:20261120T180310Z
+DTSTAMP:20261120T225953Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Последний день: Сезон перформансов 
@@ -73,8 +73,31 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:perform-sharjah-curated-performance-season-sharjah@afisha-art
+DTSTAMP:20261120T225953Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Последний день: Perform Sharjah: Курирован
+ ная сезонная программа перформансов
+LOCATION:Sharjah Art Foundation\, Sharjah\, Шарджа\, ОАЭ
+DESCRIPTION:Пятый сезон программы Perform Sharjah пр
+ едставляет серию перформансов междунар
+ одных авторов\, исследующих телесность 
+ через призму движения\, памяти и коллект
+ ивного опыта.\nNone\nhttps://www.sharjahart.org/en/whats-on/de
+ tails/perform-sharjah-2026
+URL:https://doublebasskakov.github.io/radar/#e=perform-sharjah-curated-pe
+ rformance-season-sharjah
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Perform Sharjah: Куриров
+ анная сезонная программа перформансов
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:perform-sharjah-sharjah@afisha-art
-DTSTAMP:20261120T180310Z
+DTSTAMP:20261120T225953Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Последний день: Perform Sharjah
@@ -94,7 +117,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a-sea-for-borrowed-time-sharjah@afisha-art
-DTSTAMP:20261120T180310Z
+DTSTAMP:20261120T225953Z
 DTSTART;VALUE=DATE:20270704
 DTEND;VALUE=DATE:20270705
 SUMMARY:Последний день: Выставка «Море для 
@@ -117,7 +140,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a-sea-for-borrowed-time-exhibition-sharjah@afisha-art
-DTSTAMP:20261120T180310Z
+DTSTAMP:20261120T225953Z
 DTSTART;VALUE=DATE:20270704
 DTEND;VALUE=DATE:20270705
 SUMMARY:Последний день: Выставка «A Sea for Borrowe
@@ -140,7 +163,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:focal-point-2026-sharjah@afisha-art
-DTSTAMP:20261120T180310Z
+DTSTAMP:20261120T225953Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261214
 SUMMARY:Книжная ярмарка Focal Point 2026
@@ -158,7 +181,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:longings-returns-2026-sharjah@afisha-art
-DTSTAMP:20261120T180310Z
+DTSTAMP:20261120T225953Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Longings\, Returns (2026)
@@ -177,75 +200,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:sawt-al-sahel-concert-series-imarhan-and-nao-yoshioka-sharjah@afisha-
- art
-DTSTAMP:20261120T180310Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261129
-SUMMARY:Концертная серия Sawt Al Sahel: Imarhan и Nao Yos
- hioka
-LOCATION:Sharjah Art Foundation\, Шарджа\, ОАЭ
-DESCRIPTION:Концертная серия в рамках проект
- а SAF Radio представляет выступления алжирс
- кого квинтета Imarhan и соул-певицы Nao Yoshioka 
- из Осаки\, дополненные сессиями слушани
- я.\nImarhan\, Nao Yoshioka\nhttps://www.sharjahart.org/en/whats-on/detai
- ls/sawt-al-sahel
-URL:https://doublebasskakov.github.io/radar/#e=sawt-al-sahel-concert-seri
- es-imarhan-and-nao-yoshioka-sharjah
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Концертная серия Sawt Al Sahel: Imarhan и Nao
-  Yoshioka
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sawt-al-sahel-sharjah@afisha-art
-DTSTAMP:20261120T180310Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261122
-SUMMARY:Sawt Al Sahel
-LOCATION:Sharjah Art Foundation\, Шарджа\, ОАЭ
-DESCRIPTION:Музыкальный вечер открывается пр
- ослушиванием выпуска сезонного радиошо
- у ASWAAT\, после чего выступят алжирский кв
- интет Imarhan и соул-певица из Осаки Нао Йос
- иока.\nImarhan\, Nao Yoshioka\nhttps://www.sharjahart.org/en/whats-on
- /details/sawt-al-sahel
-URL:https://doublebasskakov.github.io/radar/#e=sawt-al-sahel-sharjah
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Sawt Al Sahel
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:perform-sharjah-curated-performance-season-sharjah@afisha-art
-DTSTAMP:20261120T180310Z
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261121
-SUMMARY:Открытие: Perform Sharjah: Курированная се
- зонная программа перформансов
-LOCATION:Sharjah Art Foundation\, Sharjah\, Шарджа\, ОАЭ
-DESCRIPTION:Пятый сезон программы Perform Sharjah пр
- едставляет серию перформансов междунар
- одных авторов\, исследующих телесность 
- через призму движения\, памяти и коллект
- ивного опыта.\nNone\nhttps://www.sharjahart.org/en/whats-on/de
- tails/perform-sharjah-2026
-URL:https://doublebasskakov.github.io/radar/#e=perform-sharjah-curated-pe
- rformance-season-sharjah
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Открытие: Perform Sharjah: Курированная 
- сезонная программа перформансов
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:live-concert-imarhan-and-nao-yoshioka-sharjah@afisha-art
-DTSTAMP:20261120T180310Z
+DTSTAMP:20261120T225953Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Концерт живой музыки: Имархан и Нао 
@@ -268,8 +224,52 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:sawt-al-sahel-concert-series-imarhan-and-nao-yoshioka-sharjah@afisha-
+ art
+DTSTAMP:20261120T225953Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261129
+SUMMARY:Концертная серия Sawt Al Sahel: Imarhan и Nao Yos
+ hioka
+LOCATION:Sharjah Art Foundation\, Шарджа\, ОАЭ
+DESCRIPTION:Концертная серия в рамках проект
+ а SAF Radio представляет выступления алжирс
+ кого квинтета Imarhan и соул-певицы Nao Yoshioka 
+ из Осаки\, дополненные сессиями слушани
+ я.\nImarhan\, Nao Yoshioka\nhttps://www.sharjahart.org/en/whats-on/detai
+ ls/sawt-al-sahel
+URL:https://doublebasskakov.github.io/radar/#e=sawt-al-sahel-concert-seri
+ es-imarhan-and-nao-yoshioka-sharjah
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концертная серия Sawt Al Sahel: Imarhan и Nao
+  Yoshioka
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sawt-al-sahel-sharjah@afisha-art
+DTSTAMP:20261120T225953Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Sawt Al Sahel
+LOCATION:Sharjah Art Foundation\, Шарджа\, ОАЭ
+DESCRIPTION:Музыкальный вечер открывается пр
+ ослушиванием выпуска сезонного радиошо
+ у ASWAAT\, после чего выступят алжирский кв
+ интет Imarhan и соул-певица из Осаки Нао Йос
+ иока.\nImarhan\, Nao Yoshioka\nhttps://www.sharjahart.org/en/whats-on
+ /details/sawt-al-sahel
+URL:https://doublebasskakov.github.io/radar/#e=sawt-al-sahel-sharjah
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sawt Al Sahel
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:performance-longings-returns-by-sim-chi-yin-sharjah@afisha-art
-DTSTAMP:20261120T180310Z
+DTSTAMP:20261120T225953Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Перформанс «Тоски\, возвращения» Си
@@ -290,7 +290,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:live-concert-as-part-of-sawt-al-sahel-sharjah@afisha-art
-DTSTAMP:20261120T180310Z
+DTSTAMP:20261120T225953Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Концерт живой музыки в рамках Sawt Al Sa

@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:cloud-9-moscow@afisha-art
+DTSTAMP:20261120T225953Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Cloud #9
+LOCATION:Substance\, Москва
+DESCRIPTION:Клубное событие серии Cloud #9 в клуб
+ е Substance.\n\nhttps://t.me/dancingalone/37106
+URL:https://doublebasskakov.github.io/radar/#e=cloud-9-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Cloud #9
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

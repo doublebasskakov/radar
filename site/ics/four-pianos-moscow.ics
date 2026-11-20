@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:four-pianos-moscow@afisha-art
+DTSTAMP:20261120T225953Z
+DTSTART:20261126T160000Z
+DTEND:20261126T180000Z
+SUMMARY:Четыре рояля
+LOCATION:Концертный зал имени С. В. Рахманин
+ ова («Филармония-2»)\, Мичуринский проспе
+ кт\, Олимпийская деревня\, дом 1\, Москва
+DESCRIPTION:Концерт фортепианной музыки в ра
+ мках Фестиваля русской музыки с участие
+ м известных пианистов.\nЕкатерина Мечет
+ ина\, Александр Гиндин\, Басиния Шульман\
+ , Филипп Копачевский\, Александра Нагорн
+ ова\nhttps://meloman.ru/hall/filarmoniya-2-koncertnyj-zal-imeni-svrahm
+ aninova/
+URL:https://doublebasskakov.github.io/radar/#e=four-pianos-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Четыре рояля
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

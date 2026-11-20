@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:really-moscow@afisha-art
+DTSTAMP:20261120T225953Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Открытие: Реально
+LOCATION:Галерея «На Песчаной»\, Новопесчан
+ ая ул.\, 23\, к. 7\, Москва
+DESCRIPTION:Персональный выставочный проект 
+ Ксении Ефимовой\, посвященный исследова
+ ниям индивидуальной реальности.\nКсения
+  Ефимова\nhttps://t.me/pschgallery/1628
+URL:https://doublebasskakov.github.io/radar/#e=really-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Реально
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:saturday-night-jazz-moscow@afisha-art
+DTSTAMP:20261120T225953Z
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270124
+SUMMARY:Джаз субботним вечером
+LOCATION:Концертный зал имени С. В. Рахманин
+ ова («Филармония-2»)\, Мичуринский проспе
+ кт\, Олимпийская деревня\, дом 1\, Москва
+DESCRIPTION:Вечер джазовой музыки в исполнен
+ ии прославленного коллектива под управ
+ лением Игоря Бутмана.\nМосковский джазо
+ вый оркестр\, Игорь Бутман\nhttps://meloman.ru/conce
+ rt/f2-2027-01-23/
+URL:https://doublebasskakov.github.io/radar/#e=saturday-night-jazz-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Джаз субботним вечером
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

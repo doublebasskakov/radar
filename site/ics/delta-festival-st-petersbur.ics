@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:delta-festival-st-petersbur@afisha-art
+DTSTAMP:20261120T225953Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Фестиваль DELTA
+LOCATION:Завод им. Разина\, Санкт-Петербург
+DESCRIPTION:Фестиваль электронной и танцевал
+ ьной музыки от команды m_division\, охватываю
+ щий три танцпола бывшего промышленного 
+ завода.\nCPSL\, m_division\nhttps://t.me/resonancemoscow/7722
+URL:https://doublebasskakov.github.io/radar/#e=delta-festival-st-petersbu
+ r
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Фестиваль DELTA
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

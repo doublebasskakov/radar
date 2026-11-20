@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:author-s-tour-by-sayana-khomonova-irkutsk@afisha-art
-DTSTAMP:20261120T180310Z
+DTSTAMP:20261120T225953Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Авторская экскурсия Саяны Хомоново
@@ -31,7 +31,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:personal-exhibition-of-balzhinima-dorzhiev-irkutsk@afisha-art
-DTSTAMP:20261120T180310Z
+DTSTAMP:20261120T225953Z
 DTSTART:20261116T030000Z
 DTEND:20261116T050000Z
 SUMMARY:Открытие: Персональная выставка Ба
@@ -53,10 +53,10 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tea-with-milk-irkutsk@afisha-art
-DTSTAMP:20261120T180310Z
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261121
-SUMMARY:Открытие: «Чай с молоком»
+DTSTAMP:20261120T225953Z
+DTSTART;VALUE=DATE:20270328
+DTEND;VALUE=DATE:20270329
+SUMMARY:Последний день: «Чай с молоком»
 LOCATION:Галерея Виктора Бронштейна\, ул. Ок
  тябрьской Революции\, д. 3\, Иркутск
 DESCRIPTION:Персональная выставка работ Саян
@@ -65,13 +65,13 @@ DESCRIPTION:Персональная выставка работ Саян
 URL:https://doublebasskakov.github.io/radar/#e=tea-with-milk-irkutsk
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Открытие: «Чай с молоком»
+DESCRIPTION:Последний день: «Чай с молоком»
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:behind-the-scenes-irkutsk@afisha-art
-DTSTAMP:20261120T180310Z
+DTSTAMP:20261120T225953Z
 DTSTART;VALUE=DATE:20270418
 DTEND;VALUE=DATE:20270419
 SUMMARY:Последний день: «За кулисами»

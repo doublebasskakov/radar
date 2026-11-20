@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:dune-part-three-imax-premiere-tbilisi@afisha-art
-DTSTAMP:20261120T180310Z
+DTSTAMP:20261120T225953Z
 DTSTART:20261216T084500Z
 DTEND:20261216T104500Z
 SUMMARY:Премьера фильма «Дюна: часть третья
@@ -29,7 +29,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:charlie-chaplin-s-the-kid-with-live-orchestra-yerevan@afisha-art
-DTSTAMP:20261120T180310Z
+DTSTAMP:20261120T225953Z
 DTSTART:20261124T150000Z
 DTEND:20261124T170000Z
 SUMMARY:«Малыш» Чарли Чаплина с живым оркес
@@ -53,7 +53,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ircam-action-man-ray@afisha-art
-DTSTAMP:20261120T180310Z
+DTSTAMP:20261120T225953Z
 DTSTART:20270130T190000Z
 DTEND:20270130T210000Z
 SUMMARY:Action! Man Ray
@@ -71,7 +71,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-lovers-rock-by-steve-mcqueen-paris@afisha-art
-DTSTAMP:20261120T180310Z
+DTSTAMP:20261120T225953Z
 DTSTART:20261130T183000Z
 DTEND:20261130T203000Z
 SUMMARY:Показ фильма «Lovers Rock» Стива МакКуин
@@ -91,7 +91,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:european-arthouse-cinema-day-film-screening-almaty@afisha-art
-DTSTAMP:20261120T180310Z
+DTSTAMP:20261120T225953Z
 DTSTART:20261122T120000Z
 DTEND:20261122T140000Z
 SUMMARY:День европейского артхаусного кино
@@ -114,7 +114,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ix-international-bad-video-art-festival-tbilisi@afisha-art
-DTSTAMP:20261120T180310Z
+DTSTAMP:20261120T225953Z
 DTSTART:20261123T150000Z
 DTEND:20261123T170000Z
 SUMMARY:IX Международный фестиваль плохого 
@@ -136,7 +136,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-innocent-sorcerers-almaty@afisha-art
-DTSTAMP:20261120T180310Z
+DTSTAMP:20261120T225953Z
 DTSTART:20261122T120000Z
 DTEND:20261122T140000Z
 SUMMARY:Показ фильма «Невинные чародеи»
@@ -158,7 +158,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:documentary-screening-of-children-404-and-discussion-berlin@afisha-ar
  t
-DTSTAMP:20261120T180310Z
+DTSTAMP:20261120T225953Z
 DTSTART:20261125T180000Z
 DTEND:20261125T200000Z
 SUMMARY:Показ документального фильма «Дети
@@ -181,7 +181,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:marinetti-l-uomo-che-invento-il-futuro-rome@afisha-art
-DTSTAMP:20261120T180310Z
+DTSTAMP:20261120T225953Z
 DTSTART:20261127T170000Z
 DTEND:20261127T190000Z
 SUMMARY:Разговор и кинопоказ: Маринетти — ч
@@ -201,50 +201,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:short-movies-by-vivienne-dick-i-brussels@afisha-art
-DTSTAMP:20261120T180310Z
-DTSTART:20261120T180000Z
-DTEND:20261120T200000Z
-SUMMARY:Показ короткометражных фильмов Вив
- ьен Дик (I)
-LOCATION:Bozar\, Bozar\, Brussels\, Брюссель\, Бельгия
-DESCRIPTION:Специальный показ авторских коро
- ткометражных фильмов Вивьен Дик в прису
- тствии режиссера.\nVivienne Dick\nhttps://www.bozar.be/en/
- calendar/short-movies-vivienne-dick-i
-URL:https://doublebasskakov.github.io/radar/#e=short-movies-by-vivienne-d
- ick-i-brussels
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Показ короткометражных фильмов В
- ивьен Дик (I)
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:short-movies-by-vivienne-dick-ii-brussels@afisha-art
-DTSTAMP:20261120T180310Z
-DTSTART:20261120T193000Z
-DTEND:20261120T213000Z
-SUMMARY:Показ короткометражных фильмов Вив
- ьен Дик (II)
-LOCATION:Bozar\, Bozar\, Brussels\, Брюссель\, Бельгия
-DESCRIPTION:Вторая часть программы короткоме
- тражного кино Вивьен Дик с участием авт
- ора.\nVivienne Dick\nhttps://www.bozar.be/en/calendar/short-movies-viv
- ienne-dick-ii
-URL:https://doublebasskakov.github.io/radar/#e=short-movies-by-vivienne-d
- ick-ii-brussels
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Показ короткометражных фильмов В
- ивьен Дик (II)
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:film-club-screening-and-discussion-of-the-odyssey-tbilisi@afisha-art
-DTSTAMP:20261120T180310Z
+DTSTAMP:20261120T225953Z
 DTSTART:20261122T152000Z
 DTEND:20261122T172000Z
 SUMMARY:Киноклуб: показ и обсуждение фильма
@@ -265,19 +223,22 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:27th-tbilisi-international-film-festival-tbilisi@afisha-art
-DTSTAMP:20261120T180310Z
+DTSTAMP:20261120T225953Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261207
 SUMMARY:27-й Международный кинофестиваль в Т
  билиси
-LOCATION:Кинотеатр «Амирани»\, Тбилиси\, Гру
- зия
+LOCATION:Кинотеатр «Амирани»\, ул. Мераба Ко
+ става\, 36\, Тбилиси\, Грузия
 DESCRIPTION:Масштабный киносмотр\, представл
  яющий около 80 грузинских и зарубежных ф
  ильмов\, включая конкурсную «Грузинскую
   панораму»\, секции «Европейский форум»\
  , «Мир документального кино» и специаль
- ные показы.\n\nhttps://t.me/nateli_tbilisi/11855
+ ные показы.\nАндрей Звягинцев\, Ута Бериа
+ \, Саломе Джаши\, Ана Урушадзе\, Георгий О
+ вашвили\, Сергей Лозница и др.\nhttps://t.me/natel
+ i_tbilisi/11855
 URL:https://doublebasskakov.github.io/radar/#e=27th-tbilisi-international
  -film-festival-tbilisi
 BEGIN:VALARM
@@ -290,7 +251,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-andrey-zvyagintsev-s-film-minotaur-and-lecture-london@af
  isha-art
-DTSTAMP:20261120T180310Z
+DTSTAMP:20261120T225953Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Кинопоказ фильма Андрея Звягинцева
@@ -312,7 +273,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:the-film-london-jarman-award-2026-london@afisha-art
-DTSTAMP:20261120T180310Z
+DTSTAMP:20261120T225953Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Последний день: Премия Film London Jarman Awar
@@ -335,7 +296,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:suspiria-stan-douglas-paris@afisha-art
-DTSTAMP:20261120T180310Z
+DTSTAMP:20261120T225953Z
 DTSTART;VALUE=DATE:20270109
 DTEND;VALUE=DATE:20270110
 SUMMARY:Последний день: Suspiria (Stan Douglas)
@@ -354,7 +315,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:film-program-asie-du-sud-est-formes-vives-paris@afisha-art
-DTSTAMP:20261120T180310Z
+DTSTAMP:20261120T225953Z
 DTSTART;VALUE=DATE:20261208
 DTEND;VALUE=DATE:20261209
 SUMMARY:Открытие: Кинопрограмма «Asie du Sud-Est\, 
@@ -374,7 +335,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-the-adventures-of-nasreddin-tashkent@afisha-art
-DTSTAMP:20261120T180310Z
+DTSTAMP:20261120T225953Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Показ фильма «Похождения Насреддин
@@ -396,7 +357,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-nasreddin-in-bukhara-tashkent@afisha-art
-DTSTAMP:20261120T180310Z
+DTSTAMP:20261120T225953Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Показ фильма «Насреддин в Бухаре»
@@ -416,8 +377,31 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:screen-portraits-whitechapel-gallery-artists-part-2-london@afisha-art
+DTSTAMP:20261120T225953Z
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+SUMMARY:Последний день: Портреты на экране: 
+ Художники галереи Уайтчепел — Часть 2
+LOCATION:Whitechapel Gallery\, Лондон\, Великобритани
+ я
+DESCRIPTION:Вторая часть кинопрограммы\, посв
+ ященной видеоработам художников\, связа
+ нных с историей галереи Уайтчепел.\nVarious\
+ nhttps://www.whitechapelgallery.org/exhibitions/screen-portraits-whitecha
+ pel-gallery-artists-part-2/
+URL:https://doublebasskakov.github.io/radar/#e=screen-portraits-whitechap
+ el-gallery-artists-part-2-london
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Портреты на экран
+ е: Художники галереи Уайтчепел — Часть 2
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:screening-of-takhir-and-zukhra-1945-tashkent@afisha-art
-DTSTAMP:20261120T180310Z
+DTSTAMP:20261120T225953Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Показ фильма «Тахир и Зухра» (1945)
@@ -436,7 +420,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-alisher-navoi-1947-tashkent@afisha-art
-DTSTAMP:20261120T180310Z
+DTSTAMP:20261120T225953Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Показ фильма «Алишер Навои» (1947)
@@ -455,7 +439,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:katabasis-vr-film-by-ugo-arsac-belgrade@afisha-art
-DTSTAMP:20261120T180310Z
+DTSTAMP:20261120T225953Z
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
 SUMMARY:Последний день: Katabasis: VR-фильм Уго Ар
@@ -478,7 +462,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:andrzej-wajda-centenary-programme-belgrade@afisha-art
-DTSTAMP:20261120T180310Z
+DTSTAMP:20261120T225953Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:Открытие: Программа к столетию Андж
@@ -500,34 +484,12 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:screen-portraits-whitechapel-gallery-artists-part-2-london@afisha-art
-DTSTAMP:20261120T180310Z
-DTSTART;VALUE=DATE:20270117
-DTEND;VALUE=DATE:20270118
-SUMMARY:Последний день: Портреты на экране: 
- Художники галереи Уайтчепел — Часть 2
-LOCATION:Whitechapel Gallery\, Лондон\, Великобритани
- я
-DESCRIPTION:Вторая часть кинопрограммы\, посв
- ященной видеоработам художников\, связа
- нных с историей галереи Уайтчепел.\nVarious\
- nhttps://www.whitechapelgallery.org/exhibitions/screen-portraits-whitecha
- pel-gallery-artists-part-2/
-URL:https://doublebasskakov.github.io/radar/#e=screen-portraits-whitechap
- el-gallery-artists-part-2-london
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Последний день: Портреты на экран
- е: Художники галереи Уайтчепел — Часть 2
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:the-six-reiner-holzemer-brussels@afisha-art
-DTSTAMP:20261120T180310Z
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261121
-SUMMARY:Открытие: The Six — Райнер Хольцемер
+DTSTAMP:20261120T225953Z
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:Последний день: The Six — Райнер Хольц
+ емер
 LOCATION:Bozar\, Rue Ravenstein 23\, Брюссель\, Бельгия
 DESCRIPTION:Показ документального арт-фильма
   Райнера Хольцемера в рамках кинопрогра
@@ -537,13 +499,33 @@ URL:https://doublebasskakov.github.io/radar/#e=the-six-reiner-holzemer-br
  ussels
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Открытие: The Six — Райнер Хольцемер
+DESCRIPTION:Последний день: The Six — Райнер Хол
+ ьцемер
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:the-six-reiner-holzemer-brussels-2@afisha-art
+DTSTAMP:20261120T225953Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Открытие: The Six - Reiner Holzemer
+LOCATION:Bozar\, Брюссель\, Бельгия
+DESCRIPTION:Показ документального фильма Рай
+ нера Хольцемера в рамках кинопрограммы 
+ Bozar.\nReiner Holzemer\nhttps://www.bozar.be/en/calendar/six-reiner-holz
+ emer
+URL:https://doublebasskakov.github.io/radar/#e=the-six-reiner-holzemer-br
+ ussels-2
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: The Six - Reiner Holzemer
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:screening-suspiria-stan-douglas-paris@afisha-art
-DTSTAMP:20261120T180310Z
+DTSTAMP:20261120T225953Z
 DTSTART;VALUE=DATE:20270109
 DTEND;VALUE=DATE:20270110
 SUMMARY:Последний день: Показ: Суспирия (в р
@@ -564,11 +546,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nova-78-aaron-brookner-rodrigo-areias-brussels-2@afisha-art
-DTSTAMP:20261120T180310Z
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261121
-SUMMARY:Открытие: Nova '78 — Аарон Брукнер и Ро
- дриго Арейаш
+DTSTAMP:20261120T225953Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Последний день: Nova '78 — Аарон Брукне
+ р и Родриго Арейаш
 LOCATION:Bozar\, Rue Ravenstein 23\, Брюссель\, Бельгия
 DESCRIPTION:Специальный кинопоказ ленты режи
  ссеров Аарона Брукнера и Родриго Арейаш
@@ -578,14 +560,14 @@ URL:https://doublebasskakov.github.io/radar/#e=nova-78-aaron-brookner-rod
  rigo-areias-brussels-2
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Открытие: Nova '78 — Аарон Брукнер и 
- Родриго Арейаш
+DESCRIPTION:Последний день: Nova '78 — Аарон Брук
+ нер и Родриго Арейаш
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:screening-suspiria-stan-douglas-paris-2@afisha-art
-DTSTAMP:20261120T180310Z
+DTSTAMP:20261120T225953Z
 DTSTART;VALUE=DATE:20270109
 DTEND;VALUE=DATE:20270110
 SUMMARY:Последний день: Кинопоказ: Суспирия
@@ -606,7 +588,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nova-78-aaron-brookner-rodrigo-areias-brussels@afisha-art
-DTSTAMP:20261120T180310Z
+DTSTAMP:20261120T225953Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Последний день: Нова '78
@@ -624,8 +606,27 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:nova-78-aaron-brookner-rodrigo-areias-brussels-3@afisha-art
+DTSTAMP:20261120T225953Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Открытие: Nova '78 - Aaron Brookner & Rodrigo Areias
+LOCATION:Bozar\, Брюссель\, Бельгия
+DESCRIPTION:Кинопоказ новой работы Аарона Бр
+ укнера и Родригу Арейаша.\nAaron Brookner\, Rodrigo 
+ Areias\nhttps://www.bozar.be/en/calendar/nova-78-aaron-brookner-rodrigo-a
+ reias-0
+URL:https://doublebasskakov.github.io/radar/#e=nova-78-aaron-brookner-rod
+ rigo-areias-brussels-3
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Nova '78 - Aaron Brookner & Rodrigo Areias
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:film-ddt-xx-century-in-liverpool-liverpool@afisha-art
-DTSTAMP:20261120T180310Z
+DTSTAMP:20261120T225953Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Фильм «ДДТ.ХХ ВЕК» в Ливерпуле
@@ -643,7 +644,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:film-ddt-xx-century-in-glasgow-glasgow@afisha-art
-DTSTAMP:20261120T180310Z
+DTSTAMP:20261120T225953Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:Фильм «ДДТ.ХХ ВЕК» в Глазго
