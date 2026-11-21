@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:beyond-the-letters-doha@afisha-art
+DTSTAMP:20261121T213936Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:Последний день: Beyond the Letters
+LOCATION:Design Doha\, Доха\, Катар
+DESCRIPTION:Выставка типографики и шрифтовог
+ о дизайна в рамках инициативы Design Doha.\nDesi
+ gn Doha\nhttps://qm.org.qa/en/calendar/beyond-the-letters/
+URL:https://doublebasskakov.github.io/radar/#e=beyond-the-letters-doha
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Beyond the Letters
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

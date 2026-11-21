@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:art-of-irkutsk-artists-irkutsk@afisha-art
+DTSTAMP:20261121T213936Z
+DTSTART;VALUE=DATE:20300430
+DTEND;VALUE=DATE:20300501
+SUMMARY:Последний день: Искусство иркутски
+ х художников
+LOCATION:Галерея Виктора Бронштейна\, ул. Ок
+ тябрьской Революции\, д. 3\, Иркутск
+DESCRIPTION:Постоянная экспозиция\, представ
+ ляющая произведения сибирских авторов.\
+ nNone\nhttps://www.vbgallery.ru/index/afisha/iskusstvo-irkutskih-hudozhni
+ kov/
+URL:https://doublebasskakov.github.io/radar/#e=art-of-irkutsk-artists-irk
+ utsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Искусство иркутс
+ ких художников
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

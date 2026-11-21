@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:around-the-world-in-jewellery-doha@afisha-art
+DTSTAMP:20261121T213936Z
+DTSTART;VALUE=DATE:20261226
+DTEND;VALUE=DATE:20261227
+SUMMARY:Последний день: Around the World in Jewellery
+LOCATION:M7\, Доха\, Катар
+DESCRIPTION:Ювелирная выставка в креативном 
+ центре M7\, представляющая традиции разн
+ ых стран.\nM7\nhttps://qm.org.qa/en/calendar/around-the-world-in-j
+ ewellery/
+URL:https://doublebasskakov.github.io/radar/#e=around-the-world-in-jewell
+ ery-doha
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Around the World in Jewellery
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

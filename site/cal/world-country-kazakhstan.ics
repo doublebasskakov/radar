@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:european-arthouse-cinema-day-film-screening-almaty@afisha-art
-DTSTAMP:20261121T170058Z
+DTSTAMP:20261121T213936Z
 DTSTART:20261122T120000Z
 DTEND:20261122T140000Z
 SUMMARY:День европейского артхаусного кино
@@ -31,7 +31,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-innocent-sorcerers-almaty@afisha-art
-DTSTAMP:20261121T170058Z
+DTSTAMP:20261121T213936Z
 DTSTART:20261122T120000Z
 DTEND:20261122T140000Z
 SUMMARY:Показ фильма «Невинные чародеи»
@@ -52,7 +52,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mediations-for-the-himoya-exhibition-almaty@afisha-art
-DTSTAMP:20261121T170058Z
+DTSTAMP:20261121T213936Z
 DTSTART:20261117T093000Z
 DTEND:20261117T113000Z
 SUMMARY:Медиации по выставке «Himoya»
@@ -72,7 +72,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lecture-the-japan-we-do-not-know-almaty@afisha-art
-DTSTAMP:20261121T170058Z
+DTSTAMP:20261121T213936Z
 DTSTART:20261125T143000Z
 DTEND:20261125T163000Z
 SUMMARY:Лекция: Япония\, которую мы не знаем
@@ -94,7 +94,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:laboratory-beyond-the-gaze-almaty@afisha-art
-DTSTAMP:20261121T170058Z
+DTSTAMP:20261121T213936Z
 DTSTART:20261122T090000Z
 DTEND:20261122T110000Z
 SUMMARY:Лаборатория «Вне взгляда»
@@ -114,7 +114,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tselinny-himoya@afisha-art
-DTSTAMP:20261121T170058Z
+DTSTAMP:20261121T213936Z
 DTSTART;VALUE=DATE:20270404
 DTEND;VALUE=DATE:20270405
 SUMMARY:Последний день: Himoya: Matrilineal Energies\, Oracu
@@ -133,49 +133,6 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Последний день: Himoya: Matrilineal Energies\, O
  racular Kin
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:wind-map-mediation-almaty@afisha-art
-DTSTAMP:20261121T170058Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261122
-SUMMARY:Медиация Wind Map
-LOCATION:Центр современной культуры «Целин
- ный»\, Алматы\, Казахстан
-DESCRIPTION:Первая встреча в рамках интеракт
- ивной медиации Wind Map с визуальными интер
- претациями и обсуждением искусства.\nЦе
- нтр современной культуры «Целинный»\nhttp
- s://t.me/tselinnycenter/1852
-URL:https://doublebasskakov.github.io/radar/#e=wind-map-mediation-almaty
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Медиация Wind Map
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:creative-writing-course-meeting-almaty@afisha-art
-DTSTAMP:20261121T170058Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261122
-SUMMARY:Встреча курса художественного пись
- ма
-LOCATION:Центр современной культуры «Целин
- ный»\, Алматы\, Казахстан
-DESCRIPTION:Занятие курса художественного пи
- сьма\, посвященное символизму\, деталям 
- и приемам предвосхищения в литературе.\n
- Центр современной культуры «Целинный»\n
- https://t.me/tselinnycenter/1852
-URL:https://doublebasskakov.github.io/radar/#e=creative-writing-course-me
- eting-almaty
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Встреча курса художественного пи
- сьма
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:vasily-dobrin-and-egor-nikulin-concert-moscow@afisha-art
+DTSTAMP:20261121T213936Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Концерт Василия Добрина и Егора Ник
+ улина
+LOCATION:Культурный центр «Покровские воро
+ та»\, Москва
+DESCRIPTION:Аккордеонисты Василий Добрин и Е
+ гор Никулин выступят с программой\, стир
+ ающей границы между классикой и совреме
+ нным звучанием.\nВасилий Добрин\, Егор Ни
+ кулин\nhttps://t.me/orpheusradio/51755
+URL:https://doublebasskakov.github.io/radar/#e=vasily-dobrin-and-egor-nik
+ ulin-concert-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт Василия Добрина и Егора Н
+ икулина
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:tomsk-masm-denisov@afisha-art
-DTSTAMP:20261121T170058Z
+DTSTAMP:20261121T213936Z
 DTSTART:20261124T120000Z
 DTEND:20261124T140000Z
 SUMMARY:МАСМ. «Диалоги сквозь время: Эдисон 
@@ -28,7 +28,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tsxr-scan-tomsk@afisha-art
-DTSTAMP:20261121T170058Z
+DTSTAMP:20261121T213936Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Последний день: ТСХР + СКАН
@@ -47,7 +47,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tshr-scan-exhibition-tomsk@afisha-art
-DTSTAMP:20261121T170058Z
+DTSTAMP:20261121T213936Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Последний день: Выставка ТСХР + СКАН
@@ -68,7 +68,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:interactive-exhibition-robopark-tomsk@afisha-art
-DTSTAMP:20261121T170058Z
+DTSTAMP:20261121T213936Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:Последний день: Интерактивная выст
@@ -91,7 +91,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:first-workshop-of-siberian-art-exhibition-tomsk@afisha-art
-DTSTAMP:20261121T170058Z
+DTSTAMP:20261121T213936Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Последний день: Выставка Первой мас
@@ -115,7 +115,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tshr-skan-contemporaries-exhibition-tomsk@afisha-art
-DTSTAMP:20261121T170058Z
+DTSTAMP:20261121T213936Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Последний день: Выставка «ТСХР + СКА
@@ -138,7 +138,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:architecture-instructions-for-use-by-s-berezovskaya-tomsk@afisha-art
-DTSTAMP:20261121T170058Z
+DTSTAMP:20261121T213936Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:Курс лекций С. Березовской «Архитек
@@ -161,7 +161,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:art-of-contemporaries-exhibition-tomsk@afisha-art
-DTSTAMP:20261121T170058Z
+DTSTAMP:20261121T213936Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Последний день: Выставка «Искусств
@@ -183,7 +183,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cinema-history-russian-cinematography-lecture-series-tomsk@afisha-art
-DTSTAMP:20261121T170058Z
+DTSTAMP:20261121T213936Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Цикл лекций «История кино: российск
@@ -205,8 +205,52 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:contemporaries-vidimo-nevidimo-tomsk@afisha-art
+DTSTAMP:20261121T213936Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:Последний день: Современники + Види
+ мо-невидимо
+LOCATION:Томский центр современной культур
+ ы\, Томск
+DESCRIPTION:Художественный проект\, исследую
+ щий границы видимого в работах современ
+ ных авторов.\nNone\nhttps://www.afisha.ru/exhibition/sovremenni
+ ki-vidimo-nevidimo-1016717/
+URL:https://doublebasskakov.github.io/radar/#e=contemporaries-vidimo-nevi
+ dimo-tomsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Современники + Ви
+ димо-невидимо
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:tshr-decorative-and-applied-art-exhibition-tomsk@afisha-art
+DTSTAMP:20261121T213936Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:Последний день: Выставка декоратив
+ но-прикладного искусства ТСХР
+LOCATION:Томский центр современной культур
+ ы\, Томск
+DESCRIPTION:Выставка произведений декоратив
+ но-прикладного искусства\, созданных чл
+ енами Творческого союза художников Рос
+ сии.\nТСХР\nhttps://www.afisha.ru/tomsk/schedule_exhibition/
+URL:https://doublebasskakov.github.io/radar/#e=tshr-decorative-and-applie
+ d-art-exhibition-tomsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Выставка декорат
+ ивно-прикладного искусства ТСХР
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:tomsk-kabinet-flora-sibiri@afisha-art
-DTSTAMP:20261121T170058Z
+DTSTAMP:20261121T213936Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:Последний день: «Флора Сибири: худо
@@ -229,7 +273,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:art-of-contemporaries-tomsk@afisha-art
-DTSTAMP:20261121T170058Z
+DTSTAMP:20261121T213936Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Последний день: Искусство современ
@@ -246,50 +290,6 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Последний день: Искусство соврем
  енников
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:contemporaries-vidimo-nevidimo-tomsk@afisha-art
-DTSTAMP:20261121T170058Z
-DTSTART;VALUE=DATE:20261130
-DTEND;VALUE=DATE:20261201
-SUMMARY:Последний день: Современники + Види
- мо-невидимо
-LOCATION:Томский центр современной культур
- ы\, Томск
-DESCRIPTION:Художественный проект\, исследую
- щий границы видимого в работах современ
- ных авторов.\nNone\nhttps://www.afisha.ru/exhibition/sovremenni
- ki-vidimo-nevidimo-1016717/
-URL:https://doublebasskakov.github.io/radar/#e=contemporaries-vidimo-nevi
- dimo-tomsk
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Последний день: Современники + Ви
- димо-невидимо
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:tshr-decorative-and-applied-art-exhibition-tomsk@afisha-art
-DTSTAMP:20261121T170058Z
-DTSTART;VALUE=DATE:20261130
-DTEND;VALUE=DATE:20261201
-SUMMARY:Последний день: Выставка декоратив
- но-прикладного искусства ТСХР
-LOCATION:Томский центр современной культур
- ы\, Томск
-DESCRIPTION:Выставка произведений декоратив
- но-прикладного искусства\, созданных чл
- енами Творческого союза художников Рос
- сии.\nТСХР\nhttps://www.afisha.ru/tomsk/schedule_exhibition/
-URL:https://doublebasskakov.github.io/radar/#e=tshr-decorative-and-applie
- d-art-exhibition-tomsk
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Последний день: Выставка декорат
- ивно-прикладного искусства ТСХР
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

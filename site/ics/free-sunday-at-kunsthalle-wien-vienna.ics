@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:free-sunday-at-kunsthalle-wien-vienna@afisha-art
+DTSTAMP:20261121T213936Z
+DTSTART:20261129T090000Z
+DTEND:20261129T110000Z
+SUMMARY:Free Sunday at Kunsthalle Wien
+LOCATION:Kunsthalle Wien\, Museumsquartier\, Вена\, Австрия
+DESCRIPTION:День бесплатного посещения выста
+ вок при поддержке Dorotheum.\nKunsthalle Wien\nhttps://kun
+ sthallewien.at/en/event/free-sunday-10
+URL:https://doublebasskakov.github.io/radar/#e=free-sunday-at-kunsthalle-
+ wien-vienna
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Free Sunday at Kunsthalle Wien
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

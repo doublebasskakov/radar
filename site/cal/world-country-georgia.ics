@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:dune-part-three-imax-premiere-tbilisi@afisha-art
-DTSTAMP:20261121T170058Z
+DTSTAMP:20261121T213936Z
 DTSTART:20261216T084500Z
 DTEND:20261216T104500Z
 SUMMARY:Премьера фильма «Дюна: часть третья
@@ -29,7 +29,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:kvareli-foundation-opening@afisha-art
-DTSTAMP:20261121T170058Z
+DTSTAMP:20261121T213936Z
 DTSTART:20261102T060000Z
 DTEND:20261102T080000Z
 SUMMARY:Открытие: Georgian Contemporary Art: Origins and Continui
@@ -53,7 +53,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:book-club-discussion-of-center-of-gravity-with-vladimir-kuzn-tbilisi@
  afisha-art
-DTSTAMP:20261121T170058Z
+DTSTAMP:20261121T213936Z
 DTSTART:20261203T153000Z
 DTEND:20261203T173000Z
 SUMMARY:Книжный клуб: обсуждение романа «Це
@@ -80,7 +80,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:journey-to-kakheti-olive-harvesting-and-tasting-sakobo@afisha-art
-DTSTAMP:20261121T170058Z
+DTSTAMP:20261121T213936Z
 DTSTART:20261129T060000Z
 DTEND:20261129T080000Z
 SUMMARY:Путешествие в Кахетию: сбор оливок 
@@ -104,56 +104,32 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:lecture-how-the-georgian-spirit-changed-form-tbilisi@afisha-art
-DTSTAMP:20261121T170058Z
-DTSTART:20261121T140000Z
-DTEND:20261121T160000Z
-SUMMARY:Лекция «Как грузинский дух менял фо
- рму»
-LOCATION:Tbilisi Yoga Villa\, ул. Ониашвили\, 37\, Тбили
- си\, Грузия
-DESCRIPTION:Исследователь Рамин Джинчарадзе 
- расскажет об эволюции грузинской культ
- уры\, древних верованиях\, влиянии христ
- ианства и традициях гостеприимства.\nРа
- мин Джинчарадзе\nhttps://t.me/nateli_tbilisi/11943
-URL:https://doublebasskakov.github.io/radar/#e=lecture-how-the-georgian-s
- pirit-changed-form-tbilisi
+UID:lecture-by-gaga-iosebashvili-making-a-video-game-about-david-tbilisi@
+ afisha-art
+DTSTAMP:20261121T213936Z
+DTSTART:20261124T160000Z
+DTEND:20261124T180000Z
+SUMMARY:Лекция Гаги Иосебашвили: Создание и
+ гры о Давиде Строителе
+LOCATION:бар Papers\, ул. Верико Анджапаридзе\, 1\
+ , Тбилиси\, Грузия
+DESCRIPTION:Программист Гага Иосебашвили рас
+ скажет о том\, как исторические исследов
+ ания превращаются в игровые механики на
+  примере игры о Дидгорской битве.\nГага И
+ осебашвили\nhttps://t.me/paperkartuli/30318
+URL:https://doublebasskakov.github.io/radar/#e=lecture-by-gaga-iosebashvi
+ li-making-a-video-game-about-david-tbilisi
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Лекция «Как грузинский дух менял 
- форму»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:scientific-excursion-to-dmanisi-and-bolnisi-tbilisi@afisha-art
-DTSTAMP:20261121T170058Z
-DTSTART:20261121T050000Z
-DTEND:20261121T070000Z
-SUMMARY:Научная экскурсия в Дманиси и Болни
- си
-LOCATION:Археологический комплекс Дманиси 
- и Болнисский музей\, Тбилиси — Дманиси 
- — Болниси\, Тбилиси\, Грузия
-DESCRIPTION:Археологическая поездка с доктор
- ом исторических наук Джими Чхвимиани к 
- местам древнейших человеческих находок
-  в Дманиси и в Болнисский музей.\nДжими Ч
- хвимиани\, Аудитория\nhttps://t.me/auditoria_tbilisi/773
- 3
-URL:https://doublebasskakov.github.io/radar/#e=scientific-excursion-to-dm
- anisi-and-bolnisi-tbilisi
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Научная экскурсия в Дманиси и Бол
- ниси
+DESCRIPTION:Лекция Гаги Иосебашвили: Создани
+ е игры о Давиде Строителе
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ix-international-bad-video-art-festival-tbilisi@afisha-art
-DTSTAMP:20261121T170058Z
+DTSTAMP:20261121T213936Z
 DTSTART:20261123T150000Z
 DTEND:20261123T170000Z
 SUMMARY:IX Международный фестиваль плохого 
@@ -176,7 +152,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:lecture-by-boris-trushin-beautiful-plots-from-probability-th-tbilisi@
  afisha-art
-DTSTAMP:20261121T170058Z
+DTSTAMP:20261121T213936Z
 DTSTART:20261125T163000Z
 DTEND:20261125T183000Z
 SUMMARY:Лекция Бориса Трушина «Красивые сю
@@ -198,7 +174,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:georgian-trace-in-fashion-and-art-tbilisi@afisha-art
-DTSTAMP:20261121T170058Z
+DTSTAMP:20261121T213936Z
 DTSTART:20261125T160000Z
 DTEND:20261125T180000Z
 SUMMARY:Грузинский след в моде и искусстве
@@ -219,7 +195,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:the-overcoat-tbilisi@afisha-art
-DTSTAMP:20261121T170058Z
+DTSTAMP:20261121T213936Z
 DTSTART:20261122T160000Z
 DTEND:20261122T180000Z
 SUMMARY:Спектакль «Шинель»
@@ -238,7 +214,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:film-club-screening-and-discussion-of-the-odyssey-tbilisi@afisha-art
-DTSTAMP:20261121T170058Z
+DTSTAMP:20261121T213936Z
 DTSTART:20261122T152000Z
 DTEND:20261122T172000Z
 SUMMARY:Киноклуб: показ и обсуждение фильма
@@ -260,7 +236,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:lecture-by-gaga-iosebashvili-on-creating-a-video-game-about--tbilisi@
  afisha-art
-DTSTAMP:20261121T170058Z
+DTSTAMP:20261121T213936Z
 DTSTART:20261124T160000Z
 DTEND:20261124T180000Z
 SUMMARY:Лекция Гаги Иосебашвили о создании 
@@ -284,7 +260,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:27th-tbilisi-international-film-festival-tbilisi@afisha-art
-DTSTAMP:20261121T170058Z
+DTSTAMP:20261121T213936Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261207
 SUMMARY:27-й Международный кинофестиваль в Т
@@ -311,7 +287,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:redo-rave-tbilisi@afisha-art
-DTSTAMP:20261121T170058Z
+DTSTAMP:20261121T213936Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:REDO RAVE
@@ -330,30 +306,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:color-hunting-photo-walk-with-giorgi-kardava-tbilisi@afisha-art
-DTSTAMP:20261121T170058Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261122
-SUMMARY:Фотопрогулка Color Hunting с Георгием Кар
- дава
-LOCATION:Тбилиси\, Тбилиси\, Грузия
-DESCRIPTION:Совместная художественная фотоп
- рогулка по городу под руководством изве
- стного фотографа в поисках заранее опре
- деленных случайных цветов.\nГеоргий Кар
- дава\nhttps://t.me/nateli_tbilisi/11916
-URL:https://doublebasskakov.github.io/radar/#e=color-hunting-photo-walk-w
- ith-giorgi-kardava-tbilisi
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Фотопрогулка Color Hunting с Георгием К
- ардава
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:play-gromkie-tbilisi@afisha-art
-DTSTAMP:20261121T170058Z
+DTSTAMP:20261121T213936Z
 DTSTART;VALUE=DATE:20270406
 DTEND;VALUE=DATE:20270407
 SUMMARY:Спектакль «Громкие»
@@ -372,7 +326,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:the-mdivani-saga-tbilisi@afisha-art
-DTSTAMP:20261121T170058Z
+DTSTAMP:20261121T213936Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:Сага о Мдивани
@@ -390,7 +344,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nateli-community-christmas-gala-tbilisi@afisha-art
-DTSTAMP:20261121T170058Z
+DTSTAMP:20261121T213936Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Рождественский гала-прием Nateli Community
@@ -404,28 +358,6 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Рождественский гала-прием Nateli Commu
  nity
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:nino-chokoshvili-interior-textile-exhibition-tbilisi@afisha-art
-DTSTAMP:20261121T170058Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261122
-SUMMARY:Выставка интерьерного текстиля Нин
- о Чокошвили
-LOCATION:IERI STORE\, Винзавод\, Тбилиси\, Грузия
-DESCRIPTION:Художница Нино Чокошвили предста
- вляет коллекцию интерьерного текстиля 
- с мотивами старинных грузинских орнаме
- нтов с изображениями животных и растени
- й.\nНино Чокошвили\nhttps://t.me/nateli_tbilisi/11930
-URL:https://doublebasskakov.github.io/radar/#e=nino-chokoshvili-interior-
- textile-exhibition-tbilisi
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Выставка интерьерного текстиля Н
- ино Чокошвили
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

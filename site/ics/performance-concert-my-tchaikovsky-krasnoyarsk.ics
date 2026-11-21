@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:performance-concert-my-tchaikovsky-krasnoyarsk@afisha-art
+DTSTAMP:20261121T213936Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:Спектакль-концерт «Мой Чайковский»
+LOCATION:Красноярский театр оперы и балета\,
+  Красноярск
+DESCRIPTION:Спектакль-концерт\, посвященный ж
+ изни и творчеству П. И. Чайковского.\nКра
+ сноярский театр оперы и балета\nhttps://www.afi
+ sha.ru/concert/spektakl-koncert-moy-chaykovskiy-6056470/
+URL:https://doublebasskakov.github.io/radar/#e=performance-concert-my-tch
+ aikovsky-krasnoyarsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спектакль-концерт «Мой Чайковски
+ й»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

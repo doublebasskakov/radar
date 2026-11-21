@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:wi-men-moscow@afisha-art
+DTSTAMP:20261121T213936Z
+DTSTART:20261213T160000Z
+DTEND:20261213T180000Z
+SUMMARY:[WI MEN]
+LOCATION:Электротеатр Станиславский\, Тверс
+ кая ул.\, 23\, Москва
+DESCRIPTION:Танцевальный перформанс\, исслед
+ ующий женские архетипы через движение и
+  современную хореографию.\nЛина Лангнер\
+ nhttps://electrotheatre.ru/playbill
+URL:https://doublebasskakov.github.io/radar/#e=wi-men-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[WI MEN]
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:premiere-of-new-productions-of-one-act-comic-operas-at-the-m-saint-pe
+ ters@afisha-art
+DTSTAMP:20261121T213936Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:Премьера новых постановок одноактн
+ ых комических опер в Мариинском театре
+LOCATION:Концертный зал Мариинского театра\
+ , Санкт-Петербург
+DESCRIPTION:Двойная премьера новых сценическ
+ их версий редких комических опер начала
+  XX века.\nМариинский театр\nhttps://www.classicalmusi
+ cnews.ru/anons/mariinskij-teatr-predstavit-dvojnuyu-premeru/?utm_source=c
+ mn_own&utm_medium=telegram
+URL:https://doublebasskakov.github.io/radar/#e=premiere-of-new-production
+ s-of-one-act-comic-operas-at-the-m-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Премьера новых постановок одноак
+ тных комических опер в Мариинском театр
+ е
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

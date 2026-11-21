@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:the-art-of-dashi-namdakov-and-his-family-irkutsk@afisha-art
+DTSTAMP:20261121T213936Z
+DTSTART;VALUE=DATE:20280701
+DTEND;VALUE=DATE:20280702
+SUMMARY:Последний день: «Искусство Даши Нам
+ дакова и его семьи»
+LOCATION:Галерея Виктора Бронштейна\, ул. Ок
+ тябрьской Революции\, д. 3\, Иркутск
+DESCRIPTION:Постоянная экспозиция скульптур 
+ и кукол работы известного мастера и чле
+ нов его семьи.\nДаши Намдаков\nhttps://www.vbgalle
+ ry.ru/index/afisha/dashi-namdakov/
+URL:https://doublebasskakov.github.io/radar/#e=the-art-of-dashi-namdakov-
+ and-his-family-irkutsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: «Искусство Даши Н
+ амдакова и его семьи»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

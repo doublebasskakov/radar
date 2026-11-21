@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:bunin-moscow-2@afisha-art
+DTSTAMP:20261121T213936Z
+DTSTART:20261122T160000Z
+DTEND:20261122T180000Z
+SUMMARY:Спектакль «Бунин»
+LOCATION:Электротеатр Станиславский\, Тверс
+ кая ул.\, 23\, Москва
+DESCRIPTION:Постановка по рассказам Ивана Бу
+ нина в рамках масштабного проекта новоп
+ роцессуального искусства «Золотой осел
+ ».\nСветлана Любимая\nhttps://electrotheatre.ru/playbill
+URL:https://doublebasskakov.github.io/radar/#e=bunin-moscow-2
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спектакль «Бунин»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:clay-across-cultures-doha@afisha-art
+DTSTAMP:20261121T213936Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:Последний день: Clay Across Cultures
+LOCATION:Liwan\, Доха\, Катар
+DESCRIPTION:Выставка керамики и работы с глин
+ ой в культурном центре Liwan.\nLiwan\nhttps://qm.org.q
+ a/en/calendar/clay-across-cultures/
+URL:https://doublebasskakov.github.io/radar/#e=clay-across-cultures-doha
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Clay Across Cultures
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -7,31 +7,8 @@ X-WR-CALNAME:Радар — Россия · city-kaliningrad
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:lecture-avant-garde-and-the-birth-of-techno-art-kaliningrad@afisha-ar
- t
-DTSTAMP:20261121T170058Z
-DTSTART:20261121T130000Z
-DTEND:20261121T150000Z
-SUMMARY:Лекция «Авангард и рождение технои
- скусства»
-LOCATION:Филиал Третьяковской галереи\, Кал
- ининград
-DESCRIPTION:Исследовательница медиафилософи
- и рассказывает о влиянии технических из
- обретений на эволюцию искусства.\nАлина 
- Латыпова\nhttps://t.me/generativegallery/4542
-URL:https://doublebasskakov.github.io/radar/#e=lecture-avant-garde-and-th
- e-birth-of-techno-art-kaliningrad
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Лекция «Авангард и рождение техн
- оискусства»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:the-magnificent-hermitage-kaliningrad@afisha-art
-DTSTAMP:20261121T170058Z
+DTSTAMP:20261121T213936Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:Великолепный Эрмитаж
@@ -51,7 +28,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lecture-in-search-of-sound-color-kaliningrad@afisha-art
-DTSTAMP:20261121T170058Z
+DTSTAMP:20261121T213936Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Лекция «В поисках звукоцвета»
@@ -72,10 +49,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:magnificent-hermitage-exhibition-kaliningrad@afisha-art
-DTSTAMP:20261121T170058Z
+DTSTAMP:20261121T213936Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
-SUMMARY:Выставка «Великолепный Эрмитаж»
+SUMMARY:Открытие: Выставка «Великолепный Э
+ рмитаж»
 LOCATION:Третьяковская галерея. Калинингра
  д\, Калининград\, Калининград
 DESCRIPTION:Масштабная выставка\, представля
@@ -86,13 +64,36 @@ URL:https://doublebasskakov.github.io/radar/#e=magnificent-hermitage-exhi
  bition-kaliningrad
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Выставка «Великолепный Эрмитаж»
+DESCRIPTION:Открытие: Выставка «Великолепный
+  Эрмитаж»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:exhibition-dot-and-line-kaliningrad@afisha-art
+DTSTAMP:20261121T213936Z
+DTSTART;VALUE=DATE:20270112
+DTEND;VALUE=DATE:20270113
+SUMMARY:Последний день: Выставка «Точка и л
+ иния»
+LOCATION:Третьяковская галерея. Калинингра
+ д\, Калининград\, Калининград
+DESCRIPTION:Экспозиция современного искусст
+ ва\, исследующая графические основы и ви
+ зуальные структуры.\n\nhttps://www.afisha.ru/exhibition/
+ tochka-i-liniya-1012664/#rcmrclid=140e859c77a6e58d
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-dot-and-line-ka
+ liningrad
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Выставка «Точка и
+  линия»
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-beauties-and-beasts-kaliningrad@afisha-art
-DTSTAMP:20261121T170058Z
+DTSTAMP:20261121T213936Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Последний день: Выставка «Красавиц
@@ -116,11 +117,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-marine-industrial-ours-kaliningrad@afisha-art
-DTSTAMP:20261121T170058Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261122
-SUMMARY:Открытие: Выставка «Морской. Индуст
- риальный. Наш»
+DTSTAMP:20261121T213936Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:Последний день: Выставка «Морской. 
+ Индустриальный. Наш»
 LOCATION:Калининградский областной историк
  о-художественный музей\, Калининград
 DESCRIPTION:Выставка современного искусства 
@@ -132,15 +133,15 @@ URL:https://doublebasskakov.github.io/radar/#e=exhibition-marine-industri
  al-ours-kaliningrad
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Открытие: Выставка «Морской. Инду
- стриальный. Наш»
+DESCRIPTION:Последний день: Выставка «Морско
+ й. Индустриальный. Наш»
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:contemporary-art-exhibition-marine-industrial-ours-kaliningrad@afisha
  -art
-DTSTAMP:20261121T170058Z
+DTSTAMP:20261121T213936Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Последний день: Выставка современн
@@ -165,7 +166,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sea-of-opportunities-interactive-exhibition-kaliningrad@afisha-art
-DTSTAMP:20261121T170058Z
+DTSTAMP:20261121T213936Z
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
 SUMMARY:Последний день: Интерактивная выст
@@ -189,7 +190,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:new-year-performance-amber-heart-80-lights-of-the-baltic-kaliningrad@
  afisha-art
-DTSTAMP:20261121T170058Z
+DTSTAMP:20261121T213936Z
 DTSTART;VALUE=DATE:20261223
 DTEND;VALUE=DATE:20261224
 SUMMARY:Новогодний спектакль «Янтарное сер
@@ -210,7 +211,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:borodin-between-laboratory-and-music-lecture-kaliningrad@afisha-art
-DTSTAMP:20261121T170058Z
+DTSTAMP:20261121T213936Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Лекция «Бородин: между лабораторие
@@ -233,7 +234,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:history-hall-of-the-tretyakov-gallery-kaliningrad@afisha-art
-DTSTAMP:20261121T170058Z
+DTSTAMP:20261121T213936Z
 DTSTART;VALUE=DATE:20270112
 DTEND;VALUE=DATE:20270113
 SUMMARY:Последний день: Зал Истории Третьяк
@@ -256,7 +257,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:the-deluge-kaliningrad@afisha-art
-DTSTAMP:20261121T170058Z
+DTSTAMP:20261121T213936Z
 DTSTART;VALUE=DATE:20270122
 DTEND;VALUE=DATE:20270123
 SUMMARY:Последний день: Потоп
@@ -275,29 +276,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:light-and-color-painting-exhibition-kaliningrad@afisha-art
-DTSTAMP:20261121T170058Z
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261122
-SUMMARY:Выставка живописи «Свет и цвет»
-LOCATION:Арт-пространство «Ворота»\, ул. Лит
- овский вал\, 61\, Калининград
-DESCRIPTION:Экспозиция художественных работ\
- , исследующая взаимодействие световых п
- отоков и цветовой палитры.\nАрт-простран
- ство «Ворота»\nhttps://vorotagallery.ru/events/fotovystavka-s
- vet-i-cvet/
-URL:https://doublebasskakov.github.io/radar/#e=light-and-color-painting-e
- xhibition-kaliningrad
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Выставка живописи «Свет и цвет»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:exhibition-sea-of-opportunities-kaliningrad@afisha-art
-DTSTAMP:20261121T170058Z
+DTSTAMP:20261121T213936Z
 DTSTART;VALUE=DATE:20270112
 DTEND;VALUE=DATE:20270113
 SUMMARY:Последний день: Выставка «Море возм
@@ -319,7 +299,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:vasily-beynarovich-faust-of-the-21st-century-kaliningrad@afisha-art
-DTSTAMP:20261121T170058Z
+DTSTAMP:20261121T213936Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Василий Бейнарович\, Фауст 21 века. К
@@ -341,30 +321,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:exhibition-dot-and-line-kaliningrad@afisha-art
-DTSTAMP:20261121T170058Z
-DTSTART;VALUE=DATE:20270112
-DTEND;VALUE=DATE:20270113
-SUMMARY:Последний день: Выставка «Точка и л
- иния»
-LOCATION:Третьяковская галерея. Калинингра
- д\, Калининград\, Калининград
-DESCRIPTION:Экспозиция современного искусст
- ва\, исследующая графические основы и ви
- зуальные структуры.\n\nhttps://www.afisha.ru/exhibition/
- tochka-i-liniya-1012664/#rcmrclid=140e859c77a6e58d
-URL:https://doublebasskakov.github.io/radar/#e=exhibition-dot-and-line-ka
- liningrad
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Последний день: Выставка «Точка и
-  линия»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:installation-the-flood-kaliningrad@afisha-art
-DTSTAMP:20261121T170058Z
+DTSTAMP:20261121T213936Z
 DTSTART;VALUE=DATE:20270122
 DTEND;VALUE=DATE:20270123
 SUMMARY:Последний день: Инсталляция «Потоп
@@ -386,7 +344,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sea-of-possibilities-kaliningrad@afisha-art
-DTSTAMP:20261121T170058Z
+DTSTAMP:20261121T213936Z
 DTSTART;VALUE=DATE:20270114
 DTEND;VALUE=DATE:20270115
 SUMMARY:Последний день: Море возможностей
@@ -408,7 +366,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:kgd-tretyakov-tochka-i-liniya@afisha-art
-DTSTAMP:20261121T170058Z
+DTSTAMP:20261121T213936Z
 DTSTART;VALUE=DATE:20270328
 DTEND;VALUE=DATE:20270329
 SUMMARY:Последний день: «Точка и линия»
@@ -423,28 +381,6 @@ URL:https://doublebasskakov.github.io/radar/#e=kgd-tretyakov-tochka-i-lin
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Последний день: «Точка и линия»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:the-red-lantern-performance-tour-kaliningrad@afisha-art
-DTSTAMP:20261121T170058Z
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261122
-SUMMARY:Гастроли спектакля «Красный фонарь
- »
-LOCATION:Арт-пространство «Ворота»\, ул. Лит
- овский вал\, 61\, Калининград
-DESCRIPTION:Показы спектакля в рамках гастро
- льного тура в калининградском арт-прост
- ранстве.\nАрт-пространство «Ворота»\nhttps:
- //vorotagallery.ru/events/gastroli-spektaklja-krasnyj-fonar-3/
-URL:https://doublebasskakov.github.io/radar/#e=the-red-lantern-performanc
- e-tour-kaliningrad
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Гастроли спектакля «Красный фона
- рь»
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
