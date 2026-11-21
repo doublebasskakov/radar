@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:aivazovsky-exhibition-saint-peters@afisha-art
+DTSTAMP:20261121T120657Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Открытие: Выставка «Айвазовский»
+LOCATION:Русский музей\, Корпус Бенуа\, наб. к
+ анала Грибоедова\, 2\, Санкт-Петербург
+DESCRIPTION:Масштабная экспозиция марин Иван
+ а Айвазовского\, представляющая не толь
+ ко морские пейзажи\, но и жанровые сюжет
+ ы.\nИван Айвазовский\nhttps://t.me/rusmuseum/22657
+URL:https://doublebasskakov.github.io/radar/#e=aivazovsky-exhibition-sain
+ t-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка «Айвазовский»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

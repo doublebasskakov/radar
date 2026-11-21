@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:no-admittance-except-on-business-istanbul-3@afisha-art
+DTSTAMP:20261121T120657Z
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+SUMMARY:Последний день: Никакого входа\, кро
+ ме как по делу
+LOCATION:Salt Galata\, Bankalar Caddesi 11\, 34421 Karaköy İstanbul\, 
+ Стамбул\, Турция
+DESCRIPTION:Выставочный проект в пространств
+ ах Salt Galata\, исследующий архивы и институ
+ циональные структуры.\nSalt Galata\nhttps://saltonline
+ .org/en/exhibition-no-admittance-except-on-business-3107
+URL:https://doublebasskakov.github.io/radar/#e=no-admittance-except-on-bu
+ siness-istanbul-3
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Никакого входа\, к
+ роме как по делу
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

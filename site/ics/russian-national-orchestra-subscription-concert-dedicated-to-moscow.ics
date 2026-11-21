@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:russian-national-orchestra-subscription-concert-dedicated-to-moscow@a
+ fisha-art
+DTSTAMP:20261121T120657Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:Абонементный концерт Российского н
+ ационального оркестра к 170-летию С. Тане
+ ева
+LOCATION:Концертный зал им. П. И. Чайковского
+ \, Москва
+DESCRIPTION:Концерт Российского национально
+ го оркестра\, открывающий именной цикл к
+  юбилею Сергея Танеева.\nРоссийский наци
+ ональный оркестр\nhttps://t.me/orpheusradio/51744
+URL:https://doublebasskakov.github.io/radar/#e=russian-national-orchestra
+ -subscription-concert-dedicated-to-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Абонементный концерт Российског
+ о национального оркестра к 170-летию С. Та
+ неева
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

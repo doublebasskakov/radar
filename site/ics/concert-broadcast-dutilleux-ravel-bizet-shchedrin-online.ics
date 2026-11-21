@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:concert-broadcast-dutilleux-ravel-bizet-shchedrin-online@afisha-art
+DTSTAMP:20261121T120657Z
+DTSTART:20261121T170000Z
+DTEND:20261121T190000Z
+SUMMARY:Трансляция концерта: Дютийё\, Равел
+ ь\, Бизе–Щедрин
+LOCATION:VK\, Rutube\, Онлайн
+DESCRIPTION:Онлайн-трансляция программы с пр
+ оизведениями Дютийё и Щедрина к 100-летию
+  Ростроповича.\nАкадемический симфониче
+ ский оркестр филармонии\, Димитрис Боти
+ нис\, Надежда Павлова\nhttps://t.me/philharmoniaspb/2441
+URL:https://doublebasskakov.github.io/radar/#e=concert-broadcast-dutilleu
+ x-ravel-bizet-shchedrin-online
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Трансляция концерта: Дютийё\, Рав
+ ель\, Бизе–Щедрин
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

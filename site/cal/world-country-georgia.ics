@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:dune-part-three-imax-premiere-tbilisi@afisha-art
-DTSTAMP:20261120T225953Z
+DTSTAMP:20261121T120657Z
 DTSTART:20261216T084500Z
 DTEND:20261216T104500Z
 SUMMARY:Премьера фильма «Дюна: часть третья
@@ -29,7 +29,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:kvareli-foundation-opening@afisha-art
-DTSTAMP:20261120T225953Z
+DTSTAMP:20261121T120657Z
 DTSTART:20261102T060000Z
 DTEND:20261102T080000Z
 SUMMARY:Открытие: Georgian Contemporary Art: Origins and Continui
@@ -53,7 +53,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:book-club-discussion-of-center-of-gravity-with-vladimir-kuzn-tbilisi@
  afisha-art
-DTSTAMP:20261120T225953Z
+DTSTAMP:20261121T120657Z
 DTSTART:20261203T153000Z
 DTEND:20261203T173000Z
 SUMMARY:Книжный клуб: обсуждение романа «Це
@@ -80,7 +80,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:journey-to-kakheti-olive-harvesting-and-tasting-sakobo@afisha-art
-DTSTAMP:20261120T225953Z
+DTSTAMP:20261121T120657Z
 DTSTART:20261129T060000Z
 DTEND:20261129T080000Z
 SUMMARY:Путешествие в Кахетию: сбор оливок 
@@ -104,8 +104,31 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:lecture-how-the-georgian-spirit-changed-form-tbilisi@afisha-art
+DTSTAMP:20261121T120657Z
+DTSTART:20261121T140000Z
+DTEND:20261121T160000Z
+SUMMARY:Лекция «Как грузинский дух менял фо
+ рму»
+LOCATION:Tbilisi Yoga Villa\, ул. Ониашвили\, 37\, Тбили
+ си\, Грузия
+DESCRIPTION:Исследователь Рамин Джинчарадзе 
+ расскажет об эволюции грузинской культ
+ уры\, древних верованиях\, влиянии христ
+ ианства и традициях гостеприимства.\nРа
+ мин Джинчарадзе\nhttps://t.me/nateli_tbilisi/11943
+URL:https://doublebasskakov.github.io/radar/#e=lecture-how-the-georgian-s
+ pirit-changed-form-tbilisi
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекция «Как грузинский дух менял 
+ форму»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:scientific-excursion-to-dmanisi-and-bolnisi-tbilisi@afisha-art
-DTSTAMP:20261120T225953Z
+DTSTAMP:20261121T120657Z
 DTSTART:20261121T050000Z
 DTEND:20261121T070000Z
 SUMMARY:Научная экскурсия в Дманиси и Болни
@@ -130,7 +153,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ix-international-bad-video-art-festival-tbilisi@afisha-art
-DTSTAMP:20261120T225953Z
+DTSTAMP:20261121T120657Z
 DTSTART:20261123T150000Z
 DTEND:20261123T170000Z
 SUMMARY:IX Международный фестиваль плохого 
@@ -151,8 +174,31 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:lecture-by-boris-trushin-beautiful-plots-from-probability-th-tbilisi@
+ afisha-art
+DTSTAMP:20261121T120657Z
+DTSTART:20261125T163000Z
+DTEND:20261125T183000Z
+SUMMARY:Лекция Бориса Трушина «Красивые сю
+ жеты из теории вероятностей»
+LOCATION:Auditoria\, S. Janashia 22-26\, Тбилиси\, Грузия
+DESCRIPTION:Презентация книги математика Бор
+ иса Трушина с разбором знаменитых парад
+ оксов теории вероятностей и задач на ин
+ туицию.\nБорис Трушин\nhttps://t.me/auditoria_tbilisi/77
+ 77
+URL:https://doublebasskakov.github.io/radar/#e=lecture-by-boris-trushin-b
+ eautiful-plots-from-probability-th-tbilisi
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекция Бориса Трушина «Красивые 
+ сюжеты из теории вероятностей»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:georgian-trace-in-fashion-and-art-tbilisi@afisha-art
-DTSTAMP:20261120T225953Z
+DTSTAMP:20261121T120657Z
 DTSTART:20261125T160000Z
 DTEND:20261125T180000Z
 SUMMARY:Грузинский след в моде и искусстве
@@ -173,7 +219,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:the-overcoat-tbilisi@afisha-art
-DTSTAMP:20261120T225953Z
+DTSTAMP:20261121T120657Z
 DTSTART:20261122T160000Z
 DTEND:20261122T180000Z
 SUMMARY:Спектакль «Шинель»
@@ -192,7 +238,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:film-club-screening-and-discussion-of-the-odyssey-tbilisi@afisha-art
-DTSTAMP:20261120T225953Z
+DTSTAMP:20261121T120657Z
 DTSTART:20261122T152000Z
 DTEND:20261122T172000Z
 SUMMARY:Киноклуб: показ и обсуждение фильма
@@ -214,7 +260,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:lecture-by-gaga-iosebashvili-on-creating-a-video-game-about--tbilisi@
  afisha-art
-DTSTAMP:20261120T225953Z
+DTSTAMP:20261121T120657Z
 DTSTART:20261124T160000Z
 DTEND:20261124T180000Z
 SUMMARY:Лекция Гаги Иосебашвили о создании 
@@ -238,7 +284,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:27th-tbilisi-international-film-festival-tbilisi@afisha-art
-DTSTAMP:20261120T225953Z
+DTSTAMP:20261121T120657Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261207
 SUMMARY:27-й Международный кинофестиваль в Т
@@ -265,7 +311,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:redo-rave-tbilisi@afisha-art
-DTSTAMP:20261120T225953Z
+DTSTAMP:20261121T120657Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:REDO RAVE
@@ -285,7 +331,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:color-hunting-photo-walk-with-giorgi-kardava-tbilisi@afisha-art
-DTSTAMP:20261120T225953Z
+DTSTAMP:20261121T120657Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Фотопрогулка Color Hunting с Георгием Кар
@@ -307,7 +353,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:play-gromkie-tbilisi@afisha-art
-DTSTAMP:20261120T225953Z
+DTSTAMP:20261121T120657Z
 DTSTART;VALUE=DATE:20270406
 DTEND;VALUE=DATE:20270407
 SUMMARY:Спектакль «Громкие»
@@ -326,7 +372,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:the-mdivani-saga-tbilisi@afisha-art
-DTSTAMP:20261120T225953Z
+DTSTAMP:20261121T120657Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:Сага о Мдивани
@@ -344,7 +390,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nateli-community-christmas-gala-tbilisi@afisha-art
-DTSTAMP:20261120T225953Z
+DTSTAMP:20261121T120657Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Рождественский гала-прием Nateli Community
@@ -363,7 +409,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nino-chokoshvili-interior-textile-exhibition-tbilisi@afisha-art
-DTSTAMP:20261120T225953Z
+DTSTAMP:20261121T120657Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Выставка интерьерного текстиля Нин

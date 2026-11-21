@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:unrest-moscow@afisha-art
+DTSTAMP:20261121T120657Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Непокой
+LOCATION:Кинотеатры Москвы\, Москва
+DESCRIPTION:Премьера анимационной ленты 2026 г
+ ода в рамках специальных показов авторс
+ кого кино.\n\nhttps://www.afisha.ru/msk/schedule_cinema/vybor-afi
+ shi/
+URL:https://doublebasskakov.github.io/radar/#e=unrest-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Непокой
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:exhibition-city-echo-of-the-streets-moscow@afisha-art
+DTSTAMP:20261121T120657Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Открытие: Выставка «Город. Эхо улиц
+ »
+LOCATION:Галерея Богородское\, Открытое шос
+ се\, д. 5\, корп. 6\, Москва
+DESCRIPTION:Художественное исследование гор
+ одского пространства и его визуального 
+ облика.\nNone\nhttps://t.me/bogorodskoegallery/2324
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-city-echo-of-th
+ e-streets-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка «Город. Эхо ул
+ иц»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:open-day-meeting-with-ivan-tverdovsky-moscow@afisha-art
+DTSTAMP:20261121T120657Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:День открытых дверей: встреча с Ива
+ ном Твердовским
+LOCATION:Школа дизайна НИУ ВШЭ\, Москва
+DESCRIPTION:Встреча с кинорежиссером Иваном 
+ Твердовским\, где обсудят авторский язы
+ к в кино и связь режиссуры с современным
+  искусством.\nИван Твердовский\nhttps://t.me/hse
+ _art/4120
+URL:https://doublebasskakov.github.io/radar/#e=open-day-meeting-with-ivan
+ -tverdovsky-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:День открытых дверей: встреча с И
+ ваном Твердовским
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

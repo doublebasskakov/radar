@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:masters-of-siberia-radio-show-online@afisha-art
+DTSTAMP:20261121T120657Z
+DTSTART:20261121T100000Z
+DTEND:20261121T120000Z
+SUMMARY:Радиошоу «Мастера Сибири»
+LOCATION:Kurs Radio\, kursradio.live\, Онлайн
+DESCRIPTION:Эфир о культурных мастерах и иниц
+ иативах Сибирского региона.\nСергей Мез
+ енов\nhttp://kursradio.live
+URL:https://doublebasskakov.github.io/radar/#e=masters-of-siberia-radio-s
+ how-online
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Радиошоу «Мастера Сибири»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

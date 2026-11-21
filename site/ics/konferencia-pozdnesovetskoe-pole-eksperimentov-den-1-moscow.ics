@@ -6,9 +6,9 @@ METHOD:PUBLISH
 BEGIN:VEVENT
 UID:konferencia-pozdnesovetskoe-pole-eksperimentov-den-1-moscow@afisha-ar
  t
-DTSTAMP:20261120T225953Z
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261123
+DTSTAMP:20261121T120657Z
+DTSTART:20261120T090000Z
+DTEND:20261120T110000Z
 SUMMARY:Конференция «Позднесоветское поле 
  экспериментов»: День 1
 LOCATION:Президентская академия\, Большая О
@@ -19,6 +19,52 @@ DESCRIPTION:Первый день научной конференции\,
  //t.me/voznesenskycenter/4677
 URL:https://doublebasskakov.github.io/radar/#e=konferencia-pozdnesovetsko
  e-pole-eksperimentov-den-1-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Конференция «Позднесоветское по
+ ле экспериментов»: День 1
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:konferencia-pozdnesovetskoe-pole-eksperimentov-den-1-moscow-1@afisha-
+ art
+DTSTAMP:20261121T120657Z
+DTSTART:20261121T090000Z
+DTEND:20261121T110000Z
+SUMMARY:Конференция «Позднесоветское поле 
+ экспериментов»: День 1
+LOCATION:Президентская академия\, Большая О
+ рдынка\, 46\, Москва
+DESCRIPTION:Первый день научной конференции\,
+  посвященной экспериментальным поискам
+  и техническим утопиям оттепели.\nNone\nhttps:
+ //t.me/voznesenskycenter/4677
+URL:https://doublebasskakov.github.io/radar/#e=konferencia-pozdnesovetsko
+ e-pole-eksperimentov-den-1-moscow-1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Конференция «Позднесоветское по
+ ле экспериментов»: День 1
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:konferencia-pozdnesovetskoe-pole-eksperimentov-den-1-moscow-2@afisha-
+ art
+DTSTAMP:20261121T120657Z
+DTSTART:20261122T090000Z
+DTEND:20261122T110000Z
+SUMMARY:Конференция «Позднесоветское поле 
+ экспериментов»: День 1
+LOCATION:Президентская академия\, Большая О
+ рдынка\, 46\, Москва
+DESCRIPTION:Первый день научной конференции\,
+  посвященной экспериментальным поискам
+  и техническим утопиям оттепели.\nNone\nhttps:
+ //t.me/voznesenskycenter/4677
+URL:https://doublebasskakov.github.io/radar/#e=konferencia-pozdnesovetsko
+ e-pole-eksperimentov-den-1-moscow-2
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Конференция «Позднесоветское по

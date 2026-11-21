@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:23rd-marrakech-international-film-festival-marrakech@afisha-art
+DTSTAMP:20261121T120657Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:23-й Международный кинофестиваль в М
+ арракеше
+LOCATION:TBA\, Марракеш
+DESCRIPTION:Один из наиболее значимых киносм
+ отров африканского континента и арабск
+ ого мира открывает свою 23-ю программу в 
+ Марокко.\n\nhttps://kino.mail.ru/news/145340-v-marokko-otkrylsya-2
+ 3-j-mezhdunarodnyj-kinofestival/
+URL:https://doublebasskakov.github.io/radar/#e=23rd-marrakech-internation
+ al-film-festival-marrakech
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:23-й Международный кинофестиваль 
+ в Марракеше
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

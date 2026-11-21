@@ -9,7 +9,7 @@ X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:lecture-by-georgy-kovalevsky-from-word-to-number-and-gesture-novosibi
  rsk@afisha-art
-DTSTAMP:20261120T225953Z
+DTSTAMP:20261121T120657Z
 DTSTART:20261126T052000Z
 DTEND:20261126T072000Z
 SUMMARY:Лекция Георгия Ковалевского «От сл
@@ -42,7 +42,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:international-scientific-conference-horizons-of-scientific-h-novosibi
  rsk@afisha-art
-DTSTAMP:20261120T225953Z
+DTSTAMP:20261121T120657Z
 DTSTART:20261123T040000Z
 DTEND:20261123T060000Z
 SUMMARY:Международная научная конференция 
@@ -71,7 +71,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nsk-masm-tri-veka@afisha-art
-DTSTAMP:20261120T225953Z
+DTSTAMP:20261121T120657Z
 DTSTART:20261126T120000Z
 DTEND:20261126T140000Z
 SUMMARY:МАСМ. «Три века русской камерной му
@@ -93,7 +93,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:raphael-versions-novosibirsk@afisha-art
-DTSTAMP:20261120T225953Z
+DTSTAMP:20261121T120657Z
 DTSTART;VALUE=DATE:20270314
 DTEND;VALUE=DATE:20270315
 SUMMARY:Рафаэль. Версии
@@ -114,7 +114,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:robert-falk-and-his-students-novosibirsk@afisha-art
-DTSTAMP:20261120T225953Z
+DTSTAMP:20261121T120657Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Роберт Фальк и его ученики
@@ -136,7 +136,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:rodion-shchedrin-s-opera-boyarynya-morozova-at-novat-novosibirsk@afis
  ha-art
-DTSTAMP:20261120T225953Z
+DTSTAMP:20261121T120657Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:Опера Родиона Щедрина «Боярыня Мор
@@ -159,7 +159,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lecture-hall-gericault-zaryanko-infante-novosibirsk@afisha-art
-DTSTAMP:20261120T225953Z
+DTSTAMP:20261121T120657Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Лекторий: Жерико\, Зарянко\, Инфанте
@@ -182,7 +182,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lecture-rodchenko-sargent-terborch-novosibirsk@afisha-art
-DTSTAMP:20261120T225953Z
+DTSTAMP:20261121T120657Z
 DTSTART;VALUE=DATE:20270213
 DTEND;VALUE=DATE:20270214
 SUMMARY:Лекторий: Родченко\, Сарджент\, Терб
@@ -205,7 +205,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lecture-hall-botticelli-thirst-for-harmony-novosibirsk@afisha-art
-DTSTAMP:20261120T225953Z
+DTSTAMP:20261121T120657Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Лекторий: Боттичелли. Жажда гармони
@@ -229,7 +229,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:literary-and-art-evening-with-a-psychologist-water-as-a-symb-novosibi
  rsk@afisha-art
-DTSTAMP:20261120T225953Z
+DTSTAMP:20261121T120657Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:Литературно-художественный вечер с
@@ -253,7 +253,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fateev-s-dreams-novosibirsk@afisha-art
-DTSTAMP:20261120T225953Z
+DTSTAMP:20261121T120657Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Сны Фатеева
@@ -275,7 +275,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:digital-immunity-in-the-era-of-cyberwarfare-how-to-protect-f-novosibi
  rsk@afisha-art
-DTSTAMP:20261120T225953Z
+DTSTAMP:20261121T120657Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Цифровой иммунитет в эпоху киберво
@@ -300,9 +300,48 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:the-boundary-of-light-novosibirsk@afisha-art
+DTSTAMP:20261121T120657Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:Граница света
+LOCATION:Новосибирский художественный музе
+ й\, Новосибирск
+DESCRIPTION:Живописная выставка\, посвященна
+ я исследованию световых эффектов и визу
+ альных границ в искусстве.\n\nhttps://www.afisha.ru
+ /exhibition/granica-sveta-1015484/
+URL:https://doublebasskakov.github.io/radar/#e=the-boundary-of-light-novo
+ sibirsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Граница света
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:all-unity-novosibirsk@afisha-art
+DTSTAMP:20261121T120657Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Всеединство
+LOCATION:Новосибирский художественный музе
+ й\, Новосибирск
+DESCRIPTION:Художественная выставка живопис
+ и\, исследующая философские и эстетичес
+ кие концепции единства.\n\nhttps://www.afisha.ru/exhi
+ bition/vseedinstvo-1014627/
+URL:https://doublebasskakov.github.io/radar/#e=all-unity-novosibirsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Всеединство
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:all-russian-composers-competition-siberian-rhapsody-named-af-novosibi
  rsk@afisha-art
-DTSTAMP:20261120T225953Z
+DTSTAMP:20261121T120657Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Открытие: Всероссийский конкурс ко
@@ -332,7 +371,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:international-string-instruments-competition-novosibirsk-spr-novosibi
  rsk@afisha-art
-DTSTAMP:20261120T225953Z
+DTSTAMP:20261121T120657Z
 DTSTART;VALUE=DATE:20270327
 DTEND;VALUE=DATE:20270330
 SUMMARY:Международный конкурс исполнителе
@@ -359,47 +398,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:the-boundary-of-light-novosibirsk@afisha-art
-DTSTAMP:20261120T225953Z
-DTSTART;VALUE=DATE:20261206
-DTEND;VALUE=DATE:20261207
-SUMMARY:Граница света
-LOCATION:Новосибирский художественный музе
- й\, Новосибирск
-DESCRIPTION:Живописная выставка\, посвященна
- я исследованию световых эффектов и визу
- альных границ в искусстве.\n\nhttps://www.afisha.ru
- /exhibition/granica-sveta-1015484/
-URL:https://doublebasskakov.github.io/radar/#e=the-boundary-of-light-novo
- sibirsk
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Граница света
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:all-unity-novosibirsk@afisha-art
-DTSTAMP:20261120T225953Z
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
-SUMMARY:Всеединство
-LOCATION:Новосибирский художественный музе
- й\, Новосибирск
-DESCRIPTION:Художественная выставка живопис
- и\, исследующая философские и эстетичес
- кие концепции единства.\n\nhttps://www.afisha.ru/exhi
- bition/vseedinstvo-1014627/
-URL:https://doublebasskakov.github.io/radar/#e=all-unity-novosibirsk
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Всеединство
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:the-romanovs-novosibirsk@afisha-art
-DTSTAMP:20261120T225953Z
+DTSTAMP:20261121T120657Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Последний день: Романовы
@@ -420,7 +420,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:russia-my-history-1945-2022-novosibirsk@afisha-art
-DTSTAMP:20261120T225953Z
+DTSTAMP:20261121T120657Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261123
 SUMMARY:Россия — моя история. 1945–2022
@@ -442,7 +442,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:the-rurikids-novosibirsk@afisha-art
-DTSTAMP:20261120T225953Z
+DTSTAMP:20261121T120657Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Последний день: Рюриковичи
@@ -462,7 +462,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tatiana-konnocheva-life-of-water-novosibirsk@afisha-art
-DTSTAMP:20261120T225953Z
+DTSTAMP:20261121T120657Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 SUMMARY:Последний день: Татьяна Конночева. 
@@ -484,7 +484,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:open-poetry-recitation-contest-poetic-bridges-novosibirsk@afisha-art
-DTSTAMP:20261120T225953Z
+DTSTAMP:20261121T120657Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261122
 SUMMARY:Открытый конкурс декламации стихот
@@ -511,7 +511,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:festival-of-young-designers-of-the-melange-school-novosibirsk@afisha-
  art
-DTSTAMP:20261120T225953Z
+DTSTAMP:20261121T120657Z
 DTSTART;VALUE=DATE:20270129
 DTEND;VALUE=DATE:20270130
 SUMMARY:Фестиваль юных дизайнеров школы «М
@@ -534,7 +534,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:chronicle-of-the-history-of-the-siberian-military-novosibirsk@afisha-
  art
-DTSTAMP:20261120T225953Z
+DTSTAMP:20261121T120657Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Последний день: Летопись истории Си
@@ -557,7 +557,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lecture-hall-india-exotic-and-attractive-novosibirsk@afisha-art
-DTSTAMP:20261120T225953Z
+DTSTAMP:20261121T120657Z
 DTSTART;VALUE=DATE:20270313
 DTEND;VALUE=DATE:20270314
 SUMMARY:Лекторий: Индия. Экзотическая и при

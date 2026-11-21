@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:theater-of-the-mind-moscow@afisha-art
+DTSTAMP:20261121T120657Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Открытие: Выставка «Театр подсозна
+ ния»
+LOCATION:Мультимедиа Арт Музей (МАММ)\, ул. Ос
+ тоженка\, 16\, Москва
+DESCRIPTION:Выставка всемирно известного фот
+ ографа Роджера Баллена\, исследующая гр
+ аницы между реальностью и подсознанием 
+ через сюрреалистичные образы.\nРоджер Б
+ аллен\nhttps://t.me/multimediaartmuseum/7163
+URL:https://doublebasskakov.github.io/radar/#e=theater-of-the-mind-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка «Театр подсоз
+ нания»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

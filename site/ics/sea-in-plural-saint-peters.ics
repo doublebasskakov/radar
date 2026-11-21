@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:sea-in-plural-saint-peters@afisha-art
+DTSTAMP:20261121T120657Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Выставка «Море во множественном чи
+ сле»
+LOCATION:Русский музей\, Корпус Бенуа\, наб. к
+ анала Грибоедова\, 2\, Санкт-Петербург
+DESCRIPTION:Интерактивное мультимедийное пр
+ остранство в Колонном зале\, посвященно
+ е морской тематике.\n\nhttps://t.me/rusmuseum/22657
+URL:https://doublebasskakov.github.io/radar/#e=sea-in-plural-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выставка «Море во множественном 
+ числе»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR
