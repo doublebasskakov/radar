@@ -7,28 +7,48 @@ X-WR-CALNAME:Радар — Мир / World · country-japan
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:ircam-forum-workshops-tokyo-2026-tokyo@afisha-art
-DTSTAMP:20261122T172428Z
-DTSTART:20261119T010000Z
-DTEND:20261119T030000Z
-SUMMARY:Воршопы форума IRCAM в Токио
-LOCATION:Temple University Japan\, Temple University Japan\, Tokyo\, То
- кио\, Япония
-DESCRIPTION:Трехдневное погружение в научные
-  исследования и художественное творчес
- тво в области передовых аудиотехнологи
- й.\nIRCAM\nhttps://ircam-billetterie.mapado.com/
-URL:https://doublebasskakov.github.io/radar/#e=ircam-forum-workshops-toky
- o-2026-tokyo
+UID:hibiki-mukai-concert-festival-de-l-intemporel-tokyo@afisha-art
+DTSTAMP:20261122T214228Z
+DTSTART:20270226T100000Z
+DTEND:20270226T120000Z
+SUMMARY:Концерт Hibiki Mukai: Festival de l'Intemporel
+LOCATION:Hamarikyu Asahi Hall\, Токио\, Япония
+DESCRIPTION:Концерт современной академическ
+ ой музыки с участием Хибики Мукаи и прои
+ зведений видных современных композитор
+ ов в Токио.\nHibiki Mukai\, Hiromichi Kitazume\, Mei-Fang Lin\, P
+ hilippe Hurel\, Ichiro Nodaira\nhttps://www.ircam.fr/en/events/on-tour
+URL:https://doublebasskakov.github.io/radar/#e=hibiki-mukai-concert-festi
+ val-de-l-intemporel-tokyo
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Воршопы форума IRCAM в Токио
+DESCRIPTION:Концерт Hibiki Mukai: Festival de l'Intemporel
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cine-concert-festival-de-l-intemporel-tokyo@afisha-art
+DTSTAMP:20261122T214228Z
+DTSTART:20270224T100000Z
+DTEND:20270224T120000Z
+SUMMARY:Ciné-Concert: Festival de l'Intemporel
+LOCATION:Hamarikyu Asahi Hall\, Токио\, Япония
+DESCRIPTION:Спецпоказ немого кино с живым муз
+ ыкальным сопровождением\, написанным мо
+ лодыми композиторами в рамках фестивал
+ я в Токио.\nМолодые композиторы\nhttps://www.irc
+ am.fr/en/events/on-tour
+URL:https://doublebasskakov.github.io/radar/#e=cine-concert-festival-de-l
+ -intemporel-tokyo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ciné-Concert: Festival de l'Intemporel
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:festival-de-l-intemporel-collaboratory-cine-concert-tokyo@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20270224T100000Z
 DTEND:20270224T120000Z
 SUMMARY:Фестиваль de l'Intemporel: Сине-концерт
@@ -48,7 +68,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:festival-de-l-intemporel-hibiki-mukai-tokyo@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20270226T100000Z
 DTEND:20270226T120000Z
 SUMMARY:Фестиваль de l'Intemporel: Хибики Мукаи
@@ -68,7 +88,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mutek-jp-2026@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261124
 SUMMARY:MUTEK.JP 2026
@@ -88,7 +108,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mori-world-is-made-of-play@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20270429
 DTEND;VALUE=DATE:20270430
 SUMMARY:Открытие: 世界はあそびでできている：アー
@@ -111,7 +131,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mori-mariko-mori@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20270328
 DTEND;VALUE=DATE:20270329
 SUMMARY:Последний день: Mariko Mori: All That Shines
@@ -130,7 +150,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:yokohama-triennale-9@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20270423
 DTEND;VALUE=DATE:20270424
 SUMMARY:Открытие: 9th Yokohama Triennale

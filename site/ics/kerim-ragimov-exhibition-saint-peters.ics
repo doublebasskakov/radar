@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:kerim-ragimov-exhibition-saint-peters@afisha-art
+DTSTAMP:20261122T214228Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Выставка Керима Рагимова
+LOCATION:Галерея Марины Гисич\, Санкт-Петерб
+ ург
+DESCRIPTION:Двухчастный персональный выстав
+ очный проект художника Керима Рагимова.
+ \nКерим Рагимов\nhttps://t.me/marinagisichgallery/5477
+URL:https://doublebasskakov.github.io/radar/#e=kerim-ragimov-exhibition-s
+ aint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выставка Керима Рагимова
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

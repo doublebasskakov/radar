@@ -5,10 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:neuyat-festival-exhibition-tashkent@afisha-art
-DTSTAMP:20261122T172428Z
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
-SUMMARY:Открытие: Выставка фестиваля NeUyat
+DTSTAMP:20261122T214228Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Последний день: Выставка фестиваля 
+ NeUyat
 LOCATION:ICHKARI\, Ташкент\, Узбекистан
 DESCRIPTION:Выставочный проект в рамках фест
  иваля NeUyat\, проходящий в музее ICHKARI.\n\nhttps:
@@ -17,7 +18,8 @@ URL:https://doublebasskakov.github.io/radar/#e=neuyat-festival-exhibition
  -tashkent
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Открытие: Выставка фестиваля NeUyat
+DESCRIPTION:Последний день: Выставка фестива
+ ля NeUyat
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

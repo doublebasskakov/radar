@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:a-house-for-krasny-perekop-yaroslavl@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261129T120000Z
 DTEND:20261129T140000Z
 SUMMARY:Дом для Красного Перекопа
@@ -29,7 +29,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a-park-in-the-factory-s-place-yaroslavl@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261128T090000Z
 DTEND:20261128T110000Z
 SUMMARY:На месте фабрики парк
@@ -48,51 +48,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:city-within-a-city-walking-tour-yaroslavl@afisha-art
-DTSTAMP:20261122T172428Z
-DTSTART:20261122T080000Z
-DTEND:20261122T100000Z
-SUMMARY:Экскурсия-прогулка «Город в городе
- »
-LOCATION:Фабричный район (Красный Перекоп)\, 
- Ярославль
-DESCRIPTION:Исследовательская экскурсия-про
- гулка по историческому фабричному райо
- ну Ярославля.\nКоманда «Текстиль»\nhttps://tx
- tl.space/events/gorod-v-gorode
-URL:https://doublebasskakov.github.io/radar/#e=city-within-a-city-walking
- -tour-yaroslavl
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Экскурсия-прогулка «Город в горо
- де»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:city-within-a-city-yaroslavl@afisha-art
-DTSTAMP:20261122T172428Z
-DTSTART:20261115T090000Z
-DTEND:20261115T110000Z
-SUMMARY:Город в городе
-LOCATION:Текстиль\, Ярославль\, ул. Семашко\, 8
- \, Ярославль
-DESCRIPTION:Экскурсия-прогулка по фабричному
-  району\, посвященная исследованию и сох
- ранению индустриального наследия Яросл
- авля.\nКоманда «Текстиль»\nhttps://txtl.space/events
- /gorod-v-gorode
-URL:https://doublebasskakov.github.io/radar/#e=city-within-a-city-yarosla
- vl
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Город в городе
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:undress-fears-dress-light-yaroslavl@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20270430
 DTEND;VALUE=DATE:20270501
 SUMMARY:Последний день: Раздень страхи — од
@@ -116,7 +73,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:elena-pelevina-s-new-year-salon-yaroslavl@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
 SUMMARY:Новогодний салон Елены Пелевиной
@@ -137,7 +94,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:robopark-interactive-exhibition-in-yaroslavl-yaroslavl@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261226
 DTEND;VALUE=DATE:20261227
 SUMMARY:Интерактивная выставка Робопарк в 

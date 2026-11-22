@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:dafes-awards-show-2026-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261126T160000Z
 DTEND:20261126T180000Z
 SUMMARY:Церемония и перформанс-шоу Dafes Awards 20
@@ -30,7 +30,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:demutsky-16@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261126T150000Z
 DTEND:20261126T170000Z
 SUMMARY:16 фортепианных пьес
@@ -52,7 +52,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:vosstanie-dance-performance-saint-peters@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261207T170000Z
 DTEND:20261207T190000Z
 SUMMARY:«ВОССТАНИЕ» — танц-перформанс
@@ -73,8 +73,28 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:petrushka-performance-saint-peters@afisha-art
+DTSTAMP:20261122T214228Z
+DTSTART:20261213T150000Z
+DTEND:20261213T170000Z
+SUMMARY:Спектакль Petrushka
+LOCATION:Эрарта\, 29-я линия В.О.\, д. 2\, Санкт-Пе
+ тербург
+DESCRIPTION:Современное танцевальное переос
+ мысление архетипических сюжетов и бала
+ ганных сценок классического балета.\nБа
+ лет.Театр\nhttps://www.erarta.com/ru/calendar/
+URL:https://doublebasskakov.github.io/radar/#e=petrushka-performance-sain
+ t-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спектакль Petrushka
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:physical-performance-alone-with-myself-vyksa@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261127T150000Z
 DTEND:20261127T170000Z
 SUMMARY:Пластический спектакль «Наедине с 
@@ -95,7 +115,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pop-dance-opera-how-the-bicycle-was-invented-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261123T163000Z
 DTEND:20261123T183000Z
 SUMMARY:Поп-танц-опера «Как изобрели велоси
@@ -116,29 +136,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:dance-performance-by-nastya-ivanova-moscow@afisha-art
-DTSTAMP:20261122T172428Z
-DTSTART:20261122T140000Z
-DTEND:20261122T160000Z
-SUMMARY:Танцевальный перформанс Насти Иван
- овой
-LOCATION:ГЭС-2\, Болотная наб.\, 15\, Москва
-DESCRIPTION:Представление современного танц
- а\, демонстрирующее процесс создания хо
- реографического произведения.\nНастя Ив
- анова\nhttps://t.me/vacges2/8559
-URL:https://doublebasskakov.github.io/radar/#e=dance-performance-by-nasty
- a-ivanova-moscow
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Танцевальный перформанс Насти Ив
- ановой
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:dance-performance-copypaste-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261128T173000Z
 DTEND:20261128T193000Z
 SUMMARY:Танцевальный перформанс «copypaste»
@@ -158,7 +157,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:performance-gadgets-in-our-life-yekaterinbur@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Перформанс «Гаджеты в нашей жизни»
@@ -179,7 +178,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:performance-concert-dogs-saint-peters@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261212T170000Z
 DTEND:20261212T190000Z
 SUMMARY:Перформанс-концерт «Псы»
@@ -199,52 +198,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:blue-times-performance-moscow@afisha-art
-DTSTAMP:20261122T172428Z
-DTSTART:20261122T170000Z
-DTEND:20261122T190000Z
-SUMMARY:Перформанс Blue Times
-LOCATION:Новая сцена\, Москва\, ул. Сретенка\, 
- 19\, Москва
-DESCRIPTION:Коллаборативный перформанс о люб
- ви на музыку Андреаса Мустукиса с испол
- ьзованием гипсовой сценографии.\nАлевти
- на Грунтовская\, Полина Прокопьева\, Вал
- ентина Луценко\, Андреас Мустукис\nhttps://t.
- me/newstageprojects/3173
-URL:https://doublebasskakov.github.io/radar/#e=blue-times-performance-mos
- cow
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Перформанс Blue Times
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:performance-the-sixth-stage-manifest-stage-1-moscow@afisha-art
-DTSTAMP:20261122T172428Z
-DTSTART:20261122T150000Z
-DTEND:20261122T170000Z
-SUMMARY:Перформанс «Шестая стадия. Манифес
- т»: 1 этап
-LOCATION:Галерея «Бомба»\, ЦТИ «Фабрика»\, Мо
- сква
-DESCRIPTION:Первая часть трехдневного живопи
- сного перформанса художницы МоноКати н
- а ее персональной выставке.\nМоноКатя\nhtt
- ps://t.me/galereyabomba/4206
-URL:https://doublebasskakov.github.io/radar/#e=performance-the-sixth-stag
- e-manifest-stage-1-moscow
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Перформанс «Шестая стадия. Маниф
- ест»: 1 этап
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:ballet-leap-to-freedom-krasnoyarsk@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261129T120000Z
 DTEND:20261129T140000Z
 SUMMARY:Балет «Прыжок в свободу»
@@ -264,7 +219,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:performance-the-sixth-stage-manifest-stage-2-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261124T150000Z
 DTEND:20261124T170000Z
 SUMMARY:Перформанс «Шестая стадия. Манифес
@@ -286,7 +241,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:spb-soobshchestvo-spisok-papernoy@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261129T170000Z
 DTEND:20261129T190000Z
 SUMMARY:«Список Паперной»
@@ -307,7 +262,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:choreographic-performance-refraction-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261123T170000Z
 DTEND:20261123T190000Z
 SUMMARY:Хореографический спектакль «Прело
@@ -327,30 +282,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:morning-exercise-with-alexander-gorchilin-moscow@afisha-art
-DTSTAMP:20261122T172428Z
-DTSTART:20261122T090000Z
-DTEND:20261122T110000Z
-SUMMARY:Утренняя зарядка с Александром Гор
- чилиным
-LOCATION:Центр «Зотов»\, Ходынская улица\, 2 с
- тр. 1\, Москва
-DESCRIPTION:Перформативная утренняя зарядка 
- под руководством режиссера и актера Але
- ксандра Горчилина.\nАлександр Горчилин\n
- https://centrezotov.ru/program/
-URL:https://doublebasskakov.github.io/radar/#e=morning-exercise-with-alex
- ander-gorchilin-moscow
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Утренняя зарядка с Александром Г
- орчилиным
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:performance-the-sixth-stage-manifest-finale-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261125T150000Z
 DTEND:20261125T170000Z
 SUMMARY:Перформанс «Шестая стадия. Манифес
@@ -371,7 +304,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:kzn-mon-otstan-ot-sebya@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261125T160000Z
 DTEND:20261125T180000Z
 SUMMARY:«Отстань от себя». Пластический спе
@@ -389,7 +322,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:theatrical-reading-debut-patient-voices-of-plays-samara@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261123T150000Z
 DTEND:20261123T170000Z
 SUMMARY:Театральная читка «Дебютно-терпели
@@ -411,7 +344,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:all-sorts-of-dance-with-anton-vdovichenko-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261113T174500Z
 DTEND:20261113T194500Z
 SUMMARY:Открытие: «Всякие разные танцы» с А
@@ -432,7 +365,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dance-lessons-with-masha-sheshukova-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261113T160000Z
 DTEND:20261113T180000Z
 SUMMARY:Открытие: «Уроки танцев» с Машей Ше
@@ -453,7 +386,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tech-classes-with-anya-kravchenko-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261113T080000Z
 DTEND:20261113T100000Z
 SUMMARY:Открытие: «Тех. классы» с Аней Кравч
@@ -474,7 +407,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wi-men-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261213T160000Z
 DTEND:20261213T180000Z
 SUMMARY:[WI MEN]
@@ -493,7 +426,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:belaqua-or-soon-forty-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261126T160000Z
 DTEND:20261126T180000Z
 SUMMARY:Belaqua\, или Cкоро Cорок
@@ -512,53 +445,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:petrushka-performance-saint-peters@afisha-art
-DTSTAMP:20261122T172428Z
-DTSTART:20261213T150000Z
-DTEND:20261213T170000Z
-SUMMARY:Спектакль Petrushka
-LOCATION:Эрарта\, 29-я линия В.О.\, д. 2\, Санкт-Пе
- тербург
-DESCRIPTION:Современное танцевальное переос
- мысление архетипических сюжетов и бала
- ганных сценок классического балета.\nБа
- лет.Театр\nhttps://www.erarta.com/ru/calendar/
-URL:https://doublebasskakov.github.io/radar/#e=petrushka-performance-sain
- t-peters
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Спектакль Petrushka
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:evening-of-dance-performances-fairy-trifle-sorry-saint-peters@afisha-
- art
-DTSTAMP:20261122T172428Z
-DTSTART:20261122T160000Z
-DTEND:20261122T180000Z
-SUMMARY:Вечер танцперформансов «Фея»\, «Пус
- тяк»\, «Извините»
-LOCATION:Студия «Сдвиг»\, Бертгольд Центр\, Г
- ражданская ул.\, 13-15\, Санкт-Петербург
-DESCRIPTION:Три пластических перформанса\, ис
- следующих аспекты женственности\, аффек
- та и телесного хоррора.\nЕкатерина Зевак
- ина\, Мария Зевакина\, Татьяна Краснова\, 
- Полина Ченцова\, Пелагея Астафьева\nhttps://
- t.me/sdvigspace/6963
-URL:https://doublebasskakov.github.io/radar/#e=evening-of-dance-performan
- ces-fairy-trifle-sorry-saint-peters
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Вечер танцперформансов «Фея»\, «П
- устяк»\, «Извините»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:msk-electrotheatre-belaqua@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261126T160000Z
 DTEND:20261126T180000Z
 SUMMARY:«Belaqua\, или Скоро Сорок»
@@ -575,32 +463,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:inclusive-festival-art-in-sensations-main-program-saint-peters@afisha
- -art
-DTSTAMP:20261122T172428Z
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
-SUMMARY:Инклюзивный фестиваль «Искусство в
-  ощущениях»: Главная программа
-LOCATION:Главный штаб (Эрмитаж)\, Санкт-Петер
- бург
-DESCRIPTION:Открытая программа фестиваля вкл
- ючает концерт духового оркестра\, лекци
- ю с сурдопереводом\, выступления глухих 
- артистов и исторические танцы.\nЭрмитаж\
- nhttps://t.me/hermitage_museum/11838
-URL:https://doublebasskakov.github.io/radar/#e=inclusive-festival-art-in-
- sensations-main-program-saint-peters
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Инклюзивный фестиваль «Искусств
- о в ощущениях»: Главная программа
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:dance-performance-dogs-saint-peters@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261214
 SUMMARY:Танцевальный спектакль «Псы»
@@ -622,53 +486,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:art-in-sensations-festival-open-event-st-petersbur@afisha-art
-DTSTAMP:20261122T172428Z
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
-SUMMARY:Программа фестиваля «Искусство в о
- щущениях»
-LOCATION:Главный штаб Государственного Эрм
- итажа\, Санкт-Петербург
-DESCRIPTION:Инклюзивный вечер в Эрмитаже с ле
- кцией с жестовым переводом\, перформанс
- ом глухих артистов У Театра и музыкой пе
- тровской эпохи.\nЕкатерина Андреева\, У Т
- еатр\, духовой оркестр «Петербургский к
- онсонанс»\nhttps://t.me/hermitage_museum/11854
-URL:https://doublebasskakov.github.io/radar/#e=art-in-sensations-festival
- -open-event-st-petersbur
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Программа фестиваля «Искусство в
-  ощущениях»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:dance-performance-why-not-saint-peters@afisha-art
-DTSTAMP:20261122T172428Z
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
-SUMMARY:Спектакль «Почему нет?»
-LOCATION:Дом радио\, Санкт-Петербург
-DESCRIPTION:Премьера танцевального спектакл
- я Анны Гусевой с труппой musicAeterna Dance и ори
- гинальным саундтреком Сони Скобелевой.\
- nАнна Гусева\, musicAeterna Dance\, Соня Скобелева
- \, Юлия Марченко\, Женя Анисимов\nhttps://t.me/do
- mradio_online/2221
-URL:https://doublebasskakov.github.io/radar/#e=dance-performance-why-not-
- saint-peters
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Спектакль «Почему нет?»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:concert-performance-perhaps-us-saint-peters@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261201
 SUMMARY:Концерт-перформанс «Возможно мы»
@@ -689,7 +508,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ilia-averbukh-ice-show-saint-peters@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Шоу на льду Ильи Авербуха на Большо
@@ -710,52 +529,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:performance-by-anna-guseva-saint-peters@afisha-art
-DTSTAMP:20261122T172428Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261123
-SUMMARY:Спектакль Анны Гусевой
-LOCATION:Дом Радио\, ул. Итальянская\, 27\, Санк
- т-Петербург
-DESCRIPTION:Театральная постановка в простра
- нстве Дома Радио\, исследующая современ
- ные перформативные практики.\nАнна Гусе
- ва\nhttps://t.me/cityofthefuture/23345
-URL:https://doublebasskakov.github.io/radar/#e=performance-by-anna-guseva
- -saint-peters
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Спектакль Анны Гусевой
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:art-in-sensations-festival-event-at-the-general-staff-buildi-saint-pe
- ters@afisha-art
-DTSTAMP:20261122T172428Z
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
-SUMMARY:Событие фестиваля «Искусство в ощу
- щениях» в Главном штабе
-LOCATION:Главный штаб Эрмитажа\, Дворцовая п
- л.\, 6-8\, Санкт-Петербург
-DESCRIPTION:Программа с участием глухих арти
- стов\, лекцией на РЖЯ и выступлением дух
- ового оркестра инвалидов.\nУ Театр\, орке
- стр «Петербургский консонанс»\nhttps://t.me/he
- rmitage_museum/11897
-URL:https://doublebasskakov.github.io/radar/#e=art-in-sensations-festival
- -event-at-the-general-staff-buildi-saint-peters
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Событие фестиваля «Искусство в о
- щущениях» в Главном штабе
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:fabula-anemoia@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:Анемойя
@@ -776,7 +551,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:the-nutcracker-animated-fairytale-ballet-perm@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261224
 SUMMARY:Балет «Щелкунчик. Ожившая сказка»
@@ -799,7 +574,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:criminal-ryazan-true-crime-promenade-kazan@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
 SUMMARY:Криминальная Рязань - трукрайм пром
@@ -818,53 +593,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:winter-program-what-happened-to-fanechka-in-zapovednye-kvart-nizhny-n
- ovgo@afisha-art
-DTSTAMP:20261122T172428Z
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
-SUMMARY:Зимняя программа «Что с Фанечкой бы
- ло» в Заповедных кварталах
-LOCATION:Заповедные кварталы\, Большая Покр
- овская\, 30а\, Нижний Новгород
-DESCRIPTION:Уютная прогулка-экскурсия по ист
- орическому центру города в сопровожден
- ии персонажа Фанечки с дегустацией саха
- рных леденцов.\nЗаповедные кварталы\nhttps:
- //t.me/gorkoNN/29630
-URL:https://doublebasskakov.github.io/radar/#e=winter-program-what-happen
- ed-to-fanechka-in-zapovednye-kvart-nizhny-novgo
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Зимняя программа «Что с Фанечкой 
- было» в Заповедных кварталах
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:polar-bear-parma-s-birthday-celebration-perm@afisha-art
-DTSTAMP:20261122T172428Z
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
-SUMMARY:Праздник в честь дня рождения белой
-  медведицы Пармы
-LOCATION:Пермский зоопарк\, Пермь
-DESCRIPTION:Праздничные мероприятия и сюрпри
- зы в Пермском зоопарке\, приуроченные ко
-  второму дню рождения белой медведицы П
- армы.\nПермский зоопарк\nhttps://t.me/afisha59ru/12140
-URL:https://doublebasskakov.github.io/radar/#e=polar-bear-parma-s-birthda
- y-celebration-perm
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Праздник в честь дня рождения бел
- ой медведицы Пармы
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:immersive-tour-playing-theater-samara@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261221
 DTEND;VALUE=DATE:20261222
 SUMMARY:Иммерсивная экскурсия «Игра в теат
@@ -886,7 +616,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:spb-kurekhin-istorii-bez-slov@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261129
 SUMMARY:«Истории без слов. Шесть премьер»

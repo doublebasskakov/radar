@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:lecture-concert-by-dmitry-shubin-saint-peters@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261127T170000Z
 DTEND:20261127T190000Z
 SUMMARY:Лекция-концерт Дмитрия Шубина
@@ -28,33 +28,32 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:sound-art-exhibition-and-student-works-at-catalog-fair-moscow@afisha-
- art
-DTSTAMP:20261122T172428Z
-DTSTART:20261120T080000Z
-DTEND:20261120T100000Z
-SUMMARY:Выставка саунд-арта и студенческих 
- работ на ярмарке |catalog|
-LOCATION:ЖК «Золотой»\, Софийская набережна
- я\, 10\, стенд а.15\, Москва
-DESCRIPTION:Зона прослушивания саунд-арт ком
- позиций студентов направления «Совреме
- нная музыка и саунд-арт» и релизы на кол
- лекционных USB-флешках.\nШкола дизайна НИ
- У ВШЭ\, Ульяна Григорьева\, Белла Газизов
- а (Latuq)\nhttps://t.me/hseartgallery/4896
-URL:https://doublebasskakov.github.io/radar/#e=sound-art-exhibition-and-s
- tudent-works-at-catalog-fair-moscow
+UID:presentations-and-discussions-of-new-electromusical-instrume-moscow@a
+ fisha-art
+DTSTAMP:20261122T214228Z
+DTSTART:20261126T120000Z
+DTEND:20261126T140000Z
+SUMMARY:Презентации и обсуждения новых эле
+ ктромузыкальных инструментов
+LOCATION:арт-пространство «Артемьев»\, Моск
+ ва
+DESCRIPTION:Демонстрация авторских электром
+ узыкальных разработок: прибора «Меркур
+ ий»\, контроллера «Игра с тенью» и синте
+ затора Kaleidoscope.\nВладимир Кабанов\, Светл
+ ана Гончар\, Вадим Минкин\nhttps://t.me/ceammc/3563
+URL:https://doublebasskakov.github.io/radar/#e=presentations-and-discussi
+ ons-of-new-electromusical-instrume-moscow
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Выставка саунд-арта и студенческ
- их работ на ярмарке |catalog|
+DESCRIPTION:Презентации и обсуждения новых э
+ лектромузыкальных инструментов
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:electrozvuk-vol-35-saint-peters@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261124T173000Z
 DTEND:20261124T193000Z
 SUMMARY:ELECTROZVUK Vol.35
@@ -75,9 +74,35 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:presentation-of-puredata-ceammc-interactive-object-control-s-moscow@a
+ fisha-art
+DTSTAMP:20261122T214228Z
+DTSTART:20261126T163000Z
+DTEND:20261126T183000Z
+SUMMARY:Презентация и обсуждение системы у
+ правления интерактивными объектами PureDa
+ ta CEAMMC
+LOCATION:арт-пространство «Артемьев»\, Моск
+ ва
+DESCRIPTION:Обзор инструментария и библиотек
+  PureData CEAMMC для управления мультимедийным
+ и инсталляциями и интерактивными объек
+ тами.\nСергей Полтавский\, Олег Макаров\, 
+ Ксения Никитина\nhttps://t.me/ceammc/3563
+URL:https://doublebasskakov.github.io/radar/#e=presentation-of-puredata-c
+ eammc-interactive-object-control-s-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Презентация и обсуждение системы
+  управления интерактивными объектами Pur
+ eData CEAMMC
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:noise-of-the-rising-sun-histories-and-practices-of-japanoise-moscow@a
  fisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261128T160000Z
 DTEND:20261128T180000Z
 SUMMARY:Шум восходящего солнца: истории и п
@@ -99,8 +124,31 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:enigma-synthesizer-presentation-and-improv-set-by-vlad-kreim-moscow@a
+ fisha-art
+DTSTAMP:20261122T214228Z
+DTSTART:20261126T174000Z
+DTEND:20261126T194000Z
+SUMMARY:Презентация синтезатора Enigma и импр
+ осет Влада Креймера
+LOCATION:арт-пространство «Артемьев»\, Моск
+ ва
+DESCRIPTION:Создатель инструментов SOMA Влад К
+ реймер представит синтезатор Enigma и сыгр
+ ает соло на новом инструменте.\nВлад Кре
+ ймер\nhttps://t.me/ceammc/3563
+URL:https://doublebasskakov.github.io/radar/#e=enigma-synthesizer-present
+ ation-and-improv-set-by-vlad-kreim-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Презентация синтезатора Enigma и им
+ просет Влада Креймера
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:liem-lab-xor-synthesizer-soldering-workshop-saint-peters@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261129T090000Z
 DTEND:20261129T110000Z
 SUMMARY:Лаборатория LIEM: воркшоп по пайке XOR-
@@ -124,7 +172,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sound-installation-by-alina-gutkina-vladimir@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261128T070000Z
 DTEND:20261128T090000Z
 SUMMARY:Открытие: Звуковая инсталляция Али
@@ -145,7 +193,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:total-improvisation-evening-first-action-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261124T173000Z
 DTEND:20261124T193000Z
 SUMMARY:Вечер тотальной импровизации «Дейс
@@ -170,7 +218,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:performance-onegin-stanza-saint-peters@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261129T170000Z
 DTEND:20261129T190000Z
 SUMMARY:Перформанс «Онегинская строфа»
@@ -192,7 +240,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:concert-of-top-starified-and-the-cho-rts-by-tabor-community-moscow@af
  isha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261127T150000Z
 DTEND:20261127T170000Z
 SUMMARY:Концерт групп «Топь»\, STARIFIED\, The Chörts 
@@ -215,7 +263,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:audio-performance-maria-ngakutu-vera-ogareva-mark-kommer-kar-saint-pe
  ters@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261127T160000Z
 DTEND:20261127T180000Z
 SUMMARY:Аудиоперформанс: Мария Нгакуту\, Ве
@@ -240,7 +288,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:workshop-electronics-drone-synthesizer-saint-peters@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261128T110000Z
 DTEND:20261128T130000Z
 SUMMARY:Мастер-класс «Электроника: Дроун-си
@@ -264,7 +312,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:hse-hiphop-sound@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261119T160000Z
 DTEND:20261119T180000Z
 SUMMARY:Открытие: Что ты сделал для хип-хопа
@@ -286,7 +334,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:meditative-evening-at-planetarium-1-nizhny-novgo@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261129T150000Z
 DTEND:20261129T170000Z
 SUMMARY:Медитативный вечер в Планетарии 1
@@ -305,7 +353,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:picocore-workshop-saint-peters@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261219T090000Z
 DTEND:20261219T110000Z
 SUMMARY:Мастер-класс по сборке синтезатора 
@@ -327,7 +375,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:glitch-storm-mkii-workshop-saint-peters@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261220T090000Z
 DTEND:20261220T110000Z
 SUMMARY:Мастер-класс по сборке синтезатора 
@@ -349,7 +397,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:drema-drone-spb@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261129T110000Z
 DTEND:20261129T130000Z
 SUMMARY:Дневная ДРЁМА — амбиент и дроун
@@ -369,7 +417,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:drema-saint-peters@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261129T110000Z
 DTEND:20261129T130000Z
 SUMMARY:ДРËМА
@@ -389,28 +437,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:lesya-lass-birthday-concert-moscow@afisha-art
-DTSTAMP:20261122T172428Z
-DTSTART:20261122T160000Z
-DTEND:20261122T180000Z
-SUMMARY:Концерт в честь дня рождения Lesya Lass
-LOCATION:Склад №3\, Малая Семёновская улица\,
-  д. 5\, стр. 2\, Москва
-DESCRIPTION:Независимый андеграундный конце
- рт на площадке «Склад №3».\nLesya Lass\nhttps://t.me
- /sklad_no3/3918
-URL:https://doublebasskakov.github.io/radar/#e=lesya-lass-birthday-concer
- t-moscow
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Концерт в честь дня рождения Lesya La
- ss
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:iraida-yusupova-sneguro4ka-ai-songs-saint-peters@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261126T163000Z
 DTEND:20261126T183000Z
 SUMMARY:Ираида Юсупова. SNEGURO4KA. ПЕСНИ ИИ
@@ -432,7 +460,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:st-petersburg-improvisers-orchestra-session-137-saint-peters@afisha-a
  rt
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261129T173000Z
 DTEND:20261129T193000Z
 SUMMARY:St.Petersburg Improvisers Orchestra: Сессия #137
@@ -451,8 +479,32 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:course-psychoacoustics-phenomenology-of-sound-moscow@afisha-art
+DTSTAMP:20261122T214228Z
+DTSTART:20261125T160000Z
+DTEND:20261125T180000Z
+SUMMARY:Открытие: Курс «Психоакустика и фен
+ оменология звука»
+LOCATION:ММОМА\, Ермолаевский пер.\, 17\, Москв
+ а
+DESCRIPTION:Цикл лекций о психоакустике и фен
+ оменологическом исследовании звуковой 
+ среды\, подготовленный лабораторией SoundA
+ rtist.ru совместно с ММОМА.\nSoundArtist.ru\, ММОМА\n
+ https://mmoma.ru/learn/lectures/special_courses/mmoma-x-soundartist-psych
+ oacoustics/description
+URL:https://doublebasskakov.github.io/radar/#e=course-psychoacoustics-phe
+ nomenology-of-sound-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Курс «Психоакустика и ф
+ еноменология звука»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:a-park-in-the-factory-s-place-yaroslavl@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261128T090000Z
 DTEND:20261128T110000Z
 SUMMARY:На месте фабрики парк
@@ -472,7 +524,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:indexfest-vasiliev-arkadius-padre@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261128T180000Z
 DTEND:20261128T200000Z
 SUMMARY:Xandr.Vasiliev & Arkadius\, Padre (live)
@@ -492,7 +544,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:indexfest-friends-closing@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261129T160000Z
 DTEND:20261129T180000Z
 SUMMARY:INDEX FRIENDS — закрытие фестиваля
@@ -511,7 +563,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:indexfest-rushana-stolyarov@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261126T170000Z
 DTEND:20261126T190000Z
 SUMMARY:Рушана × Антон Столяров × INDEX III
@@ -533,7 +585,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:indexfest-nesterov-mirele@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261127T160000Z
 DTEND:20261127T180000Z
 SUMMARY:Олег Нестеров × Mirèle × TERELYA × INDEX III
@@ -552,7 +604,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:indexfest-zerolines@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261127T180000Z
 DTEND:20261127T200000Z
 SUMMARY:ZEROLINES × INDEX III
@@ -571,7 +623,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:indexfest-index-solo@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261125T180000Z
 DTEND:20261125T200000Z
 SUMMARY:INDEX III: сольный концерт
@@ -590,7 +642,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ryuichi-sakamoto-exhibition-seeing-sound-hearing-time-berlin@afisha-a
  rt
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20270620
 DTEND;VALUE=DATE:20270621
 SUMMARY:Последний день: Выставка Рюити Сака
@@ -612,7 +664,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:the-gaze-of-our-hearing-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20270122
 DTEND;VALUE=DATE:20270123
 SUMMARY:Последний день: Взгляд нашего слуха
@@ -633,7 +685,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lecture-on-psychoacoustics-and-auditory-perception-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Лекция о психоакустике и слуховом в
@@ -656,7 +708,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:index-fest-iii-contemporary-music-festival-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261130
 SUMMARY:Фестиваль современной музыки Index Fest
@@ -678,7 +730,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:experimental-music-concert-ivory-tower-x-st-petersbur@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Концерт экспериментальной музыки «
@@ -701,9 +753,29 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:index-fest-opening-concert-moscow@afisha-art
+DTSTAMP:20261122T214228Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:Открытие фестиваля INDEX FEST
+LOCATION:КЦ «Дом»\, Москва
+DESCRIPTION:Открытие фестиваля эксперимента
+ льного звука\, где электроакустический 
+ минимализм и свободная импровизация со
+ четаются с духовыми и роялем.\nВладимир 
+ Мартынов\, INDEX III\, Psaruman\nhttps://t.me/time_to_hear/213
+URL:https://doublebasskakov.github.io/radar/#e=index-fest-opening-concert
+ -moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие фестиваля INDEX FEST
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:program-bikapo-of-the-celestial-forest-at-dom-radio-saint-peters@afis
  ha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:Программа «БИКАПО небесного леса» 
@@ -726,7 +798,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:electricity-exhibition-saint-peters@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:Последний день: Выставка «Электрич
@@ -750,7 +822,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:between-sound-and-noise-piano-as-a-sound-object-from-mechani-saint-pe
  ters@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Между звуком и шумом. Рояль как звук
@@ -772,7 +844,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:kontur-festival-day-program-and-installations-koh-phangan@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20270115
 DTEND;VALUE=DATE:20270116
 SUMMARY:Фестиваль KONTUR: Дневная программа и 
@@ -794,7 +866,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:conference-how-it-s-made-day-2-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Конференция «Как это сделано?» — Де
@@ -815,7 +887,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:conference-how-it-s-made-day-3-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Конференция «Как это сделано?» — Де
@@ -836,7 +908,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mini-festival-minimum-pop-showcase-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Мини-фестиваль Minimum Pop Showcase
@@ -852,29 +924,6 @@ URL:https://doublebasskakov.github.io/radar/#e=mini-festival-minimum-pop-
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Мини-фестиваль Minimum Pop Showcase
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:course-psychoacoustics-phenomenology-of-sound-moscow@afisha-art
-DTSTAMP:20261122T172428Z
-DTSTART;VALUE=DATE:20261125
-DTEND;VALUE=DATE:20261126
-SUMMARY:Открытие: Курс «Психоакустика и фен
- оменология звука»
-LOCATION:ММОМА\, Москва
-DESCRIPTION:Цикл лекций о психоакустике и фен
- оменологическом исследовании звуковой 
- среды\, подготовленный лабораторией SoundA
- rtist.ru совместно с ММОМА.\nSoundArtist.ru\, ММОМА\n
- https://mmoma.ru/learn/lectures/special_courses/mmoma-x-soundartist-psych
- oacoustics/description
-URL:https://doublebasskakov.github.io/radar/#e=course-psychoacoustics-phe
- nomenology-of-sound-moscow
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Открытие: Курс «Психоакустика и ф
- еноменология звука»
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:who-are-we-exhibition-tashkent-2@afisha-art
+DTSTAMP:20261122T214228Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:Последний день: Выставка «Кто мы ес
+ ть?»
+LOCATION:Ташкентский дом фотографии\, Ташке
+ нт\, Узбекистан
+DESCRIPTION:Выставочный проект\, приуроченны
+ й к 30-летию деятельности Британского со
+ вета и посвященный вопросам идентичнос
+ ти.\nТашкентский дом фотографии\nhttps://www.af
+ isha.uz/ru/exhibitions/2026/11/12/whoarewe
+URL:https://doublebasskakov.github.io/radar/#e=who-are-we-exhibition-tash
+ kent-2
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Выставка «Кто мы 
+ есть?»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

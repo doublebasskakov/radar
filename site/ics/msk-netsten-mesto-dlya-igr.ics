@@ -5,10 +5,10 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:msk-netsten-mesto-dlya-igr@afisha-art
-DTSTAMP:20261122T172428Z
-DTSTART;VALUE=DATE:20270401
-DTEND;VALUE=DATE:20270402
-SUMMARY:Последний день: «Место для игр»
+DTSTAMP:20261122T214228Z
+DTSTART:20261110T090000Z
+DTEND:20261110T110000Z
+SUMMARY:Открытие: «Место для игр»
 LOCATION:НЕТСТЕН\, Винзавод\, 4-й Сыромятниче
  ский переулок\, 1/8 стр. 6\, Москва
 DESCRIPTION:Уличная выставка к десятому сезо
@@ -19,7 +19,7 @@ DESCRIPTION:Уличная выставка к десятому сезо
 URL:https://doublebasskakov.github.io/radar/#e=msk-netsten-mesto-dlya-igr
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Последний день: «Место для игр»
+DESCRIPTION:Открытие: «Место для игр»
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

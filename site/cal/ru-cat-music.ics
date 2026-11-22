@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:zotov-snm-ma-interval@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261204T163000Z
 DTEND:20261204T183000Z
 SUMMARY:«Интервал. Звук и тишина в японском 
@@ -31,7 +31,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:concert-1881-1921-as-part-of-gala-five-years-of-music-moscow@afisha-a
  rt
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261126T170000Z
 DTEND:20261126T190000Z
 SUMMARY:Концерт «1881/1921» в рамках программы 
@@ -53,7 +53,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:kuryokhin-lab-closing-concert-saint-peters@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261208T160000Z
 DTEND:20261208T180000Z
 SUMMARY:Концерт-закрытие «КУРЁХИН-ЛАБ»
@@ -73,32 +73,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:claude-debussy-s-pelle-as-et-me-lisande-moscow@afisha-art
-DTSTAMP:20261122T172428Z
-DTSTART:20261122T160000Z
-DTEND:20261122T180000Z
-SUMMARY:Опера «Пеллеас и Мелизанда» Клода Д
- ебюсси
-LOCATION:Зарядье\, ул. Варварка\, 6\, стр. 4\, Мос
- ква
-DESCRIPTION:Концертное исполнение единствен
- ной оперы Дебюсси\, шедевра музыкальног
- о импрессионизма с тончайшей оркестров
- кой.\nВалерий Гергиев\, Объединенный сим
- фонический оркестр Мариинского и Больш
- ого театров\nhttps://t.me/bolshoi_theatre/11831
-URL:https://doublebasskakov.github.io/radar/#e=claude-debussy-s-pelle-as-
- et-me-lisande-moscow
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Опера «Пеллеас и Мелизанда» Клод
- а Дебюсси
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:intermezzo-saint-peters@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261124T160000Z
 DTEND:20261124T180000Z
 SUMMARY:Интермеццо
@@ -119,7 +95,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:index-fest-2026-vladimir-martynov-index-iii-psaruman-moscow@afisha-ar
  t
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261125T160000Z
 DTEND:20261125T180000Z
 SUMMARY:INDEX FEST 2026: Владимир Мартынов × INDEX III 
@@ -141,7 +117,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sound-up-resonance-cello-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261127T160000Z
 DTEND:20261127T180000Z
 SUMMARY:SOUND UP resonance: cello
@@ -161,7 +137,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:biomechanika-6-vacuum@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20270309T160000Z
 DTEND:20270309T180000Z
 SUMMARY:«Биомеханика» VI: CEAM Artists и Vacuum Quartet
@@ -180,7 +156,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:concert-created-nature-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261127T163000Z
 DTEND:20261127T183000Z
 SUMMARY:Концерт «Сотворённая природа»
@@ -203,7 +179,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sound-up-resonance-cello-russian-premiere-of-john-luther-ada-moscow@a
  fisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261127T160000Z
 DTEND:20261127T180000Z
 SUMMARY:SOUND UP resonance: cello — Российская премьер
@@ -227,7 +203,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sound-up-resonance-concert-olga-beloglazova-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261127T160000Z
 DTEND:20261127T180000Z
 SUMMARY:Концерт SOUND UP resonance: Ольга Белоглазо
@@ -250,7 +226,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:power-of-motion-concert-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261127T160000Z
 DTEND:20261127T180000Z
 SUMMARY:Концерт «Сила движения»
@@ -271,8 +247,55 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:all-stravinsky-fifth-year-of-the-cycle-moscow@afisha-art
+DTSTAMP:20261122T214228Z
+DTSTART:20261124T160000Z
+DTEND:20261124T180000Z
+SUMMARY:Весь Стравинский. Пятый год цикла
+LOCATION:Концертный зал имени П. И. Чайковск
+ ого\, Триумфальная площадь\, 4/31\, Москва
+DESCRIPTION:Продолжение масштабного ретросп
+ ективного цикла\, охватывающего всё тво
+ рческое наследие Игоря Стравинского с к
+ омментариями музыковеда.\nАлексей Рубин
+ \, ГАСО России имени Е. Ф. Светланова\, Яро
+ слав Тимофеев\nhttps://meloman.ru/calendar/
+URL:https://doublebasskakov.github.io/radar/#e=all-stravinsky-fifth-year-
+ of-the-cycle-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Весь Стравинский. Пятый год цикла
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:program-of-works-by-alexander-scriabin-moscow@afisha-art
+DTSTAMP:20261122T214228Z
+DTSTART:20261128T163000Z
+DTEND:20261128T183000Z
+SUMMARY:Программа из произведений Александ
+ ра Скрябина
+LOCATION:Новая сцена им. Вс. Мейерхольда\, Мо
+ сква
+DESCRIPTION:Исполнение «Поэмы экстаза» и «Пр
+ ометея» Александра Скрябина в сопровож
+ дении световой партитуры\, саунд-дизайн
+ а и поэтического текста.\nГубернаторски
+ й симфонический оркестр Санкт-Петербур
+ га\, Антон Лубченко\, Павел Райкерус\, Sympho
+ Cat\nhttps://t.me/newstageprojects/3196
+URL:https://doublebasskakov.github.io/radar/#e=program-of-works-by-alexan
+ der-scriabin-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Программа из произведений Алекса
+ ндра Скрябина
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:sound-up-resonance-cello-concert-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261127T160000Z
 DTEND:20261127T180000Z
 SUMMARY:Концерт SOUND UP resonance: cello
@@ -294,7 +317,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:brahms-trio-concert-lecture-history-of-the-russian-piano-tri-moscow@a
  fisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261124T170000Z
 DTEND:20261124T190000Z
 SUMMARY:Концерт-лекция Брамс-трио «История 
@@ -317,8 +340,30 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:komorebi-multimedia-concert-saint-peters@afisha-art
+DTSTAMP:20261122T214228Z
+DTSTART:20270130T160000Z
+DTEND:20270130T180000Z
+SUMMARY:Мультимедийный концерт «Коморэби»
+LOCATION:Центр Курёхина\, Санкт-Петербург
+DESCRIPTION:Концерт Оркестра 1703\, сочетающий 
+ современную академическую музыку Курёх
+ ина\, Мартынова и других авторов с видео
+ артом и светом.\nОркестр 1703\, Сергей Курё
+ хин\, Джонатан Крамер\, Георгий Фёдоров\, 
+ Владимир Мартынов\nhttps://t.me/kuryokhincenter/3434
+URL:https://doublebasskakov.github.io/radar/#e=komorebi-multimedia-concer
+ t-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Мультимедийный концерт «Коморэб
+ и»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:biomechanika-6-electric-dreams@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20270203T160000Z
 DTEND:20270203T180000Z
 SUMMARY:«Биомеханика» VI: «Электрические сн
@@ -341,7 +386,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:bruckner-1921@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261126T170000Z
 DTEND:20261126T190000Z
 SUMMARY:1881/1921
@@ -362,7 +407,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sound-up-resonance-cello-boris-andrianov-and-olga-kalinova-moscow@afi
  sha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261127T160000Z
 DTEND:20261127T180000Z
 SUMMARY:SOUND UP resonance – cello: Борис Андрианов и О
@@ -385,7 +430,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sound-up-resonance-cello-second-session-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261127T180000Z
 DTEND:20261127T200000Z
 SUMMARY:SOUND UP resonance: cello — Второй сеанс
@@ -405,7 +450,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:underground-movie-screening-with-live-music-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261129T140000Z
 DTEND:20261129T160000Z
 SUMMARY:Кинопоказ «Подземка» с живым музык
@@ -428,7 +473,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:index-fest-2026-rushana-anton-stolyarov-index-iii-dmitry-ero-moscow@a
  fisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261126T170000Z
 DTEND:20261126T190000Z
 SUMMARY:INDEX FEST 2026: Рушана × Антон Столяров × I
@@ -451,7 +496,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:index-fest-2026-index-iii-solo-concert-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261125T180000Z
 DTEND:20261125T200000Z
 SUMMARY:INDEX FEST 2026: INDEX III (Сольный концерт)
@@ -470,7 +515,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:soundup-resonance@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261127T160000Z
 DTEND:20261127T180000Z
 SUMMARY:Sound Up Resonance
@@ -491,7 +536,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:write-hear-see-pokras-lampas-x-new-electronic-music-saint-peters@afis
  ha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261205T163000Z
 DTEND:20261205T183000Z
 SUMMARY:«ПИШУ — СЛЫШУ — ВИЖУ». Покрас Лампа
@@ -515,7 +560,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:antonio-di-cristofano-recital-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261125T160000Z
 DTEND:20261125T180000Z
 SUMMARY:Сольный концерт Антонио ди Кристоф
@@ -538,7 +583,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:index-fest-2026-oleg-nesterov-mire-le-anastasia-terelya-inde-moscow@a
  fisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261127T160000Z
 DTEND:20261127T180000Z
 SUMMARY:INDEX FEST 2026: Олег Нестеров × Mirèle × Анас
@@ -559,7 +604,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:taneyev-quartet-concert-saint-peters@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261125T160000Z
 DTEND:20261125T180000Z
 SUMMARY:Концерт Квартета имени Танеева
@@ -580,7 +625,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:index-fest-2026-zerolines-index-iii-dmitry-eroshin-dmitry-re-moscow@a
  fisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261127T180000Z
 DTEND:20261127T200000Z
 SUMMARY:INDEX FEST 2026: ZEROLINES × INDEX III × Дмитрий Еро
@@ -600,7 +645,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:opensound-quartets-rassvet@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261126T163000Z
 DTEND:20261126T183000Z
 SUMMARY:OpensoundOrchestra: презентация альбома стр
@@ -621,7 +666,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:phases-and-psalms-tribute-to-steve-reich-saint-peters@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261206T160000Z
 DTEND:20261206T180000Z
 SUMMARY:«Фазы и псалмы». Посвящение Стиву Р
@@ -643,7 +688,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:music-of-the-cosmos-kazan@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261126T153000Z
 DTEND:20261126T173000Z
 SUMMARY:Музыка космоса
@@ -665,7 +710,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-tour-of-stroganov-palace-and-concert-voices-of-er-saint-pe
  ters@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261128T130000Z
 DTEND:20261128T150000Z
 SUMMARY:Экскурсия по Строгановскому дворцу
@@ -692,7 +737,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:arche-orchestra-bach-point-of-reference-saint-peters@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261124T160000Z
 DTEND:20261124T180000Z
 SUMMARY:ARCHĒ Orchestra: Бах. Точка отсчёта
@@ -713,30 +758,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:autumn-jazz-concert-featuring-mila-dinerstein-moscow@afisha-art
-DTSTAMP:20261122T172428Z
-DTSTART:20261122T160000Z
-DTEND:20261122T180000Z
-SUMMARY:Концерт «Осенний джаз» с участием М
- илы Динерштейн
-LOCATION:Yauza Place\, Москва
-DESCRIPTION:Вечер джазовой классики\, соула и 
- испанских баллад в исполнении Милы Дине
- рштейн\, дополненный парфюмерным опытом
-  от брендов и незрячих парфюмеров.\nМила 
- Динерштейн\, Pure Sense\nhttps://t.me/yauza_place/5540
-URL:https://doublebasskakov.github.io/radar/#e=autumn-jazz-concert-featur
- ing-mila-dinerstein-moscow
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Концерт «Осенний джаз» с участие
- м Милы Динерштейн
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:arche-orchestra-elements-saint-peters@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261124T180000Z
 DTEND:20261124T200000Z
 SUMMARY:ARCHĒ Orchestra: Стихии
@@ -756,8 +779,31 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:concert-russian-music-for-organ-moscow@afisha-art
+DTSTAMP:20261122T214228Z
+DTSTART:20261124T160000Z
+DTEND:20261124T180000Z
+SUMMARY:Концерт «Русская музыка для органа
+ »
+LOCATION:Концертный зал РАМ имени Гнесиных\,
+  Москва
+DESCRIPTION:Открытие органного симпозиума с 
+ программой из произведений Губайдулино
+ й\, Шнитке\, Шостаковича и других отечест
+ венных авторов XX–XXI века.\nРАМ имени Гне
+ синых\nhttps://t.me/gnesinafisha/337
+URL:https://doublebasskakov.github.io/radar/#e=concert-russian-music-for-
+ organ-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт «Русская музыка для орга
+ на»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:farsh-band-concert-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261125T170000Z
 DTEND:20261125T190000Z
 SUMMARY:Концерт группы ФАРШ
@@ -776,7 +822,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:concert-journey-movement-by-pavel-kupriyanov-samara@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261126T160000Z
 DTEND:20261126T180000Z
 SUMMARY:Концерт-путешествие «МУВМЕНТ» Павл
@@ -799,7 +845,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:minimum-pop-showcase-sozhitel-and-others-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261129T140000Z
 DTEND:20261129T160000Z
 SUMMARY:Minimum Pop Showcase: концерт группы «Сожите
@@ -822,7 +868,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:local-gods-sessions-iii-showcase-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261127T160000Z
 DTEND:20261127T180000Z
 SUMMARY:Шоукейс Local Gods Sessions — III
@@ -842,7 +888,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:voronezh-kamerata-ceam@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261129T150000Z
 DTEND:20261129T170000Z
 SUMMARY:CEAM Artists на «Воронежской камерате»
@@ -863,7 +909,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:author-s-analysis-of-the-works-shimmering-structures-and-dis-moscow@a
  fisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261127T170000Z
 DTEND:20261127T190000Z
 SUMMARY:Авторский разбор произведений «Мер
@@ -883,31 +929,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:broadcast-of-partitura-contest-gala-concert-online@afisha-art
-DTSTAMP:20261122T172428Z
-DTSTART:20261122T110000Z
-DTEND:20261122T130000Z
-SUMMARY:Трансляция гала-концерта конкурса 
- «Партитура»
-LOCATION:Телеканал «Россия-Культура»\, Онла
- йн
-DESCRIPTION:Телевизионная премьера гала-конц
- ерта\, представляющего сочинения победи
- телей конкурса новой академической муз
- ыки.\nМолодые композиторы России\nhttps://t.me
- /orpheusradio/51769
-URL:https://doublebasskakov.github.io/radar/#e=broadcast-of-partitura-con
- test-gala-concert-online
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Трансляция гала-концерта конкурс
- а «Партитура»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:igor-yakovenko-jobim-100-st-petersbur@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261206T160000Z
 DTEND:20261206T180000Z
 SUMMARY:Игорь Яковенко: Жобим 100
@@ -928,7 +951,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:drema-sound-healing-practice-saint-peters@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261129T110000Z
 DTEND:20261129T130000Z
 SUMMARY:Саунд-хиллинг практика «Дрёма»
@@ -948,7 +971,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:triple-triple-concert-saint-peters@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261129T160000Z
 DTEND:20261129T180000Z
 SUMMARY:Концерт «Трижды тройной концерт»
@@ -970,7 +993,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:workshop-electronics-echo-processor-saint-peters@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261129T110000Z
 DTEND:20261129T130000Z
 SUMMARY:Мастер-класс «Электроника: Эхо-проц
@@ -993,7 +1016,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:snm-nature@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261127T163000Z
 DTEND:20261127T183000Z
 SUMMARY:Ars Gallica. Сотворённая природа
@@ -1012,7 +1035,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sklad-4th-anniversary-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261128T160000Z
 DTEND:20261128T180000Z
 SUMMARY:День рождения Склада: 4 года
@@ -1033,7 +1056,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sklad-no-3-birthday-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261128T160000Z
 DTEND:20261128T180000Z
 SUMMARY:День рождения Склада №3
@@ -1053,7 +1076,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:jazz-stories-dmitry-mospan-and-mosjazz-quartet-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261126T170000Z
 DTEND:20261126T190000Z
 SUMMARY:Джазовые истории. Дмитрий Моспан и 
@@ -1075,7 +1098,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:michael-jackson-symphony-by-candlelight-krasnoyarsk@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Симфония Майкла Джексона при свеча
@@ -1097,7 +1120,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:performance-concert-my-tchaikovsky-krasnoyarsk@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
 SUMMARY:Спектакль-концерт «Мой Чайковский»
@@ -1118,7 +1141,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:bomba-oktyabr-band-concert-saint-peters@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261219T163000Z
 DTEND:20261219T183000Z
 SUMMARY:Концерт группы «Бомба-Октябрь»
@@ -1139,7 +1162,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:wind-music-concert-evening-in-memory-of-yevgeny-rozhkov-nizhny-novgo@
  afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261123T143000Z
 DTEND:20261123T163000Z
 SUMMARY:Концерт духовой музыки: Вечер памят
@@ -1163,7 +1186,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:psychosurgery-sky-rudolf-live-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261125T160000Z
 DTEND:20261125T180000Z
 SUMMARY:Концерт Psychosurgery\, SKY\, Рудольф
@@ -1184,7 +1207,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ekb-masm-kontrapunkt-epokh@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261127T140000Z
 DTEND:20261127T160000Z
 SUMMARY:МАСМ. «Контрапункт эпох»
@@ -1203,30 +1226,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:all-stravinsky-fifth-year-of-the-cycle-moscow@afisha-art
-DTSTAMP:20261122T172428Z
-DTSTART:20261124T160000Z
-DTEND:20261124T180000Z
-SUMMARY:Весь Стравинский. Пятый год цикла
-LOCATION:Концертный зал имени П. И. Чайковск
- ого\, Триумфальная площадь\, 4/31\, Москва
-DESCRIPTION:Продолжение масштабного ретросп
- ективного цикла\, охватывающего всё тво
- рческое наследие Игоря Стравинского с к
- омментариями музыковеда.\nАлексей Рубин
- \, ГАСО России имени Е. Ф. Светланова\, Яро
- слав Тимофеев\nhttps://meloman.ru/calendar/
-URL:https://doublebasskakov.github.io/radar/#e=all-stravinsky-fifth-year-
- of-the-cycle-moscow
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Весь Стравинский. Пятый год цикла
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:alexander-ramm-cello-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20270306T160000Z
 DTEND:20270306T180000Z
 SUMMARY:Александр Рамм (виолончель)
@@ -1247,7 +1248,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ceam-artists-platform-concert-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20270203T160000Z
 DTEND:20270203T180000Z
 SUMMARY:Концерт платформы CEAM Artists
@@ -1269,7 +1270,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:from-the-life-of-planets-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261219T160000Z
 DTEND:20261219T180000Z
 SUMMARY:Из жизни планет
@@ -1289,8 +1290,34 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:vadim-repin-and-the-tchaikovsky-symphony-orchestra-moscow@afisha-art
+DTSTAMP:20261122T214228Z
+DTSTART:20261203T160000Z
+DTEND:20261203T180000Z
+SUMMARY:Вадим Репин и Большой симфонически
+ й оркестр имени П. И. Чайковского
+LOCATION:Концертный зал имени С. В. Рахманин
+ ова (Филармония-2)\, Мичуринский проспект
+ \, Олимпийская деревня\, дом 1\, Москва
+DESCRIPTION:Концерт фестиваля русской музыки
+  с произведениями Прокофьева\, Чайковск
+ ого\, Мусоргского и Бородина.\nВадим Репи
+ н\, Большой симфонический оркестр им. Ча
+ йковского\, Фёдор Безносиков\nhttps://bigbilet.ru
+ /ticket-sale/ticket/?owner=BF1EE8A0D65E9803E040115529B054C7&id_service=4B
+ 3311451C8A0572E060265499BC5FFC&id_agent=BF1EE8A0D65E9803E040115529B054C7
+URL:https://doublebasskakov.github.io/radar/#e=vadim-repin-and-the-tchaik
+ ovsky-symphony-orchestra-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Вадим Репин и Большой симфоничес
+ кий оркестр имени П. И. Чайковского
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:concert-sonatas-by-american-composers-st-petersbur@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261209T160000Z
 DTEND:20261209T180000Z
 SUMMARY:Концерт «Сонаты американских компо
@@ -1315,7 +1342,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:alexey-sysoev-tikhotvorenie-nizhny-novgo@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261124T160000Z
 DTEND:20261124T180000Z
 SUMMARY:Алексей Сысоев — «Тихотворение»
@@ -1337,8 +1364,36 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:vocal-ensembles-in-jazz-postmodern-band-moscow@afisha-art
+DTSTAMP:20261122T214228Z
+DTSTART:20261127T160000Z
+DTEND:20261127T180000Z
+SUMMARY:Вокальные ансамбли в джазе: Postmodern Ban
+ d
+LOCATION:Филармония-2\, Малый зал\, Мичуринск
+ ий проспект\, Олимпийская деревня\, дом 1\
+ , Москва
+DESCRIPTION:Концерт джазового абонемента с у
+ частием вокального ансамбля Postmodern Band и 
+ известных инструменталистов под ведени
+ ем Михаила Митропольского.\nPostmodern Band\, Ве
+ ра Шимко\, Марина Виноградова\, Владисла
+ ва Хомякова\, Родион Гоборов\, Тимур Некр
+ асов\, Артём Плешков\, Алексей Рыславски
+ й\, Владимир Шейнин\, Михаил Митропольск
+ ий\nhttps://meloman.ru/subscription/vremia-dzhaza-golos-2026-105/
+URL:https://doublebasskakov.github.io/radar/#e=vocal-ensembles-in-jazz-po
+ stmodern-band-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Вокальные ансамбли в джазе: Postmodern
+  Band
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:harpsichord-reboot-from-baroque-to-minimalism-nizhny-novgo@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261124T153000Z
 DTEND:20261124T173000Z
 SUMMARY:Концерт «Клавесин: перезагрузка. От
@@ -1364,7 +1419,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tikhon-evlanov-and-alexander-klyuchko-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20270121T160000Z
 DTEND:20270121T180000Z
 SUMMARY:Тихон Евланов и Александр Ключко
@@ -1386,7 +1441,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:msk-masm-15-dec@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261215T160000Z
 DTEND:20261215T180000Z
 SUMMARY:МАСМ: Булез\, Шнитке\, Райх\, Найман
@@ -1408,7 +1463,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:concert-of-the-st-petersburg-composition-school-series-saint-peters@a
  fisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261124T160000Z
 DTEND:20261124T180000Z
 SUMMARY:Концерт рубрики «Петербургская ком
@@ -1432,7 +1487,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sergei-prokofiev-what-do-you-think-of-the-sun-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20270417T160000Z
 DTEND:20270417T180000Z
 SUMMARY:Сергей Прокофьев. Что вы думаете о с
@@ -1457,7 +1512,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:harp-music-evening-saint-peters@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261127T160000Z
 DTEND:20261127T180000Z
 SUMMARY:Вечер музыки для арфы
@@ -1478,32 +1533,9 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pilgrims-and-wanderers-moscow@afisha-art
-DTSTAMP:20261122T172428Z
-DTSTART:20261122T160000Z
-DTEND:20261122T180000Z
-SUMMARY:Паломники и пилигримы
-LOCATION:Филармония-2\, Малый зал\, Мичуринск
- ий проспект\, Олимпийская деревня\, 1\, Мо
- сква
-DESCRIPTION:Экспериментальный проект\, соеди
- няющий архаичный фольклор\, гусли и этни
- ческие духовые инструменты с современн
- ой импровизацией.\nСергей Старостин\, Се
- ргей Клевенский\, Мариан Калдарару\nhttps://
- meloman.ru/calendar/
-URL:https://doublebasskakov.github.io/radar/#e=pilgrims-and-wanderers-mos
- cow
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Паломники и пилигримы
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:bayan-and-accordion-orchestra-concert-at-the-roc-theological-saint-pe
  ters@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261126T150000Z
 DTEND:20261126T170000Z
 SUMMARY:Концерт оркестра баянов и аккордео
@@ -1525,8 +1557,31 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:a-midsummer-night-s-dream-moscow@afisha-art
+DTSTAMP:20261122T214228Z
+DTSTART:20261126T160000Z
+DTEND:20261126T180000Z
+SUMMARY:Сон в летнюю ночь
+LOCATION:Филармония-2\, Малый зал\, Мичуринск
+ ий проспект\, Олимпийская деревня\, дом 1\
+ , Москва
+DESCRIPTION:Концерт камерного оркестра Prometheus
+  под управлением дирижера Михаила Калиц
+ кого с участием скрипачки Стефании Посп
+ ехиной.\nКамерный оркестр Prometheus\, Михаил 
+ Калицкий\, Стефания Поспехина\nhttps://meloman.r
+ u/subscription/son-v-letniuiu-noch-2026-84/
+URL:https://doublebasskakov.github.io/radar/#e=a-midsummer-night-s-dream-
+ moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Сон в летнюю ночь
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:our-teachers-and-students-saint-peters@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261124T160000Z
 DTEND:20261124T180000Z
 SUMMARY:Наши учителя и ученики
@@ -1548,29 +1603,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:rovshan-mamedkuliev-guitar-moscow@afisha-art
-DTSTAMP:20261122T172428Z
-DTSTART:20261122T160000Z
-DTEND:20261122T180000Z
-SUMMARY:Ровшан Мамедкулиев: гитара
-LOCATION:Камерный зал Филармонии\, Триумфал
- ьная площадь\, 4/31\, Москва
-DESCRIPTION:Концерт современной гитарной муз
- ыки\, в программе которого сочинения Лео
-  Брауэра\, Штепана Рака и Сержиу Ассада.\n
- Ровшан Мамедкулиев\nhttps://meloman.ru/hall/kamernyj-zal
- -filarmonii/
-URL:https://doublebasskakov.github.io/radar/#e=rovshan-mamedkuliev-guitar
- -moscow
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Ровшан Мамедкулиев: гитара
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:domra-in-the-works-of-contemporary-composers-saratov@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261130T140000Z
 DTEND:20261130T160000Z
 SUMMARY:Концерт «Домра в творчестве соврем
@@ -1594,7 +1628,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:opening-of-the-18th-all-russian-festival-in-the-homeland-of--saratov@
  afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20270114T143000Z
 DTEND:20270114T163000Z
 SUMMARY:Открытие XVIII Всероссийского фестив
@@ -1616,30 +1650,35 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:snm-kompozitory-mosconsv-22nov@afisha-art
-DTSTAMP:20261122T172428Z
-DTSTART:20261122T160000Z
-DTEND:20261122T180000Z
-SUMMARY:«Композиторы Московской консерват
- ории»: Студия новой музыки
-LOCATION:Концертный зал имени Н. Я. Мясковск
- ого Московской консерватории\, Москва
-DESCRIPTION:Цикл «К 160-летию Alma Mater»: музыка О. 
- Алюшиной\, Е. Бриль\, А. Бесогонова\, А. Ком
- иссаренко и С. Голубкова.\nАнсамбль «Сту
- дия новой музыки»\nhttps://t.me/studionewmusic/2319
-URL:https://doublebasskakov.github.io/radar/#e=snm-kompozitory-mosconsv-2
- 2nov
+UID:masterpieces-of-russian-piano-music-dmitry-shostakovich-petrozavodsk@
+ afisha-art
+DTSTAMP:20261122T214228Z
+DTSTART:20261123T160000Z
+DTEND:20261123T180000Z
+SUMMARY:Концерт цикла «Шедевры русской фор
+ тепианной музыки»: Дмитрий Шостакович
+LOCATION:Петрозаводская государственная ко
+ нсерватория имени А. К. Глазунова\, ул. Ле
+ нинградская\, 16\, Петрозаводск
+DESCRIPTION:Фортепианный вечер\, посвященный 
+ наследию Дмитрия Шостаковича\, в рамках 
+ филармонического цикла консерватории.\n
+ Студенты и преподаватели консерватории
+ \nhttps://glazunovcons.ru/concerts/afisha/shedevry-russkoj-fortepiannoj-m
+ uzyki2/
+URL:https://doublebasskakov.github.io/radar/#e=masterpieces-of-russian-pi
+ ano-music-dmitry-shostakovich-petrozavodsk
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:«Композиторы Московской консерв
- атории»: Студия новой музыки
+DESCRIPTION:Концерт цикла «Шедевры русской ф
+ ортепианной музыки»: Дмитрий Шостакови
+ ч
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nsk-masm-tri-veka@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261126T120000Z
 DTEND:20261126T140000Z
 SUMMARY:МАСМ. «Три века русской камерной му
@@ -1661,7 +1700,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:concert-chamber-palette-saint-peters@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261130T160000Z
 DTEND:20261130T180000Z
 SUMMARY:Концерт «Камерная палитра»
@@ -1681,8 +1720,53 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:sinbad-the-sailor-moscow@afisha-art
+DTSTAMP:20261122T214228Z
+DTSTART:20261129T140000Z
+DTEND:20261129T160000Z
+SUMMARY:Синдбад-мореход
+LOCATION:Концертный зал имени С. В. Рахманин
+ ова («Филармония-2»)\, Мичуринский проспе
+ кт\, Олимпийская деревня\, дом 1\, Москва
+DESCRIPTION:Музыкально-литературная компози
+ ция по мотивам сказки Римского-Корсаков
+ а с художественным чтением.\nКамиль Лари
+ н\, Национальный филармонический оркест
+ р России\, Клеман Нонсьё\nhttps://meloman.ru/hall/fila
+ rmoniya-2-koncertnyj-zal-imeni-svrahmaninova/
+URL:https://doublebasskakov.github.io/radar/#e=sinbad-the-sailor-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Синдбад-мореход
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:organ-evening-by-alexander-bardin-petrozavodsk@afisha-art
+DTSTAMP:20261122T214228Z
+DTSTART:20261127T160000Z
+DTEND:20261127T180000Z
+SUMMARY:Органный вечер Александра Бардина
+LOCATION:Петрозаводская государственная ко
+ нсерватория имени А. К. Глазунова\, ул. Ле
+ нинградская\, 16\, Петрозаводск
+DESCRIPTION:Сольный концерт лауреата междуна
+ родных конкурсов\, представляющий класс
+ ическую органную программу.\nАлександр 
+ Бардин\nhttps://glazunovcons.ru/concerts/afisha/vystuplenie-laureat
+ a-mezhdunarodnyh-i-vserossijskih-konkursov-aleksandra-bardina/
+URL:https://doublebasskakov.github.io/radar/#e=organ-evening-by-alexander
+ -bardin-petrozavodsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Органный вечер Александра Бардин
+ а
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:four-pianos-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261126T160000Z
 DTEND:20261126T180000Z
 SUMMARY:Четыре рояля
@@ -1705,7 +1789,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:domra-in-the-works-of-contemporary-composers-saratov-2@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261130T140000Z
 DTEND:20261130T160000Z
 SUMMARY:Домра в творчестве современных ком
@@ -1728,7 +1812,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tomsk-masm-denisov@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261124T120000Z
 DTEND:20261124T140000Z
 SUMMARY:МАСМ. «Диалоги сквозь время: Эдисон 
@@ -1748,7 +1832,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:chel-masm-avangard@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261128T130000Z
 DTEND:20261128T150000Z
 SUMMARY:МАСМ. «Путешествия русского аванга
@@ -1768,53 +1852,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:concert-harmony-of-traditions-dialogues-of-musical-cultures-saint-pet
- ers@afisha-art
-DTSTAMP:20261122T172428Z
-DTSTART:20261127T120000Z
-DTEND:20261127T140000Z
-SUMMARY:Концерт «Созвучие традиций»: диало
- ги музыкальных культур
-LOCATION:Малый зал им. А. К. Глазунова\, Санкт-
- Петербург
-DESCRIPTION:Концерт-диалог музыкальных культ
- ур в звучании русского народного оркест
- ра.\nРусский народный оркестр Санкт-Пете
- рбургской консерватории\nhttps://www.conservatory.r
- u/concerts/sozvuchie-tradiciy-dialogi-muzykalnykh-kultur-v-zvuchanii-russ
- kogo-narodnogo-orkestra
-URL:https://doublebasskakov.github.io/radar/#e=concert-harmony-of-traditi
- ons-dialogues-of-musical-cultures-saint-peters
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Концерт «Созвучие традиций»: диа
- логи музыкальных культур
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:debut-ufa@afisha-art
-DTSTAMP:20261122T172428Z
-DTSTART:20261123T063000Z
-DTEND:20261123T083000Z
-SUMMARY:Дебют
-LOCATION:Концертный зал им. Ф.И. Шаляпина\, ул
- . Ленина\, 14\, Уфа
-DESCRIPTION:Концерт камерной музыки\, в котор
- ом принимают участие начинающие академ
- ические исполнители.\nСтуденты Уфимског
- о государственного института искусств\n
- https://ufaart.ru/afisha/events/konczert-kamernoj-muzyiki-«debyut
-URL:https://doublebasskakov.github.io/radar/#e=debut-ufa
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Дебют
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:what-is-music-musical-instruments-and-orchestra-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261128T090000Z
 DTEND:20261128T110000Z
 SUMMARY:Что такое музыка. Музыкальные инстр
@@ -1837,8 +1876,101 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:concert-harmony-of-traditions-dialogues-of-musical-cultures-saint-pet
+ ers@afisha-art
+DTSTAMP:20261122T214228Z
+DTSTART:20261127T120000Z
+DTEND:20261127T140000Z
+SUMMARY:Концерт «Созвучие традиций»: диало
+ ги музыкальных культур
+LOCATION:Малый зал им. А. К. Глазунова\, Санкт-
+ Петербург
+DESCRIPTION:Концерт-диалог музыкальных культ
+ ур в звучании русского народного оркест
+ ра.\nРусский народный оркестр Санкт-Пете
+ рбургской консерватории\nhttps://www.conservatory.r
+ u/concerts/sozvuchie-tradiciy-dialogi-muzykalnykh-kultur-v-zvuchanii-russ
+ kogo-narodnogo-orkestra
+URL:https://doublebasskakov.github.io/radar/#e=concert-harmony-of-traditi
+ ons-dialogues-of-musical-cultures-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт «Созвучие традиций»: диа
+ логи музыкальных культур
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:julia-nikitina-hour-of-spanish-music-petrozavodsk@afisha-art
+DTSTAMP:20261122T214228Z
+DTSTART:20261208T160000Z
+DTEND:20261208T180000Z
+SUMMARY:Концерт Юлии Никитиной «Час испанс
+ кой музыки»
+LOCATION:Петрозаводская государственная ко
+ нсерватория имени А. К. Глазунова\, ул. Ле
+ нинградская\, 16\, Петрозаводск
+DESCRIPTION:Сольная программа ассистента-ста
+ жера Юлии Никитиной\, посвященная испан
+ ской музыкальной традиции.\nЮлия Никити
+ на\nhttps://glazunovcons.ru/concerts/afisha/08122026/
+URL:https://doublebasskakov.github.io/radar/#e=julia-nikitina-hour-of-spa
+ nish-music-petrozavodsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт Юлии Никитиной «Час испа
+ нской музыки»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:debut-ufa@afisha-art
+DTSTAMP:20261122T214228Z
+DTSTART:20261123T063000Z
+DTEND:20261123T083000Z
+SUMMARY:Дебют
+LOCATION:Концертный зал им. Ф.И. Шаляпина\, ул
+ . Ленина\, 14\, Уфа
+DESCRIPTION:Концерт камерной музыки\, в котор
+ ом принимают участие начинающие академ
+ ические исполнители.\nСтуденты Уфимског
+ о государственного института искусств\n
+ https://ufaart.ru/afisha/events/konczert-kamernoj-muzyiki-«debyut
+URL:https://doublebasskakov.github.io/radar/#e=debut-ufa
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Дебют
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:continuing-the-legacy-concert-for-the-80th-anniversary-of-le-petrozav
+ odsk@afisha-art
+DTSTAMP:20261122T214228Z
+DTSTART:20261124T160000Z
+DTEND:20261124T180000Z
+SUMMARY:Концерт «Продолжая наследие» к 80-ле
+ тию Леонида Буданова
+LOCATION:Петрозаводская государственная ко
+ нсерватория имени А. К. Глазунова\, ул. Ле
+ нинградская\, 16\, Петрозаводск
+DESCRIPTION:Юбилейный вечер профессора и зас
+ луженного артиста Карелии Леонида Буда
+ нова.\nЛеонид Буданов\nhttps://glazunovcons.ru/concerts/
+ afisha/koncert-k-80-letiyu-zasluzhennogo-artista-respubliki-kareliya-prof
+ essora-leonida-petrovicha-budanova-prodolzhaya-nasledie/
+URL:https://doublebasskakov.github.io/radar/#e=continuing-the-legacy-conc
+ ert-for-the-80th-anniversary-of-le-petrozavodsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт «Продолжая наследие» к 80-
+ летию Леонида Буданова
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:pianoforte-concert-saratov@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261123T150000Z
 DTEND:20261123T170000Z
 SUMMARY:Концерт «PianoForte»
@@ -1858,36 +1990,57 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:artist-talk-and-concert-vladimir-martynov-yuri-ginzburg-and--moscow@a
- fisha-art
-DTSTAMP:20261122T172428Z
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
-SUMMARY:Встреча и концерт: Владимир Мартыно
- в\, Юрий Гинзбург и Владимир Горлинский
-LOCATION:Île Thélème\, Москва
-DESCRIPTION:Три композитора\, представляющие 
- разные музыкальные области\, встретятся
-  для дискуссии и исполнения своей музык
- и\; в программе заявлен гитарный импрови
- зационный сет Владимира Горлинского.\nВ
- ладимир Мартынов\, Юрий Гинзбург\, Влади
- мир Горлинский\, Александра Нагорнова\nht
- tps://t.me/vologorlinsky/642
-URL:https://doublebasskakov.github.io/radar/#e=artist-talk-and-concert-vl
- adimir-martynov-yuri-ginzburg-and--moscow
+UID:student-concert-of-natalia-klimenko-s-class-petrozavodsk@afisha-art
+DTSTAMP:20261122T214228Z
+DTSTART:20261128T160000Z
+DTEND:20261128T180000Z
+SUMMARY:Концерт студентов класса Натальи К
+ лименко
+LOCATION:Петрозаводская государственная ко
+ нсерватория имени А. К. Глазунова\, ул. Ле
+ нинградская\, 16\, Петрозаводск
+DESCRIPTION:Выступление молодых исполнителе
+ й\, обучающихся у заслуженной артистки К
+ арелии Натальи Клименко.\nНаталья Климе
+ нко\nhttps://glazunovcons.ru/concerts/afisha/koncert-studentov-klassa-
+ professora-zasluzhennoj-artistki-karelii-natali-klimenko1/
+URL:https://doublebasskakov.github.io/radar/#e=student-concert-of-natalia
+ -klimenko-s-class-petrozavodsk
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Встреча и концерт: Владимир Марты
- нов\, Юрий Гинзбург и Владимир Горлински
- й
+DESCRIPTION:Концерт студентов класса Натальи
+  Клименко
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:folk-instruments-department-student-concert-petrozavodsk@afisha-art
+DTSTAMP:20261122T214228Z
+DTSTART:20261125T160000Z
+DTEND:20261125T180000Z
+SUMMARY:Концерт студентов кафедры народных
+  инструментов
+LOCATION:Петрозаводская государственная ко
+ нсерватория имени А. К. Глазунова\, ул. Ле
+ нинградская\, 16\, Петрозаводск
+DESCRIPTION:Академическое исполнение на наро
+ дных инструментах студентами класса Ми
+ хаила Трофимова.\nКласс доцента М. С. Тро
+ фимова\nhttps://glazunovcons.ru/concerts/afisha/koncert-studentov-k
+ afedry-narodnyh-instrumentov-klassa-docenta-ms-trofimova1/
+URL:https://doublebasskakov.github.io/radar/#e=folk-instruments-departmen
+ t-student-concert-petrozavodsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт студентов кафедры народн
+ ых инструментов
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:concert-cycle-valery-gergiev-and-joint-orchestra-of-mariinsk-moscow@a
  fisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261124
 SUMMARY:Цикл концертов: Валерий Гергиев и о
@@ -1912,7 +2065,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sixth-multimedia-festival-biomechanics-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20270215
 DTEND;VALUE=DATE:20270216
 SUMMARY:Открытие: Шестой мультимедийный фе
@@ -1936,7 +2089,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:baroque-cycle-concert-russian-premiere-of-andre-campra-s-req-moscow@a
  fisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Концерт цикла «Барокко»: Российска
@@ -1959,7 +2112,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:svyatoslav-richter-s-december-nights-festival-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Открытие: Фестиваль «Декабрьские в
@@ -1982,7 +2135,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:premiere-of-the-love-that-moves-the-sun-and-the-other-stars--moscow@a
  fisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:Премьера проекта «Любовь\, что движ
@@ -2009,7 +2162,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:johannes-brahms-a-german-requiem-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
 SUMMARY:Иоганнес Брамс. «Немецкий реквием»
@@ -2033,7 +2186,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:premiere-of-new-productions-of-one-act-comic-operas-at-the-m-saint-pe
  ters@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:Премьера новых постановок одноактн
@@ -2057,7 +2210,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:opensoundorchestra-anthology-of-contemporary-music-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Концерт OpensoundOrchestra: Антология совре
@@ -2082,7 +2235,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:created-nature-concert-by-studio-of-new-music-ensemble-moscow@afisha-
  art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Концерт «Сотворённая природа» анса
@@ -2106,7 +2259,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:zvukovye-puti-ceam-artists@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:«Звуковые пути»: CEAM Artists
@@ -2131,7 +2284,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sound-up-festival-concert-olga-beloglazova-resonance-moscow@afisha-ar
  t
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Концерт фестиваля Sound UP: Ольга Белог
@@ -2155,7 +2308,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:concert-of-rachmaninoff-debussy-and-gershwin-music-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Концерт музыки Рахманинова\, Дебюсс
@@ -2181,7 +2334,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:kirill-arkhipov-concert-saint-peters@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Концерт Кирилла Архипова
@@ -2203,7 +2356,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:falla150-music-project-saint-peters@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261129
 SUMMARY:Музыкальный проект FALLA150
@@ -2224,7 +2377,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:resonance-concert-series-sound-up-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Концерт цикла Resonance (SOUND UP)
@@ -2246,7 +2399,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:the-whole-stravinsky-state-academic-symphony-orchestra-conce-moscow@a
  fisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:«Весь Стравинский»: концерт Госорк
@@ -2271,7 +2424,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:chamber-bruckner-and-fedor-lednev-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Камерный Брукнер и Фёдор Леднёв
@@ -2293,7 +2446,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:tour-of-the-academic-symphony-orchestra-of-the-st-petersburg-hanoi@af
  isha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Гастроли Академического симфониче
@@ -2318,7 +2471,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:igor-yakovenko-concert-jobim-100-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:Концерт Игоря Яковенко «Жобим 100»
@@ -2339,7 +2492,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:musicaeterna-symphonic-concert-schoenberg-and-strauss-st-petersbur@af
  isha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Симфонический концерт musicAeterna: Шёнб
@@ -2364,7 +2517,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:concert-of-the-whole-stravinsky-project-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:Концерт проекта «Весь Стравинский»
@@ -2385,9 +2538,29 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:concert-sound-up-resonance-moscow@afisha-art
+DTSTAMP:20261122T214228Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Концерт «SOUND UP RESONANCE»
+LOCATION:Галерея fābula HQ\, Москва
+DESCRIPTION:Сольное выступление с российским
+ и премьерами опуса Джона Лютера Адамса T
+ hree High Places и музыкой Райха\, Гласса и Десс
+ нера.\nОльга Белоглазова\nhttps://t.me/time_to_hear/2
+ 13
+URL:https://doublebasskakov.github.io/radar/#e=concert-sound-up-resonance
+ -moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт «SOUND UP RESONANCE»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:international-television-competition-and-festival-tchaikovsk-moscow@a
  fisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20270216
 DTEND;VALUE=DATE:20270221
 SUMMARY:Международный телевизионный конку
@@ -2412,7 +2585,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gyo-rgy-kurta-g-kafka-fragmente-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20270520
 DTEND;VALUE=DATE:20270521
 SUMMARY:Дьёрдь Куртаг. «Фрагменты из Кафки»
@@ -2435,7 +2608,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:french-music-concert-of-the-17th-18th-centuries-saint-peters@afisha-a
  rt
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Концерт французской музыки XVII–XVIII 
@@ -2460,7 +2633,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:organ-music-concert-emanuele-cardi-and-markus-eichenlaub-moscow@afish
  a-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Концерт органной музыки: Эмануэле К
@@ -2484,7 +2657,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:beethoven-music-concert-and-lecture-on-late-quartets-saint-peters@afi
  sha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
 SUMMARY:Концерт музыки Бетховена и лекция о
@@ -2506,7 +2679,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:concert-string-quartets-vol-2-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Концерт «String quartets. Vol. 2»
@@ -2527,7 +2700,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:concert-of-the-dsch-shostakovich-code-subscription-saint-peters@afish
  a-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Концерт абонемента «DSCH - код Шостак
@@ -2550,7 +2723,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ges2-gala@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:ГЭС-2 Гала
@@ -2571,7 +2744,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:russian-national-orchestra-subscription-concert-dedicated-to-moscow@a
  fisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Абонементный концерт Российского н
@@ -2595,7 +2768,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:alban-berg-chamber-concerto-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Камерный концерт Альбана Берга
@@ -2616,7 +2789,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:rodion-shchedrin-s-opera-boyarynya-morozova-at-novat-novosibirsk@afis
  ha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:Опера Родиона Щедрина «Боярыня Мор
@@ -2640,7 +2813,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:oleg-kagan-memorial-festival-interrupted-flight-concert-moscow@afisha
  -art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Фестиваль памяти Олега Кагана: Конц
@@ -2663,7 +2836,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tribute-concert-to-alexey-kozlov-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
 SUMMARY:Музыкальное посвящение Алексею Коз
@@ -2686,31 +2859,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:more-than-a-concert-neoclassical-evening-moscow@afisha-art
-DTSTAMP:20261122T172428Z
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
-SUMMARY:«Больше\, чем концерт»: Вечер неокла
- ссики
-LOCATION:Петровский путевой дворец\, Ленинг
- радский просп.\, 40\, Москва
-DESCRIPTION:Первый вечер нового совместного 
- проекта Москонцерта и Петровского путе
- вого дворца\, посвященный неоклассическ
- ому направлению в музыке.\nМосконцерт\nhtt
- ps://t.me/orpheusradio/51774
-URL:https://doublebasskakov.github.io/radar/#e=more-than-a-concert-neocla
- ssical-evening-moscow
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:«Больше\, чем концерт»: Вечер неок
- лассики
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:flora-bichakhchyan-concert-flora-world-star-yekaterinbur@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Концерт Флоры Бичахчян «ФЛОРА. Миро
@@ -2732,52 +2882,9 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:vasily-dobrin-and-egor-nikulin-concert-moscow@afisha-art
-DTSTAMP:20261122T172428Z
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
-SUMMARY:Концерт Василия Добрина и Егора Ник
- улина
-LOCATION:Культурный центр «Покровские воро
- та»\, Москва
-DESCRIPTION:Аккордеонисты Василий Добрин и Е
- гор Никулин выступят с программой\, стир
- ающей границы между классикой и совреме
- нным звучанием.\nВасилий Добрин\, Егор Ни
- кулин\nhttps://t.me/orpheusradio/51755
-URL:https://doublebasskakov.github.io/radar/#e=vasily-dobrin-and-egor-nik
- ulin-concert-moscow
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Концерт Василия Добрина и Егора Н
- икулина
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:spbeat-showcase-festival-saint-peters@afisha-art
-DTSTAMP:20261122T172428Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261123
-SUMMARY:Шоукейс-фестиваль SPBeat
-LOCATION:Центр современного искусства имен
- и Сергея Курёхина\, Санкт-Петербург
-DESCRIPTION:Четвертый музыкальный шоукейс-фе
- стиваль\, объединяющий независимых испо
- лнителей\, лекции\, нетворкинг и выступл
- ения финалистов.\n\nhttps://t.me/kuryokhincenter/3421
-URL:https://doublebasskakov.github.io/radar/#e=spbeat-showcase-festival-s
- aint-peters
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Шоукейс-фестиваль SPBeat
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:young-cellists-festival-award-ceremony-and-gala-concert-saint-peters@
  afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Награждение лауреатов фестиваля юн
@@ -2800,7 +2907,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:saturday-night-jazz-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20270123
 DTEND;VALUE=DATE:20270124
 SUMMARY:Джаз субботним вечером
@@ -2821,7 +2928,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:favorin@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
 SUMMARY:«Фейерверки». Юрий Фаворин
@@ -2840,7 +2947,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:charity-concert-for-nochlezhka-s-36th-anniversary-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
 SUMMARY:Благотворительный концерт в честь 3
@@ -2861,7 +2968,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:waiting-for-summer-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20270422
 DTEND;VALUE=DATE:20270423
 SUMMARY:В ожидании лета
@@ -2881,7 +2988,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mobile-music-assembly-kirov-kirov@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261203
 SUMMARY:Передвижная музыкальная ассамблея:
@@ -2903,7 +3010,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mobile-music-assembly-naberezhnye-chelny-naberezhnye-@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261214
 DTEND;VALUE=DATE:20261215
 SUMMARY:Передвижная музыкальная ассамблея:
@@ -2925,7 +3032,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mobile-music-assembly-ulyanovsk-ulyanovsk@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Передвижная музыкальная ассамблея:
@@ -2946,7 +3053,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mobile-music-assembly-dimitrovgrad-dimitrovgrad@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:Передвижная музыкальная ассамблея:
@@ -2967,7 +3074,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mobile-music-assembly-yoshkar-ola-yoshkar-ola@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Передвижная музыкальная ассамблея:
@@ -2988,7 +3095,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:musica-sacra-nova-bochikina-gubaidulina-martynov-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20270404
 DTEND;VALUE=DATE:20270405
 SUMMARY:Musica sacra nova: Бочихина\, Губайдулина\, М
@@ -3011,7 +3118,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:electric-dreams-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20270203
 DTEND;VALUE=DATE:20270204
 SUMMARY:Электрические сны
@@ -3031,7 +3138,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:musica-sacra-nova-i-le-the-le-me-ensemble-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20270404
 DTEND;VALUE=DATE:20270405
 SUMMARY:Musica sacra nova: Île Thélème Ensemble
@@ -3052,7 +3159,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:musica-sacra-nova-lang-bril-auerbach-golijov-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20270523
 DTEND;VALUE=DATE:20270524
 SUMMARY:Musica sacra nova: Ланг\, Бриль\, Ауэрбах\, Го
@@ -3077,7 +3184,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:musica-sacra-nova-lab-i-le-the-le-me-ensemble-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20270404
 DTEND;VALUE=DATE:20270405
 SUMMARY:Лаборатория Musica sacra nova: Île Thélème Ensemble
@@ -3098,7 +3205,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:electric-dreams-ceam-artists-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20270203
 DTEND;VALUE=DATE:20270204
 SUMMARY:Электрические сны: CEAM Artists
@@ -3121,7 +3228,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:stravinsky-the-rake-s-progress-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20270608
 DTEND;VALUE=DATE:20270609
 SUMMARY:Стравинский. «Похождения повесы»
@@ -3143,7 +3250,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:musica-sacra-nova-snyder-schnittke-shaidullina-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20270305
 DTEND;VALUE=DATE:20270306
 SUMMARY:Musica sacra nova: Снайдер\, Шнитке\, Шайдулл
@@ -3167,7 +3274,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:festival-of-russian-music-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Последний день: Фестиваль русской м
@@ -3191,7 +3298,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sveshnikov-chorus-90th-anniversary-knaifel-smirnov-falik-moscow@afish
  a-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20270424
 DTEND;VALUE=DATE:20270425
 SUMMARY:К 90-летию Госхора имени Свешникова: 
@@ -3216,7 +3323,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sveshnikov-chorus-90th-anniversary-schnittke-shchedrin-shost-moscow@a
  fisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20270618
 DTEND;VALUE=DATE:20270619
 SUMMARY:К 90-летию Госхора: Шнитке\, Щедрин\, Ш
@@ -3240,7 +3347,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:musica-sacra-nova-lab-n-caged-vacuum-string-quartet-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20270305
 DTEND;VALUE=DATE:20270306
 SUMMARY:Лаборатория Musica sacra nova: N'Caged и Струнн
@@ -3263,7 +3370,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:musica-sacra-nova-n-caged-vacuum-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20270305
 DTEND;VALUE=DATE:20270306
 SUMMARY:Musica sacra nova: N'Caged и Vacuum
@@ -3285,7 +3392,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:musica-sacra-nova-laboratory-lang-bril-auerbach-golijov-moscow@afisha
  -art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20270523
 DTEND;VALUE=DATE:20270524
 SUMMARY:Лаборатория Musica sacra nova: Ланг\, Бриль\,
@@ -3309,7 +3416,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:musica-sacra-nova-laboratory-gubaidulina-bochikhina-messiaen-moscow@a
  fisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20270404
 DTEND;VALUE=DATE:20270405
 SUMMARY:Лаборатория Musica sacra nova: Губайдулина\
@@ -3331,7 +3438,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:musica-sacra-nova-laboratory-schnittke-holliger-shaidullina-moscow@af
  isha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20270305
 DTEND;VALUE=DATE:20270306
 SUMMARY:Лаборатория Musica sacra nova: Шнитке\, Холл
@@ -3354,7 +3461,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:all-russian-composers-competition-siberian-rhapsody-named-af-novosibi
  rsk@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Открытие: Всероссийский конкурс ко
@@ -3383,7 +3490,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ekaterina-mechetina-shchedrin-stravinsky-mussorgsky-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20270106
 DTEND;VALUE=DATE:20270107
 SUMMARY:Екатерина Мечетина. Щедрин\, Страви
@@ -3407,7 +3514,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:grigory-krotenko-alexandra-koreneva-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20270327
 DTEND;VALUE=DATE:20270328
 SUMMARY:Григорий Кротенко\, Александра Коре
@@ -3432,7 +3539,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:alice-in-wonderland-literary-and-musical-composition-moscow@afisha-ar
  t
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:«Алиса в стране чудес». Литературно
@@ -3457,7 +3564,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:opensoundorchestra-vasyugan-swamp-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Концерт Opensoundorchestra: «Васюганское бо
@@ -3479,7 +3586,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:the-little-prince-literary-and-musical-composition-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20270328
 DTEND;VALUE=DATE:20270329
 SUMMARY:«Маленький принц». Литературно-муз
@@ -3503,7 +3610,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:anna-kuklina-vasily-salnikov-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20270527
 DTEND;VALUE=DATE:20270528
 SUMMARY:Анна Куклина\, Василий Сальников
@@ -3525,7 +3632,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:marina-tsvetaeva-believe-in-music-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Марина Цветаева: «Верьте музыке»
@@ -3548,7 +3655,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:international-string-instruments-competition-novosibirsk-spr-novosibi
  rsk@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20270327
 DTEND;VALUE=DATE:20270330
 SUMMARY:Международный конкурс исполнителе
@@ -3576,7 +3683,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:alexander-blok-the-tragic-tenor-of-the-epoch-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 SUMMARY:Александр Блок – трагический тенор
@@ -3600,7 +3707,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:stanislav-motyrev-david-stepanyan-anna-mogueva-alina-chernob-moscow@a
  fisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20270606
 DTEND;VALUE=DATE:20270607
 SUMMARY:Станислав Мотырев\, Давид Степанян\,
@@ -3627,7 +3734,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:grigory-krotenko-ivan-gorshkov-alexandra-koreneva-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
 SUMMARY:Григорий Кротенко\, Иван Горшков\, А
@@ -3651,7 +3758,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:feodor-chaliapin-mask-and-soul-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20270320
 DTEND;VALUE=DATE:20270321
 SUMMARY:Фёдор Шаляпин: «Маска и душа»
@@ -3673,7 +3780,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:musica-sacra-nova-lab-berlinsky-quartet-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20270523
 DTEND;VALUE=DATE:20270524
 SUMMARY:Лаборатория Musica sacra nova: Квартет имен
@@ -3697,7 +3804,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:a-midsummer-night-s-dream-schoenberg-kancheli-desyatnikov-moscow@afis
  ha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270308
 SUMMARY:Сон в летнюю ночь: Шёнберг\, Канчели\
@@ -3719,7 +3826,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:musica-sacra-nova-n-caged-and-vacuum-quartet-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20270305
 DTEND;VALUE=DATE:20270306
 SUMMARY:Musica sacra nova: N'Caged и Струнный квартет Vac
@@ -3742,7 +3849,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:musica-sacra-nova-berlinsky-quartet-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20270523
 DTEND;VALUE=DATE:20270524
 SUMMARY:Musica sacra nova: Квартет имени В. А. Берлин
@@ -3764,7 +3871,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fre-de-ric-chopin-the-soul-of-the-piano-moscow@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 SUMMARY:Фридерик Шопен. Душа фортепиано
@@ -3785,30 +3892,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:sinbad-the-sailor-moscow@afisha-art
-DTSTAMP:20261122T172428Z
-DTSTART;VALUE=DATE:20261129
-DTEND;VALUE=DATE:20261130
-SUMMARY:Синдбад-мореход
-LOCATION:Концертный зал имени С. В. Рахманин
- ова («Филармония-2»)\, Мичуринский проспе
- кт\, Олимпийская деревня\, дом 1\, Москва
-DESCRIPTION:Музыкально-литературная компози
- ция по мотивам сказки Римского-Корсаков
- а с художественным чтением.\nКамиль Лари
- н\, Национальный филармонический оркест
- р России\, Клеман Нонсьё\nhttps://meloman.ru/hall/fila
- rmoniya-2-koncertnyj-zal-imeni-svrahmaninova/
-URL:https://doublebasskakov.github.io/radar/#e=sinbad-the-sailor-moscow
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Синдбад-мореход
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:msk-snm-10-dec@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 SUMMARY:Ансамбль солистов «Студия новой му
@@ -3829,7 +3914,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:msk-snm-18-dec@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
 SUMMARY:Ансамбль солистов «Студия новой му

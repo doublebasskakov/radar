@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:lilac-branch-moscow@afisha-art
+DTSTAMP:20261122T214228Z
+DTSTART:20261128T113000Z
+DTEND:20261128T133000Z
+SUMMARY:«Ветка сирени»
+LOCATION:Филармония-2\, Виртуальный зал\, Мич
+ уринский проспект\, Олимпийская деревня
+ \, дом 1\, Москва
+DESCRIPTION:Показ художественного фильма Пав
+ ла Лунгина в рамках Фестиваля русской м
+ узыки.\nПавел Лунгин\, Евгений Цыганов\, В
+ иктория Толстоганова\, Виктория Исакова
+ \nhttps://meloman.ru/concert/vz-2026-11-28-14/
+URL:https://doublebasskakov.github.io/radar/#e=lilac-branch-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:«Ветка сирени»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

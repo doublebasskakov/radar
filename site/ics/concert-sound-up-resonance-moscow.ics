@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:concert-sound-up-resonance-moscow@afisha-art
+DTSTAMP:20261122T214228Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Концерт «SOUND UP RESONANCE»
+LOCATION:Галерея fābula HQ\, Москва
+DESCRIPTION:Сольное выступление с российским
+ и премьерами опуса Джона Лютера Адамса T
+ hree High Places и музыкой Райха\, Гласса и Десс
+ нера.\nОльга Белоглазова\nhttps://t.me/time_to_hear/2
+ 13
+URL:https://doublebasskakov.github.io/radar/#e=concert-sound-up-resonance
+ -moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт «SOUND UP RESONANCE»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

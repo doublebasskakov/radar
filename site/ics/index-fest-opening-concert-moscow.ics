@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:index-fest-opening-concert-moscow@afisha-art
+DTSTAMP:20261122T214228Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:Открытие фестиваля INDEX FEST
+LOCATION:КЦ «Дом»\, Москва
+DESCRIPTION:Открытие фестиваля эксперимента
+ льного звука\, где электроакустический 
+ минимализм и свободная импровизация со
+ четаются с духовыми и роялем.\nВладимир 
+ Мартынов\, INDEX III\, Psaruman\nhttps://t.me/time_to_hear/213
+URL:https://doublebasskakov.github.io/radar/#e=index-fest-opening-concert
+ -moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие фестиваля INDEX FEST
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

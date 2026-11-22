@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:takk-con-vivere-rome@afisha-art
+DTSTAMP:20261122T214228Z
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+SUMMARY:Последний день: ТАКК. Кон-вивере
+LOCATION:MAXXI\, Via Guido Reni 4A\, Рим\, Италия
+DESCRIPTION:Архитектурно-художественная экс
+ позиция\, исследующая новые формы сосущ
+ ествования людей и городской среды.\nTAKK\n
+ https://www.maxxi.art/en/events/takk-con-vivere/
+URL:https://doublebasskakov.github.io/radar/#e=takk-con-vivere-rome
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: ТАКК. Кон-вивере
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

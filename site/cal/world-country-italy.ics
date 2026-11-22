@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:performance-a-hole-in-the-sky-by-laurie-anderson-rome@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261205T180000Z
 DTEND:20261205T200000Z
 SUMMARY:Перформанс Лори Андерсон «Дыра в не
@@ -29,7 +29,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-kandinsky-at-palazzo-bonaparte-rome@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261119T080000Z
 DTEND:20261119T100000Z
 SUMMARY:Открытие: Выставка «Kandinsky» в Палацц
@@ -50,7 +50,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:stefano-mancuso-la-citta-vivente-imparare-dalla-natura-per-r-rome@afi
  sha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261126T163000Z
 DTEND:20261126T183000Z
 SUMMARY:Стефано Манкузо: Живой город. Учить
@@ -74,7 +74,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:marinetti-l-uomo-che-invento-il-futuro-rome@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART:20261127T170000Z
 DTEND:20261127T190000Z
 SUMMARY:Разговор и кинопоказ: Маринетти — ч
@@ -94,29 +94,50 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:guided-tour-sophie-calle-rome@afisha-art
-DTSTAMP:20261122T172428Z
-DTSTART:20261122T103000Z
-DTEND:20261122T123000Z
-SUMMARY:Экскурсия с гидом по выставке Софи 
- Калле
-LOCATION:MAXXI\, Via Guido Reni 4a\, Roma\, Рим\, Италия
-DESCRIPTION:Кураторская экскурсия по экспози
- ции Софи Калле с подробным разбором клю
- чевых концептуальных работ.\nMAXXI Education\nhtt
- ps://www.maxxi.art/en/events/sophie-calle-visita-guidata-22novembre/
-URL:https://doublebasskakov.github.io/radar/#e=guided-tour-sophie-calle-r
- ome
+UID:talk-film-marinetti-l-uomo-che-invento-il-futuro-rome@afisha-art
+DTSTAMP:20261122T214228Z
+DTSTART:20261127T170000Z
+DTEND:20261127T190000Z
+SUMMARY:Показ и паблик-ток: «Маринетти. Чело
+ век\, который изобрел будущее»
+LOCATION:MAXXI\, Via Guido Reni 4A\, Рим\, Италия
+DESCRIPTION:Специальный кинопоказ и обсужден
+ ие фигуры лидера итальянского футуризм
+ а Филиппо Томмазо Маринетти.\nMarinetti\nhttps://
+ www.maxxi.art/en/events/marinetti/
+URL:https://doublebasskakov.github.io/radar/#e=talk-film-marinetti-l-uomo
+ -che-invento-il-futuro-rome
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Экскурсия с гидом по выставке Соф
- и Калле
+DESCRIPTION:Показ и паблик-ток: «Маринетти. Че
+ ловек\, который изобрел будущее»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:the-scoop-jazz-band-sotto-le-stelle-del-jazz-rome@afisha-art
+DTSTAMP:20261122T214228Z
+DTSTART:20261127T180000Z
+DTEND:20261127T200000Z
+SUMMARY:Концерт The Scoop Jazz Band: Снизу под звезд
+ ами джаза
+LOCATION:MAXXI\, Via Guido Reni 4A\, Рим\, Италия
+DESCRIPTION:Вечер музыкального искусства на 
+ стыке джазовой традиции и современного 
+ музейного пространства.\nThe Scoop Jazz Band\nhttps:
+ //www.maxxi.art/en/events/the-scoop-jazz-band/
+URL:https://doublebasskakov.github.io/radar/#e=the-scoop-jazz-band-sotto-
+ le-stelle-del-jazz-rome
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт The Scoop Jazz Band: Снизу под зве
+ здами джаза
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gordon-matta-clark-not-the-work-the-worker-rome@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 SUMMARY:Последний день: Гордон Матта-Кларк: 
@@ -139,7 +160,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:maxxi-bvlgari-prize-2026-rome@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270308
 SUMMARY:Последний день: Премия MAXXI BVLGARI 2026
@@ -160,7 +181,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sophie-calle-matrimoni-rotture-e-funerali-inclusi-rome@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
 SUMMARY:Последний день: Софи Калле: Матримо
@@ -182,8 +203,29 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:shirin-neshat-do-u-dare-rome@afisha-art
+DTSTAMP:20261122T214228Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:Последний день: Ширин Нешат: Смеешь 
+ ли ты!
+LOCATION:MAXXI\, Via Guido Reni 4A\, 00196 Roma RM\, Рим\, Итали
+ я
+DESCRIPTION:Персональная выставка известной 
+ видеохудожницы и фотографа Ширин Нешат.
+ \nShirin Neshat\nhttps://www.maxxi.art/en/events/shirin-neshat-do-u-dare/
+URL:https://doublebasskakov.github.io/radar/#e=shirin-neshat-do-u-dare-ro
+ me
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Ширин Нешат: Смее
+ шь ли ты!
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:maxxi-collection-ritrovarsi-rome@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Открытие: Коллекция MAXXI: Встреча с с
@@ -204,7 +246,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sensing-the-future-rome@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Открытие: Ощущая будущее
@@ -223,7 +265,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tatiana-bilbao-estudio-campo-aperto-rome@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
 SUMMARY:Последний день: Татьяна Бильбао Эст
@@ -243,29 +285,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:shirin-neshat-do-u-dare-rome@afisha-art
-DTSTAMP:20261122T172428Z
-DTSTART;VALUE=DATE:20270110
-DTEND;VALUE=DATE:20270111
-SUMMARY:Последний день: Ширин Нешат: Смеешь 
- ли ты!
-LOCATION:MAXXI\, Via Guido Reni 4A\, 00196 Roma RM\, Рим\, Итали
- я
-DESCRIPTION:Персональная выставка известной 
- видеохудожницы и фотографа Ширин Нешат.
- \nShirin Neshat\nhttps://www.maxxi.art/en/events/shirin-neshat-do-u-dare/
-URL:https://doublebasskakov.github.io/radar/#e=shirin-neshat-do-u-dare-ro
- me
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Последний день: Ширин Нешат: Смее
- шь ли ты!
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:ordinare-il-mondo-l-archivio-di-nanda-lanfranco-rome@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 SUMMARY:Последний день: Упорядочивая мир: А
@@ -287,7 +308,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:il-villaggio-olimpico-di-roma-il-mondo-in-300-000-mq-rome@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
 SUMMARY:Открытие: Олимпийская деревня в Рим
@@ -307,32 +328,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:venice-biennale-arte-2026@afisha-art
-DTSTAMP:20261122T172428Z
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
-SUMMARY:Последний день: Biennale Arte 2026: In Minor Keys
-LOCATION:Giardini\, Arsenale\, Венеция\, Италия
-DESCRIPTION:61-я Венецианская биеннале соврем
- енного искусства\, задуманная Койо Куох 
- и доведённая до открытия её командой. По
- следние дни\, чтобы увидеть основную выс
- тавку и национальные павильоны\, включа
- я павильоны Армении\, Казахстана и Узбек
- истана.\nКуратор Койо Куох (реализовано 
- её командой)\nhttps://www.labiennale.org/en/art/2026/61st-exhib
- ition
-URL:https://doublebasskakov.github.io/radar/#e=venice-biennale-arte-2026
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Последний день: Biennale Arte 2026: In Minor Key
- s
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:venice-biennale-architettura-2027@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20270508
 DTEND;VALUE=DATE:20270509
 SUMMARY:Открытие: Biennale Architettura 2027: Do Architecture
@@ -353,31 +350,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:biennale-arte-2026-performances-lectures-discussions-roundta-venice@a
- fisha-art
-DTSTAMP:20261122T172428Z
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
-SUMMARY:Последний день: Biennale Arte 2026: performances\, l
- ectures\, discussions\, roundtables
-LOCATION:Arsenale\, Arsenale\, Venice\, Венеция\, Италия
-DESCRIPTION:Серия перформансов\, лекций\, диск
- уссий и круглых столов в рамках финальн
- ых дней 61-й Международной художественно
- й выставки.\nLa Biennale di Venezia\nhttps://www.labiennale.org/
- en/art/2026
-URL:https://doublebasskakov.github.io/radar/#e=biennale-arte-2026-perform
- ances-lectures-discussions-roundta-venice
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Последний день: Biennale Arte 2026: performances
- \, lectures\, discussions\, roundtables
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:frontiere-the-geopolitics-of-architecture-rome@afisha-art
-DTSTAMP:20261122T172428Z
+DTSTAMP:20261122T214228Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
 SUMMARY:Открытие: Фронтиры: Геополитика арх
@@ -394,6 +368,45 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Открытие: Фронтиры: Геополитика а
  рхитектуры
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:takk-con-vivere-rome@afisha-art
+DTSTAMP:20261122T214228Z
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+SUMMARY:Последний день: ТАКК. Кон-вивере
+LOCATION:MAXXI\, Via Guido Reni 4A\, Рим\, Италия
+DESCRIPTION:Архитектурно-художественная экс
+ позиция\, исследующая новые формы сосущ
+ ествования людей и городской среды.\nTAKK\n
+ https://www.maxxi.art/en/events/takk-con-vivere/
+URL:https://doublebasskakov.github.io/radar/#e=takk-con-vivere-rome
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: ТАКК. Кон-вивере
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:together-we-will-build-the-future-rome@afisha-art
+DTSTAMP:20261122T214228Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Последний день: Вместе мы построим 
+ будущее
+LOCATION:MAXXI\, Via Guido Reni 4A\, Рим\, Италия
+DESCRIPTION:Проект-размышление о завтрашнем 
+ дне музея и его роли в формировании куль
+ турного пространства будущего.\nMAXXI\nhttps:/
+ /www.maxxi.art/en/events/insieme-costruiamo-il-futuro/
+URL:https://doublebasskakov.github.io/radar/#e=together-we-will-build-the
+ -future-rome
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Вместе мы построи
+ м будущее
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

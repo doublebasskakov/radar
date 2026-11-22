@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:a-midsummer-night-s-dream-moscow@afisha-art
+DTSTAMP:20261122T214228Z
+DTSTART:20261126T160000Z
+DTEND:20261126T180000Z
+SUMMARY:Сон в летнюю ночь
+LOCATION:Филармония-2\, Малый зал\, Мичуринск
+ ий проспект\, Олимпийская деревня\, дом 1\
+ , Москва
+DESCRIPTION:Концерт камерного оркестра Prometheus
+  под управлением дирижера Михаила Калиц
+ кого с участием скрипачки Стефании Посп
+ ехиной.\nКамерный оркестр Prometheus\, Михаил 
+ Калицкий\, Стефания Поспехина\nhttps://meloman.r
+ u/subscription/son-v-letniuiu-noch-2026-84/
+URL:https://doublebasskakov.github.io/radar/#e=a-midsummer-night-s-dream-
+ moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Сон в летнюю ночь
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

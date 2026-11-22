@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:performance-8-15-saint-peters@afisha-art
+DTSTAMP:20261122T214228Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:Спектакль «8:15»
+LOCATION:Театр «Драм.Площадка» (бывшее здан
+ ие банка)\, Садовая ул.\, Санкт-Петербург
+DESCRIPTION:Камерный спектакль-променад в бы
+ вшем банковском хранилище\, где зрители 
+ исследуют трехъярусное пространство по
+  сюжету о дне рождения ребенка.\nТеатр «Д
+ рам.Площадка»\, Дмитрий Крестьянкин\nhttps:
+ //t.me/theblueprintnews/100011
+URL:https://doublebasskakov.github.io/radar/#e=performance-8-15-saint-pet
+ ers
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спектакль «8:15»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

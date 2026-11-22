@@ -5,10 +5,10 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:cosmos-exhibition-moscow@afisha-art
-DTSTAMP:20261122T172428Z
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
-SUMMARY:Открытие: Выставка «Космос»
+DTSTAMP:20261122T214228Z
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+SUMMARY:Последний день: Выставка «Космос»
 LOCATION:Арт-пространство «Cube.Moscow»\, Москва
 DESCRIPTION:Групповая выставка резидентов га
  лереи ЛУЧ и приглашённых авторов\, раскр
@@ -18,7 +18,8 @@ DESCRIPTION:Групповая выставка резидентов га
 URL:https://doublebasskakov.github.io/radar/#e=cosmos-exhibition-moscow
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Открытие: Выставка «Космос»
+DESCRIPTION:Последний день: Выставка «Космос
+ »
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

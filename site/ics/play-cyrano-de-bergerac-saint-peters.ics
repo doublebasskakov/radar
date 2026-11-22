@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:play-cyrano-de-bergerac-saint-peters@afisha-art
+DTSTAMP:20261122T214228Z
+DTSTART;VALUE=DATE:20261226
+DTEND;VALUE=DATE:20261227
+SUMMARY:Спектакль «Сирано де Бержерак»
+LOCATION:Театр «Драм.Площадка»\, Санкт-Петер
+ бург
+DESCRIPTION:Открытие основной сцены театра в 
+ бывшем операционном зале банка премьер
+ ным спектаклем в постановке Дмитрия Кре
+ стьянкина.\nТеатр «Драм.Площадка»\, Дмит
+ рий Крестьянкин\nhttps://t.me/theblueprintnews/100011
+URL:https://doublebasskakov.github.io/radar/#e=play-cyrano-de-bergerac-sa
+ int-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спектакль «Сирано де Бержерак»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

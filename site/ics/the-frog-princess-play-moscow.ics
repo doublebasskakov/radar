@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:the-frog-princess-play-moscow@afisha-art
+DTSTAMP:20261122T214228Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Спектакль «Царевна-лягушка»
+LOCATION:Филармония-2\, Малый зал\, Мичуринск
+ ий проспект\, Олимпийская деревня\, дом 1\
+ , Москва
+DESCRIPTION:Кукольный спектакль по мотивам р
+ усской народной сказки от Московского т
+ еатра кукол.\nМосковский театр кукол\nhttps
+ ://meloman.ru/kids/concerts/mz-2026-11-29-15/
+URL:https://doublebasskakov.github.io/radar/#e=the-frog-princess-play-mos
+ cow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спектакль «Царевна-лягушка»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

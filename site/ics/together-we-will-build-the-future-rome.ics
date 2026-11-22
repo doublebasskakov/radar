@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:together-we-will-build-the-future-rome@afisha-art
+DTSTAMP:20261122T214228Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Последний день: Вместе мы построим 
+ будущее
+LOCATION:MAXXI\, Via Guido Reni 4A\, Рим\, Италия
+DESCRIPTION:Проект-размышление о завтрашнем 
+ дне музея и его роли в формировании куль
+ турного пространства будущего.\nMAXXI\nhttps:/
+ /www.maxxi.art/en/events/insieme-costruiamo-il-futuro/
+URL:https://doublebasskakov.github.io/radar/#e=together-we-will-build-the
+ -future-rome
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Вместе мы построи
+ м будущее
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR
