@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:nyege-nyege-festival-2026-jinja@afisha-art
-DTSTAMP:20261122T123237Z
+DTSTAMP:20261122T172428Z
 DTSTART:20261119T130000Z
 DTEND:20261119T150000Z
 SUMMARY:Nyege Nyege Festival 2026
@@ -29,7 +29,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nyege-nyege-festival-2026-opening-night-jinja@afisha-art
-DTSTAMP:20261122T123237Z
+DTSTAMP:20261122T172428Z
 DTSTART:20261119T130000Z
 DTEND:20261119T150000Z
 SUMMARY:Nyege Nyege Festival 2026 — открытие
@@ -48,9 +48,85 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:odera-gqom-techno-jinja@afisha-art
+DTSTAMP:20261122T172428Z
+DTSTART:20261122T100000Z
+DTEND:20261122T120000Z
+SUMMARY:ODERA (Gqom / Techno)
+LOCATION:Kalagala Falls\, Sunrise stage\, Kalagala Falls\, River Nile\, 
+ Джинджа\, Уганда
+DESCRIPTION:Выступление британского артиста\
+ , сочетающего ритмы гом и техно на рассв
+ етной сцене фестиваля Nyege Nyege.\nODERA\nhttps://nye
+ genyege.com/lineup/odera
+URL:https://doublebasskakov.github.io/radar/#e=odera-gqom-techno-jinja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ODERA (Gqom / Techno)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:soul-groove-jinja@afisha-art
+DTSTAMP:20261122T172428Z
+DTSTART:20261122T130000Z
+DTEND:20261122T150000Z
+SUMMARY:Soul Groove
+LOCATION:Kalagala Falls\, The Village\, Kalagala Falls\, River Nile\, Д
+ жинджа\, Уганда
+DESCRIPTION:Музыкальная программа на площадк
+ е The Village\, посвященной более спокойной с
+ тороне фестиваля.\nSoul Groove\nhttps://nyegenyege.com/lin
+ eup/soul-groove
+URL:https://doublebasskakov.github.io/radar/#e=soul-groove-jinja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Soul Groove
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:goddess-ft-kigongo-jinja@afisha-art
+DTSTAMP:20261122T172428Z
+DTSTART:20261122T140000Z
+DTEND:20261122T160000Z
+SUMMARY:Goddess ft Kigongo
+LOCATION:Kalagala Falls\, Hakuna Kulala stage\, Kalagala Falls\, River Ni
+ le\, Джинджа\, Уганда
+DESCRIPTION:Вечерний сет на экспериментально
+ й сцене Hakuna Kulala в рамках финального дня 
+ фестиваля.\nGoddess\, Kigongo\nhttps://nyegenyege.com/lineup/god
+ dess-ft-kigongo
+URL:https://doublebasskakov.github.io/radar/#e=goddess-ft-kigongo-jinja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Goddess ft Kigongo
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:taz-waves-electronic-edm-jinja@afisha-art
+DTSTAMP:20261122T172428Z
+DTSTART:20261122T140000Z
+DTEND:20261122T160000Z
+SUMMARY:Taz Waves (Electronic / EDM)
+LOCATION:Kalagala Falls\, Sunrise stage\, Kalagala Falls\, River Nile\, 
+ Джинджа\, Уганда
+DESCRIPTION:Электронный сет от суданского пи
+ онера EDM на берегу Нила.\nTaz Waves\nhttps://nyegenyege
+ .com/lineup/taz-waves
+URL:https://doublebasskakov.github.io/radar/#e=taz-waves-electronic-edm-j
+ inja
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Taz Waves (Electronic / EDM)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:intertronika-festival-workshops-live-concert-and-club-night-hamburg@a
  fisha-art
-DTSTAMP:20261122T123237Z
+DTSTAMP:20261122T172428Z
 DTSTART:20261205T193000Z
 DTEND:20261205T213000Z
 SUMMARY:Фестиваль Intertronika: воркшопы\, лайв-ко
@@ -72,84 +148,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:odera-gqom-techno-jinja@afisha-art
-DTSTAMP:20261122T123237Z
-DTSTART:20261122T100000Z
-DTEND:20261122T120000Z
-SUMMARY:ODERA (Gqom / Techno)
-LOCATION:Kalagala Falls\, Sunrise stage\, Kalagala Falls\, River Nile\, 
- Джинджа\, Уганда
-DESCRIPTION:Выступление британского артиста\
- , сочетающего ритмы гом и техно на рассв
- етной сцене фестиваля Nyege Nyege.\nODERA\nhttps://nye
- genyege.com/lineup/odera
-URL:https://doublebasskakov.github.io/radar/#e=odera-gqom-techno-jinja
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:ODERA (Gqom / Techno)
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:soul-groove-jinja@afisha-art
-DTSTAMP:20261122T123237Z
-DTSTART:20261122T130000Z
-DTEND:20261122T150000Z
-SUMMARY:Soul Groove
-LOCATION:Kalagala Falls\, The Village\, Kalagala Falls\, River Nile\, Д
- жинджа\, Уганда
-DESCRIPTION:Музыкальная программа на площадк
- е The Village\, посвященной более спокойной с
- тороне фестиваля.\nSoul Groove\nhttps://nyegenyege.com/lin
- eup/soul-groove
-URL:https://doublebasskakov.github.io/radar/#e=soul-groove-jinja
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Soul Groove
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:goddess-ft-kigongo-jinja@afisha-art
-DTSTAMP:20261122T123237Z
-DTSTART:20261122T140000Z
-DTEND:20261122T160000Z
-SUMMARY:Goddess ft Kigongo
-LOCATION:Kalagala Falls\, Hakuna Kulala stage\, Kalagala Falls\, River Ni
- le\, Джинджа\, Уганда
-DESCRIPTION:Вечерний сет на экспериментально
- й сцене Hakuna Kulala в рамках финального дня 
- фестиваля.\nGoddess\, Kigongo\nhttps://nyegenyege.com/lineup/god
- dess-ft-kigongo
-URL:https://doublebasskakov.github.io/radar/#e=goddess-ft-kigongo-jinja
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Goddess ft Kigongo
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:taz-waves-electronic-edm-jinja@afisha-art
-DTSTAMP:20261122T123237Z
-DTSTART:20261122T140000Z
-DTEND:20261122T160000Z
-SUMMARY:Taz Waves (Electronic / EDM)
-LOCATION:Kalagala Falls\, Sunrise stage\, Kalagala Falls\, River Nile\, 
- Джинджа\, Уганда
-DESCRIPTION:Электронный сет от суданского пи
- онера EDM на берегу Нила.\nTaz Waves\nhttps://nyegenyege
- .com/lineup/taz-waves
-URL:https://doublebasskakov.github.io/radar/#e=taz-waves-electronic-edm-j
- inja
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Taz Waves (Electronic / EDM)
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:nyege-nyege-festival-2026-finale-jinja-2@afisha-art
-DTSTAMP:20261122T123237Z
+DTSTAMP:20261122T172428Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Фестиваль Nyege Nyege 2026 — Финал
@@ -169,7 +169,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nyege-nyege-festival-2026-finale-jinja@afisha-art
-DTSTAMP:20261122T123237Z
+DTSTAMP:20261122T172428Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Nyege Nyege Festival 2026 — Финал
@@ -188,7 +188,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:redo-rave-tbilisi@afisha-art
-DTSTAMP:20261122T123237Z
+DTSTAMP:20261122T172428Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:REDO RAVE
@@ -208,7 +208,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sonar-2027@afisha-art
-DTSTAMP:20261122T123237Z
+DTSTAMP:20261122T172428Z
 DTSTART;VALUE=DATE:20270617
 DTEND;VALUE=DATE:20270620
 SUMMARY:Sónar 2027
@@ -228,7 +228,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:berlin-atonal-2027@afisha-art
-DTSTAMP:20261122T123237Z
+DTSTAMP:20261122T172428Z
 DTSTART;VALUE=DATE:20270825
 DTEND;VALUE=DATE:20270830
 SUMMARY:Berlin Atonal 2027
@@ -247,7 +247,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sbpch-concert-in-berlin-berlin@afisha-art
-DTSTAMP:20261122T123237Z
+DTSTAMP:20261122T172428Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Концерт группы СБПЧ в Берлине

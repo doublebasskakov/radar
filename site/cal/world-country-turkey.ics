@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:la-szlo-moholy-nagy-80-from-hungary-to-bauhaus-istanbul@afisha-art
-DTSTAMP:20261122T123237Z
+DTSTAMP:20261122T172428Z
 DTSTART:20261126T150000Z
 DTEND:20261126T170000Z
 SUMMARY:Ласло Мохой-Надь 80: Из Венгрии в Бау
@@ -30,8 +30,31 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:from-robert-college-to-bog-azic-i-university-tracing-a-cultu-istanbul
+ @afisha-art
+DTSTAMP:20261122T172428Z
+DTSTART:20261201T153000Z
+DTEND:20261201T173000Z
+SUMMARY:От Колледжа Роберта до Босфорского 
+ университета: Культурная среда
+LOCATION:Salt Beyoğlu\, Walk-in Cinema\, İstiklal Caddesi 136\, Beyoğl
+ u\, Стамбул\, Турция
+DESCRIPTION:Лекция об истории формирования и
+ нтеллектуальной и культурной среды вед
+ ущих образовательных институтов Турции
+ .\nSemih Fırıncıoğlu\nhttps://saltonline.org/en
+URL:https://doublebasskakov.github.io/radar/#e=from-robert-college-to-bog
+ -azic-i-university-tracing-a-cultu-istanbul
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:От Колледжа Роберта до Босфорско
+ го университета: Культурная среда
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-salt-research-funds-project-presentations-istanbul@afisha-art
-DTSTAMP:20261122T123237Z
+DTSTAMP:20261122T172428Z
 DTSTART:20261211T103000Z
 DTEND:20261211T123000Z
 SUMMARY:Презентация проектов получателей г
@@ -54,7 +77,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:guided-tour-and-workshop-for-kids-ottoman-bank-museum-istanbul@afisha
  -art
-DTSTAMP:20261122T123237Z
+DTSTAMP:20261122T172428Z
 DTSTART:20261122T110000Z
 DTEND:20261122T130000Z
 SUMMARY:Экскурсия и мастер-класс для детей: 
@@ -74,31 +97,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:from-robert-college-to-bog-azic-i-university-tracing-a-cultu-istanbul
- @afisha-art
-DTSTAMP:20261122T123237Z
-DTSTART:20261201T153000Z
-DTEND:20261201T173000Z
-SUMMARY:От Колледжа Роберта до Босфорского 
- университета: Культурная среда
-LOCATION:Salt Beyoğlu\, Walk-in Cinema\, İstiklal Caddesi 136\, Beyoğl
- u\, Стамбул\, Турция
-DESCRIPTION:Лекция об истории формирования и
- нтеллектуальной и культурной среды вед
- ущих образовательных институтов Турции
- .\nSemih Fırıncıoğlu\nhttps://saltonline.org/en
-URL:https://doublebasskakov.github.io/radar/#e=from-robert-college-to-bog
- -azic-i-university-tracing-a-cultu-istanbul
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:От Колледжа Роберта до Босфорско
- го университета: Культурная среда
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:across-the-seas-o-zer-kabas-and-his-times-istanbul@afisha-art
-DTSTAMP:20261122T123237Z
+DTSTAMP:20261122T172428Z
 DTSTART;VALUE=DATE:20270314
 DTEND;VALUE=DATE:20270315
 SUMMARY:Последний день: Выставка «Через мор
@@ -120,7 +120,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:across-the-seas-o-zer-kabas-and-his-times-istanbul-2@afisha-art
-DTSTAMP:20261122T123237Z
+DTSTAMP:20261122T172428Z
 DTSTART;VALUE=DATE:20270314
 DTEND;VALUE=DATE:20270315
 SUMMARY:Последний день: Across the Seas: Özer Kabaş and Hi
@@ -142,7 +142,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:arter-work-in-progress@afisha-art
-DTSTAMP:20261122T123237Z
+DTSTAMP:20261122T172428Z
 DTSTART;VALUE=DATE:20270314
 DTEND;VALUE=DATE:20270315
 SUMMARY:Последний день: Yapım Aşamasında / Work in Progre
@@ -165,7 +165,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:no-admittance-except-on-business-istanbul-3@afisha-art
-DTSTAMP:20261122T123237Z
+DTSTAMP:20261122T172428Z
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
 SUMMARY:Последний день: Никакого входа\, кро
@@ -187,7 +187,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:no-admittance-except-on-business-istanbul@afisha-art
-DTSTAMP:20261122T123237Z
+DTSTAMP:20261122T172428Z
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
 SUMMARY:Последний день: Выставка «Посторон
@@ -209,7 +209,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:industrial-architecture-in-turkey-istanbul@afisha-art
-DTSTAMP:20261122T123237Z
+DTSTAMP:20261122T172428Z
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
 SUMMARY:Последний день: Выставка «Промышле
@@ -232,7 +232,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:out-of-the-archive-industrial-architecture-in-turkey-istanbul@afisha-
  art
-DTSTAMP:20261122T123237Z
+DTSTAMP:20261122T172428Z
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
 SUMMARY:Последний день: Out of the archive: Industrial Archi
@@ -253,7 +253,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:15-years-at-salt-exhibition-posters-istanbul@afisha-art
-DTSTAMP:20261122T123237Z
+DTSTAMP:20261122T172428Z
 DTSTART;VALUE=DATE:20261227
 DTEND;VALUE=DATE:20261228
 SUMMARY:Последний день: Выставка плакатов «
@@ -275,7 +275,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:15-years-at-salt-exhibition-posters-istanbul-2@afisha-art
-DTSTAMP:20261122T123237Z
+DTSTAMP:20261122T172428Z
 DTSTART;VALUE=DATE:20261227
 DTEND;VALUE=DATE:20261228
 SUMMARY:Последний день: 15 Years at Salt: Exhibition Posters
@@ -295,7 +295,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:no-admittance-except-on-business-istanbul-2@afisha-art
-DTSTAMP:20261122T123237Z
+DTSTAMP:20261122T172428Z
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
 SUMMARY:Последний день: No Admittance Except on Business
@@ -314,7 +314,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:istanbul-biennial-19@afisha-art
-DTSTAMP:20261122T123237Z
+DTSTAMP:20261122T172428Z
 DTSTART;VALUE=DATE:20270918
 DTEND;VALUE=DATE:20270919
 SUMMARY:Открытие: 19. İstanbul Bienali

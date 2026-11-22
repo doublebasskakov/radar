@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:tomsk-masm-denisov@afisha-art
-DTSTAMP:20261122T123237Z
+DTSTAMP:20261122T172428Z
 DTSTART:20261124T120000Z
 DTEND:20261124T140000Z
 SUMMARY:МАСМ. «Диалоги сквозь время: Эдисон 
@@ -28,7 +28,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tsxr-scan-tomsk@afisha-art
-DTSTAMP:20261122T123237Z
+DTSTAMP:20261122T172428Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Последний день: ТСХР + СКАН
@@ -46,8 +46,29 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:tshr-scan-contemporaries-tomsk@afisha-art
+DTSTAMP:20261122T172428Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Открытие: ТСХР + СКАН + Современники
+LOCATION:Томский центр современной культур
+ ы\, Томск
+DESCRIPTION:Коллаборация Творческого союза х
+ удожников России и школы кураторов\, дем
+ онстрирующая новые имена.\n\nhttps://www.afisha.ru/
+ exhibition/tshr-skan-sovremenniki-1016716/
+URL:https://doublebasskakov.github.io/radar/#e=tshr-scan-contemporaries-t
+ omsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: ТСХР + СКАН + Современни
+ ки
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:tshr-scan-exhibition-tomsk@afisha-art
-DTSTAMP:20261122T123237Z
+DTSTAMP:20261122T172428Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Последний день: Выставка ТСХР + СКАН
@@ -68,7 +89,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:interactive-exhibition-robopark-tomsk@afisha-art
-DTSTAMP:20261122T123237Z
+DTSTAMP:20261122T172428Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:Последний день: Интерактивная выст
@@ -91,7 +112,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:first-workshop-of-siberian-art-exhibition-tomsk@afisha-art
-DTSTAMP:20261122T123237Z
+DTSTAMP:20261122T172428Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Последний день: Выставка Первой мас
@@ -115,7 +136,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tshr-skan-contemporaries-exhibition-tomsk@afisha-art
-DTSTAMP:20261122T123237Z
+DTSTAMP:20261122T172428Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Последний день: Выставка «ТСХР + СКА
@@ -138,7 +159,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:architecture-instructions-for-use-by-s-berezovskaya-tomsk@afisha-art
-DTSTAMP:20261122T123237Z
+DTSTAMP:20261122T172428Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:Курс лекций С. Березовской «Архитек
@@ -161,7 +182,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:art-of-contemporaries-exhibition-tomsk@afisha-art
-DTSTAMP:20261122T123237Z
+DTSTAMP:20261122T172428Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Последний день: Выставка «Искусств
@@ -183,7 +204,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cinema-history-russian-cinematography-lecture-series-tomsk@afisha-art
-DTSTAMP:20261122T123237Z
+DTSTAMP:20261122T172428Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Цикл лекций «История кино: российск
@@ -205,8 +226,52 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:interactive-exhibition-robopark-tomsk-tomsk@afisha-art
+DTSTAMP:20261122T172428Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Открытие: Интерактивная выставка Р
+ обопарк Томск
+LOCATION:Робопарк\, Томск
+DESCRIPTION:Масштабная технологическая выст
+ авка с участием роботов и применением т
+ ехнологий виртуальной реальности.\n\nhttps:
+ //www.afisha.ru/exhibition/interaktivnaya-vystavka-robopark-tomsk-1015984
+ /
+URL:https://doublebasskakov.github.io/radar/#e=interactive-exhibition-rob
+ opark-tomsk-tomsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Интерактивная выставка
+  Робопарк Томск
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:book-club-book-museum-of-the-apocalypse-tomsk@afisha-art
+DTSTAMP:20261122T172428Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:Книжный клуб «Книга: музей апокалип
+ сиса»
+LOCATION:Томский центр современной культур
+ ы\, Томск
+DESCRIPTION:Встреча книжного клуба\, посвящен
+ ная обсуждению литературы и культурных 
+ концепций апокалипсиса.\n\nhttps://www.afisha.ru/exh
+ ibition/knizhniy-klub-kniga-muziy-apokalipsisa-1016007/
+URL:https://doublebasskakov.github.io/radar/#e=book-club-book-museum-of-t
+ he-apocalypse-tomsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Книжный клуб «Книга: музей апокал
+ ипсиса»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:contemporaries-vidimo-nevidimo-tomsk@afisha-art
-DTSTAMP:20261122T123237Z
+DTSTAMP:20261122T172428Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Последний день: Современники + Види
@@ -228,7 +293,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tshr-decorative-and-applied-art-exhibition-tomsk@afisha-art
-DTSTAMP:20261122T123237Z
+DTSTAMP:20261122T172428Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Последний день: Выставка декоратив
@@ -249,29 +314,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:tshr-scan-contemporaries-tomsk@afisha-art
-DTSTAMP:20261122T123237Z
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
-SUMMARY:Открытие: ТСХР + СКАН + Современники
-LOCATION:Томский центр современной культур
- ы\, Томск
-DESCRIPTION:Коллаборация Творческого союза х
- удожников России и школы кураторов\, дем
- онстрирующая новые имена.\n\nhttps://www.afisha.ru/
- exhibition/tshr-skan-sovremenniki-1016716/
-URL:https://doublebasskakov.github.io/radar/#e=tshr-scan-contemporaries-t
- omsk
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Открытие: ТСХР + СКАН + Современни
- ки
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:tomsk-kabinet-flora-sibiri@afisha-art
-DTSTAMP:20261122T123237Z
+DTSTAMP:20261122T172428Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:Последний день: «Флора Сибири: худо
@@ -294,7 +338,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:art-of-contemporaries-tomsk@afisha-art
-DTSTAMP:20261122T123237Z
+DTSTAMP:20261122T172428Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Последний день: Искусство современ
@@ -311,50 +355,6 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Последний день: Искусство соврем
  енников
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:interactive-exhibition-robopark-tomsk-tomsk@afisha-art
-DTSTAMP:20261122T123237Z
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
-SUMMARY:Открытие: Интерактивная выставка Р
- обопарк Томск
-LOCATION:Робопарк\, Томск
-DESCRIPTION:Масштабная технологическая выст
- авка с участием роботов и применением т
- ехнологий виртуальной реальности.\n\nhttps:
- //www.afisha.ru/exhibition/interaktivnaya-vystavka-robopark-tomsk-1015984
- /
-URL:https://doublebasskakov.github.io/radar/#e=interactive-exhibition-rob
- opark-tomsk-tomsk
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Открытие: Интерактивная выставка
-  Робопарк Томск
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:book-club-book-museum-of-the-apocalypse-tomsk@afisha-art
-DTSTAMP:20261122T123237Z
-DTSTART;VALUE=DATE:20261130
-DTEND;VALUE=DATE:20261201
-SUMMARY:Книжный клуб «Книга: музей апокалип
- сиса»
-LOCATION:Томский центр современной культур
- ы\, Томск
-DESCRIPTION:Встреча книжного клуба\, посвящен
- ная обсуждению литературы и культурных 
- концепций апокалипсиса.\n\nhttps://www.afisha.ru/exh
- ibition/knizhniy-klub-kniga-muziy-apokalipsisa-1016007/
-URL:https://doublebasskakov.github.io/radar/#e=book-club-book-museum-of-t
- he-apocalypse-tomsk
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Книжный клуб «Книга: музей апокал
- ипсиса»
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
