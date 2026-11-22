@@ -9,7 +9,7 @@ X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:nc-ic-session-chuuraa-city-of-owls-the-wind-bloweth-where-it-krasnoya
  rsk@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART:20261122T120000Z
 DTEND:20261122T140000Z
 SUMMARY:Сеанс НК+МК: «Чуураа»\, «Город сов»\, 
@@ -32,7 +32,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:message-to-man-festival-echo-program-screenings-in-krasnoyar-krasnoya
  rsk@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261123
 SUMMARY:Фестиваль «Послание к человеку»: по
@@ -53,7 +53,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iskrafest-festival-krasnoyarsk@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART:20261129T080000Z
 DTEND:20261129T100000Z
 SUMMARY:Фестиваль «Искрафест»
@@ -73,7 +73,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ballet-leap-to-freedom-krasnoyarsk@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART:20261129T120000Z
 DTEND:20261129T140000Z
 SUMMARY:Балет «Прыжок в свободу»
@@ -93,7 +93,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:michael-jackson-symphony-by-candlelight-krasnoyarsk@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Симфония Майкла Джексона при свеча
@@ -115,7 +115,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:performance-concert-my-tchaikovsky-krasnoyarsk@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
 SUMMARY:Спектакль-концерт «Мой Чайковский»
@@ -136,7 +136,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-pozdeev-s-anthology-krasnoyarsk@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 SUMMARY:Последний день: Экспозиция «Антоло
@@ -158,8 +158,33 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:museum-tour-history-architecture-permanent-exhibitions-krasnoyarsk@af
+ isha-art
+DTSTAMP:20261122T123237Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Экскурсия по музею — история\, архи
+ тектура\, постоянные выставки
+LOCATION:Красноярский музейный центр\, Крас
+ ноярск
+DESCRIPTION:Тематическая прогулка по крупней
+ шей в Сибири площадке современного иску
+ сства\, расположенной в уникальном здан
+ ии бывшего Музея Ленина.\n\nhttps://www.afisha.ru/exc
+ ursion/ekskursiya-po-muzeyu-istoriya-arhitektura-postoyannye-vystavki-551
+ 5/
+URL:https://doublebasskakov.github.io/radar/#e=museum-tour-history-archit
+ ecture-permanent-exhibitions-krasnoyarsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Экскурсия по музею — история\, ар
+ хитектура\, постоянные выставки
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:krsk-ploshchad-mira-pozdeev-antologiya@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART;VALUE=DATE:20270216
 DTEND;VALUE=DATE:20270217
 SUMMARY:Последний день: «Антология». Андрей
@@ -182,7 +207,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-indigenous-minor-peoples-of-siberia-krasnoyarsk@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Последний день: Выставка «Коренные 
@@ -201,6 +226,55 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Последний день: Выставка «Коренн
  ые малочисленные народы Сибири»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:excursion-to-the-exhibition-anthology-of-pozdeev-krasnoyarsk@afisha-a
+ rt
+DTSTAMP:20261122T123237Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Открытие: Экскурсия по выставке «Ан
+ тология Поздеева»
+LOCATION:Красноярский музейный центр\, Крас
+ ноярск
+DESCRIPTION:Авторская прогулка по масштабной
+  экспозиции работ знакового сибирского 
+ художника Андрея Поздеева\, охватывающе
+ й разные этапы его творчества.\nАндрей П
+ оздеев\nhttps://www.afisha.ru/excursion/ekskursiya-po-vystavke-anto
+ logiya-pozdeeva-5736/
+URL:https://doublebasskakov.github.io/radar/#e=excursion-to-the-exhibitio
+ n-anthology-of-pozdeev-krasnoyarsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Экскурсия по выставке «
+ Антология Поздеева»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:night-excursion-at-the-krasnoyarsk-museum-center-krasnoyarsk@afisha-a
+ rt
+DTSTAMP:20261122T123237Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Открытие: Ночная экскурсия по Красн
+ оярскому музейному центру
+LOCATION:Красноярский музейный центр\, Крас
+ ноярск
+DESCRIPTION:Исследование пространств крупне
+ йшего в Сибири центра современного иску
+ сства в необычной ночной атмосфере.\nNone\n
+ https://www.afisha.ru/excursion/nochnaya-ekskursiya-po-krasnoyarskomu-muz
+ eynomu-centru-3773/
+URL:https://doublebasskakov.github.io/radar/#e=night-excursion-at-the-kra
+ snoyarsk-museum-center-krasnoyarsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Ночная экскурсия по Кра
+ сноярскому музейному центру
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

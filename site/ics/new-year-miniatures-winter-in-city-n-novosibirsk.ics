@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:new-year-miniatures-winter-in-city-n-novosibirsk@afisha-art
+DTSTAMP:20261122T123237Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Открытие: Новогодние миниатюры / В г
+ ороде N зима
+LOCATION:Кукольная коллекция\, Новосибирск
+DESCRIPTION:Выставка декоративно-прикладног
+ о искусства\, представляющая зимние гор
+ одские сюжеты в миниатюрном исполнении.
+ \nNone\nhttps://www.afisha.ru/novosibirsk/schedule_exhibition/
+URL:https://doublebasskakov.github.io/radar/#e=new-year-miniatures-winter
+ -in-city-n-novosibirsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Новогодние миниатюры / 
+ В городе N зима
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

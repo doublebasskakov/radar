@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:jenna-sutela-vienna@afisha-art
+DTSTAMP:20261122T123237Z
+DTSTART;VALUE=DATE:20271203
+DTEND;VALUE=DATE:20271204
+SUMMARY:Открытие: Jenna Sutela
+LOCATION:Secession\, Friedrichstraße 12\, 1010 Wien\, Вена\, Авс
+ трия
+DESCRIPTION:Выставка финской медиахудожницы 
+ Дженны Сутелы\, работающей на стыке биот
+ ехнологий\, звука и цифрового искусства.
+ \nJenna Sutela\nhttps://secession.at/en/
+URL:https://doublebasskakov.github.io/radar/#e=jenna-sutela-vienna
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Jenna Sutela
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

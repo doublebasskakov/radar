@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:screening-of-ogroff-moscow@afisha-art
+DTSTAMP:20261122T123237Z
+DTSTART:20261125T170000Z
+DTEND:20261125T190000Z
+SUMMARY:Показ фильма «Огрофф»
+LOCATION:Purba Place\, Москва
+DESCRIPTION:Показ культового французского ан
+ деграундного слэшера 1983 года.\nНорбер Му
+ тье\nhttps://t.me/novembercinema/1337
+URL:https://doublebasskakov.github.io/radar/#e=screening-of-ogroff-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильма «Огрофф»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

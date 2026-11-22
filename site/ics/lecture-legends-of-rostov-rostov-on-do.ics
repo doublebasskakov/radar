@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:lecture-legends-of-rostov-rostov-on-do@afisha-art
+DTSTAMP:20261122T123237Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Лекция «Легенды Ростова»
+LOCATION:Кофейня 88\, Ростов-на-Дону
+DESCRIPTION:Культурологический разбор город
+ ских мифов\, реальных историй и легендар
+ ных личностей Ростова-на-Дону.\n\nhttps://www.af
+ isha.ru/exhibition/lekciya-legendy-rostova-1016918/
+URL:https://doublebasskakov.github.io/radar/#e=lecture-legends-of-rostov-
+ rostov-on-do
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекция «Легенды Ростова»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

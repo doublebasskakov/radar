@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:yui-yaegashi-vienna@afisha-art
+DTSTAMP:20261122T123237Z
+DTSTART;VALUE=DATE:20270312
+DTEND;VALUE=DATE:20270313
+SUMMARY:Открытие: Yui Yaegashi
+LOCATION:Secession\, Friedrichstraße 12\, 1010 Wien\, Вена\, Авс
+ трия
+DESCRIPTION:Выставка живописи и графики япон
+ ской художницы Юи Яэгаси.\nYui Yaegashi\nhttps://sec
+ ession.at/en/
+URL:https://doublebasskakov.github.io/radar/#e=yui-yaegashi-vienna
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Yui Yaegashi
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

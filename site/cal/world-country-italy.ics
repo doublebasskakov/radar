@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:exhibition-kandinsky-at-palazzo-bonaparte-rome@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART:20261119T080000Z
 DTEND:20261119T100000Z
 SUMMARY:Открытие: Выставка «Kandinsky» в Палацц
@@ -29,7 +29,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:stefano-mancuso-la-citta-vivente-imparare-dalla-natura-per-r-rome@afi
  sha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART:20261126T163000Z
 DTEND:20261126T183000Z
 SUMMARY:Стефано Манкузо: Живой город. Учить
@@ -53,7 +53,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:marinetti-l-uomo-che-invento-il-futuro-rome@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART:20261127T170000Z
 DTEND:20261127T190000Z
 SUMMARY:Разговор и кинопоказ: Маринетти — ч
@@ -73,8 +73,50 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:performance-a-hole-in-the-sky-by-laurie-anderson-rome@afisha-art
+DTSTAMP:20261122T123237Z
+DTSTART:20261205T180000Z
+DTEND:20261205T200000Z
+SUMMARY:Перформанс Лори Андерсон «Дыра в не
+ бе»
+LOCATION:MAXXI\, Via Guido Reni 4a\, Roma\, Рим\, Италия
+DESCRIPTION:Экспериментальный перформанс ле
+ гендарной мультимедиа-художницы и музы
+ канта Лори Андерсон.\nLaurie Anderson\nhttps://www.maxxi
+ .art/en/events/di-spazio-in-spazio-5dicembre-10-18mesi/
+URL:https://doublebasskakov.github.io/radar/#e=performance-a-hole-in-the-
+ sky-by-laurie-anderson-rome
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Перформанс Лори Андерсон «Дыра в 
+ небе»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:guided-tour-sophie-calle-rome@afisha-art
+DTSTAMP:20261122T123237Z
+DTSTART:20261122T103000Z
+DTEND:20261122T123000Z
+SUMMARY:Экскурсия с гидом по выставке Софи 
+ Калле
+LOCATION:MAXXI\, Via Guido Reni 4a\, Roma\, Рим\, Италия
+DESCRIPTION:Кураторская экскурсия по экспози
+ ции Софи Калле с подробным разбором клю
+ чевых концептуальных работ.\nMAXXI Education\nhtt
+ ps://www.maxxi.art/en/events/sophie-calle-visita-guidata-22novembre/
+URL:https://doublebasskakov.github.io/radar/#e=guided-tour-sophie-calle-r
+ ome
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Экскурсия с гидом по выставке Соф
+ и Калле
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:gordon-matta-clark-not-the-work-the-worker-rome@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 SUMMARY:Последний день: Гордон Матта-Кларк: 
@@ -97,7 +139,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:maxxi-bvlgari-prize-2026-rome@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270308
 SUMMARY:Последний день: Премия MAXXI BVLGARI 2026
@@ -118,7 +160,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sophie-calle-matrimoni-rotture-e-funerali-inclusi-rome@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
 SUMMARY:Последний день: Софи Калле: Матримо
@@ -141,7 +183,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:maxxi-collection-ritrovarsi-rome@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Открытие: Коллекция MAXXI: Встреча с с
@@ -162,7 +204,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sensing-the-future-rome@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Открытие: Ощущая будущее
@@ -180,8 +222,29 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:tatiana-bilbao-estudio-campo-aperto-rome@afisha-art
+DTSTAMP:20261122T123237Z
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+SUMMARY:Последний день: Татьяна Бильбао Эст
+ удио: Открытое поле
+LOCATION:MAXXI\, Via Guido Reni 4A\, Рим\, Италия
+DESCRIPTION:Архитектурная выставка-фокус\, по
+ священная исследованиям и проектам сту
+ дии Татьяны Бильбао.\nTatiana Bilbao Estudio\nhttps://ww
+ w.maxxi.art/en/events/tatiana-bilbao-estudio-campo-aperto/
+URL:https://doublebasskakov.github.io/radar/#e=tatiana-bilbao-estudio-cam
+ po-aperto-rome
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Татьяна Бильбао Э
+ студио: Открытое поле
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:shirin-neshat-do-u-dare-rome@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
 SUMMARY:Последний день: Ширин Нешат: Смеешь 
@@ -202,7 +265,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ordinare-il-mondo-l-archivio-di-nanda-lanfranco-rome@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 SUMMARY:Последний день: Упорядочивая мир: А
@@ -224,7 +287,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:il-villaggio-olimpico-di-roma-il-mondo-in-300-000-mq-rome@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
 SUMMARY:Открытие: Олимпийская деревня в Рим
@@ -244,29 +307,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:tatiana-bilbao-estudio-campo-aperto-rome@afisha-art
-DTSTAMP:20261121T213936Z
-DTSTART;VALUE=DATE:20270207
-DTEND;VALUE=DATE:20270208
-SUMMARY:Последний день: Татьяна Бильбао Эст
- удио: Открытое поле
-LOCATION:MAXXI\, Via Guido Reni 4A\, Рим\, Италия
-DESCRIPTION:Архитектурная выставка-фокус\, по
- священная исследованиям и проектам сту
- дии Татьяны Бильбао.\nTatiana Bilbao Estudio\nhttps://ww
- w.maxxi.art/en/events/tatiana-bilbao-estudio-campo-aperto/
-URL:https://doublebasskakov.github.io/radar/#e=tatiana-bilbao-estudio-cam
- po-aperto-rome
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Последний день: Татьяна Бильбао Э
- студио: Открытое поле
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:venice-biennale-arte-2026@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Последний день: Biennale Arte 2026: In Minor Keys
@@ -290,7 +332,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:venice-biennale-architettura-2027@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART;VALUE=DATE:20270508
 DTEND;VALUE=DATE:20270509
 SUMMARY:Открытие: Biennale Architettura 2027: Do Architecture
@@ -313,7 +355,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:biennale-arte-2026-performances-lectures-discussions-roundta-venice@a
  fisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Последний день: Biennale Arte 2026: performances\, l
@@ -335,7 +377,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:frontiere-the-geopolitics-of-architecture-rome@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
 SUMMARY:Открытие: Фронтиры: Геополитика арх

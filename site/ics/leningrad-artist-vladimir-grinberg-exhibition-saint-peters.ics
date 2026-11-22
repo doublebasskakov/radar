@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:leningrad-artist-vladimir-grinberg-exhibition-saint-peters@afisha-art
+DTSTAMP:20261122T123237Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Выставка «Художник Ленинграда. Вла
+ димир Гринберг»
+LOCATION:Музей искусства Санкт-Петербурга XX
+ -XXI веков (МИСП)\, наб. канала Грибоедова\, 
+ 101\, Санкт-Петербург
+DESCRIPTION:Заключительный день ретроспекти
+ вной выставки ленинградского живописца
+  Владимира Гринберга.\nВладимир Гринбер
+ г\nhttps://t.me/mispspb/4465
+URL:https://doublebasskakov.github.io/radar/#e=leningrad-artist-vladimir-
+ grinberg-exhibition-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выставка «Художник Ленинграда. В
+ ладимир Гринберг»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

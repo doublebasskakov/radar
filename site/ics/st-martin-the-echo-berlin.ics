@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:st-martin-the-echo-berlin@afisha-art
+DTSTAMP:20261122T123237Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Открытие: St. Martin & the Echo
+LOCATION:carlier | gebauer\, Markgrafenstraße 67\, Берлин\, Гер
+ мания
+DESCRIPTION:Выставка видеоарта Николь Миллер
+ \, исследующая восприятие звука и эха в с
+ оциальном пространстве.\nNicole Miller\nhttps://www.
+ indexberlin.de/exhibitions/list/46665/st-martin-the-echo
+URL:https://doublebasskakov.github.io/radar/#e=st-martin-the-echo-berlin
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: St. Martin & the Echo
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Радар — Россия · city-rome
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:russian-film-festival-in-rome-rome@afisha-art
+DTSTAMP:20261122T123237Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261125
+SUMMARY:Фестиваль российского кино в Риме
+LOCATION:Русский дом в Риме\, Рим
+DESCRIPTION:Трехдневный смотр российского ки
+ но проходит на площадке Русского дома в 
+ Риме.\n\nhttps://kino.mail.ru/news/145379-v-rime-otkryilsya-pervyij-f
+ estival-rossijskogo-kino-nesmotrya-na-popyitki-sryiva/
+URL:https://doublebasskakov.github.io/radar/#e=russian-film-festival-in-r
+ ome-rome
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Фестиваль российского кино в Рим
+ е
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

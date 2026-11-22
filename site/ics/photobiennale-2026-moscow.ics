@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:photobiennale-2026-moscow@afisha-art
+DTSTAMP:20261122T123237Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Фотобиеннале 2026
+LOCATION:МАММ\, Остоженка\, 16\, Москва
+DESCRIPTION:Новый сезон крупнейшего фотограф
+ ического форума с экспозициями ключевы
+ х современных авторов.\nМультимедиа Арт 
+ Музей\, Москва\nhttps://t.me/pennlab/2387
+URL:https://doublebasskakov.github.io/radar/#e=photobiennale-2026-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Фотобиеннале 2026
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

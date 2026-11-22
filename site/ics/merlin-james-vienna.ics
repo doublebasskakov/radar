@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:merlin-james-vienna@afisha-art
+DTSTAMP:20261122T123237Z
+DTSTART;VALUE=DATE:20270604
+DTEND;VALUE=DATE:20270605
+SUMMARY:Открытие: Merlin James
+LOCATION:Secession\, Friedrichstraße 12\, 1010 Wien\, Вена\, Авс
+ трия
+DESCRIPTION:Персональная выставка британско
+ го живописца и автора текстов о стэнков
+ кой живописи Мерлина Джеймса.\nMerlin James\nhtt
+ ps://secession.at/en/
+URL:https://doublebasskakov.github.io/radar/#e=merlin-james-vienna
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Merlin James
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

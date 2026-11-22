@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:savitsky-s-diaries-old-and-new-tashkent@afisha-art
+DTSTAMP:20261122T123237Z
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+SUMMARY:Последний день: Дневники Савицкого.
+  Старое и новое
+LOCATION:Tashkent City Mall\, Ташкент\, Узбекистан
+DESCRIPTION:Мультимедийная выставка\, погруж
+ ающая зрителя в историю создания уникал
+ ьной коллекции Нукусского музея искусс
+ тв через современные технологии.\nИгорь 
+ Савицкий\nhttps://www.afisha.uz/ru/exhibitions/2026/10/22/savitsk
+ ys-diaries
+URL:https://doublebasskakov.github.io/radar/#e=savitsky-s-diaries-old-and
+ -new-tashkent
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Дневники Савицко
+ го. Старое и новое
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

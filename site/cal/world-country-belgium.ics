@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:ina-grm-acousmonium-brussels@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART:20270127T183000Z
 DTEND:20270127T203000Z
 SUMMARY:Ina GRM – Acousmonium
@@ -31,7 +31,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:grm-acousmonium-set-1-brussels@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART:20270130T191500Z
 DTEND:20270130T211500Z
 SUMMARY:GRM Acousmonium (сет 1)
@@ -52,7 +52,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:grm-acousmonium-set-2-brussels@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART:20270130T202000Z
 DTEND:20270130T222000Z
 SUMMARY:GRM Acousmonium (сет 2)
@@ -73,7 +73,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:grm-acousmonium-set-3-brussels@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART:20270130T211500Z
 DTEND:20270130T231500Z
 SUMMARY:GRM Acousmonium (сет 3)
@@ -94,7 +94,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ina-grm-acousmonium-xx-xxi-brussels@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART:20270129T190000Z
 DTEND:20270129T210000Z
 SUMMARY:Ina GRM – Acousmonium (XX-XXI)
@@ -114,7 +114,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:grm-bozar-acousmonium-2027@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART:20270127T183000Z
 DTEND:20270127T203000Z
 SUMMARY:INA GRM: Акусмониум в Bozar
@@ -133,7 +133,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ina-grm-acousmonium-total-immersion-brussels@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART:20270128T193000Z
 DTEND:20270128T213000Z
 SUMMARY:Ina GRM – Acousmonium (Total Immersion)
@@ -152,9 +152,28 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:charbel-rouhana-brussels@afisha-art
+DTSTAMP:20261122T123237Z
+DTSTART:20261122T190000Z
+DTEND:20261122T210000Z
+SUMMARY:Charbel Rouhana
+LOCATION:Bozar\, Rue Ravenstein 23\, 1000 Brussels\, Брюссель\, 
+ Бельгия
+DESCRIPTION:Концерт известного ливанского му
+ зыканта и композитора\, мастера игры на 
+ уде.\nCharbel Rouhana\nhttps://www.bozar.be/en/calendar/charbel-rouhan
+ a
+URL:https://doublebasskakov.github.io/radar/#e=charbel-rouhana-brussels
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Charbel Rouhana
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:william-kentridge-i-am-not-me-the-horse-is-not-mine-brussels-2@afisha
  -art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270308
 SUMMARY:Последний день: Выставка Ульяма Кен
@@ -176,7 +195,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:william-kentridge-i-am-not-me-the-horse-is-not-mine-brussels@afisha-a
  rt
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270308
 SUMMARY:Последний день: William Kentridge: I am not me\, the
@@ -197,7 +216,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:house-of-memory-by-basil-al-rawi-brussels-4@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261123
 SUMMARY:House of Memory / بيت الذاكرة: Басил Аль-Рав
@@ -220,7 +239,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:edith-dekyndt-x-cristo-bal-balenciaga-the-fabric-decides-brussels-2@a
  fisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:Последний день: Выставка «Edith Dekyndt x C
@@ -242,7 +261,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:house-of-memory-by-basil-al-rawi-brussels-2@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261123
 SUMMARY:Дом памяти / بيت الذاكرة
@@ -261,7 +280,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:house-of-memory-by-basil-al-rawi-brussels@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Последний день: House of Memory / بيت الذاك
@@ -283,7 +302,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:edith-dekyndt-x-cristo-bal-balenciaga-the-fabric-decides-brussels@afi
  sha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:Последний день: Edith Dekyndt x Cristóbal Balenciag
@@ -304,7 +323,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:jean-brusselmans-painter-by-nature-brussels@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:Последний день: Jean Brusselmans: Painter by Nature
@@ -324,7 +343,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:house-of-memory-by-basil-al-rawi-brussels-3@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261123
 SUMMARY:House of Memory / بيت الذاكرة
@@ -343,7 +362,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:jean-brusselmans-painter-by-nature-brussels-2@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:Последний день: Выставка «Жан Брюсс
@@ -363,7 +382,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:the-six-reiner-holzemer-brussels@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:Последний день: The Six — Райнер Хольц
@@ -384,7 +403,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:the-six-reiner-holzemer-brussels-2@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:Последний день: The Six - Reiner Holzemer
@@ -403,7 +422,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nova-78-aaron-brookner-rodrigo-areias-brussels-2@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Последний день: Nova '78 — Аарон Брукне
@@ -424,7 +443,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nova-78-aaron-brookner-rodrigo-areias-brussels@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Последний день: Нова '78
@@ -443,7 +462,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-central-never-alone-brussels@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
 SUMMARY:Последний день: Выставка «Central. Never Al
@@ -463,7 +482,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nova-78-aaron-brookner-rodrigo-areias-brussels-3@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Последний день: Nova '78 - Aaron Brookner & Rodrigo 
@@ -484,7 +503,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:central-never-alone-brussels@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
 SUMMARY:Последний день: Central. Never Alone
@@ -497,6 +516,67 @@ URL:https://doublebasskakov.github.io/radar/#e=central-never-alone-brusse
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Последний день: Central. Never Alone
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ai-weiwei-s-turandot-maxim-derevianko-brussels@afisha-art
+DTSTAMP:20261122T123237Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Открытие: Ai Weiwei's Turandot - Maxim Derevianko
+LOCATION:Bozar\, Rue Ravenstein 23\, 1000 Brussels\, Брюссель\, 
+ Бельгия
+DESCRIPTION:Киноверсия оперы Пуччини «Туранд
+ от» в постановке всемирно известного со
+ временного художника и активиста Ай Вэй
+ вэя.\nAi Weiwei\, Maxim Derevianko\nhttps://www.bozar.be/en/calendar/a
+ i-weiweis-turandot-maxim-derevianko
+URL:https://doublebasskakov.github.io/radar/#e=ai-weiwei-s-turandot-maxim
+ -derevianko-brussels
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Ai Weiwei's Turandot - Maxim Derevianko
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:house-of-memory-by-basil-al-rawi-brussels-5@afisha-art
+DTSTAMP:20261122T123237Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:House of Memory / بيت الذاكرة by Basil Al-Rawi
+LOCATION:Bozar\, Rue Ravenstein 23\, 1000 Brussels\, Брюссель\, 
+ Бельгия
+DESCRIPTION:Иммерсивное VR-путешествие через 
+ архивы и иракские истории\, исследующее 
+ цифровую память.\nBasil Al-Rawi\nhttps://www.bozar.be/en/ca
+ lendar/house-memory-byt-aldhakrt-basil-al-rawi
+URL:https://doublebasskakov.github.io/radar/#e=house-of-memory-by-basil-a
+ l-rawi-brussels-5
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:House of Memory / بيت الذاكرة by Basil Al-Rawi
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:barbara-forever-brydie-o-connor-brussels@afisha-art
+DTSTAMP:20261122T123237Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261130
+SUMMARY:Barbara Forever - Brydie O'Connor
+LOCATION:Bozar\, Rue Ravenstein 23\, 1000 Brussels\, Брюссель\, 
+ Бельгия
+DESCRIPTION:Документальное кино\, посвященно
+ е жизни и творчеству квир-иконы и художн
+ ицы Барбары Хаммер.\nBrydie O'Connor\nhttps://www.bozar.b
+ e/en/calendar/barbara-forever-brydie-oconnor
+URL:https://doublebasskakov.github.io/radar/#e=barbara-forever-brydie-o-c
+ onnor-brussels
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Barbara Forever - Brydie O'Connor
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

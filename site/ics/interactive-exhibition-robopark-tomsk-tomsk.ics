@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:interactive-exhibition-robopark-tomsk-tomsk@afisha-art
+DTSTAMP:20261122T123237Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Открытие: Интерактивная выставка Р
+ обопарк Томск
+LOCATION:Робопарк\, Томск
+DESCRIPTION:Масштабная технологическая выст
+ авка с участием роботов и применением т
+ ехнологий виртуальной реальности.\n\nhttps:
+ //www.afisha.ru/exhibition/interaktivnaya-vystavka-robopark-tomsk-1015984
+ /
+URL:https://doublebasskakov.github.io/radar/#e=interactive-exhibition-rob
+ opark-tomsk-tomsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Интерактивная выставка
+  Робопарк Томск
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:book-club-book-museum-of-the-apocalypse-tomsk@afisha-art
+DTSTAMP:20261122T123237Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:Книжный клуб «Книга: музей апокалип
+ сиса»
+LOCATION:Томский центр современной культур
+ ы\, Томск
+DESCRIPTION:Встреча книжного клуба\, посвящен
+ ная обсуждению литературы и культурных 
+ концепций апокалипсиса.\n\nhttps://www.afisha.ru/exh
+ ibition/knizhniy-klub-kniga-muziy-apokalipsisa-1016007/
+URL:https://doublebasskakov.github.io/radar/#e=book-club-book-museum-of-t
+ he-apocalypse-tomsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Книжный клуб «Книга: музей апокал
+ ипсиса»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

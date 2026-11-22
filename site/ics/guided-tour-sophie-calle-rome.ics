@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:guided-tour-sophie-calle-rome@afisha-art
+DTSTAMP:20261122T123237Z
+DTSTART:20261122T103000Z
+DTEND:20261122T123000Z
+SUMMARY:Экскурсия с гидом по выставке Софи 
+ Калле
+LOCATION:MAXXI\, Via Guido Reni 4a\, Roma\, Рим\, Италия
+DESCRIPTION:Кураторская экскурсия по экспози
+ ции Софи Калле с подробным разбором клю
+ чевых концептуальных работ.\nMAXXI Education\nhtt
+ ps://www.maxxi.art/en/events/sophie-calle-visita-guidata-22novembre/
+URL:https://doublebasskakov.github.io/radar/#e=guided-tour-sophie-calle-r
+ ome
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Экскурсия с гидом по выставке Соф
+ и Калле
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

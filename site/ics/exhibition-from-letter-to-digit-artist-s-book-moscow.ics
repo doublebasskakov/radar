@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:exhibition-from-letter-to-digit-artist-s-book-moscow@afisha-art
+DTSTAMP:20261122T123237Z
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+SUMMARY:Последний день: Выставка «От буквы 
+ к цифре. Книга художника»
+LOCATION:Галерея «Краснохолмская»\, Краснох
+ олмская наб.\, 1/15\, Москва
+DESCRIPTION:Исследование жанра книги художни
+ ка от футуристических альманахов до сов
+ ременных цифровых и мультимедийных про
+ ектов.\nСевиль Набиева\, Аня Белка\nhttps://t.m
+ e/kholmygallery/1938
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-from-letter-to-
+ digit-artist-s-book-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Выставка «От букв
+ ы к цифре. Книга художника»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

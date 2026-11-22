@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:el-anatsui-vienna@afisha-art
+DTSTAMP:20261122T123237Z
+DTSTART;VALUE=DATE:20271203
+DTEND;VALUE=DATE:20271204
+SUMMARY:Открытие: El Anatsui
+LOCATION:Secession\, Friedrichstraße 12\, 1010 Wien\, Вена\, Авс
+ трия
+DESCRIPTION:Масштабная выставка знаменитого 
+ ганского скульптора Эля Анацуи\, извест
+ ного своими монументальными инсталляци
+ ями из металлических крышек.\nEl Anatsui\nhttps:/
+ /secession.at/en/
+URL:https://doublebasskakov.github.io/radar/#e=el-anatsui-vienna
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: El Anatsui
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:educational-program-of-catalog-fair-moscow@afisha-art
+DTSTAMP:20261122T123237Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:Образовательная программа ярмарки 
+ |catalog|
+LOCATION:Лекторий ярмарки |catalog|\, Москва
+DESCRIPTION:Серия дискуссий о влиянии дизайн
+ а и архитектуры на человека\, содержании
+  в современном искусстве и фотографии з
+ а пределами медиума.\nШкола masters\, Афиша Da
+ ily\, ВШЭ\nhttps://t.me/pennlab/2387
+URL:https://doublebasskakov.github.io/radar/#e=educational-program-of-cat
+ alog-fair-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Образовательная программа ярмар
+ ки |catalog|
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

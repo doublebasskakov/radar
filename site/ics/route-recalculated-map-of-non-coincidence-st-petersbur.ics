@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:route-recalculated-map-of-non-coincidence-st-petersbur@afisha-art
+DTSTAMP:20261122T123237Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261129
+SUMMARY:Маршрут перестроен: карта не-совпад
+ ения
+LOCATION:Концертный зал в здании Екатеринин
+ ского собрания\, Санкт-Петербург
+DESCRIPTION:Фотовыставка Анастасии Мячиной\, 
+ посвященная теме перемещения и личной г
+ еографии.\nАнастасия Мячина\nhttps://www.afisha.ru
+ /spb/schedule_exhibition/modern_art/
+URL:https://doublebasskakov.github.io/radar/#e=route-recalculated-map-of-
+ non-coincidence-st-petersbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Маршрут перестроен: карта не-совп
+ адения
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

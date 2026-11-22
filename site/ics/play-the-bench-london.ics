@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:play-the-bench-london@afisha-art
+DTSTAMP:20261122T123237Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Спектакль «Скамейка»
+LOCATION:Лондон\, Лондон\, Великобритания
+DESCRIPTION:Показ известной камерной пьесы А
+ лександра Гельмана о случайной встрече 
+ мужчины и женщины в парке.\nАлександр Ге
+ льман\nhttps://t.me/afishalondon/11285
+URL:https://doublebasskakov.github.io/radar/#e=play-the-bench-london
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спектакль «Скамейка»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

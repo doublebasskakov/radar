@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:broadcast-of-partitura-contest-gala-concert-online@afisha-art
+DTSTAMP:20261122T123237Z
+DTSTART:20261122T110000Z
+DTEND:20261122T130000Z
+SUMMARY:Трансляция гала-концерта конкурса 
+ «Партитура»
+LOCATION:Телеканал «Россия-Культура»\, Онла
+ йн
+DESCRIPTION:Телевизионная премьера гала-конц
+ ерта\, представляющего сочинения победи
+ телей конкурса новой академической муз
+ ыки.\nМолодые композиторы России\nhttps://t.me
+ /orpheusradio/51769
+URL:https://doublebasskakov.github.io/radar/#e=broadcast-of-partitura-con
+ test-gala-concert-online
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Трансляция гала-концерта конкурс
+ а «Партитура»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

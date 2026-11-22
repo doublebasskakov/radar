@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:kaliningrad-trash-museum-kaliningrad@afisha-art
+DTSTAMP:20261122T123237Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:Музей мусора Калининграда
+LOCATION:Художественный музей мусора\, Кали
+ нинград
+DESCRIPTION:Выставка арт-объектов\, созданных
+  из переработанных отходов\, на стыке эк
+ ологического активизма и современного 
+ искусства.\n\nhttps://www.afisha.ru/exhibition/muzey-musora-kali
+ ningrada-1010122/#rcmrclid=ed5548b64a3c38cf
+URL:https://doublebasskakov.github.io/radar/#e=kaliningrad-trash-museum-k
+ aliningrad
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Музей мусора Калининграда
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

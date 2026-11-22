@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:cosmos-exhibition-moscow@afisha-art
+DTSTAMP:20261122T123237Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Открытие: Выставка «Космос»
+LOCATION:Арт-пространство «Cube.Moscow»\, Москва
+DESCRIPTION:Групповая выставка резидентов га
+ лереи ЛУЧ и приглашённых авторов\, раскр
+ ывающая тему космоса через живопись\, гр
+ афику\, объекты\, скульптуру и видеоарт.\n
+ Галерея ЛУЧ\nhttps://t.me/cube_moscow/9623
+URL:https://doublebasskakov.github.io/radar/#e=cosmos-exhibition-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка «Космос»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

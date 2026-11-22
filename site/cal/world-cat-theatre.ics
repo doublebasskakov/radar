@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:cinderella-ballet-tashkent@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART:20261128T140000Z
 DTEND:20261128T160000Z
 SUMMARY:Балет «Золушка»
@@ -29,7 +29,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:theatre-performance-la-mort-du-mo-me-by-se-bastien-kheroufi-paris@afi
  sha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART:20261119T183000Z
 DTEND:20261119T203000Z
 SUMMARY:Открытие: Спектакль Себастьяна Кер
@@ -49,7 +49,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nodirabegim-play-tashkent@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART:20261125T130000Z
 DTEND:20261125T150000Z
 SUMMARY:Спектакль «Nodirabegim»
@@ -71,7 +71,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:premiere-of-the-play-alone-in-the-universe-dubai@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART:20261204T160000Z
 DTEND:20261204T180000Z
 SUMMARY:Премьера спектакля «Одни во Вселен
@@ -95,7 +95,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ballet-the-lady-of-the-camellias-tashkent@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART:20261204T140000Z
 DTEND:20261204T160000Z
 SUMMARY:Балет «Дама с камелиями»
@@ -118,7 +118,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:play-osmon-hamma-gapni-eshitadi-tashkent@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART:20261123T130000Z
 DTEND:20261123T150000Z
 SUMMARY:Спектакль «Osmon hamma gapni eshitadi»
@@ -141,7 +141,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:play-eringizni-menga-soting-tashkent@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART:20261129T090000Z
 DTEND:20261129T110000Z
 SUMMARY:Спектакль «Eringizni menga soting»
@@ -163,7 +163,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:premiere-of-the-comedy-play-maysara-tashkent@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART:20261128T120000Z
 DTEND:20261128T140000Z
 SUMMARY:Премьера комедийного спектакля «Mays
@@ -186,7 +186,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:play-do-not-part-with-your-loved-ones-tashkent@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART:20261127T140000Z
 DTEND:20261127T160000Z
 SUMMARY:Спектакль «С любимыми не расставай
@@ -211,7 +211,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:the-overcoat-tbilisi@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART:20261122T160000Z
 DTEND:20261122T180000Z
 SUMMARY:Спектакль «Шинель»
@@ -230,7 +230,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sherlock-holmes-and-the-12-days-of-christmas-london@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART:20261124T193000Z
 DTEND:20261124T213000Z
 SUMMARY:Открытие: Sherlock Holmes and the 12 Days of Christmas
@@ -251,7 +251,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:performance-les-jeux-de-l-amour-et-de-l-e-nigme-paris@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART:20270318T180000Z
 DTEND:20270318T200000Z
 SUMMARY:Спектакль «Les Jeux de l'amour et de l'énigme»
@@ -270,8 +270,30 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:damien-jalet-kohei-nawa-planet-wanderer-berlin@afisha-art
+DTSTAMP:20261122T123237Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261206
+SUMMARY:Damien Jalet & Kohei Nawa: Planet [wanderer]
+LOCATION:Haus der Berliner Festspiele\, Schaperstraße 24\, 10719 Berlin\
+ , Берлин\, Германия
+DESCRIPTION:Гипнотический хореографический 
+ перформанс Дамьена Жале и Кохэй Навы\, и
+ сследующий гравитацию\, мифологию и свя
+ зь человеческого тела с природой.\nDamien Jal
+ et\, Kohei Nawa\nhttps://www.berlinerfestspiele.de/en/performing-arts-sea
+ son/programm/2026/spielplan/planet-wanderer
+URL:https://doublebasskakov.github.io/radar/#e=damien-jalet-kohei-nawa-pl
+ anet-wanderer-berlin
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Damien Jalet & Kohei Nawa: Planet [wanderer]
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:lost-stories-performance-london@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:Спектакль Lost Stories
@@ -293,7 +315,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:la-boheme-opera-and-glam-night-christmas-party-berlin@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:Опера «Богема» и рождественская ве
@@ -315,7 +337,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:play-gromkie-tbilisi@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART;VALUE=DATE:20270406
 DTEND;VALUE=DATE:20270407
 SUMMARY:Спектакль «Громкие»
@@ -334,7 +356,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:christmas-tree-lighting-ceremony-london@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:Церемония зажжения огней на рождес
@@ -356,8 +378,26 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:play-the-bench-london@afisha-art
+DTSTAMP:20261122T123237Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Спектакль «Скамейка»
+LOCATION:Лондон\, Лондон\, Великобритания
+DESCRIPTION:Показ известной камерной пьесы А
+ лександра Гельмана о случайной встрече 
+ мужчины и женщины в парке.\nАлександр Ге
+ льман\nhttps://t.me/afishalondon/11285
+URL:https://doublebasskakov.github.io/radar/#e=play-the-bench-london
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спектакль «Скамейка»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:blackbird-bath@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART;VALUE=DATE:20270204
 DTEND;VALUE=DATE:20270205
 SUMMARY:Открытие: Blackbird
@@ -375,7 +415,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pygmalion-bath@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART;VALUE=DATE:20270813
 DTEND;VALUE=DATE:20270814
 SUMMARY:Открытие: Pygmalion
@@ -392,7 +432,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a-german-life-bath@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART;VALUE=DATE:20270312
 DTEND;VALUE=DATE:20270313
 SUMMARY:Открытие: A German Life
@@ -409,7 +449,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:seven-moons-at-ilkhom-theatre-tashkent@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Спектакль «Семь лун» в театре «Ильх
@@ -430,7 +470,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:romantics-anonymous-bath@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART;VALUE=DATE:20270709
 DTEND;VALUE=DATE:20270710
 SUMMARY:Открытие: Romantics Anonymous
@@ -446,30 +486,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:damien-jalet-kohei-nawa-planet-wanderer-berlin@afisha-art
-DTSTAMP:20261121T213936Z
-DTSTART;VALUE=DATE:20261204
-DTEND;VALUE=DATE:20261206
-SUMMARY:Damien Jalet & Kohei Nawa: Planet [wanderer]
-LOCATION:Haus der Berliner Festspiele\, Schaperstraße 24\, 10719 Berlin\
- , Берлин\, Германия
-DESCRIPTION:Гипнотический хореографический 
- перформанс Дамьена Жале и Кохэй Навы\, и
- сследующий гравитацию\, мифологию и свя
- зь человеческого тела с природой.\nDamien Jal
- et\, Kohei Nawa\nhttps://www.berlinerfestspiele.de/en/performing-arts-sea
- son/programm/2026/spielplan/planet-wanderer
-URL:https://doublebasskakov.github.io/radar/#e=damien-jalet-kohei-nawa-pl
- anet-wanderer-berlin
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Damien Jalet & Kohei Nawa: Planet [wanderer]
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:minsk-sea-performance-vilnius@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Спектакль «Минское море»

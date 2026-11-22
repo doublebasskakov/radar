@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:voronezh-kamerata-ceam@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART:20261129T150000Z
 DTEND:20261129T170000Z
 SUMMARY:CEAM Artists на «Воронежской камерате»
@@ -23,6 +23,31 @@ URL:https://doublebasskakov.github.io/radar/#e=voronezh-kamerata-ceam
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:CEAM Artists на «Воронежской камерате»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:vasily-beynarovich-faust-of-the-21st-century-how-not-to-rais-voronezh
+ @afisha-art
+DTSTAMP:20261122T123237Z
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
+SUMMARY:Василий Бейнарович\, Фауст 21 века. К
+ ак не воспитать серийного убийцу
+LOCATION:Воронежский городской дворец куль
+ туры\, Воронеж
+DESCRIPTION:Лекция автора популярного блога 
+ о криминалистике\, посвященная психолог
+ ическим аспектам формирования личности
+ .\nВасилий Бейнарович\nhttps://www.afisha.ru/exhibition/
+ vasiliy-beynarovich-faust-21-veka-kak-ne-vospitat-seriynogo-ubiycu-101282
+ 2/
+URL:https://doublebasskakov.github.io/radar/#e=vasily-beynarovich-faust-o
+ f-the-21st-century-how-not-to-rais-voronezh
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Василий Бейнарович\, Фауст 21 века.
+  Как не воспитать серийного убийцу
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

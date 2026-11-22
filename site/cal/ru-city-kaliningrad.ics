@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:the-magnificent-hermitage-kaliningrad@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:Великолепный Эрмитаж
@@ -27,8 +27,31 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:borodin-between-laboratory-and-music-lecture-kaliningrad@afisha-art
+DTSTAMP:20261122T123237Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:Лекция «Бородин: между лабораторие
+ й и музыкой»
+LOCATION:Третьяковская галерея. Калинингра
+ д\, Калининград\, Калининград
+DESCRIPTION:Культурно-просветительская лекц
+ ия о многогранной деятельности компози
+ тора и ученого Александра Бородина.\n\nhttp
+ s://www.afisha.ru/exhibition/lekciya-borodin-mezhdu-laboratoriey-i-muzyki
+ y-1016811/#rcmrclid=490d8dab3178b7e3
+URL:https://doublebasskakov.github.io/radar/#e=borodin-between-laboratory
+ -and-music-lecture-kaliningrad
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекция «Бородин: между лаборатор
+ ией и музыкой»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:lecture-in-search-of-sound-color-kaliningrad@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Лекция «В поисках звукоцвета»
@@ -49,7 +72,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:magnificent-hermitage-exhibition-kaliningrad@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
 SUMMARY:Открытие: Выставка «Великолепный Э
@@ -71,7 +94,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-dot-and-line-kaliningrad@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART;VALUE=DATE:20270112
 DTEND;VALUE=DATE:20270113
 SUMMARY:Последний день: Выставка «Точка и л
@@ -93,7 +116,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-beauties-and-beasts-kaliningrad@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Последний день: Выставка «Красавиц
@@ -117,7 +140,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-marine-industrial-ours-kaliningrad@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Последний день: Выставка «Морской. 
@@ -141,7 +164,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:contemporary-art-exhibition-marine-industrial-ours-kaliningrad@afisha
  -art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Последний день: Выставка современн
@@ -166,7 +189,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sea-of-opportunities-interactive-exhibition-kaliningrad@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
 SUMMARY:Последний день: Интерактивная выст
@@ -190,7 +213,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:new-year-performance-amber-heart-80-lights-of-the-baltic-kaliningrad@
  afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART;VALUE=DATE:20261223
 DTEND;VALUE=DATE:20261224
 SUMMARY:Новогодний спектакль «Янтарное сер
@@ -210,31 +233,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:borodin-between-laboratory-and-music-lecture-kaliningrad@afisha-art
-DTSTAMP:20261121T213936Z
-DTSTART;VALUE=DATE:20261213
-DTEND;VALUE=DATE:20261214
-SUMMARY:Лекция «Бородин: между лабораторие
- й и музыкой»
-LOCATION:Третьяковская галерея. Калинингра
- д\, Калининград\, Калининград
-DESCRIPTION:Культурно-просветительская лекц
- ия о многогранной деятельности компози
- тора и ученого Александра Бородина.\n\nhttp
- s://www.afisha.ru/exhibition/lekciya-borodin-mezhdu-laboratoriey-i-muzyki
- y-1016811/#rcmrclid=490d8dab3178b7e3
-URL:https://doublebasskakov.github.io/radar/#e=borodin-between-laboratory
- -and-music-lecture-kaliningrad
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Лекция «Бородин: между лаборатор
- ией и музыкой»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:history-hall-of-the-tretyakov-gallery-kaliningrad@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART;VALUE=DATE:20270112
 DTEND;VALUE=DATE:20270113
 SUMMARY:Последний день: Зал Истории Третьяк
@@ -257,7 +257,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:the-deluge-kaliningrad@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART;VALUE=DATE:20270122
 DTEND;VALUE=DATE:20270123
 SUMMARY:Последний день: Потоп
@@ -277,7 +277,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-sea-of-opportunities-kaliningrad@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART;VALUE=DATE:20270112
 DTEND;VALUE=DATE:20270113
 SUMMARY:Последний день: Выставка «Море возм
@@ -299,7 +299,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:vasily-beynarovich-faust-of-the-21st-century-kaliningrad@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Василий Бейнарович\, Фауст 21 века. К
@@ -322,7 +322,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:installation-the-flood-kaliningrad@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART;VALUE=DATE:20270122
 DTEND;VALUE=DATE:20270123
 SUMMARY:Последний день: Инсталляция «Потоп
@@ -344,7 +344,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sea-of-possibilities-kaliningrad@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART;VALUE=DATE:20270114
 DTEND;VALUE=DATE:20270115
 SUMMARY:Последний день: Море возможностей
@@ -366,7 +366,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:kgd-tretyakov-tochka-i-liniya@afisha-art
-DTSTAMP:20261121T213936Z
+DTSTAMP:20261122T123237Z
 DTSTART;VALUE=DATE:20270328
 DTEND;VALUE=DATE:20270329
 SUMMARY:Последний день: «Точка и линия»
@@ -381,6 +381,27 @@ URL:https://doublebasskakov.github.io/radar/#e=kgd-tretyakov-tochka-i-lin
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Последний день: «Точка и линия»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kaliningrad-trash-museum-kaliningrad@afisha-art
+DTSTAMP:20261122T123237Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:Музей мусора Калининграда
+LOCATION:Художественный музей мусора\, Кали
+ нинград
+DESCRIPTION:Выставка арт-объектов\, созданных
+  из переработанных отходов\, на стыке эк
+ ологического активизма и современного 
+ искусства.\n\nhttps://www.afisha.ru/exhibition/muzey-musora-kali
+ ningrada-1010122/#rcmrclid=ed5548b64a3c38cf
+URL:https://doublebasskakov.github.io/radar/#e=kaliningrad-trash-museum-k
+ aliningrad
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Музей мусора Калининграда
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

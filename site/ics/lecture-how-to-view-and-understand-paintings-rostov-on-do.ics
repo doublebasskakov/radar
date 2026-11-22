@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:lecture-how-to-view-and-understand-paintings-rostov-on-do@afisha-art
+DTSTAMP:20261122T123237Z
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270121
+SUMMARY:Лекция «Как смотреть и понимать кар
+ тины»
+LOCATION:Шолохов-центр\, Ростов-на-Дону
+DESCRIPTION:Теоретическое занятие по основам
+  искусствоведческого анализа для широк
+ ого круга слушателей.\n\nhttps://www.afisha.ru/exhibiti
+ on/lekciya-kak-smotret-i-ponimat-kartiny-1008930/
+URL:https://doublebasskakov.github.io/radar/#e=lecture-how-to-view-and-un
+ derstand-paintings-rostov-on-do
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекция «Как смотреть и понимать к
+ артины»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

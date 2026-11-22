@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:the-planets-of-the-little-prince-perm@afisha-art
+DTSTAMP:20261122T123237Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Планеты Маленького Принца
+LOCATION:Планетарий\, Пермь
+DESCRIPTION:Мультимедийная полнокупольная и
+ нтерпретация сказки Экзюпери\, сочетающ
+ ая цифровую графику и литературный сюже
+ т.\n\nhttps://www.afisha.ru/prm/schedule_exhibition/
+URL:https://doublebasskakov.github.io/radar/#e=the-planets-of-the-little-
+ prince-perm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Планеты Маленького Принца
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

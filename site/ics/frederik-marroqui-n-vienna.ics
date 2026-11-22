@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:frederik-marroqui-n-vienna@afisha-art
+DTSTAMP:20261122T123237Z
+DTSTART;VALUE=DATE:20270910
+DTEND;VALUE=DATE:20270911
+SUMMARY:Открытие: Frederik Marroquín
+LOCATION:Secession\, Friedrichstraße 12\, 1010 Wien\, Вена\, Авс
+ трия
+DESCRIPTION:Персональная выставка художника 
+ Фредерика Маррокина в венском Сецессио
+ не.\nFrederik Marroquín\nhttps://secession.at/en/
+URL:https://doublebasskakov.github.io/radar/#e=frederik-marroqui-n-vienna
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Frederik Marroquín
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:packaging-station-samara@afisha-art
+DTSTAMP:20261122T123237Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:Упаковочная станция
+LOCATION:Галерея «Виктория»\, Самара
+DESCRIPTION:Художественный проект\, анализир
+ ующий эстетику упаковки и повседневных 
+ материалов через призму современного и
+ скусства.\n\nhttps://www.afisha.ru/samara/schedule_exhibition/
+URL:https://doublebasskakov.github.io/radar/#e=packaging-station-samara
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Упаковочная станция
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:lucie-stahl-vienna@afisha-art
+DTSTAMP:20261122T123237Z
+DTSTART;VALUE=DATE:20270312
+DTEND;VALUE=DATE:20270313
+SUMMARY:Открытие: Lucie Stahl
+LOCATION:Secession\, Friedrichstraße 12\, 1010 Wien\, Вена\, Авс
+ трия
+DESCRIPTION:Персональная выставка современн
+ ой немецкой художницы Люси Шталь.\nLucie Stah
+ l\nhttps://secession.at/ausstellung_lucie_stahl
+URL:https://doublebasskakov.github.io/radar/#e=lucie-stahl-vienna
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Lucie Stahl
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR
