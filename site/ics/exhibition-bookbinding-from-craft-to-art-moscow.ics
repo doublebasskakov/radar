@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:exhibition-bookbinding-from-craft-to-art-moscow@afisha-art
+DTSTAMP:20261123T141501Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:Выставка «Книжный переплёт: от реме
+ сла к искусству»
+LOCATION:Пушкинский музей (Главное здание)\, 
+ ул. Волхонка\, 12\, Москва
+DESCRIPTION:В Главном здании Пушкинского муз
+ ея открывается экспозиция\, посвященная
+  эволюции книжного переплета от ремесле
+ нного изделия до произведения искусств
+ а.\nПушкинский музей\nhttps://t.me/orpheusradio/51803
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-bookbinding-fro
+ m-craft-to-art-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выставка «Книжный переплёт: от ре
+ месла к искусству»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

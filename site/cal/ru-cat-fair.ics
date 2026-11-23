@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:oberton-graphic-art-fair-moscow@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261203T090000Z
 DTEND:20261203T110000Z
 SUMMARY:Ярмарка графики «Обертон»
@@ -28,7 +28,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:samara-osenniy-auktsion-2026@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261126T150000Z
 DTEND:20261126T170000Z
 SUMMARY:VII Осенний аукцион современного иск
@@ -51,7 +51,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iskrafest-festival-krasnoyarsk@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261129T080000Z
 DTEND:20261129T100000Z
 SUMMARY:Фестиваль «Искрафест»
@@ -70,8 +70,29 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:christmas-market-at-stankozavod-samara@afisha-art
+DTSTAMP:20261123T141501Z
+DTSTART:20261212T080000Z
+DTEND:20261212T100000Z
+SUMMARY:Рождественский маркет на Станкозав
+ оде
+LOCATION:Станкозавод\, ул. Куйбышева\, 128а\, Са
+ мара
+DESCRIPTION:Ежегодная ярмарка локальных брен
+ дов с лекторием от издательства МИФ и ма
+ стер-классами.\n\nhttps://t.me/stzv_afisha/3897
+URL:https://doublebasskakov.github.io/radar/#e=christmas-market-at-stanko
+ zavod-samara
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Рождественский маркет на Станкоз
+ аводе
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:typoartmarket-tam-ulan-ude@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261221T080000Z
 DTEND:20261221T100000Z
 SUMMARY:ТипоАртМаркет (TAM)
@@ -90,7 +111,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:art-basel-miami-beach-contemporary-art-fair-miami@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261207
 SUMMARY:Ярмарка современного искусства Art Ba
@@ -112,7 +133,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:spb-diaghilev-ps-2026@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 SUMMARY:Последний день: Фестиваль «Дягилев 
@@ -135,7 +156,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:oberton-fair-2026@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261207
 SUMMARY:«Обертон» — ярмарка графики Cosmoscow
@@ -155,8 +176,26 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:graphic-arts-fair-obertone-st-petersbur@afisha-art
+DTSTAMP:20261123T141501Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261207
+SUMMARY:Ярмарка графики «Обертон»
+LOCATION:TBA\, TBA\, Санкт-Петербург
+DESCRIPTION:Вторая ярмарка графики от команд
+ ы Cosmoscow с участием ведущих российских га
+ лерей.\nNone\nhttps://t.me/af_1703/4510
+URL:https://doublebasskakov.github.io/radar/#e=graphic-arts-fair-obertone
+ -st-petersbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ярмарка графики «Обертон»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:overton-online-graphics-fair-moscow@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Открытие: Онлайн-ярмарка графики «О
@@ -176,8 +215,30 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:pre-new-year-book-festival-razvorot-saint-peters@afisha-art
+DTSTAMP:20261123T141501Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261221
+SUMMARY:Предновогодний книжный фестиваль «
+ Разворот»
+LOCATION:Севкабель Порт\, Кожевенная линия\, 
+ д. 40\, Санкт-Петербург
+DESCRIPTION:Книжная ярмарка с участием незав
+ исимых издательств\, лекторием и фокусо
+ м на архивы\, мемуары и автофикшн.\n\nhttps://t
+ .me/sevcableport/7069
+URL:https://doublebasskakov.github.io/radar/#e=pre-new-year-book-festival
+ -razvorot-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Предновогодний книжный фестивал
+ ь «Разворот»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:smena-winter-book-fest@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261207
 SUMMARY:Зимний книжный фестиваль «Смены»
@@ -197,7 +258,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:painting-and-graphics-exhibition-with-auction-moscow@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 SUMMARY:Открытие: Выставка живописи и графи
@@ -221,7 +282,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:art-fair-christmas-tree-under-the-dome-saint-peters@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261221
 SUMMARY:Арт-ярмарка «Елка под куполом»
@@ -242,7 +303,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:new-year-red-market-perm@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261221
 SUMMARY:Новогодний RED MARKET
@@ -260,7 +321,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:kucha3-fair-moscow@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261221
 SUMMARY:Ярмарка «Куча³»
@@ -280,7 +341,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dafes-awards-25-ceremony-moscow@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Церемония награждения DAFES AWARDS ’25
@@ -300,7 +361,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:presentation-of-the-limited-clothing-collection-autograph-yekaterinbu
  r@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Презентация лимитированной коллек
@@ -321,7 +382,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iv-antiquities-fair-antique-collection-moscow@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:IV Ярмарка старины «Антикварная кол
@@ -342,7 +403,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:festival-of-young-designers-of-the-melange-school-novosibirsk@afisha-
  art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20270129
 DTEND;VALUE=DATE:20270130
 SUMMARY:Фестиваль юных дизайнеров школы «М

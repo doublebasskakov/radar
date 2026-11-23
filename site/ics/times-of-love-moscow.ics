@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:times-of-love-moscow@afisha-art
+DTSTAMP:20261123T141501Z
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+SUMMARY:ВРЕМЕНА ЛЮБВИ
+LOCATION:Кинотеатры\, Москва
+DESCRIPTION:Художественный фильм о попытке г
+ ероев разобраться в своих чувствах и сп
+ асти отношения за одну решающую ночь.\nН
+ икита Миклушов\nhttps://t.me/ulizabalabanova/38562
+URL:https://doublebasskakov.github.io/radar/#e=times-of-love-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ВРЕМЕНА ЛЮБВИ
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:diaries-exhibition-perm@afisha-art
+DTSTAMP:20261123T141501Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:Открытие: Выставка «Дневники»
+LOCATION:Пермская Арт-резиденция\, ул. Монас
+ тырская\, 95а\, Пермь
+DESCRIPTION:Персональная выставка работ Елен
+ ы Постновой\, объединяющая более 60 произ
+ ведений.\nЕлена Постнова\nhttps://t.me/mmmperm/8849
+URL:https://doublebasskakov.github.io/radar/#e=diaries-exhibition-perm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка «Дневники»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

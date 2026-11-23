@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:performance-a-hole-in-the-sky-by-laurie-anderson-rome@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261205T180000Z
 DTEND:20261205T200000Z
 SUMMARY:Перформанс Лори Андерсон «Дыра в не
@@ -29,7 +29,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-kandinsky-at-palazzo-bonaparte-rome@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261119T080000Z
 DTEND:20261119T100000Z
 SUMMARY:Открытие: Выставка «Kandinsky» в Палацц
@@ -50,7 +50,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:stefano-mancuso-la-citta-vivente-imparare-dalla-natura-per-r-rome@afi
  sha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261126T163000Z
 DTEND:20261126T183000Z
 SUMMARY:Стефано Манкузо: Живой город. Учить
@@ -73,29 +73,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:marinetti-l-uomo-che-invento-il-futuro-rome@afisha-art
-DTSTAMP:20261122T214228Z
-DTSTART:20261127T170000Z
-DTEND:20261127T190000Z
-SUMMARY:Разговор и кинопоказ: Маринетти — ч
- еловек\, изобретший будущее
-LOCATION:MAXXI\, Via Guido Reni 4A\, Рим\, Италия
-DESCRIPTION:Специальный показ фильма и обсуж
- дение\, посвященные фигуре основоположн
- ика футуризма Филиппо Томмазо Маринетт
- и.\nVarious\nhttps://www.maxxi.art/en/events/marinetti/
-URL:https://doublebasskakov.github.io/radar/#e=marinetti-l-uomo-che-inven
- to-il-futuro-rome
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Разговор и кинопоказ: Маринетти 
- — человек\, изобретший будущее
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:talk-film-marinetti-l-uomo-che-invento-il-futuro-rome@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261127T170000Z
 DTEND:20261127T190000Z
 SUMMARY:Показ и паблик-ток: «Маринетти. Чело
@@ -115,8 +94,29 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:marinetti-l-uomo-che-invento-il-futuro-rome@afisha-art
+DTSTAMP:20261123T141501Z
+DTSTART:20261127T170000Z
+DTEND:20261127T190000Z
+SUMMARY:Разговор и кинопоказ: Маринетти — ч
+ еловек\, изобретший будущее
+LOCATION:MAXXI\, Via Guido Reni 4A\, Рим\, Италия
+DESCRIPTION:Специальный показ фильма и обсуж
+ дение\, посвященные фигуре основоположн
+ ика футуризма Филиппо Томмазо Маринетт
+ и.\nVarious\nhttps://www.maxxi.art/en/events/marinetti/
+URL:https://doublebasskakov.github.io/radar/#e=marinetti-l-uomo-che-inven
+ to-il-futuro-rome
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Разговор и кинопоказ: Маринетти 
+ — человек\, изобретший будущее
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:the-scoop-jazz-band-sotto-le-stelle-del-jazz-rome@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261127T180000Z
 DTEND:20261127T200000Z
 SUMMARY:Концерт The Scoop Jazz Band: Снизу под звезд
@@ -137,7 +137,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gordon-matta-clark-not-the-work-the-worker-rome@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 SUMMARY:Последний день: Гордон Матта-Кларк: 
@@ -160,7 +160,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:maxxi-bvlgari-prize-2026-rome@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270308
 SUMMARY:Последний день: Премия MAXXI BVLGARI 2026
@@ -181,7 +181,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sophie-calle-matrimoni-rotture-e-funerali-inclusi-rome@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
 SUMMARY:Последний день: Софи Калле: Матримо
@@ -204,7 +204,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:shirin-neshat-do-u-dare-rome@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
 SUMMARY:Последний день: Ширин Нешат: Смеешь 
@@ -224,8 +224,26 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:takk-con-vivere-rome@afisha-art
+DTSTAMP:20261123T141501Z
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+SUMMARY:Последний день: ТАКК. Кон-вивере
+LOCATION:MAXXI\, Via Guido Reni 4A\, Рим\, Италия
+DESCRIPTION:Архитектурно-художественная экс
+ позиция\, исследующая новые формы сосущ
+ ествования людей и городской среды.\nTAKK\n
+ https://www.maxxi.art/en/events/takk-con-vivere/
+URL:https://doublebasskakov.github.io/radar/#e=takk-con-vivere-rome
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: ТАКК. Кон-вивере
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:maxxi-collection-ritrovarsi-rome@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Открытие: Коллекция MAXXI: Встреча с с
@@ -246,7 +264,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sensing-the-future-rome@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Открытие: Ощущая будущее
@@ -265,7 +283,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tatiana-bilbao-estudio-campo-aperto-rome@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
 SUMMARY:Последний день: Татьяна Бильбао Эст
@@ -286,7 +304,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ordinare-il-mondo-l-archivio-di-nanda-lanfranco-rome@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 SUMMARY:Последний день: Упорядочивая мир: А
@@ -307,8 +325,29 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:together-we-will-build-the-future-rome@afisha-art
+DTSTAMP:20261123T141501Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Последний день: Вместе мы построим 
+ будущее
+LOCATION:MAXXI\, Via Guido Reni 4A\, Рим\, Италия
+DESCRIPTION:Проект-размышление о завтрашнем 
+ дне музея и его роли в формировании куль
+ турного пространства будущего.\nMAXXI\nhttps:/
+ /www.maxxi.art/en/events/insieme-costruiamo-il-futuro/
+URL:https://doublebasskakov.github.io/radar/#e=together-we-will-build-the
+ -future-rome
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Вместе мы построи
+ м будущее
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:il-villaggio-olimpico-di-roma-il-mondo-in-300-000-mq-rome@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
 SUMMARY:Открытие: Олимпийская деревня в Рим
@@ -329,7 +368,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:venice-biennale-architettura-2027@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20270508
 DTEND;VALUE=DATE:20270509
 SUMMARY:Открытие: Biennale Architettura 2027: Do Architecture
@@ -351,7 +390,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:frontiere-the-geopolitics-of-architecture-rome@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
 SUMMARY:Открытие: Фронтиры: Геополитика арх
@@ -368,45 +407,6 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Открытие: Фронтиры: Геополитика а
  рхитектуры
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:takk-con-vivere-rome@afisha-art
-DTSTAMP:20261122T214228Z
-DTSTART;VALUE=DATE:20270214
-DTEND;VALUE=DATE:20270215
-SUMMARY:Последний день: ТАКК. Кон-вивере
-LOCATION:MAXXI\, Via Guido Reni 4A\, Рим\, Италия
-DESCRIPTION:Архитектурно-художественная экс
- позиция\, исследующая новые формы сосущ
- ествования людей и городской среды.\nTAKK\n
- https://www.maxxi.art/en/events/takk-con-vivere/
-URL:https://doublebasskakov.github.io/radar/#e=takk-con-vivere-rome
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Последний день: ТАКК. Кон-вивере
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:together-we-will-build-the-future-rome@afisha-art
-DTSTAMP:20261122T214228Z
-DTSTART;VALUE=DATE:20261129
-DTEND;VALUE=DATE:20261130
-SUMMARY:Последний день: Вместе мы построим 
- будущее
-LOCATION:MAXXI\, Via Guido Reni 4A\, Рим\, Италия
-DESCRIPTION:Проект-размышление о завтрашнем 
- дне музея и его роли в формировании куль
- турного пространства будущего.\nMAXXI\nhttps:/
- /www.maxxi.art/en/events/insieme-costruiamo-il-futuro/
-URL:https://doublebasskakov.github.io/radar/#e=together-we-will-build-the
- -future-rome
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Последний день: Вместе мы построи
- м будущее
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:book-flow-meeting-moscow@afisha-art
+DTSTAMP:20261123T141501Z
+DTSTART:20261125T163000Z
+DTEND:20261125T183000Z
+SUMMARY:Встреча «Книжный флоу»
+LOCATION:Вспышка\, ул. Электрозаводская\, 21\, 
+ Москва
+DESCRIPTION:Литературное событие в формате о
+ ткрытого обсуждения во Вспышке.\nNone\nhttps:/
+ /t.me/vspyshkafriends/5773
+URL:https://doublebasskakov.github.io/radar/#e=book-flow-meeting-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Встреча «Книжный флоу»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

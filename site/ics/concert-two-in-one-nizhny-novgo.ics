@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:concert-two-in-one-nizhny-novgo@afisha-art
+DTSTAMP:20261123T141501Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:Концерт «Два в одном»
+LOCATION:Театр «Комедiя»\, ул. Грузинская\, 23\,
+  Нижний Новгород
+DESCRIPTION:Творческий вечер композитора Ким
+ а Брейтбурга и поэта Сергея Сашина.\nКим 
+ Брейтбург\, Сергей Сашин\nhttps://t.me/gorkoNN/29662
+URL:https://doublebasskakov.github.io/radar/#e=concert-two-in-one-nizhny-
+ novgo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт «Два в одном»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

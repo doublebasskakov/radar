@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:voronezh-kamerata-ceam@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261129T150000Z
 DTEND:20261129T170000Z
 SUMMARY:CEAM Artists на «Воронежской камерате»
@@ -27,9 +27,34 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:lecture-music-without-borders-how-technologies-connect-diffe-voronezh
+ @afisha-art
+DTSTAMP:20261123T141501Z
+DTSTART:20261128T160000Z
+DTEND:20261128T180000Z
+SUMMARY:Лекция «Музыка без границ: как техн
+ ологии позволяют соединять разные виды 
+ искусств»
+LOCATION:Центр креативных индустрий «Матре
+ шка»\, ул. Студенческая\, д. 5\, Воронеж
+DESCRIPTION:Композитор Николай Попов расскаж
+ ет о мультимедийных проектах и роли тех
+ нологий в современном творчестве.\nНико
+ лай Попов\nhttps://t.me/ceammc/3564
+URL:https://doublebasskakov.github.io/radar/#e=lecture-music-without-bord
+ ers-how-technologies-connect-diffe-voronezh
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекция «Музыка без границ: как те
+ хнологии позволяют соединять разные ви
+ ды искусств»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:vasily-beynarovich-faust-of-the-21st-century-how-not-to-rais-voronezh
  @afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 SUMMARY:Василий Бейнарович\, Фауст 21 века. К

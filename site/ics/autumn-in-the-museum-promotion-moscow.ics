@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:autumn-in-the-museum-promotion-moscow@afisha-art
+DTSTAMP:20261123T141501Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:Акция «Осень в музее»
+LOCATION:Музей кино\, пр-т Мира\, 119\, стр. 36\, Мо
+ сква
+DESCRIPTION:Финальный день акции с доступом к
+  экспозициям\, включая кабинет Сергея Эй
+ зенштейна\, за 1 рубль.\nNone\nhttps://www.museikino.ru/
+URL:https://doublebasskakov.github.io/radar/#e=autumn-in-the-museum-promo
+ tion-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Акция «Осень в музее»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

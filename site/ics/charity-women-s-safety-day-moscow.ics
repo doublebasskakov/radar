@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:charity-women-s-safety-day-moscow@afisha-art
+DTSTAMP:20261123T141501Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Благотворительный день женской без
+ опасности
+LOCATION:Центр «Сестры»\, Москва
+DESCRIPTION:Событие в рамках кампании против 
+ насилия включает тренировки и просвети
+ тельские беседы в поддержку пострадавш
+ их.\nЦентр «Сестры»\nhttps://t.me/afishadailynews/104134
+URL:https://doublebasskakov.github.io/radar/#e=charity-women-s-safety-day
+ -moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Благотворительный день женской б
+ езопасности
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

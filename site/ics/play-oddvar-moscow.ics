@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:play-oddvar-moscow@afisha-art
+DTSTAMP:20261123T141501Z
+DTSTART:20261129T170000Z
+DTEND:20261129T190000Z
+SUMMARY:Спектакль «ODDVAR»
+LOCATION:Музей Москвы\, Зубовский б-р\, 2\, Мос
+ ква
+DESCRIPTION:Экспериментальная театральная п
+ остановка в Музее Москвы.\nNone\nhttps://t.me/mosmus
+ eum/7679
+URL:https://doublebasskakov.github.io/radar/#e=play-oddvar-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спектакль «ODDVAR»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

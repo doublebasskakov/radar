@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:film-screening-naum-premonitions-moscow@afisha-art
+DTSTAMP:20261123T141501Z
+DTSTART:20261129T173000Z
+DTEND:20261129T193000Z
+SUMMARY:Кинопоказ «Наум. Предчувствия»
+LOCATION:Еврейский музей и центр толерантно
+ сти\, ул. Образцова\, д. 11\, стр. 1А\, Москва
+DESCRIPTION:Специальный кинопоказ к дню рожд
+ ения выдающегося киноведа и историка ки
+ но Наума Клеймана.\nНаум Клейман\nhttps://t.me/
+ jewishmuseum/5793
+URL:https://doublebasskakov.github.io/radar/#e=film-screening-naum-premon
+ itions-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Кинопоказ «Наум. Предчувствия»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -9,7 +9,7 @@ X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:conference-how-it-s-made-vladimir-gorlinsky-on-contraforces--moscow@a
  fisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261125T170000Z
 DTEND:20261125T190000Z
 SUMMARY:Конференция «Как это сделано?»: Вла
@@ -36,7 +36,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:lecture-by-georgy-kovalevsky-from-word-to-number-and-gesture-novosibi
  rsk@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261126T052000Z
 DTEND:20261126T072000Z
 SUMMARY:Лекция Георгия Ковалевского «От сл
@@ -68,7 +68,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ceam-konf-kak-eto-sdelano@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261125T130000Z
 DTEND:20261125T150000Z
 SUMMARY:Конференция ЦЭАМ «Как это сделано?»
@@ -91,7 +91,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:hse-art-and-design-school-system-108-open-talk-moscow@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261201T160000Z
 DTEND:20261201T180000Z
 SUMMARY:Открытый разговор Школы дизайна НИ
@@ -114,7 +114,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lecture-by-peter-aidu-noise-in-music-saint-peters@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261123T163000Z
 DTEND:20261123T183000Z
 SUMMARY:Лекция Петра Айду «Шум в музыке»
@@ -137,7 +137,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:author-guided-tour-by-marina-krasnova-of-the-exhibition-lily-moscow@a
  fisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261125T160000Z
 DTEND:20261125T180000Z
 SUMMARY:Авторская экскурсия Марины Краснов
@@ -161,7 +161,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:how-and-why-did-collecting-emerge-saint-peters@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261124T160000Z
 DTEND:20261124T180000Z
 SUMMARY:Как и зачем возникло коллекциониро
@@ -183,9 +183,32 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:music-lecture-petr-aidu-what-is-noise-st-petersbur@afisha-art
+DTSTAMP:20261123T141501Z
+DTSTART:20261123T163000Z
+DTEND:20261123T183000Z
+SUMMARY:Музыкальный лекторий. Пётр Айду. Чт
+ о такое шум?
+LOCATION:Новая Голландия\, наб. Адмиралтейск
+ ого канала\, 2\, Санкт-Петербург
+DESCRIPTION:Музыкант и исследователь Пётр Ай
+ ду анализирует феномен шума с точки зре
+ ния звукового искусства и акустики.\nПёт
+ р Айду\nhttps://www.newhollandsp.ru/events/education/music-lecture-2
+ /
+URL:https://doublebasskakov.github.io/radar/#e=music-lecture-petr-aidu-wh
+ at-is-noise-st-petersbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Музыкальный лекторий. Пётр Айду. 
+ Что такое шум?
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:artist-talk-by-olivier-ratsi-immersive-territories-saint-peters@afish
  a-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261130T160000Z
 DTEND:20261130T180000Z
 SUMMARY:Артист-ток Оливье Ратси «Иммерсивн
@@ -208,7 +231,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:artist-talk-by-guillaume-marmin-new-forms-and-new-languages-saint-pet
  ers@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261123T160000Z
 DTEND:20261123T180000Z
 SUMMARY:Артист-ток Гийома Мармена «Новые фо
@@ -229,9 +252,35 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:lekcia-scenaristki-montajnicy-produsersi-i-rejissery-kak-jen-moscow@a
+ fisha-art
+DTSTAMP:20261123T141501Z
+DTSTART:20261124T163000Z
+DTEND:20261124T183000Z
+SUMMARY:Лекция «Сценаристки\, монтажницы\, п
+ родюсерши и режиссеры: Как женщины созд
+ али русское кино»
+LOCATION:Мультимедиа Арт Музей (МАММ)\, Остож
+ енка\, 16\, Москва
+DESCRIPTION:Лекция из цикла «130 лет кино в Рос
+ сии»\, посвященная роли женщин в отечест
+ венном кинематографе.\nСтанислав Дединс
+ кий\, Наталья Рябчикова\nhttps://t.me/multimediaartmus
+ eum/7139
+URL:https://doublebasskakov.github.io/radar/#e=lekcia-scenaristki-montajn
+ icy-produsersi-i-rejissery-kak-jen-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекция «Сценаристки\, монтажницы\
+ , продюсерши и режиссеры: Как женщины со
+ здали русское кино»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:lecture-space-kitchen-what-and-how-iss-astronauts-eat-moscow@afisha-a
  rt
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261126T163000Z
 DTEND:20261126T183000Z
 SUMMARY:Лекция «Космическая кухня: чем и ка
@@ -255,7 +304,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:discussion-art-as-an-encounter-between-nature-and-technology-saint-pe
  ters@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261130T150000Z
 DTEND:20261130T170000Z
 SUMMARY:Дискуссия «Искусство как встреча п
@@ -282,7 +331,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:lecture-circus-architecture-space-of-celebration-and-eccentr-saint-pe
  ters@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261125T160000Z
 DTEND:20261125T180000Z
 SUMMARY:Лекция «Архитектура цирка: простра
@@ -306,7 +355,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:lecture-and-analysis-of-teasers-and-promo-materials-for-the--moscow@a
  fisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261126T160000Z
 DTEND:20261126T180000Z
 SUMMARY:Лекция-разбор тизеров и промоматер
@@ -328,7 +377,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lecture-sandwich-more-than-food-moscow@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261127T160000Z
 DTEND:20261127T180000Z
 SUMMARY:Лекция «Сэндвич: больше\, чем еда»
@@ -349,7 +398,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:art-mediation-landscape-as-an-idea-and-impression-saint-peters@afisha
  -art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261124T150000Z
 DTEND:20261124T170000Z
 SUMMARY:Медиация «Пейзаж как идея и как впе
@@ -373,7 +422,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:international-scientific-conference-horizons-of-scientific-h-novosibi
  rsk@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261123T040000Z
 DTEND:20261123T060000Z
 SUMMARY:Международная научная конференция 
@@ -402,7 +451,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fair-looking-glass-how-we-buy-meanings-moscow@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261204T160000Z
 DTEND:20261204T180000Z
 SUMMARY:Зазеркалье ярмарки: как мы покупаем
@@ -425,7 +474,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lecture-paul-gauguin-in-search-of-paradise-moscow@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261128T160000Z
 DTEND:20261128T180000Z
 SUMMARY:Лекция «Поль Гоген. В поисках рая»
@@ -448,7 +497,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:panel-discussion-local-communities-researching-place-and-mem-moscow@a
  fisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261203T070000Z
 DTEND:20261203T090000Z
 SUMMARY:Панельная дискуссия «Локальные соо
@@ -473,7 +522,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:lecture-from-modernism-to-ambient-debussy-ravel-satie-saint-peters@af
  isha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261128T140000Z
 DTEND:20261128T160000Z
 SUMMARY:Лекция «От модернизма к эмбиенту: Д
@@ -496,7 +545,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:art-dinner-what-did-the-artist-hide-moscow@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261201T163000Z
 DTEND:20261201T183000Z
 SUMMARY:Арт-ужин «Что скрыл художник?»
@@ -516,7 +565,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lecture-workshop-how-to-look-at-art-saint-peters@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261124T153000Z
 DTEND:20261124T173000Z
 SUMMARY:Лекция-практикум «Как смотреть иск
@@ -540,7 +589,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:online-lecture-by-kristina-reznik-under-the-tree-how-archite-online@a
  fisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261125T160000Z
 DTEND:20261125T180000Z
 SUMMARY:Онлайн-лекция Кристины Резник «Под 
@@ -564,7 +613,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:art-brunch-dries-van-noten-absolute-taste-moscow@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261128T110000Z
 DTEND:20261128T130000Z
 SUMMARY:Арт-бранч «Dries van Noten: абсолютный вку
@@ -587,7 +636,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:lecture-end-to-eternal-knowledge-go-tterda-mmerung-saint-peters@afish
  a-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261219T110000Z
 DTEND:20261219T130000Z
 SUMMARY:Лекция ««Конец вечному знанию!»: «Г
@@ -611,7 +660,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:lecture-by-alexander-morozov-the-image-of-the-1990s-in-moder-yekateri
  nbur@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261125T123000Z
 DTEND:20261125T143000Z
 SUMMARY:Лекция Александра Морозова «Образ 1
@@ -635,12 +684,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lecture-eroticism-in-russian-literature-moscow@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261126T163000Z
 DTEND:20261126T183000Z
 SUMMARY:Арт-ужин и лекция «Эротика в русско
  й литературе»
-LOCATION:Odmo\, Москва
+LOCATION:Odmo\, Б. Новодмитровская ул.\, 36/2\, Мос
+ ква
 DESCRIPTION:Филолог Егор Сартаков прочитает 
  лекцию о проявлении чувственности в оте
  чественной словесности от Пушкина до со
@@ -657,7 +707,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:curator-s-tour-of-in-the-forests-exhibition-perm@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Кураторская экскурсия по выставке 
@@ -680,7 +730,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lecture-urban-trashology-kazan@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261128T120000Z
 DTEND:20261128T140000Z
 SUMMARY:Лекция «Городская мусорология»
@@ -702,7 +752,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:lecture-by-yuri-orlitsky-literary-life-of-russian-capitals-a-yekateri
  nbur@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261123T073000Z
 DTEND:20261123T093000Z
 SUMMARY:Лекция Юрия Орлицкого «Литературна
@@ -727,7 +777,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:lecture-by-ekaterina-andreeva-konstantin-goncharov-and-aesth-st-peter
  sbur@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261126T160000Z
 DTEND:20261126T180000Z
 SUMMARY:Лекция Екатерины Андреевой «Конста
@@ -752,9 +802,56 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:course-analyzing-constructivism-moscow@afisha-art
+DTSTAMP:20261123T141501Z
+DTSTART:20261217T163000Z
+DTEND:20261217T183000Z
+SUMMARY:Открытие: Курс «Разбираем конструк
+ тивизм»
+LOCATION:Центр «Зотов»\, Ходынская улица\, 2 с
+ тр. 1\, Москва
+DESCRIPTION:Образовательный курс о ключевых 
+ проявлениях конструктивизма в графичес
+ ком дизайне\, фотографии\, кино\, театре и
+  архитектуре.\nЦентр «Зотов»\nhttps://centrezotov.
+ ru/events/kurs-razbiraem-konstruktivizm/
+URL:https://doublebasskakov.github.io/radar/#e=course-analyzing-construct
+ ivism-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Курс «Разбираем констр
+ уктивизм»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:public-talk-how-contemporary-art-can-be-independent-yekaterinbur@afis
+ ha-art
+DTSTAMP:20261123T141501Z
+DTSTART:20261127T120000Z
+DTEND:20261127T140000Z
+SUMMARY:Публичный разговор «Как современно
+ му искусству быть независимым?»
+LOCATION:Ельцин Центр\, ул. Бориса Ельцина\, д
+ . 3\, Екатеринбург
+DESCRIPTION:Дискуссия о выживании независимы
+ х музыкальных коллективов в России и сп
+ особах коммуникации со слушателем на пр
+ имере МАСМ.\nВиктория Коршунова\, Михаил 
+ Дубов\nhttps://t.me/yeltsincenter/10211
+URL:https://doublebasskakov.github.io/radar/#e=public-talk-how-contempora
+ ry-art-can-be-independent-yekaterinbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Публичный разговор «Как современ
+ ному искусству быть независимым?»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:lecture-by-yulia-veksler-for-the-musicaeterna-programme-saint-peters@
  afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261124T160000Z
 DTEND:20261124T180000Z
 SUMMARY:Лекция Юлии Векслер к программе musicA
@@ -778,7 +875,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:discussion-on-contemporary-landscape-within-the-a-bigger-spl-moscow@a
  fisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261125T163000Z
 DTEND:20261125T183000Z
 SUMMARY:Дискуссия о современном пейзаже в р
@@ -805,7 +902,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:lecture-the-nibelung-s-ring-tetralogy-das-rheingold-saint-peters@afis
  ha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261128T110000Z
 DTEND:20261128T130000Z
 SUMMARY:Лекция «Тетралогия «Кольцо нибелун
@@ -829,7 +926,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:lecture-how-ancient-romans-worked-and-spent-their-leisure-ti-saint-pe
  ters@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261125T160000Z
 DTEND:20261125T180000Z
 SUMMARY:Лекция «Как работали и проводили до
@@ -851,9 +948,32 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:lecture-brain-in-the-net-neurobiology-and-media-consumption-moscow@af
+ isha-art
+DTSTAMP:20261123T141501Z
+DTSTART:20261128T153000Z
+DTEND:20261128T173000Z
+SUMMARY:Лекция «Мозг в сети. Нейробиология 
+ и потребление медиа»
+LOCATION:Еврейский музей и центр толерантно
+ сти\, ул. Образцова\, д. 11\, стр. 1А\, Москва
+DESCRIPTION:Лекция о том\, как современные мед
+ иа и цифровые платформы влияют на работ
+ у человеческого мозга с точки зрения би
+ ологии.\n\nhttps://t.me/jewishmuseum/5793
+URL:https://doublebasskakov.github.io/radar/#e=lecture-brain-in-the-net-n
+ eurobiology-and-media-consumption-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекция «Мозг в сети. Нейробиологи
+ я и потребление медиа»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:round-table-the-right-to-vote-and-be-elected-state-authority-yekateri
  nbur@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261124T113000Z
 DTEND:20261124T133000Z
 SUMMARY:Круглый стол «Право избирать и быть
@@ -877,7 +997,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:worlds-of-indian-art-community-city-temple-lecture-1-moscow@afisha-ar
  t
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261127T160000Z
 DTEND:20261127T180000Z
 SUMMARY:Миры индийского искусства: община\, 
@@ -903,7 +1023,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:lecture-dutch-festive-scenes-from-village-feasts-to-aristocr-saint-pe
  ters@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261125T160000Z
 DTEND:20261125T180000Z
 SUMMARY:Лекция «Голландские праздничные сц
@@ -928,13 +1048,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:discussion-the-human-world-is-changeable-moscow@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261125T160000Z
 DTEND:20261125T180000Z
 SUMMARY:Дискуссия «Мир человеческий изменч
  ив»
 LOCATION:Еврейский музей и центр толерантно
- сти\, Москва
+ сти\, ул. Образцова\, д. 11\, стр. 1А\, Москва
 DESCRIPTION:Паблик-ток\, приуроченный к переи
  зданию поэтического сборника Владимира
   Уфлянда и посвящённый анализу его твор
@@ -952,7 +1072,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:art-dinner-steal-me-history-s-most-infamous-art-heists-moscow@afisha-
  art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261125T163000Z
 DTEND:20261125T183000Z
 SUMMARY:Арт-ужин «Укради меня: самые громки
@@ -975,7 +1095,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:shukhov-is-more-than-the-tower-on-shabolovka-moscow@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261128T133000Z
 DTEND:20261128T153000Z
 SUMMARY:Шухов — больше\, чем башня на Шаболо
@@ -997,7 +1117,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:online-masterclass-on-acting-by-lilia-shitenburg-online@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261123T160000Z
 DTEND:20261123T180000Z
 SUMMARY:Онлайн-мастер-класс Лилии Шитенбур
@@ -1017,8 +1137,30 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:lecture-composition-of-a-long-read-reportage-or-article-10-a-online@a
+ fisha-art
+DTSTAMP:20261123T141501Z
+DTSTART:20261124T070000Z
+DTEND:20261124T090000Z
+SUMMARY:Лекция «Композиция большого репорт
+ ажа или статьи. 10 фишек автора»
+LOCATION:Яндекс Телемост\, Онлайн
+DESCRIPTION:Редактор и медиаменеджер расскаж
+ ет о приемах создания масштабных журнал
+ истских текстов и разберет конкретные к
+ ейсы.\nВиталий Лейбин\nhttps://t.me/humanities666/1779
+URL:https://doublebasskakov.github.io/radar/#e=lecture-composition-of-a-l
+ ong-read-reportage-or-article-10-a-online
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекция «Композиция большого репо
+ ртажа или статьи. 10 фишек автора»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:art-workshop-documentary-collage-moscow@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261125T160000Z
 DTEND:20261125T180000Z
 SUMMARY:Арт-встреча «Документальный коллаж
@@ -1041,7 +1183,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:igor-gavrilov-exhibition-opening-artist-talk-yekaterinbur@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:Открытие выставки Игоря Гаврилова 
@@ -1062,7 +1204,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lecture-alexander-nevsky-cathedral-in-sofia-moscow@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261127T160000Z
 DTEND:20261127T180000Z
 SUMMARY:Лекция «Собор святого Александра Н
@@ -1084,7 +1226,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:kira-dolinina-s-workshop-at-symposiy-lecturing-hall-online@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261129T090000Z
 DTEND:20261129T110000Z
 SUMMARY:Мастерская Киры Долининой в лектор
@@ -1104,9 +1246,34 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:9th-international-conference-jewish-field-new-discoveries-ex-moscow@a
+ fisha-art
+DTSTAMP:20261123T141501Z
+DTSTART:20261124T080000Z
+DTEND:20261124T100000Z
+SUMMARY:IX международная конференция «Еврей
+ ское поле: новые открытия\, опыт и концеп
+ туализация»
+LOCATION:Еврейский музей и центр толерантно
+ сти\, ул. Образцова\, д. 11\, стр. 1А\, Москва
+DESCRIPTION:Междисциплинарная научная конфе
+ ренция\, посвященная еврейской антропол
+ огии\, языку\, фольклору и цифровым архив
+ ам.\n\nhttps://t.me/jewishmuseum/5792
+URL:https://doublebasskakov.github.io/radar/#e=9th-international-conferen
+ ce-jewish-field-new-discoveries-ex-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:IX международная конференция «Евр
+ ейское поле: новые открытия\, опыт и конц
+ ептуализация»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:tchaikovsky-hall-counterpoints-of-history-open-rehearsal-tou-moscow@a
  fisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261129T073000Z
 DTEND:20261129T093000Z
 SUMMARY:Зал Чайковского: контрапункты исто
@@ -1129,7 +1296,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lecture-the-way-of-chanel-men-hats-diamonds-st-petersbur@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261125T150000Z
 DTEND:20261125T170000Z
 SUMMARY:Лекция «Путь Шанель. Мужчины\, шляпы
@@ -1150,9 +1317,31 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:lecture-monumental-art-and-urban-identity-perm@afisha-art
+DTSTAMP:20261123T141501Z
+DTSTART:20261127T140000Z
+DTEND:20261127T160000Z
+SUMMARY:Лекция «Монументальное искусство и
+  городская идентичность»
+LOCATION:Музей ПЕРММ\, ул. Крисанова\, д. 4\, Пе
+ рмь
+DESCRIPTION:Разговор о сохранении советского
+  монументального наследия\, мозаик и ску
+ льптур в контексте современного города.
+ \nЛюбовь Егорычева\nhttps://t.me/maxartperm/791
+URL:https://doublebasskakov.github.io/radar/#e=lecture-monumental-art-and
+ -urban-identity-perm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекция «Монументальное искусств
+ о и городская идентичность»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:lecture-compromat-on-classics-spies-intrigues-and-curlers-samara@afis
  ha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261129T160000Z
 DTEND:20261129T180000Z
 SUMMARY:Лекция «Компромат на классиков: шпи
@@ -1175,7 +1364,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:lecture-children-s-theatre-history-of-the-pioneers-saint-peters@afish
  a-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261125T160000Z
 DTEND:20261125T180000Z
 SUMMARY:Лекция «Театр для детей: история пе
@@ -1197,7 +1386,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:presentation-learning-review-publication-ostbay-and-sound-me-moscow@a
  fisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261126T100000Z
 DTEND:20261126T120000Z
 SUMMARY:Презентация «Обучение — ревью — пу
@@ -1223,7 +1412,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:art-dinner-sigmund-freud-archaeologist-of-consciousness-moscow@afisha
  -art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261123T163000Z
 DTEND:20261123T183000Z
 SUMMARY:Арт-ужин «Зигмунд Фрейд. Археолог с
@@ -1246,7 +1435,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:lecture-agatha-christie-and-other-rock-detectives-yekaterinbur@afisha
  -art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261201T160000Z
 DTEND:20261201T180000Z
 SUMMARY:Лекция «„Агата Кристи“ и другие ро
@@ -1266,8 +1455,31 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:lecture-film-as-opera-adaptation-issues-novosibirsk@afisha-art
+DTSTAMP:20261123T141501Z
+DTSTART:20261124T050000Z
+DTEND:20261124T070000Z
+SUMMARY:Лекция «Фильм как опера: вопросы ад
+ аптации»
+LOCATION:Новосибирская государственная кон
+ серватория\, Коворкинг\, Советская ул.\, 31
+ \, Новосибирск
+DESCRIPTION:Исследование процесса переноса к
+ иноисточников на оперную сцену в XXI веке
+  и стратегий музыкальной адаптации.\nЕка
+ терина Окунева\nhttps://t.me/nsglinka/7500
+URL:https://doublebasskakov.github.io/radar/#e=lecture-film-as-opera-adap
+ tation-issues-novosibirsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекция «Фильм как опера: вопросы 
+ адаптации»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:humanoid-robot-control-workshop-moscow@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261125T130000Z
 DTEND:20261125T150000Z
 SUMMARY:Воркшоп по управлению роботом-гума
@@ -1289,7 +1501,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:art-session-classicism-laws-of-harmony-written-for-all-saint-peters@a
  fisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261127T130000Z
 DTEND:20261127T150000Z
 SUMMARY:Арт-занятие «Классицизм: законы гар
@@ -1312,7 +1524,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lecture-how-contemporary-art-works-nizhny-novgo@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261124T153000Z
 DTEND:20261124T173000Z
 SUMMARY:Лекция «Как устроено современное и
@@ -1335,7 +1547,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:design-2040-master-s-thesis-defense-moscow@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261216T130000Z
 DTEND:20261216T150000Z
 SUMMARY:Дизайн 2040: защита магистерских рабо
@@ -1357,7 +1569,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lecture-deconstructing-constructivism-architecture-moscow@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20270204T163000Z
 DTEND:20270204T183000Z
 SUMMARY:Лекция «Разбираем конструктивизм: 
@@ -1380,7 +1592,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:lecture-by-sergey-perekhozhikh-moscow-in-the-era-of-yeltsin--yekateri
  nbur@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261125T083000Z
 DTEND:20261125T103000Z
 SUMMARY:Лекция Сергея Перехожих «Москва эп
@@ -1400,8 +1612,33 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:lecture-music-without-borders-how-technologies-connect-diffe-voronezh
+ @afisha-art
+DTSTAMP:20261123T141501Z
+DTSTART:20261128T160000Z
+DTEND:20261128T180000Z
+SUMMARY:Лекция «Музыка без границ: как техн
+ ологии позволяют соединять разные виды 
+ искусств»
+LOCATION:Центр креативных индустрий «Матре
+ шка»\, ул. Студенческая\, д. 5\, Воронеж
+DESCRIPTION:Композитор Николай Попов расскаж
+ ет о мультимедийных проектах и роли тех
+ нологий в современном творчестве.\nНико
+ лай Попов\nhttps://t.me/ceammc/3564
+URL:https://doublebasskakov.github.io/radar/#e=lecture-music-without-bord
+ ers-how-technologies-connect-diffe-voronezh
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекция «Музыка без границ: как те
+ хнологии позволяют соединять разные ви
+ ды искусств»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:book-presentation-elves-ate-the-thoughts-moscow@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261126T160000Z
 DTEND:20261126T180000Z
 SUMMARY:Презентация книги «Эльфы съели мыс
@@ -1423,7 +1660,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:book-club-meeting-claude-monet-s-letters-samara@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261125T160000Z
 DTEND:20261125T180000Z
 SUMMARY:Ксений книжного клуба: «Частная жиз
@@ -1446,7 +1683,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:discussion-of-the-book-regional-centers-of-the-russian-avant-moscow@a
  fisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261125T163000Z
 DTEND:20261125T183000Z
 SUMMARY:Обсуждение книги «Региональные цен
@@ -1470,7 +1707,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:lecture-pink-dreams-and-ruby-lips-of-elsa-schiaparelli-st-petersbur@a
  fisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261126T150000Z
 DTEND:20261126T170000Z
 SUMMARY:Лекция «Розовые сны и рубиновые губ
@@ -1492,7 +1729,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:creative-meeting-with-fyodor-beznosikov-saint-peters@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261125T160000Z
 DTEND:20261125T180000Z
 SUMMARY:Творческая встреча с Фёдором Безно
@@ -1514,7 +1751,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lecture-by-ivan-smirnov-bringing-the-statue-to-life-moscow@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261128T130000Z
 DTEND:20261128T150000Z
 SUMMARY:Лекция Ивана Смирнова «Оживление с
@@ -1537,7 +1774,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:lecture-by-dmitry-karasyuk-history-of-the-sverdlovsk-rock-cl-yekateri
  nbur@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261123T140000Z
 DTEND:20261123T160000Z
 SUMMARY:Лекция Дмитрия Карасюка «История С
@@ -1559,7 +1796,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:lecture-by-masha-ryba-soviet-fashion-of-the-nep-era-yekaterinbur@afis
  ha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20270116
 DTEND;VALUE=DATE:20270117
 SUMMARY:Лекция Маши Рыбы «Советская мода эп
@@ -1582,7 +1819,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:lecture-marchesa-luisa-casati-a-woman-in-diamond-rain-st-petersbur@af
  isha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261128T150000Z
 DTEND:20261128T170000Z
 SUMMARY:Лекция «Маркиза Луиза Казати. Женщи
@@ -1604,7 +1841,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:breaking-down-constructivism-photography-and-cinema-moscow@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261224T163000Z
 DTEND:20261224T183000Z
 SUMMARY:Разбираем конструктивизм: фотограф
@@ -1625,35 +1862,9 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:lekcia-scenaristki-montajnicy-produsersi-i-rejissery-kak-jen-moscow@a
- fisha-art
-DTSTAMP:20261122T214228Z
-DTSTART:20261124T163000Z
-DTEND:20261124T183000Z
-SUMMARY:Лекция «Сценаристки\, монтажницы\, п
- родюсерши и режиссеры: Как женщины созд
- али русское кино»
-LOCATION:Мультимедиа Арт Музей (МАММ)\, Остож
- енка\, 16\, Москва
-DESCRIPTION:Лекция из цикла «130 лет кино в Рос
- сии»\, посвященная роли женщин в отечест
- венном кинематографе.\nСтанислав Дединс
- кий\, Наталья Рябчикова\nhttps://t.me/multimediaartmus
- eum/7139
-URL:https://doublebasskakov.github.io/radar/#e=lekcia-scenaristki-montajn
- icy-produsersi-i-rejissery-kak-jen-moscow
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Лекция «Сценаристки\, монтажницы\
- , продюсерши и режиссеры: Как женщины со
- здали русское кино»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:lecture-a-hero-without-fear-or-reproach-siegfried-saint-peters@afisha
  -art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261212T110000Z
 DTEND:20261212T130000Z
 SUMMARY:Лекция «Герой без страха и упрека: «
@@ -1676,7 +1887,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:discussion-on-the-possibilities-and-limits-of-algorithmic-mu-moscow@a
  fisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261126T150000Z
 DTEND:20261126T170000Z
 SUMMARY:Обсуждение возможностей и границ а
@@ -1699,7 +1910,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:lecture-the-ring-of-the-nibelung-as-a-metatext-of-the-romant-saint-pe
  ters@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261205T110000Z
 DTEND:20261205T130000Z
 SUMMARY:Лекция ««Кольцо нибелунга» как мет
@@ -1723,7 +1934,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:art-session-baroque-allegory-and-fold-saint-peters@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261128T093000Z
 DTEND:20261128T113000Z
 SUMMARY:Арт-занятие «Барокко: аллегория и с
@@ -1746,7 +1957,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lecture-women-artists-of-asia-and-the-middle-east-moscow@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261208T160000Z
 DTEND:20261208T180000Z
 SUMMARY:Лекция «Художницы стран Азии и Ближ
@@ -1767,7 +1978,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:breaking-down-constructivism-graphic-design-moscow@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261217T163000Z
 DTEND:20261217T183000Z
 SUMMARY:Разбираем конструктивизм: графичес
@@ -1790,7 +2001,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:lecture-lyrism-and-humanity-in-georgy-danelia-s-films-moscow@afisha-a
  rt
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261129T143000Z
 DTEND:20261129T163000Z
 SUMMARY:Лекция «Лиризм и человечность в фил
@@ -1810,7 +2021,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:yuri-palmin-ostranenie-moscow@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261124T160000Z
 DTEND:20261124T180000Z
 SUMMARY:Юрий Пальмин. «Остранение»
@@ -1831,7 +2042,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:presentation-of-vladimir-kovalenko-s-novel-library-in-st-pet-saint-pe
  ters@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261130T160000Z
 DTEND:20261130T180000Z
 SUMMARY:Презентация романа Владимира Ковал
@@ -1853,7 +2064,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:lecture-by-evgeny-burdenkov-yeltsin-at-construction-sites-th-yekateri
  nbur@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261124T140000Z
 DTEND:20261124T160000Z
 SUMMARY:Лекция Евгения Бурденкова «Ельцин 
@@ -1877,7 +2088,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:lecture-not-only-faberge-how-jewelry-st-petersburg-lived-st-petersbur
  @afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261127T150000Z
 DTEND:20261127T170000Z
 SUMMARY:Лекция «Не только Фаберже: как жил ю
@@ -1899,7 +2110,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:lecture-a-medieval-hoard-jewelry-and-secrets-of-ancient-cult-st-peter
  sbur@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261128T130000Z
 DTEND:20261128T150000Z
 SUMMARY:Лекция «Клад из Средневековья: укра
@@ -1921,7 +2132,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:family-visit-to-the-stage-of-action-exhibition-saint-peters@afisha-ar
  t
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261125T141500Z
 DTEND:20261125T161500Z
 SUMMARY:Семейное посещение выставки «Сцена
@@ -1941,7 +2152,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lecture-deconstructing-constructivism-theatre-moscow@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20270121T163000Z
 DTEND:20270121T183000Z
 SUMMARY:Лекция «Разбираем конструктивизм: 
@@ -1964,7 +2175,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:artist-talk-by-oleg-semenovykh-who-is-the-hunter-here-moscow@afisha-a
  rt
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261128T140000Z
 DTEND:20261128T160000Z
 SUMMARY:Артист-ток Олега Семёновых «Кто зде
@@ -1985,8 +2196,29 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:lecture-he-who-cannot-sing-cannot-be-a-hasid-moscow@afisha-art
+DTSTAMP:20261123T141501Z
+DTSTART:20261129T153000Z
+DTEND:20261129T173000Z
+SUMMARY:Лекция «Тот\, кто не умеет петь\, не м
+ ожет быть хасидом»
+LOCATION:Еврейский музей и центр толерантно
+ сти\, ул. Образцова\, д. 11\, стр. 1А\, Москва
+DESCRIPTION:Рассказ об уникальных особенност
+ ях\, истории и духовном значении хасидск
+ ой музыки.\n\nhttps://t.me/jewishmuseum/5793
+URL:https://doublebasskakov.github.io/radar/#e=lecture-he-who-cannot-sing
+ -cannot-be-a-hasid-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекция «Тот\, кто не умеет петь\, н
+ е может быть хасидом»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:lecture-women-artists-of-europe-and-the-usa-moscow@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261124T160000Z
 DTEND:20261124T180000Z
 SUMMARY:Лекция «Художницы Европы и США»
@@ -2005,7 +2237,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:lecture-women-artists-of-russia-and-the-post-soviet-space-moscow@afis
  ha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261204T160000Z
 DTEND:20261204T180000Z
 SUMMARY:Лекция «Художницы России и постсов
@@ -2025,7 +2257,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:discussion-where-does-the-painting-end-moscow@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261203T160000Z
 DTEND:20261203T180000Z
 SUMMARY:Дискуссия «Где заканчивается карти
@@ -2046,8 +2278,29 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:reading-seminar-on-roland-barthes-book-moscow@afisha-art
+DTSTAMP:20261123T141501Z
+DTSTART:20261125T160000Z
+DTEND:20261125T180000Z
+SUMMARY:Ридинг-семинар по книге Ролана Барт
+ а
+LOCATION:Ad Marginem Warehouse\, Переведеновский пер.\,
+  18\, Москва
+DESCRIPTION:Коллективное обсуждение книги «М
+ арсель Пруст. Смесь» теоретика Ролана Б
+ арта.\nNone\nhttps://t.me/cci_fabrika/6140
+URL:https://doublebasskakov.github.io/radar/#e=reading-seminar-on-roland-
+ barthes-book-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ридинг-семинар по книге Ролана Ба
+ рта
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:raspev-sound-the-trumpet-moscow@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261129T090000Z
 DTEND:20261129T110000Z
 SUMMARY:Распев. Sound the Trumpet
@@ -2067,7 +2320,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:presentation-of-the-catalog-anton-chekhov-sakhalin-collectio-moscow@a
  fisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261126T160000Z
 DTEND:20261126T180000Z
 SUMMARY:Представление каталога «Антон Чехо
@@ -2090,7 +2343,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:meeting-with-a-sexologist-the-invisible-mechanics-of-attract-samara@a
  fisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261124T150000Z
 DTEND:20261124T170000Z
 SUMMARY:Встреча с психологом-сексологом: «Н
@@ -2112,7 +2365,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:guided-tour-of-the-exhibition-from-galosh-to-art-moscow@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261129T110000Z
 DTEND:20261129T130000Z
 SUMMARY:Экскурсия по выставке «От галоши до
@@ -2135,7 +2388,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:lecture-how-is-the-financial-side-of-church-life-organized-moscow@afi
  sha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261125T160000Z
 DTEND:20261125T180000Z
 SUMMARY:Лекция «Как устроена финансовая ст
@@ -2158,7 +2411,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:creative-meeting-dedicated-to-poet-tatyana-efimenko-moscow@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261125T160000Z
 DTEND:20261125T180000Z
 SUMMARY:Творческая встреча\, посвященная по
@@ -2181,7 +2434,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:readers-club-valery-zolotukhin-ruin-as-opportunity-moscow@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261129T110000Z
 DTEND:20261129T130000Z
 SUMMARY:Читательский клуб: Валерий Золотух
@@ -2203,7 +2456,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:second-life-of-vinyl-clocks-workshop-moscow@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261129T120000Z
 DTEND:20261129T140000Z
 SUMMARY:Мастер-класс «Вторая жизнь винила: 
@@ -2225,7 +2478,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:master-class-juicy-grapes-moscow@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261126T160000Z
 DTEND:20261126T180000Z
 SUMMARY:Мастер-класс «Сочный виноград»
@@ -2245,7 +2498,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:trashbook-zine-from-waste-workshop-moscow@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261128T120000Z
 DTEND:20261128T140000Z
 SUMMARY:Мастер-класс «Трэшбук: зин из ненуж
@@ -2267,7 +2520,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:secrets-of-russian-gothic-prose-lecture-moscow@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261126T160000Z
 DTEND:20261126T180000Z
 SUMMARY:Лекция «Тайны русской готической п
@@ -2286,8 +2539,29 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:the-great-collector-of-russian-words-program-nizhny-novgo@afisha-art
+DTSTAMP:20261123T141501Z
+DTSTART:20261124T100000Z
+DTEND:20261124T120000Z
+SUMMARY:Программа «Великий собиратель слов
+  русских»
+LOCATION:Центр культуры «Рекорд»\, ул. Писку
+ нова\, 11/7\, Нижний Новгород
+DESCRIPTION:Литературно-музыкальное меропри
+ ятие\, посвященное русскому языку и куль
+ туре.\nNone\nhttps://t.me/gorkoNN/29662
+URL:https://doublebasskakov.github.io/radar/#e=the-great-collector-of-rus
+ sian-words-program-nizhny-novgo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Программа «Великий собиратель сл
+ ов русских»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:master-class-series-made-for-home-wall-clock-kazan@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261124T153000Z
 DTEND:20261124T173000Z
 SUMMARY:Серия мастер-классов «Сделано для д
@@ -2306,8 +2580,26 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:book-flow-meeting-moscow@afisha-art
+DTSTAMP:20261123T141501Z
+DTSTART:20261125T163000Z
+DTEND:20261125T183000Z
+SUMMARY:Встреча «Книжный флоу»
+LOCATION:Вспышка\, ул. Электрозаводская\, 21\, 
+ Москва
+DESCRIPTION:Литературное событие в формате о
+ ткрытого обсуждения во Вспышке.\nNone\nhttps:/
+ /t.me/vspyshkafriends/5773
+URL:https://doublebasskakov.github.io/radar/#e=book-flow-meeting-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Встреча «Книжный флоу»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:meeting-with-biologist-ilya-dolgov-moscow@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261125T160000Z
 DTEND:20261125T180000Z
 SUMMARY:Встреча с биологом Ильёй Долговым
@@ -2328,7 +2620,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:museum-educational-class-on-v-i-surikov-s-paintings-saint-peters@afis
  ha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261123T140000Z
 DTEND:20261123T160000Z
 SUMMARY:Музейно-педагогическое занятие по 
@@ -2348,31 +2640,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:course-analyzing-constructivism-moscow@afisha-art
-DTSTAMP:20261122T214228Z
-DTSTART:20261217T163000Z
-DTEND:20261217T183000Z
-SUMMARY:Открытие: Курс «Разбираем конструк
- тивизм»
-LOCATION:Центр «Зотов»\, Ходынская улица\, 2 с
- тр. 1\, Москва
-DESCRIPTION:Образовательный курс о ключевых 
- проявлениях конструктивизма в графичес
- ком дизайне\, фотографии\, кино\, театре и
-  архитектуре.\nЦентр «Зотов»\nhttps://centrezotov.
- ru/events/kurs-razbiraem-konstruktivizm/
-URL:https://doublebasskakov.github.io/radar/#e=course-analyzing-construct
- ivism-moscow
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Открытие: Курс «Разбираем констр
- уктивизм»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:a-house-for-krasny-perekop-yaroslavl@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261129T120000Z
 DTEND:20261129T140000Z
 SUMMARY:Дом для Красного Перекопа
@@ -2392,8 +2661,91 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:discussion-how-photography-works-in-perm-perm@afisha-art
+DTSTAMP:20261123T141501Z
+DTSTART:20261126T133000Z
+DTEND:20261126T153000Z
+SUMMARY:Дискуссия «Как устроена фотография
+  в Перми»
+LOCATION:ЦГК\, ул. Пушкина\, 15\, Пермь
+DESCRIPTION:Обсуждение фотографии как профес
+ сиональной и авторской индустрии в реги
+ оне за последние десять лет.\nNone\nhttps://t.me/m
+ mmperm/8849
+URL:https://doublebasskakov.github.io/radar/#e=discussion-how-photography
+ -works-in-perm-perm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Дискуссия «Как устроена фотограф
+ ия в Перми»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lecture-how-an-artist-should-talk-about-their-practice-perm@afisha-ar
+ t
+DTSTAMP:20261123T141501Z
+DTSTART:20261124T140000Z
+DTEND:20261124T160000Z
+SUMMARY:Лекция «Как художнику говорить о св
+ оей практике»
+LOCATION:ПЕРММ\, ул. Крисанова\, 4\, Пермь
+DESCRIPTION:Встреча о подготовке портфолио и 
+ взаимодействии художников с галереями 
+ и кураторами.\nNone\nhttps://t.me/mmmperm/8849
+URL:https://doublebasskakov.github.io/radar/#e=lecture-how-an-artist-shou
+ ld-talk-about-their-practice-perm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекция «Как художнику говорить о 
+ своей практике»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:meeting-genre-limits-literature-as-landscape-moscow@afisha-art
+DTSTAMP:20261123T141501Z
+DTSTART:20261126T163000Z
+DTEND:20261126T183000Z
+SUMMARY:Встреча «Пределы жанра: литература 
+ как пейзаж»
+LOCATION:ГЭС-2\, Болотная наб.\, 15\, Москва
+DESCRIPTION:Дискуссия о взаимосвязи литерату
+ рных форм и визуального восприятия прос
+ транства.\n\nhttps://t.me/vacges2/8598
+URL:https://doublebasskakov.github.io/radar/#e=meeting-genre-limits-liter
+ ature-as-landscape-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Встреча «Пределы жанра: литерату
+ ра как пейзаж»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:guided-tour-of-ivan-nikolayev-s-commune-house-moscow@afisha-art
+DTSTAMP:20261123T141501Z
+DTSTART:20261128T100000Z
+DTEND:20261128T120000Z
+SUMMARY:Экскурсия по Дому-коммуне Ивана Ник
+ олаева
+LOCATION:Дом-коммуна Ивана Николаева\, Москв
+ а
+DESCRIPTION:Архитектурная экскурсия по знаме
+ нитому памятнику конструктивизма.\nЦент
+ р «Зотов»\nhttps://t.me/centrezotov/10419
+URL:https://doublebasskakov.github.io/radar/#e=guided-tour-of-ivan-nikola
+ yev-s-commune-house-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Экскурсия по Дому-коммуне Ивана Н
+ иколаева
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:master-class-dancing-doll-moscow@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261129T090000Z
 DTEND:20261129T110000Z
 SUMMARY:Мастер-класс «Танцующая кукла»
@@ -2413,7 +2765,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lecture-series-what-did-freud-say-kazan@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART:20261128T160000Z
 DTEND:20261128T180000Z
 SUMMARY:Лекторий «Что сказал Фрейд?»
@@ -2432,7 +2784,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ai-journey-2026-science-day-online@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:AI Journey 2026: День науки
@@ -2454,7 +2806,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:business-program-of-the-zimny-film-festival-moscow@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261207
 SUMMARY:Деловая программа кинофестиваля «З
@@ -2478,7 +2830,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:vasily-beynarovich-faust-of-the-21st-century-how-not-to-rais-rostov-o
  n-do@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
 SUMMARY:Василий Бейнарович\, Фауст 21 века. К
@@ -2503,7 +2855,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:11th-scientific-and-practical-conference-museum-in-the-city--moscow@a
  fisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261204
 SUMMARY:XI научно-практическая конференция 
@@ -2525,7 +2877,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:borodin-between-laboratory-and-music-lecture-kaliningrad@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Лекция «Бородин: между лабораторие
@@ -2548,7 +2900,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lecture-in-search-of-sound-color-kaliningrad@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Лекция «В поисках звукоцвета»
@@ -2569,7 +2921,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:winter-school-by-stasis-center-saint-peters@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20270121
 DTEND;VALUE=DATE:20270124
 SUMMARY:Зимняя школа центра «Стасис»
@@ -2591,7 +2943,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:excursion-to-the-exhibition-anthology-of-pozdeev-krasnoyarsk@afisha-a
  rt
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 SUMMARY:Последний день: Экскурсия по выстав
@@ -2615,7 +2967,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lecture-hall-gericault-zaryanko-infante-novosibirsk@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Лекторий: Жерико\, Зарянко\, Инфанте
@@ -2638,7 +2990,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lecture-rodchenko-sargent-terborch-novosibirsk@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20270213
 DTEND;VALUE=DATE:20270214
 SUMMARY:Лекторий: Родченко\, Сарджент\, Терб
@@ -2662,7 +3014,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:vii-all-russian-scientific-and-practical-conference-theatre--saratov@
  afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
 SUMMARY:VII Всероссийская научно-практическ
@@ -2690,7 +3042,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:educational-program-of-catalog-fair-moscow@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
 SUMMARY:Образовательная программа ярмарки 
@@ -2713,7 +3065,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:lecture-a-moment-before-the-freeze-literary-freedom-of-the-1-yekateri
  nbur@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Лекция «За мгновение до заморозков:
@@ -2735,7 +3087,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lecture-hall-botticelli-thirst-for-harmony-novosibirsk@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Лекторий: Боттичелли. Жажда гармони
@@ -2758,7 +3110,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:how-to-become-an-art-historian-online@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20270114
 DTEND;VALUE=DATE:20270115
 SUMMARY:Как стать искусствоведом
@@ -2779,7 +3131,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:scientific-and-practical-conference-my-gnesin-teacher-female-moscow@a
  fisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20270215
 DTEND;VALUE=DATE:20270217
 SUMMARY:Научно-практическая конференция «М
@@ -2805,7 +3157,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:lecture-the-little-dutch-masters-on-life-and-existence-rostov-on-do@a
  fisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Лекция «Малые голландцы. О быте и бы
@@ -2829,7 +3181,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:literary-and-art-evening-with-a-psychologist-water-as-a-symb-novosibi
  rsk@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:Литературно-художественный вечер с
@@ -2853,7 +3205,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:musical-book-club-the-violist-danilov-nizhny-novgo@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Музыкальный книжный клуб: «Альтист 
@@ -2875,7 +3227,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:architecture-instructions-for-use-by-s-berezovskaya-tomsk@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:Курс лекций С. Березовской «Архитек
@@ -2897,33 +3249,29 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:9th-international-conference-jewish-field-new-discoveries-ex-moscow@a
- fisha-art
-DTSTAMP:20261122T214228Z
-DTSTART;VALUE=DATE:20261124
-DTEND;VALUE=DATE:20261127
-SUMMARY:IX международная конференция «Еврей
- ское поле: новые открытия\, опыт и концеп
- туализация»
-LOCATION:Еврейский музей и центр толерантно
- сти\, Москва
-DESCRIPTION:Междисциплинарная научная конфе
- ренция\, посвященная еврейской антропол
- огии\, языку\, фольклору и цифровым архив
- ам.\n\nhttps://t.me/jewishmuseum/5792
-URL:https://doublebasskakov.github.io/radar/#e=9th-international-conferen
- ce-jewish-field-new-discoveries-ex-moscow
+UID:charity-women-s-safety-day-moscow@afisha-art
+DTSTAMP:20261123T141501Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Благотворительный день женской без
+ опасности
+LOCATION:Центр «Сестры»\, Москва
+DESCRIPTION:Событие в рамках кампании против 
+ насилия включает тренировки и просвети
+ тельские беседы в поддержку пострадавш
+ их.\nЦентр «Сестры»\nhttps://t.me/afishadailynews/104134
+URL:https://doublebasskakov.github.io/radar/#e=charity-women-s-safety-day
+ -moscow
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:IX международная конференция «Евр
- ейское поле: новые открытия\, опыт и конц
- ептуализация»
+DESCRIPTION:Благотворительный день женской б
+ езопасности
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:podcast-contemporary-art-instructions-for-use-online@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:Последний день: Подкаст «Современн
@@ -2946,7 +3294,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lym-lab-open-workshop-on-touchdesigner-moscow@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Открытый воркшоп LYM Lab по TouchDesigner
@@ -2965,9 +3313,33 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:interactive-lecture-i-believe-you-how-to-talk-about-violence-moscow@a
+ fisha-art
+DTSTAMP:20261123T141501Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:Интерактивная лекция «Я тебе верю: 
+ как говорить о насилии\, чтобы помогать\,
+  а не ранить»
+LOCATION:Центр «Сестры»\, Москва
+DESCRIPTION:Заключительное мероприятие камп
+ ании\, посвященное правилам этичной ком
+ муникации и поддержки переживших насил
+ ие.\nЦентр «Сестры»\nhttps://t.me/afishadailynews/104134
+URL:https://doublebasskakov.github.io/radar/#e=interactive-lecture-i-beli
+ eve-you-how-to-talk-about-violence-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Интерактивная лекция «Я тебе вер
+ ю: как говорить о насилии\, чтобы помогат
+ ь\, а не ранить»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:vasily-beynarovich-faust-of-the-21st-century-how-not-to-rais-voronezh
  @afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 SUMMARY:Василий Бейнарович\, Фауст 21 века. К
@@ -2992,7 +3364,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:when-ballet-became-fashionable-diaghilev-chanel-and-artists-rostov-on
  -do@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:Когда балет стал модным: Дягилев\, Ш
@@ -3016,7 +3388,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:digital-immunity-in-the-era-of-cyberwarfare-how-to-protect-f-novosibi
  rsk@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Цифровой иммунитет в эпоху киберво
@@ -3043,7 +3415,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:night-excursion-at-the-krasnoyarsk-museum-center-krasnoyarsk@afisha-a
  rt
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:Последний день: Ночная экскурсия по
@@ -3067,7 +3439,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:discussion-reading-and-discussing-yevgeny-zamyatin-s-dystopi-yekateri
  nbur@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Дискуссия «Читаем и обсуждаем анти
@@ -3090,7 +3462,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cinema-history-russian-cinematography-lecture-series-tomsk@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Цикл лекций «История кино: российск
@@ -3113,7 +3485,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:public-talk-with-irina-uspenskaya-moscow@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Паблик-ток с Ириной Успенской
@@ -3133,7 +3505,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:paper-animation-workshop-paper-garage-moscow@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
 SUMMARY:Последний день: Мастер-класс по бум
@@ -3156,7 +3528,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:interactive-lecture-imitators-project-inventing-man-rostov-on-do@afis
  ha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Интерактивная лекция «Имитаторы». 
@@ -3181,7 +3553,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:lecture-by-yulia-veksler-arnold-schoenberg-and-richard-strau-st-peter
  sbur@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:Лекция Юлии Векслер «Арнольд Шёнбе
@@ -3203,7 +3575,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:book-club-book-museum-of-the-apocalypse-tomsk@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Книжный клуб «Книга: музей апокалип
@@ -3225,7 +3597,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:vasily-beynarovich-faust-of-the-21st-century-kaliningrad@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Василий Бейнарович\, Фауст 21 века. К
@@ -3248,7 +3620,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:musical-book-club-doctor-faustus-nizhny-novgo@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:Музыкальный книжный клуб: «Доктор Ф
@@ -3270,7 +3642,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:musical-book-club-the-phantom-of-the-opera-nizhny-novgo@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 SUMMARY:Музыкальный книжный клуб: «Призрак 
@@ -3291,7 +3663,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lecture-the-true-story-of-the-new-year-rostov-on-do@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
 SUMMARY:Лекция «Правдивая история Нового г
@@ -3315,7 +3687,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:lecture-grigory-rasputin-phenomenon-of-the-era-rostov-on-do@afisha-ar
  t
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Лекция «Григорий Распутин. Феномен 
@@ -3339,7 +3711,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:lecture-10-masterpieces-of-world-painting-you-need-to-know-rostov-on-
  do@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Лекция «10 шедевров мировой живопис
@@ -3362,7 +3734,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:art-breakfast-russian-museum-in-zilart-masterpieces-of-the-2-moscow@a
  fisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Арт-завтрак «Русский музей в ЗИЛАРТ
@@ -3387,7 +3759,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lecture-legends-of-rostov-rostov-on-do@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Лекция «Легенды Ростова»
@@ -3406,7 +3778,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lecture-hall-india-exotic-and-attractive-novosibirsk@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20270313
 DTEND;VALUE=DATE:20270314
 SUMMARY:Лекторий: Индия. Экзотическая и при
@@ -3429,7 +3801,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lecture-how-to-view-and-understand-paintings-rostov-on-do@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20270120
 DTEND;VALUE=DATE:20270121
 SUMMARY:Лекция «Как смотреть и понимать кар
@@ -3450,7 +3822,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lecture-women-of-the-romanov-dynasty-rostov-on-do@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20270115
 DTEND;VALUE=DATE:20270116
 SUMMARY:Лекция «Женщины рода Романовых»
@@ -3470,7 +3842,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:art-lectorium-how-new-year-and-christmas-were-celebrated-perm@afisha-
  art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20270106
 DTEND;VALUE=DATE:20270107
 SUMMARY:Арт-лекторий. Как встречали Новый г
@@ -3491,8 +3863,28 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:history-of-pharmacy-excursion-nizhny-novgo@afisha-art
+DTSTAMP:20261123T141501Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Экскурсия «История аптечного дела»
+LOCATION:Дом Эвениуса\, ул. Варварская\, 4\, Ни
+ жний Новгород
+DESCRIPTION:Рассказ о старинных методах лече
+ ния и пути от алхимии до современной фар
+ макологии.\nNone\nhttps://t.me/gorkoNN/29662
+URL:https://doublebasskakov.github.io/radar/#e=history-of-pharmacy-excurs
+ ion-nizhny-novgo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Экскурсия «История аптечного дел
+ а»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:voiceover-masterclass-saint-peters@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Мастер-класс по озвучке
@@ -3510,7 +3902,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:the-language-of-music-melody-moscow@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20270321
 DTEND;VALUE=DATE:20270322
 SUMMARY:Язык музыки. Мелодия
@@ -3536,7 +3928,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:the-language-of-music-rhythm-moscow@afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
 SUMMARY:Язык музыки. Ритм
@@ -3561,32 +3953,9 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:music-lecture-petr-aidu-what-is-noise-st-petersbur@afisha-art
-DTSTAMP:20261122T214228Z
-DTSTART;VALUE=DATE:20261123
-DTEND;VALUE=DATE:20261124
-SUMMARY:Музыкальный лекторий. Пётр Айду. Чт
- о такое шум?
-LOCATION:Новая Голландия\, наб. Адмиралтейск
- ого канала\, 2\, Санкт-Петербург
-DESCRIPTION:Музыкант и исследователь Пётр Ай
- ду анализирует феномен шума с точки зре
- ния звукового искусства и акустики.\nПёт
- р Айду\nhttps://www.newhollandsp.ru/events/education/music-lecture-2
- /
-URL:https://doublebasskakov.github.io/radar/#e=music-lecture-petr-aidu-wh
- at-is-noise-st-petersbur
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Музыкальный лекторий. Пётр Айду. 
- Что такое шум?
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:lecture-on-the-170th-anniversary-of-alexander-kastalsky-petrozavodsk@
  afisha-art
-DTSTAMP:20261122T214228Z
+DTSTAMP:20261123T141501Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Лекция: К 170-летию со дня рождения Ал

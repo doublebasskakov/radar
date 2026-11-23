@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:live-show-plantalent-talent-show-moscow@afisha-art
+DTSTAMP:20261123T141501Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:Шоу талантов Live Show Plantalent
+LOCATION:Москва
+DESCRIPTION:Офлайн-мероприятие в честь пятил
+ етия бренда Planta Rosa\, где финалисты конку
+ рса талантов смогут выступить на сцене.\
+ nPlanta Rosa\nhttps://t.me/theblueprintnews/100038
+URL:https://doublebasskakov.github.io/radar/#e=live-show-plantalent-talen
+ t-show-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Шоу талантов Live Show Plantalent
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Радар — Россия · city-khabarovsk
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:premiere-of-denis-khorov-s-piano-concerto-khabarovsk@afisha-art
+DTSTAMP:20261123T141501Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Премьера Концерта для фортепиано с 
+ оркестром Дениса Хорова
+LOCATION:Хабаровск
+DESCRIPTION:В Хабаровске состоится премьерно
+ е исполнение Концерта для фортепиано с 
+ оркестром Дениса Хорова в исполнении За
+ рины Шиманской.\nДенис Хоров\, Зарина Шим
+ анская\nhttps://t.me/orpheusradio/51800
+URL:https://doublebasskakov.github.io/radar/#e=premiere-of-denis-khorov-s
+ -piano-concerto-khabarovsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Премьера Концерта для фортепиано
+  с оркестром Дениса Хорова
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR
