@@ -5,10 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:diaries-exhibition-perm@afisha-art
-DTSTAMP:20261123T141501Z
-DTSTART;VALUE=DATE:20261123
-DTEND;VALUE=DATE:20261124
-SUMMARY:Открытие: Выставка «Дневники»
+DTSTAMP:20261123T214003Z
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+SUMMARY:Последний день: Выставка «Дневники
+ »
 LOCATION:Пермская Арт-резиденция\, ул. Монас
  тырская\, 95а\, Пермь
 DESCRIPTION:Персональная выставка работ Елен
@@ -17,7 +18,8 @@ DESCRIPTION:Персональная выставка работ Елен
 URL:https://doublebasskakov.github.io/radar/#e=diaries-exhibition-perm
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Открытие: Выставка «Дневники»
+DESCRIPTION:Последний день: Выставка «Дневни
+ ки»
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

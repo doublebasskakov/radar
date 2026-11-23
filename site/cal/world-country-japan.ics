@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:hibiki-mukai-concert-festival-de-l-intemporel-tokyo@afisha-art
-DTSTAMP:20261123T141501Z
+DTSTAMP:20261123T214003Z
 DTSTART:20270226T100000Z
 DTEND:20270226T120000Z
 SUMMARY:Концерт Hibiki Mukai: Festival de l'Intemporel
@@ -28,7 +28,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cine-concert-festival-de-l-intemporel-tokyo@afisha-art
-DTSTAMP:20261123T141501Z
+DTSTAMP:20261123T214003Z
 DTSTART:20270224T100000Z
 DTEND:20270224T120000Z
 SUMMARY:Ciné-Concert: Festival de l'Intemporel
@@ -48,7 +48,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:festival-de-l-intemporel-collaboratory-cine-concert-tokyo@afisha-art
-DTSTAMP:20261123T141501Z
+DTSTAMP:20261123T214003Z
 DTSTART:20270224T100000Z
 DTEND:20270224T120000Z
 SUMMARY:Фестиваль de l'Intemporel: Сине-концерт
@@ -68,7 +68,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:festival-de-l-intemporel-hibiki-mukai-tokyo@afisha-art
-DTSTAMP:20261123T141501Z
+DTSTAMP:20261123T214003Z
 DTSTART:20270226T100000Z
 DTEND:20270226T120000Z
 SUMMARY:Фестиваль de l'Intemporel: Хибики Мукаи
@@ -87,28 +87,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:mutek-jp-2026@afisha-art
-DTSTAMP:20261123T141501Z
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261124
-SUMMARY:MUTEK.JP 2026
-LOCATION:MoN Takanawa: The Museum of Narratives\, Takanawa Gateway City\,
-  Токио\, Япония
-DESCRIPTION:Токийская редакция MUTEK — фестива
- ля электронной музыки и цифрового искус
- ства — впервые проходит в новом музее MoN
-  Takanawa и длится четыре дня.\n\nhttps://tokyo.mutek.org
- /en/news/mutek-jp-2026-edition-11
-URL:https://doublebasskakov.github.io/radar/#e=mutek-jp-2026
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:MUTEK.JP 2026
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:mori-world-is-made-of-play@afisha-art
-DTSTAMP:20261123T141501Z
+DTSTAMP:20261123T214003Z
 DTSTART;VALUE=DATE:20270429
 DTEND;VALUE=DATE:20270430
 SUMMARY:Открытие: 世界はあそびでできている：アー
@@ -131,7 +111,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mori-mariko-mori@afisha-art
-DTSTAMP:20261123T141501Z
+DTSTAMP:20261123T214003Z
 DTSTART;VALUE=DATE:20270328
 DTEND;VALUE=DATE:20270329
 SUMMARY:Последний день: Mariko Mori: All That Shines
@@ -150,7 +130,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:yokohama-triennale-9@afisha-art
-DTSTAMP:20261123T141501Z
+DTSTAMP:20261123T214003Z
 DTSTART;VALUE=DATE:20270423
 DTEND;VALUE=DATE:20270424
 SUMMARY:Открытие: 9th Yokohama Triennale
