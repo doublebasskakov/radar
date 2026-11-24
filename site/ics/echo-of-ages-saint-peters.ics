@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:echo-of-ages-saint-peters@afisha-art
+DTSTAMP:20261124T031133Z
+DTSTART:20261126T160000Z
+DTEND:20261126T180000Z
+SUMMARY:Эхо веков
+LOCATION:Санкт-Петербургская государственн
+ ая консерватория\, Санкт-Петербург
+DESCRIPTION:Камерный концерт ансамблевой муз
+ ыки трех столетий\, соединяющий барочно
+ е наследие Генделя и академические сочи
+ нения Сергея Слонимского.\nСанкт-Петерб
+ ургская государственная консерватория 
+ им. Н. А. Римского-Корсакова\nhttps://www.conservato
+ ry.ru/concerts/ekho-vekov
+URL:https://doublebasskakov.github.io/radar/#e=echo-of-ages-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Эхо веков
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:all-stravinsky-moscow@afisha-art
+DTSTAMP:20261124T031133Z
+DTSTART:20261124T160000Z
+DTEND:20261124T180000Z
+SUMMARY:Весь Стравинский
+LOCATION:Концертный зал имени П. И. Чайковск
+ ого\, Москва
+DESCRIPTION:Концерт-лекция из цикла музыкове
+ да Ярослава Тимофеева\, посвященного ор
+ кестровым произведениям и творческому 
+ наследию Игоря Стравинского.\nЯрослав Т
+ имофеев\, Алексей Рубин\, Государственны
+ й академический симфонический оркестр 
+ России имени Е. Ф. Светланова\nhttps://meloman.ru/
+ calendar/
+URL:https://doublebasskakov.github.io/radar/#e=all-stravinsky-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Весь Стравинский
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

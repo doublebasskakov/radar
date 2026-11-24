@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:premiere-of-the-film-volchek-moscow@afisha-art
+DTSTAMP:20261124T031133Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:Премьера фильма «Волчек»
+LOCATION:Кинотеатр «Художественный»\, Арбат
+ ская пл.\, 14\, Москва
+DESCRIPTION:Документальный фильм Ангелины Аш
+ ман откроет программу смотра авторског
+ о кино.\nАнгелина Ашман\nhttps://zimnyfest.ru/news/zimn
+ iy-2026-programma
+URL:https://doublebasskakov.github.io/radar/#e=premiere-of-the-film-volch
+ ek-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Премьера фильма «Волчек»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

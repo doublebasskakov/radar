@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:film-screening-you-can-see-everything-moscow-2@afisha-art
+DTSTAMP:20261124T031133Z
+DTSTART:20261124T123000Z
+DTEND:20261124T143000Z
+SUMMARY:Кинопоказ «Видно всё»
+LOCATION:Дом культуры «ГЭС-2»\, Болотная наб.\
+ , 15\, Москва
+DESCRIPTION:Показ авторского кино в рамках ре
+ гулярной программы ГЭС-2.\nПрограмма ГЭС-
+ 2 Кино\nhttps://ges-2.org/en/you-can-see-everything
+URL:https://doublebasskakov.github.io/radar/#e=film-screening-you-can-see
+ -everything-moscow-2
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Кинопоказ «Видно всё»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

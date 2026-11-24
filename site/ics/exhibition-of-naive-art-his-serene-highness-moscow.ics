@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:exhibition-of-naive-art-his-serene-highness-moscow@afisha-art
+DTSTAMP:20261124T031133Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:Открытие: Выставка наивного искусс
+ тва «Его Светлость»
+LOCATION:SISTEMA GALLERY\, Москва
+DESCRIPTION:Экспозиция произведений наивног
+ о искусства из частной коллекции Сергея
+  Ястржембского.\nСергей Ястржембский\nhttp
+ s://t.me/sistema_gallery/2711
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-of-naive-art-hi
+ s-serene-highness-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка наивного иску
+ сства «Его Светлость»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

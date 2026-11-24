@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:film-screening-seeing-the-dance-perm@afisha-art
+DTSTAMP:20261124T031133Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Кинопоказ «Видеть танец»
+LOCATION:Кинотеатр «Кристалл»\, Пермь
+DESCRIPTION:Специальный показ архивных фильм
+ ов об истории Пермского хореографическ
+ ого училища и его знаменитых солистках.\
+ nНаталья Вороненко\nhttps://t.me/permopera/8992
+URL:https://doublebasskakov.github.io/radar/#e=film-screening-seeing-the-
+ dance-perm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Кинопоказ «Видеть танец»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

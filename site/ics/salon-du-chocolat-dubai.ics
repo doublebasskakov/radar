@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:salon-du-chocolat-dubai@afisha-art
+DTSTAMP:20261124T031133Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261203
+SUMMARY:Salon du Chocolat
+LOCATION:Madinat Jumeirah\, Дубай\, ОАЭ
+DESCRIPTION:Ежегодная выставка международно
+ й шоколадной промышленности\, объединяю
+ щая сотни брендов\, шеф-кондитеров и ори
+ гинальные показы платьев из шоколада.\n\n
+ https://t.me/dubai_afisha/931
+URL:https://doublebasskakov.github.io/radar/#e=salon-du-chocolat-dubai
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Salon du Chocolat
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

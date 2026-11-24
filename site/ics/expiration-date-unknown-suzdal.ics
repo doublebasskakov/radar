@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:expiration-date-unknown-suzdal@afisha-art
+DTSTAMP:20261124T031133Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:Открытие: Срок хранения неизвестен
+LOCATION:МИРА Центр\, улица Кремлевская\, 5\, С
+ уздаль
+DESCRIPTION:Персональная выставка Алексея Ст
+ аркова в МИРА Центре.\nАлексей Старков\nht
+ tps://t.me/obdn_ru/12715
+URL:https://doublebasskakov.github.io/radar/#e=expiration-date-unknown-su
+ zdal
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Срок хранения неизвест
+ ен
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

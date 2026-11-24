@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:panorama-de-la-collection-paris@afisha-art
+DTSTAMP:20261124T031133Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:Открытие: Панорама коллекции
+LOCATION:Maison Pompidou\, Paris\, Париж\, Франция
+DESCRIPTION:Цикл конференций и лекций\, посвя
+ щенных ключевым произведениям из собра
+ ния Центра Помпиду.\nNone\nhttps://www.centrepompidou.fr/
+ en/program/calendar/event/6OUx0Kf
+URL:https://doublebasskakov.github.io/radar/#e=panorama-de-la-collection-
+ paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Панорама коллекции
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

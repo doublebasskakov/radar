@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:winter-ff-moscow@afisha-art
+DTSTAMP:20261124T031133Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261208
+SUMMARY:Зимний FF
+LOCATION:Москва
+DESCRIPTION:Пятый фестиваль авторского и док
+ ументального кино\, в конкурсной програ
+ мме которого представлены девять отече
+ ственных картин.\nАнгелина Ашман\, Иван В
+ довин\, Александр Хант\, Татьяна Жукова\, 
+ Маша Кошина\, Егор Щиренко\nhttps://t.me/ulizabalaba
+ nova/38589
+URL:https://doublebasskakov.github.io/radar/#e=winter-ff-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Зимний FF
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

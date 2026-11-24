@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:screening-diamond-island-by-davy-chou-paris@afisha-art
+DTSTAMP:20261124T031133Z
+DTSTART:20261209T193000Z
+DTEND:20261209T213000Z
+SUMMARY:Показ: «Алмазный остров» Дэви Чоу
+LOCATION:mk2 Bibliothèque × Centre Pompidou\, 128 Avenue de France\, 75
+ 013 Paris\, Париж\, Франция
+DESCRIPTION:Показ художественного фильма Дэв
+ и Чоу в программе панорамы современного
+  кино.\nDavy Chou\nhttps://www.centrepompidou.fr/en/program/calendar
+URL:https://doublebasskakov.github.io/radar/#e=screening-diamond-island-b
+ y-davy-chou-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ: «Алмазный остров» Дэви Чоу
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:gala-concert-of-the-regional-youth-art-festival-m-art-yaroslavl@afish
+ a-art
+DTSTAMP:20261124T031133Z
+DTSTART:20261127T150000Z
+DTEND:20261127T170000Z
+SUMMARY:Гала-концерт областного фестиваля 
+ молодёжного творчества «М.Арт»
+LOCATION:Арт-резиденция «Проспект 27»\, пр-т Л
+ енина\, 27\, Ярославль
+DESCRIPTION:Итоговый концерт с участием лучш
+ их молодых творческих коллективов реги
+ она.\nАрт-резиденция «Проспект 27»\nhttps://t.m
+ e/tavrida_art/22655
+URL:https://doublebasskakov.github.io/radar/#e=gala-concert-of-the-region
+ al-youth-art-festival-m-art-yaroslavl
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Гала-концерт областного фестивал
+ я молодёжного творчества «М.Арт»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

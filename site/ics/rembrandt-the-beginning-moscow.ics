@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:rembrandt-the-beginning-moscow@afisha-art
+DTSTAMP:20261124T031133Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:Открытие: Рембрандт. Начало
+LOCATION:Еврейский музей и центр толерантно
+ сти\, Образцова\, 11\, стр. 1А\, Москва
+DESCRIPTION:Выставка ранних живописных и гра
+ фических произведений Рембрандта из со
+ брания Государственного Эрмитажа\, посв
+ ящённая становлению его художественног
+ о языка.\nРембрандт Харменс ван Рейн\nhttps:
+ //t.me/vmuzey/32419
+URL:https://doublebasskakov.github.io/radar/#e=rembrandt-the-beginning-mo
+ scow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Рембрандт. Начало
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:documentary-film-mariana-otero-histoires-de-regards-paris@afisha-art
+DTSTAMP:20261124T031133Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:Открытие: Ретроспектива Марианы От
+ еро: Истории взглядов
+LOCATION:mk2 Bibliothèque × Centre Pompidou\, 128 Avenue de France\, 75
+ 013 Paris\, Париж\, Франция
+DESCRIPTION:Ретроспективные показы документ
+ альных работ режиссера Марианы Отеро.\nMa
+ riana Otero\nhttps://www.centrepompidou.fr/en/program/calendar
+URL:https://doublebasskakov.github.io/radar/#e=documentary-film-mariana-o
+ tero-histoires-de-regards-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Ретроспектива Марианы 
+ Отеро: Истории взглядов
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

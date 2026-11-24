@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:52nd-russian-antique-salon-moscow@afisha-art
+DTSTAMP:20261124T031133Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261130
+SUMMARY:52-й Российский Антикварный Салон
+LOCATION:Гостиный двор\, Ильинка\, 4\, Москва
+DESCRIPTION:Традиционная масштабная ярмарка 
+ антиквариата и классического искусства
+  в Гостином дворе.\n\nhttps://t.me/vmuzey/32432
+URL:https://doublebasskakov.github.io/radar/#e=52nd-russian-antique-salon
+ -moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:52-й Российский Антикварный Салон
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

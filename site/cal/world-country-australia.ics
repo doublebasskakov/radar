@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:penelope-green-exhibition-sea-of-life-sydney@afisha-art
-DTSTAMP:20261123T214003Z
+DTSTAMP:20261124T031133Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261127
 SUMMARY:Выставка Пенелопы Грин «Sea of Life»
@@ -26,6 +26,29 @@ URL:https://doublebasskakov.github.io/radar/#e=penelope-green-exhibition-
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Выставка Пенелопы Грин «Sea of Life»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:architecture-in-music-adelaide@afisha-art
+DTSTAMP:20261124T031133Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:Открытие: Архитектура в музыке
+LOCATION:Immersive Light and Art\, Аделаида\, Австралия
+DESCRIPTION:Выставка фоторабот бывшего виоло
+ нчелиста Чарльза Брукса\, который с помо
+ щью микрокамер заглядывает внутрь музы
+ кальных инструментов\, превращая их в фа
+ нтастические пространства и туннели.\nЧ
+ арльз Брукс\nhttps://www.theguardian.com/artanddesign/gallery/2
+ 026/nov/24/stunning-optical-illusion-photographs-inside-musical-instrumen
+ ts-charles-brooks
+URL:https://doublebasskakov.github.io/radar/#e=architecture-in-music-adel
+ aide
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Архитектура в музыке
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

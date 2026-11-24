@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:cezanne-et-nous-paris@afisha-art
+DTSTAMP:20261124T031133Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:Открытие: Сезанн и мы
+LOCATION:Grand Palais\, 3 Avenue du Général Eisenhower\, 75008 Paris\, 
+ Париж\, Франция
+DESCRIPTION:Масштабная выставка в Большом дв
+ орце\, исследующая творческое наследие 
+ Поля Сезанна и его влияние.\nNone\nhttps://www.cent
+ repompidou.fr/en/program/calendar/event/2s1FNB8
+URL:https://doublebasskakov.github.io/radar/#e=cezanne-et-nous-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Сезанн и мы
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

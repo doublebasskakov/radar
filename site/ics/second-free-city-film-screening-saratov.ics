@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:second-free-city-film-screening-saratov@afisha-art
+DTSTAMP:20261124T031133Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:Второй бесплатный городской кинопо
+ каз
+LOCATION:Саратовская государственная консе
+ рватория имени Л.В. Собинова\, Саратов
+DESCRIPTION:Бесплатный городской кинопоказ и
+  общегородская киновстреча в Саратовск
+ ой консерватории.\n\nhttps://sarcons.ru/events/vtoroy-besp
+ latnyy-gorodskoy-kinopokaz/
+URL:https://doublebasskakov.github.io/radar/#e=second-free-city-film-scre
+ ening-saratov
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Второй бесплатный городской кино
+ показ
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

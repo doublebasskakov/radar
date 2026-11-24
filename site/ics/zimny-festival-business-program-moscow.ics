@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:zimny-festival-business-program-moscow@afisha-art
+DTSTAMP:20261124T031133Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261207
+SUMMARY:Деловая программа фестиваля «Зимни
+ й»
+LOCATION:Художественный\, Иллюзион\, Арбатск
+ ая пл.\, 14\; Котельническая наб.\, 1/15\, Моск
+ ва
+DESCRIPTION:Серия профессиональных дискусси
+ й и специальных проектов для молодых ки
+ нематографистов в рамках фестиваля.\n\nhtt
+ ps://zimnyfest.ru/news/zimniy-2026-delovaya-programma
+URL:https://doublebasskakov.github.io/radar/#e=zimny-festival-business-pr
+ ogram-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Деловая программа фестиваля «Зим
+ ний»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

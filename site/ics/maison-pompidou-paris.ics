@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:maison-pompidou-paris@afisha-art
+DTSTAMP:20261124T031133Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:Открытие: Дом Помпиду
+LOCATION:Maison Pompidou\, Paris\, Париж\, Франция
+DESCRIPTION:Специальная выставка и презентац
+ ия инициатив в пространстве Maison Pompidou.\nNon
+ e\nhttps://www.centrepompidou.fr/en/program/calendar/event/4ojJ8SP
+URL:https://doublebasskakov.github.io/radar/#e=maison-pompidou-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Дом Помпиду
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

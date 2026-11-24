@@ -7,9 +7,29 @@ X-WR-CALNAME:Радар — Россия · cat-biennial
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:xvi-international-photobiennale-2026-moscow@afisha-art
+DTSTAMP:20261124T031133Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Последний день: XVI международная «Ф
+ отобиеннале-2026»
+LOCATION:МАММ\, Остоженка\, 16\, Москва
+DESCRIPTION:Масштабный международный смотр с
+ овременного фотоискусства.\nРоджер Балл
+ ен и другие\nhttps://t.me/dvevmoskve/14443
+URL:https://doublebasskakov.github.io/radar/#e=xvi-international-photobie
+ nnale-2026-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: XVI международная 
+ «Фотобиеннале-2026»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:international-photo-biennale-constellation-of-cultures-nizhny-novgo@a
  fisha-art
-DTSTAMP:20261123T214003Z
+DTSTAMP:20261124T031133Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Международная фотобиеннале «Созве

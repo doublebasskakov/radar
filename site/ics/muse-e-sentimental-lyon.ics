@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:muse-e-sentimental-lyon@afisha-art
+DTSTAMP:20261124T031133Z
+DTSTART:20261124T090000Z
+DTEND:20261124T110000Z
+SUMMARY:Открытие: Сентиментальный музей
+LOCATION:Музей изящных искусств Лиона\, 20 Place
+  des Terreaux\, 69001 Lyon\, Лион\, Франция
+DESCRIPTION:Концептуальная выставка\, объеди
+ няющая работы Андре Бретона\, Даниэля Сп
+ оерри и других авторов.\nNone\nhttps://www.centrepompi
+ dou.fr/en/program/calendar
+URL:https://doublebasskakov.github.io/radar/#e=muse-e-sentimental-lyon
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Сентиментальный музей
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

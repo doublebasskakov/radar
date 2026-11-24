@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:exhibition-paradise-lost-and-found-moscow@afisha-art
+DTSTAMP:20261124T031133Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:Открытие: Выставка «Рай потерянный 
+ и обретенный»
+LOCATION:Галерея Heritage\, Москва
+DESCRIPTION:Экспозиция в галерее Heritage\, иссле
+ дующая тему утраченного и возвращенног
+ о идеального пространства в искусстве.\n
+ \nhttps://t.me/vmuzey/32432
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-paradise-lost-a
+ nd-found-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка «Рай потерянн
+ ый и обретенный»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

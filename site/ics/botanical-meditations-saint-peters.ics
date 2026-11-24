@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:botanical-meditations-saint-peters@afisha-art
+DTSTAMP:20261124T031133Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261201
+SUMMARY:Ботанические медитации
+LOCATION:IRNBY art\, улица Добролюбова\, 5/1\, Санкт
+ -Петербург
+DESCRIPTION:Персональная выставка художника 
+ Ильи Жаркова в галерейном пространстве 
+ IRNBY art.\nИлья Жарков\nhttps://t.me/obdn_ru/12715
+URL:https://doublebasskakov.github.io/radar/#e=botanical-meditations-sain
+ t-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ботанические медитации
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

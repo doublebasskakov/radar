@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:objects-and-states-moscow@afisha-art
+DTSTAMP:20261124T031133Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:Открытие: Объекты и состояния
+LOCATION:Галерея TŌMO\, 1-й Зачатьевский переу
+ лок\, 8\, стр. 9\, Москва
+DESCRIPTION:Выставка современного искусства 
+ в галерее TŌMO\, где демонстрируются рабо
+ ты Нади Лихогруд.\nНадя Лихогруд и др.\nhttp
+ s://t.me/obdn_ru/12715
+URL:https://doublebasskakov.github.io/radar/#e=objects-and-states-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Объекты и состояния
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:exhibition-talent-to-live-moscow@afisha-art
+DTSTAMP:20261124T031133Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:Выставка «Талант жить»
+LOCATION:Postrigay Gallery\, Москва
+DESCRIPTION:Выставка произведений советской 
+ художницы и иллюстратора Татьяны Маври
+ ной\, известной своим ярким языком живоп
+ исной графики.\nТатьяна Маврина\nhttps://t.me/p
+ ostrigay_gallery/2952
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-talent-to-live-
+ moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выставка «Талант жить»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:rfc-40-prelude-berlin-2@afisha-art
+DTSTAMP:20261124T031133Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:Прелюдия к фестивалю transmediale RFC 40
+LOCATION:transmediale\, Берлин\, Германия
+DESCRIPTION:Вечер-прелюдия к фестивалю цифро
+ вой культуры transmediale с участием кураторо
+ в программы RFC 40.\ntransmediale\nhttps://transmediale.de/en
+URL:https://doublebasskakov.github.io/radar/#e=rfc-40-prelude-berlin-2
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Прелюдия к фестивалю transmediale RFC 40
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

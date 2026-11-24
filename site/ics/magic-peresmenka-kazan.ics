@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:magic-peresmenka-kazan@afisha-art
+DTSTAMP:20261124T031133Z
+DTSTART;VALUE=DATE:20270104
+DTEND;VALUE=DATE:20270109
+SUMMARY:Волшебная «Пересменка»
+LOCATION:Центр современной культуры «Смена
+ »\, ул. Бурхана Шахиди\, 7\, Казань
+DESCRIPTION:Междисциплинарный проект для все
+ й семьи\, приуроченный к новогодним кани
+ кулам.\n\nhttps://s-m-e-n-a.org/volshebnaja-peresmenka/
+URL:https://doublebasskakov.github.io/radar/#e=magic-peresmenka-kazan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Волшебная «Пересменка»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

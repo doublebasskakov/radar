@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:art-skif-festival-koltsovo@afisha-art
+DTSTAMP:20261124T031133Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Фестиваль «Арт-СКИФ»
+LOCATION:ЦКП «СКИФ»\, Кольцово
+DESCRIPTION:Событие на стыке науки и искусств
+ а: научная лекция с театральной импрови
+ зацией\, выступление группы Nuclear Losь и ви
+ деоинсталляция с данными синхротрона.\n
+ Театр «Явление»\, Nuclear Losь\nhttps://t.me/generativegal
+ lery/4548
+URL:https://doublebasskakov.github.io/radar/#e=art-skif-festival-koltsovo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Фестиваль «Арт-СКИФ»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

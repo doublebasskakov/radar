@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:dune-part-three-imax-premiere-tbilisi@afisha-art
-DTSTAMP:20261123T214003Z
+DTSTAMP:20261124T031133Z
 DTSTART:20261216T084500Z
 DTEND:20261216T104500Z
 SUMMARY:Премьера фильма «Дюна: часть третья
@@ -29,7 +29,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:charlie-chaplin-s-the-kid-with-live-orchestra-yerevan@afisha-art
-DTSTAMP:20261123T214003Z
+DTSTAMP:20261124T031133Z
 DTSTART:20261124T150000Z
 DTEND:20261124T170000Z
 SUMMARY:«Малыш» Чарли Чаплина с живым оркес
@@ -53,7 +53,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:talk-film-marinetti-l-uomo-che-invento-il-futuro-rome@afisha-art
-DTSTAMP:20261123T214003Z
+DTSTAMP:20261124T031133Z
 DTSTART:20261127T170000Z
 DTEND:20261127T190000Z
 SUMMARY:Показ и паблик-ток: «Маринетти. Чело
@@ -74,7 +74,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ircam-action-man-ray@afisha-art
-DTSTAMP:20261123T214003Z
+DTSTAMP:20261124T031133Z
 DTSTART:20270130T190000Z
 DTEND:20270130T210000Z
 SUMMARY:Action! Man Ray
@@ -92,12 +92,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-lovers-rock-by-steve-mcqueen-paris@afisha-art
-DTSTAMP:20261123T214003Z
+DTSTAMP:20261124T031133Z
 DTSTART:20261130T183000Z
 DTEND:20261130T203000Z
 SUMMARY:Показ фильма «Lovers Rock» Стива МакКуин
  а
-LOCATION:mk2 bibliothèque\, Париж\, Франция
+LOCATION:mk2 bibliothèque\, 128 Avenue de France\, 75013 Paris\, Пар
+ иж\, Франция
 DESCRIPTION:Кинопоказ фильма Стива МакКуина 
  с последующим обсуждением.\nSteve McQueen\nhttps:/
  /www.centrepompidou.fr/en/program/calendar/event/j0KvRFa
@@ -113,7 +114,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:documentary-screening-of-children-404-and-discussion-berlin@afisha-ar
  t
-DTSTAMP:20261123T214003Z
+DTSTAMP:20261124T031133Z
 DTSTART:20261125T180000Z
 DTEND:20261125T200000Z
 SUMMARY:Показ документального фильма «Дети
@@ -136,7 +137,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:marinetti-l-uomo-che-invento-il-futuro-rome@afisha-art
-DTSTAMP:20261123T214003Z
+DTSTAMP:20261124T031133Z
 DTSTART:20261127T170000Z
 DTEND:20261127T190000Z
 SUMMARY:Разговор и кинопоказ: Маринетти — ч
@@ -156,8 +157,113 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:documentary-film-la-fe-mis-a-40-ans-paris@afisha-art
+DTSTAMP:20261124T031133Z
+DTSTART:20261125T190000Z
+DTEND:20261125T210000Z
+SUMMARY:Короткий метр: Школе La Fémis 40 лет!
+LOCATION:Forum des images\, 2 Rue Saint-Eustache\, 75001 Paris\, Пари
+ ж\, Франция
+DESCRIPTION:Праздничная программа короткоме
+ тражных фильмов в честь 40-летия кинемат
+ ографической школы La Fémis.\nNone\nhttps://www.centrep
+ ompidou.fr/en/program/calendar
+URL:https://doublebasskakov.github.io/radar/#e=documentary-film-la-fe-mis
+ -a-40-ans-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Короткий метр: Школе La Fémis 40 лет!
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:documentary-film-me-moire-vive-paris@afisha-art
+DTSTAMP:20261124T031133Z
+DTSTART:20261124T110000Z
+DTEND:20261124T130000Z
+SUMMARY:Открытие: Документальный цикл: Мема
+ ри вив / Память жива
+LOCATION:Centre Wallonie-Bruxelles\, 46 Rue Quincampoix\, 75004 Paris\, 
+ Париж\, Франция
+DESCRIPTION:Показы документального кино в ра
+ мках программы Публичной библиотеки ин
+ формации (BPI).\nNone\nhttps://www.centrepompidou.fr/en/program/c
+ alendar
+URL:https://doublebasskakov.github.io/radar/#e=documentary-film-me-moire-
+ vive-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Документальный цикл: Ме
+ мари вив / Память жива
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:screening-9-temples-vers-le-ciel-by-sompot-chidgasornpongse-paris@afi
+ sha-art
+DTSTAMP:20261124T031133Z
+DTSTART:20261208T180000Z
+DTEND:20261208T200000Z
+SUMMARY:Открытие ретроспективы: «9 храмов к 
+ Небу» Сомпота Чидгасорнпонгсе
+LOCATION:mk2 Bibliothèque × Centre Pompidou\, 128 Avenue de France\, 75
+ 013 Paris\, Париж\, Франция
+DESCRIPTION:Открытие ретроспективы в рамках 
+ программы современного кино Юго-Восточ
+ ной Азии.\nSompot Chidgasornpongse\nhttps://www.centrepompidou.fr/
+ en/program/calendar
+URL:https://doublebasskakov.github.io/radar/#e=screening-9-temples-vers-l
+ e-ciel-by-sompot-chidgasornpongse-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие ретроспективы: «9 храмов
+  к Небу» Сомпота Чидгасорнпонгсе
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:screening-diamond-island-by-davy-chou-paris@afisha-art
+DTSTAMP:20261124T031133Z
+DTSTART:20261209T193000Z
+DTEND:20261209T213000Z
+SUMMARY:Показ: «Алмазный остров» Дэви Чоу
+LOCATION:mk2 Bibliothèque × Centre Pompidou\, 128 Avenue de France\, 75
+ 013 Paris\, Париж\, Франция
+DESCRIPTION:Показ художественного фильма Дэв
+ и Чоу в программе панорамы современного
+  кино.\nDavy Chou\nhttps://www.centrepompidou.fr/en/program/calendar
+URL:https://doublebasskakov.github.io/radar/#e=screening-diamond-island-b
+ y-davy-chou-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ: «Алмазный остров» Дэви Чоу
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:screening-the-tree-house-by-tru-o-ng-minh-quy-paris@afisha-art
+DTSTAMP:20261124T031133Z
+DTSTART:20261209T173000Z
+DTEND:20261209T193000Z
+SUMMARY:Показ: «Деревянный дом» Чыонг Минь 
+ Кюя
+LOCATION:mk2 Bibliothèque × Centre Pompidou\, 128 Avenue de France\, 75
+ 013 Paris\, Париж\, Франция
+DESCRIPTION:Показ авторской картины Чыонг Ми
+ нь Кюя в рамках цикла азиатского кино.\nTr
+ ương Minh Quý\nhttps://www.centrepompidou.fr/en/program/calendar
+URL:https://doublebasskakov.github.io/radar/#e=screening-the-tree-house-b
+ y-tru-o-ng-minh-quy-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ: «Деревянный дом» Чыонг Мин
+ ь Кюя
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:27th-tbilisi-international-film-festival-tbilisi@afisha-art
-DTSTAMP:20261123T214003Z
+DTSTAMP:20261124T031133Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261207
 SUMMARY:27-й Международный кинофестиваль в Т
@@ -185,7 +291,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-andrey-zvyagintsev-s-film-minotaur-and-lecture-london@af
  isha-art
-DTSTAMP:20261123T214003Z
+DTSTAMP:20261124T031133Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Кинопоказ фильма Андрея Звягинцева
@@ -207,7 +313,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:the-film-london-jarman-award-2026-london@afisha-art
-DTSTAMP:20261123T214003Z
+DTSTAMP:20261124T031133Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Последний день: Премия Film London Jarman Awar
@@ -230,7 +336,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ai-weiwei-s-turandot-maxim-derevianko-brussels@afisha-art
-DTSTAMP:20261123T214003Z
+DTSTAMP:20261124T031133Z
 DTSTART;VALUE=DATE:20261230
 DTEND;VALUE=DATE:20261231
 SUMMARY:Последний день: Ai Weiwei's Turandot - Maxim Derevia
@@ -253,7 +359,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:suspiria-stan-douglas-paris@afisha-art
-DTSTAMP:20261123T214003Z
+DTSTAMP:20261124T031133Z
 DTSTART;VALUE=DATE:20270109
 DTEND;VALUE=DATE:20270110
 SUMMARY:Последний день: Suspiria (Stan Douglas)
@@ -272,7 +378,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:screening-suspiria-stan-douglas-paris@afisha-art
-DTSTAMP:20261123T214003Z
+DTSTAMP:20261124T031133Z
 DTSTART;VALUE=DATE:20270109
 DTEND;VALUE=DATE:20270110
 SUMMARY:Последний день: Показ: Суспирия (в р
@@ -293,7 +399,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:film-program-asie-du-sud-est-formes-vives-paris@afisha-art
-DTSTAMP:20261123T214003Z
+DTSTAMP:20261124T031133Z
 DTSTART;VALUE=DATE:20261208
 DTEND;VALUE=DATE:20261209
 SUMMARY:Открытие: Кинопрограмма «Asie du Sud-Est\, 
@@ -313,7 +419,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:screening-suspiria-stan-douglas-paris-2@afisha-art
-DTSTAMP:20261123T214003Z
+DTSTAMP:20261124T031133Z
 DTSTART;VALUE=DATE:20270109
 DTEND;VALUE=DATE:20270110
 SUMMARY:Последний день: Кинопоказ: Суспирия
@@ -335,7 +441,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:screen-portraits-whitechapel-gallery-artists-part-2-london-2@afisha-a
  rt
-DTSTAMP:20261123T214003Z
+DTSTAMP:20261124T031133Z
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
 SUMMARY:Последний день: Screen Portraits: Whitechapel Galler
@@ -358,7 +464,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-the-adventures-of-nasreddin-tashkent@afisha-art
-DTSTAMP:20261123T214003Z
+DTSTAMP:20261124T031133Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Показ фильма «Похождения Насреддин
@@ -380,7 +486,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-nasreddin-in-bukhara-tashkent@afisha-art
-DTSTAMP:20261123T214003Z
+DTSTAMP:20261124T031133Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Показ фильма «Насреддин в Бухаре»
@@ -401,7 +507,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:screen-portraits-whitechapel-gallery-artists-part-2-london@afisha-art
-DTSTAMP:20261123T214003Z
+DTSTAMP:20261124T031133Z
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
 SUMMARY:Последний день: Портреты на экране: 
@@ -424,7 +530,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:barbara-forever-brydie-o-connor-brussels@afisha-art
-DTSTAMP:20261123T214003Z
+DTSTAMP:20261124T031133Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261130
 SUMMARY:Barbara Forever - Brydie O'Connor
@@ -444,7 +550,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:the-six-reiner-holzemer-brussels@afisha-art
-DTSTAMP:20261123T214003Z
+DTSTAMP:20261124T031133Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:Последний день: The Six — Райнер Хольц
@@ -465,7 +571,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:the-six-reiner-holzemer-brussels-2@afisha-art
-DTSTAMP:20261123T214003Z
+DTSTAMP:20261124T031133Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:Последний день: The Six - Reiner Holzemer
@@ -484,7 +590,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nova-78-aaron-brookner-rodrigo-areias-brussels-2@afisha-art
-DTSTAMP:20261123T214003Z
+DTSTAMP:20261124T031133Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Последний день: Nova '78 — Аарон Брукне
@@ -505,7 +611,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nova-78-aaron-brookner-rodrigo-areias-brussels@afisha-art
-DTSTAMP:20261123T214003Z
+DTSTAMP:20261124T031133Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Последний день: Нова '78
@@ -524,7 +630,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nova-78-aaron-brookner-rodrigo-areias-brussels-3@afisha-art
-DTSTAMP:20261123T214003Z
+DTSTAMP:20261124T031133Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Последний день: Nova '78 - Aaron Brookner & Rodrigo 
@@ -545,7 +651,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:katabasis-vr-film-by-ugo-arsac-belgrade@afisha-art
-DTSTAMP:20261123T214003Z
+DTSTAMP:20261124T031133Z
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
 SUMMARY:Последний день: Katabasis: VR-фильм Уго Ар
@@ -568,7 +674,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:andrzej-wajda-centenary-programme-belgrade@afisha-art
-DTSTAMP:20261123T214003Z
+DTSTAMP:20261124T031133Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:Открытие: Программа к столетию Андж
@@ -590,8 +696,94 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:cinema-asie-du-sud-est-formes-vives-paris@afisha-art
+DTSTAMP:20261124T031133Z
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
+SUMMARY:Открытие: Кинопрограмма: Юго-Восточ
+ ная Азия\, живые формы (современное кино)
+LOCATION:mk2 Bibliothèque × Centre Pompidou\, 128 Avenue de France\, 75
+ 013 Paris\, Париж\, Франция
+DESCRIPTION:Обзор современного кинематограф
+ а и актуальных киноформ из стран Юго-Вос
+ точной Азии.\nNone\nhttps://www.centrepompidou.fr/en/program/ca
+ lendar/event/or734nq
+URL:https://doublebasskakov.github.io/radar/#e=cinema-asie-du-sud-est-for
+ mes-vives-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Кинопрограмма: Юго-Вост
+ очная Азия\, живые формы (современное ки
+ но)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:documentary-film-se-ances-spe-ciales-automne-2026-paris@afisha-art
+DTSTAMP:20261124T031133Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:Открытие: Специальные показы: Осень
+  2026
+LOCATION:Forum des images\, 2 Rue Saint-Eustache\, 75001 Paris\, Пари
+ ж\, Франция
+DESCRIPTION:Серия специальных документальны
+ х кинопоказов осеннего сезона в Forum des imag
+ es.\nNone\nhttps://www.centrepompidou.fr/en/program/calendar
+URL:https://doublebasskakov.github.io/radar/#e=documentary-film-se-ances-
+ spe-ciales-automne-2026-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Специальные показы: Осе
+ нь 2026
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:documentary-film-voyages-retours-paris@afisha-art
+DTSTAMP:20261124T031133Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:Открытие: Показы: Путешествия и воз
+ вращения
+LOCATION:Centre Wallonie-Bruxelles\, 46 Rue Quincampoix\, 75004 Paris\, 
+ Париж\, Франция
+DESCRIPTION:Кинопоказы программы «Путешеств
+ ия возвращения» в Центре Валлония-Брюсс
+ ель.\nNone\nhttps://www.centrepompidou.fr/en/program/calendar
+URL:https://doublebasskakov.github.io/radar/#e=documentary-film-voyages-r
+ etours-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Показы: Путешествия и в
+ озвращения
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:documentary-film-mariana-otero-histoires-de-regards-paris@afisha-art
+DTSTAMP:20261124T031133Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:Открытие: Ретроспектива Марианы От
+ еро: Истории взглядов
+LOCATION:mk2 Bibliothèque × Centre Pompidou\, 128 Avenue de France\, 75
+ 013 Paris\, Париж\, Франция
+DESCRIPTION:Ретроспективные показы документ
+ альных работ режиссера Марианы Отеро.\nMa
+ riana Otero\nhttps://www.centrepompidou.fr/en/program/calendar
+URL:https://doublebasskakov.github.io/radar/#e=documentary-film-mariana-o
+ tero-histoires-de-regards-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Ретроспектива Марианы 
+ Отеро: Истории взглядов
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:film-ddt-xx-century-in-glasgow-glasgow@afisha-art
-DTSTAMP:20261123T214003Z
+DTSTAMP:20261124T031133Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:Фильм «ДДТ.ХХ ВЕК» в Глазго

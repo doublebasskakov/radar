@@ -7,8 +7,30 @@ X-WR-CALNAME:Радар — Россия · city-ulan-ude
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:festival-renderfest-26-ulan-ude@afisha-art
+DTSTAMP:20261124T031133Z
+DTSTART:20261128T080000Z
+DTEND:20261128T100000Z
+SUMMARY:Фестиваль «RENDERФЕСТ ’26»
+LOCATION:ОЦКИ «ХЭб—ХАб»\, ул. Борсоева\, 13/2\, 3
+ -й этаж\, Улан-Удэ
+DESCRIPTION:Фестиваль креативных профессий д
+ ля детей и родителей\, включающий дизайн
+ -квесты\, мастер-классы и паблик-ток с ве
+ дущими дизайнерами.\nДмитрий Галсан\, Ал
+ ександра Цыренова\, Яна Зураева\, Аюр Хал
+ туев\nhttps://clck.ru/3XBa6Q
+URL:https://doublebasskakov.github.io/radar/#e=festival-renderfest-26-ula
+ n-ude
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Фестиваль «RENDERФЕСТ ’26»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:typoartmarket-tam-ulan-ude@afisha-art
-DTSTAMP:20261123T214003Z
+DTSTAMP:20261124T031133Z
 DTSTART:20261221T080000Z
 DTEND:20261221T100000Z
 SUMMARY:ТипоАртМаркет (TAM)
