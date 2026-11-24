@@ -7,31 +7,8 @@ X-WR-CALNAME:Радар — Мир / World · country-australia
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:penelope-green-exhibition-sea-of-life-sydney@afisha-art
-DTSTAMP:20261124T150709Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261127
-SUMMARY:Выставка Пенелопы Грин «Sea of Life»
-LOCATION:The Garden Gallery\, Royal Botanic Garden\, Sydney\, Сидне
- й\, Австралия
-DESCRIPTION:Первая персональная выставка док
- ументального фотографа Пенелопы Грин\, 
- посвященная культуре ежедневного купан
- ия в океане и жизни австралийских пляжн
- ых сообществ.\nПенелопа Грин\nhttps://www.theguard
- ian.com/artanddesign/gallery/2026/nov/21/penelope-green-photography-sea-o
- f-life-exhibition-australian-beach-daily-rituals-in-pictures
-URL:https://doublebasskakov.github.io/radar/#e=penelope-green-exhibition-
- sea-of-life-sydney
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Выставка Пенелопы Грин «Sea of Life»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:architecture-in-music-adelaide@afisha-art
-DTSTAMP:20261124T150709Z
+DTSTAMP:20261124T202104Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:Открытие: Архитектура в музыке
@@ -49,6 +26,29 @@ URL:https://doublebasskakov.github.io/radar/#e=architecture-in-music-adel
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Открытие: Архитектура в музыке
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:penelope-green-exhibition-sea-of-life-sydney@afisha-art
+DTSTAMP:20261124T202104Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261127
+SUMMARY:Выставка Пенелопы Грин «Sea of Life»
+LOCATION:The Garden Gallery\, Royal Botanic Garden\, Sydney\, Сидне
+ й\, Австралия
+DESCRIPTION:Первая персональная выставка док
+ ументального фотографа Пенелопы Грин\, 
+ посвященная культуре ежедневного купан
+ ия в океане и жизни австралийских пляжн
+ ых сообществ.\nПенелопа Грин\nhttps://www.theguard
+ ian.com/artanddesign/gallery/2026/nov/21/penelope-green-photography-sea-o
+ f-life-exhibition-australian-beach-daily-rituals-in-pictures
+URL:https://doublebasskakov.github.io/radar/#e=penelope-green-exhibition-
+ sea-of-life-sydney
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выставка Пенелопы Грин «Sea of Life»
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

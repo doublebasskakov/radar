@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:lecture-the-japan-we-do-not-know-almaty@afisha-art
-DTSTAMP:20261124T150709Z
+DTSTAMP:20261124T202104Z
 DTSTART:20261125T143000Z
 DTEND:20261125T163000Z
 SUMMARY:Лекция: Япония\, которую мы не знаем
@@ -29,8 +29,28 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:share-kazakhstan-2026-almaty@afisha-art
+DTSTAMP:20261124T202104Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261126
+SUMMARY:SHARE Kazakhstan 2026
+LOCATION:Алматы\, Казахстан
+DESCRIPTION:Международный архитектурный фор
+ ум\, посвященный росту мегаполисов и сох
+ ранению комфортной среды\, с участием ве
+ дущих мировых бюро.\nZaha Hadid Architects\, Foster + Par
+ tners\, Gehl и др.\nhttps://t.me/the_steppe/15984
+URL:https://doublebasskakov.github.io/radar/#e=share-kazakhstan-2026-alma
+ ty
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:SHARE Kazakhstan 2026
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:tselinny-himoya@afisha-art
-DTSTAMP:20261124T150709Z
+DTSTAMP:20261124T202104Z
 DTSTART;VALUE=DATE:20270404
 DTEND;VALUE=DATE:20270405
 SUMMARY:Последний день: Himoya: Matrilineal Energies\, Oracu
@@ -49,26 +69,6 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Последний день: Himoya: Matrilineal Energies\, O
  racular Kin
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:share-kazakhstan-2026-almaty@afisha-art
-DTSTAMP:20261124T150709Z
-DTSTART;VALUE=DATE:20261124
-DTEND;VALUE=DATE:20261126
-SUMMARY:SHARE Kazakhstan 2026
-LOCATION:Алматы\, Казахстан
-DESCRIPTION:Международный архитектурный фор
- ум\, посвященный росту мегаполисов и сох
- ранению комфортной среды\, с участием ве
- дущих мировых бюро.\nZaha Hadid Architects\, Foster + Par
- tners\, Gehl и др.\nhttps://t.me/the_steppe/15984
-URL:https://doublebasskakov.github.io/radar/#e=share-kazakhstan-2026-alma
- ty
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:SHARE Kazakhstan 2026
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
