@@ -7,8 +7,27 @@ X-WR-CALNAME:Радар — Мир / World · country-china
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:computer-worlds-shanghai@afisha-art
+DTSTAMP:20261124T150709Z
+DTSTART:20261124T030000Z
+DTEND:20261124T050000Z
+SUMMARY:Открытие: Миры компьютеров
+LOCATION:Центр Помпиду и Музей Вест-Банд\, 2600
+  Longteng Avenue\, Xuhui District\, Shanghai\, Шанхай\, Китай
+DESCRIPTION:Медиавыставка\, исследующая влия
+ ние компьютерных технологий на совреме
+ нную культуру и искусство.\nNone\nhttps://www.centr
+ epompidou.fr/en/program/calendar/event/OyA1tX8
+URL:https://doublebasskakov.github.io/radar/#e=computer-worlds-shanghai
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Миры компьютеров
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:exhibition-computer-worlds-in-shanghai-shanghai@afisha-art
-DTSTAMP:20261124T031133Z
+DTSTAMP:20261124T150709Z
 DTSTART:20261119T030000Z
 DTEND:20261119T050000Z
 SUMMARY:Открытие: Выставка «Computer worlds» в Шан
@@ -28,27 +47,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:computer-worlds-shanghai@afisha-art
-DTSTAMP:20261124T031133Z
-DTSTART:20261124T030000Z
-DTEND:20261124T050000Z
-SUMMARY:Открытие: Миры компьютеров
-LOCATION:Центр Помпиду и Музей Вест-Банд\, 2600
-  Longteng Avenue\, Xuhui District\, Shanghai\, Шанхай\, Китай
-DESCRIPTION:Медиавыставка\, исследующая влия
- ние компьютерных технологий на совреме
- нную культуру и искусство.\nNone\nhttps://www.centr
- epompidou.fr/en/program/calendar/event/OyA1tX8
-URL:https://doublebasskakov.github.io/radar/#e=computer-worlds-shanghai
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Открытие: Миры компьютеров
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:carsten-ho-ller-two-beijing@afisha-art
-DTSTAMP:20261124T031133Z
+DTSTAMP:20261124T150709Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:Последний день: Карстен Хёллер: Два
@@ -70,7 +70,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ucca-dune-katie-paterson@afisha-art
-DTSTAMP:20261124T031133Z
+DTSTAMP:20261124T150709Z
 DTSTART;VALUE=DATE:20270411
 DTEND;VALUE=DATE:20270412
 SUMMARY:Последний день: Katie Paterson
@@ -89,7 +89,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ucca-john-baldessari@afisha-art
-DTSTAMP:20261124T031133Z
+DTSTAMP:20261124T150709Z
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
 SUMMARY:Последний день: John Baldessari

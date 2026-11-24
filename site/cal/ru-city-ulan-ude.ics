@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:festival-renderfest-26-ulan-ude@afisha-art
-DTSTAMP:20261124T031133Z
+DTSTAMP:20261124T150709Z
 DTSTART:20261128T080000Z
 DTEND:20261128T100000Z
 SUMMARY:Фестиваль «RENDERФЕСТ ’26»
@@ -30,7 +30,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:typoartmarket-tam-ulan-ude@afisha-art
-DTSTAMP:20261124T031133Z
+DTSTAMP:20261124T150709Z
 DTSTART:20261221T080000Z
 DTEND:20261221T100000Z
 SUMMARY:ТипоАртМаркет (TAM)
@@ -44,6 +44,28 @@ URL:https://doublebasskakov.github.io/radar/#e=typoartmarket-tam-ulan-ude
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:ТипоАртМаркет (TAM)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:enigma-immersive-detective-show-ulan-ude@afisha-art
+DTSTAMP:20261124T150709Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:Открытие: Иммерсивное детектив-шоу 
+ «Энигма»
+LOCATION:Концерт-холл «Опера»\, ул. Пионера\, 
+ 2\, Улан-Удэ
+DESCRIPTION:Интерактивный иммерсивный спект
+ акль в жанре детектива\, предлагающий зр
+ ителям включиться в процесс расследова
+ ния.\n\nhttp://iframeab-pre9744.intickets.ru/event/77157177
+URL:https://doublebasskakov.github.io/radar/#e=enigma-immersive-detective
+ -show-ulan-ude
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Иммерсивное детектив-ш
+ оу «Энигма»
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

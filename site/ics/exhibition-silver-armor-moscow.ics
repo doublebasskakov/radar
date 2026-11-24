@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:exhibition-silver-armor-moscow@afisha-art
+DTSTAMP:20261124T150709Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261130
+SUMMARY:Выставка «Серебряные доспехи»
+LOCATION:Галерея «Триумф»\, Москва
+DESCRIPTION:Художественный дуэт crocodilePower иссл
+ едует трансформацию человеческого тела
+  и восприятия в эпоху цифровых экранов.\n
+ crocodilePower\nhttps://t.me/dancingalone/37130
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-silver-armor-mo
+ scow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выставка «Серебряные доспехи»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:premiere-of-the-summit-and-q-a-with-yuri-bykov-moscow@afisha-art
+DTSTAMP:20261124T150709Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Премьерный показ фильма «Вершина» 
+ и обсуждение с Юрием Быковым
+LOCATION:Кинотеатр «Каро 11 Октябрь»\, Москва
+DESCRIPTION:Премьера остросюжетного триллер
+ а Юрия Быкова о горном восхождении с пос
+ ледующей дискуссией с режиссером.\nЮрий 
+ Быков\, Никита Демченко\nhttps://t.me/kinoartru/13918
+URL:https://doublebasskakov.github.io/radar/#e=premiere-of-the-summit-and
+ -q-a-with-yuri-bykov-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Премьерный показ фильма «Вершина
+ » и обсуждение с Юрием Быковым
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

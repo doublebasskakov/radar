@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:curator-s-tour-of-in-the-forests-exhibition-perm@afisha-art
-DTSTAMP:20261124T031133Z
+DTSTAMP:20261124T150709Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Кураторская экскурсия по выставке 
@@ -31,7 +31,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lecture-monumental-art-and-urban-identity-perm@afisha-art
-DTSTAMP:20261124T031133Z
+DTSTAMP:20261124T150709Z
 DTSTART:20261127T140000Z
 DTEND:20261127T160000Z
 SUMMARY:Лекция «Монументальное искусство и
@@ -53,7 +53,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:film-screening-seeing-the-dance-perm@afisha-art
-DTSTAMP:20261124T031133Z
+DTSTAMP:20261124T150709Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Кинопоказ «Видеть танец»
@@ -72,7 +72,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:discussion-how-photography-works-in-perm-perm@afisha-art
-DTSTAMP:20261124T031133Z
+DTSTAMP:20261124T150709Z
 DTSTART:20261126T133000Z
 DTEND:20261126T153000Z
 SUMMARY:Дискуссия «Как устроена фотография
@@ -94,7 +94,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:lecture-how-an-artist-should-talk-about-their-practice-perm@afisha-ar
  t
-DTSTAMP:20261124T031133Z
+DTSTAMP:20261124T150709Z
 DTSTART:20261124T140000Z
 DTEND:20261124T160000Z
 SUMMARY:Лекция «Как художнику говорить о св
@@ -115,7 +115,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:the-inventor-out-for-blood-in-silicon-valley-screening-perm@afisha-ar
  t
-DTSTAMP:20261124T031133Z
+DTSTAMP:20261124T150709Z
 DTSTART:20261125T103000Z
 DTEND:20261125T123000Z
 SUMMARY:Кинопоказ «Увиденное»
@@ -133,8 +133,29 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:i-ve-heard-this-somewhere-perm@afisha-art
+DTSTAMP:20261124T150709Z
+DTSTART:20261130T140000Z
+DTEND:20261130T160000Z
+SUMMARY:Концерт «Я где-то это слышал…»
+LOCATION:Частная филармония «Триумф»\, Перм
+ ь
+DESCRIPTION:Мультимедийный концерт команды Š
+ kola Crew: исполнение академических произве
+ дений XX века в сочетании со специально с
+ озданной настенной проекционной анимац
+ ией.\nШкола/Škola Crew\nhttps://t.me/mmmperm/8850
+URL:https://doublebasskakov.github.io/radar/#e=i-ve-heard-this-somewhere-
+ perm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт «Я где-то это слышал…»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:exhibition-in-the-forests-perm@afisha-art
-DTSTAMP:20261124T031133Z
+DTSTAMP:20261124T150709Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Последний день: Выставка «В лесах»
@@ -156,7 +177,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:acqua-alta-performance-perm@afisha-art
-DTSTAMP:20261124T031133Z
+DTSTAMP:20261124T150709Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261201
 SUMMARY:Спектакль Acqua Alta
@@ -175,7 +196,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:the-nutcracker-animated-fairytale-ballet-perm@afisha-art
-DTSTAMP:20261124T031133Z
+DTSTAMP:20261124T150709Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261224
 SUMMARY:Балет «Щелкунчик. Ожившая сказка»
@@ -198,7 +219,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:new-year-red-market-perm@afisha-art
-DTSTAMP:20261124T031133Z
+DTSTAMP:20261124T150709Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261221
 SUMMARY:Новогодний RED MARKET
@@ -216,7 +237,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-from-word-to-image-russian-seasons-perm@afisha-art
-DTSTAMP:20261124T031133Z
+DTSTAMP:20261124T150709Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Последний день: Выставка «От слова 
@@ -239,7 +260,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:photo-exhibition-off-the-route-perm@afisha-art
-DTSTAMP:20261124T031133Z
+DTSTAMP:20261124T150709Z
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
 SUMMARY:Последний день: Фотовыставка «Сойт
@@ -261,7 +282,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:the-planets-of-the-little-prince-perm@afisha-art
-DTSTAMP:20261124T031133Z
+DTSTAMP:20261124T150709Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Планеты Маленького Принца
@@ -280,7 +301,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:supermassive-black-holes-unveiling-the-invisible-perm@afisha-art
-DTSTAMP:20261124T031133Z
+DTSTAMP:20261124T150709Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
 SUMMARY:Сверхмассивные черные дыры. Открыв
@@ -302,7 +323,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:the-other-life-perm@afisha-art
-DTSTAMP:20261124T031133Z
+DTSTAMP:20261124T150709Z
 DTSTART;VALUE=DATE:20261223
 DTEND;VALUE=DATE:20261224
 SUMMARY:Спектакль «Другая жизнь»
@@ -321,7 +342,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:diaries-exhibition-perm@afisha-art
-DTSTAMP:20261124T031133Z
+DTSTAMP:20261124T150709Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
 SUMMARY:Последний день: Выставка «Дневники
@@ -341,7 +362,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:full-dome-program-multicolor-universe-perm@afisha-art
-DTSTAMP:20261124T031133Z
+DTSTAMP:20261124T150709Z
 DTSTART;VALUE=DATE:20261224
 DTEND;VALUE=DATE:20261225
 SUMMARY:Полнокупольная программа «Разноцв
@@ -365,7 +386,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:full-dome-program-supermassive-black-holes-uncovering-the-in-perm@afi
  sha-art
-DTSTAMP:20261124T031133Z
+DTSTAMP:20261124T150709Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
 SUMMARY:Полнокупольная программа «Сверхма
@@ -390,7 +411,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:full-dome-program-aerial-ghosts-perm@afisha-art
-DTSTAMP:20261124T031133Z
+DTSTAMP:20261124T150709Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Полнокупольная программа «Воздушн
@@ -413,7 +434,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:art-lectorium-how-new-year-and-christmas-were-celebrated-perm@afisha-
  art
-DTSTAMP:20261124T031133Z
+DTSTAMP:20261124T150709Z
 DTSTART;VALUE=DATE:20270106
 DTEND;VALUE=DATE:20270107
 SUMMARY:Арт-лекторий. Как встречали Новый г

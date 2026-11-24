@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:enigma-immersive-detective-show-ulan-ude@afisha-art
+DTSTAMP:20261124T150709Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:Открытие: Иммерсивное детектив-шоу 
+ «Энигма»
+LOCATION:Концерт-холл «Опера»\, ул. Пионера\, 
+ 2\, Улан-Удэ
+DESCRIPTION:Интерактивный иммерсивный спект
+ акль в жанре детектива\, предлагающий зр
+ ителям включиться в процесс расследова
+ ния.\n\nhttp://iframeab-pre9744.intickets.ru/event/77157177
+URL:https://doublebasskakov.github.io/radar/#e=enigma-immersive-detective
+ -show-ulan-ude
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Иммерсивное детектив-ш
+ оу «Энигма»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR
