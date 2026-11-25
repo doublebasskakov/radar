@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Радар — Россия · city-baku
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:concert-of-murtuza-bulbul-and-ibrahim-nagiyev-baku@afisha-art
+DTSTAMP:20261125T142025Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Концерт Муртузы Бюльбюля и Ибрагим
+ а Нагиева
+LOCATION:Баку
+DESCRIPTION:Выступление дирижёра Муртузы Бюл
+ ьбюля и виолончелиста Ибрагима Нагиева 
+ с исполнением виолончельного концерта 
+ Мясковского в столице Азербайджана.\nМу
+ ртуза Бюльбюль\, Ибрагим Нагиев\nhttps://t.me/o
+ rpheusradio/51866
+URL:https://doublebasskakov.github.io/radar/#e=concert-of-murtuza-bulbul-
+ and-ibrahim-nagiyev-baku
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт Муртузы Бюльбюля и Ибраг
+ има Нагиева
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

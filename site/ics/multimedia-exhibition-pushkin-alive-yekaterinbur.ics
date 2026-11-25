@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:multimedia-exhibition-pushkin-alive-yekaterinbur@afisha-art
+DTSTAMP:20261125T142025Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Последний день: Мультимедийная выс
+ тавка «Пушкин. Живой»
+LOCATION:Свердловская киностудия\, Екатерин
+ бург
+DESCRIPTION:Мультимедийный выставочный прое
+ кт\, представляющий новый взгляд на биог
+ рафию и творчество Александра Пушкина с
+  помощью современных технологий.\nКреат
+ ивное агентство «Р-АРТ»\nhttps://ekb.kudago.com/event
+ /vyistavka-pushkin-zhivoj/
+URL:https://doublebasskakov.github.io/radar/#e=multimedia-exhibition-push
+ kin-alive-yekaterinbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Мультимедийная в
+ ыставка «Пушкин. Живой»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

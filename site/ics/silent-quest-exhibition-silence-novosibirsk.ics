@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:silent-quest-exhibition-silence-novosibirsk@afisha-art
+DTSTAMP:20261125T142025Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:Беззвучная выставка-квест «Тишина»
+LOCATION:Площадка невизуального восприятия
+  «Темнота»\, Новосибирск
+DESCRIPTION:Экспериментальный проект\, предл
+ агающий участникам опыт коммуникации и 
+ восприятия в условиях абсолютного отсу
+ тствия звука.\nNone\nhttps://nsk.kudago.com/event/neslyshimaya
+ -vystavka-kvest-tishina/
+URL:https://doublebasskakov.github.io/radar/#e=silent-quest-exhibition-si
+ lence-novosibirsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Беззвучная выставка-квест «Тишин
+ а»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

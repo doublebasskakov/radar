@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:father-baikal-sculpture-display-irkutsk@afisha-art
+DTSTAMP:20261125T142025Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:Экспозиция скульптуры «Отец Байкал
+ »
+LOCATION:Галерея Виктора Бронштейна\, ул. Ок
+ тябрьской Революции\, д. 3\, Иркутск
+DESCRIPTION:Показ авторской копии знаменитой
+  монументальной работы Даши Намдакова.\n
+ Даши Намдаков\nhttps://www.vbgallery.ru/novosti/skulptura-ote
+ cz-bajkal/
+URL:https://doublebasskakov.github.io/radar/#e=father-baikal-sculpture-di
+ splay-irkutsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Экспозиция скульптуры «Отец Байк
+ ал»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -7,9 +7,95 @@ X-WR-CALNAME:Радар — Россия · city-pskov
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:screening-of-national-competition-award-winners-pskov@afisha-art
+DTSTAMP:20261125T142025Z
+DTSTART:20261128T163000Z
+DTEND:20261128T183000Z
+SUMMARY:Показ фильмов-призеров национально
+ го конкурса
+LOCATION:Мираж Синема Акваполис\, Псков
+DESCRIPTION:Программа фильмов-лауреатов наци
+ онального конкурса: «Мама»\, «Перед солн
+ цем» и «Материнские сны».\nЕлизавета Боб
+ ылева\, Алиса Тамарова\, Анна Швейгольц\nh
+ ttps://t.me/message2man/2887
+URL:https://doublebasskakov.github.io/radar/#e=screening-of-national-comp
+ etition-award-winners-pskov
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильмов-призеров националь
+ ного конкурса
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:screening-of-adventures-of-mosaics-on-and-under-the-ground-pskov@afis
+ ha-art
+DTSTAMP:20261125T142025Z
+DTSTART:20261127T163000Z
+DTEND:20261127T183000Z
+SUMMARY:Показ фильма «Приключения мозаик н
+ а земле и под»
+LOCATION:Мираж Синема Акваполис\, Псков
+DESCRIPTION:Показ документального фильма Але
+ ксея Федорченко и дискуссия с куратором
+  Катериной Белоглазовой.\nАлексей Федор
+ ченко\, Катерина Белоглазова\nhttps://t.me/messag
+ e2man/2887
+URL:https://doublebasskakov.github.io/radar/#e=screening-of-adventures-of
+ -mosaics-on-and-under-the-ground-pskov
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильма «Приключения мозаик
+  на земле и под»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:short-documentary-film-screening-pskov@afisha-art
+DTSTAMP:20261125T142025Z
+DTSTART:20261128T140000Z
+DTEND:20261128T160000Z
+SUMMARY:Показ короткометражного документа
+ льного кино
+LOCATION:Мираж Синема Акваполис\, Псков
+DESCRIPTION:Показ короткометражных картин «В
+  поисках высшего»\, «Это было лето» и «Пе
+ щера грез».\nИрина Обидова\, Анастасия Ем
+ ельянова\, Марина Левашова\nhttps://t.me/message2ma
+ n/2887
+URL:https://doublebasskakov.github.io/radar/#e=short-documentary-film-scr
+ eening-pskov
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ короткометражного докумен
+ тального кино
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:short-animation-screening-pskov@afisha-art
+DTSTAMP:20261125T142025Z
+DTSTART:20261129T140000Z
+DTEND:20261129T160000Z
+SUMMARY:Сеанс короткометражной анимации
+LOCATION:Мираж Синема Акваполис\, Псков
+DESCRIPTION:Показ подборки международной фес
+ тивальной короткометражной анимации.\nЖ
+ ослен Шарль\, Клаудиус Джентинетта\, Пат
+ рик Бур\, Анет Акбирова\nhttps://t.me/message2man/2887
+URL:https://doublebasskakov.github.io/radar/#e=short-animation-screening-
+ pskov
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Сеанс короткометражной анимации
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:message-to-man-festival-echo-program-screenings-in-pskov-pskov@afisha
  -art
-DTSTAMP:20261125T004150Z
+DTSTAMP:20261125T142025Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261130
 SUMMARY:Фестиваль «Послание к человеку»: по

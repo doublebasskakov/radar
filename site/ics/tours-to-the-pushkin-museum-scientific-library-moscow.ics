@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:tours-to-the-pushkin-museum-scientific-library-moscow@afisha-art
+DTSTAMP:20261125T142025Z
+DTSTART;VALUE=DATE:20261225
+DTEND;VALUE=DATE:20261226
+SUMMARY:Экскурсии в Научную библиотеку Пуш
+ кинского музея
+LOCATION:Пушкинский музей\, Москва
+DESCRIPTION:Цикл экскурсий по пятницам в Науч
+ ную библиотеку Пушкинского музея\, кото
+ рая прежде была недоступна для широкой 
+ публики.\nПушкинский музей\nhttps://t.me/orpheusrad
+ io/51863
+URL:https://doublebasskakov.github.io/radar/#e=tours-to-the-pushkin-museu
+ m-scientific-library-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Экскурсии в Научную библиотеку П
+ ушкинского музея
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

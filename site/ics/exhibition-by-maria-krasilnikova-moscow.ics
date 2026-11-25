@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:exhibition-by-maria-krasilnikova-moscow@afisha-art
+DTSTAMP:20261125T142025Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:Открытие: Выставка Марии Красильни
+ ковой
+LOCATION:Галерея А3\, Москва
+DESCRIPTION:Персональная выставка произведе
+ ний художницы Марии Красильниковой.\nМа
+ рия Красильникова\nhttps://t.me/a3gallery/2417
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-by-maria-krasil
+ nikova-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка Марии Красиль
+ никовой
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

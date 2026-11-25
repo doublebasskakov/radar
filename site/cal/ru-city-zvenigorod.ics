@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Радар — Россия · city-zvenigorod
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:malevich-simple-figures-zvenigorod@afisha-art
+DTSTAMP:20261125T142025Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:Открытие: Малевич. Простые фигуры
+LOCATION:Звенигород
+DESCRIPTION:Выставка русского авангарда в Зв
+ енигороде\, сопровождаемая специальным 
+ аудиогидом\, озвученным актрисой и иску
+ сствоведом Мариной Александровой.\nКари
+ на Александрова (аудиогид)\nhttps://t.me/vmuzey/324
+ 72
+URL:https://doublebasskakov.github.io/radar/#e=malevich-simple-figures-zv
+ enigorod
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Малевич. Простые фигуры
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

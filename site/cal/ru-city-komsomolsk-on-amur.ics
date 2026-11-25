@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Радар — Россия · city-komsomolsk-on-amur
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:exhibition-salvador-dali-the-sacred-message-komsomolsk-o@afisha-art
+DTSTAMP:20261125T142025Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Выставка «Сальвадор Дали. Священно
+ е послание»
+LOCATION:Комсомольск-на-Амуре
+DESCRIPTION:Масштабная выставка графических 
+ иллюстраций Сальвадора Дали к Ветхому и
+  Новому Завету.\nСальвадор Дали\nhttps://t.me/or
+ pheusradio/51876
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-salvador-dali-t
+ he-sacred-message-komsomolsk-o
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выставка «Сальвадор Дали. Священ
+ ное послание»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

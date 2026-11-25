@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:exhibition-problem-with-an-asterisk-moscow@afisha-art
+DTSTAMP:20261125T142025Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Выставка «Задача со звёздочкой»
+LOCATION:кп «пыль»\, Москва
+DESCRIPTION:Итоговая выставка арт-лаборатори
+ и\, исследующая субъектность преподават
+ елей и человеческое измерение их профес
+ сии.\nАмина Ибадова и другие участники «
+ лаборатории учительниц»\nhttps://t.me/ica_moscow/11
+ 92
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-problem-with-an
+ -asterisk-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выставка «Задача со звёздочкой»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

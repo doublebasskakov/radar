@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:exhibition-so-different-and-yet-painting-kazan@afisha-art
+DTSTAMP:20261125T142025Z
+DTSTART:20260925T090000Z
+DTEND:20260925T110000Z
+SUMMARY:Открытие: Выставка «Такая разная... 
+ и всё-таки живопись»
+LOCATION:Belova Art Gallery\, Казань
+DESCRIPTION:Групповая экспозиция резидентов 
+ галереи\, исследующая границы живописно
+ го медиума и концептуальные формообраз
+ ования.\nРезиденты Belova Art Gallery\nhttps://kzn.kudago.
+ com/event/vyistavka-takaya-raznaya-i-vsyo-taki-zhivopis/
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-so-different-an
+ d-yet-painting-kazan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка «Такая разная.
+ .. и всё-таки живопись»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

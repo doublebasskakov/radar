@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:invisible-quest-exhibition-temnota-novosibirsk@afisha-art
+DTSTAMP:20261125T142025Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:Невидимая выставка-квест Temnota
+LOCATION:Площадка невизуального восприятия
+  «Темнота»\, Новосибирск
+DESCRIPTION:Интерактивная инсталляция\, пред
+ лагающая погружение в полную темноту дл
+ я исследования мира через звуки\, запахи
+  и тактильные ощущения.\nNone\nhttps://nsk.kudago.com/
+ event/nevidimaya-vystavka-kvest-temnota/
+URL:https://doublebasskakov.github.io/radar/#e=invisible-quest-exhibition
+ -temnota-novosibirsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Невидимая выставка-квест Temnota
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:robert-falk-exhibition-novosibirsk@afisha-art
+DTSTAMP:20261125T142025Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:Выставка Роберта Фалька
+LOCATION:Новосибирский государственный худ
+ ожественный музей\, Новосибирск
+DESCRIPTION:Экспозиция работ одного из ключе
+ вых мастеров русского модернизма и аван
+ гарда\, приуроченная к 130-летию со дня ег
+ о рождения.\nРоберт Фальк\nhttps://nsk.kudago.com/eve
+ nt/vystavka-roberta-falka/
+URL:https://doublebasskakov.github.io/radar/#e=robert-falk-exhibition-nov
+ osibirsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выставка Роберта Фалька
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

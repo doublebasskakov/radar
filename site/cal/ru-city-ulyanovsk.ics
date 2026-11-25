@@ -7,8 +7,30 @@ X-WR-CALNAME:Радар — Россия · city-ulyanovsk
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:vinyl-night-placebo-without-you-i-m-nothing-ulyanovsk@afisha-art
+DTSTAMP:20261125T142025Z
+DTSTART:20261126T170000Z
+DTEND:20261126T190000Z
+SUMMARY:Виниловый вечер: Placebo — «Without You I’m No
+ thing»
+LOCATION:Бар Довлатов\, ул. Дворцовая\, 6\, Уль
+ яновск
+DESCRIPTION:Прослушивание второго альбома гр
+ уппы Placebo на виниле в сопровождении расс
+ каза об истории его создания.\nNone\nhttps://t.me
+ /sankin_vybor/1651
+URL:https://doublebasskakov.github.io/radar/#e=vinyl-night-placebo-withou
+ t-you-i-m-nothing-ulyanovsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Виниловый вечер: Placebo — «Without You I’
+ m Nothing»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:mobile-music-assembly-ulyanovsk-ulyanovsk@afisha-art
-DTSTAMP:20261125T004150Z
+DTSTAMP:20261125T142025Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Передвижная музыкальная ассамблея:

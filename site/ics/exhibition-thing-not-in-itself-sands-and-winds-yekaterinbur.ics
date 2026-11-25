@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:exhibition-thing-not-in-itself-sands-and-winds-yekaterinbur@afisha-ar
+ t
+DTSTAMP:20261125T142025Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Последний день: Выставка «Вещь не в 
+ себе: пески и ветры»
+LOCATION:Музей истории и археологии Среднег
+ о Урала\, Екатеринбург
+DESCRIPTION:Художественный проект\, в рамках 
+ которого устаревшие бытовые предметы и 
+ витражные журнальные обложки переосмыс
+ ляются как арт-объекты.\n\nhttps://ekb.kudago.com/even
+ t/vyistavka-vesch-ne-v-sebe-peski-i-vetryi/
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-thing-not-in-it
+ self-sands-and-winds-yekaterinbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Выставка «Вещь не
+  в себе: пески и ветры»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

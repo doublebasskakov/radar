@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:performance-kholopy-saint-peters@afisha-art
+DTSTAMP:20261125T142025Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:Спектакль «Холопов»
+LOCATION:БДТ имени Товстоногова\, Санкт-Пете
+ рбург
+DESCRIPTION:Показ масштабной постановки Андр
+ ея Могучего по пьесе Петра Гнедича о жиз
+ ни дворянской семьи на рубеже XVIII–XIX век
+ ов.\nАндрей Могучий\, БДТ им. Товстоногов
+ а\nhttps://t.me/afishadailynews/104214
+URL:https://doublebasskakov.github.io/radar/#e=performance-kholopy-saint-
+ peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спектакль «Холопов»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:all-russian-choral-festival-gala-concert-moscow@afisha-art
+DTSTAMP:20261125T142025Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Гала-концерт Всероссийского хорово
+ го фестиваля
+LOCATION:Национальный центр «Россия»\, Моск
+ ва
+DESCRIPTION:Заключительный гала-концерт Всер
+ оссийского хорового фестиваля с объявл
+ ением победителей и выступлением ведущ
+ их коллективов.\nАкадемический хор русс
+ кой песни имени Кутузова\nhttps://t.me/orpheusradio/
+ 51862
+URL:https://doublebasskakov.github.io/radar/#e=all-russian-choral-festiva
+ l-gala-concert-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Гала-концерт Всероссийского хоро
+ вого фестиваля
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

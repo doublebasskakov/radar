@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:ceam-fantomy-roboty@afisha-art
-DTSTAMP:20261125T004150Z
+DTSTAMP:20261125T142025Z
 DTSTART:20261113T130000Z
 DTEND:20261113T150000Z
 SUMMARY:Открытие: «Фантомы. Партитура для р
@@ -34,7 +34,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-phantoms-score-for-robots-moscow@afisha-art
-DTSTAMP:20261125T004150Z
+DTSTAMP:20261125T142025Z
 DTSTART:20261114T130000Z
 DTEND:20261114T150000Z
 SUMMARY:Открытие: Выставка «Фантомы. Партит
@@ -57,7 +57,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-as-the-world-gathers-saint-peters@afisha-art
-DTSTAMP:20261125T004150Z
+DTSTAMP:20261125T142025Z
 DTSTART:20261113T080000Z
 DTEND:20261113T100000Z
 SUMMARY:Открытие: Выставка «Пока собираетс
@@ -81,7 +81,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lez-electricity-st-petersbur@afisha-art
-DTSTAMP:20261125T004150Z
+DTSTAMP:20261125T142025Z
 DTSTART:20261115T130000Z
 DTEND:20261115T150000Z
 SUMMARY:Открытие: ЛЭЗ: Электричество
@@ -102,7 +102,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dafes-awards-show-2026-intellectual-art-moscow@afisha-art
-DTSTAMP:20261125T004150Z
+DTSTAMP:20261125T142025Z
 DTSTART:20261126T170000Z
 DTEND:20261126T190000Z
 SUMMARY:DAFES AWARDS SHOW 2026: Интеллектуальное иску
@@ -125,8 +125,55 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:multisensory-exhibition-dream-in-the-museum-moscow@afisha-art
+DTSTAMP:20261125T142025Z
+DTSTART:20261125T090000Z
+DTEND:20261125T110000Z
+SUMMARY:Открытие: Мультисенсорная выставка
+  «Сон в музее»
+LOCATION:Центр современного искусства М'АРС
+ \, Москва
+DESCRIPTION:Совместный проект ЦСИ М'АРС и Лаб
+ оратории нового культурного опыта\, нап
+ равленный на изменение восприятия чере
+ з мультисенсорное погружение.\nЦСИ М'АРС
+ \, Лаборатория нового культурного опыта\
+ nhttps://kudago.com/msk/event/vyistavka-son-v-muzee/
+URL:https://doublebasskakov.github.io/radar/#e=multisensory-exhibition-dr
+ eam-in-the-museum-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Мультисенсорная выстав
+ ка «Сон в музее»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:interactive-exhibition-cultural-code-moscow@afisha-art
+DTSTAMP:20261125T142025Z
+DTSTART:20261115T090000Z
+DTEND:20261115T110000Z
+SUMMARY:Открытие: Интерактивная выставка «
+ Культурный КОД»
+LOCATION:Центр современного искусства М'АРС
+ \, Москва
+DESCRIPTION:Пространство технологических эк
+ спериментов\, где посетители могут взаи
+ модействовать с объектами и наблюдать з
+ а творческими процессами.\n\nhttps://kudago.com/msk
+ /event/vyistavka-kulturnyij-kod-m-ars/
+URL:https://doublebasskakov.github.io/radar/#e=interactive-exhibition-cul
+ tural-code-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Интерактивная выставка
+  «Культурный КОД»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:humanoid-robot-programming-workshop-moscow@afisha-art
-DTSTAMP:20261125T004150Z
+DTSTAMP:20261125T142025Z
 DTSTART:20261125T133000Z
 DTEND:20261125T153000Z
 SUMMARY:Воркшоп по программированию робота
@@ -149,7 +196,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:vr-gallery-moscow@afisha-art
-DTSTAMP:20261125T004150Z
+DTSTAMP:20261125T142025Z
 DTSTART:20261114T090000Z
 DTEND:20261114T110000Z
 SUMMARY:Открытие: Виртуальная галерея (VR Galle
@@ -169,8 +216,31 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:sense-evolution-of-the-elements-exhibition-moscow@afisha-art
+DTSTAMP:20261125T142025Z
+DTSTART:20261125T090000Z
+DTEND:20261125T110000Z
+SUMMARY:Открытие: Выставка «СЕНС. Эволюция 
+ стихий»
+LOCATION:Центр современного искусства М'АРС
+ \, Москва
+DESCRIPTION:Обновленная иммерсивная выставк
+ а\, использующая современные технологии
+  для исследования восприятия природных 
+ стихий.\n\nhttps://kudago.com/msk/event/vyistavka-sense-geometriya-
+ chuvstv/
+URL:https://doublebasskakov.github.io/radar/#e=sense-evolution-of-the-ele
+ ments-exhibition-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка «СЕНС. Эволюци
+ я стихий»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:elements-moscow@afisha-art
-DTSTAMP:20261125T004150Z
+DTSTAMP:20261125T142025Z
 DTSTART:20261114T070000Z
 DTEND:20261114T090000Z
 SUMMARY:Открытие: Стихии
@@ -189,7 +259,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:art-skif-festival-koltsovo@afisha-art
-DTSTAMP:20261125T004150Z
+DTSTAMP:20261125T142025Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Фестиваль «Арт-СКИФ»
@@ -209,7 +279,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:aivazovsky-living-canvases-moscow@afisha-art
-DTSTAMP:20261125T004150Z
+DTSTAMP:20261125T142025Z
 DTSTART:20261114T080000Z
 DTEND:20261114T100000Z
 SUMMARY:Открытие: Айвазовский. Ожившие поло
@@ -232,165 +302,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:mediation-based-on-the-project-of-artist-afra-shafiq-moscow@afisha-ar
- t
-DTSTAMP:20261125T004150Z
-DTSTART:20261126T163000Z
-DTEND:20261126T183000Z
-SUMMARY:Медиация по проекту художницы Афры 
- Шафик
-LOCATION:Музей «Гараж»\, Крымский Вал\, д. 9\, с
- тр. 32\, Мезонин\, Москва
-DESCRIPTION:Коллективное знакомство с видеои
- грами и мультимедийными работами худож
- ницы в формате медиации.\nАфра Шафик\nhttps:
- //garagemca.org/event/mediation-based-on-the-works-of-artist-afra-shafiq
-URL:https://doublebasskakov.github.io/radar/#e=mediation-based-on-the-pro
- ject-of-artist-afra-shafiq-moscow
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Медиация по проекту художницы Аф
- ры Шафик
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:secrets-of-giuseppe-arcimboldo-st-petersbur@afisha-art
-DTSTAMP:20261125T004150Z
-DTSTART:20261114T090000Z
-DTEND:20261114T110000Z
-SUMMARY:Открытие: Секреты Джузеппе Арчимбо
- льдо
-LOCATION:Музей Artdynamics\, Севкабель Порт\, Коже
- венная линия\, 40\, Санкт-Петербург
-DESCRIPTION:Выставка\, посвященная творчеств
- у великого мастера\, переосмысленному ч
- ерез призму новых медиа.\nМузей Artdynamics\nhtt
- ps://www.afisha.ru/exhibition/sekrety-dzhuzeppe-archimboldo-288983/
-URL:https://doublebasskakov.github.io/radar/#e=secrets-of-giuseppe-arcimb
- oldo-st-petersbur
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Открытие: Секреты Джузеппе Арчим
- больдо
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:exhibition-tidal-patterns-code-of-the-sea-magadan@afisha-art
-DTSTAMP:20261125T004150Z
-DTSTART:20261115T150000Z
-DTEND:20261115T170000Z
-SUMMARY:Открытие: Выставка «Приливные патт
- ерны: Код моря»
-LOCATION:КВЦ «Рында»\, Магадан
-DESCRIPTION:Художественное осмысление Охотс
- кого моря\, его природных циклов\, прилив
- ов и ледовой динамики.\nКуратор Саша Пуч
- кова\nhttps://t.me/generativegallery/4540
-URL:https://doublebasskakov.github.io/radar/#e=exhibition-tidal-patterns-
- code-of-the-sea-magadan
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Открытие: Выставка «Приливные па
- ттерны: Код моря»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:virtual-gallery-project-vr-gallery-st-petersbur@afisha-art
-DTSTAMP:20261125T004150Z
-DTSTART:20261114T090000Z
-DTEND:20261114T110000Z
-SUMMARY:Открытие: Проект Виртуальная галер
- ея (VR Gallery)
-LOCATION:Музей Artdynamics\, Севкабель Порт\, Коже
- венная линия\, 40\, Санкт-Петербург
-DESCRIPTION:Погружение в искусство через тех
- нологии виртуальной реальности и новые 
- медиа.\nМузей Artdynamics\nhttps://www.afisha.ru/exhibition/pro
- ekt-virtualnaya-galereya-vr-gallery-289394/
-URL:https://doublebasskakov.github.io/radar/#e=virtual-gallery-project-vr
- -gallery-st-petersbur
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Открытие: Проект Виртуальная гал
- ерея (VR Gallery)
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:multisensory-exhibition-dream-in-the-museum-moscow@afisha-art
-DTSTAMP:20261125T004150Z
-DTSTART:20261125T090000Z
-DTEND:20261125T110000Z
-SUMMARY:Открытие: Мультисенсорная выставка
-  «Сон в музее»
-LOCATION:Центр современного искусства М'АРС
- \, Москва
-DESCRIPTION:Совместный проект ЦСИ М'АРС и Лаб
- оратории нового культурного опыта\, нап
- равленный на изменение восприятия чере
- з мультисенсорное погружение.\n\nhttps://kudago
- .com/msk/event/vyistavka-son-v-muzee/
-URL:https://doublebasskakov.github.io/radar/#e=multisensory-exhibition-dr
- eam-in-the-museum-moscow
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Открытие: Мультисенсорная выстав
- ка «Сон в музее»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:interactive-exhibition-cultural-code-moscow@afisha-art
-DTSTAMP:20261125T004150Z
-DTSTART:20261115T090000Z
-DTEND:20261115T110000Z
-SUMMARY:Открытие: Интерактивная выставка «
- Культурный КОД»
-LOCATION:Центр современного искусства М'АРС
- \, Москва
-DESCRIPTION:Пространство технологических эк
- спериментов\, где посетители могут взаи
- модействовать с объектами и наблюдать з
- а творческими процессами.\n\nhttps://kudago.com/msk
- /event/vyistavka-kulturnyij-kod-m-ars/
-URL:https://doublebasskakov.github.io/radar/#e=interactive-exhibition-cul
- tural-code-moscow
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Открытие: Интерактивная выставка
-  «Культурный КОД»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sense-evolution-of-the-elements-exhibition-moscow@afisha-art
-DTSTAMP:20261125T004150Z
-DTSTART:20261125T090000Z
-DTEND:20261125T110000Z
-SUMMARY:Открытие: Выставка «СЕНС. Эволюция 
- стихий»
-LOCATION:Центр современного искусства М'АРС
- \, Москва
-DESCRIPTION:Обновленная иммерсивная выставк
- а\, использующая современные технологии
-  для исследования восприятия природных 
- стихий.\n\nhttps://kudago.com/msk/event/vyistavka-sense-geometriya-
- chuvstv/
-URL:https://doublebasskakov.github.io/radar/#e=sense-evolution-of-the-ele
- ments-exhibition-moscow
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Открытие: Выставка «СЕНС. Эволюци
- я стихий»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:multimedia-project-aivazovsky-living-canvases-moscow@afisha-art
-DTSTAMP:20261125T004150Z
+DTSTAMP:20261125T142025Z
 DTSTART:20261125T080000Z
 DTEND:20261125T100000Z
 SUMMARY:Открытие: Мультимедийный проект «А
@@ -414,7 +327,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:multimedia-exhibition-the-mysterious-worlds-of-hieronymus-bo-moscow@a
  fisha-art
-DTSTAMP:20261125T004150Z
+DTSTAMP:20261125T142025Z
 DTSTART:20261125T080000Z
 DTEND:20261125T100000Z
 SUMMARY:Открытие: Мультимедийная выставка 
@@ -438,7 +351,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:frida-kahlo-unbroken-photo-exhibition-and-immersive-show-moscow@afish
  a-art
-DTSTAMP:20261125T004150Z
+DTSTAMP:20261125T142025Z
 DTSTART:20261125T080000Z
 DTEND:20261125T100000Z
 SUMMARY:Открытие: Фотовыставка и иммерсивн
@@ -460,7 +373,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:virtual-journey-vr-inside-the-masterpiece-moscow@afisha-art
-DTSTAMP:20261125T004150Z
+DTSTAMP:20261125T142025Z
 DTSTART:20261125T090000Z
 DTEND:20261125T110000Z
 SUMMARY:Открытие: Виртуальное путешествие (
@@ -481,9 +394,121 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:mediation-based-on-the-project-of-artist-afra-shafiq-moscow@afisha-ar
+ t
+DTSTAMP:20261125T142025Z
+DTSTART:20261126T163000Z
+DTEND:20261126T183000Z
+SUMMARY:Медиация по проекту художницы Афры 
+ Шафик
+LOCATION:Музей «Гараж»\, Крымский Вал\, д. 9\, с
+ тр. 32\, Мезонин\, Москва
+DESCRIPTION:Коллективное знакомство с видеои
+ грами и мультимедийными работами худож
+ ницы в формате медиации.\nАфра Шафик\nhttps:
+ //garagemca.org/event/mediation-based-on-the-works-of-artist-afra-shafiq
+URL:https://doublebasskakov.github.io/radar/#e=mediation-based-on-the-pro
+ ject-of-artist-afra-shafiq-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Медиация по проекту художницы Аф
+ ры Шафик
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:secrets-of-giuseppe-arcimboldo-st-petersbur@afisha-art
+DTSTAMP:20261125T142025Z
+DTSTART:20261114T090000Z
+DTEND:20261114T110000Z
+SUMMARY:Открытие: Секреты Джузеппе Арчимбо
+ льдо
+LOCATION:Музей Artdynamics\, Севкабель Порт\, Коже
+ венная линия\, 40\, Санкт-Петербург
+DESCRIPTION:Выставка\, посвященная творчеств
+ у великого мастера\, переосмысленному ч
+ ерез призму новых медиа.\nМузей Artdynamics\nhtt
+ ps://www.afisha.ru/exhibition/sekrety-dzhuzeppe-archimboldo-288983/
+URL:https://doublebasskakov.github.io/radar/#e=secrets-of-giuseppe-arcimb
+ oldo-st-petersbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Секреты Джузеппе Арчим
+ больдо
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:exhibition-tidal-patterns-code-of-the-sea-magadan@afisha-art
+DTSTAMP:20261125T142025Z
+DTSTART:20261115T150000Z
+DTEND:20261115T170000Z
+SUMMARY:Открытие: Выставка «Приливные патт
+ ерны: Код моря»
+LOCATION:КВЦ «Рында»\, Магадан
+DESCRIPTION:Художественное осмысление Охотс
+ кого моря\, его природных циклов\, прилив
+ ов и ледовой динамики.\nКуратор Саша Пуч
+ кова\nhttps://t.me/generativegallery/4540
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-tidal-patterns-
+ code-of-the-sea-magadan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка «Приливные па
+ ттерны: Код моря»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:virtual-gallery-project-vr-gallery-st-petersbur@afisha-art
+DTSTAMP:20261125T142025Z
+DTSTART:20261114T090000Z
+DTEND:20261114T110000Z
+SUMMARY:Открытие: Проект Виртуальная галер
+ ея (VR Gallery)
+LOCATION:Музей Artdynamics\, Севкабель Порт\, Коже
+ венная линия\, 40\, Санкт-Петербург
+DESCRIPTION:Погружение в искусство через тех
+ нологии виртуальной реальности и новые 
+ медиа.\nМузей Artdynamics\nhttps://www.afisha.ru/exhibition/pro
+ ekt-virtualnaya-galereya-vr-gallery-289394/
+URL:https://doublebasskakov.github.io/radar/#e=virtual-gallery-project-vr
+ -gallery-st-petersbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Проект Виртуальная гал
+ ерея (VR Gallery)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:multimedia-exhibition-pushkin-alive-yekaterinbur@afisha-art
+DTSTAMP:20261125T142025Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Последний день: Мультимедийная выс
+ тавка «Пушкин. Живой»
+LOCATION:Свердловская киностудия\, Екатерин
+ бург
+DESCRIPTION:Мультимедийный выставочный прое
+ кт\, представляющий новый взгляд на биог
+ рафию и творчество Александра Пушкина с
+  помощью современных технологий.\nКреат
+ ивное агентство «Р-АРТ»\nhttps://ekb.kudago.com/event
+ /vyistavka-pushkin-zhivoj/
+URL:https://doublebasskakov.github.io/radar/#e=multimedia-exhibition-push
+ kin-alive-yekaterinbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Мультимедийная в
+ ыставка «Пушкин. Живой»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:multimedia-project-secrets-of-giuseppe-arcimboldo-st-petersbur@afisha
  -art
-DTSTAMP:20261125T004150Z
+DTSTAMP:20261125T142025Z
 DTSTART:20261125T090000Z
 DTEND:20261125T110000Z
 SUMMARY:Открытие: Мультимедийный проект «С
@@ -505,7 +530,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:u-space-installation-the-cherry-orchard-st-petersbur@afisha-art
-DTSTAMP:20261125T004150Z
+DTSTAMP:20261125T142025Z
 DTSTART:20261125T080000Z
 DTEND:20261125T100000Z
 SUMMARY:Инсталляция U-space «Вишнёвый сад»
@@ -526,7 +551,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:kandinsky-and-scriabin-hearing-color-and-seeing-sound-moscow@afisha-a
  rt
-DTSTAMP:20261125T004150Z
+DTSTAMP:20261125T142025Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Открытие: Кандинский и Скрябин. Слы
@@ -551,7 +576,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:spb-lakhta-tretya-priroda@afisha-art
-DTSTAMP:20261125T004150Z
+DTSTAMP:20261125T142025Z
 DTSTART;VALUE=DATE:20270430
 DTEND;VALUE=DATE:20270501
 SUMMARY:Последний день: «Третья природа»
@@ -571,7 +596,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:vest-2@afisha-art
-DTSTAMP:20261125T004150Z
+DTSTAMP:20261125T142025Z
 DTSTART;VALUE=DATE:20270223
 DTEND;VALUE=DATE:20270224
 SUMMARY:Последний день: Весть 2.0
@@ -593,7 +618,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:spb-tsifergauz-poka-sobiraetsya-mir@afisha-art
-DTSTAMP:20261125T004150Z
+DTSTAMP:20261125T142025Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:Последний день: «Пока собирается ми
@@ -617,7 +642,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:visionary-journeys-immersive-exhibition-hong-kong@afisha-art
-DTSTAMP:20261125T004150Z
+DTSTAMP:20261125T142025Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Иммерсивная экспозиция Visionary Journeys
@@ -639,7 +664,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:styles-and-movements-from-avant-garde-to-digital-art-moscow-2@afisha-
  art
-DTSTAMP:20261125T004150Z
+DTSTAMP:20261125T142025Z
 DTSTART;VALUE=DATE:20270328
 DTEND;VALUE=DATE:20270329
 SUMMARY:Последний день: Выставка «Стили и н
@@ -664,7 +689,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:the-magnificent-hermitage-kaliningrad@afisha-art
-DTSTAMP:20261125T004150Z
+DTSTAMP:20261125T142025Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:Великолепный Эрмитаж
@@ -684,7 +709,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:platon-infante-solo-exhibition-moscow@afisha-art
-DTSTAMP:20261125T004150Z
+DTSTAMP:20261125T142025Z
 DTSTART;VALUE=DATE:20261208
 DTEND;VALUE=DATE:20261209
 SUMMARY:Персональная выставка Платона Инфа
@@ -707,7 +732,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:marina-abramovic-element-project-milan@afisha-art
-DTSTAMP:20261125T004150Z
+DTSTAMP:20261125T142025Z
 DTSTART;VALUE=DATE:20270217
 DTEND;VALUE=DATE:20270218
 SUMMARY:Последний день: Проект Marina Abramovic Elemen
@@ -729,7 +754,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:installation-melting-diary-moscow@afisha-art
-DTSTAMP:20261125T004150Z
+DTSTAMP:20261125T142025Z
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
 SUMMARY:Последний день: Инсталляция «Тающи
@@ -752,7 +777,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pool-party-installation-showcase-miami@afisha-art
-DTSTAMP:20261125T004150Z
+DTSTAMP:20261125T142025Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Показ инсталляции Pool Party
@@ -772,7 +797,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:reflections-moscow@afisha-art
-DTSTAMP:20261125T004150Z
+DTSTAMP:20261125T142025Z
 DTSTART;VALUE=DATE:20270129
 DTEND;VALUE=DATE:20270130
 SUMMARY:Последний день: Рефлекшенс
@@ -791,7 +816,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:futurione-moscow@afisha-art
-DTSTAMP:20261125T004150Z
+DTSTAMP:20261125T142025Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Последний день: Futurione
@@ -810,7 +835,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:acqua-alta-performance-perm@afisha-art
-DTSTAMP:20261125T004150Z
+DTSTAMP:20261125T142025Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261201
 SUMMARY:Спектакль Acqua Alta
@@ -829,7 +854,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mars-sens@afisha-art
-DTSTAMP:20261125T004150Z
+DTSTAMP:20261125T142025Z
 DTSTART;VALUE=DATE:20261230
 DTEND;VALUE=DATE:20261231
 SUMMARY:Последний день: СЕНС. Эволюция стих
@@ -852,7 +877,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pool-party-installation-creation-for-art-week-miami@afisha-art
-DTSTAMP:20261125T004150Z
+DTSTAMP:20261125T142025Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261205
 SUMMARY:Создание инсталляции Pool Party в рамка
@@ -873,7 +898,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:digital-show-vi-ocean-moscow@afisha-art
-DTSTAMP:20261125T004150Z
+DTSTAMP:20261125T142025Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Последний день: Цифровое шоу «VI Оке
@@ -895,7 +920,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sometimes-water-moves-towards-the-moon-moscow@afisha-art
-DTSTAMP:20261125T004150Z
+DTSTAMP:20261125T142025Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:Последний день: Иногда вода двигает
@@ -919,7 +944,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:interactive-exhibition-robopark-tomsk@afisha-art
-DTSTAMP:20261125T004150Z
+DTSTAMP:20261125T142025Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:Последний день: Интерактивная выст
@@ -942,7 +967,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nadya-kovba-silence-8-rooms-path-samara@afisha-art
-DTSTAMP:20261125T004150Z
+DTSTAMP:20261125T142025Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:Последний день: Надя Ковба. Тишина / 
@@ -966,7 +991,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:van-gogh-born-under-a-cold-star-multimedia-exhibition-rostov-on-do@af
  isha-art
-DTSTAMP:20261125T004150Z
+DTSTAMP:20261125T142025Z
 DTSTART;VALUE=DATE:20261227
 DTEND;VALUE=DATE:20261228
 SUMMARY:Последний день: Мультимедийная выс
@@ -992,7 +1017,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:robopark-interactive-exhibition-in-yaroslavl-yaroslavl@afisha-art
-DTSTAMP:20261125T004150Z
+DTSTAMP:20261125T142025Z
 DTSTART;VALUE=DATE:20261226
 DTEND;VALUE=DATE:20261227
 SUMMARY:Интерактивная выставка Робопарк в 
@@ -1015,7 +1040,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:mysterious-worlds-of-hieronymus-bosch-frida-kahlo-unbroken-moscow@afi
  sha-art
-DTSTAMP:20261125T004150Z
+DTSTAMP:20261125T142025Z
 DTSTART;VALUE=DATE:20261229
 DTEND;VALUE=DATE:20261230
 SUMMARY:Последний день: Загадочные миры Иер
@@ -1039,7 +1064,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:the-planets-of-the-little-prince-perm@afisha-art
-DTSTAMP:20261125T004150Z
+DTSTAMP:20261125T142025Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Планеты Маленького Принца
@@ -1058,7 +1083,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ekb-yeltsin-atrium-art-object-2026@afisha-art
-DTSTAMP:20261125T004150Z
+DTSTAMP:20261125T142025Z
 DTSTART;VALUE=DATE:20261226
 DTEND;VALUE=DATE:20261227
 SUMMARY:Новогодний арт-объект в атриуме Ель
@@ -1082,7 +1107,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-ma-space-between-moscow@afisha-art
-DTSTAMP:20261125T004150Z
+DTSTAMP:20261125T142025Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Открытие: Выставка «МА (間): ПРОСТРАН
@@ -1103,7 +1128,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:supermassive-black-holes-unveiling-the-invisible-perm@afisha-art
-DTSTAMP:20261125T004150Z
+DTSTAMP:20261125T142025Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
 SUMMARY:Сверхмассивные черные дыры. Открыв
@@ -1125,7 +1150,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:inside-the-masterpiece-moscow@afisha-art
-DTSTAMP:20261125T004150Z
+DTSTAMP:20261125T142025Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Последний день: Внутри шедевра
@@ -1145,7 +1170,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:interactive-exhibition-robopark-tomsk-tomsk@afisha-art
-DTSTAMP:20261125T004150Z
+DTSTAMP:20261125T142025Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:Последний день: Интерактивная выст
@@ -1167,7 +1192,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:internal-compass-moscow@afisha-art
-DTSTAMP:20261125T004150Z
+DTSTAMP:20261125T142025Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Последний день: Внутренний компас
@@ -1187,7 +1212,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:where-dreams-live-moscow@afisha-art
-DTSTAMP:20261125T004150Z
+DTSTAMP:20261125T142025Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Последний день: Где живут сны
@@ -1207,7 +1232,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:yoga-museum-audiovisual-journey-through-centuries-st-petersbur@afisha
  -art
-DTSTAMP:20261125T004150Z
+DTSTAMP:20261125T142025Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Последний день: Музей йоги: аудиови
@@ -1230,7 +1255,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:secrets-of-giuseppe-arcimboldo-moscow@afisha-art
-DTSTAMP:20261125T004150Z
+DTSTAMP:20261125T142025Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Последний день: Секреты Джузеппе Ар
@@ -1252,7 +1277,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:installation-the-flood-kaliningrad@afisha-art
-DTSTAMP:20261125T004150Z
+DTSTAMP:20261125T142025Z
 DTSTART;VALUE=DATE:20270122
 DTEND;VALUE=DATE:20270123
 SUMMARY:Последний день: Инсталляция «Потоп
@@ -1274,7 +1299,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:don-t-tell-mom-moscow@afisha-art
-DTSTAMP:20261125T004150Z
+DTSTAMP:20261125T142025Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:Последний день: Только не говори ма
@@ -1293,7 +1318,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:light-shadow-kazan@afisha-art
-DTSTAMP:20261125T004150Z
+DTSTAMP:20261125T142025Z
 DTSTART;VALUE=DATE:20270115
 DTEND;VALUE=DATE:20270116
 SUMMARY:Последний день: Свет/тень
@@ -1312,7 +1337,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:the-romanovs-novosibirsk@afisha-art
-DTSTAMP:20261125T004150Z
+DTSTAMP:20261125T142025Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Последний день: Романовы
@@ -1333,7 +1358,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:the-rurikids-novosibirsk@afisha-art
-DTSTAMP:20261125T004150Z
+DTSTAMP:20261125T142025Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Последний день: Рюриковичи
@@ -1353,7 +1378,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:full-dome-program-multicolor-universe-perm@afisha-art
-DTSTAMP:20261125T004150Z
+DTSTAMP:20261125T142025Z
 DTSTART;VALUE=DATE:20261224
 DTEND;VALUE=DATE:20261225
 SUMMARY:Полнокупольная программа «Разноцв
@@ -1377,7 +1402,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:chronicle-of-the-history-of-the-siberian-military-novosibirsk@afisha-
  art
-DTSTAMP:20261125T004150Z
+DTSTAMP:20261125T142025Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Последний день: Летопись истории Си
@@ -1401,7 +1426,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:full-dome-program-supermassive-black-holes-uncovering-the-in-perm@afi
  sha-art
-DTSTAMP:20261125T004150Z
+DTSTAMP:20261125T142025Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
 SUMMARY:Полнокупольная программа «Сверхма
@@ -1426,7 +1451,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:full-dome-program-aerial-ghosts-perm@afisha-art
-DTSTAMP:20261125T004150Z
+DTSTAMP:20261125T142025Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Полнокупольная программа «Воздушн
@@ -1448,7 +1473,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:msk-muzey-moskvy-reflections@afisha-art
-DTSTAMP:20261125T004150Z
+DTSTAMP:20261125T142025Z
 DTSTART;VALUE=DATE:20270129
 DTEND;VALUE=DATE:20270130
 SUMMARY:Последний день: Никола Мельников. REF
@@ -1473,7 +1498,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:vest-2-0-the-message-2-0-saint-peters@afisha-art
-DTSTAMP:20261125T004150Z
+DTSTAMP:20261125T142025Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Мультимедийная выставка «Весть 2.0»
@@ -1494,7 +1519,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fields-of-resonance-sao-paulo@afisha-art
-DTSTAMP:20261125T004150Z
+DTSTAMP:20261125T142025Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 SUMMARY:Последний день: Поля резонанса
@@ -1515,7 +1540,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:digital-lethargy-saint-peters@afisha-art
-DTSTAMP:20261125T004150Z
+DTSTAMP:20261125T142025Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:Последний день: Цифровая летаргия
@@ -1537,7 +1562,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:bardo-001-panterra-art-group-exhibition-nizhny-novgo@afisha-art
-DTSTAMP:20261125T004150Z
+DTSTAMP:20261125T142025Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Открытие: BARDO 001 — выставка арт-груп
@@ -1559,7 +1584,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mou-sen@afisha-art
-DTSTAMP:20261125T004150Z
+DTSTAMP:20261125T142025Z
 DTSTART;VALUE=DATE:20270221
 DTEND;VALUE=DATE:20270222
 SUMMARY:Последний день: Моу Сэнь. Божествен
@@ -1581,7 +1606,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sensory-exposition-at-the-museum-of-darkness-moscow@afisha-art
-DTSTAMP:20261125T004150Z
+DTSTAMP:20261125T142025Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Сенсорная экспозиция в Музее Темно

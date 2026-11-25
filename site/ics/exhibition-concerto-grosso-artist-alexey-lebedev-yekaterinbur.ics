@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:exhibition-concerto-grosso-artist-alexey-lebedev-yekaterinbur@afisha-
+ art
+DTSTAMP:20261125T142025Z
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+SUMMARY:Последний день: Выставка «Concerto Grosso. 
+ Художник Алексей Лебедев»
+LOCATION:Екатеринбургский музей изобразите
+ льных искусств\, Екатеринбург
+DESCRIPTION:Первая крупная ретроспектива све
+ рдловского художника Алексея Лебедева\,
+  знакомящая с его живописным и графичес
+ ким наследием.\nАлексей Лебедев\nhttps://ekb.ku
+ dago.com/event/vyistavka-concerto-grosso-hudozhnik-aleksej-lebedev/
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-concerto-grosso
+ -artist-alexey-lebedev-yekaterinbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Выставка «Concerto Gros
+ so. Художник Алексей Лебедев»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR
