@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:kzn-mon-gastroli-kapital@afisha-art
-DTSTAMP:20261125T142025Z
+DTSTAMP:20261125T193757Z
 DTSTART:20261129T150000Z
 DTEND:20261129T170000Z
 SUMMARY:«Гастроли: Капитал»
@@ -25,8 +25,30 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:exhibition-russian-avant-garde-transformation-kazan@afisha-art
+DTSTAMP:20261125T193757Z
+DTSTART:20260930T080000Z
+DTEND:20260930T100000Z
+SUMMARY:Открытие: Выставка «Русский аванга
+ рд. Преображение»
+LOCATION:Галерея современного искусства\, К
+ азань
+DESCRIPTION:Масштабный проект\, сопоставляющ
+ ий полотна авангардистов XX века с тради
+ ционной иконой и народным лубком.\n\nhttps://
+ kzn.kudago.com/event/vyistavka-russkij-avangard-preobrazhenie/
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-russian-avant-g
+ arde-transformation-kazan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка «Русский аван
+ гард. Преображение»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:music-of-the-cosmos-kazan@afisha-art
-DTSTAMP:20261125T142025Z
+DTSTAMP:20261125T193757Z
 DTSTART:20261126T153000Z
 DTEND:20261126T173000Z
 SUMMARY:Музыка космоса
@@ -47,7 +69,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-city-of-dropped-letters-kazan@afisha-art
-DTSTAMP:20261125T142025Z
+DTSTAMP:20261125T193757Z
 DTSTART:20261125T090000Z
 DTEND:20261125T110000Z
 SUMMARY:Выставка «Город выпавших букв»
@@ -67,7 +89,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lecture-urban-trashology-kazan@afisha-art
-DTSTAMP:20261125T142025Z
+DTSTAMP:20261125T193757Z
 DTSTART:20261128T120000Z
 DTEND:20261128T140000Z
 SUMMARY:Лекция «Городская мусорология»
@@ -87,8 +109,30 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:exhibition-so-different-and-yet-painting-kazan@afisha-art
+DTSTAMP:20261125T193757Z
+DTSTART:20260925T090000Z
+DTEND:20260925T110000Z
+SUMMARY:Открытие: Выставка «Такая разная... 
+ и всё-таки живопись»
+LOCATION:Belova Art Gallery\, Казань
+DESCRIPTION:Групповая экспозиция резидентов 
+ галереи\, исследующая границы живописно
+ го медиума и концептуальные формообраз
+ ования.\nРезиденты Belova Art Gallery\nhttps://kzn.kudago.
+ com/event/vyistavka-takaya-raznaya-i-vsyo-taki-zhivopis/
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-so-different-an
+ d-yet-painting-kazan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка «Такая разная.
+ .. и всё-таки живопись»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:animation-as-contemporary-art-screening-kazan@afisha-art
-DTSTAMP:20261125T142025Z
+DTSTAMP:20261125T193757Z
 DTSTART:20261126T153000Z
 DTEND:20261126T173000Z
 SUMMARY:Спецпоказ «Анимация как современно
@@ -110,7 +154,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:kzn-mon-otstan-ot-sebya@afisha-art
-DTSTAMP:20261125T142025Z
+DTSTAMP:20261125T193757Z
 DTSTART:20261125T160000Z
 DTEND:20261125T180000Z
 SUMMARY:«Отстань от себя». Пластический спе
@@ -127,52 +171,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:exhibition-russian-avant-garde-transformation-kazan@afisha-art
-DTSTAMP:20261125T142025Z
-DTSTART:20260930T080000Z
-DTEND:20260930T100000Z
-SUMMARY:Открытие: Выставка «Русский аванга
- рд. Преображение»
-LOCATION:Галерея современного искусства\, К
- азань
-DESCRIPTION:Масштабный проект\, сопоставляющ
- ий полотна авангардистов XX века с тради
- ционной иконой и народным лубком.\n\nhttps://
- kzn.kudago.com/event/vyistavka-russkij-avangard-preobrazhenie/
-URL:https://doublebasskakov.github.io/radar/#e=exhibition-russian-avant-g
- arde-transformation-kazan
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Открытие: Выставка «Русский аван
- гард. Преображение»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:exhibition-so-different-and-yet-painting-kazan@afisha-art
-DTSTAMP:20261125T142025Z
-DTSTART:20260925T090000Z
-DTEND:20260925T110000Z
-SUMMARY:Открытие: Выставка «Такая разная... 
- и всё-таки живопись»
-LOCATION:Belova Art Gallery\, Казань
-DESCRIPTION:Групповая экспозиция резидентов 
- галереи\, исследующая границы живописно
- го медиума и концептуальные формообраз
- ования.\nРезиденты Belova Art Gallery\nhttps://kzn.kudago.
- com/event/vyistavka-takaya-raznaya-i-vsyo-taki-zhivopis/
-URL:https://doublebasskakov.github.io/radar/#e=exhibition-so-different-an
- d-yet-painting-kazan
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Открытие: Выставка «Такая разная.
- .. и всё-таки живопись»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:lecture-the-other-plasma-in-space-and-on-earth-kazan@afisha-art
-DTSTAMP:20261125T142025Z
+DTSTAMP:20261125T193757Z
 DTSTART:20261217T160000Z
 DTEND:20261217T180000Z
 SUMMARY:Лекция «Другая плазма: в космосе и н
@@ -195,7 +195,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:lecture-tatar-fashion-or-tatar-style-in-the-19th-century-kazan@afisha
  -art
-DTSTAMP:20261125T142025Z
+DTSTAMP:20261125T193757Z
 DTSTART:20261126T160000Z
 DTEND:20261126T180000Z
 SUMMARY:Лекция «Мода по-татарски или Tatar style 
@@ -218,7 +218,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:lecture-warhammer-40k-universe-major-events-races-and-person-kazan@af
  isha-art
-DTSTAMP:20261125T142025Z
+DTSTAMP:20261125T193757Z
 DTSTART:20270226T160000Z
 DTEND:20270226T180000Z
 SUMMARY:Лекция «Вселенная Warhammer 40k: основные
@@ -241,7 +241,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:discussion-russian-film-festivals-in-the-context-of-the-worl-kazan@af
  isha-art
-DTSTAMP:20261125T142025Z
+DTSTAMP:20261125T193757Z
 DTSTART:20261224T160000Z
 DTEND:20261224T180000Z
 SUMMARY:Дискуссия «Российские кинофестива
@@ -263,7 +263,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lecture-inside-battle-after-battle-kazan@afisha-art
-DTSTAMP:20261125T142025Z
+DTSTAMP:20261125T193757Z
 DTSTART:20261221T130000Z
 DTEND:20261221T150000Z
 SUMMARY:Лекция «Внутри "Битвы за битвой"»
@@ -282,7 +282,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lecture-series-what-did-freud-say-kazan@afisha-art
-DTSTAMP:20261125T142025Z
+DTSTAMP:20261125T193757Z
 DTSTART:20261128T160000Z
 DTEND:20261128T180000Z
 SUMMARY:Лекторий «Что сказал Фрейд?»
@@ -301,7 +301,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:kzn-smena-rabochaya-smena@afisha-art
-DTSTAMP:20261125T142025Z
+DTSTAMP:20261125T193757Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:Последний день: «Рабочая смена»
@@ -324,7 +324,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:smena-winter-book-fest@afisha-art
-DTSTAMP:20261125T142025Z
+DTSTAMP:20261125T193757Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261207
 SUMMARY:Зимний книжный фестиваль «Смены»
@@ -344,7 +344,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-about-love-kazan@afisha-art
-DTSTAMP:20261125T142025Z
+DTSTAMP:20261125T193757Z
 DTSTART;VALUE=DATE:20261230
 DTEND;VALUE=DATE:20261231
 SUMMARY:Последний день: Музей «Про любовь»
@@ -364,7 +364,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:about-love-museum-kazan-kazan@afisha-art
-DTSTAMP:20261125T142025Z
+DTSTAMP:20261125T193757Z
 DTSTART;VALUE=DATE:20261230
 DTEND;VALUE=DATE:20261231
 SUMMARY:Последний день: Музей «Про любовь» 
@@ -385,7 +385,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:light-shadow-kazan@afisha-art
-DTSTAMP:20261125T142025Z
+DTSTAMP:20261125T193757Z
 DTSTART;VALUE=DATE:20270115
 DTEND;VALUE=DATE:20270116
 SUMMARY:Последний день: Свет/тень
@@ -404,7 +404,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:criminal-ryazan-true-crime-promenade-kazan@afisha-art
-DTSTAMP:20261125T142025Z
+DTSTAMP:20261125T193757Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
 SUMMARY:Криминальная Рязань - трукрайм пром
@@ -424,7 +424,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:zaitsev-workshop-unusual-painting-unusual-graphics-kazan@afisha-art
-DTSTAMP:20261125T142025Z
+DTSTAMP:20261125T193757Z
 DTSTART;VALUE=DATE:20270115
 DTEND;VALUE=DATE:20270116
 SUMMARY:Последний день: Мастерская Зайцева.
@@ -447,7 +447,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:magic-peresmenka-kazan@afisha-art
-DTSTAMP:20261125T142025Z
+DTSTAMP:20261125T193757Z
 DTSTART;VALUE=DATE:20270104
 DTEND;VALUE=DATE:20270109
 SUMMARY:Волшебная «Пересменка»
@@ -465,7 +465,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:unusual-painting-unusual-graphics-kazan@afisha-art
-DTSTAMP:20261125T142025Z
+DTSTAMP:20261125T193757Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Открытие: Необычная живопись. Необы

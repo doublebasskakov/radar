@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:ekb-masm-kontrapunkt-epokh@afisha-art
-DTSTAMP:20261125T142025Z
+DTSTAMP:20261125T193757Z
 DTSTART:20261127T140000Z
 DTEND:20261127T160000Z
 SUMMARY:МАСМ. «Контрапункт эпох»
@@ -27,9 +27,33 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:multimedia-exhibition-pushkin-alive-yekaterinbur@afisha-art
+DTSTAMP:20261125T193757Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Последний день: Мультимедийная выс
+ тавка «Пушкин. Живой»
+LOCATION:Свердловская киностудия\, Екатерин
+ бург
+DESCRIPTION:Мультимедийный выставочный прое
+ кт\, представляющий новый взгляд на биог
+ рафию и творчество Александра Пушкина с
+  помощью современных технологий.\nКреат
+ ивное агентство «Р-АРТ»\nhttps://ekb.kudago.com/event
+ /vyistavka-pushkin-zhivoj/
+URL:https://doublebasskakov.github.io/radar/#e=multimedia-exhibition-push
+ kin-alive-yekaterinbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Мультимедийная в
+ ыставка «Пушкин. Живой»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:lecture-by-alexander-morozov-the-image-of-the-1990s-in-moder-yekateri
  nbur@afisha-art
-DTSTAMP:20261125T142025Z
+DTSTAMP:20261125T193757Z
 DTSTART:20261125T123000Z
 DTEND:20261125T143000Z
 SUMMARY:Лекция Александра Морозова «Образ 1
@@ -52,8 +76,32 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:exhibition-concerto-grosso-artist-alexey-lebedev-yekaterinbur@afisha-
+ art
+DTSTAMP:20261125T193757Z
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+SUMMARY:Последний день: Выставка «Concerto Grosso. 
+ Художник Алексей Лебедев»
+LOCATION:Екатеринбургский музей изобразите
+ льных искусств\, Екатеринбург
+DESCRIPTION:Первая крупная ретроспектива све
+ рдловского художника Алексея Лебедева\,
+  знакомящая с его живописным и графичес
+ ким наследием.\nАлексей Лебедев\nhttps://ekb.ku
+ dago.com/event/vyistavka-concerto-grosso-hudozhnik-aleksej-lebedev/
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-concerto-grosso
+ -artist-alexey-lebedev-yekaterinbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Выставка «Concerto Gros
+ so. Художник Алексей Лебедев»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:performance-gadgets-in-our-life-yekaterinbur@afisha-art
-DTSTAMP:20261125T142025Z
+DTSTAMP:20261125T193757Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Перформанс «Гаджеты в нашей жизни»
@@ -76,7 +124,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:public-talk-how-contemporary-art-can-be-independent-yekaterinbur@afis
  ha-art
-DTSTAMP:20261125T142025Z
+DTSTAMP:20261125T193757Z
 DTSTART:20261127T120000Z
 DTEND:20261127T140000Z
 SUMMARY:Публичный разговор «Как современно
@@ -100,7 +148,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:lecture-by-evgeny-danchenko-neural-network-cinema-from-a-fan-yekateri
  nbur@afisha-art
-DTSTAMP:20261125T142025Z
+DTSTAMP:20261125T193757Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 SUMMARY:Лекция Евгения Данченко «Нейросете
@@ -124,124 +172,9 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:lecture-agatha-christie-and-other-rock-detectives-yekaterinbur@afisha
- -art
-DTSTAMP:20261125T142025Z
-DTSTART:20261201T160000Z
-DTEND:20261201T180000Z
-SUMMARY:Лекция «„Агата Кристи“ и другие ро
- к-детективы»
-LOCATION:Музей андеграунда\, Екатеринбург
-DESCRIPTION:Дизайнер Александр Коротич расск
- ажет об истории создания обложек альбом
- ов рок-групп Свердловского рок-клуба.\nА
- лександр Коротич\nhttps://t.me/undergroundmuseum_ekb/5330
-URL:https://doublebasskakov.github.io/radar/#e=lecture-agatha-christie-an
- d-other-rock-detectives-yekaterinbur
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Лекция «„Агата Кристи“ и другие 
- рок-детективы»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:lecture-by-sergey-perekhozhikh-moscow-in-the-era-of-yeltsin--yekateri
- nbur@afisha-art
-DTSTAMP:20261125T142025Z
-DTSTART:20261125T083000Z
-DTEND:20261125T103000Z
-SUMMARY:Лекция Сергея Перехожих «Москва эп
- охи Ельцина. 1985-1987»
-LOCATION:Ельцин Центр\, Екатеринбург
-DESCRIPTION:Лекция о столице периода начала п
- ерестройки и деятельности Бориса Ельци
- на на московской партийной арене.\nСерге
- й Перехожих\nhttps://t.me/yeltsincenter/10206
-URL:https://doublebasskakov.github.io/radar/#e=lecture-by-sergey-perekhoz
- hikh-moscow-in-the-era-of-yeltsin--yekaterinbur
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Лекция Сергея Перехожих «Москва 
- эпохи Ельцина. 1985-1987»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:lecture-by-masha-ryba-soviet-fashion-of-the-nep-era-yekaterinbur@afis
- ha-art
-DTSTAMP:20261125T142025Z
-DTSTART;VALUE=DATE:20270116
-DTEND;VALUE=DATE:20270117
-SUMMARY:Лекция Маши Рыбы «Советская мода эп
- охи Нэпа»
-LOCATION:Ньютон / Подземный музей\, Екатерин
- бург
-DESCRIPTION:Культурологическая лекция об эво
- люции и стиле советской моды времен нов
- ой экономической политики.\nМаша Рыба\nhtt
- ps://t.me/undergroundmuseum_ekb/5289
-URL:https://doublebasskakov.github.io/radar/#e=lecture-by-masha-ryba-sovi
- et-fashion-of-the-nep-era-yekaterinbur
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Лекция Маши Рыбы «Советская мода 
- эпохи Нэпа»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:multimedia-exhibition-pushkin-alive-yekaterinbur@afisha-art
-DTSTAMP:20261125T142025Z
-DTSTART;VALUE=DATE:20261129
-DTEND;VALUE=DATE:20261130
-SUMMARY:Последний день: Мультимедийная выс
- тавка «Пушкин. Живой»
-LOCATION:Свердловская киностудия\, Екатерин
- бург
-DESCRIPTION:Мультимедийный выставочный прое
- кт\, представляющий новый взгляд на биог
- рафию и творчество Александра Пушкина с
-  помощью современных технологий.\nКреат
- ивное агентство «Р-АРТ»\nhttps://ekb.kudago.com/event
- /vyistavka-pushkin-zhivoj/
-URL:https://doublebasskakov.github.io/radar/#e=multimedia-exhibition-push
- kin-alive-yekaterinbur
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Последний день: Мультимедийная в
- ыставка «Пушкин. Живой»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:exhibition-concerto-grosso-artist-alexey-lebedev-yekaterinbur@afisha-
- art
-DTSTAMP:20261125T142025Z
-DTSTART;VALUE=DATE:20270117
-DTEND;VALUE=DATE:20270118
-SUMMARY:Последний день: Выставка «Concerto Grosso. 
- Художник Алексей Лебедев»
-LOCATION:Екатеринбургский музей изобразите
- льных искусств\, Екатеринбург
-DESCRIPTION:Первая крупная ретроспектива све
- рдловского художника Алексея Лебедева\,
-  знакомящая с его живописным и графичес
- ким наследием.\nАлексей Лебедев\nhttps://ekb.ku
- dago.com/event/vyistavka-concerto-grosso-hudozhnik-aleksej-lebedev/
-URL:https://doublebasskakov.github.io/radar/#e=exhibition-concerto-grosso
- -artist-alexey-lebedev-yekaterinbur
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Последний день: Выставка «Concerto Gros
- so. Художник Алексей Лебедев»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:exhibition-post-sverdlovsk-photography-of-the-early-1990s-yekaterinbu
  r@afisha-art
-DTSTAMP:20261125T142025Z
+DTSTAMP:20261125T193757Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:Последний день: Выставка «Пост-Свер
@@ -263,9 +196,76 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:lecture-agatha-christie-and-other-rock-detectives-yekaterinbur@afisha
+ -art
+DTSTAMP:20261125T193757Z
+DTSTART:20261201T160000Z
+DTEND:20261201T180000Z
+SUMMARY:Лекция «„Агата Кристи“ и другие ро
+ к-детективы»
+LOCATION:Музей андеграунда\, Екатеринбург
+DESCRIPTION:Дизайнер Александр Коротич расск
+ ажет об истории создания обложек альбом
+ ов рок-групп Свердловского рок-клуба.\nА
+ лександр Коротич\nhttps://t.me/undergroundmuseum_ekb/5330
+URL:https://doublebasskakov.github.io/radar/#e=lecture-agatha-christie-an
+ d-other-rock-detectives-yekaterinbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекция «„Агата Кристи“ и другие 
+ рок-детективы»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lecture-by-sergey-perekhozhikh-moscow-in-the-era-of-yeltsin--yekateri
+ nbur@afisha-art
+DTSTAMP:20261125T193757Z
+DTSTART:20261125T083000Z
+DTEND:20261125T103000Z
+SUMMARY:Лекция Сергея Перехожих «Москва эп
+ охи Ельцина. 1985-1987»
+LOCATION:Ельцин Центр\, Екатеринбург
+DESCRIPTION:Лекция о столице периода начала п
+ ерестройки и деятельности Бориса Ельци
+ на на московской партийной арене.\nСерге
+ й Перехожих\nhttps://t.me/yeltsincenter/10206
+URL:https://doublebasskakov.github.io/radar/#e=lecture-by-sergey-perekhoz
+ hikh-moscow-in-the-era-of-yeltsin--yekaterinbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекция Сергея Перехожих «Москва 
+ эпохи Ельцина. 1985-1987»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lecture-by-masha-ryba-soviet-fashion-of-the-nep-era-yekaterinbur@afis
+ ha-art
+DTSTAMP:20261125T193757Z
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+SUMMARY:Лекция Маши Рыбы «Советская мода эп
+ охи Нэпа»
+LOCATION:Ньютон / Подземный музей\, Екатерин
+ бург
+DESCRIPTION:Культурологическая лекция об эво
+ люции и стиле советской моды времен нов
+ ой экономической политики.\nМаша Рыба\nhtt
+ ps://t.me/undergroundmuseum_ekb/5289
+URL:https://doublebasskakov.github.io/radar/#e=lecture-by-masha-ryba-sovi
+ et-fashion-of-the-nep-era-yekaterinbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекция Маши Рыбы «Советская мода 
+ эпохи Нэпа»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:cadre-shortage-documentary-photography-exhibition-by-igor-ga-yekateri
  nbur@afisha-art
-DTSTAMP:20261125T142025Z
+DTSTAMP:20261125T193757Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Выставка документальной фотографи
@@ -287,7 +287,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:message-to-man-festival-echo-program-screenings-in-yekaterin-yekateri
  nbur@afisha-art
-DTSTAMP:20261125T142025Z
+DTSTAMP:20261125T193757Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Последний день: Фестиваль «Послани
@@ -311,7 +311,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:lecture-city-from-within-from-everyday-life-to-activism-yekaterinbur@
  afisha-art
-DTSTAMP:20261125T142025Z
+DTSTAMP:20261125T193757Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Лекция «Город изнутри: от повседнев
@@ -334,7 +334,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:thanks-to-everyone-yekaterinbur@afisha-art
-DTSTAMP:20261125T142025Z
+DTSTAMP:20261125T193757Z
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
 SUMMARY:Последний день: Спасибо всем!
@@ -356,7 +356,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:the-mystery-of-the-ipatiev-house-guided-investigation-yekaterinbur@af
  isha-art
-DTSTAMP:20261125T142025Z
+DTSTAMP:20261125T193757Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Экскурсия-расследование «Тайна дом
@@ -378,7 +378,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:lecture-from-sherlock-holmes-to-miss-marple-the-formula-of-t-yekateri
  nbur@afisha-art
-DTSTAMP:20261125T142025Z
+DTSTAMP:20261125T193757Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Лекция «От Шерлока Холмса до мисс М
@@ -400,7 +400,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:flora-bichakhchyan-concert-flora-world-star-yekaterinbur@afisha-art
-DTSTAMP:20261125T142025Z
+DTSTAMP:20261125T193757Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Концерт Флоры Бичахчян «ФЛОРА. Миро
@@ -424,7 +424,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:lecture-a-moment-before-the-freeze-literary-freedom-of-the-1-yekateri
  nbur@afisha-art
-DTSTAMP:20261125T142025Z
+DTSTAMP:20261125T193757Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Лекция «За мгновение до заморозков:
@@ -447,7 +447,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:masha-godovannaya-s-essay-film-the-bald-man-s-curlers-yekaterinbur@af
  isha-art
-DTSTAMP:20261125T142025Z
+DTSTAMP:20261125T193757Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Фильм-эссе Маши Годованной «Бигуди 
@@ -468,7 +468,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ekb-yeltsin-atrium-art-object-2026@afisha-art
-DTSTAMP:20261125T142025Z
+DTSTAMP:20261125T193757Z
 DTSTART;VALUE=DATE:20261226
 DTEND;VALUE=DATE:20261227
 SUMMARY:Новогодний арт-объект в атриуме Ель
@@ -493,7 +493,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:theatrehd-screening-robert-wilson-s-pushkin-s-fairy-tales-yekaterinbu
  r@afisha-art
-DTSTAMP:20261125T142025Z
+DTSTAMP:20261125T193757Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Кинопоказ спектакля Роберта Уилсон
@@ -515,7 +515,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:presentation-of-the-limited-clothing-collection-autograph-yekaterinbu
  r@afisha-art
-DTSTAMP:20261125T142025Z
+DTSTAMP:20261125T193757Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Презентация лимитированной коллек
@@ -537,7 +537,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:discussion-reading-and-discussing-yevgeny-zamyatin-s-dystopi-yekateri
  nbur@afisha-art
-DTSTAMP:20261125T142025Z
+DTSTAMP:20261125T193757Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Дискуссия «Читаем и обсуждаем анти
@@ -560,7 +560,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:course-effective-workshop-yekaterinbur@afisha-art
-DTSTAMP:20261125T142025Z
+DTSTAMP:20261125T193757Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Курс «ЭФФЕКТивная мастерская»
@@ -579,7 +579,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:screening-jim-jarmusch-s-paterson-yekaterinbur@afisha-art
-DTSTAMP:20261125T142025Z
+DTSTAMP:20261125T193757Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Последний день: Показ фильма «Патер
@@ -599,7 +599,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:documentary-seeing-all-yekaterinbur@afisha-art
-DTSTAMP:20261125T142025Z
+DTSTAMP:20261125T193757Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Последний день: Документальный фил
@@ -619,7 +619,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:screening-first-cow-yekaterinbur@afisha-art
-DTSTAMP:20261125T142025Z
+DTSTAMP:20261125T193757Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Показ фильма «Первая корова»
@@ -638,7 +638,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:screening-food-inc-2-yekaterinbur@afisha-art
-DTSTAMP:20261125T142025Z
+DTSTAMP:20261125T193757Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Показ фильма «Корпорация „Еда“ - 2»
@@ -657,7 +657,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:screening-minari-yekaterinbur@afisha-art
-DTSTAMP:20261125T142025Z
+DTSTAMP:20261125T193757Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Показ фильма «Минари»
@@ -675,7 +675,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:screening-toni-yekaterinbur@afisha-art
-DTSTAMP:20261125T142025Z
+DTSTAMP:20261125T193757Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Показ фильма «Тони»
@@ -693,7 +693,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:screening-boiling-point-yekaterinbur@afisha-art
-DTSTAMP:20261125T142025Z
+DTSTAMP:20261125T193757Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Показ фильма «Точка кипения»
@@ -711,7 +711,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:screening-train-to-busan-yekaterinbur@afisha-art
-DTSTAMP:20261125T142025Z
+DTSTAMP:20261125T193757Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261127
 SUMMARY:Показ фильма ужасов «Поезд в Пусан»
@@ -730,7 +730,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-thing-not-in-itself-sands-and-winds-yekaterinbur@afisha-ar
  t
-DTSTAMP:20261125T142025Z
+DTSTAMP:20261125T193757Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Последний день: Выставка «Вещь не в 
