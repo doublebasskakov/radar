@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:vinyl-night-placebo-without-you-i-m-nothing-ulyanovsk@afisha-art
-DTSTAMP:20261125T193757Z
+DTSTAMP:20261125T235628Z
 DTSTART:20261126T170000Z
 DTEND:20261126T190000Z
 SUMMARY:Виниловый вечер: Placebo — «Without You I’m No
@@ -25,27 +25,6 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Виниловый вечер: Placebo — «Without You I’
  m Nothing»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:mobile-music-assembly-ulyanovsk-ulyanovsk@afisha-art
-DTSTAMP:20261125T193757Z
-DTSTART;VALUE=DATE:20261125
-DTEND;VALUE=DATE:20261126
-SUMMARY:Передвижная музыкальная ассамблея:
-  Ульяновск
-LOCATION:Ульяновск
-DESCRIPTION:Концертная программа и творчески
- е встречи с профессорами консерватории.
- \nКазанская государственная консервато
- рия имени Н.Г. Жиганова\nhttps://t.me/kazancons/3600
-URL:https://doublebasskakov.github.io/radar/#e=mobile-music-assembly-ulya
- novsk-ulyanovsk
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Передвижная музыкальная ассамбл
- ея: Ульяновск
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

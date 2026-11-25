@@ -7,33 +7,8 @@ X-WR-CALNAME:Радар — Россия · city-online
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:online-lecture-by-kristina-reznik-under-the-tree-how-archite-online@a
- fisha-art
-DTSTAMP:20261125T193757Z
-DTSTART:20261125T160000Z
-DTEND:20261125T180000Z
-SUMMARY:Онлайн-лекция Кристины Резник «Под 
- деревом: как архитекторы проектируют го
- рода\, ничего не зная о растениях»
-LOCATION:Онлайн\, Онлайн
-DESCRIPTION:Лекция о принципах работы архите
- кторов с зелеными насаждениями и интегр
- ации знаний о растениях в процессы горо
- дского проектирования.\nКристина Резник
- \nhttps://t.me/stzv_afisha/3888
-URL:https://doublebasskakov.github.io/radar/#e=online-lecture-by-kristina
- -reznik-under-the-tree-how-archite-online
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Онлайн-лекция Кристины Резник «П
- од деревом: как архитекторы проектируют
-  города\, ничего не зная о растениях»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:kira-dolinina-s-workshop-at-symposiy-lecturing-hall-online@afisha-art
-DTSTAMP:20261125T193757Z
+DTSTAMP:20261125T235628Z
 DTSTART:20261129T090000Z
 DTEND:20261129T110000Z
 SUMMARY:Мастерская Киры Долининой в лектор
@@ -54,7 +29,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:live-stream-international-acting-career-online@afisha-art
-DTSTAMP:20261125T193757Z
+DTSTAMP:20261125T235628Z
 DTSTART:20261126T170000Z
 DTEND:20261126T190000Z
 SUMMARY:Прямой эфир: международная актёрск
@@ -74,8 +49,29 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:dune-part-three-film-premiere-online@afisha-art
+DTSTAMP:20261125T235628Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+SUMMARY:«Дюна: Часть третья» — премьера фил
+ ьма
+LOCATION:Кинотеатры\, Онлайн
+DESCRIPTION:Заключительная часть эпической ф
+ антастической трилогии Дени Вильнева о 
+ правлении Пола Атрейдеса в Империуме.\nД
+ ени Вильнев\nhttps://t.me/afishadailynews/104187
+URL:https://doublebasskakov.github.io/radar/#e=dune-part-three-film-premi
+ ere-online
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:«Дюна: Часть третья» — премьера ф
+ ильма
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:jean-michel-basquiat-documentary-on-netflix-online@afisha-art
-DTSTAMP:20261125T193757Z
+DTSTAMP:20261125T235628Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:Документальный фильм «Жан-Мишель Б
@@ -97,7 +93,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ai-journey-2026-science-day-online@afisha-art
-DTSTAMP:20261125T193757Z
+DTSTAMP:20261125T235628Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:AI Journey 2026: День науки
@@ -119,7 +115,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:online-exhibition-home-elsewhere-online@afisha-art
-DTSTAMP:20261125T193757Z
+DTSTAMP:20261125T235628Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Открытие: Онлайн-выставка «Home\, Elsewher
@@ -142,7 +138,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:how-to-become-an-art-historian-online@afisha-art
-DTSTAMP:20261125T193757Z
+DTSTAMP:20261125T235628Z
 DTSTART;VALUE=DATE:20270114
 DTEND;VALUE=DATE:20270115
 SUMMARY:Как стать искусствоведом
@@ -162,7 +158,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:podcast-contemporary-art-instructions-for-use-online@afisha-art
-DTSTAMP:20261125T193757Z
+DTSTAMP:20261125T235628Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:Последний день: Подкаст «Современн
@@ -185,7 +181,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:online-broadcast-shchusev-readings-2026-online@afisha-art
-DTSTAMP:20261125T193757Z
+DTSTAMP:20261125T235628Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Трансляция конференции «Щусевcкие 
@@ -201,27 +197,6 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Трансляция конференции «Щусевcки
  е чтения — 2026»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:dune-part-three-film-premiere-online@afisha-art
-DTSTAMP:20261125T193757Z
-DTSTART;VALUE=DATE:20261218
-DTEND;VALUE=DATE:20261219
-SUMMARY:«Дюна: Часть третья» — премьера фил
- ьма
-LOCATION:Кинотеатры\, Онлайн
-DESCRIPTION:Заключительная часть эпической ф
- антастической трилогии Дени Вильнева о 
- правлении Пола Атрейдеса в Империуме.\nД
- ени Вильнев\nhttps://t.me/afishadailynews/104187
-URL:https://doublebasskakov.github.io/radar/#e=dune-part-three-film-premi
- ere-online
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:«Дюна: Часть третья» — премьера ф
- ильма
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
