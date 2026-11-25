@@ -8,13 +8,14 @@ on:
   workflow_dispatch:          # кнопка «Run workflow» для ручного запуска
     inputs:
       mode:
-        description: "all — полный сбор, times — только уточнить время событий"
+        description: "all — полный сбор, times — уточнить время, publish — опубликовать текущую базу"
         default: all
   push:
     branches: [main]
-    paths: ["site/**", "data/events.json", "scraper/**"]
+    paths: ["site/**", "data/events.json", "data/editor.yaml", "scraper/**", ".github/workflows/update.yml"]
 
 permissions:
+  actions: read
   contents: write
   pages: write
   id-token: write
@@ -34,7 +35,7 @@ jobs:
       - run: pip install -r requirements.txt
 
       - name: Собрать новые события (Telegram, сайты, RSS)
-        if: github.event_name != 'push'
+        if: github.event_name != 'push' && inputs.mode != 'publish'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -55,10 +56,33 @@ jobs:
           git config user.email "afisha-robot@users.noreply.github.com"
           git add -A data site
           git diff --cached --quiet || git commit -m "Обновление афиши $(date -u +%F)"
-          for i in 1 2 3; do git push && break; git pull --rebase -X theirs || { git rebase --abort; git pull --no-rebase -X ours; }; done
+          for attempt in 1 2 3; do
+            if git push; then exit 0; fi
+            if [ "$attempt" -eq 3 ]; then exit 1; fi
+            git pull --rebase -X theirs || { git rebase --abort; git pull --no-rebase -X ours; }
+          done
 
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
-        with: {path: site}
+        with:
+          path: site
+          name: github-pages-${{ github.run_attempt }}
+      - name: Дождаться доступности пакета GitHub Pages
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PAGES_ARTIFACT: github-pages-${{ github.run_attempt }}
+        run: |
+          for attempt in {1..12}; do
+            if count=$(gh api "repos/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID/artifacts?name=$PAGES_ARTIFACT" \
+              --jq '[.artifacts[] | select(.expired == false)] | length') && [ "$count" -eq 1 ]; then
+              exit 0
+            fi
+            if [ "$attempt" -lt 12 ]; then sleep 10; fi
+          done
+          echo "::error::Пакет github-pages недоступен после загрузки"
+          exit 1
+
       - id: deploy
         uses: actions/deploy-pages@v4
+        with:
+          artifact_name: github-pages-${{ github.run_attempt }}
