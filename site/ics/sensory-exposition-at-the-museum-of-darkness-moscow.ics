@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:sensory-exposition-at-the-museum-of-darkness-moscow@afisha-art
+DTSTAMP:20261125T004150Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:Сенсорная экспозиция в Музее Темно
+ ты
+LOCATION:Музей Темноты\, ул. Автозаводская\, 
+ д. 18\, Москва
+DESCRIPTION:Иммерсивное пространство\, предл
+ агающее познание мира и себя через обос
+ трение чувств в полной темноте.\n\nhttps://kuda
+ go.com/msk/place/proekt-progulka-v-temnote/
+URL:https://doublebasskakov.github.io/radar/#e=sensory-exposition-at-the-
+ museum-of-darkness-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Сенсорная экспозиция в Музее Тем
+ ноты
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

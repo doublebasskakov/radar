@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:open-studios-at-maxart-residence-perm@afisha-art
+DTSTAMP:20261125T004150Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:Открытые мастерские в арт-резиденц
+ ии MaxArt
+LOCATION:Резиденция MaxArt\, ул. Парковая\, 11\, Пе
+ рмь
+DESCRIPTION:Публичный вечер в резиденции с во
+ зможностью познакомиться с текущими ху
+ дожественными проектами резидентов и и
+ х рабочими пространствами.\n\nhttps://t.me/maxartp
+ erm/792
+URL:https://doublebasskakov.github.io/radar/#e=open-studios-at-maxart-res
+ idence-perm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытые мастерские в арт-резиде
+ нции MaxArt
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:exhibition-city-of-dropped-letters-kazan@afisha-art
+DTSTAMP:20261125T004150Z
+DTSTART:20261125T090000Z
+DTEND:20261125T110000Z
+SUMMARY:Выставка «Город выпавших букв»
+LOCATION:Галерея БИЗОН\, Казань
+DESCRIPTION:Экспозиция включает графическую 
+ работу «VIDEOGUMS»\, посвященную истокам вид
+ еоигр\, где зрителям предлагается пройт
+ и визуальный лабиринт из 42 зон.\nИван Язы
+ ков\nhttps://t.me/bizongallery/5323
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-city-of-dropped
+ -letters-kazan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выставка «Город выпавших букв»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

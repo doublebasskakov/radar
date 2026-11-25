@@ -9,7 +9,7 @@ X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:webinar-how-to-relocate-and-legalize-in-germany-for-citizens-online@a
  fisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART:20261125T140000Z
 DTEND:20261125T160000Z
 SUMMARY:Вебинар: Как переехать и легализова
@@ -31,7 +31,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:paolo-cirio-nudify-ai-online@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART;VALUE=DATE:20270401
 DTEND;VALUE=DATE:20270402
 SUMMARY:Последний день: Paolo Cirio: NUDIFY AI
@@ -51,11 +51,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:do-our-chimeras-most-resemble-us-online@afisha-art
-DTSTAMP:20261124T202104Z
-DTSTART;VALUE=DATE:20261124
-DTEND;VALUE=DATE:20261125
-SUMMARY:Открытие: Онлайн-выставка: Похожи л
- и на нас наши химеры?
+DTSTAMP:20261125T004150Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:Последний день: Онлайн-выставка: По
+ хожи ли на нас наши химеры?
 LOCATION:Онлайн-платформа\, Online\, Онлайн\, Онл
  айн
 DESCRIPTION:Виртуальная выставка\, размышляю
@@ -66,14 +66,14 @@ URL:https://doublebasskakov.github.io/radar/#e=do-our-chimeras-most-resem
  ble-us-online
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Открытие: Онлайн-выставка: Похожи
-  ли на нас наши химеры?
+DESCRIPTION:Последний день: Онлайн-выставка: 
+ Похожи ли на нас наши химеры?
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:online-exhibition-do-our-chimeras-most-resemble-us-online@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Последний день: Онлайн-выставка «Do o
@@ -89,6 +89,24 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Последний день: Онлайн-выставка «
  Do our chimeras most resemble us?»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:do-our-chimeras-most-resemble-us-online-2@afisha-art
+DTSTAMP:20261125T004150Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:Открытие: Do our chimeras most resemble us ?
+LOCATION:Centre Pompidou Online\, Онлайн\, Онлайн
+DESCRIPTION:Онлайн-выставка цифрового и совр
+ еменного искусства.\n\nhttps://www.centrepompidou.fr/en/
+ program/calendar/event/DuGAB4C
+URL:https://doublebasskakov.github.io/radar/#e=do-our-chimeras-most-resem
+ ble-us-online-2
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Do our chimeras most resemble us ?
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

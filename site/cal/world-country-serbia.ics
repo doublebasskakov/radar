@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:true-crime-podcast-live-in-belgrade-belgrade@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART:20261203T180000Z
 DTEND:20261203T200000Z
 SUMMARY:Подкаст «У холмов есть подкаст» в Б
@@ -30,7 +30,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-tradition-as-a-criterion-vojvodina-belgrade@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART:20261128T170000Z
 DTEND:20261128T190000Z
 SUMMARY:Выставка «Традиция как критерий — 
@@ -53,7 +53,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:feminist-creative-writing-seminar-by-monika-herceg-belgrade@afisha-ar
  t
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART:20261127T110000Z
 DTEND:20261127T130000Z
 SUMMARY:Семинар по феминистскому креативно
@@ -75,7 +75,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:book-presentation-by-maria-chavva-belgrade@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART:20261128T173000Z
 DTEND:20261128T193000Z
 SUMMARY:Презентация книги Марии Чавва «Все\
@@ -97,7 +97,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:katabasis-vr-film-by-ugo-arsac-belgrade@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
 SUMMARY:Последний день: Katabasis: VR-фильм Уго Ар
@@ -120,7 +120,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:andrzej-wajda-centenary-programme-belgrade@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:Открытие: Программа к столетию Андж
@@ -142,8 +142,78 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:sound-art-festival-zvuc-no-kolo-events-at-magacin-cultural-c-belgrade
+ @afisha-art
+DTSTAMP:20261125T004150Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261128
+SUMMARY:Фестиваль звукового искусства Zvučno 
+ Kolo: Мероприятия в Культурном центре Magacin
+LOCATION:Культурный центр Magacin\, Белград\, Се
+ рбия
+DESCRIPTION:Продолжение фестиваля звукового 
+ искусства Zvučno Kolo с перформансами и круг
+ лым столом о развитии местной сцены.\nКу
+ льтурный центр Magacin\nhttps://t.me/mapamagrus/17499
+URL:https://doublebasskakov.github.io/radar/#e=sound-art-festival-zvuc-no
+ -kolo-events-at-magacin-cultural-c-belgrade
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Фестиваль звукового искусства Zvu
+ čno Kolo: Мероприятия в Культурном центре Ma
+ gacin
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sound-art-festival-zvuc-no-kolo-listening-sessions-and-lectu-belgrade
+ @afisha-art
+DTSTAMP:20261125T004150Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:Фестиваль звукового искусства Zvučno 
+ Kolo: Совместные прослушивания и лекции
+LOCATION:Галерея Podroom Культурного центра Бе
+ лграда\, Белград\, Сербия
+DESCRIPTION:В рамках фестиваля звукового иск
+ усства Zvučno Kolo пройдут совместные просл
+ ушивания и лекции о звуке.\nКультурный ц
+ ентр Белграда\nhttps://t.me/mapamagrus/17499
+URL:https://doublebasskakov.github.io/radar/#e=sound-art-festival-zvuc-no
+ -kolo-listening-sessions-and-lectu-belgrade
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Фестиваль звукового искусства Zvu
+ čno Kolo: Совместные прослушивания и лекци
+ и
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:35th-international-ethnological-film-festival-belgrade@afisha-art
+DTSTAMP:20261125T004150Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261208
+SUMMARY:35-й Международный фестиваль этноло
+ гического кино
+LOCATION:Этнографический музей\, Белград\, С
+ ербия
+DESCRIPTION:Юбилейный смотр документального 
+ кино о жизни людей\, сообществ и традици
+ й в современном мире.\nЭтнографический м
+ узей\nhttps://t.me/mapamagrus/17499
+URL:https://doublebasskakov.github.io/radar/#e=35th-international-ethnolo
+ gical-film-festival-belgrade
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:35-й Международный фестиваль этно
+ логического кино
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:zvuc-no-kolo-program-belgrade@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261128
 SUMMARY:Программа Zvučno Kolo

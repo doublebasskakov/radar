@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:exhibition-photography-inventing-color-st-petersbur@afisha-art
+DTSTAMP:20261125T004150Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:Экспозиция «Фотография. Изобретая 
+ цвет»
+LOCATION:Музейно-выставочный центр «Росфот
+ о»\, ул. Большая Морская\, д. 35\, Санкт-Пете
+ рбург
+DESCRIPTION:История становления цветной фото
+ графии от научных экспериментов до приз
+ нания её самостоятельным искусством.\n\nh
+ ttps://kudago.com/spb/event/vyistavka-fotografiya-izobretaya-tsvet/
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-photography-inv
+ enting-color-st-petersbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Экспозиция «Фотография. Изобрета
+ я цвет»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

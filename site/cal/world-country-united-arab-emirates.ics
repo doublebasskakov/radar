@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:xxl-2026-sharjah@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART:20261129T163000Z
 DTEND:20261129T183000Z
 SUMMARY:XXL (2026)
@@ -28,7 +28,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:premiere-of-the-play-alone-in-the-universe-dubai@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART:20261204T160000Z
 DTEND:20261204T180000Z
 SUMMARY:Премьера спектакля «Одни во Вселен
@@ -51,8 +51,30 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:bolshoi-theatre-orchestra-concert-conducted-by-valery-gergie-dubai@af
+ isha-art
+DTSTAMP:20261125T004150Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:Концерт оркестра Большого театра п
+ од управлением Валерия Гергиева
+LOCATION:Dubai Opera\, Дубай\, ОАЭ
+DESCRIPTION:Историческое выступление легенд
+ арного оркестра Большого театра под рук
+ оводством маэстро Валерия Гергиева.\nОр
+ кестр Большого театра\nhttps://t.me/dubai_afisha/933
+URL:https://doublebasskakov.github.io/radar/#e=bolshoi-theatre-orchestra-
+ concert-conducted-by-valery-gergie-dubai
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт оркестра Большого театра
+  под управлением Валерия Гергиева
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:perform-sharjah-sharjah-2@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Последний день: Сезон перформансов 
@@ -74,7 +96,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:perform-sharjah-curated-performance-season-sharjah@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Последний день: Perform Sharjah: Курирован
@@ -97,7 +119,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:perform-sharjah-sharjah@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Последний день: Perform Sharjah
@@ -117,7 +139,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a-sea-for-borrowed-time-sharjah@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART;VALUE=DATE:20270704
 DTEND;VALUE=DATE:20270705
 SUMMARY:Последний день: Выставка «Море для 
@@ -140,7 +162,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a-sea-for-borrowed-time-exhibition-sharjah@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART;VALUE=DATE:20270704
 DTEND;VALUE=DATE:20270705
 SUMMARY:Последний день: Выставка «A Sea for Borrowe
@@ -163,7 +185,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:focal-point-2026-sharjah@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261214
 SUMMARY:Книжная ярмарка Focal Point 2026
@@ -182,7 +204,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sawt-al-sahel-concert-series-imarhan-and-nao-yoshioka-sharjah@afisha-
  art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261129
 SUMMARY:Концертная серия Sawt Al Sahel: Imarhan и Nao Yos
@@ -205,7 +227,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:live-concert-as-part-of-sawt-al-sahel-sharjah@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Концерт живой музыки в рамках Sawt Al Sa

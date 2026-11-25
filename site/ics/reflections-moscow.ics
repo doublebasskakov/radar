@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:reflections-moscow@afisha-art
+DTSTAMP:20261125T004150Z
+DTSTART;VALUE=DATE:20270129
+DTEND;VALUE=DATE:20270130
+SUMMARY:Последний день: Рефлекшенс
+LOCATION:Музей Москвы\, Зубовский б-р\, 2\, Мос
+ ква
+DESCRIPTION:Инсталляция\, превращающая восем
+ ь музыкальных сочинений композитора в з
+ алы с зеркалами\, водой\, светом и звуком.
+ \nНикола Мельников\nhttps://t.me/dancingalone/37148
+URL:https://doublebasskakov.github.io/radar/#e=reflections-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Рефлекшенс
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

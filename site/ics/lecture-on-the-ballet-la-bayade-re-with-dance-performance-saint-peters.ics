@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:lecture-on-the-ballet-la-bayade-re-with-dance-performance-saint-peter
+ s@afisha-art
+DTSTAMP:20261125T004150Z
+DTSTART:20261126T160000Z
+DTEND:20261126T180000Z
+SUMMARY:Лекция про балет «Баядерка» с танце
+ вальным сопровождением
+LOCATION:МИСП\, наб. канала Грибоедова\, 103\, С
+ анкт-Петербург
+DESCRIPTION:Образовательное мероприятие\, по
+ священное знаменитому балету\, дополнен
+ ное живым выступлением солистки театра.
+ \nТеатр Империал\nhttps://t.me/mispspb/4471
+URL:https://doublebasskakov.github.io/radar/#e=lecture-on-the-ballet-la-b
+ ayade-re-with-dance-performance-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекция про балет «Баядерка» с тан
+ цевальным сопровождением
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

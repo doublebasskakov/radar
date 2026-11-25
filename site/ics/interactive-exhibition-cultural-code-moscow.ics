@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:interactive-exhibition-cultural-code-moscow@afisha-art
+DTSTAMP:20261125T004150Z
+DTSTART:20261115T090000Z
+DTEND:20261115T110000Z
+SUMMARY:Открытие: Интерактивная выставка «
+ Культурный КОД»
+LOCATION:Центр современного искусства М'АРС
+ \, Москва
+DESCRIPTION:Пространство технологических эк
+ спериментов\, где посетители могут взаи
+ модействовать с объектами и наблюдать з
+ а творческими процессами.\n\nhttps://kudago.com/msk
+ /event/vyistavka-kulturnyij-kod-m-ars/
+URL:https://doublebasskakov.github.io/radar/#e=interactive-exhibition-cul
+ tural-code-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Интерактивная выставка
+  «Культурный КОД»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

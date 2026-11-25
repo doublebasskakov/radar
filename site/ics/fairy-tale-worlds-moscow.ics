@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:fairy-tale-worlds-moscow@afisha-art
+DTSTAMP:20261125T004150Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:Последний день: Сказочные миры
+LOCATION:Музей декоративного искусства\, Де
+ легатская ул.\, 3\, Москва
+DESCRIPTION:Новогодняя выставка\, где латексн
+ ые скульптуры и костюмы соседствуют со 
+ старинной керамикой и народной игрушко
+ й.\nСаша Фролова\nhttps://t.me/dancingalone/37148
+URL:https://doublebasskakov.github.io/radar/#e=fairy-tale-worlds-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Сказочные миры
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:lez-electricity-st-petersbur@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART:20261115T130000Z
 DTEND:20261115T150000Z
 SUMMARY:Открытие: ЛЭЗ: Электричество
@@ -30,7 +30,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:lecture-by-ekaterina-andreeva-konstantin-goncharov-and-aesth-st-peter
  sbur@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART:20261126T160000Z
 DTEND:20261126T180000Z
 SUMMARY:Лекция Екатерины Андреевой «Конста
@@ -55,28 +55,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:tenzor-and-klutch-at-f5-club-st-petersbur@afisha-art
-DTSTAMP:20261124T202104Z
-DTSTART:20261129T163000Z
-DTEND:20261129T183000Z
-SUMMARY:Tenzor и KLUtCh в клубе Ф5
-LOCATION:Ф5\, пр. Римского-Корсакова\, 39\, Санк
- т-Петербург
-DESCRIPTION:Вечер IDM\, эмбиента и чиптюна от ве
- теранов сцены с использованием видеоин
- сталляций PAINTER.\nTenzor\, KLUtCh\nhttps://t.me/f5noisegraph/1
- 300
-URL:https://doublebasskakov.github.io/radar/#e=tenzor-and-klutch-at-f5-cl
- ub-st-petersbur
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Tenzor и KLUtCh в клубе Ф5
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:igor-yakovenko-jobim-100-st-petersbur@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART:20261206T160000Z
 DTEND:20261206T180000Z
 SUMMARY:Игорь Яковенко: Жобим 100
@@ -96,8 +76,48 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:tenzor-and-klutch-at-f5-club-st-petersbur@afisha-art
+DTSTAMP:20261125T004150Z
+DTSTART:20261129T163000Z
+DTEND:20261129T183000Z
+SUMMARY:Tenzor и KLUtCh в клубе Ф5
+LOCATION:Ф5\, пр. Римского-Корсакова\, 39\, Санк
+ т-Петербург
+DESCRIPTION:Вечер IDM\, эмбиента и чиптюна от ве
+ теранов сцены с использованием видеоин
+ сталляций PAINTER.\nTenzor\, KLUtCh\nhttps://t.me/f5noisegraph/1
+ 300
+URL:https://doublebasskakov.github.io/radar/#e=tenzor-and-klutch-at-f5-cl
+ ub-st-petersbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tenzor и KLUtCh в клубе Ф5
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:local-gods-showcase-st-petersbur@afisha-art
+DTSTAMP:20261125T004150Z
+DTSTART:20261127T160000Z
+DTEND:20261127T180000Z
+SUMMARY:Local Gods Showcase
+LOCATION:Stay Gold Pizza Spot\, Санкт-Петербург
+DESCRIPTION:Шоукейс петербургского IDM-лейбла 
+ в честь выхода новой компиляции с лайва
+ ми резидентов и гостевым сетом от лейбл
+ а Местность.\nMan as Island\, Kopia\, tumani limana\, Paper Ste
+ ph\, Anderdog\, Kokokei\nhttps://clck.ru/3We4uh
+URL:https://doublebasskakov.github.io/radar/#e=local-gods-showcase-st-pet
+ ersbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Local Gods Showcase
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:lecture-the-way-of-chanel-men-hats-diamonds-st-petersbur@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART:20261125T150000Z
 DTEND:20261125T170000Z
 SUMMARY:Лекция «Путь Шанель. Мужчины\, шляпы
@@ -118,9 +138,30 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:jointed-doll-workshop-st-petersbur@afisha-art
+DTSTAMP:20261125T004150Z
+DTSTART:20261204T150000Z
+DTEND:20261204T170000Z
+SUMMARY:Мастер-класс «Шарнирная кукла»
+LOCATION:ЦВЗ «Манеж»\, Исаакиевская площадь\
+ , 1\, Санкт-Петербург
+DESCRIPTION:Творческий мастер-класс для взро
+ слых с нарушением слуха в рамках програ
+ ммы доступности к театральной выставке.
+ \nОльга Зайцева\, Екатерина Беспалова\nhttp
+ s://t.me/spbmanege/4068
+URL:https://doublebasskakov.github.io/radar/#e=jointed-doll-workshop-st-p
+ etersbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Мастер-класс «Шарнирная кукла»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:lecture-pink-dreams-and-ruby-lips-of-elsa-schiaparelli-st-petersbur@a
  fisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART:20261126T150000Z
 DTEND:20261126T170000Z
 SUMMARY:Лекция «Розовые сны и рубиновые губ
@@ -142,11 +183,12 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:performance-copypaste-st-petersbur@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART:20261128T173000Z
 DTEND:20261128T193000Z
 SUMMARY:Спектакль «Copypaste»
-LOCATION:Студия «Сдвиг»\, Санкт-Петербург
+LOCATION:Студия «Сдвиг»\, Гражданская ул.\, 13-
+ 15\, Санкт-Петербург
 DESCRIPTION:Петербургская премьера хореогра
  фической работы «Copypaste»\, исследующей те
  лесность и повторяемость.\nСтудия «Сдви
@@ -162,7 +204,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:lecture-marchesa-luisa-casati-a-woman-in-diamond-rain-st-petersbur@af
  isha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART:20261128T150000Z
 DTEND:20261128T170000Z
 SUMMARY:Лекция «Маркиза Луиза Казати. Женщи
@@ -184,7 +226,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:secrets-of-giuseppe-arcimboldo-st-petersbur@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART:20261114T090000Z
 DTEND:20261114T110000Z
 SUMMARY:Открытие: Секреты Джузеппе Арчимбо
@@ -207,7 +249,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:lecture-not-only-faberge-how-jewelry-st-petersburg-lived-st-petersbur
  @afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART:20261127T150000Z
 DTEND:20261127T170000Z
 SUMMARY:Лекция «Не только Фаберже: как жил ю
@@ -229,7 +271,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:lecture-a-medieval-hoard-jewelry-and-secrets-of-ancient-cult-st-peter
  sbur@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART:20261128T130000Z
 DTEND:20261128T150000Z
 SUMMARY:Лекция «Клад из Средневековья: укра
@@ -249,8 +291,56 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:virtual-gallery-project-vr-gallery-st-petersbur@afisha-art
+DTSTAMP:20261125T004150Z
+DTSTART:20261114T090000Z
+DTEND:20261114T110000Z
+SUMMARY:Открытие: Проект Виртуальная галер
+ ея (VR Gallery)
+LOCATION:Музей Artdynamics\, Севкабель Порт\, Коже
+ венная линия\, 40\, Санкт-Петербург
+DESCRIPTION:Погружение в искусство через тех
+ нологии виртуальной реальности и новые 
+ медиа.\nМузей Artdynamics\nhttps://www.afisha.ru/exhibition/pro
+ ekt-virtualnaya-galereya-vr-gallery-289394/
+URL:https://doublebasskakov.github.io/radar/#e=virtual-gallery-project-vr
+ -gallery-st-petersbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Проект Виртуальная гал
+ ерея (VR Gallery)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:exhibition-soundscape-st-petersburg-symphony-2026-st-petersbur@afisha
+ -art
+DTSTAMP:20261125T004150Z
+DTSTART:20261001T080000Z
+DTEND:20261001T100000Z
+SUMMARY:Открытие: Выставка «Звуковой ландш
+ афт. Санкт-Петербургская симфония. 2026»
+LOCATION:Галерея Марины Гисич\, Санкт-Петерб
+ ург
+DESCRIPTION:Художественное исследование зву
+ ковой среды города в условиях трансформ
+ ации индустриальных зон в общественные 
+ пространства.\nСергей Потеряев\nhttps://kudago.
+ com/spb/event/vyistavka-zvukovoj-landshaft-sankt-peterburgskaya-simfoniya
+ -2026/
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-soundscape-st-p
+ etersburg-symphony-2026-st-petersbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка «Звуковой лан
+ дшафт. Санкт-Петербургская симфония. 2026
+ »
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:concert-sonatas-by-american-composers-st-petersbur@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART:20261209T160000Z
 DTEND:20261209T180000Z
 SUMMARY:Концерт «Сонаты американских компо
@@ -274,8 +364,97 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:psychological-exhibitions-in-the-dark-st-petersbur@afisha-art
+DTSTAMP:20261125T004150Z
+DTSTART:20261125T090000Z
+DTEND:20261125T110000Z
+SUMMARY:Открытие: Психологические выставки
+  в темноте
+LOCATION:Галерея «ПУТЬ»\, Санкт-Петербург
+DESCRIPTION:Иммерсивные проекты в полной тем
+ ноте\, использующие аудиоподкасты для г
+ лубокого восприятия искусства и психол
+ огии через звук.\n\nhttps://kudago.com/spb/event/psihologich
+ eskie-vyistavki/
+URL:https://doublebasskakov.github.io/radar/#e=psychological-exhibitions-
+ in-the-dark-st-petersbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Психологические выстав
+ ки в темноте
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:multimedia-project-secrets-of-giuseppe-arcimboldo-st-petersbur@afisha
+ -art
+DTSTAMP:20261125T004150Z
+DTSTART:20261125T090000Z
+DTEND:20261125T110000Z
+SUMMARY:Открытие: Мультимедийный проект «С
+ екреты Джузеппе Арчимбольдо»
+LOCATION:Музей «АртДинамикс»\, Санкт-Петерб
+ ург
+DESCRIPTION:Иммерсивная экспозиция\, посвяще
+ нная визуальным иллюзиям и необычным по
+ ртретам мастера XVI века.\n\nhttps://kudago.com/spb/eve
+ nt/vyistavka-sekretyi-dzhuzeppe-archimboldo/
+URL:https://doublebasskakov.github.io/radar/#e=multimedia-project-secrets
+ -of-giuseppe-arcimboldo-st-petersbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Мультимедийный проект 
+ «Секреты Джузеппе Арчимбольдо»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:u-space-installation-the-cherry-orchard-st-petersbur@afisha-art
+DTSTAMP:20261125T004150Z
+DTSTART:20261125T080000Z
+DTEND:20261125T100000Z
+SUMMARY:Инсталляция U-space «Вишнёвый сад»
+LOCATION:Музей современного искусства Эрар
+ та\, 29-я линия В. О.\, д. 2\, Санкт-Петербург
+DESCRIPTION:Иммерсивное арт-пространство\, со
+ здающее атмосферу светлых мечтаний и бе
+ сконечности жизни.\n\nhttps://kudago.com/spb/event/proekt
+ -installyacii-u-space-vishnevyj-sad/
+URL:https://doublebasskakov.github.io/radar/#e=u-space-installation-the-c
+ herry-orchard-st-petersbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Инсталляция U-space «Вишнёвый сад»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:world-premiere-of-prokofiev-s-opera-distant-seas-st-petersbur@afisha-
+ art
+DTSTAMP:20261125T004150Z
+DTSTART;VALUE=DATE:20261222
+DTEND;VALUE=DATE:20261223
+SUMMARY:Мировая премьера оперы Прокофьева 
+ «Далёкие моря»
+LOCATION:Петербургский фестиваль имени Гор
+ ковенко\, Санкт-Петербург
+DESCRIPTION:Исполнение неоконченной оперы Се
+ ргея Прокофьева по мотивам комедии Влад
+ имира Дыховичного в рамках музыкальног
+ о фестиваля.\nПетербургский фестиваль и
+ мени Горковенко\nhttps://t.me/orpheusradio/51848
+URL:https://doublebasskakov.github.io/radar/#e=world-premiere-of-prokofie
+ v-s-opera-distant-seas-st-petersbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Мировая премьера оперы Прокофьев
+ а «Далёкие моря»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:graphic-arts-fair-obertone-st-petersbur@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261207
 SUMMARY:Ярмарка графики «Обертон»
@@ -293,7 +472,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:experimental-music-concert-ivory-tower-x-st-petersbur@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Концерт экспериментальной музыки «
@@ -318,7 +497,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:musicaeterna-symphonic-concert-schoenberg-and-strauss-st-petersbur@af
  isha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Симфонический концерт musicAeterna: Шёнб
@@ -344,7 +523,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:david-berezin-s-exhibition-scribbles-little-scribbles-st-petersbur@af
  isha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Последний день: Выставка Давида Бер
@@ -368,7 +547,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ilya-zharkov-botanical-meditations-st-petersbur@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Последний день: Выставка Ильи Жарко
@@ -390,7 +569,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-third-nature-st-petersbur@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART;VALUE=DATE:20270430
 DTEND;VALUE=DATE:20270501
 SUMMARY:Последний день: Выставка «Третья пр
@@ -412,7 +591,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:traugot-island-st-petersbur@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:Последний день: Остров Траугот
@@ -432,54 +611,56 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:lecture-by-julia-veksler-strauss-and-schoenberg-on-the-thres-st-peter
- sbur@afisha-art
-DTSTAMP:20261124T202104Z
-DTSTART;VALUE=DATE:20261124
-DTEND;VALUE=DATE:20261125
-SUMMARY:Лекция Юлии Векслер «Штраус и Шёнбе
- рг: на пороге ХХ столетия»
-LOCATION:Дом Радио\, Санкт-Петербург
-DESCRIPTION:Музыковедческая лекция о диалоге
-  традиций и авангарда в творчестве Риха
- рда Штрауса и Арнольда Шёнберга.\nЮлия В
- екслер\nhttps://t.me/domradio_online/2236
-URL:https://doublebasskakov.github.io/radar/#e=lecture-by-julia-veksler-s
- trauss-and-schoenberg-on-the-thres-st-petersbur
+UID:rsl-tour-of-the-scene-of-action-exhibition-st-petersbur@afisha-art
+DTSTAMP:20261125T004150Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:Экскурсия на РЖЯ по выставке «Сцена
+  действия»
+LOCATION:ЦВЗ «Манеж»\, Исаакиевская площадь\
+ , 1\, Санкт-Петербург
+DESCRIPTION:Инклюзивный тур на русском жесто
+ вом языке по выставке\, посвященной совр
+ еменному театральному искусству.\nОльга
+  Зайцева\, Екатерина Беспалова\nhttps://t.me/spb
+ manege/4068
+URL:https://doublebasskakov.github.io/radar/#e=rsl-tour-of-the-scene-of-a
+ ction-exhibition-st-petersbur
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Лекция Юлии Векслер «Штраус и Шён
- берг: на пороге ХХ столетия»
+DESCRIPTION:Экскурсия на РЖЯ по выставке «Сце
+ на действия»
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:lecture-by-yulia-veksler-arnold-schoenberg-and-richard-strau-st-peter
- sbur@afisha-art
-DTSTAMP:20261124T202104Z
-DTSTART;VALUE=DATE:20261124
-DTEND;VALUE=DATE:20261125
-SUMMARY:Лекция Юлии Векслер «Арнольд Шёнбе
- рг и Рихард Штраус»
-LOCATION:Дом Радио\, Итальянская ул.\, 27\, Санк
- т-Петербург
-DESCRIPTION:Лекция музыковеда в рамках просв
- етительской программы к концерту симфо
- нической музыки XX века.\nЮлия Векслер\nhttp
- s://t.me/musicaeternaTC/5014
-URL:https://doublebasskakov.github.io/radar/#e=lecture-by-yulia-veksler-a
- rnold-schoenberg-and-richard-strau-st-petersbur
+UID:tactile-tour-of-the-scene-of-action-exhibition-st-petersbur@afisha-ar
+ t
+DTSTAMP:20261125T004150Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:Тактильный тур по выставке «Сцена д
+ ействия»
+LOCATION:ЦВЗ «Манеж»\, Исаакиевская площадь\
+ , 1\, Санкт-Петербург
+DESCRIPTION:Специальный тур для незрячих и сл
+ абовидящих посетителей с использование
+ м тактильных моделей экспонатов.\nОльга 
+ Зайцева\, Екатерина Беспалова\nhttps://t.me/spbm
+ anege/4068
+URL:https://doublebasskakov.github.io/radar/#e=tactile-tour-of-the-scene-
+ of-action-exhibition-st-petersbur
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Лекция Юлии Векслер «Арнольд Шён
- берг и Рихард Штраус»
+DESCRIPTION:Тактильный тур по выставке «Сцен
+ а действия»
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:yoga-museum-audiovisual-journey-through-centuries-st-petersbur@afisha
  -art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Последний день: Музей йоги: аудиови
@@ -502,7 +683,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:where-the-flowers-are-st-petersbur@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:Последний день: Где цветы
@@ -522,7 +703,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:route-recalculated-map-of-non-coincidence-st-petersbur@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261129
 SUMMARY:Маршрут перестроен: карта не-совпад
@@ -543,30 +724,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:virtual-gallery-project-vr-gallery-st-petersbur@afisha-art
-DTSTAMP:20261124T202104Z
-DTSTART;VALUE=DATE:20261130
-DTEND;VALUE=DATE:20261201
-SUMMARY:Последний день: Проект Виртуальная 
- галерея (VR Gallery)
-LOCATION:Музей Artdynamics\, Севкабель Порт\, Коже
- венная линия\, 40\, Санкт-Петербург
-DESCRIPTION:Погружение в искусство через тех
- нологии виртуальной реальности и новые 
- медиа.\nМузей Artdynamics\nhttps://www.afisha.ru/exhibition/pro
- ekt-virtualnaya-galereya-vr-gallery-289394/
-URL:https://doublebasskakov.github.io/radar/#e=virtual-gallery-project-vr
- -gallery-st-petersbur
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Последний день: Проект Виртуальн
- ая галерея (VR Gallery)
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:maf-main-exposition-st-petersbur@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:Последний день: МАФ. Основная экспо
@@ -588,7 +747,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:badgrub-birthday-in-st-petersburg-st-petersbur@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:День рождения BADGRUB в Санкт-Петербур
@@ -603,6 +762,97 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:День рождения BADGRUB в Санкт-Петерб
  урге
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:reflection-on-the-little-prince-st-petersbur@afisha-art
+DTSTAMP:20261125T004150Z
+DTSTART;VALUE=DATE:20270114
+DTEND;VALUE=DATE:20270115
+SUMMARY:Последний день: Размышление о мален
+ ьком принце
+LOCATION:Дом книги\, зал Искусств\, Невский п
+ р.\, 28\, Санкт-Петербург
+DESCRIPTION:Выставка камерной скульптуры мас
+ тера Арсена Аветисяна\, переосмысляющая
+  визуальные коды города через сказочные
+  образы.\nАрсен Аветисян\nhttps://t.me/artrussiafair20
+ 23/2092
+URL:https://doublebasskakov.github.io/radar/#e=reflection-on-the-little-p
+ rince-st-petersbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Размышление о мал
+ еньком принце
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:exhibition-discovering-the-names-of-the-avant-garde-savely-s-st-peter
+ sbur@afisha-art
+DTSTAMP:20261125T004150Z
+DTSTART;VALUE=DATE:20270320
+DTEND;VALUE=DATE:20270321
+SUMMARY:Последний день: Выставка «Открывая 
+ имена авангарда: Савелий Шлейфер»
+LOCATION:Петропавловская крепость\, Санкт-П
+ етербург
+DESCRIPTION:Проект возвращает в историю иску
+ сства имя художника русского авангарда\
+ , долгое время остававшегося в тени.\nСав
+ елий Шлейфер\nhttps://kudago.com/spb/event/vyistavka-otkryivay
+ a-imena-avangarda-savelij-shlejfer/
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-discovering-the
+ -names-of-the-avant-garde-savely-s-st-petersbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Выставка «Открыв
+ ая имена авангарда: Савелий Шлейфер»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lecture-by-evgeny-slesar-on-hamlet-st-petersbur@afisha-art
+DTSTAMP:20261125T004150Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:Лекция Евгения Слесаря о спектакле 
+ «Гамлет»
+LOCATION:masters\, Санкт-Петербург
+DESCRIPTION:Театровед разберет сценический я
+ зык и современные интонации постановки 
+ Валерия Фокина в Александринском театр
+ е.\nЕвгений Слесарь\nhttps://t.me/levashovsky/2354
+URL:https://doublebasskakov.github.io/radar/#e=lecture-by-evgeny-slesar-o
+ n-hamlet-st-petersbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекция Евгения Слесаря о спектак
+ ле «Гамлет»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:exhibition-photography-inventing-color-st-petersbur@afisha-art
+DTSTAMP:20261125T004150Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:Экспозиция «Фотография. Изобретая 
+ цвет»
+LOCATION:Музейно-выставочный центр «Росфот
+ о»\, ул. Большая Морская\, д. 35\, Санкт-Пете
+ рбург
+DESCRIPTION:История становления цветной фото
+ графии от научных экспериментов до приз
+ нания её самостоятельным искусством.\n\nh
+ ttps://kudago.com/spb/event/vyistavka-fotografiya-izobretaya-tsvet/
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-photography-inv
+ enting-color-st-petersbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Экспозиция «Фотография. Изобрета
+ я цвет»
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

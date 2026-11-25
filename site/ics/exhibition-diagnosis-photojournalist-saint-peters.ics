@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:exhibition-diagnosis-photojournalist-saint-peters@afisha-art
+DTSTAMP:20261125T004150Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:Открытие: Выставка «Диагноз: фоторе
+ портер»
+LOCATION:РОСФОТО\, Большая Морская ул.\, 35\, Са
+ нкт-Петербург
+DESCRIPTION:Юбилейный проект Павла Маркина\, 
+ демонстрирующий кадры ленинградской жи
+ зни и портреты известных современников.
+ \nПавел Маркин\nhttps://t.me/museumrosphoto/4380
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-diagnosis-photo
+ journalist-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка «Диагноз: фото
+ репортер»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

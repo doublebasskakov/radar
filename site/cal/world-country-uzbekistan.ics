@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:meros-ensemble-concert-tashkent@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART:20261208T140000Z
 DTEND:20261208T160000Z
 SUMMARY:Концерт ансамбля «Meros»
@@ -30,7 +30,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cinderella-ballet-tashkent@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART:20261128T140000Z
 DTEND:20261128T160000Z
 SUMMARY:Балет «Золушка»
@@ -50,7 +50,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nodirabegim-play-tashkent@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART:20261125T130000Z
 DTEND:20261125T150000Z
 SUMMARY:Спектакль «Nodirabegim»
@@ -73,7 +73,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:rushana-alimova-solo-exhibition-how-rivers-become-clouds-tashkent@afi
  sha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART:20261118T130000Z
 DTEND:20261118T150000Z
 SUMMARY:Открытие: Персональная выставка Ру
@@ -98,7 +98,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tashkent-metro-tour-tashkent@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART:20261206T050000Z
 DTEND:20261206T070000Z
 SUMMARY:Экскурсия по Ташкентскому метропол
@@ -122,7 +122,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ballet-the-lady-of-the-camellias-tashkent@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART:20261204T140000Z
 DTEND:20261204T160000Z
 SUMMARY:Балет «Дама с камелиями»
@@ -145,7 +145,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:di-kurtzman-concert-tashkent@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART:20261127T140000Z
 DTEND:20261127T160000Z
 SUMMARY:Концерт Ди Курцмана
@@ -167,7 +167,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:evening-of-one-act-ballets-carmen-suite-and-scheherazade-tashkent@afi
  sha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART:20261205T140000Z
 DTEND:20261205T160000Z
 SUMMARY:Вечер одноактных балетов «Кармен-с
@@ -191,8 +191,32 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:lecture-tuskiizes-the-embroidered-universe-of-nomads-tashkent@afisha-
+ art
+DTSTAMP:20261125T004150Z
+DTSTART:20261128T130000Z
+DTEND:20261128T150000Z
+SUMMARY:Лекция «Тускиизы: вышитая вселенна
+ я кочевников»
+LOCATION:Human House Gallery\, Ташкент\, Ташкент\, Узбе
+ кистан
+DESCRIPTION:Исследователь Наталья Кривец рас
+ сказывает о традиционных казахских выш
+ итых панно\, символике узоров и культурн
+ ом наследии кочевников.\nНаталья Кривец\
+ nhttps://t.me/humanhouse_event/3326
+URL:https://doublebasskakov.github.io/radar/#e=lecture-tuskiizes-the-embr
+ oidered-universe-of-nomads-tashkent
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекция «Тускиизы: вышитая вселен
+ ная кочевников»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:dzhemma-fagradyan-music-evening-flashbacks-tashkent@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART:20261201T140000Z
 DTEND:20261201T160000Z
 SUMMARY:Музыкально-творческий вечер Джеммы
@@ -216,7 +240,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:play-eringizni-menga-soting-tashkent@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART:20261129T090000Z
 DTEND:20261129T110000Z
 SUMMARY:Спектакль «Eringizni menga soting»
@@ -239,7 +263,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:anniversary-concert-of-the-state-symphony-orchestra-choir-of-tashkent
  @afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART:20261127T140000Z
 DTEND:20261127T160000Z
 SUMMARY:Юбилейный концерт хора при Государ
@@ -266,7 +290,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:premiere-of-the-comedy-play-maysara-tashkent@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART:20261128T120000Z
 DTEND:20261128T140000Z
 SUMMARY:Премьера комедийного спектакля «Mays
@@ -289,7 +313,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:anvar-rakhmatullaev-anniversary-exhibition-tashkent@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART:20261125T120000Z
 DTEND:20261125T140000Z
 SUMMARY:Открытие: Юбилейная выставка Анвар
@@ -311,8 +335,27 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:malaysia-cultural-week-2026-tashkent@afisha-art
+DTSTAMP:20261125T004150Z
+DTSTART:20261127T050000Z
+DTEND:20261127T070000Z
+SUMMARY:Неделя культуры Малайзии 2026
+LOCATION:Tashkent City Mall\, Ташкент\, Узбекистан
+DESCRIPTION:Культурное мероприятие\, знакомя
+ щее посетителей с традициями\, искусств
+ ом\, танцами и гастрономией Малайзии.\nTash
+ kent City Mall\nhttps://t.me/tashkent_gogo/8216
+URL:https://doublebasskakov.github.io/radar/#e=malaysia-cultural-week-202
+ 6-tashkent
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Неделя культуры Малайзии 2026
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:play-do-not-part-with-your-loved-ones-tashkent@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART:20261127T140000Z
 DTEND:20261127T160000Z
 SUMMARY:Спектакль «С любимыми не расставай
@@ -337,17 +380,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:women-s-art-relax-lotuses-and-watercolor-tashkent@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART:20261126T113000Z
 DTEND:20261126T133000Z
 SUMMARY:Женский Арт-релакс: Лотосы и акваре
  ль
-LOCATION:Human House\, Ташкент\, Узбекистан
+LOCATION:Human House\, ул. Кичик Миробад\, 43\, Ташке
+ нт\, Узбекистан
 DESCRIPTION:Творческий мастер-класс по рисов
  анию акварелью в нестандартных техника
  х\, посвященный темам доверия миру и соз
- дания интерьерной картины.\n\nhttps://t.me/humanho
- use_event/3318
+ дания интерьерной картины.\nHuman House\nhttps://t
+ .me/humanhouse_event/3318
 URL:https://doublebasskakov.github.io/radar/#e=women-s-art-relax-lotuses-
  and-watercolor-tashkent
 BEGIN:VALARM
@@ -359,7 +403,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:info-event-vocabulary-work-in-daf-teaching-tashkent@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART:20261127T090000Z
 DTEND:20261127T110000Z
 SUMMARY:Инфомероприятие: Словарная работа 
@@ -383,7 +427,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:walking-tour-tashkent-forgotten-architecture-tashkent@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART:20261129T050000Z
 DTEND:20261129T070000Z
 SUMMARY:Пешеходная экскурсия «Ташкент: заб
@@ -404,30 +448,32 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:gong-meditation-relaxation-practice-in-cocoon-hammocks-tashkent@afish
- a-art
-DTSTAMP:20261124T202104Z
-DTSTART:20261124T153000Z
-DTEND:20261124T173000Z
-SUMMARY:Практика расслабления в гамаках-ко
- конах «Гонг медитация»
-LOCATION:Артха\, Ташкент\, Узбекистан
-DESCRIPTION:Медитативная звуковая практика с
-  гонгом в подвесных гамаках-коконах.\nСо
- га\nhttps://t.me/artha_uz/12616
-URL:https://doublebasskakov.github.io/radar/#e=gong-meditation-relaxation
- -practice-in-cocoon-hammocks-tashkent
+UID:goethe-language-club-contemporary-art-in-germany-tashkent@afisha-art
+DTSTAMP:20261125T004150Z
+DTSTART:20261125T120000Z
+DTEND:20261125T140000Z
+SUMMARY:Разговорный клуб Goethe: Современное и
+ скусство в Германии
+LOCATION:Goethe-Institut Usbekistan\, Ташкент\, Узбекиста
+ н
+DESCRIPTION:Еженедельный языковой клуб\, посв
+ ященный современным художникам и актуа
+ льным темам немецкой арт-сцены.\nГёте-Ин
+ ститут в Узбекистане\nhttps://t.me/goetheinstituttaschk
+ ent/6846
+URL:https://doublebasskakov.github.io/radar/#e=goethe-language-club-conte
+ mporary-art-in-germany-tashkent
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Практика расслабления в гамаках-
- коконах «Гонг медитация»
+DESCRIPTION:Разговорный клуб Goethe: Современно
+ е искусство в Германии
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tibetan-singing-bowls-relaxation-practice-in-cocoon-hammocks-tashkent
  @afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART:20261126T153000Z
 DTEND:20261126T173000Z
 SUMMARY:Практика расслабления в гамаках-ко
@@ -446,8 +492,30 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:performance-beyond-the-diagnosis-tashkent@afisha-art
+DTSTAMP:20261125T004150Z
+DTSTART:20261201T093000Z
+DTEND:20261201T113000Z
+SUMMARY:Спектакль «За пределами диагноза»
+LOCATION:Театр «Театр+»\, ул. Матбуотчилар\, 17
+ \, Ташкент\, Узбекистан
+DESCRIPTION:Социальный спектакль\, посвященн
+ ый реальным историям людей\, живущих с В
+ ИЧ\, и поднимающий темы стигмы и поддерж
+ ки.\nАнастасия Молдаханова\nhttps://t.me/kettuz/671
+ 0
+URL:https://doublebasskakov.github.io/radar/#e=performance-beyond-the-dia
+ gnosis-tashkent
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спектакль «За пределами диагноза
+ »
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:gingerbread-house-master-class-tashkent@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART:20261129T120000Z
 DTEND:20261129T140000Z
 SUMMARY:Мастер-класс «Имбирный домик»
@@ -466,7 +534,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:bukhara-biennial-2027@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART;VALUE=DATE:20270903
 DTEND;VALUE=DATE:20270904
 SUMMARY:Открытие: Bukhara Biennial 2027
@@ -489,7 +557,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:hikmah-mind-body-spirit-at-cca-tashkent-tashkent@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Хикма: разум\, тело и дух в CCA Tashkent
@@ -513,7 +581,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:conversation-with-philippe-starck-less-for-more-with-starck-tashkent@
  afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Встреча с Филиппом Старком: «Меньше
@@ -537,7 +605,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:public-talk-by-director-aisultan-seit-tashkent@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Публичное выступление режиссера Ай
@@ -561,7 +629,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:multimedia-exhibition-savitsky-s-diaries-old-and-new-tashkent@afisha-
  art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
 SUMMARY:Последний день: Мультимедийная выс
@@ -586,7 +654,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:hikmah-exhibition-at-cca-tashkent-tashkent@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:Последний день: Выставка Hikmah в CCA Tashk
@@ -608,7 +676,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:zurab-tsereteli-exhibition-larger-than-life-tashkent@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Последний день: Выставка Зураба Цер
@@ -630,7 +698,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:hikmah-exhibition-tashkent@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:Последний день: Выставка Hikmah
@@ -647,33 +715,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:public-talk-with-architect-jaeho-chong-and-dr-sara-raza-tashkent@afis
- ha-art
-DTSTAMP:20261124T202104Z
-DTSTART;VALUE=DATE:20261124
-DTEND;VALUE=DATE:20261125
-SUMMARY:Публичная беседа с архитектором Jaeho
-  Chong и доктором Сара Раза
-LOCATION:Центр современного искусства в Таш
- кенте (CCA Tashkent)\, проспект Амира Темура\, Т
- ашкент\, Узбекистан
-DESCRIPTION:Сеульский архитектор Jaeho Chong и гла
- вный куратор CCA Tashkent обсудят\, как архите
- ктура формирует культурную память и кол
- лективную идентичность.\nJaeho Chong\, Dr. Sara Raza
- \nhttps://t.me/cca_tashkent/2722
-URL:https://doublebasskakov.github.io/radar/#e=public-talk-with-architect
- -jaeho-chong-and-dr-sara-raza-tashkent
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Публичная беседа с архитектором J
- aeho Chong и доктором Сара Раза
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:hamnafas-inclusion-and-accessibility-festival-tashkent@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261130
 SUMMARY:Фестиваль инклюзии и доступности Ham
@@ -698,7 +741,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:savitsky-s-diaries-old-and-new-tashkent@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
 SUMMARY:Последний день: Дневники Савицкого.
@@ -722,7 +765,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:discussion-between-artist-kimsooja-and-dr-sara-raza-tashkent@afisha-a
  rt
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Дискуссия художника Kimsooja и доктора 
@@ -745,7 +788,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-the-adventures-of-nasreddin-tashkent@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Показ фильма «Похождения Насреддин
@@ -767,7 +810,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:who-are-we-exhibition-tashkent-2@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 SUMMARY:Последний день: Выставка «Кто мы ес
@@ -790,7 +833,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:zurab-tsereteli-more-than-life-tashkent@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Последний день: Зураб Церетели: Бол
@@ -813,7 +856,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-nasreddin-in-bukhara-tashkent@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Показ фильма «Насреддин в Бухаре»
@@ -834,7 +877,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:approved-by-society-exhibition-tashkent@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Последний день: Выставка «Одобрено 
@@ -854,8 +897,28 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:traditional-tuskiizes-exhibition-tashkent@afisha-art
+DTSTAMP:20261125T004150Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261202
+SUMMARY:Выставка традиционных тускиизов
+LOCATION:Human House Gallery\, Ташкент\, Ташкент\, Узбе
+ кистан
+DESCRIPTION:Экспозиция традиционных казахск
+ их вышитых панно в рамках совместного к
+ ультурного проекта.\nHuman House Gallery\nhttps://t.me/h
+ umanhouse_event/3326
+URL:https://doublebasskakov.github.io/radar/#e=traditional-tuskiizes-exhi
+ bition-tashkent
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выставка традиционных тускиизов
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:san-at-up-exhibition-project-tashkent@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Последний день: Выставочный проект 
@@ -877,7 +940,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:yalt-yult-exhibition-tashkent@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART;VALUE=DATE:20270206
 DTEND;VALUE=DATE:20270207
 SUMMARY:Последний день: Выставка «Ялт-Юлт»
@@ -897,7 +960,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:neuyat-festival-exhibition-at-ichkari-tashkent@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Последний день: Выставка фестиваля 
@@ -917,7 +980,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-yalt-yult-at-ichkari-museum-tashkent@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART;VALUE=DATE:20270206
 DTEND;VALUE=DATE:20270207
 SUMMARY:Последний день: Выставка «Ялт-Юлт» 
@@ -938,7 +1001,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:neuyat-festival-exhibition-tashkent@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Последний день: Выставка фестиваля 
@@ -957,9 +1020,29 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:concert-the-pearl-thread-tashkent@afisha-art
+DTSTAMP:20261125T004150Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:Концерт «Нить жемчуга»
+LOCATION:ГАБТ имени Алишера Навои\, Ташкент\,
+  Узбекистан
+DESCRIPTION:Вокально-сценическая композиция 
+ Людмилы Слоним на стихи японских поэтов
+ .\nЛюдмила Слоним\nhttps://www.afisha.uz/ru/concerts/2026/11
+ /13/zhemchug2
+URL:https://doublebasskakov.github.io/radar/#e=concert-the-pearl-thread-t
+ ashkent
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт «Нить жемчуга»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:san-at-up-exhibition-project-at-the-goethe-institut-tashkent@afisha-a
  rt
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Последний день: Выставочный проект 
@@ -981,7 +1064,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:interflows-exhibition-tashkent@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Последний день: Выставка Interflows
@@ -1000,7 +1083,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:interflows-exhibition-at-artepa-gallery-tashkent@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Последний день: Выставка Interflows в га
@@ -1021,7 +1104,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:seven-moons-at-ilkhom-theatre-tashkent@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Спектакль «Семь лун» в театре «Ильх
@@ -1042,7 +1125,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:kydyrbay-nazhimov-book-graphics-exhibition-tashkent@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Последний день: Выставка книжной гр

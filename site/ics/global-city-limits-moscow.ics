@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:global-city-limits-moscow@afisha-art
+DTSTAMP:20261125T004150Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:Открытие: Глобальный город. Пределы
+LOCATION:ММОМА\, Ермолаевский пер.\, 17\, Москв
+ а
+DESCRIPTION:Первая площадка масштабной выста
+ вки Школы дизайна НИУ ВШЭ\, исследующая 
+ границы и пределы современного мегапол
+ иса.\nСтуденты и преподаватели Школы диз
+ айна НИУ ВШЭ\nhttps://t.me/hseartgallery/4911
+URL:https://doublebasskakov.github.io/radar/#e=global-city-limits-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Глобальный город. Преде
+ лы
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

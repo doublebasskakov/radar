@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:exhibition-sound-hunters-moscow@afisha-art
+DTSTAMP:20261125T004150Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:Выставка «Охотники за звуком»
+LOCATION:Музей музыки\, Москва
+DESCRIPTION:Интересный проект об истории и эв
+ олюции технологий звукозаписи и звуков
+ ого оборудования.\nМузей музыки\nhttps://t.me/o
+ rpheusradio/51846
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-sound-hunters-m
+ oscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выставка «Охотники за звуком»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

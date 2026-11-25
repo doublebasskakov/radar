@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:concert-of-soundtracks-by-contemporary-russian-composers-saint-peters
+ @afisha-art
+DTSTAMP:20261125T004150Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:Концерт саундтреков современных ро
+ ссийских композиторов
+LOCATION:Дворец Белосельских-Белозерских\, 
+ Санкт-Петербург
+DESCRIPTION:Вечер современной киномузыки под
+  руководством президента Гильдии компо
+ зиторов Юрия Потеенко.\nЮрий Потеенко\nhtt
+ ps://t.me/orpheusradio/51844
+URL:https://doublebasskakov.github.io/radar/#e=concert-of-soundtracks-by-
+ contemporary-russian-composers-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт саундтреков современных 
+ российских композиторов
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

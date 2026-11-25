@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:screening-of-the-general-with-live-musical-accompaniment-saint-peters
+ @afisha-art
+DTSTAMP:20261125T004150Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:Показ фильма «Паровоз ‘Генерал’» 
+ с живым музыкальным сопровождением
+LOCATION:Санкт-Петербург
+DESCRIPTION:Спецпоказ немой комедии Бастера 
+ Китона в честь столетия картины с живым 
+ музыкальным аккомпанементом и лекцией 
+ перед сеансом.\nБастер Китон\nhttps://t.me/seance_
+ light/13753
+URL:https://doublebasskakov.github.io/radar/#e=screening-of-the-general-w
+ ith-live-musical-accompaniment-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильма «Паровоз ‘Генерал’
+ » с живым музыкальным сопровождением
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

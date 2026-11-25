@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:meeting-with-mikhail-meilakh-moscow@afisha-art
+DTSTAMP:20261125T004150Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Встреча с Михаилом Мейлахом
+LOCATION:Дом творчества Переделкино\, Перед
+ елкино\, ул. Погодина\, 4\, Москва
+DESCRIPTION:Известный филолог расскажет о та
+ йнах средневекового поэтического ремес
+ ла и традиции куртуазной любви в поэзии 
+ трубадуров.\nМихаил Мейлах\, Егор Зайцев\
+ nhttps://t.me/ile_theleme/1886
+URL:https://doublebasskakov.github.io/radar/#e=meeting-with-mikhail-meila
+ kh-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Встреча с Михаилом Мейлахом
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

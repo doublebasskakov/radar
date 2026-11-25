@@ -7,8 +7,36 @@ X-WR-CALNAME:Радар — Россия · city-ufa
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:conference-moscow-conservatory-and-the-formation-of-national-ufa@afis
+ ha-art
+DTSTAMP:20261125T004150Z
+DTSTART:20261128T050000Z
+DTEND:20261128T070000Z
+SUMMARY:Конференция «Московская консерват
+ ория и пути становления национальных шк
+ ол»
+LOCATION:Уфимский государственный институт
+  искусств имени Загира Исмагилова\, ул. Л
+ енина\, 14\, Уфа
+DESCRIPTION:Международная научная конференц
+ ия\, приуроченная к 160-летию МГК им. Чайко
+ вского.\nМузыковеды и ученые\nhttps://ufaart.ru/ne
+ ws/mezhdunarodnaya-nauchnaya-konferencziya-«moskovskaya-konservatoriya-i
+ -puti-stanovleniya-naczionalnyix-shkol-na-sovetskom-i-postsovetskom-prost
+ ranstve
+URL:https://doublebasskakov.github.io/radar/#e=conference-moscow-conserva
+ tory-and-the-formation-of-national-ufa
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Конференция «Московская консерв
+ атория и пути становления национальных 
+ школ»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:mise-en-abyme-exhibition-ufa@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Открытие: Выставка «Мизанабим»
@@ -24,6 +52,31 @@ URL:https://doublebasskakov.github.io/radar/#e=mise-en-abyme-exhibition-u
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Открытие: Выставка «Мизанабим»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2nd-round-of-the-ii-milyausha-murtazina-international-vocal--ufa@afis
+ ha-art
+DTSTAMP:20261125T004150Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:II тур II Международного конкурса вок
+ алистов на приз Миляуши Муртазиной
+LOCATION:Концертный зал им. Ф. Шаляпина\, ул. 
+ Ленина\, 14\, Уфа
+DESCRIPTION:Продолжение конкурсных прослуши
+ ваний молодых вокалистов в рамках прест
+ ижного международного смотра.\nМолодые 
+ оперные певцы\nhttps://ufaart.ru/news/poryadok-vyistupleniya-
+ uchastnikov-1-j-gruppyi-II-mezhdunarodnogo-konkursa-vokalistov-na-priz-mi
+ lyaushi-murtazinoj-na-25-11-2026-g
+URL:https://doublebasskakov.github.io/radar/#e=2nd-round-of-the-ii-milyau
+ sha-murtazina-international-vocal--ufa
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:II тур II Международного конкурса в
+ окалистов на приз Миляуши Муртазиной
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:concert-the-pearl-thread-tashkent@afisha-art
+DTSTAMP:20261125T004150Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:Концерт «Нить жемчуга»
+LOCATION:ГАБТ имени Алишера Навои\, Ташкент\,
+  Узбекистан
+DESCRIPTION:Вокально-сценическая композиция 
+ Людмилы Слоним на стихи японских поэтов
+ .\nЛюдмила Слоним\nhttps://www.afisha.uz/ru/concerts/2026/11
+ /13/zhemchug2
+URL:https://doublebasskakov.github.io/radar/#e=concert-the-pearl-thread-t
+ ashkent
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт «Нить жемчуга»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

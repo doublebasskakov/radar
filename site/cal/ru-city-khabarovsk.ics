@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:premiere-of-denis-khorov-s-piano-concerto-khabarovsk@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Премьера Концерта для фортепиано с 
@@ -25,6 +25,27 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Премьера Концерта для фортепиано
   с оркестром Дениса Хорова
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:vii-far-eastern-choir-assemblies-khabarovsk@afisha-art
+DTSTAMP:20261125T004150Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261130
+SUMMARY:VII Дальневосточные хоровые ассамбл
+ еи
+LOCATION:Хабаровск
+DESCRIPTION:Масштабный хоровой фестиваль\, со
+ бравший рекордное количество заявок от 
+ музыкальных коллективов.\nРазличные хор
+ овые коллективы\nhttps://t.me/orpheusradio/51842
+URL:https://doublebasskakov.github.io/radar/#e=vii-far-eastern-choir-asse
+ mblies-khabarovsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:VII Дальневосточные хоровые ассам
+ блеи
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

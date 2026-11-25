@@ -8,10 +8,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:expiration-date-unknown-suzdal@afisha-art
-DTSTAMP:20261124T202104Z
-DTSTART;VALUE=DATE:20261124
-DTEND;VALUE=DATE:20261125
-SUMMARY:Открытие: Срок хранения неизвестен
+DTSTAMP:20261125T004150Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:Последний день: Срок хранения неизв
+ естен
 LOCATION:МИРА Центр\, улица Кремлевская\, 5\, С
  уздаль
 DESCRIPTION:Персональная выставка Алексея Ст
@@ -21,8 +22,8 @@ URL:https://doublebasskakov.github.io/radar/#e=expiration-date-unknown-su
  zdal
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Открытие: Срок хранения неизвест
- ен
+DESCRIPTION:Последний день: Срок хранения неи
+ звестен
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

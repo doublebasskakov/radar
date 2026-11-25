@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:online-broadcast-shchusev-readings-2026-online@afisha-art
+DTSTAMP:20261125T004150Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Трансляция конференции «Щусевcкие 
+ чтения — 2026»
+LOCATION:Сайт Музея архитектуры\, Онлайн
+DESCRIPTION:Онлайн-трансляция ежегодной науч
+ ной конференции\, посвященной архитекту
+ рному наследию Александра Витберга.\nNone\
+ nhttps://t.me/archmuseum/7823
+URL:https://doublebasskakov.github.io/radar/#e=online-broadcast-shchusev-
+ readings-2026-online
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Трансляция конференции «Щусевcки
+ е чтения — 2026»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

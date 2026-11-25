@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:vi-glazunov-international-music-competition-petrozavodsk@afisha-art
+DTSTAMP:20261125T004150Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261207
+SUMMARY:VI Международный конкурс музыкально
+ го искусства имени А. К. Глазунова
+LOCATION:Петрозаводская государственная ко
+ нсерватория имени А. К. Глазунова\, ул. Ле
+ нинградская\, 16\, Петрозаводск
+DESCRIPTION:Крупный международный смотр моло
+ дых исполнителей в различных музыкальн
+ ых номинациях.\nМолодые исполнители\nhttps:
+ //glazunovcons.ru/concerts/afisha/30112026/
+URL:https://doublebasskakov.github.io/radar/#e=vi-glazunov-international-
+ music-competition-petrozavodsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:VI Международный конкурс музыкаль
+ ного искусства имени А. К. Глазунова
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

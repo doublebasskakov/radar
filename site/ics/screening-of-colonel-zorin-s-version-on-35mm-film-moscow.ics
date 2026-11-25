@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:screening-of-colonel-zorin-s-version-on-35mm-film-moscow@afisha-art
+DTSTAMP:20261125T004150Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:Показ фильма «Версия полковника Зо
+ рина» на 35-мм плёнке
+LOCATION:Кинотеатр «Иллюзион»\, Москва
+DESCRIPTION:Спецпоказ детективного фильма 1978
+  года с 35-мм аналогового носителя в Боль
+ шом зале кинотеатра «Иллюзион».\nПётр Ве
+ льяминов\nhttps://t.me/gosfilmofond/9040
+URL:https://doublebasskakov.github.io/radar/#e=screening-of-colonel-zorin
+ -s-version-on-35mm-film-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильма «Версия полковника 
+ Зорина» на 35-мм плёнке
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

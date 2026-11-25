@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:lecture-by-evgeny-slesar-on-hamlet-st-petersbur@afisha-art
+DTSTAMP:20261125T004150Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:Лекция Евгения Слесаря о спектакле 
+ «Гамлет»
+LOCATION:masters\, Санкт-Петербург
+DESCRIPTION:Театровед разберет сценический я
+ зык и современные интонации постановки 
+ Валерия Фокина в Александринском театр
+ е.\nЕвгений Слесарь\nhttps://t.me/levashovsky/2354
+URL:https://doublebasskakov.github.io/radar/#e=lecture-by-evgeny-slesar-o
+ n-hamlet-st-petersbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекция Евгения Слесаря о спектак
+ ле «Гамлет»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

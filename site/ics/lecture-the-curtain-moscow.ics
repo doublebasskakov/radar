@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:lecture-the-curtain-moscow@afisha-art
+DTSTAMP:20261125T004150Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:Лекция «Занавес»
+LOCATION:Пространство pl(art)form\, Москва
+DESCRIPTION:Встреча\, приуроченная к выходу к
+ ниги об истории театрального занавеса\, 
+ с лекцией Ирины Шумановой о театральном
+  наследии Льва Бакста.\nЛина Мнацаканова
+ \, Ирина Шуманова\nhttps://t.me/lobbymoscow/3744
+URL:https://doublebasskakov.github.io/radar/#e=lecture-the-curtain-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекция «Занавес»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

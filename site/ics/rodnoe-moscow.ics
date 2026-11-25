@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:rodnoe-moscow@afisha-art
+DTSTAMP:20261125T004150Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:Последний день: Родное
+LOCATION:Галерея Солянка\, Солянка\, 4/2\, Моск
+ ва
+DESCRIPTION:Более 80 авторов создали плакаты о
+  родных местах\, воспоминаниях и мечтах\,
+  исследуя выразительность современного
+  плаката.\nБолее 80 художников\nhttps://t.me/dancin
+ galone/37148
+URL:https://doublebasskakov.github.io/radar/#e=rodnoe-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Родное
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

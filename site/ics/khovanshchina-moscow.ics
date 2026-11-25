@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:khovanshchina-moscow@afisha-art
+DTSTAMP:20261125T004150Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:Хованщина
+LOCATION:Большой театр (Историческая сцена)\
+ , Театральная пл.\, 1\, Москва
+DESCRIPTION:Историческая музыкальная драма М
+ одеста Мусоргского о стрелецких бунтах 
+ и религиозном расколе в легендарной пос
+ тановке.\nМодест Мусоргский\, Большой те
+ атр\nhttps://t.me/bolshoi_theatre/11888
+URL:https://doublebasskakov.github.io/radar/#e=khovanshchina-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Хованщина
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

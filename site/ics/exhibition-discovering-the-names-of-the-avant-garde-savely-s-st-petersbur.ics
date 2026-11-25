@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:exhibition-discovering-the-names-of-the-avant-garde-savely-s-st-peter
+ sbur@afisha-art
+DTSTAMP:20261125T004150Z
+DTSTART;VALUE=DATE:20270320
+DTEND;VALUE=DATE:20270321
+SUMMARY:Последний день: Выставка «Открывая 
+ имена авангарда: Савелий Шлейфер»
+LOCATION:Петропавловская крепость\, Санкт-П
+ етербург
+DESCRIPTION:Проект возвращает в историю иску
+ сства имя художника русского авангарда\
+ , долгое время остававшегося в тени.\nСав
+ елий Шлейфер\nhttps://kudago.com/spb/event/vyistavka-otkryivay
+ a-imena-avangarda-savelij-shlejfer/
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-discovering-the
+ -names-of-the-avant-garde-savely-s-st-petersbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Выставка «Открыв
+ ая имена авангарда: Савелий Шлейфер»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

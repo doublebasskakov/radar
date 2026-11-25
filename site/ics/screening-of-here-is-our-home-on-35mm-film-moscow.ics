@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:screening-of-here-is-our-home-on-35mm-film-moscow@afisha-art
+DTSTAMP:20261125T004150Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:Показ фильма «Здесь наш дом» на 35-мм
+  плёнке
+LOCATION:Кинотеатр «Иллюзион»\, Москва
+DESCRIPTION:Бесплатный спецпоказ советского 
+ фильма 1973 года с 35-мм плёнки в рамках про
+ граммы к столетию актера Петра Вельямин
+ ова.\nПётр Вельяминов\nhttps://t.me/gosfilmofond/9040
+URL:https://doublebasskakov.github.io/radar/#e=screening-of-here-is-our-h
+ ome-on-35mm-film-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильма «Здесь наш дом» на 35-
+ мм плёнке
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

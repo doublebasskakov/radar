@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:exhibition-wide-gestures-moscow@afisha-art
+DTSTAMP:20261125T004150Z
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+SUMMARY:Выставка «Широкие жесты»
+LOCATION:Винзавод\, Москва
+DESCRIPTION:Итоговая выставка 14-го сезона Отк
+ рытых студий Винзавода\, представляющая
+  работы десяти молодых художников.\nЯна 
+ Арбузова\, Ольга Белякова\, Катя Косова и
+  другие\nhttps://t.me/cca_winzavod/10575
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-wide-gestures-m
+ oscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выставка «Широкие жесты»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

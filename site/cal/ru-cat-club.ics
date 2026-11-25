@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:winter-festival-planeta-k-30-saint-peters@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART:20261212T180000Z
 DTEND:20261212T200000Z
 SUMMARY:Зимний фестиваль «Планета К-30»
@@ -30,7 +30,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:system-108-dafes-awards-show-moscow@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART:20261126T160000Z
 DTEND:20261126T180000Z
 SUMMARY:System 108 × DAFES AWARDS SHOW
@@ -50,7 +50,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:resonance-party-at-rndm-club-moscow@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART:20261128T200000Z
 DTEND:20261128T220000Z
 SUMMARY:Вечеринка Resonance в клубе RNDM
@@ -71,7 +71,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:minimum-pop-showcase-moscow@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART:20261129T140000Z
 DTEND:20261129T160000Z
 SUMMARY:Шоукейс Minimum Pop
@@ -94,7 +94,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:minimum-pop-showcase-deck-and-others-moscow@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART:20261129T140000Z
 DTEND:20261129T160000Z
 SUMMARY:Шоукейс Minimum Pop: Deck и другие
@@ -115,7 +115,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:arcto-xx-belgrade@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART:20261219T220000Z
 DTEND:20261220T000000Z
 SUMMARY:ARCTO XX
@@ -134,7 +134,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:32-years-underground-experience-party-saint-peters@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART:20261128T200000Z
 DTEND:20261128T220000Z
 SUMMARY:Вечеринка 32 Years Underground Experience
@@ -154,7 +154,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:index-fest-2026-xandr-vasiliev-arkadius-padre-moscow@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART:20261128T180000Z
 DTEND:20261128T200000Z
 SUMMARY:INDEX FEST 2026: Xandr.Vasiliev & Arkadius\, Padre
@@ -173,7 +173,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:minimum-pop-showcase-da-smert-and-others-moscow@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART:20261129T140000Z
 DTEND:20261129T160000Z
 SUMMARY:Шоукейс Minimum Pop: «Да\, смерть!» и друг
@@ -199,8 +199,28 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:local-gods-showcase-st-petersbur@afisha-art
+DTSTAMP:20261125T004150Z
+DTSTART:20261127T160000Z
+DTEND:20261127T180000Z
+SUMMARY:Local Gods Showcase
+LOCATION:Stay Gold Pizza Spot\, Санкт-Петербург
+DESCRIPTION:Шоукейс петербургского IDM-лейбла 
+ в честь выхода новой компиляции с лайва
+ ми резидентов и гостевым сетом от лейбл
+ а Местность.\nMan as Island\, Kopia\, tumani limana\, Paper Ste
+ ph\, Anderdog\, Kokokei\nhttps://clck.ru/3We4uh
+URL:https://doublebasskakov.github.io/radar/#e=local-gods-showcase-st-pet
+ ersbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Local Gods Showcase
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:russian-grape-global-moscow@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART:20261128T190000Z
 DTEND:20261128T210000Z
 SUMMARY:RUSSIAN GRAPE GLOBAL
@@ -220,7 +240,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:new-year-party-loud-boyz-2027-loud-moscow@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART:20261231T170000Z
 DTEND:20261231T190000Z
 SUMMARY:Новогодняя вечеринка LOUD BOYZ 2027: ЛАУД
@@ -239,8 +259,28 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:rink-by-the-sea-party-saint-peters@afisha-art
+DTSTAMP:20261125T004150Z
+DTSTART:20261128T140000Z
+DTEND:20261128T160000Z
+SUMMARY:Вечеринка на Катке у моря
+LOCATION:Севкабель Порт\, Санкт-Петербург
+DESCRIPTION:Открытие зимнего сезона катания 
+ под DJ-сеты от магазина пластинок «Короб
+ ка винила» и команды Севкабель Порта.\nК
+ оробка винила\, команда Севкабель Порта\
+ nhttps://t.me/sevcableport/7071
+URL:https://doublebasskakov.github.io/radar/#e=rink-by-the-sea-party-sain
+ t-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Вечеринка на Катке у моря
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:crimewave-xxii-party-moscow@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART:20270123T190000Z
 DTEND:20270123T210000Z
 SUMMARY:Вечеринка CRIMEWAVE XXII
@@ -262,7 +302,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:echotypes-party-at-fa-bula-hq-moscow@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART:20261211T160000Z
 DTEND:20261211T180000Z
 SUMMARY:Вечеринка echotypes в fābula HQ
@@ -282,7 +322,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:imi-circle-party-moscow@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART:20261217T170000Z
 DTEND:20261217T190000Z
 SUMMARY:Вечеринка Круга ИМИ
@@ -301,7 +341,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sklad-no-3-birthday-afterparty-moscow@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART:20261128T204000Z
 DTEND:20261128T224000Z
 SUMMARY:Афтепати дня рождения «Склада №3»
@@ -323,8 +363,28 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:exit-povesa-moscow@afisha-art
+DTSTAMP:20261125T004150Z
+DTSTART:20261128T180000Z
+DTEND:20261128T200000Z
+SUMMARY:EXIT | POVESA
+LOCATION:POVESA\, Новая Басманная улица\, 19с1\, Мо
+ сква
+DESCRIPTION:Ночная электронная вечеринка с д
+ иджей-сетами резидентов клубов «Родня» 
+ и объединения Asylum.\nPOVESA\, Evilmeister\, Nikita Fliker\,
+  teepifay\, akmv\, Nikita Lomakin\, djshyrup\, CHAGO\nhttps://t.me/new_so
+ undwave/29010
+URL:https://doublebasskakov.github.io/radar/#e=exit-povesa-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:EXIT | POVESA
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:vampatmo-myatmo-party-moscow@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART:20261127T200000Z
 DTEND:20261127T220000Z
 SUMMARY:Вечеринка VAMPATMO | MYATMO
@@ -344,7 +404,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ue32-party-saint-peters@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART:20261128T200000Z
 DTEND:20261128T220000Z
 SUMMARY:Вечеринка UE32
@@ -363,7 +423,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:budda-tv-party-saint-peters@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART:20261127T200000Z
 DTEND:20261127T220000Z
 SUMMARY:Вечеринка БУДДА TV
@@ -384,7 +444,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:index-fest-2026-index-iii-resonance-party-moscow@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART:20261128T200000Z
 DTEND:20261128T220000Z
 SUMMARY:INDEX FEST 2026: INDEX III & Resonance Party
@@ -402,7 +462,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:party-ru-grape-gta-vi-moscow@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART:20261128T190000Z
 DTEND:20261128T210000Z
 SUMMARY:Вечеринка «RU.GRAPE: GTA VI»
@@ -421,7 +481,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:minimum-pop-showcase-moscow-2@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART:20261129T160000Z
 DTEND:20261129T180000Z
 SUMMARY:Minimum Pop Showcase
@@ -441,29 +501,49 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:concert-show-prichudilos-moscow@afisha-art
-DTSTAMP:20261124T202104Z
-DTSTART:20261124T160000Z
-DTEND:20261124T180000Z
-SUMMARY:Концертное шоу «Причудилось»
-LOCATION:16 Тонн Арбат\, ул. Смоленская\, Москв
- а
-DESCRIPTION:Развлекательная музыкальная про
- грамма от проектов тч-10 и мич на площадк
- е клуба «16 Тонн Арбат».\nтч-10\, мич\nhttps://t.me
- /gzsmsk/9991
-URL:https://doublebasskakov.github.io/radar/#e=concert-show-prichudilos-m
- oscow
+UID:radio-broadcast-resonance-moscow-w-antias-moscow@afisha-art
+DTSTAMP:20261125T004150Z
+DTSTART:20261125T140000Z
+DTEND:20261125T160000Z
+SUMMARY:Радиоэфир: resonance moscow w/ Antias
+LOCATION:Kultura Record Store\, Москва
+DESCRIPTION:Прямой эфир и диджей-сет от резид
+ ентов resonance moscow\, открытый для посещения 
+ в магазине Kultura.\nAntias\nhttps://kursradio.live
+URL:https://doublebasskakov.github.io/radar/#e=radio-broadcast-resonance-
+ moscow-w-antias-moscow
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Концертное шоу «Причудилось»
+DESCRIPTION:Радиоэфир: resonance moscow w/ Antias
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:concert-nikky-blazer-tysyacha-ogney-krakelyur-snack-roll-moscow@afish
+ a-art
+DTSTAMP:20261125T004150Z
+DTSTART:20261127T160000Z
+DTEND:20261127T180000Z
+SUMMARY:Концерт: Nikky Blazer\, Тысяча Огней\, Крак
+ елюр\, SNACK ROLL
+LOCATION:Peak Sound\, Москва
+DESCRIPTION:Шумный гаражный панк и рок-н-ролл
+ ьный хаос от четырех молодых независимы
+ х команд.\nNikky Blazer\, Тысяча Огней\, Кракелю
+ р\, SNACK ROLL\nhttps://t.me/gzsmsk/10088
+URL:https://doublebasskakov.github.io/radar/#e=concert-nikky-blazer-tysya
+ cha-ogney-krakelyur-snack-roll-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт: Nikky Blazer\, Тысяча Огней\, Кр
+ акелюр\, SNACK ROLL
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:system-108-party-police-in-paris-laud-roma-hard-shalze-moscow@afisha-
  art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Вечеринка System 108: Police in Paris\, Лауд\, Roma 
@@ -484,8 +564,30 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:grim-pillars-premiere-at-monasterio-season-2026-closing-moscow@afisha
+ -art
+DTSTAMP:20261125T004150Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:GRIM PILLARS: премьера на Monasterio Season 2026 Closin
+ g
+LOCATION:Monasterio\, Москва
+DESCRIPTION:Премьерное выступление нового пр
+ оекта\, объединяющего индастриал\, хардт
+ ехно и звуковые эксперименты в лайв-фор
+ мате.\nGRIM PILLARS (MRAC & SAYNASTYA)\nhttps://monasterio.moscow/
+URL:https://doublebasskakov.github.io/radar/#e=grim-pillars-premiere-at-m
+ onasterio-season-2026-closing-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GRIM PILLARS: премьера на Monasterio Season 2026 Cl
+ osing
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:kontur-festival-night-rave-koh-phangan@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART;VALUE=DATE:20270114
 DTEND;VALUE=DATE:20270116
 SUMMARY:Фестиваль KONTUR: Ночной рейв
@@ -505,7 +607,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:monasterio-season-2026-closing-moscow@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:Monasterio Season 2026 Closing
@@ -522,7 +624,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:darkness-rises-x-electronic-music-festival-saint-peters@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Фестиваль электронной музыки DARKNESS R
@@ -544,11 +646,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:badgrub-birthday-party-saint-peters@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Вечеринка «День рождения Badgrub»
-LOCATION:Санкт-Петербург
+LOCATION:Тень\, Санкт-Петербург
 DESCRIPTION:Праздничная электронная вечерин
  ка промо-команды в Санкт-Петербурге.\nSyste
  m 108\, Badgrub\nhttps://t.me/system108/14633
@@ -562,11 +664,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:asylum-4-years-night-moscow@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART;VALUE=DATE:20270105
 DTEND;VALUE=DATE:20270106
 SUMMARY:Вечеринка Asylum 4 Years
-LOCATION:DEX\, Москва
+LOCATION:DEX\, tba\, Москва
 DESCRIPTION:Ночная клубная вечеринка промо-г
  руппы Asylum на площадке DEX.\n\nhttps://t.me/asylummoscow
  /4688
@@ -580,7 +682,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:badgrub-birthday-party-moscow@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Вечеринка «День рождения Badgrub»
@@ -599,7 +701,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:badgrub-birthday-in-st-petersburg-st-petersbur@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:День рождения BADGRUB в Санкт-Петербур
@@ -620,7 +722,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:immersive-show-dissociation-of-personality-at-random-kultury-moscow@a
  fisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Иммерсивное шоу «рассТРОЕние лично

@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:student-concert-of-professor-a-dedyurin-class-petrozavodsk@afisha-art
+DTSTAMP:20261125T004150Z
+DTSTART:20261126T150000Z
+DTEND:20261126T170000Z
+SUMMARY:Концерт студентов класса профессор
+ а А. П. Дедюрина
+LOCATION:Петрозаводская государственная ко
+ нсерватория имени А. К. Глазунова\, ул. Ле
+ нинградская\, 16\, Петрозаводск
+DESCRIPTION:Академический концерт\, демонстр
+ ирующий мастерство молодых исполнителе
+ й классической музыки.\nСтуденты Петроз
+ аводской консерватории\nhttps://glazunovcons.ru/conc
+ erts/afisha/koncert-studentov-klassa-dedyurina-a-p2/
+URL:https://doublebasskakov.github.io/radar/#e=student-concert-of-profess
+ or-a-dedyurin-class-petrozavodsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт студентов класса професс
+ ора А. П. Дедюрина
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

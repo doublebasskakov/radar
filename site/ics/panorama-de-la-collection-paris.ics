@@ -5,10 +5,10 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:panorama-de-la-collection-paris@afisha-art
-DTSTAMP:20261124T202104Z
-DTSTART;VALUE=DATE:20261124
-DTEND;VALUE=DATE:20261125
-SUMMARY:Открытие: Панорама коллекции
+DTSTAMP:20261125T004150Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:Последний день: Панорама коллекции
 LOCATION:Maison Pompidou\, Paris\, Париж\, Франция
 DESCRIPTION:Цикл конференций и лекций\, посвя
  щенных ключевым произведениям из собра
@@ -18,7 +18,8 @@ URL:https://doublebasskakov.github.io/radar/#e=panorama-de-la-collection-
  paris
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Открытие: Панорама коллекции
+DESCRIPTION:Последний день: Панорама коллекц
+ ии
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

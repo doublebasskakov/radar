@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:screening-of-the-general-with-live-musical-accompaniment-moscow@afish
+ a-art
+DTSTAMP:20261125T004150Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:Показ фильма «Паровоз ‘Генерал’» 
+ с живым музыкальным сопровождением
+LOCATION:Москва
+DESCRIPTION:Юбилейный спецпоказ шедевра Баст
+ ера Китона к 100-летию фильма\, сопровожда
+ емый живой музыкой и вступительным слов
+ ом киноведов.\nБастер Китон\nhttps://t.me/seance_li
+ ght/13753
+URL:https://doublebasskakov.github.io/radar/#e=screening-of-the-general-w
+ ith-live-musical-accompaniment-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильма «Паровоз ‘Генерал’
+ » с живым музыкальным сопровождением
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

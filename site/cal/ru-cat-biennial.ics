@@ -7,8 +7,30 @@ X-WR-CALNAME:Радар — Россия · cat-biennial
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:rubaiya-qatar-quadrennial-of-contemporary-art-doha@afisha-art
+DTSTAMP:20261125T004150Z
+DTSTART;VALUE=DATE:20270430
+DTEND;VALUE=DATE:20270501
+SUMMARY:Последний день: Квадриеннале совре
+ менного искусства Rubaiya Qatar
+LOCATION:Доха
+DESCRIPTION:Первая в Катаре квадриеннале\, по
+ священная воде и Морскому шелковому пут
+ и\, с участием более 120 художников со все
+ го мира.\nСофия аль-Мария\, Лоуренс Абу Ха
+ мдан и другие\nhttps://t.me/artguide_com/9158
+URL:https://doublebasskakov.github.io/radar/#e=rubaiya-qatar-quadrennial-
+ of-contemporary-art-doha
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Квадриеннале сов
+ ременного искусства Rubaiya Qatar
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:xvi-international-photobiennale-2026-moscow@afisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Последний день: XVI международная «Ф
@@ -29,7 +51,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:international-photo-biennale-constellation-of-cultures-nizhny-novgo@a
  fisha-art
-DTSTAMP:20261124T202104Z
+DTSTAMP:20261125T004150Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Международная фотобиеннале «Созве
