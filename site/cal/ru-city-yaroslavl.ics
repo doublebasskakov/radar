@@ -7,72 +7,8 @@ X-WR-CALNAME:Радар — Россия · city-yaroslavl
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:gala-concert-of-the-regional-youth-art-festival-m-art-yaroslavl@afish
- a-art
-DTSTAMP:20261126T011333Z
-DTSTART:20261127T150000Z
-DTEND:20261127T170000Z
-SUMMARY:Гала-концерт областного фестиваля 
- молодёжного творчества «М.Арт»
-LOCATION:Арт-резиденция «Проспект 27»\, пр-т Л
- енина\, 27\, Ярославль
-DESCRIPTION:Итоговый концерт с участием лучш
- их молодых творческих коллективов реги
- она.\nАрт-резиденция «Проспект 27»\nhttps://t.m
- e/tavrida_art/22655
-URL:https://doublebasskakov.github.io/radar/#e=gala-concert-of-the-region
- al-youth-art-festival-m-art-yaroslavl
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Гала-концерт областного фестивал
- я молодёжного творчества «М.Арт»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:a-house-for-krasny-perekop-yaroslavl@afisha-art
-DTSTAMP:20261126T011333Z
-DTSTART:20261129T120000Z
-DTEND:20261129T140000Z
-SUMMARY:Дом для Красного Перекопа
-LOCATION:Дом культуры «Красный Перекоп»\, Яр
- ославль\, ул. Стачек\, 53\, Ярославль
-DESCRIPTION:Специальная экскурсия по зданию 
- Дома культуры\, раскрывающая историю со
- ветского быта и культурной политики на 
- фабрике.\nКоманда «Текстиль»\nhttps://txtl.space/
- events/dom-kultury
-URL:https://doublebasskakov.github.io/radar/#e=a-house-for-krasny-perekop
- -yaroslavl
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Дом для Красного Перекопа
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:a-park-in-the-factory-s-place-yaroslavl@afisha-art
-DTSTAMP:20261126T011333Z
-DTSTART:20261128T090000Z
-DTEND:20261128T110000Z
-SUMMARY:На месте фабрики парк
-LOCATION:Текстиль\, Ярославль\, ул. Семашко\, 8
- \, Ярославль
-DESCRIPTION:Звуковое исследование процесса т
- рансформации промышленной зоны в общес
- твенное парковое пространство.\nКоманда
-  «Текстиль»\nhttps://txtl.space/events/park
-URL:https://doublebasskakov.github.io/radar/#e=a-park-in-the-factory-s-pl
- ace-yaroslavl
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:На месте фабрики парк
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:undress-fears-dress-light-yaroslavl@afisha-art
-DTSTAMP:20261126T011333Z
+DTSTAMP:20261126T011708Z
 DTSTART;VALUE=DATE:20270430
 DTEND;VALUE=DATE:20270501
 SUMMARY:Последний день: Раздень страхи — од
@@ -96,7 +32,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:elena-pelevina-s-new-year-salon-yaroslavl@afisha-art
-DTSTAMP:20261126T011333Z
+DTSTAMP:20261126T011708Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
 SUMMARY:Новогодний салон Елены Пелевиной
@@ -112,28 +48,6 @@ URL:https://doublebasskakov.github.io/radar/#e=elena-pelevina-s-new-year-
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Новогодний салон Елены Пелевиной
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:robopark-interactive-exhibition-in-yaroslavl-yaroslavl@afisha-art
-DTSTAMP:20261126T011333Z
-DTSTART;VALUE=DATE:20261226
-DTEND;VALUE=DATE:20261227
-SUMMARY:Интерактивная выставка Робопарк в 
- Ярославле
-LOCATION:tba\, Ярославль
-DESCRIPTION:Масштабный проект\, объединяющий 
- современные достижения робототехники и
-  интерактивные медиа-инсталляции для вс
- ей семьи.\n\nhttps://www.afisha.ru/exhibition/interaktivnaya-vysta
- vka-robopark-v-yaroslavle-1016776/
-URL:https://doublebasskakov.github.io/radar/#e=robopark-interactive-exhib
- ition-in-yaroslavl-yaroslavl
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Интерактивная выставка Робопарк 
- в Ярославле
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
