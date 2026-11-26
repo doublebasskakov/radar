@@ -26,8 +26,8 @@ bot/bot.py            Telegram-бот (опрос каждые 15 минут, д
 
 1. **Pages.** Settings → Pages → Build and deployment → Source: **GitHub Actions**.
 2. **Ключ модели.** Settings → Secrets and variables → Actions → *New repository secret*:
-   `ANTHROPIC_API_KEY` = ключ с console.anthropic.com (расход — порядка 1–5 $ в месяц).
-   Модель по умолчанию — `claude-haiku-5-5`; можно сменить переменной `AFISHA_MODEL` (вкладка *Variables*).
+   `OPENROUTER_API_KEY` = ключ с https://openrouter.ai/settings/keys. Сборщик использует `particle-ai/particle-1:free`.
+   Проверка подключения: Actions → «Обновить афишу» → Run workflow → `api`.
 3. **Первый запуск.** Actions → «Обновить афишу» → *Run workflow*. Через пару минут сайт будет на
    `https://<ваш-логин>.github.io/<имя-репозитория>/`.
 
