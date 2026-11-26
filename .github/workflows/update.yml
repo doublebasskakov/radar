@@ -31,54 +31,15 @@ jobs:
     runs-on: ubuntu-latest
     permissions: {}
     steps:
-      - name: Проверить API моделей
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with: {python-version: "3.12", cache: pip}
+      - run: python -m pip install -r requirements.txt
+      - name: Проверить ответ Particle-1
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          AFISHA_MODEL: ${{ vars.AFISHA_MODEL || 'claude-haiku-5-5' }}
-          GEMINI_MODEL: ${{ vars.GEMINI_MODEL || 'gemini-flash-latest' }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: |
-          python3 - <<'PY'
-          import json
-          import os
-          import urllib.error
-          import urllib.request
-
-          prompt = "Reply with OK."
-          anthropic = os.getenv("AFISHA_MODEL")
-          gemini = os.getenv("GEMINI_MODEL").removeprefix("models/")
-          checks = [
-              ("Anthropic", anthropic, os.getenv("ANTHROPIC_API_KEY"),
-               "https://api.anthropic.com/v1/messages", "x-api-key",
-               {"anthropic-version": "2023-06-01"},
-               {"model": anthropic, "max_tokens": 32,
-                "messages": [{"role": "user", "content": prompt}]}, "content"),
-              ("Gemini", gemini, os.getenv("GEMINI_API_KEY"),
-               f"https://generativelanguage.googleapis.com/v1beta/models/{gemini}:generateContent", "x-goog-api-key",
-               {}, {"contents": [{"parts": [{"text": prompt}]}]}, "candidates"),
-          ]
-          ok = False
-          for provider, model, key, url, header, extra, body, result in checks:
-              if not key:
-                  print(f"{provider}: ключ не задан")
-                  continue
-              request = urllib.request.Request(url, json.dumps(body).encode(),
-                  {"Content-Type": "application/json", header: key, **extra})
-              try:
-                  with urllib.request.urlopen(request, timeout=25) as response:
-                      if not json.load(response).get(result):
-                          print(f"{provider} ({model}): пустой ответ")
-                          continue
-              except urllib.error.HTTPError as error:
-                  print(f"{provider} ({model}): HTTP {error.code}")
-                  continue
-              except (OSError, ValueError) as error:
-                  print(f"{provider} ({model}): {type(error).__name__}")
-                  continue
-              print(f"{provider} ({model}): HTTP 200, ответ получен")
-              ok = True
-          raise SystemExit(0 if ok else 1)
-          PY
+          python -c 'from scraper.robot import llm_text; llm_text("Reply with OK."); print("Particle-1 ответил через OpenRouter")'
 
   update:
     if: inputs.mode != 'api'
@@ -97,14 +58,11 @@ jobs:
       - name: Собрать новые события (Telegram, сайты, RSS)
         if: github.event_name != 'push' && inputs.mode != 'publish'
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           UPDATE_MODE: ${{ inputs.mode }}
           UPDATE_SCHEDULE: ${{ github.event.schedule }}
-          AFISHA_MODEL: ${{ vars.AFISHA_MODEL || 'claude-haiku-5-5' }}
         run: |
-          if [ -z "$GEMINI_API_KEY$ANTHROPIC_API_KEY" ]; then echo "Нет ключа модели (GEMINI_API_KEY) — пропускаю сбор"; exit 0; fi
+          if [ -z "$OPENROUTER_API_KEY" ]; then echo "::error::OPENROUTER_API_KEY не задан"; exit 1; fi
           if [ "$UPDATE_MODE" = "times" ] || [ "$UPDATE_SCHEDULE" = "43 9 * * *" ]; then python scraper/robot.py times; else python scraper/robot.py collect; fi
 
       - name: Собрать сайт и календари
