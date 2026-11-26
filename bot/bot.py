@@ -128,6 +128,48 @@ def digest_text(events, city):
     return "\n".join(parts)
 
 
+def date_reply(events, city, args):
+    example = f"/date {TODAY:%d.%m.%Y}"
+    if not args:
+        return f"Укажите дату, например {example}. Также можно: /date сегодня или /date завтра."
+    try:
+        value = args[0].lower()
+        if value in ("сегодня", "завтра"):
+            day = TODAY + dt.timedelta(days=int(value == "завтра"))
+        elif "." in value:
+            day = dt.datetime.strptime(value, "%d.%m.%Y").date()
+        else:
+            day = dt.date.fromisoformat(value)
+        page = int(args[1]) if len(args) == 2 else 1
+        if len(args) > 2 or page < 1:
+            raise ValueError
+    except ValueError:
+        return f"Проверьте дату и номер страницы. Пример: {example}"
+    city = city or ALL
+    region = "world" if city == WORLD else "ru"
+    rows = []
+    for event in events:
+        if (event.get("region") or "ru") != region or (city not in (ALL, WORLD) and event.get("city") != city):
+            continue
+        start = pdate(event.get("start"))
+        if start and not event.get("tba") and start <= day <= (pdate(event.get("end")) or start):
+            rows.append(event)
+    rows.sort(key=lambda e: (e.get("time") or "99:99", e.get("title") or ""))
+    head = f"<b>{day:%d.%m.%Y} · {html.escape(city)}</b>"
+    if not rows:
+        return head + "\nНа эту дату в опубликованной афише событий нет."
+    start = (page - 1) * 5
+    if start >= len(rows):
+        return head + "\nТакой страницы нет."
+    parts = [head]
+    for event in rows[start:start + 5]:
+        place = html.escape(event.get("city") or "") if city == ALL else ""
+        parts.append(line(event) + (" · " + place if place else ""))
+    if start + 5 < len(rows):
+        parts.append(f"Далее: <code>/date {day:%d.%m.%Y} {page + 1}</code>")
+    return "\n".join(parts)
+
+
 def cities(events, n=12):
     cnt = {}
     for e in events:
@@ -155,19 +197,22 @@ def poll():
     me = tg("getMe") or {}
     hook = tg("getWebhookInfo") or {}
     print(f"бот @{me.get('username')}: новых сообщений {len(upd)}, webhook={hook.get('url') or 'нет'}", flush=True)
-    if not upd and state.get("menu2"):
+    if not upd and state.get("menu_date_v1"):
         return
     subs, events, changed = load_subs(), load_events(), False
-    if SITE != "/" and not state.get("menu2"):
+    if SITE != "/" and not state.get("menu_date_v1"):
         # кнопка «Радар» слева от поля ввода — открывает мини-приложение
         if tg("setChatMenuButton", menu_button={"type": "web_app", "text": "Радар", "web_app": {"url": SITE + "?tg=1"}}):
-            state["menu2"] = True
-        tg("setMyCommands", commands=[{"command": "start", "description": "Открыть Радар"},
+            state["menu_date_v1"] = True
+        commands_ok = tg("setMyCommands", commands=[{"command": "start", "description": "Открыть Радар"},
                                       {"command": "city", "description": "Город для дайджеста"},
+                                      {"command": "date", "description": "Афиша по дате"},
                                       {"command": "week", "description": "Дайджест сейчас"},
                                       {"command": "sources", "description": "Голосовать за новые источники"},
                                       {"command": "suggest", "description": "Предложить событие или канал"},
                                       {"command": "stop", "description": "Отписаться"}])
+        if not commands_ok:
+            state.pop("menu_date_v1", None)
     for u in upd:
         state["offset"] = u["update_id"] + 1
         if "callback_query" in u:
@@ -207,6 +252,9 @@ def poll():
                 tg("sendMessage", chat_id=chat, text="Привет! Это «Радар» — афиша современного искусства: новая музыка, медиа-арт, выставки, кино, перформанс и театр.\n\nОткройте приложение — выберите город и листайте события:",
                    reply_markup={"inline_keyboard": [[{"text": "📍 Открыть Радар", "web_app": {"url": SITE + "?tg=1"}}]]})
             tg("sendMessage", chat_id=chat, text="А ещё могу присылать дайджест по понедельникам. Выберите город:", reply_markup=city_keyboard(events))
+        elif text.split() and text.split()[0].split("@")[0] == "/date":
+            reply = date_reply(events, subs.get(chat, {}).get("city"), text.split()[1:])
+            tg("sendMessage", chat_id=chat, parse_mode="HTML", disable_web_page_preview=True, text=reply)
         elif text.startswith("/week"):
             city = subs.get(chat, {}).get("city")
             tg("sendMessage", chat_id=chat, parse_mode="HTML", disable_web_page_preview=True, text=digest_text(events, city) if city else "Сначала выберите город: /city")
@@ -224,7 +272,7 @@ def poll():
                 changed = True
             tg("sendMessage", chat_id=chat, text="Вы отписались. Вернуться — /start")
         else:
-            tg("sendMessage", chat_id=chat, text="Команды: /city — выбрать город, /week — дайджест сейчас, /sources — голосовать за новые источники, /suggest — предложить событие, /stop — отписаться" + (f"\nСайт: {SITE}" if SITE != "/" else ""))
+            tg("sendMessage", chat_id=chat, text="Команды: /city — выбрать город, /date — афиша по дате, /week — дайджест сейчас, /sources — голосовать за новые источники, /suggest — предложить событие, /stop — отписаться" + (f"\nСайт: {SITE}" if SITE != "/" else ""))
     STATE.parent.mkdir(parents=True, exist_ok=True)
     STATE.write_text(json.dumps(state))
     if changed:
