@@ -7,30 +7,8 @@ X-WR-CALNAME:Радар — Россия · city-irkutsk
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:art-of-irkutsk-artists-irkutsk@afisha-art
-DTSTAMP:20261126T002145Z
-DTSTART;VALUE=DATE:20300430
-DTEND;VALUE=DATE:20300501
-SUMMARY:Последний день: Искусство иркутски
- х художников
-LOCATION:Галерея Виктора Бронштейна\, ул. Ок
- тябрьской Революции\, д. 3\, Иркутск
-DESCRIPTION:Постоянная экспозиция\, представ
- ляющая произведения сибирских авторов.\
- nNone\nhttps://www.vbgallery.ru/index/afisha/iskusstvo-irkutskih-hudozhni
- kov/
-URL:https://doublebasskakov.github.io/radar/#e=art-of-irkutsk-artists-irk
- utsk
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Последний день: Искусство иркутс
- ких художников
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:personal-exhibition-of-balzhinima-dorzhiev-irkutsk@afisha-art
-DTSTAMP:20261126T002145Z
+DTSTAMP:20261126T004407Z
 DTSTART:20261116T030000Z
 DTEND:20261116T050000Z
 SUMMARY:Открытие: Персональная выставка Ба
@@ -52,7 +30,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tea-with-milk-irkutsk@afisha-art
-DTSTAMP:20261126T002145Z
+DTSTAMP:20261126T004407Z
 DTSTART;VALUE=DATE:20270328
 DTEND;VALUE=DATE:20270329
 SUMMARY:Последний день: «Чай с молоком»
@@ -70,7 +48,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:behind-the-scenes-irkutsk@afisha-art
-DTSTAMP:20261126T002145Z
+DTSTAMP:20261126T004407Z
 DTSTART;VALUE=DATE:20270418
 DTEND;VALUE=DATE:20270419
 SUMMARY:Последний день: «За кулисами»
@@ -83,28 +61,6 @@ URL:https://doublebasskakov.github.io/radar/#e=behind-the-scenes-irkutsk
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Последний день: «За кулисами»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:the-art-of-dashi-namdakov-and-his-family-irkutsk@afisha-art
-DTSTAMP:20261126T002145Z
-DTSTART;VALUE=DATE:20280701
-DTEND;VALUE=DATE:20280702
-SUMMARY:Последний день: «Искусство Даши Нам
- дакова и его семьи»
-LOCATION:Галерея Виктора Бронштейна\, ул. Ок
- тябрьской Революции\, д. 3\, Иркутск
-DESCRIPTION:Постоянная экспозиция скульптур 
- и кукол работы известного мастера и чле
- нов его семьи.\nДаши Намдаков\nhttps://www.vbgalle
- ry.ru/index/afisha/dashi-namdakov/
-URL:https://doublebasskakov.github.io/radar/#e=the-art-of-dashi-namdakov-
- and-his-family-irkutsk
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Последний день: «Искусство Даши Н
- амдакова и его семьи»
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
