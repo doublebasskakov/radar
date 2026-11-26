@@ -17,7 +17,7 @@
       heroFav: "Избранное", heroFavSub: "События, отмеченные звёздочкой. Хранятся на этом устройстве.",
       picks: "Выбор редакции", picksSub: "главное в ближайший месяц",
       allPlaces: "Все города", allCountries: "Все страны", pickCity: "Выберите город", pickCountry: "Выберите страну", placeSearch: "Найти город…", morePlaces: "Ещё…", all: "Всё",
-      whenAll: "Всё время", whenToday: "Сегодня", whenWeekend: "Выходные", whenWeek: "7 дней", whenMonth: "Месяц",
+      chooseDate: "Выбрать дату", whenAll: "Всё время", whenToday: "Сегодня", whenWeekend: "Выходные", whenWeek: "7 дней", whenMonth: "Месяц",
       search: "Поиск: художник, площадка, композитор…",
       soon: "Ближайшие", live: "Уже идут", liveSub: "по дате закрытия", tba: "Дата уточняется", nothing: "Ничего не нашлось — попробуйте снять фильтры.",
       favEmpty: "Пока пусто. Нажмите ☆ на карточке, чтобы сохранить событие.",
@@ -45,7 +45,7 @@
       heroFav: "Saved", heroFavSub: "Events you starred. Stored on this device.",
       picks: "Editors' picks", picksSub: "the essentials for the coming month",
       allPlaces: "All cities", allCountries: "All countries", pickCity: "Choose a city", pickCountry: "Choose a country", placeSearch: "Find a city…", morePlaces: "More…", all: "All",
-      whenAll: "Any time", whenToday: "Today", whenWeekend: "Weekend", whenWeek: "7 days", whenMonth: "Month",
+      chooseDate: "Choose date", whenAll: "Any time", whenToday: "Today", whenWeekend: "Weekend", whenWeek: "7 days", whenMonth: "Month",
       search: "Search: artist, venue, composer…",
       soon: "Coming up", live: "On now", liveSub: "by closing date", tba: "Date TBA", nothing: "Nothing found — try clearing filters.",
       favEmpty: "Nothing yet. Tap ☆ on a card to save an event.",
@@ -73,7 +73,7 @@
   const S = {
     lang: store.get("lang", (navigator.language || "ru").startsWith("ru") ? "ru" : "en"),
     tab: "ru", place: { ru: store.get("place-ru", "all"), world: store.get("place-world", "all") },
-    cat: "all", when: "all", q: "", shown: 48,
+    cat: "all", when: "all", selectedDay: "", q: "", shown: 48,
     fav: new Set(store.get("fav", [])), data: null,
   };
   const t = (k) => T[S.lang][k] ?? T.ru[k] ?? k;
@@ -107,6 +107,7 @@
     if (S.when === "all") return true;
     if (e.tba) return false;
     let from = TODAY, to;
+    if (S.when === "date") from = to = D(S.selectedDay);
     const wd = new Date(TODAY).getUTCDay();
     if (S.when === "today") to = TODAY;
     if (S.when === "week") to = TODAY + 7 * DAY;
@@ -299,6 +300,32 @@
     if (!$("#findMore")) { const b = document.createElement("button"); b.id = "findMore"; b.className = "chip pick-place"; $("#q").after(b); b.onclick = openMySearch; }
     $("#findMore").textContent = t("findMore");
     chips($("#fWhen"), [["all", t("whenAll")], ["today", t("whenToday")], ["weekend", t("whenWeekend")], ["week", t("whenWeek")], ["month", t("whenMonth")]], S.when, (v) => { S.when = v; S.shown = 48; render(); });
+    const periods = $("#fWhen");
+    const calendar = document.createElement("button");
+    calendar.type = "button";
+    calendar.className = S.when === "date" ? "chip on" : "chip";
+    calendar.textContent = S.when === "date" ? fmtD(D(S.selectedDay), true) : t("chooseDate");
+    calendar.setAttribute("aria-label", t("chooseDate") + (S.when === "date" ? ": " + calendar.textContent : ""));
+    const day = document.createElement("input");
+    day.type = "date";
+    day.hidden = true;
+    day.setAttribute("aria-label", t("chooseDate"));
+    day.value = S.when === "date" ? S.selectedDay : "";
+    calendar.onclick = (event) => {
+      event.stopPropagation();
+      day.hidden = false;
+      day.focus();
+      try { day.showPicker(); } catch { /* The visible date field supports manual selection. */ }
+    };
+    day.onchange = () => {
+      if (!day.value || !day.validity.valid) return;
+      S.selectedDay = day.value;
+      S.when = "date";
+      S.shown = 48;
+      render();
+      $("#fWhen button:last-of-type").focus();
+    };
+    periods.append(calendar, day);
   }
 
   function openPlacePicker(places, labelOf) {
