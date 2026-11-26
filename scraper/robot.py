@@ -219,6 +219,10 @@ _ART_FOCUS = re.compile(
     r"полев\w* запис|свободн\w* импровизац|звуков\w* инсталляц|интерактивн\w* инсталляц|"
     r"нов\w* музык|современн\w* (?:искусств|композитор|хореограф|танец|танца|драматург)|"
     r"постдрамат|сайт[ -]?специфик|генеративн\w* (?:график|искусств|музык)|биеннале современн|"
+    r"(?:кинетическ|цифров|беспредметн)\w* искусств|современн\w* (?:визуальн\w* искусств|перформанс)|"
+    r"пространственн\w* звук|взаимосвяз\w* звука и?\s*пространства|взаимосвяз\w* звука, пространства|"
+    r"(?:светов|пространственн|иммерсивн|видео)\w* инсталляц|на стыке фотографии, живописи|"
+    r"kinetic art|digital art\b|spatial audio|sound installation|light installation|"
     r"conceptual|experimental|avant.garde|interdisciplinary|electroacoustic|acousmatic|"
     r"sound art|media art|video art|site.specific|contemporary (?:art\b|dance|composition)|"
     r"new music|field recording|live electronics|postdramatic|expanded cinema", re.I)
