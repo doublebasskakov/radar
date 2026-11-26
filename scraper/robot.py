@@ -825,7 +825,7 @@ def editor_rules():
     if not p.exists():
         return {"pin": [], "hide": [], "events": [], "reviewed": {}}
     cfg = yaml.safe_load(p.read_text(encoding="utf-8")) or {}
-    return {"reviewed": cfg.get("reviewed") or {}, "pin": cfg.get("pin") or [], "hide": cfg.get("hide") or [], "events": cfg.get("events") or []}
+    return {"corrections": cfg.get("corrections") or {}, "reviewed": cfg.get("reviewed") or {}, "pin": cfg.get("pin") or [], "hide": cfg.get("hide") or [], "events": cfg.get("events") or []}
 
 
 TRANSLATE_PROMPT = """Translate these contemporary-art event fields from Russian to natural English.
@@ -1014,6 +1014,14 @@ def build():
     base_url = os.environ.get("SITE_URL", "")
     live = []
     for ev in master:
+        patch = rules.get("corrections", {}).get(ev["id"], {})
+        if patch:
+            ev = {**ev, **patch}
+        country = (ev.get("country") or "").strip().casefold()
+        if country in {"россия", "russia", "рф"}:
+            ev = {**ev, "region": "ru"}
+        elif country not in {"", "онлайн", "online", "tba", "unknown", "неизвестно"}:
+            ev = {**ev, "region": "world"}
         reviewed_cat = rules["reviewed"].get(ev["id"])
         if ev["id"] in hidden or outside_scope(ev) or not current_event(ev):
             continue
