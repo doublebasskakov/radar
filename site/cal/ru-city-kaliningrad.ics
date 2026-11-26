@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:artist-talk-maritime-industrial-ours-kaliningrad@afisha-art
-DTSTAMP:20261126T102534Z
+DTSTAMP:20261126T102651Z
 DTSTART:20261126T160000Z
 DTEND:20261126T180000Z
 SUMMARY:Встреча с художниками выставки «Мо
@@ -34,7 +34,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-dot-and-line-kaliningrad@afisha-art
-DTSTAMP:20261126T102534Z
+DTSTAMP:20261126T102651Z
 DTSTART;VALUE=DATE:20270112
 DTEND;VALUE=DATE:20270113
 SUMMARY:Последний день: Выставка «Точка и л
@@ -56,7 +56,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-marine-industrial-ours-kaliningrad@afisha-art
-DTSTAMP:20261126T102534Z
+DTSTAMP:20261126T102651Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Последний день: Выставка «Морской. 
@@ -78,34 +78,8 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:contemporary-art-exhibition-marine-industrial-ours-kaliningrad@afisha
- -art
-DTSTAMP:20261126T102534Z
-DTSTART;VALUE=DATE:20261130
-DTEND;VALUE=DATE:20261201
-SUMMARY:Последний день: Выставка современн
- ого искусства «Морской. Индустриальный.
-  Наш»
-LOCATION:Колледж имени Рахманинова / выстав
- очная площадка\, Калининград
-DESCRIPTION:Экспериментальный проект предст
- авляет живопись\, видеоарт и генеративн
- ую анимацию\, осмысляющие индустриально
- е наследие региона.\nРазличные художник
- и\nhttps://t.me/koihm/6344
-URL:https://doublebasskakov.github.io/radar/#e=contemporary-art-exhibitio
- n-marine-industrial-ours-kaliningrad
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Последний день: Выставка совреме
- нного искусства «Морской. Индустриальн
- ый. Наш»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:kaliningrad-trash-museum-kaliningrad@afisha-art
-DTSTAMP:20261126T102534Z
+DTSTAMP:20261126T102651Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Музей мусора Калининграда
