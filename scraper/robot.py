@@ -8,6 +8,7 @@
 
 Работает в GitHub Actions по расписанию, Claude для работы не нужен.
 """
+import atexit
 import datetime as dt
 import hashlib
 import io
@@ -421,7 +422,50 @@ cat "music" — композиторская новая/академическа
 """
 
 
+CF_MODEL = "@cf/meta/llama-3.1-8b-instruct-fp8-fast"
+_cf_usage = {"requests": 0, "prompt_tokens": 0, "completion_tokens": 0, "unreported": 0}
+
+
+def report_cf_usage():
+    if not _cf_usage["requests"]:
+        return
+    neurons = (_cf_usage["prompt_tokens"] * 4119 + _cf_usage["completion_tokens"] * 34868) / 1_000_000
+    summary = f"Workers AI: {_cf_usage}, оценка по учтённым токенам: {neurons:.1f} Neurons"
+    log(summary)
+    if os.environ.get("GITHUB_STEP_SUMMARY"):
+        with open(os.environ["GITHUB_STEP_SUMMARY"], "a", encoding="utf-8") as output:
+            print(summary, file=output)
+
+
+atexit.register(report_cf_usage)
+
+
+def cloudflare_text(prompt):
+    account = os.environ.get("CLOUDFLARE_ACCOUNT_ID", "")
+    token = os.environ.get("CLOUDFLARE_API_TOKEN", "")
+    if not re.fullmatch(r"[a-fA-F0-9]{32}", account) or not token:
+        raise RuntimeError("Для Workers AI нужны CLOUDFLARE_ACCOUNT_ID и CLOUDFLARE_API_TOKEN")
+    _cf_usage["requests"] += 1
+    response = requests.post(f"https://api.cloudflare.com/client/v4/accounts/{account}/ai/run/{CF_MODEL}",
+        headers={"Authorization": f"Bearer {token}"}, timeout=(10, 150),
+        json={"messages": [{"role": "user", "content": prompt}], "max_tokens": 4096})
+    response.raise_for_status()
+    result = response.json()["result"]
+    usage = result.get("usage") or {}
+    if "prompt_tokens" in usage and "completion_tokens" in usage:
+        for field in ("prompt_tokens", "completion_tokens"):
+            _cf_usage[field] += usage[field]
+    else:
+        _cf_usage["unreported"] += 1
+    text = result.get("response")
+    if not text or not text.strip():
+        raise RuntimeError("Cloudflare вернул пустой ответ")
+    return text
+
+
 def llm_text(prompt):
+    if os.environ.get("RADAR_AI_PROVIDER") == "cloudflare":
+        return cloudflare_text(prompt)
     key = os.environ.get("OPENROUTER_API_KEY")
     if not key:
         raise RuntimeError("OPENROUTER_API_KEY не задан")
