@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:art-basel-miami-beach-contemporary-art-fair-miami@afisha-art
-DTSTAMP:20261126T010926Z
+DTSTAMP:20261126T011128Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261207
 SUMMARY:Ярмарка современного искусства Art Ba
@@ -25,47 +25,6 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Ярмарка современного искусства Ar
  t Basel Miami Beach
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:pool-party-installation-showcase-miami@afisha-art
-DTSTAMP:20261126T010926Z
-DTSTART;VALUE=DATE:20261205
-DTEND;VALUE=DATE:20261206
-SUMMARY:Показ инсталляции Pool Party
-LOCATION:Avant Gallery\, Lincoln Road\, Майами
-DESCRIPTION:Презентация готовой скульптуры е
- динорога из LEGO в окружении тематическог
- о пространства с элементами ботаническ
- ой коллекции.\nДеррик Адамс\, LEGO\nhttps://t.me/ba
- dgalllery/20323
-URL:https://doublebasskakov.github.io/radar/#e=pool-party-installation-sh
- owcase-miami
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Показ инсталляции Pool Party
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:pool-party-installation-creation-for-art-week-miami@afisha-art
-DTSTAMP:20261126T010926Z
-DTSTART;VALUE=DATE:20261203
-DTEND;VALUE=DATE:20261205
-SUMMARY:Создание инсталляции Pool Party в рамка
- х Art Week
-LOCATION:Avant Gallery\, Lincoln Road\, Майами
-DESCRIPTION:Все желающие смогут присоединить
- ся к сборке огромной скульптуры надувно
- го единорога из конструктора LEGO.\nДеррик
-  Адамс\, LEGO\nhttps://t.me/badgalllery/20323
-URL:https://doublebasskakov.github.io/radar/#e=pool-party-installation-cr
- eation-for-art-week-miami
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Создание инсталляции Pool Party в рам
- ках Art Week
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
