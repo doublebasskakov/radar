@@ -213,6 +213,24 @@ _DATE_YEAR = re.compile(
     r"jun\w*|jul\w*|aug\w*|sep\w*|oct\w*|nov\w*|dec\w*)(?:\.?\s+\d{1,2},?)?[\s,]+((?:19|20)\d{2}))\b", re.I)
 
 
+_ART_FOCUS = re.compile(
+    r"концептуальн|экспериментальн|авангард|междисциплинарн|трансдисциплинарн|"
+    r"мультимеди|медиа[ -]?(?:арт|искусств)|саунд[ -]?арт|видео[ -]?арт|электроакуст|акусмат|"
+    r"полев\w* запис|свободн\w* импровизац|звуков\w* инсталляц|интерактивн\w* инсталляц|"
+    r"нов\w* музык|современн\w* (?:искусств|композитор|хореограф|танец|танца|драматург)|"
+    r"постдрамат|сайт[ -]?специфик|генеративн\w* (?:график|искусств|музык)|биеннале современн|"
+    r"conceptual|experimental|avant.garde|interdisciplinary|electroacoustic|acousmatic|"
+    r"sound art|media art|video art|site.specific|contemporary (?:art\b|dance|composition)|"
+    r"new music|field recording|live electronics|postdramatic|expanded cinema", re.I)
+
+
+def fits_art_focus(ev):
+    if ev.get("_art_evidence"):
+        return True
+    text = " ".join(str(ev.get(k) or "") for k in ("title", "title_en", "desc", "desc_en", "who", "festival"))
+    return bool(_ART_FOCUS.search(text))
+
+
 def outside_scope(ev):
     titles = [str(ev.get(k) or "") for k in ("title", "title_en")]
     return any(_WELLNESS.search(title) or _MEDITATION_TITLE.search(title) for title in titles)
@@ -394,6 +412,7 @@ cat "music" — композиторская новая/академическа
 ОНЛАЙН-лекции и трансляции тоже включай: city "Онлайн", city_en "Online", country "Онлайн", venue — платформа, tz "Europe/Moscow".
 НЕ включай: многонедельные платные курсы, open call, конкурсы, вакансии, распродажи, классику без современной составляющей,
 детские шоу, мюзиклы, поп-, рок-, джаз-, блюз- и эстрадные концерты, премии и церемонии награждения, дискотеки с поп-музыкой и коммерческие вечеринки без DJ-лайнапа, новости без даты, события в прошлом. Исключай йогу, медитацию, ретриты, духовные и оздоровительные практики, даже если они проходят в музее или сопровождаются музыкой. Если это выставка, концерт или произведение искусства и «медитация» лишь образ в названии, включай. Любая активность без явной связи с заявленными видами искусства не подходит.
+ОБЯЗАТЕЛЬНЫЙ критерий для каждой рубрики: событие относится к концептуальному, новому или экспериментальному искусству. Найди в источнике конкретное художественное основание: новую авторскую работу, необычный метод, исследование формы или эксперимент со звуком, изображением, пространством или драматургией. Для лекций и показов это может быть предмет программы. Премьера, известная площадка, жанр, технологии или DJ-сет сами по себе недостаточны. Пропусти событие, если связь не подтверждается. В art_evidence приведи короткий дословный фрагмент источника с этим основанием.
 Регион по умолчанию: {region_hint}.
 
 Правила:
@@ -415,7 +434,7 @@ cat "music" — композиторская новая/академическа
 {{"title":"","title_en":"","who":"","cat":"music|soundart|club|media|gallery|performance|fair|theatre|biennial|cinema|lecture","press":false,
 "country":"Россия","country_en":"Russia","city":"","city_en":"","venue":"","address":"",
 "start":"YYYY-MM-DD","end":"YYYY-MM-DD|null","time":"HH:MM|null","tz":"IANA, напр. Europe/Moscow",
-"tba":false,"festival":null,"desc":"","desc_en":"","importance":3,"src_index":0,"url":null,"date_quote":""}}
+"tba":false,"festival":null,"desc":"","desc_en":"","importance":3,"src_index":0,"url":null,"date_quote":"","art_evidence":""}}
 
 Фрагменты:
 {chunks}
@@ -521,6 +540,13 @@ def extract(items, region, done=None):
             src = batch[i]
             if not source_confirms_date(ev, src):
                 continue
+            evidence = ev.pop("art_evidence", None)
+            if not isinstance(evidence, str):
+                continue
+            evidence = " ".join(evidence.split())
+            if not 8 <= len(evidence) <= 360 or evidence.casefold() not in " ".join(src["text"].split()).casefold():
+                continue
+            ev["_art_evidence"] = evidence
             ev.pop("date_quote", None)
             ev["src"] = ev.get("url") or src["url"]
             ev["srcName"] = src["srcName"]
@@ -558,7 +584,7 @@ def valid(ev):
     elif is_soundart(ev):
         ev["cat"] = "soundart"
     return bool(ev.get("cat") in CATS and ev.get("title") and ev.get("city")
-                and not outside_scope(ev) and current_event(ev))
+                and not outside_scope(ev) and fits_art_focus(ev) and current_event(ev))
 
 
 def merge(master, new):
@@ -570,6 +596,8 @@ def merge(master, new):
         k = (norm_title(ev["title"]), ev.get("city"), ev["start"][:4])
         old = index.get(k) or next((x for x in master if same_event(x, ev)), None)
         if old is not None:
+            if ev.get("_art_evidence"):
+                old["_art_evidence"] = ev["_art_evidence"]
             for f in ("end", "time", "address", "venue", "desc_en", "title_en", "who"):
                 if not old.get(f) and ev.get(f):
                     old[f] = ev[f]
@@ -982,7 +1010,7 @@ def build():
     base_url = os.environ.get("SITE_URL", "")
     live = []
     for ev in master:
-        if ev["id"] not in hidden and not outside_scope(ev) and current_event(ev):
+        if ev["id"] not in hidden and not outside_scope(ev) and fits_art_focus(ev) and current_event(ev):
             live.append(ev)
     if os.environ.get("AFISHA_IMAGES", "1") == "1":
         fetch_images(live)
