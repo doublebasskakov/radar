@@ -539,7 +539,20 @@ def extract(items, region, done=None):
     return events
 
 
+def normalize_stage_city(ev):
+    venue = " ".join(str(ev.get("venue") or "").casefold().split())
+    src = urllib.parse.urlsplit(ev.get("src") or "")
+    channel = (src.hostname in {"t.me", "telegram.me"} and
+               re.match(r"^/(?:s/)?newstageprojects(?:/|$)", src.path, re.I))
+    own_source = channel or ev.get("srcName", "") == "Telegram @newstageprojects" or src.hostname in {"alexandrinsky.ru", "www.alexandrinsky.ru"}
+    new_stage = re.search(r"новая сцена|new stage", venue)
+    if new_stage and (re.search(r"александрин|alexandrin|мейерхольд|meyerhold", venue) or
+                      (own_source and venue in {"новая сцена", "new stage"})):
+        ev.update(city="Санкт-Петербург", city_en="Saint Petersburg", region="ru", country="Россия", country_en="Russia", tz="Europe/Moscow")
+
+
 def valid(ev):
+    normalize_stage_city(ev)
     if ev.get("cat") == "music" and is_club(ev):
         ev["cat"] = "club"
     elif is_soundart(ev):
@@ -952,6 +965,8 @@ def build():
         if ev.get("id") and not any(x["id"] == ev["id"] for x in master):
             ev.setdefault("region", "ru"); ev.setdefault("importance", 4)
             master.append(ev)
+    for ev in master:
+        normalize_stage_city(ev)
     for ev in master:                      # клубная электроника и саунд-арт — свои рубрики
         if ev.get("cat") == "music" and is_club(ev):
             ev["cat"] = "club"
