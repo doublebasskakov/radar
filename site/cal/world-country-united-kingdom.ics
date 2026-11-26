@@ -7,8 +7,29 @@ X-WR-CALNAME:Радар — Мир / World · country-united-kingdom
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:christmas-at-kew-london@afisha-art
+DTSTAMP:20261126T013420Z
+DTSTART:20261113T162000Z
+DTEND:20261113T182000Z
+SUMMARY:Открытие: Зимняя световая прогулка 
+ в Kew Gardens
+LOCATION:Kew Gardens\, Kew\, Richmond\, London\, Лондон\, Вели
+ кобритания
+DESCRIPTION:Трехкилометровый световой маршр
+ ут по саду включает инсталляции\, светящ
+ ийся тоннель и иллюминацию оранжереи Palm
+  House.\nKew Gardens\nhttps://t.me/eventmeuk/2368
+URL:https://doublebasskakov.github.io/radar/#e=christmas-at-kew-london
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Зимняя световая прогул
+ ка в Kew Gardens
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:ryman-in-rhythm-tyroneisaacstuart-london@afisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART:20261211T191500Z
 DTEND:20261211T211500Z
 SUMMARY:Ryman in Rhythm: tyroneisaacstuart
@@ -29,7 +50,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ana-mendieta-london@afisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
 SUMMARY:Последний день: Ана Мендьета
@@ -48,7 +69,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:the-film-london-jarman-award-2026-london-2@afisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Открытие: Кинопремия Film London Jarman Award 2
@@ -72,7 +93,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:alechinsky-in-paperland-london@afisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART;VALUE=DATE:20270211
 DTEND;VALUE=DATE:20270212
 SUMMARY:Открытие: Пьер Алечинский: In Paperland
@@ -93,7 +114,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pierre-alechinsky-in-paperland-london@afisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART;VALUE=DATE:20270211
 DTEND;VALUE=DATE:20270212
 SUMMARY:Открытие: Пьер Алешинский: В бумажн
@@ -116,7 +137,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:the-film-london-jarman-award-2026-london@afisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Последний день: Премия Film London Jarman Awar
@@ -139,7 +160,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:through-holes-in-the-clouds-london@afisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART;VALUE=DATE:20270317
 DTEND;VALUE=DATE:20270318
 SUMMARY:Открытие: Through Holes in the Clouds
@@ -161,7 +182,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:through-holes-in-the-clouds-artists-and-the-postcolonial-ima-london@a
  fisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART;VALUE=DATE:20270317
 DTEND;VALUE=DATE:20270318
 SUMMARY:Открытие: Через дыры в облаках: Худо
@@ -184,7 +205,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cecilia-vicun-a-living-threads-london@afisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
 SUMMARY:Последний день: Сесилия Викунья: Жи
@@ -207,7 +228,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:common-place-st-ives@afisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Открытие: common-place
@@ -226,7 +247,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iman-datoo-common-place-st-ives@afisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Открытие: Iman Datoo: common-place

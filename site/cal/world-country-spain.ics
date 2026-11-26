@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:to-open-eyes-regards-d-artistes-ma-laga@afisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART:20261125T083000Z
 DTEND:20261125T103000Z
 SUMMARY:Открытие: To Open Eyes. Regards d'artistes
@@ -26,8 +26,30 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:la-menesunda-according-to-marta-minuji-n-madrid@afisha-art
+DTSTAMP:20261126T013420Z
+DTSTART;VALUE=DATE:20270308
+DTEND;VALUE=DATE:20270309
+SUMMARY:Последний день: «Ла Менесунда» по М
+ арте Минухин
+LOCATION:Центр искусств королевы Софии\, C/Rond
+ a de Atocha\, 2\, Мадрид\, Испания
+DESCRIPTION:Легендарная иммерсивная инсталл
+ яция-лабиринт аргентинской художницы М
+ арты Минухин.\nМарта Минухин\nhttps://www.museorei
+ nasofia.es/en/exhibition/la-menesunda-according-marta-minujin
+URL:https://doublebasskakov.github.io/radar/#e=la-menesunda-according-to-
+ marta-minuji-n-madrid
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: «Ла Менесунда» по
+  Марте Минухин
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:immersive-dance-performance-l-ombre-madrid-2@afisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
 SUMMARY:Последний день: Иммерсивный танцев
@@ -49,7 +71,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cecilia-bengolea-shelly-belly-inna-real-life-madrid@afisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART;VALUE=DATE:20270217
 DTEND;VALUE=DATE:20270218
 SUMMARY:Открытие: Сесилия Бенголеа. Шелли Б

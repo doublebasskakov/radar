@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:ceam-konf-kak-eto-sdelano@afisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART:20261125T130000Z
 DTEND:20261125T150000Z
 SUMMARY:Конференция ЦЭАМ «Как это сделано?»
@@ -30,8 +30,53 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:artist-talk-by-olivier-ratsi-immersive-territories-moscow@afisha-art
+DTSTAMP:20261126T013420Z
+DTSTART:20261130T160000Z
+DTEND:20261130T180000Z
+SUMMARY:Артист-ток Оливье Ратси «Иммерсивн
+ ые территории»
+LOCATION:Французский институт\, Москва
+DESCRIPTION:Встреча с французским художником
+  Оливье Ратси\, исследующим пространств
+ о\, свет и звук через масштабные иммерси
+ вные инсталляции.\nОливье Ратси\nhttps://t.me/M
+ ODALFIELD/103
+URL:https://doublebasskakov.github.io/radar/#e=artist-talk-by-olivier-rat
+ si-immersive-territories-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Артист-ток Оливье Ратси «Иммерси
+ вные территории»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:artist-talk-by-olivier-ratsi-immersive-territories-saint-peters@afish
+ a-art
+DTSTAMP:20261126T013420Z
+DTSTART:20261130T160000Z
+DTEND:20261130T180000Z
+SUMMARY:Артист-ток Оливье Ратси «Иммерсивн
+ ые территории»
+LOCATION:Французский институт в России\, Нев
+ ский проспект\, 12\, Санкт-Петербург
+DESCRIPTION:Встреча с визуальным художником\,
+  исследующим пространство\, свет и звук 
+ через иммерсивные инсталляции.\nОливье 
+ Ратси\nhttps://institutfrancais.timepad.ru/event/4308929/
+URL:https://doublebasskakov.github.io/radar/#e=artist-talk-by-olivier-rat
+ si-immersive-territories-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Артист-ток Оливье Ратси «Иммерси
+ вные территории»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:artist-talk-maritime-industrial-ours-kaliningrad@afisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART:20261126T160000Z
 DTEND:20261126T180000Z
 SUMMARY:Встреча с художниками выставки «Мо
@@ -58,7 +103,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:guided-tour-and-workshop-ash-and-pixel-by-elena-demi-dova-moscow@afis
  ha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART:20261127T150000Z
 DTEND:20261127T170000Z
 SUMMARY:Авторская экскурсия и мастер-класс 
@@ -82,7 +127,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:public-talk-how-contemporary-art-can-be-independent-yekaterinbur@afis
  ha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART:20261127T120000Z
 DTEND:20261127T140000Z
 SUMMARY:Публичный разговор «Как современно
@@ -106,7 +151,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:9th-international-conference-jewish-field-new-discoveries-ex-moscow@a
  fisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART:20261124T080000Z
 DTEND:20261124T100000Z
 SUMMARY:IX международная конференция «Еврей
@@ -131,7 +176,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:presentation-learning-review-publication-ostbay-and-sound-me-moscow@a
  fisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART:20261126T100000Z
 DTEND:20261126T120000Z
 SUMMARY:Презентация «Обучение — ревью — пу
@@ -157,7 +202,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:lecture-music-without-borders-how-technologies-connect-diffe-voronezh
  @afisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART:20261128T160000Z
 DTEND:20261128T180000Z
 SUMMARY:Лекция «Музыка без границ: как техн
@@ -182,7 +227,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:lecture-by-violetta-grishina-impossible-white-artist-notes-samara@afi
  sha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART:20261127T150000Z
 DTEND:20261127T170000Z
 SUMMARY:Лекция Виолетты Гришиной «Невозмож
@@ -205,7 +250,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:lecture-algorithms-and-the-contemporary-visual-environment-vladimir@a
  fisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART:20261128T140000Z
 DTEND:20261128T160000Z
 SUMMARY:Лекция «Алгоритмы и современная ви
@@ -226,7 +271,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:breaking-down-constructivism-photography-and-cinema-moscow@afisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART:20261224T163000Z
 DTEND:20261224T183000Z
 SUMMARY:Разбираем конструктивизм: фотограф
@@ -248,7 +293,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lecture-concert-the-gaze-of-our-hearing-japan-moscow@afisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Лекция-концерт «Взгляд нашего слух
@@ -270,8 +315,31 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:lecture-hall-gericault-zaryanko-infante-novosibirsk@afisha-art
+DTSTAMP:20261126T013420Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Лекторий: Жерико\, Зарянко\, Инфанте
+LOCATION:Новосибирский художественный музе
+ й\, Новосибирск
+DESCRIPTION:Искусствоведческая лекция\, объе
+ диняющая мастеров разных веков и заверш
+ ающаяся анализом творчества классика к
+ инетизма Франсиско Инфанте.\nФрансиско 
+ Инфанте-Арана\, Теодор Жерико\, Сергей За
+ рянко\nhttps://www.afisha.ru/novosibirsk/schedule_exhibition/
+URL:https://doublebasskakov.github.io/radar/#e=lecture-hall-gericault-zar
+ yanko-infante-novosibirsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекторий: Жерико\, Зарянко\, Инфан
+ те
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:lecture-rodchenko-sargent-terborch-novosibirsk@afisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART;VALUE=DATE:20270213
 DTEND;VALUE=DATE:20270214
 SUMMARY:Лекторий: Родченко\, Сарджент\, Терб
@@ -294,7 +362,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:podcast-contemporary-art-instructions-for-use-online@afisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:Последний день: Подкаст «Современн
@@ -317,7 +385,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lym-lab-open-workshop-on-touchdesigner-moscow@afisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Открытый воркшоп LYM Lab по TouchDesigner
@@ -338,7 +406,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:night-excursion-at-the-krasnoyarsk-museum-center-krasnoyarsk@afisha-a
  rt
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:Последний день: Ночная экскурсия по
@@ -362,7 +430,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:lecture-by-vita-khlopova-love-as-a-little-death-or-the-theme-saint-pe
  ters@afisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Лекция Виты Хлоповой «Любовь как ма
@@ -385,7 +453,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:the-language-of-music-melody-moscow@afisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART;VALUE=DATE:20270321
 DTEND;VALUE=DATE:20270322
 SUMMARY:Язык музыки. Мелодия

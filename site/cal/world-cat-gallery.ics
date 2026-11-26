@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:prix-marcel-duchamp-2026-paris@afisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART:20261119T090000Z
 DTEND:20261119T110000Z
 SUMMARY:Открытие: Премия Марселя Дюшана 2026
@@ -29,7 +29,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:kvareli-foundation-opening@afisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART:20261102T060000Z
 DTEND:20261102T080000Z
 SUMMARY:Открытие: Georgian Contemporary Art: Origins and Continui
@@ -52,7 +52,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:muse-e-sentimental-lyon@afisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART:20261124T090000Z
 DTEND:20261124T110000Z
 SUMMARY:Открытие: Сентиментальный музей
@@ -71,7 +71,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:prix-marcel-duchamp-2026-paris-2@afisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART:20261125T090000Z
 DTEND:20261125T110000Z
 SUMMARY:Открытие: Prix Marcel Duchamp 2026
@@ -90,7 +90,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-muse-e-sentimental-in-lyon-lyon@afisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART:20261119T090000Z
 DTEND:20261119T110000Z
 SUMMARY:Открытие: Выставка «Musée sentimental» в Ли
@@ -111,7 +111,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:to-open-eyes-regards-d-artistes-ma-laga@afisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART:20261125T083000Z
 DTEND:20261125T103000Z
 SUMMARY:Открытие: To Open Eyes. Regards d'artistes
@@ -129,8 +129,47 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:la-bataille-des-couleurs-paris@afisha-art
+DTSTAMP:20261126T013420Z
+DTSTART:20261124T100000Z
+DTEND:20261124T120000Z
+SUMMARY:Открытие: Битва цветов
+LOCATION:Maison Pompidou\, Paris\, Париж\, Франция
+DESCRIPTION:Выставочный проект\, исследующий 
+ роль цвета в современном визуальном иск
+ усстве.\nNone\nhttps://www.centrepompidou.fr/en/program/calendar/ev
+ ent/evqZFlN
+URL:https://doublebasskakov.github.io/radar/#e=la-bataille-des-couleurs-p
+ aris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Битва цветов
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:exhibition-la-bataille-des-couleurs-paris@afisha-art
+DTSTAMP:20261126T013420Z
+DTSTART:20261119T100000Z
+DTEND:20261119T120000Z
+SUMMARY:Открытие: Выставка «La Bataille des couleurs»
+LOCATION:Maison Pompidou\, Париж\, Франция
+DESCRIPTION:Экспозиция\, исследующая концепц
+ ии цвета в современном визуальном искус
+ стве.\n\nhttps://www.centrepompidou.fr/en/program/calendar/event/evqZ
+ FlN
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-la-bataille-des
+ -couleurs-paris
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка «La Bataille des couleurs
+ »
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:exhibition-tradition-as-a-criterion-vojvodina-belgrade@afisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART:20261128T170000Z
 DTEND:20261128T190000Z
 SUMMARY:Выставка «Традиция как критерий — 
@@ -152,7 +191,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a-long-shadow-postwar-japan-through-the-lens-new-york@afisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART;VALUE=DATE:20270502
 DTEND;VALUE=DATE:20270503
 SUMMARY:Последний день: A Long Shadow: Postwar Japan Through
@@ -176,7 +215,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ulay-ulay-abramovic-berlin@afisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Открытие: Ulay\, Ulay & Abramović
@@ -197,7 +236,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:guggenheim-abu-dhabi-opening@afisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:Открытие Guggenheim Abu Dhabi
@@ -219,7 +258,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gordon-matta-clark-not-the-work-the-worker-rome@afisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 SUMMARY:Последний день: Гордон Матта-Кларк: 
@@ -242,7 +281,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:maxxi-bvlgari-prize-2026-rome@afisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270308
 SUMMARY:Последний день: Премия MAXXI BVLGARI 2026
@@ -263,7 +302,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:stan-douglas-parallax-paris@afisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
 SUMMARY:Последний день: Stan Douglas: Parallax
@@ -284,7 +323,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:william-kentridge-i-am-not-me-the-horse-is-not-mine-brussels-2@afisha
  -art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270308
 SUMMARY:Последний день: Выставка Ульяма Кен
@@ -305,7 +344,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ana-mendieta-london@afisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
 SUMMARY:Последний день: Ана Мендьета
@@ -325,7 +364,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:william-kentridge-i-am-not-me-the-horse-is-not-mine-brussels@afisha-a
  rt
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270308
 SUMMARY:Последний день: William Kentridge: I am not me\, the
@@ -346,7 +385,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-cezanne-et-nous-at-grand-palais-paris@afisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
 SUMMARY:Последний день: Выставка «Cezanne et nous»
@@ -367,7 +406,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:shirin-neshat-do-u-dare-rome@afisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
 SUMMARY:Последний день: Ширин Нешат: Смеешь 
@@ -388,7 +427,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:alechinsky-in-paperland-london@afisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART;VALUE=DATE:20270211
 DTEND;VALUE=DATE:20270212
 SUMMARY:Открытие: Пьер Алечинский: In Paperland
@@ -409,7 +448,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pierre-alechinsky-in-paperland-london@afisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART;VALUE=DATE:20270211
 DTEND;VALUE=DATE:20270212
 SUMMARY:Открытие: Пьер Алешинский: В бумажн
@@ -432,7 +471,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:through-holes-in-the-clouds-london@afisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART;VALUE=DATE:20270317
 DTEND;VALUE=DATE:20270318
 SUMMARY:Открытие: Through Holes in the Clouds
@@ -454,7 +493,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:through-holes-in-the-clouds-artists-and-the-postcolonial-ima-london@a
  fisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART;VALUE=DATE:20270317
 DTEND;VALUE=DATE:20270318
 SUMMARY:Открытие: Через дыры в облаках: Худо
@@ -477,7 +516,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cecilia-vicun-a-living-threads-london@afisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
 SUMMARY:Последний день: Сесилия Викунья: Жи
@@ -500,7 +539,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:maxxi-collection-ritrovarsi-rome@afisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Открытие: Коллекция MAXXI: Встреча с с
@@ -521,7 +560,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:jake-elwes-vienna@afisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART;VALUE=DATE:20270604
 DTEND;VALUE=DATE:20270605
 SUMMARY:Открытие: Jake Elwes
@@ -541,7 +580,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:edith-dekyndt-x-cristo-bal-balenciaga-the-fabric-decides-brussels-2@a
  fisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:Последний день: Выставка «Edith Dekyndt x C
@@ -563,7 +602,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mary-helena-clark-vienna@afisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART;VALUE=DATE:20270910
 DTEND;VALUE=DATE:20270911
 SUMMARY:Открытие: Mary Helena Clark
@@ -583,7 +622,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:yoshinori-niwa-travelling-backwards-along-the-paths-taken-by-vienna@a
  fisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Открытие: Yoshinori Niwa: Travelling Backwards Along the 
@@ -605,7 +644,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mplus-lin-tianmiao-wang-gongxin@afisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Открытие: Lin Tianmiao and Wang Gongxin: Here and There
@@ -628,7 +667,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:edith-dekyndt-x-cristo-bal-balenciaga-the-fabric-decides-brussels@afi
  sha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:Последний день: Edith Dekyndt x Cristóbal Balenciag
@@ -649,7 +688,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:hikmah-exhibition-at-cca-tashkent-tashkent@afisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:Последний день: Выставка Hikmah в CCA Tashk
@@ -671,7 +710,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:susan-hiller-bad-dreams-berlin-2@afisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
 SUMMARY:Последний день: Сьюзен Хиллер: Плох
@@ -693,7 +732,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:hikmah-exhibition-tashkent@afisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:Последний день: Выставка Hikmah
@@ -711,7 +750,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:louvre-abu-dhabi-art-here-2026@afisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 SUMMARY:Последний день: Art Here 2026: Confluences
@@ -732,7 +771,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:unruly-waters-doha@afisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART;VALUE=DATE:20270529
 DTEND;VALUE=DATE:20270530
 SUMMARY:Последний день: Неукротимые воды
@@ -750,7 +789,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:flv-gustave-fayet@afisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART;VALUE=DATE:20270308
 DTEND;VALUE=DATE:20270309
 SUMMARY:Последний день: Gustave Fayet. Collectionneur — Cr
@@ -772,7 +811,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:materialistin-matter-of-care-care-of-matter-berlin@afisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART;VALUE=DATE:20270314
 DTEND;VALUE=DATE:20270315
 SUMMARY:Последний день: [ materialistin ] Matter of Care\, C
@@ -794,7 +833,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:bu-ed-nadhar-experimental-labs-doha@afisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:Последний день: Bu'ed Nadhar – Experimental Labs
@@ -814,7 +853,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:san-at-up-exhibition-project-tashkent@afisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Последний день: Выставочный проект 
@@ -837,7 +876,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:san-at-up-exhibition-project-at-the-goethe-institut-tashkent@afisha-a
  rt
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Последний день: Выставочный проект 
@@ -859,7 +898,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:interflows-exhibition-tashkent@afisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Последний день: Выставка Interflows
@@ -878,7 +917,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:no-admittance-except-on-business-istanbul-2@afisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
 SUMMARY:Последний день: No Admittance Except on Business
@@ -897,7 +936,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:interflows-exhibition-at-artepa-gallery-tashkent@afisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Последний день: Выставка Interflows в га
@@ -917,8 +956,30 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:la-menesunda-according-to-marta-minuji-n-madrid@afisha-art
+DTSTAMP:20261126T013420Z
+DTSTART;VALUE=DATE:20270308
+DTEND;VALUE=DATE:20270309
+SUMMARY:Последний день: «Ла Менесунда» по М
+ арте Минухин
+LOCATION:Центр искусств королевы Софии\, C/Rond
+ a de Atocha\, 2\, Мадрид\, Испания
+DESCRIPTION:Легендарная иммерсивная инсталл
+ яция-лабиринт аргентинской художницы М
+ арты Минухин.\nМарта Минухин\nhttps://www.museorei
+ nasofia.es/en/exhibition/la-menesunda-according-marta-minujin
+URL:https://doublebasskakov.github.io/radar/#e=la-menesunda-according-to-
+ marta-minuji-n-madrid
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: «Ла Менесунда» по
+  Марте Минухин
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:abbas-akhavan-if-and-only-if-berlin@afisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART;VALUE=DATE:20270212
 DTEND;VALUE=DATE:20270213
 SUMMARY:Открытие: Abbas Akhavan – if and only if
@@ -939,7 +1000,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:push-and-pull-a-furniture-comedy-vienna@afisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART;VALUE=DATE:20270404
 DTEND;VALUE=DATE:20270405
 SUMMARY:Последний день: Push and Pull: A Furniture Comedy
@@ -960,7 +1021,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rafik-greiss-the-city-and-the-city-berlin@afisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
 SUMMARY:Последний день: Rafik Greiss – The City and the Ci
@@ -983,7 +1044,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iman-datoo-common-place-st-ives@afisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Открытие: Iman Datoo: common-place
@@ -1003,7 +1064,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cca-x-daad-winter-26-berlin@afisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:CCA x DAAD: Winter 26
@@ -1023,7 +1084,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:koo-jeong-a-ousssean-berlin@afisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
 SUMMARY:Последний день: Koo Jeong A – Ousssean
@@ -1042,7 +1103,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ucca-john-baldessari@afisha-art
-DTSTAMP:20261126T013308Z
+DTSTAMP:20261126T013420Z
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
 SUMMARY:Последний день: John Baldessari
