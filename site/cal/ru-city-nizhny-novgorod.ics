@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:artist-talk-with-igor-ponosov-nizhny-novgo@afisha-art
-DTSTAMP:20261126T004543Z
+DTSTAMP:20261126T010836Z
 DTSTART:20261129T130000Z
 DTEND:20261129T150000Z
 SUMMARY:Артист-ток с Игорем Поносовым
@@ -30,7 +30,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:interactive-program-chocolate-three-centuries-of-history-and-nizhny-n
  ovgo@afisha-art
-DTSTAMP:20261126T004543Z
+DTSTAMP:20261126T010836Z
 DTSTART:20261205T110000Z
 DTEND:20261205T130000Z
 SUMMARY:Интерактивная программа «Шоколад: 
@@ -52,7 +52,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:vladimir-gepalov-s-exhibition-reflection-of-the-soul-nizhny-novgo@afi
  sha-art
-DTSTAMP:20261126T004543Z
+DTSTAMP:20261126T010836Z
 DTSTART:20261103T070000Z
 DTEND:20261103T090000Z
 SUMMARY:Открытие: Выставка Владимира Гепал
@@ -76,7 +76,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:excursion-to-the-model-range-exhibition-nizhny-novgo@afisha-art
-DTSTAMP:20261126T004543Z
+DTSTAMP:20261126T010836Z
 DTSTART:20261127T150000Z
 DTEND:20261127T170000Z
 SUMMARY:Экскурсия по выставке «Модельный р
@@ -98,7 +98,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:art-mediation-for-the-model-range-exhibition-nizhny-novgo@afisha-art
-DTSTAMP:20261126T004543Z
+DTSTAMP:20261126T010836Z
 DTSTART:20261129T150000Z
 DTEND:20261129T170000Z
 SUMMARY:Арт-медиация по выставке «Модельны
@@ -120,7 +120,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:model-range-exhibition-nizhny-novgo@afisha-art
-DTSTAMP:20261126T004543Z
+DTSTAMP:20261126T010836Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Последний день: Выставка «Модельны
@@ -146,7 +146,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pianissimo-winter-piano-festival-nizhny-novgo@afisha-art
-DTSTAMP:20261126T004543Z
+DTSTAMP:20261126T010836Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Открытие: Зимний фортепианный фест
@@ -167,7 +167,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:handel-the-triumph-of-time-and-truth-nizhny-novgo@afisha-art
-DTSTAMP:20261126T004543Z
+DTSTAMP:20261126T010836Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261130
 SUMMARY:Оратория «Триумф времени и разочар
@@ -189,7 +189,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:crime-and-punishment-premiere-nizhny-novgo@afisha-art
-DTSTAMP:20261126T004543Z
+DTSTAMP:20261126T010836Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Премьера спектакля «Преступление и
@@ -210,7 +210,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nn-9b-bomse-golos-za-kadrom@afisha-art
-DTSTAMP:20261126T004543Z
+DTSTAMP:20261126T010836Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Последний день: Эвсти Бомсе. «Голос 
@@ -236,7 +236,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-of-layouts-of-the-all-russian-exhibition-of-1896-nizhny-no
  vgo@afisha-art
-DTSTAMP:20261126T004543Z
+DTSTAMP:20261126T010836Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Последний день: Выставка макетов Вс
@@ -258,9 +258,33 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:parallel-program-of-the-constellation-of-cultures-photo-bien-nizhny-n
+ ovgo@afisha-art
+DTSTAMP:20261126T010836Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261128
+SUMMARY:Параллельная программа фотобиенна
+ ле «Созвездие культур»
+LOCATION:Русский музей фотографии\, ул. Писк
+ унова\, 9а\, Нижний Новгород
+DESCRIPTION:Образовательная программа в рамк
+ ах международной фотобиеннале включает
+  лекции\, творческие встречи и мастер-кл
+ ассы для профессионалов и любителей фот
+ ографии.\n\nhttps://t.me/gorkoNN/29699
+URL:https://doublebasskakov.github.io/radar/#e=parallel-program-of-the-co
+ nstellation-of-cultures-photo-bien-nizhny-novgo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Параллельная программа фотобиен
+ нале «Созвездие культур»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:konstantin-belousov-s-exhibition-people-and-birds-nizhny-novgo@afisha
  -art
-DTSTAMP:20261126T004543Z
+DTSTAMP:20261126T010836Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Последний день: Выставка Константи
@@ -283,7 +307,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ekaterina-bim-s-exhibition-unity-nizhny-novgo@afisha-art
-DTSTAMP:20261126T004543Z
+DTSTAMP:20261126T010836Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Последний день: Выставка Екатерины 
@@ -305,7 +329,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:musical-book-club-the-violist-danilov-nizhny-novgo@afisha-art
-DTSTAMP:20261126T004543Z
+DTSTAMP:20261126T010836Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Музыкальный книжный клуб: «Альтист 
@@ -327,7 +351,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:model-range-nizhny-novgo@afisha-art
-DTSTAMP:20261126T004543Z
+DTSTAMP:20261126T010836Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Последний день: Модельный ряд
@@ -349,7 +373,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-limits-of-perception-other-worlds-nizhny-novgo@afisha-art
-DTSTAMP:20261126T004543Z
+DTSTAMP:20261126T010836Z
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
 SUMMARY:Последний день: Выставка «Пределы в
@@ -371,7 +395,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-unity-nizhny-novgo@afisha-art
-DTSTAMP:20261126T004543Z
+DTSTAMP:20261126T010836Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Последний день: Выставка «Единение
@@ -393,7 +417,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:arsenal-leger@afisha-art
-DTSTAMP:20261126T004543Z
+DTSTAMP:20261126T010836Z
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
 SUMMARY:Последний день: Фернан Леже. Формул
@@ -414,7 +438,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:musical-book-club-doctor-faustus-nizhny-novgo@afisha-art
-DTSTAMP:20261126T004543Z
+DTSTAMP:20261126T010836Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:Музыкальный книжный клуб: «Доктор Ф
@@ -436,7 +460,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ordinary-people-performance-nizhny-novgo@afisha-art
-DTSTAMP:20261126T004543Z
+DTSTAMP:20261126T010836Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Спектакль «Обыкновенные люди»
@@ -455,7 +479,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:musical-book-club-the-phantom-of-the-opera-nizhny-novgo@afisha-art
-DTSTAMP:20261126T004543Z
+DTSTAMP:20261126T010836Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 SUMMARY:Музыкальный книжный клуб: «Призрак 
@@ -476,7 +500,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lady-macbeth-of-mtsensk-district-nizhny-novgo@afisha-art
-DTSTAMP:20261126T004543Z
+DTSTAMP:20261126T010836Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Спектакль «Леди Макбет Мценского у
@@ -497,7 +521,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cinderella-opera-nizhny-novgo@afisha-art
-DTSTAMP:20261126T004543Z
+DTSTAMP:20261126T010836Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261127
 SUMMARY:Опера «Золушка»
@@ -516,7 +540,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:le-corsaire-ballet-nizhny-novgo@afisha-art
-DTSTAMP:20261126T004543Z
+DTSTAMP:20261126T010836Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261130
 SUMMARY:Балет «Корсар»
@@ -535,7 +559,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:history-of-pharmacy-excursion-nizhny-novgo@afisha-art
-DTSTAMP:20261126T004543Z
+DTSTAMP:20261126T010836Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Экскурсия «История аптечного дела»
@@ -555,7 +579,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:bardo-001-panterra-art-group-exhibition-nizhny-novgo@afisha-art
-DTSTAMP:20261126T004543Z
+DTSTAMP:20261126T010836Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Открытие: BARDO 001 — выставка арт-груп
@@ -572,30 +596,6 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Открытие: BARDO 001 — выставка арт-гр
  уппы PANTERRA
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:parallel-program-of-the-constellation-of-cultures-photo-bien-nizhny-n
- ovgo@afisha-art
-DTSTAMP:20261126T004543Z
-DTSTART;VALUE=DATE:20261126
-DTEND;VALUE=DATE:20261128
-SUMMARY:Параллельная программа фотобиенна
- ле «Созвездие культур»
-LOCATION:Русский музей фотографии\, ул. Писк
- унова\, 9а\, Нижний Новгород
-DESCRIPTION:Образовательная программа в рамк
- ах международной фотобиеннале включает
-  лекции\, творческие встречи и мастер-кл
- ассы для профессионалов и любителей фот
- ографии.\n\nhttps://t.me/gorkoNN/29699
-URL:https://doublebasskakov.github.io/radar/#e=parallel-program-of-the-co
- nstellation-of-cultures-photo-bien-nizhny-novgo
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Параллельная программа фотобиен
- нале «Созвездие культур»
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
