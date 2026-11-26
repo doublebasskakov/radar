@@ -55,3 +55,15 @@ def test_source_confirms_year(date_quote, announcement, published, start, expect
 )
 def test_editorial_scope(title, expected):
     assert robot.outside_scope({"title": title}) is expected
+
+
+@pytest.mark.parametrize(("venue", "src", "city"), [
+    ("Новая сцена", "https://t.me/newstageprojects/3197", "Санкт-Петербург"),
+    ("Новая сцена им. Вс. Мейерхольда", "https://t.me/newstageprojects/3196", "Санкт-Петербург"),
+    ("Большой театр (Новая сцена)", "https://t.me/bolshoi_theatre/11905", "Москва"),
+    ("Театр Et Cetera", "https://t.me/newstageprojects/1", "Москва"),
+])
+def test_stage_city(venue, src, city):
+    event = {"city": "Москва", "venue": venue, "src": src}
+    robot.normalize_stage_city(event)
+    assert event["city"] == city
