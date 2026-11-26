@@ -2,7 +2,7 @@
 """
 Робот «Афиши современного искусства».
 
-  python scraper/robot.py collect   # читает Telegram-каналы, сайты, RSS → новые события (нужен ANTHROPIC_API_KEY)
+  python scraper/robot.py collect   # читает Telegram-каналы, сайты, RSS → новые события (нужен OPENROUTER_API_KEY)
   python scraper/robot.py build     # собирает сайт: site/data/*.json, календари .ics, картинки
   python scraper/robot.py all       # collect + build
 
@@ -31,7 +31,7 @@ SITE = ROOT / "site"
 EVENTS_FILE = DATA / "events.json"
 STATE_FILE = DATA / "state.json"
 UA = {"User-Agent": "Mozilla/5.0 (compatible; AfishaArtBot/1.0; +https://github.com)"}
-MODEL = os.environ.get("AFISHA_MODEL") or "claude-haiku-5-5"   # пустая переменная — модель по умолчанию
+MODEL = "particle-ai/particle-1:free"
 TODAY = dt.date.fromisoformat(os.environ["AFISHA_TODAY"]) if os.environ.get("AFISHA_TODAY") else \
     dt.datetime.now(ZoneInfo("Europe/Moscow")).date()
 CATS = ["music", "soundart", "club", "media", "gallery", "performance", "fair", "theatre", "biennial", "cinema", "lecture"]
@@ -421,104 +421,20 @@ cat "music" — композиторская новая/академическа
 """
 
 
-GEMINI_MODEL = os.environ.get("GEMINI_MODEL") or "gemini-flash-latest"
-_gemini_queue = None   # очередь запасных моделей, если у текущей нет квоты
-_gemini_dead = False
-
-
-def _gemini_models(key):
-    """Список flash-моделей: сначала стабильные (не preview), свежие выше; lite — в конце."""
-    r = requests.get("https://generativelanguage.googleapis.com/v1beta/models", params={"key": key, "pageSize": 200}, timeout=60)
-    names = [m["name"].split("/")[-1] for m in r.json().get("models", [])
-             if "generateContent" in m.get("supportedGenerationMethods", []) and "flash" in m["name"]
-             and not any(x in m["name"] for x in ("tts", "live", "image", "audio", "omni", "thinking", "exp"))]
-    ver = lambda n: [int(x) if x.isdigit() else 0 for x in re.findall(r"\d+", n)]
-    rank = lambda n: (("lite" in n), ("preview" in n), [-v for v in ver(n)])
-    return sorted(set(names), key=rank)
-
-
-def _gemini_next(key, why):
-    """Переключиться на следующую модель из списка; False — моделей больше нет."""
-    global GEMINI_MODEL, _gemini_queue
-    if _gemini_queue is None:
-        _gemini_queue = [m for m in _gemini_models(key) if m != GEMINI_MODEL]
-    if not _gemini_queue:
-        return False
-    GEMINI_MODEL = _gemini_queue.pop(0)
-    log(f"  gemini: {why} → пробую {GEMINI_MODEL}")
-    return True
-
-
-def gemini(prompt):
-    global _gemini_dead
-    key = os.environ.get("GEMINI_API_KEY")
-    if not key or _gemini_dead:
-        raise RuntimeError("gemini off")
-    waits = 0
-    for _ in range(12):
-        try:
-            r = requests.post(f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent",
-                              params={"key": key}, timeout=150,
-                              json={"contents": [{"role": "user", "parts": [{"text": prompt}]}],
-                                    "generationConfig": {"responseMimeType": "application/json"}})
-        except requests.exceptions.Timeout:
-            if _gemini_next(key, f"{GEMINI_MODEL}: не ответила за 150 с"):
-                continue
-            raise
-        if r.status_code in (400, 403, 404):
-            if _gemini_next(key, f"{GEMINI_MODEL} → {r.status_code}"):
-                continue
-            _gemini_dead = True; raise RuntimeError(f"gemini {r.status_code}: {r.text[:200]}")
-        if r.status_code == 429:
-            body = r.text
-            log(f"  gemini 429 ({GEMINI_MODEL}): " + re.sub(r"\s+", " ", body)[:260])
-            per_minute = "PerMinute" in body or "per minute" in body.lower()
-            if per_minute and waits < 3 and time.time() < LLM_DEADLINE:      # минутный лимит — подождать
-                waits += 1; time.sleep(35 * waits); continue
-            if _gemini_next(key, f"{GEMINI_MODEL}: нет квоты"):   # дневной лимит или 0 — другая модель
-                waits = 0; continue
-            _gemini_dead = True
-            raise RuntimeError("gemini quota: " + body[:200])
-        if r.status_code >= 500:
-            time.sleep(10); continue
-        r.raise_for_status()
-        cand = (r.json().get("candidates") or [{}])[0]
-        parts = (cand.get("content") or {}).get("parts") or []
-        time.sleep(4)   # бережём минутный лимит бесплатного тарифа
-        return "".join(p.get("text", "") for p in parts)
-    raise RuntimeError("gemini failed")
-
-
-def claude(prompt, search=False):
-    key = os.environ.get("ANTHROPIC_API_KEY")
-    if not key:
-        raise RuntimeError("ANTHROPIC_API_KEY не задан")
-    for attempt in range(4):
-        r = requests.post("https://api.anthropic.com/v1/messages", timeout=180,
-                          headers={"x-api-key": key, "anthropic-version": "2023-06-01",
-                                   "content-type": "application/json"},
-                          json={"model": MODEL, "max_tokens": 8000,
-                                "messages": [{"role": "user", "content": prompt}],
-                                **({"tools": [{"type": "web_search_20250305", "name": "web_search", "max_uses": 5}]}
-                                   if search else {})})
-        if r.status_code in (429, 500, 502, 503, 529):
-            time.sleep(10 * (attempt + 1)); continue
-        if r.status_code >= 400:
-            log(f"  claude {r.status_code}: " + re.sub(r"\s+", " ", r.text)[:260])
-        r.raise_for_status()
-        return "".join(b.get("text", "") for b in r.json()["content"])
-    raise RuntimeError("claude недоступен")
-
-
 def llm_text(prompt):
-    """Основная модель — бесплатная Gemini, запасная — Claude."""
-    errors = []
-    for fn in (gemini, claude):
-        try:
-            return fn(prompt)
-        except Exception as e:
-            errors.append(f"{fn.__name__}: {e}")
-    raise RuntimeError("; ".join(errors))
+    key = os.environ.get("OPENROUTER_API_KEY")
+    if not key:
+        raise RuntimeError("OPENROUTER_API_KEY не задан")
+    response = requests.post(
+        "https://openrouter.ai/api/v1/chat/completions",
+        headers={"Authorization": f"Bearer {key}"},
+        json={"model": MODEL, "messages": [{"role": "user", "content": prompt}],
+              "max_tokens": 8000}, timeout=(10, 150))
+    response.raise_for_status()
+    text = response.json()["choices"][0]["message"]["content"]
+    if not isinstance(text, str) or not text.strip():
+        raise RuntimeError("OpenRouter вернул пустой ответ")
+    return text
 
 
 def call_llm(prompt):
@@ -847,7 +763,7 @@ def translate_missing(master, limit=120):
 
 
 TIME_CATS = ("music", "soundart", "club", "theatre", "performance", "lecture", "cinema", "media")
-TIMES_PROMPT = """Сегодня {today}. Для каждого события ниже найди в интернете (сайт площадки, билетные сервисы, Telegram)
+TIMES_PROMPT = """Сегодня {today}. Для каждого события ниже найди только в приложенных источниках
 ТОЧНОЕ время начала по местному времени. Сверь полную дату, включая год; совпадения с прошлогодними показами пропускай. Если показов несколько в разные дни — время первого показа и, если у
 других дней время другое, перечисли их в "times" как {{"YYYY-MM-DD":"HH:MM"}}. Для выставок — время открытия
 вернисажа в день открытия, если оно есть, иначе null. Не выдумывай: если не нашёл точно — "time": null.
@@ -856,38 +772,22 @@ TIMES_PROMPT = """Сегодня {today}. Для каждого события �
 {items}"""
 
 
-def gemini_search(prompt):
-    """Gemini с поиском Google — для уточнения времени."""
-    key = os.environ.get("GEMINI_API_KEY")
-    if not key or _gemini_dead:
-        raise RuntimeError("gemini off")
-    for _ in range(6):
-        r = requests.post(f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent",
-                          params={"key": key}, timeout=240,
-                          json={"contents": [{"role": "user", "parts": [{"text": prompt}]}], "tools": [{"google_search": {}}]})
-        if r.status_code in (400, 403, 404, 429):
-            log(f"  gemini {r.status_code} ({GEMINI_MODEL}, поиск): " + re.sub(r"\s+", " ", r.text)[:260])
-            if _gemini_next(key, f"{GEMINI_MODEL} → {r.status_code} (поиск)"):
-                continue
-            raise RuntimeError(f"gemini search {r.status_code}")
-        if r.status_code >= 500:
-            time.sleep(10); continue
-        r.raise_for_status()
-        cand = (r.json().get("candidates") or [{}])[0]
-        time.sleep(4)
-        return "".join(p.get("text", "") for p in (cand.get("content") or {}).get("parts") or [])
-    raise RuntimeError("gemini search failed")
-
-
-def web_llm(prompt):
-    """Модель с поиском в интернете: Gemini + Google, запасная — Claude + веб-поиск."""
-    try:
-        return gemini_search(prompt)
-    except Exception as e:
-        if not os.environ.get("ANTHROPIC_API_KEY"):
-            raise
-        log(f"  поиск: Gemini недоступна ({str(e)[:60]}) → Claude")
-        return claude(prompt, search=True)
+def source_material(events):
+    config = yaml.safe_load((ROOT / "scraper" / "sources.yaml").read_text(encoding="utf-8"))
+    hosts = {urllib.parse.urlsplit(s["url"]).hostname for kind in ("pages", "rss") for s in config.get(kind, [])}
+    hosts.add("t.me")
+    pages = []
+    for url in dict.fromkeys(e.get("src") for e in events if e.get("src")):
+        parsed = urllib.parse.urlsplit(url)
+        if parsed.scheme != "https" or parsed.hostname not in hosts or parsed.netloc != parsed.hostname:
+            continue
+        try:
+            result = requests.get(url, headers=UA, timeout=12, allow_redirects=False)
+            if result.status_code == 200:
+                pages.append(url + "\n" + page_text(result.text, url)[:6000])
+        except requests.RequestException:
+            continue
+    return "\n\n".join(pages)
 
 
 def fill_times(master, limit=72):
@@ -908,7 +808,10 @@ def fill_times(master, limit=72):
                                       "city": e.get("city"), "start": e.get("start"), "end": e.get("end"),
                                       "src": e.get("src")}, ensure_ascii=False) for e in chunk)
         try:
-            text = web_llm(TIMES_PROMPT.format(today=TODAY.isoformat(), items=items))
+            sources = source_material(chunk)
+            if not sources:
+                continue
+            text = llm_text(TIMES_PROMPT.format(today=TODAY.isoformat(), items=items) + "\nИсточники:\n" + sources)
         except Exception as ex:
             log("  ! время:", ex)
             break
@@ -934,7 +837,7 @@ def fill_times(master, limit=72):
     return n
 
 
-FEST_PROMPT = """Сегодня {today}. Найди в интернете (официальный сайт, билетные сервисы, Telegram) ПРОГРАММУ события:
+FEST_PROMPT = """Сегодня {today}. Найди только в приложенном источнике ПРОГРАММУ события:
 {item}
 Верни ОТДЕЛЬНОЕ событие на каждый концерт / спектакль / показ / лекцию / выставку программы, которые проходят
 не раньше {today}: свои дата, время начала, площадка. Сверь год и даты с периодом именно этой редакции фестиваля. Исключай йогу, медитацию, ретриты и другие занятия без прямой связи с искусством. Не выдумывай: включай только то, что нашёл.
@@ -955,7 +858,10 @@ def expand_festivals(master, limit=8):
     for parent in todo[:limit]:
         item = json.dumps({k: parent.get(k) for k in ("title", "who", "city", "venue", "start", "end", "src")}, ensure_ascii=False)
         try:
-            text = web_llm(FEST_PROMPT.format(today=TODAY.isoformat(), item=item))
+            sources = source_material([parent])
+            if not sources:
+                continue
+            text = llm_text(FEST_PROMPT.format(today=TODAY.isoformat(), item=item) + "\nИсточники:\n" + sources)
         except Exception as ex:
             log("  ! программа:", ex)
             break
