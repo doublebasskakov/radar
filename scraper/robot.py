@@ -1019,9 +1019,9 @@ def build():
             ev = {**ev, **patch}
         country = (ev.get("country") or "").strip().casefold()
         if country in {"россия", "russia", "рф"}:
-            ev = {**ev, "region": "ru"}
+            ev["region"] = "ru"
         elif country not in {"", "онлайн", "online", "tba", "unknown", "неизвестно"}:
-            ev = {**ev, "region": "world"}
+            ev["region"] = "world"
         reviewed_cat = rules["reviewed"].get(ev["id"])
         if ev["id"] in hidden or outside_scope(ev) or not current_event(ev):
             continue
