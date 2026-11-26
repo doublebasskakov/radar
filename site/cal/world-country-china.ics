@@ -8,9 +8,9 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:exhibition-computer-worlds-in-shanghai-shanghai@afisha-art
-DTSTAMP:20261126T102352Z
-DTSTART:20261119T030000Z
-DTEND:20261119T050000Z
+DTSTAMP:20261126T102441Z
+DTSTART:20260924T030000Z
+DTEND:20260924T050000Z
 SUMMARY:Открытие: Выставка «Computer worlds» в Шан
  хае
 LOCATION:West Bund Museum\, Шанхай\, Китай
@@ -28,8 +28,51 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:visionary-journeys-immersive-exhibition-hong-kong@afisha-art
+DTSTAMP:20261126T102441Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Иммерсивная экспозиция Visionary Journeys
+LOCATION:K11 Musea\, Victoria Dockside\, 18 Salisbury Rd\, Tsim Sha Tsui\
+ , Гонконг\, Китай
+DESCRIPTION:Масштабная мультимедийная выста
+ вка в 11 залах\, посвященная 170-летней ист
+ ории модного дома Louis Vuitton.\nLouis Vuitton\nhttps://t
+ .me/theblueprintnews/100037
+URL:https://doublebasskakov.github.io/radar/#e=visionary-journeys-immersi
+ ve-exhibition-hong-kong
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Иммерсивная экспозиция Visionary Journey
+ s
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mplus-lin-tianmiao-wang-gongxin@afisha-art
+DTSTAMP:20261126T102441Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:Открытие: Lin Tianmiao and Wang Gongxin: Here and There
+LOCATION:M+\, Museum Drive\, West Kowloon Cultural District\, Hong Kong\,
+  Гонконг\, Китай
+DESCRIPTION:Совместная выставка пары пионеро
+ в китайского современного искусства — 
+ инсталляции и видеоарт.\nЛинь Тяньмяо\, В
+ ан Гунсинь\nhttps://www.mplus.org.hk/en/press/mplus-announces-20
+ 27-exhibition-and-moving-image-programmes/
+URL:https://doublebasskakov.github.io/radar/#e=mplus-lin-tianmiao-wang-go
+ ngxin
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Lin Tianmiao and Wang Gongxin: Here and The
+ re
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:ucca-john-baldessari@afisha-art
-DTSTAMP:20261126T102352Z
+DTSTAMP:20261126T102441Z
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
 SUMMARY:Последний день: John Baldessari
