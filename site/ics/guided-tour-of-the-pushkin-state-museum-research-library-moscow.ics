@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:guided-tour-of-the-pushkin-state-museum-research-library-moscow@afish
+ a-art
+DTSTAMP:20261126T002145Z
+DTSTART:20261225T140000Z
+DTEND:20261225T160000Z
+SUMMARY:Экскурсия по Научной библиотеке ГМ
+ ИИ им. А.С. Пушкина
+LOCATION:ГМИИ им. А.С. Пушкина\, Москва\, Москв
+ а
+DESCRIPTION:Редкая возможность посетить закр
+ ытые фонды библиотеки\, познакомиться с 
+ историей коллекций и увидеть хрупкие ст
+ аринные издания.\nНаучная библиотека ГМ
+ ИИ им. А.С. Пушкина\nhttps://t.me/theartsmuseum/12611
+URL:https://doublebasskakov.github.io/radar/#e=guided-tour-of-the-pushkin
+ -state-museum-research-library-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Экскурсия по Научной библиотеке 
+ ГМИИ им. А.С. Пушкина
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

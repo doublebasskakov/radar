@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:the-nutcracker-not-a-fairy-tale-saint-peters@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART:20261202T160000Z
 DTEND:20261202T180000Z
 SUMMARY:Щелкунчик. Несказка
@@ -31,7 +31,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:play-romeo-and-juliet-in-the-haze-moscow@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART:20261125T160000Z
 DTEND:20261125T180000Z
 SUMMARY:Спектакль «Ромео и Джульетта во мгл
@@ -56,7 +56,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:screening-of-the-performance-pushkin-s-fairy-tales-directed--moscow@a
  fisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART:20261128T133000Z
 DTEND:20261128T153000Z
 SUMMARY:Показ спектакля «Сказки Пушкина» в 
@@ -80,7 +80,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pushkin-s-fairy-tales-a-play-by-robert-wilson-moscow@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART:20261128T133000Z
 DTEND:20261128T153000Z
 SUMMARY:«Сказки Пушкина». Спектакль Роберт
@@ -104,7 +104,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:kzn-mon-gastroli-kapital@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART:20261129T150000Z
 DTEND:20261129T170000Z
 SUMMARY:«Гастроли: Капитал»
@@ -121,8 +121,28 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:novecento-saint-peters@afisha-art
+DTSTAMP:20261126T002145Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Новый век
+LOCATION:Karlsson Haus\, Фурштатская ул.\, 30\, Санкт-
+ Петербург
+DESCRIPTION:Моноспектакль по тексту Алессанд
+ ро Барикко о гениальном пианисте\, котор
+ ый родился на океанском лайнере и за всю
+  жизнь ни разу не сошел на берег.\nИван Тр
+ ус\, Роман Еникеев\nhttps://t.me/ct_pro/15026
+URL:https://doublebasskakov.github.io/radar/#e=novecento-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Новый век
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:the-concierge-moscow@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART:20261222T160000Z
 DTEND:20261222T180000Z
 SUMMARY:Консьерж
@@ -143,7 +163,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:musical-performance-from-the-life-of-planets-by-oleg-nestero-saint-pe
  ters@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART:20261208T163000Z
 DTEND:20261208T183000Z
 SUMMARY:Музыкальный спектакль Олега Нестер
@@ -169,7 +189,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:play-the-mozart-brothers-moscow@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART:20261130T160000Z
 DTEND:20261130T180000Z
 SUMMARY:Спектакль «Братья Моцарт»
@@ -191,7 +211,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:the-tower-moscow@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART:20261128T160000Z
 DTEND:20261128T180000Z
 SUMMARY:Спектакль «Башня»
@@ -211,7 +231,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:performance-heavenly-postman-fedya-bulkin-evening-show-vyksa@afisha-a
  rt
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART:20261128T160000Z
 DTEND:20261128T180000Z
 SUMMARY:Спектакль «Небесный почтальон Федя
@@ -232,7 +252,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:press-screening-of-the-play-the-lost-moscow@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART:20261209T160000Z
 DTEND:20261209T180000Z
 SUMMARY:Пресс-показ спектакля «Потерянные»
@@ -252,7 +272,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:play-concert-brodsky-stories-moscow@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART:20261130T170000Z
 DTEND:20261130T190000Z
 SUMMARY:Спектакль-концерт «Бродский. Истор
@@ -274,7 +294,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:new-year-show-the-nutcracker-magic-begins-saint-peters@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART:20261216T083000Z
 DTEND:20261216T103000Z
 SUMMARY:Открытие: Новогодняя ёлка «Щелкунч
@@ -296,7 +316,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:play-oblomov-directed-by-andrei-pricotenco-saint-peters@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART:20261216T160000Z
 DTEND:20261216T180000Z
 SUMMARY:Спектакль Андрея Прикотенко «Облом
@@ -320,7 +340,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:performance-heavenly-postman-fedya-bulkin-afternoon-show-vyksa@afisha
  -art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART:20261128T130000Z
 DTEND:20261128T150000Z
 SUMMARY:Спектакль «Небесный почтальон Федя
@@ -341,7 +361,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:performance-vepsian-women-vepsleiz-ed-akad-moscow@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART:20261129T150000Z
 DTEND:20261129T170000Z
 SUMMARY:Спектакль «Вепсские женщины. Vepsleižed
@@ -361,7 +381,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:play-honest-woman-directed-by-valery-fokin-saint-peters@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART:20261229T163000Z
 DTEND:20261229T183000Z
 SUMMARY:Спектакль Валерия Фокина «Честная 
@@ -384,7 +404,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:play-onegin-i-didn-t-finish-moscow@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART:20261126T170000Z
 DTEND:20261126T190000Z
 SUMMARY:Спектакль «Онегин. Я не договорила»
@@ -404,7 +424,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:play-oddvar-moscow@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART:20261129T170000Z
 DTEND:20261129T190000Z
 SUMMARY:Спектакль «ODDVAR»
@@ -422,7 +442,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:play-an-honest-woman-moscow@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART:20261126T163000Z
 DTEND:20261126T183000Z
 SUMMARY:Спектакль «Честная женщина»
@@ -439,7 +459,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ballet-performance-secrets-of-the-nutcracker-saint-peters@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART:20270103T160000Z
 DTEND:20270103T180000Z
 SUMMARY:Балетный спектакль «Тайны Щелкунчи
@@ -464,7 +484,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:my-poor-marat-samara@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART:20261222T160000Z
 DTEND:20261222T180000Z
 SUMMARY:Спектакль «Мой бедный Марат»
@@ -484,7 +504,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:old-good-tsypkin-performance-moscow@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART:20261127T170000Z
 DTEND:20261127T190000Z
 SUMMARY:Программа «Старый добрый Цыпкин»
@@ -506,7 +526,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:new-year-tree-puppet-show-and-masterclass-moscow@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART:20261219T100000Z
 DTEND:20261219T120000Z
 SUMMARY:Новогодняя ёлка: кукольный спектак
@@ -529,7 +549,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:kinotchitka-no6-saint-peters@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART:20261212T150000Z
 DTEND:20261212T170000Z
 SUMMARY:Киночитка №6
@@ -551,7 +571,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:play-kozintsev-gogoliada-directed-by-nikita-kobelev-saint-peters@afis
  ha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART:20261223T163000Z
 DTEND:20261223T183000Z
 SUMMARY:Постановка Никиты Кобелева «Козинц
@@ -573,8 +593,29 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:scorched-by-the-ussr-moscow@afisha-art
+DTSTAMP:20261126T002145Z
+DTSTART:20261126T170000Z
+DTEND:20261126T190000Z
+SUMMARY:Опаленные СССР
+LOCATION:Театральный центр «На Страстном»\, 
+ Страстной бул.\, 8А\, Москва
+DESCRIPTION:Спектакль о поколении 70-х\, чья мо
+ лодость пришлась на распад Советского С
+ оюза и переменчивую эпоху 90-х.\nГригорий 
+ Артамонов\, Александр Цыпкин\nhttps://t.me/ulizab
+ alabanova/38627
+URL:https://doublebasskakov.github.io/radar/#e=scorched-by-the-ussr-mosco
+ w
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Опаленные СССР
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:aristocrats-samara@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART:20261128T120000Z
 DTEND:20261128T140000Z
 SUMMARY:Спектакль «Аристократы»
@@ -593,7 +634,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:play-stanislavsky-chekhov-moscow@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART:20261206T160000Z
 DTEND:20261206T180000Z
 SUMMARY:Спектакль «Станиславский/Чехов»
@@ -612,7 +653,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:documentary-sound-performance-i-want-to-say-saint-peters@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART:20261212T160000Z
 DTEND:20261212T180000Z
 SUMMARY:Документальный саунд-спектакль «Я 
@@ -635,7 +676,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:play-ivona-princess-of-burgundia-directed-by-hugo-erikssen-saint-pete
  rs@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART:20261213T160000Z
 DTEND:20261213T180000Z
 SUMMARY:Спектакль Хуго Эрикссена «Ивонна\, 
@@ -658,7 +699,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:play-the-man-from-dublin-directed-by-andrei-kalinin-saint-peters@afis
  ha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART:20261224T160000Z
 DTEND:20261224T180000Z
 SUMMARY:Спектакль Андрея Калинина «Человек
@@ -681,7 +722,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:play-comrade-kislyakov-directed-by-andrei-kalinin-saint-peters@afisha
  -art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART:20261227T160000Z
 DTEND:20261227T180000Z
 SUMMARY:Спектакль Андрея Калинина «Товарищ
@@ -704,7 +745,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:play-tired-of-being-born-and-dying-directed-by-ding-yiteng-saint-pete
  rs@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART:20261226T160000Z
 DTEND:20261226T180000Z
 SUMMARY:Спектакль Дин Итэна «Устал рождать
@@ -726,7 +767,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:play-the-seagull-directed-by-elena-pavlova-saint-peters@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART:20261205T160000Z
 DTEND:20261205T180000Z
 SUMMARY:Спектакль Елены Павловой «Чайка»
@@ -746,7 +787,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:play-creature-directed-by-nikita-kobelev-saint-peters@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART:20261201T160000Z
 DTEND:20261201T180000Z
 SUMMARY:Спектакль Никиты Кобелева «Тварь»
@@ -767,7 +808,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:play-it-s-not-me-it-s-my-childhood-saint-peters@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART:20261211T160000Z
 DTEND:20261211T180000Z
 SUMMARY:Спектакль «Это не я\, это моё детств
@@ -790,7 +831,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:play-my-friend-lapshin-directed-by-elena-pavlova-saint-peters@afisha-
  art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART:20261219T160000Z
 DTEND:20261219T180000Z
 SUMMARY:Спектакль Елены Павловой «Мой друг 
@@ -812,7 +853,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:play-comrade-kislyakov-moscow@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART:20261128T160000Z
 DTEND:20261128T180000Z
 SUMMARY:Спектакль «Товарищ Кисляков»
@@ -830,7 +871,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:the-courtesan-samara@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART:20261212T140000Z
 DTEND:20261212T160000Z
 SUMMARY:Драма «Куртизанка»
@@ -849,7 +890,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:play-sisters-of-december-saint-peters@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART:20261127T160000Z
 DTEND:20261127T180000Z
 SUMMARY:Спектакль «Сёстры декабря»
@@ -869,7 +910,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:idiotology-moscow@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART:20261216T160000Z
 DTEND:20261216T180000Z
 SUMMARY:Идиотология
@@ -888,7 +929,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:about-my-mother-and-about-me-moscow@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART:20261212T170000Z
 DTEND:20261212T190000Z
 SUMMARY:Про мою маму и про меня
@@ -908,7 +949,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:maryino-field-moscow@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART:20261204T160000Z
 DTEND:20261204T180000Z
 SUMMARY:Марьино поле
@@ -926,7 +967,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:msk-electrotheatre-maryino-pole@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART:20261203T160000Z
 DTEND:20261203T180000Z
 SUMMARY:«Марьино поле». Премьера
@@ -945,7 +986,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:not-all-days-are-shrovetide-moscow@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART:20261206T160000Z
 DTEND:20261206T180000Z
 SUMMARY:Не всё коту масленица
@@ -965,7 +1006,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a-christmas-memory-moscow@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART:20261231T090000Z
 DTEND:20261231T110000Z
 SUMMARY:Воспоминание об одном Рождестве
@@ -983,7 +1024,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:performance-about-the-vanishing-people-of-karelia-moscow@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261203
 SUMMARY:Спектакль об исчезающем народе Кар
@@ -1005,7 +1046,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:khovanshchina-moscow@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:Хованщина
@@ -1025,7 +1066,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:performance-kholopy-saint-peters@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:Спектакль «Холопов»
@@ -1046,7 +1087,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:vincenzo-bellini-s-opera-norma-moscow@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261130
 SUMMARY:Опера «Норма» Винченцо Беллини
@@ -1067,7 +1108,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:xviii-international-arts-festival-diaghilev-p-s-saint-peters@afisha-a
  rt
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261203
 SUMMARY:XVIII Международный фестиваль искусс
@@ -1088,7 +1129,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:bolshoi-theatre-tours-in-uae-dubai@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261207
 SUMMARY:Гастроли Большого театра в ОАЭ: Дра
@@ -1109,7 +1150,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:sergei-prokofiev-s-opera-the-love-for-three-oranges-saint-peters@afis
  ha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Опера Сергея Прокофьева «Любовь к т
@@ -1133,7 +1174,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:play-ruslan-and-ludmila-moscow@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:Спектакль «Руслан и Людмила»
@@ -1154,7 +1195,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-season-results-no-63-moscow@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:Последний день: Выставка «Итоги сез
@@ -1179,7 +1220,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:opening-of-the-chamber-stage-at-the-gorky-moscow-academic-ar-moscow@a
  fisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Открытие камерной сцены МХАТ имени 
@@ -1201,7 +1242,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:play-15-172-moscow@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Спектакль «15 172»
@@ -1220,8 +1261,33 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:theatrical-concert-the-young-person-s-guide-to-the-orchestra-moscow@a
+ fisha-art
+DTSTAMP:20261126T002145Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261203
+SUMMARY:Театрализованный концерт: «Путевод
+ итель по оркестру» и «Карнавал животных
+ »
+LOCATION:Большой театр (Новая сцена)\, Москва
+DESCRIPTION:Интерактивный театрализованный 
+ концерты с применением современных ком
+ пьютерных технологий для погружения в к
+ лассическую музыку.\nБенджамин Бриттен\,
+  Камиль Сен-Санс\nhttps://t.me/bolshoi_theatre/11905
+URL:https://doublebasskakov.github.io/radar/#e=theatrical-concert-the-you
+ ng-person-s-guide-to-the-orchestra-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Театрализованный концерт: «Путев
+ одитель по оркестру» и «Карнавал животн
+ ых»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:pyotr-tchaikovsky-s-opera-eugene-onegin-moscow@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Опера П.И. Чайковского «Евгений Оне
@@ -1243,7 +1309,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dance-performance-the-nutcracker-not-a-fairy-tale-moscow@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261228
 SUMMARY:Танцевальный спектакль «Щелкунчик.
@@ -1264,8 +1330,27 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:opera-christmas-eve-moscow@afisha-art
+DTSTAMP:20261126T002145Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:Опера «Ночь перед Рождеством»
+LOCATION:Большой театр (Новая сцена)\, Москва
+DESCRIPTION:Фантастическая опера Николая Рим
+ ского-Корсакова с визуальными эффектам
+ и полного погружения в сказочную атмосф
+ еру.\nНиколай Римский-Корсаков\, Ольга Ма
+ ликова\nhttps://t.me/bolshoi_theatre/11905
+URL:https://doublebasskakov.github.io/radar/#e=opera-christmas-eve-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Опера «Ночь перед Рождеством»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:play-the-groom-moscow@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Открытие: Спектакль «Жених»
@@ -1284,7 +1369,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:the-serfs-saint-peters@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:Холопы
@@ -1304,7 +1389,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:immersive-performance-masquerade-at-the-opening-of-the-theat-moscow@a
  fisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Иммерсивный спектакль «Бал-маскара
@@ -1326,7 +1411,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:l-heure-espagnole-and-mavra-saint-peters@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:«Испанский час» и «Мавра»
@@ -1346,7 +1431,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ballets-scythian-suite-and-classical-symphony-saint-peters@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261214
 SUMMARY:Балеты «Скифская сюита» и «Классич
@@ -1369,7 +1454,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nutcracker-not-a-fairytale-play-saint-peters@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 SUMMARY:Спектакль «Щелкунчик. Несказка»
@@ -1390,7 +1475,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ballet-evening-by-yuri-posokhov-and-anton-pimonov-saint-peters@afisha
  -art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261214
 SUMMARY:Вечер балетов Юрия Посохова и Антон
@@ -1411,8 +1496,63 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:ballet-giselle-moscow@afisha-art
+DTSTAMP:20261126T002145Z
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261212
+SUMMARY:Балет «Жизель»
+LOCATION:Большой театр (Новая сцена)\, Москва
+DESCRIPTION:Главный романтический балет миро
+ вого репертуара в хореографии Юрия Григ
+ оровича.\nАдольф Адан\, Юрий Григорович\nh
+ ttps://t.me/bolshoi_theatre/11905
+URL:https://doublebasskakov.github.io/radar/#e=ballet-giselle-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Балет «Жизель»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:opera-the-magic-flute-moscow@afisha-art
+DTSTAMP:20261126T002145Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:Опера «Волшебная флейта»
+LOCATION:Большой театр (Новая сцена)\, Москва
+DESCRIPTION:Показ знаменитой оперы Моцарта о 
+ приключениях принца Тамино и паяца Папа
+ гено.\nВольфганг Амадей Моцарт\nhttps://t.me/bol
+ shoi_theatre/11905
+URL:https://doublebasskakov.github.io/radar/#e=opera-the-magic-flute-mosc
+ ow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Опера «Волшебная флейта»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ballet-la-sylphide-moscow@afisha-art
+DTSTAMP:20261126T002145Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261207
+SUMMARY:Балет «Сильфида»
+LOCATION:Большой театр (Новая сцена)\, Москва
+DESCRIPTION:Романтический балет в глубокой п
+ сихологической редакции Йохана Кобборг
+ а.\nХерман Северин Левенскольд\, Йохан Ко
+ бборг\nhttps://t.me/bolshoi_theatre/11905
+URL:https://doublebasskakov.github.io/radar/#e=ballet-la-sylphide-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Балет «Сильфида»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:crime-and-punishment-premiere-nizhny-novgo@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Премьера спектакля «Преступление и
@@ -1432,8 +1572,31 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:the-play-need-to-rejoice-more-moscow@afisha-art
+DTSTAMP:20261126T002145Z
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+SUMMARY:Спектакль «Надо больше радоваться»
+LOCATION:ДК Рассвет\, Столярный пер.\, 3\, корп.
+  15\, Москва
+DESCRIPTION:Драмеди-спектакль о сеансах псих
+ отерапии двух жителей мегаполиса с испо
+ льзованием нейросетевых видеопроекций 
+ и экспериментального электронно-акусти
+ ческого саундтрека.\nТеатр «Обстоятельс
+ тво»\nhttps://t.me/dkrassvet/2404
+URL:https://doublebasskakov.github.io/radar/#e=the-play-need-to-rejoice-m
+ ore-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спектакль «Надо больше радоватьс
+ я»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:immersive-play-avdotya-moscow@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 SUMMARY:Иммерсивный спектакль «Авдотья»
@@ -1455,7 +1618,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:premiere-of-the-play-female-voices-of-the-era-of-change-moscow@afisha
  -art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Премьера спектакля «Женские голоса
@@ -1476,7 +1639,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:play-cyrano-de-bergerac-saint-peters@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20261226
 DTEND;VALUE=DATE:20261227
 SUMMARY:Спектакль «Сирано де Бержерак»
@@ -1497,7 +1660,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:winter-city-mystery-asya-is-looking-for-words-moscow@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20270106
 DTEND;VALUE=DATE:20270111
 SUMMARY:Зимняя городская мистерия «Ася ище
@@ -1521,7 +1684,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:dance-sketches-presentation-of-to-love-laboratory-saint-peters@afisha
  -art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Показ танцевальных эскизов лаборат
@@ -1544,7 +1707,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:theatrehd-screening-robert-wilson-s-pushkin-s-fairy-tales-yekaterinbu
  r@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Кинопоказ спектакля Роберта Уилсон
@@ -1566,7 +1729,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:premiere-of-the-avant-garde-rock-musical-malevich-saint-peters@afisha
  -art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261130
 SUMMARY:Премьера авангардного рок-мюзикла 
@@ -1588,7 +1751,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:new-year-performance-amber-heart-80-lights-of-the-baltic-kaliningrad@
  afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20261223
 DTEND;VALUE=DATE:20261224
 SUMMARY:Новогодний спектакль «Янтарное сер
@@ -1609,7 +1772,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:the-other-life-perm@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20261223
 DTEND;VALUE=DATE:20261224
 SUMMARY:Спектакль «Другая жизнь»
@@ -1628,7 +1791,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:play-the-yellow-arrow-saint-peters@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261129
 SUMMARY:Спектакль «Жёлтая стрела»
@@ -1647,7 +1810,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ordinary-people-performance-nizhny-novgo@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Спектакль «Обыкновенные люди»
@@ -1666,7 +1829,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mamt-romeo@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261130
 SUMMARY:Ромео и Джульетта (опера Гуно)
@@ -1685,8 +1848,29 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:comic-opera-the-adventures-of-cipollino-moscow@afisha-art
+DTSTAMP:20261126T002145Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261207
+SUMMARY:Комическая опера «Приключения Чипо
+ ллино»
+LOCATION:Большой театр (Бетховенский зал)\, М
+ осква
+DESCRIPTION:Увлекательная весёлая романтиче
+ ская фантазия для всей семьи.\nТатьяна К
+ амышева\nhttps://t.me/bolshoi_theatre/11905
+URL:https://doublebasskakov.github.io/radar/#e=comic-opera-the-adventures
+ -of-cipollino-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Комическая опера «Приключения Чи
+ поллино»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:the-frog-princess-play-moscow@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Спектакль «Царевна-лягушка»
@@ -1707,7 +1891,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:the-ransom-of-red-chief-moscow@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:Вождь краснокожих
@@ -1728,7 +1912,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:spb-uzel-istoriya-kommunizma@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261127
 SUMMARY:«История коммунизма в рассказах дл
@@ -1750,7 +1934,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:enigma-immersive-detective-show-ulan-ude@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Открытие: Иммерсивное детектив-шоу 

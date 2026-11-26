@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:screening-g-men-moscow@afisha-art
+DTSTAMP:20261126T002145Z
+DTSTART:20261212T150000Z
+DTEND:20261212T170000Z
+SUMMARY:Кинопоказ «Джи-мены»
+LOCATION:Иллюзион\, Котельническая наб.\, 1/15\,
+  Москва
+DESCRIPTION:Классическая криминальная лента 
+ из цикла «Тени большого города» с обсуж
+ дением перед просмотром.\nАндрей Икко\, К
+ ирилл Власкин\nhttps://t.me/gosfilmofond/9045
+URL:https://doublebasskakov.github.io/radar/#e=screening-g-men-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Кинопоказ «Джи-мены»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

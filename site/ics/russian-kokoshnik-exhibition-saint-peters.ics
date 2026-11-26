@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:russian-kokoshnik-exhibition-saint-peters@afisha-art
+DTSTAMP:20261126T002145Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Выставка «Русский кокошник»
+LOCATION:Российский этнографический музей\,
+  Санкт-Петербург
+DESCRIPTION:Масштабная экспозиция народных к
+ остюмов и головных уборов из различных 
+ регионов России.\nРоссийский этнографич
+ еский музей\nhttps://t.me/orpheusradio/51887
+URL:https://doublebasskakov.github.io/radar/#e=russian-kokoshnik-exhibiti
+ on-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выставка «Русский кокошник»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

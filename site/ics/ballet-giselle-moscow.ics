@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ballet-giselle-moscow@afisha-art
+DTSTAMP:20261126T002145Z
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261212
+SUMMARY:Балет «Жизель»
+LOCATION:Большой театр (Новая сцена)\, Москва
+DESCRIPTION:Главный романтический балет миро
+ вого репертуара в хореографии Юрия Григ
+ оровича.\nАдольф Адан\, Юрий Григорович\nh
+ ttps://t.me/bolshoi_theatre/11905
+URL:https://doublebasskakov.github.io/radar/#e=ballet-giselle-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Балет «Жизель»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

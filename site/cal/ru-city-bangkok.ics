@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Радар — Россия · city-bangkok
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:ildar-abdrazakov-s-performance-in-thailand-bangkok@afisha-art
+DTSTAMP:20261126T002145Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Выступление Ильдара Абдразакова в 
+ Таиланде
+LOCATION:Бангкок
+DESCRIPTION:Выступление оперного певца Ильда
+ ра Абдразакова в сопровождении Королев
+ ского Бангкокского симфонического орке
+ стра завершит программу «Русских сезон
+ ов» в Таиланде.\nИльдар Абдразаков\, Коро
+ левский Бангкокский симфонический орке
+ стр\nhttps://t.me/orpheusradio/51885
+URL:https://doublebasskakov.github.io/radar/#e=ildar-abdrazakov-s-perform
+ ance-in-thailand-bangkok
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выступление Ильдара Абдразакова 
+ в Таиланде
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

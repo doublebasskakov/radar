@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:screening-series-horror-horror-berlin@afisha-art
+DTSTAMP:20261126T002145Z
+DTSTART:20261126T183000Z
+DTEND:20261126T203000Z
+SUMMARY:Кинопоказ: сериaл артистических фил
+ ьмов Horror Horror
+LOCATION:KW Institute for Contemporary Art\, Берлин\, Герман
+ ия
+DESCRIPTION:Кураторский показ программы эксп
+ ериментальных короткометражных и худож
+ ественных фильмов современных авторов.\
+ nРазные авторы\nhttps://www.kw-berlin.de/en/events/horror-hor
+ ror-a-series-of-artists-film-screenings
+URL:https://doublebasskakov.github.io/radar/#e=screening-series-horror-ho
+ rror-berlin
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Кинопоказ: сериaл артистических ф
+ ильмов Horror Horror
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -9,7 +9,7 @@ X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:exhibition-one-hundred-years-of-fashion-1918-2018-costumes-f-omsk@afi
  sha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20270606
 DTEND;VALUE=DATE:20270607
 SUMMARY:Последний день: Выставка «Сто лет м
@@ -30,6 +30,29 @@ ACTION:DISPLAY
 DESCRIPTION:Последний день: Выставка «Сто лет
   моды. 1918–2018. Костюм из собрания Государ
  ственного Эрмитажа»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:opening-of-the-choral-art-center-in-omsk-omsk@afisha-art
+DTSTAMP:20261126T002145Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:Открытие Центра хорового искусства
+  в Омске
+LOCATION:Центр хорового искусства\, Омск
+DESCRIPTION:Ко Дню хорового пения в Омске отк
+ роется первый за Уралом Центр хорового 
+ искусства\, где планируется проведение 
+ мастер-классов\, репетиций и концертов.\n
+ Центр хорового искусства\nhttps://t.me/orpheusradio
+ /51884
+URL:https://doublebasskakov.github.io/radar/#e=opening-of-the-choral-art-
+ center-in-omsk-omsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие Центра хорового искусст
+ ва в Омске
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

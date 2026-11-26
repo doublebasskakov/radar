@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:k-pop-dreamworld-show-klaipeda@afisha-art
+DTSTAMP:20261126T002145Z
+DTSTART;VALUE=DATE:20270114
+DTEND;VALUE=DATE:20270115
+SUMMARY:Шоу K-Pop Dreamworld
+LOCATION:Дворец рыбаков\, Клайпеда\, Литва
+DESCRIPTION:Энергичное K-Pop шоу с живым вокало
+ м и хореографией.\nВокалисты Вест-Энда и 
+ танцоры\nhttps://artpartner.lv/kpop
+URL:https://doublebasskakov.github.io/radar/#e=k-pop-dreamworld-show-klai
+ peda
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Шоу K-Pop Dreamworld
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

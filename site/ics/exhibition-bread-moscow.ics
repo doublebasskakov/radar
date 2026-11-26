@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:exhibition-bread-moscow@afisha-art
+DTSTAMP:20261126T002145Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Открытие: Выставка «Хлеб»
+LOCATION:Центр Зотов\, Ходынская улица\, 2\, Мо
+ сква
+DESCRIPTION:Крупный выставочный проект\, посв
+ ященный культурным и социальным аспект
+ ам хлеба в истории и искусстве.\nNone\nhttps://t
+ .me/centrezotov/10452
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-bread-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Выставка «Хлеб»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:concert-of-murtuza-bulbul-and-ibrahim-nagiyev-baku@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Концерт Муртузы Бюльбюля и Ибрагим
@@ -26,6 +26,30 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Концерт Муртузы Бюльбюля и Ибраг
  има Нагиева
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nikolai-myaskovsky-s-cello-concerto-in-baku-baku@afisha-art
+DTSTAMP:20261126T002145Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Концерт для виолончели с оркестром 
+ Николая Мясковского в Баку
+LOCATION:Баку
+DESCRIPTION:В столице Азербайджана исполнят 
+ Концерт для виолончели с оркестром русс
+ кого композитора Николая Мясковского.\n
+ Азербайджанская государственная филар
+ мония / концертные площадки Баку\nhttps://www.
+ classicalmusicnews.ru/anons/myaskovsky-cello-concerto-to-be-performed-in-
+ baku/
+URL:https://doublebasskakov.github.io/radar/#e=nikolai-myaskovsky-s-cello
+ -concerto-in-baku-baku
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт для виолончели с оркестр
+ ом Николая Мясковского в Баку
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

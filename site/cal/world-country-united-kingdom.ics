@@ -9,7 +9,7 @@ X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:chamber-concert-in-dialogue-pavel-gomzyakov-and-andrey-korob-london@a
  fisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART:20261211T190000Z
 DTEND:20261211T210000Z
 SUMMARY:Камерный концерт In Dialogue: Павел Гомз
@@ -33,7 +33,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:christmas-at-kew-london@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART:20261113T162000Z
 DTEND:20261113T182000Z
 SUMMARY:Открытие: Зимняя световая прогулка 
@@ -54,7 +54,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ryman-in-rhythm-tyroneisaacstuart-london@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART:20261211T191500Z
 DTEND:20261211T211500Z
 SUMMARY:Ryman in Rhythm: tyroneisaacstuart
@@ -74,8 +74,27 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:minotaur-film-screening-london@afisha-art
+DTSTAMP:20261126T002145Z
+DTSTART:20261128T180000Z
+DTEND:20261128T200000Z
+SUMMARY:Показ фильма «Минотавр»
+LOCATION:BFI Southbank\, Лондон\, Великобритания
+DESCRIPTION:Специальный показ фильма Андрея 
+ Звягинцева «Минотавр»\, получившего Гра
+ н-при Каннского фестиваля 2026 года.\nАндр
+ ей Звягинцев\nhttps://t.me/afishalondon/11307
+URL:https://doublebasskakov.github.io/radar/#e=minotaur-film-screening-lo
+ ndon
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильма «Минотавр»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:friday-live-justin-caguiat-london@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART:20261127T183000Z
 DTEND:20261127T203000Z
 SUMMARY:Пятничный вечер Live: Джастин Кагиат
@@ -95,7 +114,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:christmas-art-breakfast-the-faberge-legend-london@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART:20261206T103000Z
 DTEND:20261206T123000Z
 SUMMARY:Рождественский ART-завтрак «Легенда 
@@ -116,8 +135,28 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:love-letters-play-london@afisha-art
+DTSTAMP:20261126T002145Z
+DTSTART:20261127T193000Z
+DTEND:20261127T213000Z
+SUMMARY:Спектакль «Любовные письма»
+LOCATION:The Stonemasons Arms\, 54 Cambridge Grove\, London\, W6 0LA\, Л
+ ондон\, Великобритания
+DESCRIPTION:Показ классической американской 
+ пьесы А. Р. Герни в новом театральном изм
+ ерении с визуальными проекциями и живой
+  музыкой.\nСергей Карабань\, Дина Бердник
+ ова\nhttps://t.me/zimamagazine/17407
+URL:https://doublebasskakov.github.io/radar/#e=love-letters-play-london
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спектакль «Любовные письма»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:saturday-talks-kit-gurnos-on-amar-kanwar-london@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART:20270116T123000Z
 DTEND:20270116T143000Z
 SUMMARY:Субботняя экскурсия: Кит Гурнос об 
@@ -139,9 +178,51 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:welsh-choir-concert-at-the-foundling-museum-london@afisha-art
+DTSTAMP:20261126T002145Z
+DTSTART:20261129T150000Z
+DTEND:20261129T170000Z
+SUMMARY:Концерт валлийского хора в Foundling Museu
+ m
+LOCATION:Foundling Museum\, 40 Brunswick Square\, London WC1N 1AZ\, Ло
+ ндон\, Великобритания
+DESCRIPTION:Рождественская концертная прогр
+ амма хора Borough Welsh с возможностью посети
+ ть музейные экспозиции.\nBorough Welsh Choir\nhttps:/
+ /t.me/eventmeuk/2420
+URL:https://doublebasskakov.github.io/radar/#e=welsh-choir-concert-at-the
+ -foundling-museum-london
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт валлийского хора в Foundling M
+ useum
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:novikov-fair-final-day-london@afisha-art
+DTSTAMP:20261126T002145Z
+DTSTART:20261128T110000Z
+DTEND:20261128T130000Z
+SUMMARY:Ярмарка Novikov (последний день)
+LOCATION:Mayfair Place\, Mayfair Place\, London W1\, Лондон\, Ве
+ ликобритания
+DESCRIPTION:Финальный день праздничной ярмар
+ ки с подарками\, едой\, фотобудкой и вече
+ рним диджей-сетом.\nNovikov Restaurant & Bar\nhttps://t.me
+ /eventmeuk/2420
+URL:https://doublebasskakov.github.io/radar/#e=novikov-fair-final-day-lon
+ don
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ярмарка Novikov (последний день)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:robert-ryman-exhibition-tour-with-curator-wells-fray-smith-london@afi
  sha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART:20261204T183000Z
 DTEND:20261204T203000Z
 SUMMARY:Экскурсия по выставке Роберта Райм
@@ -163,8 +244,49 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:urban-food-fest-at-chiswick-house-london@afisha-art
+DTSTAMP:20261126T002145Z
+DTSTART:20261128T100000Z
+DTEND:20261128T120000Z
+SUMMARY:Праздничный стритфуд-фестиваль Urban 
+ Food Fest в Chiswick House
+LOCATION:Chiswick House & Gardens\, Burlington Lane\, London W4 2RP\, Л
+ ондон\, Великобритания
+DESCRIPTION:Ярмарка уличной еды и изделий руч
+ ной работы в саду у исторической виллы Ч
+ изик-хаус.\nUrban Food Fest\nhttps://t.me/eventmeuk/2420
+URL:https://doublebasskakov.github.io/radar/#e=urban-food-fest-at-chiswic
+ k-house-london
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Праздничный стритфуд-фестиваль Ur
+ ban Food Fest в Chiswick House
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:connected-clerkenwell-architectural-walk-london@afisha-art
+DTSTAMP:20261126T002145Z
+DTSTART:20261128T110000Z
+DTEND:20261128T130000Z
+SUMMARY:Архитектурная прогулка Connected Clerkenwell
+LOCATION:Farmer J\, 50 Cowcross Street\, London EC1M 6AL\, Лондон\,
+  Великобритания
+DESCRIPTION:Пешеходная архитектурная экскур
+ сия по району Клеркенуэлл от организаци
+ и Open City.\nOpen City\nhttps://t.me/eventmeuk/2420
+URL:https://doublebasskakov.github.io/radar/#e=connected-clerkenwell-arch
+ itectural-walk-london
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Архитектурная прогулка Connected Clerken
+ well
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:sherlock-holmes-and-the-12-days-of-christmas-london@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART:20261124T193000Z
 DTEND:20261124T213000Z
 SUMMARY:Открытие: Sherlock Holmes and the 12 Days of Christmas
@@ -184,8 +306,30 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:hill-garden-and-pergola-historical-walk-london@afisha-art
+DTSTAMP:20261126T002145Z
+DTSTART:20261126T083000Z
+DTEND:20261126T103000Z
+SUMMARY:Открытие: Hill Garden and Pergola: историческа
+ я прогулка
+LOCATION:Hill Garden and Pergola\, Hampstead Heath\, Inverforth Close\, N
+ orth End Way\, NW3 7EX\, Лондон\, Великобритания
+DESCRIPTION:Доступная прогулка по живописном
+ у эдвардианскому саду и перголе в Хэмпс
+ теде с учетом сокращенного зимнего свет
+ ового дня.\n\nhttps://t.me/eventmeuk/2419
+URL:https://doublebasskakov.github.io/radar/#e=hill-garden-and-pergola-hi
+ storical-walk-london
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Hill Garden and Pergola: историчес
+ кая прогулка
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:relaxed-hours-london@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART:20261201T100000Z
 DTEND:20261201T120000Z
 SUMMARY:Спокойные часы в галерее Серпентай
@@ -207,7 +351,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:jan-van-eyck-the-portraits-london@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20270411
 DTEND;VALUE=DATE:20270412
 SUMMARY:Последний день: Jan van Eyck: The Portraits
@@ -229,13 +373,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:opening-of-the-new-london-museum-in-smithfield-london@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Открытие нового здания London Museum в См
  итфилде
-LOCATION:London Museum\, Smithfield\, Лондон\, Великобрит
- ания
+LOCATION:London Museum\, Smithfield\, Smithfield\, London EC1A 9AG\, Ло
+ ндон\, Великобритания
 DESCRIPTION:Открытие обновленного масштабно
  го пространства музея Лондона в историч
  еском здании рынка Смитфилд с бесплатны
@@ -252,7 +396,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:julio-le-parc-light-colour-action-exhibition-london@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20270503
 DTEND;VALUE=DATE:20270504
 SUMMARY:Последний день: Выставка Хулио Ле П
@@ -274,7 +418,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:julio-le-parc-light-colour-action-london@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20270503
 DTEND;VALUE=DATE:20270504
 SUMMARY:Последний день: Хулио Ле Парк: Свет. 
@@ -296,7 +440,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:the-jungle-book-at-the-national-theatre-london@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20270206
 DTEND;VALUE=DATE:20270207
 SUMMARY:Последний день: Спектакль «Книга дж
@@ -318,7 +462,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nan-goldin-you-never-did-anything-wrong-london@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20270314
 DTEND;VALUE=DATE:20270315
 SUMMARY:Последний день: Выставка Нэн Голдин
@@ -341,7 +485,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ana-mendieta-london@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
 SUMMARY:Последний день: Ана Мендьета
@@ -360,7 +504,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:frida-the-making-of-an-icon-exhibition-london@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
 SUMMARY:Последний день: Выставка «Фрида: Со
@@ -381,7 +525,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:the-90s-art-and-fashion-london-2@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
 SUMMARY:Последний день: 90-е: Искусство и мод
@@ -403,7 +547,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:frida-the-making-of-an-icon-london@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
 SUMMARY:Последний день: Фрида: Создание ико
@@ -425,7 +569,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:robert-ryman-the-real-thing-london@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 SUMMARY:Последний день: Robert Ryman: The Real Thing
@@ -445,7 +589,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:yuko-mohri-in-concert-london@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
 SUMMARY:Последний день: Yuko Mohri: In Concert
@@ -467,7 +611,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:art-breakfast-renoir-london@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 SUMMARY:ART-завтрак: «Ренуар. Любовь\, свет и н
@@ -489,7 +633,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:justin-caguiat-change-ringing-london@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
 SUMMARY:Последний день: Джастин Кагиат: Change 
@@ -512,9 +656,29 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:lisa-brice-london@afisha-art
+DTSTAMP:20261126T002145Z
+DTSTART;VALUE=DATE:20271008
+DTEND;VALUE=DATE:20271009
+SUMMARY:Открытие: Лиза Брайс
+LOCATION:Serpentine South Gallery\, Лондон\, Великобрита
+ ния
+DESCRIPTION:Новая выставка Лизы Брайс\, объед
+ иняющая новые и существующие живописны
+ е работы\, бросающие вызов традиционным 
+ образам женщин в истории искусства.\nLisa B
+ rice\nhttps://www.serpentinegalleries.org/whats-on/lisa-brice/
+URL:https://doublebasskakov.github.io/radar/#e=lisa-brice-london
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Лиза Брайс
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:screening-of-andrey-zvyagintsev-s-film-minotaur-and-lecture-london@af
  isha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Кинопоказ фильма Андрея Звягинцева
@@ -536,7 +700,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:matt-copson-london@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20270316
 DTEND;VALUE=DATE:20270317
 SUMMARY:Открытие: Мэтт Копсон
@@ -557,7 +721,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:presentation-of-the-book-cities-and-people-in-london-london@afisha-ar
  t
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20270113
 DTEND;VALUE=DATE:20270114
 SUMMARY:Презентация книги «Города и люди» в
@@ -579,7 +743,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cecilia-vicun-a-foraging-quipu-london@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
 SUMMARY:Последний день: Cecilia Vicuña: Foraging Quipu
@@ -601,7 +765,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:adrian-piper-i-m-this-space-selected-works-1967-2027-london@afisha-ar
  t
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20270526
 DTEND;VALUE=DATE:20270527
 SUMMARY:Открытие: Эдриан Пайпер: Я — это про
@@ -624,7 +788,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pierre-alechinsky-in-paperland-london@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20270211
 DTEND;VALUE=DATE:20270212
 SUMMARY:Открытие: Пьер Алешинский: В бумажн
@@ -647,7 +811,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:the-film-london-jarman-award-2026-london@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Последний день: Премия Film London Jarman Awar
@@ -669,9 +833,55 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:serpentine-x-the-flag-foundation-prize-gozo-yoshimasu-london@afisha-a
+ rt
+DTSTAMP:20261126T002145Z
+DTSTART;VALUE=DATE:20270924
+DTEND;VALUE=DATE:20270925
+SUMMARY:Открытие: Премия Фонда Флага: Годзо 
+ Ёсимасу
+LOCATION:Serpentine North Gallery\, Лондон\, Великобрита
+ ния
+DESCRIPTION:Выставка одного из самых радикал
+ ьных и известных поэтов Японии\, первого
+  лауреата премии The FLAG Art Foundation Prize.\nGozo Yoshi
+ masu\nhttps://www.serpentinegalleries.org/whats-on/serpentine-x-the-flag-
+ foundation-prize-gozo-yoshimasu/
+URL:https://doublebasskakov.github.io/radar/#e=serpentine-x-the-flag-foun
+ dation-prize-gozo-yoshimasu-london
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Премия Фонда Флага: Год
+ зо Ёсимасу
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:chineke-orchestra-concert-stravinsky-suites-and-premiere-london@afish
+ a-art
+DTSTAMP:20261126T002145Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Концерт Chineke! Orchestra: сюиты Стравинск
+ ого и премьера
+LOCATION:Лондон\, Великобритания
+DESCRIPTION:Британский оркестр исполнит прои
+ зведения Стравинского\, Родриго\, а такж
+ е британскую премьеру сочинения Элианы 
+ Эчеверри.\nChineke! Orchestra\nhttps://t.me/afishalondon/11309
+URL:https://doublebasskakov.github.io/radar/#e=chineke-orchestra-concert-
+ stravinsky-suites-and-premiere-london
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт Chineke! Orchestra: сюиты Стравин
+ ского и премьера
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:through-holes-in-the-clouds-artists-and-the-postcolonial-ima-london@a
  fisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20270317
 DTEND;VALUE=DATE:20270318
 SUMMARY:Открытие: Через дыры в облаках: Худо
@@ -694,7 +904,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cecilia-vicun-a-living-threads-london@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
 SUMMARY:Последний день: Сесилия Викунья: Жи
@@ -717,7 +927,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:the-90s-art-and-fashion-london@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
 SUMMARY:Последний день: The 90s: Art and Fashion
@@ -736,8 +946,30 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:pinocchio-at-shakespeare-s-globe-london@afisha-art
+DTSTAMP:20261126T002145Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Открытие: Мюзикл «Пиноккио» в Shakespear
+ e’s Globe
+LOCATION:Shakespeare’s Globe\, 21 New Globe Walk\, London SE1 9DT\, Л
+ ондон\, Великобритания
+DESCRIPTION:Рождественская музыкальная пост
+ ановка классической сказки под открыты
+ м небом на сцене театра «Глобус».\nShakespeare
+ ’s Globe\nhttps://t.me/eventmeuk/2420
+URL:https://doublebasskakov.github.io/radar/#e=pinocchio-at-shakespeare-s
+ -globe-london
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Мюзикл «Пиноккио» в Shakes
+ peare’s Globe
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:ink-london@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20270422
 DTEND;VALUE=DATE:20270423
 SUMMARY:Открытие: Ink
@@ -754,8 +986,29 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:semyon-bychkov-and-bbc-symphony-orchestra-concert-london@afisha-art
+DTSTAMP:20261126T002145Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Концерт Семёна Бычкова и BBC Symphony Orches
+ tra
+LOCATION:Лондон\, Великобритания
+DESCRIPTION:Исполнение масштабной Седьмой си
+ мфонии Густава Малера под управлением д
+ ирижёра Семёна Бычкова.\nСемён Бычков\, BB
+ C Symphony Orchestra\nhttps://t.me/afishalondon/11309
+URL:https://doublebasskakov.github.io/radar/#e=semyon-bychkov-and-bbc-sym
+ phony-orchestra-concert-london
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт Семёна Бычкова и BBC Symphony Or
+ chestra
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:amar-kanwar-london@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:Последний день: Амар Канвар
@@ -774,7 +1027,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ink-london-4@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20270422
 DTEND;VALUE=DATE:20270423
 SUMMARY:Открытие: Чернила
@@ -793,7 +1046,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:baya-london@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20270610
 DTEND;VALUE=DATE:20270611
 SUMMARY:Открытие: Baya
@@ -812,7 +1065,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ink-london-3@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20270422
 DTEND;VALUE=DATE:20270423
 SUMMARY:Открытие: Инк
@@ -830,7 +1083,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:once-upon-a-gospel-seven-tales-before-christ-london@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261207
 SUMMARY:Once Upon a Gospel: Seven Tales Before Christ
@@ -853,7 +1106,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:art-breakfast-portraits-by-jan-van-eyck-london@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:ART-завтрак: портреты Яна ван Эйка
@@ -876,7 +1129,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:napoleon-and-wellington-a-duel-of-genues-tour-london@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Тур «Наполеон и Веллингтон: дуэль г
@@ -899,7 +1152,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:screen-portraits-whitechapel-gallery-artists-part-2-london-2@afisha-a
  rt
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
 SUMMARY:Последний день: Screen Portraits: Whitechapel Galler
@@ -922,7 +1175,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:freddie-mercury-portrait-on-wembley-steps-london@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:Последний день: Портрет Фредди Мерк
@@ -944,7 +1197,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sand-animation-masterclass-for-kids-in-london-london@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Мастер-класс по песочной анимации д
@@ -964,8 +1217,31 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:lecture-discussion-by-svetlana-kolchik-the-evolution-of-love-london@a
+ fisha-art
+DTSTAMP:20261126T002145Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Лекция-дискуссия Светланы Кольчик 
+ «Эволюция любви»
+LOCATION:Лондон\, Великобритания
+DESCRIPTION:Авторская лекция о трансформации
+  моногамии\, новых формах близости и вли
+ янии искусственного интеллекта на отно
+ шения.\nСветлана Кольчик\nhttps://t.me/afishalondon/1
+ 1309
+URL:https://doublebasskakov.github.io/radar/#e=lecture-discussion-by-svet
+ lana-kolchik-the-evolution-of-love-london
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекция-дискуссия Светланы Кольчи
+ к «Эволюция любви»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:christmas-tree-lighting-ceremony-london@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:Церемония зажжения огней на рождес
@@ -988,7 +1264,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:screen-portraits-whitechapel-gallery-artists-part-2-london@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
 SUMMARY:Последний день: Портреты на экране: 
@@ -1011,7 +1287,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nicole-eisenman-exhibition-margate@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20270411
 DTEND;VALUE=DATE:20270412
 SUMMARY:Последний день: Выставка Николь Эйз
@@ -1034,7 +1310,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:common-place-st-ives@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Открытие: common-place
@@ -1053,7 +1329,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:play-the-bench-london@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Спектакль «Скамейка»
@@ -1071,7 +1347,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:blackbird-bath@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20270204
 DTEND;VALUE=DATE:20270205
 SUMMARY:Открытие: Blackbird
@@ -1089,7 +1365,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dennis-and-gnasher-sculpture-trail-london@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20270115
 DTEND;VALUE=DATE:20270116
 SUMMARY:Последний день: Выставка скульптур 
@@ -1111,7 +1387,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:freddie-mercury-stage-costumes-exhibition-at-v-a-london@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
 SUMMARY:Последний день: Выставка сценическ
@@ -1132,8 +1408,27 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:ruben-elbakyan-opera-concert-london@afisha-art
+DTSTAMP:20261126T002145Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Оперный концерт Рубена Эльбакяна
+LOCATION:Лондон\, Великобритания
+DESCRIPTION:Вечер оперных арий\, неаполитанск
+ их песен и романсов в исполнении франко-
+ армянского тенора.\nРубен Эльбакян\, Гре
+ гуар Абрамян\nhttps://t.me/afishalondon/11309
+URL:https://doublebasskakov.github.io/radar/#e=ruben-elbakyan-opera-conce
+ rt-london
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Оперный концерт Рубена Эльбакяна
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:ink-london-2@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20270422
 DTEND;VALUE=DATE:20270423
 SUMMARY:Открытие: Тушь
@@ -1151,7 +1446,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:small-is-beautiful-miniature-art-exhibition-london@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20270102
 DTEND;VALUE=DATE:20270103
 SUMMARY:Последний день: Выставка малоформа
@@ -1172,7 +1467,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pygmalion-bath@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20270813
 DTEND;VALUE=DATE:20270814
 SUMMARY:Открытие: Pygmalion
@@ -1189,7 +1484,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a-german-life-bath@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20270312
 DTEND;VALUE=DATE:20270313
 SUMMARY:Открытие: A German Life
@@ -1206,7 +1501,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:romantics-anonymous-bath@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20270709
 DTEND;VALUE=DATE:20270710
 SUMMARY:Открытие: Romantics Anonymous
@@ -1222,8 +1517,76 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:justin-caguiat-change-ringing-london-2@afisha-art
+DTSTAMP:20261126T002145Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Открытие: Джастин Кагуйат: Change Ringing
+LOCATION:Serpentine South Gallery\, Лондон\, Великобрита
+ ния
+DESCRIPTION:Первая крупная институциональна
+ я выставка художника в Великобритании\, 
+ представляющая живопись\, скульптуру\, п
+ ечатную графику\, а также звуковые и кин
+ оинсталляции.\nДжастин Кагуйат\nhttps://www.ser
+ pentinegalleries.org/whats-on/justin-caguiat-change-ringing/
+URL:https://doublebasskakov.github.io/radar/#e=justin-caguiat-change-ring
+ ing-london-2
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Джастин Кагуйат: Change Ringi
+ ng
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:the-film-london-jarman-award-2026-london-2@afisha-art
+DTSTAMP:20261126T002145Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Открытие: Кинопремия Film London Jarman Award 2
+ 026
+LOCATION:Whitechapel Gallery\, Лондон\, Великобритани
+ я
+DESCRIPTION:Выставка-презентация работ номин
+ антов ежегодной британской кинопремии 
+ имени Дерека Джармена для независимых х
+ удожников-кинематографистов.\nРазные ав
+ торы\nhttps://www.whitechapelgallery.org/exhibitions/the-film-london-
+ jarman-award-2026/
+URL:https://doublebasskakov.github.io/radar/#e=the-film-london-jarman-awa
+ rd-2026-london-2
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Кинопремия Film London Jarman Awa
+ rd 2026
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:alechinsky-in-paperland-london@afisha-art
+DTSTAMP:20261126T002145Z
+DTSTART;VALUE=DATE:20270211
+DTEND;VALUE=DATE:20270212
+SUMMARY:Открытие: Пьер Алечинский: In Paperland
+LOCATION:Serpentine South Gallery\, Лондон\, Великобрита
+ ния
+DESCRIPTION:Масштабная ретроспектива графич
+ ески насыщенных и экспрессивных работ н
+ а бумаге и живописи радикального экспер
+ иментального художника.\nПьер Алечински
+ й\nhttps://www.serpentinegalleries.org/whats-on/pierre-alechinksy/
+URL:https://doublebasskakov.github.io/radar/#e=alechinsky-in-paperland-lo
+ ndon
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Пьер Алечинский: In Paperland
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:wilhelmina-barns-graham-st-ives@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20270503
 DTEND;VALUE=DATE:20270504
 SUMMARY:Последний день: Wilhelmina Barns-Graham
@@ -1242,8 +1605,71 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:gozo-yoshimasu-london@afisha-art
+DTSTAMP:20261126T002145Z
+DTSTART;VALUE=DATE:20270924
+DTEND;VALUE=DATE:20270925
+SUMMARY:Открытие: Годзо Йосимасу
+LOCATION:Serpentine North Gallery\, Лондон\, Великобрита
+ ния
+DESCRIPTION:Выставка одного из самых радикал
+ ьных и известных поэтов Японии\, ставшег
+ о первым лауреатом премии The FLAG Art Foundation P
+ rize.\nГодзо Йосимасу\nhttps://www.serpentinegalleries.org/w
+ hats-on/serpentine-x-the-flag-foundation-prize-gozo-yoshimasu/
+URL:https://doublebasskakov.github.io/radar/#e=gozo-yoshimasu-london
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Годзо Йосимасу
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:through-holes-in-the-clouds-london@afisha-art
+DTSTAMP:20261126T002145Z
+DTSTART;VALUE=DATE:20270317
+DTEND;VALUE=DATE:20270318
+SUMMARY:Открытие: Through Holes in the Clouds
+LOCATION:Whitechapel Gallery\, Лондон\, Великобритани
+ я
+DESCRIPTION:Масштабная выставка современног
+ о искусства\, исследующая новые формы ху
+ дожественного высказывания в меняющемс
+ я мире.\nРазные авторы\nhttps://www.whitechapelgallery.o
+ rg/exhibitions/through-holes-in-the-clouds/
+URL:https://doublebasskakov.github.io/radar/#e=through-holes-in-the-cloud
+ s-london
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Through Holes in the Clouds
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cecilia-vicun-a-foraging-quipu-london-2@afisha-art
+DTSTAMP:20261126T002145Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Открытие: Сесилия Викунья: Foraging Quipu
+LOCATION:Whitechapel Gallery\, Лондон\, Великобритани
+ я
+DESCRIPTION:Инсталляционная часть проекта Се
+ силии Викуньи\, вдохновленная древними 
+ андскими системами узелкового письма к
+ ипу.\nСесилия Викунья\nhttps://www.whitechapelgallery.or
+ g/exhibitions/cecilia-vicuna-foraging-quipu/
+URL:https://doublebasskakov.github.io/radar/#e=cecilia-vicun-a-foraging-q
+ uipu-london-2
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Сесилия Викунья: Foraging Qui
+ pu
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:rebecca-moss-shapeshifter-st-ives@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Открытие: Rebecca Moss: Shapeshifter
@@ -1263,7 +1689,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rebecca-moss-shapeshifter-st-ives-3@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Открытие: Инсталляция Ребекки Мосс 
@@ -1285,7 +1711,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:light-and-magic-the-birth-of-art-photography-london@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20270221
 DTEND;VALUE=DATE:20270222
 SUMMARY:Последний день: Light and Magic: The Birth of Art Ph
@@ -1307,7 +1733,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wilhelmina-barns-graham-st-ives-2@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20270503
 DTEND;VALUE=DATE:20270504
 SUMMARY:Последний день: Wilhelmina Barns-Graham
@@ -1327,7 +1753,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rebecca-moss-shapeshifter-st-ives-2@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Открытие: Rebecca Moss: Shapeshifter
@@ -1347,7 +1773,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:iman-datoo-common-place-st-ives@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Открытие: Iman Datoo: common-place
@@ -1367,7 +1793,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:go-zde-i-lkin-those-who-remember-their-births-st-ives@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
 SUMMARY:Последний день: Gözde İlkin: Those Who Remember Th
@@ -1388,7 +1814,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:go-zde-i-lkin-those-who-remember-their-births-st-ives-2@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
 SUMMARY:Последний день: Gözde İlkin: Those Who Remember Th
@@ -1410,7 +1836,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:vanessa-bell-duncan-grant-inside-bloomsbury-london-2@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20270411
 DTEND;VALUE=DATE:20270412
 SUMMARY:Последний день: Ванесса Белл и Дунк
@@ -1432,7 +1858,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:vanessa-bell-duncan-grant-inside-bloomsbury-london-3@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20270411
 DTEND;VALUE=DATE:20270412
 SUMMARY:Последний день: Ванесса Белл и Данк
@@ -1454,7 +1880,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:vanessa-bell-duncan-grant-inside-bloomsbury-london@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20270411
 DTEND;VALUE=DATE:20270412
 SUMMARY:Последний день: Vanessa Bell & Duncan Grant: Inside 
@@ -1476,7 +1902,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:light-and-magic-the-birth-of-art-photography-london-2@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20270221
 DTEND;VALUE=DATE:20270222
 SUMMARY:Последний день: Свет и магия: Рожден
@@ -1497,7 +1923,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wilhelmina-barns-graham-st-ives-3@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20270503
 DTEND;VALUE=DATE:20270504
 SUMMARY:Последний день: Вильгельмина Барнс-
@@ -1520,7 +1946,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:go-zde-i-lkin-those-who-remember-their-births-st-ives-3@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
 SUMMARY:Последний день: Гёзде Илькин: Те\, кт
@@ -1537,6 +1963,73 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Последний день: Гёзде Илькин: Те\, 
  кто помнит свое рождение
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:screen-portraits-whitechapel-gallery-artists-part-2-london-3@afisha-a
+ rt
+DTSTAMP:20261126T002145Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Открытие: Портреты на экране: Худож
+ ники Whitechapel Gallery — Часть 2
+LOCATION:Whitechapel Gallery\, Лондон\, Великобритани
+ я
+DESCRIPTION:Вторая часть видеопрограммы\, пре
+ дставляющей работы художников\, чья дея
+ тельность связана с историей галереи Уа
+ йтчепел.\nРазные авторы\nhttps://www.whitechapelgaller
+ y.org/exhibitions/screen-portraits-whitechapel-gallery-artists-part-2/
+URL:https://doublebasskakov.github.io/radar/#e=screen-portraits-whitechap
+ el-gallery-artists-part-2-london-3
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Портреты на экране: Худ
+ ожники Whitechapel Gallery — Часть 2
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:findus-workshop-sand-animation-masterclass-london@afisha-art
+DTSTAMP:20261126T002145Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Мастерская с Финдусом: мастер-класс
+  песочной анимации
+LOCATION:Лондон\, Великобритания
+DESCRIPTION:Детский мастер-класс по песочной 
+ анимации с профессиональной художницей
+  по мотивам сказок о Петсоне и Финдусе.\n
+ Войнова\nhttps://t.me/afishalondon/11310
+URL:https://doublebasskakov.github.io/radar/#e=findus-workshop-sand-anima
+ tion-masterclass-london
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Мастерская с Финдусом: мастер-кла
+ сс песочной анимации
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:theatre-performance-pettson-and-findus-a-christmas-story-london@afish
+ a-art
+DTSTAMP:20261126T002145Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Театральное представление «Петсон 
+ и Финдус: история одного Рождества»
+LOCATION:Лондон\, Великобритания
+DESCRIPTION:Спектакль на русском языке по мот
+ ивам произведений Свена Нурдквиста с со
+ путствующей книжной ярмаркой.\n\nhttps://t.me/a
+ fishalondon/11310
+URL:https://doublebasskakov.github.io/radar/#e=theatre-performance-pettso
+ n-and-findus-a-christmas-story-london
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Театральное представление «Петс
+ он и Финдус: история одного Рождества»
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

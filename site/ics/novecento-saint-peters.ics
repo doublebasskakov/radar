@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:novecento-saint-peters@afisha-art
+DTSTAMP:20261126T002145Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Новый век
+LOCATION:Karlsson Haus\, Фурштатская ул.\, 30\, Санкт-
+ Петербург
+DESCRIPTION:Моноспектакль по тексту Алессанд
+ ро Барикко о гениальном пианисте\, котор
+ ый родился на океанском лайнере и за всю
+  жизнь ни разу не сошел на берег.\nИван Тр
+ ус\, Роман Еникеев\nhttps://t.me/ct_pro/15026
+URL:https://doublebasskakov.github.io/radar/#e=novecento-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Новый век
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

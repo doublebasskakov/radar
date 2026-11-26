@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:berlin-biennale-14@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20270605
 DTEND;VALUE=DATE:20270606
 SUMMARY:Открытие: 14. Berlin Biennale: Central Europe Eastern Tim
@@ -33,7 +33,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sharjah-biennial-17@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20270121
 DTEND;VALUE=DATE:20270122
 SUMMARY:Открытие: Sharjah Biennial 17: What remains\, sits restiv
@@ -58,7 +58,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:documenta-16@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20270612
 DTEND;VALUE=DATE:20270613
 SUMMARY:Открытие: documenta 16
@@ -80,7 +80,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:bukhara-biennial-2027@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20270903
 DTEND;VALUE=DATE:20270904
 SUMMARY:Открытие: Bukhara Biennial 2027
@@ -103,7 +103,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lyon-biennale-18@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Последний день: 18e Biennale de Lyon: Passer d'un r
@@ -125,8 +125,29 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:islamic-arts-biennale-2027@afisha-art
+DTSTAMP:20261126T002145Z
+DTSTART;VALUE=DATE:20271101
+DTEND;VALUE=DATE:20271102
+SUMMARY:Открытие: Islamic Arts Biennale 2027
+LOCATION:Western Hajj Terminal\, King Abdulaziz International Airport\, 
+ Джидда\, Саудовская Аравия
+DESCRIPTION:Третья Биеннале исламских искусс
+ тв в знаменитом шатровом Хадж-терминале
+  аэропорта Джидды. Исторические артефак
+ ты соседствуют с работами современных х
+ удожников.\nDiriyah Biennale Foundation\nhttps://www.arabnews.pk
+ /node/2634227
+URL:https://doublebasskakov.github.io/radar/#e=islamic-arts-biennale-2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Islamic Arts Biennale 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:bangkok-art-biennale-2026@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 SUMMARY:Последний день: Bangkok Art Biennale 2026: Angels & 
@@ -149,7 +170,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:istanbul-biennial-19@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20270918
 DTEND;VALUE=DATE:20270919
 SUMMARY:Открытие: 19. İstanbul Bienali
@@ -172,7 +193,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:venice-biennale-architettura-2027@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20270508
 DTEND;VALUE=DATE:20270509
 SUMMARY:Открытие: Biennale Architettura 2027: Do Architecture
@@ -193,8 +214,32 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:14th-berlin-biennale-for-contemporary-art-central-europe-eas-berlin@a
+ fisha-art
+DTSTAMP:20261126T002145Z
+DTSTART;VALUE=DATE:20271015
+DTEND;VALUE=DATE:20271016
+SUMMARY:Открытие: 14-я Берлинская биеннале с
+ овременного искусства: Central Europe Eastern Time
+LOCATION:KW Institute for Contemporary Art и другие площадк
+ и\, Берлин\, Германия
+DESCRIPTION:Открытие 14-й Берлинской биеннале 
+ современного искусства под кураторской
+  концепцией Central Europe Eastern Time.\nРазные худо
+ жники\nhttps://www.kw-berlin.de/en/exhibitions/14th-berlin-biennale-
+ for-contemporary-art-central-europe-eastern-time
+URL:https://doublebasskakov.github.io/radar/#e=14th-berlin-biennale-for-c
+ ontemporary-art-central-europe-eas-berlin
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: 14-я Берлинская биеннале
+  современного искусства: Central Europe Eastern Time
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:yokohama-triennale-9@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20270423
 DTEND;VALUE=DATE:20270424
 SUMMARY:Открытие: 9th Yokohama Triennale
@@ -216,7 +261,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:liverpool-biennial-2027@afisha-art
-DTSTAMP:20261126T001857Z
+DTSTAMP:20261126T002145Z
 DTSTART;VALUE=DATE:20270605
 DTEND;VALUE=DATE:20270606
 SUMMARY:Открытие: Liverpool Biennial 2027

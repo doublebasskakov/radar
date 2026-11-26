@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:opera-the-magic-flute-moscow@afisha-art
+DTSTAMP:20261126T002145Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:Опера «Волшебная флейта»
+LOCATION:Большой театр (Новая сцена)\, Москва
+DESCRIPTION:Показ знаменитой оперы Моцарта о 
+ приключениях принца Тамино и паяца Папа
+ гено.\nВольфганг Амадей Моцарт\nhttps://t.me/bol
+ shoi_theatre/11905
+URL:https://doublebasskakov.github.io/radar/#e=opera-the-magic-flute-mosc
+ ow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Опера «Волшебная флейта»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

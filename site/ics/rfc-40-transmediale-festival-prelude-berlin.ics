@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:rfc-40-transmediale-festival-prelude-berlin@afisha-art
+DTSTAMP:20261126T002145Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:RFC 40: Прелюдия к фестивалю transmediale
+LOCATION:transmediale\, Берлин\, Германия
+DESCRIPTION:Вечер-прелюдия к грядущему фести
+ валю transmediale 2027 с участием кураторов про
+ граммы RFC 40.\nКураторы RFC 40\nhttps://transmediale.de/en
+ /2027/tm27
+URL:https://doublebasskakov.github.io/radar/#e=rfc-40-transmediale-festiv
+ al-prelude-berlin
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:RFC 40: Прелюдия к фестивалю transmediale
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

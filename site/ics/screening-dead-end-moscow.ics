@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:screening-dead-end-moscow@afisha-art
+DTSTAMP:20261126T002145Z
+DTSTART:20261212T170000Z
+DTEND:20261212T190000Z
+SUMMARY:Кинопоказ «Тупик»
+LOCATION:Иллюзион\, Котельническая наб.\, 1/15\,
+  Москва
+DESCRIPTION:Показ мрачной драмы 1930-х годов о ч
+ еловеческой жестокости и искушениях в р
+ амках тематического цикла.\nАндрей Икко\
+ , Кирилл Власкин\nhttps://t.me/gosfilmofond/9045
+URL:https://doublebasskakov.github.io/radar/#e=screening-dead-end-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Кинопоказ «Тупик»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

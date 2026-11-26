@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:minotaur-film-screening-london@afisha-art
+DTSTAMP:20261126T002145Z
+DTSTART:20261128T180000Z
+DTEND:20261128T200000Z
+SUMMARY:Показ фильма «Минотавр»
+LOCATION:BFI Southbank\, Лондон\, Великобритания
+DESCRIPTION:Специальный показ фильма Андрея 
+ Звягинцева «Минотавр»\, получившего Гра
+ н-при Каннского фестиваля 2026 года.\nАндр
+ ей Звягинцев\nhttps://t.me/afishalondon/11307
+URL:https://doublebasskakov.github.io/radar/#e=minotaur-film-screening-lo
+ ndon
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильма «Минотавр»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

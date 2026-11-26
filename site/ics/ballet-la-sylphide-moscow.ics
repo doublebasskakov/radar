@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ballet-la-sylphide-moscow@afisha-art
+DTSTAMP:20261126T002145Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261207
+SUMMARY:Балет «Сильфида»
+LOCATION:Большой театр (Новая сцена)\, Москва
+DESCRIPTION:Романтический балет в глубокой п
+ сихологической редакции Йохана Кобборг
+ а.\nХерман Северин Левенскольд\, Йохан Ко
+ бборг\nhttps://t.me/bolshoi_theatre/11905
+URL:https://doublebasskakov.github.io/radar/#e=ballet-la-sylphide-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Балет «Сильфида»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

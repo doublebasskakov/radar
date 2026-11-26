@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:expo-market-keramistan-tashkent@afisha-art
+DTSTAMP:20261126T002145Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Экспо-маркет «Керамистан»
+LOCATION:Studio Artikul 32\, Ташкент\, Узбекистан
+DESCRIPTION:Ярмарка керамики\, где представле
+ ны работы локальных мастеров и художник
+ ов.\n\nhttps://www.afisha.uz/ru/exhibitions/2026/10/19/keramistan
+URL:https://doublebasskakov.github.io/radar/#e=expo-market-keramistan-tas
+ hkent
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Экспо-маркет «Керамистан»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR
