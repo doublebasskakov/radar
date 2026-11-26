@@ -192,8 +192,74 @@ def dedupe(master):
 def pdate(s):
     try:
         return dt.date.fromisoformat(s) if s and len(s) == 10 else None
-    except ValueError:
+    except (TypeError, ValueError):
         return None
+
+
+_WELLNESS = re.compile(
+    r"(?<!\w)(?:йог(?:а|и|е|у|ой|ою)?|(?:хатха|кундалини)[ -]?йог\w*|yoga|пилатес\w*|pilates|"
+    r"цигун\w*|qigong|ретрит\w*|wellness|breathwork|звуковая ванна|sound bath)(?!\w)"
+    r"|медитативн\w*\s+(?:вечер|практик\w*|сеанс\w*|заняти\w*)"
+    r"|(?:сеанс|сессия|занятие|практика|групповая|звуковая|управляемая)\s+медитац\w*"
+    r"|(?:guided|group|sound)\s+meditation\b|\bmeditation\s+(?:session|class|workshop|practice)\b"
+    r"|дыхательн\w*\s+(?:практик\w*|гимнастик\w*)", re.I)
+_MEDITATION_TITLE = re.compile(r"^\s*[«\"“]?\s*(?:медитаци[яию]|meditation)\s*(?:$|[»\"”:.]|с\s|with\s)", re.I)
+_DATE_YEAR = re.compile(
+    r"\b(?:((?:19|20)\d{2})[-/.]\d{1,2}(?:[-/.]\d{1,2})?"
+    r"|\d{1,2}[./-]\d{1,2}[./-]((?:19|20)\d{2})"
+    r"|(?:\d{1,2}\s+)?(?:январ\w*|феврал\w*|март\w*|апрел\w*|ма[йяе]|июн\w*|июл\w*|"
+    r"август\w*|сентябр\w*|октябр\w*|ноябр\w*|декабр\w*|jan\w*|feb\w*|mar\w*|apr\w*|may|"
+    r"jun\w*|jul\w*|aug\w*|sep\w*|oct\w*|nov\w*|dec\w*)(?:\.?\s+\d{1,2},?)?[\s,]+((?:19|20)\d{2}))\b", re.I)
+
+
+def outside_scope(ev):
+    titles = [str(ev.get(k) or "") for k in ("title", "title_en")]
+    return any(_WELLNESS.search(title) or _MEDITATION_TITLE.search(title) for title in titles)
+
+
+def event_dates(ev):
+    """Return the first and last possible dates, including month-only announcements."""
+    s, e = pdate(ev.get("start")), pdate(ev.get("end"))
+    if ev.get("end") and not e:
+        return None, None
+    if ev.get("tba") and not s:
+        month = ev.get("start") or ""
+        if isinstance(month, str) and re.fullmatch(r"\d{4}-\d{2}", month):
+            s = pdate(month + "-01")
+            if s:
+                next_month = (s.replace(day=28) + dt.timedelta(days=4)).replace(day=1)
+                return s, e or next_month - dt.timedelta(days=1)
+    return s, e or s
+
+
+def current_event(ev):
+    s, last = event_dates(ev)
+    if not s:
+        return False
+    horizon = TODAY + dt.timedelta(days=400)
+    return s <= last and TODAY <= last <= horizon and s <= horizon
+
+
+def source_confirms_date(ev, src):
+    s, last = event_dates(ev)
+    quote = ev.get("date_quote")
+    if not s or not last or not isinstance(quote, str):
+        return False
+    quote = " ".join(quote.split()).casefold()
+    if not quote or len(quote) > 240 or quote not in " ".join(src["text"].split()).casefold():
+        return False
+    years = {int(next(y for y in m.groups() if y)) for m in _DATE_YEAR.finditer(quote)}
+    if years:
+        if years == {s.year, last.year}:
+            return True
+        return years == {s.year} and last.year == s.year + 1 and s.month == 12 and last.month == 1
+    if not _DATE_HINT.search(quote) and not ev.get("tba"):
+        return False
+    posted = pdate(src.get("date"))
+    base = posted or TODAY
+    if s.year == base.year:
+        return not posted or last >= posted
+    return bool(posted and posted.month >= 11 and s.month <= 2 and s.year == posted.year + 1)
 
 
 def log(*a):
@@ -281,7 +347,7 @@ def fetch_page(src, state):
     if state["pages"].get(key) == h:
         return []
     state["pages"][key] = h
-    return [{"key": key, "text": txt, "date": TODAY.isoformat(), "url": src["url"], "img": None,
+    return [{"key": key, "text": txt, "date": None, "url": src["url"], "img": None,
              "srcName": urllib.parse.urlparse(src["url"]).netloc.replace("www.", ""), "long": True}]
 
 
@@ -293,8 +359,12 @@ def fetch_rss(src, seen):
         key = "rss:" + (e.get("id") or e.get("link"))
         if key in seen:
             continue
+        timestamp = e.get("published_parsed") or e.get("updated_parsed")
+        published = dt.date(*timestamp[:3]) if timestamp else None
+        if published and published < TODAY - dt.timedelta(days=LOOKBACK_DAYS):
+            continue
         summ = BeautifulSoup(e.get("summary", ""), "html.parser").get_text(" ", strip=True)
-        out.append({"key": key, "text": (e.get("title", "") + "\n" + summ)[:2500], "date": TODAY.isoformat(),
+        out.append({"key": key, "text": (e.get("title", "") + "\n" + summ)[:2500], "date": published.isoformat() if published else None,
                     "url": e.get("link"), "img": None,
                     "srcName": urllib.parse.urlparse(src["url"]).netloc.replace("www.", "")})
     return out
@@ -322,12 +392,13 @@ cat "music" — композиторская новая/академическа
 ЛЕКЦИИ об искусстве, музыке, кино и культуре, кураторские и авторские экскурсии, артист-токи, дискуссии (cat "lecture");
 ОНЛАЙН-лекции и трансляции тоже включай: city "Онлайн", city_en "Online", country "Онлайн", venue — платформа, tz "Europe/Moscow".
 НЕ включай: многонедельные платные курсы, open call, конкурсы, вакансии, распродажи, классику без современной составляющей,
-детские шоу, мюзиклы, поп-, рок-, джаз-, блюз- и эстрадные концерты, премии и церемонии награждения, дискотеки с поп-музыкой и коммерческие вечеринки без DJ-лайнапа, новости без даты, события в прошлом.
+детские шоу, мюзиклы, поп-, рок-, джаз-, блюз- и эстрадные концерты, премии и церемонии награждения, дискотеки с поп-музыкой и коммерческие вечеринки без DJ-лайнапа, новости без даты, события в прошлом. Исключай йогу, медитацию, ретриты, духовные и оздоровительные практики, даже если они проходят в музее или сопровождаются музыкой. Если это выставка, концерт или произведение искусства и «медитация» лишь образ в названии, включай. Любая активность без явной связи с заявленными видами искусства не подходит.
 Регион по умолчанию: {region_hint}.
 
 Правила:
 - Только то, что прямо следует из текста: дата, место. Не выдумывай. Если дня нет, но есть месяц —
-  start "YYYY-MM" и "tba": true. Год определи по контексту (ближайшее будущее относительно {today}).
+  start "YYYY-MM" и "tba": true. Сохраняй год даты из анонса. Если год опущен, используй год публикации, а при отсутствии даты публикации — текущий год. Январь или февраль следующего года возможны для датированных анонсов ноября или декабря, когда речь явно идёт о ближайших месяцах. Прошлый анонс никогда не переносится в следующий год только ради попадания в афишу. На архивных страницах пропускай события с неясным годом.
+- date_quote: дословный фрагмент одного источника длиной до 240 символов с датой именно этого события (включая год и конец периода, если указаны). Не бери дату публикации, дату произведения или даты другой редакции фестиваля.
 - desc / desc_en — 1–2 предложения СВОИМИ словами (не копируй фразы источника).
 - importance: 1–5 (5 — событие, о котором будут говорить: крупная институция, важный автор, премьера, биеннале).
 - press: true, если это пресс-показ / показ для аккредитованных.
@@ -343,7 +414,7 @@ cat "music" — композиторская новая/академическа
 {{"title":"","title_en":"","who":"","cat":"music|soundart|club|media|gallery|performance|fair|theatre|biennial|cinema|lecture","press":false,
 "country":"Россия","country_en":"Russia","city":"","city_en":"","venue":"","address":"",
 "start":"YYYY-MM-DD","end":"YYYY-MM-DD|null","time":"HH:MM|null","tz":"IANA, напр. Europe/Moscow",
-"tba":false,"festival":null,"desc":"","desc_en":"","importance":3,"src_index":0,"url":null}}
+"tba":false,"festival":null,"desc":"","desc_en":"","importance":3,"src_index":0,"url":null,"date_quote":""}}
 
 Фрагменты:
 {chunks}
@@ -482,8 +553,15 @@ def extract(items, region, done=None):
             log("  ! LLM:", e)
             res = []
         for ev in res:
+            if not isinstance(ev, dict):
+                continue
             i = ev.get("src_index")
-            src = batch[i] if isinstance(i, int) and 0 <= i < len(batch) else batch[0]
+            if not isinstance(i, int) or not 0 <= i < len(batch):
+                continue
+            src = batch[i]
+            if not source_confirms_date(ev, src):
+                continue
+            ev.pop("date_quote", None)
             ev["src"] = ev.get("url") or src["url"]
             ev["srcName"] = src["srcName"]
             ev["tg"] = src["key"].startswith("tg:")
@@ -506,24 +584,17 @@ def valid(ev):
         ev["cat"] = "club"
     elif is_soundart(ev):
         ev["cat"] = "soundart"
-    if ev.get("cat") not in CATS or not ev.get("title") or not ev.get("city"):
-        return False
-    s, e = pdate(ev.get("start")), pdate(ev.get("end"))
-    if ev.get("tba"):
-        return bool(re.fullmatch(r"\d{4}-\d{2}", str(ev.get("start") or "")))
-    if not s:
-        return False
-    last = e or s
-    return last >= TODAY and s <= TODAY + dt.timedelta(days=400)
+    return bool(ev.get("cat") in CATS and ev.get("title") and ev.get("city")
+                and not outside_scope(ev) and current_event(ev))
 
 
 def merge(master, new):
-    index = {(norm_title(e["title"]), e.get("city")): e for e in master}
+    index = {(norm_title(e["title"]), e.get("city"), (e.get("start") or "")[:4]): e for e in master}
     added = 0
     for ev in new:
         if not valid(ev):
             continue
-        k = (norm_title(ev["title"]), ev.get("city"))
+        k = (norm_title(ev["title"]), ev.get("city"), ev["start"][:4])
         old = index.get(k) or next((x for x in master if same_event(x, ev)), None)
         if old is not None:
             for f in ("end", "time", "address", "venue", "desc_en", "title_en", "who"):
@@ -777,7 +848,7 @@ def translate_missing(master, limit=120):
 
 TIME_CATS = ("music", "soundart", "club", "theatre", "performance", "lecture", "cinema", "media")
 TIMES_PROMPT = """Сегодня {today}. Для каждого события ниже найди в интернете (сайт площадки, билетные сервисы, Telegram)
-ТОЧНОЕ время начала по местному времени. Если показов несколько в разные дни — время первого показа и, если у
+ТОЧНОЕ время начала по местному времени. Сверь полную дату, включая год; совпадения с прошлогодними показами пропускай. Если показов несколько в разные дни — время первого показа и, если у
 других дней время другое, перечисли их в "times" как {{"YYYY-MM-DD":"HH:MM"}}. Для выставок — время открытия
 вернисажа в день открытия, если оно есть, иначе null. Не выдумывай: если не нашёл точно — "time": null.
 Верни ТОЛЬКО JSON-объект вида {{"<id>": {{"time": "HH:MM"|null, "times": {{}}, "source": "url"}}}}.
@@ -866,7 +937,7 @@ def fill_times(master, limit=72):
 FEST_PROMPT = """Сегодня {today}. Найди в интернете (официальный сайт, билетные сервисы, Telegram) ПРОГРАММУ события:
 {item}
 Верни ОТДЕЛЬНОЕ событие на каждый концерт / спектакль / показ / лекцию / выставку программы, которые проходят
-не раньше {today}: свои дата, время начала, площадка. Не выдумывай: включай только то, что нашёл.
+не раньше {today}: свои дата, время начала, площадка. Сверь год и даты с периодом именно этой редакции фестиваля. Исключай йогу, медитацию, ретриты и другие занятия без прямой связи с искусством. Не выдумывай: включай только то, что нашёл.
 Если программы нет — верни []. Верни ТОЛЬКО JSON-массив:
 [{{"title":"","title_en":"","who":"","cat":"music|soundart|club|media|gallery|performance|fair|theatre|biennial|cinema|lecture",
 "venue":"","address":"","start":"YYYY-MM-DD","time":"HH:MM|null","desc":"","desc_en":"","url":null}}]"""
@@ -895,8 +966,12 @@ def expand_festivals(master, limit=8):
             subs = []
         tried.add(parent["id"])
         kids = []
+        first, last = event_dates(parent)
         for k in subs if isinstance(subs, list) else []:
-            if not isinstance(k, dict) or not k.get("title") or not pdate(k.get("start")):
+            if not isinstance(k, dict) or not k.get("title"):
+                continue
+            day = pdate(k.get("start"))
+            if not day or not first or not last or not first <= day <= last:
                 continue
             ev = {"title": k["title"], "title_en": k.get("title_en") or "", "who": k.get("who") or "",
                   "cat": k.get("cat") if k.get("cat") in CATS else parent.get("cat"),
@@ -942,10 +1017,7 @@ def build():
     base_url = os.environ.get("SITE_URL", "")
     live = []
     for ev in master:
-        if ev["id"] in hidden:
-            continue
-        last = pdate(ev.get("end")) or pdate(ev.get("start"))
-        if ev.get("tba") or (last and last >= TODAY):
+        if ev["id"] not in hidden and not outside_scope(ev) and current_event(ev):
             live.append(ev)
     if os.environ.get("AFISHA_IMAGES", "1") == "1":
         fetch_images(live)
