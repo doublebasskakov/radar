@@ -7,8 +7,55 @@ X-WR-CALNAME:Радар — Мир / World · country-uae
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:poetfest-dubai-concert-and-competition-dubai@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART:20261127T140000Z
+DTEND:20261127T160000Z
+SUMMARY:Конкурс-концерт Poetfest.Dubai
+LOCATION:Mazaya Business Avenue\, Tower BB1\, 20 этаж\, JLT\, Дуб
+ ай\, ОАЭ
+DESCRIPTION:Интерактивный вечер-конкурс\, объ
+ единяющий поэзию\, вокал\, живую музыку и
+  выставку работ художников в русскоязыч
+ ном сообществе Дубая.\nПоэты\, чтецы\, пев
+ цы\, музыканты и художники\nhttps://t.me/uaeeventsca
+ lendar/2392
+URL:https://doublebasskakov.github.io/radar/#e=poetfest-dubai-concert-and
+ -competition-dubai
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Конкурс-концерт Poetfest.Dubai
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sharjah-biennial-17@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART;VALUE=DATE:20270121
+DTEND;VALUE=DATE:20270122
+SUMMARY:Открытие: Sharjah Biennial 17: What remains\, sits restiv
+ e
+LOCATION:Sharjah Art Foundation и площадки эмирата\, Shar
+ jah\, Шарджа\, ОАЭ
+DESCRIPTION:17-я Шарджинская биеннале — одна и
+ з главных выставок Ближнего Востока\; од
+ ин из кураторов — армянский историк иск
+ усства Анжела Арутюнян. Программа откры
+ тия 21–24 января\, March Meeting — 19–21 марта.\nКу
+ раторы Анжела Арутюнян и Паула Нашсимен
+ ту\nhttps://www.e-flux.com/announcements/6787977/sharjah-biennial-17-op
+ ening-week-highlights-and-march-meeting-2027
+URL:https://doublebasskakov.github.io/radar/#e=sharjah-biennial-17
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Sharjah Biennial 17: What remains\, sits re
+ stive
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:guggenheim-abu-dhabi-opening@afisha-art
-DTSTAMP:20261126T011128Z
+DTSTAMP:20261126T011333Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:Открытие Guggenheim Abu Dhabi
@@ -29,8 +76,47 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:blockchain-life-2026-forum-dubai@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261203
+SUMMARY:Форум Blockchain Life 2026
+LOCATION:Дубай\, Дубай\, ОАЭ
+DESCRIPTION:Международный форум\, посвященны
+ й криптовалютам\, цифровой экономике и п
+ рактическому применению искусственног
+ о интеллекта.\nСпикеры мирового уровня\nh
+ ttps://blockchain-life.com
+URL:https://doublebasskakov.github.io/radar/#e=blockchain-life-2026-forum
+ -dubai
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Форум Blockchain Life 2026
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:salon-du-chocolat-dubai@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261203
+SUMMARY:Salon du Chocolat
+LOCATION:Madinat Jumeirah\, Дубай\, ОАЭ
+DESCRIPTION:Ежегодная выставка международно
+ й шоколадной промышленности\, объединяю
+ щая сотни брендов\, шеф-кондитеров и ори
+ гинальные показы платьев из шоколада.\n\n
+ https://t.me/dubai_afisha/931
+URL:https://doublebasskakov.github.io/radar/#e=salon-du-chocolat-dubai
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Salon du Chocolat
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:louvre-abu-dhabi-art-here-2026@afisha-art
-DTSTAMP:20261126T011128Z
+DTSTAMP:20261126T011333Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 SUMMARY:Последний день: Art Here 2026: Confluences
@@ -46,6 +132,42 @@ URL:https://doublebasskakov.github.io/radar/#e=louvre-abu-dhabi-art-here-
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Последний день: Art Here 2026: Confluences
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:art-dubai-2027@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART;VALUE=DATE:20270407
+DTEND;VALUE=DATE:20270412
+SUMMARY:Art Dubai 2027
+LOCATION:Madinat Jumeirah\, Дубай\, ОАЭ
+DESCRIPTION:Главная ярмарка Ближнего Востока
+  и Южной Азии с секциями современного\, м
+ одернистского и цифрового искусства.\n\nh
+ ttps://artdubai.ae/art-dubai-fair/
+URL:https://doublebasskakov.github.io/radar/#e=art-dubai-2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Art Dubai 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sawt-al-sahel-november-28-sharjah@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Sawt Al Sahel (28 ноября)
+LOCATION:Sharjah Art Foundation\, Шарджа\, ОАЭ
+DESCRIPTION:Второй концертный вечер серии Sawt 
+ Al Sahel от SAF Radio.\nSAF Radio\nhttps://www.sharjahart.org/en/whats-
+ on/details/sawt-al-sahel
+URL:https://doublebasskakov.github.io/radar/#e=sawt-al-sahel-november-28-
+ sharjah
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sawt Al Sahel (28 ноября)
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

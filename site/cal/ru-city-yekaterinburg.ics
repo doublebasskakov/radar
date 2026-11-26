@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:ekb-masm-kontrapunkt-epokh@afisha-art
-DTSTAMP:20261126T011128Z
+DTSTAMP:20261126T011333Z
 DTSTART:20261127T140000Z
 DTEND:20261127T160000Z
 SUMMARY:МАСМ. «Контрапункт эпох»
@@ -28,7 +28,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:multimedia-exhibition-pushkin-alive-yekaterinbur@afisha-art
-DTSTAMP:20261126T011128Z
+DTSTAMP:20261126T011333Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Последний день: Мультимедийная выс
@@ -51,9 +51,55 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:exhibition-concerto-grosso-artist-alexey-lebedev-yekaterinbur@afisha-
+ art
+DTSTAMP:20261126T011333Z
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+SUMMARY:Последний день: Выставка «Concerto Grosso. 
+ Художник Алексей Лебедев»
+LOCATION:Екатеринбургский музей изобразите
+ льных искусств\, Екатеринбург
+DESCRIPTION:Первая крупная ретроспектива све
+ рдловского художника Алексея Лебедева\,
+  знакомящая с его живописным и графичес
+ ким наследием.\nАлексей Лебедев\nhttps://ekb.ku
+ dago.com/event/vyistavka-concerto-grosso-hudozhnik-aleksej-lebedev/
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-concerto-grosso
+ -artist-alexey-lebedev-yekaterinbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Выставка «Concerto Gros
+ so. Художник Алексей Лебедев»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:performance-gadgets-in-our-life-yekaterinbur@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Перформанс «Гаджеты в нашей жизни»
+LOCATION:Музей Андеграунда\, ул. Добролюбова
+ \, 4\, Екатеринбург
+DESCRIPTION:Интерактивный плейбэк-спектакль\
+ , в котором актеры импровизируют и превр
+ ащают личные истории зрителей о гаджета
+ х в сценки.\nПлейбэк-театр «Отражение»\nht
+ tps://t.me/undergroundmuseum_ekb/5295
+URL:https://doublebasskakov.github.io/radar/#e=performance-gadgets-in-our
+ -life-yekaterinbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Перформанс «Гаджеты в нашей жизн
+ и»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:public-talk-how-contemporary-art-can-be-independent-yekaterinbur@afis
  ha-art
-DTSTAMP:20261126T011128Z
+DTSTAMP:20261126T011333Z
 DTSTART:20261127T120000Z
 DTEND:20261127T140000Z
 SUMMARY:Публичный разговор «Как современно
@@ -75,9 +121,354 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:lecture-by-evgeny-danchenko-neural-network-cinema-from-a-fan-yekateri
+ nbur@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:Лекция Евгения Данченко «Нейросете
+ вое кино: от фантастической идеи до боль
+ шого экрана»
+LOCATION:Эрмитаж-Урал / Подземный музей\, Ека
+ теринбург
+DESCRIPTION:Лекция основателя Ассоциации Ней
+ рокреаторов о создании контента с помощ
+ ью нейросетей в рамках фестиваля «КиноП
+ роба».\nЕвгений Данченко\nhttps://t.me/undergroundmus
+ eum_ekb/5345
+URL:https://doublebasskakov.github.io/radar/#e=lecture-by-evgeny-danchenk
+ o-neural-network-cinema-from-a-fan-yekaterinbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекция Евгения Данченко «Нейросе
+ тевое кино: от фантастической идеи до бо
+ льшого экрана»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:exhibition-post-sverdlovsk-photography-of-the-early-1990s-yekaterinbu
+ r@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:Последний день: Выставка «Пост-Свер
+ дловск: фотография начала 1990-х годов»
+LOCATION:Музей «Дом Метенкова»\, Екатеринбу
+ рг
+DESCRIPTION:Фотографическая выставка докуме
+ нтальных кадров и архивных свидетельст
+ в эпохи перемен первых лет после распад
+ а СССР.\n\nhttps://ekb.kudago.com/event/vyistavka-post-sverdlovsk-fo
+ tografiya-nachala-1990-h-godov/
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-post-sverdlovsk
+ -photography-of-the-early-1990s-yekaterinbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Выставка «Пост-Св
+ ердловск: фотография начала 1990-х годов»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lecture-agatha-christie-and-other-rock-detectives-yekaterinbur@afisha
+ -art
+DTSTAMP:20261126T011333Z
+DTSTART:20261201T160000Z
+DTEND:20261201T180000Z
+SUMMARY:Лекция «„Агата Кристи“ и другие ро
+ к-детективы»
+LOCATION:Музей андеграунда\, Екатеринбург
+DESCRIPTION:Дизайнер Александр Коротич расск
+ ажет об истории создания обложек альбом
+ ов рок-групп Свердловского рок-клуба.\nА
+ лександр Коротич\nhttps://t.me/undergroundmuseum_ekb/5330
+URL:https://doublebasskakov.github.io/radar/#e=lecture-agatha-christie-an
+ d-other-rock-detectives-yekaterinbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекция «„Агата Кристи“ и другие 
+ рок-детективы»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lecture-by-masha-ryba-soviet-fashion-of-the-nep-era-yekaterinbur@afis
+ ha-art
+DTSTAMP:20261126T011333Z
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+SUMMARY:Лекция Маши Рыбы «Советская мода эп
+ охи Нэпа»
+LOCATION:Ньютон / Подземный музей\, Екатерин
+ бург
+DESCRIPTION:Культурологическая лекция об эво
+ люции и стиле советской моды времен нов
+ ой экономической политики.\nМаша Рыба\nhtt
+ ps://t.me/undergroundmuseum_ekb/5289
+URL:https://doublebasskakov.github.io/radar/#e=lecture-by-masha-ryba-sovi
+ et-fashion-of-the-nep-era-yekaterinbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекция Маши Рыбы «Советская мода 
+ эпохи Нэпа»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:message-to-man-festival-echo-program-screenings-in-yekaterin-yekateri
+ nbur@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Последний день: Фестиваль «Послани
+ е к человеку»: показы программы «Эхо» в 
+ Екатеринбурге
+LOCATION:Музей Ельцин Центр\, Екатеринбург
+DESCRIPTION:Показы избранных фильмов из конк
+ урсных программ фестиваля «Послание к ч
+ еловеку» в Екатеринбурге.\nЕльцин Центр\
+ , Дом кино\nhttps://t.me/message2man/2821
+URL:https://doublebasskakov.github.io/radar/#e=message-to-man-festival-ec
+ ho-program-screenings-in-yekaterin-yekaterinbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Фестиваль «Посла
+ ние к человеку»: показы программы «Эхо» 
+ в Екатеринбурге
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lecture-city-from-within-from-everyday-life-to-activism-yekaterinbur@
+ afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Лекция «Город изнутри: от повседнев
+ ности к активизму»
+LOCATION:Ельцин Центр\, Екатеринбург
+DESCRIPTION:Социолог Пётр Иванов расскажет о 
+ методах исследования повседневного опы
+ та горожан и том\, как эти знания помогаю
+ т менять городскую среду и развивать ло
+ кальный активизм.\nПётр Иванов\nhttps://t.me/yel
+ tsincenter/10213
+URL:https://doublebasskakov.github.io/radar/#e=lecture-city-from-within-f
+ rom-everyday-life-to-activism-yekaterinbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекция «Город изнутри: от повседн
+ евности к активизму»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:igor-gavrilov-staff-hunger-yekaterinbur@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Открытие: Игорь Гаврилов. «Кадровый
+  голод»
+LOCATION:Ельцин Центр\, ул. Бориса Ельцина\, 3\
+ , Екатеринбург
+DESCRIPTION:Выставка работ лауреата World Press Phot
+ o Игоря Гаврилова\, представляющая его у
+ никальный взгляд на документальную фот
+ ографию и российскую действительность.\
+ nИгорь Гаврилов\nhttps://t.me/yeltsincenter/10224
+URL:https://doublebasskakov.github.io/radar/#e=igor-gavrilov-staff-hunger
+ -yekaterinbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Игорь Гаврилов. «Кадров
+ ый голод»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:thanks-to-everyone-yekaterinbur@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:Последний день: Спасибо всем!
+LOCATION:Музей Андеграунда\, Екатеринбург
+DESCRIPTION:Ретроспективная выставка уральс
+ кого художника Альберта Сайфулина\, пре
+ дставляющая его живописные работы\, объ
+ екты из дерева и архивные семейные фото
+ графии.\nАльберт Сайфулин\nhttps://t.me/undergroundm
+ useum_ekb/5311
+URL:https://doublebasskakov.github.io/radar/#e=thanks-to-everyone-yekater
+ inbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Спасибо всем!
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:exhibition-thing-not-in-itself-sands-and-winds-yekaterinbur@afisha-ar
+ t
+DTSTAMP:20261126T011333Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Последний день: Выставка «Вещь не в 
+ себе: пески и ветры»
+LOCATION:Музей истории и археологии Среднег
+ о Урала\, Екатеринбург
+DESCRIPTION:Художественный проект\, в рамках 
+ которого устаревшие бытовые предметы и 
+ витражные журнальные обложки переосмыс
+ ляются как арт-объекты.\n\nhttps://ekb.kudago.com/even
+ t/vyistavka-vesch-ne-v-sebe-peski-i-vetryi/
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-thing-not-in-it
+ self-sands-and-winds-yekaterinbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Выставка «Вещь не
+  в себе: пески и ветры»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:the-mystery-of-the-ipatiev-house-guided-investigation-yekaterinbur@af
+ isha-art
+DTSTAMP:20261126T011333Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Экскурсия-расследование «Тайна дом
+ а Ипатьева»
+LOCATION:Ельцин Центр\, Екатеринбург
+DESCRIPTION:Кураторский маршрут по Музею Б.Н. 
+ Ельцина\, посвященный историческим свид
+ етельствам\, расследованию и фактам гиб
+ ели царской семьи.\n\nhttps://t.me/yeltsincenter/10214
+URL:https://doublebasskakov.github.io/radar/#e=the-mystery-of-the-ipatiev
+ -house-guided-investigation-yekaterinbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Экскурсия-расследование «Тайна д
+ ома Ипатьева»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lecture-from-sherlock-holmes-to-miss-marple-the-formula-of-t-yekateri
+ nbur@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Лекция «От Шерлока Холмса до мисс М
+ арпл: формула британского детектива»
+LOCATION:Ельцин Центр\, Екатеринбург
+DESCRIPTION:Лекция кандидата филологических 
+ наук Нины Щербак об эволюции классическ
+ ого британского детектива от Конан Дойл
+ а до Агаты Кристи.\nНина Щербак\nhttps://t.me/yel
+ tsincenter/10221
+URL:https://doublebasskakov.github.io/radar/#e=lecture-from-sherlock-holm
+ es-to-miss-marple-the-formula-of-t-yekaterinbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекция «От Шерлока Холмса до мисс
+  Марпл: формула британского детектива»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lecture-a-moment-before-the-freeze-literary-freedom-of-the-1-yekateri
+ nbur@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Лекция «За мгновение до заморозков:
+  литературная свобода 1920-х»
+LOCATION:Ельцин Центр\, Екатеринбург
+DESCRIPTION:Лекция кандидата филологических 
+ наук Марии Граматчиковой о расцвете лит
+ ературных экспериментов и цензуре в ССС
+ Р 1920-х годов.\nМария Граматчикова\nhttps://t.me
+ /yeltsincenter/10209
+URL:https://doublebasskakov.github.io/radar/#e=lecture-a-moment-before-th
+ e-freeze-literary-freedom-of-the-1-yekaterinbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекция «За мгновение до заморозк
+ ов: литературная свобода 1920-х»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:all-inclusive-yekaterinbur@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:ВСЁ ВКЛЮЧЕНО
+LOCATION:Ural Vision Gallery\, ул. Шейнкмана\, 10\, Екате
+ ринбург
+DESCRIPTION:Выставка знаковых представителе
+ й новой российской фигуративной живопи
+ си\, исследующих современное общество п
+ отребления.\nЕкатерина и Игорь Пестовы\nh
+ ttps://t.me/uralvisionchannel/1031
+URL:https://doublebasskakov.github.io/radar/#e=all-inclusive-yekaterinbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ВСЁ ВКЛЮЧЕНО
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:masha-godovannaya-s-essay-film-the-bald-man-s-curlers-yekaterinbur@af
+ isha-art
+DTSTAMP:20261126T011333Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Фильм-эссе Маши Годованной «Бигуди 
+ лысого человека»
+LOCATION:Екатеринбург
+DESCRIPTION:Бесплатный показ документальног
+ о фильма-эссе о Георгии Милляре в рамках
+  программы фестиваля «Послание к челове
+ ку».\nМаша Годованная\nhttps://t.me/message2man/2883
+URL:https://doublebasskakov.github.io/radar/#e=masha-godovannaya-s-essay-
+ film-the-bald-man-s-curlers-yekaterinbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Фильм-эссе Маши Годованной «Бигу
+ ди лысого человека»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ekb-yeltsin-atrium-art-object-2026@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART;VALUE=DATE:20261226
+DTEND;VALUE=DATE:20261227
+SUMMARY:Новогодний арт-объект в атриуме Ель
+ цин Центра
+LOCATION:Ельцин Центр\, атриум\, Екатеринбур
+ г
+DESCRIPTION:Многочастная подвесная инсталля
+ ция\, созданная группой художников для н
+ овогодней программы «Открываем новое».\
+ nСемь художников (в т.ч. участники инклюз
+ ивной лаборатории) и куратор\nhttps://globalcity.
+ info/news/11/11/2026/73322
+URL:https://doublebasskakov.github.io/radar/#e=ekb-yeltsin-atrium-art-obj
+ ect-2026
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Новогодний арт-объект в атриуме Е
+ льцин Центра
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:theatrehd-screening-robert-wilson-s-pushkin-s-fairy-tales-yekaterinbu
  r@afisha-art
-DTSTAMP:20261126T011128Z
+DTSTAMP:20261126T011333Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Кинопоказ спектакля Роберта Уилсон
@@ -93,6 +484,199 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Кинопоказ спектакля Роберта Уилс
  она «Сказки Пушкина»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:discussion-reading-and-discussing-yevgeny-zamyatin-s-dystopi-yekateri
+ nbur@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Дискуссия «Читаем и обсуждаем анти
+ утопию Евгения Замятина «Мы»»
+LOCATION:Ельцин Центр\, ул. Бориса Ельцина\, 3\
+ , Екатеринбург
+DESCRIPTION:Свободная беседа филолога\, истор
+ ика и философа без модератора вокруг см
+ ыслов и проблематики романа «Мы».\nЕлена
+  Козьмина\, Валерия Бармина\, Светлана Юр
+ лова\nhttps://t.me/yeltsincenter/10205
+URL:https://doublebasskakov.github.io/radar/#e=discussion-reading-and-dis
+ cussing-yevgeny-zamyatin-s-dystopi-yekaterinbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Дискуссия «Читаем и обсуждаем ан
+ тиутопию Евгения Замятина «Мы»»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:course-effective-workshop-yekaterinbur@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Курс «ЭФФЕКТивная мастерская»
+LOCATION:Ельцин Центр\, Екатеринбург
+DESCRIPTION:Психологический интенсив для под
+ ростков по изучению когнитивных искаже
+ ний и механизмов мышления.\nТатьяна Носк
+ ова\, Мария Зубарева\nhttps://t.me/yeltsincenter/10222
+URL:https://doublebasskakov.github.io/radar/#e=course-effective-workshop-
+ yekaterinbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Курс «ЭФФЕКТивная мастерская»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:screening-jim-jarmusch-s-paterson-yekaterinbur@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:Последний день: Показ фильма «Патер
+ сон» Джима Джармуша
+LOCATION:Ельцин Центр\, Екатеринбург
+DESCRIPTION:Ретроспективные показы поэтично
+ й драмы Джима Джармуша.\nДжим Джармуш\nhttp
+ s://t.me/yeltsincenter/10195
+URL:https://doublebasskakov.github.io/radar/#e=screening-jim-jarmusch-s-p
+ aterson-yekaterinbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Показ фильма «Пат
+ ерсон» Джима Джармуша
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:documentary-seeing-all-yekaterinbur@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:Последний день: Документальный фил
+ ьм «Увидеть всё»
+LOCATION:Ельцин Центр\, Екатеринбург
+DESCRIPTION:Показ документального расследов
+ ания о крупнейшем мошенничестве в Кремн
+ иевой долине.\n\nhttps://t.me/yeltsincenter/10195
+URL:https://doublebasskakov.github.io/radar/#e=documentary-seeing-all-yek
+ aterinbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Документальный ф
+ ильм «Увидеть всё»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:screening-first-cow-yekaterinbur@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Показ фильма «Первая корова»
+LOCATION:Ельцин Центр\, Екатеринбург
+DESCRIPTION:Показ исторической драмы Келли Р
+ айхардт о дружбе на американском Диком 
+ Западе.\nКелли Райхардт\nhttps://t.me/yeltsincenter/10
+ 195
+URL:https://doublebasskakov.github.io/radar/#e=screening-first-cow-yekate
+ rinbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильма «Первая корова»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:screening-food-inc-2-yekaterinbur@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Показ фильма «Корпорация „Еда“ - 2»
+LOCATION:Ельцин Центр\, Екатеринбург
+DESCRIPTION:Документальное расследование о п
+ роблемах современной пищевой индустрии
+ .\n\nhttps://t.me/yeltsincenter/10195
+URL:https://doublebasskakov.github.io/radar/#e=screening-food-inc-2-yekat
+ erinbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильма «Корпорация „Еда“ -
+  2»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:screening-minari-yekaterinbur@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Показ фильма «Минари»
+LOCATION:Ельцин Центр\, Екатеринбург
+DESCRIPTION:Показ оскароносной драмы о жизни 
+ семьи корейских иммигрантов в США.\n\nhttps:
+ //t.me/yeltsincenter/10195
+URL:https://doublebasskakov.github.io/radar/#e=screening-minari-yekaterin
+ bur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильма «Минари»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:screening-toni-yekaterinbur@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Показ фильма «Тони»
+LOCATION:Ельцин Центр\, Екатеринбург
+DESCRIPTION:Показ кинокартины о жизни и работ
+ е легендарного шеф-повара.\n\nhttps://t.me/yeltsinc
+ enter/10195
+URL:https://doublebasskakov.github.io/radar/#e=screening-toni-yekaterinbu
+ r
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильма «Тони»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:screening-boiling-point-yekaterinbur@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Показ фильма «Точка кипения»
+LOCATION:Ельцин Центр\, Екатеринбург
+DESCRIPTION:Показ напряженной ресторанной др
+ амы\, снятой одним дублем.\n\nhttps://t.me/yeltsincen
+ ter/10195
+URL:https://doublebasskakov.github.io/radar/#e=screening-boiling-point-ye
+ katerinbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильма «Точка кипения»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:screening-train-to-busan-yekaterinbur@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261127
+SUMMARY:Показ фильма ужасов «Поезд в Пусан»
+LOCATION:Ельцин Центр\, Екатеринбург
+DESCRIPTION:Показы южнокорейского зомби-хорр
+ ора.\n\nhttps://t.me/yeltsincenter/10195
+URL:https://doublebasskakov.github.io/radar/#e=screening-train-to-busan-y
+ ekaterinbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ фильма ужасов «Поезд в Пуса
+ н»
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

@@ -7,8 +7,31 @@ X-WR-CALNAME:Радар — Россия · city-vladimir
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:installation-by-artem-filatov-elephant-in-a-china-shop-vladimir@afish
+ a-art
+DTSTAMP:20261126T011333Z
+DTSTART:20261128T070000Z
+DTEND:20261128T090000Z
+SUMMARY:Открытие: Инсталляция Артема Филат
+ ова «Слон в посудной лавке?»
+LOCATION:Музейный центр «Палаты»\, Владимир\
+ , ул. Большая Московская\, 58\, Владимир
+DESCRIPTION:Инсталляция об усадьбе Муромцево
+ \, представленная в зале русского усадеб
+ ного портрета.\nАртем Филатов\nhttps://t.me/artgu
+ ide_com/9148
+URL:https://doublebasskakov.github.io/radar/#e=installation-by-artem-fila
+ tov-elephant-in-a-china-shop-vladimir
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Инсталляция Артема Фил
+ атова «Слон в посудной лавке?»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:sound-installation-by-alina-gutkina-vladimir@afisha-art
-DTSTAMP:20261126T011128Z
+DTSTAMP:20261126T011333Z
 DTSTART:20261128T070000Z
 DTEND:20261128T090000Z
 SUMMARY:Открытие: Звуковая инсталляция Али
@@ -30,7 +53,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:lecture-algorithms-and-the-contemporary-visual-environment-vladimir@a
  fisha-art
-DTSTAMP:20261126T011128Z
+DTSTAMP:20261126T011333Z
 DTSTART:20261128T140000Z
 DTEND:20261128T160000Z
 SUMMARY:Лекция «Алгоритмы и современная ви
@@ -46,6 +69,30 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Лекция «Алгоритмы и современная 
  визуальная среда»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:exhibition-of-sandro-botticelli-s-madonna-and-child-with-a-p-vladimir
+ @afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART;VALUE=DATE:20261226
+DTEND;VALUE=DATE:20261227
+SUMMARY:Открытие: Показ картины Сандро Ботт
+ ичелли «Мадонна с Младенцем\, держащим г
+ ранат» в Музее «Палаты»
+LOCATION:Музейный центр «Палаты»\, Владимир
+DESCRIPTION:Выставка реставрированного шеде
+ вра Сандро Боттичелли из коллекции Пушк
+ инского музея.\nСандро Боттичелли\nhttps://t.
+ me/theartsmuseum/12608
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-of-sandro-botti
+ celli-s-madonna-and-child-with-a-p-vladimir
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: Показ картины Сандро Бо
+ ттичелли «Мадонна с Младенцем\, держащи
+ м гранат» в Музее «Палаты»
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

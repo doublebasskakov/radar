@@ -7,8 +7,72 @@ X-WR-CALNAME:Радар — Мир / World · cat-club
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:intertronika-festival-workshops-live-concert-and-club-night-hamburg@a
+ fisha-art
+DTSTAMP:20261126T011333Z
+DTSTART:20261205T193000Z
+DTEND:20261205T213000Z
+SUMMARY:Фестиваль Intertronika: воркшопы\, лайв-ко
+ нцерт и клубная ночь
+LOCATION:Fabrique\, Gänsemarkt\, Hamburg\, Гамбург\, Герма
+ ния
+DESCRIPTION:Мультидисциплинарное событие к п
+ ятилетию проекта объединяет дневные во
+ ркшопы\, живое выступление и масштабную 
+ клубную ночь.\nChocks и др.\nhttps://www.instagram.com/inte
+ rtronika/
+URL:https://doublebasskakov.github.io/radar/#e=intertronika-festival-work
+ shops-live-concert-and-club-night-hamburg
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Фестиваль Intertronika: воркшопы\, лайв-
+ концерт и клубная ночь
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:tselinny-after-hours-evening-programme-almaty@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART:20261128T140000Z
+DTEND:20261128T160000Z
+SUMMARY:Вечерняя программа Tselinny After Hours
+LOCATION:Центр современной культуры «Целин
+ ный»\, Алматы\, Казахстан
+DESCRIPTION:Вечерняя программа с диджей-сета
+ ми от Nazira\, E.T. и krutoymartyn в рамках ежемесяч
+ ного бесплатного вечера в центре.\nNazira\, E
+ .T.\, krutoymartyn\nhttps://t.me/tselinnycenter/1864
+URL:https://doublebasskakov.github.io/radar/#e=tselinny-after-hours-eveni
+ ng-programme-almaty
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Вечерняя программа Tselinny After Hours
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:moonshine-x-ctm-berlin@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+SUMMARY:Moonshine x CTM
+LOCATION:Berghain/Panorama Bar\, Am Wriezener Bahnhof\, Берлин\, Г
+ ермания
+DESCRIPTION:Масштабная клубная ночь в рамках 
+ фестиваля CTM\, объединяющая электронную 
+ клубную культуру Африки и глобальной ди
+ аспоры.\nMoonshine\, Pierre Kwenders\, Blck Mamba\, San Farafina\, 
+ DJ P2N\, Hero.created\, NegoO\nhttps://www.ctm-festival.de/
+URL:https://doublebasskakov.github.io/radar/#e=moonshine-x-ctm-berlin
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Moonshine x CTM
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:glowball-x-ctm-berlin@afisha-art
-DTSTAMP:20261126T011128Z
+DTSTAMP:20261126T011333Z
 DTSTART;VALUE=DATE:20270129
 DTEND;VALUE=DATE:20270130
 SUMMARY:Glowball x CTM
@@ -27,8 +91,48 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:redo-rave-tbilisi@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:REDO RAVE
+LOCATION:Junkyard\, Тбилиси\, Грузия
+DESCRIPTION:Масштабный рейв в пространстве Jun
+ kyard с участием легендарной Лены Поповой 
+ и локальных артистов\, дополненный живы
+ м световым и лазерным перформансом.\nЛен
+ а Попова\, CHIN\, Mr. Chizh\, Nikusha Ten\nhttps://t.me/tbiraving/
+ 3572
+URL:https://doublebasskakov.github.io/radar/#e=redo-rave-tbilisi
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:REDO RAVE
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sonar-2027@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART;VALUE=DATE:20270617
+DTEND;VALUE=DATE:20270620
+SUMMARY:Sónar 2027
+LOCATION:Sónar by Day (набережная) и Sónar by Night (Fira Gr
+ an Via)\, Барселона\, Испания
+DESCRIPTION:Барселонский фестиваль продвину
+ той музыки и цифровой культуры возвраща
+ ется к формату «день/ночь»\; конференция
+  Sónar+D снова входит в дневную программу.\n
+ \nhttps://sonar.es/en/news/preventa-2027
+URL:https://doublebasskakov.github.io/radar/#e=sonar-2027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Sónar 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:berlin-atonal-2027@afisha-art
-DTSTAMP:20261126T011128Z
+DTSTAMP:20261126T011333Z
 DTSTART;VALUE=DATE:20270825
 DTEND;VALUE=DATE:20270830
 SUMMARY:Berlin Atonal 2027
@@ -42,6 +146,24 @@ URL:https://doublebasskakov.github.io/radar/#e=berlin-atonal-2027
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Berlin Atonal 2027
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sbpch-concert-in-berlin-berlin@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Концерт группы СБПЧ в Берлине
+LOCATION:Клуб Frannz\, Берлин\, Германия
+DESCRIPTION:Презентация нового танцевальног
+ о альбома известной группы СБПЧ на стык
+ е утренника и рейва.\nСБПЧ\nhttps://t.me/genau/2995
+URL:https://doublebasskakov.github.io/radar/#e=sbpch-concert-in-berlin-be
+ rlin
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт группы СБПЧ в Берлине
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

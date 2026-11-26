@@ -7,8 +7,26 @@ X-WR-CALNAME:Радар — Россия · city-kazan
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:kzn-mon-gastroli-kapital@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART:20261129T150000Z
+DTEND:20261129T170000Z
+SUMMARY:«Гастроли: Капитал»
+LOCATION:MOÑ\, ул. Пушкина\, 86\, Казань
+DESCRIPTION:Сценический пересказ «Капитала» 
+ Маркса — экономическая теория как мате
+ риал для театра.\nТеатральная площадка MO
+ Ñ\nhttps://entermedia.io/weekend/kuda-pojti-v-kazani-v-noyabre-2026/
+URL:https://doublebasskakov.github.io/radar/#e=kzn-mon-gastroli-kapital
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:«Гастроли: Капитал»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:exhibition-russian-avant-garde-transformation-kazan@afisha-art
-DTSTAMP:20261126T011128Z
+DTSTAMP:20261126T011333Z
 DTSTART:20260930T080000Z
 DTEND:20260930T100000Z
 SUMMARY:Открытие: Выставка «Русский аванга
@@ -30,7 +48,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:music-of-the-cosmos-kazan@afisha-art
-DTSTAMP:20261126T011128Z
+DTSTAMP:20261126T011333Z
 DTSTART:20261126T153000Z
 DTEND:20261126T173000Z
 SUMMARY:Музыка космоса
@@ -50,8 +68,49 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:exhibition-city-of-dropped-letters-kazan@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART:20261125T090000Z
+DTEND:20261125T110000Z
+SUMMARY:Выставка «Город выпавших букв»
+LOCATION:Галерея БИЗОН\, Казань
+DESCRIPTION:Экспозиция включает графическую 
+ работу «VIDEOGUMS»\, посвященную истокам вид
+ еоигр\, где зрителям предлагается пройт
+ и визуальный лабиринт из 42 зон.\nИван Язы
+ ков\nhttps://t.me/bizongallery/5323
+URL:https://doublebasskakov.github.io/radar/#e=exhibition-city-of-dropped
+ -letters-kazan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Выставка «Город выпавших букв»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lecture-urban-trashology-kazan@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART:20261128T120000Z
+DTEND:20261128T140000Z
+SUMMARY:Лекция «Городская мусорология»
+LOCATION:Книжный магазин «Смена»\, ул. Бурха
+ на Шахиди\, 7\, Казань
+DESCRIPTION:Экоактивист Чистомэн поделится о
+ пытом уборки в российских городах и рас
+ скажет о проблемах и перспективах перер
+ аботки отходов.\nАртур Сиразеев (Чистомэ
+ н)\nhttps://taplink.cc/ecosoo2026
+URL:https://doublebasskakov.github.io/radar/#e=lecture-urban-trashology-k
+ azan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекция «Городская мусорология»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:exhibition-so-different-and-yet-painting-kazan@afisha-art
-DTSTAMP:20261126T011128Z
+DTSTAMP:20261126T011333Z
 DTSTART:20260925T090000Z
 DTEND:20260925T110000Z
 SUMMARY:Открытие: Выставка «Такая разная... 
@@ -73,7 +132,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:animation-as-contemporary-art-screening-kazan@afisha-art
-DTSTAMP:20261126T011128Z
+DTSTAMP:20261126T011333Z
 DTSTART:20261126T153000Z
 DTEND:20261126T173000Z
 SUMMARY:Спецпоказ «Анимация как современно
@@ -94,8 +153,180 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:lecture-the-other-plasma-in-space-and-on-earth-kazan@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART:20261217T160000Z
+DTEND:20261217T180000Z
+SUMMARY:Лекция «Другая плазма: в космосе и н
+ а земле»
+LOCATION:Центр современной культуры «Смена
+ »\, ул. Бурхана Шахиди\, 7\, Казань
+DESCRIPTION:Научно-популярная лекция о свойс
+ твах плазмы и её роли в современной наук
+ е и космических исследованиях.\n\nhttps://s-m-e
+ -n-a.org/plany-na-dekabr-lekcii-i-festivali/
+URL:https://doublebasskakov.github.io/radar/#e=lecture-the-other-plasma-i
+ n-space-and-on-earth-kazan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекция «Другая плазма: в космосе 
+ и на земле»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lecture-tatar-fashion-or-tatar-style-in-the-19th-century-kazan@afisha
+ -art
+DTSTAMP:20261126T011333Z
+DTSTART:20261126T160000Z
+DTEND:20261126T180000Z
+SUMMARY:Лекция «Мода по-татарски или Tatar style 
+ в XIX веке»
+LOCATION:Центр современной культуры «Смена
+ »\, ул. Бурхана Шахиди\, 7\, Казань
+DESCRIPTION:Исследование традиционного тата
+ рского костюма и его влияния на моду поз
+ апрошлого века.\n\nhttps://s-m-e-n-a.org/plany-na-nojabr-lek
+ cii-i-kino/
+URL:https://doublebasskakov.github.io/radar/#e=lecture-tatar-fashion-or-t
+ atar-style-in-the-19th-century-kazan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекция «Мода по-татарски или Tatar st
+ yle в XIX веке»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lecture-warhammer-40k-universe-major-events-races-and-person-kazan@af
+ isha-art
+DTSTAMP:20261126T011333Z
+DTSTART:20270226T160000Z
+DTEND:20270226T180000Z
+SUMMARY:Лекция «Вселенная Warhammer 40k: основные
+  события\, расы и персоналии»
+LOCATION:Центр современной культуры «Смена
+ »\, ул. Бурхана Шахиди\, 7\, Казань
+DESCRIPTION:Вводная лекция в историю и мифоло
+ гию знаменитой научно-фантастической в
+ селенной.\n\nhttps://s-m-e-n-a.org/lekcija-vselennaja-warhammer-4
+ 0k/
+URL:https://doublebasskakov.github.io/radar/#e=lecture-warhammer-40k-univ
+ erse-major-events-races-and-person-kazan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекция «Вселенная Warhammer 40k: основн
+ ые события\, расы и персоналии»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:discussion-russian-film-festivals-in-the-context-of-the-worl-kazan@af
+ isha-art
+DTSTAMP:20261126T011333Z
+DTSTART:20261224T160000Z
+DTEND:20261224T180000Z
+SUMMARY:Дискуссия «Российские кинофестива
+ ли в контексте мировой индустрии»
+LOCATION:Центр современной культуры «Смена
+ »\, ул. Бурхана Шахиди\, 7\, Казань
+DESCRIPTION:Обсуждение роли и места отечеств
+ енных кинофестивалей в глобальном кино
+ процессе.\n\nhttps://s-m-e-n-a.org/plany-na-dekabr-lekcii-i-festi
+ vali/
+URL:https://doublebasskakov.github.io/radar/#e=discussion-russian-film-fe
+ stivals-in-the-context-of-the-worl-kazan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Дискуссия «Российские кинофести
+ вали в контексте мировой индустрии»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lecture-inside-battle-after-battle-kazan@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART:20261221T130000Z
+DTEND:20261221T150000Z
+SUMMARY:Лекция «Внутри "Битвы за битвой"»
+LOCATION:Центр современной культуры «Смена
+ »\, ул. Бурхана Шахиди\, 7\, Казань
+DESCRIPTION:Разбор художественных или истори
+ ческих контекстов проекта «Битва за бит
+ вой».\n\nhttps://s-m-e-n-a.org/plany-na-dekabr-lekcii-i-festivali/
+URL:https://doublebasskakov.github.io/radar/#e=lecture-inside-battle-afte
+ r-battle-kazan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекция «Внутри "Битвы за битвой"»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lecture-series-what-did-freud-say-kazan@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART:20261128T160000Z
+DTEND:20261128T180000Z
+SUMMARY:Лекторий «Что сказал Фрейд?»
+LOCATION:ЦСК «Смена»\, ул. Бурхана Шахиди\, 7\, 
+ Казань
+DESCRIPTION:Очередная лекция из психоаналити
+ ческого лектория в «Смене».\nЦСК «Смена»
+ \nhttps://s-m-e-n-a.org/lektorij-chto-skazal-frejd/
+URL:https://doublebasskakov.github.io/radar/#e=lecture-series-what-did-fr
+ eud-say-kazan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекторий «Что сказал Фрейд?»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kzn-smena-rabochaya-smena@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:Последний день: «Рабочая смена»
+LOCATION:Центр современной культуры «Смена
+ »\, Казань
+DESCRIPTION:Групповая выставка о серийном пр
+ оизводстве и переосмыслении труда — от 
+ ручного до машинного\; участники из Каза
+ ни\, Москвы\, Петербурга\, Краснодара\, Са
+ мары и Иваново.\nКураторы Артур Голяков\,
+  Сергей Гуськов\; Егор Живе\, Ваня Венмер\
+ , Зухра Салахова\, ORDO\, PLAGUE и др.\nhttps://entermedi
+ a.io/news/v-smene-otkroetsya-gruppovaya-vystavka-rabochaya-smena/
+URL:https://doublebasskakov.github.io/radar/#e=kzn-smena-rabochaya-smena
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: «Рабочая смена»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:smena-winter-book-fest@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261207
+SUMMARY:Зимний книжный фестиваль «Смены»
+LOCATION:Национальная библиотека Республик
+ и Татарстан\, ул. Бурхана Шахиди\, 7\, Каза
+ нь
+DESCRIPTION:Четырнадцатый фестиваль к 13-лети
+ ю «Смены»: книжная ярмарка и три паралле
+ льных лектория.\nЦентр современной куль
+ туры «Смена»\nhttps://t.me/ooosmenaknigi
+URL:https://doublebasskakov.github.io/radar/#e=smena-winter-book-fest
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Зимний книжный фестиваль «Смены»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:museum-about-love-kazan@afisha-art
-DTSTAMP:20261126T011128Z
+DTSTAMP:20261126T011333Z
 DTSTART;VALUE=DATE:20261230
 DTEND;VALUE=DATE:20261231
 SUMMARY:Последний день: Музей «Про любовь»
@@ -115,7 +346,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:about-love-museum-kazan-kazan@afisha-art
-DTSTAMP:20261126T011128Z
+DTSTAMP:20261126T011333Z
 DTSTART;VALUE=DATE:20261230
 DTEND;VALUE=DATE:20261231
 SUMMARY:Последний день: Музей «Про любовь» 
@@ -135,8 +366,93 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:light-shadow-kazan@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:Последний день: Свет/тень
+LOCATION:Галерея-мастерская Зайцева\, ул. Бу
+ рхана Шахиди\, 7\, Казань
+DESCRIPTION:Инсталляция\, работающая с простр
+ анством и визуальным восприятием света.
+ \nГалерея-мастерская Зайцева\nhttps://www.afisha.
+ ru/exhibition/svet-ten-1013773/
+URL:https://doublebasskakov.github.io/radar/#e=light-shadow-kazan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Свет/тень
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:criminal-ryazan-true-crime-promenade-kazan@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:Криминальная Рязань - трукрайм пром
+ енад
+LOCATION:Тайны Сююмбике\, Казань
+DESCRIPTION:Иммерсивная прогулка-спектакль в
+  жанре тру-крайм.\n\nhttps://www.afisha.ru/exhibition/krimin
+ alnaya-ryazan-trukraym-promenad-1011142/
+URL:https://doublebasskakov.github.io/radar/#e=criminal-ryazan-true-crime
+ -promenade-kazan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Криминальная Рязань - трукрайм пр
+ оменад
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:unusual-painting-unusual-graphics-kazan@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:Последний день: Необычная живопись.
+  Необычная графика
+LOCATION:Галерея-мастерская Зайцева\, Казан
+ ь
+DESCRIPTION:Экспозиция работ мастерской Зайц
+ ева\, демонстрирующая нестандартные под
+ ходы к традиционным техникам.\n\nhttps://www.afi
+ sha.ru/exhibition/masterskaya-zayceva-neobychnaya-zhivopis-neobychnaya-gr
+ afika-289346/
+URL:https://doublebasskakov.github.io/radar/#e=unusual-painting-unusual-g
+ raphics-kazan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Необычная живопи
+ сь. Необычная графика
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:zaitsev-workshop-unusual-painting-unusual-graphics-kazan@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:Последний день: Мастерская Зайцева.
+  Необычная живопись. Необычная графика
+LOCATION:Галерея-мастерская Зайцева\, ул. Бу
+ рхана Шахиди\, 7\, Казань
+DESCRIPTION:Выставка живописных и графически
+ х работ с применением нестандартных тех
+ ник.\n\nhttps://www.afisha.ru/exhibition/masterskaya-zayceva-neobychna
+ ya-zhivopis-neobychnaya-grafika-289346/
+URL:https://doublebasskakov.github.io/radar/#e=zaitsev-workshop-unusual-p
+ ainting-unusual-graphics-kazan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Мастерская Зайце
+ ва. Необычная живопись. Необычная графи
+ ка
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:magic-peresmenka-kazan@afisha-art
-DTSTAMP:20261126T011128Z
+DTSTAMP:20261126T011333Z
 DTSTART;VALUE=DATE:20270104
 DTEND;VALUE=DATE:20270109
 SUMMARY:Волшебная «Пересменка»

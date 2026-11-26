@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:ballets-pictures-at-an-exhibition-and-garage-moscow@afisha-art
-DTSTAMP:20261126T011128Z
+DTSTAMP:20261126T011333Z
 DTSTART:20261207T160000Z
 DTEND:20261207T180000Z
 SUMMARY:Балеты «Картинки с выставки» и «Гар
@@ -31,8 +31,32 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:performance-samostoyanye-by-nadin-zakharova-moscow@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART:20261130T090000Z
+DTEND:20261130T110000Z
+SUMMARY:Перформанс Надин Захаровой «САМОСТ
+ ОЯНЬЕ»
+LOCATION:Центр «Внутри»\, Хлебозавод №9\, Мос
+ ква
+DESCRIPTION:Восьмичасовое пластическое путе
+ шествие художницы в иммерсивной аудиов
+ изуальной среде\, созданной совместно с 
+ ЦЭАМ\, dreamlaser и Sila Sveta.\nНадин Захарова\, Ал
+ ександр Василенко\, Дмитрий Папиж\, dreamlase
+ r\, ЦЭАМ\, Sila Sveta\nhttps://t.me/generativegallery/4549
+URL:https://doublebasskakov.github.io/radar/#e=performance-samostoyanye-b
+ y-nadin-zakharova-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Перформанс Надин Захаровой «САМО
+ СТОЯНЬЕ»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:dafes-awards-show-2026-moscow@afisha-art
-DTSTAMP:20261126T011128Z
+DTSTAMP:20261126T011333Z
 DTSTART:20261126T160000Z
 DTEND:20261126T180000Z
 SUMMARY:Церемония и перформанс-шоу Dafes Awards 20
@@ -53,8 +77,52 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:demutsky-16@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART:20261126T150000Z
+DTEND:20261126T170000Z
+SUMMARY:16 фортепианных пьес
+LOCATION:Галерея «Коллектор» (бывший подзем
+ ный резервуар)\, м. «Пролетарская»\, Моск
+ ва
+DESCRIPTION:Музыкальный перформанс по мотива
+ м ренессансных гравюр I Modi: пианист игра
+ ет\, художник пишет красками прямо во вр
+ емя исполнения.\nИлья Демуцкий (музыка)\, 
+ Даниил Саямов\, Данила Поляков\, Павел Гл
+ ухов\nhttps://theblueprint.ru/news/42633
+URL:https://doublebasskakov.github.io/radar/#e=demutsky-16
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:16 фортепианных пьес
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:vosstanie-dance-performance-saint-peters@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART:20261207T170000Z
+DTEND:20261207T190000Z
+SUMMARY:«ВОССТАНИЕ» — танц-перформанс
+LOCATION:Новая сцена Александринского теат
+ ра\, наб. реки Фонтанки\, 49А\, Санкт-Петерб
+ ург
+DESCRIPTION:Танцевальный перформанс о сомати
+ ческой коллективности и телесном бунте 
+ против повседневности под живой саунд-д
+ изайн.\nАнтон Вдовиченко\nhttps://alexandrinsky.ru/af
+ isha-i-bilety/tants-performans-vosstanie-/
+URL:https://doublebasskakov.github.io/radar/#e=vosstanie-dance-performanc
+ e-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:«ВОССТАНИЕ» — танц-перформанс
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:petrushka-performance-saint-peters@afisha-art
-DTSTAMP:20261126T011128Z
+DTSTAMP:20261126T011333Z
 DTSTART:20261213T150000Z
 DTEND:20261213T170000Z
 SUMMARY:Спектакль Petrushka
@@ -74,7 +142,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:physical-performance-alone-with-myself-vyksa@afisha-art
-DTSTAMP:20261126T011128Z
+DTSTAMP:20261126T011333Z
 DTSTART:20261127T150000Z
 DTEND:20261127T170000Z
 SUMMARY:Пластический спектакль «Наедине с 
@@ -95,7 +163,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:two-against-one-dance-performance-evening-saint-peters@afisha-art
-DTSTAMP:20261126T011128Z
+DTSTAMP:20261126T011333Z
 DTSTART:20261215T163000Z
 DTEND:20261215T183000Z
 SUMMARY:Вечер танцевальных высказываний «Д
@@ -117,8 +185,306 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:savoy-art-dinner-century-of-maya-plisetskaya-moscow@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART:20261203T160000Z
+DTEND:20261203T180000Z
+SUMMARY:Арт-ужин Savoy: Век Майи Плисецкой
+LOCATION:Ресторан Savoy\, Москва
+DESCRIPTION:Тематический вечер с лекцией о ба
+ лерине Майе Плисецкой\, хореографически
+ м исполнением «Умирающего лебедя» и авт
+ орским сетом от шеф-повара.\nBallet-Forme\nhttps://
+ t.me/jewishmuseum/5798
+URL:https://doublebasskakov.github.io/radar/#e=savoy-art-dinner-century-o
+ f-maya-plisetskaya-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Арт-ужин Savoy: Век Майи Плисецкой
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dance-performance-copypaste-moscow@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART:20261128T173000Z
+DTEND:20261128T193000Z
+SUMMARY:Танцевальный перформанс «copypaste»
+LOCATION:Сдвиг\, Москва
+DESCRIPTION:Танцевальный перформанс Даши Пла
+ тоновой исследует темы тела как оригина
+ ла и копии через постоянное воспроизвед
+ ение и повтор формы.\nДаша Платонова\, Да
+ ша Чермянина\nhttps://sdvig-events.timepad.ru/event/4224825/
+URL:https://doublebasskakov.github.io/radar/#e=dance-performance-copypast
+ e-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Танцевальный перформанс «copypaste»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:performance-gadgets-in-our-life-yekaterinbur@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Перформанс «Гаджеты в нашей жизни»
+LOCATION:Музей Андеграунда\, ул. Добролюбова
+ \, 4\, Екатеринбург
+DESCRIPTION:Интерактивный плейбэк-спектакль\
+ , в котором актеры импровизируют и превр
+ ащают личные истории зрителей о гаджета
+ х в сценки.\nПлейбэк-театр «Отражение»\nht
+ tps://t.me/undergroundmuseum_ekb/5295
+URL:https://doublebasskakov.github.io/radar/#e=performance-gadgets-in-our
+ -life-yekaterinbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Перформанс «Гаджеты в нашей жизн
+ и»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:performance-concert-dogs-saint-peters@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART:20261212T170000Z
+DTEND:20261212T190000Z
+SUMMARY:Перформанс-концерт «Псы»
+LOCATION:Новая сцена Александринского теат
+ ра\, Санкт-Петербург
+DESCRIPTION:Энергичный перформанс-концерт пя
+ ти танцовщиц и группы Pómmo с отсылками к 
+ кино и культовым музыкальным проектам.\n
+ Маша Шешукова\, группа Pómmo\nhttps://t.me/sdvigspace/
+ 6922
+URL:https://doublebasskakov.github.io/radar/#e=performance-concert-dogs-s
+ aint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Перформанс-концерт «Псы»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:jointed-doll-workshop-st-petersbur@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART:20261204T150000Z
+DTEND:20261204T170000Z
+SUMMARY:Мастер-класс «Шарнирная кукла»
+LOCATION:ЦВЗ «Манеж»\, Исаакиевская площадь\
+ , 1\, Санкт-Петербург
+DESCRIPTION:Творческий мастер-класс для взро
+ слых с нарушением слуха в рамках програ
+ ммы доступности к театральной выставке.
+ \nОльга Зайцева\, Екатерина Беспалова\nhttp
+ s://t.me/spbmanege/4068
+URL:https://doublebasskakov.github.io/radar/#e=jointed-doll-workshop-st-p
+ etersbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Мастер-класс «Шарнирная кукла»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:performance-copypaste-st-petersbur@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART:20261128T173000Z
+DTEND:20261128T193000Z
+SUMMARY:Спектакль «Copypaste»
+LOCATION:Студия «Сдвиг»\, Гражданская ул.\, 13-
+ 15\, Санкт-Петербург
+DESCRIPTION:Петербургская премьера хореогра
+ фической работы «Copypaste»\, исследующей те
+ лесность и повторяемость.\nСтудия «Сдви
+ г»\nhttps://sdvig-events.timepad.ru/event/4224825/
+URL:https://doublebasskakov.github.io/radar/#e=performance-copypaste-st-p
+ etersbur
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спектакль «Copypaste»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ballet-leap-to-freedom-krasnoyarsk@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART:20261129T120000Z
+DTEND:20261129T140000Z
+SUMMARY:Балет «Прыжок в свободу»
+LOCATION:Сибирский институт искусств им. Хв
+ оростовского\, Красноярск
+DESCRIPTION:Танцевальная постановка\, расска
+ зывающая о жизни и творческом пути выда
+ ющегося артиста балета.\nNone\nhttps://www.afisha.ru/
+ performance/pryzhok-v-svobodu-77132/
+URL:https://doublebasskakov.github.io/radar/#e=ballet-leap-to-freedom-kra
+ snoyarsk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Балет «Прыжок в свободу»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:spb-soobshchestvo-spisok-papernoy@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART:20261129T170000Z
+DTEND:20261129T190000Z
+SUMMARY:«Список Паперной»
+LOCATION:«Сообщество»\, Новая Голландия\, на
+ б. Адмиралтейского канала\, 2\, Санкт-Пете
+ рбург
+DESCRIPTION:Спектакль-застолье по записям вс
+ треч обэриутов 1920-х: зрители ужинают вме
+ сте с актёрами.\nБорис Павлович\, Дмитрий
+  Крестьянкин и команда\nhttps://www.sobaka.ru/entertai
+ nment/theatre/223061
+URL:https://doublebasskakov.github.io/radar/#e=spb-soobshchestvo-spisok-p
+ apernoy
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:«Список Паперной»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:tactile-diary-drifting-through-razgulyay-with-artyom-kiselev-moscow@a
+ fisha-art
+DTSTAMP:20261126T011333Z
+DTSTART:20261213T090000Z
+DTEND:20261213T110000Z
+SUMMARY:Тактильный дневник: дрейф по Разгул
+ яю с Артёмом Киселёвым
+LOCATION:резиденция MaxArt\, ул. Парковая\, 11\, Мо
+ сква
+DESCRIPTION:Участники снимут слепки городски
+ х поверхностей с помощью пластилина во 
+ время прогулки по историческому району.
+ \nАртём Киселёв\nhttps://t.me/maxart_foundation/6126
+URL:https://doublebasskakov.github.io/radar/#e=tactile-diary-drifting-thr
+ ough-razgulyay-with-artyom-kiselev-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Тактильный дневник: дрейф по Разг
+ уляю с Артёмом Киселёвым
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:video-practice-wandering-writing-with-valeria-yakhno-moscow@afisha-ar
+ t
+DTSTAMP:20261126T011333Z
+DTSTART:20261206T110000Z
+DTEND:20261206T130000Z
+SUMMARY:Видеопрактика «Блуждающее письмо» 
+ с Валерией Яхно
+LOCATION:резиденция MaxArt\, ул. Парковая\, 11\, Мо
+ сква
+DESCRIPTION:Практическое занятие по созданию
+  коллективной видеоработы через исслед
+ ование присутствия человека в кадре.\nВа
+ лерия Яхно\nhttps://t.me/maxart_foundation/6126
+URL:https://doublebasskakov.github.io/radar/#e=video-practice-wandering-w
+ riting-with-valeria-yakhno-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Видеопрактика «Блуждающее письм
+ о» с Валерией Яхно
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:all-sorts-of-dance-with-anton-vdovichenko-moscow@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART:20261113T174500Z
+DTEND:20261113T194500Z
+SUMMARY:Открытие: «Всякие разные танцы» с А
+ нтоном Вдовиченко
+LOCATION:SDVIG\, Москва
+DESCRIPTION:Практические занятия по исследов
+ анию различных принципов движения и тан
+ цевальной композиции.\nАнтон Вдовиченко
+ \nhttps://sdvig.space/all-sorts-of-dance/
+URL:https://doublebasskakov.github.io/radar/#e=all-sorts-of-dance-with-an
+ ton-vdovichenko-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: «Всякие разные танцы» с
+  Антоном Вдовиченко
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dance-lessons-with-masha-sheshukova-moscow@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART:20261113T160000Z
+DTEND:20261113T180000Z
+SUMMARY:Открытие: «Уроки танцев» с Машей Ше
+ шуковой
+LOCATION:SDVIG\, Москва
+DESCRIPTION:Серия практических танцевальных 
+ классов\, посвященных соматике и техник
+ е движения.\nМаша Шешукова\nhttps://sdvig.space/danc
+ elessons/
+URL:https://doublebasskakov.github.io/radar/#e=dance-lessons-with-masha-s
+ heshukova-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: «Уроки танцев» с Машей 
+ Шешуковой
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:tech-classes-with-anya-kravchenko-moscow@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART:20261113T080000Z
+DTEND:20261113T100000Z
+SUMMARY:Открытие: «Тех. классы» с Аней Кравч
+ енко
+LOCATION:SDVIG\, Москва
+DESCRIPTION:Утренние технические классы по п
+ ереходу от соматических практик к техни
+ ке танца.\nАня Кравченко\nhttps://sdvig.space/techclas
+ ses/anyakravchenko/
+URL:https://doublebasskakov.github.io/radar/#e=tech-classes-with-anya-kra
+ vchenko-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: «Тех. классы» с Аней Кра
+ вченко
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gala-concert-of-the-regional-youth-art-festival-m-art-yaroslavl@afish
+ a-art
+DTSTAMP:20261126T011333Z
+DTSTART:20261127T150000Z
+DTEND:20261127T170000Z
+SUMMARY:Гала-концерт областного фестиваля 
+ молодёжного творчества «М.Арт»
+LOCATION:Арт-резиденция «Проспект 27»\, пр-т Л
+ енина\, 27\, Ярославль
+DESCRIPTION:Итоговый концерт с участием лучш
+ их молодых творческих коллективов реги
+ она.\nАрт-резиденция «Проспект 27»\nhttps://t.m
+ e/tavrida_art/22655
+URL:https://doublebasskakov.github.io/radar/#e=gala-concert-of-the-region
+ al-youth-art-festival-m-art-yaroslavl
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Гала-концерт областного фестивал
+ я молодёжного творчества «М.Арт»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:wi-men-moscow@afisha-art
-DTSTAMP:20261126T011128Z
+DTSTAMP:20261126T011333Z
 DTSTART:20261213T160000Z
 DTEND:20261213T180000Z
 SUMMARY:[WI MEN]
@@ -136,8 +502,96 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:belaqua-or-soon-forty-moscow@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART:20261126T160000Z
+DTEND:20261126T180000Z
+SUMMARY:Belaqua\, или Cкоро Cорок
+LOCATION:Электротеатр Станиславский\, Тверс
+ кая ул.\, 23\, Москва
+DESCRIPTION:Спектакль-перформанс на Малой сц
+ ене в постановке Павла Кравца и Юры Гинз
+ бурга.\nПавел Кравец\, Юра Гинзбург\nhttps://e
+ lectrotheatre.ru/playbill
+URL:https://doublebasskakov.github.io/radar/#e=belaqua-or-soon-forty-mosc
+ ow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Belaqua\, или Cкоро Cорок
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:eleventh-meeting-author-s-reconstruction-of-a-scene-from-the-moscow@a
+ fisha-art
+DTSTAMP:20261126T011333Z
+DTSTART:20261127T160000Z
+DTEND:20261127T180000Z
+SUMMARY:Одиннадцатая встреча. «Авторская р
+ еконструкция сцены из фильма “Асса”»
+LOCATION:Открытое хранение Музея «Гараж»\, К
+ рымский Вал\, 9\, стр. 32\, Москва
+DESCRIPTION:Творческая мастерская и показ-ре
+ конструкция сцены из культовой картины 
+ «Асса»\, адаптированная для незрячих и с
+ лабовидящих посетителей.\nМузей «Гараж»
+ \nhttps://garagemca.zapomni.ru/events/9e1f223f-276e-46c3-8f78-e10783f003b
+ b?date=2026-11-27&hall=d1998056-63f3-4252-bdc6-b88a9a07788c&time=19:00
+URL:https://doublebasskakov.github.io/radar/#e=eleventh-meeting-author-s-
+ reconstruction-of-a-scene-from-the-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Одиннадцатая встреча. «Авторская
+  реконструкция сцены из фильма “Асса”»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:author-s-reconstruction-of-a-scene-from-the-film-assa-moscow@afisha-a
+ rt
+DTSTAMP:20261126T011333Z
+DTSTART:20261127T160000Z
+DTEND:20261127T180000Z
+SUMMARY:Авторская реконструкция сцены из ф
+ ильма «Асса»
+LOCATION:Музей «Гараж»\, Открытое хранение\, 
+ ул. Крымский Вал\, 9\, стр. 32\, Москва
+DESCRIPTION:Творческая встреча и мастер-клас
+ с по воссозданию визуальных образов и с
+ цен из культового фильма советского анд
+ еграунда.\n\nhttps://garagemca.zapomni.ru/events/9e1f223f-276e-46
+ c3-8f78-e10783f003bb?date=2026-11-27&hall=d1998056-63f3-4252-bdc6-b88a9a0
+ 7788c&time=19:00
+URL:https://doublebasskakov.github.io/radar/#e=author-s-reconstruction-of
+ -a-scene-from-the-film-assa-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Авторская реконструкция сцены из
+  фильма «Асса»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:msk-electrotheatre-belaqua@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART:20261126T160000Z
+DTEND:20261126T180000Z
+SUMMARY:«Belaqua\, или Скоро Сорок»
+LOCATION:Электротеатр Станиславский\, Малая
+  сцена\, ул. Тверская\, 23\, Москва
+DESCRIPTION:Перформанс на Малой сцене Электр
+ отеатра.\nЭлектротеатр Станиславский\nhtt
+ ps://electrotheatre.ru/playbill/
+URL:https://doublebasskakov.github.io/radar/#e=msk-electrotheatre-belaqua
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:«Belaqua\, или Скоро Сорок»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:dance-performance-dogs-saint-peters@afisha-art
-DTSTAMP:20261126T011128Z
+DTSTAMP:20261126T011333Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261214
 SUMMARY:Танцевальный спектакль «Псы»
@@ -159,8 +613,73 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:concert-performance-perhaps-us-saint-peters@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261201
+SUMMARY:Концерт-перформанс «Возможно мы»
+LOCATION:Дом Радио\, Итальянская ул.\, 27\, Санк
+ т-Петербург
+DESCRIPTION:Музыкально-театральная лаборато
+ рия альтернативных сценариев судьбы по
+ д оперные арии классических композитор
+ ов.\nАртисты Академии имени Антона Рубин
+ штейна\nhttps://t.me/domradio_online/2214
+URL:https://doublebasskakov.github.io/radar/#e=concert-performance-perhap
+ s-us-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Концерт-перформанс «Возможно мы»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ilia-averbukh-ice-show-saint-peters@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:Шоу на льду Ильи Авербуха на Большо
+ м катке
+LOCATION:ЦПКиО имени Кирова\, Большой каток\,
+  Елагин остров\, Санкт-Петербург
+DESCRIPTION:Открытие ледового сезона на Елаг
+ ином острове со специальной программой 
+ от команды олимпийских чемпионов.\nИлья 
+ Авербух\nhttps://t.me/cityofthefuture/23246
+URL:https://doublebasskakov.github.io/radar/#e=ilia-averbukh-ice-show-sai
+ nt-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Шоу на льду Ильи Авербуха на Боль
+ шом катке
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:poetry-readings-by-oleg-basilashvili-saint-peters@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Чтения «Стихи Бродского\, Маяковско
+ го и Есенина»
+LOCATION:БДТ (Вторая сцена)\, пл. Стачек\, 4\, Са
+ нкт-Петербург
+DESCRIPTION:Легендарный артист читает поэзию
+  классиков XX века на сцене Каменноостро
+ вского театра.\nОлег Басилашвили\nhttps://t.me
+ /cityofthefuture/23365
+URL:https://doublebasskakov.github.io/radar/#e=poetry-readings-by-oleg-ba
+ silashvili-saint-peters
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Чтения «Стихи Бродского\, Маяковс
+ кого и Есенина»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:fabula-anemoia@afisha-art
-DTSTAMP:20261126T011128Z
+DTSTAMP:20261126T011333Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:Анемойя
@@ -180,8 +699,110 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:the-nutcracker-animated-fairytale-ballet-perm@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261224
+SUMMARY:Балет «Щелкунчик. Ожившая сказка»
+LOCATION:Частная филармония «Триумф»\, Перм
+ ь
+DESCRIPTION:Классическая постановка с исполь
+ зованием 3D-декораций и живого пламени с
+ вечей\, вдохновленная легендарной хорео
+ графией Вайнонена.\nКамерный театр русс
+ кого балета «Северная Пальмира»\, Олеся 
+ Гапиенко\nhttps://t.me/mmmperm/8782
+URL:https://doublebasskakov.github.io/radar/#e=the-nutcracker-animated-fa
+ irytale-ballet-perm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Балет «Щелкунчик. Ожившая сказка
+ »
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:live-show-plantalent-talent-show-moscow@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:Шоу талантов Live Show Plantalent
+LOCATION:Москва
+DESCRIPTION:Офлайн-мероприятие в честь пятил
+ етия бренда Planta Rosa\, где финалисты конку
+ рса талантов смогут выступить на сцене.\
+ nPlanta Rosa\nhttps://t.me/theblueprintnews/100038
+URL:https://doublebasskakov.github.io/radar/#e=live-show-plantalent-talen
+ t-show-moscow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Шоу талантов Live Show Plantalent
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lady-macbeth-of-mtsensk-district-nizhny-novgo@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Спектакль «Леди Макбет Мценского у
+ езда»
+LOCATION:ЦТМ\, ул. Варварская\, 32\, Нижний Новг
+ ород
+DESCRIPTION:Криминальная драма по мотивам по
+ вести Лескова в камерном пространстве.\n
+ None\nhttps://t.me/gorkoNN/29662
+URL:https://doublebasskakov.github.io/radar/#e=lady-macbeth-of-mtsensk-di
+ strict-nizhny-novgo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Спектакль «Леди Макбет Мценского
+  уезда»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:le-corsaire-ballet-nizhny-novgo@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261130
+SUMMARY:Балет «Корсар»
+LOCATION:Театр оперы и балета им. Пушкина\, у
+ л. Белинского\, 59\, Нижний Новгород
+DESCRIPTION:Балетная постановка по мотивам о
+ дноименной поэмы Байрона.\nNone\nhttps://t.me/gorko
+ NN/29662
+URL:https://doublebasskakov.github.io/radar/#e=le-corsaire-ballet-nizhny-
+ novgo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Балет «Корсар»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:criminal-ryazan-true-crime-promenade-kazan@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:Криминальная Рязань - трукрайм пром
+ енад
+LOCATION:Тайны Сююмбике\, Казань
+DESCRIPTION:Иммерсивная прогулка-спектакль в
+  жанре тру-крайм.\n\nhttps://www.afisha.ru/exhibition/krimin
+ alnaya-ryazan-trukraym-promenad-1011142/
+URL:https://doublebasskakov.github.io/radar/#e=criminal-ryazan-true-crime
+ -promenade-kazan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Криминальная Рязань - трукрайм пр
+ оменад
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:magic-peresmenka-kazan@afisha-art
-DTSTAMP:20261126T011128Z
+DTSTAMP:20261126T011333Z
 DTSTART;VALUE=DATE:20270104
 DTEND;VALUE=DATE:20270109
 SUMMARY:Волшебная «Пересменка»
@@ -194,6 +815,47 @@ URL:https://doublebasskakov.github.io/radar/#e=magic-peresmenka-kazan
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Волшебная «Пересменка»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:immersive-tour-playing-theater-samara@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART;VALUE=DATE:20261221
+DTEND;VALUE=DATE:20261222
+SUMMARY:Иммерсивная экскурсия «Игра в теат
+ р»
+LOCATION:Самарский театр драмы им. Горького\
+ , пл. Чапаева\, 1\, Самара
+DESCRIPTION:Театрализованное закулисное пут
+ ешествие\, стирающее грань между зрител
+ ем и актером.\n\nhttps://www.afisha.ru/samara/schedule_exhibiti
+ on/
+URL:https://doublebasskakov.github.io/radar/#e=immersive-tour-playing-the
+ ater-samara
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Иммерсивная экскурсия «Игра в те
+ атр»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:spb-kurekhin-istorii-bez-slov@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261129
+SUMMARY:«Истории без слов. Шесть премьер»
+LOCATION:ЦСИ им. Сергея Курёхина\, Средний пр
+ . В.О.\, 93\, Санкт-Петербург
+DESCRIPTION:Вечер из шести новых бессловесны
+ х работ на площадке Центра Курёхина.\nЦС
+ И им. Курёхина\nhttps://ptj.spb.ru/rating/rating-2026-11/
+URL:https://doublebasskakov.github.io/radar/#e=spb-kurekhin-istorii-bez-s
+ lov
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:«Истории без слов. Шесть премьер»
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

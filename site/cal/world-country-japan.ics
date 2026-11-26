@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:hibiki-mukai-concert-festival-de-l-intemporel-tokyo@afisha-art
-DTSTAMP:20261126T011128Z
+DTSTAMP:20261126T011333Z
 DTSTART:20270226T100000Z
 DTEND:20270226T120000Z
 SUMMARY:Концерт Hibiki Mukai: Festival de l'Intemporel
@@ -27,8 +27,110 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:cine-concert-festival-de-l-intemporel-tokyo@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART:20270224T100000Z
+DTEND:20270224T120000Z
+SUMMARY:Ciné-Concert: Festival de l'Intemporel
+LOCATION:Hamarikyu Asahi Hall\, Токио\, Япония
+DESCRIPTION:Спецпоказ немого кино с живым муз
+ ыкальным сопровождением\, написанным мо
+ лодыми композиторами в рамках фестивал
+ я в Токио.\nМолодые композиторы\nhttps://www.irc
+ am.fr/en/events/on-tour
+URL:https://doublebasskakov.github.io/radar/#e=cine-concert-festival-de-l
+ -intemporel-tokyo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ciné-Concert: Festival de l'Intemporel
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:festival-de-l-intemporel-collaboratory-cine-concert-tokyo@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART:20270224T100000Z
+DTEND:20270224T120000Z
+SUMMARY:Фестиваль de l'Intemporel: Сине-концерт
+LOCATION:Hamarikyu Asahi Hall\, Hamarikyu Asahi Hall\, Tokyo\, Токио
+ \, Япония
+DESCRIPTION:Встреча молодых композиторов со 
+ специфическим озвучиванием немого кино
+  в рамках фестиваля.\nFestival de l'Intemporel\nhttps://w
+ ww.ircam.fr/en/events/on-tour
+URL:https://doublebasskakov.github.io/radar/#e=festival-de-l-intemporel-c
+ ollaboratory-cine-concert-tokyo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Фестиваль de l'Intemporel: Сине-концерт
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:festival-de-l-intemporel-hibiki-mukai-tokyo@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART:20270226T100000Z
+DTEND:20270226T120000Z
+SUMMARY:Фестиваль de l'Intemporel: Хибики Мукаи
+LOCATION:Hamarikyu Asahi Hall\, Hamarikyu Asahi Hall\, Tokyo\, Токио
+ \, Япония
+DESCRIPTION:Концерт современной академическ
+ ой музыки с участием Хибики Мукаи и друг
+ их авторов.\nHibiki Mukai\, Hiromichi Kitazume\, Mei-Fang Lin\, 
+ Philippe Hurel\, Ichiro Nodaira\nhttps://www.ircam.fr/en/events/on-tour
+URL:https://doublebasskakov.github.io/radar/#e=festival-de-l-intemporel-h
+ ibiki-mukai-tokyo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Фестиваль de l'Intemporel: Хибики Мукаи
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mori-world-is-made-of-play@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART;VALUE=DATE:20270429
+DTEND;VALUE=DATE:20270430
+SUMMARY:Открытие: 世界はあそびでできている：アー
+ ト・子ども・社会
+LOCATION:Mori Art Museum\, 6-10-1 Roppongi\, Minato-ku\, Tokyo\, Токи
+ о\, Япония
+DESCRIPTION:Выставка об игре как источнике тв
+ орчества с интерактивными и иммерсивны
+ ми работами — последняя перед закрытие
+ м музея на реконструкцию.\nМонстр Четвин
+ д\, До Хо Со и др.\nhttps://www.tokyoartbeat.com/articles/-/mor
+ i-museum-2027-schedule-news-202609
+URL:https://doublebasskakov.github.io/radar/#e=mori-world-is-made-of-play
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: 世界はあそびでできている：ア
+ ート・子ども・社会
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mori-mariko-mori@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART;VALUE=DATE:20270328
+DTEND;VALUE=DATE:20270329
+SUMMARY:Последний день: Mariko Mori: All That Shines
+LOCATION:Mori Art Museum\, 53F Roppongi Hills Mori Tower\, 6-10-1 Roppong
+ i\, Minato-ku\, Tokyo\, Токио\, Япония
+DESCRIPTION:Первая за 20 лет большая ретроспек
+ тива Марико Мори в Японии — 30 лет футури
+ стических видений.\nМарико Мори\nhttps://metrop
+ olisjapan.com/events/mariko-mori-all-that-shines/
+URL:https://doublebasskakov.github.io/radar/#e=mori-mariko-mori
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Mariko Mori: All That Shines
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:yokohama-triennale-9@afisha-art
-DTSTAMP:20261126T011128Z
+DTSTAMP:20261126T011333Z
 DTSTART;VALUE=DATE:20270423
 DTEND;VALUE=DATE:20270424
 SUMMARY:Открытие: 9th Yokohama Triennale

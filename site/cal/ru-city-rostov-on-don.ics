@@ -7,8 +7,32 @@ X-WR-CALNAME:Радар — Россия · city-rostov-on-don
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:screening-of-the-documentary-a-million-scarlet-roses-rostov-on-do@afi
+ sha-art
+DTSTAMP:20261126T011333Z
+DTSTART:20261126T160000Z
+DTEND:20261126T180000Z
+SUMMARY:Показ документального фильма «Милл
+ ион алых роз»
+LOCATION:Дом Кино\, Пушкинская ул.\, 215\, Росто
+ в-на-Дону
+DESCRIPTION:Документальная история о донецко
+ м кузнеце\, превращающем военные гильзы 
+ и осколки снарядов в художественные про
+ изведения.\nАнна Драницына\, Марина Мака
+ рова\nhttps://t.me/pokazVGIK/705
+URL:https://doublebasskakov.github.io/radar/#e=screening-of-the-documenta
+ ry-a-million-scarlet-roses-rostov-on-do
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Показ документального фильма «Ми
+ ллион алых роз»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:secret-experimental-cinema-screening-rostov-on-do@afisha-art
-DTSTAMP:20261126T011128Z
+DTSTAMP:20261126T011333Z
 DTSTART:20261129T150000Z
 DTEND:20261129T170000Z
 SUMMARY:Секретный показ экспериментальног
@@ -28,9 +52,34 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:vasily-beynarovich-faust-of-the-21st-century-how-not-to-rais-rostov-o
+ n-do@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+SUMMARY:Василий Бейнарович\, Фауст 21 века. К
+ ак не воспитать серийного убийцу
+LOCATION:Патриотический центр «Победа»\, Б. 
+ Садовая ул.\, 51\, Ростов-на-Дону
+DESCRIPTION:Авторская лекция психиатра и бло
+ гера о темных сторонах человеческой пси
+ хики и культурных архетипах современно
+ сти.\nВасилий Бейнарович\nhttps://www.afisha.ru/exhib
+ ition/vasiliy-beynarovich-faust-21-veka-kak-ne-vospitat-seriynogo-ubiycu-
+ 1012824/
+URL:https://doublebasskakov.github.io/radar/#e=vasily-beynarovich-faust-o
+ f-the-21st-century-how-not-to-rais-rostov-on-do
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Василий Бейнарович\, Фауст 21 века.
+  Как не воспитать серийного убийцу
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:van-gogh-born-under-a-cold-star-multimedia-exhibition-rostov-on-do@af
  isha-art
-DTSTAMP:20261126T011128Z
+DTSTAMP:20261126T011333Z
 DTSTART;VALUE=DATE:20261227
 DTEND;VALUE=DATE:20261228
 SUMMARY:Последний день: Мультимедийная выс
@@ -51,6 +100,249 @@ ACTION:DISPLAY
 DESCRIPTION:Последний день: Мультимедийная в
  ыставка «Ван Гог. Рожденный под холодно
  й звездой»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rnd-step-asian-vanguard@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261201
+SUMMARY:Российская международная выставка 
+ искусства и дизайна
+LOCATION:Центр современной культуры «Степь
+ »\, Ростов-на-Дону
+DESCRIPTION:Российский этап азиатского проек
+ та Asian Vanguard: молодые художники и дизайне
+ ры о цифровых технологиях\, памяти и эко
+ логии.\nКуратор Ли Шэн\; Союз дизайнеров\,
+  ДГТУ\nhttps://www.moasd.ru/2026/10/25/russian-international-exhibiti
+ on-rostov/
+URL:https://doublebasskakov.github.io/radar/#e=rnd-step-asian-vanguard
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Российская международная выстав
+ ка искусства и дизайна
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:treasures-of-tutankhamun-s-tomb-exhibition-rostov-on-do@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:Последний день: Выставка «Сокровищ
+ а гробницы Тутанхамона»
+LOCATION:Ростовский музей краеведения\, ул. 
+ Большая Садовая\, 79\, Ростов-на-Дону
+DESCRIPTION:Масштабная историческая экспози
+ ция\, представляющая артефакты и реконс
+ трукции из гробницы самого известного ф
+ араона Египта.\nNone\nhttps://www.afisha.ru/exhibition/sokrov
+ ishcha-grobnicy-tutanhamona-1014331/
+URL:https://doublebasskakov.github.io/radar/#e=treasures-of-tutankhamun-s
+ -tomb-exhibition-rostov-on-do
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Выставка «Сокров
+ ища гробницы Тутанхамона»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:interactive-lecture-imitators-project-inventing-man-rostov-on-do@afis
+ ha-art
+DTSTAMP:20261126T011333Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Интерактивная лекция «Имитаторы». 
+ Проект «Человек изобретающий»
+LOCATION:Ростовский музей краеведения\, Б. С
+ адовая ул.\, 79\, Ростов-на-Дону
+DESCRIPTION:Лекция об изобретениях и техноло
+ гиях\, имитирующих человеческие возможн
+ ости и природные явления.\nПроект «Челов
+ ек изобретающий»\nhttps://www.afisha.ru/exhibition/interak
+ tivnaya-lekciya-imitatory-proekt-человек-изобретающий-
+ 1016413/
+URL:https://doublebasskakov.github.io/radar/#e=interactive-lecture-imitat
+ ors-project-inventing-man-rostov-on-do
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Интерактивная лекция «Имитаторы
+ ». Проект «Человек изобретающий»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:rnd-culture-temperatura-pamyati@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Открытие: «Температура памяти. Лето
+  внутри»
+LOCATION:Галерея CULTURE\, Ростов-на-Дону
+DESCRIPTION:Проект о течении времени\, где лет
+ о понимается как внутреннее состояние.\n
+ Галерея CULTURE\nhttps://www.interior.ru/art/23070-chem-zanyatisya
+ -s-9-po-15-noyabrya-vistavki-arhitektura-kino-i-knigi.html
+URL:https://doublebasskakov.github.io/radar/#e=rnd-culture-temperatura-pa
+ myati
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Открытие: «Температура памяти. Ле
+ то внутри»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lecture-the-true-story-of-the-new-year-rostov-on-do@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+SUMMARY:Лекция «Правдивая история Нового г
+ ода»
+LOCATION:Шолохов-центр\, ул. Большая Садовая\
+ , 125/69\, Ростов-на-Дону
+DESCRIPTION:Встреча\, посвященная культурным 
+ традициям\, истории возникновения празд
+ ника и трансформации его обычаев во вре
+ мени.\nNone\nhttps://www.afisha.ru/exhibition/lekciya-pravdivaya-isto
+ riya-novogo-goda-1016790/
+URL:https://doublebasskakov.github.io/radar/#e=lecture-the-true-story-of-
+ the-new-year-rostov-on-do
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекция «Правдивая история Нового
+  года»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lecture-grigory-rasputin-phenomenon-of-the-era-rostov-on-do@afisha-ar
+ t
+DTSTAMP:20261126T011333Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Лекция «Григорий Распутин. Феномен 
+ эпохи»
+LOCATION:Mercure\, Ворошиловский просп.\, 35/107\, Ро
+ стов-на-Дону
+DESCRIPTION:Исследование одной из самых зага
+ дочных и противоречивых фигур в российс
+ кой культуре и истории начала XX века.\n\nht
+ tps://www.afisha.ru/exhibition/lekciya-grigoriy-rasputin-fenomen-epohi-10
+ 15783/
+URL:https://doublebasskakov.github.io/radar/#e=lecture-grigory-rasputin-p
+ henomenon-of-the-era-rostov-on-do
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекция «Григорий Распутин. Феном
+ ен эпохи»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lecture-10-masterpieces-of-world-painting-you-need-to-know-rostov-on-
+ do@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+SUMMARY:Лекция «10 шедевров мировой живопис
+ и\, которые нужно знать»
+LOCATION:Шолохов-центр\, Ростов-на-Дону
+DESCRIPTION:Обзорный экскурс в историю искус
+ ства через анализ десяти ключевых произ
+ ведений от Возрождения до Модернизма.\n\n
+ https://www.afisha.ru/exhibition/lekciya-10-shedevrov-mirovoy-zhivopisi-k
+ otorye-nuzhno-znat-1013024/
+URL:https://doublebasskakov.github.io/radar/#e=lecture-10-masterpieces-of
+ -world-painting-you-need-to-know-rostov-on-do
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекция «10 шедевров мировой живоп
+ иси\, которые нужно знать»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:light-in-the-window-exhibition-rostov-on-do@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART;VALUE=DATE:20261230
+DTEND;VALUE=DATE:20261231
+SUMMARY:Последний день: Выставка «Свет в ок
+ не»
+LOCATION:Ростовский музей краеведения\, ул. 
+ Большая Садовая\, 79\, Ростов-на-Дону
+DESCRIPTION:Историко-художественная выставк
+ а\, исследующая быт и атмосферу старого 
+ города через предметную среду.\nNone\nhttps://w
+ ww.afisha.ru/exhibition/svet-v-okne-1004255/
+URL:https://doublebasskakov.github.io/radar/#e=light-in-the-window-exhibi
+ tion-rostov-on-do
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Выставка «Свет в 
+ окне»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lecture-legends-of-rostov-rostov-on-do@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Лекция «Легенды Ростова»
+LOCATION:Кофейня 88\, Ростов-на-Дону
+DESCRIPTION:Культурологический разбор город
+ ских мифов\, реальных историй и легендар
+ ных личностей Ростова-на-Дону.\n\nhttps://www.af
+ isha.ru/exhibition/lekciya-legendy-rostova-1016918/
+URL:https://doublebasskakov.github.io/radar/#e=lecture-legends-of-rostov-
+ rostov-on-do
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекция «Легенды Ростова»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lecture-how-to-view-and-understand-paintings-rostov-on-do@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270121
+SUMMARY:Лекция «Как смотреть и понимать кар
+ тины»
+LOCATION:Шолохов-центр\, Ростов-на-Дону
+DESCRIPTION:Теоретическое занятие по основам
+  искусствоведческого анализа для широк
+ ого круга слушателей.\n\nhttps://www.afisha.ru/exhibiti
+ on/lekciya-kak-smotret-i-ponimat-kartiny-1008930/
+URL:https://doublebasskakov.github.io/radar/#e=lecture-how-to-view-and-un
+ derstand-paintings-rostov-on-do
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекция «Как смотреть и понимать к
+ артины»
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lecture-women-of-the-romanov-dynasty-rostov-on-do@afisha-art
+DTSTAMP:20261126T011333Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:Лекция «Женщины рода Романовых»
+LOCATION:Mercure\, Ростов-на-Дону
+DESCRIPTION:Лекция о судьбах и роли женщин ца
+ рской династии в культурной и политичес
+ кой жизни страны.\n\nhttps://www.afisha.ru/exhibition/lekci
+ ya-zhenshchiny-roda-romanovyh-1008928/
+URL:https://doublebasskakov.github.io/radar/#e=lecture-women-of-the-roman
+ ov-dynasty-rostov-on-do
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Лекция «Женщины рода Романовых»
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
