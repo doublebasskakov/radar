@@ -819,9 +819,9 @@ def editor_rules():
     """data/editor.yaml: pin — в «Выбор редакции», hide — скрыть, events — добавить вручную."""
     p = DATA / "editor.yaml"
     if not p.exists():
-        return {"pin": [], "hide": [], "events": []}
+        return {"pin": [], "hide": [], "events": [], "reviewed": {}}
     cfg = yaml.safe_load(p.read_text(encoding="utf-8")) or {}
-    return {"pin": cfg.get("pin") or [], "hide": cfg.get("hide") or [], "events": cfg.get("events") or []}
+    return {"reviewed": cfg.get("reviewed") or {}, "pin": cfg.get("pin") or [], "hide": cfg.get("hide") or [], "events": cfg.get("events") or []}
 
 
 TRANSLATE_PROMPT = """Translate these contemporary-art event fields from Russian to natural English.
@@ -1010,8 +1010,14 @@ def build():
     base_url = os.environ.get("SITE_URL", "")
     live = []
     for ev in master:
-        if ev["id"] not in hidden and not outside_scope(ev) and fits_art_focus(ev) and current_event(ev):
-            live.append(ev)
+        reviewed_cat = rules["reviewed"].get(ev["id"])
+        if ev["id"] in hidden or outside_scope(ev) or not current_event(ev):
+            continue
+        if reviewed_cat in CATS:
+            ev = {**ev, "cat": reviewed_cat}
+        elif not fits_art_focus(ev):
+            continue
+        live.append(ev)
     if os.environ.get("AFISHA_IMAGES", "1") == "1":
         fetch_images(live)
     save_json(EVENTS_FILE, master)  # запоминаем noimg/img
