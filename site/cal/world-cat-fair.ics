@@ -7,8 +7,30 @@ X-WR-CALNAME:Радар — Мир / World · cat-fair
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:art-basel-miami-beach-contemporary-art-fair-miami@afisha-art
+DTSTAMP:20261126T102352Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261207
+SUMMARY:Ярмарка современного искусства Art Ba
+ sel Miami Beach
+LOCATION:Майами\, США
+DESCRIPTION:Крупная международная ярмарка со
+ временного искусства\, демонстрирующая 
+ галерейные проекты\, скульптуру\, живопи
+ сь и медиаарт со всего мира.\nArt Basel\nhttps://t.
+ me/ArtFragment/5838
+URL:https://doublebasskakov.github.io/radar/#e=art-basel-miami-beach-cont
+ emporary-art-fair-miami
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ярмарка современного искусства Ar
+ t Basel Miami Beach
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:art-dubai-2027@afisha-art
-DTSTAMP:20261126T013420Z
+DTSTAMP:20261126T102352Z
 DTSTART;VALUE=DATE:20270407
 DTEND;VALUE=DATE:20270412
 SUMMARY:Art Dubai 2027

@@ -7,8 +7,30 @@ X-WR-CALNAME:Радар — Мир / World · country-qatar
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:rubaiya-qatar-quadrennial-of-contemporary-art-doha@afisha-art
+DTSTAMP:20261126T102352Z
+DTSTART;VALUE=DATE:20270430
+DTEND;VALUE=DATE:20270501
+SUMMARY:Последний день: Квадриеннале совре
+ менного искусства Rubaiya Qatar
+LOCATION:Доха\, Катар
+DESCRIPTION:Первая в Катаре квадриеннале\, по
+ священная воде и Морскому шелковому пут
+ и\, с участием более 120 художников со все
+ го мира.\nСофия аль-Мария\, Лоуренс Абу Ха
+ мдан и другие\nhttps://t.me/artguide_com/9158
+URL:https://doublebasskakov.github.io/radar/#e=rubaiya-qatar-quadrennial-
+ of-contemporary-art-doha
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Квадриеннале сов
+ ременного искусства Rubaiya Qatar
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:unruly-waters-doha@afisha-art
-DTSTAMP:20261126T013420Z
+DTSTAMP:20261126T102352Z
 DTSTART;VALUE=DATE:20270529
 DTEND;VALUE=DATE:20270530
 SUMMARY:Последний день: Неукротимые воды
@@ -26,7 +48,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:bu-ed-nadhar-experimental-labs-doha@afisha-art
-DTSTAMP:20261126T013420Z
+DTSTAMP:20261126T102352Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:Последний день: Bu'ed Nadhar – Experimental Labs

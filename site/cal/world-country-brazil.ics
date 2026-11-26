@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Afisha Art//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Радар — Мир / World · country-brazil
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:fields-of-resonance-sao-paulo@afisha-art
+DTSTAMP:20261126T102352Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:Последний день: Поля резонанса
+LOCATION:Музей современного искусства Унив
+ ерситета Сан-Паулу\, MAC USP\, São Paulo\, Сан-Пау
+ лу\, Бразилия
+DESCRIPTION:Совместный проект ГЭС-2 и Videobrasil\, 
+ представляющий историю видеоарта Глоба
+ льного Юга\, включая работы российских а
+ второв.\n\nhttps://t.me/vacges2/8569
+URL:https://doublebasskakov.github.io/radar/#e=fields-of-resonance-sao-pa
+ ulo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Поля резонанса
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

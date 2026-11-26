@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:documenta-16@afisha-art
-DTSTAMP:20261126T013420Z
+DTSTAMP:20261126T102352Z
 DTSTART;VALUE=DATE:20270612
 DTEND;VALUE=DATE:20270613
 SUMMARY:Открытие: documenta 16
@@ -30,7 +30,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lyon-biennale-18@afisha-art
-DTSTAMP:20261126T013420Z
+DTSTAMP:20261126T102352Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Последний день: 18e Biennale de Lyon: Passer d'un r
@@ -52,8 +52,30 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:rubaiya-qatar-quadrennial-of-contemporary-art-doha@afisha-art
+DTSTAMP:20261126T102352Z
+DTSTART;VALUE=DATE:20270430
+DTEND;VALUE=DATE:20270501
+SUMMARY:Последний день: Квадриеннале совре
+ менного искусства Rubaiya Qatar
+LOCATION:Доха\, Катар
+DESCRIPTION:Первая в Катаре квадриеннале\, по
+ священная воде и Морскому шелковому пут
+ и\, с участием более 120 художников со все
+ го мира.\nСофия аль-Мария\, Лоуренс Абу Ха
+ мдан и другие\nhttps://t.me/artguide_com/9158
+URL:https://doublebasskakov.github.io/radar/#e=rubaiya-qatar-quadrennial-
+ of-contemporary-art-doha
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Последний день: Квадриеннале сов
+ ременного искусства Rubaiya Qatar
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:bangkok-art-biennale-2026@afisha-art
-DTSTAMP:20261126T013420Z
+DTSTAMP:20261126T102352Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 SUMMARY:Последний день: Bangkok Art Biennale 2026: Angels & 
@@ -76,7 +98,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:yokohama-triennale-9@afisha-art
-DTSTAMP:20261126T013420Z
+DTSTAMP:20261126T102352Z
 DTSTART;VALUE=DATE:20270423
 DTEND;VALUE=DATE:20270424
 SUMMARY:Открытие: 9th Yokohama Triennale
@@ -98,7 +120,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:liverpool-biennial-2027@afisha-art
-DTSTAMP:20261126T013420Z
+DTSTAMP:20261126T102352Z
 DTSTART;VALUE=DATE:20270605
 DTEND;VALUE=DATE:20270606
 SUMMARY:Открытие: Liverpool Biennial 2027
