@@ -8,11 +8,11 @@ on:
   workflow_dispatch:          # кнопка «Run workflow» для ручного запуска
     inputs:
       mode:
-        description: "all — полный сбор, times — уточнить время, publish — опубликовать текущую базу"
+        description: "all — полный сбор, times — уточнить время, publish — опубликовать текущую базу, api — проверить подключение к моделям"
         default: all
   push:
     branches: [main]
-    paths: ["site/**", "data/events.json", "data/editor.yaml", "scraper/**", ".github/workflows/update.yml"]
+    paths: ["site/**", "data/events.json", "data/editor.yaml", "scraper/**", "tests/**", "requirements.txt", ".github/workflows/update.yml"]
 
 permissions:
   actions: read
@@ -22,19 +22,77 @@ permissions:
 
 concurrency:
   # правки сайта (push) публикуются сразу и не ждут долгого сбора
-  group: afisha-${{ github.event_name == 'push' && 'publish' || 'collect' }}
+  group: afisha-${{ (inputs.mode == 'api' && 'api') || (github.event_name == 'push' && 'publish') || 'collect' }}
   cancel-in-progress: false
 
 jobs:
+  api-check:
+    if: github.event_name == 'workflow_dispatch' && inputs.mode == 'api'
+    runs-on: ubuntu-latest
+    permissions: {}
+    steps:
+      - name: Проверить API моделей
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          AFISHA_MODEL: ${{ vars.AFISHA_MODEL || 'claude-haiku-5-5' }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL || 'gemini-flash-latest' }}
+        run: |
+          python3 - <<'PY'
+          import json
+          import os
+          import urllib.error
+          import urllib.request
+
+          prompt = "Reply with OK."
+          anthropic = os.getenv("AFISHA_MODEL")
+          gemini = os.getenv("GEMINI_MODEL").removeprefix("models/")
+          checks = [
+              ("Anthropic", anthropic, os.getenv("ANTHROPIC_API_KEY"),
+               "https://api.anthropic.com/v1/messages", "x-api-key",
+               {"anthropic-version": "2023-06-01"},
+               {"model": anthropic, "max_tokens": 32,
+                "messages": [{"role": "user", "content": prompt}]}, "content"),
+              ("Gemini", gemini, os.getenv("GEMINI_API_KEY"),
+               f"https://generativelanguage.googleapis.com/v1beta/models/{gemini}:generateContent", "x-goog-api-key",
+               {}, {"contents": [{"parts": [{"text": prompt}]}]}, "candidates"),
+          ]
+          ok = False
+          for provider, model, key, url, header, extra, body, result in checks:
+              if not key:
+                  print(f"{provider}: ключ не задан")
+                  continue
+              request = urllib.request.Request(url, json.dumps(body).encode(),
+                  {"Content-Type": "application/json", header: key, **extra})
+              try:
+                  with urllib.request.urlopen(request, timeout=25) as response:
+                      if not json.load(response).get(result):
+                          print(f"{provider} ({model}): пустой ответ")
+                          continue
+              except urllib.error.HTTPError as error:
+                  print(f"{provider} ({model}): HTTP {error.code}")
+                  continue
+              except (OSError, ValueError) as error:
+                  print(f"{provider} ({model}): {type(error).__name__}")
+                  continue
+              print(f"{provider} ({model}): HTTP 200, ответ получен")
+              ok = True
+          raise SystemExit(0 if ok else 1)
+          PY
+
   update:
+    if: inputs.mode != 'api'
     runs-on: ubuntu-latest
     outputs:
       artifact: ${{ steps.package.outputs.name }}
+      generated: ${{ steps.manifest.outputs.generated }}
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-python@v6
         with: {python-version: "3.12", cache: pip}
-      - run: pip install -r requirements.txt
+      - run: python -m pip install -r requirements.txt pytest==8.4.2
+      - name: Проверить даты и тематику
+        run: python -m pytest -q
 
       - name: Собрать новые события (Telegram, сайты, RSS)
         if: github.event_name != 'push' && inputs.mode != 'publish'
@@ -42,15 +100,24 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+          UPDATE_MODE: ${{ inputs.mode }}
+          UPDATE_SCHEDULE: ${{ github.event.schedule }}
           AFISHA_MODEL: ${{ vars.AFISHA_MODEL || 'claude-haiku-5-5' }}
         run: |
           if [ -z "$GEMINI_API_KEY$ANTHROPIC_API_KEY" ]; then echo "Нет ключа модели (GEMINI_API_KEY) — пропускаю сбор"; exit 0; fi
-          if [ "${{ inputs.mode }}" = "times" ] || [ "${{ github.event.schedule }}" = "43 9 * * *" ]; then python scraper/robot.py times; else python scraper/robot.py collect; fi
+          if [ "$UPDATE_MODE" = "times" ] || [ "$UPDATE_SCHEDULE" = "43 9 * * *" ]; then python scraper/robot.py times; else python scraper/robot.py collect; fi
 
       - name: Собрать сайт и календари
         env:
           SITE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
         run: python scraper/robot.py build
+
+      - name: Проверить собранную афишу
+        id: manifest
+        run: |
+          jq -e '.generated | test("^[0-9]{8}T[0-9]{6}Z$")' site/data/events.json >/dev/null
+          jq -e '.count > 0 and .count == (.events | length)' site/data/events.json >/dev/null
+          echo "generated=$(jq -r .generated site/data/events.json)" >> "$GITHUB_OUTPUT"
 
       - name: Сохранить изменения
         run: |
@@ -103,3 +170,18 @@ jobs:
         uses: actions/deploy-pages@v5.0.1
         with:
           artifact_name: ${{ needs.update.outputs.artifact }}
+      - name: Проверить опубликованные данные
+        env:
+          PAGE_URL: ${{ steps.deploy.outputs.page_url }}
+          GENERATED: ${{ needs.update.outputs.generated }}
+        run: |
+          for attempt in {1..12}; do
+            if curl -fsS --max-time 10 "${PAGE_URL%/}/data/events.json?verify=$GENERATED-$attempt" |
+              jq -e --arg generated "$GENERATED" '.generated == $generated and .count > 0 and .count == (.events | length)' >/dev/null; then
+              echo "Публичная афиша проверена ($GENERATED)" >> "$GITHUB_STEP_SUMMARY"
+              exit 0
+            fi
+            if [ "$attempt" -lt 12 ]; then sleep 10; fi
+          done
+          echo "::error::Публичная афиша не отдаёт данные этой сборки ($GENERATED)"
+          exit 1
