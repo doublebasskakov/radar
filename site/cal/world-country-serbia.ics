@@ -8,7 +8,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:arcto-xx-belgrade@afisha-art
-DTSTAMP:20261127T191128Z
+DTSTAMP:20261128T000314Z
 DTSTART:20261219T220000Z
 DTEND:20261220T000000Z
 SUMMARY:ARCTO XX
@@ -27,7 +27,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:exhibition-tradition-as-a-criterion-vojvodina-belgrade@afisha-art
-DTSTAMP:20261127T191128Z
+DTSTAMP:20261128T000314Z
 DTSTART:20261128T170000Z
 DTEND:20261128T190000Z
 SUMMARY:Выставка «Традиция как критерий — 
@@ -44,50 +44,6 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Выставка «Традиция как критерий 
  — Воеводина»
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sound-art-festival-zvuc-no-kolo-events-at-magacin-cultural-c-belgrade
- @afisha-art
-DTSTAMP:20261127T191128Z
-DTSTART;VALUE=DATE:20261126
-DTEND;VALUE=DATE:20261128
-SUMMARY:Фестиваль звукового искусства Zvučno 
- Kolo: Мероприятия в Культурном центре Magacin
-LOCATION:Культурный центр Magacin\, Белград\, Се
- рбия
-DESCRIPTION:Продолжение фестиваля звукового 
- искусства Zvučno Kolo с перформансами и круг
- лым столом о развитии местной сцены.\nКу
- льтурный центр Magacin\nhttps://t.me/mapamagrus/17499
-URL:https://doublebasskakov.github.io/radar/#e=sound-art-festival-zvuc-no
- -kolo-events-at-magacin-cultural-c-belgrade
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Фестиваль звукового искусства Zvu
- čno Kolo: Мероприятия в Культурном центре Ma
- gacin
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:zvuc-no-kolo-program-belgrade@afisha-art
-DTSTAMP:20261127T191128Z
-DTSTART;VALUE=DATE:20261124
-DTEND;VALUE=DATE:20261128
-SUMMARY:Программа Zvučno Kolo
-LOCATION:Белград\, Сербия
-DESCRIPTION:Серия мероприятий\, посвященная с
- овременному звуковому искусству\, элект
- роакустике\, экспериментальному звуку и
-  свободной импровизации с трансляцией н
- а радио FRP.\n\nhttps://t.me/mapamagrus/17474
-URL:https://doublebasskakov.github.io/radar/#e=zvuc-no-kolo-program-belgr
- ade
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Программа Zvučno Kolo
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
